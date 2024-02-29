@@ -2,8 +2,8 @@
 eleventyComputed:
   title: Domain provider
 ---
-The Domain Provider allows {{ en.DVLS }} to store the domain account credentials to be used for Active Directory accounts discovery, to achieve password rotation or password propagation.  
-![Domain Provider dialog](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8141.png)
+The Domain Provider allows {{ en.DVLS }} to store the domain account credentials to be used for Active Directory accounts discovery, to achieve password rotation or password propagation.
+![Domain Provider dialog](https://cdnweb.devolutions.net/docs/en/server/ServerOp8141.png)
 
 ### General
 | Option      | Description                   |

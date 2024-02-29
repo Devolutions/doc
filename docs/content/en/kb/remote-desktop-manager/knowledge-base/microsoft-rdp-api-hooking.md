@@ -3,16 +3,16 @@ eleventyComputed:
   title: Microsoft RDP API hooking
   description: Enable API hooking in File – Options – Types – Sessions – Remote Desktop (RDP) – API Hooking.
 ---
-Since {{ en.RDM }} 2022.2, Microsoft RDP API hooking is available and enabled by default. API hooking is required to extend the functionality of the Microsoft RDP client in both embedded (ActiveX) and external modes (mstsc).  
+Since {{ en.RDM }} 2022.2, Microsoft RDP API hooking is available and enabled by default. API hooking is required to extend the functionality of the Microsoft RDP client in both embedded (ActiveX) and external modes (mstsc).
 
-If you have disabled it, you can enable it again by going in {{ en.RDM }} ***File – Options – Types – Sessions – Remote Desktop (RDP) – API Hooking*** and setting ***Enable API hooking*** to ***Enabled*** or ***Default***.  
+If you have disabled it, you can enable it again by going in {{ en.RDM }} ***File – Options – Types – Sessions – Remote Desktop (RDP) – API Hooking*** and setting ***Enable API hooking*** to ***Enabled*** or ***Default***.
 
-Restart {{ en.RDM }} to apply the change.  
+Restart {{ en.RDM }} to apply the change.
 
-![File – Options – Types – Sessions – Remote Desktop (RDP) – Enable API Hooking](https://webdevolutions.azureedge.net/docs/en/kb/KB2372.png)  
+![File – Options – Types – Sessions – Remote Desktop (RDP) – Enable API Hooking](https://cdnweb.devolutions.net/docs/en/kb/KB2372.png)
 
 {% snippet icon.badgeInfo %}
-Since {{ en.RDM }} 2022.3.23, a policy, EnableRDPHooking, has been added that overrides the ***Enable API hooking*** setting. If it is not configured (no registry key), the value from the {{ en.RDM }} option will be used. A value of "0" indicates that RDP hooking is disabled, while a value different than "0" indicates that RDP hooking is enabled. This enables the administrator to force either setting or allow the local configuration to be effective.  
+Since {{ en.RDM }} 2022.3.23, a policy, EnableRDPHooking, has been added that overrides the ***Enable API hooking*** setting. If it is not configured (no registry key), the value from the {{ en.RDM }} option will be used. A value of "0" indicates that RDP hooking is disabled, while a value different than "0" indicates that RDP hooking is enabled. This enables the administrator to force either setting or allow the local configuration to be effective.
 
 See all policies including this one in [Apply policies](/kb/remote-desktop-manager/how-to-articles/group-policies/).
 {% endsnippet %}
@@ -25,11 +25,11 @@ Microsoft RDP API hooking makes it possible to log internal events and options t
 
 ### {{ en.DGW }}
 
-Microsoft RDP API hooking should be enabled for {{ en.DGW }} connections, as it fixes the server name used for validation by the RDP client. This can fix the Kerberos name mismatch issue, but it can also fix TLS certificate validation. This is particularly important for customers using the ***Force using IP address for RDP connections*** option, as it fixes the underlying issue:  
+Microsoft RDP API hooking should be enabled for {{ en.DGW }} connections, as it fixes the server name used for validation by the RDP client. This can fix the Kerberos name mismatch issue, but it can also fix TLS certificate validation. This is particularly important for customers using the ***Force using IP address for RDP connections*** option, as it fixes the underlying issue:
 
-Once Microsoft RDP API hooking is enabled, the ***Force using IP address for RDP connections*** option should be disabled. In cases where the Kerberos name mismatch issue occurred, Kerberos should now work just fine.  
+Once Microsoft RDP API hooking is enabled, the ***Force using IP address for RDP connections*** option should be disabled. In cases where the Kerberos name mismatch issue occurred, Kerberos should now work just fine.
 
-![!!KB4970](https://webdevolutions.azureedge.net/docs/en/kb/KB4970.png)
+![!!KB4970](https://cdnweb.devolutions.net/docs/en/kb/KB4970.png)
 
 ### RDP Fresh Credentials GPO
 

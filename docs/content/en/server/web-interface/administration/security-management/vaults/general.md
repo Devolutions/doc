@@ -2,7 +2,7 @@
 eleventyComputed:
   title: General
 ---
-![{{ en.VLT_MAJ }}s – General](https://webdevolutions.azureedge.net/docs/en/server/ServerOp6074.png)
+![{{ en.VLT_MAJ }}s – General](https://cdnweb.devolutions.net/docs/en/server/ServerOp6074.png)
 
 ## Edit {{ en.VLT }} settings
 | Option         | Description                                                                                             |

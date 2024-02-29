@@ -4,10 +4,10 @@ eleventyComputed:
   order: 60
   description: Sie finden hier Themen zu den folgenden {{ de.DHUBB }}-Kategorien:':' How-to, Troubleshooting und Knowledge Base Themen.
 ---
-![!!{{ de.DHUB }} Logo](https://webdevolutions.azureedge.net/images/projects/devolutions-hub-business/devolutions-hub-business-color-shadow.svg)  
+![!!{{ de.DHUB }} Logo](https://cdnweb.devolutions.net/images/projects/devolutions-hub-business/devolutions-hub-business-color-shadow.svg)
 
-Sie finden hier Themen zu den folgenden {{ de.DHUBB }}-Kategorien:  
+Sie finden hier Themen zu den folgenden {{ de.DHUBB }}-Kategorien:
 
-* How-to 
-* Troubleshooting 
-* Knowledge Base 
+* How-to
+* Troubleshooting
+* Knowledge Base

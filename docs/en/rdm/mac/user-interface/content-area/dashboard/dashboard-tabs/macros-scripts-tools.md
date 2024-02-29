@@ -2,20 +2,20 @@
 eleventyComputed:
   title: Macros, scripts & tools
 ---
-Session tools are available in the dashboard tabs and in the session context menu Macros/Scripts/Tools. 
+Session tools are available in the dashboard tabs and in the session context menu Macros/Scripts/Tools.
 
-## Settings 
+## Settings
 
-There are three types of tools:  
+There are three types of tools:
 
-* Build in tools 
-* Add-on session tools 
-* Session script tools  
-![Dashboard tabs – Macros/Scripts/Tools](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip6060.png) 
+* Build in tools
+* Add-on session tools
+* Session script tools
+![Dashboard tabs – Macros/Scripts/Tools](https://cdnweb.devolutions.net/docs/en/rdm/mac/clip6060.png)
 
-### Built-in Tools 
+### Built-in Tools
 
-These tools are implemented directly in {{ en.RDM }} and are available without any installation or special configuration. 
+These tools are implemented directly in {{ en.RDM }} and are available without any installation or special configuration.
 
 | OPTION          | DESCRIPTION |
 |-----------------|-------------|

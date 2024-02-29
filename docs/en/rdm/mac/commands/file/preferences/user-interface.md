@@ -3,13 +3,13 @@ eleventyComputed:
   title: User Interface
   description: Use File – Preferences – User Interface to configure options related to the user interface.
 ---
-Use ***File – Preferences – User Interface*** to configure options related to the user interface. 
+Use ***File – Preferences – User Interface*** to configure options related to the user interface.
 
-## Settings 
+## Settings
 
-![File – Preferences – User Interface](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RDMMac2091.png) 
+![File – Preferences – User Interface](https://cdnweb.devolutions.net/docs/en/rdm/mac/RDMMac2091.png)
 
-### User Interface 
+### User Interface
 
 | OPTION                    | DESCRIPTION |
 |---------------------------|-------------|
@@ -27,21 +27,21 @@ Use ***File – Preferences – User Interface*** to configure options related t
 | Allow tabs to be rearranged | Allow tabs to be moved from one position to another in the tab bar. |
 | Allow tabs to leave the tab bar | Tabs can be move out of the tab bar. |
 
-### Context Menu 
+### Context Menu
 
 | OPTION                      | DESCRIPTION |
 |-----------------------------|-------------|
 | Include Properties Menu     | Display the Properties menu in the context menu when a session is selected. |
 | Use legacy edit context menu | Use the Legacy theme edit context menu (old {{ en.RDM }} interface). |
 
-### Dashboard 
+### Dashboard
 
 | OPTION                     | DESCRIPTION |
 |----------------------------|-------------|
 | Auto Focus Dashboard       | When option is activated if an active entry is selected in the tree view the corresponding dashboard is displayed and focus is immediately set on it. |
 | Use classic dashboard overview | The classic dashboard will be displayed instead of the new dashboard with larger buttons. |
 
-### Menu Bar 
+### Menu Bar
 
 | OPTION                                   | DESCRIPTION |
 |------------------------------------------|-------------|
@@ -57,7 +57,7 @@ Use ***File – Preferences – User Interface*** to configure options related t
 | Only show favorites entries in icon menu | Only the Favorite Entries will appear in the menu. |
 | Show credentials in icon menu            | Indicate if the credentials are listed in the menu. |
 
-### Tree View 
+### Tree View
 
 | OPTION                         | DESCRIPTION |
 |--------------------------------|-------------|

@@ -2,15 +2,15 @@
 eleventyComputed:
   title: Override Credentials
 ---
-Override Credentials allows you to specify other credentials than the one stored in an entry. You can choose from multiple sources according to your security practices and policies.  
+Override Credentials allows you to specify other credentials than the one stored in an entry. You can choose from multiple sources according to your security practices and policies.
 
 {% snippet icon.badgeInfo %}
 The Override credentials is available for all type of entries.
 {% endsnippet %}
 
 ### General
-Simply check the Override credentials and select your credential to start overriding your credentials. To stop overriding credentials uncheck the Override credentials option.  
-![User Specific Settings - Override credentials](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10338.png)
+Simply check the Override credentials and select your credential to start overriding your credentials. To stop overriding credentials uncheck the Override credentials option.
+![User Specific Settings - Override credentials](https://cdnweb.devolutions.net/docs/en/rdm/mac/clip10338.png)
 
 The following choices are offered depending on the type of entry being overridden, as well as the location of that entry.
 

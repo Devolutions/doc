@@ -1,17 +1,17 @@
 ---
 eleventyComputed:
   title: Reports
-  description: The Reports section provides the administrators with tools to perform Audit, view Logs, and manage deleted entries History of the {{ en.VLT }}s. 
+  description: The Reports section provides the administrators with tools to perform Audit, view Logs, and manage deleted entries History of the {{ en.VLT }}s.
 
 ---
-The ***Reports*** section provides the administrators with tools to perform [Audit](/hub/web-interface/reports/audit/), view [Logs](/hub/web-interface/reports/logs/), and manage deleted entries [History](/hub/web-interface/reports/history/) of the {{ en.VLT }}s. 
+The ***Reports*** section provides the administrators with tools to perform [Audit](/hub/web-interface/reports/audit/), view [Logs](/hub/web-interface/reports/logs/), and manage deleted entries [History](/hub/web-interface/reports/history/) of the {{ en.VLT }}s.
 
-{% snippet icon.badgeInfo %} 
-Non-admin users will have a limited access to the ***Reports*** section. 
+{% snippet icon.badgeInfo %}
+Non-admin users will have a limited access to the ***Reports*** section.
 {% endsnippet %}
 
-{% snippet icon.badgeInfo %} 
+{% snippet icon.badgeInfo %}
 Web-based reports from [{{ en.DVLS }}](/server/overview/what-is-server/) and [{{ en.DHUB }}](/hub/overview/what-is-hub/) are available in {{ en.RDM }}.
 {% endsnippet %}
 
-![Reports](https://webdevolutions.azureedge.net/docs/en/hub/Hub6082.png)
+![Reports](https://cdnweb.devolutions.net/docs/en/hub/Hub6082.png)

@@ -20,7 +20,7 @@ The following types currently support ***Run As***:
 
 ## Session
 
-![!!KB4566](https://webdevolutions.azureedge.net/docs/en/kb/KB4566.png)  
+![!!KB4566](https://cdnweb.devolutions.net/docs/en/kb/KB4566.png)
 Sessions that support Run As will have a Run As tab where you specify which credentials to use when starting with Run As.
 
 | Option                      | Description |
@@ -33,18 +33,18 @@ Sessions that support Run As will have a Run As tab where you specify which cred
 
 ## Macros/Scripts/Tools
 
-With tools session types you only need to specify ***Run as different user*** in ***Advanced*** tab. At execution time the credentials will be resolved and used to start the Windows Credentials unless you select ***Use session credentials***, in which case it will use those active for the session.  
-![!!KB4567](https://webdevolutions.azureedge.net/docs/en/kb/KB4567.png)  
+With tools session types you only need to specify ***Run as different user*** in ***Advanced*** tab. At execution time the credentials will be resolved and used to start the Windows Credentials unless you select ***Use session credentials***, in which case it will use those active for the session.
+![!!KB4567](https://cdnweb.devolutions.net/docs/en/kb/KB4567.png)
 
 With tools session types you only need to specify ***Run as different user*** At execution time the credentials will be resolved and used to start the Run As process.
 
 ## Session add-on
 
-SQL Server Management Studio supports Run As. Configure it like you would configure a normal session.  
-![!!KB4568](https://webdevolutions.azureedge.net/docs/en/kb/KB4568.png)  
+SQL Server Management Studio supports Run As. Configure it like you would configure a normal session.
+![!!KB4568](https://cdnweb.devolutions.net/docs/en/kb/KB4568.png)
 
-Click on ***Run as different user*** to modify the ***Run As*** settings.  
-![!!KB4569](https://webdevolutions.azureedge.net/docs/en/kb/KB4569.png)
+Click on ***Run as different user*** to modify the ***Run As*** settings.
+![!!KB4569](https://cdnweb.devolutions.net/docs/en/kb/KB4569.png)
 
 ## Notes
 
@@ -55,10 +55,10 @@ Run as Different User does not allow for Shell Execute
 ### Example: Command line session with Run as different user on the same workgroup/domain
 
 1. Create a new Command Line session.
-1. Set the command to ***CMD***.  
-![!!KB4570](https://webdevolutions.azureedge.net/docs/en/kb/KB4570.png)
-1. Specify the ***Run As*** credentials.  
-![!!KB4571](https://webdevolutions.azureedge.net/docs/en/kb/KB4571.png)
+1. Set the command to ***CMD***.
+![!!KB4570](https://cdnweb.devolutions.net/docs/en/kb/KB4570.png)
+1. Specify the ***Run As*** credentials.
+![!!KB4571](https://cdnweb.devolutions.net/docs/en/kb/KB4571.png)
 1. Save your session.
-1. Run your Command Line session.  
-![!!KB4572](https://webdevolutions.azureedge.net/docs/en/kb/KB4572.png)
+1. Run your Command Line session.
+![!!KB4572](https://cdnweb.devolutions.net/docs/en/kb/KB4572.png)

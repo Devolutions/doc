@@ -3,7 +3,7 @@ eleventyComputed:
   title: System permissions
   status: Topic available in German language
 ---
-The ***System Permissions*** allows to grant some administrative permissions to standard users without making them administrators. The ***Default*** setting inherits the permission set on the user or user groups.  
+The ***System Permissions*** allows to grant some administrative permissions to standard users without making them administrators. The ***Default*** setting inherits the permission set on the user or user groups.
 
 {% snippet icon.badgeHelp %}
 This feature is only available when using an [Advanced Data Source](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/).
@@ -12,7 +12,7 @@ For more information about permissions, consult [Simplified Security](/rdm/windo
 {% endsnippet %}
 
 ### Entries
-![System Permissions - Entries](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin6158.png) 
+![System Permissions - Entries](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMWin6158.png)
 
 | OPTION             | DESCRIPTION                                           |
 |--------------------|-------------------------------------------------------|
@@ -21,9 +21,9 @@ For more information about permissions, consult [Simplified Security](/rdm/windo
 | Add in root        | Allow users/user groups to create entries in the root folder. |
 | {{ en.VLT }} settings | Allow users/user groups to access the {{ en.VLT }} properties. |
 
-### Miscellaneous 
+### Miscellaneous
 
-![System Permissions - Miscellaneous](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin6155.png) 
+![System Permissions - Miscellaneous](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMWin6155.png)
 
 | OPTION                  | DESCRIPTION                                                               |
 |-------------------------|---------------------------------------------------------------------------|
@@ -35,9 +35,9 @@ For more information about permissions, consult [Simplified Security](/rdm/windo
 | Flag as closed          | Allow users/user groups to mark terminated sessions as closed in the log. |
 | Entry security analyzer | Allow users/user groups to use the Entry security analyzer.               |
 
-### Tools 
+### Tools
 
-![System Permissions - Tools](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin6156.png) 
+![System Permissions - Tools](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMWin6156.png)
 
 | OPTION                        | DESCRIPTION                                                  |
 |-------------------------------|--------------------------------------------------------------|
@@ -48,18 +48,18 @@ For more information about permissions, consult [Simplified Security](/rdm/windo
 | Web management tools          | Allow users/user groups to use web management tools.         |
 
 
-### Templates 
- 
-![System Permissions - Templates](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin6157.png) 
+### Templates
+
+![System Permissions - Templates](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMWin6157.png)
 
 | OPTION            | DESCRIPTION                                            |
 |-------------------|--------------------------------------------------------|
 | Templates         | Allow users/user groups to create and manage templates.|
 | Password templates| Allow users/user groups to create and manage password templates. |
 
-### Management 
- 
-![System Permissions - Management](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin6153.png) 
+### Management
+
+![System Permissions - Management](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMWin6153.png)
 
 | OPTION          | DESCRIPTION                                                                                                 |
 |-----------------|-------------------------------------------------------------------------------------------------------------|

@@ -7,35 +7,35 @@ In the ***Users*** section, you can manage users and user settings.
 
 {% snippet icon.badgeHelp %}
 Learn how to [add users](/hub/web-interface/administration/management/users/create-invite-users/) or [add an administrator](/hub/web-interface/administration/management/users/administrator-invite/).
-{% endsnippet %}  
+{% endsnippet %}
 
-![User settings](https://webdevolutions.azureedge.net/docs/en/hub/Hub2270.png) 
+![User settings](https://cdnweb.devolutions.net/docs/en/hub/Hub2270.png)
 
 ## Set a user as owner
 
-![Set as owner](https://webdevolutions.azureedge.net/docs/en/hub/Hub2273.png) 
+![Set as owner](https://cdnweb.devolutions.net/docs/en/hub/Hub2273.png)
 
 If you click on the ***Set as owner*** icon, you will be asked if you really want to change ownership from the current owner to this user. Click ***Yes*** to confirm.
 
-![Set as owner confirmation message](https://webdevolutions.azureedge.net/docs/en/hub/Hub2271.png) 
+![Set as owner confirmation message](https://cdnweb.devolutions.net/docs/en/hub/Hub2271.png)
 
 The owner has a crown icon next to their name and cannot be deleted.
 
-![Owner icon](https://webdevolutions.azureedge.net/docs/en/hub/Hub2272.png) 
+![Owner icon](https://cdnweb.devolutions.net/docs/en/hub/Hub2272.png)
 
 {% snippet icon.shieldInfo %}
 For security reasons, only current administrators can be set as owners.
-{% endsnippet %}  
+{% endsnippet %}
 
 ## Edit a user
 
-![Edit](https://webdevolutions.azureedge.net/docs/en/hub/Hub2274.png) 
+![Edit](https://cdnweb.devolutions.net/docs/en/hub/Hub2274.png)
 
-When editing a user, you can add a short description of the user, their roles and responsibilities, etc. You can also change some of what they are able to do within the hub.  
+When editing a user, you can add a short description of the user, their roles and responsibilities, etc. You can also change some of what they are able to do within the hub.
 
 In the ***User groups*** tab, you can assign them to one or more user groups with defined permissions and access.
 
-![Edit settings](https://webdevolutions.azureedge.net/docs/en/hub/Hub2277.png) 
+![Edit settings](https://cdnweb.devolutions.net/docs/en/hub/Hub2277.png)
 
 | OPTION                           | DESCRIPTION                                                                                                                                                                                                                       |
 |----------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -49,18 +49,18 @@ In the ***User groups*** tab, you can assign them to one or more user groups wit
 
 ## Delete a user
 
-![Delete](https://webdevolutions.azureedge.net/docs/en/hub/Hub2275.png) 
+![Delete](https://cdnweb.devolutions.net/docs/en/hub/Hub2275.png)
 
 If you click on the ***Delete*** icon, you will be asked if you really want to delete this user from this hub. Click ***Delete*** to confirm.
 
-![Delete confirmation](https://webdevolutions.azureedge.net/docs/en/hub/Hub2278.png) 
+![Delete confirmation](https://cdnweb.devolutions.net/docs/en/hub/Hub2278.png)
 
 {% snippet icon.shieldInfo %}
 For security reasons, it is not possible to delete yourself nor the owner of the hub.
-{% endsnippet %}  
+{% endsnippet %}
 
 ## Re-invite a user
 
-![Re-invite user](https://webdevolutions.azureedge.net/docs/en/hub/Hub2276.png) 
+![Re-invite user](https://cdnweb.devolutions.net/docs/en/hub/Hub2276.png)
 
 As soon as you click on this icon, the user is sent a new invitation email. They then have to open the hub via this invitation.

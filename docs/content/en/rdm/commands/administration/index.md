@@ -1,18 +1,18 @@
 ---
 eleventyComputed:
   title: Administration
-  description: The Administration tab allows to manage settings and users of a data source, view reports such as the activity logs, and much more. This tab is only available to administrators of the data source. 
+  description: The Administration tab allows to manage settings and users of a data source, view reports such as the activity logs, and much more. This tab is only available to administrators of the data source.
 ---
-The ***Administration*** tab allows to manage settings and users of a data source, view reports such as the activity logs, and much more. This tab is only available to administrators of the data source. 
+The ***Administration*** tab allows to manage settings and users of a data source, view reports such as the activity logs, and much more. This tab is only available to administrators of the data source.
 
-{% snippet icon.badgeInfo %} 
-Most features contained in the ***Administration*** tab are only available when using an [Advanced Data Source](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/). 
+{% snippet icon.badgeInfo %}
+Most features contained in the ***Administration*** tab are only available when using an [Advanced Data Source](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/).
 {% endsnippet %}
- 
-![Ribbon - Administration](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin6198.png) 
 
-### Management 
- 
+![Ribbon - Administration](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMWin6198.png)
+
+### Management
+
 | OPTION    | DESCRIPTION                                                                                                      |
 |-----------|------------------------------------------------------------------------------------------------------------------|
 | Users        | Opens the [User Management](/rdm/windows/commands/administration/management/user-management/).                |
@@ -20,17 +20,17 @@ Most features contained in the ***Administration*** tab are only available when 
 | User Groups  | Opens the [User Groups Management](/rdm/windows/commands/administration/management/user-groups-management/) tab of User Management. |
 
 
-### Settings 
+### Settings
 
-| OPTION                             | DESCRIPTION                                              | 
+| OPTION                             | DESCRIPTION                                              |
 |------------------------------------|----------------------------------------------------------|
 | {{ en.VLT_MAJ }} Settings          | Opens the {{ en.VLT }} Settings. The {{ en.VLT }} Folder is the one at the top of the ***{{ en.NPANE }}*** (in Tree View). It is the one from which all entries and folder stem. By default, lower level folders inherit settings and security from parent folder until reaching the {{ en.VLT }}. Therefore, using permissions on the {{ en.VLT }} folder allows to secure all entries below the {{ en.VLT }} level. Refer to [Default security for entries](/rdm/windows/commands/administration/settings/vault-settings/default-security-entries/) for more information.                        |
 | System Settings (Data Source Settings) | Opens the System Settings. There are many features here, all meant to help you customize your data source and security needs. Remember that these settings applies to all users that have access to the data source.                   |
 | System Permissions                 | Modify [System Permissions](/rdm/windows/commands/administration/settings/system-permissions/). |
 | Security Provider                  | Set up a [Security Provider](/rdm/windows/commands/administration/settings/security-providers/) for an additional layer of security. |
 
-### Clean Up 
- 
+### Clean Up
+
 | OPTION                      | DESCRIPTION                                                            |
 |-----------------------------|----------------------------------------------------------------------- |
 | Clean Up Deleted History    | Perform a partial or full clean up of the [Deleted History](/rdm/windows/commands/administration/clean-up/deleted-history/).|

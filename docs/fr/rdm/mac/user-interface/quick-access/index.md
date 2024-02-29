@@ -2,60 +2,60 @@
 eleventyComputed:
   title: Accès rapide
 ---
-La barre de ***Accès rapide***, qui se trouve en haut de l'application, est composée de plusieurs parties :  
+La barre de ***Accès rapide***, qui se trouve en haut de l'application, est composée de plusieurs parties :
 
-* Commandes favorites 
-* Contrôle de la Connexion rapide 
-* Recherche 
-* Commande de verrouillage  
+* Commandes favorites
+* Contrôle de la Connexion rapide
+* Recherche
+* Commande de verrouillage
 
-![Barre d'accès rapide](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4371.png) 
+![Barre d'accès rapide](https://cdnweb.devolutions.net/docs/fr/rdm/mac/clip4371.png)
 
-## Paramètres 
+## Paramètres
 
-### Commandes favorites 
+### Commandes favorites
 
-![Commandes favorites](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4322.png) 
+![Commandes favorites](https://cdnweb.devolutions.net/docs/fr/rdm/mac/clip4322.png)
 
 <table>
 	<tr>
 		<td>
-Option 
+Option
 		</td>
 		<td>
-Description 
+Description
 		</td>
 	</tr>
 	<tr>
 		<td>
 
-![!!clip4323](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4323.png) 
+![!!clip4323](https://cdnweb.devolutions.net/docs/fr/rdm/mac/clip4323.png)
 		</td>
 		<td>
-Créer une nouvelle entrée dans votre source de données actuelle. 
+Créer une nouvelle entrée dans votre source de données actuelle.
 		</td>
 	</tr>
 	<tr>
 		<td>
-![!!clip4324](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4324.png) 
+![!!clip4324](https://cdnweb.devolutions.net/docs/fr/rdm/mac/clip4324.png)
 		</td>
 		<td>
-Ouvrir la fenêtre des propriétés de votre entrée sélectionnée 
+Ouvrir la fenêtre des propriétés de votre entrée sélectionnée
 		</td>
 	</tr>
 </table>
 
-### Contrôle de la Connexion rapide 
+### Contrôle de la Connexion rapide
 
-![Connexion rapide](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4372.png) 
-Veuillez vous référer à [Connexion rapide](/fr/rdm/mac/commands/view/quick-connect/) 
+![Connexion rapide](https://cdnweb.devolutions.net/docs/fr/rdm/mac/clip4372.png)
+Veuillez vous référer à [Connexion rapide](/fr/rdm/mac/commands/view/quick-connect/)
 
-### Recherche 
+### Recherche
 
-![Recherche](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4373.png) 
-Veuillez vous référer à [Recherche](/fr/rdm/mac/user-interface/quick-access/search/) 
+![Recherche](https://cdnweb.devolutions.net/docs/fr/rdm/mac/clip4373.png)
+Veuillez vous référer à [Recherche](/fr/rdm/mac/user-interface/quick-access/search/)
 
-### Commande de verrouillage 
+### Commande de verrouillage
 
-![Commande de verrouillage](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4325.png) 
-Veuillez vous référer à [Commande de verrouillage](/fr/rdm/mac/commands/file/lock-application/) 
+![Commande de verrouillage](https://cdnweb.devolutions.net/docs/fr/rdm/mac/clip4325.png)
+Veuillez vous référer à [Commande de verrouillage](/fr/rdm/mac/commands/file/lock-application/)

@@ -2,38 +2,38 @@
 eleventyComputed:
   title: Information sur le domaine
 ---
-Permet d'afficher l'information sur le groupe d'utilisateurs de type domaine.  
-![Groupe d'utilisateurs - Information sur le domaine](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp8043.png) 
+Permet d'afficher l'information sur le groupe d'utilisateurs de type domaine.
+![Groupe d'utilisateurs - Information sur le domaine](https://cdnweb.devolutions.net/docs/fr/server/ServerOp8043.png)
 
 <table>
 	<tr>
 		<th>
-Option 
+Option
 		</th>
 		<th>
-Description 
+Description
 		</th>
 	</tr>
 	<tr>
 		<td>
-Domaine 
+Domaine
 		</td>
 		<td>
-Nom de domaine du groupe d'utilisateurs. 
+Nom de domaine du groupe d'utilisateurs.
 		</td>
 	</tr>
 	<tr>
 		<td>
-SID 
+SID
 		</td>
 		<td>
-Identifiant de sécurité du groupe d'utilisateurs du domaine. 
+Identifiant de sécurité du groupe d'utilisateurs du domaine.
 		</td>
 	</tr>
 </table>
 
-### Chercher sur le domaine 
+### Chercher sur le domaine
 
-Affiche l'information détaillée du groupe d'utilisateurs de type domaine.  
-![!!ServerOp8052](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp8052.png) 
+Affiche l'information détaillée du groupe d'utilisateurs de type domaine.
+![!!ServerOp8052](https://cdnweb.devolutions.net/docs/fr/server/ServerOp8052.png)
 

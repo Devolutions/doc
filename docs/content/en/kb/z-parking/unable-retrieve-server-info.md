@@ -8,7 +8,7 @@ eleventyComputed:
 ---
 Following the creation of a {{ en.DVLS }} instance, the web interface display the following error message.
 
-![Unable to retrieve server information error message](https://webdevolutions.azureedge.net/docs/en/kb/KB8003.png) 
+![Unable to retrieve server information error message](https://cdnweb.devolutions.net/docs/en/kb/KB8003.png)
 
 ## Solution
 

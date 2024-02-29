@@ -7,12 +7,12 @@ It is possible to launch a session in {{ en.RDM }} or in {{ en.DLAUNCHER }} thro
 
 ## Launch through UI
 Select the desired entry and click on ***Open in {{ en.RDM }}*** or ***Open in {{ en.DLAUNCHER }}***.
-![Open in {{ en.RDM }}](https://webdevolutions.azureedge.net/docs/en/kb/KB0145.png)
-![Open in {{ en.DLAUNCHER }}](https://webdevolutions.azureedge.net/docs/en/kb/KB0146.png)
+![Open in {{ en.RDM }}](https://cdnweb.devolutions.net/docs/en/kb/KB0145.png)
+![Open in {{ en.DLAUNCHER }}](https://cdnweb.devolutions.net/docs/en/kb/KB0146.png)
 
 ## Launch through double-click
 1. In the {{ en.WDAPP }}, click go to ***File – {{ en.WS }} settings – Entries***.
 1. Enable the ***Launch session directly*** option and choose between {{ en.RDM }} and {{ en.DLAUNCHER }}.
-![Launch session directly](https://webdevolutions.azureedge.net/docs/en/kb/KB0147.png)
+![Launch session directly](https://cdnweb.devolutions.net/docs/en/kb/KB0147.png)
 1. Click the ***X*** to close the option menu.
 1. Go back to a {{ en.VLT }} and double-click an entry to launch it through the previously chosen application.

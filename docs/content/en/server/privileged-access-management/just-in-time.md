@@ -10,7 +10,7 @@ Just-in-time elevation is a security concept that pertains to providing temporar
 
 {% youtube 'drRLA7U8YsQ?si=ihVhTcJOKxAh5kKS&amp;start=146' %}
 
-![Just-in-time elevation settings](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8178.png)
+![Just-in-time elevation settings](https://cdnweb.devolutions.net/docs/en/server/ServerOp8178.png)
 
 ### Just-in-time (JIT) elevation
 
@@ -22,8 +22,8 @@ Just-in-time elevation is a security concept that pertains to providing temporar
 
 
 ### Example
-The domain provider Just-in-time Elevation configuration will allow privileged accounts to request elevation to being member of the following Active Directory Groups: {{ en.RDM }} Admins; {{ en.RDM }} Service Desk or {{ en.RDM }} Admins - Universal. The temporary group name will start with RDM_JIT and will be created in the **Domain Groups\Vaults\Internal** OU.  
-![Just-in-time Elevation settings](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8179.png)
+The domain provider Just-in-time Elevation configuration will allow privileged accounts to request elevation to being member of the following Active Directory Groups: {{ en.RDM }} Admins; {{ en.RDM }} Service Desk or {{ en.RDM }} Admins - Universal. The temporary group name will start with RDM_JIT and will be created in the **Domain Groups\Vaults\Internal** OU.
+![Just-in-time Elevation settings](https://cdnweb.devolutions.net/docs/en/server/ServerOp8179.png)
 
-The _backupoperator15 privileged account checkout process is requesting a 2 hours elevation to be part of the {{ en.RDM }} Admins Active Directory group.  
-![Just-in-time Elevation settings](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8180.png)
+The _backupoperator15 privileged account checkout process is requesting a 2 hours elevation to be part of the {{ en.RDM }} Admins Active Directory group.
+![Just-in-time Elevation settings](https://cdnweb.devolutions.net/docs/en/server/ServerOp8180.png)

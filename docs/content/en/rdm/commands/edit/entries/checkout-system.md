@@ -1,37 +1,37 @@
 ---
 eleventyComputed:
   title: Checkout system
-  descrption: The Checkout system locks an entry while it is being used or modified. It prevents users from using or editing an entry at the same time.  
+  descrption: The Checkout system locks an entry while it is being used or modified. It prevents users from using or editing an entry at the same time.
 ---
-{% youtube '-QbEyscBx8s' %}  
+{% youtube '-QbEyscBx8s' %}
 
-The ***Checkout system*** locks an entry while it is being used or modified. It prevents users from using or editing an entry at the same time.  
+The ***Checkout system*** locks an entry while it is being used or modified. It prevents users from using or editing an entry at the same time.
 
-The checkout system can be enabled for ***Sessions***, ***Documents***, ***Credentials***, and ***Information*** entries.  
+The checkout system can be enabled for ***Sessions***, ***Documents***, ***Credentials***, and ***Information*** entries.
 
-You can set the check out mode at the {{ en.VLT }}, folder or entry level. 
+You can set the check out mode at the {{ en.VLT }}, folder or entry level.
 
-{% snippet icon.badgeInfo %} 
-This feature is only available when using [SQL Server](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/microsoft-sql-server/) or [{{ en.DVLS }}](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/server/) data sources. 
+{% snippet icon.badgeInfo %}
+This feature is only available when using [SQL Server](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/microsoft-sql-server/) or [{{ en.DVLS }}](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/server/) data sources.
 {% endsnippet %}
- 
-{% snippet icon.badgeInfo %} 
-Administrators can set ***Automatic check in after*** a number of minutes in ***Administration – System Settings – {{ en.VLT_MAJ }}***. 
+
+{% snippet icon.badgeInfo %}
+Administrators can set ***Automatic check in after*** a number of minutes in ***Administration – System Settings – {{ en.VLT_MAJ }}***.
 {% endsnippet %}
- 
-{% snippet icon.badgeInfo %} 
-Administrators can force ***Check In*** entries that are ***Check Out*** by other users. Right-click the entry that is check out, click ***Check In***. 
+
+{% snippet icon.badgeInfo %}
+Administrators can force ***Check In*** entries that are ***Check Out*** by other users. Right-click the entry that is check out, click ***Check In***.
 {% endsnippet %}
- 
-### Security Settings 
 
-To access the check out settings, go into the ***Properties*** of an entry, folder or of the root folder. Navigate to the ***Security Settings*** section.  
-![!!RDMWin2233](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2233.png) 
+### Security Settings
 
-### Checkout mode 
+To access the check out settings, go into the ***Properties*** of an entry, folder or of the root folder. Navigate to the ***Security Settings*** section.
+![!!RDMWin2233](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMWin2233.png)
 
-***Checkout mode*** enables or disables the checkout system. It also decides how the checkout mode functions.  
-![!!clip3519](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip3519.png) 
+### Checkout mode
+
+***Checkout mode*** enables or disables the checkout system. It also decides how the checkout mode functions.
+![!!clip3519](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip3519.png)
 
 | OPTION                      | DESCRIPTION                                                            |
 |-----------------------------|------------------------------------------------------------------------|
@@ -42,10 +42,10 @@ To access the check out settings, go into the ***Properties*** of an entry, fold
 | Inherited     | Inherits the check out mode from the parent folder.                                  |
 | Optional      | Offers the option to check out an entry manually or use (open and edit) the entry without checking it out.                                                                                                   |
 
-### Checkout prompt 
+### Checkout prompt
 
-***Checkout prompt*** sets if a user must enter a comment when they check out the entry. Administrators can monitor the comments through the logs available on the entry or the ***Activity Logs***.  
-![!!clip3522](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip3522.png) 
+***Checkout prompt*** sets if a user must enter a comment when they check out the entry. Administrators can monitor the comments through the logs available on the entry or the ***Activity Logs***.
+![!!clip3522](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip3522.png)
 
 | OPTION   | DESCRIPTION                                  |
 |----------|----------------------------------------------|

@@ -2,36 +2,36 @@
 eleventyComputed:
   title: Quick access
 ---
-The Quick Access Toolbar normally sits at the top of the application. It is composed of multiple parts:  
+The Quick Access Toolbar normally sits at the top of the application. It is composed of multiple parts:
 
-* Favorite commands 
-* Quick Connect 
-* Search 
-* Lock application  
-![Quick Access Toolbar](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10556.png) 
+* Favorite commands
+* Quick Connect
+* Search
+* Lock application
+![Quick Access Toolbar](https://cdnweb.devolutions.net/docs/en/rdm/mac/clip10556.png)
 
-## Settings 
+## Settings
 
-### Favorite commands 
+### Favorite commands
 
-![Quick Access - Favorite commands](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10552.png) 
+![Quick Access - Favorite commands](https://cdnweb.devolutions.net/docs/en/rdm/mac/clip10552.png)
 
 | Command | Description |
 |---------|-------------|
-| ![!!clip10553](https://webdevolutions.azureedge.net/docs/common/document-empty.png) | Create a new entry in your current data source.   |
-| ![!!clip10554](https://webdevolutions.azureedge.net/docs/common/edit.png) | Open the properties window of your selected entry.    |
+| ![!!clip10553](https://cdnweb.devolutions.net/docs/common/document-empty.png) | Create a new entry in your current data source.   |
+| ![!!clip10554](https://cdnweb.devolutions.net/docs/common/edit.png) | Open the properties window of your selected entry.    |
 
-### Quick Connect 
+### Quick Connect
 
-![Quick Access - Quick Connect](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10557.png) 
-Please refer to [Quick Connect](/rdm/mac/commands/view/quick-connect/). 
+![Quick Access - Quick Connect](https://cdnweb.devolutions.net/docs/en/rdm/mac/clip10557.png)
+Please refer to [Quick Connect](/rdm/mac/commands/view/quick-connect/).
 
-### Search 
+### Search
 
-![Quick Access - Search](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10558.png) 
-Please refer to [Search](/rdm/mac/user-interface/quick-access/search/). 
+![Quick Access - Search](https://cdnweb.devolutions.net/docs/en/rdm/mac/clip10558.png)
+Please refer to [Search](/rdm/mac/user-interface/quick-access/search/).
 
-### Lock Application 
+### Lock Application
 
-![Quick Access - Lock Application](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10555.png) 
-Please refer to [Lock Application](/rdm/mac/commands/file/lock-application/). 
+![Quick Access - Lock Application](https://cdnweb.devolutions.net/docs/en/rdm/mac/clip10555.png)
+Please refer to [Lock Application](/rdm/mac/commands/file/lock-application/).

@@ -10,7 +10,7 @@ Dans {{ fr.RDM }}, pour utiliser le mode hors-ligne avec une source de données 
 ## Étapes
 
 1. Dans {{ fr.DHUBP }}, aller dans ***Outils – Paramètres***.
-![Outils – Paramètres](https://webdevolutions.azureedge.net/docs/fr/kb/KB2081.png)
+![Outils – Paramètres](https://cdnweb.devolutions.net/docs/fr/kb/KB2081.png)
 1. Dans la liste déroulante ***Autoriser le mode hors-ligne***, sélectionner ***Oui***.
-![Autoriser le mode hors-ligne](https://webdevolutions.azureedge.net/docs/fr/kb/KB2080.png)
+![Autoriser le mode hors-ligne](https://cdnweb.devolutions.net/docs/fr/kb/KB2080.png)
 1. Cliquer sur ***Enregistrer***.

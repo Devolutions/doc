@@ -11,7 +11,7 @@ Press <kbd>Cmd</kbd>+<kbd>Shift</kbd>+<kbd>R</kbd> on your keyboard.
 ## Method 2
 
 Hold <kbd>Shift</kbd> on your keyboard and click on the refresh button in the ***Quick Access Toolbar***.
-![!!KB2000](https://webdevolutions.azureedge.net/docs/en/kb/KB2000.png)
+![!!KB2000](https://cdnweb.devolutions.net/docs/en/kb/KB2000.png)
 
 ## Method 3
 

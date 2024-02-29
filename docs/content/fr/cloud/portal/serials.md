@@ -12,6 +12,6 @@ La section ***Clés de licence*** n'est liée à aucune de vos applications Devo
 Vous devrez enregistrer la licence dans l'application Devolutions appropriée pour vous enregistrer.
 {% endsnippet %}
 
-![!!Cloud4047](https://webdevolutions.azureedge.net/docs/fr/cloud/Cloud4047.png)
+![!!Cloud4047](https://cdnweb.devolutions.net/docs/fr/cloud/Cloud4047.png)
 Pour ajouter une licence, cliquez sur l'icône plus dans le coin supérieur droit de la fenêtre. Remplir ensuite manuellement ou importer depuis la facture les informations à sauvegarder.
-![!!Cloud4048](https://webdevolutions.azureedge.net/docs/fr/cloud/Cloud4048.png)
+![!!Cloud4048](https://cdnweb.devolutions.net/docs/fr/cloud/Cloud4048.png)

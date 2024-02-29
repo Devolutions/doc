@@ -6,7 +6,7 @@ eleventyComputed:
   - Active Directory
   - Synchronizer
 ---
-Every field from the ***Active Directory Synchronizer*** entry is described below.  
+Every field from the ***Active Directory Synchronizer*** entry is described below.
 {% snippet icon.badgeInfo %}
 To learn more about creating and managing an Active Directory, please consult the documentation on the official website.
 {% endsnippet %}
@@ -14,9 +14,9 @@ To learn more about creating and managing an Active Directory, please consult th
 Please note that the <a href="#schedule">***Schedule*** tab</a> is only available in a {{ en.DVLS }} data source. Also needs the {{ en.DVLS }} ***Scheduler*** to be set up.
 {% endsnippet %}
 
-The entry can be found under ***New Entry*** – ***Synchronizer***:  
-![Active Directory Synchronizer](https://webdevolutions.azureedge.net/docs/en/kb/KB0078.png)  
-![General tab](https://webdevolutions.azureedge.net/docs/en/kb/KB0079.png)  
+The entry can be found under ***New Entry*** – ***Synchronizer***:
+![Active Directory Synchronizer](https://cdnweb.devolutions.net/docs/en/kb/KB0078.png)
+![General tab](https://cdnweb.devolutions.net/docs/en/kb/KB0079.png)
 * ***Name***: Entry name in {{ en.RDM }}
 * ***Folder***: Which {{ en.RDM }} folder the entry will be in
 * ***Credentials***: Read more on [***Credentials*** options](/rdm/windows/commands/edit/entries/entry-credentials-options/)
@@ -38,7 +38,7 @@ The entry can be found under ***New Entry*** – ***Synchronizer***:
   * ***Port generator***: Generate a port
 
 ### Settings
-![Settings tab](https://webdevolutions.azureedge.net/docs/en/kb/KB0080.png)  
+![Settings tab](https://cdnweb.devolutions.net/docs/en/kb/KB0080.png)
 * ***Destination folder***: Click the ellipsis button to set the folder path in the {{ en.RDM }} tree view (which can only be in the same {{ en.VLT }}).
 * ***Template***: [Entry template](/rdm/windows/commands/file/templates/creating-templates/) created within {{ en.RDM }}
 * ***Create folders from OU/containers***
@@ -59,14 +59,14 @@ The entry can be found under ***New Entry*** – ***Synchronizer***:
 * ***Import description***: Import the description of the machine from the Active Directive
 
 ### Login
-![Login tab](https://webdevolutions.azureedge.net/docs/en/kb/KB0081.png)  
+![Login tab](https://cdnweb.devolutions.net/docs/en/kb/KB0081.png)
 * ***Username***: Username for the domain
 * ***Domain***: Domain for the Active Directory
 * ***Password***: Password for the domain
 * ***Merge username and domain***: Merges username and domain
 
 ### Filters
-![Filters tab](https://webdevolutions.azureedge.net/docs/en/kb/KB0082.png)  
+![Filters tab](https://cdnweb.devolutions.net/docs/en/kb/KB0082.png)
 * ***Type***: LDAP syntax filters can be used in many situations in Active Directory
   * ***All***: Default filter
   * ***Server***: Adds a filter to only include Windows Server
@@ -74,7 +74,7 @@ The entry can be found under ***New Entry*** – ***Synchronizer***:
 * ***Preview***: Preview of the applied filters
 
 ### Search
-![Search tab](https://webdevolutions.azureedge.net/docs/en/kb/KB0083.png)  
+![Search tab](https://cdnweb.devolutions.net/docs/en/kb/KB0083.png)
 * ***Search scope***
   * ***Subtree***: Searches the root
   * ***One-Level***: Searches on the folder level only
@@ -83,7 +83,7 @@ The entry can be found under ***New Entry*** – ***Synchronizer***:
   * ***Destination folder***: Check for duplicates only within the {{ en.RDM }} destination folder or subfolder
 
 ### Advanced
-![Advanced tab](https://webdevolutions.azureedge.net/docs/en/kb/KB0084.png)  
+![Advanced tab](https://cdnweb.devolutions.net/docs/en/kb/KB0084.png)
 * ***Silent mode***: This option disables error dialogs (useful when the synchronizer runs automatically at set intervals)
 * ***Verify folder on mismatch***: During synchronization, if enabled, verifies each connection and compares to already existing ones; ***Verify on folder mismatch*** will also check the path
 * ***Action on entry mismatch***
@@ -94,7 +94,7 @@ The entry can be found under ***New Entry*** – ***Synchronizer***:
   * ***Make expired***: Mark that entry as expired (expiration message can be set up)
 
 ### Schedule
-![Schedule tab](https://webdevolutions.azureedge.net/docs/en/kb/KB0085.png)  
+![Schedule tab](https://cdnweb.devolutions.net/docs/en/kb/KB0085.png)
 * ***Enabled***: Schedule being on/off
   * ***Every (Days)***: Interval between when the synchronizer runs
   * ***At***: Specific time to synchronize

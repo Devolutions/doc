@@ -3,7 +3,7 @@ eleventyComputed:
   title: Protocol handler
   description: A potocol handler has been implemented in {{ en.RDM }} to be able to launch a session directly from HTML content.
 ---
-A ***Protocol handler*** has been implemented in {{ en.RDM }} to be able to launch a session directly from HTML content. This can be very useful to call {{ en.RDM }} from a Configuration Management Database (CMDB) or even a Document Management System (DMS).  
+A ***Protocol handler*** has been implemented in {{ en.RDM }} to be able to launch a session directly from HTML content. This can be very useful to call {{ en.RDM }} from a Configuration Management Database (CMDB) or even a Document Management System (DMS).
 
 {% snippet icon.badgeInfo %}
 Internet Explorer and Mozilla Firefox execute the URL by clicking on it or by pressing Enter. However, with some other web browsers such as Google Chrome, executing the URL normally results in a web search. These browsers may require to do <kbd>Ctrl</kbd>+click or <kbd>Ctrl</kbd>+<kbd>Enter</kbd> to execute the URL.
@@ -15,11 +15,11 @@ There are two ways of using the handler:
 * Generate a URL for a template, this will allow you to specify the host name of the device you wish to connect to, but it will take the settings of the template.
 
 ## Parameters
-Here are the parameters used to build a protocol handler URL. These are for advanced scenarios. Only the ***DataSource*** and ***Session IDs*** are enough to open a connection.  
+Here are the parameters used to build a protocol handler URL. These are for advanced scenarios. Only the ***DataSource*** and ***Session IDs*** are enough to open a connection.
 
 {% snippet icon.badgeInfo %}
 Please note that the ***DataSource*** parameter overrides the data source which the application connects to at start-up. This applies even if the user is prompted for a data source to connect to when the application starts.
-{% endsnippet %}  
+{% endsnippet %}
 
 | PARAMETER  | DESCRIPTION |
 |------------|-------------|
@@ -51,7 +51,7 @@ The base syntax of the protocol handler requires the application protocol, an ac
 There are three rules to follow when constructing an URL for the protocol handler:
 * The action is separated from the parameters with a question mark (?).
 * Each parameter is assigned a value by using an equal sign (=).
-* Parameter/Value pairs are separated with an ampersand (&).  
+* Parameter/Value pairs are separated with an ampersand (&).
 
 ## Examples
 
@@ -59,8 +59,8 @@ There are three rules to follow when constructing an URL for the protocol handle
 `rdm://open?Filter=RDP&Tabpage=Dashboard`
 
 #### Open an RDP session
-1. In the ***Advanced*** section of an entry properties, click on the ***Create Web Url*** button.  
-![Create Web URL](https://webdevolutions.azureedge.net/docs/en/kb/KB4466.png)
-1. The Url is stored in the clipboard.  
-![URL has been copied to the clipboard](https://webdevolutions.azureedge.net/docs/en/kb/KB4467.png)
+1. In the ***Advanced*** section of an entry properties, click on the ***Create Web Url*** button.
+![Create Web URL](https://cdnweb.devolutions.net/docs/en/kb/KB4466.png)
+1. The Url is stored in the clipboard.
+![URL has been copied to the clipboard](https://cdnweb.devolutions.net/docs/en/kb/KB4467.png)
 1. Paste (<kbd>Ctrl</kbd>+<kbd>V</kbd>) this Url in any application able to handle application protocols. It can be in a web page, a web browser address bar, or even a supported chat application. The protocol handler launches {{ en.RDM }} if it is closed, then perform the requested action with the provided parameters.

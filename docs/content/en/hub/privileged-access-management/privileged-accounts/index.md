@@ -4,21 +4,21 @@ eleventyComputed:
   order: 40
   description: "{{ en.DHUB }}'s privileged access management module allows privileged account passwords to be automatically reset once access has expired. You can also manually trigger the password reset via the menu."
 ---
-{{ en.DHUB }}'s privileged access management module allows privileged account passwords to be automatically reset once access has expired. You can also manually trigger the password reset via the menu. 
+{{ en.DHUB }}'s privileged access management module allows privileged account passwords to be automatically reset once access has expired. You can also manually trigger the password reset via the menu.
 
 Privileged accounts are added and managed in the PAM {{ en.VLT }}. The accounts can be organized within folders or directly saved in the root.
 
-![Privileged account in PAM {{ en.VLT }}](https://webdevolutions.azureedge.net/docs/en/hub/Hub2293.png)
+![Privileged account in PAM {{ en.VLT }}](https://cdnweb.devolutions.net/docs/en/hub/Hub2293.png)
 
 {% snippet icon.badgeHelp %}
 You can use the ***Check-out*** feature to request temporary access to a privileged account entry in a PAM {{ en.VLT }}. The approver must then approve or deny the request. To learn more about this process, see [Request access to a privileged account](/hub/privileged-access-management/privileged-accounts/request-access-privileged-account/) or [Approve access to a privileged account](/hub/privileged-access-management/privileged-accounts/approve-access-privileged-account/).
-{% endsnippet %}  
+{% endsnippet %}
 
 ## Create a privileged account entry
 
 The only entry type that can be added in your PAM {{ en.VLT }} (except for folders) are ***Azure AD Users***.
 
-![Privileged account in PAM {{ en.VLT }}](https://webdevolutions.azureedge.net/docs/en/hub/Hub2294.png)
+![Privileged account in PAM {{ en.VLT }}](https://cdnweb.devolutions.net/docs/en/hub/Hub2294.png)
 
 When creating your privileged account, you need to provide some information. See the table below.
 
@@ -47,12 +47,12 @@ When creating your privileged account, you need to provide some information. See
 
 To make sure that your configuration and the {{ en.DHUBS }} installation work properly, try resetting your password after having created the entry. To do so, select the entry in the ***{{ en.NPANE }}***. Then, click the ellipsis button at the top right and select ***Reset Password***.
 
-![Reset Password](https://webdevolutions.azureedge.net/docs/en/hub/Hub2295.png)
+![Reset Password](https://cdnweb.devolutions.net/docs/en/hub/Hub2295.png)
 
 In the entry logs, you can see the different activities from the request to the password reset.
 
-![Entry logs](https://webdevolutions.azureedge.net/docs/en/hub/Hub2300.png)
+![Entry logs](https://cdnweb.devolutions.net/docs/en/hub/Hub2300.png)
 
 To see the password reset status, go to the [***Tasks***](/hub/privileged-access-management/privileged-access-reports/tasks/) report in ***Reports – Privileged Access – Tasks***. If it worked, you will see that the task status is set to ***Completed***.
 
-![Completed password reset task](https://webdevolutions.azureedge.net/docs/en/hub/Hub2301.png)
+![Completed password reset task](https://cdnweb.devolutions.net/docs/en/hub/Hub2301.png)

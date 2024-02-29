@@ -2,8 +2,8 @@
 eleventyComputed:
   title: Copy buttons for custom fields
 ---
-In {{ en.RDM }} version 2022.2 and higher, located in the ***Home - Clipboard*** tab section, we have added copy buttons from the ***Custom Fields*** section of the entries.  
-![!!KB4976](https://webdevolutions.azureedge.net/docs/en/kb/KB4976.png)
+In {{ en.RDM }} version 2022.2 and higher, located in the ***Home - Clipboard*** tab section, we have added copy buttons from the ***Custom Fields*** section of the entries.
+![!!KB4976](https://cdnweb.devolutions.net/docs/en/kb/KB4976.png)
 
 ## Settings
 
@@ -13,4 +13,4 @@ To show the ***Copy Custom Fields*** button in the ***Home*** menu, you need to 
 Changing the ***Custom Field*** tag name will be reflected in the ***Home*** menu tab.
 {% endsnippet %}
 
-![!!KB4977](https://webdevolutions.azureedge.net/docs/en/kb/KB4977.png)
+![!!KB4977](https://cdnweb.devolutions.net/docs/en/kb/KB4977.png)

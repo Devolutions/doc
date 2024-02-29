@@ -6,21 +6,21 @@ eleventyComputed:
   - ticketing
   - API token
 ---
-{% snippet icon.badgeInfo %} 
+{% snippet icon.badgeInfo %}
 This feature is only available in {{ en.RDM }} with an advanced data source like {{ en.DVLS }}.
 {% endsnippet %}
 
 The ***Ticketing Service*** feature helps you distribute information to all users of the ticketing system that is used inside {{ en.RDM }}. The purpose of this integration is to be able to create tickets into your ticketing system directly from {{ en.RDM }}.
 
-{% snippet icon.badgeInfo %} 
+{% snippet icon.badgeInfo %}
 As of now, the Jira ticketing system is the only one supported.
 {% endsnippet %}
 
-You can find this feature in ***Administration – System Settings – Advanced – Ticketing Service*** in {{ en.RDM }}.  
-![Administration – System Settings – Advanced – Ticketing Service](https://webdevolutions.azureedge.net/docs/en/kb/KB2198.png)
+You can find this feature in ***Administration – System Settings – Advanced – Ticketing Service*** in {{ en.RDM }}.
+![Administration – System Settings – Advanced – Ticketing Service](https://cdnweb.devolutions.net/docs/en/kb/KB2198.png)
 
-If you are using a {{ en.DVLS }} data source, you can also access it via the web interface in ***Administration – System Settings – Ticketing Service***.  
-![Administration – System Settings – Ticketing Service](https://webdevolutions.azureedge.net/docs/en/kb/KB2199.png)
+If you are using a {{ en.DVLS }} data source, you can also access it via the web interface in ***Administration – System Settings – Ticketing Service***.
+![Administration – System Settings – Ticketing Service](https://cdnweb.devolutions.net/docs/en/kb/KB2199.png)
 
 The table below gives you an explanation of each parameter to configure. You will need to [create an API token](https://support.atlassian.com/atlassian-account/docs/manage-api-tokens-for-your-atlassian-account/) to complete the configuration.
 

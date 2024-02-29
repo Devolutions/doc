@@ -2,11 +2,11 @@
 eleventyComputed:
   title: Password policy
 ---
-Password Policy allows you to manage the different password policy and settings for your data source. For more information regarding the Password Complexity follow this link.  
+Password Policy allows you to manage the different password policy and settings for your data source. For more information regarding the Password Complexity follow this link.
 Some of these settings could be overridden using Group Policies.
 
 ## Settings
-![Data Source Settings - Password Policy](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10375.png)
+![Data Source Settings - Password Policy](https://cdnweb.devolutions.net/docs/en/rdm/mac/clip10375.png)
 
 | OPTION                                                                                                         | DESCRIPTION |
 |----------------------------------------------------------------------------------------------------------------|-------------|

@@ -2,18 +2,18 @@
 eleventyComputed:
   title: User subscriptions
 ---
-Manage the ***User Subscriptions*** to entries notification settings.  
+Manage the ***User Subscriptions*** to entries notification settings.
 
-{% snippet icon.badgeInfo %} 
-An email is required to be saved in your [Account](/server/web-interface/account-menu/edit-account/) for this feature to be available. 
+{% snippet icon.badgeInfo %}
+An email is required to be saved in your [Account](/server/web-interface/account-menu/edit-account/) for this feature to be available.
 {% endsnippet %}
 
-![User Subscriptions](https://webdevolutions.azureedge.net/docs/en/server/ServerOp4024.png)
- 
-To enable a notification;  
+![User Subscriptions](https://cdnweb.devolutions.net/docs/en/server/ServerOp4024.png)
 
-1. Select an entry. 
-1. Click on the bell icon to open the menu. 
-1. Select from the list the actions requiring notification from this specific entry.  
+To enable a notification;
 
-![Notification](https://webdevolutions.azureedge.net/docs/en/server/ServerOp2100.png)
+1. Select an entry.
+1. Click on the bell icon to open the menu.
+1. Select from the list the actions requiring notification from this specific entry.
+
+![Notification](https://cdnweb.devolutions.net/docs/en/server/ServerOp2100.png)

@@ -1,8 +1,8 @@
 {
   "_schema": "doc",
   "isTopic": true,
-  "icon": "https://webdevolutions.azureedge.net/images/projects/knowledge-base/logos/knowledge-base-icon-shadow.svg",
-  "logo": "https://webdevolutions.azureedge.net/images/projects/knowledge-base/logos/knowledge-base-color-shadow.svg",
+  "icon": "https://cdnweb.devolutions.net/images/projects/knowledge-base/logos/knowledge-base-icon-shadow.svg",
+  "logo": "https://cdnweb.devolutions.net/images/projects/knowledge-base/logos/knowledge-base-color-shadow.svg",
   "url": "/kb/devolutions-customer-success/",
   "formattedName": "<b>Devolutions</b> Knowledge Base",
   "sidebars": [
@@ -72,9 +72,6 @@
                 },
                 {
                   "url": "/kb/remote-desktop-manager/how-to-articles/configure-1password-integrated-mode/"
-                },
-                {
-                  "url": "/kb/remote-desktop-manager/how-to-articles/configure-1password-entry/"
                 },
                 {
                   "url": "/kb/remote-desktop-manager/how-to-articles/configure-bitwarden-entry/"
@@ -585,6 +582,9 @@
                 },
                 {
                   "url": "/kb/remote-desktop-manager/troubleshooting-articles/connections-are-missing/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/troubleshooting-articles/cyberark-data-source/"
                 },
                 {
                   "url": "/kb/remote-desktop-manager/troubleshooting-articles/data-recovery/"
@@ -1339,6 +1339,9 @@
                 },
                 {
                   "url": "/kb/devolutions-server/how-to-articles/change-listening-port-recording/"
+                },
+                {
+                  "url": "/kb/devolutions-server/how-to-articles/change-vault-selector-position/"
                 },
                 {
                   "url": "/kb/devolutions-server/how-to-articles/configure-client-data-source/"

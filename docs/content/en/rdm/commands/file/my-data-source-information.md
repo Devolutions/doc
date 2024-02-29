@@ -2,20 +2,20 @@
 eleventyComputed:
   title: My data source information
 ---
-The ***Data Source Information*** window displays various information related to the current data source, such as the current user and security access. 
+The ***Data Source Information*** window displays various information related to the current data source, such as the current user and security access.
 
-{% snippet icon.badgeInfo %} 
-The ***My Data Source Information*** view can be different depending on the [Data Source Type](/rdm/windows/data-sources/data-sources-types/). This topic uses an SQL Server data source. 
+{% snippet icon.badgeInfo %}
+The ***My Data Source Information*** view can be different depending on the [Data Source Type](/rdm/windows/data-sources/data-sources-types/). This topic uses an SQL Server data source.
 {% endsnippet %}
- 
-![File – My Data Source Information](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip3567.png) 
 
-## User and security 
+![File – My Data Source Information](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip3567.png)
 
-### General 
+## User and security
 
-The General tab displays information about the current user and data source configuration.  
-![My Data Source Information - General](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10881.png) 
+### General
+
+The General tab displays information about the current user and data source configuration.
+![My Data Source Information - General](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip10881.png)
 
 | OPTION                      | DESCRIPTION                                                                                     |
 |-----------------------------|-------------------------------------------------------------------------------------------------|
@@ -30,9 +30,9 @@ The General tab displays information about the current user and data source conf
 | Is Two Factor Configuration | Indicates if the data source is configured with a second factor of authentication.              |
 
 
-### Entries 
+### Entries
 
-![My Data Source Information – Entries](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10065.png) 
+![My Data Source Information – Entries](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip10065.png)
 
 | OPTION                                 | DESCRIPTION                                                                   |
 |----------------------------------------|-------------------------------------------------------------------------------|
@@ -42,12 +42,12 @@ The General tab displays information about the current user and data source conf
 | Allow add entry in {{ en.VLT }} folder | Indicates if the user can add entries in the {{ en.VLT }} of the data source. |
 
 
-### User Groups 
+### User Groups
 
-The ***User Groups*** tab displays the user groups that the user is a member of and the rights related to those user groups. 
+The ***User Groups*** tab displays the user groups that the user is a member of and the rights related to those user groups.
 
-{% snippet icon.badgeInfo %} 
-This feature is only available with an SQL Server/Azure SQL and a {{ en.DVLS }} (DVLS) data source. 
+{% snippet icon.badgeInfo %}
+This feature is only available with an SQL Server/Azure SQL and a {{ en.DVLS }} (DVLS) data source.
 {% endsnippet %}
- 
-![!!RDMWin2219](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2219.png)
+
+![!!RDMWin2219](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMWin2219.png)

@@ -1,13 +1,13 @@
 ---
 eleventyComputed:
   title: Add website
-  description: The Add Website button is only available while in the Matching tab, which is the tab selected when opening the extension. It opens a new tab in your browser that allows you to add a website entry in {{ en.RDM }} through the {{ en.WBEX }}. 
+  description: The Add Website button is only available while in the Matching tab, which is the tab selected when opening the extension. It opens a new tab in your browser that allows you to add a website entry in {{ en.RDM }} through the {{ en.WBEX }}.
 ---
-The ***Add Website*** button is only available while in the [***Matching***](/rdm/windows/workspace-browser-extension/workspace-browser-extension-user-interface/side-menu/) tab, which is the tab selected when opening the extension. It opens a new tab in your browser that allows you to add a website entry in {{ en.RDM }} through the {{ en.WBEX }}.  
+The ***Add Website*** button is only available while in the [***Matching***](/rdm/windows/workspace-browser-extension/workspace-browser-extension-user-interface/side-menu/) tab, which is the tab selected when opening the extension. It opens a new tab in your browser that allows you to add a website entry in {{ en.RDM }} through the {{ en.WBEX }}.
 
-When {{ en.RDM }} is used as the data source, the entry configuration is done in the ***General*** tab. 
-See the table below to learn about each field/setting from this view.  
-![Add Website](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2130.png) 
+When {{ en.RDM }} is used as the data source, the entry configuration is done in the ***General*** tab.
+See the table below to learn about each field/setting from this view.
+![Add Website](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMWin2130.png)
 
 | FIELD/SETTING | DESCRIPTION |
 |---------------|-------------|
@@ -22,6 +22,6 @@ See the table below to learn about each field/setting from this view.
 | Save | Save the settings of your new website entry and create the entry.                                                                |
 | Cancel | Cancel the creation of a new website entry and clears all unsaved changes to settings.                                         |
 
-{% snippet icon.badgeInfo %} 
-Follow our step-by-step guide on how to [add a website entry with the {{ en.WBEX }}](/rdm/windows/workspace-browser-extension/using-workspace-browser-extension/add-website-entry-workspace-browser-extension/). 
+{% snippet icon.badgeInfo %}
+Follow our step-by-step guide on how to [add a website entry with the {{ en.WBEX }}](/rdm/windows/workspace-browser-extension/using-workspace-browser-extension/add-website-entry-workspace-browser-extension/).
 {% endsnippet %}

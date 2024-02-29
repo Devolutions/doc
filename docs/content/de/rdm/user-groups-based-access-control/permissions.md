@@ -2,12 +2,12 @@
 eleventyComputed:
   title: Berechtigungen
 ---
-{% youtube 'FQACxCIj_GU' %}  
+{% youtube 'FQACxCIj_GU' %}
 
 Das Fenster für die ***Berechtigungen***, das nur in einer [Erweiteren Datenquelle](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/), verfügbar ist, befindet sich unter den Eigenschaften jedes Eintrags im Abschnitt ***Sicherheit*** – ***Berechtigungen*** (oder ***Sicherheit*** – ***Vererbt Berechtigungen*** auf Tresor-Ebene).
 
-Das auf Nutzergruppen basierende Berechtigungssystem biete eine sehr genaue Kontrolle über die Sicherheit. Hier ist ein Überblick über das Berechtigungsfenster:  
-![Berechtigungsfenster](https://webdevolutions.azureedge.net/docs/de/rdm/windows/RDMWin6083.png)  
+Das auf Nutzergruppen basierende Berechtigungssystem biete eine sehr genaue Kontrolle über die Sicherheit. Hier ist ein Überblick über das Berechtigungsfenster:
+![Berechtigungsfenster](https://cdnweb.devolutions.net/docs/de/rdm/windows/RDMWin6083.png)
 
 | OPTION             | BESCHREIBUNG                                                                                                               |
 |---------------------|---------------------------------------------------------------------------------------------------------------------------|
@@ -16,4 +16,4 @@ Das auf Nutzergruppen basierende Berechtigungssystem biete eine sehr genaue Kont
 | Vererbte Werte    | Gibt an, was von übergeordneten Gruppen geerbt wird.                                                 |
 | Auswählen Nutzergruppen  | Ermöglicht die Auswahl von Nutzern/Nutzergruppen. Nur verfügbar, wenn die Berechtigung auf ***Nutzerdefiniert*** eingestellt ist. |
 
-![Batch-Zugriff gewähren](https://webdevolutions.azureedge.net/docs/de/rdm/windows/RDMWin6082.png) 
+![Batch-Zugriff gewähren](https://cdnweb.devolutions.net/docs/de/rdm/windows/RDMWin6082.png)

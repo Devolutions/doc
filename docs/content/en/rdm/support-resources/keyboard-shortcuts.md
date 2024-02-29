@@ -3,23 +3,23 @@ eleventyComputed:
   title: Keyboard shortcuts
   description: Here are the default keyboard shortcuts for various commands.
 ---
-Here are the default keyboard shortcuts for various commands. These can be modified in ***File – Options – User Interface – Keyboard***.  
+Here are the default keyboard shortcuts for various commands. These can be modified in ***File – Options – User Interface – Keyboard***.
 
-The ***Disable All*** button allows you to disable all shortcuts. The ***Reset Default*** button returns shortcuts to their default values.  
+The ***Disable All*** button allows you to disable all shortcuts. The ***Reset Default*** button returns shortcuts to their default values.
 
-{% snippet icon.badgeCaution %} 
-Both the ***Disable All*** and ***Reset Default*** buttons will erase your custom shortcuts. Use these options with care so as not to risk losing your custom shortcuts. 
+{% snippet icon.badgeCaution %}
+Both the ***Disable All*** and ***Reset Default*** buttons will erase your custom shortcuts. Use these options with care so as not to risk losing your custom shortcuts.
 {% endsnippet %}
- 
-{% snippet icon.badgeInfo %} 
-Visit [Keyboard shortcuts customization in {{ en.RDMWIN }}](/kb/remote-desktop-manager/how-to-articles/keyboard-shortcuts-customization-rdm-windows/). 
+
+{% snippet icon.badgeInfo %}
+Visit [Keyboard shortcuts customization in {{ en.RDMWIN }}](/kb/remote-desktop-manager/how-to-articles/keyboard-shortcuts-customization-rdm-windows/).
 {% endsnippet %}
- 
-![Keyboard Shortcuts](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2101.png) 
 
-## Default Shortcuts 
+![Keyboard Shortcuts](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMWin2101.png)
 
-### Actions 
+## Default Shortcuts
+
+### Actions
 | ACTION | SHORTCUT |
 |--------|----------|
 | Clipboard - Copy Connection String | <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>H</kbd> |
@@ -50,7 +50,7 @@ Visit [Keyboard shortcuts customization in {{ en.RDMWIN }}](/kb/remote-desktop-m
 | User Specific Settings | <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>E</kbd> |
 
 
-### General 
+### General
 
 | ACTION | SHORTCUT |
 |--------|----------|
@@ -62,13 +62,13 @@ Visit [Keyboard shortcuts customization in {{ en.RDMWIN }}](/kb/remote-desktop-m
 | Quick Search | <kbd>Ctrl</kbd>+<kbd>Space</kbd> |
 | Refresh | <kbd>F5</kbd> |
 
-### Import/Export 
+### Import/Export
 
 | ACTION | SHORTCUT |
 |--------|----------|
 | Import in {{ en.VLT }} (.rdm) | <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>I</kbd> |
 
-### Navigation 
+### Navigation
 
 | ACTION | SHORTCUT |
 |--------|----------|
@@ -100,7 +100,7 @@ Visit [Keyboard shortcuts customization in {{ en.RDMWIN }}](/kb/remote-desktop-m
 | Switch Data Source | <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>D</kbd> |
 | Switch {{ en.VLT }} | <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>R</kbd> |
 
-### View 
+### View
 
 | ACTION | SHORTCUT |
 |--------|----------|

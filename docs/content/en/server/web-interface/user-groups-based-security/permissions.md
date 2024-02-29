@@ -5,13 +5,13 @@ eleventyComputed:
   keywords:
   - Roles
 ---
-The ***Permissions*** panel can be found in every entry properties in the ***Security – Permissions*** section.  
+The ***Permissions*** panel can be found in every entry properties in the ***Security – Permissions*** section.
 
-Allow administrators to grant administrative permissions to standard users without making them administrators with [system permissions](/server/web-interface/administration/configuration/system-permissions/).  
+Allow administrators to grant administrative permissions to standard users without making them administrators with [system permissions](/server/web-interface/administration/configuration/system-permissions/).
 
-The user groups based permissions system can give a very accurate control of the security. Here is an overview of the permissions window:  
+The user groups based permissions system can give a very accurate control of the security. Here is an overview of the permissions window:
 
-![Permissions](https://webdevolutions.azureedge.net/docs/en/server/clip8046.png) 
+![Permissions](https://cdnweb.devolutions.net/docs/en/server/clip8046.png)
 
 | Option                       | Description                                                                                                       |
 |------------------------------|-------------------------------------------------------------------------------------------------------------------|
@@ -20,9 +20,9 @@ The user groups based permissions system can give a very accurate control of the
 | Users / User groups selector | Select users / user groups to be granted the permission. Available only if the permission is set to ***Custom***. |
 | Current permission           | Displays the granted permission for the current entry.                                                            |
 
-## General 
+## General
 
-![Permissions – General](https://webdevolutions.azureedge.net/docs/en/server/clip8047.png) 
+![Permissions – General](https://cdnweb.devolutions.net/docs/en/server/clip8047.png)
 
 | Option            | Description                                                                                       |
 |-------------------|---------------------------------------------------------------------------------------------------|
@@ -34,9 +34,9 @@ The user groups based permissions system can give a very accurate control of the
 | View password     | Allow users / user groups to view entry password.                                                 |
 | Connect (Execute) | Allow users / user groups to open entries.                                                        |
 
-## Security 
+## Security
 
-![Permissions – Security](https://webdevolutions.azureedge.net/docs/en/server/clip8048.png) 
+![Permissions – Security](https://cdnweb.devolutions.net/docs/en/server/clip8048.png)
 
 | Option           | Description                                              |
 |------------------|----------------------------------------------------------|
@@ -44,27 +44,27 @@ The user groups based permissions system can give a very accurate control of the
 | Entry history    | Allow users / user groups to view and use entry history. |
 | Password History | Allow users / user groups to view the password history.  |
 
-## More 
+## More
 
-![Permissions – More](https://webdevolutions.azureedge.net/docs/en/server/clip8049.png) 
+![Permissions – More](https://cdnweb.devolutions.net/docs/en/server/clip8049.png)
 
 | Option       | Description                                                 |
 |--------------|-------------------------------------------------------------|
 | Remote tools | Allow users / user groups to use remote tools.              |
 | Inventory    | Allow users / user groups to use the inventory report tool. |
 
-## Attachments 
+## Attachments
 
-![Permissions – Attachments](https://webdevolutions.azureedge.net/docs/en/server/clip8050.png) 
+![Permissions – Attachments](https://cdnweb.devolutions.net/docs/en/server/clip8050.png)
 
 | Option                      | Description                                               |
 |-----------------------------|-----------------------------------------------------------|
 | View attachments            | Allow users / user groups to view attachments.            |
 | Add/edit/delete attachments | Allow users / user groups to add/edit/delete attachments. |
 
-## Documentation 
+## Documentation
 
-![Permissions – Documentation](https://webdevolutions.azureedge.net/docs/en/server/clip8051.png) 
+![Permissions – Documentation](https://cdnweb.devolutions.net/docs/en/server/clip8051.png)
 
 | Option             | Description                                      |
 |--------------------|--------------------------------------------------|

@@ -1,27 +1,27 @@
 ---
 eleventyComputed:
   title: Types
-  description: Use File - Preferences - Types to control settings applied to Session entries. 
+  description: Use File - Preferences - Types to control settings applied to Session entries.
 ---
-Use File - Preferences - Types to control settings applied to Session entries. 
+Use File - Preferences - Types to control settings applied to Session entries.
 
-## Settings 
+## Settings
 
-![Preferences - Types](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10319.png) 
+![Preferences - Types](https://cdnweb.devolutions.net/docs/en/rdm/mac/clip10319.png)
 
-### Session Type 
+### Session Type
 
 | OPTION                   | DESCRIPTION |
 |--------------------------|-------------|
 | Default close all action | Select the Default action for the Close all button when multiple tabs are open at the same time in the dashboard:<ul><li>Disconnect (disconnect all opened tab connected session)</li><li> Log off (Log off all opened tab session)</li><li> Default (Close all opened tab sessions)</li></ul> |
 
-### Credentials 
+### Credentials
 
 | OPTION             | DESCRIPTION |
 |--------------------|-------------|
 | Global Availability | Define the default setting of the Global Availability for the [{{ en.UVLT }}](/rdm/mac/user-interface/navigation-pane/user-vault)<br><br>Search between:<ul><li>Available</li><li> Unavailable</li></ul> |
 
-### RDP 
+### RDP
 
 | OPTION              | DESCRIPTION |
 |---------------------|-------------|
@@ -32,7 +32,7 @@ Use File - Preferences - Types to control settings applied to Session entries.
 | RDP Engine          | Select between:<ul><li>Default<li>V2</li><li> V3</li><li> V4</li></ul> |
 | Gateway Transport   | Select between:<br><li> Auto</li><li> Http<li> RPC</li></ul> |
 
-### Others 
+### Others
 | OPTION        | DESCRIPTION |
 |---------------|-------------|
 | Screen display| When using ARD session you will be prompt to know which screen display to use. By default it will take the primary screen. |

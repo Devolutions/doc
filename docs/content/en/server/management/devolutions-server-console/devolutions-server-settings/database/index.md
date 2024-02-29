@@ -4,9 +4,9 @@ eleventyComputed:
   description: The Database tab section contains the information of the SQL Server, the SQL credentials information, and the database name used by {{ en.DVLS }}.
   order: 20
 ---
-The ***Database*** tab section contains the information of the SQL Server, the SQL credentials information, and the database name used by {{ en.DVLS }}. 
+The ***Database*** tab section contains the information of the SQL Server, the SQL credentials information, and the database name used by {{ en.DVLS }}.
 
-![Server settings – Database](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8002.png) 
+![Server settings – Database](https://cdnweb.devolutions.net/docs/en/server/ServerOp8002.png)
 
 ## Settings
 
@@ -25,8 +25,8 @@ The ***Database*** tab section contains the information of the SQL Server, the S
 
 ### Credentials
 
-{% snippet icon.badgeInfo %} 
-Note that the Integrated Security or Credentials settings affect how the {{ en.DVLS }} communicates with the SQL database. These options do not have any impact on how users will authenticate on the {{ en.DVLS }} instance. 
+{% snippet icon.badgeInfo %}
+Note that the Integrated Security or Credentials settings affect how the {{ en.DVLS }} communicates with the SQL database. These options do not have any impact on how users will authenticate on the {{ en.DVLS }} instance.
 {% endsnippet %}
 
 | Option               | Description                                                                                                                                              |

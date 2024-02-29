@@ -2,8 +2,8 @@
 eleventyComputed:
   title: Window
 ---
-The Window menu allows you to manage the overall display of {{ en.RDMMAC }}.  
-![Windows ribbon](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10461.png)
+The Window menu allows you to manage the overall display of {{ en.RDMMAC }}.
+![Windows ribbon](https://cdnweb.devolutions.net/docs/en/rdm/mac/clip10461.png)
 
 ## Settings
 | OPTION       | DESCRIPTION                                                                          |

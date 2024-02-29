@@ -5,7 +5,7 @@ eleventyComputed:
 ---
 ***User Template*** allows you to modify the user settings that are selected by default when creating a new user in [***User Management***](/rdm/windows/commands/administration/management/user-management/).
 
-![Administration – System Settings – User Management – User Template](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2173.png)  
+![Administration – System Settings – User Management – User Template](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMWin2173.png)
 
 | SETTING            | DESCRIPTION                                                           |
 |--------------------|-----------------------------------------------------------------------|
@@ -18,4 +18,4 @@ eleventyComputed:
 
 {% snippet icon.badgeInfo %}
 Other options can be enabled/disabled depending on the data source type.
-{% endsnippet %}  
+{% endsnippet %}

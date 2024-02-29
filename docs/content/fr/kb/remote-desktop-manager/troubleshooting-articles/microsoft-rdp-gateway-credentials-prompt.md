@@ -6,5 +6,5 @@ This problem happens when you have RD Gateway configured with some credentials a
 
 ## Solution
 
-In the ***Advanced settings*** of an RDP session set the ***Reconnect mode*** to ***Full*** This will force the complete disconnect/reconnect and it will resolve the issue.  
-![!!KB4037](https://webdevolutions.azureedge.net/docs/en/kb/KB4037.png)
+In the ***Advanced settings*** of an RDP session set the ***Reconnect mode*** to ***Full*** This will force the complete disconnect/reconnect and it will resolve the issue.
+![!!KB4037](https://cdnweb.devolutions.net/docs/en/kb/KB4037.png)

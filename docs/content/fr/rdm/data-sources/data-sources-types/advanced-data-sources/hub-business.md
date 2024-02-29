@@ -2,64 +2,64 @@
 eleventyComputed:
   title: "{{ fr.DHUBB }}"
 ---
-{% youtube 'HOufQYIfmlE' %}  
+{% youtube 'HOufQYIfmlE' %}
 
-{{ fr.DHUBB }} est pour les entreprises qui ont besoin de partager des mots de passe et des identifiants au sein de leur organisation  
+{{ fr.DHUBB }} est pour les entreprises qui ont besoin de partager des mots de passe et des identifiants au sein de leur organisation
 
-Veuillez consulter notre site [Web](https://devolutions.net/password-hub/fr) pour plus d'informations sur ce service. 
-{% snippet icon.badgeInfo %} 
-Pour commencer dès aujourd'hui votre essai gratuit de {{ fr.DHUBB }}, [cliquez ici](https://devolutions.net/password-hub/fr/business/sign-up). 
+Veuillez consulter notre site [Web](https://devolutions.net/password-hub/fr) pour plus d'informations sur ce service.
+{% snippet icon.badgeInfo %}
+Pour commencer dès aujourd'hui votre essai gratuit de {{ fr.DHUBB }}, [cliquez ici](https://devolutions.net/password-hub/fr/business/sign-up).
 {% endsnippet %}
- 
-## Paramètres 
 
-### Général 
+## Paramètres
 
-![!!RdmWin4035](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RdmWin4035.png) 
+### Général
+
+![!!RdmWin4035](https://cdnweb.devolutions.net/docs/fr/rdm/windows/RdmWin4035.png)
 
 <table>
 	<tr>
 		<th>
 
-OPTION 
+OPTION
 		</th>
 		<th>
-DESCRIPTION 
+DESCRIPTION
 		</th>
 	</tr>
 	<tr>
 		<td>
-Nom 
+Nom
 		</td>
 		<td>
-Nom de la source de données. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Nom d'utilisateur 
-		</td>
-		<td>
-Votre adresse courriel du [{{ fr.DA }}](https://portal.devolutions.com/). 
+Nom de la source de données.
 		</td>
 	</tr>
 	<tr>
 		<td>
-Hôte 
+Nom d'utilisateur
 		</td>
 		<td>
-Copier dans ***Hôte*** votre URL {{ fr.DHUBB }} (p. ex. https://windjammer.devolutions.app/) ou cliquer sur les 3 points pour obtenir une liste déroulante à sélectionner. 
+Votre adresse courriel du [{{ fr.DA }}](https://portal.devolutions.com/).
+		</td>
+	</tr>
+	<tr>
+		<td>
+Hôte
+		</td>
+		<td>
+Copier dans ***Hôte*** votre URL {{ fr.DHUBB }} (p. ex. https://windjammer.devolutions.app/) ou cliquer sur les 3 points pour obtenir une liste déroulante à sélectionner.
 		</td>
 	</tr>
 </table>
 
-### VPN 
+### VPN
 
-Ouvrir un VPN pour accéder à vos données avant de vous connecter à votre {{ fr.DHUB }}.  
-![!!RdmWin4036](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RdmWin4036.png) 
+Ouvrir un VPN pour accéder à vos données avant de vous connecter à votre {{ fr.DHUB }}.
+![!!RdmWin4036](https://cdnweb.devolutions.net/docs/fr/rdm/windows/RdmWin4036.png)
 
-### Avancé 
+### Avancé
 
-Définir l'intervalle d'actualisation automatique.  
-![!!RdmWin4037](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RdmWin4037.png) 
+Définir l'intervalle d'actualisation automatique.
+![!!RdmWin4037](https://cdnweb.devolutions.net/docs/fr/rdm/windows/RdmWin4037.png)
 

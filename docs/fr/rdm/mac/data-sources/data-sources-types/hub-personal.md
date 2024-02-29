@@ -2,51 +2,51 @@
 eleventyComputed:
   title: "{{ fr.DHUBP }}"
 ---
-{{ fr.DHUBP }}, pour les utilisateurs individuels qui souhaitent sécuriser gratuitement leurs mots de passe personnels dans un {{ fr.VLT }}.  
+{{ fr.DHUBP }}, pour les utilisateurs individuels qui souhaitent sécuriser gratuitement leurs mots de passe personnels dans un {{ fr.VLT }}.
 
-Veuillez consulter notre site [Web](https://devolutions.net/password-hub/fr/personal) pour plus d'informations sur ce service.  
+Veuillez consulter notre site [Web](https://devolutions.net/password-hub/fr/personal) pour plus d'informations sur ce service.
 
-## Paramètres 
+## Paramètres
 
-### Général 
+### Général
 
-![!!RDMMac4026](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/RdmMac4026.png) 
+![!!RDMMac4026](https://cdnweb.devolutions.net/docs/fr/rdm/mac/RdmMac4026.png)
 
 <table>
 	<tr>
 		<th>
-		
-OPTION 
+
+OPTION
 		</th>
 		<th>
-DESCRIPTION 
+DESCRIPTION
 		</th>
 	</tr>
 	<tr>
 		<td>
-Nom 
+Nom
 		</td>
 		<td>
-Nom de la source de données. 
+Nom de la source de données.
 		</td>
 	</tr>
 	<tr>
 		<td>
-Nom d'utilisateur 
+Nom d'utilisateur
 		</td>
 		<td>
-L'adresse courriel de votre [{{ fr.DA }}](https://portal.devolutions.com/). Vous pouvez en créer un gratuitement, suivez le lien fourni dans la fenêtre. 
+L'adresse courriel de votre [{{ fr.DA }}](https://portal.devolutions.com/). Vous pouvez en créer un gratuitement, suivez le lien fourni dans la fenêtre.
 		</td>
 	</tr>
 </table>
 
-### VPN 
+### VPN
 
-Ouvrir un ***VPN*** pour accéder à vos données avant de vous connecter à votre {{ fr.DHUBP }}.  
-![!!RDMMac4027](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/RdmMac4027.png) 
+Ouvrir un ***VPN*** pour accéder à vos données avant de vous connecter à votre {{ fr.DHUBP }}.
+![!!RDMMac4027](https://cdnweb.devolutions.net/docs/fr/rdm/mac/RdmMac4027.png)
 
-### Avancée 
+### Avancée
 
-Il s'agit de l'adresse du serveur.  
-![!!RDMMac4028](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/RdmMac4028.png) 
+Il s'agit de l'adresse du serveur.
+![!!RDMMac4028](https://cdnweb.devolutions.net/docs/fr/rdm/mac/RdmMac4028.png)
 

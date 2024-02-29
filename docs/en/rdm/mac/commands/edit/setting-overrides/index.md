@@ -5,7 +5,7 @@ eleventyComputed:
 Setting Overrides options are used to override the user specific settings or the local specific settings of a session.
 
 ## Settings
-![Edit – Setting Overrides](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10337.png)
+![Edit – Setting Overrides](https://cdnweb.devolutions.net/docs/en/rdm/mac/clip10337.png)
 
 | OPTION                               | DESCRIPTION                                                                                  |
 |--------------------------------------|----------------------------------------------------------------------------------------------|

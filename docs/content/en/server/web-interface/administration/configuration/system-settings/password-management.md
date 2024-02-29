@@ -2,8 +2,8 @@
 eleventyComputed:
   title: Password management
 ---
-The ***Password Management*** settings allow to set the minimal requirements for passwords that will be saved in the entries.  
-![Administration – System Settings – Password Management](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8076.png)
+The ***Password Management*** settings allow to set the minimal requirements for passwords that will be saved in the entries.
+![Administration – System Settings – Password Management](https://cdnweb.devolutions.net/docs/en/server/ServerOp8076.png)
 
 ## Password Management
 

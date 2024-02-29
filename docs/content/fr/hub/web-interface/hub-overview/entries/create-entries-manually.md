@@ -9,9 +9,9 @@ Créer des entrées manuellement et enregistrer vos données dans {{ fr.DHUBB }}
 
 1. Sélectionner le {{ fr.VLT }} / {{ fr.UVLT }} et le dossier dans lequel vous souhaitez créer la nouvelle entrée.
 1. Cliquer sur le bouton ***Ajouter*** situé dans le ***{{ fr.NPANE }}***.
-   ![Ajouter](https://webdevolutions.azureedge.net/docs/fr/hub/Hub2166.png)
+   ![Ajouter](https://cdnweb.devolutions.net/docs/fr/hub/Hub2166.png)
 1. Sélectionner un [type d'entrée](/fr/hub/web-interface/hub-overview/entries/entry-type/) dans la liste.
-   ![Type d'entrée](https://webdevolutions.azureedge.net/docs/fr/hub/Hub2167.png)
+   ![Type d'entrée](https://cdnweb.devolutions.net/docs/fr/hub/Hub2167.png)
 1. Cliquer sur ***Continuer***.
 1. Configurer l'entrée avec toutes les informations requises.
 1. Cliquer sur ***Ajouter*** pour enregistrer.

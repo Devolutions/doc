@@ -10,7 +10,7 @@ In {{ en.RDM }}, to use the Offline Mode with a {{ en.DHUBP }} data source, you 
 ## Steps
 
 1. In {{ en.DHUBP }}, go to ***Tools – Settings***.
-![Tools – Settings](https://webdevolutions.azureedge.net/docs/en/kb/KB2147.png)
+![Tools – Settings](https://cdnweb.devolutions.net/docs/en/kb/KB2147.png)
 1. In the ***Allow offline mode*** drop-down menu, select ***Yes***.
-![Allow offline mode](https://webdevolutions.azureedge.net/docs/en/kb/KB2148.png)
+![Allow offline mode](https://cdnweb.devolutions.net/docs/en/kb/KB2148.png)
 1. Click ***Save***.

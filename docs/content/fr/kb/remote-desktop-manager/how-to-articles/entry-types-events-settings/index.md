@@ -2,12 +2,12 @@
 eleventyComputed:
   title: Entry types events settings
 ---
-{{ en.RDM }} gives you the flexibility to automatically run operations before or after establishing a connection.  
+{{ en.RDM }} gives you the flexibility to automatically run operations before or after establishing a connection.
 
-These operations are defined via the ***Events*** section of a session's properties. Define a script or a command line which executes at the appropriate time with the provided parameters, such as the session ID or username. For example, events can be used to execute an external batch file or application that prompts the user for more information, or to update a log on a remote server.  
-![!!KB4618](https://webdevolutions.azureedge.net/docs/en/kb/KB4618.png)
+These operations are defined via the ***Events*** section of a session's properties. Define a script or a command line which executes at the appropriate time with the provided parameters, such as the session ID or username. For example, events can be used to execute an external batch file or application that prompts the user for more information, or to update a log on a remote server.
+![!!KB4618](https://cdnweb.devolutions.net/docs/en/kb/KB4618.png)
 ## Settings
-The ***Events*** section is composed of four tabs. All of them can execute the same events. But at specific times, such as before the connection is established or after its interruption.  
+The ***Events*** section is composed of four tabs. All of them can execute the same events. But at specific times, such as before the connection is established or after its interruption.
 
 <table>
 	<tr>
@@ -77,14 +77,14 @@ Provide text to copy to the clipboard.
 </table>
 
 ### Before Connect – Miscellaneous
-The ***Miscellaneous*** section of the ***Before Connect*** tab allows to power on the remote device before trying to establish the connection.  
+The ***Miscellaneous*** section of the ***Before Connect*** tab allows to power on the remote device before trying to establish the connection.
 
-Please note that for the Wake-on-LAN feature to work:  
+Please note that for the Wake-on-LAN feature to work:
 
 * The remote device must support the Wake-on-LAN feature.
-* The MAC address must be filled out in the ***Information*** section of the session properties.  
+* The MAC address must be filled out in the ***Information*** section of the session properties.
 
-![!!KB4619](https://webdevolutions.azureedge.net/docs/en/kb/KB4619.png)
+![!!KB4619](https://cdnweb.devolutions.net/docs/en/kb/KB4619.png)
 
 <table>
 	<tr>
@@ -122,12 +122,12 @@ Enter the number of time to try to wake the remote device.
 </table>
 
 ### After Connect – Macro
-![!!KB4620](https://webdevolutions.azureedge.net/docs/en/kb/KB4620.png)  
+![!!KB4620](https://cdnweb.devolutions.net/docs/en/kb/KB4620.png)
 {% snippet icon.shieldWarning %}
-This feature simply uses a basic mechanism of sending keystrokes provided by the .NET Framework, emulating someone using the keyboard. It sends the keystrokes to the operating system itself, and they are handled by WHATEVER application has the focus at that time. If the focus is switched to another window, the credentials will most likely be revealed by being typed in a text area.  
+This feature simply uses a basic mechanism of sending keystrokes provided by the .NET Framework, emulating someone using the keyboard. It sends the keystrokes to the operating system itself, and they are handled by WHATEVER application has the focus at that time. If the focus is switched to another window, the credentials will most likely be revealed by being typed in a text area.
 
 Be advised that using this feature in an environment where passwords must be hidden from the user is highly discouraged.
-{% endsnippet %}  
+{% endsnippet %}
 
 <table>
 	<tr>

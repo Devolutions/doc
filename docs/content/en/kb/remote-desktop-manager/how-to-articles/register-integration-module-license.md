@@ -12,15 +12,15 @@ This feature is only available for some specific data sources, namely: {{ en.DVL
 {% endsnippet %}
 
 ## Licensing with {{ en.DVLS }} data source
-1. In {{ en.RDM }} go to ***Administration – Licenses*** it will redirect you to the {{ en.DVLS }} web interface ***Administration – Licenses*** section.  
-![!!KB4827](https://webdevolutions.azureedge.net/docs/en/kb/KB4827.png)
-1. Click on ***Add***.  
-![!!KB4828](https://webdevolutions.azureedge.net/docs/en/kb/KB4828.png)
-1. Paste your integration license and click ***Add***.  
-![!!KB4829](https://webdevolutions.azureedge.net/docs/en/kb/KB4829.png)
+1. In {{ en.RDM }} go to ***Administration – Licenses*** it will redirect you to the {{ en.DVLS }} web interface ***Administration – Licenses*** section.
+![!!KB4827](https://cdnweb.devolutions.net/docs/en/kb/KB4827.png)
+1. Click on ***Add***.
+![!!KB4828](https://cdnweb.devolutions.net/docs/en/kb/KB4828.png)
+1. Paste your integration license and click ***Add***.
+![!!KB4829](https://cdnweb.devolutions.net/docs/en/kb/KB4829.png)
 
 ## Licensing with all other data sources
-1. In {{ en.RDM }} go to ***Administration – Licenses***.  
-![!!KB4825](https://webdevolutions.azureedge.net/docs/en/kb/KB4825.png)
-1. Click on ***Add License***, paste your integration license and click ***OK***.  
-![!!KB4826](https://webdevolutions.azureedge.net/docs/en/kb/KB4826.png)
+1. In {{ en.RDM }} go to ***Administration – Licenses***.
+![!!KB4825](https://cdnweb.devolutions.net/docs/en/kb/KB4825.png)
+1. Click on ***Add License***, paste your integration license and click ***OK***.
+![!!KB4826](https://cdnweb.devolutions.net/docs/en/kb/KB4826.png)

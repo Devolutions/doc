@@ -2,14 +2,14 @@
 eleventyComputed:
   title: "{{ en.DHUB }} ownership"
 ---
-In ***Administration – Users***, you can change the ownership of {{ en.DHUBB }} to another administrator.  
+In ***Administration – Users***, you can change the ownership of {{ en.DHUBB }} to another administrator.
 
-To locate the actual owner, search for the crown icon next to a user.  
+To locate the actual owner, search for the crown icon next to a user.
 
-To change the owner, click the ***Set as owner*** icon next to the selected administrator.  
+To change the owner, click the ***Set as owner*** icon next to the selected administrator.
 
-{% snippet icon.badgeCaution %} 
-You can only have one owner at a time and only administrators can be owners. 
+{% snippet icon.badgeCaution %}
+You can only have one owner at a time and only administrators can be owners.
 {% endsnippet %}
- 
-![!!Hub4105](https://webdevolutions.azureedge.net/docs/en/hub/Hub4105.png) 
+
+![!!Hub4105](https://cdnweb.devolutions.net/docs/en/hub/Hub4105.png)

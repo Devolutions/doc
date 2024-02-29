@@ -10,4 +10,4 @@ Create an empty SQL database on your Microsoft Azure SQL portal. Provide enough 
 
 Once all fields are properly configured, click on the ***Update database*** button to update the database schema.
 
-![Server Settings – Database – Update Database](https://webdevolutions.azureedge.net/docs/en/kb/KB4228.png) 
+![Server Settings – Database – Update Database](https://cdnweb.devolutions.net/docs/en/kb/KB4228.png)

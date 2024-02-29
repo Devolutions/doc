@@ -25,34 +25,34 @@ MariaDB: [MySQLDump](https://mariadb.com/kb/en/mariadb/mysqldump/)
 ## Export a data source
 <a name="export"></a>
 
-1. Select the data source you wish to export.  
+1. Select the data source you wish to export.
 {% snippet icon.badgeCaution %}
 If you have multiple {{ en.VLT }}s, you will need to export each {{ en.VLT }} separately or use the ***Export all {{ en.VLT }}s (.rdx)*** in the ***Administration*** tab.
-{% endsnippet %}  
+{% endsnippet %}
 
-2. Select ***File – Export – Export {{ en.VLT }} (.rdm)***.  
-![File – Export – Export {{ en.VLT }} (.rdm)](https://webdevolutions.azureedge.net/docs/en/kb/KB4540.png)
+2. Select ***File – Export – Export {{ en.VLT }} (.rdm)***.
+![File – Export – Export {{ en.VLT }} (.rdm)](https://cdnweb.devolutions.net/docs/en/kb/KB4540.png)
 1. For a typical migration, you would check the options ***Include credentials***, ***Include attachments and documents***, and ***Encrypt with master key***.
    * You can choose to remove all the folders present in your navigation tree.
    * It is important to ***Include credentials*** at this step. If you choose not to, all your entries will be imported without any credentials.
    * If you have documents and attachments saved in your data, we highly recommend you check the option to include them in the export.
-   * Choose to ***Encrypt with master key*** as an added security layer.  
+   * Choose to ***Encrypt with master key*** as an added security layer.
 {% snippet icon.badgeWarning %}
 Ensure that you do not forget the ***Master Key*** as you will not be able to decrypt the data without it.
-{% endsnippet %}  
+{% endsnippet %}
 
-![Export Entries](https://webdevolutions.azureedge.net/docs/en/kb/KB4541.png)  
+![Export Entries](https://cdnweb.devolutions.net/docs/en/kb/KB4541.png)
 4. Save the file.
 
 ## Import a data source
 <a name="import"></a>
 
 1. Validate that your new data source is created and selected in the ***{{ en.NPANE }}***.
-1. Select ***File – Import – Import (.rdm)***.  
-![File – Import – Import (.rdm)](https://webdevolutions.azureedge.net/docs/en/kb/KB4542.png)
+1. Select ***File – Import – Import (.rdm)***.
+![File – Import – Import (.rdm)](https://cdnweb.devolutions.net/docs/en/kb/KB4542.png)
 1. Find your previously saved file on your computer, select it, then click ***Open***.
-1. In ***Import Entries***, select if you wish to ***Import in root***, ***Import in current folder***, or ***Import in specific folder***.  
-![Import Entries](https://webdevolutions.azureedge.net/docs/en/kb/KB4543.png)  
+1. In ***Import Entries***, select if you wish to ***Import in root***, ***Import in current folder***, or ***Import in specific folder***.
+![Import Entries](https://cdnweb.devolutions.net/docs/en/kb/KB4543.png)
 
    | Option                    | Description |
    | ------------------------- | ----------- |

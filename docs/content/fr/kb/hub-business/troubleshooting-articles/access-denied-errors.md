@@ -11,7 +11,7 @@ In {{ en.DHUB }}, many situations can trigger an ***Access denied*** error. Here
 ## List of Errors
 
 ### Activate your Two-Step Verification on your account.
-![Activate your Two-Step Verification on your account.](https://webdevolutions.azureedge.net/docs/en/kb/KB4770.png)
+![Activate your Two-Step Verification on your account.](https://cdnweb.devolutions.net/docs/en/kb/KB4770.png)
 
 <table>
 		<td>
@@ -32,7 +32,7 @@ All users that connect to this {{ en.DHUBB }} need to have a two-factor authenti
 </table>
 
 ### Enter your emergency reset code.
-![Enter your emergency reset code.](https://webdevolutions.azureedge.net/docs/en/kb/KB4771.png)
+![Enter your emergency reset code.](https://cdnweb.devolutions.net/docs/en/kb/KB4771.png)
 
 <table>
 		<td>
@@ -59,7 +59,7 @@ There is no way to recover it if the Emergency reset kit cannot be located.<br>
 </table>
 
 ### Please contact your administrator to be allowed to use the {{ en.WBEX }}.
-![Please contact your administrator to be allowed to use the {{ en.WBEX }}.](https://webdevolutions.azureedge.net/docs/en/kb/KB2146.png)
+![Please contact your administrator to be allowed to use the {{ en.WBEX }}.](https://cdnweb.devolutions.net/docs/en/kb/KB2146.png)
 
 <table>
 		<td>
@@ -80,7 +80,7 @@ The user needs to contact their {{ en.DHUBB }} administrator or any user that ha
 </table>
 
 ### Please contact your administrator to enable your account.
-![Please contact your administrator to enable your account.](https://webdevolutions.azureedge.net/docs/en/kb/KB4767.png)
+![Please contact your administrator to enable your account.](https://cdnweb.devolutions.net/docs/en/kb/KB4767.png)
 
 <table>
 		<td>
@@ -101,7 +101,7 @@ The user needs to contact their {{ en.DHUBB }} administrator or any user that ha
 </table>
 
 ### Please contact your administrator to request an invitation.
-![Please contact your administrator to request an invitation.](https://webdevolutions.azureedge.net/docs/en/kb/KB4763.png)
+![Please contact your administrator to request an invitation.](https://cdnweb.devolutions.net/docs/en/kb/KB4763.png)
 
 <table>
 		<td>
@@ -122,7 +122,7 @@ An administrator or any user that has the permission to manage users needs to in
 </table>
 
 ### Please contact your administrator to request an invitation OR Enter your emergency reset code.
-![Please contact your administrator to request an invitation OR Enter your emergency reset code.](https://webdevolutions.azureedge.net/docs/en/kb/KB4765.png)
+![Please contact your administrator to request an invitation OR Enter your emergency reset code.](https://cdnweb.devolutions.net/docs/en/kb/KB4765.png)
 
 <table>
 	<tr>
@@ -152,7 +152,7 @@ You can search for a PDF file titled "{{ en.DHUB }} Emergency Kit huburlxxxx.dev
 </table>
 
 ### We detected a forgot password. In order to regain access to this Hub, please contact your administrator to request a new invitation.
-![We detected a forgot password. In order to regain access to this Hub, please contact your administrator to request a new invitation.](https://webdevolutions.azureedge.net/docs/en/kb/KB4764.png)
+![We detected a forgot password. In order to regain access to this Hub, please contact your administrator to request a new invitation.](https://cdnweb.devolutions.net/docs/en/kb/KB4764.png)
 
 <table>
 		<td>
@@ -175,7 +175,7 @@ An administrator or any user that has the permission to manage users needs to re
 </table>
 
 ### We detected a forgot password or a lost your phone (unpaired). In order to regain access to this Hub, please contact your administrator to request a new invitation.
-![We detected a forgot password or a lost your phone (unpaired). In order to regain access to this Hub, please contact your administrator to request a new invitation.](https://webdevolutions.azureedge.net/docs/en/kb/KB2219.png)
+![We detected a forgot password or a lost your phone (unpaired). In order to regain access to this Hub, please contact your administrator to request a new invitation.](https://cdnweb.devolutions.net/docs/en/kb/KB2219.png)
 
 <table>
 		<td>
@@ -203,7 +203,7 @@ Solution
 </table>
 
 ### {{ en.WS }} is disabled for this user on this hub.
-![{{ en.WS }} is disabled for this user on this hub.](https://webdevolutions.azureedge.net/docs/en/kb/KB2209.png)
+![{{ en.WS }} is disabled for this user on this hub.](https://cdnweb.devolutions.net/docs/en/kb/KB2209.png)
 
 <table>
 		<td>
@@ -224,7 +224,7 @@ The user needs to contact their {{ en.DHUBB }} administrator or any user that ha
 </table>
 
 ### Your IP address is not allowed.
-![Your IP address is not allowed.](https://webdevolutions.azureedge.net/docs/en/kb/KB4768.png)
+![Your IP address is not allowed.](https://cdnweb.devolutions.net/docs/en/kb/KB4768.png)
 
 <table>
 		<td>
@@ -245,7 +245,7 @@ The user needs to contact their {{ en.DHUBB }} administrator.
 </table>
 
 ### Your license is invalid; please contact your administrator. If you believe this is an error, contact support.
-![Your license is invalid; please contact your administrator. If you believe this is an error, contact support.](https://webdevolutions.azureedge.net/docs/en/kb/KB4766.png)
+![Your license is invalid; please contact your administrator. If you believe this is an error, contact support.](https://cdnweb.devolutions.net/docs/en/kb/KB4766.png)
 
 <table>
 		<td>
@@ -266,7 +266,7 @@ The {{ en.DHUBB }} owner must <a href="https://store.devolutions.net/store">buy 
 </table>
 
 ### Your hub has been disabled; contact your administrator.
-![Your hub has been disabled; contact your administrator.](https://webdevolutions.azureedge.net/docs/en/kb/KB4769.png)
+![Your hub has been disabled; contact your administrator.](https://cdnweb.devolutions.net/docs/en/kb/KB4769.png)
 
 <table>
 		<td>

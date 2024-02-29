@@ -4,8 +4,8 @@ eleventyComputed:
   keywords:
   - Roles
 ---
-Assign users to ***User Groups***.  
-![Edit User – User Groups](https://webdevolutions.azureedge.net/docs/en/server/ServerOp7007.png)
+Assign users to ***User Groups***.
+![Edit User – User Groups](https://cdnweb.devolutions.net/docs/en/server/ServerOp7007.png)
 
 ## Edit user
 | Option      | Description                                                                                     |

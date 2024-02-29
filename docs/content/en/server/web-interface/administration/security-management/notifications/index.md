@@ -3,16 +3,16 @@ eleventyComputed:
   title: Notifications
   order: 40
 ---
-{% snippet icon.badgeInfo %} 
-The [Email](/server/web-interface/administration/configuration/server-settings/general/email/) feature must be enabled and properly configured to get the ***Notifications*** working. 
+{% snippet icon.badgeInfo %}
+The [Email](/server/web-interface/administration/configuration/server-settings/general/email/) feature must be enabled and properly configured to get the ***Notifications*** working.
 {% endsnippet %}
- 
-With {{ en.DVLS }}, it is possible to get email notifications based on user activities with the ***Notifications*** feature.  
 
-![Notifications](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8153.png)  
+With {{ en.DVLS }}, it is possible to get email notifications based on user activities with the ***Notifications*** feature.
 
-To get the Notification working, at least a [Subscriber](/server/web-interface/administration/security-management/notifications/subscribers/) and a [Subscription](/server/web-interface/administration/security-management/notifications/subscriptions/) need to be created. It is also possible to regroup Subscribers in [Subscriber Groups](/server/web-interface/administration/security-management/notifications/subscriber-groups/) to send notifications to a group of subscribers.  
+![Notifications](https://cdnweb.devolutions.net/docs/en/server/ServerOp8153.png)
 
-The following sample represents a notification email that has been received for an entry creation. 
+To get the Notification working, at least a [Subscriber](/server/web-interface/administration/security-management/notifications/subscribers/) and a [Subscription](/server/web-interface/administration/security-management/notifications/subscriptions/) need to be created. It is also possible to regroup Subscribers in [Subscriber Groups](/server/web-interface/administration/security-management/notifications/subscriber-groups/) to send notifications to a group of subscribers.
 
-![Email notification sample](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8159.png)  
+The following sample represents a notification email that has been received for an entry creation.
+
+![Email notification sample](https://cdnweb.devolutions.net/docs/en/server/ServerOp8159.png)

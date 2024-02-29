@@ -1,8 +1,8 @@
 {
   "_schema": "doc",
   "isTopic": true,
-  "icon": "https://webdevolutions.azureedge.net/images/projects/cloud/logos/cloud-icon-shadow.svg",
-  "logo": "https://webdevolutions.azureedge.net/images/projects/cloud/logos/cloud-color-shadow.svg",
+  "icon": "https://cdnweb.devolutions.net/images/projects/cloud/logos/cloud-icon-shadow.svg",
+  "logo": "https://cdnweb.devolutions.net/images/projects/cloud/logos/cloud-color-shadow.svg",
   "url": "/cloud/getting-started/devolutions-cloud-services/",
   "formattedName": "<b>Devolutions</b> Cloud Services",
   "sidebars": [

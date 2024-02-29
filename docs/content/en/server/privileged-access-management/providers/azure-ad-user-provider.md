@@ -6,9 +6,9 @@ The Azure AD user provider allows {{ en.DVLS }} to store the Azure AD applicatio
 
 {% snippet icon.badgeHelp %}
 See [Create an Azure AD PAM provider](/kb/devolutions-server/how-to-articles/create-azure-ad-pam-provider/) for more information on its configuration.
-{% endsnippet %}  
+{% endsnippet %}
 
-![Azure AD user provider](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8095.png)
+![Azure AD user provider](https://cdnweb.devolutions.net/docs/en/server/ServerOp8095.png)
 
 ## General
 | Option      | Description                  |

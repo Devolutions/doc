@@ -2,8 +2,8 @@
 eleventyComputed:
   title: Features
 ---
-The Features section section allows the administrator to configure the web interface features.  
-![Administration – Server Settings – Features](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8042.png)
+The Features section section allows the administrator to configure the web interface features.
+![Administration – Server Settings – Features](https://cdnweb.devolutions.net/docs/en/server/ServerOp8042.png)
 
 ## Settings
 | Option | Description                                                                                                        |

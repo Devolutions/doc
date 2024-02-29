@@ -2,7 +2,7 @@
 eleventyComputed:
   title: Verwaltung
 ---
-![Administration – System Berechtigungen – Verwaltung](https://webdevolutions.azureedge.net/docs/de/server/ServerOp0066.png)
+![Administration – System Berechtigungen – Verwaltung](https://cdnweb.devolutions.net/docs/de/server/ServerOp0066.png)
 
 | Option                   | Beschreibung                                                       |
 | ------------------------- | ------------------------------------------------------------------ |

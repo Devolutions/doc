@@ -2,310 +2,310 @@
 eleventyComputed:
   title: Générateur de mots de passe
 ---
-Le ***Générateur de mots de passe*** vous permet de créer des mots de passe aléatoires qui sont sécurisés et difficiles à interpréter ou à prédire en raison d'un mélange de lettres majuscules et minuscules, de chiffres et de symboles de ponctuation.  
+Le ***Générateur de mots de passe*** vous permet de créer des mots de passe aléatoires qui sont sécurisés et difficiles à interpréter ou à prédire en raison d'un mélange de lettres majuscules et minuscules, de chiffres et de symboles de ponctuation.
 
-Vous pouvez également créer des modèles de générateur de mots de passe pour générer plus rapidement vos mots de passe. Après avoir sélectionné votre mode et vos paramètres, vous pouvez créer votre modèle.  
+Vous pouvez également créer des modèles de générateur de mots de passe pour générer plus rapidement vos mots de passe. Après avoir sélectionné votre mode et vos paramètres, vous pouvez créer votre modèle.
 
-Le ***Générateur de mots de passe*** est disponible dans Outils - Générateur de mots de passe.  
-![Outils - Générateur de mots de passe](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4221.png) 
+Le ***Générateur de mots de passe*** est disponible dans Outils - Générateur de mots de passe.
+![Outils - Générateur de mots de passe](https://cdnweb.devolutions.net/docs/fr/rdm/mac/clip4221.png)
 
-## Paramètres 
+## Paramètres
 
-### Paramètres avancés 
+### Paramètres avancés
 
-Choisir tous les types de caractères que vous désirez et générer un mot de passe.  
-![Générateur de mot de passe - Paramètres avancés](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip0107.png) 
+Choisir tous les types de caractères que vous désirez et générer un mot de passe.
+![Générateur de mot de passe - Paramètres avancés](https://cdnweb.devolutions.net/docs/fr/rdm/mac/clip0107.png)
 
-### Mot de passe lisible 
+### Mot de passe lisible
 
-Chaque mot de passe généré sera lisible, mais ne sera pas un mot dans le dictionnaire.  
-![Générateur de mot de passe - Mot de passe lisible](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip0108.png) 
+Chaque mot de passe généré sera lisible, mais ne sera pas un mot dans le dictionnaire.
+![Générateur de mot de passe - Mot de passe lisible](https://cdnweb.devolutions.net/docs/fr/rdm/mac/clip0108.png)
 
-### Utiliser un modèle 
+### Utiliser un modèle
 
-Appuyer sur le bouton et sélectionner le modèle dont vous avez besoin pour créer vos mots de passe. Une liste des modèles utilisés les plus récents sera également créée.  
-![Générateur de mot de passe - Utiliser un modèle](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip0109.png) 
+Appuyer sur le bouton et sélectionner le modèle dont vous avez besoin pour créer vos mots de passe. Une liste des modèles utilisés les plus récents sera également créée.
+![Générateur de mot de passe - Utiliser un modèle](https://cdnweb.devolutions.net/docs/fr/rdm/mac/clip0109.png)
 
-Voici les modèles pris en charge :  
+Voici les modèles pris en charge :
 
 <table>
 	<tr>
 		<td>
-Clé 
+Clé
 		</td>
 		<td>
-Description 
+Description
 		</td>
 		<td>
-Échantillon 
-		</td>
-	</tr>
-	<tr>
-		<td>
-a 
-		</td>
-		<td>
-Alphanumérique en minuscule 
-		</td>
-		<td>
-abcdefghijklmnopqrstuvwxyz 0123456789 
+Échantillon
 		</td>
 	</tr>
 	<tr>
 		<td>
-A 
+a
 		</td>
 		<td>
-Alphanumérique à casse mixte 
+Alphanumérique en minuscule
 		</td>
 		<td>
-ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz 0123456789 
-		</td>
-	</tr>
-	<tr>
-		<td>
-b 
-		</td>
-		<td>
-Parenthèse 
-		</td>
-		<td>
-()[]{}<> 
+abcdefghijklmnopqrstuvwxyz 0123456789
 		</td>
 	</tr>
 	<tr>
 		<td>
-c 
+A
 		</td>
 		<td>
-Consonne en minuscule 
+Alphanumérique à casse mixte
 		</td>
 		<td>
-bcdfghjklmnpqrstvwxyz 
-		</td>
-	</tr>
-	<tr>
-		<td>
-C 
-		</td>
-		<td>
-Consonne à casse mixte 
-		</td>
-		<td>
-BCDFGHJKLMNPQRSTVWXYZ bcdfghjklmnpqrstvwxyz 
+ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz 0123456789
 		</td>
 	</tr>
 	<tr>
 		<td>
-d 
+b
 		</td>
 		<td>
-Chiffre 
+Parenthèse
 		</td>
 		<td>
-0123456789 
-		</td>
-	</tr>
-	<tr>
-		<td>
-h 
-		</td>
-		<td>
-Caractère hexadécimal en minuscule 
-		</td>
-		<td>
-0123456789 abcdef 
+()[]{}<>
 		</td>
 	</tr>
 	<tr>
 		<td>
-H 
+c
 		</td>
 		<td>
-Caractère hexadécimal en majuscule 
+Consonne en minuscule
 		</td>
 		<td>
-0123456789 ABCDEF 
-		</td>
-	</tr>
-	<tr>
-		<td>
-l 
-		</td>
-		<td>
-Lettre en minuscule 
-		</td>
-		<td>
-abcdefghijklmnopqrstuvwxyz 
+bcdfghjklmnpqrstvwxyz
 		</td>
 	</tr>
 	<tr>
 		<td>
-L 
+C
 		</td>
 		<td>
-Lettre à casse mixte 
+Consonne à casse mixte
 		</td>
 		<td>
-ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz 
-		</td>
-	</tr>
-	<tr>
-		<td>
-p 
-		</td>
-		<td>
-Ponctuation 
-		</td>
-		<td>
-,.;: 
+BCDFGHJKLMNPQRSTVWXYZ bcdfghjklmnpqrstvwxyz
 		</td>
 	</tr>
 	<tr>
 		<td>
-s 
+d
 		</td>
 		<td>
-Caractère spécial imprimable 7 bits 
+Chiffre
 		</td>
 		<td>
-!“#$%&'()*+,-./:;<=>?[\]^_{|}~ 
-		</td>
-	</tr>
-	<tr>
-		<td>
-S 
-		</td>
-		<td>
-ASCII 7 bits imprimable 
-		</td>
-		<td>
-A-Z, a-z, 0-9, !“#$%&'()*+,-./:;<=>?[\]^_{|}~ 
+0123456789
 		</td>
 	</tr>
 	<tr>
 		<td>
-u 
+h
 		</td>
 		<td>
-Lettre en majuscule 
+Caractère hexadécimal en minuscule
 		</td>
 		<td>
-ABCDEFGHIJKLMNOPQRSTUVWXYZ 
-		</td>
-	</tr>
-	<tr>
-		<td>
-U 
-		</td>
-		<td>
-Alphanumérique en majuscule 
-		</td>
-		<td>
-ABCDEFGHIJKLMNOPQRSTUVWXYZ 0123456789 
+0123456789 abcdef
 		</td>
 	</tr>
 	<tr>
 		<td>
-v 
+H
 		</td>
 		<td>
-Voyelle en minuscule 
+Caractère hexadécimal en majuscule
 		</td>
 		<td>
-aeiou 
-		</td>
-	</tr>
-	<tr>
-		<td>
-V 
-		</td>
-		<td>
-Voyelle à casse mixte 
-		</td>
-		<td>
-AEIOU aeiou 
+0123456789 ABCDEF
 		</td>
 	</tr>
 	<tr>
 		<td>
-x 
+l
 		</td>
 		<td>
-ANSI élevé 
+Lettre en minuscule
 		</td>
 		<td>
-De '~' à U255 (en excluant U255) 
-		</td>
-	</tr>
-	<tr>
-		<td>
-z 
-		</td>
-		<td>
-Consonne en majuscule 
-		</td>
-		<td>
-BCDFGHJKLMNPQRSTVWXYZ 
+abcdefghijklmnopqrstuvwxyz
 		</td>
 	</tr>
 	<tr>
 		<td>
-Z 
+L
 		</td>
 		<td>
-Voyelle en majuscule 
+Lettre à casse mixte
 		</td>
 		<td>
-AEIOU 
-		</td>
-	</tr>
-	<tr>
-		<td>
-\ 
-		</td>
-		<td>
-Échappement (caractère fixe) 
-		</td>
-		<td>
-Utiliser le caractère suivant tel quel 
+ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz
 		</td>
 	</tr>
 	<tr>
 		<td>
-{n} 
+p
 		</td>
 		<td>
-Échappement (répéter) 
+Ponctuation
 		</td>
 		<td>
-Répéter le caractère précédent “n“ fois 
+,.;:
 		</td>
 	</tr>
 	<tr>
 		<td>
-[x] 
+s
 		</td>
 		<td>
-Caractères personnalisés 
+Caractère spécial imprimable 7 bits
 		</td>
 		<td>
-Définir une séquence de caractères personnalisée 
+!“#$%&'()*+,-./:;<=>?[\]^_{|}~
+		</td>
+	</tr>
+	<tr>
+		<td>
+S
+		</td>
+		<td>
+ASCII 7 bits imprimable
+		</td>
+		<td>
+A-Z, a-z, 0-9, !“#$%&'()*+,-./:;<=>?[\]^_{|}~
+		</td>
+	</tr>
+	<tr>
+		<td>
+u
+		</td>
+		<td>
+Lettre en majuscule
+		</td>
+		<td>
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+		</td>
+	</tr>
+	<tr>
+		<td>
+U
+		</td>
+		<td>
+Alphanumérique en majuscule
+		</td>
+		<td>
+ABCDEFGHIJKLMNOPQRSTUVWXYZ 0123456789
+		</td>
+	</tr>
+	<tr>
+		<td>
+v
+		</td>
+		<td>
+Voyelle en minuscule
+		</td>
+		<td>
+aeiou
+		</td>
+	</tr>
+	<tr>
+		<td>
+V
+		</td>
+		<td>
+Voyelle à casse mixte
+		</td>
+		<td>
+AEIOU aeiou
+		</td>
+	</tr>
+	<tr>
+		<td>
+x
+		</td>
+		<td>
+ANSI élevé
+		</td>
+		<td>
+De '~' à U255 (en excluant U255)
+		</td>
+	</tr>
+	<tr>
+		<td>
+z
+		</td>
+		<td>
+Consonne en majuscule
+		</td>
+		<td>
+BCDFGHJKLMNPQRSTVWXYZ
+		</td>
+	</tr>
+	<tr>
+		<td>
+Z
+		</td>
+		<td>
+Voyelle en majuscule
+		</td>
+		<td>
+AEIOU
+		</td>
+	</tr>
+	<tr>
+		<td>
+\
+		</td>
+		<td>
+Échappement (caractère fixe)
+		</td>
+		<td>
+Utiliser le caractère suivant tel quel
+		</td>
+	</tr>
+	<tr>
+		<td>
+{n}
+		</td>
+		<td>
+Échappement (répéter)
+		</td>
+		<td>
+Répéter le caractère précédent “n“ fois
+		</td>
+	</tr>
+	<tr>
+		<td>
+[x]
+		</td>
+		<td>
+Caractères personnalisés
+		</td>
+		<td>
+Définir une séquence de caractères personnalisée
 		</td>
 	</tr>
 </table>
 
-### Mot de passe prononçable 
+### Mot de passe prononçable
 
-L'application générera un mot de passe prononçable.  
-![Générateur de mot de passe - Mot de passe prononçable](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip0153.png) 
+L'application générera un mot de passe prononçable.
+![Générateur de mot de passe - Mot de passe prononçable](https://cdnweb.devolutions.net/docs/fr/rdm/mac/clip0153.png)
 
-### Mot de passe fort 
+### Mot de passe fort
 
-L'application générera un mot de passe de 8 caractères avec des alphanumériques à casse mixte et des caractères spéciaux.  
-![Générateur de mot de passe - Mot de passe fort](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip0154.png) 
+L'application générera un mot de passe de 8 caractères avec des alphanumériques à casse mixte et des caractères spéciaux.
+![Générateur de mot de passe - Mot de passe fort](https://cdnweb.devolutions.net/docs/fr/rdm/mac/clip0154.png)
 
-### Mots de passe interdits 
+### Mots de passe interdits
 
-Vous pouvez générer votre propre liste de mots de passe interdits dans l'application. 
-![Mots de passe interdits](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip0164.png) 
+Vous pouvez générer votre propre liste de mots de passe interdits dans l'application.
+![Mots de passe interdits](https://cdnweb.devolutions.net/docs/fr/rdm/mac/clip0164.png)

@@ -2,34 +2,34 @@
 eleventyComputed:
   title: Paramètres spécifiques
 ---
-Les paramètres spécifiques sont utilisés pour remplacer les paramètres spécifiques de l'usager ou locaux d'une session. 
+Les paramètres spécifiques sont utilisés pour remplacer les paramètres spécifiques de l'usager ou locaux d'une session.
 
-## Paramètres 
+## Paramètres
 
-![Modifier - Paramètres spécifiques](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4055.png) 
+![Modifier - Paramètres spécifiques](https://cdnweb.devolutions.net/docs/fr/rdm/mac/clip4055.png)
 
 <table>
 	<tr>
 		<td>
-Option 
+Option
 		</td>
 		<td>
-Description 
+Description
 		</td>
 	</tr>
 		<td>
-Paramètres spécifiques de l'usager 
+Paramètres spécifiques de l'usager
 		</td>
 		<td>
 
-Permets le remplacement des paramètres de session pour un usager. Pour plus d'informations, voir ***Paramètres spécifiques de l'usager***. 
+Permets le remplacement des paramètres de session pour un usager. Pour plus d'informations, voir ***Paramètres spécifiques de l'usager***.
 		</td>
 	</tr>
 		<td>
-Paramètres spécifiques locaux 
+Paramètres spécifiques locaux
 		</td>
 		<td>
-Permets le remplacement des paramètres de session pour la machine locale. Pour plus d'informations, voir ***Paramètres spécifiques locaux***. 
+Permets le remplacement des paramètres de session pour la machine locale. Pour plus d'informations, voir ***Paramètres spécifiques locaux***.
 		</td>
 	</tr>
 </table>

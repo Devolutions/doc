@@ -3,9 +3,9 @@ eleventyComputed:
   title: "{{ en.DLOCALIZER }}"
   description: We welcome you to contribute to the Devolutions community by translating our tools for the benefit of other users just like you around the world.
 ---
-{{ en.DLOCALIZER }} is our custom translation tool for our applications. We welcome you to contribute to the Devolutions community by translating our tools for the benefit of other users just like you around the world. 
+{{ en.DLOCALIZER }} is our custom translation tool for our applications. We welcome you to contribute to the Devolutions community by translating our tools for the benefit of other users just like you around the world.
 
-Download the [{{ en.DLOCALIZER }}](https://devolutions.net/localizer) translation tool to get started! 
+Download the [{{ en.DLOCALIZER }}](https://devolutions.net/localizer) translation tool to get started!
 
 ### Requirements
 * a free [{{ en.DA }}](/cloud/devolutions-account/create-devolutions-account/) to log in to the {{ en.DLOCALIZER }} tool
@@ -14,11 +14,11 @@ Download the [{{ en.DLOCALIZER }}](https://devolutions.net/localizer) translatio
 ## Translation process
 
 1. In ***File – Languages***, select the language(s) to translate. Click ***Ok***.
-![File – Languages](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2228.png)
+![File – Languages](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMWin2228.png)
 1. Click on the ***Translate*** button.
-![Translate](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2131.png)
+![Translate](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMWin2131.png)
 1. Choose the file in which to translate in the ***File*** drop-down list.
-![File Selection](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2132.png)
+![File Selection](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMWin2132.png)
 1. In the lower part, you can filter and review the content already translated or in need of translation. Information about each resource line is available in the different columns.
 
    | Column{width=150}         | Description                                                                               |
@@ -32,13 +32,13 @@ Download the [{{ en.DLOCALIZER }}](https://devolutions.net/localizer) translatio
    | Modified (UTC) | Time at which the last modification to the translated text was done.                      |
    | Original (UTC) | Time at which the last modification to the original English text was done by Devolutions. |
 
-   ![Content to Translate or Translated](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2229.png)
+   ![Content to Translate or Translated](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMWin2229.png)
 1. To start, select a ***Resource*** line in the bottom list and click ***Translate***. The original text will appear in the ***Original*** box.
-![Resource Line Selection](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2133.png)
+![Resource Line Selection](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMWin2133.png)
 
    {% snippet icon.badgeCaution %}
    When translating text, you may encounter the ampersand character ("&") used in a way other than its usual meaning of "and". This is not an error: the ampersand causes the character immediately to the right of it to be underlined when displayed. Please double check before translating.
-   
+
    For example, "P&roperties" will be displayed as "P r operties" with an underlined "r".
    {% endsnippet %}
 
@@ -47,10 +47,10 @@ Download the [{{ en.DLOCALIZER }}](https://devolutions.net/localizer) translatio
    A ***Bing*** button is available to assist you in translating your text.
    {% endsnippet %}
 
-   ![Translation](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip11554.png)
+   ![Translation](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip11554.png)
 
 1. When done, change the ***Status*** to ***Translated*** for this resource and click the ***Save Changes*** button. This will send your translation to our server and it will be deployed with the next release version of our applications.
-![Change Status and Save Changes](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2134.png)
+![Change Status and Save Changes](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMWin2134.png)
 
 ### Preview
 
@@ -65,7 +65,7 @@ Follow the next steps if you want to change the language of your {{ en.RDM }} ap
 1. In the ***Language*** drop-down list, select the language and click ***OK***.
 1. Restart the application for this to take effect.
 
-### Keyboard shortcuts 
+### Keyboard shortcuts
 
 {{ en.DLOCALIZER }} also features several keyboard shortcuts to speed up the translation process:
 * <kbd>Ctrl</kbd>+<kbd>D</kbd>: Set the ***Status*** of the current resource to ***Translated***.

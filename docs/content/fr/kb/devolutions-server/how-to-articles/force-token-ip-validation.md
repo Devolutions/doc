@@ -17,5 +17,5 @@ If you have multiple different public IP addresses, {{ en.RDM }} and the {{ en.W
 
 ## Solution
 
-To prevent this behaviour, go to the {{ en.DVLS }} web interface and, under ***Administration – Server Settings – Security***, disable ***Force token public IP validation***.  
-![Administration – Server Settings – Security – Force token public IP validation](https://webdevolutions.azureedge.net/docs/en/kb/KB2290.png)  
+To prevent this behaviour, go to the {{ en.DVLS }} web interface and, under ***Administration – Server Settings – Security***, disable ***Force token public IP validation***.
+![Administration – Server Settings – Security – Force token public IP validation](https://cdnweb.devolutions.net/docs/en/kb/KB2290.png)

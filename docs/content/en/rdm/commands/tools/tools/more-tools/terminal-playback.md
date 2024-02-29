@@ -1,24 +1,24 @@
 ---
 eleventyComputed:
   title: Terminal playback (Ansi)
-  description: The Playback (Ansi) is available in Tools – More Tools – Playback (Ansi). 
+  description: The Playback (Ansi) is available in Tools – More Tools – Playback (Ansi).
 ---
-The ***Playback (Ansi)*** is available in ***Tools – More Tools – Playback (Ansi)***. 
+The ***Playback (Ansi)*** is available in ***Tools – More Tools – Playback (Ansi)***.
 
-## Settings 
+## Settings
 
-![More Tools - Playback (Ansi)](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10414.png) 
+![More Tools - Playback (Ansi)](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip10414.png)
 
 | OPTION   | DESCRIPTION                                                   |
 |----------|---------------------------------------------------------------|
-| ![!!Select ANSI File Icon](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10865.png) | Select the ANSI file you wish to open in the Terminal Playback.                                     |
+| ![!!Select ANSI File Icon](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip10865.png) | Select the ANSI file you wish to open in the Terminal Playback.                                     |
 | Font     | Select the font for the Terminal Playback.                    |
-| ![!!Options Icon](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10867.png) | See the ***Options*** section.   |
-| ![!!Clear Screen Icon](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10868.png) | Clear the screen to play another ANSI file. |
+| ![!!Options Icon](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip10867.png) | See the ***Options*** section.   |
+| ![!!Clear Screen Icon](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip10868.png) | Clear the screen to play another ANSI file. |
 
-### Options 
+### Options
 
-![Playback (Ansi) - Ansi Player Options](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10415.png)
+![Playback (Ansi) - Ansi Player Options](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip10415.png)
 
 | OPTION   | DESCRIPTION                                                   |
 |----------|---------------------------------------------------------------|

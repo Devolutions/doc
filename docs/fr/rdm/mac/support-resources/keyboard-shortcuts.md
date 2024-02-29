@@ -2,36 +2,36 @@
 eleventyComputed:
   title: Raccourcis clavier
 ---
-Voici les raccourcis clavier par défaut pour diverses commandes. Ceux-ci peuvent être modifiés dans ***Fichier – Préférences – Interface utilisateur – Raccourcis***.  
+Voici les raccourcis clavier par défaut pour diverses commandes. Ceux-ci peuvent être modifiés dans ***Fichier – Préférences – Interface utilisateur – Raccourcis***.
 
-Le bouton ***Réinitialiser*** annule toute modification de personnalisation des raccourcis qui n'a pas encore été enregistrée. Le bouton ***Restaurer tout par défaut*** ramène tous les raccourcis à leurs valeurs par défaut.  
+Le bouton ***Réinitialiser*** annule toute modification de personnalisation des raccourcis qui n'a pas encore été enregistrée. Le bouton ***Restaurer tout par défaut*** ramène tous les raccourcis à leurs valeurs par défaut.
 
-{% snippet icon.badgeCaution %} 
-Les boutons ***Réinitialiser*** et ***Restaurer tout par défaut*** effacent vos raccourcis personnalisés, bien que ***Réinitialiser*** n'efface que les modifications non sauvegardées. Utilisez ces options avec précaution afin de ne pas risquer la perte de vos raccourcis personnalisés. 
+{% snippet icon.badgeCaution %}
+Les boutons ***Réinitialiser*** et ***Restaurer tout par défaut*** effacent vos raccourcis personnalisés, bien que ***Réinitialiser*** n'efface que les modifications non sauvegardées. Utilisez ces options avec précaution afin de ne pas risquer la perte de vos raccourcis personnalisés.
 {% endsnippet %}
- 
-{% snippet icon.badgeInfo %} 
-Consultez [Keyboard shortcuts customization in {{ fr.RDMMAC }} (EN)](/kb/remote-desktop-manager-macos/how-to-articles/keyboard-shortcuts-customization-rdm-mac/) pour la personnalisation de vos raccourcis. 
+
+{% snippet icon.badgeInfo %}
+Consultez [Keyboard shortcuts customization in {{ fr.RDMMAC }} (EN)](/kb/remote-desktop-manager-macos/how-to-articles/keyboard-shortcuts-customization-rdm-mac/) pour la personnalisation de vos raccourcis.
 {% endsnippet %}
- 
-![Raccourcis clavier](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/RDMMac2009.png)
 
-## Raccourcis par défaut 
+![Raccourcis clavier](https://cdnweb.devolutions.net/docs/fr/rdm/mac/RDMMac2009.png)
 
-### {{ fr.RDM }} 
+## Raccourcis par défaut
+
+### {{ fr.RDM }}
 
 <table>
 	<tr>
 		<th>
-ACTION 
+ACTION
 		</th>
 		<th>
-RACCOURCI 
+RACCOURCI
 		</th>
 	</tr>
 	<tr>
 		<td>
-Préférences 
+Préférences
 		</td>
 		<td>
 <kbd>Cmd</kbd>+<kbd>,</kbd>
@@ -39,7 +39,7 @@ Préférences
 	</tr>
 	<tr>
 		<td>
-Masquer {{ fr.RDM }} 
+Masquer {{ fr.RDM }}
 		</td>
 		<td>
 <kbd>Cmd</kbd>+<kbd>H</kbd>
@@ -47,7 +47,7 @@ Masquer {{ fr.RDM }}
 	</tr>
 	<tr>
 		<td>
-Masquer les autres 
+Masquer les autres
 		</td>
 		<td>
 <kbd>Alt</kbd>+<kbd>Cmd</kbd>+<kbd>H</kbd>
@@ -55,7 +55,7 @@ Masquer les autres
 	</tr>
 	<tr>
 		<td>
-Quitter 
+Quitter
 		</td>
 		<td>
 <kbd>Cmd</kbd>+<kbd>Q</kbd>
@@ -63,20 +63,20 @@ Quitter
 	</tr>
 </table>
 
-### Fichier 
+### Fichier
 
 <table>
 	<tr>
 		<th>
-ACTION 
+ACTION
 		</th>
 		<th>
-RACCOURCI 
+RACCOURCI
 		</th>
 	</tr>
 	<tr>
 		<td>
-Actualiser 
+Actualiser
 		</td>
 		<td>
 <kbd>Cmd</kbd>+<kbd>R</kbd>
@@ -84,7 +84,7 @@ Actualiser
 	</tr>
 	<tr>
 		<td>
-Forcer l'actualisation 
+Forcer l'actualisation
 		</td>
 		<td>
 <kbd>Maj</kbd>+<kbd>Cmd</kbd>+<kbd>R</kbd>
@@ -92,7 +92,7 @@ Forcer l'actualisation
 	</tr>
 	<tr>
 		<td>
-Changer source de données 
+Changer source de données
 		</td>
 		<td>
 <kbd>Maj</kbd>+<kbd>Cmd</kbd>+<kbd>D</kbd>
@@ -100,20 +100,20 @@ Changer source de données
 	</tr>
 </table>
 
-### Modifier 
+### Modifier
 
 <table>
 	<tr>
 		<th>
-ACTION 
+ACTION
 		</th>
 		<th>
-RACCOURCI 
+RACCOURCI
 		</th>
 	</tr>
 	<tr>
 		<td>
-Annuler 
+Annuler
 		</td>
 		<td>
 <kbd>Cmd</kbd>+<kbd>Z</kbd>
@@ -121,7 +121,7 @@ Annuler
 	</tr>
 	<tr>
 		<td>
-Répéter 
+Répéter
 		</td>
 		<td>
 <kbd>Maj</kbd>+<kbd>Cmd</kbd>+<kbd>Z</kbd>
@@ -129,7 +129,7 @@ Répéter
 	</tr>
 	<tr>
 		<td>
-Couper 
+Couper
 		</td>
 		<td>
 <kbd>Cmd</kbd>+<kbd>X</kbd>
@@ -137,7 +137,7 @@ Couper
 	</tr>
 	<tr>
 		<td>
-Copier (MnuCopy) 
+Copier (MnuCopy)
 		</td>
 		<td>
 <kbd>Cmd</kbd>+<kbd>C</kbd>
@@ -145,7 +145,7 @@ Copier (MnuCopy)
 	</tr>
 	<tr>
 		<td>
-Coller (MnuPaste) 
+Coller (MnuPaste)
 		</td>
 		<td>
 <kbd>Cmd</kbd>+<kbd>V</kbd>
@@ -153,7 +153,7 @@ Coller (MnuPaste)
 	</tr>
 	<tr>
 		<td>
-Déplacer 
+Déplacer
 		</td>
 		<td>
 <kbd>Alt</kbd>+<kbd>Cmd</kbd>+<kbd>V</kbd>
@@ -161,7 +161,7 @@ Déplacer
 	</tr>
 	<tr>
 		<td>
-Coller et correspondre au style 
+Coller et correspondre au style
 		</td>
 		<td>
 <kbd>Alt</kbd>+<kbd>Maj</kbd>+<kbd>Cmd</kbd>+<kbd>V</kbd>
@@ -177,7 +177,7 @@ Supprimer (MnuDelete)
 	</tr>
 	<tr>
 		<td>
-Sélectionner tout 
+Sélectionner tout
 		</td>
 		<td>
 <kbd>Cmd</kbd>+<kbd>A</kbd>
@@ -185,7 +185,7 @@ Sélectionner tout
 	</tr>
 	<tr>
 		<td>
-Recherche rapide 
+Recherche rapide
 		</td>
 		<td>
 <kbd>Alt</kbd>+<kbd>Cmd</kbd>+<kbd>F</kbd>
@@ -193,7 +193,7 @@ Recherche rapide
 	</tr>
 	<tr>
 		<td>
-Trouver dans la source de données 
+Trouver dans la source de données
 		</td>
 		<td>
 <kbd>Maj</kbd>+<kbd>Cmd</kbd>+<kbd>F</kbd>
@@ -201,7 +201,7 @@ Trouver dans la source de données
 	</tr>
 	<tr>
 		<td>
-Rechercher 
+Rechercher
 		</td>
 		<td>
 <kbd>Cmd</kbd>+<kbd>F</kbd>
@@ -209,7 +209,7 @@ Rechercher
 	</tr>
 	<tr>
 		<td>
-Orthographe 
+Orthographe
 		</td>
 		<td>
 <kbd>Cmd</kbd>+<kbd>:</kbd>
@@ -217,7 +217,7 @@ Orthographe
 	</tr>
 	<tr>
 		<td>
-Vérifier l'orthographe 
+Vérifier l'orthographe
 		</td>
 		<td>
 <kbd>Cmd</kbd>+<kbd>;</kbd>
@@ -225,20 +225,20 @@ Vérifier l'orthographe
 	</tr>
 </table>
 
-### Affichage 
+### Affichage
 
 <table>
 	<tr>
 		<th>
-ACTION 
+ACTION
 		</th>
 		<th>
-RACCOURCI 
+RACCOURCI
 		</th>
 	</tr>
 	<tr>
 		<td>
-Afficher la barre d'outils 
+Afficher la barre d'outils
 		</td>
 		<td>
 <kbd>Alt</kbd>+<kbd>Cmd</kbd>+<kbd>T</kbd>
@@ -246,7 +246,7 @@ Afficher la barre d'outils
 	</tr>
 	<tr>
 		<td>
-Masquer la navigation 
+Masquer la navigation
 		</td>
 		<td>
 <kbd>Cmd</kbd>+<kbd>N</kbd>
@@ -254,7 +254,7 @@ Masquer la navigation
 	</tr>
 	<tr>
 		<td>
-Taille réelle 
+Taille réelle
 		</td>
 		<td>
 <kbd>Cmd</kbd>+<kbd>0</kbd>
@@ -262,7 +262,7 @@ Taille réelle
 	</tr>
 	<tr>
 		<td>
-Zoom avant 
+Zoom avant
 		</td>
 		<td>
 <kbd>Cmd</kbd>+<kbd>+</kbd>
@@ -270,7 +270,7 @@ Zoom avant
 	</tr>
 	<tr>
 		<td>
-Zoom arrière 
+Zoom arrière
 		</td>
 		<td>
 <kbd>Cmd</kbd>+<kbd>-</kbd>
@@ -278,7 +278,7 @@ Zoom arrière
 	</tr>
 	<tr>
 		<td>
-Entrer dans le mode plein écran 
+Entrer dans le mode plein écran
 		</td>
 		<td>
 <kbd>Ctrl</kbd>+<kbd>Cmd</kbd>+<kbd>F</kbd>
@@ -286,20 +286,20 @@ Entrer dans le mode plein écran
 	</tr>
 </table>
 
-### Entrée 
+### Entrée
 
 <table>
 	<tr>
 		<th>
-ACTION 
+ACTION
 		</th>
 		<th>
-RACCOURCI 
+RACCOURCI
 		</th>
 	</tr>
 	<tr>
 		<td>
-Ouvrir session 
+Ouvrir session
 		</td>
 		<td>
 <kbd>Entrée</kbd>
@@ -315,7 +315,7 @@ Supprimer (MnuDeleteConnection)
 	</tr>
 	<tr>
 		<td>
-Modifier l'entrée 
+Modifier l'entrée
 		</td>
 		<td>
 <kbd>Maj</kbd>+<kbd>Cmd</kbd>+<kbd>E</kbd>
@@ -323,20 +323,20 @@ Modifier l'entrée
 	</tr>
 </table>
 
-### Fenêtre 
+### Fenêtre
 
 <table>
 	<tr>
 		<th>
-ACTION 
+ACTION
 		</th>
 		<th>
-RACCOURCI 
+RACCOURCI
 		</th>
 	</tr>
 	<tr>
 		<td>
-Réduire 
+Réduire
 		</td>
 		<td>
 <kbd>Cmd</kbd>+<kbd>M</kbd>
@@ -344,7 +344,7 @@ Réduire
 	</tr>
 	<tr>
 		<td>
-Sélectionnez l'onglet suivant 
+Sélectionnez l'onglet suivant
 		</td>
 		<td>
 <kbd>Maj</kbd>+<kbd>Cmd</kbd>+<kbd>Droite</kbd>
@@ -352,7 +352,7 @@ Sélectionnez l'onglet suivant
 	</tr>
 	<tr>
 		<td>
-Sélectionnez l'onglet précédent 
+Sélectionnez l'onglet précédent
 		</td>
 		<td>
 <kbd>Maj</kbd>+<kbd>Cmd</kbd>+<kbd>Gauche</kbd>
@@ -432,20 +432,20 @@ Aller au signet 9
 	</tr>
 </table>
 
-### Aide 
+### Aide
 
 <table>
 	<tr>
 		<th>
-ACTION 
+ACTION
 		</th>
 		<th>
-RACCOURCI 
+RACCOURCI
 		</th>
 	</tr>
 	<tr>
 		<td>
-Aide en ligne 
+Aide en ligne
 		</td>
 		<td>
 <kbd>Cmd</kbd>+<kbd>?</kbd>

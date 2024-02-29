@@ -2,173 +2,173 @@
 eleventyComputed:
   title: Types
 ---
-Utiliser ***Fichier - Préférences - Types*** pour contrôler les paramètres appliqués aux entrées de session. 
+Utiliser ***Fichier - Préférences - Types*** pour contrôler les paramètres appliqués aux entrées de session.
 
-## Paramètres 
+## Paramètres
 
-![Préférences - Types](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4032.png) 
+![Préférences - Types](https://cdnweb.devolutions.net/docs/fr/rdm/mac/clip4032.png)
 
-### Type de session 
+### Type de session
 
 <table>
 	<tr>
 		<td>
-Option 
+Option
 		</td>
 		<td>
-Description 
+Description
 		</td>
 	</tr>
 	<tr>
 		<td>
-Action fermer tout par défaut 
+Action fermer tout par défaut
 		</td>
 		<td>
 
-Sélectionner l'action ***Par défaut*** pour le bouton ***Fermer tout*** lorsque plusieurs onglets sont ouverts en même temps dans le tableau de bord :  
+Sélectionner l'action ***Par défaut*** pour le bouton ***Fermer tout*** lorsque plusieurs onglets sont ouverts en même temps dans le tableau de bord :
 
-* Déconnecter (Déconnecter toutes les sessions à onglets ouverts) 
-* Fermer la session (Fermer la session dans les onglets ouverts) 
-* Par défaut (Fermer toutes les sessions à onglets ouvertes) 
+* Déconnecter (Déconnecter toutes les sessions à onglets ouverts)
+* Fermer la session (Fermer la session dans les onglets ouverts)
+* Par défaut (Fermer toutes les sessions à onglets ouvertes)
 		</td>
 	</tr>
 </table>
 
-### Identifiants 
+### Identifiants
 
 <table>
 	<tr>
 		<td>
-Option 
+Option
 		</td>
 		<td>
-Description 
+Description
 		</td>
 	</tr>
 	<tr>
 		<td>
-Version 
+Version
 		</td>
 		<td>
 
-Choisir la version de Secret Server  
+Choisir la version de Secret Server
 
-* Secret Server 8 
-* Secret Server 9 
-* Secret Server 10 et plus 
+* Secret Server 8
+* Secret Server 9
+* Secret Server 10 et plus
 		</td>
 	</tr>
 </table>
 
-### RDP 
+### RDP
 
 <table>
 	<tr>
 		<td>
-Option 
+Option
 		</td>
 		<td>
-Description 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Mode de calibrage d'écran 
-		</td>
-		<td>
-
-Vous pouvez choisir un mode de dimensionnement d'écran préféré pour votre session RDP entre :  
-
-* Barre de défilement 
-* Résolution intelligente 
-* Ajuster la fenêtre RDP (smart sizing) 
+Description
 		</td>
 	</tr>
 	<tr>
 		<td>
-Affichage 
+Mode de calibrage d'écran
 		</td>
 		<td>
-Déterminer l'affichage préféré pour la session. Choisir entre : 
 
-* Par défaut 
-* Externe 
-* Intégré (à onglets) 
-* Désancré 
+Vous pouvez choisir un mode de dimensionnement d'écran préféré pour votre session RDP entre :
 
-Vous pouvez ensuite choisir le moniteur préféré sur lequel afficher :  
-
-* Moniteur primaire : C'est le moniteur qui est marqué comme affichage principal dans Windows 
-* Moniteur secondaire : L'autre moniteur non primaire, osbolète, utilise à la place le moniteur 1, 2, 3 ou 4 
-* Moniteur courant : Le moniteur dans lequel {{ fr.RDM }} s'exécute 
-* Configuré : Voir les options du système 
-* Par défaut : Ne déplacera pas l'application, ce sera le mode par défaut de Windows 
-* Moniteur 1 : Le moniteur devient le principal 
-* Moniteur 2 : Le moniteur devient le principal 
-* Moniteur 3 : Le moniteur devient le principal 
-* Moniteur 4 : Le moniteur devient le principal 
-* Moniteur 5 : Le moniteur devient le principal 
-* Moniteur 6 : Le moniteur devient le principal 
+* Barre de défilement
+* Résolution intelligente
+* Ajuster la fenêtre RDP (smart sizing)
 		</td>
 	</tr>
 	<tr>
 		<td>
-Activer la mise en sandbox 
+Affichage
 		</td>
 		<td>
-Le sandboxing isole la connexion RDP dans un autre processus. C'est plus stable et plus fiable, car c'est une application indépendante intégrée dans RDP. Cela signifie que RDP peut plus facilement récupérer après une déconnexion ou une erreur fatale. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Moteur de rendu 
-		</td>
-		<td>
-Si vous utilisez OpenGL sur votre Mac, activez cette option pour améliorer les performances de votre écran. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Moteur RDP 
-		</td>
-		<td>
-Choisir entre :  
+Déterminer l'affichage préféré pour la session. Choisir entre :
 
-* Hérité 
-* Moderne 
+* Par défaut
+* Externe
+* Intégré (à onglets)
+* Désancré
+
+Vous pouvez ensuite choisir le moniteur préféré sur lequel afficher :
+
+* Moniteur primaire : C'est le moniteur qui est marqué comme affichage principal dans Windows
+* Moniteur secondaire : L'autre moniteur non primaire, osbolète, utilise à la place le moniteur 1, 2, 3 ou 4
+* Moniteur courant : Le moniteur dans lequel {{ fr.RDM }} s'exécute
+* Configuré : Voir les options du système
+* Par défaut : Ne déplacera pas l'application, ce sera le mode par défaut de Windows
+* Moniteur 1 : Le moniteur devient le principal
+* Moniteur 2 : Le moniteur devient le principal
+* Moniteur 3 : Le moniteur devient le principal
+* Moniteur 4 : Le moniteur devient le principal
+* Moniteur 5 : Le moniteur devient le principal
+* Moniteur 6 : Le moniteur devient le principal
 		</td>
 	</tr>
 	<tr>
 		<td>
-Passerelle Transport 
+Activer la mise en sandbox
 		</td>
 		<td>
-Choisir entre :  
+Le sandboxing isole la connexion RDP dans un autre processus. C'est plus stable et plus fiable, car c'est une application indépendante intégrée dans RDP. Cela signifie que RDP peut plus facilement récupérer après une déconnexion ou une erreur fatale.
+		</td>
+	</tr>
+	<tr>
+		<td>
+Moteur de rendu
+		</td>
+		<td>
+Si vous utilisez OpenGL sur votre Mac, activez cette option pour améliorer les performances de votre écran.
+		</td>
+	</tr>
+	<tr>
+		<td>
+Moteur RDP
+		</td>
+		<td>
+Choisir entre :
 
-* Auto 
-* Http 
-* RPC 
+* Hérité
+* Moderne
+		</td>
+	</tr>
+	<tr>
+		<td>
+Passerelle Transport
+		</td>
+		<td>
+Choisir entre :
+
+* Auto
+* Http
+* RPC
 		</td>
 	</tr>
 </table>
 
-### Autres 
+### Autres
 
 <table>
 	<tr>
 		<td>
-Option 
+Option
 		</td>
 		<td>
-Description 
+Description
 		</td>
 	</tr>
 	<tr>
 		<td>
-Affichage à l'écran 
+Affichage à l'écran
 		</td>
 		<td>
-Lorsque vous utilisez une session ARD, vous serez invité à savoir quel affichage à l'écran utiliser. Par défaut, il prendra l'écran principal. 
+Lorsque vous utilisez une session ARD, vous serez invité à savoir quel affichage à l'écran utiliser. Par défaut, il prendra l'écran principal.
 		</td>
 	</tr>
 </table>

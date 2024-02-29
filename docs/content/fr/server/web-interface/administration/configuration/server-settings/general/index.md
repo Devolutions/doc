@@ -3,82 +3,82 @@ eleventyComputed:
   title: Général
   order: 10
 ---
-La section ***Général*** permet à l'administrateur de modifier le nom ou la description de l'instance {{ fr.DVLS }}.  
-![Adminsitration - Paramètres de {{ fr.DVLS }} - Général](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp8041.png) 
+La section ***Général*** permet à l'administrateur de modifier le nom ou la description de l'instance {{ fr.DVLS }}.
+![Adminsitration - Paramètres de {{ fr.DVLS }} - Général](https://cdnweb.devolutions.net/docs/fr/server/ServerOp8041.png)
 
-## Paramètres 
+## Paramètres
 
-### Général 
+### Général
 
 <table>
 	<tr>
 		<th>
 
-Option 
+Option
 		</th>
 		<th>
-Description 
+Description
 		</th>
 	</tr>
 	<tr>
 		<td>
-Nom 
+Nom
 		</td>
 		<td>
-Entrer le nom de votre serveur, il sera affiché dans la zone ***Contenu***. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Description 
-		</td>
-		<td>
-Saisir une brève description ou des informations supplémentaires. 
+Entrer le nom de votre serveur, il sera affiché dans la zone ***Contenu***.
 		</td>
 	</tr>
 	<tr>
 		<td>
-Nom DNS 
+Description
 		</td>
 		<td>
-Nom du serveur DNS. 
+Saisir une brève description ou des informations supplémentaires.
+		</td>
+	</tr>
+	<tr>
+		<td>
+Nom DNS
+		</td>
+		<td>
+Nom du serveur DNS.
 		</td>
 	</tr>
 </table>
 
-### Série 
+### Série
 
 <table>
 	<tr>
 		<th>
-Option 
+Option
 		</th>
 		<th>
-Description 
+Description
 		</th>
 	</tr>
 	<tr>
 		<td>
-Serveur 
+Serveur
 		</td>
 		<td>
-Insérer votre numéro de série. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-LAC utilisateur 
-		</td>
-		<td>
-Insérer vos clés de licence d'accès client. 
+Insérer votre numéro de série.
 		</td>
 	</tr>
 	<tr>
 		<td>
-{{ fr.DLAUNCHER }} LAC 
+LAC utilisateur
 		</td>
 		<td>
-Insérer vos clés de licence {{ fr.DLAUNCHER }}. 
+Insérer vos clés de licence d'accès client.
+		</td>
+	</tr>
+	<tr>
+		<td>
+{{ fr.DLAUNCHER }} LAC
+		</td>
+		<td>
+Insérer vos clés de licence {{ fr.DLAUNCHER }}.
 		</td>
 	</tr>
 </table>

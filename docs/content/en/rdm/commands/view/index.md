@@ -3,17 +3,17 @@ eleventyComputed:
   title: View
   description: The View tab is used to control different features regarding the panels, views, and logs of {{ en.RDM }}.
 ---
-The ***View*** tab is used to control different features regarding the panels, views, logs, and layout of {{ en.RDM }}.  
-![View](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin6203.png) 
+The ***View*** tab is used to control different features regarding the panels, views, logs, and layout of {{ en.RDM }}.
+![View](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMWin6203.png)
 
-Refer to the following topics for more information:  
+Refer to the following topics for more information:
 
-* [***Panels***](/rdm/windows/commands/view/panels/) 
-* [***View***](/rdm/windows/commands/view/view/) 
-* [***Logs***](/rdm/windows/commands/view/logs/) 
-* [***Layout***](/rdm/windows/commands/view/layout/) 
+* [***Panels***](/rdm/windows/commands/view/panels/)
+* [***View***](/rdm/windows/commands/view/view/)
+* [***Logs***](/rdm/windows/commands/view/logs/)
+* [***Layout***](/rdm/windows/commands/view/layout/)
 
-### Panels 
+### Panels
 
 | OPTION   | DESCRIPTION                                                   |
 |----------|---------------------------------------------------------------|
@@ -26,7 +26,7 @@ Refer to the following topics for more information:
 | Task List          | Display a list of your current [tasks](/rdm/windows/commands/view/panels/task-list/).     |
 | Search             | [Search](/rdm/windows/commands/view/panels/search/) items through your database/data source using specific criteria. |
 
-### View 
+### View
 
 | OPTION                    | DESCRIPTION                                                                                                   |
 |---------------------------|---------------------------------------------------------------------------------------------------------------|
@@ -40,15 +40,15 @@ Refer to the following topics for more information:
 | Notification              | Open a window to browse through the various notifications (such as entries expired or about to be, or tasks). |
 | Message                   | Open a window to access your messages.                                                                        |
 
-### Logs 
+### Logs
 
-This section only appears when using an individual type data source. 
+This section only appears when using an individual type data source.
 
 | OPTION                | DESCRIPTION                              |
 |-----------------------|------------------------------------------|
 | Local Connection Logs | Open a window to access your local logs. |
 
-### Layout 
+### Layout
 
 | OPTION                    | DESCRIPTION                                                                                                            |
 |---------------------------|------------------------------------------------------------------------------------------------------------------------|
@@ -64,6 +64,6 @@ This section only appears when using an individual type data source.
 | Logs                      | Toggle the [***Logs***](/rdm/windows/commands/view/layout/logs/) pane.                                                 |
 | Task                      | Toggle the [***Task***](/rdm/windows/commands/view/layout/task/) pane.                                                 |
 
-{% snippet icon.badgeInfo %} 
-Although they are windowed by default, all those panes can be dragged and docked anywhere within {{ en.RDM }}. 
+{% snippet icon.badgeInfo %}
+Although they are windowed by default, all those panes can be dragged and docked anywhere within {{ en.RDM }}.
 {% endsnippet %}

@@ -2,8 +2,8 @@
 eleventyComputed:
   title: The remote server returned an error (400) bad request
 ---
-You get the following error message dialog when you try to authenticate on the {{ en.DVLS }} instance with {{ en.RDM }}.  
-![!!KB4289](https://webdevolutions.azureedge.net/docs/en/kb/KB4289.png)
+You get the following error message dialog when you try to authenticate on the {{ en.DVLS }} instance with {{ en.RDM }}.
+![!!KB4289](https://cdnweb.devolutions.net/docs/en/kb/KB4289.png)
 
 ## Solution
 

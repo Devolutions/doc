@@ -2,20 +2,20 @@
 eleventyComputed:
   title: Favorites
 ---
-The ***Favorites*** section contains entries flagged as favorite, by the current user, from all the {{ en.VLT }}s this user has access. ***Favorites*** are not shared and they roam with the user profile.  
+The ***Favorites*** section contains entries flagged as favorite, by the current user, from all the {{ en.VLT }}s this user has access. ***Favorites*** are not shared and they roam with the user profile.
 
-This is useful when the number of managed entries becomes too great or when a strict directory structure must be maintained.  
+This is useful when the number of managed entries becomes too great or when a strict directory structure must be maintained.
 
-![!!ServerOp4053](https://webdevolutions.azureedge.net/docs/en/server/ServerOp4053.png)  
+![!!ServerOp4053](https://cdnweb.devolutions.net/docs/en/server/ServerOp4053.png)
 
-Favorite an entry in two ways:  
+Favorite an entry in two ways:
 
-* by right-clicking an entry in the ***{{ en.NPANE }}***, then selecting ***Add to Favorites***. 
-* by clicking the ***Add to Favorites*** star icon in the action button menu of the entry.  
+* by right-clicking an entry in the ***{{ en.NPANE }}***, then selecting ***Add to Favorites***.
+* by clicking the ***Add to Favorites*** star icon in the action button menu of the entry.
 
-## Organize the favorites 
-To organize your favorite entries, click ***Add Folder***, in the ***Favorites*** section. Name the folder, then drag and drop from the favorite list to organize them.  
+## Organize the favorites
+To organize your favorite entries, click ***Add Folder***, in the ***Favorites*** section. Name the folder, then drag and drop from the favorite list to organize them.
 
-When a ***Favorites*** structure exists and you favorite a new entry, just select the folder in the list to save it within.  
+When a ***Favorites*** structure exists and you favorite a new entry, just select the folder in the list to save it within.
 
-![!!ServerOp4054](https://webdevolutions.azureedge.net/docs/en/server/ServerOp4054.png) 
+![!!ServerOp4054](https://cdnweb.devolutions.net/docs/en/server/ServerOp4054.png)

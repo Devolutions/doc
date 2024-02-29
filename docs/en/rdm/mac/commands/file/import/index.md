@@ -2,30 +2,30 @@
 eleventyComputed:
   title: Import
 ---
-Use the ***File – Import*** option to import entries in {{ en.RDMMAC }}. You can import multiple entry types from a multitude of sources. We support native import formats from many popular tools on the market and in case we do not support the native format or the third party, we have wizards available to import from a CSV file. 
+Use the ***File – Import*** option to import entries in {{ en.RDMMAC }}. You can import multiple entry types from a multitude of sources. We support native import formats from many popular tools on the market and in case we do not support the native format or the third party, we have wizards available to import from a CSV file.
 
-{% snippet icon.badgeNotice %} 
-The import feature is only active if the import [Permission](/rdm/mac/commands/administration/user-management/permissions/) has been enabled inside the user account. 
+{% snippet icon.badgeNotice %}
+The import feature is only active if the import [Permission](/rdm/mac/commands/administration/user-management/permissions/) has been enabled inside the user account.
 {% endsnippet %}
- 
-## Settings 
 
-![File – Import](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10313.png) 
+## Settings
 
-### Import Entries 
+![File – Import](https://cdnweb.devolutions.net/docs/en/rdm/mac/clip10313.png)
 
-Import Entries is use to import sessions store in files such as:  
+### Import Entries
 
-* .rdm ({{ en.RDM }}'s native export format)  
-* .xml (it must be a specific format compatible with the application)  
+Import Entries is use to import sessions store in files such as:
 
-### Import Computer Assistant 
+* .rdm ({{ en.RDM }}'s native export format)
+* .xml (it must be a specific format compatible with the application)
 
-You can import computers from different sources. These sources includes:  
+### Import Computer Assistant
 
-* Network neighborhood  
-* Host list  
+You can import computers from different sources. These sources includes:
 
-### Import Sessions from 
+* Network neighborhood
+* Host list
 
-Please consult [Import sessions](/rdm/mac/commands/file/import/sessions/) for more information. 
+### Import Sessions from
+
+Please consult [Import sessions](/rdm/mac/commands/file/import/sessions/) for more information.

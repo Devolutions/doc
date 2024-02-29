@@ -3,8 +3,8 @@ eleventyComputed:
   title: Security
   order: 20
 ---
-The Security section allows the administrator to configure the allowed and denied IPs addresses.  
-![Administration – {{ en.DVLS }} Settings – Security](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8045.png)
+The Security section allows the administrator to configure the allowed and denied IPs addresses.
+![Administration – {{ en.DVLS }} Settings – Security](https://cdnweb.devolutions.net/docs/en/server/ServerOp8045.png)
 
 ## Settings
 

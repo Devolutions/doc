@@ -10,8 +10,8 @@ eleventyComputed:
 The following procedure describes how to enable the logging utility for the {{ en.DVLS }} ***Recording Server***.
 
 ## Enable logs
-1. To edit the **log4net.config** file, click on the ***Explore*** button of the ***Recording Server*** section of the ***Companions*** tab in the {{ en.DVLSCONSOLE }}.  
-![Explore button](https://webdevolutions.azureedge.net/docs/en/kb/KB8120.png)
+1. To edit the **log4net.config** file, click on the ***Explore*** button of the ***Recording Server*** section of the ***Companions*** tab in the {{ en.DVLSCONSOLE }}.
+![Explore button](https://cdnweb.devolutions.net/docs/en/kb/KB8120.png)
 1. Set the file value parameter with the full log file path. Ensure that the backslashes are doubled.
    {% snippet icon.badgeCaution %}
    Make certain the destination folder for the logs has writing rights.
@@ -20,7 +20,7 @@ The following procedure describes how to enable the logging utility for the {{ e
 1. Restart both Collector and Processor services on the server after any modification of these files.
 {% snippet icon.badgeInfo %}
 Ensure to set the level value back to ERROR and restart the services once the investigation is completed.
-{% endsnippet %}  
+{% endsnippet %}
 
 ```
 <?xml version="1.0" encoding="utf-8" ?>

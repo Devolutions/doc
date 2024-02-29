@@ -3,52 +3,52 @@ eleventyComputed:
   title: Microsoft SQL Server
   description: With the Microsoft SQL Server data source, {{ en.RDM }} uses the power of Microsoft SQL Server to save and manage entries.
 ---
-With the Microsoft SQL Server data source, {{ en.RDM }} uses the power of Microsoft SQL Server to save and manage entries. 
-	
+With the Microsoft SQL Server data source, {{ en.RDM }} uses the power of Microsoft SQL Server to save and manage entries.
 
-Supported Microsoft SQL Server:  
+
+Supported Microsoft SQL Server:
 
 * Microsoft SQL Server 2016/[2017](https://www.microsoft.com/en-ca/sql-server/sql-server-2017-editions)/[2019](https://www.microsoft.com/en-us/sql-server/sql-server-2019)/[2022](https://www.microsoft.com/en-us/sql-server/sql-server-2022) (including Express editions)
 
-The following features are also supported:  
+The following features are also supported:
 
-* Always on availability group 
-* Clustering 
-* Log Shipping 
-* Database mirroring 
+* Always on availability group
+* Clustering
+* Log Shipping
+* Database mirroring
 
-## Highlights 
+## Highlights
 
-* Supports user management with a superior security model. 
-* Supports [Offline mode](/rdm/windows/data-sources/offline-mode/) for when the server or network is unavailable. 
-* Supports full entry logs and attachments. 
-* Supports {{ en.VLT }} s to organize thousands of entries. 
+* Supports user management with a superior security model.
+* Supports [Offline mode](/rdm/windows/data-sources/offline-mode/) for when the server or network is unavailable.
+* Supports full entry logs and attachments.
+* Supports {{ en.VLT }} s to organize thousands of entries.
 
-{% snippet icon.badgeWarning %} 
-A proper database backup strategy should be implemented to prevent possible data loss. 
+{% snippet icon.badgeWarning %}
+A proper database backup strategy should be implemented to prevent possible data loss.
 {% endsnippet %}
- 
-{% snippet icon.badgeWarning %} 
-Depending on the Recovery Model of the underlying database, some maintenance operations may have to be scheduled to run regularly to maintain the health of the database. Please consult [Recovery Model](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/microsoft-sql-server/recovery-model/). 
+
+{% snippet icon.badgeWarning %}
+Depending on the Recovery Model of the underlying database, some maintenance operations may have to be scheduled to run regularly to maintain the health of the database. Please consult [Recovery Model](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/microsoft-sql-server/recovery-model/).
 {% endsnippet %}
- 
-{% snippet icon.shieldWarning %} 
-Using either Database Login or Integrated Security is inherently less secure because it means that the end user can connect directly to the database using any tool available. We do have table and column level security, but security conscious organizations will consider this unacceptable. It is recommended to use our Custom login model. 
+
+{% snippet icon.shieldWarning %}
+Using either Database Login or Integrated Security is inherently less secure because it means that the end user can connect directly to the database using any tool available. We do have table and column level security, but security conscious organizations will consider this unacceptable. It is recommended to use our Custom login model.
 {% endsnippet %}
- 
-{% snippet icon.badgeInfo %} 
-Creating Contained Database Users as mentioned in Microsoft's [Contained Databases](https://learn.microsoft.com/en-us/sql/relational-databases/databases/contained-databases) is the supported method with SQL Always On availability group. 
+
+{% snippet icon.badgeInfo %}
+Creating Contained Database Users as mentioned in Microsoft's [Contained Databases](https://learn.microsoft.com/en-us/sql/relational-databases/databases/contained-databases) is the supported method with SQL Always On availability group.
 {% endsnippet %}
- 
-## Configuration 
 
-Consult [Configure SQL Server](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/microsoft-sql-server/configure/) for more information on the configuration. 
+## Configuration
 
-## Settings 
+Consult [Configure SQL Server](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/microsoft-sql-server/configure/) for more information on the configuration.
 
-### General 
+## Settings
 
-![Microsoft SQL Server – General tab](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip11357.png) 
+### General
+
+![Microsoft SQL Server – General tab](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip11357.png)
 
 | OPTION | DESCRIPTION |
 |--------|-------------|
@@ -64,9 +64,9 @@ Consult [Configure SQL Server](/rdm/windows/data-sources/data-sources-types/adva
 | Test Server | Test the connection with the server to validate if the proper information has been provided. |
 | Test Database | Test the connection with the database to validate if the proper information has been provided. |
 
-### Settings 
+### Settings
 
-![Microsoft SQL Server – Settings tab](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip11358.png) 
+![Microsoft SQL Server – Settings tab](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip11358.png)
 
 | OPTION | DESCRIPTION |
 |--------|-------------|
@@ -75,17 +75,17 @@ Consult [Configure SQL Server](/rdm/windows/data-sources/data-sources-types/adva
 | Auto go offline      | Use the data source in offline mode when the ping method does not respond.                        |
 | Disable lock         | Disable the option to lock the data source directly. You can still lock the application but you will not be prompted for the data source password if this option is disabled. |
 
-### {{ en.UVLT_MAJ }} 
+### {{ en.UVLT_MAJ }}
 
-![Microsoft SQL Server – {{ en.UVLT_MAJ }} tab](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip3413.png) 
+![Microsoft SQL Server – {{ en.UVLT_MAJ }} tab](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip3413.png)
 
 | OPTION | DESCRIPTION |
 |--------|-------------|
 | Type | Select the type of [{{ en.UVLT }}](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/user-vault/) to use. Select between:<ul><li>***Default***: use the default {{ en.UVLT }}, which is stored in the database.</li><li>***None***: disable the {{ en.UVLT }} for all users.<li> ***{{ en.DOD }}***: use a {{ en.DOD }} file (.dod) as a {{ en.UVLT }}.</li></ul> |
 
-### Upgrade 
+### Upgrade
 
-![Microsoft SQL Server – Upgrade tab](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip11360.png) 
+![Microsoft SQL Server – Upgrade tab](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip11360.png)
 
 | OPTION | DESCRIPTION |
 |--------|-------------|
@@ -95,14 +95,14 @@ Consult [Configure SQL Server](/rdm/windows/data-sources/data-sources-types/adva
 | Test Database   | Test the connection with the database to validate if the proper information has been provided. |
 | Email Schema to Support | Send your schema to our support team.                                            |
 
-### VPN 
+### VPN
 
-Open a VPN to access your data prior to connecting to your Microsoft SQL Server.  
-![Microsoft SQL Server – VPN tab](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2255.png) 
+Open a VPN to access your data prior to connecting to your Microsoft SQL Server.
+![Microsoft SQL Server – VPN tab](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMWin2255.png)
 
-### Advanced 
+### Advanced
 
-![Microsoft SQL Server – Advanced tab](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip11359.png) 
+![Microsoft SQL Server – Advanced tab](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip11359.png)
 
 | OPTION | DESCRIPTION |
 |--------|-------------|

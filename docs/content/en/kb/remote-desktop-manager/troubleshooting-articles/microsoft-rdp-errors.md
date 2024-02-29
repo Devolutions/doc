@@ -16,13 +16,13 @@ Screen areas unresponsive in embedded sessions
 
 ### Solution
 
-This most often occurs on systems that use a DPI setting of more than 100%. To disable scaling in {{ en.RDM }} you must adjust the compatibility settings on the Windows shortcut for {{ en.RDM }}.  
+This most often occurs on systems that use a DPI setting of more than 100%. To disable scaling in {{ en.RDM }} you must adjust the compatibility settings on the Windows shortcut for {{ en.RDM }}.
 
 1. Right-click on the shortcut to {{ en.RDM }}.
 1. Select Properties.
 1. Go to the Compatibility tab.
-1. Check Disable display scaling on high DPI settings.  
-![!!KB4072](https://webdevolutions.azureedge.net/docs/en/kb/KB4072.png)
+1. Check Disable display scaling on high DPI settings.
+![!!KB4072](https://cdnweb.devolutions.net/docs/en/kb/KB4072.png)
 ## Problem 3
 
 I have multiple sessions to the same computer with different credentials, but it always uses the last one I entered.
@@ -37,9 +37,9 @@ The windows shortcuts are being performed in the session but always on my comput
 
 ### Solution
 
-You must configure the ***Keyboard*** setting in the ***Local Resources*** tab of the session settings. You can select ***On the remote computer*** or In ***full screen only***.  
+You must configure the ***Keyboard*** setting in the ***Local Resources*** tab of the session settings. You can select ***On the remote computer*** or In ***full screen only***.
 
-![!!KB4073](https://webdevolutions.azureedge.net/docs/en/kb/KB4073.png)
+![!!KB4073](https://cdnweb.devolutions.net/docs/en/kb/KB4073.png)
 
 ## Problem 5
 
@@ -47,7 +47,7 @@ Copy/paste between a remote session and my local computer stopped working.
 
 ### Solution
 
-This issue arises when a program called RDPClip becomes unstable. You can kill its process and launch a new instance.  
+This issue arises when a program called RDPClip becomes unstable. You can kill its process and launch a new instance.
 
 1. On the affected system, load up task manager (right-click in taskbar and select ***Task Manager***).
 1. Go to the ***Processes*** tab.

@@ -3,7 +3,7 @@ eleventyComputed:
   title: Intermediate concepts
   order: 20
 ---
-![!!inter_concepts](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin6190.jpg) 
+![!!inter_concepts](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMWin6190.jpg)
 
 Intermediate concepts bridge the gap between fundamentals and more advanced topics.
 

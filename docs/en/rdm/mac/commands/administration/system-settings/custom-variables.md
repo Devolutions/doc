@@ -6,7 +6,7 @@ You can define your own custom variables to use in your data source configuratio
 
 ### Custom Variables
 
-![Custom Variables tab](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10050.png)
+![Custom Variables tab](https://cdnweb.devolutions.net/docs/en/rdm/mac/clip10050.png)
 
 | OPTION           | DESCRIPTION                                                                               |
 |------------------|-------------------------------------------------------------------------------------------|

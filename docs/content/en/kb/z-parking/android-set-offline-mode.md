@@ -17,20 +17,20 @@ The offline mode file is first encrypted using our own private key mixed with so
 
 Validate the offline setting is enabled in your Data Source:
 
-1. Tap on the Data Source menu, select ***Data Sources***.  
-![!!KB2034](https://webdevolutions.azureedge.net/docs/en/kb/KB2034.png)
-1. Tap on the Entry menu of the Data Source you wish to allow the Offline mode on and select ***Edit***.  
-![!!KB2035](https://webdevolutions.azureedge.net/docs/en/kb/KB2035.png)
-1. In the Advanced tab enable the option ***Allow offline mode***.  
-![!!KB2036](https://webdevolutions.azureedge.net/docs/en/kb/KB2036.png)
-1. In the Data Source menu select ***Settings***.  
-![!!KB2037](https://webdevolutions.azureedge.net/docs/en/kb/KB2037.png)
-1. Tap on the option ***Data source is online*** to activate the Offline mode of your current data source.  
-![!!KB2038](https://webdevolutions.azureedge.net/docs/en/kb/KB2038.png)
+1. Tap on the Data Source menu, select ***Data Sources***.
+![!!KB2034](https://cdnweb.devolutions.net/docs/en/kb/KB2034.png)
+1. Tap on the Entry menu of the Data Source you wish to allow the Offline mode on and select ***Edit***.
+![!!KB2035](https://cdnweb.devolutions.net/docs/en/kb/KB2035.png)
+1. In the Advanced tab enable the option ***Allow offline mode***.
+![!!KB2036](https://cdnweb.devolutions.net/docs/en/kb/KB2036.png)
+1. In the Data Source menu select ***Settings***.
+![!!KB2037](https://cdnweb.devolutions.net/docs/en/kb/KB2037.png)
+1. Tap on the option ***Data source is online*** to activate the Offline mode of your current data source.
+![!!KB2038](https://cdnweb.devolutions.net/docs/en/kb/KB2038.png)
 
 ## Online Mode
 
 Switch back the data source to online mode:
 1. Select your Offline data source.
-1. In the Data Source menu select ***Setting*** menu tap on ***Data source is offline*** to go back Online. Or, if you have a network connection, refresh your window to automatically go back Online.  
-![!!KB2039](https://webdevolutions.azureedge.net/docs/en/kb/KB2039.png)
+1. In the Data Source menu select ***Setting*** menu tap on ***Data source is offline*** to go back Online. Or, if you have a network connection, refresh your window to automatically go back Online.
+![!!KB2039](https://cdnweb.devolutions.net/docs/en/kb/KB2039.png)

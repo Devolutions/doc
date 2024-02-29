@@ -1,14 +1,14 @@
 ---
 eleventyComputed:
   title: Play list management
-  description: First, open your Play List Management in Edit – Play List – Play List Management.  
+  description: First, open your Play List Management in Edit – Play List – Play List Management.
 ---
-### Using a Play List 
+### Using a Play List
 
-First, open your Play List Management in ***Edit – Play List – Play List Management***.  
+First, open your Play List Management in ***Edit – Play List – Play List Management***.
 
-There are five methods of using your Play List.  
-![Default Mode](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10260.png) 
+There are five methods of using your Play List.
+![Default Mode](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip10260.png)
 
 | OPTION                      | DESCRIPTION                                                            |
 |-----------------------------|------------------------------------------------------------------------|

@@ -1,29 +1,29 @@
 ---
 eleventyComputed:
   title: "{{ en.DOD }}"
-  description: The {{ en.DOD }} stores and synchronizes your remote connections and credentials data in our Cloud services. You can access your sessions from anywhere via an Internet connection.  
+  description: The {{ en.DOD }} stores and synchronizes your remote connections and credentials data in our Cloud services. You can access your sessions from anywhere via an Internet connection.
 ---
-{% youtube 'R3VYxnOdjoE' %}  
+{% youtube 'R3VYxnOdjoE' %}
 
-The {{ en.DOD }} stores and synchronizes your remote connections and credentials data in our Cloud services. You can access your sessions from anywhere via an Internet connection.  
+The {{ en.DOD }} stores and synchronizes your remote connections and credentials data in our Cloud services. You can access your sessions from anywhere via an Internet connection.
 
-It is an online file storage service dedicated to a single file type, {{ en.RDM }} ’s connection list. {{ en.DOD }} is completely free and has no limitations as to how many sessions you might have, it is for single users as it cannot share files.  
+It is an online file storage service dedicated to a single file type, {{ en.RDM }} ’s connection list. {{ en.DOD }} is completely free and has no limitations as to how many sessions you might have, it is for single users as it cannot share files.
 
-Please consult [{{ en.DOD }}](/cloud/rdm-online-services/online-drive/) for information on this service.  
+Please consult [{{ en.DOD }}](/cloud/rdm-online-services/online-drive/) for information on this service.
 
-{% snippet icon.shieldWarning %} 
-Since this service is hosted in the cloud, we strongly recommend that you further encrypt your data by applying a Master key. This will ensure that the file will be unreadable by no one but you. 
+{% snippet icon.shieldWarning %}
+Since this service is hosted in the cloud, we strongly recommend that you further encrypt your data by applying a Master key. This will ensure that the file will be unreadable by no one but you.
 {% endsnippet %}
- 
-{% snippet icon.badgeWarning %} 
-Even though this is a cloud service, you MUST use our [{{ en.OBACK }}](/cloud/rdm-online-services/online-backup/) service to keep history of your data. Devolutions offers a free backup service, and we do not maintain multiple versions of the {{ en.DOD }} content. This makes it critical that you enable the backup feature. This service will keep multiple versions of your file and is the best option. 
+
+{% snippet icon.badgeWarning %}
+Even though this is a cloud service, you MUST use our [{{ en.OBACK }}](/cloud/rdm-online-services/online-backup/) service to keep history of your data. Devolutions offers a free backup service, and we do not maintain multiple versions of the {{ en.DOD }} content. This makes it critical that you enable the backup feature. This service will keep multiple versions of your file and is the best option.
 {% endsnippet %}
- 
-## Settings 
 
-### General 
+## Settings
 
-![{{ en.DOD }} - General Tab](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip11347.png) 
+### General
+
+![{{ en.DOD }} - General Tab](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip11347.png)
 
 | OPTION                          | DESCRIPTION |
 |---------------------------------|-------------|
@@ -38,23 +38,23 @@ Even though this is a cloud service, you MUST use our [{{ en.OBACK }}](/cloud/rd
 | Always ask master key           | Ask for the master key every time a connection to the {{ en.DOD }} is attempted.                                              |
 
 
-### Backup 
+### Backup
 
-Please consult [{{ en.OBACK }}](/cloud/rdm-online-services/online-backup/) for information on this service.  
-![{{ en.DOD }} – Backup Tab](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip11334.png) 
+Please consult [{{ en.OBACK }}](/cloud/rdm-online-services/online-backup/) for information on this service.
+![{{ en.DOD }} – Backup Tab](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip11334.png)
 
 | OPTION  | DESCRIPTION |
 |---------|-------------|
 | Backup  | Choose the backup mode. Select between: <ul><li>None: No backup of the data source will be created.</li><li>File backup: The backup will be saved to a local file when a modification occurs in the data source.</li><li>{{ en.OBACK }}: An {{ en.OBACK }} (using the [{{ en.OBACK }}](/cloud/rdm-online-services/online-backup/)) will automatically be created when a modification occurs in the data source.</li></ul> |
 
-### VPN 
+### VPN
 
-Open a VPN to access your data prior to connecting to your {{ en.DOD }}.  
-![{{ en.DOD }} - VPN Tab](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2196.png) 
+Open a VPN to access your data prior to connecting to your {{ en.DOD }}.
+![{{ en.DOD }} - VPN Tab](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMWin2196.png)
 
-### Advanced 
+### Advanced
 
-![{{ en.DOD }} - Advanced Tab](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip11335.png) 
+![{{ en.DOD }} - Advanced Tab](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip11335.png)
 
 | OPTION               | DESCRIPTION |
 |----------------------|-------------|

@@ -15,11 +15,11 @@ Two technologies are in play for proper operation of {{ en.DVLS }}: SQL Server, 
 ### SQL Server
 
 Depending on the choice of Default Instance or Named Instance that was made during the installation, the SQL Server instance will listen on different ports.
-Using SQL Server Configuration Manager, you can see the details in the Protocols section.  
-![!!KB4315](https://webdevolutions.azureedge.net/docs/en/kb/KB4315.png)  
+Using SQL Server Configuration Manager, you can see the details in the Protocols section.
+![!!KB4315](https://cdnweb.devolutions.net/docs/en/kb/KB4315.png)
 
-In most cases, TCP/IP will be used for remote connections. You will be able to see what ports are in use. If you see that TCP Dynamic Ports are in play, they will change upon every restart of the SQL Server instance and therefore are not a good fit for a hardened installation.  
-![!!KB4316](https://webdevolutions.azureedge.net/docs/en/kb/KB4316.png)  
+In most cases, TCP/IP will be used for remote connections. You will be able to see what ports are in use. If you see that TCP Dynamic Ports are in play, they will change upon every restart of the SQL Server instance and therefore are not a good fit for a hardened installation.
+![!!KB4316](https://cdnweb.devolutions.net/docs/en/kb/KB4316.png)
 
 For more information please consult [SQL Server Configuration Manager on Technet](https://technet.microsoft.com/en-us/library/ms174212(v=sql.130).aspx)
 

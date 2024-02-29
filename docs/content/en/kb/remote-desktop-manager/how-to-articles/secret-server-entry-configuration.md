@@ -10,24 +10,24 @@ The ***Secret Server*** integration is quite straightforward in {{ en.RDM }}. Fo
 1. In the ***General*** tab, enter the ***URL*** you are using to connect to the ***Secret Server*** instance.
    {% snippet icon.badgeNotice %}
    It will either be https<area>://server or https<area>://server/SecretServer.
-   {% endsnippet %}  
-![Secret Server URL](https://webdevolutions.azureedge.net/docs/en/kb/KB5021.png)
+   {% endsnippet %}
+![Secret Server URL](https://cdnweb.devolutions.net/docs/en/kb/KB5021.png)
 
-Credentials information setup:  
+Credentials information setup:
 3. If you are the only one using this entry, you could place your credentials information directly under the ***General*** tab.
-1. In a shared team, select the ***Use "My Account Settings"*** option under the ***General*** tab. After the entry is completed, each user will need to go in ***File*** – ***My Account Settings*** – ***Secret Server*** to enter their information.  
-![My Secret Server Account](https://webdevolutions.azureedge.net/docs/en/kb/KB4027.png)
+1. In a shared team, select the ***Use "My Account Settings"*** option under the ***General*** tab. After the entry is completed, each user will need to go in ***File*** – ***My Account Settings*** – ***Secret Server*** to enter their information.
+![My Secret Server Account](https://cdnweb.devolutions.net/docs/en/kb/KB4027.png)
 Two Factor Authentication (2FA) is supported with the ***Secret Server*** entry.
    {% snippet icon.badgeCaution %}
    There is a limitation with the Rest API, you cannot have 2FA with Windows Authentication.
    {% endsnippet %}
-1. To do so, enter your information at the bottom of the ***Secret Server*** entry. 
-1. For the ***Two factor mode***, select ***Ask only when the session expires***. This way you will get the 2FA prompt when you open {{ en.RDM }}, and it should last all day after. You will not need to re-enter it every time you want to use a credential, unless that is what you prefer and in that case, select ***Ask on every login***.  
-![!Secret Server Two factor mode](https://webdevolutions.azureedge.net/docs/en/kb/KB4062.png)
-1. In the ***Credential Selection*** tab, select ***Prompt For List***.  
-![!Credential Selection](https://webdevolutions.azureedge.net/docs/en/kb/KB4028.png)
-1. In the session you want to use the ***Secret Server*** credentials with (RDP, etc.), you select the ***Credentials*** you created with ***Linked ({{ en.VLT }})***, and then you can click the ***Select from List*** to specify the account you wish to use.  
-![Credentials – Select from list](https://webdevolutions.azureedge.net/docs/en/kb/KB4059.png)
+1. To do so, enter your information at the bottom of the ***Secret Server*** entry.
+1. For the ***Two factor mode***, select ***Ask only when the session expires***. This way you will get the 2FA prompt when you open {{ en.RDM }}, and it should last all day after. You will not need to re-enter it every time you want to use a credential, unless that is what you prefer and in that case, select ***Ask on every login***.
+![!Secret Server Two factor mode](https://cdnweb.devolutions.net/docs/en/kb/KB4062.png)
+1. In the ***Credential Selection*** tab, select ***Prompt For List***.
+![!Credential Selection](https://cdnweb.devolutions.net/docs/en/kb/KB4028.png)
+1. In the session you want to use the ***Secret Server*** credentials with (RDP, etc.), you select the ***Credentials*** you created with ***Linked ({{ en.VLT }})***, and then you can click the ***Select from List*** to specify the account you wish to use.
+![Credentials – Select from list](https://cdnweb.devolutions.net/docs/en/kb/KB4059.png)
 
 This way, you have one ***Secret Server*** entry for all the connections.
 {% snippet icon.badgeNotice %}

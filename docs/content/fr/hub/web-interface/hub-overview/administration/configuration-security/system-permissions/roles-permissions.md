@@ -3,53 +3,53 @@ eleventyComputed:
   title: Rôles et permissions
   description: Chaque rôle dans {{ fr.DHUB }} possède son propre ensemble de permissions.
 ---
-Chaque rôle dans {{ fr.DHUB }} possède son propre ensemble de ***Permissions***. Voici un tableau qui les résume :  
+Chaque rôle dans {{ fr.DHUB }} possède son propre ensemble de ***Permissions***. Voici un tableau qui les résume :
 
 <table>
 	<tr>
 		<th>
-PERMISSIONS 
+PERMISSIONS
 		</th>
 		<th>
-OBSERVATEURS 
+OBSERVATEURS
 		</th>
 		<th>
-LECTEURS 
+LECTEURS
 		</th>
 		<th>
-OPÉRATEURS 
+OPÉRATEURS
 		</th>
 		<th>
-COLLABORATEURS 
+COLLABORATEURS
 		</th>
 		<th>
-GESTIONNAIRES 
+GESTIONNAIRES
 		</th>
 	</tr>
 	<tr>
 		<td>
-Afficher le {{ fr.VLT }} 
+Afficher le {{ fr.VLT }}
 		</td>
 		<td>
 
-{{ icon.badgeNotice | safe }} 
+{{ icon.badgeNotice | safe }}
 		</td>
 		<td>
-{{ icon.badgeNotice | safe }} 
+{{ icon.badgeNotice | safe }}
 		</td>
 		<td>
-{{ icon.badgeNotice | safe }} 
+{{ icon.badgeNotice | safe }}
 		</td>
 		<td>
-{{ icon.badgeNotice | safe }} 
+{{ icon.badgeNotice | safe }}
 		</td>
 		<td>
-{{ icon.badgeNotice | safe }} 
+{{ icon.badgeNotice | safe }}
 		</td>
 	</tr>
 	<tr>
 		<td>
-Gérer le {{ fr.VLT }} 
+Gérer le {{ fr.VLT }}
 		</td>
 		<td>
 
@@ -64,12 +64,12 @@ Gérer le {{ fr.VLT }}
 
 		</td>
 		<td>
-{{ icon.badgeNotice | safe }} 
+{{ icon.badgeNotice | safe }}
 		</td>
 	</tr>
 	<tr>
 		<td>
-Ajouter des entrées 
+Ajouter des entrées
 		</td>
 		<td>
 
@@ -81,15 +81,15 @@ Ajouter des entrées
 
 		</td>
 		<td>
-{{ icon.badgeNotice | safe }} 
+{{ icon.badgeNotice | safe }}
 		</td>
 		<td>
-{{ icon.badgeNotice | safe }} 
+{{ icon.badgeNotice | safe }}
 		</td>
 	</tr>
 	<tr>
 		<td>
-Modifier les entrées 
+Modifier les entrées
 		</td>
 		<td>
 
@@ -101,15 +101,15 @@ Modifier les entrées
 
 		</td>
 		<td>
-{{ icon.badgeNotice | safe }} 
+{{ icon.badgeNotice | safe }}
 		</td>
 		<td>
-{{ icon.badgeNotice | safe }} 
+{{ icon.badgeNotice | safe }}
 		</td>
 	</tr>
 	<tr>
 		<td>
-Supprimer les entrées 
+Supprimer les entrées
 		</td>
 		<td>
 
@@ -121,15 +121,15 @@ Supprimer les entrées
 
 		</td>
 		<td>
-{{ icon.badgeNotice | safe }} 
+{{ icon.badgeNotice | safe }}
 		</td>
 		<td>
-{{ icon.badgeNotice | safe }} 
+{{ icon.badgeNotice | safe }}
 		</td>
 	</tr>
 	<tr>
 		<td>
-Connecter (Exécuter) 
+Connecter (Exécuter)
 		</td>
 		<td>
 
@@ -138,18 +138,18 @@ Connecter (Exécuter)
 
 		</td>
 		<td>
-{{ icon.badgeNotice | safe }} 
+{{ icon.badgeNotice | safe }}
 		</td>
 		<td>
-{{ icon.badgeNotice | safe }} 
+{{ icon.badgeNotice | safe }}
 		</td>
 		<td>
-{{ icon.badgeNotice | safe }} 
+{{ icon.badgeNotice | safe }}
 		</td>
 	</tr>
 	<tr>
 		<td>
-Afficher le mot de passe 
+Afficher le mot de passe
 		</td>
 		<td>
 
@@ -161,35 +161,35 @@ Afficher le mot de passe
 
 		</td>
 		<td>
-{{ icon.badgeNotice | safe }} 
+{{ icon.badgeNotice | safe }}
 		</td>
 		<td>
-{{ icon.badgeNotice | safe }} 
+{{ icon.badgeNotice | safe }}
 		</td>
 	</tr>
 	<tr>
 		<td>
-Afficher le contenu sensible 
+Afficher le contenu sensible
 		</td>
 		<td>
 
 		</td>
 		<td>
-{{ icon.badgeNotice | safe }} 
+{{ icon.badgeNotice | safe }}
 		</td>
 		<td>
-{{ icon.badgeNotice | safe }} 
+{{ icon.badgeNotice | safe }}
 		</td>
 		<td>
-{{ icon.badgeNotice | safe }} 
+{{ icon.badgeNotice | safe }}
 		</td>
 		<td>
-{{ icon.badgeNotice | safe }} 
+{{ icon.badgeNotice | safe }}
 		</td>
 	</tr>
 	<tr>
 		<td>
-Afficher l'historique des mots de passe 
+Afficher l'historique des mots de passe
 		</td>
 		<td>
 
@@ -201,15 +201,15 @@ Afficher l'historique des mots de passe
 
 		</td>
 		<td>
-{{ icon.badgeNotice | safe }} 
+{{ icon.badgeNotice | safe }}
 		</td>
 		<td>
-{{ icon.badgeNotice | safe }} 
+{{ icon.badgeNotice | safe }}
 		</td>
 	</tr>
 	<tr>
 		<td>
-Afficher l'historique du contenu sensible 
+Afficher l'historique du contenu sensible
 		</td>
 		<td>
 
@@ -221,15 +221,15 @@ Afficher l'historique du contenu sensible
 
 		</td>
 		<td>
-{{ icon.badgeNotice | safe }} 
+{{ icon.badgeNotice | safe }}
 		</td>
 		<td>
-{{ icon.badgeNotice | safe }} 
+{{ icon.badgeNotice | safe }}
 		</td>
 	</tr>
 	<tr>
 		<td>
-Gérer les pièces jointes 
+Gérer les pièces jointes
 		</td>
 		<td>
 
@@ -241,15 +241,15 @@ Gérer les pièces jointes
 
 		</td>
 		<td>
-{{ icon.badgeNotice | safe }} 
+{{ icon.badgeNotice | safe }}
 		</td>
 		<td>
-{{ icon.badgeNotice | safe }} 
+{{ icon.badgeNotice | safe }}
 		</td>
 	</tr>
 	<tr>
 		<td>
-Gérer la documentation 
+Gérer la documentation
 		</td>
 		<td>
 
@@ -261,15 +261,15 @@ Gérer la documentation
 
 		</td>
 		<td>
-{{ icon.badgeNotice | safe }} 
+{{ icon.badgeNotice | safe }}
 		</td>
 		<td>
-{{ icon.badgeNotice | safe }} 
+{{ icon.badgeNotice | safe }}
 		</td>
 	</tr>
 	<tr>
 		<td>
-Afficher les journaux des entrées 
+Afficher les journaux des entrées
 		</td>
 		<td>
 
@@ -281,15 +281,15 @@ Afficher les journaux des entrées
 
 		</td>
 		<td>
-{{ icon.badgeNotice | safe }} 
+{{ icon.badgeNotice | safe }}
 		</td>
 		<td>
-{{ icon.badgeNotice | safe }} 
+{{ icon.badgeNotice | safe }}
 		</td>
 	</tr>
 	<tr>
 		<td>
-Afficher l'historique des entrées 
+Afficher l'historique des entrées
 		</td>
 		<td>
 
@@ -301,15 +301,15 @@ Afficher l'historique des entrées
 
 		</td>
 		<td>
-{{ icon.badgeNotice | safe }} 
+{{ icon.badgeNotice | safe }}
 		</td>
 		<td>
-{{ icon.badgeNotice | safe }} 
+{{ icon.badgeNotice | safe }}
 		</td>
 	</tr>
 	<tr>
 		<td>
-Effacer l'historique des entrées 
+Effacer l'historique des entrées
 		</td>
 		<td>
 
@@ -324,12 +324,12 @@ Effacer l'historique des entrées
 
 		</td>
 		<td>
-{{ icon.badgeNotice | safe }} 
+{{ icon.badgeNotice | safe }}
 		</td>
 	</tr>
 	<tr>
 		<td>
-Exporter 
+Exporter
 		</td>
 		<td>
 
@@ -344,12 +344,12 @@ Exporter
 
 		</td>
 		<td>
-{{ icon.badgeNotice | safe }} 
+{{ icon.badgeNotice | safe }}
 		</td>
 	</tr>
 	<tr>
 		<td>
-Afficher les journaux d'activité 
+Afficher les journaux d'activité
 		</td>
 		<td>
 
@@ -364,12 +364,12 @@ Afficher les journaux d'activité
 
 		</td>
 		<td>
-{{ icon.badgeNotice | safe }} 
+{{ icon.badgeNotice | safe }}
 		</td>
 	</tr>
 	<tr>
 		<td>
-Afficher les entrées supprimées 
+Afficher les entrées supprimées
 		</td>
 		<td>
 
@@ -384,12 +384,12 @@ Afficher les entrées supprimées
 
 		</td>
 		<td>
-{{ icon.badgeNotice | safe }} 
+{{ icon.badgeNotice | safe }}
 		</td>
 	</tr>
 	<tr>
 		<td>
-Restaurer les entrées 
+Restaurer les entrées
 		</td>
 		<td>
 
@@ -404,12 +404,12 @@ Restaurer les entrées
 
 		</td>
 		<td>
-{{ icon.badgeNotice | safe }} 
+{{ icon.badgeNotice | safe }}
 		</td>
 	</tr>
 	<tr>
 		<td>
-Approbateur de l'accès temporaire 
+Approbateur de l'accès temporaire
 		</td>
 		<td>
 
@@ -424,16 +424,16 @@ Approbateur de l'accès temporaire
 
 		</td>
 		<td>
-{{ icon.badgeNotice | safe }} 
+{{ icon.badgeNotice | safe }}
 		</td>
 	</tr>
 </table>
 
-## Permissions relatives au contenu sensible 
-Dans {{ fr.DHUB }}, tout le contenu sensible est masqué par défaut. Certains éléments peuvent être visualisés par toute personne ayant accès à l'entrée en cliquant sur l'icône de l'œil, tandis que d'autres nécessitent des permissions ***Afficher le contenu sensible*** ou ***Afficher le mot de passse*** pour être visualisés.  
+## Permissions relatives au contenu sensible
+Dans {{ fr.DHUB }}, tout le contenu sensible est masqué par défaut. Certains éléments peuvent être visualisés par toute personne ayant accès à l'entrée en cliquant sur l'icône de l'œil, tandis que d'autres nécessitent des permissions ***Afficher le contenu sensible*** ou ***Afficher le mot de passse*** pour être visualisés.
 
-La permission ***Afficher le contenu sensible*** est accordée aux rôles de ***Lecteur***, d'***Opérateur***, de ***Collaborateur*** et de ***Gestionnaire***, tandis que les rôles de ***Collaborateur*** ou de ***Gestionnaire*** sont nécessaires pour la permission ***Afficher le mot de passe***. Par conséquent, même si les mots de passe sont effectivement du contenu sensible, vous ne pourrez pas les consulter uniquement avec la permission ***Afficher le contenu sensible***.  
+La permission ***Afficher le contenu sensible*** est accordée aux rôles de ***Lecteur***, d'***Opérateur***, de ***Collaborateur*** et de ***Gestionnaire***, tandis que les rôles de ***Collaborateur*** ou de ***Gestionnaire*** sont nécessaires pour la permission ***Afficher le mot de passe***. Par conséquent, même si les mots de passe sont effectivement du contenu sensible, vous ne pourrez pas les consulter uniquement avec la permission ***Afficher le contenu sensible***.
 
-Cette icône apparaîtra à côté du contenu sensible nécessitant la permission ***Afficher le contenu sensible***, tandis que cette icône apparaîtra à côté du contenu nécessitant la permission ***Afficher le mot de passe***. Vous pouvez voir un exemple de ces deux situations ci-dessous. 
+Cette icône apparaîtra à côté du contenu sensible nécessitant la permission ***Afficher le contenu sensible***, tandis que cette icône apparaîtra à côté du contenu nécessitant la permission ***Afficher le mot de passe***. Vous pouvez voir un exemple de ces deux situations ci-dessous.
 
-![Icônes de contenu sensible](https://webdevolutions.azureedge.net/docs/fr/hub/Hub2165.png)
+![Icônes de contenu sensible](https://cdnweb.devolutions.net/docs/fr/hub/Hub2165.png)

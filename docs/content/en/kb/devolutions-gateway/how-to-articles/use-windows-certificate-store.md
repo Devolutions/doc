@@ -42,50 +42,50 @@ If using the `External` method via `TlsCertificateSource`, then {{ en.DGW }} onl
 
 #### Using {{ en.RDM }}
 The ***X.509 Certificate*** entry can be used to import said certificate and export it in several different formats, including PFX.
-1. In {{ en.RDM }} click on ***New Entry*** – ***Credential Management*** – ***General*** – ***X.509 Certificate***.  
-![X.509 Certificate](https://webdevolutions.azureedge.net/docs/en/kb/KB0180.png)
-1. Select the certificate and click ***Open***.  
-![Open](https://webdevolutions.azureedge.net/docs/en/kb/KB0164.png)
-1. Click ***Next***.  
-![Next](https://webdevolutions.azureedge.net/docs/en/kb/KB0165.png)
-1. Click on the ellipsis and select the ***Private key***.  
-![Ellipsis button](https://webdevolutions.azureedge.net/docs/en/kb/KB0166.png)
-1. Click on ***Open***.  
-![KEY file](https://webdevolutions.azureedge.net/docs/en/kb/KB0181.png)
+1. In {{ en.RDM }} click on ***New Entry*** – ***Credential Management*** – ***General*** – ***X.509 Certificate***.
+![X.509 Certificate](https://cdnweb.devolutions.net/docs/en/kb/KB0180.png)
+1. Select the certificate and click ***Open***.
+![Open](https://cdnweb.devolutions.net/docs/en/kb/KB0164.png)
+1. Click ***Next***.
+![Next](https://cdnweb.devolutions.net/docs/en/kb/KB0165.png)
+1. Click on the ellipsis and select the ***Private key***.
+![Ellipsis button](https://cdnweb.devolutions.net/docs/en/kb/KB0166.png)
+1. Click on ***Open***.
+![KEY file](https://cdnweb.devolutions.net/docs/en/kb/KB0181.png)
    {% snippet icon.badgeInfo %}
    The ***Private key*** must be in the `.key` extension.
    {% endsnippet %}
-1. Click ***Finish***.  
-![Finish](https://webdevolutions.azureedge.net/docs/en/kb/KB0168.png)
-1. Fill in the information, then click ***Add***.  
-![Information fields](https://webdevolutions.azureedge.net/docs/en/kb/KB0167.png)
-1. Select the entry and click ***Save Certificate As*** (also available in the right-click context menu).  
-![Save Certificate As](https://webdevolutions.azureedge.net/docs/en/kb/KB0186.png)
+1. Click ***Finish***.
+![Finish](https://cdnweb.devolutions.net/docs/en/kb/KB0168.png)
+1. Fill in the information, then click ***Add***.
+![Information fields](https://cdnweb.devolutions.net/docs/en/kb/KB0167.png)
+1. Select the entry and click ***Save Certificate As*** (also available in the right-click context menu).
+![Save Certificate As](https://cdnweb.devolutions.net/docs/en/kb/KB0186.png)
 1. In the ***Export Format*** field choose ***Personal Information Exchange (pfx)***.
 1. Choose where the file will be saved by clicking on the ellipsis.
-1. Enter a strong password, then click ***Export***.  
-![Export X.509 Certificate](https://webdevolutions.azureedge.net/docs/en/kb/KB0182.png)
+1. Enter a strong password, then click ***Export***.
+![Export X.509 Certificate](https://cdnweb.devolutions.net/docs/en/kb/KB0182.png)
 
 #### Using the Windows certutil utility
 Use the built-in Windows `certutil` utility to combine a certificate (`.crt` or `.cer`) file and its private key (`.key`). Both files need to have the same name.
 `certutil -MergePFX file.crt file.pfx`
-![certutil](https://webdevolutions.azureedge.net/docs/en/kb/KB0169.png)
+![certutil](https://cdnweb.devolutions.net/docs/en/kb/KB0169.png)
 
 ### Importing the certificate
 After acquiring the certificate and certificate private key file, import it into Windows.
 1. Install the certificate:
     * If Windows auto-detects the certificate, double-click it and choose ***Install Certificate...***; or
-    * Open `certmgr.msc` to the intended store location (`LocalMachine` or `CurrentUser`), right-click on the wanted location (ex: ***Personal/Certificates***) and choose ***All Tasks*** – ***Import***.  
-    ![Install Certificate...](https://webdevolutions.azureedge.net/docs/en/kb/KB0183.png)
+    * Open `certmgr.msc` to the intended store location (`LocalMachine` or `CurrentUser`), right-click on the wanted location (ex: ***Personal/Certificates***) and choose ***All Tasks*** – ***Import***.
+    ![Install Certificate...](https://cdnweb.devolutions.net/docs/en/kb/KB0183.png)
 1. Pick one of the following options and click ***Next***:
     * ***Automatically select the certificate store based on the type of certificate***; or
-    * ***Place all certificates in the following store*** and click ***Browse...*** to pick a folder.  
-    ![X.509 Certificate](https://webdevolutions.azureedge.net/docs/en/kb/KB0184.png)
-1. Complete the import by clicking on ***Finish***.  
-![Certificate Import Wizard](https://webdevolutions.azureedge.net/docs/en/kb/KB0185.png)
+    * ***Place all certificates in the following store*** and click ***Browse...*** to pick a folder.
+    ![X.509 Certificate](https://cdnweb.devolutions.net/docs/en/kb/KB0184.png)
+1. Complete the import by clicking on ***Finish***.
+![Certificate Import Wizard](https://cdnweb.devolutions.net/docs/en/kb/KB0185.png)
 
 ## Configuring Windows certificate store via gateway.json
-The default location of the `gateway.json` file is in the **%ProgramData%\Devolutions\Gateway** directory.  
+The default location of the `gateway.json` file is in the **%ProgramData%\Devolutions\Gateway** directory.
 
 Make sure the file is a valid `.json` by testing it with:
 ```powershell
@@ -97,8 +97,8 @@ Try {
   $PSItem[0].Exception.Message
 }
 ```
-This works with PowerShell 5.1 and later versions (the recommended version to use is PowerShell 7.x).  
-![Get-Content](https://webdevolutions.azureedge.net/docs/en/kb/KB0173.png)
+This works with PowerShell 5.1 and later versions (the recommended version to use is PowerShell 7.x).
+![Get-Content](https://cdnweb.devolutions.net/docs/en/kb/KB0173.png)
 
 A typical configuration is shown below. Your values may differ, especially the ***Subject Name***, as that will reflect the domain name {{ en.DGW }} responds to. The important values to change are:
 * `TlsCertificateSource` - `System`
@@ -133,8 +133,8 @@ An example of the entire configuration file:
 
 1. Run the above script.
 1. Open `services.msc`.
-1. Right-click on ***{{ en.DGW }} Service*** and select ***Restart***.  
-![Restart](https://webdevolutions.azureedge.net/docs/en/kb/KB0174.png)
+1. Right-click on ***{{ en.DGW }} Service*** and select ***Restart***.
+![Restart](https://cdnweb.devolutions.net/docs/en/kb/KB0174.png)
 1. Verify if {{ en.DGW }} is running correctly by navigating to `https://{FQDN}:7171/jet/health` (replacing `{FQDN}` with your Gateway DNS address) with a web browser.
 
 ## Configuring Windows certificate store via PowerShell
@@ -146,7 +146,7 @@ Import-Module -Name "C:\Program Files\Devolutions\Gateway\PowerShell\Modules\Dev
 # View the imported Modules
 Get-Module
 ```
-![Import-Module](https://webdevolutions.azureedge.net/docs/en/kb/KB0175.png)
+![Import-Module](https://cdnweb.devolutions.net/docs/en/kb/KB0175.png)
 
 Another method to make the module easily accessible is to install it via the following:
 ```powershell
@@ -159,13 +159,13 @@ Import-Module -Name 'DevolutionsGateway'
 # View the imported modules to verify the DevolutionsGateway module is available
 Get-Module
 ```
-![Install-Module](https://webdevolutions.azureedge.net/docs/en/kb/KB0176.png)
+![Install-Module](https://cdnweb.devolutions.net/docs/en/kb/KB0176.png)
 
 Once imported, you can see the current configuration via the following command:
 ```powershell
 Get-DGatewayConfig
 ```
-![Get-DGatewayConfig](https://webdevolutions.azureedge.net/docs/en/kb/KB0177.png)
+![Get-DGatewayConfig](https://cdnweb.devolutions.net/docs/en/kb/KB0177.png)
 
 To tell {{ en.DGW }} to use the Windows Store, use the following command:
 ```powershell
@@ -175,12 +175,12 @@ Set-DGatewayConfig -TlsCertificateSource "System" -TlsCertificateSubjectName "{F
 # Display the updated configuration
 Get-DGatewayConfig
 ```
-![Set-DGatewayConfig](https://webdevolutions.azureedge.net/docs/en/kb/KB0178.png)
+![Set-DGatewayConfig](https://cdnweb.devolutions.net/docs/en/kb/KB0178.png)
 
 Restart the service for the configuration to take effect.
 ```powershell
 Restart-Service -Name 'DevolutionsGateway'
 ```
-![Restart-Service -Name 'DevolutionsGateway'](https://webdevolutions.azureedge.net/docs/en/kb/KB0179.png)
+![Restart-Service -Name 'DevolutionsGateway'](https://cdnweb.devolutions.net/docs/en/kb/KB0179.png)
 
 Verify if {{ en.DGW }} is running correctly by navigating to `https://{FQDN}:7171/jet/health` with a web browser.

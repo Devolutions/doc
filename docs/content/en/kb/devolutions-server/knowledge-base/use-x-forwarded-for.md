@@ -7,6 +7,6 @@ The ***Use X-Forwarded-For*** option, found in the {{ en.DVLS }} web interface u
 
 When first implemented, the option was enabled by default to allow backwards compatibility with users already using load balancers. However, since {{ en.DVLS }} 2023.3, it is disabled by default for new {{ en.DVLS }} installations. Therefore, for new installations using a load balancer, you must manually enable the option in ***Administration – Server Settings – Security***. No action is required for existing installations.
 
-![Administration – Server Settings – Security – Use X-Forwarded-For](https://webdevolutions.azureedge.net/docs/en/kb/KB2343.png)  
+![Administration – Server Settings – Security – Use X-Forwarded-For](https://cdnweb.devolutions.net/docs/en/kb/KB2343.png)
 
 When the option is enabled, the [X-Forwarded-For header](https://en.wikipedia.org/wiki/X-Forwarded-For) header is added to the request by IIS (this does not work with Kestrel). Each intermediate node adds the identity of the original caller to the request header and keeps adding its caller to the next. Consequently, the last node sees not only the original caller, but also which nodes intervened before it.

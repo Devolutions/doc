@@ -7,17 +7,17 @@ eleventyComputed:
   - 2008R2
   - Microsoft.Management.Infrastructure
 ---
-Windows Server 2008R2 - Could not load file or assembly 'Microsoft.Management.Infrastructure' or one of its dependencies. 
+Windows Server 2008R2 - Could not load file or assembly 'Microsoft.Management.Infrastructure' or one of its dependencies.
 
-The following modification will remove the strong name verification and could expose your Windows Server to various threats. 
-After installing {{ en.DVLS }} version 6.x on a Windows Server 2008R2, you will get the following error message. 
+The following modification will remove the strong name verification and could expose your Windows Server to various threats.
+After installing {{ en.DVLS }} version 6.x on a Windows Server 2008R2, you will get the following error message.
 
-![Could not load file or assembly window](https://webdevolutions.azureedge.net/docs/en/kb/KB4004.png) 
+![Could not load file or assembly window](https://cdnweb.devolutions.net/docs/en/kb/KB4004.png)
 
-## Solution 
+## Solution
 
 The solution is to create two registry keys. You can add them by opening a PowerShell command window as an administrator.
 
 Here are the two commands to run.
 
-![PowerShell command window](https://webdevolutions.azureedge.net/docs/en/kb/KB4005.png) 
+![PowerShell command window](https://cdnweb.devolutions.net/docs/en/kb/KB4005.png)

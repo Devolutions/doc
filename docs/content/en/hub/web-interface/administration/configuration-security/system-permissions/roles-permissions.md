@@ -23,12 +23,12 @@ Each ***Role*** in {{ en.DHUB }} has its own set of ***Permissions***.
 | Manage attachments          |            |         |                     |           |                      | {{ icon.badgeNotice | safe }} | {{ icon.badgeNotice | safe }} |
 | Manage documentation        |            |         |                     |           |
 
-## Sensitive information permissions 
+## Sensitive information permissions
 
-In {{ en.DHUB }}, all sensitive information is hidden by default. Some can be viewed by anyone that has access to the entry by clicking on the eye icon, and others require ***View sensitive*** or ***View password*** permissions to be viewed.  
+In {{ en.DHUB }}, all sensitive information is hidden by default. Some can be viewed by anyone that has access to the entry by clicking on the eye icon, and others require ***View sensitive*** or ***View password*** permissions to be viewed.
 
-The ***View sensitive*** permission is granted to ***Reader***, ***Operator***, ***Contributor***, and ***Manager*** roles, while the ***Contributor*** or ***Manager*** roles are required for the ***View password*** permission. Therefore, even if passwords are indeed sensitive information, you will not be able to view them with the ***View sensitive*** permission alone.  
+The ***View sensitive*** permission is granted to ***Reader***, ***Operator***, ***Contributor***, and ***Manager*** roles, while the ***Contributor*** or ***Manager*** roles are required for the ***View password*** permission. Therefore, even if passwords are indeed sensitive information, you will not be able to view them with the ***View sensitive*** permission alone.
 
-Sensitive information requiring the ***View sensitive*** permission will have this icon next to it, while information requiring the ***View password*** permission will have this key icon. You can see both examples in the image below. 
+Sensitive information requiring the ***View sensitive*** permission will have this icon next to it, while information requiring the ***View password*** permission will have this key icon. You can see both examples in the image below.
 
-![Sensible information icons](https://webdevolutions.azureedge.net/docs/en/hub/Hub2267.png)
+![Sensible information icons](https://cdnweb.devolutions.net/docs/en/hub/Hub2267.png)

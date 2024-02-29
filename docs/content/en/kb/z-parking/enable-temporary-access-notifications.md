@@ -2,16 +2,16 @@
 eleventyComputed:
   title: Enable Temporary Access Notifications
 ---
-Enable automatic email notifications for temporary access requests with {{ en.RDM }}. When activated, a temporary access request will send an email notification to the authorizer. The user which initiated the request will receive a confirmation email with the authorizer's decision.  
+Enable automatic email notifications for temporary access requests with {{ en.RDM }}. When activated, a temporary access request will send an email notification to the authorizer. The user which initiated the request will receive a confirmation email with the authorizer's decision.
 {% snippet icon.badgeCaution %}
 This functionality will only work in combination with a [{{ en.DA }}](/cloud/devolutions-account/create-devolutions-account/) email.
-{% endsnippet %}  
+{% endsnippet %}
 {% snippet icon.badgeCaution %}
 This notification is only available for the Microsoft SQL Server and Microsoft Azure SQL advanced data sources.
 {% endsnippet %}
 
 ## Prerequisites
-1. Have a [{{ en.DA }}](/cloud/devolutions-account/create-devolutions-account/).  
+1. Have a [{{ en.DA }}](/cloud/devolutions-account/create-devolutions-account/).
 1. In {{ en.RDM }}:
     1. Connect to your {{ en.DA }} in ***File – {{ en.DA }}***.
 {type="a"}
@@ -24,5 +24,5 @@ This notification is only available for the Microsoft SQL Server and Microsoft A
 ## Steps
 1. In {{ en.RDM }}, go to ***Administration – System Settings – {{ en.VLT_MAJ }}***.
 1. Click ***Enable Temporary Access Notifications***.
-![Administration – System Settings – {{ en.VLT_MAJ }} – Enable Temporary Access Notifications](https://webdevolutions.azureedge.net/docs/en/kb/KB4854.png)
+![Administration – System Settings – {{ en.VLT_MAJ }} – Enable Temporary Access Notifications](https://cdnweb.devolutions.net/docs/en/kb/KB4854.png)
 3. Click ***OK*** to close the window, then save the changes.

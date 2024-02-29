@@ -8,11 +8,11 @@ Configure a basic SMTP email in {{ en.DVLS }} by following the steps below.
 
 1. In {{ en.DVLS }}, go to ***Administration – Server Settings – Email***.
 1. In the ***Authentication type*** drop-down list, select ***Basic***.
-![Basic authentication type](https://webdevolutions.azureedge.net/docs/en/kb/KB2203.png) 
+![Basic authentication type](https://cdnweb.devolutions.net/docs/en/kb/KB2203.png)
 1. In the ***Administrator Email*** field, enter the recipient email address that will receive the errors.
 1. Enter/select all necessary information under the ***SMTP Configuration*** section. See the table in the next section for information on each field/setting.
-1. Once the information has been provided, test your email settings with the ***Test Email*** button. 
-1. If successful, ***Save*** your configuration using the icon at the top right.  
+1. Once the information has been provided, test your email settings with the ***Test Email*** button.
+1. If successful, ***Save*** your configuration using the icon at the top right.
 
 ## SMTP configuration settings
 

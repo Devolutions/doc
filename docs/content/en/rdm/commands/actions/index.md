@@ -1,14 +1,14 @@
 ---
 eleventyComputed:
   title: Actions
-  description: The Actions tab is only available when a session is open. Available actions differ depending on the action. 
+  description: The Actions tab is only available when a session is open. Available actions differ depending on the action.
 ---
-The ***Actions*** tab is only available when a session is open. Available actions differ depending on the action.  
+The ***Actions*** tab is only available when a session is open. Available actions differ depending on the action.
 
-For our example we are running an RDP session. The ribbon will display the following tab when the session runs with the ***Embedded (tabbed)*** display mode.  
-![Ribbon - Actions](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip11288.png) 
+For our example we are running an RDP session. The ribbon will display the following tab when the session runs with the ***Embedded (tabbed)*** display mode.
+![Ribbon - Actions](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip11288.png)
 
-### Connection 
+### Connection
 
 | Option    | Description                                                                                                      |
 |-----------|------------------------------------------------------------------------------------------------------------------|
@@ -17,7 +17,7 @@ For our example we are running an RDP session. The ribbon will display the follo
 | LogOff    | Log off the RDP session.                                                                                         |
 
 
-### Actions 
+### Actions
 
 | Option        | Description                                                                                                     |
 | ------------- | --------------------------------------------------------------------------------------------------------------- |
@@ -26,7 +26,7 @@ For our example we are running an RDP session. The ribbon will display the follo
 | Type Clipboard| Send the content of the clipboard over to the opened session.                                                   |
 
 
-### Display 
+### Display
 
 | Option           | Description                                                                                 |
 | -----------------|-------------------------------------------------------------------------------------------- |
@@ -36,7 +36,7 @@ For our example we are running an RDP session. The ribbon will display the follo
 | Work Area Screen | Open the connection in full screen and have access to your local taskbar.                   |
 
 
-### Settings 
+### Settings
 
 | Option                 | Description                                                                            |
 | ---------------------- | ---------------------------------------------------------------------------------------|
@@ -45,19 +45,19 @@ For our example we are running an RDP session. The ribbon will display the follo
 | Smart Reconnect                  | Automatically reconnect your session with the most appropriate band.         |
 | Windows Key on the Remote Computer | When enabling Windows key, it will send the function to your host instead of running it on your computer. |
 
-### Commands 
+### Commands
 
-This tab contains multiple type of commands and keystrokes combinations to affect the current session in a variety of instances. As such, these commands depend on the currently selected (and opened) entry. For a few example scenarios, refer to the following topics:  
+This tab contains multiple type of commands and keystrokes combinations to affect the current session in a variety of instances. As such, these commands depend on the currently selected (and opened) entry. For a few example scenarios, refer to the following topics:
 
-* [RDP](/rdm/windows/commands/actions/commands/rdp/) 
-* [VNC](/rdm/windows/commands/actions/commands/vnc/) 
-* [Telnet](/rdm/windows/commands/actions/commands/telnet/) 
+* [RDP](/rdm/windows/commands/actions/commands/rdp/)
+* [VNC](/rdm/windows/commands/actions/commands/vnc/)
+* [Telnet](/rdm/windows/commands/actions/commands/telnet/)
 
-{% snippet icon.badgeInfo %} 
-Session add-ons may add custom command in this section, they will not be documented in these topics but rather in the add-on documentation. 
+{% snippet icon.badgeInfo %}
+Session add-ons may add custom command in this section, they will not be documented in these topics but rather in the add-on documentation.
 {% endsnippet %}
- 
-### Screenshot 
+
+### Screenshot
 
 | Option                 | Description                                                                                     |
 | ---------------------- | ----------------------------------------------------------------------------------------------- |
@@ -65,11 +65,11 @@ Session add-ons may add custom command in this section, they will not be documen
 | Save to File           | Prompts for a file name and saves the capture to that file.                                     |
 | Save to File and Open  | Prompts for a file name and saves the capture to that file, then automatically opens the file using your default editor. |
 
-### Video 
+### Video
 
 | OPTION | DESCRIPTION                                                                      |
 |--------|----------------------------------------------------------------------------------|
 | Record | Record your screen in an MP4 format. We recommend the use of a VLC player to view the recorded video. |
 
-Alternatively, these actions are also available by right-clicking on the tab of an embedded session.  
-![Actions Context Menu of an Embedded Session](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10184.png) 
+Alternatively, these actions are also available by right-clicking on the tab of an embedded session.
+![Actions Context Menu of an Embedded Session](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip10184.png)

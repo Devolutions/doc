@@ -2,8 +2,8 @@
 eleventyComputed:
   title: Domain information
 ---
-Provides the user's domain information.  
-![!!ServerOp8061](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8061.png)
+Provides the user's domain information.
+![!!ServerOp8061](https://cdnweb.devolutions.net/docs/en/server/ServerOp8061.png)
 
 ### Edit User
 | OPTION | DESCRIPTION                      |
@@ -12,5 +12,5 @@ Provides the user's domain information.
 | SID    | User domain security identifier. |
 
 ### Find on domain
-Display the detailed user domain account information.  
-![Domain user account information](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8007.png)
+Display the detailed user domain account information.
+![Domain user account information](https://cdnweb.devolutions.net/docs/en/server/ServerOp8007.png)

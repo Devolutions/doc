@@ -5,8 +5,8 @@ eleventyComputed:
   keywords:
   - logging
 ---
-The ***Logging*** section allows the administrator to configure the logging features.  
-![Administration – Server Settings – Logging](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8040.png)
+The ***Logging*** section allows the administrator to configure the logging features.
+![Administration – Server Settings – Logging](https://cdnweb.devolutions.net/docs/en/server/ServerOp8040.png)
 
 ## Settings
 

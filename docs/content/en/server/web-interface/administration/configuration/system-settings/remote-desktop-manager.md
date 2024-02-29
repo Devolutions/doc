@@ -2,8 +2,8 @@
 eleventyComputed:
   title: "{{ en.RDM }}"
 ---
-This section lets you configure various options for {{ en.RDM }}.  
-![Administration – System Settings – {{ en.RDM }}](https://webdevolutions.azureedge.net/docs/en/server/ServerOp2095.png)
+This section lets you configure various options for {{ en.RDM }}.
+![Administration – System Settings – {{ en.RDM }}](https://cdnweb.devolutions.net/docs/en/server/ServerOp2095.png)
 
 ## {{ en.RDM }}
 

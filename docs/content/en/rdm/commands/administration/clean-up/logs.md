@@ -18,11 +18,11 @@ You must be an administrator of the data source to perform this action.
 1. Select prior to which date the ***Activity Logs*** will be deleted.
 1. Select from which {{ en.VLT }} the ***Activity Logs*** will be deleted.
 1. Select where the XML backup file will be saved by clicking the ellipsis button, under the ***Backup*** section.
-![Clean up activity logs](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin0007.png)
+![Clean up activity logs](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMWin0007.png)
    {% snippet icon.shieldWarning %}
    A backup of your log will be created as an XML file although it will then be impossible to import this file in {{ en.RDM }}.
    {% endsnippet %}
 
-1. Click ***OK***.  
-![DataSource delete log result](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin0008.png)
-1. Click ***OK***.  
+1. Click ***OK***.
+![DataSource delete log result](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMWin0008.png)
+1. Click ***OK***.

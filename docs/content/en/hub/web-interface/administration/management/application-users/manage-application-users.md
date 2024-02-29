@@ -8,11 +8,11 @@ Create, manage, and delete application identities in ***Administration – Appli
 ## Create an application identity
 Follow the steps below to create a new application identity. Once your application identity has been created, [assign them the right permissions](#assign-permissions).
 1. In ***Administration – Application identity***, click ***Add Application Identity*** at the top right.
-![Add Application Identity](https://webdevolutions.azureedge.net/docs/en/hub/HUBB2357_2024_1.png)
+![Add Application Identity](https://cdnweb.devolutions.net/docs/en/hub/HUBB2357_2024_1.png)
 1. Name the application identity then click ***Add***. In the example below, we have named it "PowerShell 1".
-![Name the application identity](https://webdevolutions.azureedge.net/docs/en/hub/HUBB2358_2024_1.png)
+![Name the application identity](https://cdnweb.devolutions.net/docs/en/hub/HUBB2358_2024_1.png)
 1. Copy the ***Application Secret*** and ***Application key***, or download the PDF file provided. Save the information or file in a secure place.
-![Application secret and application key](https://webdevolutions.azureedge.net/docs/en/hub/HUBB2359_2024_1.png)
+![Application secret and application key](https://cdnweb.devolutions.net/docs/en/hub/HUBB2359_2024_1.png)
 1. Close the window.
 
 By default, a newly created application identity has no permissions. See the next section to assign permissions.

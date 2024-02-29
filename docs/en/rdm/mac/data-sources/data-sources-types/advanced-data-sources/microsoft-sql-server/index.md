@@ -4,58 +4,58 @@ eleventyComputed:
   description: "{{ en.RDMMAC }} uses the power of Microsoft SQL Server to save and manage all sessions."
 ---
 
-{{ en.RDMMAC }} uses the power of Microsoft SQL Server to save and manage all sessions. 
+{{ en.RDMMAC }} uses the power of Microsoft SQL Server to save and manage all sessions.
 
-Supported Microsoft SQL Server:  
+Supported Microsoft SQL Server:
 
-* 2019 on Windows and Linux (all editions) 
-* 2017 on Windows and Linux (all editions) 
-* 2016 Service Pack 2 
-* 2014 Service Pack 3 
-* 2012 Service Pack 4 
+* 2019 on Windows and Linux (all editions)
+* 2017 on Windows and Linux (all editions)
+* 2016 Service Pack 2
+* 2014 Service Pack 3
+* 2012 Service Pack 4
 
-We also support the following features:  
+We also support the following features:
 
-* Always on availability group 
-* Clustering 
-* Log Shipping 
-* Database mirroring 
+* Always on availability group
+* Clustering
+* Log Shipping
+* Database mirroring
 
-## Highlights 
+## Highlights
 
-* Supports user management with a superior security model. 
-* Supports Offline mode for when the server or network is unavailable. 
-* Supports full entry logs and attachments. 
+* Supports user management with a superior security model.
+* Supports Offline mode for when the server or network is unavailable.
+* Supports full entry logs and attachments.
 
-{% snippet icon.badgeWarning %} 
+{% snippet icon.badgeWarning %}
 A proper database backup strategy should be implemented to minimize possible data loss.
 {% endsnippet %}
- 
-{% snippet icon.badgeWarning %} 
-Active directory in a SQL Server data source is no longer supported in {{ en.RDMMAC }}OS. 
-{% endsnippet %}
- 
-{% snippet icon.badgeWarning %} 
-Depending on the Recovery Model of the underlying database, some maintenance operations may have to be scheduled to run regularly to maintain the health of the database. Please consult [Recovery Model](/rdm/mac/data-sources/data-sources-types/advanced-data-sources/microsoft-sql-server/recovery-model/). 
-{% endsnippet %}
- 
-{% snippet icon.shieldWarning %} 
-Using Database Login is inherently less secure because it means that the end user can connect directly to the database using any tool available. We do have table and column level security, but security conscious organizations would consider this unacceptable. It is recommended to use our Custom login model. 
-{% endsnippet %}
- 
-{% snippet icon.badgeInfo %} 
-Creating Contained Database Users as mentioned in this [article](https://docs.microsoft.com/en-us/sql/relational-databases/databases/contained-databases?view=sql-server-ver15#benefit-of-contained-database-users-with-always-on) is the supported method with SQL Always On availability group. 
-{% endsnippet %}
- 
-## Configuration 
 
-Consult [Configure SQL Server](/rdm/mac/data-sources/data-sources-types/advanced-data-sources/microsoft-sql-server/configure-sql-server/) for more information on the configuration. 
+{% snippet icon.badgeWarning %}
+Active directory in a SQL Server data source is no longer supported in {{ en.RDMMAC }}OS.
+{% endsnippet %}
 
-## Settings 
+{% snippet icon.badgeWarning %}
+Depending on the Recovery Model of the underlying database, some maintenance operations may have to be scheduled to run regularly to maintain the health of the database. Please consult [Recovery Model](/rdm/mac/data-sources/data-sources-types/advanced-data-sources/microsoft-sql-server/recovery-model/).
+{% endsnippet %}
 
-### Connection 
+{% snippet icon.shieldWarning %}
+Using Database Login is inherently less secure because it means that the end user can connect directly to the database using any tool available. We do have table and column level security, but security conscious organizations would consider this unacceptable. It is recommended to use our Custom login model.
+{% endsnippet %}
 
-![SQL Server - Connection tab](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip6034.png) 
+{% snippet icon.badgeInfo %}
+Creating Contained Database Users as mentioned in this [article](https://docs.microsoft.com/en-us/sql/relational-databases/databases/contained-databases?view=sql-server-ver15#benefit-of-contained-database-users-with-always-on) is the supported method with SQL Always On availability group.
+{% endsnippet %}
+
+## Configuration
+
+Consult [Configure SQL Server](/rdm/mac/data-sources/data-sources-types/advanced-data-sources/microsoft-sql-server/configure-sql-server/) for more information on the configuration.
+
+## Settings
+
+### Connection
+
+![SQL Server - Connection tab](https://cdnweb.devolutions.net/docs/en/rdm/mac/clip6034.png)
 
 | OPTION       | DESCRIPTION |
 |--------------|-------------|
@@ -73,9 +73,9 @@ Consult [Configure SQL Server](/rdm/mac/data-sources/data-sources-types/advanced
 | Test Database| Test the connection with the database to validate if the proper information has been provided. |
 
 
-### Settings 
+### Settings
 
-![SQL Server - Settings tab](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip6035.png) 
+![SQL Server - Settings tab](https://cdnweb.devolutions.net/docs/en/rdm/mac/clip6035.png)
 
 | OPTION          | DESCRIPTION |
 |-----------------|-------------|
@@ -85,9 +85,9 @@ Consult [Configure SQL Server](/rdm/mac/data-sources/data-sources-types/advanced
 | Auto go offline | Use the data source in offline mode when the ping method does not respond.   |
 | Disable lock    | Disable the option to lock the data source directly. You can still lock the application but you will not be prompted for the database password if this option is disabled.      |
 
-### Advanced 
+### Advanced
 
-![SQL Server - Advanced tab](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip6036.png) 
+![SQL Server - Advanced tab](https://cdnweb.devolutions.net/docs/en/rdm/mac/clip6036.png)
 
 | OPTION                              | DESCRIPTION |
 |-------------------------------------|-------------|
@@ -101,9 +101,9 @@ Consult [Configure SQL Server](/rdm/mac/data-sources/data-sources-types/advanced
 | Manage Cache                        | Manage your cache on your computer to analyse, vacuum, repair or delete it. This can be very helpful if you have offline issues. For more information please follow this [link](/rdm/mac/data-sources/manage-cache/). |
 | Advanced Settings                   | Edit the connection string values directly. |
 
-### Upgrade 
+### Upgrade
 
-![SQL Server - Upgrade tab](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip6040.png) 
+![SQL Server - Upgrade tab](https://cdnweb.devolutions.net/docs/en/rdm/mac/clip6040.png)
 
 | OPTION             | DESCRIPTION |
 |--------------------|-------------|
@@ -113,9 +113,9 @@ Consult [Configure SQL Server](/rdm/mac/data-sources/data-sources-types/advanced
 | Test Database      | Test the connection with the database to validate if the proper information has been provided. |
 | View upgrade script... | If you wish to process Database upgrade by hand instead of automatically you may use the upgrade script to do so. |
 
-### {{ en.UVLT_MAJ }} 
+### {{ en.UVLT_MAJ }}
 
-![SQL Server - {{ en.UVLT_MAJ }}](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip6041.png) 
+![SQL Server - {{ en.UVLT_MAJ }}](https://cdnweb.devolutions.net/docs/en/rdm/mac/clip6041.png)
 
 | OPTION | DESCRIPTION |
 |--------|-------------|

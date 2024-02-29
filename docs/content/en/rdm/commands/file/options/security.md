@@ -4,7 +4,7 @@ eleventyComputed:
   description: Use File – Options – Security to configure security settings related to local application security, multi-factor authentication, locking, offline security, certificate security, and more.
 ---
 Use ***File – Options – Security*** to configure security settings related to local application security, multi-factor authentication, locking, offline security, certificate security, and more.
-![File – Options – Security](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2152.png) 
+![File – Options – Security](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMWin2152.png)
 
 ## Settings
 ### Application Security (Local)
@@ -42,7 +42,7 @@ Use ***File – Options – Security*** to configure security settings related t
 | New password / Confirm password | This is only available with enhanced offline security. Enter an offline password in the **New password** field, then enter it again in the **Confirm password** field. |
 | Prompt for offline access       | This is only available with enhanced offline security. If enabled, {{ en.RDM }} will ask if you want to access the application offline on startup. |
 
-### Certificate Security 
+### Certificate Security
 
 | OPTION                      | DESCRIPTION                                                                                     |
 |-----------------------------|-------------------------------------------------------------------------------------------------|

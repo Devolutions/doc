@@ -2,21 +2,21 @@
 eleventyComputed:
   title: My {{ en.UVLT }}
 ---
-The {{ en.UVLT }} is a user centric {{ en.VLT }} for entries of any type. It allows each user o create entries that only them can access.  
+The {{ en.UVLT }} is a user centric {{ en.VLT }} for entries of any type. It allows each user o create entries that only them can access.
 
-To create a new entry in your {{ en.UVLT }}, simply click on {{ en.UVLT }} in your ***{{ en.NPANE }}*** and create your new entry directly from there.  
+To create a new entry in your {{ en.UVLT }}, simply click on {{ en.UVLT }} in your ***{{ en.NPANE }}*** and create your new entry directly from there.
 
-{% snippet icon.badgeInfo %} 
-The {{ en.UVLT }} is only available for all [Advanced Data Sources](/rdm/mac/data-sources/data-sources-types/advanced-data-sources/). 
+{% snippet icon.badgeInfo %}
+The {{ en.UVLT }} is only available for all [Advanced Data Sources](/rdm/mac/data-sources/data-sources-types/advanced-data-sources/).
 {% endsnippet %}
- 
-![{{ en.NPANE }} – {{ en.UVLT_MAJ }}](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip6003.png) 
 
-## A note on Credentials 
+![{{ en.NPANE }} – {{ en.UVLT_MAJ }}](https://cdnweb.devolutions.net/docs/en/rdm/mac/clip6003.png)
 
-Credentials in the {{ en.UVLT }} can be used in two ways:  
+## A note on Credentials
 
-1. From a session in the {{ en.UVLT }}. 
-1. When using the [User Specific Settings](/rdm/mac/commands/edit/setting-overrides/user-specific-settings/) feature  
+Credentials in the {{ en.UVLT }} can be used in two ways:
+
+1. From a session in the {{ en.UVLT }}.
+1. When using the [User Specific Settings](/rdm/mac/commands/edit/setting-overrides/user-specific-settings/) feature
 
 These restrictions can easily be understood when you keep in mind that the {{ en.UVLT }} is in fact contained in the user area of the database. It must be used from within itself, or by using our extension mechanism that is user specific.

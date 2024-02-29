@@ -24,13 +24,13 @@ A tag will automatically be deleted from the list of tags when not used by any e
 {% endsnippet %}
 
 ```
-Smart folders search for the term anywhere in the entry name.  
-  To search for multiple terms, use:  
-    &&: and  
-    ||: or  
+Smart folders search for the term anywhere in the entry name.
+  To search for multiple terms, use:
+    &&: and
+    ||: or
 ```
 
-![!!KB4133](https://webdevolutions.azureedge.net/docs/en/kb/KB4133.png)
+![!!KB4133](https://cdnweb.devolutions.net/docs/en/kb/KB4133.png)
 
 ## Use a smart folder
 

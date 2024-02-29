@@ -7,19 +7,19 @@ The following steps will describe the options to install the ***Recording Server
 ## {{ en.DGW }} installation
 {% snippet icon.badgeHelp %}
 A [gateway](https://docs.devolutions.net/server/dgw/server-configuration/) first needs to be installed before starting this process.
-{% endsnippet %}  
+{% endsnippet %}
 
 1. In the web interface for {{ en.DVLS }}, make sure you are connected to the right data source.
 1. Go to ***Administration*** – ***System Settings*** – ***Recording Server***.
-1. Click on ***Enable {{ en.DGW }} recording***.  
-![Enable {{ en.DGW }} recording](https://webdevolutions.azureedge.net/docs/en/kb/KB0130.png)
+1. Click on ***Enable {{ en.DGW }} recording***.
+![Enable {{ en.DGW }} recording](https://cdnweb.devolutions.net/docs/en/kb/KB0130.png)
    {% snippet icon.badgeHelp %}
    It is possible to [migrate legacy session recording files](/kb/devolutions-powershell/devolutions-gateway/recording-server-migration-tool).
-   {% endsnippet %}  
+   {% endsnippet %}
 
 1. Disable the ***Enable legacy recording server*** option.
-1. Click ***Save***.  
-![Save](https://webdevolutions.azureedge.net/docs/en/kb/KB0131.png)
+1. Click ***Save***.
+![Save](https://cdnweb.devolutions.net/docs/en/kb/KB0131.png)
 1. In {{ en.RDM }}, go into the ***Properties*** – ***Security*** – ***Session Recording*** – ***Session Recording*** section of supported entry types;
     * Apple Remote Desktop
     * Azure Blob Storage
@@ -36,32 +36,32 @@ A [gateway](https://docs.devolutions.net/server/dgw/server-configuration/) first
     * WebDav
 1. Set the ***Mode*** to ***Required***.
 1. Set the ***Recording*** to ***Remote***.
-![Session Recording](https://webdevolutions.azureedge.net/docs/en/kb/KB0132.png)
+![Session Recording](https://cdnweb.devolutions.net/docs/en/kb/KB0132.png)
 1. Click ***OK*** to save the changes and close the window.
 
 ## {{ en.DVLSCONSOLE }} installation
 {% snippet icon.badgeCaution %}
 As it is now deprecated, this ***Recording Server*** format is only recommended for version 2023.1 and prior.
-{% endsnippet %}  
+{% endsnippet %}
 
 {% snippet icon.badgeInfo %}
 The {{ en.DVLSCONSOLE }} is required to install the ***Recording Server***.
-{% endsnippet %}  
+{% endsnippet %}
 
-1. In the {{ en.DVLSCONSOLE }}, select the ***Companions*** tab and click on the ***Install*** button of the ***Recording Server*** section.  
-![Companions tab](https://webdevolutions.azureedge.net/docs/en/kb/KB8014.png)
+1. In the {{ en.DVLSCONSOLE }}, select the ***Companions*** tab and click on the ***Install*** button of the ***Recording Server*** section.
+![Companions tab](https://cdnweb.devolutions.net/docs/en/kb/KB8014.png)
 
-1. Agree to the terms of the ***End User License Agreement*** and click ***Next***.  
-![End User License Agreement](https://webdevolutions.azureedge.net/docs/en/kb/KB8015.png)
+1. Agree to the terms of the ***End User License Agreement*** and click ***Next***.
+![End User License Agreement](https://cdnweb.devolutions.net/docs/en/kb/KB8015.png)
 
-1. Select the ***Source*** of the package according to the installed {{ en.DVLS }} version and click ***Next***.  
-![Source](https://webdevolutions.azureedge.net/docs/en/kb/KB8016.png)
+1. Select the ***Source*** of the package according to the installed {{ en.DVLS }} version and click ***Next***.
+![Source](https://cdnweb.devolutions.net/docs/en/kb/KB8016.png)
 
-1. Set the settings for the machine where the ***Recording Server*** will be installed and click ***Next***.  
-![Properties](https://webdevolutions.azureedge.net/docs/en/kb/KB8017.png)
+1. Set the settings for the machine where the ***Recording Server*** will be installed and click ***Next***.
+![Properties](https://cdnweb.devolutions.net/docs/en/kb/KB8017.png)
    {% snippet icon.badgeCaution %}
    Do not to install the ***Recording Server*** in [...]\inetpub\ or in the same folder as the web instance of {{ en.DVLS }} and/or {{ en.DVLSCONSOLE }}, as this would make it impossible to work properly.
-   {% endsnippet %}  
+   {% endsnippet %}
 
    | Recording Server Properties | Description |
    | --------------------------- | ----------- |
@@ -79,11 +79,11 @@ The {{ en.DVLSCONSOLE }} is required to install the ***Recording Server***.
    | ----------------------- | ----------- |
    | Max Parallel Processing | Maximum number of files to be converted at the same moment to a readable format |
 
-5. Set the ***Service Account*** that will run the Recording Service and click ***Next***.  
-![Service Account](https://webdevolutions.azureedge.net/docs/en/kb/KB8018.png)
+5. Set the ***Service Account*** that will run the Recording Service and click ***Next***.
+![Service Account](https://cdnweb.devolutions.net/docs/en/kb/KB8018.png)
 
-6. Set the ***Server URL*** and ***Administration Credentials*** account that will create the ***Application Key*** to allow the ***Recording Server*** to communicate with the {{ en.DVLS }} instance, then click ***Next***.  
-![{{ en.DVLS }} Credentials](https://webdevolutions.azureedge.net/docs/en/kb/KB8019.png)
+6. Set the ***Server URL*** and ***Administration Credentials*** account that will create the ***Application Key*** to allow the ***Recording Server*** to communicate with the {{ en.DVLS }} instance, then click ***Next***.
+![{{ en.DVLS }} Credentials](https://cdnweb.devolutions.net/docs/en/kb/KB8019.png)
    | {{ en.DVLS }} Credentials | Description |
    | ------------------------------ | ----------- |
    | Server URL                     | URL of the {{ en.DVLS }} instance |
@@ -101,11 +101,11 @@ The {{ en.DVLSCONSOLE }} is required to install the ***Recording Server***.
    | {{ en.DVLS }} uses a different path to access recordings | Enable this option to be able to download the recording files using a different access path |
    | Public Output Folder                                          | Set the public folder from which the users can download the recording files, this can be a UNC path |
 
-7. Click on the ***Install*** button to start the installation of the ***Recording Server***.  
-![Summary](https://webdevolutions.azureedge.net/docs/en/kb/KB8020.png)
+7. Click on the ***Install*** button to start the installation of the ***Recording Server***.
+![Summary](https://cdnweb.devolutions.net/docs/en/kb/KB8020.png)
 
-1. Once finished, an ***Operation Successful*** dialog message will be displayed.  
-![OK and Close](https://webdevolutions.azureedge.net/docs/en/kb/KB8021.png)
+1. Once finished, an ***Operation Successful*** dialog message will be displayed.
+![OK and Close](https://cdnweb.devolutions.net/docs/en/kb/KB8021.png)
 
 1. Click ***OK*** and ***Close*** the window.
 
