@@ -74,6 +74,9 @@
                   "url": "/kb/remote-desktop-manager/how-to-articles/configure-1password-integrated-mode/"
                 },
                 {
+                  "url": "/kb/remote-desktop-manager/how-to-articles/configure-1password-entry/"
+                },
+                {
                   "url": "/kb/remote-desktop-manager/how-to-articles/configure-bitwarden-entry/"
                 },
                 {
@@ -1498,6 +1501,9 @@
                 },
                 {
                   "url": "/kb/devolutions-server/troubleshooting-articles/encryption-file-missing/"
+                },
+                {
+                  "url": "/kb/devolutions-server/troubleshooting-articles/jit-elevation-error/"
                 },
                 {
                   "url": "/kb/devolutions-server/troubleshooting-articles/security-token-invalid-idx10205/"
