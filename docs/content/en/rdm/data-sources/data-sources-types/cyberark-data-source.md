@@ -52,6 +52,6 @@ In CyberArk, you must manually grant read access to ***safe RDM_Settings*** to e
 
 ## Troubleshooting 
 
-For detailed troubleshooting steps regarding CyberArk data source issues, [click here](/kb/remote-desktop-manager/troubleshooting-articles/cyber-ark-data-source/).
+[Click here](/kb/remote-desktop-manager/troubleshooting-articles/cyberark-data-source-issues/) for troubleshooting steps regarding CyberArk data source issues, or contact our [support team](mailto:service@devolutions.net) .
 
 
