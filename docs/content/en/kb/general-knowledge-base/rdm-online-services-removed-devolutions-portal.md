@@ -8,4 +8,3 @@ These sections will be removed from {{ en.DPORTAL }}. You can still access the *
 
 * [{{ en.OBACK }}](https://portal.devolutions.com/rdm-online-services/online-backup)
 * [Online Drive](https://portal.devolutions.com/rdm-online-services/online-drive)
-* [{{ en.CI }}](https://portal.devolutions.com/rdm-online-services/custom-installer)
