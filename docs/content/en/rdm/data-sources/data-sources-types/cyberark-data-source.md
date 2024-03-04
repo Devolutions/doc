@@ -1,7 +1,7 @@
 ---
 eleventyComputed:
   title: Cyberark (Preview)
-  description: Access your CyberArk server directly, without the need for an SQL or {{ en.DVLS}} data source to host the CyberArk Dashboard session.
+  description: Access your CyberArk server directly, without the need for an SQL or a {{ en.DVLS}} data source to host the CyberArk Dashboard session.
 ---
 
 {{ en.RDM}} 2024.1 introduces the CyberArk data source (preview) which makes it possible to connect directly to your CyberArk and launch your sessions with ease, without the added complexity of a {{ en.DVLS}} or SQL Server data source.
@@ -22,7 +22,7 @@ eleventyComputed:
 
 ## First connection
 
-On the first connection to CyberArk, {{ en.RDM }} will
+On the first connection to CyberArk, {{ en.RDM }} will:
 
 * Import a Platform called ***Devolutions Remote Desktop Manager*** (PlatformID: ***DevolutionsRDM***)
 
@@ -42,7 +42,7 @@ In CyberArk, you must manually grant read access to ***safe RDM_Settings*** to e
 
 ## Administrator 
 
-***Administrators*** are defined as users that have ***Add Safe*** privileges. An admin users in {{ en.RDM }} can, respecting CyberArk permissions:
+***Administrators*** are defined as users that have ***Add Safe*** privileges. Admin users in {{ en.RDM }} can, respecting CyberArk permissions:
 
 * Edit the System Settings
 
