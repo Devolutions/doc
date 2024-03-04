@@ -27,7 +27,7 @@ An [Azure AD account](https://azure.microsoft.com/) with the appropriate rights 
 1. Create a [DNS TXT Record](https://learn.microsoft.com/en-us/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider) using the provided ***Host name*** and ***TXT value***. This allows us to verify the ownership of the domain(s) supplied.
 ![Host name and TXT value](https://cdnweb.devolutions.net/docs/en/hub/HUBB2003_2024_1.png)
 
-   We recommend that you verify that your configuration is adequate through DNS querying tools such as [MXToolBox](https://mxtoolbox.com/SuperTool.aspx) or [whatsmydns.net](https://www.whatsmydns.net/). The example below uses MXToolBox's TXT Lookup tool. The first part of the Domain Name must match the ***Hostname*** in {{ en.DHUB }} and the Record must match the ***TXT value*** in {{ en.DHUB }} as well.
+   We recommend that you verify that your configuration is adequate through DNS querying tools such as [MXToolBox](https://mxtoolbox.com/SuperTool.aspx) or [whatsmydns.net](https://www.whatsmydns.net/). The example below uses MXToolBox's TXT Lookup tool. The first part of the Domain Name must match the ***Host name*** in {{ en.DHUB }} and the Record must match the ***TXT value*** in {{ en.DHUB }} as well.
    {% snippet icon.badgeCaution %}
    DNS TXT Records can take a while to propagate.
    {% endsnippet %}
