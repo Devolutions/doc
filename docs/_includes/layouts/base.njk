@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html lang="{{ lang }}">
   <head>
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-K2QBJ5');</script>
+    <script>
+      (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+      'https://www.googletagmanager.com/gtm.js?id='+i+dl;j.setAttributeNode(d.createAttribute('data-ot-ignore'));
+      j.setAttribute('class','optanon-category-C0001');f.parentNode.insertBefore(j, f);
+      })(window,document,'script','dataLayer','GTM-K2QBJ5');
+    </script>
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -21,20 +24,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/a11y-dark.min.css"/>
     <link rel="stylesheet" href="https://cdnweb.devolutions.net/web/common/scripts/live-chat/live-chat.css"/>
     <link rel="stylesheet" href="/css/style.css"/>
-
-    {%- if env.isProd -%}
-      <script type="text/javascript" src="https://cdn.cookielaw.org/consent/db81bb51-28c4-4d00-a6e8-04fcda820584/OtAutoBlock.js"></script>
-      <script src="https://cdn.cookielaw.org/scripttemplates/otSDKStub.js" data-document-language="true" type="text/javascript" charset="UTF-8" data-domain-script="db81bb51-28c4-4d00-a6e8-04fcda820584"></script>
-      <script type="text/javascript">
-        function OptanonWrapper() {}
-      </script>
-    {%- elif env.isStaging -%}
-      <script type="text/javascript" src="https://cdn.cookielaw.org/consent/db81bb51-28c4-4d00-a6e8-04fcda820584-test/OtAutoBlock.js"></script>
-      <script src="https://cdn.cookielaw.org/scripttemplates/otSDKStub.js" data-document-language="true" type="text/javascript" charset="UTF-8" data-domain-script="db81bb51-28c4-4d00-a6e8-04fcda820584-test"></script>
-      <script type="text/javascript">
-        function OptanonWrapper() {}
-      </script>
-    {%- endif -%}
   </head>
   <body>
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K2QBJ5"
@@ -44,10 +33,6 @@
     {%- include 'partials/sub-header.njk' -%}
 
     {{- content | safe -}}
-
-    {%- if env.isProd or env.isStaging -%}
-      <button id="ot-sdk-btn" class="ot-sdk-show-settings">Cookie Settings</button>
-    {%- endif -%}
 
     <devolutions-search opened="false" selected-category="docs" locale="{{ lang }}"></devolutions-search>
 
