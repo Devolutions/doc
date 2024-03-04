@@ -38,7 +38,7 @@ Cela est possible uniquement si l'application d'entreprise dans Azure a l'***Ass
 ![Étape 3 - Options](https://cdnweb.devolutions.net/docs/fr/hub/Hub2060.png)
 5. ***Étape 4 - Groupes d'utilisateurs*** : Les utilisateurs synchronisés n'ont pas besoin d'être assignés aux ***Groupes d'utilisateurs*** synchronisés. Ils seront ajoutés automatiquement lors de leur connexion. Si vous avez des ***Groupes d'utilisateurs*** personnalisés, vous pouvez leur assigner des utilisateurs.
 {% snippet icon.badgeInfo %}
-Les ***Groupes d'utilisateurs*** personnalisés doivent être définis au préalable dans {{ fr.DHUBB }}. Pour plus d'informations, voir [Groupes d'utilisateurs](/fr/hub/web-interface/hub-overview/administration/management/user-groups/).
+Les ***Groupes d'utilisateurs*** personnalisés doivent être définis au préalable dans {{ fr.DHUBB }}. Pour plus d'informations, voir [Groupes d'utilisateurs](/fr/hub/web-interface/administration/management/user-groups/).
 {% endsnippet %}
 
 ![Étape 4 - Groupes d'utilisateurs](https://cdnweb.devolutions.net/docs/fr/hub/Hub2061.png)
@@ -67,5 +67,5 @@ Il est possible d'ajouter des utilisateurs à votre {{ fr.DHUBB }} qui sont hors
 {% snippet icon.badgeInfo %}
 Cette option est possible seulement si vous n'activez pas ***Forcer l'authentification unique à tous les utilisateurs***, puisque ces utilisateurs ne font pas partie de votre fournisseur d'authentification.
 
-Suivez les étapes de [Créer et inviter des utilisateurs](/fr/hub/web-interface/hub-overview/administration/management/users/create-invite-users/index).
+Suivez les étapes de [Créer et inviter des utilisateurs](/fr/hub/web-interface/administration/management/users/create-invite-users/index).
 {% endsnippet %}

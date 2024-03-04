@@ -11,7 +11,7 @@ Pour modifier votre courriel de {{ fr.DA }}, vous devez [Créer un nouveau compt
 * [Clés de licence](/fr/cloud/portal/serials/) : Ajouter manuellement les clés de licence des produits Devolutions que vous avez achetés précédemment à votre nouveau compte.
 * [Factures](/fr/cloud/portal/invoices/) : Si certaines factures doivent être associées au nouveau compte, contacter notre [service des ventes](mailto:sales@devolutions.net).
 * [{{ fr.DHUBP }}](/fr/cloud/hub-personal/) : Importer et exporter vos entrées de source de données {{ fr.DHUBP }} [avec {{ fr.RDM }}](/fr/kb/remote-desktop-manager/how-to-articles/export-import-entries/) ou au format Json directement [à partir de {{ fr.DHUBP }} (EN)](/kb/hub-business/how-to-articles/import-export-data-hub-personal/) dans ***Outils – Exporter***.
-* [{{ fr.DHUBB }}](/fr/cloud/hub-business/) : Si vous êtes le propriétaire d'un {{ fr.DHUBB }}, transférer la [Propriété](/fr/hub/web-interface/hub-overview/administration/management/users/hub-ownership/) à un autre administrateur puis demander une invitation avec le nouveau compte.
+* [{{ fr.DHUBB }}](/fr/cloud/hub-business/) : Si vous êtes le propriétaire d'un {{ fr.DHUBB }}, transférer la [Propriété](/fr/hub/web-interface/administration/management/users/hub-ownership/) à un autre administrateur puis demander une invitation avec le nouveau compte.
 * [Sauvegarde en ligne](/fr/cloud/rdm-online-services/online-backup/) : Les sauvegardes sont stockées et liées à chaque {{ fr.DA }}. Pour cette raison, vous n'y aurez pas accès sous le nouveau {{ fr.DA }}.
 
 {% snippet icon.badgeInfo %}

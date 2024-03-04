@@ -14,7 +14,7 @@ Le module {{ fr.PS }} est un moyen d'accéder, de créer, de mettre à jour et d
     * [Windows](https://learn.microsoft.com/fr-fr/powershell/scripting/install/installing-powershell-on-windows)
     * [macOS](https://learn.microsoft.com/fr-fr/powershell/scripting/install/installing-powershell-on-macos)
     * [Linux](https://learn.microsoft.com/fr-fr/powershell/scripting/install/installing-powershell-on-linux)
-* Un [Utilisateur d'application](/fr/hub/web-interface/hub-overview/administration/management/application-users/)
+* Un [Utilisateur d'application](/fr/hub/web-interface/administration/management/application-users/)
 
 ## Tutoriels
 

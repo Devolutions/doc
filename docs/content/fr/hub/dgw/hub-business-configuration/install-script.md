@@ -17,7 +17,7 @@ L'installation du script nécessite l'utilisation de PowerShell 7.
 1. Accéder à l'onglet ***Administration*** sur la gauche.
 ![Onglet Administration](https://cdnweb.devolutions.net/docs/fr/hub/DGW0020.png)
 {% snippet icon.badgeCaution %}
-Un ***Utilisateur d'application*** est nécessaire pour continuer. S'il n'a pas encore été créé, la page d'aide [Gestion des utilisateurs d'application](/fr/hub/web-interface/hub-overview/administration/management/application-users/manage-application-users/) est disponible.
+Un ***Utilisateur d'application*** est nécessaire pour continuer. S'il n'a pas encore été créé, la page d'aide [Gestion des utilisateurs d'application](/fr/hub/web-interface/administration/management/application-users/manage-application-users/) est disponible.
 {% endsnippet %}
 
 3. L'***Utilisateur d'application*** devra avoir la permission de gérer les passerelles pour que le script fonctionne. Cliquer sur ***Permissions du système***, qui se trouve sous la section ***Configuration et sécurité***.

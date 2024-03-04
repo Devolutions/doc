@@ -27,7 +27,7 @@ Pour des raisons de sécurité et de performance, nous recommandons de créer un
 ![Administration – Gestion – {{ fr.VLT_MAJ }}s](https://cdnweb.devolutions.net/docs/fr/rdm/windows/RdmWin4087.png)
 
 {% snippet icon.badgeHelp %}
-Si vous utilisez une source de données {{ fr.DVLS }} ou {{ fr.DHUBB }}, la gestion des {{ fr.VLT }}s est effectuée dans leurs interfaces Web respectives. Pour davantage d'informations, consultez [{{ fr.DVLS }}](/fr/server/web-interface/administration/security-management/vaults/) ou [{{ fr.DHUB }}](/fr/hub/web-interface/hub-overview/administration/management/vaults/) qui traient des {{ fr.VLT }}s.
+Si vous utilisez une source de données {{ fr.DVLS }} ou {{ fr.DHUBB }}, la gestion des {{ fr.VLT }}s est effectuée dans leurs interfaces Web respectives. Pour davantage d'informations, consultez [{{ fr.DVLS }}](/fr/server/web-interface/administration/security-management/vaults/) ou [{{ fr.DHUB }}](/fr/hub/web-interface/administration/management/vaults/) qui traient des {{ fr.VLT }}s.
 {% endsnippet %}
 
 
@@ -89,7 +89,7 @@ Suivez les étapes ci-dessous pour affecter des ***Utilisateurs*** et des ***Rô
 1. Dans le ***Ruban***, aller dans ***Administration – Gestion – {{ fr.VLT_MAJ }}s***.
 ![Administration – Gestion – {{ fr.VLT_MAJ }}s](https://cdnweb.devolutions.net/docs/fr/rdm/windows/RdmWin4087.png)
 {% snippet icon.badgeInfo %}
-Si vous utilisez une source de données {{ fr.DVLS }} ou {{ fr.DHUBB }}, la gestion des {{ fr.VLT }}s est effectuée dans leurs interfaces Web respectives. Pour davantage d'informations, consultez [{{ fr.DVLS }}](/fr/server/web-interface/administration/security-management/vaults/) ou [{{ fr.DHUB }}](/fr/hub/web-interface/hub-overview/administration/management/vaults/) qui traitent des {{ fr.VLT }}s.
+Si vous utilisez une source de données {{ fr.DVLS }} ou {{ fr.DHUBB }}, la gestion des {{ fr.VLT }}s est effectuée dans leurs interfaces Web respectives. Pour davantage d'informations, consultez [{{ fr.DVLS }}](/fr/server/web-interface/administration/security-management/vaults/) ou [{{ fr.DHUB }}](/fr/hub/web-interface/administration/management/vaults/) qui traitent des {{ fr.VLT }}s.
 {% endsnippet %}
 
 2. Dans la fenêtre ***Gestion des usagers et de la sécurité***, sélectionner l'onglet ***{{ fr.VLT_MAJ }}s***, puis cliquer sur ***Affecter des utilisateurs et rôles***.
