@@ -16,18 +16,14 @@ An [Okta account](https://www.okta.com/) with the appropriate rights is required
 
 **In {{ en.DHUBB }}**
 
-1. Go to ***Administration – Authentication – Domain***, then click on ***Verify domain***.
-![Administration – Authentication – Domain – Verify domain](https://cdnweb.devolutions.net/docs/en/hub/Hub2322.png)
-
-1. Fill in your ***Domain***, then click on ***Verify domain*** again.
-![Domain](https://cdnweb.devolutions.net/docs/en/hub/Hub2323.png)
-
-   {% snippet icon.shieldInfo %}
-   For security purposes, only emails that end with your domain name will be allowed to log in to {{ en.DHUB }} using Okta authentication. For example, if your employees' emails are in the format "bob@windjammer.co", your domain is "windjammer.co".
-   {% endsnippet %}
-
-1. Create a [DNS TXT Record](https://learn.microsoft.com/en-us/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider) using the provided ***Hostname*** and ***TXT value***. This allows us to verify the ownership of the domain supplied.
-![Hostname and TXT value](https://cdnweb.devolutions.net/docs/en/hub/Hub2324.png)
+1. Go to ***Administration – Authentication – Domain***, then click on ***Add Domain***.
+![Administration – Authentication – Domain – Add domain](https://cdnweb.devolutions.net/docs/en/hub/HUBB2000_2024_1.png)
+1. Fill in your domain, then click on the checkmark to start the verification process.
+![Domain](https://cdnweb.devolutions.net/docs/en/hub/HUBB2001_2024_1.png)
+1. To have multiple domains, click ***Add Domain*** once again, fill in your other domain, then click on the checkmark. Repeat this process for every domain you wish to add.
+![Multiple domains](https://cdnweb.devolutions.net/docs/en/hub/HUBB2002_2024_1.png)
+1. Create a [DNS TXT Record](https://learn.microsoft.com/en-us/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider) using the provided ***Host name*** and ***TXT value***. This allows us to verify the ownership of the domain(s) supplied.
+![Host name and TXT value](https://cdnweb.devolutions.net/docs/en/hub/HUBB2003_2024_1.png)
 
    We recommend that you verify that your configuration is adequate through DNS querying tools such as [MXToolBox](https://mxtoolbox.com/SuperTool.aspx) or [whatsmydns.net](https://www.whatsmydns.net/). The example below uses MXToolBox's TXT Lookup tool. The first part of the Domain Name must match the ***Hostname*** in {{ en.DHUB }} and the Record must match the ***TXT value*** in {{ en.DHUB }} as well.
    {% snippet icon.badgeCaution %}
@@ -35,12 +31,8 @@ An [Okta account](https://www.okta.com/) with the appropriate rights is required
    {% endsnippet %}
 
    ![DNS TXT Record in MXToolBox](https://cdnweb.devolutions.net/docs/en/hub/Hub2236.png)
-
-1. If everything matches up, click ***Done***.
-![Done](https://cdnweb.devolutions.net/docs/en/hub/Hub2326.png)
-
-1. Wait for the verification status to change from ***Pending*** to ***Verified***.
-![Verified domain verification](https://cdnweb.devolutions.net/docs/en/hub/Hub2329.png)
+1. Await domain verification. Upon successful verification, a checkmark within a green circle will display next to the domain. You may proceed to configure Single Sign-On (SSO) during the verification process; however, user provisioning will become accessible only after the domain has been verified.
+![Verified domain](https://cdnweb.devolutions.net/docs/en/hub/HUBB2004_2024_1.png)
 
    {% snippet icon.badgeCaution %}
    This validation lasts for 48 hours and does not restart automatically after that period. If you do not configure your TXT record within those 48 hours, your validation status will be ***Expired***. If that happens, you can click on ***Retry***.
@@ -48,10 +40,11 @@ An [Okta account](https://www.okta.com/) with the appropriate rights is required
    If you experience any issues while trying to verify your domain, visit our [Domain validation troubleshooting](/kb/hub-business/troubleshooting-articles/domain-validation-troubleshooting/) guide.
    {% endsnippet %}
 
+
 ## Single Sign-On (SSO) configuration
 
-1. Once the domain is verified, go to ***Administration – Authentication – Single Sign-On (SSO)***, then click on ***Okta Single Sign-On (SSO)***. You will be directed to the configuration page.
-![Administration – Authentication – Single Sign-On (SSO) – Okta Single Sign-On (SSO)](https://cdnweb.devolutions.net/docs/en/hub/Hub2333.png)
+1. Go to ***Administration – Authentication – Single Sign-On (SSO)***, then click on ***Okta Single Sign-On (SSO)***. You will be directed to the configuration page.
+![Administration – Authentication – Single Sign-On (SSO) – Okta Single Sign-On (SSO)](https://cdnweb.devolutions.net/docs/en/hub/HUBB2007_2024_1.png)
 
 1. ***Name*** your SSO configuration. This name will only appear in your {{ en.DHUB }} SSO settings menu. The default name is "Okta".
 ![Configuration name](https://cdnweb.devolutions.net/docs/en/hub/Hub2334.png)
