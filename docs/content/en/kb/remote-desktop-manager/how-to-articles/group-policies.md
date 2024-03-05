@@ -345,6 +345,16 @@ If {{ en.RDM }} is open when you make this change, then you will need to restart
 
 ---
 
+#### Disable the mouse jiggler option
+`%Root%\SOFTWARE\Policies\Devolutions\RemoteDesktopManager\DisableMouseJiggler`
+
+---
+
+#### Disable network scan
+`%Root%\SOFTWARE\Policies\Devolutions\RemoteDesktopManager\DisableNetworkScan`
+
+---
+
 #### Disable Website Session and Website (legacy) Information (Deprecated) credential autofill after one minute
 `%Root%\SOFTWARE\Policies\Devolutions\RemoteDesktopManager\DisableWebsiteCredentialAutofillAfterDelay`
 
@@ -537,6 +547,11 @@ If {{ en.RDM }} is open when you make this change, then you will need to restart
 
 ---
 
+#### Hide the Dashboard
+`%Root%\SOFTWARE\Policies\Devolutions\RemoteDesktopManager\HideDashboard`
+
+---
+
 #### Hide the Documentation panel located in the Dashboard
 `%Root%\SOFTWARE\Policies\Devolutions\RemoteDesktopManager\DashboardHideAllDocumentationPanels`
 
@@ -559,6 +574,11 @@ If {{ en.RDM }} is open when you make this change, then you will need to restart
 
 #### Hide the Management Tools panel located in the Dashboard
 `%Root%\SOFTWARE\Policies\Devolutions\RemoteDesktopManager\DashboardHideAllManagementToolsPanels`
+
+---
+
+#### Hide Navigation Pane
+`%Root%\SOFTWARE\Policies\Devolutions\RemoteDesktopManager\HideNavigationPane`
 
 ---
 
