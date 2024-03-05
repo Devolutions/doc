@@ -46,4 +46,4 @@ You need to renew your subscription agreement upon expiry. If you do not renew y
 
 ## Can I upgrade from a {{ en.RDM }} SQL server data source to {{ en.DVLS }}?
 
-Yes, you can migrate your data from a {{ en.RDM }} SQL server data source to {{ en.DVLS }}. In the {{ en.DVLSCONSOLE }}, go to ***Server – New – IIS Web Server – Migrate SQL Data Source*** and follow the wizard. Contact us at [service@devolutions.net](mailto:service@devolutions.net) for more information on the migration process.
+Yes, you can [migrate your data](/kb/devolutions-server/how-to-articles/migrate-sql/) from a {{ en.RDM }} SQL server data source to {{ en.DVLS }}. In the {{ en.DVLSCONSOLE }}, go to ***Server – New – IIS Web Server – Migrate SQL Data Source*** and follow the wizard. Contact us at [service@devolutions.net](mailto:service@devolutions.net) for more information on the migration process.
