@@ -3,35 +3,35 @@ eleventyComputed:
   title: "{{ en.DVLS }}"
   description: "{{ en.DVLS }} allows to control access to privileged accounts and manage sessions through a secure solution. For more information, consult the {{ en.DVLS }} web page."
 ---
-{{ en.DVLS }} (DVLS) allows to control access to privileged accounts and manage sessions through a secure solution. For more information, consult the [{{ en.DVLS }} web page](https://devolutions.net/server/). 
+{{ en.DVLS }} (DVLS) allows to control access to privileged accounts and manage sessions through a secure solution. For more information, consult the [{{ en.DVLS }} web page](https://devolutions.net/server/).
 
-## Highlights 
+## Highlights
 
-* Highly secured server for your company. 
-* Shared connection and credentials with multiple users. 
-* Installed on-premises; can be deployed online. 
-* Support Windows authentication and Active Directory group integration. 
-* Optimized client and server side caching. 
+* Highly secured server for your company.
+* Shared connection and credentials with multiple users.
+* Installed on-premises; can be deployed online.
+* Support Windows authentication and Active Directory group integration.
+* Optimized client and server side caching.
 
-{% snippet icon.badgeInfo %} 
-{{ en.DVLS }} supports Microsoft SQL Server and Microsoft Azure SQL as a data store. 
+{% snippet icon.badgeInfo %}
+{{ en.DVLS }} supports Microsoft SQL Server and Microsoft Azure SQL as a data store.
 {% endsnippet %}
- 
-For more information, please consult these topics:  
 
-* [{{ en.DVLS }} installation instructions](/server/installation/) 
-* [{{ en.DVLS }} Security Checklist](/server/getting-started/security-checklist/) 
+For more information, please consult these topics:
 
-## Configure the server data source on all your client machines 
-Enter a name of the data source and the URL for the Host. Ensure you use the correct protocol if SSL is required by the server (https).  
+* [{{ en.DVLS }} installation instructions](/server/installation/)
+* [{{ en.DVLS }} Security Checklist](/server/getting-started/security-checklist/)
 
-Export the data source, then import the file in your client workstations as described [Import/Export Data Source](/rdm/windows/data-sources/data-sources-types/import-export/). 
+## Configure the server data source on all your client machines
+Enter a name of the data source and the URL for the Host. Ensure you use the correct protocol if SSL is required by the server (https).
 
-## Settings 
+Export the data source, then import the file in your client workstations as described [Import/Export Data Source](/rdm/windows/data-sources/data-sources-types/import-export/).
 
-### General 
+## Settings
 
-![{{ en.DVLS }} – General](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip11355.png) 
+### General
+
+![{{ en.DVLS }} – General](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip11355.png)
 
 | OPTION                       | DESCRIPTION |
 |------------------------------|-------------|
@@ -46,9 +46,9 @@ Export the data source, then import the file in your client workstations as desc
 | Test Connection              | Test the connection with {{ en.DVLS }} to validate the credentials. |
 
 
-### Settings 
+### Settings
 
-![{{ en.DVLS }} – Settings](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip11356.png) 
+![{{ en.DVLS }} – Settings](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip11356.png)
 
 | OPTION                   | DESCRIPTION |
 |--------------------------|-------------|
@@ -56,22 +56,22 @@ Export the data source, then import the file in your client workstations as desc
 | Manage Cache             | Manage the data source cache. On large data sources, caching is a must and will increase performance significantly. For more information, please consult [Manage Cache](/rdm/windows/data-sources/manage-cache/). |
 
 
-### {{ en.UVLT_MAJ }} 
+### {{ en.UVLT_MAJ }}
 
-![{{ en.DVLS }} – {{ en.UVLT_MAJ }}](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip3603.png) 
+![{{ en.DVLS }} – {{ en.UVLT_MAJ }}](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip3603.png)
 
 | OPTION | DESCRIPTION |
 |--------|-------------|
 | Type   | Select the type of [{{ en.UVLT }}](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/user-vault/) to use. Select between: <ul><li>***Default***: use the default {{ en.UVLT }}, which is stored in the database.</li><li>***None***: disable the {{ en.UVLT }} for all users.</li><li>***{{ en.DOD }}***: use a {{ en.DOD }} file (*.dod) as a {{ en.UVLT }}.</li></ul> |
 
-### VPN 
+### VPN
 
-Open a VPN to access your data prior to connecting to your {{ en.DVLS }}.  
-![{{ en.DVLS }} – VPN](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2197.png) 
+Open a VPN to access your data prior to connecting to your {{ en.DVLS }}.
+![{{ en.DVLS }} – VPN](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMWin2197.png)
 
-### Advanced 
+### Advanced
 
-![{{ en.DVLS }} – Avanced](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10815.png) 
+![{{ en.DVLS }} – Avanced](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip10815.png)
 
 | OPTION                          | DESCRIPTION |
 |---------------------------------|-------------|

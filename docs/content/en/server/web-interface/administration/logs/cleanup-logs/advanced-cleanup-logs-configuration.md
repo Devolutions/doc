@@ -2,8 +2,8 @@
 eleventyComputed:
   title: Advanced configuration
 ---
-The ***Advanced*** configuration allows to set individual clean up parameters for all the different logs of {{ en.DVLS }}.  
-![Administration – Logs – Cleanup Logs](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8161.png)
+The ***Advanced*** configuration allows to set individual clean up parameters for all the different logs of {{ en.DVLS }}.
+![Administration – Logs – Cleanup Logs](https://cdnweb.devolutions.net/docs/en/server/ServerOp8161.png)
 
 ## Logs
 | Reports           | Description                                                                                                      |

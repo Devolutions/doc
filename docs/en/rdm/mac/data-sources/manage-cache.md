@@ -1,25 +1,25 @@
 ---
 eleventyComputed:
   title: Manage cache
-  description: This option allows you to manage your cache which decides how the client will re-load entries when changes are detected. 
+  description: This option allows you to manage your cache which decides how the client will re-load entries when changes are detected.
 ---
-This option allows you to manage your cache which decides how the client will re-load entries when changes are detected. On large data sources caching is a must and will increase performance significantly.  
+This option allows you to manage your cache which decides how the client will re-load entries when changes are detected. On large data sources caching is a must and will increase performance significantly.
 
-{% snippet icon.badgeNotice %} 
-This feature is only available when the offline engine is set to use SQLite. We are phasing out this engine because of multiple issues reported by customers. 
+{% snippet icon.badgeNotice %}
+This feature is only available when the offline engine is set to use SQLite. We are phasing out this engine because of multiple issues reported by customers.
 {% endsnippet %}
- 
-{% snippet icon.badgeInfo %} 
-The Manage Cache options should only be used upon request from our Support Team when experiencing cache issue. 
-{% endsnippet %}
- 
-## Settings 
 
-{% snippet icon.badgeInfo %} 
-The Manage Cache option will only be available when using an SQLite cache. 
+{% snippet icon.badgeInfo %}
+The Manage Cache options should only be used upon request from our Support Team when experiencing cache issue.
 {% endsnippet %}
- 
-![Manage Cache](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10504.png)
+
+## Settings
+
+{% snippet icon.badgeInfo %}
+The Manage Cache option will only be available when using an SQLite cache.
+{% endsnippet %}
+
+![Manage Cache](https://cdnweb.devolutions.net/docs/en/rdm/mac/clip10504.png)
 
 | OPTION     | DESCRIPTION |
 |------------|-------------|

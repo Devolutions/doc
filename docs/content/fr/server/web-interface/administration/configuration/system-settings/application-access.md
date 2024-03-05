@@ -2,35 +2,35 @@
 eleventyComputed:
   title: Accès à l'application
 ---
-Permet d'allouer l'accès à différentes applications.  
-![Administration – Paramètres du système – Accès à l'application](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp8077.png) 
+Permet d'allouer l'accès à différentes applications.
+![Administration – Paramètres du système – Accès à l'application](https://cdnweb.devolutions.net/docs/fr/server/ServerOp8077.png)
 
-### Options 
+### Options
 
 <table>
 	<tr>
 		<th>
 
-Option 
+Option
 		</th>
 		<th>
-Description 
+Description
 		</th>
 	</tr>
 	<tr>
 		<td>
-Activer l'application dans les groupes d'utilisateurs 
+Activer l'application dans les groupes d'utilisateurs
 		</td>
 		<td>
-Activer l'accès pour les applications dans les paramètres des [groupes d'utilisateurs](/fr/server/web-interface/administration/security-management/user-groups/). 
+Activer l'accès pour les applications dans les paramètres des [groupes d'utilisateurs](/fr/server/web-interface/administration/security-management/user-groups/).
 		</td>
 	</tr>
 	<tr>
 		<td>
-Priorité 
+Priorité
 		</td>
 		<td>
-***Autoriser*** ou ***Refuser***. 
+***Autoriser*** ou ***Refuser***.
 		</td>
 	</tr>
 </table>

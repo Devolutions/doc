@@ -3,10 +3,10 @@ eleventyComputed:
   title: Security
   description: Security options in {{ en.RDMMAC }}
 ---
-***Use File*** – ***Preferences*** – ***Security*** to configure the security of the application. 
+***Use File*** – ***Preferences*** – ***Security*** to configure the security of the application.
 
 ## Settings
-![Preferences - Security](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RDMMac6058.png)
+![Preferences - Security](https://cdnweb.devolutions.net/docs/en/rdm/mac/RDMMac6058.png)
 
 ### Application Security (Local)
 | OPTION                                           | DESCRIPTION                                                                         |

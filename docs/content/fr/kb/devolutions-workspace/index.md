@@ -4,7 +4,7 @@ eleventyComputed:
   description: Accédez aux guides d'utilisation, articles de dépannage et base de connaissances des {{ fr.WAPPS }}.
   status: Topic available in German language
 ---
-![!!Logo {{ fr.WS }}](https://webdevolutions.blob.core.windows.net/images/projects/workspace/logos/workspace-color-shadow.svg)
+![!!Logo {{ fr.WS }}](https://cdnweb.devolutions.net/images/projects/workspace/logos/workspace-color-shadow.svg)
 
 Vous pouvez accéder aux catégories suivantes concernant les {{ fr.WAPPS }} :
 

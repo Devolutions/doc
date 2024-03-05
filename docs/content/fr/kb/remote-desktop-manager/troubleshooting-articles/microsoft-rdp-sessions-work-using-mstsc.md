@@ -12,18 +12,18 @@ Our Embedded (tabbed) display mode uses the Microsoft ActiveX and offers the mos
 
 ### Comparing our settings to a native rdp file
 
-When you use the External display mode, {{ en.RDM }} will create a temporary RDP file and call **mstsc.exe** with the file as a parameter. It can be useful to grab that file while it exists and to compare it with one created using **mstsc.exe**.  
+When you use the External display mode, {{ en.RDM }} will create a temporary RDP file and call **mstsc.exe** with the file as a parameter. It can be useful to grab that file while it exists and to compare it with one created using **mstsc.exe**.
 
-1. Create or duplicate the session that you want to diagnose. 
+1. Create or duplicate the session that you want to diagnose.
 1. Set the display mode to ***External***.
 1. Launch the session.
 
-The file will be deleted when you close {{ en.RDM }}, you need to copy it before then.  
+The file will be deleted when you close {{ en.RDM }}, you need to copy it before then.
 
 4. Open %TMP%\RDM, copy your file in another folder.
 1. Open the file in your editor of choice and compare it to a file created using **mstsc.exe**.
 
 ### Starting rdp sessions is slow compared to the native rdp
 
-We have isolated the issue and we fixed it by changing your RDP engine version to RDP 6.0 or 7.0 in ***File - Options - Types - Remote Desktop***.  
-![!!KB4056](https://webdevolutions.azureedge.net/docs/en/kb/KB4056.png)
+We have isolated the issue and we fixed it by changing your RDP engine version to RDP 6.0 or 7.0 in ***File - Options - Types - Remote Desktop***.
+![!!KB4056](https://cdnweb.devolutions.net/docs/en/kb/KB4056.png)

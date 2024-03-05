@@ -1,13 +1,13 @@
 ---
 eleventyComputed:
   title: VNC
-  description: The VNC Commands allow you to send remote commands to your host. You will also notice another toolbar holding more defined commands for a VNC session. 
+  description: The VNC Commands allow you to send remote commands to your host. You will also notice another toolbar holding more defined commands for a VNC session.
 ---
-The VNC Commands allow you to send remote commands to your host. You will also notice another toolbar holding more defined commands for a VNC session. 
+The VNC Commands allow you to send remote commands to your host. You will also notice another toolbar holding more defined commands for a VNC session.
 
-## Settings 
+## Settings
 
-![VNC Commands](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip11290.png) 
+![VNC Commands](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip11290.png)
 
 | OPTION               | DESCRIPTION                                                                                                      |
 |----------------------|------------------------------------------------------------------------------------------------------------------|

@@ -5,7 +5,7 @@ eleventyComputed:
 Use File – Preferences – Tools to configure the delay of time before the tool timeout.
 
 ## Settings
-![Preferences – Tools](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10441.png)
+![Preferences – Tools](https://cdnweb.devolutions.net/docs/en/rdm/mac/clip10441.png)
 
 ### Tools
 | OPTION                       | DESCRIPTION                                                                        |

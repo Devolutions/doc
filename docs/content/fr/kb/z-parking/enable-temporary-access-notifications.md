@@ -32,6 +32,6 @@ Cette notification est uniquement disponible pour les sources de données avanc�
 1. Dans {{ fr.RDM }}, accéder à ***Administration – Paramètres du système – {{ fr.VLT_MAJ }}***.
 1. Cliquer sur ***Activer les notifications d'accès temporaire***.
 
-![Administration – Paramètres du système – {{ fr.VLT_MAJ }} – Activer les notifications d'accès temporaire](https://webdevolutions.azureedge.net/docs/fr/kb/KB2085.png)
+![Administration – Paramètres du système – {{ fr.VLT_MAJ }} – Activer les notifications d'accès temporaire](https://cdnweb.devolutions.net/docs/fr/kb/KB2085.png)
 
 3. Cliquer sur ***OK*** pour fermer la fenêtre, puis sauvegarder les changements.

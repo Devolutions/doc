@@ -2,49 +2,49 @@
 eleventyComputed:
   title: My data source information
 ---
-Use the File - My Data Source Information to display the data source information details like the current username and security access. The My Data Source Information screen will also give you the data source configuration information such as database version and the effective Offline mode.  
+Use the File - My Data Source Information to display the data source information details like the current username and security access. The My Data Source Information screen will also give you the data source configuration information such as database version and the effective Offline mode.
 
-{% snippet icon.badgeInfo %} 
-The display of My Data Source Information can be different depending on the [Data Source Types](/rdm/mac/data-sources/data-sources-types/). 
+{% snippet icon.badgeInfo %}
+The display of My Data Source Information can be different depending on the [Data Source Types](/rdm/mac/data-sources/data-sources-types/).
 {% endsnippet %}
- 
-## Settings 
 
-### General 
+## Settings
 
-![My Data Source Information - General tab](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10305.png) 
+### General
 
-The General displays information on the data source such as:  
+![My Data Source Information - General tab](https://cdnweb.devolutions.net/docs/en/rdm/mac/clip10305.png)
 
-* Username 
-* Description 
-* Is administrator 
-* Allow offline mode 
-* Allow reveal password 
-* Allow drag-and-drop 
+The General displays information on the data source such as:
 
-### Sessions 
+* Username
+* Description
+* Is administrator
+* Allow offline mode
+* Allow reveal password
+* Allow drag-and-drop
 
-![My Data Source Information - Sessions](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10306.png) 
+### Sessions
 
-The Sessions tab will display user rights on the sessions such as:  
+![My Data Source Information - Sessions](https://cdnweb.devolutions.net/docs/en/rdm/mac/clip10306.png)
 
-* Add sessions 
-* Edit sessions 
-* Delete sessions 
-* View session details 
-* View session information 
-* Import sessions 
-* Export sessions 
-* Allow add entry in root folder 
+The Sessions tab will display user rights on the sessions such as:
 
-### Groups 
+* Add sessions
+* Edit sessions
+* Delete sessions
+* View session details
+* View session information
+* Import sessions
+* Export sessions
+* Allow add entry in root folder
 
-The Groups tab displays which rights the user has into which user groups.  
-![My Data Source Information - Groups](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10307.png) 
+### Groups
 
-### User groups 
+The Groups tab displays which rights the user has into which user groups.
+![My Data Source Information - Groups](https://cdnweb.devolutions.net/docs/en/rdm/mac/clip10307.png)
 
-The Roles tab displays the roles that the user is a member of and the rights related to those roles.  
-![Data Source Information - Roles](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10308.png) 
+### User groups
+
+The Roles tab displays the roles that the user is a member of and the rights related to those roles.
+![Data Source Information - Roles](https://cdnweb.devolutions.net/docs/en/rdm/mac/clip10308.png)
 

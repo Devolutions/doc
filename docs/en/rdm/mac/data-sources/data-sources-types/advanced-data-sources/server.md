@@ -3,37 +3,37 @@ eleventyComputed:
   title: "{{ en.DVLS }}"
   description: "{{ en.DVLS }} is a self-hosted repository for storing and sharing your remote connections and credentials."
 ---
-{{ en.DVLS }} is a self-hosted repository for storing and sharing your remote connections and credentials. You can find more information on the [{{ en.DVLS }} web page](https://devolutions.net/server). 
+{{ en.DVLS }} is a self-hosted repository for storing and sharing your remote connections and credentials. You can find more information on the [{{ en.DVLS }} web page](https://devolutions.net/server).
 
-## Highlights 
+## Highlights
 
-* High-end security server for your company. 
-* Share your sessions with multiple users. 
-* Can be deployed online. 
-* Support Windows authentication and Active Directory group integration. 
-* Client and server side caching optimization. 
-* Requires the {{ en.RDMMAC }} Team Edition client installed for management. 
+* High-end security server for your company.
+* Share your sessions with multiple users.
+* Can be deployed online.
+* Support Windows authentication and Active Directory group integration.
+* Client and server side caching optimization.
+* Requires the {{ en.RDMMAC }} Team Edition client installed for management.
 
-{% snippet icon.badgeInfo %} 
-{{ en.DVLS }} supports only SQL Server as a data store at this time. 
+{% snippet icon.badgeInfo %}
+{{ en.DVLS }} supports only SQL Server as a data store at this time.
 {% endsnippet %}
- 
-For more information, please consult:  
 
-* [{{ en.DVLS }} installation instructions](/server/installation/) 
-* [{{ en.DVLS }} Security Checklist](/server/getting-started/security-checklist/) 
+For more information, please consult:
 
-## Configure the server data source on all your client machines. 
+* [{{ en.DVLS }} installation instructions](/server/installation/)
+* [{{ en.DVLS }} Security Checklist](/server/getting-started/security-checklist/)
 
-Enter a name of the data source and the URL for the server. Ensure you use the correct protocol if SSL is required by the server (https).  
+## Configure the server data source on all your client machines.
 
-Alternatively, you can export the data source information and then import the file in your client workstations as described [Import/Export Data Source](/rdm/mac/data-sources/import-export/).  
+Enter a name of the data source and the URL for the server. Ensure you use the correct protocol if SSL is required by the server (https).
 
-## Settings 
+Alternatively, you can export the data source information and then import the file in your client workstations as described [Import/Export Data Source](/rdm/mac/data-sources/import-export/).
 
-### Connection 
+## Settings
 
-![{{ en.DVLS }} Connection tab](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip6023.png) 
+### Connection
+
+![{{ en.DVLS }} Connection tab](https://cdnweb.devolutions.net/docs/en/rdm/mac/clip6023.png)
 
 | OPTION              | DESCRIPTION |
 |---------------------|-------------|
@@ -45,13 +45,13 @@ Alternatively, you can export the data source information and then import the fi
 | Always ask username | Always ask for the username when connecting to the data source. |
 | Always ask password | Always ask for the password when connecting to the data source. |
 
-### Settings 
+### Settings
 
-![{{ en.DVLS }} – Settings tab](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip6024.png) 
+![{{ en.DVLS }} – Settings tab](https://cdnweb.devolutions.net/docs/en/rdm/mac/clip6024.png)
 
-### Advanced 
+### Advanced
 
-![{{ en.DVLS }} – Advanced tab](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip6025.png) 
+![{{ en.DVLS }} – Advanced tab](https://cdnweb.devolutions.net/docs/en/rdm/mac/clip6025.png)
 
 | OPTION                          | DESCRIPTION |
 |---------------------------------|-------------|
@@ -63,9 +63,9 @@ Alternatively, you can export the data source information and then import the fi
 | Remote tools access mode        | Select your remote tools access mode between:<ul><li>Local</li></ul><ul><li> Via data source</li></ul> |
 | Manage Cache                    | Manage your cache on your computer to analyse, vacuum, repair or delete it. This can be very helpful when experiencing offline issues. For more information please follow this [link](Manage-Cache). |
 
-### {{ en.UVLT_MAJ }} 
+### {{ en.UVLT_MAJ }}
 
-![{{ en.DVLS }} – {{ en.UVLT_MAJ }}](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip6026.png) 
+![{{ en.DVLS }} – {{ en.UVLT_MAJ }}](https://cdnweb.devolutions.net/docs/en/rdm/mac/clip6026.png)
 
 | OPTION           | DESCRIPTION |
 |------------------|-------------|

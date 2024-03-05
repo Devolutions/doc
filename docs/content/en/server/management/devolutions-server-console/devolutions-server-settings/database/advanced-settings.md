@@ -3,9 +3,9 @@ eleventyComputed:
   title: Advanced settings
   description: The Advanced settings contain advanced parameters that are used for the SQL database connection string.
 ---
-The ***Advanced settings*** contain advanced parameters that are used for the SQL database connection string. 
+The ***Advanced settings*** contain advanced parameters that are used for the SQL database connection string.
 
-![Advanced Settings Dialog](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8003.png) 
+![Advanced Settings Dialog](https://cdnweb.devolutions.net/docs/en/server/ServerOp8003.png)
 
 ## Settings
 
@@ -20,8 +20,8 @@ The ***Advanced settings*** contain advanced parameters that are used for the SQ
 | Connection retry interval           | Specifies the time between each connection retry attempt (ConnectRetryCount). Valid values are 1 to 60 seconds (the default is 10), applied after the first reconnection attempt. When a broken connection is detected, the client immediately attempts to reconnect; this is the first reconnection attempt and only occurs if ConnectRetryCount is greater than 0. If the first reconnection attempt fails and ConnectRetryCount is greater than 1, the client waits ConnectRetryInterval to try the second and subsequent reconnection attempts.                                                                                                                                      |
 | Connection timeout                  | The length of time (in seconds) to wait for a connection to the server before terminating the attempt and generating an error.                                                                                                                                                                            |
 
-## More settings 
+## More settings
 
-The ***More settings*** button, in the ***Advanced settings*** section, contains more advanced parameters that can be edited to replace a missing parameter. Double click a ***Setting name*** to enter edit mode. 
+The ***More settings*** button, in the ***Advanced settings*** section, contains more advanced parameters that can be edited to replace a missing parameter. Double click a ***Setting name*** to enter edit mode.
 
-![More settings](https://webdevolutions.azureedge.net/docs/en/server/ServerOp4089.png)
+![More settings](https://cdnweb.devolutions.net/docs/en/server/ServerOp4089.png)

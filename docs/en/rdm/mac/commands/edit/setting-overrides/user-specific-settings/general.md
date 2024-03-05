@@ -1,22 +1,22 @@
 ---
 eleventyComputed:
-  title: General 
+  title: General
 ---
-The General tab allows you to override the Display mode and the credentials. 
+The General tab allows you to override the Display mode and the credentials.
 
-## Settings 
+## Settings
 
-### Display 
+### Display
 
 {% snippet icon.badgeInfo %}
-The Display override is only available for Sessions entry type. 
+The Display override is only available for Sessions entry type.
 {% endsnippet %}
- 
-![Display Override](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10339.png) 
 
-Please consult Display Mode for more information on available settings and their usage. 
+![Display Override](https://cdnweb.devolutions.net/docs/en/rdm/mac/clip10339.png)
 
-### Credential 
+Please consult Display Mode for more information on available settings and their usage.
 
-For more information on Override credentials follow this [link](/rdm/mac/commands/edit/setting-overrides/user-specific-settings/override-credentials/). 
+### Credential
+
+For more information on Override credentials follow this [link](/rdm/mac/commands/edit/setting-overrides/user-specific-settings/override-credentials/).
 

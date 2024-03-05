@@ -3,8 +3,8 @@ eleventyComputed:
   title: SQL Server provider
   description: The SQL Provider allows {{ en.DVLS }} to store the SQL account credentials to be used for SQL accounts discovery or to achieve password rotation.
 ---
-The SQL Provider allows {{ en.DVLS }} to store the SQL account credentials to be used for SQL accounts discovery or to achieve password rotation.  
-![SQL Provider dialog](https://webdevolutions.azureedge.net/docs/en/server/ServerOp2118.png)
+The SQL Provider allows {{ en.DVLS }} to store the SQL account credentials to be used for SQL accounts discovery or to achieve password rotation.
+![SQL Provider dialog](https://cdnweb.devolutions.net/docs/en/server/ServerOp2118.png)
 
 ## General
 | Option      | Description                  |

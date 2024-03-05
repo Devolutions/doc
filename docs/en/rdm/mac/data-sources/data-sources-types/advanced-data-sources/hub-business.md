@@ -3,18 +3,18 @@ eleventyComputed:
   title: "{{ en.DHUBB }}"
   description: "{{ en.DHUBB }} is for businesses who need to share passwords and credentials within their organization."
 ---
-{{ en.DHUBB }} is for businesses who need to share passwords and credentials within their organization. 
-Please consult our [website](https://devolutions.net/password-hub/) for more information on this service. 
+{{ en.DHUBB }} is for businesses who need to share passwords and credentials within their organization.
+Please consult our [website](https://devolutions.net/password-hub/) for more information on this service.
 
-{% snippet icon.badgeInfo %} 
+{% snippet icon.badgeInfo %}
 Start your [free {{ en.DHUBB }} trial](https://devolutions.net/password-hub/business/sign-up) today!
 {% endsnippet %}
- 
-## Settings 
 
-### General 
+## Settings
 
-![!!RDMMac2125](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RDMMac2125.png) 
+### General
+
+![!!RDMMac2125](https://cdnweb.devolutions.net/docs/en/rdm/mac/RDMMac2125.png)
 
 | OPTION   | DESCRIPTION |
 |----------|-------------|
@@ -22,13 +22,13 @@ Start your [free {{ en.DHUBB }} trial](https://devolutions.net/password-hub/busi
 | Username | Your [{{ en.DA }}](https://portal.devolutions.com/) email address. |
 | Host     | Copy in the ***Host*** your {{ en.DHUBB }} URL (ex: https://windjammer.devolutions.app/) or click on the gear to get a drop down list to select from. |
 
-### VPN 
+### VPN
 
-Open a VPN to access your data prior to connecting to your {{ en.DHUB }}.  
-![!!RDMMac2126](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RDMMac2126.png) 
+Open a VPN to access your data prior to connecting to your {{ en.DHUB }}.
+![!!RDMMac2126](https://cdnweb.devolutions.net/docs/en/rdm/mac/RDMMac2126.png)
 
-### Advanced 
+### Advanced
 
-Set the interval for the automatic refresh.  
-![!!RDMMac2127](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RDMMac2127.png) 
+Set the interval for the automatic refresh.
+![!!RDMMac2127](https://cdnweb.devolutions.net/docs/en/rdm/mac/RDMMac2127.png)
 

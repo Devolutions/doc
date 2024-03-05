@@ -1,14 +1,14 @@
 ---
 eleventyComputed:
   title: Tray icon
-  description: "{{ en.RDM }} allows the user to control the application from the Windows system tray. You can also [customize its content](#tray-icon-preferences)."  
+  description: "{{ en.RDM }} allows the user to control the application from the Windows system tray. You can also [customize its content](#tray-icon-preferences)."
 ---
-{{ en.RDM }} allows the user to control the application from the Windows system tray. You can also [customize its content](#tray-icon-preferences).  
+{{ en.RDM }} allows the user to control the application from the Windows system tray. You can also [customize its content](#tray-icon-preferences).
 
-## Tray icon context menu 
+## Tray icon context menu
 
-Right-click on the Windows tray menu bar to access the context menu. You can launch sessions, change data source, use the ***Quick Connect*** feature, and more.  
-![Tray Icon Context Menu](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip11271.png) 
+Right-click on the Windows tray menu bar to access the context menu. You can launch sessions, change data source, use the ***Quick Connect*** feature, and more.
+![Tray Icon Context Menu](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip11271.png)
 
 | OPTION | DESCRIPTION |
 |--------|-------------|
@@ -26,6 +26,6 @@ Right-click on the Windows tray menu bar to access the context menu. You can lau
 | Minimize | Minimizes the application in the task bar.                                                                                                      |
 | Exit | Closes the application.                                                                                                                             |
 
-## Tray icon preferences 
+## Tray icon preferences
 
-The application options contain many settings that allows for customizing the system tray icon preferences. To change these, navigate to ***File – Options – User Interface – Trayicon/Taskbar***. 
+The application options contain many settings that allows for customizing the system tray icon preferences. To change these, navigate to ***File – Options – User Interface – Trayicon/Taskbar***.

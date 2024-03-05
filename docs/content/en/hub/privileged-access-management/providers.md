@@ -8,24 +8,24 @@ The Azure AD user provider allows {{ en.DHUBB }} to store the Azure AD applicati
 
 {% snippet icon.badgeHelp %}
 See [Create an Azure AD PAM provider](/kb/hub-business/how-to-articles/create-azure-ad-pam-provider/) for more information on its configuration.
-{% endsnippet %}  
+{% endsnippet %}
 
-![Azure AD user provider](https://webdevolutions.azureedge.net/docs/en/hub/Hub2287.png)
+![Azure AD user provider](https://cdnweb.devolutions.net/docs/en/hub/Hub2287.png)
 
-## General 
+## General
 
 | Option       | Description                  |
 |--------------|------------------------------|
 | Name         | Display name of the provider |
 | Description  | Description of the provider  |
 
-## Password settings 
+## Password settings
 
 | Option                                       | Description                                                               |
 |----------------------------------------------|---------------------------------------------------------------------------|
 | Password template used on generation         | [Password template](/hub/web-interface/administration/management/password-templates/) used to generate the password during the reset password operation |
 
-## Server 
+## Server
 
 | Option       | Description                           |
 |--------------|---------------------------------------|

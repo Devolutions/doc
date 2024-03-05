@@ -20,7 +20,7 @@ Vous pouvez stocker et créer jusqu'à six paquets de fichiers de configuration 
 Le ***{{ fr.CIM }}*** réplique les paramètres l'instance de {{ fr.RDM }} utilisée pour créer le paquet et les stocke dans le paquet pour la distribution. Vous avez le contrôle sur les catégories de paramètres que vous redistribuez, mais pas sur les paramètres discrets. Il peut être souhaitable de disposer d'une installation de {{ fr.RDM }} utilisée spécifiquement pour créer le paquet d'installation.
 
 Vous pouvez aller dans ***Fichier – {{ fr.DA }} – Outils*** pour accéder au ***{{ fr.CIM }}***.
-![Fichier – {{ fr.DA }} – {{ fr.CIM }}](https://webdevolutions.azureedge.net/docs/fr/cloud/Cloud4060.png)
+![Fichier – {{ fr.DA }} – {{ fr.CIM }}](https://cdnweb.devolutions.net/docs/fr/cloud/Cloud4060.png)
 Veuillez consulter notre [guide de création d'un paquet d'installation](/fr/rdm/windows/installation/client/custom-installer-service/).
 
 Si le paquet a déjà été généré, vous pouvez le télécharger directement depuis le portail comme décrit dans [Télécharger le paquet de l'{{ fr.CI }}](/fr/cloud/rdm-online-services/custom-installer/download-custom-installer/).

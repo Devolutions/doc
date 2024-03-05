@@ -3,33 +3,33 @@ eleventyComputed:
   title: Password generator
   description: The Password Generator is available in the Tools – Password Generator menu.
 ---
-The ***Password Generator*** is available in the Tools – Password Generator menu. It allows to create random passwords that are and difficult to interpret or predict, due to a mix of uppercase and lowercase letters, numbers and punctuation symbols.  
+The ***Password Generator*** is available in the Tools – Password Generator menu. It allows to create random passwords that are and difficult to interpret or predict, due to a mix of uppercase and lowercase letters, numbers and punctuation symbols.
 
-You can also create password generator templates to generate passwords. After you have selected your mode and settings, you can then create your template. 
+You can also create password generator templates to generate passwords. After you have selected your mode and settings, you can then create your template.
 
-## Mode 
+## Mode
 
-### Default 
+### Default
 
-Customize all criteria you would want your password to have.  
-![Password Generator - Default](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2201.png) 
+Customize all criteria you would want your password to have.
+![Password Generator - Default](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMWin2201.png)
 
-### Advanced settings 
+### Advanced settings
 
-Select the type and amount of characters to include in the password.  
-![Password Generator - Advanced Settings](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10383.png) 
+Select the type and amount of characters to include in the password.
+![Password Generator - Advanced Settings](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip10383.png)
 
-### Readable password 
+### Readable password
 
-Generate passwords that are readable but are not actual words.  
-![Password Generator - Readable password](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10384.png) 
+Generate passwords that are readable but are not actual words.
+![Password Generator - Readable password](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip10384.png)
 
-### Use a pattern 
+### Use a pattern
 
-Press the button and select any pattern you need to create the passwords, you can also exclude certain characters if desired. A list of the most recent used pattern will also be created.  
-![Password Generator - Use a pattern](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10385.png) 
+Press the button and select any pattern you need to create the passwords, you can also exclude certain characters if desired. A list of the most recent used pattern will also be created.
+![Password Generator - Use a pattern](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip10385.png)
 
-The following are supported patterns: 
+The following are supported patterns:
 
 | DESCRIPTION                     | KEY  | SAMPLE                                                      |
 |---------------------------------|------|-------------------------------------------------------------|
@@ -57,12 +57,12 @@ The following are supported patterns:
 | Escape (Repeat)                 | {n}  | Repeats the previous character n times                      |
 | Custom character                | [x]  | Define a custom character sequence                          |
 
-### Pronounceable password 
+### Pronounceable password
 
-Generate passwords that are pronounceable, but are not actual words.  
-![Password Generator - Pronounceable password](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10386.png) 
+Generate passwords that are pronounceable, but are not actual words.
+![Password Generator - Pronounceable password](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip10386.png)
 
-### Strong password 
+### Strong password
 
-Generate an 8 character passwords with alphanumeric and special characters.  
-![Password Generator - Strong password](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10387.png) 
+Generate an 8 character passwords with alphanumeric and special characters.
+![Password Generator - Strong password](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip10387.png)

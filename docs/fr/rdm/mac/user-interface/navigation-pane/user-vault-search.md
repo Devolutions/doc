@@ -2,16 +2,16 @@
 eleventyComputed:
   title: Recherche dans le {{ fr.UVLT }}
 ---
-La recherche dans le ***{{ fr.UVLT }}*** permet de lier une entrée d'identifiants du {{ fr.UVLT }} à une session en fournissant le nom de l'entrée d'identifiants. Une fois l'identifiant trouvé, il sera automatiquement utilisé pour ouvrir votre session à distance.  
+La recherche dans le ***{{ fr.UVLT }}*** permet de lier une entrée d'identifiants du {{ fr.UVLT }} à une session en fournissant le nom de l'entrée d'identifiants. Une fois l'identifiant trouvé, il sera automatiquement utilisé pour ouvrir votre session à distance.
 
-## Paramètres 
+## Paramètres
 
-1. Créer une entrée d'identifiant dans le {{ fr.UVLT }}.  
-![!!RDMMac4035](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/RdmMac4035.png) 
-1. Dans la session, définir la propriété de l'identifiant sur Rechercher par nom ({{ fr.UVLT }}) et entrer le nom exact de l'identifiant dans le {{ fr.UVLT }}. La recherche n'est pas sensible à la casse, si plus d'une entrée a le même nom ou si aucune entrée ne correspond au nom recherché, vous serez invité avec une liste de tous les identifiants du {{ fr.UVLT }} disponibles. Les variables sont également prises en charge.  
-![!!RDMMac4036](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/RdmMac4036.png) 
-1. Ouvrir la session comme vous le feriez normalement. Une fois les identifiants trouvés, ils seront automatiquement utilisés pour ouvrir la session à distance. 
+1. Créer une entrée d'identifiant dans le {{ fr.UVLT }}.
+![!!RDMMac4035](https://cdnweb.devolutions.net/docs/fr/rdm/mac/RdmMac4035.png)
+1. Dans la session, définir la propriété de l'identifiant sur Rechercher par nom ({{ fr.UVLT }}) et entrer le nom exact de l'identifiant dans le {{ fr.UVLT }}. La recherche n'est pas sensible à la casse, si plus d'une entrée a le même nom ou si aucune entrée ne correspond au nom recherché, vous serez invité avec une liste de tous les identifiants du {{ fr.UVLT }} disponibles. Les variables sont également prises en charge.
+![!!RDMMac4036](https://cdnweb.devolutions.net/docs/fr/rdm/mac/RdmMac4036.png)
+1. Ouvrir la session comme vous le feriez normalement. Une fois les identifiants trouvés, ils seront automatiquement utilisés pour ouvrir la session à distance.
 
-{% snippet icon.badgeInfo %} 
-Le {{ fr.UVLT }} est lié à l'utilisateur de la base de données. Un autre utilisateur ne pourra jamais voir vos identifiants du {{ fr.UVLT }}. 
+{% snippet icon.badgeInfo %}
+Le {{ fr.UVLT }} est lié à l'utilisateur de la base de données. Un autre utilisateur ne pourra jamais voir vos identifiants du {{ fr.UVLT }}.
 {% endsnippet %}

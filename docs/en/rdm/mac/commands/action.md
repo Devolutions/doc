@@ -2,8 +2,8 @@
 eleventyComputed:
   title: Action
 ---
-The Actions ribbon contains operations that can only be performed on a running session. The Actions menu will not be visible if there is no active running session. For our example we are running an RDP session, the ribbon will display the following tab when the session is in embedded mode.  
-![Actions Ribbon](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10331.png)
+The Actions ribbon contains operations that can only be performed on a running session. The Actions menu will not be visible if there is no active running session. For our example we are running an RDP session, the ribbon will display the following tab when the session is in embedded mode.
+![Actions Ribbon](https://cdnweb.devolutions.net/docs/en/rdm/mac/clip10331.png)
 
 Alternatively, the Actions are also available by right-clicking on the tab of an embedded session.
 
@@ -23,7 +23,7 @@ The Connect actions allows you to reconnect\disconnect from one or multiple sess
 
 
 ### Commands
-The Commands are actions sent to the remote session, they are therefore different depending on your session type. 
+The Commands are actions sent to the remote session, they are therefore different depending on your session type.
 
 | OPTION               | DESCRIPTION                                                                                                     |
 |----------------------|-----------------------------------------------------------------------------------------------------------------|

@@ -22,7 +22,7 @@ To use a SQL Server or Azure SQL data source, refer to [Configure SQL Server](/r
 
 ## External Applications 
 
-Configure your installation path for all external applications you intend to use such as RealVNC, Putty, Filezilla, etc. Set the paths in ***File – Options – Path.*** 
+Configure your installation path for all external applications you intend to use such as RealVNC, Putty, Filezilla, etc. Set the paths in ***File – Options – Application – Paths*** 
 
 ## Remote Desktop Services 
 

@@ -2,7 +2,7 @@
 eleventyComputed:
   title: List of Internet endpoints accessed by {{ en.DHUB }}
   description: This is the list of addresses that are accessed by {{ en.DHUB }} during normal operation.
-  keywords: 
+  keywords:
   - endpoints
 ---
 This is the list of addresses that are accessed by {{ en.DHUB }} during normal operation.
@@ -17,7 +17,7 @@ We use a "best effort" approach to maintain this list, but it **does not replace
 | ------------------------- | -------------------------------------------------------------------------------------------- | ----------------------------------------------- |
 | Certain charts            | https<area>://chart.googleapis.com                                                           | Chart service for displaying in dashboards      |
 | Certain icons             | https<area>://use.fontawesome.com/                                                           | Icons provider                                  |
-| Certain images            | https<area>://webdevolutions.azureedge.net                                           | Image service                                   |
+| Certain images            | https<area>://cdnweb.devolutions.net                                           | Image service                                   |
 | {{ en.DSEND }}            | https<area>://send.devolutions.com                                                           | Send passwords externally via email/link        |
 | Fonts for the application | https<area>://fonts.googleapis.com<br>https<area>://fonts.gstatic.com                        | Fonts provider to display the application       |
 | Login                     | https<area>://login.devolutions.com                                                          | Login provider                                  |

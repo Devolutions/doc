@@ -3,16 +3,16 @@ eleventyComputed:
   title: Subscribers
   description: At least one subscriber must exist to receive notifications about {{ en.DVLS }} activities.
 ---
-At least one subscriber must exist to receive notifications about {{ en.DVLS }} activities.  
-To create a new ***Subscriber***, click on the ***Add*** button.  
-![Create a subscriber](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8154.png)  
+At least one subscriber must exist to receive notifications about {{ en.DVLS }} activities.
+To create a new ***Subscriber***, click on the ***Add*** button.
+![Create a subscriber](https://cdnweb.devolutions.net/docs/en/server/ServerOp8154.png)
 
-Fill in the information in the following fields.  
-![Email subscriber properties](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8155.png)  
+Fill in the information in the following fields.
+![Email subscriber properties](https://cdnweb.devolutions.net/docs/en/server/ServerOp8155.png)
 
-![Syslog server subscriber properties](https://webdevolutions.azureedge.net/docs/en/server/ServerOp2122.png)  
+![Syslog server subscriber properties](https://cdnweb.devolutions.net/docs/en/server/ServerOp2122.png)
 
-## Subscriber  
+## Subscriber
 | Option | Description                |
 |--------|----------------------------|
 | Name   | Display of the subscriber. |

@@ -6,302 +6,302 @@ eleventyComputed:
 	<tr>
 		<td>
 
-![!!DataSourceAzureLarge](https://webdevolutions.azureedge.net/docs/common/DataSourceAzureLarge.png) 
+![!!DataSourceAzureLarge](https://cdnweb.devolutions.net/docs/common/DataSourceAzureLarge.png)
 		</td>
 		<td>
-Avec une source de données Microsoft Azure SQL, {{ fr.RDMMAC }} utilise la plateforme infonuagique de Microsoft pour enregistrer et gérer toutes les sessions.  
+Avec une source de données Microsoft Azure SQL, {{ fr.RDMMAC }} utilise la plateforme infonuagique de Microsoft pour enregistrer et gérer toutes les sessions.
 
-Les fonctionnalités suivantes sont également prises en charge :  
+Les fonctionnalités suivantes sont également prises en charge :
 
-* ***Groupe de disponibilité “Always on“***; 
-* ***Regroupement***; 
-* ***Expédition des journaux***; 
-* ***Mise en miroir de bases de données***. 
+* ***Groupe de disponibilité “Always on“***;
+* ***Regroupement***;
+* ***Expédition des journaux***;
+* ***Mise en miroir de bases de données***.
 		</td>
 	</tr>
 </table>
 
-## Configuration minimale requise de la source de donnée azure sql pour {{ fr.RDMMAC }} 
+## Configuration minimale requise de la source de donnée azure sql pour {{ fr.RDMMAC }}
 
-Microsoft Azure SQL propose différents niveaux de service dans son modèle d'achat pour DTUS. Nous recommandons au minimum un forfait de niveau standard S0 pour 5 utilisateurs et plus. Visitez leur site Web pour plus d'informations.  
+Microsoft Azure SQL propose différents niveaux de service dans son modèle d'achat pour DTUS. Nous recommandons au minimum un forfait de niveau standard S0 pour 5 utilisateurs et plus. Visitez leur site Web pour plus d'informations.
 
-## Points forts 
+## Points forts
 
-* Prise en charge de la [gestion des utilisateurs](/fr/rdm/mac/commands/administration/user-management/) avec un modèle de sécurité supérieur. 
-* Prise en charge du [mode hors ligne](/fr/rdm/mac/commands/file/go-offline/) lorsque le réseau ou le serveur n'est pas disponible. 
-* Prise en charge des journaux de connexions et des pièces jointes. 
+* Prise en charge de la [gestion des utilisateurs](/fr/rdm/mac/commands/administration/user-management/) avec un modèle de sécurité supérieur.
+* Prise en charge du [mode hors ligne](/fr/rdm/mac/commands/file/go-offline/) lorsque le réseau ou le serveur n'est pas disponible.
+* Prise en charge des journaux de connexions et des pièces jointes.
 
-{% snippet icon.badgeHelp %} 
-Obtenez plus de détails sur [Microsoft Azure SQL](https://azure.microsoft.com/fr-ca/products/azure-sql/database/). 
+{% snippet icon.badgeHelp %}
+Obtenez plus de détails sur [Microsoft Azure SQL](https://azure.microsoft.com/fr-ca/products/azure-sql/database/).
 {% endsnippet %}
- 
-{% snippet icon.badgeWarning %} 
-Une stratégie de sauvegarde de base de données appropriée doit être mise en œuvre pour minimiser les pertes de données possibles. 
+
+{% snippet icon.badgeWarning %}
+Une stratégie de sauvegarde de base de données appropriée doit être mise en œuvre pour minimiser les pertes de données possibles.
 {% endsnippet %}
- 
-{% snippet icon.badgeCaution %} 
-AD Azure n'est pas pris en charge dans {{ fr.RDMMAC }}. Cette fonctionnalité n'est pas encore implémentée. 
+
+{% snippet icon.badgeCaution %}
+AD Azure n'est pas pris en charge dans {{ fr.RDMMAC }}. Cette fonctionnalité n'est pas encore implémentée.
 {% endsnippet %}
- 
-## Configuration 
 
-Pour configurer une source de données Azure SQL, veuillez lire [Configurer Azure SQL](/fr/rdm/mac/data-sources/data-sources-types/advanced-data-sources/microsoft-azure-sql/configure-azure-sql/). 
+## Configuration
 
-## Paramètres 
+Pour configurer une source de données Azure SQL, veuillez lire [Configurer Azure SQL](/fr/rdm/mac/data-sources/data-sources-types/advanced-data-sources/microsoft-azure-sql/configure-azure-sql/).
 
-### Général 
+## Paramètres
 
-![Azure SQL - Général](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4264.png) 
+### Général
+
+![Azure SQL - Général](https://cdnweb.devolutions.net/docs/fr/rdm/mac/clip4264.png)
 
 <table>
 	<tr>
 		<td>
-Option 
+Option
 		</td>
 		<td>
-Description 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Nom 
-		</td>
-		<td>
-Nom de la source de données. 
+Description
 		</td>
 	</tr>
 	<tr>
 		<td>
-Hôte 
+Nom
 		</td>
 		<td>
-Nom du serveur sur lequel la source de données sera stockée. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Type de connexion 
-		</td>
-		<td>
-Sélectionner votre mode de connexion entre la connexion à la base de données ou la connexion personnalisée. 
+Nom de la source de données.
 		</td>
 	</tr>
 	<tr>
 		<td>
-Nom d'utilisateur 
+Hôte
 		</td>
 		<td>
-Nom d'utilisateur pour se connecter à la source de données. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Domaine 
-		</td>
-		<td>
-Nom du domaine pour accéder au serveur. 
+Nom du serveur sur lequel la source de données sera stockée.
 		</td>
 	</tr>
 	<tr>
 		<td>
-Mot de passe 
+Type de connexion
 		</td>
 		<td>
-Mot de passe pour se connecter à la source de données. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Base de données 
-		</td>
-		<td>
-Nom de la base de données créée en ligne. Vous devez utiliser le bouton engrenage pour la sélectionner. 
+Sélectionner votre mode de connexion entre la connexion à la base de données ou la connexion personnalisée.
 		</td>
 	</tr>
 	<tr>
 		<td>
-2 facteurs 
+Nom d'utilisateur
+		</td>
+		<td>
+Nom d'utilisateur pour se connecter à la source de données.
+		</td>
+	</tr>
+	<tr>
+		<td>
+Domaine
+		</td>
+		<td>
+Nom du domaine pour accéder au serveur.
+		</td>
+	</tr>
+	<tr>
+		<td>
+Mot de passe
+		</td>
+		<td>
+Mot de passe pour se connecter à la source de données.
+		</td>
+	</tr>
+	<tr>
+		<td>
+Base de données
+		</td>
+		<td>
+Nom de la base de données créée en ligne. Vous devez utiliser le bouton engrenage pour la sélectionner.
+		</td>
+	</tr>
+	<tr>
+		<td>
+2 facteurs
 		</td>
 		<td>
 
-Activer l'[Authentification 2 facteurs](/fr/rdm/mac/data-sources/multi-factor-authentication/) pour accéder à votre source de données. 
+Activer l'[Authentification 2 facteurs](/fr/rdm/mac/data-sources/multi-factor-authentication/) pour accéder à votre source de données.
 		</td>
 	</tr>
 	<tr>
 		<td>
-Tester Serveur 
+Tester Serveur
 		</td>
 		<td>
-Tester la connexion avec le serveur pour valider si les informations appropriées ont été fournies. 
+Tester la connexion avec le serveur pour valider si les informations appropriées ont été fournies.
 		</td>
 	</tr>
 	<tr>
 		<td>
-Tester base de données 
+Tester base de données
 		</td>
 		<td>
-Tester la connexion avec la base de données pour valider si les informations appropriées ont été fournies. 
+Tester la connexion avec la base de données pour valider si les informations appropriées ont été fournies.
 		</td>
 	</tr>
 </table>
 
-### Paramètres 
+### Paramètres
 
-![Azure SQL - Paramètres](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4251.png) 
+![Azure SQL - Paramètres](https://cdnweb.devolutions.net/docs/fr/rdm/mac/clip4251.png)
 
 <table>
 	<tr>
 		<td>
-Option 
+Option
 		</td>
 		<td>
-Description 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Actualisation automatique 
-		</td>
-		<td>
-Définir l'intervalle d'actualisation automatique. 
+Description
 		</td>
 	</tr>
 	<tr>
 		<td>
-Mode ping en ligne 
+Actualisation automatique
 		</td>
 		<td>
-Indique le mode de ping préféré en ligne. Choisir entre : 
+Définir l'intervalle d'actualisation automatique.
+		</td>
+	</tr>
+	<tr>
+		<td>
+Mode ping en ligne
+		</td>
+		<td>
+Indique le mode de ping préféré en ligne. Choisir entre :
 
-* Aucun 
-* Scan du port 
+* Aucun
+* Scan du port
 		</td>
 	</tr>
 	<tr>
 		<td>
-Déconnexion Auto 
+Déconnexion Auto
 		</td>
 		<td>
-Si la méthode ping en ligne ne fonctionne pas, elle se mettra automatiquement hors ligne. 
+Si la méthode ping en ligne ne fonctionne pas, elle se mettra automatiquement hors ligne.
 		</td>
 	</tr>
 </table>
 
-### Avancée 
+### Avancée
 
-![Azure SQL- Avancée](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4252.png) 
+![Azure SQL- Avancée](https://cdnweb.devolutions.net/docs/fr/rdm/mac/clip4252.png)
 
 <table>
 	<tr>
 		<td>
-Option 
+Option
 		</td>
 		<td>
-Description 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Demander le mode hors-ligne au démarrage 
-		</td>
-		<td>
-Chaque fois que vous vous connecterez à votre source de données, vous serez invité à utiliser la source de données en mode hors ligne. 
+Description
 		</td>
 	</tr>
 	<tr>
 		<td>
-Mode de la cache 
+Demander le mode hors-ligne au démarrage
+		</td>
+		<td>
+Chaque fois que vous vous connecterez à votre source de données, vous serez invité à utiliser la source de données en mode hors ligne.
+		</td>
+	</tr>
+	<tr>
+		<td>
+Mode de la cache
 		</td>
 		<td>
 
-Détermine comment les entrées seront rechargées dans la source de données. Voir [Mode de la cache](/fr/rdm/mac/data-sources/caching/) pour plus d'informations. 
+Détermine comment les entrées seront rechargées dans la source de données. Voir [Mode de la cache](/fr/rdm/mac/data-sources/caching/) pour plus d'informations.
 		</td>
 	</tr>
 	<tr>
 		<td>
-Délai de connexion 
+Délai de connexion
 		</td>
 		<td>
-Temps d'attente avant un délai de connexion. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Délai de commande 
-		</td>
-		<td>
-Temps d'attente avant un délai de commande. 
+Temps d'attente avant un délai de connexion.
 		</td>
 	</tr>
 	<tr>
 		<td>
-Gérer la cache 
+Délai de commande
 		</td>
 		<td>
-Gérer votre cache sur votre ordinateur pour l'analyser, le vider, le réparer ou le supprimer. Cela peut être très utile lorsque vous rencontrez des problèmes hors ligne. Pour plus d'informations, veuillez suivre ce [lien](/fr/rdm/mac/data-sources/manage-cache/). 
+Temps d'attente avant un délai de commande.
 		</td>
 	</tr>
 	<tr>
 		<td>
-Paramètres avancés 
+Gérer la cache
 		</td>
 		<td>
-Modifier directement les valeurs de chaîne de connexion.. 
+Gérer votre cache sur votre ordinateur pour l'analyser, le vider, le réparer ou le supprimer. Cela peut être très utile lorsque vous rencontrez des problèmes hors ligne. Pour plus d'informations, veuillez suivre ce [lien](/fr/rdm/mac/data-sources/manage-cache/).
+		</td>
+	</tr>
+	<tr>
+		<td>
+Paramètres avancés
+		</td>
+		<td>
+Modifier directement les valeurs de chaîne de connexion..
 		</td>
 	</tr>
 </table>
 
-### Mise à niveau 
+### Mise à niveau
 
-![Azure SQL - Mise à niveau](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4253.png) 
+![Azure SQL - Mise à niveau](https://cdnweb.devolutions.net/docs/fr/rdm/mac/clip4253.png)
 
 <table>
 	<tr>
 		<td>
-Option 
+Option
 		</td>
 		<td>
-Description 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Tester Serveur 
-		</td>
-		<td>
-Tester la connexion avec le serveur pour valider si les informations appropriées ont été fournies. 
+Description
 		</td>
 	</tr>
 	<tr>
 		<td>
-Créer base de données 
+Tester Serveur
 		</td>
 		<td>
-Créer la base de données pour utiliser {{ fr.RDM }}. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Mettre à jour base de données 
-		</td>
-		<td>
-Mettre à jour la base de données, si nécessaire pour utiliser {{ fr.RDM }}. 
+Tester la connexion avec le serveur pour valider si les informations appropriées ont été fournies.
 		</td>
 	</tr>
 	<tr>
 		<td>
-Tester base de données 
+Créer base de données
 		</td>
 		<td>
-Tester la connexion avec la base de données pour valider si les informations appropriées ont été fournies. 
+Créer la base de données pour utiliser {{ fr.RDM }}.
 		</td>
 	</tr>
 	<tr>
 		<td>
-Afficher les scripts de mises à jour 
+Mettre à jour base de données
 		</td>
 		<td>
-Afficher le script de mise à jour. 
+Mettre à jour la base de données, si nécessaire pour utiliser {{ fr.RDM }}.
+		</td>
+	</tr>
+	<tr>
+		<td>
+Tester base de données
+		</td>
+		<td>
+Tester la connexion avec la base de données pour valider si les informations appropriées ont été fournies.
+		</td>
+	</tr>
+	<tr>
+		<td>
+Afficher les scripts de mises à jour
+		</td>
+		<td>
+Afficher le script de mise à jour.
 		</td>
 	</tr>
 </table>

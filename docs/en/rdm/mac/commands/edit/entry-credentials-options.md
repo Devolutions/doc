@@ -2,8 +2,8 @@
 eleventyComputed:
   title: Entry credentials options
 ---
-Multiple options are available to use for ***Credentials*** in {{ en.RDM }} entries.  
-![Credentials](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RDMMac2131.png)
+Multiple options are available to use for ***Credentials*** in {{ en.RDM }} entries.
+![Credentials](https://cdnweb.devolutions.net/docs/en/rdm/mac/RDMMac2131.png)
 
 | OPTION                  | DESCRIPTION                                                                              |
 |-------------------------|------------------------------------------------------------------------------------------|

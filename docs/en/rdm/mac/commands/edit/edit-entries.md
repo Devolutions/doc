@@ -5,7 +5,7 @@ eleventyComputed:
 The Edit options is used to Edit one of your entry. You may edit the properties, rename your entry or quickly delete your entry.
 
 ## Settings
-![Edit options](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10336.png)
+![Edit options](https://cdnweb.devolutions.net/docs/en/rdm/mac/clip10336.png)
 
 | OPTION                       | DESCRIPTION                                                                                         |
 |------------------------------|-----------------------------------------------------------------------------------------------------|

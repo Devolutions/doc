@@ -3,12 +3,12 @@ eleventyComputed:
   title: Advanced
   description: Use File – Options – Advanced to control the behavior of the application with respect to the lower level settings.
 ---
-Use ***File – Options – Advanced*** to control the behavior of the application with respect to the lower level settings.  
-![File – Options – Advanced](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10595.png) 
+Use ***File – Options – Advanced*** to control the behavior of the application with respect to the lower level settings.
+![File – Options – Advanced](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip10595.png)
 
-## Settings 
+## Settings
 
-### Advanced 
+### Advanced
 
 | OPTION                      | DESCRIPTION                                                                                     |
 |-----------------------------|-------------------------------------------------------------------------------------------------|
@@ -20,7 +20,7 @@ Use ***File – Options – Advanced*** to control the behavior of the applicati
 | Last comments count         | If an entry is set up to ask for a comment on opening/closing, a list of the last comments will be displayed to help the user. Set the number of last comments that will be saved then shown in that list. |
 | Confirm on multiple sessions open if open count greater than | Select a target number where mass opening sessions will demand confirmation. |
 
-### Other Options – Connection 
+### Other Options – Connection
 
 | OPTION                      | DESCRIPTION                                                                                     |
 |-----------------------------|-------------------------------------------------------------------------------------------------|
@@ -48,7 +48,7 @@ Use ***File – Options – Advanced*** to control the behavior of the applicati
 | Use legacy folder images                                  | Enable this option to use the legacy folder images.                  |
 
 
-### Other Options – General 
+### Other Options – General
 
 | OPTION                      | DESCRIPTION                                                                                     |
 |-----------------------------|-------------------------------------------------------------------------------------------------|
@@ -74,7 +74,7 @@ Use ***File – Options – Advanced*** to control the behavior of the applicati
 | Use Microsoft Office instead of editors                         | When adding a new document by selecting a file supported by a Microsoft Office application (Word, Excel), it will make a Word/Excel document instead of a Rich Text Editor/Spreadsheet Editor entry.     |
 | Use ZipCrypto compression (not recommended)                     | Enable this option to allow the ZipCrypto compression in {{ en.RDM }}. We do not recommend enabling this option. Here is a blog written by our security team about the subject: [Why you should never use the native .Zip Crypto in Windows](https://blog.devolutions.net/2020/08/why-you-should-never-use-zipcrypto/).    |
 
-### Other Options – Microsoft Edge 
+### Other Options – Microsoft Edge
 
 | OPTION                      | DESCRIPTION                                                                                     |
 |-----------------------------|-------------------------------------------------------------------------------------------------|
@@ -84,7 +84,7 @@ Use ***File – Options – Advanced*** to control the behavior of the applicati
 | Use embedded Microsoft Edge for reports   | Enabling this option will allow to use the browser Microsoft Edge instead of Internet Explorer to display the reports. |
 
 
-### Other Options – User Interface 
+### Other Options – User Interface
 
 | OPTION                      | DESCRIPTION                                                                                     |
 |-----------------------------|-------------------------------------------------------------------------------------------------|
@@ -98,7 +98,7 @@ Use ***File – Options – Advanced*** to control the behavior of the applicati
 | Keep View Password window on top                  | Force the ***View Password*** window to display on top of all the {{ en.RDM }} windows.     |
 | Use old entry sort                                | Use the old entry sort from previous version of {{ en.RDM }}.      |
 
-### Information 
+### Information
 
 | OPTION     | DESCRIPTION                                             |
 |------------|---------------------------------------------------------|

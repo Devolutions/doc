@@ -4,11 +4,11 @@ eleventyComputed:
   description: The Version management allows the administrators to manage the data source availability in other versions of {{ en.RDM }}.
   status: Topic available in German language
 ---
-The ***Version Management*** allows the administrators to manage the data source availability in other versions of {{ en.RDM }}. 
+The ***Version Management*** allows the administrators to manage the data source availability in other versions of {{ en.RDM }}.
 
-## Windows, macOS, and Linux 
+## Windows, macOS, and Linux
 
-![Version Management](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2239.png) 
+![Version Management](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMWin2239.png)
 
 | OPTION                                                    | DESCRIPTION
 |-----------------------------------------------------------|----------------------------------------------|

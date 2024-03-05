@@ -10,5 +10,5 @@ To get to this dialog:
 2. Go in the **Database** tab.
 3. Click on the **Advanced Credentials** button.
 4. Click on the arrow beside of one of the ***Apply Least Permissions*** buttons.
-5. Click on the ***Generate Script*** button to save thesql file.  
-![{{ en.DVLSCONSOLE }} Generate script](https://webdevolutions.azureedge.net/docs/en/kb/KB8045.png)
+5. Click on the ***Generate Script*** button to save thesql file.
+![{{ en.DVLSCONSOLE }} Generate script](https://cdnweb.devolutions.net/docs/en/kb/KB8045.png)

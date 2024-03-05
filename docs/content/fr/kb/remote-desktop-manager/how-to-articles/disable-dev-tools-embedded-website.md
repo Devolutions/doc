@@ -15,13 +15,13 @@ To prevent a user from editing the code and seeing the autofill password, follow
 ## System Settings 
 
 1. Go to ***System Settings***.  
-![System Settings](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB6011.png)  
+![System Settings](https://cdnweb.devolutions.net/docs/en/kb/KB6011.png)  
 1. In the ***System Settings*** window, go to ***Security Settings*** and check ***Disable web browser developer tools***.  
-![System Settings](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB6012.png)  
+![System Settings](https://cdnweb.devolutions.net/docs/en/kb/KB6012.png)  
 1. Click ***OK*** to save the new settings and close the window.  
 
 ## Website settings
 
 1. In ***File - Options - Types - Website***, check the ***Disable developer tools*** option.
-![System Settings](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB6013.png)  
+![System Settings](https://cdnweb.devolutions.net/docs/en/kb/KB6013.png)  
 1. Click ***OK*** to save the new settings and close the window.  

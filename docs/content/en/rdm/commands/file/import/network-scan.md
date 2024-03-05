@@ -7,10 +7,10 @@ eleventyComputed:
 
 ***Import with Network Scan*** allows you to perform a network scan based on a predefined range of IP addresses to find sessions to import. It can be accessed via the ***File – Import*** menu or by right-clicking in the {{ en.NPANE }} and selecting ***Import***.
 
-Specify a scan range, then, once the scan is completed, select the sessions you wish to import (by default, all sessions are selected) and click ***OK*** to import the sessions in your data source. 
+Specify a scan range, then, once the scan is completed, select the sessions you wish to import (by default, all sessions are selected) and click ***OK*** to import the sessions in your data source.
 
-{% snippet icon.badgeCaution %} 
-If you wish to review every session one by one as they are imported, you can check the ***Edit imported entry*** option. However, this is not recommend for a large number of sessions. 
-{% endsnippet %}  
+{% snippet icon.badgeCaution %}
+If you wish to review every session one by one as they are imported, you can check the ***Edit imported entry*** option. However, this is not recommend for a large number of sessions.
+{% endsnippet %}
 
-![Import with Network Scan](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10034.png) 
+![Import with Network Scan](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip10034.png)

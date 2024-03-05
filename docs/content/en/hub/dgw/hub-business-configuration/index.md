@@ -15,7 +15,6 @@ If your clients fail to connect with {{ en.DGW }}, ensure the certificate contai
 Root Certificate Authority – Secure Certificate Authority – Purchased XYZ Certificate
 {% endsnippet %}  
 
-Click on one of the browsers links below to read more about the different installation methods:  
+Click on the browser link below to read more about the installation method:  
 
-* [Install Manually (expert)](/hub/dgw/hub-business-configuration/install-manually/) 
-* [Install with Script (recommended)](/hub/dgw/hub-business-configuration/install-script/) 
+* [{{ en.DGW }} installation on {{ en.DHUBB }}](/hub/dgw/hub-business-configuration/install-manually/)

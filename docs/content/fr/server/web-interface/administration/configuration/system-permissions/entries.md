@@ -3,47 +3,47 @@ eleventyComputed:
   title: Entrées
   status: Topic available in German language
 ---
-![Administration - Permissions du système - Entrées](https://webdevolutions.azureedge.net/docs/fr/server/clip8052.png)  
+![Administration - Permissions du système - Entrées](https://cdnweb.devolutions.net/docs/fr/server/clip8052.png)
 
 <table>
 	<tr>
 		<th>
-Option 
+Option
 		</th>
 		<th>
-Description 
+Description
 		</th>
 	</tr>
 	<tr>
 		<td>
-Importer 
+Importer
 		</td>
 		<td>
-Restreindre le privilège d'importation à certains utilisateurs. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Exporter 
-		</td>
-		<td>
-Restreindre le privilège d'exportation à certains utilisateurs. 
+Restreindre le privilège d'importation à certains utilisateurs.
 		</td>
 	</tr>
 	<tr>
 		<td>
-Ajouter à la racine 
+Exporter
 		</td>
 		<td>
-Limiter la création d'entrées a la racine à certains utilisateurs. 
+Restreindre le privilège d'exportation à certains utilisateurs.
 		</td>
 	</tr>
 	<tr>
 		<td>
-Paramètres du {{ fr.VLT }} 
+Ajouter à la racine
 		</td>
 		<td>
-Restreindre l'accès aux propriétés du {{ fr.VLT }} à certains utilisateurs. 
+Limiter la création d'entrées a la racine à certains utilisateurs.
+		</td>
+	</tr>
+	<tr>
+		<td>
+Paramètres du {{ fr.VLT }}
+		</td>
+		<td>
+Restreindre l'accès aux propriétés du {{ fr.VLT }} à certains utilisateurs.
 		</td>
 	</tr>
 </table>

@@ -1,45 +1,45 @@
 ---
 eleventyComputed:
   title: Microsoft Azure SQL
-  description: With a Microsoft Azure SQL data source, {{ en.RDM }} uses the Microsoft cloud platform to save and manage entries.  
+  description: With a Microsoft Azure SQL data source, {{ en.RDM }} uses the Microsoft cloud platform to save and manage entries.
 ---
 
-With a Microsoft Azure SQL data source, {{ en.RDM }} uses the Microsoft cloud platform to save and manage entries.  
+With a Microsoft Azure SQL data source, {{ en.RDM }} uses the Microsoft cloud platform to save and manage entries.
 
-The following features are also supported:  
+The following features are also supported:
 
-* Always on availability group 
-* Clustering 
-* Log shipping 
-* Database mirroring 
+* Always on availability group
+* Clustering
+* Log shipping
+* Database mirroring
 
-## Minimum Requirement for Azure SQL Database for {{ en.RDM }} 
+## Minimum Requirement for Azure SQL Database for {{ en.RDM }}
 
-Microsoft Azure SQL offers different service tier in its purchase model for DTUS. We recommend at minimum a Standard tier package S0 for 5 users and more. Visit their website for more information. 
+Microsoft Azure SQL offers different service tier in its purchase model for DTUS. We recommend at minimum a Standard tier package S0 for 5 users and more. Visit their website for more information.
 
-## Highlights 
+## Highlights
 
-* Supports [User Management](/rdm/windows/commands/administration/management/user-management/) with a superior security model. 
-* Supports [Offline mode](/rdm/windows/data-sources/offline-mode/) for when the server or network is unavailable. 
-* Supports entry logs and attachments. 
+* Supports [User Management](/rdm/windows/commands/administration/management/user-management/) with a superior security model.
+* Supports [Offline mode](/rdm/windows/data-sources/offline-mode/) for when the server or network is unavailable.
+* Supports entry logs and attachments.
 
-{% snippet icon.badgeHelp %} 
-Get more information on [Microsoft Azure SQL](https://azure.microsoft.com/en-us/services/sql-database/). 
+{% snippet icon.badgeHelp %}
+Get more information on [Microsoft Azure SQL](https://azure.microsoft.com/en-us/services/sql-database/).
 {% endsnippet %}
- 
-{% snippet icon.badgeWarning %} 
-A proper database backup strategy should be implemented to prevent possible data loss. 
+
+{% snippet icon.badgeWarning %}
+A proper database backup strategy should be implemented to prevent possible data loss.
 {% endsnippet %}
- 
-## Configuration 
 
-Consult [Configure Azure SQL](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/microsoft-azure-sql/configure/) for more information on the configuration. 
+## Configuration
 
-## Settings 
+Consult [Configure Azure SQL](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/microsoft-azure-sql/configure/) for more information on the configuration.
 
-### General 
+## Settings
 
-![Microsoft Azure SQL - General](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip11499.png) 
+### General
+
+![Microsoft Azure SQL - General](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip11499.png)
 
 | OPTION                | DESCRIPTION |
 |-----------------------|-------------|
@@ -54,9 +54,9 @@ Consult [Configure Azure SQL](/rdm/windows/data-sources/data-sources-types/advan
 | Two factor            | Enable the [Multi Factor Authentication](/rdm/windows/data-sources/multi-factor-authentication/).   |
 | Test Database         | Test the connection with the database to validate if the proper information has been provided.      |
 
-### Settings 
+### Settings
 
-![Microsoft Azure SQL - Settings Tab](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip11363.png) 
+![Microsoft Azure SQL - Settings Tab](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip11363.png)
 
 | OPTION          | DESCRIPTION |
 |-----------------|-------------|
@@ -65,17 +65,17 @@ Consult [Configure Azure SQL](/rdm/windows/data-sources/data-sources-types/advan
 | Auto go offline | Use the data source in offline mode when the ping method does not respond.                                |
 | Disable lock    | Disable the option to lock the data source directly. You can still lock the application but you will not be prompted for the data source password if this option is disabled.                                                                                                           |
 
-### {{ en.UVLT_MAJ }} 
+### {{ en.UVLT_MAJ }}
 
-![Microsoft Azure SQL – {{ en.UVLT_MAJ }} tab](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip3416.png) 
+![Microsoft Azure SQL – {{ en.UVLT_MAJ }} tab](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip3416.png)
 
 | OPTION | DESCRIPTION |
 |--------|-------------|
 | Type   | Select the type of [{{ en.UVLT }}](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/user-vault/) to use. Select between: <ul><li>***Default***: use the default {{ en.UVLT }}, which is stored in the database.</li><li>***None***: disable the {{ en.UVLT }} for all users.</li><li>***{{ en.DOD }}***: use a {{ en.DOD }} file (*.dod) as a {{ en.UVLT }}.</li></ul> |
 
-### Upgrade 
+### Upgrade
 
-![Microsoft Azure SQL - Upgrade Tab](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10377.png) 
+![Microsoft Azure SQL - Upgrade Tab](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip10377.png)
 
 | OPTION                | DESCRIPTION |
 |-----------------------|-------------|
@@ -85,14 +85,14 @@ Consult [Configure Azure SQL](/rdm/windows/data-sources/data-sources-types/advan
 | Email Schema to Support | Send your schema to our support team.                                                        |
 
 
-### VPN 
+### VPN
 
-Open a VPN to access your data prior to connecting to your Microsoft Azure SQL database.  
-![Microsoft Azure SQL - VPN](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2253.png) 
+Open a VPN to access your data prior to connecting to your Microsoft Azure SQL database.
+![Microsoft Azure SQL - VPN](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMWin2253.png)
 
-### Advanced 
+### Advanced
 
-![Microsoft Azure SQL - Advanced Tab](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10370.png) 
+![Microsoft Azure SQL - Advanced Tab](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip10370.png)
 
 | OPTION                           | DESCRIPTION |
 |----------------------------------|-------------|

@@ -17,12 +17,12 @@ Vous pouvez stocker et créer jusqu'à six paquets de fichiers de configuration 
 ## Paramètres 
 
 1. Dans {{ fr.RDM }}, cliquer sur ***Fichier – {{ fr.DA }} – {{ fr.CIM }}***.  
-![Fichier - {{ fr.DA }} - {{ fr.CIM }}](https://webdevolutions.blob.core.windows.net/docs/fr/cloud/Cloud6001.png)
+![Fichier - {{ fr.DA }} - {{ fr.CIM }}](https://cdnweb.devolutions.net/docs/fr/cloud/Cloud6001.png)
 1. Sélectionner le fichier dans la liste, puis cliquer sur ***Télécharger MSI***.  
-![{{ fr.CIM }} – Télécharger MSI](https://webdevolutions.blob.core.windows.net/docs/fr/cloud/Cloud6002.png)
+![{{ fr.CIM }} – Télécharger MSI](https://cdnweb.devolutions.net/docs/fr/cloud/Cloud6002.png)
 1. Aller dans ***{{ fr.RDMOS }} – {{ fr.CI }}*** dans le [{{ fr.DPORTAL }}](https://portal.devolutions.com/).  
-![{{ fr.DPORTAL }} – {{ fr.RDMOS }}](https://webdevolutions.blob.core.windows.net/docs/fr/cloud/Cloud6005.png)
+![{{ fr.DPORTAL }} – {{ fr.RDMOS }}](https://cdnweb.devolutions.net/docs/fr/cloud/Cloud6005.png)
 
 1. Cliquer sur ***.msi*** à côté du paquet et sauvegarder le fichier sur votre ordinateur. 
-![{{ fr.RDMOS }} – {{ fr.CI }}](https://webdevolutions.blob.core.windows.net/docs/fr/cloud/Cloud6006.png)
+![{{ fr.RDMOS }} – {{ fr.CI }}](https://cdnweb.devolutions.net/docs/fr/cloud/Cloud6006.png)
 Vous pouvez démarrer l'installation une fois le paquet téléchargé. 

@@ -7,7 +7,7 @@ The Permissions section allows you to assign permissions. Controls are sometimes
 ## Settings
 
 ### Permissions
-![User Management – Permissions](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10389.png)
+![User Management – Permissions](https://cdnweb.devolutions.net/docs/en/rdm/mac/clip10389.png)
 
 The options directly above the grid are for public folders, meaning any folder that has not been assigned a user group will be assigned those rights. They also act as the most basic permission you can assign because they are needed to allow permissions for each of the user group listed below, when they are not checked the corresponding column of the grid is grayed out.
 

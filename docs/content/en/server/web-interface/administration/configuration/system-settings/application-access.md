@@ -4,7 +4,7 @@ eleventyComputed:
   description: In the Application access section, you can granularly allow the use of applications in {{ en.DVLS }}.
 ---
 In the ***Application access*** section, you can granularly allow the use of applications in {{ en.DVLS }}.
-![Administration – System settings – Application access](https://webdevolutions.azureedge.net/docs/en/server/ServerOp2125.png)
+![Administration – System settings – Application access](https://cdnweb.devolutions.net/docs/en/server/ServerOp2125.png)
 
 | Option                                   | Description                                                                                                                                  |
 |------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------|

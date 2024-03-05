@@ -1,10 +1,10 @@
 ---
 eleventyComputed:
   title: "{{ en.DA }}"
-  description: In File – {{ en.DA }} create and connect your {{ en.RDM }} to your {{ en.DA }}. The {{ en.DA }} is free for customers and includes access to the {{ en.CIM }}.  
+  description: In File – {{ en.DA }} create and connect your {{ en.RDM }} to your {{ en.DA }}. The {{ en.DA }} is free for customers and includes access to the {{ en.CIM }}.
 ---
-In ***File – {{ en.DA }}*** create and connect your {{ en.RDM }} to your {{ en.DA }}. The {{ en.DA }} is free for customers and includes access to the ***{{ en.CIM }}***.  
-![{{ en.DA }}](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10026.png) 
+In ***File – {{ en.DA }}*** create and connect your {{ en.RDM }} to your {{ en.DA }}. The {{ en.DA }} is free for customers and includes access to the ***{{ en.CIM }}***.
+![{{ en.DA }}](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip10026.png)
 
 ### {{ en.DA }}
 
@@ -15,7 +15,7 @@ In ***File – {{ en.DA }}*** create and connect your {{ en.RDM }} to your {{ en
 | Edit {{ en.DA }}         | Edit your {{ en.DA }}.             |
 
 
-### Settings 
+### Settings
 
 | OPTION                   | DESCRIPTION                        |
 |--------------------------|------------------------------------|
@@ -24,7 +24,7 @@ In ***File – {{ en.DA }}*** create and connect your {{ en.RDM }} to your {{ en
 | Use application password         | Use the [Application password](/kb/remote-desktop-manager/how-to-articles/application-passwords-setup/) to connect to your {{ en.DA }}. |
 
 
-### Tools 
+### Tools
 
 
 | OPTION                   | DESCRIPTION                        |

@@ -11,4 +11,4 @@ CETTE ACTION NE PEUT PAS ÊTRE ANNULÉE!
 Une fois que vous avez supprimé un compte, vous ne pourrez plus annuler cette action.
 {% endsnippet %}
 
-![!!Cloud4052](https://webdevolutions.azureedge.net/docs/fr/cloud/Cloud4052.png)
+![!!Cloud4052](https://cdnweb.devolutions.net/docs/fr/cloud/Cloud4052.png)

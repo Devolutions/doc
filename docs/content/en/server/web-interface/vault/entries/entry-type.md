@@ -3,9 +3,9 @@ eleventyComputed:
   title: Entry type
   description: Entries come in various types, all serving different purposes for your convenience.
 ---
-***Entries*** come in various types, all serving different purposes for your convenience. 
+***Entries*** come in various types, all serving different purposes for your convenience.
 
-![New entry](https://webdevolutions.azureedge.net/docs/en/server/clip10074.png) 
+![New entry](https://cdnweb.devolutions.net/docs/en/server/clip10074.png)
 
 | Option           | Description                                                   |
 |------------------|---------------------------------------------------------------|

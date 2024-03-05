@@ -6,13 +6,13 @@ eleventyComputed:
 ---
 [Devolutions Privileged Access Management](https://devolutions.net/privileged-access-management/) provides all the following features. It is specifically designed to meet the needs of SMBs, providing enterprise-grade features to bring a level of protection usually only afforded to large organizations while at the same time being robust, easy to deploy, and affordable.
 
-Here are some of its main features:  
+Here are some of its main features:
 
-* Ease of deployment and management 
-* Secure password {{ en.VLT }} 
-* Logging and reporting 
-* Built-in two-factor authentication 
-* Access brokering 
+* Ease of deployment and management
+* Secure password {{ en.VLT }}
+* Logging and reporting
+* Built-in two-factor authentication
+* Access brokering
 * Role-based access control
 
 {% youtube 'drRLA7U8YsQ' %}
@@ -22,6 +22,6 @@ A license is now required to enable the PAM module. Please contact our [sales de
 {% endsnippet %}
 
 ## Privileged Access
-The Privileged Access page provides a quick overview of the current PAM {{ en.VLT }} accounts, current check-outs and the recent activities. 
+The Privileged Access page provides a quick overview of the current PAM {{ en.VLT }} accounts, current check-outs and the recent activities.
 
-![PAM Dashboard](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8138.png)
+![PAM Dashboard](https://cdnweb.devolutions.net/docs/en/server/ServerOp8138.png)

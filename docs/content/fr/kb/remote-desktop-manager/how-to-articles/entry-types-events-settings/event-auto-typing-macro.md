@@ -2,20 +2,20 @@
 eleventyComputed:
   title: Event auto typing macro
 ---
-The ***Typing Macro*** automatically executes once a connection has been established.  
+The ***Typing Macro*** automatically executes once a connection has been established.
 
 {% snippet icon.shieldWarning %}
-This feature simply uses a basic mechanism of sending keystrokes provided by the .NET Framework, emulating someone using the keyboard. It sends the keystrokes to the operating system itself, and they are handled by WHATEVER application has the focus at that time. If the focus is switched to another window, the credentials will most likely be revealed by being typed in a text area.  
+This feature simply uses a basic mechanism of sending keystrokes provided by the .NET Framework, emulating someone using the keyboard. It sends the keystrokes to the operating system itself, and they are handled by WHATEVER application has the focus at that time. If the focus is switched to another window, the credentials will most likely be revealed by being typed in a text area.
 
 Be advised that using this feature in an environment where passwords must be hidden from the user is highly discouraged.
-{% endsnippet %}  
+{% endsnippet %}
 
-![!!KB4621](https://webdevolutions.azureedge.net/docs/en/kb/KB4621.png)
+![!!KB4621](https://cdnweb.devolutions.net/docs/en/kb/KB4621.png)
 ## Settings
 ### Typing macro
 Keyboard keys are represented by predefined tags between braces. To specify a single keyboard character, use the character itself without braces. For example, represent the letter ***A*** by typing the "A" character in the typing macro. To represent more than one character, such as ***Hello***, append each additional character to the preceding one: "Hello".
 ### Special keys
-To specify characters that are not displayed when you press a key, such as ENTER or TAB, as well as the keys that represents actions rather than characters, refer to the codes in the following table.  
+To specify characters that are not displayed when you press a key, such as ENTER or TAB, as well as the keys that represents actions rather than characters, refer to the codes in the following table.
 
 <table>
 	<tr>
@@ -356,7 +356,7 @@ F16
 	</tr>
 </table>
 
-To specify keys combined with any combination of the <kbd>Shift</kbd>, <kbd>Ctrl</kbd>, and <kbd>Alt</kbd> keys, precede the key code with one or more of the following signs.  
+To specify keys combined with any combination of the <kbd>Shift</kbd>, <kbd>Ctrl</kbd>, and <kbd>Alt</kbd> keys, precede the key code with one or more of the following signs.
 
 <table>
 	<tr>
@@ -393,7 +393,7 @@ SHIFT
 	</tr>
 </table>
 
-To specify that any combination of the <kbd>Shift</kbd>, <kbd>Ctrl</kbd>, and <kbd>Alt</kbd> keys should be held down while several other keys are pressed, enclose the code for those keys in parentheses. For example, to specify to hold down <kbd>Shift</kbd> while <kbd>E</kbd> and <kbd>C</kbd> are pressed, use "+(EC)". To specify to hold down <kbd>Shift</kbd> while <kbd>E</kbd> is pressed, followed by <kbd>C</kbd>, without <kbd>Shift</kbd>, use "+EC".  
+To specify that any combination of the <kbd>Shift</kbd>, <kbd>Ctrl</kbd>, and <kbd>Alt</kbd> keys should be held down while several other keys are pressed, enclose the code for those keys in parentheses. For example, to specify to hold down <kbd>Shift</kbd> while <kbd>E</kbd> and <kbd>C</kbd> are pressed, use "+(EC)". To specify to hold down <kbd>Shift</kbd> while <kbd>E</kbd> is pressed, followed by <kbd>C</kbd>, without <kbd>Shift</kbd>, use "+EC".
 
 ### Special commands
 <table>

@@ -3,13 +3,13 @@ eleventyComputed:
   title: My account settings
   description: Use File – My Account Settings to configure accounts that connect to different web platforms. Set up account settings one time and use it in entries as many time as required.
 ---
-Use ***File – My Account Settings*** to configure accounts that connect to different web platforms. Set up account settings one time and use it in entries as many time as required. This section also allows to manage ***Personal Credentials***, ***Personal Private Key***, and ***Specific Settings*** lists. 
+Use ***File – My Account Settings*** to configure accounts that connect to different web platforms. Set up account settings one time and use it in entries as many time as required. This section also allows to manage ***Personal Credentials***, ***Personal Private Key***, and ***Specific Settings*** lists.
 
-## Settings 
+## Settings
 
-![My Account Settings](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10203.png) 
+![My Account Settings](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip10203.png)
 
-### Information 
+### Information
 
 | OPTION                      | DESCRIPTION                                                                                     |
 |-----------------------------|-------------------------------------------------------------------------------------------------|

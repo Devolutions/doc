@@ -2,37 +2,37 @@
 eleventyComputed:
   title: Information sur le domaine
 ---
-Permet d'afficher l'information sur le compte de domaine.  
-![Information sur le domaine](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp8008.png) 
+Permet d'afficher l'information sur le compte de domaine.
+![Information sur le domaine](https://cdnweb.devolutions.net/docs/fr/server/ServerOp8008.png)
 
 <table>
 	<tr>
 		<th>
-Option 
+Option
 		</th>
 		<th>
-Description 
+Description
 		</th>
 	</tr>
 	<tr>
 		<td>
-Domaine 
+Domaine
 		</td>
 		<td>
-Nom de domaine de l'utilisateur. 
+Nom de domaine de l'utilisateur.
 		</td>
 	</tr>
 	<tr>
 		<td>
-SID 
+SID
 		</td>
 		<td>
-Identifiant de sécurité du compte de l'utilisateur du domaine. 
+Identifiant de sécurité du compte de l'utilisateur du domaine.
 		</td>
 	</tr>
 </table>
 
-### Chercher sur le domaine 
+### Chercher sur le domaine
 
-Affiche l'information détaillée du compte de domaine.  
-![!!ServerOp8009](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp8009.png)
+Affiche l'information détaillée du compte de domaine.
+![!!ServerOp8009](https://cdnweb.devolutions.net/docs/fr/server/ServerOp8009.png)

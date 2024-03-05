@@ -2,50 +2,50 @@
 eleventyComputed:
   title: "{{ fr.DHUBP }}"
 ---
-{{ fr.DHUBP }} est pour les utilisateurs individuels qui souhaitent sécuriser gratuitement leurs mots de passe personnels dans un {{ fr.VLT }}.  
+{{ fr.DHUBP }} est pour les utilisateurs individuels qui souhaitent sécuriser gratuitement leurs mots de passe personnels dans un {{ fr.VLT }}.
 
-Veuillez consulter notre site [Web](https://devolutions.net/password-hub/fr/personal) pour plus d'informations sur ce service. 
+Veuillez consulter notre site [Web](https://devolutions.net/password-hub/fr/personal) pour plus d'informations sur ce service.
 
-## Paramètres 
+## Paramètres
 
-### Général 
+### Général
 
-![!!RdmWin4038](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RdmWin4038.png) 
+![!!RdmWin4038](https://cdnweb.devolutions.net/docs/fr/rdm/windows/RdmWin4038.png)
 
 <table>
 	<tr>
 		<th
-OPTION 
+OPTION
 		</th>
 		<th>
-DESCRIPTION 
+DESCRIPTION
 		</th>
 	</tr>
 	<tr>
 		<td>
-Nom 
+Nom
 		</td>
 		<td>
-Nom de la source de données. 
+Nom de la source de données.
 		</td>
 	</tr>
 	<tr>
 		<td>
-Nom d'utilisateur 
+Nom d'utilisateur
 		</td>
 		<td>
-L'adresse courriel de votre [{{ fr.DA }}](https://portal.devolutions.com/). Vous pouvez en créer un gratuitement, suivez le lien fourni dans la fenêtre. 
+L'adresse courriel de votre [{{ fr.DA }}](https://portal.devolutions.com/). Vous pouvez en créer un gratuitement, suivez le lien fourni dans la fenêtre.
 		</td>
 	</tr>
 </table>
 
-### VPN 
+### VPN
 
-Ouvrir un ***VPN*** pour accéder à vos données avant de vous connecter à votre {{ fr.DHUB }}.  
-![!!RdmWin4039](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RdmWin4039.png) 
+Ouvrir un ***VPN*** pour accéder à vos données avant de vous connecter à votre {{ fr.DHUB }}.
+![!!RdmWin4039](https://cdnweb.devolutions.net/docs/fr/rdm/windows/RdmWin4039.png)
 
-### Avancée 
+### Avancée
 
-Il s'agit de l'adresse du serveur.  
-![!!RdmWin4040](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RdmWin4040.png) 
+Il s'agit de l'adresse du serveur.
+![!!RdmWin4040](https://cdnweb.devolutions.net/docs/fr/rdm/windows/RdmWin4040.png)
 

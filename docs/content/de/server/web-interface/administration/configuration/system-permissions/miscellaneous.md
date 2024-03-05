@@ -2,7 +2,7 @@
 eleventyComputed:
   title: Sonstige
 ---
-![Administration – System Berechtigungen – Sonstiges](https://webdevolutions.azureedge.net/docs/de/server/ServerOp0062.png)
+![Administration – System Berechtigungen – Sonstiges](https://cdnweb.devolutions.net/docs/de/server/ServerOp0062.png)
 
 | Option                        | Beschreibung                                                      |
 | ------------------------------ | ----------------------------------------------------------------- |

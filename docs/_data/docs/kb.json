@@ -1,8 +1,8 @@
 {
   "_schema": "doc",
   "isTopic": true,
-  "icon": "https://webdevolutions.azureedge.net/images/projects/knowledge-base/logos/knowledge-base-icon-shadow.svg",
-  "logo": "https://webdevolutions.azureedge.net/images/projects/knowledge-base/logos/knowledge-base-color-shadow.svg",
+  "icon": "https://cdnweb.devolutions.net/images/projects/knowledge-base/logos/knowledge-base-icon-shadow.svg",
+  "logo": "https://cdnweb.devolutions.net/images/projects/knowledge-base/logos/knowledge-base-color-shadow.svg",
   "url": "/kb/devolutions-customer-success/",
   "formattedName": "<b>Devolutions</b> Knowledge Base",
   "sidebars": [
@@ -584,6 +584,9 @@
                   "url": "/kb/remote-desktop-manager/troubleshooting-articles/connections-are-missing/"
                 },
                 {
+                  "url": "/kb/remote-desktop-manager/troubleshooting-articles/cyberark-data-source-issues/"
+                },
+                {
                   "url": "/kb/remote-desktop-manager/troubleshooting-articles/data-recovery/"
                 },
                 {
@@ -1046,9 +1049,6 @@
                   "url": "/kb/remote-desktop-manager/knowledge-base/deprecated-entries/"
                 },
                 {
-                  "url": "/kb/remote-desktop-manager/knowledge-base/organization-deprecated/"
-                },
-                {
                   "url": "/kb/remote-desktop-manager/knowledge-base/download-microsoft-edge-chromium/"
                 },
                 {
@@ -1341,6 +1341,9 @@
                   "url": "/kb/devolutions-server/how-to-articles/change-listening-port-recording/"
                 },
                 {
+                  "url": "/kb/devolutions-server/how-to-articles/change-vault-selector-position/"
+                },
+                {
                   "url": "/kb/devolutions-server/how-to-articles/configure-client-data-source/"
                 },
                 {
@@ -1421,6 +1424,9 @@
                   "url": "/kb/devolutions-server/how-to-articles/manage-encryption-keys/"
                 },
                 {
+                  "url": "/kb/devolutions-server/how-to-articles/migrate-sql/"
+                },
+                {
                   "url": "/kb/devolutions-server/how-to-articles/move-server-default-web-site-root/"
                 },
                 {
@@ -1449,9 +1455,6 @@
                 },
                 {
                   "url": "/kb/devolutions-server/how-to-articles/stop-caching-users/"
-                },
-                {
-                  "url": "/kb/devolutions-server/how-to-articles/update-registration-serial-renewal/"
                 },
                 {
                   "url": "/kb/devolutions-server/how-to-articles/view-server-datasource-logs/"

@@ -10,8 +10,8 @@ With this action, only the data source configuration is exported. The resulting 
 Instead of exporting and importing data sources and options separately, it is possible to create a {{ en.CI }}. Our [{{ en.CIS }}](/rdm/windows/installation/client/custom-installer-service/) replicates the configuration of a {{ en.RDM }} instance.
 {% endsnippet %}
 
-1. From ***File – Data Sources***, click on the ***Export Data Source Configuration*** button, then save the *.rdd file on your computer.  
-![!!KB4258](https://webdevolutions.azureedge.net/docs/en/kb/KB4258.png)
+1. From ***File – Data Sources***, click on the ***Export Data Source Configuration*** button, then save the *.rdd file on your computer.
+![!!KB4258](https://cdnweb.devolutions.net/docs/en/kb/KB4258.png)
 1. To import the data source in another {{ en.RDM }} instance, use ***File – Data Sources***, and click on the ***Import Data Source Configuration*** button.
 
 {% snippet icon.shieldWarning %}

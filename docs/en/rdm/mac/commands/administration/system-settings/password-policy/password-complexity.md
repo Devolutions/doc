@@ -2,7 +2,7 @@
 eleventyComputed:
   title: Password complexity
 ---
-This security setting determines whether passwords must meet predetermined complexity requirements that has been configured in your Data source settings. Complexity requirements are enforced when passwords are changed or a new entry is created. If this policy is enable then new passwords must meet some of the following minimum requirements:  
+This security setting determines whether passwords must meet predetermined complexity requirements that has been configured in your Data source settings. Complexity requirements are enforced when passwords are changed or a new entry is created. If this policy is enable then new passwords must meet some of the following minimum requirements:
 
 * Minimum length
 * Minimum lowercase characters
@@ -11,8 +11,8 @@ This security setting determines whether passwords must meet predetermined compl
 * Minimum symbols
 
 ## Settings
-The settings set in the Password Complexity Data source will determine what is the Default value of the Session settings.  
-![Data Source Settings – Password Complexity](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10376.png)
+The settings set in the Password Complexity Data source will determine what is the Default value of the Session settings.
+![Data Source Settings – Password Complexity](https://cdnweb.devolutions.net/docs/en/rdm/mac/clip10376.png)
 
 ### Enabled
 The Enable option set in the data source settings will determine the Default option of your Password Complexity session entry.
@@ -24,7 +24,7 @@ The Enable option set in the data source settings will determine the Default opt
 | Inherited | Inherit the usage set in the parent folder. When using Inherited you will have to set a password to use as Inherited in the top folder of the entry. |
 
 ### Validation
-If the usage is enabled and you try to change or create a password for one of your entry, the reaction will depend on the chosen Validation mode.  
+If the usage is enabled and you try to change or create a password for one of your entry, the reaction will depend on the chosen Validation mode.
 
 The validation option determined in the data source settings will determine the Validation Default option of your Password Complexity session entry.
 
@@ -36,5 +36,5 @@ The validation option determined in the data source settings will determine the 
 | Inherited | Inherit the usage set in the validation folder. When using Inherited you will have to set a password to use as Inherited in the top folder of the session entry. |
 
 ## Create
-You must create your own Password Complexity requirements template to then apply them to your sessions. Click on the plus button to create your Password Complexity template, enter a name and the desired requirements.  
-![Data Source Settings – Password Complexity](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10377.png)
+You must create your own Password Complexity requirements template to then apply them to your sessions. Click on the plus button to create your Password Complexity template, enter a name and the desired requirements.
+![Data Source Settings – Password Complexity](https://cdnweb.devolutions.net/docs/en/rdm/mac/clip10377.png)

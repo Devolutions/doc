@@ -26,7 +26,7 @@ Ideal for businesses that would prefer to store their data in-house, want to dep
 * Backups 
 * SSL certificates  
 
-{{ en.DVLS }} also offers an improved security model, as database access is limited to the server and no direct connection is established. This secure architecture is a significant improvement over standard client-server architecture. (SQL Server data source) 
+{{ en.DVLS }} also offers an improved security model, as database access is limited to the server and no direct connection is established. This secure architecture is a significant improvement over standard client-server architecture (SQL Server data source). 
 
 ## Can I get a trial of {{ en.DVLS }}?
 
@@ -36,14 +36,14 @@ Yes - [Request a trial](http://server.devolutions.net/Home/Trial)
 
 {{ en.DVLS }} does not include any client licenses. 
 
-## Is {{ en.DVLS }} subscription based?
+## Is {{ en.DVLS }} subscription-based?
 
-Yes, {{ en.DVLS }} is subscription based. You can subscribe for one (1) year or three (3) years at a time. Giving you unlimited client connectivity for that period of time. 
+Yes, {{ en.DVLS }} is subscription-based. You can subscribe for one (1) year or three (3) years at a time, giving you unlimited client connectivity for that period of time. 
 
-## What if I no longer want/need a {{ en.DVLS }}? is my data still accessible?
+## What if I no longer want/need a {{ en.DVLS }}? Is my data still accessible?
 
 You need to renew your subscription agreement upon expiry. If you do not renew your subscription, access to your data will be limited to view only. That being said, you will be able to export your data if you choose to migrate to another type of data source than {{ en.DVLS }}. 
 
-## Can I upgrade from a SQL server data source to {{ en.DVLS }}?
+## Can I upgrade from a {{ en.RDM }} SQL server data source to {{ en.DVLS }}?
 
-Yes, you can migrate your data from a SQL data source to {{ en.DVLS }}. In the {{ en.DVLSCONSOLE }}, go to ***Server – New – Migrate SQL Data Source*** and enter your SQL information. Contact us at [service@devolutions.net](mailto:service@devolutions.net) for more information on the migration process.  
+Yes, you can migrate your data from a {{ en.RDM }} SQL server data source to {{ en.DVLS }}. In the {{ en.DVLSCONSOLE }}, go to ***Server – New – IIS Web Server – Migrate SQL Data Source*** and follow the wizard. Contact us at [service@devolutions.net](mailto:service@devolutions.net) for more information on the migration process.

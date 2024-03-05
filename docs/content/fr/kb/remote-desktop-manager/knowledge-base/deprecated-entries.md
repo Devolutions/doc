@@ -3,13 +3,13 @@ eleventyComputed:
   title: Deprecated entries
   description: For several reasons, multiple entries are tagged as deprecated in {{ en.RDM }}.
 ---
-For several reasons, multiple entries are tagged as deprecated in {{ en.RDM }}.  
+For several reasons, multiple entries are tagged as deprecated in {{ en.RDM }}.
 Here is how to display them:
 1. Go to ***Edit*** and click on ***New Entry***.
 1. Click on the ellipsis at the bottom left of the ***Add New Entry*** window.
-1. Select ***Show Deprecated Entries***.  
+1. Select ***Show Deprecated Entries***.
 
-![Edit – New Entry – Show Deprecated Entries](https://webdevolutions.azureedge.net/docs/en/kb/KB4130.png)
+![Edit – New Entry – Show Deprecated Entries](https://cdnweb.devolutions.net/docs/en/kb/KB4130.png)
 
 Here is the list of deprecated entries:
 

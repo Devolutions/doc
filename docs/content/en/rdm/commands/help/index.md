@@ -1,12 +1,12 @@
 ---
 eleventyComputed:
   title: Help
-  description: In the Help tab section, you will find links to the {{ en.DFORUM }}, Blog, Online Help, and much more 
+  description: In the Help tab section, you will find links to the {{ en.DFORUM }}, Blog, Online Help, and much more
 ---
-In the ***Help*** tab section you will find links to the ***{{ en.DFORUM }}***, ***Blog***, ***Online Help***, and much more. Diagnostics tools for {{ en.RDM }} are all located in the ***Support*** section and many supported related features, such as the ***Application Logs***, the ***Profiler***, and the ***Recorder***.  
-![Ribbon - Help](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip11352.png) 
+In the ***Help*** tab section you will find links to the ***{{ en.DFORUM }}***, ***Blog***, ***Online Help***, and much more. Diagnostics tools for {{ en.RDM }} are all located in the ***Support*** section and many supported related features, such as the ***Application Logs***, the ***Profiler***, and the ***Recorder***.
+![Ribbon - Help](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip11352.png)
 
-### Help 
+### Help
 
 | OPTION         | DESCRIPTION                                                                                                                    |
 |----------------|--------------------------------------------------------------------------------------------------------------------------------|
@@ -14,7 +14,7 @@ In the ***Help*** tab section you will find links to the ***{{ en.DFORUM }}***, 
 | Knowledge Base | Launches our [{{ en.DKB }}](/kb/devolutions-customer-success/).                                                                |
 | Blog           | Visit our [Blog](https://blog.devolutions.net/) and learn about the Devolutions team, as well as our goals, products and more. |
 
-### Support 
+### Support
 
 | OPTION     | DESCRIPTION                                                                                     |
 |------------|-------------------------------------------------------------------------------------------------|
@@ -27,7 +27,7 @@ In the ***Help*** tab section you will find links to the ***{{ en.DFORUM }}***, 
 | Visit our Forum       | Visit our [Forum](https://forum.devolutions.net/) for help and exchange with the Devolutions community.                                                                                                     |
 | Release Notes         | Send you directly to our {{ en.RDM }} web page to view the [new features and enhancements](https://devolutions.net/remote-desktop-manager/release-notes) when a new version is released.                                                                 |
 
-### About 
+### About
 
 | OPTION            | DESCRIPTION                                     |
 |-------------------|-------------------------------------------------|

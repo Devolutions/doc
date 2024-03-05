@@ -9,9 +9,9 @@ eleventyComputed:
 ---
 To enable this MFA method for your users, go to ***Administration – Server Settings – Multi-factor*** and check the ***RADIUS*** MFA option. A ***Configure*** button will appear next to the option.
 
-![Administration – Server Settings – Multi-factor – Supported MFA – RADIUS](https://webdevolutions.azureedge.net/docs/en/server/ServerOp2099.png)
+![Administration – Server Settings – Multi-factor – Supported MFA – RADIUS](https://cdnweb.devolutions.net/docs/en/server/ServerOp2099.png)
 
-{% snippet icon.badgeInfo %} 
+{% snippet icon.badgeInfo %}
 See [Multi-factor](/server/web-interface/administration/configuration/server-settings/security/two-factor/) for more information on MFA configuration.
 {% endsnippet %}
 
@@ -19,7 +19,7 @@ See in the tables below what each setting does in each tab.
 
 ## General
 
-![General RADIUS settings](https://webdevolutions.azureedge.net/docs/en/server/ServerOp2098.png)
+![General RADIUS settings](https://cdnweb.devolutions.net/docs/en/server/ServerOp2098.png)
 
 | Option                       | Description                                                                                                                                                                  |
 |------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -38,9 +38,9 @@ See in the tables below what each setting does in each tab.
 
 ## Failover
 
-![Failover RADIUS settings](https://webdevolutions.azureedge.net/docs/en/server/ServerOp2097.png)
+![Failover RADIUS settings](https://cdnweb.devolutions.net/docs/en/server/ServerOp2097.png)
 
-{% snippet icon.badgeInfo %} 
+{% snippet icon.badgeInfo %}
 Note that {{ en.DVLS }} will always listen to the same port. The failover configuration does not include a client port. Therefore, the RADIUS configuration will be used as the client port.
 {% endsnippet %}
 

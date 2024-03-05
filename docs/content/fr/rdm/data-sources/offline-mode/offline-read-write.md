@@ -2,48 +2,48 @@
 eleventyComputed:
   title: Mode Lecture/Écriture hors-ligne
 ---
-Le mode ***Lecture/Écriture*** hors ligne permet à l'utilisateur d'ajouter, de modifier et de supprimer des entrées lorsque la source de données est hors ligne. Ces modifications sont enregistrées localement et synchronisées avec la source de données une fois qu'elle est de nouveau en ligne.  
+Le mode ***Lecture/Écriture*** hors ligne permet à l'utilisateur d'ajouter, de modifier et de supprimer des entrées lorsque la source de données est hors ligne. Ces modifications sont enregistrées localement et synchronisées avec la source de données une fois qu'elle est de nouveau en ligne.
 
-{% snippet icon.badgeInfo %} 
-Certaines fonctionnalités ne sont pas disponibles hors ligne et vous ne pourrez peut-être pas effectuer toutes les actions. Notez que le ***{{ fr.UVLT }}*** est toujours disponible en mode hors ligne. 
+{% snippet icon.badgeInfo %}
+Certaines fonctionnalités ne sont pas disponibles hors ligne et vous ne pourrez peut-être pas effectuer toutes les actions. Notez que le ***{{ fr.UVLT }}*** est toujours disponible en mode hors ligne.
 {% endsnippet %}
- 
-Une fois hors ligne, les paramètres de sécurité des utilisateurs s'appliquent toujours. Les privilèges d'ajout/modification/suppression accordés par l'administrateur sont toujours en vigueur. Voir [Gestion des utilisateurs](/fr/rdm/windows/commands/administration/management/user-management/).  
 
-## Modifications hors connexion 
+Une fois hors ligne, les paramètres de sécurité des utilisateurs s'appliquent toujours. Les privilèges d'ajout/modification/suppression accordés par l'administrateur sont toujours en vigueur. Voir [Gestion des utilisateurs](/fr/rdm/windows/commands/administration/management/user-management/).
 
-Lorsqu'une entrée est modifiée par un utilisateur en ligne alors qu'un autre utilisateur est hors ligne, la version locale de l'entrée stockée dans le cache hors ligne devient différente de la version en ligne. Cela provoque un conflit lorsque l'utilisateur hors ligne se reconnecte.  
+## Modifications hors connexion
 
-1. Se connecter à la source de données. 
-1. Se mettre hors-ligne dans ***Fichier - Mettre hors-ligne***. 
-1. Modifier une entrée. 
-1. Se remettre en ligne dans ***Fichier - Aller en ligne***. 
+Lorsqu'une entrée est modifiée par un utilisateur en ligne alors qu'un autre utilisateur est hors ligne, la version locale de l'entrée stockée dans le cache hors ligne devient différente de la version en ligne. Cela provoque un conflit lorsque l'utilisateur hors ligne se reconnecte.
 
-La fenêtre ***Modifications hors connexion*** s'affiche :  
-![Modifications hors connexion](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10394.png) 
+1. Se connecter à la source de données.
+1. Se mettre hors-ligne dans ***Fichier - Mettre hors-ligne***.
+1. Modifier une entrée.
+1. Se remettre en ligne dans ***Fichier - Aller en ligne***.
 
-Utiliser cette boîte de dialogue pour ***Accepter/Rejeter*** vos modifications hors ligne.  
+La fenêtre ***Modifications hors connexion*** s'affiche :
+![Modifications hors connexion](https://cdnweb.devolutions.net/docs/fr/rdm/windows/clip10394.png)
 
-Vous pouvez utiliser l'action ***Comparer*** pour avoir une comparaison côte à côte de vos modifications de l'entrée actuelle.  
+Utiliser cette boîte de dialogue pour ***Accepter/Rejeter*** vos modifications hors ligne.
 
-Les statuts possibles des entrées sont :  
+Vous pouvez utiliser l'action ***Comparer*** pour avoir une comparaison côte à côte de vos modifications de l'entrée actuelle.
 
-* ***Accepter*** :  lorsqu'aucun changement extérieur n'a été détecté. 
-* ***Conflit*** : lorsque des modifications extérieures ont été détectées depuis votre dernière connexion. 
+Les statuts possibles des entrées sont :
 
-## Modifications hors-ligne multiples 
+* ***Accepter*** :  lorsqu'aucun changement extérieur n'a été détecté.
+* ***Conflit*** : lorsque des modifications extérieures ont été détectées depuis votre dernière connexion.
 
-Lorsque plusieurs utilisateurs modifient simultanément la même entrée hors ligne, un conflit se produit lorsque le deuxième utilisateur est de nouveau en ligne.  
+## Modifications hors-ligne multiples
 
-Voici un exemple d'un tel cas pour aider à résoudre correctement les conflits :  
+Lorsque plusieurs utilisateurs modifient simultanément la même entrée hors ligne, un conflit se produit lorsque le deuxième utilisateur est de nouveau en ligne.
 
-Lorsque le premier utilisateur revient en ligne, la fenêtre ***Modifications hors connexion*** s'affiche. Les modifications sont acceptées par défaut.  
+Voici un exemple d'un tel cas pour aider à résoudre correctement les conflits :
 
-Lorsque le deuxième utilisateur revient en ligne, un conflit se produit et la fenêtre ***Modifications hors connexion*** s'affiche.  
+Lorsque le premier utilisateur revient en ligne, la fenêtre ***Modifications hors connexion*** s'affiche. Les modifications sont acceptées par défaut.
 
-Lorsque le conflit se produit, l'utilisateur doit décider d'accepter ou de rejeter les modifications. Les différentes versions de l'entrée peuvent être comparées pour voir quelles modifications ont été apportées. 
+Lorsque le deuxième utilisateur revient en ligne, un conflit se produit et la fenêtre ***Modifications hors connexion*** s'affiche.
 
-### Comparer les versions d'une entrée 
+Lorsque le conflit se produit, l'utilisateur doit décider d'accepter ou de rejeter les modifications. Les différentes versions de l'entrée peuvent être comparées pour voir quelles modifications ont été apportées.
 
-Cliquer sur le bouton ***Comparer*** pour comparer les versions d'une entrée en conflit. Analyser la structure XML de l'entrée pour décider d'accepter ou de rejeter les modifications. 
+### Comparer les versions d'une entrée
+
+Cliquer sur le bouton ***Comparer*** pour comparer les versions d'une entrée en conflit. Analyser la structure XML de l'entrée pour décider d'accepter ou de rejeter les modifications.
 

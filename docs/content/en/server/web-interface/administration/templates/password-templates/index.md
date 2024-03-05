@@ -3,12 +3,12 @@ eleventyComputed:
   title: Password templates
   order: 10
 ---
-***Password Templates*** are used by administrators to create predefined settings for the [***Password Generator***](/server/web-interface/administration/templates/password-templates/password-generator/) of {{ en.DVLS }}.  
-![Administration – Password Templates](https://webdevolutions.azureedge.net/docs/en/server/clip10401.png)
+***Password Templates*** are used by administrators to create predefined settings for the [***Password Generator***](/server/web-interface/administration/templates/password-templates/password-generator/) of {{ en.DVLS }}.
+![Administration – Password Templates](https://cdnweb.devolutions.net/docs/en/server/clip10401.png)
 
 ## Create password templates
-To create ***Password Templates***, go to ***Administration – Password Templates*** and click on the ***Add*** button. You can also create a ***Password Template*** when using the ***Password Generator***. Just customize the settings and click on ***Add template***.  
-![Password Templates](https://webdevolutions.azureedge.net/docs/en/server/clip10402.png)
+To create ***Password Templates***, go to ***Administration – Password Templates*** and click on the ***Add*** button. You can also create a ***Password Template*** when using the ***Password Generator***. Just customize the settings and click on ***Add template***.
+![Password Templates](https://cdnweb.devolutions.net/docs/en/server/clip10402.png)
 
 | Option                           | Description                                                                        |
 |----------------------------------|------------------------------------------------------------------------------------|
@@ -29,8 +29,8 @@ To create ***Password Templates***, go to ***Administration – Password Templat
 | Exclude the following characters | Forcefully excludes characters from the password.                                  |
 
 ### Force default password template
-Force a default ***Password Template*** for all {{ en.DVLS }} users.  
-1. Go to ***Administration – System Settings – Password Management – Password Template***. 
-2. Choose a ***Default template***. 
-3. Check ***Force default template*** and ***Save***.  
-![Default Password Template](https://webdevolutions.azureedge.net/docs/en/server/ServerOp4087.png)
+Force a default ***Password Template*** for all {{ en.DVLS }} users.
+1. Go to ***Administration – System Settings – Password Management – Password Template***.
+2. Choose a ***Default template***.
+3. Check ***Force default template*** and ***Save***.
+![Default Password Template](https://cdnweb.devolutions.net/docs/en/server/ServerOp4087.png)

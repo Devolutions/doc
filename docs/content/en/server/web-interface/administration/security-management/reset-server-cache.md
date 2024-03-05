@@ -4,8 +4,8 @@ eleventyComputed:
   keywords:
   - Roles
 ---
-***Reset Server Cache*** for specific elements.  
-![Administration – Reset Server Cache](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8039.png)
+***Reset Server Cache*** for specific elements.
+![Administration – Reset Server Cache](https://cdnweb.devolutions.net/docs/en/server/ServerOp8039.png)
 
 ## Reset server cache
 | Option                                                                                                                        | Description |

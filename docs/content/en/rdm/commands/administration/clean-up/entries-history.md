@@ -18,13 +18,13 @@ You must be an administrator of the data source to perform this action.
 1. Click on ***Clean Up*** and then ***Clean Up Entry History***.
 1. Select prior to which date the ***Entry History*** will be deleted.
 1. Select from which {{ en.VLT }} the ***Entry History*** will be deleted.
-1. Click ***OK***.  
-![Clean up deleted history](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin0005.png)  
+1. Click ***OK***.
+![Clean up deleted history](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMWin0005.png)
    {% snippet icon.badgeWarning %}
    There will be no backup of the ***Entry History***. We strongly recommend to do a [backup](/rdm/windows/commands/file/backup/) before proceeding.
    {% endsnippet %}
 
 1. Click on ***Proceed anyway***.
-![Confirmation](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin0004.png)  
+![Confirmation](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMWin0004.png)
 
 1. Click ***OK*** to close the dialog window.

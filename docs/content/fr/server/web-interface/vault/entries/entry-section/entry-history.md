@@ -2,34 +2,34 @@
 eleventyComputed:
   title: Historique de l'entrée
 ---
-Visualiser, restaurer, comparer, supprimer et exporter l'***Historique des entrées*** de {{ fr.DVLS }}.  
+Visualiser, restaurer, comparer, supprimer et exporter l'***Historique des entrées*** de {{ fr.DVLS }}.
 
-### Restaurer 
+### Restaurer
 
-Pour rétablir la version précédente d'une entrée spécifique, cliquer sur le bouton ***Restaurer***. 
+Pour rétablir la version précédente d'une entrée spécifique, cliquer sur le bouton ***Restaurer***.
 
-![Bouton Restaurer](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp4084.png) 
+![Bouton Restaurer](https://cdnweb.devolutions.net/docs/fr/server/ServerOp4084.png)
 
-### Comparer 
+### Comparer
 
-Pour comparer les versions des entrées, sélectionner deux entrées et cliquer sur le bouton 
-***Comparer***.  
+Pour comparer les versions des entrées, sélectionner deux entrées et cliquer sur le bouton
+***Comparer***.
 
-![Bouton Comparer](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp4085.png) 
+![Bouton Comparer](https://cdnweb.devolutions.net/docs/fr/server/ServerOp4085.png)
 
-La fenêtre ***Comparer les modifications de la session*** montre les changements entre les deux entrées sélectionnées. 
+La fenêtre ***Comparer les modifications de la session*** montre les changements entre les deux entrées sélectionnées.
 
-![Fenêtre Comparer les modifications de la session](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp0000.png) 
+![Fenêtre Comparer les modifications de la session](https://cdnweb.devolutions.net/docs/fr/server/ServerOp0000.png)
 
-### Supprimer 
+### Supprimer
 
-Pour supprimer une entrée, cliquer sur ***Supprimer***. 
+Pour supprimer une entrée, cliquer sur ***Supprimer***.
 
-![Bouton Supprimer](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp0001.png) 
+![Bouton Supprimer](https://cdnweb.devolutions.net/docs/fr/server/ServerOp0001.png)
 
-### Exporter 
+### Exporter
 
-Pour sauvegarder l'***Historique de l'entrée***, cliquer sur ***Exporter***. Un fichier .csv sera téléchargé. 
+Pour sauvegarder l'***Historique de l'entrée***, cliquer sur ***Exporter***. Un fichier .csv sera téléchargé.
 
-![Bouton Exporter](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp0002.png) 
+![Bouton Exporter](https://cdnweb.devolutions.net/docs/fr/server/ServerOp0002.png)
 

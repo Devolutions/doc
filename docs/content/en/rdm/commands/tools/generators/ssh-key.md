@@ -7,11 +7,11 @@ SSH keys provide a secure way of logging into a virtual private server with SSH 
 
 The ***SSH Key generator*** is located under ***Tools*** in the ribbon of {{ en.RDM }}.
 
-![Tools – SSH Key Generator](https://webdevolutions.blob.core.windows.net/docs/en/rdm/windows/RDMWin6254.png)  
+![Tools – SSH Key Generator](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMWin6254.png)  
 
 ### Settings
 
-![SSH Key Generator](https://webdevolutions.blob.core.windows.net/docs/en/rdm/windows/RDMWin6255.png) 
+![SSH Key Generator](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMWin6255.png) 
 
 | SETTINGS       | DESCRIPTION                                   |
 |----------------|-----------------------------------------------|

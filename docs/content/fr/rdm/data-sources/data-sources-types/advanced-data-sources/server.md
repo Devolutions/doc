@@ -6,268 +6,268 @@ eleventyComputed:
 	<tr>
 		<td>
 
-![!!logo-dvls](https://webdevolutions.azureedge.net/docs/common/logo-dvls.png) 
+![!!logo-dvls](https://cdnweb.devolutions.net/docs/common/logo-dvls.png)
 		</td>
 		<td>
-***{{ fr.DVLS }}*** est un {{ fr.VLT }} autohébergé pour stocker et partager vos connexions et identifiants à distance. Vous pouvez trouver plus d'informations sur la [page Web de {{ fr.DVLS }}](https://devolutions.net/server/fr). 
+***{{ fr.DVLS }}*** est un {{ fr.VLT }} autohébergé pour stocker et partager vos connexions et identifiants à distance. Vous pouvez trouver plus d'informations sur la [page Web de {{ fr.DVLS }}](https://devolutions.net/server/fr).
 		</td>
 	</tr>
 </table>
 
-### Points forts 
+### Points forts
 
-* Serveur de sécurité haut de gamme pour votre entreprise. 
-* Partager vos sessions avec plusieurs utilisateurs ainsi que vos identifiants. 
-* Installé sur place et peut être déployé en ligne. 
-* Prends en charge l'authentification Windows et l'intégration de groupe Active Directory. 
-* Optimisation de la mise en cache côté client et serveur. 
+* Serveur de sécurité haut de gamme pour votre entreprise.
+* Partager vos sessions avec plusieurs utilisateurs ainsi que vos identifiants.
+* Installé sur place et peut être déployé en ligne.
+* Prends en charge l'authentification Windows et l'intégration de groupe Active Directory.
+* Optimisation de la mise en cache côté client et serveur.
 
-{% snippet icon.badgeInfo %} 
-À l'heure actuelle, {{ fr.DVLS }} prend uniquement en charge SQL Server et Azure SQL en tant que base de données. 
+{% snippet icon.badgeInfo %}
+À l'heure actuelle, {{ fr.DVLS }} prend uniquement en charge SQL Server et Azure SQL en tant que base de données.
 {% endsnippet %}
- 
-Pour plus d'informations, veuillez consulter ces rubriques :  
 
-* [Installation de {{ fr.DVLS }}](/fr/server/installation/) 
-* [Liste de vérification relative à la sécurité](/fr/server/getting-started/security-checklist/) 
+Pour plus d'informations, veuillez consulter ces rubriques :
 
-## Configurer la source de données du serveur sur toutes vos machines clientes. 
+* [Installation de {{ fr.DVLS }}](/fr/server/installation/)
+* [Liste de vérification relative à la sécurité](/fr/server/getting-started/security-checklist/)
 
-Entrer le nom de la source de données et l'URL du serveur. Assurez-vous d'utiliser le bon protocole si SSL est requis par le serveur (HTTPS).  
+## Configurer la source de données du serveur sur toutes vos machines clientes.
 
-Vous pouvez également exporter les informations sur la source de données, puis importer le fichier dans vos postes de travail clients, comme décrit dans [Importer/Exporter](/fr/rdm/windows/data-sources/data-sources-types/import-export/) la source de données.  
+Entrer le nom de la source de données et l'URL du serveur. Assurez-vous d'utiliser le bon protocole si SSL est requis par le serveur (HTTPS).
 
-## Paramètres 
+Vous pouvez également exporter les informations sur la source de données, puis importer le fichier dans vos postes de travail clients, comme décrit dans [Importer/Exporter](/fr/rdm/windows/data-sources/data-sources-types/import-export/) la source de données.
 
-### Général 
+## Paramètres
 
-![{{ fr.DVLS }} - Général](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip11355.png) 
+### Général
+
+![{{ fr.DVLS }} - Général](https://cdnweb.devolutions.net/docs/fr/rdm/windows/clip11355.png)
 
 <table>
 	<tr>
 		<th>
 
-OPTION 
+OPTION
 		</th>
 		<th>
-DESCRIPTION 
+DESCRIPTION
 		</th>
 	</tr>
 	<tr>
 		<td>
-Nom 
+Nom
 		</td>
 		<td>
-Nom de la source de données. 
+Nom de la source de données.
 		</td>
 	</tr>
 	<tr>
 		<td>
-Hôte 
+Hôte
 		</td>
 		<td>
-Nom de l'hôte (URL) de {{ fr.DVLS }}.  
+Nom de l'hôte (URL) de {{ fr.DVLS }}.
 
-Exemple: `http://<hostname or IP address>/<instance name>` 
+Exemple: `http://<hostname or IP address>/<instance name>`
 		</td>
 	</tr>
 	<tr>
 		<td>
-Utiliser l'authentification Windows 
+Utiliser l'authentification Windows
 		</td>
 		<td>
-Utiliser les mêmes identifiants que votre utilisateur Windows actuel. 
+Utiliser les mêmes identifiants que votre utilisateur Windows actuel.
 		</td>
 	</tr>
 	<tr>
 		<td>
-Utiliser l'authentification Office365 
+Utiliser l'authentification Office365
 		</td>
 		<td>
-Utiliser les mêmes identifiants que votre utilisateur Office365 actuel. Choisir une option d'authentification :  
+Utiliser les mêmes identifiants que votre utilisateur Office365 actuel. Choisir une option d'authentification :
 
-* ***Par défaut*** : Créer un nouveau jeton d'authentification à chaque fois et le conserve uniquement en mémoire. 
-* ***Permanent*** : Prends le jeton enregistré, s'il n'existe pas, en crée un nouveau et l'enregistre. 
-* ***Compte lié*** : Prends un jeton enregistré à partir de Windows (registre). 
+* ***Par défaut*** : Créer un nouveau jeton d'authentification à chaque fois et le conserve uniquement en mémoire.
+* ***Permanent*** : Prends le jeton enregistré, s'il n'existe pas, en crée un nouveau et l'enregistre.
+* ***Compte lié*** : Prends un jeton enregistré à partir de Windows (registre).
 		</td>
 	</tr>
 	<tr>
 		<td>
-Demander les identifiants 
+Demander les identifiants
 		</td>
 		<td>
-Always ask for the username and password when connecting to the data source. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Nom d'utilisateur 
-		</td>
-		<td>
-Nom d'utilisateur pour se connecter à la source de données. 
+Always ask for the username and password when connecting to the data source.
 		</td>
 	</tr>
 	<tr>
 		<td>
-Mot de passe 
+Nom d'utilisateur
 		</td>
 		<td>
-Mot de passe pour se connecter à la source de données.. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Toujours demander le mot de passe 
-		</td>
-		<td>
-Toujours demander le mot de passe lors de la connexion à la source de données. 
+Nom d'utilisateur pour se connecter à la source de données.
 		</td>
 	</tr>
 	<tr>
 		<td>
-Tester connexion 
+Mot de passe
 		</td>
 		<td>
-Tester la connexion avec {{ fr.DVLS }} pour valider si les informations appropriées ont été fournies.. 
+Mot de passe pour se connecter à la source de données..
+		</td>
+	</tr>
+	<tr>
+		<td>
+Toujours demander le mot de passe
+		</td>
+		<td>
+Toujours demander le mot de passe lors de la connexion à la source de données.
+		</td>
+	</tr>
+	<tr>
+		<td>
+Tester connexion
+		</td>
+		<td>
+Tester la connexion avec {{ fr.DVLS }} pour valider si les informations appropriées ont été fournies..
 		</td>
 	</tr>
 </table>
 
-### Paramètres 
+### Paramètres
 
-![{{ fr.DVLS }} - Paramètres](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip11356.png) 
+![{{ fr.DVLS }} - Paramètres](https://cdnweb.devolutions.net/docs/fr/rdm/windows/clip11356.png)
 
 <table>
 	<tr>
 		<th>
 
-OPTION 
+OPTION
 		</th>
 		<th>
-DESCRIPTION 
+DESCRIPTION
 		</th>
 	</tr>
 	<tr>
 		<td>
-Mode d'accès outils à distances 
+Mode d'accès outils à distances
 		</td>
 		<td>
-Sélectionner votre mode d'accès aux outils à distance entre :  
+Sélectionner votre mode d'accès aux outils à distance entre :
 
-* Local 
-* Via une source de données 
+* Local
+* Via une source de données
 		</td>
 	</tr>
 	<tr>
 		<td>
-Gérer la cache 
+Gérer la cache
 		</td>
 		<td>
-Gérer votre cache sur votre ordinateur pour l'analyser, le vider, le réparer ou le supprimer. Cela peut être très utile lorsque vous rencontrez des problèmes hors ligne. Pour plus d'informations, veuillez suivre ce [lien](/fr/rdm/windows/data-sources/manage-cache/). 
+Gérer votre cache sur votre ordinateur pour l'analyser, le vider, le réparer ou le supprimer. Cela peut être très utile lorsque vous rencontrez des problèmes hors ligne. Pour plus d'informations, veuillez suivre ce [lien](/fr/rdm/windows/data-sources/manage-cache/).
 		</td>
 	</tr>
 </table>
 
-### {{ fr.UVLT_MAJ }} 
+### {{ fr.UVLT_MAJ }}
 
-![{{ fr.DVLS }} – {{ fr.UVLT_MAJ }}](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip3603.png)  
+![{{ fr.DVLS }} – {{ fr.UVLT_MAJ }}](https://cdnweb.devolutions.net/docs/fr/rdm/windows/clip3603.png)
 
 <table>
 	<tr>
 		<th>
 
-OPTION 
+OPTION
 		</th>
 		<th>
-DESCRIPTION 
+DESCRIPTION
 		</th>
 	</tr>
 	<tr>
 		<td>
-Type 
+Type
 		</td>
 		<td>
-Sélectionner le type de [{{ fr.UVLT }}](/fr/rdm/windows/data-sources/data-sources-types/advanced-data-sources/user-vault/) à utiliser. Choisir entre :  
+Sélectionner le type de [{{ fr.UVLT }}](/fr/rdm/windows/data-sources/data-sources-types/advanced-data-sources/user-vault/) à utiliser. Choisir entre :
 
-* ***Par défaut*** : utilise le {{ fr.UVLT }} par défaut, qui est stocké dans la base de données. 
-* ***Aucun*** : désactive le {{ fr.UVLT }} pour tous les utilisateurs. 
-* ***{{ fr.DOD }}*** : utilise un fichier {{ fr.DOD }} (*.dod) comme {{ fr.UVLT }}. 
+* ***Par défaut*** : utilise le {{ fr.UVLT }} par défaut, qui est stocké dans la base de données.
+* ***Aucun*** : désactive le {{ fr.UVLT }} pour tous les utilisateurs.
+* ***{{ fr.DOD }}*** : utilise un fichier {{ fr.DOD }} (*.dod) comme {{ fr.UVLT }}.
 		</td>
 	</tr>
 </table>
 
-### VPN 
+### VPN
 
-Ouvrir un VPN pour accéder à vos données avant de vous connecter à votre {{ fr.DVLS }}.  
-![{{ fr.DVLS }} - VPN](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/DPSVPN.png) 
+Ouvrir un VPN pour accéder à vos données avant de vous connecter à votre {{ fr.DVLS }}.
+![{{ fr.DVLS }} - VPN](https://cdnweb.devolutions.net/docs/fr/rdm/windows/DPSVPN.png)
 
-### Avancé 
+### Avancé
 
-![{{ fr.DVLS }} - Avancé](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10815.png) 
+![{{ fr.DVLS }} - Avancé](https://cdnweb.devolutions.net/docs/fr/rdm/windows/clip10815.png)
 
 <table>
 	<tr>
 		<th>
 
-OPTION 
+OPTION
 		</th>
 		<th>
-DESCRIPTION 
+DESCRIPTION
 		</th>
 	</tr>
 	<tr>
 		<td>
-Mode de la cache 
+Mode de la cache
 		</td>
 		<td>
-Détermine comment les entrées seront rechargées dans la source de données. Voir [Mode de la cache](/fr/rdm/windows/data-sources/caching/) pour plus d'informations. 
+Détermine comment les entrées seront rechargées dans la source de données. Voir [Mode de la cache](/fr/rdm/windows/data-sources/caching/) pour plus d'informations.
 		</td>
 	</tr>
 	<tr>
 		<td>
-Mode ping en ligne 
+Mode ping en ligne
 		</td>
 		<td>
-Indique le mode de ping préféré en ligne. Choisir entre : 
+Indique le mode de ping préféré en ligne. Choisir entre :
 
-* Aucun 
-* Requête Web 
+* Aucun
+* Requête Web
 		</td>
 	</tr>
 	<tr>
 		<td>
-Fenêtre expiration de licence 
+Fenêtre expiration de licence
 		</td>
 		<td>
-Déterminer comment l'application vous informe de l'expiration de la licence. Choisir entre : 
+Déterminer comment l'application vous informe de l'expiration de la licence. Choisir entre :
 
-* Tous 
-* Administrateur(s) seulement 
-* Désactivé 
+* Tous
+* Administrateur(s) seulement
+* Désactivé
 		</td>
 	</tr>
 	<tr>
 		<td>
-Actualisation automatique 
+Actualisation automatique
 		</td>
 		<td>
-Définir l'intervalle d'actualisation automatique. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Demander le mode hors-ligne au démarrage 
-		</td>
-		<td>
-Chaque fois que vous vous connecterez à votre source de données, vous serez invité à utiliser la source de données en mode hors ligne. 
+Définir l'intervalle d'actualisation automatique.
 		</td>
 	</tr>
 	<tr>
 		<td>
-Déconnexion auto 
+Demander le mode hors-ligne au démarrage
 		</td>
 		<td>
-Utiliser la source de données en mode hors ligne lorsque la méthode ping ne répond pas. 
+Chaque fois que vous vous connecterez à votre source de données, vous serez invité à utiliser la source de données en mode hors ligne.
+		</td>
+	</tr>
+	<tr>
+		<td>
+Déconnexion auto
+		</td>
+		<td>
+Utiliser la source de données en mode hors ligne lorsque la méthode ping ne répond pas.
 		</td>
 	</tr>
 </table>

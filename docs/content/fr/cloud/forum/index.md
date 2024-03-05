@@ -11,4 +11,4 @@ Visitez les différentes sections et contribuez à la connaissance de notre comm
 Un [{{ fr.DA }}](/fr/cloud/devolutions-account/) gratuit est nécessaire pour se connecter et interagir sur le {{ fr.DFORUM }}.
 {% endsnippet %}
 
-![{{ fr.DFORUM }}](https://webdevolutions.azureedge.net/docs/fr/cloud/Cloud2001.png)
+![{{ fr.DFORUM }}](https://cdnweb.devolutions.net/docs/fr/cloud/Cloud2001.png)

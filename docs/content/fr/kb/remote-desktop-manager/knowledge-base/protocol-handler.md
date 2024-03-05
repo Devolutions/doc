@@ -1,26 +1,26 @@
 ---
 eleventyComputed:
   title: Protocol handler
-  description: A potocol handler has been implemented in {{ en.RDM }} to be able to launch a session directly from HTML content. This can be very useful to call {{ en.RDM }} from a Configuration Management Database (CMDB) or even a Document Management System (DMS).  
+  description: A potocol handler has been implemented in {{ en.RDM }} to be able to launch a session directly from HTML content. This can be very useful to call {{ en.RDM }} from a Configuration Management Database (CMDB) or even a Document Management System (DMS).
 ---
-A ***Protocol handler*** has been implemented in {{ en.RDM }} to be able to launch a session directly from HTML content. This can be very useful to call {{ en.RDM }} from a Configuration Management Database (CMDB) or even a Document Management System (DMS).  
+A ***Protocol handler*** has been implemented in {{ en.RDM }} to be able to launch a session directly from HTML content. This can be very useful to call {{ en.RDM }} from a Configuration Management Database (CMDB) or even a Document Management System (DMS).
 
-{% snippet icon.badgeInfo %}  
-Internet Explorer and Mozilla Firefox execute the URL by clicking on it or by pressing Enter. However, with some other web browsers such as Google Chrome, executing the URL normally results in a web search. These browsers may require to do <kbd>Ctrl</kbd>+click or <kbd>Ctrl</kbd>+<kbd>Enter</kbd> to execute the URL.  
+{% snippet icon.badgeInfo %}
+Internet Explorer and Mozilla Firefox execute the URL by clicking on it or by pressing Enter. However, with some other web browsers such as Google Chrome, executing the URL normally results in a web search. These browsers may require to do <kbd>Ctrl</kbd>+click or <kbd>Ctrl</kbd>+<kbd>Enter</kbd> to execute the URL.
 {% endsnippet %}
 
 ## Scenarios
-There are two ways of using the handler:  
+There are two ways of using the handler:
 
 1. Generate a URL for a session (basically every entry type that connects to a remote device using a protocol).
 1. Generate a URL for a template, this will allow you to specify the host name of the device you wish to connect to, but it will take the settings of the template.
 
 ## Parameters
-Here are the parameters used to build a protocol handler URL. These are for advanced scenarios. Only the ***DataSource*** and ***Session IDs*** are enough to open a connection.  
+Here are the parameters used to build a protocol handler URL. These are for advanced scenarios. Only the ***DataSource*** and ***Session IDs*** are enough to open a connection.
 
 {% snippet icon.badgeInfo %}
 Please note that the ***DataSource*** parameter overrides the data source which the application connects to at start-up. This applies even if the user is prompted for a data source to connect to when the application starts.
-{% endsnippet %}  
+{% endsnippet %}
 
 <table>
 	<tr>
@@ -36,11 +36,11 @@ DESCRIPTION
 DataSource
 		</td>
 		<td>
-Indicate the data source or the database ID.  
-  
-Find them in the ***IDs*** section of the ***Advanced properties*** of an entry.  
+Indicate the data source or the database ID.
 
-A data source ID is unique per installation, which makes the URL usable only by the workstation where the data source has been created. By default {{ en.RDM }} generates the URL with the database ID.  
+Find them in the ***IDs*** section of the ***Advanced properties*** of an entry.
+
+A data source ID is unique per installation, which makes the URL usable only by the workstation where the data source has been created. By default {{ en.RDM }} generates the URL with the database ID.
 		</td>
 	</tr>
 	<tr>
@@ -120,16 +120,16 @@ Populate the ***Search*** field.
 Tabpage
 		</td>
 		<td>
-Give the focus to a tab in the dashboard after the application has completed the startup procedure. Available only with the ***Select*** action. The possible tabs are:  
+Give the focus to a tab in the dashboard after the application has completed the startup procedure. Available only with the ***Select*** action. The possible tabs are:
 
-* ***Overview***  
-* ***Documentation***  
-* ***Macros/Scripts/Tools***  
-* ***Management Tools***  
-* ***Information***  
-* ***Attachments***  
-* ***Logs***  
-* ***Recordings***  
+* ***Overview***
+* ***Documentation***
+* ***Macros/Scripts/Tools***
+* ***Management Tools***
+* ***Information***
+* ***Attachments***
+* ***Logs***
+* ***Recordings***
 		</td>
 	</tr>
 </table>
@@ -141,31 +141,31 @@ Give the focus to a tab in the dashboard after the application has completed the
 * ***Edit***: edit the specified connection.
 * ***View***: view the password of the specified entry.
 * ***OpenWithMacro***: open the specified with a macro.
-* ***Select***: select a connection in the ***{{ en.NPANE }}*** (allows to select a tab in the dashboard as well).  
+* ***Select***: select a connection in the ***{{ en.NPANE }}*** (allows to select a tab in the dashboard as well).
 
 ## Syntax
 
 Syntax:
 
-`rdm://<action><parameter1>=<value>[&<parameter2>=<value>]`  
+`rdm://<action><parameter1>=<value>[&<parameter2>=<value>]`
 
-The base syntax of the protocol handler requires the application protocol, an action and at least one parameter to work with.  
+The base syntax of the protocol handler requires the application protocol, an action and at least one parameter to work with.
 
-There are three rules to follow when constructing an URL for the protocol handler:  
+There are three rules to follow when constructing an URL for the protocol handler:
 
 * The action is separated from the parameters with a question mark (?).
 * Each parameter is assigned a value by using an equal sign (=).
-* Parameter/Value pairs are separated with an ampersand (&).  
+* Parameter/Value pairs are separated with an ampersand (&).
 
 ## Examples
 ### Open {{ en.RDM }} with the search/filter field populated and the focus on the Dashboard
 
-`rdm://open?Filter=RDP&Tabpage=Dashboard`  
+`rdm://open?Filter=RDP&Tabpage=Dashboard`
 
 ### Open an RDP session
 
-1. In the ***Advanced*** section of an entry properties, click on the ***Create Web Url*** button.  
-![!!KB4466](https://webdevolutions.azureedge.net/docs/en/kb/KB4466.png)  
-1. The Url is stored in the clipboard.  
-![!!KB4467](https://webdevolutions.azureedge.net/docs/en/kb/KB4467.png)  
+1. In the ***Advanced*** section of an entry properties, click on the ***Create Web Url*** button.
+![!!KB4466](https://cdnweb.devolutions.net/docs/en/kb/KB4466.png)
+1. The Url is stored in the clipboard.
+![!!KB4467](https://cdnweb.devolutions.net/docs/en/kb/KB4467.png)
 1. Paste (<kbd>Ctrl</kbd>+<kbd>V</kbd>) this Url in any application able to handle application protocols. It can be in a web page, a web browser address bar, or even a supported chat application. The protocol handler launches {{ en.RDM }} if it is closed, then perform the requested action with the provided parameters.

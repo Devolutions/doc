@@ -2,8 +2,8 @@
 eleventyComputed:
   title: User template
 ---
-This section will set the user template for the [Automatic User Creation](/server/web-interface/administration/configuration/server-settings/general/authentication/domain/) feature.  
-![Administration – System Settings – User Template](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8033.png)
+This section will set the user template for the [Automatic User Creation](/server/web-interface/administration/configuration/server-settings/general/authentication/domain/) feature.
+![Administration – System Settings – User Template](https://cdnweb.devolutions.net/docs/en/server/ServerOp8033.png)
 
 ## User template
 | Option            | Description                         |

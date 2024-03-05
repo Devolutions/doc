@@ -39,6 +39,7 @@ The following bullet list describe each steps a support technician will follow t
 1. Check if {{ en.DVLS }} is back Online in the {{ en.DVLSCONSOLE }}.
 1. Test web page login directly on the server or from the customer's computer with the Navigate to Website button on the {{ en.DVLSCONSOLE }}
 1. If required, install the latest {{ en.RDM }} version that belongs to the {{ en.DVLS }} version.
+1. If required, update the {{ en.PS }} module version that belongs to the {{ en.DVLS }} version.
 1. Test connectivity from {{ en.RDM }} to the {{ en.DVLS }} data source.
 1. If required, update {{ en.DGW }}.
 1. Make sure that the encryption keys will be exported and put in a safe place for security measure. These encryption keys are required for disaster recovery.

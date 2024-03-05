@@ -2,8 +2,8 @@
 eleventyComputed:
   title: Settings
 ---
-Allow the user group to enable [Offline Mode](/rdm/windows/data-sources/offline-mode/) on the data source. The data source also needs to be configured to permit offline mode. There are multiple modes available.  
-![User Groups - Settings](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8012.png)
+Allow the user group to enable [Offline Mode](/rdm/windows/data-sources/offline-mode/) on the data source. The data source also needs to be configured to permit offline mode. There are multiple modes available.
+![User Groups - Settings](https://cdnweb.devolutions.net/docs/en/server/ServerOp8012.png)
 
 ## Settings
 | Option            | Description                                                        |

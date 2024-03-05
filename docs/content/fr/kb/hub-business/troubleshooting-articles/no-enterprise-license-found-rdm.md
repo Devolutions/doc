@@ -17,13 +17,13 @@ Only ***Administrators*** and users with permissions in the ***System Permission
 {% endsnippet %}
 
 1. In {{ en.RDM }}, click ***Administration – License*** to be redirected to the {{ en.DHUB }} web interface.
-1. Click the ***Add*** button.  
-![Administration – Licenses](https://webdevolutions.azureedge.net/docs/en/kb/KB5024.png)  
-1. Paste the {{ en.RDM }} ***License*** and click ***Add***.  
-![Product License](https://webdevolutions.azureedge.net/docs/en/kb/KB5023.png)  
-1. Assign the {{ en.RDM }} product license by clicking the ***Edit*** button.  
-![Administration – Licenses – Edit](https://webdevolutions.azureedge.net/docs/en/kb/KB5025.png)
-1. Click ***Assigned To*** and manage your users license access.  
-![Product License – Assigned To](https://webdevolutions.azureedge.net/docs/en/kb/KB5026.png)
+1. Click the ***Add*** button.
+![Administration – Licenses](https://cdnweb.devolutions.net/docs/en/kb/KB5024.png)
+1. Paste the {{ en.RDM }} ***License*** and click ***Add***.
+![Product License](https://cdnweb.devolutions.net/docs/en/kb/KB5023.png)
+1. Assign the {{ en.RDM }} product license by clicking the ***Edit*** button.
+![Administration – Licenses – Edit](https://cdnweb.devolutions.net/docs/en/kb/KB5025.png)
+1. Click ***Assigned To*** and manage your users license access.
+![Product License – Assigned To](https://cdnweb.devolutions.net/docs/en/kb/KB5026.png)
 1. Click ***Update*** to save.
 1. Restart {{ en.RDM }}.

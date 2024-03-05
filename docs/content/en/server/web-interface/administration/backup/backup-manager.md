@@ -3,8 +3,8 @@ eleventyComputed:
   title: Backup manager
   description: The Backup Manager section allows administrators to configure the parameters to back up the database and the web application folder.
 ---
-The ***Backup Manager*** section allows administrators to configure the parameters to back up the database and the web application folder. Click the ***Backup Now*** button at the top to immediately create a backup of the SQL database and/or the web application folder.  
-![Administration – Backup Manager](https://webdevolutions.azureedge.net/docs/en/server/ServerOp2084.png) 
+The ***Backup Manager*** section allows administrators to configure the parameters to back up the database and the web application folder. Click the ***Backup Now*** button at the top to immediately create a backup of the SQL database and/or the web application folder.
+![Administration – Backup Manager](https://cdnweb.devolutions.net/docs/en/server/ServerOp2084.png)
 
 ## Settings
 

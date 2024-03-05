@@ -21,14 +21,14 @@ The settings deployed with the group policy object (GPO) are only enforced when 
 1. Set the ***Hive*** parameter to **HKEY_LOCAL_MACHINE** or **HKEY_CURRENT_USER** according to your needs.
 1. Enter **SOFTWARE\Policies\Google\Chrome\3rdparty\extensions\neimonjjffhehnojilepgfejkneaidmo\policy** in the ***Key Path*** text field.
    {% snippet icon.badgeInfo %}
-   Enter **\SOFTWARE\Policies\Microsoft\Edge\3rdparty\extensions\ddloeodolhdfbohkokiflfbacbfpjahp\policy** in the ***Key Path*** text field if you are using Microsoft Edge. 
+   Enter **\SOFTWARE\Policies\Microsoft\Edge\3rdparty\extensions\ddloeodolhdfbohkokiflfbacbfpjahp\policy** in the ***Key Path*** text field if you are using Microsoft Edge.
    {% endsnippet %}
 
 10. Enter ***Settings*** in the ***Value name*** text field.
 1. Select REG_SZ in the ***Value type*** drop-down list.
 1. Write the JSON settings string in the ***Value data*** text field. See the [Values](#values) section below for an example.
-1. Click on ***OK***.  
-![!!KB8106](https://webdevolutions.azureedge.net/docs/en/kb/KB8106.png)
+1. Click on ***OK***.
+![!!KB8106](https://cdnweb.devolutions.net/docs/en/kb/KB8106.png)
 1. In ***Group Policy Management***, configure the GPO ***Links*** and ***Security Filtering*** according to your needs.
 
 ### Example
@@ -133,7 +133,7 @@ All attributes can have their value changed or their key removed. If this sectio
 ### Values
 disableSettingsPage
 
-Hide the settings button and disable the settings page in the {{ en.WBEX }} for the end-user.  
+Hide the settings button and disable the settings page in the {{ en.WBEX }} for the end-user.
 Possible values:
 
 * ***True***
@@ -141,7 +141,7 @@ Possible values:
 
 setGPOSettings
 
-Set when the GPO settings are used.  
+Set when the GPO settings are used.
 Possible values:
 
 * OnInstall (default): Set the value the GPO settings when the extension is installed.
@@ -165,8 +165,8 @@ Possible values:
      }
    }
    ```
-1. Click on ***OK*** and update the GPO rules on your local machine.  
-![!!KB8105](https://webdevolutions.azureedge.net/docs/en/kb/KB8105.png)
+1. Click on ***OK*** and update the GPO rules on your local machine.
+![!!KB8105](https://cdnweb.devolutions.net/docs/en/kb/KB8105.png)
 
 ## References
 * [https://www.chromium.org/administrators](https://www.chromium.org/administrators)

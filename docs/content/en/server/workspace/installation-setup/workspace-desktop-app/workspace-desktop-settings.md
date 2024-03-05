@@ -6,7 +6,7 @@ eleventyComputed:
 
 {{ en.WS }} settings are located in ***File – {{ en.WS }} settings***.
 
-![Workspace Settings](https://webdevolutions.blob.core.windows.net/docs/en/server/ServerOp6094.png)
+![Workspace Settings](https://cdnweb.devolutions.net/docs/en/server/ServerOp6094.png)
 
 ## General 
 

@@ -6,13 +6,13 @@ eleventyComputed:
   - CLI
   - Command Line Interface
 ---
-The {{ en.DVLSCONSOLE }} Command Line Interface (CLI) is a {{ en.CTOOL }} which allows administrators to interact with {{ en.DVLS }} instances, the Scheduler, the Recording Server or the Gateway with create, configure or delete operations. It is automatically available with the installation of the {{ en.DVLSCONSOLE }}. The **DPS.Console.CLI.exe** file is located in the {{ en.DVLSCONSOLE }} application installation folder. The ***/help*** switch will list all available commands and parameters. 
+The {{ en.DVLSCONSOLE }} Command Line Interface (CLI) is a {{ en.CTOOL }} which allows administrators to interact with {{ en.DVLS }} instances, the Scheduler, the Recording Server or the Gateway with create, configure or delete operations. It is automatically available with the installation of the {{ en.DVLSCONSOLE }}. The **DPS.Console.CLI.exe** file is located in the {{ en.DVLSCONSOLE }} application installation folder. The ***/help*** switch will list all available commands and parameters.
 
-![{{ en.DVLSCONSOLE }} CLI commands list](https://webdevolutions.azureedge.net/docs/en/kb/KB8032.png) 
+![{{ en.DVLSCONSOLE }} CLI commands list](https://cdnweb.devolutions.net/docs/en/kb/KB8032.png)
 
-The ***/help*** switch can be used to list command's parameters. 
+The ***/help*** switch can be used to list command's parameters.
 
-![CLI command parameters](https://webdevolutions.azureedge.net/docs/en/kb/KB8033.png) 
+![CLI command parameters](https://cdnweb.devolutions.net/docs/en/kb/KB8033.png)
 
 The following sample command launch the upgrade process from a zip file available in **C:\temp folder**.
 
@@ -20,7 +20,7 @@ The following sample command launch the upgrade process from a zip file availabl
 
 The following command will create a new {{ en.DVLS }} instance from a JSON response file (see below) that contains the required parameters. It can be used with any of the main commands of the CLI.
 
-![CLI with JSON file](https://webdevolutions.azureedge.net/docs/en/kb/KB8034.png) 
+![CLI with JSON file](https://cdnweb.devolutions.net/docs/en/kb/KB8034.png)
 
 Sample of a JSON response file for creating a new {{ en.DVLS }} instance.
 

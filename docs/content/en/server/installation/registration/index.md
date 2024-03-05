@@ -13,6 +13,6 @@ If you decide not to register at the end of the 30-day trial, your data will not
 Please see [Register a {{ en.DVLS }} license](/server/installation/registration/register-server-license/) to properly register your version.  
 
 ## {{ en.DVLS }} Free registration 
-{{ en.DVLS }} Free Edition is targeted for small teams of 3 users and its features are similar to the Team edition. Registration is free. Please see [Register a {{ en.DVLS }} Free license](/server/installation/registration/register-free-server-license/) to properly register your version.  
+{{ en.DVLS }} Free Edition is targeted for small teams of 10 users or less, and its features are similar to the Team edition. Registration is free. Please see [Register a {{ en.DVLS }} Free license](/server/installation/registration/register-free-server-license/) to properly register your version.  
 
 To learn more and compare the different versions available, please visit [{{ en.DVLS }} Compare Editions](https://devolutions.net/server/compare). 

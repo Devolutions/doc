@@ -2,8 +2,8 @@
 eleventyComputed:
   title: GeoIP security
 ---
-The GeoIP Security section section allows the administrator to set IPs restriction based on the geographical location.  
-![Administration – {{ en.DVLS }} Settings – GeoIP Security](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8046.png)
+The GeoIP Security section section allows the administrator to set IPs restriction based on the geographical location.
+![Administration – {{ en.DVLS }} Settings – GeoIP Security](https://cdnweb.devolutions.net/docs/en/server/ServerOp8046.png)
 
 ## Settings
 | Option      | Description                                                               |

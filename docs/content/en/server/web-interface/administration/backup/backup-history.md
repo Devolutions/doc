@@ -2,8 +2,8 @@
 eleventyComputed:
   title: Backup history
 ---
-The ***Backup History*** section displays the list of the backups that have been run with messages related to their success or failure.  
-![Administration – Backup History](https://webdevolutions.azureedge.net/docs/en/server/clip10404.png)
+The ***Backup History*** section displays the list of the backups that have been run with messages related to their success or failure.
+![Administration – Backup History](https://cdnweb.devolutions.net/docs/en/server/clip10404.png)
 
 | Column           | Description                                                                                          |
 |------------------|------------------------------------------------------------------------------------------------------|

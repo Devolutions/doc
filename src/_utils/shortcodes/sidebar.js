@@ -16,7 +16,11 @@ function sidebarItem(item, index, ctx, contents, page, icons) {
   }
 
   const label = ctx.locale[ctx.lang].label[item.label] ? ctx.locale[ctx.lang].label[item.label] : item.label;
-  const itemData = item.filePathStem || url ? contents.find((content) => content.filePathStem === item.filePathStem || content.url === url) : null;
+  let itemData = item.filePathStem || url ? contents.find((content) => content.filePathStem === item.filePathStem || content.url === url) : null;
+
+  if (!itemData && !label) {
+    itemData = ctx.collections.all.find(c => c.data.lang === 'en' && c.url === url.replace(`/${ctx.lang}/`, '/'));
+  }
 
   return `<div class="nav-item-container">
     <div class="nav-item-sub-container" data-dwd-tab data-dwd-tab-group="sidebar" data-dwd-tab-target="${itemData?.url ?? label}">

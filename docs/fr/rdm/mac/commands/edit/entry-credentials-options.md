@@ -2,8 +2,8 @@
 eleventyComputed:
   title: Options d'identifiants
 ---
-Plusieurs options sont disponibles pour les ***Identifiants*** dans les entrées {{ fr.RDM }}.  
-![Identifiants](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/RdmMac4029.png)
+Plusieurs options sont disponibles pour les ***Identifiants*** dans les entrées {{ fr.RDM }}.
+![Identifiants](https://cdnweb.devolutions.net/docs/fr/rdm/mac/RdmMac4029.png)
 
 <table>
 	<tr>

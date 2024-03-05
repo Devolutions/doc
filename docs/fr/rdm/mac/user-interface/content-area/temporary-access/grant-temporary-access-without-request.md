@@ -14,14 +14,14 @@ La fonction d'***Accès temporaire*** permet aux utilisateurs de demander une é
 
 1. Dans le ***Tableau de bord*** de {{ fr.RDM }}, sélectionnez l'entrée à laquelle vous souhaitez accorder l'accès.  
 1. Cliquer sur ***Accorder un accès temporaire*** dans le ruban.  
-![Accorder un accès temporaire](https://webdevolutions.blob.core.windows.net/docs/fr/rdm/mac/RDMMac6010.png)  
+![Accorder un accès temporaire](https://cdnweb.devolutions.net/docs/fr/rdm/mac/RDMMac6010.png)  
 1. Choisir ***Utilisateur*** et ***Durée de l'accès*** dans la fenêtre ***Accorder un accès temporaire***.  
-![Accorder un accès temporaire](https://webdevolutions.blob.core.windows.net/docs/fr/rdm/mac/RDMMac6011.png)  
+![Accorder un accès temporaire](https://cdnweb.devolutions.net/docs/fr/rdm/mac/RDMMac6011.png)  
 
 Vous pouvez consulter les ***Dépendances de l'entrée***, comme que les identifiants et les VPN liés dans le menu à gauche.
  
  4. Cliquer sur ***Définir une période de temps personnalisée*** si vous avez besoin d'accorder l'accès pour une durée déterminée et écrivez un court ***Message*** à l'utilisateur expliquant pourquoi vous accordez l'accès.  
 
  1. Cliquer sur ***OK*** pour fermer la fenêtre.  
-![L'accès temporaire a été accordé](https://webdevolutions.blob.core.windows.net/docs/fr/rdm/mac/RDMMac6012.png)  
+![L'accès temporaire a été accordé](https://cdnweb.devolutions.net/docs/fr/rdm/mac/RDMMac6012.png)  
 L'***accès temporaire*** a été accordé.

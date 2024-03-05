@@ -7,9 +7,9 @@ The domain is used to authenticate the user. This is the most secure, flexible a
 
 {% snippet icon.badgeNotice %}
 The Multi Domain feature requires the {{ en.DVLS }} Platinum Edition license. Please see [Multi Domain](/server/web-interface/administration/configuration/server-settings/general/authentication/domain/multi-domain/) for more information about its configuration.
-{% endsnippet %}  
+{% endsnippet %}
 
-![Authentication - Configure Domain](https://webdevolutions.azureedge.net/docs/en/server/AuthenticationDomain.png)
+![Authentication - Configure Domain](https://cdnweb.devolutions.net/docs/en/server/AuthenticationDomain.png)
 
 ## Settings
 

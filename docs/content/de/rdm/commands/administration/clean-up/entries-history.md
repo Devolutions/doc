@@ -13,10 +13,10 @@ Diese Aktion steht nur Administratoren zur Verfügung.
 {% endsnippet %}
 
 ## Einstellungen
-1. Wählen Sie aus, bis zu welchem Datum Sie Ihren ***Eintragsverlauf*** endgültig löschen möchten..  
-![Eintragsverlauf bereinigen](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin0005.png)  
+1. Wählen Sie aus, bis zu welchem Datum Sie Ihren ***Eintragsverlauf*** endgültig löschen möchten..
+![Eintragsverlauf bereinigen](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMWin0005.png)
 1. Danach erscheint ein weiteres Fenster, in dem Sie bestätigen müssen, dass Sie den gesamten Verlauf bis zu dem gewählten Datum löschen möchten.
-![Bestätigungsfenster](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin0004.png)  
+![Bestätigungsfenster](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMWin0004.png)
 {% snippet icon.badgeWarning %}
 Es wird keine Sicherungskopie des Verlaufs erstellt. Wir empfehlen dringend, ein [Backup](/rdm/windows/commands/file/backup/) zu erstellen, bevor Sie fortfahren.
 {% endsnippet %}

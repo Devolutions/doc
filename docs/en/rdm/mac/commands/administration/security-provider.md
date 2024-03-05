@@ -20,15 +20,15 @@ By using a Security Provider, you ensure that nobody can read your entry configu
 {% snippet icon.badgeInfo %}
 Please note that changing a security provider on a data source with a great number of entries is a lengthy operation.
 {% endsnippet %}
- 
+
 {% snippet icon.badgeInfo %}
 Applying a new security provider does process the whole database, therefore we advise you to create a backup prior to this operation.
 {% endsnippet %}
 
-1. Click on Change security settings to change the security provider.  
-![Security Provider - Change security settings](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10378.png)
-1. Select your new security type from the drop down menu.  
-![Security Provider - Security type](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10379.png)
+1. Click on Change security settings to change the security provider.
+![Security Provider - Change security settings](https://cdnweb.devolutions.net/docs/en/rdm/mac/clip10378.png)
+1. Select your new security type from the drop down menu.
+![Security Provider - Security type](https://cdnweb.devolutions.net/docs/en/rdm/mac/clip10379.png)
 
 | OPTION            | DESCRIPTION                                                      |
 |-------------------|------------------------------------------------------------------|
@@ -46,8 +46,8 @@ If the passphrase is lost, there is nothing that can be done to recover the data
 All of the entries configuration data is encrypted with a mix of key stored in {{ en.RDMMAC }} and the passphrase you have entered. The passphrase is required only when configuring the data source.
 
 ## Certificate
-If you have chosen Certificate as your Security Provider,  it will encrypt the entry configuration data with a mix of key stored in {{ en.RDM }} and the private key contained in the certificate.  
-![Certificate Security Provider](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10380.png)
+If you have chosen Certificate as your Security Provider,  it will encrypt the entry configuration data with a mix of key stored in {{ en.RDM }} and the private key contained in the certificate.
+![Certificate Security Provider](https://cdnweb.devolutions.net/docs/en/rdm/mac/clip10380.png)
 
 | OPTION     | DESCRIPTION                                                           |
 |------------|-----------------------------------------------------------------------|

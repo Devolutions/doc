@@ -3,32 +3,32 @@ eleventyComputed:
   title: Attachments
   description: To enable the attachment pane, navigate to Window – Layout in the ribbon, then select Attachments.
 ---
-Files are attached to an entry and are stored directly in the database.  
+Files are attached to an entry and are stored directly in the database.
 
-To enable the attachment pane, navigate to ***Window – Layout*** in the ribbon, then select ***Attachments***.  
-![Attachments Button](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin6212.png) 
+To enable the attachment pane, navigate to ***Window – Layout*** in the ribbon, then select ***Attachments***.
+![Attachments Button](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMWin6212.png)
 
-{% snippet icon.badgeInfo %} 
-This feature is only available when using an [Advanced Data Source](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/). 
+{% snippet icon.badgeInfo %}
+This feature is only available when using an [Advanced Data Source](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/).
 {% endsnippet %}
- 
-{% snippet icon.badgeInfo %} 
-The files in attachments are available in offline mode. 
+
+{% snippet icon.badgeInfo %}
+The files in attachments are available in offline mode.
 {% endsnippet %}
- 
-![Attachments](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2027.png) 
 
-The attachment type and size are limited only by your bandwidth and the data source. You can also view a saved attachment:  
+![Attachments](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMWin2027.png)
 
-* from the session context menu; 
-* from the session properties; or 
-* directly on the ***Dashboard***. 
+The attachment type and size are limited only by your bandwidth and the data source. You can also view a saved attachment:
 
-The refresh button allows you to update directly the selected document. Use it to save your local modifications. 
+* from the session context menu;
+* from the session properties; or
+* directly on the ***Dashboard***.
 
-### Actions 
-Use the toolbar above the attachments list to manage the selected attachment.  
-![Attachments Toolbar](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip3566.png) 
+The refresh button allows you to update directly the selected document. Use it to save your local modifications.
+
+### Actions
+Use the toolbar above the attachments list to manage the selected attachment.
+![Attachments Toolbar](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip3566.png)
 
 | OPTION            | DESCRIPTION |
 |-------------------|-------------|

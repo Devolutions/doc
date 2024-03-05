@@ -31,7 +31,7 @@ module.exports = {
           let objects = [];
           let title = article.data.title;
           let url = `https://docs.devolutions.net${article.url}`;
-          let icon = "https://webdevolutions.azureedge.net/images/projects/devolutions/logos/devolutions-icon-shadow.svg";
+          let icon = "https://cdnweb.devolutions.net/images/projects/devolutions/logos/devolutions-icon-shadow.svg";
 
           let locale = article.data.lang;
           let doc = article.url.split('/')[2];
@@ -46,30 +46,30 @@ module.exports = {
 
           switch (doc) {
             case 'cloud':
-              icon = "https://webdevolutions.azureedge.net/images/projects/cloud/logos/cloud-icon-shadow.svg";
+              icon = "https://cdnweb.devolutions.net/images/projects/cloud/logos/cloud-icon-shadow.svg";
               docLabel = "Cloud Services";
               os = "";
               break;
             case 'hub':
-              icon = "https://webdevolutions.azureedge.net/images/projects/password-hub/logos/password-hub-icon-shadow.svg";
+              icon = "https://cdnweb.devolutions.net/images/projects/password-hub/logos/password-hub-icon-shadow.svg";
               docLabel = "Devolutions Hub";
               os = "";
               break;
             case 'kb':
-              icon = "https://webdevolutions.azureedge.net/images/projects/knowledge-base/logos/knowledge-base-icon-shadow.svg";
+              icon = "https://cdnweb.devolutions.net/images/projects/knowledge-base/logos/knowledge-base-icon-shadow.svg";
               docLabel = "Knowledge Base";
               os = "";
               break;
             case 'rdm':
-              icon = "https://webdevolutions.azureedge.net/images/projects/remote-desktop-manager/logos/remote-desktop-manager-icon-shadow.svg";
-              if (os == 'windows') {
-                docLabel = "Remote Desktop Manager (Windows)";
-              } else if (os == 'mac') {
+              icon = "https://cdnweb.devolutions.net/images/projects/remote-desktop-manager/logos/remote-desktop-manager-icon-shadow.svg";
+              docLabel = "Remote Desktop Manager";
+
+              if (os == 'mac') {
                 docLabel = "Remote Desktop Manager (macOS)";
               }
               break;
             case 'server':
-              icon = "https://webdevolutions.azureedge.net/images/projects/server/logos/server-icon-shadow.svg";
+              icon = "https://cdnweb.devolutions.net/images/projects/server/logos/server-icon-shadow.svg";
               docLabel = "Devolutions Server";
               os = "";
               break;

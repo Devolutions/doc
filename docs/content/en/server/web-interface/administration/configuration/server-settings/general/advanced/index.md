@@ -3,8 +3,8 @@ eleventyComputed:
   title: Advanced
   order: 20
 ---
-The ***Advanced*** section allows the administrator to configure the ***Refresh token lifetime*** parameter and some other specific parameters like the [Labelling](/server/web-interface/administration/configuration/server-settings/general/advanced/white-labeling-customizations/).  
-![Administration – {{ en.DVLS }} Settings – Advanced](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8044.png)
+The ***Advanced*** section allows the administrator to configure the ***Refresh token lifetime*** parameter and some other specific parameters like the [Labelling](/server/web-interface/administration/configuration/server-settings/general/advanced/white-labeling-customizations/).
+![Administration – {{ en.DVLS }} Settings – Advanced](https://cdnweb.devolutions.net/docs/en/server/ServerOp8044.png)
 
 ## Settings
 

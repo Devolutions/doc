@@ -6,10 +6,10 @@ eleventyComputed:
 ---
 {% snippet icon.badgeInfo %}
 Microsoft Azure Active Directory subscription is required to configure Office365 authentication in {{ en.DVLS }}. One new app registration is required in Microsoft Azure Active Directory before completing the authentication settings. For more information about the app registrations, see [Azure portal configuration guide for Microsoft Authentication](/kb/devolutions-server/how-to-articles/azure-portal-configuration-guide-microsoft-authentication/).
-{% endsnippet %}  
+{% endsnippet %}
 
-The ***Microsoft Authentication*** tab allows {{ en.DVLS }} to authenticate users using Office365 authentication. The ***Display name***, ***Tenant ID***, ***Client ID*** and ***Secret value*** fields are mandatory.  
-![Authentication - Configure Microsoft Authentication](https://webdevolutions.azureedge.net/docs/en/server/ServerOp0022.png)
+The ***Microsoft Authentication*** tab allows {{ en.DVLS }} to authenticate users using Office365 authentication. The ***Display name***, ***Tenant ID***, ***Client ID*** and ***Secret value*** fields are mandatory.
+![Authentication - Configure Microsoft Authentication](https://cdnweb.devolutions.net/docs/en/server/ServerOp0022.png)
 
 ## Settings
 
@@ -35,7 +35,7 @@ The ***Microsoft Authentication*** tab allows {{ en.DVLS }} to authenticate user
 ### Microsoft Authentication Users and User Group Cache
 {% snippet icon.badgeInfo %}
 It is recommended to disable the cache feature, as the hybrid mode is more efficient. By default the option is already disabled.
-{% endsnippet %}  
+{% endsnippet %}
 
 | Option            | Description                                                                                              |
 |-------------------|----------------------------------------------------------------------------------------------------------|

@@ -2,8 +2,8 @@
 eleventyComputed:
   title: Users
 ---
-Grant access to users on the {{ en.VLT }}.  
-![{{ en.VLT_MAJ }}s - Users](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8068.png)
+Grant access to users on the {{ en.VLT }}.
+![{{ en.VLT_MAJ }}s - Users](https://cdnweb.devolutions.net/docs/en/server/ServerOp8068.png)
 
 ## Edit {{ en.VLT }} settings
 | Option    | Description                                                |

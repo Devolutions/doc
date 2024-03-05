@@ -17,7 +17,7 @@ Ces paramètres sont uniquement disponibles pour les sources de données avancé
 Par défaut, l'***Accès temporaire*** est défini à ***Refusé*** dans {{ fr.RDM }}.
 1. Pour activer la fonctionnalité, accéder à ***Administration – Paramètres du {{ fr.VLT }} – Paramètres de sécurité – Accès temporaire***.
 
-![Administration – Paramètres du {{ fr.VLT }} – Paramètres de sécurité – Accès temporaire](https://webdevolutions.azureedge.net/docs/fr/kb/KB2082.png)
+![Administration – Paramètres du {{ fr.VLT }} – Paramètres de sécurité – Accès temporaire](https://cdnweb.devolutions.net/docs/fr/kb/KB2082.png)
 
 2. Définir le ***Mode*** à ***Autorisé***.
 1. Facultatif : Définir les ***Autorisateurs*** à ***Personnalisé*** pour ajouter des utilisateurs à la liste des autorisateurs.
@@ -26,7 +26,7 @@ Par défaut, l'***Accès temporaire*** est défini à ***Refusé*** dans {{ fr.R
 Par défaut, seuls les administrateurs peuvent autoriser les demandes d'accès temporaire.
 {% endsnippet %}
 
-![Ajouter un autorisateur](https://webdevolutions.azureedge.net/docs/fr/kb/KB2084.png)
+![Ajouter un autorisateur](https://cdnweb.devolutions.net/docs/fr/kb/KB2084.png)
 
 4. Cliquer sur ***OK***.
 
@@ -36,7 +36,7 @@ L'***Accès temporaire*** peut également être défini de manière granulaire s
 1. Ouvrir les ***Propriétés*** de l'entrée ou  du dossier.
 1. Accéder à ***Paramètres de sécurité – Accès temporaire***.
 
-![Propriétés – Paramètres de sécurité – Accès temporaire](https://webdevolutions.azureedge.net/docs/fr/kb/KB2083.png)
+![Propriétés – Paramètres de sécurité – Accès temporaire](https://cdnweb.devolutions.net/docs/fr/kb/KB2083.png)
 
 3. Sélectionner le ***Mode***.
 

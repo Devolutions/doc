@@ -7,7 +7,7 @@ The ***Port Generator*** allows you to generate ports for your connections.
 
 ## Settings 
 
-![Port Generator](https://webdevolutions.blob.core.windows.net/docs/en/rdm/windows/RDMWin6240.png) 
+![Port Generator](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMWin6240.png) 
 
 | OPTION         | DESCRIPTION                                   |
 |----------------|-----------------------------------------------|

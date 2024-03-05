@@ -3,8 +3,8 @@ eleventyComputed:
   title: Open with parameters
   description: The Open with Parameters menu all options available to open a session.
 ---
-The ***Open with Parameters*** menu all options available to open a session.  
-![Open with Parameters](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10056.png) 
+The ***Open with Parameters*** menu all options available to open a session.
+![Open with Parameters](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip10056.png)
 
 | OPTION            | DESCRIPTION                                                           |
 |-------------------|-----------------------------------------------------------------------|

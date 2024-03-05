@@ -1,15 +1,15 @@
 ---
 eleventyComputed:
   title: General
-  description: 
+  description:
 ---
-The ***General*** section allows to manage the availability of different features related to the database. 
+The ***General*** section allows to manage the availability of different features related to the database.
 
-{% snippet icon.shieldCaution %} 
-These settings applies to all users that have access to the data source. 
+{% snippet icon.shieldCaution %}
+These settings applies to all users that have access to the data source.
 {% endsnippet %}
- 
-![System Settings - General](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10720.png) 
+
+![System Settings - General](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip10720.png)
 
 | GENERAL                      | DESCRIPTION                                                            |
 |----------------------------- |------------------------------------------------------------------------|

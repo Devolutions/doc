@@ -2,11 +2,11 @@
 eleventyComputed:
   title: Licenses
 ---
-Managing registration globally for all your users can be done with a license serial stored in ***Licenses*** section.  
-![Licenses](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8030.png)
+Managing registration globally for all your users can be done with a license serial stored in ***Licenses*** section.
+![Licenses](https://cdnweb.devolutions.net/docs/en/server/ServerOp8030.png)
 
-## Licenses  
-![Licenses - General](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8043.png)
+## Licenses
+![Licenses - General](https://cdnweb.devolutions.net/docs/en/server/ServerOp8043.png)
 
 ### General
 | Option                | Description                                                          |
@@ -14,8 +14,8 @@ Managing registration globally for all your users can be done with a license ser
 | License               | License to be stored.                                                |
 | Auto assign new users | Will automatically assign the license key to every new user account. |
 
-### Assigned To  
-![Licenses - Assigned to](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8052.png)
+### Assigned To
+![Licenses - Assigned to](https://cdnweb.devolutions.net/docs/en/server/ServerOp8052.png)
 
 | Option         | Description                                                          |
 |----------------|----------------------------------------------------------------------|

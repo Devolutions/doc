@@ -2,11 +2,11 @@
 eleventyComputed:
   title: Privileged accounts
 ---
-The Privileged Access section allows to manage all privileged accounts within a given PAM {{ en.VLT }}. The accounts can be organized within folders or directly saved in the root.  
-![Privileged Access {{ en.VLT }} dashboard](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8150.png)
+The Privileged Access section allows to manage all privileged accounts within a given PAM {{ en.VLT }}. The accounts can be organized within folders or directly saved in the root.
+![Privileged Access {{ en.VLT }} dashboard](https://cdnweb.devolutions.net/docs/en/server/ServerOp8150.png)
 
-For every privileged account, it is possible to manage the checkout/check-in process or to have access to many options from the contextual menu or the top right menu described below.  
-![Privileged Accounts folder content](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8151.png)
+For every privileged account, it is possible to manage the checkout/check-in process or to have access to many options from the contextual menu or the top right menu described below.
+![Privileged Accounts folder content](https://cdnweb.devolutions.net/docs/en/server/ServerOp8151.png)
 
 ### More
 

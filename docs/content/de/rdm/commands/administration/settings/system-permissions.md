@@ -2,17 +2,17 @@
 eleventyComputed:
   title: System Berechtigungen
 ---
-Die ***Systemberechtigungen*** ermöglichen es, Benutzern einige administrative Rechte zu gewähren, ohne diese zu Administratoren zu konfigurieren. Die ***Standardeinstellung*** erbt die für den Benutzer oder die Gruppe konfigurierten Berechtigungen. 
+Die ***Systemberechtigungen*** ermöglichen es, Benutzern einige administrative Rechte zu gewähren, ohne diese zu Administratoren zu konfigurieren. Die ***Standardeinstellung*** erbt die für den Benutzer oder die Gruppe konfigurierten Berechtigungen.
 
-{% snippet icon.badgeHelp %} 
+{% snippet icon.badgeHelp %}
 Diese Funktion ist nur für [Erweiterten Datenquellen](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/) verfügbar.
 
 Weitere Informationen über Berechtigungen finden Sie unter [Vereinfachte Sicherheit](/rdm/windows/user-groups-based-access-control/scenarios/simplified-security/) oder [Erweiterte Sicherheit](/rdm/windows/user-groups-based-access-control/scenarios/advanced-security/).
 {% endsnippet %}
- 
-### Einträge 
 
-![System Berechtigungen – Einträge](https://webdevolutions.azureedge.net/docs/de/rdm/windows/RDMWin6158.png) 
+### Einträge
+
+![System Berechtigungen – Einträge](https://cdnweb.devolutions.net/docs/de/rdm/windows/RDMWin6158.png)
 
 | OPTION                | BESCHREIBUNG                              |
 | --------------------- | ----------------------------------------- |
@@ -23,7 +23,7 @@ Weitere Informationen über Berechtigungen finden Sie unter [Vereinfachte Sicher
 
 ### Sonstige
 
-![System Berechtigungen – Sonstiges](https://webdevolutions.azureedge.net/docs/de/rdm/windows/RDMWin6155.png) 
+![System Berechtigungen – Sonstiges](https://cdnweb.devolutions.net/docs/de/rdm/windows/RDMWin6155.png)
 
 | OPTION                  | BESCHREIBUNG                                                       |
 | ----------------------- | ------------------------------------------------------------------ |
@@ -35,9 +35,9 @@ Weitere Informationen über Berechtigungen finden Sie unter [Vereinfachte Sicher
 | Als geschlossen markieren | Ermöglicht Einträge als geschlossen zu setzen (RDM spezifische Berechtigung). |
 | Eintrag-Sicherheitsanalyse | Ermöglicht den Zugriff auf den ***Berichte*** – ***Einträge*** – ***Sicherheitsanalyse*** Bericht. |
 
-### Werkzeuge 
+### Werkzeuge
 
-![System Berechtigungen – Werkzeuge](https://webdevolutions.azureedge.net/docs/de/rdm/windows/RDMWin6156.png) 
+![System Berechtigungen – Werkzeuge](https://cdnweb.devolutions.net/docs/de/rdm/windows/RDMWin6156.png)
 
 | OPTION                                     | BESCHREIBUNG                                                |
 | ----------------------------------------- | ----------------------------------------------------------- |
@@ -47,18 +47,18 @@ Weitere Informationen über Berechtigungen finden Sie unter [Vereinfachte Sicher
 | Remotewerkzeuge                            | Ermöglicht die Verwendung von Remotewerkzeugen.             |
 | Web-Verwaltungswerkzeuge                    | Ermöglicht die Verwendung von Web-Verwaltungswerkzeugen.    |
 
-### Vorlagen 
+### Vorlagen
 
-![System Berechtigungen – Verwaltung](https://webdevolutions.azureedge.net/docs/de/rdm/windows/RDMWin6157.png)
+![System Berechtigungen – Verwaltung](https://cdnweb.devolutions.net/docs/de/rdm/windows/RDMWin6157.png)
 
 | OPTION               | BESCHREIBUNG                              |
 | -------------------- | ----------------------------------------- |
 | Vorlagen             | Ermöglicht die Konfiguration von Vorlagen. |
 | Passwortvorlagen     | Ermöglicht die Konfiguration von Passwortvorlagen. |
 
-### Verwaltung 
+### Verwaltung
 
-![System Berechtigungen – Verwaltung](https://webdevolutions.azureedge.net/docs/de/rdm/windows/RDMWin6153.png) 
+![System Berechtigungen – Verwaltung](https://cdnweb.devolutions.net/docs/de/rdm/windows/RDMWin6153.png)
 
 | OPTION             | BESCHREIBUNG                              |
 | ------------------ | ----------------------------------------- |

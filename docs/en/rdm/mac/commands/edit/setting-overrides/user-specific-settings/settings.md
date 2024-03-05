@@ -11,8 +11,8 @@ The Settings tab allows you to override the screen size, the gateway and your ha
 Override screen size is only visible for RDP sessions.
 {% endsnippet %}
 
-Override Screen Size allows you to customize the size of the local window hosting the remote session.  
-![User Specfic settings - Override screen size](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10340.png)
+Override Screen Size allows you to customize the size of the local window hosting the remote session.
+![User Specfic settings - Override screen size](https://cdnweb.devolutions.net/docs/en/rdm/mac/clip10340.png)
 
 | OPTION              | DESCRIPTION                             |
 |---------------------|-----------------------------------------|
@@ -22,13 +22,13 @@ Override Screen Size allows you to customize the size of the local window hostin
 | Screen sizing mode  | You can select the screen sizing mode between:<ul><li>Scrollbar</li><li>Smart reconnect</li><li>Smart sizing</li><li>Server resolution</li><li>None</li></ul> |
 
 ### Gateway
-Override gateway allows you to customize the RDP Gateway credentials used on the remote session. You must select the new credentials to be used, to learn more about the options for credentials override please follow this [link](UserSpecificSettings_Overridecredentials).  
+Override gateway allows you to customize the RDP Gateway credentials used on the remote session. You must select the new credentials to be used, to learn more about the options for credentials override please follow this [link](UserSpecificSettings_Overridecredentials).
 
 {% snippet icon.badgeInfo %}
 Override gateway is only visible for RDP sessions.
 {% endsnippet %}
 
-![User Specific settings – Override gateway](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10341.png)
+![User Specific settings – Override gateway](https://cdnweb.devolutions.net/docs/en/rdm/mac/clip10341.png)
 
 ### Hard Drives
 Override hard drives allows you to customize the RDP hard drives that are shared with the remote desktop connection.
@@ -37,7 +37,7 @@ Override hard drives allows you to customize the RDP hard drives that are shared
 Override hard drives is only visible for RDP sessions.
 {% endsnippet %}
 
-![User Specific settings – Override hard drives](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10342.png)
+![User Specific settings – Override hard drives](https://cdnweb.devolutions.net/docs/en/rdm/mac/clip10342.png)
 
 | OPTION                    | DESCRIPTION                                                                 |
 |---------------------------|-----------------------------------------------------------------------------|

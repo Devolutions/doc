@@ -16,7 +16,7 @@ A logmein plugin may be required when launching LogMeIn in embedded mode.
 1. Install the LogMeIn ActiveX.
 1. Access the LogMeIn portal URL from your Internet Explorer window to be sure that the ActiveX has been installed properly.
 1. Close Internet Explorer.
-1. Open {{ en.RDM }} and launch your LogMeIn session.  
+1. Open {{ en.RDM }} and launch your LogMeIn session.
 
 You should not be prompted for the LogMeIn ActiveX anymore.
 
@@ -26,5 +26,5 @@ Comexception - requested resource in use. (exception from hresult: 0x800700aa).
 
 ### Solution
 
-Change the IE emulation mode in ***File – Options – Types – Website*** to use Internet Explorer 11.  
-![!!KB4112](https://webdevolutions.azureedge.net/docs/en/kb/KB4112.png)
+Change the IE emulation mode in ***File – Options – Types – Website*** to use Internet Explorer 11.
+![!!KB4112](https://cdnweb.devolutions.net/docs/en/kb/KB4112.png)

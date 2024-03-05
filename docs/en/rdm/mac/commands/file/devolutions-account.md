@@ -2,8 +2,8 @@
 eleventyComputed:
   title: "{{ en.DA }}"
 ---
-In ***File – {{ en.DA }}*** create and connect your {{ en.RDM }} to your {{ en.DA }}. The {{ en.DA }} is free for customers.  
-![File – {{ en.DA }}](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RDMMac2114.png)
+In ***File – {{ en.DA }}*** create and connect your {{ en.RDM }} to your {{ en.DA }}. The {{ en.DA }} is free for customers.
+![File – {{ en.DA }}](https://cdnweb.devolutions.net/docs/en/rdm/mac/RDMMac2114.png)
 
 | OPTION             | DESCRIPTION                   |
 |--------------------|-------------------------------|

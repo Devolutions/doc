@@ -9,17 +9,17 @@ The following guide describes how to add a PowerShell script in a custom credent
 Windows LAPS is required and must be properly configured in your environment to use this solution.
 {% endsnippet %}
 
-1. In {{ en.RDM }}, create a new entry in the ribbon under the ***Edit*** tab. 
+1. In {{ en.RDM }}, create a new entry in the ribbon under the ***Edit*** tab.
 1. In Credential management, select the ***Custom*** entry type.
-![Create a Custom credentials entry](https://webdevolutions.azureedge.net/docs/en/kb/KB2334.png)  
-1. Name your entry and select its destination folder.  
+![Create a Custom credentials entry](https://cdnweb.devolutions.net/docs/en/kb/KB2334.png)
+1. Name your entry and select its destination folder.
 1. In the ***General*** tab, make sure the drop-down menu is set to ***PowerShell***.
-![Set the drop-down menu to PowerShell](https://webdevolutions.azureedge.net/docs/en/kb/KB2335.png)
+![Set the drop-down menu to PowerShell](https://cdnweb.devolutions.net/docs/en/kb/KB2335.png)
 1. Add the following PowerShell script in the ***Command*** box.
 
    {% snippet icon.badgeInfo %}
    Please note that the script uses the $HOST$ variable for the `-ComputerName` switch of the `Get-LapsADPassword` cmdlet and use the $PARAMETER1$ variable for the username (see step 3 below).
-   {% endsnippet %}  
+   {% endsnippet %}
 
    ```
    Import-Module LAPS -ErrorAction SilentlyContinue
@@ -28,12 +28,12 @@ Windows LAPS is required and must be properly configured in your environment to 
 
    if ($isImport)
    {
-       try 
+       try
            {
             $null2 = [System.DirectoryServices.ActiveDirectory.Domain]::GetComputerDomain()
             $isDomain = $true
            }
-       catch 
+       catch
            {
             $isDomain = $false
            }
@@ -65,20 +65,20 @@ Windows LAPS is required and must be properly configured in your environment to 
    }
    ```
 
-   ![Add the PowerShell script](https://webdevolutions.azureedge.net/docs/en/kb/KB2336.png)  
+   ![Add the PowerShell script](https://cdnweb.devolutions.net/docs/en/kb/KB2336.png)
 
 1. In the ***Parameters*** tab, add the local administrator account name in the ***Parameter #1*** field.
-![Set the local administrator account name](https://webdevolutions.azureedge.net/docs/en/kb/KB2337.png)  
+![Set the local administrator account name](https://cdnweb.devolutions.net/docs/en/kb/KB2337.png)
 
 1. Click ***Add*** to save the entry in the specified destination folder.
 
-1. In your RDP entry properties, set the Credentials property to use the newly created ***Custom*** credentials entry.  
-![Set the Credentials parameter to use the Custom credentials entry](https://webdevolutions.azureedge.net/docs/en/kb/KB2338.png)
+1. In your RDP entry properties, set the Credentials property to use the newly created ***Custom*** credentials entry.
+![Set the Credentials parameter to use the Custom credentials entry](https://cdnweb.devolutions.net/docs/en/kb/KB2338.png)
 
 1. Still in the RDP entry properties, go to ***Advanced – Advanced***.
 
-1. Set the ***Override domain*** property to ***Use Host Name*** and the ***Username format property*** to ***{Domain}\\{User}***.  
-![Set the advanced properties](https://webdevolutions.azureedge.net/docs/en/kb/KB2339.png)
+1. Set the ***Override domain*** property to ***Use Host Name*** and the ***Username format property*** to ***{Domain}\\{User}***.
+![Set the advanced properties](https://cdnweb.devolutions.net/docs/en/kb/KB2339.png)
 
 1. Click on ***Update*** to save your changes.
 

@@ -6,4 +6,4 @@ eleventyComputed:
 ---
 The ***Privileged Access*** section of the ***Reports*** provides administrators with log tools pertaining to [***Tasks***](/hub/privileged-access-management/privileged-access-reports/tasks/) and [***Check-out requests***](/hub/privileged-access-management/privileged-access-reports/check-out-requests/).
 
-![Reports – Privileged Access](https://webdevolutions.azureedge.net/docs/en/hub/Hub2297.png)
+![Reports – Privileged Access](https://cdnweb.devolutions.net/docs/en/hub/Hub2297.png)

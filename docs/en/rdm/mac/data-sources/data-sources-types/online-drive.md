@@ -3,25 +3,25 @@ eleventyComputed:
   title: "{{ en.DOD }}"
   description: The {{ en.DOD }} stores and synchronizes your remote connections and credentials data in our cloud services.
 ---
-The {{ en.DOD }} stores and synchronizes your remote connections and credentials data in our cloud services. You can access your sessions from anywhere via an Internet connection.  
+The {{ en.DOD }} stores and synchronizes your remote connections and credentials data in our cloud services. You can access your sessions from anywhere via an Internet connection.
 
-It is an online file storage service dedicated to a single file type, {{ en.RDM }}’s connection list. {{ en.DOD }} is completely free and has no limitations as to how many sessions you might have, it is for single users as it cannot share files.  
+It is an online file storage service dedicated to a single file type, {{ en.RDM }}’s connection list. {{ en.DOD }} is completely free and has no limitations as to how many sessions you might have, it is for single users as it cannot share files.
 
-Please consult [{{ en.DOD }}](/cloud/rdm-online-services/online-drive/) for information on this service. 
+Please consult [{{ en.DOD }}](/cloud/rdm-online-services/online-drive/) for information on this service.
 
-{% snippet icon.shieldWarning %} 
-Since this service is hosted in the cloud, we strongly recommend that you further encrypt your data by applying a Master key. This will ensure that the file will be unreadable by no one but you. 
+{% snippet icon.shieldWarning %}
+Since this service is hosted in the cloud, we strongly recommend that you further encrypt your data by applying a Master key. This will ensure that the file will be unreadable by no one but you.
 {% endsnippet %}
- 
-{% snippet icon.badgeWarning %} 
-Even though this is a cloud service, you MUST use our {{ en.OBACK }} service to keep history of your data. Devolutions offers a free backup service, and we do not maintain multiple versions of the {{ en.DOD }} content. This makes it critical that you enable the backup feature. This service will keep multiple versions of your file and is the best option. 
+
+{% snippet icon.badgeWarning %}
+Even though this is a cloud service, you MUST use our {{ en.OBACK }} service to keep history of your data. Devolutions offers a free backup service, and we do not maintain multiple versions of the {{ en.DOD }} content. This makes it critical that you enable the backup feature. This service will keep multiple versions of your file and is the best option.
 {% endsnippet %}
- 
-## Settings 
 
-### General 
+## Settings
 
-![{{ en.DOD }} – General tab](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10499.png) 
+### General
+
+![{{ en.DOD }} – General tab](https://cdnweb.devolutions.net/docs/en/rdm/mac/clip10499.png)
 
 | OPTION                              | DESCRIPTION |
 |-------------------------------------|-------------|
@@ -35,24 +35,24 @@ Even though this is a cloud service, you MUST use our {{ en.OBACK }} service to 
 | Master key                          | Contains a master key to access the data source. |
 | Always ask master key               | Ask for the master key every time a connection to the {{ en.DOD }} is attempted. |
 
-### Backup 
+### Backup
 
-Please consult [{{ en.OBACK }}](/cloud/rdm-online-services/online-backup/) for more information on this service.  
-![{{ en.DOD }} – Backup](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10500.png) 
+Please consult [{{ en.OBACK }}](/cloud/rdm-online-services/online-backup/) for more information on this service.
+![{{ en.DOD }} – Backup](https://cdnweb.devolutions.net/docs/en/rdm/mac/clip10500.png)
 
 | OPTION  | DESCRIPTION |
 |---------|-------------|
 | Backup  | Choose the backup mode. Select between:<ul><li>None: No backup of your data source will be created.</li><li> {{ en.OBACK }}: An {{ en.OBACK }} (using [{{ en.OBACK }} Service](/rdm/mac/commands/file/backup/)) will automatically be created.<li> Save to file: Your backup will be saved to a chosen file but will not automatically do backup every 30 seconds.</li></ul> |
 | Backup name | Specify the backup name that will allow you to automatically save your sessions in a safe online storage space and restore them in the event of problems. |
 
-### VPN 
+### VPN
 
-Open a VPN to access your data prior to connecting to your {{ en.DOD }}.  
-![!!RDMMac2145](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RDMMac2145.png) 
+Open a VPN to access your data prior to connecting to your {{ en.DOD }}.
+![!!RDMMac2145](https://cdnweb.devolutions.net/docs/en/rdm/mac/RDMMac2145.png)
 
-### Advanced 
+### Advanced
 
-![{{ en.DOD }} – Advanced tab](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10501.png) 
+![{{ en.DOD }} – Advanced tab](https://cdnweb.devolutions.net/docs/en/rdm/mac/clip10501.png)
 
 | OPTION                  | DESCRIPTION |
 |-------------------------|-------------|

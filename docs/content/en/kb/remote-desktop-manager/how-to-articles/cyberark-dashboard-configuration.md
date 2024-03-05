@@ -5,20 +5,20 @@ eleventyComputed:
 ---
 The purpose of the ***CyberArk Dashboard*** entry is to provide {{ en.RDM }} users with an interface that eliminates the need to use Password Vault Web Access (PVWA) to see the list of safes and credentials that the currently logged on user has access to. Combined with password-less scenarios and/or our rich role-based access control (RBAC), this means that a user does NOT need to know the CyberArk credentials to be presented with a list of accounts they have access to. Additionally, since the dashboard is meant to authenticate once to your server and, most importantly, maintain an active session for as long as it is active, it has the significant advantage of only requiring MFA once when you launch the dashboard.
 
-Another design principle of the dashboard is that its main usage model is to go through the CyberArk Privileged Session Manager (PSM) to reach assets. This means that {{ en.RDM }} does NOT need to read the password for the account to be used. Less secure models are available to support older scenarios that some of our customers are still using.  
+Another design principle of the dashboard is that its main usage model is to go through the CyberArk Privileged Session Manager (PSM) to reach assets. This means that {{ en.RDM }} does NOT need to read the password for the account to be used. Less secure models are available to support older scenarios that some of our customers are still using.
 
 {% snippet icon.badgeHelp %}
 Learn more about the [CyberArk MFA delimiter option](/kb/remote-desktop-manager/knowledge-base/mfa-delimiter-cyberark/).
-{% endsnippet %}  
+{% endsnippet %}
 
 ## Configuration
 1. Create a new ***CyberArk Dashboard*** entry or go to the ***Properties*** of your existing one.
-1. In the ***General*** section, specify a ***Name*** and ***Folder*** for your entry if that is not already done.  
-![CyberArk Dashboard Properties – General – Name and Folder](https://webdevolutions.azureedge.net/docs/en/kb/KB2166.png)
+1. In the ***General*** section, specify a ***Name*** and ***Folder*** for your entry if that is not already done.
+![CyberArk Dashboard Properties – General – Name and Folder](https://cdnweb.devolutions.net/docs/en/kb/KB2166.png)
 
 ### General tab
-3. Enter the ***Web services URL*** to connect to your CyberArk instance. It is the address of the server and should look like "https://&lt;server name&gt;.&lt;our domain&gt;.loc/".  
-![General Tab](https://webdevolutions.azureedge.net/docs/en/kb/KB2068.png)
+3. Enter the ***Web services URL*** to connect to your CyberArk instance. It is the address of the server and should look like "https://&lt;server name&gt;.&lt;our domain&gt;.loc/".
+![General Tab](https://cdnweb.devolutions.net/docs/en/kb/KB2068.png)
    {% snippet icon.badgeInfo %}
    The following is what your ***Web services URL*** will be, depending on your CyberArk subscription:
    * ***SelfHosted***: Short URL
@@ -40,7 +40,7 @@ Learn more about the [CyberArk MFA delimiter option](/kb/remote-desktop-manager/
    SAML authentication for CyberArk Privilege Cloud requires {{ en.RDM }} 2023.2.17 or newer.
 
    Your CyberArk {{ en.VLT }} administrator should provide you with the authentication model being used, but if, in the PVWA, you click on a link that matches your corporate domain name, this indicates that the LDAP model is being used. The icon looks like the following:
-   ![LDAP CyberArk Icon](https://webdevolutions.azureedge.net/docs/en/kb/iconldapcyberark.png)
+   ![LDAP CyberArk Icon](https://cdnweb.devolutions.net/docs/en/kb/iconldapcyberark.png)
    {% endsnippet %}
 
 7. In the ***Authentication credentials*** drop-down list, select ***Custom*** to enter your credentials below or select them using a {{ en.RDM }} mechanism. This list is not available with the ***SAML Authentication mode***.
@@ -57,12 +57,12 @@ Learn more about the [CyberArk MFA delimiter option](/kb/remote-desktop-manager/
 ### Advanced tab
 
 #### General
-9. The ***Auto refresh*** option is enabled by default. It maintains the connection to your CyberArk environment and removes the need to enter 2FA credentials on every connection. It is recommended to leave it enabled.  
-![Advanced Tab – General](https://webdevolutions.azureedge.net/docs/en/kb/KB4930.png)
-1. Check ***Open sessions externally*** if you do not want your sessions to open in embedded mode in {{ en.RDM }}. This is mostly useful for applications that only support being open externally, such as PSM-Putty (PSM-SSH) and many other PSM connection components. It is required to connect to remote applications using PVWA connections.  
+9. The ***Auto refresh*** option is enabled by default. It maintains the connection to your CyberArk environment and removes the need to enter 2FA credentials on every connection. It is recommended to leave it enabled.
+![Advanced Tab – General](https://cdnweb.devolutions.net/docs/en/kb/KB4930.png)
+1. Check ***Open sessions externally*** if you do not want your sessions to open in embedded mode in {{ en.RDM }}. This is mostly useful for applications that only support being open externally, such as PSM-Putty (PSM-SSH) and many other PSM connection components. It is required to connect to remote applications using PVWA connections.
    {% snippet icon.badgeInfo %}
    For most connection components requiring the opening of an application on PSM, the ***Open Externally*** option must be enabled. This is due to a limitation of the RDP ActiveX we use, which does not support RDP RemoteApp mode. However, this limitation can be mitigated by setting a connection component parameter in CyberArk. This parameter is called DisableRemoteApp and must be set to ***Yes***. For more information, see [CyberArk's documentation page](https://docs.cyberark.com/PrivCloud-SS/Latest/en/Content/Privilege%20Cloud/PrivCloud-psm-UX.htm) on the subject.
-   {% endsnippet %}  
+   {% endsnippet %}
 1. Check ***Allow connect to host*** if you want to allow a direct connection to the remote machine, meaning that the currently logged on user needs to have the right to view the password; it is therefore less secure and is not recommended by the CyberArk team.
 1. Check ***Ask for reason*** if you are required to have a reason to establish a connection.
 1. Check ***Ask for ticket number*** if you are required to provide a ticket number to establish a connection depending of your CyberArk configuration. The ***Ticketing system*** field that is paired with this option is a string value that makes sense in your environment. It is informative and we send it along with the number.
@@ -72,18 +72,18 @@ Learn more about the [CyberArk MFA delimiter option](/kb/remote-desktop-manager/
 1. The ***Domain field*** drop-down list is only relevant when the ***Username format*** is set to the ***Field*** value. Depending on how your {{ en.VLT }} was set up, there can be various CyberArk fields used to hold the domain information. Choose the value that corresponds to your {{ en.VLT }} settings.
 
 #### PVWA
-18. The ***Allow direct connections (PVWA)*** option is enabled by default and is the recommended method. It allows the exact same action as the ***Connect*** button offers in PVWA.  
-![Advanced Tab – PVWA](https://webdevolutions.azureedge.net/docs/en/kb/KB2263.png)
+18. The ***Allow direct connections (PVWA)*** option is enabled by default and is the recommended method. It allows the exact same action as the ***Connect*** button offers in PVWA.
+![Advanced Tab – PVWA](https://cdnweb.devolutions.net/docs/en/kb/KB2263.png)
 1. In the ***Connection components*** box, enter the components you wish to use for your connections. We initialize the field with the default components of a vanilla CyberArk installation, but this list MUST match the components configured in your {{ en.VLT }}.
-1. Since {{ en.RDM }} version 2023.2.24, there is a new feature called ***Override RDP Settings***. By default, RDP settings are fetched from CyberArk PVWA when generating the PSM session. This new option allows you to ignore settings provided by CyberArk and apply the ones specified in the ***CyberArk Dashboard*** entry instead. This override is for all PSM sessions established from this dashboard to have different display settings. One might consider creating different instances of the dashboard entry to reflect different users' preferences.  
-![Override RDP Settings](https://webdevolutions.azureedge.net/docs/en/kb/KB2264.png)
+1. Since {{ en.RDM }} version 2023.2.24, there is a new feature called ***Override RDP Settings***. By default, RDP settings are fetched from CyberArk PVWA when generating the PSM session. This new option allows you to ignore settings provided by CyberArk and apply the ones specified in the ***CyberArk Dashboard*** entry instead. This override is for all PSM sessions established from this dashboard to have different display settings. One might consider creating different instances of the dashboard entry to reflect different users' preferences.
+![Override RDP Settings](https://cdnweb.devolutions.net/docs/en/kb/KB2264.png)
    {% snippet icon.badgeInfo %}
-   {{ en.RDM }} and {{ en.DVLS }} versions must be at least 2023.2.28 and 2023.2.8 for ***Override RDP Settings*** to work. 
-   {% endsnippet %}  
+   {{ en.RDM }} and {{ en.DVLS }} versions must be at least 2023.2.28 and 2023.2.8 for ***Override RDP Settings*** to work.
+   {% endsnippet %}
 
 #### PSM
-21. The ***Allow connect using PSM (alternate shell)*** option is disabled by default. Enable it if you want to allow connections via PSM, but using the legacy method of providing an alternate shell.  
-![Advanced Tab – PSM](https://webdevolutions.azureedge.net/docs/en/kb/KB4932.png)
+21. The ***Allow connect using PSM (alternate shell)*** option is disabled by default. Enable it if you want to allow connections via PSM, but using the legacy method of providing an alternate shell.
+![Advanced Tab – PSM](https://cdnweb.devolutions.net/docs/en/kb/KB4932.png)
 
 Here are the restrictions related to PSM:
 ```powershell
@@ -102,10 +102,10 @@ You must have a PSM Server entry configured in the same {{ en.VLT }}. Select it 
 ## Using the Dashboard
 {% snippet icon.badgeInfo %}
 Please note that for the sake of clarity, this section will only provide information about the main usage model of connecting through the PSM.
-{% endsnippet %}  
+{% endsnippet %}
 
 ### User interface
-![CyberArk Dashboard User Interface](https://webdevolutions.azureedge.net/docs/en/kb/KB2072.png)
+![CyberArk Dashboard User Interface](https://cdnweb.devolutions.net/docs/en/kb/KB2072.png)
 
 1. The ***Actions*** menu allows you to:
     * Log in or out from the dashboard.
@@ -121,9 +121,9 @@ Please note that for the sake of clarity, this section will only provide informa
 1. The content area allows you to see and interact with the accounts within a safe or group. You can see the ***Account***, its ***Address***, its ***Platform***, and the ***Safe*** in which it is located.
 
 ### Selecting a safe
-With the safe selector, you can browse your safes and select the one you wish to use.  
+With the safe selector, you can browse your safes and select the one you wish to use.
 
-![Safe Selector](https://webdevolutions.azureedge.net/docs/en/kb/KB2069.png)
+![Safe Selector](https://cdnweb.devolutions.net/docs/en/kb/KB2069.png)
 
 1. The upper section of the drop-down list contains a subset of the safes that one has access to. You can also see and manage the list of excluded safes in ***File – Options – Types – CyberArk***.
 1. ***Favorites*** will display accounts that have been tagged as favorites, but from within {{ en.RDM }}. This is not a CyberArk functionality.
@@ -131,21 +131,21 @@ With the safe selector, you can browse your safes and select the one you wish to
 1. ***Browse...*** will display the safe selection dialog, where there is paging and filtering to help the user to locate the relevant safe. Again, they are listed by default in the order received from CyberArk.
 
 Below is a preview of the ***CyberArk Select Safe*** page that appears after selecting ***Browse...*** in the safe selector.
-![CyberArk Select Safe](https://webdevolutions.azureedge.net/docs/en/kb/KB4934.png)
+![CyberArk Select Safe](https://cdnweb.devolutions.net/docs/en/kb/KB4934.png)
 
 In this view, if you select a safe and click ***OK***, you will then be able to view the accounts from that safe.
 
-![Accounts View](https://webdevolutions.azureedge.net/docs/en/kb/KB2073.png)
+![Accounts View](https://cdnweb.devolutions.net/docs/en/kb/KB2073.png)
 
 ### Connecting to a host
 After selecting the account you wish to use, you can either use the ***Connect*** button in the ***Actions*** menu or right-click and select the appropriate connection component.
 
-![Connect to an Account](https://webdevolutions.azureedge.net/docs/en/kb/KB2070.png)
+![Connect to an Account](https://cdnweb.devolutions.net/docs/en/kb/KB2070.png)
 
 In both cases, you will then see a dialog box that allows you to specify the host you want to connect to.
 
 ### Selecting a host
-![CyberArk Select Host](https://webdevolutions.azureedge.net/docs/en/kb/KB2071.png)
+![CyberArk Select Host](https://cdnweb.devolutions.net/docs/en/kb/KB2071.png)
 
 1. ***Host*** field
     * If the CyberArk Remote machine access field is used in the account properties, the endpoints that were entered will be listed in this field. It allows for connections even for assets that are not managed in {{ en.RDM }}.
@@ -156,13 +156,13 @@ In both cases, you will then see a dialog box that allows you to specify the hos
 ### Using the {{ en.RDM }} ***{{ en.NPANE }}*** to establish connections
 After selecting the account in the CyberArk Dashboard, you can also use the ***{{ en.NPANE }}*** to select a host by right-clicking an entry and navigating to the ***Connect using*** menu.
 
-![Connect using](https://webdevolutions.azureedge.net/docs/en/kb/KB2205.png)
+![Connect using](https://cdnweb.devolutions.net/docs/en/kb/KB2205.png)
 
 The menu can be bypassed by allowing a double-click action when there is only one possible combination of account/gateway/component.
 
 {% snippet icon.badgeHelp %}
 You can use a batchedit PowerShell script to allow a double-click action instead of selecting the option described in the steps below.
-{% endsnippet %}  
+{% endsnippet %}
 
 ```powershell
 $connection.ConnectUsingDashboardOnDoubleClick = "True";
@@ -171,12 +171,12 @@ $RDM.Save();
 
 1. Select an entry and go to ***Properties*** – ***Advanced***.
 1. Go to ***Connect using dashboard on double click*** and click ***Yes***.
-![Properties – Advanced](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin6160.png)
+![Properties – Advanced](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMWin6160.png)
    {% snippet icon.badgeInfo %}
    The same option can be found in ***File*** – ***Options*** – ***Types***.
-   {% endsnippet %}  
+   {% endsnippet %}
 
-   ![File – Options – Types](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin6162.png)
+   ![File – Options – Types](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMWin6162.png)
 3. Click ***OK*** to save and close the window.
 
 Double-clicking will now automatically open the ***Dashboard***.

@@ -9,8 +9,8 @@ The ***Applications*** section allows the creation of an application key to comm
 For more information on connecting {{ en.DVLS }} with an application user, see [PowerShell connectivity methods to {{ en.DVLS }}](/kb/devolutions-powershell/devolutions-server/powershell-connectivity/).
 {% endsnippet %}
 
-![Administration – Applications](https://webdevolutions.azureedge.net/docs/en/server/ServerOp2123.png)  
-![Adding a new application](https://webdevolutions.azureedge.net/docs/en/server/ServerOp2124.png)  
+![Administration – Applications](https://cdnweb.devolutions.net/docs/en/server/ServerOp2123.png)
+![Adding a new application](https://cdnweb.devolutions.net/docs/en/server/ServerOp2124.png)
 
 | General               | Description                                                                                               |
 |-----------------------|-----------------------------------------------------------------------------------------------------------|

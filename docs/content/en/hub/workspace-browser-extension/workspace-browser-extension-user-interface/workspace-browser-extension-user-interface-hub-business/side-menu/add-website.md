@@ -2,14 +2,14 @@
 eleventyComputed:
   title: Add website
 ---
-The ***Add Website*** button is only available while in the [***Matching***](/hub/workspace-browser-extension/workspace-browser-extension-user-interface/workspace-browser-extension-user-interface-hub-business/side-menu/#matching-tab) tab, which is the tab selected when opening the extension, or when browsing through the {{ en.VLT }}s and entries of the [***{{ en.VLT_MAJ }}s***](/hub/workspace-browser-extension/workspace-browser-extension-user-interface/workspace-browser-extension-user-interface-hub-business/side-menu/#vaults-tab) or [***{{ en.UVLT_MAJ }}***](/hub/workspace-browser-extension/workspace-browser-extension-user-interface/workspace-browser-extension-user-interface-hub-business/side-menu/#user-vault-tab) tabs. It opens a new tab in your browser that allows you to add a website entry in {{ en.DHUBB }} through the {{ en.WBEX }}.  
+The ***Add Website*** button is only available while in the [***Matching***](/hub/workspace-browser-extension/workspace-browser-extension-user-interface/workspace-browser-extension-user-interface-hub-business/side-menu/#matching-tab) tab, which is the tab selected when opening the extension, or when browsing through the {{ en.VLT }}s and entries of the [***{{ en.VLT_MAJ }}s***](/hub/workspace-browser-extension/workspace-browser-extension-user-interface/workspace-browser-extension-user-interface-hub-business/side-menu/#vaults-tab) or [***{{ en.UVLT_MAJ }}***](/hub/workspace-browser-extension/workspace-browser-extension-user-interface/workspace-browser-extension-user-interface-hub-business/side-menu/#user-vault-tab) tabs. It opens a new tab in your browser that allows you to add a website entry in {{ en.DHUBB }} through the {{ en.WBEX }}.
 
-When {{ en.DHUBB }} is used as the data source, the basic entry configuration is done in the ***General*** tab, but other parameters are also available in other tabs. Below is an example of the ***General*** tab settings when creating a website entry.  
-![New Entry – Website (General Tab)](https://webdevolutions.azureedge.net/docs/en/hub/Hub2132.png) 
+When {{ en.DHUBB }} is used as the data source, the basic entry configuration is done in the ***General*** tab, but other parameters are also available in other tabs. Below is an example of the ***General*** tab settings when creating a website entry.
+![New Entry – Website (General Tab)](https://cdnweb.devolutions.net/docs/en/hub/Hub2132.png)
 
-The tables below list all fields/settings available in the ***New Entry – Website*** window. The different sections represent the left menu tabs. 
+The tables below list all fields/settings available in the ***New Entry – Website*** window. The different sections represent the left menu tabs.
 
-### General 
+### General
 
 | FIELD/SETTING | DESCRIPTION |
 | --- | --- |
@@ -27,7 +27,7 @@ The tables below list all fields/settings available in the ***New Entry – Webs
 | Compare type | Select how the entered URL is compared and matched to the website URL. Choose between ***Default***, ***Base domain***, ***Compare regex with URL domain***, ***Compare regex with full URL***, ***Host***, ***Start with***, ***Exact***, or ***Never***. |
 | {{ en.WBEX }} | Select from the drop-down list between ***Default***, ***Disabled***, or ***Enabled***. If disabled, your credentials for this entry will not be suggested when accessing that particular website. We recommend leaving this option enabled. |
 
-### Connection 
+### Connection
 
 | FIELD/SETTING | DESCRIPTION |
 | --- | --- |
@@ -37,7 +37,7 @@ The tables below list all fields/settings available in the ***New Entry – Webs
 | URL encode credentials | Enable this option to encode the credentials in the website URL. <br> <br> This option is only available if ***Basic*** is selected in the ***Authentication*** drop-down list. |
 | Autofill delay | Enable this option to apply a delay before the {{ en.WBEX }} automatically fills in your credentials. <br> <br> This option is only available if ***Form*** is selected in the ***Authentication*** drop-down list. |
 
-### Equivalent URLs 
+### Equivalent URLs
 
 | FIELD/SETTING | DESCRIPTION |
 | --- | --- |
@@ -45,7 +45,7 @@ The tables below list all fields/settings available in the ***New Entry – Webs
 | Website | Enter a URL that leads to the same page or is equivalent to the one in the ***URL*** field. |
 | Compare type | Select how the entered URL is compared and matched to the website URL. Choose between ***Default***, ***Base domain***, ***Compare regex with URL domain***, ***Compare regex with full URL***, ***Host***, ***Start with***, ***Exact***, or ***Never***. |
 
-### Custom Controls 
+### Custom Controls
 
 | FIELD/SETTING | DESCRIPTION |
 | --- | --- |
@@ -58,7 +58,7 @@ The tables below list all fields/settings available in the ***New Entry – Webs
 | Reveal/Hide password | Reveal or hide the password that was entered. <br> <br> This field is only available next to the ***Value*** field if the ***Mask information*** option is enabled. |
 | Always prompt for value | Enable this option so that you are asked to enter the value each time instead of filling in the ***Value*** field above. |
 
-### Html Control ID 
+### Html Control ID
 
 | FIELD/SETTING | DESCRIPTION |
 | --- | --- |
@@ -69,7 +69,7 @@ The tables below list all fields/settings available in the ***New Entry – Webs
 | One time password ID | Enter the ***One time password ID*** of the login website. |
 | Login button ID | Enter the ***Login button ID*** of the login website. |
 
-### OTP 
+### OTP
 
 | FIELD/SETTING | DESCRIPTION |
 | --- | --- |
@@ -82,7 +82,7 @@ The tables below list all fields/settings available in the ***New Entry – Webs
 | Code size | Select the size of the code, between ***6 Digits*** or ***8 Digits***. <br> <br> This drop-down list is only available if ***Custom*** is selected in the ***Source*** drop-down list. |
 | Hash algorithm | Select the secure hash algorithm (SHA) between ***SHA-1***, ***SHA-256***, or ***SHA-512***. <br> <br> This drop-down list is only available if ***Custom*** is selected in the ***Source*** drop-down list. <br> <br> To learn about secure hash algorithm, visit [SHA-256](/kb/general-knowledge-base/what-is-sha-256/). |
 
-### Custom Fields 
+### Custom Fields
 
 | FIELD/SETTING | DESCRIPTION |
 | --- | --- |
@@ -91,7 +91,7 @@ The tables below list all fields/settings available in the ***New Entry – Webs
 | Hide/Reveal | Hide or reveal the value of the custom field. This button is only available for ***Hidden Custom Fields*** (see below). |
 | Add | Create a new custom field using this button. You can select between ***Text*** or ***Hidden***. Both of them allow you to enter a value for your custom field. Selecting ***Text*** gives you more text options in the ***Value*** field, while selecting ***Hidden*** gives you access to the ***Hide/Reveal*** option (see setting above). |
 
-### Description 
+### Description
 
 | FIELD/SETTING | DESCRIPTION |
 | --- | --- |
@@ -101,15 +101,15 @@ The tables below list all fields/settings available in the ***New Entry – Webs
 | Host | Enter the name of the host. |
 | Employee | Enter the name of the employee. |
 
-### Others 
+### Others
 
-These are the buttons at the bottom of the ***New Entry – Website*** window that are available no matter the tab.  
+These are the buttons at the bottom of the ***New Entry – Website*** window that are available no matter the tab.
 
 | FIELD/SETTING | DESCRIPTION |
 | --- | --- |
 | Add | Save the settings of your new website entry and create the entry. |
 | Cancel | Cancel the creation of a new website entry and clear all unsaved changes to settings. |
 
-{% snippet icon.badgeInfo %} 
-Follow our step-by-step guide explaining how to [add a website entry](/hub/workspace-browser-extension/using-workspace-browser-extension/using-workspace-browser-extension-with-hub-business/add-entry-hub-business-workspace-browser-extension/) in {{ en.DHUBB }} with the {{ en.WBEX }}. 
+{% snippet icon.badgeInfo %}
+Follow our step-by-step guide explaining how to [add a website entry](/hub/workspace-browser-extension/using-workspace-browser-extension/using-workspace-browser-extension-with-hub-business/add-entry-hub-business-workspace-browser-extension/) in {{ en.DHUBB }} with the {{ en.WBEX }}.
 {% endsnippet %}

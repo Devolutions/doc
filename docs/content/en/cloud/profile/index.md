@@ -14,4 +14,4 @@ THIS CANNOT BE UNDONE!
 Once you have deleted an account, you will not be able to revert that action.
 {% endsnippet %}
 
-![!!Cloud4040](https://webdevolutions.azureedge.net/docs/en/cloud/Cloud4040.png)
+![!!Cloud4040](https://cdnweb.devolutions.net/docs/en/cloud/Cloud4040.png)

@@ -18,14 +18,14 @@ Delete duplicate folders before running the PowerShell script from the new entry
 1. Launch {{ en.RDM }} as an administrator by right-clicking on the application and choosing ***Run as administrator***.
 1. Select the data source {{ en.VLT }}s from which you want to convert all virtual folders in the ***{{ en.NPANE }}***.
 1. Add a new entry.
-1. Go to ***Session – PowerShell*** to create a PowerShell session entry.  
-![PowerShell session entry](https://webdevolutions.azureedge.net/docs/en/kb/KB6014.png)
+1. Go to ***Session – PowerShell*** to create a PowerShell session entry.
+![PowerShell session entry](https://cdnweb.devolutions.net/docs/en/kb/KB6014.png)
 1. Name the entry and choose the folder in which you want to create it.
-1. Set the entry to ***Embedded Script***.  
-![Embedded Script](https://webdevolutions.azureedge.net/docs/en/kb/KB6020.png)
-1. Click on ***Edit embedded script***.  
-![Edit embedded script](https://webdevolutions.azureedge.net/docs/en/kb/KB6019.png)
-1. Add the following script:  
+1. Set the entry to ***Embedded Script***.
+![Embedded Script](https://cdnweb.devolutions.net/docs/en/kb/KB6020.png)
+1. Click on ***Edit embedded script***.
+![Edit embedded script](https://cdnweb.devolutions.net/docs/en/kb/KB6019.png)
+1. Add the following script:
 ```powershell
 #check if Remote Desktop Manager PS module is installed
 if(-not (Get-Module Devolutions.PowerShell -ListAvailable)){
@@ -43,7 +43,7 @@ foreach ($vault in $vaults)
     Write-Host "Current Vault is "$vaultname
 
     # Get all entries' folder path
-    $sessions = Get-RDMSession 
+    $sessions = Get-RDMSession
     $allGroups = @()
     foreach($session in $sessions)
     {
@@ -52,7 +52,7 @@ foreach ($vault in $vaults)
         $shortcuts = $tempFolder.split(';')
 
         foreach ($shortcut in $shortcuts)
-        {    
+        {
             $folder = $shortcut
             if ($folder)
             {
@@ -81,14 +81,14 @@ foreach ($vault in $vaults)
     # Get all folders that exist in the database
     $groups = Get-RDMSession | where {$_.ConnectionType -eq "Group"}
     $realGroups = @()
-    foreach ($group in $groups) 
+    foreach ($group in $groups)
     {
         # Split the group folder location for each shortcut
         $tempFolder = $group.Group
         $shortcuts = $tempFolder.split(';')
 
         foreach ($shortcut in $shortcuts)
-        {    
+        {
             $folder = $group.Group
             if ($folder)
             {
@@ -122,7 +122,7 @@ foreach ($vault in $vaults)
             # Split the parent folder
             $tempFolder = $folder.Replace("\$name",'')
             $parents = $tempFolder.split('\')
-            
+
             foreach ($parent in $parents)
             {
                 try
@@ -143,8 +143,8 @@ foreach ($vault in $vaults)
                         $folder += $parents[$item]
                     }
                     $session = New-RDMSession -Name $name -Group $folder -Type Group -SetSession
-                    Update-RDMUI                
-                    Write-Host "Virtual folder $name has been successfully created in the database!" 
+                    Update-RDMUI
+                    Write-Host "Virtual folder $name has been successfully created in the database!"
                 }
             }
             $name = $group.Name
@@ -152,7 +152,7 @@ foreach ($vault in $vaults)
             $session = New-RDMSession -Name $name -Group $folder -Type Group -SetSession
             Update-RDMUI
         }
-        Write-Host "Virtual folder $name has been successfully created in the database!" 
+        Write-Host "Virtual folder $name has been successfully created in the database!"
     }
 }
 
@@ -161,7 +161,7 @@ Write-Host "Time taken to convert virtual folders: $(($afterCreatingGroups).Subt
 ```
 9. Click ***OK*** to apply the script.
 1. Click ***OK*** the save the entry settings and close the window.
-1. Click on ***Open Session*** to run the entry.  
-![Open Session](https://webdevolutions.azureedge.net/docs/en/kb/KB6018.png)
+1. Click on ***Open Session*** to run the entry.
+![Open Session](https://cdnweb.devolutions.net/docs/en/kb/KB6018.png)
 
 The script will now convert all virtual folders in the data source {{ en.VLT }}s.

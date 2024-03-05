@@ -1,12 +1,12 @@
 ---
 eleventyComputed:
   title: View
-  description: The View tab is used to control different features regarding the panels, views, logs, and layout of {{ en.RDMMAC }}. 
+  description: The View tab is used to control different features regarding the panels, views, logs, and layout of {{ en.RDMMAC }}.
 ---
-The View tab is used to control different features regarding the panels, views, logs, and layout of {{ en.RDMMAC }}.  
-![View Tab](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10354.png) 
+The View tab is used to control different features regarding the panels, views, logs, and layout of {{ en.RDMMAC }}.
+![View Tab](https://cdnweb.devolutions.net/docs/en/rdm/mac/clip10354.png)
 
-### Topics 
+### Topics
 
 | OPTION                          | DESCRIPTION |
 |---------------------------------|-------------|
@@ -27,12 +27,12 @@ The View tab is used to control different features regarding the panels, views, 
 | [Navigation](/rdm/mac/user-interface/navigation-pane/) | Toggle the ***{{ en.NPANE }}***. |
 | [Dashboard](/rdm/mac/user-interface/content-area/dashboard/) | Toggle the ***Dashboard***. |
 
-This section only appears when using an individual type data source.  
+This section only appears when using an individual type data source.
 
 | OPTION                                           | DESCRIPTION |
 |--------------------------------------------------|-------------|
 | [Local Connection Logs](/rdm/mac/commands/view/local-connection-logs/) | Open a window to access your local logs. |
 
-{% snippet icon.badgeInfo %} 
-Although they are windowed by default, all those panes can be dragged and docked anywhere within {{ en.RDMMAC }}. 
+{% snippet icon.badgeInfo %}
+Although they are windowed by default, all those panes can be dragged and docked anywhere within {{ en.RDMMAC }}.
 {% endsnippet %}

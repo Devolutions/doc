@@ -1,12 +1,12 @@
 ---
 eleventyComputed:
   title: Entry credentials options
-  description: Multiple options are available to use for Credentials in {{ en.RDM }} entries.  
+  description: Multiple options are available to use for Credentials in {{ en.RDM }} entries.
 ---
-{% youtube 'FtSlp_TVAxE?si=VU395_g6MZ75HHvm&amp;start=636' %}  
+{% youtube 'FtSlp_TVAxE?si=VU395_g6MZ75HHvm&amp;start=636' %}
 
-Multiple options are available to use for ***Credentials*** in {{ en.RDM }} entries.  
-![Credentials](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2225.png)
+Multiple options are available to use for ***Credentials*** in {{ en.RDM }} entries.
+![Credentials](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMWin2225.png)
 
 | OPTION                      | DESCRIPTION                                                            |
 |-----------------------------|------------------------------------------------------------------------|

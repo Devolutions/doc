@@ -9,7 +9,7 @@ eleventyComputed:
 You can retrieve the installation folder of {{ en.RDM }} by clicking ***File*** – ***Options*** – ***Advanced***. A hyperlink displays the installation folder.
 {% endsnippet %}
 
-![Options – Advanced](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2257.png)
+![Options – Advanced](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMWin2257.png)
 
 The configuration file can be located in different folders depending on certain conditions:
 
@@ -22,7 +22,7 @@ The configuration file can be located in different folders depending on certain 
 ## Override the default path
 There are two ways to change the folder where the configuration file is stored:
 
-1. Create a file named "**Override.cfg**" in the application folder. {{ en.RDM }} opens this file and reads the first line. It should contain the desired installation folder (without the file name). If you wish to use the current installation path, put a period in the file. Here are a few examples:  
+1. Create a file named "**Override.cfg**" in the application folder. {{ en.RDM }} opens this file and reads the first line. It should contain the desired installation folder (without the file name). If you wish to use the current installation path, put a period in the file. Here are a few examples:
    | Examples |  |
    |----------|--|
    | C:\RDM | The config file is saved in the designated folder. |

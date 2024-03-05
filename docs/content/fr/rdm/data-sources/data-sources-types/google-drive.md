@@ -6,103 +6,103 @@ eleventyComputed:
 	<tr>
 		<td>
 
-![!!DataSourceFtpLarge](https://webdevolutions.azureedge.net/docs/common/DataSourceFtpLarge.png) 
+![!!DataSourceFtpLarge](https://cdnweb.devolutions.net/docs/common/DataSourceFtpLarge.png)
 		</td>
 		<td>
-{{ fr.RDM }} télécharge et téléverse les paramètres de session directement à partir d'un fichier situé sur un site FTP. 
+{{ fr.RDM }} télécharge et téléverse les paramètres de session directement à partir d'un fichier situé sur un site FTP.
 		</td>
 	</tr>
 </table>
 
-### Général 
+### Général
 
-![Google Drive - Général](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip3622.png) 
+![Google Drive - Général](https://cdnweb.devolutions.net/docs/fr/rdm/windows/clip3622.png)
 
 <table>
 	<tr>
 		<th>
-OPTION 
+OPTION
 		</th>
 		<th>
-DESCRIPTION 
+DESCRIPTION
 		</th>
 	</tr>
 	<tr>
 		<td>
-Nom 
+Nom
 		</td>
 		<td>
-Nom de la source de données. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Courriel 
-		</td>
-		<td>
-Contiens l'adresse courriel associée au compte Google Drive. 
+Nom de la source de données.
 		</td>
 	</tr>
 	<tr>
 		<td>
-Mot de passe 
+Courriel
 		</td>
 		<td>
-Mot de passe utilisé pour accéder au compte Google. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Toujours demander le mot de passe 
-		</td>
-		<td>
-Toujours demander le mot de passe lors de la connexion à la source de données. 
+Contiens l'adresse courriel associée au compte Google Drive.
 		</td>
 	</tr>
 	<tr>
 		<td>
-Statut du compte 
+Mot de passe
 		</td>
 		<td>
-Indique si le compte a été validé avec Google Drive. Les identifiants doivent être validés avant d'utiliser la source de données. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Valider Google Drive 
-		</td>
-		<td>
-Ce bouton contextuel tente de valider les identifiants actuellement utilisés (ou supprime les identifiants actuellement validés). 
+Mot de passe utilisé pour accéder au compte Google.
 		</td>
 	</tr>
 	<tr>
 		<td>
-Clé maîtresse 
+Toujours demander le mot de passe
 		</td>
 		<td>
-Ajoute une couche de sécurité supplémentaire à votre source de données à l'aide de la clé maîtresse. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Toujours demander la clé maîtresse 
-		</td>
-		<td>
-La connexion à la source de données demandera toujours la clé maîtresse. 
+Toujours demander le mot de passe lors de la connexion à la source de données.
 		</td>
 	</tr>
 	<tr>
 		<td>
-Nom du fichier 
+Statut du compte
 		</td>
 		<td>
-Indique le nom de fichier utilisé pour stocker les données sur la source de données. 
+Indique si le compte a été validé avec Google Drive. Les identifiants doivent être validés avant d'utiliser la source de données.
+		</td>
+	</tr>
+	<tr>
+		<td>
+Valider Google Drive
+		</td>
+		<td>
+Ce bouton contextuel tente de valider les identifiants actuellement utilisés (ou supprime les identifiants actuellement validés).
+		</td>
+	</tr>
+	<tr>
+		<td>
+Clé maîtresse
+		</td>
+		<td>
+Ajoute une couche de sécurité supplémentaire à votre source de données à l'aide de la clé maîtresse.
+		</td>
+	</tr>
+	<tr>
+		<td>
+Toujours demander la clé maîtresse
+		</td>
+		<td>
+La connexion à la source de données demandera toujours la clé maîtresse.
+		</td>
+	</tr>
+	<tr>
+		<td>
+Nom du fichier
+		</td>
+		<td>
+Indique le nom de fichier utilisé pour stocker les données sur la source de données.
 		</td>
 	</tr>
 </table>
 
-### VPN 
+### VPN
 
-Ouvrir un VPN pour accéder à vos données avant de vous connecter à Google Drive.  
-![Google Drive - VPN](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/GoogleDriveVPN.png) 
+Ouvrir un VPN pour accéder à vos données avant de vous connecter à Google Drive.
+![Google Drive - VPN](https://cdnweb.devolutions.net/docs/fr/rdm/windows/GoogleDriveVPN.png)
 

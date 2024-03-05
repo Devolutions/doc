@@ -3,12 +3,12 @@ eleventyComputed:
   title: Add website
   description: The Add Website button is only available while in the Matching tab, which is the tab selected when opening the extension.
 ---
-The ***Add Website*** button is only available while in the [***Matching***](/rdm/mac/workspace-browser-extension/workspace-browser-extension-user-interface/side-menu/#matching-tab) tab, which is the tab selected when opening the extension. It opens a new tab in your browser that allows you to add a website entry in {{ en.RDMMAC }} through the {{ en.WBEX }}.  
+The ***Add Website*** button is only available while in the [***Matching***](/rdm/mac/workspace-browser-extension/workspace-browser-extension-user-interface/side-menu/#matching-tab) tab, which is the tab selected when opening the extension. It opens a new tab in your browser that allows you to add a website entry in {{ en.RDMMAC }} through the {{ en.WBEX }}.
 
-When {{ en.RDMMAC }} is used as the data source, the entry configuration is done in the ***General*** tab.  
-![Add Website](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RDMMac2045.png) 
+When {{ en.RDMMAC }} is used as the data source, the entry configuration is done in the ***General*** tab.
+![Add Website](https://cdnweb.devolutions.net/docs/en/rdm/mac/RDMMac2045.png)
 
-See the table below to learn about each field/setting from this view. 
+See the table below to learn about each field/setting from this view.
 
 | FIELD/SETTING          | DESCRIPTION |
 |------------------------|-------------|
@@ -23,6 +23,6 @@ See the table below to learn about each field/setting from this view.
 | Save                   | Save the settings of your new website entry and create the entry. |
 | Cancel                 | Cancel the creation of a new website entry and clears all unsaved changes to settings. |
 
-{% snippet icon.badgeInfo %} 
-Follow our step-by-step guide on how to [add a website entry with the {{ en.WBEX }}](/rdm/mac/workspace-browser-extension/using-workspace-browser-extension/add-website-entry-with-workspace-browser-extension/). 
+{% snippet icon.badgeInfo %}
+Follow our step-by-step guide on how to [add a website entry with the {{ en.WBEX }}](/rdm/mac/workspace-browser-extension/using-workspace-browser-extension/add-website-entry-with-workspace-browser-extension/).
 {% endsnippet %}

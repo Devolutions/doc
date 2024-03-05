@@ -2,60 +2,60 @@
 eleventyComputed:
   title: Général
 ---
-![Groupes d'utilisateurs - Général](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp8035.png)  
+![Groupes d'utilisateurs - Général](https://cdnweb.devolutions.net/docs/fr/server/ServerOp8035.png)
 
 <table>
 	<tr>
 		<th>
-Option 
+Option
 		</th>
 		<th>
-Description 
+Description
 		</th>
 	</tr>
 	<tr>
 		<td>
-Type d'authentification 
+Type d'authentification
 		</td>
 		<td>
 
-Sélectionner le type d'authentification du groupe d'utilisateurs :  
+Sélectionner le type d'authentification du groupe d'utilisateurs :
 
-* ***{{ fr.DVLS }}*** : Créer un groupe d'utilisateur dans {{ fr.DVLS }}.  
-* ***Domaine*** : Groupe d'utilisateurs Active Directory.  
-* ***Office 365*** : Groupe d'utilisateurs Office 365.  
+* ***{{ fr.DVLS }}*** : Créer un groupe d'utilisateur dans {{ fr.DVLS }}.
+* ***Domaine*** : Groupe d'utilisateurs Active Directory.
+* ***Office 365*** : Groupe d'utilisateurs Office 365.
 		</td>
 	</tr>
 	<tr>
 		<td>
-Domaine 
+Domaine
 		</td>
 		<td>
-Domaine d'appartenance du groupe d'utilisateur. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Nom 
-		</td>
-		<td>
-Nom du groupe d'utilisateurs. 
+Domaine d'appartenance du groupe d'utilisateur.
 		</td>
 	</tr>
 	<tr>
 		<td>
-Description 
+Nom
 		</td>
 		<td>
-Description du groupe d'utilisateurs. 
+Nom du groupe d'utilisateurs.
 		</td>
 	</tr>
 	<tr>
 		<td>
-Administrateur 
+Description
 		</td>
 		<td>
-Accorde le privilège d'administrateur aux utilisateurs membres du groupe d'utilisateurs. 
+Description du groupe d'utilisateurs.
+		</td>
+	</tr>
+	<tr>
+		<td>
+Administrateur
+		</td>
+		<td>
+Accorde le privilège d'administrateur aux utilisateurs membres du groupe d'utilisateurs.
 		</td>
 	</tr>
 </table>

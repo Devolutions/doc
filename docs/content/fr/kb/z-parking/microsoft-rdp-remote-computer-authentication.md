@@ -6,22 +6,22 @@ The connection cannot proceed because authentication is not enabled and the remo
 
 ## Solution
 
-This error occurs when you try to establish a remote connection from a Windows Server 2008R1 to a Windows Server 2016.  
+This error occurs when you try to establish a remote connection from a Windows Server 2008R1 to a Windows Server 2016.
 
 In modern versions of Windows, like Windows 10 or Windows Server 2016, the RDP defaults have changed. The default for the ***Security Layer*** has changed from 0 to 2.
 
 ### Option 1
 
-In the RDP session check mark ***Activate network level authentication*** than ***OK***.  
+In the RDP session check mark ***Activate network level authentication*** than ***OK***.
 
-![!!KB4057](https://webdevolutions.azureedge.net/docs/en/kb/KB4057.png)
+![!!KB4057](https://cdnweb.devolutions.net/docs/en/kb/KB4057.png)
 ### Option 2
 
-In the Windows Server 2016:  
+In the Windows Server 2016:
 
 1. Open the registry (regedit.exe)
-1. Navigate to:  
+1. Navigate to:
 
-**HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\TerminalServer\WinStations\RDP-Tcp**  
+**HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\TerminalServer\WinStations\RDP-Tcp**
 
 3. Change the SecurityLayer to 0.

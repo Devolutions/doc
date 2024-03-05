@@ -14,21 +14,21 @@ In versions 2020.3.13.0 and later of {{ en.RDM }}, an error message can appear w
 {% endsnippet %}
 
 1. Right-click on your entry and select ***Properties***. Make sure you are in ***Common*** – ***General*** in the left menu.
-1. In the ***Advanced*** tab, set the ***Algorithm support*** option to ***Custom***.  
-![Custom Algorithm support](https://webdevolutions.azureedge.net/docs/en/kb/KB4653.png)
+1. In the ***Advanced*** tab, set the ***Algorithm support*** option to ***Custom***.
+![Custom Algorithm support](https://cdnweb.devolutions.net/docs/en/kb/KB4653.png)
 1. Click on the button that appeared to the right of the ***Algorithm support*** setting.
 1. In the new ***SSH*** window, select the missing algorithms from the list.
    {% snippet icon.badgeCaution %}
    Make sure to go through the algorithms in **all tabs** before proceeding.
-   {% endsnippet %}  
-   
-   ![Missing Algorithms Selection](https://webdevolutions.azureedge.net/docs/en/kb/KB2074.png)
-5. Click ***OK*** in the ***SSH*** window, then ***OK*** again in the window of the entry properties.
-   {% snippet icon.badgeInfo %} 
-   You may have to restart {{ en.RDM }} for the solution to take effect. 
    {% endsnippet %}
-1. Test your connection. If you are still unable to connect after enabling the algorithms, return to the ***Advanced*** tab in your entry properties and check the ***Skip environment variable setup*** box and click ***OK***.  
-![Skip environment variable setup](https://webdevolutions.azureedge.net/docs/en/kb/KB4702.png)
+
+   ![Missing Algorithms Selection](https://cdnweb.devolutions.net/docs/en/kb/KB2074.png)
+5. Click ***OK*** in the ***SSH*** window, then ***OK*** again in the window of the entry properties.
+   {% snippet icon.badgeInfo %}
+   You may have to restart {{ en.RDM }} for the solution to take effect.
+   {% endsnippet %}
+1. Test your connection. If you are still unable to connect after enabling the algorithms, return to the ***Advanced*** tab in your entry properties and check the ***Skip environment variable setup*** box and click ***OK***.
+![Skip environment variable setup](https://cdnweb.devolutions.net/docs/en/kb/KB4702.png)
 
 ## Global Solution for all entries
 It is also possible to globally reactivate all the algorithms in {{ en.RDM }} via the ***File*** – ***Options*** – ***Types*** – ***Terminal*** – ***Algorithm Support*** menu. Just select the missing algorithms, then click ***OK***.
@@ -40,13 +40,13 @@ Make sure to go through the algorithms in **all tabs**.
 You may have to restart {{ en.RDM }} for the solution to take effect.
 {% endsnippet %}
 
-![File – Options – Types – Terminal – Algorithm Support](https://webdevolutions.azureedge.net/docs/en/kb/KB4654.png)
+![File – Options – Types – Terminal – Algorithm Support](https://cdnweb.devolutions.net/docs/en/kb/KB4654.png)
 
 ## Custom Powershell command script
 If you still encounter issues on a specific entry, you can run the following PowerShell script in {{ en.RDM }}.
 1. Right-click on the problematic entry, then select ***Edit – Edit (Special Actions)***.
-1. In the ***Edit – Special Action Selection*** window, select the ***Custom PowerShell Command*** general special action and click ***OK***.  
-![Edit – Special Action Selection](https://webdevolutions.azureedge.net/docs/en/kb/KB2131.png)
+1. In the ***Edit – Special Action Selection*** window, select the ***Custom PowerShell Command*** general special action and click ***OK***.
+![Edit – Special Action Selection](https://cdnweb.devolutions.net/docs/en/kb/KB2131.png)
 1. Paste the following script in the ***Command*** field:
    ```powershell
    $Connection.Terminal.AlgorithmSupportMode = "Custom"
@@ -56,6 +56,6 @@ If you still encounter issues on a specific entry, you can run the following Pow
    $Connection.Terminal.SshAlgorithmMaclist = "hmac-sha1-96=True;hmac-sha1=True;hmac-md5-96=True;hmac-md5=True"
    $RDM.Save();
    ```
-1. Click ***OK***.  
-![Custom PowerShell Command](https://webdevolutions.azureedge.net/docs/en/kb/KB4758.png)
+1. Click ***OK***.
+![Custom PowerShell Command](https://cdnweb.devolutions.net/docs/en/kb/KB4758.png)
 1. A notification should confirm the success of the script. Click ***OK*** and retest your session.

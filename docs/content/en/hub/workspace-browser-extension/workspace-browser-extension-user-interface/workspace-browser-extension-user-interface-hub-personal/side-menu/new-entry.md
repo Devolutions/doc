@@ -2,19 +2,19 @@
 eleventyComputed:
   title: New entry
 ---
-The ***New Entry*** button is only available while in the [***Matching***](/hub/workspace-browser-extension/workspace-browser-extension-user-interface/workspace-browser-extension-user-interface-hub-personal/side-menu/#matching-tab) tab, which is the tab selected when opening the extension, or when browsing through the entries of the [***All Entries***](/hub/workspace-browser-extension/workspace-browser-extension-user-interface/workspace-browser-extension-user-interface-hub-personal/side-menu/#all-entries-tab) tab. You can choose to create a new ***Website***, ***Credit Card***, ***Contact***, or ***Secure Note*** entry.  
-![New Entry Type Selection](https://webdevolutions.azureedge.net/docs/en/hub/Hub2134.png) 
+The ***New Entry*** button is only available while in the [***Matching***](/hub/workspace-browser-extension/workspace-browser-extension-user-interface/workspace-browser-extension-user-interface-hub-personal/side-menu/#matching-tab) tab, which is the tab selected when opening the extension, or when browsing through the entries of the [***All Entries***](/hub/workspace-browser-extension/workspace-browser-extension-user-interface/workspace-browser-extension-user-interface-hub-personal/side-menu/#all-entries-tab) tab. You can choose to create a new ***Website***, ***Credit Card***, ***Contact***, or ***Secure Note*** entry.
+![New Entry Type Selection](https://cdnweb.devolutions.net/docs/en/hub/Hub2134.png)
 
-When the entry type is selected, a new tab opens in your browser that allows you to add an entry of that type in {{ en.DHUBP }} through the {{ en.WBEX }}.  
+When the entry type is selected, a new tab opens in your browser that allows you to add an entry of that type in {{ en.DHUBP }} through the {{ en.WBEX }}.
 
-When {{ en.DHUBP }} is used as the data source, the basic entry configuration is done in the ***General*** tab, but other parameters are also available in other tabs. Below is an example of the ***General*** tab settings when creating a website entry.  
-![New Entry – Website (General Tab)](https://webdevolutions.azureedge.net/docs/en/hub/Hub2135.png) 
+When {{ en.DHUBP }} is used as the data source, the basic entry configuration is done in the ***General*** tab, but other parameters are also available in other tabs. Below is an example of the ***General*** tab settings when creating a website entry.
+![New Entry – Website (General Tab)](https://cdnweb.devolutions.net/docs/en/hub/Hub2135.png)
 
-The tables below list all fields/settings available in the ***New Entry*** windows. The different sections and subsections represent the entry types and the left menu tabs respectively.  
+The tables below list all fields/settings available in the ***New Entry*** windows. The different sections and subsections represent the entry types and the left menu tabs respectively.
 
-## Website Entry 
+## Website Entry
 
-### General 
+### General
 
 | FIELD/SETTING | DESCRIPTION |
 | --- | --- |
@@ -32,7 +32,7 @@ The tables below list all fields/settings available in the ***New Entry*** windo
 | Compare type | Select how the entered URL is compared and matched to the website URL. Choose between ***Default, Base domain***, ***Compare regex with URL domain***, ***Compare regex with full URL***, ***Host***, ***Start with***, ***Exact***, ***or Never***. |
 | {{ en.WBEX }} | Select from the drop-down list between ***Default***, ***Disabled***, or ***Enabled***. If disabled, your credentials for this entry will not be suggested when accessing that particular website. We recommend leaving this option enabled. |
 
-### Connection 
+### Connection
 
 | FIELD/SETTING | DESCRIPTION |
 | --- | --- |
@@ -42,7 +42,7 @@ The tables below list all fields/settings available in the ***New Entry*** windo
 | URL encode credentials | Enable to encode credentials in the website URL. Only available if ***Basic*** is selected in ***Authentication***. |
 | Autofill delay | Enable to apply a delay before the {{ en.WBEX }} fills in credentials. Only available if ***Form*** is selected in ***Authentication***. |
 
-### Equivalent URLs 
+### Equivalent URLs
 
 | FIELD/SETTING | DESCRIPTION |
 | --- | --- |
@@ -50,7 +50,7 @@ The tables below list all fields/settings available in the ***New Entry*** windo
 | Website | Enter a URL that leads to the same page or is equivalent to the one in the ***URL*** field. |
 | Compare type | Select how the entered URL is compared and matched to the website URL. Choose between ***Default***, ***Base domain***, ***Compare regex with URL domain***, ***Compare regex with full URL***, ***Host***, ***Start with***, ***Exact***, or ***Never***. |
 
-### Custom Controls 
+### Custom Controls
 
 | FIELD/SETTING         | DESCRIPTION                                                                                               |
 |------------------------|-----------------------------------------------------------------------------------------------------------|
@@ -63,7 +63,7 @@ The tables below list all fields/settings available in the ***New Entry*** windo
 | Reveal/Hide password   | Reveal or hide the password that was entered. <br> <br> This field is only available next to the ***Value*** field if the ***Mask information*** option is enabled. |
 | Always prompt for value | Enable this option so that you are asked to enter the value each time instead of filling in the ***Value*** field above. |
 
-### Html Control ID 
+### Html Control ID
 
 | FIELD/SETTING         | DESCRIPTION                                               |
 |------------------------|-----------------------------------------------------------|
@@ -74,7 +74,7 @@ The tables below list all fields/settings available in the ***New Entry*** windo
 | One time password ID   | Enter the ***One time password ID*** of the login website. |
 | Login button ID        | Enter the ***Login button ID*** of the login website.      |
 
-### Security Questions 
+### Security Questions
 
 | FIELD/SETTING          | DESCRIPTION                                                     |
 |-------------------------|-----------------------------------------------------------------|
@@ -82,7 +82,7 @@ The tables below list all fields/settings available in the ***New Entry*** windo
 | Answer                  | Enter the custom ***Answer*** to your security question.        |
 | Reveal/Hide password    | Reveal or hide the ***Answer*** that was entered.               |
 
-### OTP 
+### OTP
 
 | FIELD/SETTING          | DESCRIPTION                                                                                                               |
 |-------------------------|---------------------------------------------------------------------------------------------------------------------------|
@@ -95,7 +95,7 @@ The tables below list all fields/settings available in the ***New Entry*** windo
 | Code size               | Select the size of the code, between ***6 Digits*** or ***8 Digits***. <br> <br> This drop-down list is only available if ***Custom*** is selected in the ***Source*** drop-down list. |
 | Hash algorithm          | Select the secure hash algorithm (SHA) between ***SHA-1***, ***SHA-256***, or ***SHA-512***. <br> <br> This drop-down list is only available if ***Custom*** is selected in the ***Source*** drop-down list. <br> <br> To learn about secure hash algorithm, visit [SHA-256](/kb/general-knowledge-base/what-is-sha-256/). |
 
-### OTP Recovery Codes 
+### OTP Recovery Codes
 
 | FIELD/SETTING          | DESCRIPTION                                                                               |
 |-------------------------|-------------------------------------------------------------------------------------------|
@@ -104,7 +104,7 @@ The tables below list all fields/settings available in the ***New Entry*** windo
 | Reveal/Hide password    | Reveal or hide the ***OTP Recovery Code*** that was entered entered in the ***Code*** field. |
 | Is valid                | Enable this setting if the specified ***OTP Recovery Code*** is valid.                   |
 
-### Custom Fields 
+### Custom Fields
 
 | FIELD/SETTING | DESCRIPTION                                                                                           |
 |---------------|-------------------------------------------------------------------------------------------------------|
@@ -113,7 +113,7 @@ The tables below list all fields/settings available in the ***New Entry*** windo
 | Hide/Reveal   | Hide or reveal the value of the custom field. <br> <br> This button is only available for ***Hidden Custom Fields*** (see below). |
 | Add           | Create a new custom field using this button. You can select between ***Text*** or ***Hidden***. Both of them allow you to enter a value for your custom field. Selecting ***Text*** gives you more text options in the ***Value*** field, while selecting ***Hidden*** gives you access to the ***Hide/Reveal*** option (see setting above). |
 
-### Description 
+### Description
 
 | FIELD/SETTING  | DESCRIPTION                                                                                         |
 |-----------------|-----------------------------------------------------------------------------------------------------|
@@ -123,18 +123,18 @@ The tables below list all fields/settings available in the ***New Entry*** windo
 | Host            | Enter the name of the host.                                                                        |
 | Employee        | Enter the name of the employee.                                                                    |
 
-### Others 
+### Others
 
-These are the buttons at the bottom of the ***New Entry – Website*** window that are available no matter the tab.  
+These are the buttons at the bottom of the ***New Entry – Website*** window that are available no matter the tab.
 
 | FIELD/SETTING | DESCRIPTION                                                                                                       |
 |---------------|-------------------------------------------------------------------------------------------------------------------|
 | Add           | Save the settings of your new website entry and create the entry.                                                |
 | Cancel        | Cancel the creation of a new website entry and clear all unsaved changes to settings.                             |
 
-## Credit Card entry 
+## Credit Card entry
 
-### General 
+### General
 
 | FIELD/SETTING                        | DESCRIPTION                                                                                                      |
 |--------------------------------------|------------------------------------------------------------------------------------------------------------------|
@@ -149,7 +149,7 @@ These are the buttons at the bottom of the ***New Entry – Website*** window th
 | Validation (CVC)                     | Enter the ***Validation (CVC)*** number of the card.                                                             |
 | Reveal/Hide password (for Validation (CVC)) | Reveal or hide the ***Validation (CVC)*** number that was entered.                                         |
 
-### Custom Fields 
+### Custom Fields
 
 | FIELD/SETTING | DESCRIPTION                                                                                           |
 |---------------|-------------------------------------------------------------------------------------------------------|
@@ -158,7 +158,7 @@ These are the buttons at the bottom of the ***New Entry – Website*** window th
 | Hide/Reveal   | Hide or reveal the value of the custom field. <br> <br> This button is only available for ***Hidden Custom Fields*** (see below). |
 | Add           | Create a new custom field using this button. You can select between ***Text*** or ***Hidden***. Both of them allow you to enter a value for your custom field. Selecting ***Text*** gives you more text options in the ***Value*** field, while selecting ***Hidden*** gives you access to the ***Hide/Reveal*** option (see setting above). |
 
-### Description 
+### Description
 
 | FIELD/SETTING  | DESCRIPTION                                                                                         |
 |-----------------|-----------------------------------------------------------------------------------------------------|
@@ -168,18 +168,18 @@ These are the buttons at the bottom of the ***New Entry – Website*** window th
 | Host            | Enter the name of the host.                                                                        |
 | Employee        | Enter the name of the employee.                                                                    |
 
-### Others 
+### Others
 
-These are the buttons at the bottom of the ***New Entry – Credit Card*** window that are available no matter the tab.  
+These are the buttons at the bottom of the ***New Entry – Credit Card*** window that are available no matter the tab.
 
 | FIELD/SETTING | DESCRIPTION                                                                                                       |
 |---------------|-------------------------------------------------------------------------------------------------------------------|
 | Add           | Save the settings of your new website entry and create the entry.                                                |
 | Cancel        | Cancel the creation of a new website entry and clear all unsaved changes to settings.                             |
 
-## Contact entry 
+## Contact entry
 
-### General 
+### General
 
 | FIELD/SETTING  | DESCRIPTION                                                                                                       |
 |-----------------|-------------------------------------------------------------------------------------------------------------------|
@@ -203,7 +203,7 @@ These are the buttons at the bottom of the ***New Entry – Credit Card*** windo
 | Fax             | Enter the ***Fax*** number of the contact.                                                                      |
 | Work phone      | Enter the ***Work phone*** number of the contact.                                                               |
 
-### Custom Fields 
+### Custom Fields
 
 | FIELD/SETTING | DESCRIPTION                                                                                           |
 |---------------|-------------------------------------------------------------------------------------------------------|
@@ -212,25 +212,25 @@ These are the buttons at the bottom of the ***New Entry – Credit Card*** windo
 | Hide/Reveal   | Hide or reveal the value of the custom field. <br> <br> This button is only available for ***Hidden Custom Fields*** (see below). |
 | Add           | Create a new custom field using this button. You can select between ***Text*** or ***Hidden***. Both of them allow you to enter a value for your custom field. Selecting ***Text*** gives you more text options in the ***Value*** field, while selecting ***Hidden*** gives you access to the ***Hide/Reveal*** option (see setting above). |
 
-### Description 
+### Description
 
 | FIELD/SETTING | DESCRIPTION                                                                                         |
 |---------------|-----------------------------------------------------------------------------------------------------|
 | Description   | Enter a description for your new entry.                                                            |
 | Tags          | Add keywords (tags) to help you find your entry or to better categorize them. Press the Enter key after entering each tag. |
 
-### Others 
+### Others
 
-These are the buttons at the bottom of the ***New Entry – Contact*** window that are available no matter the tab.  
+These are the buttons at the bottom of the ***New Entry – Contact*** window that are available no matter the tab.
 
 | FIELD/SETTING | DESCRIPTION                                                                                                       |
 |---------------|-------------------------------------------------------------------------------------------------------------------|
 | Add           | Save the settings of your new website entry and create the entry.                                                |
 | Cancel        | Cancel the creation of a new website entry and clear all unsaved changes to settings.                             |
 
-## Secure Note entry 
+## Secure Note entry
 
-### General 
+### General
 
 | FIELD/SETTING  | DESCRIPTION                                                                                                       |
 |-----------------|-------------------------------------------------------------------------------------------------------------------|
@@ -240,7 +240,7 @@ These are the buttons at the bottom of the ***New Entry – Contact*** window th
 | Type            | Select in the drop-down list if your note is written in ***Markdown*** or in ***Plain text*** format.            |
 | Note            | Enter your secure note. This option will differ depending on whether you select the ***Markdown*** format or the ***Plain text*** format in the ***Type*** list. Selecting ***Markdown*** gives you access to additional text formatting options. You will also be able to write your note using markdown, which is a markup language for formatting text. |
 
-### Custom Fields 
+### Custom Fields
 
 | FIELD/SETTING | DESCRIPTION                                                                                           |
 |---------------|-------------------------------------------------------------------------------------------------------|
@@ -249,7 +249,7 @@ These are the buttons at the bottom of the ***New Entry – Contact*** window th
 | Hide/Reveal   | Hide or reveal the value of the custom field. <br> <br> This button is only available for ***Hidden Custom Fields*** (see below). |
 | Add           | Create a new custom field using this button. You can select between ***Text*** or ***Hidden***. Both of them allow you to enter a value for your custom field. Selecting ***Text*** gives you more text options in the ***Value*** field, while selecting ***Hidden*** gives you access to the ***Hide/Reveal*** option (see setting above). |
 
-### Description 
+### Description
 
 | FIELD/SETTING | DESCRIPTION                                                                                                       |
 |---------------|-------------------------------------------------------------------------------------------------------------------|
@@ -259,15 +259,15 @@ These are the buttons at the bottom of the ***New Entry – Contact*** window th
 | Host          | Enter the name of the host.                                                                                     |
 | Employee      | Enter the name of the employee.                                                                                 |
 
-### Others 
+### Others
 
-These are the buttons at the bottom of the ***New Entry – Secure Note*** window that are available no matter the tab.  
+These are the buttons at the bottom of the ***New Entry – Secure Note*** window that are available no matter the tab.
 
 | FIELD/SETTING | DESCRIPTION                                                                                                       |
 |---------------|-------------------------------------------------------------------------------------------------------------------|
 | Add           | Save the settings of your new website entry and create the entry.                                                |
 | Cancel        | Cancel the creation of a new website entry and clear all unsaved changes to settings.                             |
 
-{% snippet icon.badgeInfo %} 
-Follow our step-by-step guide explaining how to [add an entry](/hub/workspace-browser-extension/using-workspace-browser-extension/using-workspace-browser-extension-with-hub-personal/add-entry-hub-personal-workspace-browser-extension/) in {{ en.DHUBP }} with the {{ en.WBEX }}. 
+{% snippet icon.badgeInfo %}
+Follow our step-by-step guide explaining how to [add an entry](/hub/workspace-browser-extension/using-workspace-browser-extension/using-workspace-browser-extension-with-hub-personal/add-entry-hub-personal-workspace-browser-extension/) in {{ en.DHUBP }} with the {{ en.WBEX }}.
 {% endsnippet %}

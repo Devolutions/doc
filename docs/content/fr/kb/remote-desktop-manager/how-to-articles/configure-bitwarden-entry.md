@@ -8,20 +8,20 @@ eleventyComputed:
 In {{ en.RDM }} there are the <a href="#credential-management">***Credential Management***</a> and <a href="#synchronizer">***Synchronizer***</a> entry types for Bitwarden, this topic will explain how each one works.
 {% snippet icon.badgeCaution %}
 Email ***Authentication mode*** is now deprecated for ***Bitwarden*** entries and unavailable from 2023.2 onwards.
-{% endsnippet %}  
+{% endsnippet %}
 
 {% snippet icon.badgeInfo %}
 The integration of credentials from password managers is only available in the Team version of {{ en.RDM }}.
-{% endsnippet %}  
+{% endsnippet %}
 
 {% snippet icon.badgeHelp %}
 To learn more about creating and managing a Bitwarden account, please consult the [documentation](https://bitwarden.com/help/) on their official website.
 {% endsnippet %}
 
 ## Credential Management
-Here is a description for each field or option, in order from top to bottom. The entry can be found under ***New Entry*** – ***Credential Management*** – ***Password Management***.  
-![Credential Management](https://webdevolutions.azureedge.net/docs/en/kb/KB0066.png)  
-![General tab](https://webdevolutions.azureedge.net/docs/en/kb/KB0067.png)  
+Here is a description for each field or option, in order from top to bottom. The entry can be found under ***New Entry*** – ***Credential Management*** – ***Password Management***.
+![Credential Management](https://cdnweb.devolutions.net/docs/en/kb/KB0066.png)
+![General tab](https://cdnweb.devolutions.net/docs/en/kb/KB0067.png)
 * ***Name***: Entry name in {{ en.RDM }}
 * ***Folder***: Which {{ en.RDM }} folder the entry will be in
 
@@ -39,9 +39,9 @@ Here is a description for each field or option, in order from top to bottom. The
   * ***Always prompt with list***: Prompts the user with a list of all the available credentials instead of a specific one
 
 ## Synchronizer
-Here is a description for each field or option, in order from top to bottom. The entry can be found under ***New Entry*** – ***Synchronizer***:  
-![Synchronizer](https://webdevolutions.azureedge.net/docs/en/kb/KB0068.png)  
-![General tab](https://webdevolutions.azureedge.net/docs/en/kb/KB0069.png)  
+Here is a description for each field or option, in order from top to bottom. The entry can be found under ***New Entry*** – ***Synchronizer***:
+![Synchronizer](https://cdnweb.devolutions.net/docs/en/kb/KB0068.png)
+![General tab](https://cdnweb.devolutions.net/docs/en/kb/KB0069.png)
 * ***Name***: Entry name in {{ en.RDM }}
 * ***Folder***: Which {{ en.RDM }} folder the entry will be in
 * ***Credentials***: Read more on [***Credentials*** options](/rdm/windows/commands/edit/entries/entry-credentials-options/)
@@ -61,7 +61,7 @@ Here is a description for each field or option, in order from top to bottom. The
   * ***Destination folder***: Check for duplicates only within the {{ en.RDM }} destination folder or subfolder
 
 ### Filter
-![Filter tab](https://webdevolutions.azureedge.net/docs/en/kb/KB0070.png)  
+![Filter tab](https://cdnweb.devolutions.net/docs/en/kb/KB0070.png)
 * ***Filter box***: It will load the Bitwarden {{ en.VLT }} to let the user pick the wanted Organizations/Collections for synchronization
 * ***Filter severity***
   * ***Normal***: Accounts that are either in the selected folders or collections will be returned
@@ -69,7 +69,7 @@ Here is a description for each field or option, in order from top to bottom. The
 * ***Create tags for Organizations/Collections***: If enabled, organization and collection tags from Bitwarden will be added to the {{ en.RDM }} entry
 
 ### Advanced
-![Advanced tab](https://webdevolutions.azureedge.net/docs/en/kb/KB0071.png)  
+![Advanced tab](https://cdnweb.devolutions.net/docs/en/kb/KB0071.png)
 * ***Session name prefix***: A prefix for the entry
 * ***Session name suffix***: A suffix for the entry
 * ***Action on entry mismatch***

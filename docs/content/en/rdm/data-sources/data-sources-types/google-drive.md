@@ -3,11 +3,11 @@ eleventyComputed:
   title: Google Drive
   description: "{{ en.RDM }} downloads and uploads the session settings directly from file located on an FTP site."
 ---
-{{ en.RDM }} downloads and uploads the session settings directly from file located on an FTP site. 
+{{ en.RDM }} downloads and uploads the session settings directly from file located on an FTP site.
 
-### General 
+### General
 
-![Google Drive - General Tab](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip3622.png) 
+![Google Drive - General Tab](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip3622.png)
 
 | OPTION              | DESCRIPTION |
 |---------------------|-------------|
@@ -21,7 +21,7 @@ eleventyComputed:
 | Always ask master key | Enabling this option will prompt for a master key whenever you are connecting to the data source. |
 | Filename            | Enter the Google Drive path of the data source's file.          |
 
-### VPN 
+### VPN
 
-Open a VPN to access your data prior to connecting to your Google Drive.  
-![Google Drive - VPN Tab](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2200.png) 
+Open a VPN to access your data prior to connecting to your Google Drive.
+![Google Drive - VPN Tab](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMWin2200.png)

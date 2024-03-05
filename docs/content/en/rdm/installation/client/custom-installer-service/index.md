@@ -3,7 +3,7 @@ eleventyComputed:
   title: "{{ en.CIS }}"
   description: "The {{ en.CIS }} generates custom installation packages for {{ en.RDM }}."
 ---
-![!!CustomInstallerServiceIcon](https://webdevolutions.azureedge.net/images/projects/custom-installer/logos/custom-installer-white-shadow.svg)
+![!!CustomInstallerServiceIcon](https://cdnweb.devolutions.net/images/projects/custom-installer/logos/custom-installer-white-shadow.svg)
 
 * Generate custom installation packages for {{ en.RDM }}.
 * Include preconfigured data sources in the package for quick enterprise wide deployment.
@@ -17,7 +17,7 @@ The ***No Internet connection*** option in {{ en.RDM }} (***File*** – ***Optio
 You **must create an installer file** using {{ en.RDM }} before creating the installer. This is described in [Installer File Generator](/rdm/windows/installation/client/custom-installer-service/installer-file-generator/).
 
 The {{ en.CIS }} can be found in with the {{ en.DA }} tools, located in ***File – {{ en.DA }} – Tools***. You must be signed in to access it.
-![File – {{ en.DA }} – Tools](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip11245.png)
+![File – {{ en.DA }} – Tools](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip11245.png)
 
 The following topics will help you get started to set up your customized installers with {{ en.RDM }}.
 

@@ -9,5 +9,5 @@ It is possible, when using a data source that supports offline mode, to configur
 In the ***Properties – Settings*** of your VPN entry. You will need to enable two options:
 
 1. ***Go Offline on connection***.
-1. ***Go Online on disconnect***.  
-![!!KB4678](https://webdevolutions.azureedge.net/docs/en/kb/KB4678.png)
+1. ***Go Online on disconnect***.
+![!!KB4678](https://cdnweb.devolutions.net/docs/en/kb/KB4678.png)

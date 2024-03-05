@@ -9,4 +9,4 @@ The ***{{ en.VLT }}s*** allow users to [create entries](/server/web-interface/va
 
 We recommend using {{ en.VLT }}s for improved organization and security. {{ en.VLT }}s also help performance as they limit the amount of entries that load at once.  
 
-![Administration - {{ en.VLT_MAJ }}s](https://webdevolutions.blob.core.windows.net/docs/en/server/ServerOp6110.png)
+![Administration - {{ en.VLT_MAJ }}s](https://cdnweb.devolutions.net/docs/en/server/ServerOp6110.png)

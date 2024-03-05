@@ -3,26 +3,26 @@ eleventyComputed:
   title: XML
   description: "{{ en.RDM }} saves the settings directly in an XML file format."
 ---
-{{ en.RDM }} saves the settings directly in an XML file format. 
+{{ en.RDM }} saves the settings directly in an XML file format.
 
-## Highlights 
+## Highlights
 
-* It is possible to configure an auto refresh interval. 
-* The [{{ en.OBACK }}](/cloud/rdm-online-services/online-backup/) is available for this data source. 
+* It is possible to configure an auto refresh interval.
+* The [{{ en.OBACK }}](/cloud/rdm-online-services/online-backup/) is available for this data source.
 
-{% snippet icon.badgeCaution %} 
-Although it can be shared between multiple locations, there is no conflict management for the configuration. If you share with other users you may get update conflicts or otherwise run into issues. This data source type is meant for a single user using multiple computers, not multiple users. 
+{% snippet icon.badgeCaution %}
+Although it can be shared between multiple locations, there is no conflict management for the configuration. If you share with other users you may get update conflicts or otherwise run into issues. This data source type is meant for a single user using multiple computers, not multiple users.
 {% endsnippet %}
- 
-{% snippet icon.shieldNotice %} 
-All passwords are encrypted by default. You can specify a custom password (master key) to fully encrypt the content of the file. It is impossible to recover the data if the master key is lost. Please make sure to remember or backup the master key in a safe place. 
+
+{% snippet icon.shieldNotice %}
+All passwords are encrypted by default. You can specify a custom password (master key) to fully encrypt the content of the file. It is impossible to recover the data if the master key is lost. Please make sure to remember or backup the master key in a safe place.
 {% endsnippet %}
- 
-## Settings 
 
-### General 
+## Settings
 
-![XML - General Tab](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10788.png) 
+### General
+
+![XML - General Tab](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip10788.png)
 
 | OPTION                | DESCRIPTION |
 |-----------------------|-------------|
@@ -32,23 +32,23 @@ All passwords are encrypted by default. You can specify a custom password (maste
 | Always ask master key | Always prompts for the master key when connecting to the data source.                                                      |
 
 
-### Backup 
+### Backup
 
-![XML - Backup Tab](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10789.png) 
+![XML - Backup Tab](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip10789.png)
 
 | OPTION      | DESCRIPTION |
 |-------------|-------------|
 | Backup      | Select between: <ul><li>None: No backup of your data source will be created.</li><li>File backup: Your backup will be saved to a chosen file but will not automatically do backup every 30 seconds.</li><li>{{ en.OBACK }}: An {{ en.OBACK }} (using [{{ en.OBACK }}](/cloud/rdm-online-services/online-backup/)) will automatically be created.</li></ul>          |
 | Backup name | Specify the backup name that will allow you to automatically save your sessions in a safe online storage space and restore them in the event of problems. |
 
-### VPN 
+### VPN
 
-Open a VPN to access your data prior to connecting to your XML.  
-![XML - VPN Tab](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2256.png) 
+Open a VPN to access your data prior to connecting to your XML.
+![XML - VPN Tab](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMWin2256.png)
 
-### Advanced 
+### Advanced
 
-![XML - Advanced Tab](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10790.png) 
+![XML - Advanced Tab](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip10790.png)
 
 | OPTION                   | DESCRIPTION |
 |--------------------------|-------------|
