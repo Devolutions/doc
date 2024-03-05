@@ -65,7 +65,7 @@ For security reasons, it is not possible to delete yourself nor the owner of the
 
 As soon as you click on this icon, the user is sent a new invitation email. They then have to open the hub via this invitation.
 
-## Set a expiration date on a user
+## Set an expiration date for a user
 
 You can determine in advance when a user account should no longer be used. This is particularly useful for external users such as subcontractors.
  
