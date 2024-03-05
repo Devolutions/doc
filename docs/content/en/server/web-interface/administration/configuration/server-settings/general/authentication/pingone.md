@@ -15,9 +15,9 @@ Make sure that the ***Use only TokenID for authentication*** option is unchecked
 In ***Azure AD (EntraID)***, the ***Access token (used for implicit flows)*** option must be checked.
 
 1. Open Azure AD (EntraID) web interface.
-1. Click App registration.
+1. Click ***App registration***.
 1. In the application found list, select your {{ en.DVLS }} application.
-1. Click Authentication.
+1. Click ***Authentication***.
 1. Check the ***Access token (used for implicit flows)*** option.
 
 ### Okta
@@ -30,27 +30,29 @@ In ***Okta***, the ***Refresh Token*** option must be checked.
 1. Select {{ en.DVLS }} in the application list.
 1. Under ***General Settings – Grant type***, check ***Refresh Token***.
 
-## Configuration 
-
-In {{ en.DVLS }} web interface, go to ***Administration – Server Settings – Authentication***. Check ***Authenticate with PingOne user*** and click ***PingOne authentication***.
-
-![Authentication – Authenticate with PingOne user – PingOne authentication](https://webdevolutions.blob.core.windows.net/docs/en/server/ServerOp6118.png)
-
 ## PingOne authentication settings
 
-In PingOne, permissions are assigned based on the type of application. For a ***worker***, permissions come from predefined roles, while permissions for all other types of apps come directly from the user. For PingOne we need 2 applications.
+In PingOne, permissions are assigned based on the type of application. For a ***worker***, permissions come from predefined roles, while permissions for all other types of apps come directly from the user. For PingOne we need two applications.
 
 ### Worker application
 
-This application is used to find users and groups from the directory.
+This application is used to find users and groups from the directory. Both ***Environment Admin*** and ***Identity Admin*** roles are required. 
 
-1. Both ***Environment Admin*** and ***Identity Admin*** roles are required.
+1. Go to ***Edit Configuration***.
+1. Under ***Response Type***, check ***Token***.
+1. Check ***Implicit*** and ***Client Credentials***.
+1. Select ***Client Secret Post*** in the ***Token Endpoint Authentication Method*** drop-down menu.
+1. Click ***Save***. 
 
-### PingOne authentication settings in {{ en.DVLS }} 
+## PingOne authentication settings in {{ en.DVLS }} 
+
+In {{ en.DVLS }} web interface, go to ***Administration – Server Settings – Authentication***. Check ***Authenticate with PingOne user*** and click ***PingOne authentication***.
+
+![Authentication – Authenticate with PingOne user – PingOne authentication](https://cdnweb.devolutions.net/docs/en/server/ServerOp6118.png)
 
 The following is a description of the authentication settings for PingOne in {{ en.DVLS }}.
 
-![PingOne authentication settings](https://webdevolutions.blob.core.windows.net/docs/en/server/ServerOp6119.png)
+![PingOne authentication settings](https://cdnweb.devolutions.net/docs/en/server/ServerOp6119.png)
 
 ### General
 
