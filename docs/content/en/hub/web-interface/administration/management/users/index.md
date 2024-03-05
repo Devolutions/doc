@@ -64,3 +64,19 @@ For security reasons, it is not possible to delete yourself nor the owner of the
 ![Re-invite user](https://cdnweb.devolutions.net/docs/en/hub/Hub2276.png)
 
 As soon as you click on this icon, the user is sent a new invitation email. They then have to open the hub via this invitation.
+
+## Set a expiration date on a user
+
+You can determine in advance when a user account should no longer be used. This is particularly useful for external users such as subcontractors.
+ 
+1. Select the ***user***.
+1. Choose an ***expiration date***. 
+
+{% snippet icon.badgeInfo %}
+A warning message is displayed to the user if the account expires in less than 24 hours.
+{% endsnippet %}
+
+3. Click ***Update*** to save. 
+
+![Expiration date](https://cdnweb.devolutions.net/docs/en/hub/HUBB6001_2024_1.png)
+
