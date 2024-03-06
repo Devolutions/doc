@@ -12,7 +12,7 @@ These steps provide the information to enable the ***domain single sign-on (SSO)
 ## Steps
 
 1. In ***Administration – Server Settings – Authentication*** of the {{ en.DVLS }} instance web interface, check the ***Enable domain single sign-on (SSO)*** option box. When done, click on the ***Save*** button.
-![check the Enable domain single sign-on (SSO) option box](https://cdnweb.devolutions.net/docs/en/server/DVLS6007_2024_1.png)
+![Check the Enable domain single sign-on (SSO) option box](https://cdnweb.devolutions.net/docs/en/server/DVLS6007_2024_1.png)
 1. Set the administrator credential properties in the ***Administration – Server Settings – Authentication – Domains***.
 2. Open the ***Server Manager*** desktop application and go to ***Manage – Add Roles and Features***.
 ![!!KB5001](https://cdnweb.devolutions.net/docs/en/kb/KB5001.png)

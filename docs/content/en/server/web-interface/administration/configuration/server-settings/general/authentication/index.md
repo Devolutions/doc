@@ -29,7 +29,7 @@ The machine hosting {{ en.DVLS }} must be joined to the configured domain for Wi
 | Option                   | Description              |
 |--------------------------|--------------------------|
 | Domain                   | Configure the [Domain](/server/web-interface/administration/configuration/server-settings/general/authentication/domain/) type. |
-| Microsoft Authentication Office365                | Configure the [Office365](/server/web-interface/administration/configuration/server-settings/general/authentication/office-365/) type. |
+| Microsoft Authentication                | Configure the [Office365](/server/web-interface/administration/configuration/server-settings/general/authentication/office-365/) type. |
 | Okta Authentication                     | Configure the Okta type. |
 | PingOne Authentication                  | Configure the [PingOne](/server/web-interface/administration/configuration/server-settings/general/authentication/pingone/) type. |
-| Authentication migration | Migrate the authentication method of the existing user account to another authentication method or another domain in Active Directory or Azure Active Directory. To start and complete the migration process, consult this [page](/kb/devolutions-server/how-to-articles/configure-windows-authentication/). |
+| Authentication migration | Migrate the authentication method of the existing user account to another authentication method or another domain in Active Directory or Azure Active Directory. |
