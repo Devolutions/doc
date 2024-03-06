@@ -22,8 +22,7 @@ Visit [Keyboard shortcut customization in {{ en.RDMMAC }}](/kb/remote-desktop-ma
 
 ### {{ en.RDM }}
 
-		</th>
-| ACTION            | SHORTCUT                                   |
+| NAME              | SHORTCUT                                   |
 |-------------------|--------------------------------------------|
 | Preferences       | <kbd>Cmd</kbd>+<kbd>,</kbd>                |
 | Hide {{ en.RDM }} | <kbd>Cmd</kbd>+<kbd>H</kbd>                |
@@ -31,14 +30,14 @@ Visit [Keyboard shortcut customization in {{ en.RDMMAC }}](/kb/remote-desktop-ma
 | Quit              | <kbd>Cmd</kbd>+<kbd>Q</kbd>                |
 
 ### File
-| ACTION             | SHORTCUT                                     |
+| NAME               | SHORTCUT                                     |
 |--------------------|----------------------------------------------|
 | Refresh            | <kbd>Cmd</kbd>+<kbd>R</kbd>                  |
 | Force Refresh      | <kbd>Shift</kbd>+<kbd>Cmd</kbd>+<kbd>R</kbd> |
 | Switch Data Source | <kbd>Shift</kbd>+<kbd>Cmd</kbd>+<kbd>D</kbd> |
 
 ### Edit
-| ACTION                | SHORTCUT                                                    |
+| NAME                  | SHORTCUT                                                    |
 |-----------------------|-------------------------------------------------------------|
 | Undo                  | <kbd>Cmd</kbd>+<kbd>Z</kbd>                                 |
 | Redo                  | <kbd>Shift</kbd>+<kbd>Cmd</kbd>+<kbd>Z</kbd>                |
@@ -56,7 +55,7 @@ Visit [Keyboard shortcut customization in {{ en.RDMMAC }}](/kb/remote-desktop-ma
 | Check Spelling        | <kbd>Cmd</kbd>+<kbd>;</kbd>                                 |
 
 ### View
-| ACTION            | SHORTCUT                                    |
+| NAME              | SHORTCUT                                    |
 |-------------------|---------------------------------------------|
 | Show Toolbar      | <kbd>Alt</kbd>+<kbd>Cmd</kbd>+<kbd>T</kbd>  |
 | Hide Navigation   | <kbd>Cmd</kbd>+<kbd>N</kbd>                 |
@@ -66,14 +65,14 @@ Visit [Keyboard shortcut customization in {{ en.RDMMAC }}](/kb/remote-desktop-ma
 | Enter Full Screen | <kbd>Ctrl</kbd>+<kbd>Cmd</kbd>+<kbd>F</kbd> |
 
 ### Entry
-| ACTION                       | SHORTCUT                                     |
+| NAME                         | SHORTCUT                                     |
 |------------------------------|----------------------------------------------|
 | Open Session                 | <kbd>Enter</kbd>                             |
 | Delete (MnuDeleteConnection) | <kbd>Cmd</kbd>+<kbd>Backspace</kbd>          |
 | Edit Entry                   | <kbd>Shift</kbd>+<kbd>Cmd</kbd>+<kbd>E</kbd> |
 
 ### Window
-| ACTION              | SHORTCUT                                         |
+| NAME                | SHORTCUT                                         |
 |---------------------|--------------------------------------------------|
 | Minimize            | <kbd>Cmd</kbd>+<kbd>M</kbd>                      |
 | Select Next Tab     | <kbd>Shift</kbd>+<kbd>Cmd</kbd>+<kbd>Right</kbd> |
@@ -89,6 +88,6 @@ Visit [Keyboard shortcut customization in {{ en.RDMMAC }}](/kb/remote-desktop-ma
 | Goto Bookmark 9     | <kbd>Ctrl</kbd>+<kbd>Cmd</kbd>+<kbd>9</kbd>      |
 
 ### Help
-| ACTION        | SHORTCUT                    |
+| NAME          | SHORTCUT                    |
 |---------------|-----------------------------|
 | Online Help   | <kbd>Cmd</kbd>+<kbd>?</kbd> |
