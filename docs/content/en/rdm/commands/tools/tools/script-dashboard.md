@@ -48,7 +48,3 @@ It contains the scripts of ***current vault, the global vault***, and the ***use
  Scripts can be added as ***favorite*** by clicking on the star. Favorites are listed on the left menu. 
 
 ![Add scripts as favorite by clicking on the star](https://webdevolutions.blob.core.windows.net/docs/en/rdm/windows/RDM6001_2024_1.png)
-
-Click on the dots or do a right click : ***Execute, Execute (Select Credentials)*** or ***Edit***. 
-
-![Execute, Execute (Select Credentials) or Edit](https://webdevolutions.blob.core.windows.net/docs/en/rdm/windows/RDM6002_2024_1.png)
