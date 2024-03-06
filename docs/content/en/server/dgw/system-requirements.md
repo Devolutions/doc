@@ -10,10 +10,10 @@ To use {{ en.DGW }}, your system must meet the following requirements.
 
 | Minimal implementation<br>(1 to 5 concurrent sessions) | Small implementation<br>(5 to 15 concurrent sessions) | Medium implementation<br>(15 to 75 concurrent sessions) | Large implementation<br>(More than 75 concurrent sessions) |
 | :---: | :---: | :---: | :---: |
-| 2 vCPUs<br>4 GB RAM | 4 vCPUs<br>8 GB RAM | 8 vCPUs<br>16 GB RAM | Deploy multiple {{ en.DGW }} instances. A Gigabit Ethernet controller is recommended for optimal performance. |
+| 2 vCPUs<br>4 GB RAM | 4 vCPUs<br>8 GB RAM | 8 vCPUs<br>16 GB RAM | Deploy multiple {{ en.DGW }} instances. |
 
 {% snippet icon.badgeInfo %}
-One {{ en.DGW }} can handle up to 75 concurrent sessions with good performance.
+One {{ en.DGW }} can handle up to 75 concurrent sessions with good performance. A Gigabit Ethernet controller is recommended for optimal performance.
 {% endsnippet %}
 
 ## Software requirements
