@@ -1,22 +1,21 @@
 ---
 eleventyComputed:
-  title: Create a new data source
+  title: Create a data source
   order: 10
+  description: Once you have identified your needs, you can proceed with the creation of your first data source.
 ---
-1. To create a new data source click on the setting button next to the data source box.
-![Data Source Setting button](https://cdnweb.devolutions.net/docs/en/rdm/mac/clip10476.png)
-1. Click on the plus to create a new data source.
-![Create a new data source](https://cdnweb.devolutions.net/docs/en/rdm/mac/clip10477.png)
-1. Select the [data source type](/rdm/mac/data-sources/data-sources-types/) you wish to create and click on ***OK***.
-![Select your data source type](https://cdnweb.devolutions.net/docs/en/rdm/mac/clip10478.png)
-1. Configure all your connection settings. You can verify the validity of the information entered by using Test Server or Test Credentials (depending on the type of data source you are creating).
-![SQL Server - Connection tab](https://cdnweb.devolutions.net/docs/en/rdm/mac/clip10479.png)
-1. If using an existing Database, click on the ellipsis next to Database to select your database and then click on Test Database to verify it is working properly.
-![SQL Server - Connection tab - Browse](https://cdnweb.devolutions.net/docs/en/rdm/mac/clip10480.png)
-1. If you wish to create a new Database, click on the Upgrade tab and then select ***Create Database***.
-![Upgrade tab - Create Database](https://cdnweb.devolutions.net/docs/en/rdm/mac/clip10481.png)
-1. Once you have completed all the steps, you can select your newly created data source by clicking on the arrow next to the data source combo box.
-![Select your active data source](https://cdnweb.devolutions.net/docs/en/rdm/mac/clip10482.png)
+Upon first launch, {{ en.RDMMAC }} uses a local SQLite data source. The different data sources are listed in [Data source types](/rdm/mac/data-sources/data-sources-types/). For help selecting a data source tailored to your needs, please see our [Getting started](/rdm/mac/getting-started/) section.
 
-You may have to [add a license](/rdm/mac/commands/administration/licenses/) to your data source. If you are using an [Advanced Data Source](/rdm/mac/data-sources/data-sources-types/advanced-data-sources/), there is no need to add a license in {{ en.RDM }} as the license serial is retrieved directly from the data source.
+Once you have identified your needs, you can proceed with the creation of your first data source:
 
+1. In {{ en.RDMMAC }}, go to ***File – Data sources***.
+1. Click on ***Add a new data source***.
+![Add a new data source](https://cdnweb.devolutions.net/docs/en/rdm/mac/RDMM2000_2024_1.png)
+1. Select the type of data source to create, then click ***OK***. In the example below, a {{ en.DVLS }} data source is being created.
+![Data source type selection](https://cdnweb.devolutions.net/docs/en/rdm/mac/RDMM2001_2024_1.png)
+1. Configure the data source connection settings. To validate the information, click on ***Test connection*** or ***Test server*** depending on the type of data source being created.
+![Data source configuration](https://cdnweb.devolutions.net/docs/en/rdm/mac/RDMM2002_2024_1.png)
+1. Click ***OK*** when the configuration is complete, then ***OK*** again to close the ***Data sources*** window.
+1. The new data source should automatically open. You can also manually open the data source by selecting it from the data source drop-down list at the top of the ***{{ en.NPANE }}***.
+
+You may have to [add a license](/rdm/mac/commands/administration/licenses/) to your data source. If you are using an [advanced data source](/rdm/mac/data-sources/data-sources-types/advanced-data-sources/), there is no need to add a license in {{ en.RDMMAC }} as the license serial is retrieved directly from the data source.
