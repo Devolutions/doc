@@ -1,18 +1,19 @@
 ---
 eleventyComputed:
-  title: Configure Windows authentication
+  title: Configure domain single sign-on (SSO)
+  description: The machine hosting {{ en.DVLS }} must be joined to the configured domain for domain single sign-on (SSO) to work.
 ---
 {% snippet icon.badgeCaution %}
-The machine hosting {{ en.DVLS }} must be joined to the configured domain for Windows Authentication to work.
+The machine hosting {{ en.DVLS }} must be joined to the configured domain for domain single sign-on (SSO) to work.
 {% endsnippet %}
 
-These steps provide the information to enable the ***Windows Authentication*** feature in {{ en.DVLS }}.
+These steps provide the information to enable the ***domain single sign-on (SSO)*** feature in {{ en.DVLS }}.
 
 ## Steps
 
-1. In ***Administration – Server Settings – Authentication*** of the {{ en.DVLS }} instance web interface, check the ***Enable Windows authentication*** option box. When done, click on the ***Save*** button.
-![!!KB4377](https://cdnweb.devolutions.net/docs/en/kb/KB4377.png)
-1. Set the administrator credential properties in the Administration – Server Settings – Authentication – Domains.
+1. In ***Administration – Server Settings – Authentication*** of the {{ en.DVLS }} instance web interface, check the ***Enable domain single sign-on (SSO)*** option box. When done, click on the ***Save*** button.
+![check the Enable domain single sign-on (SSO) option box](https://cdnweb.devolutions.net/docs/en/server/DVLS6007_2024_1.png)
+1. Set the administrator credential properties in the ***Administration – Server Settings – Authentication – Domains***.
 2. Open the ***Server Manager*** desktop application and go to ***Manage – Add Roles and Features***.
 ![!!KB5001](https://cdnweb.devolutions.net/docs/en/kb/KB5001.png)
 1. In the ***Server Roles*** section, ensure that the ***Windows Authentication*** server role is installed.
