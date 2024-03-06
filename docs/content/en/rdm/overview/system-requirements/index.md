@@ -6,14 +6,14 @@ eleventyComputed:
 
 ## Minimum requirements 
 
-**Windows Desktop:**  
+### Windows Desktop
 
 * Windows 11 
     * Version 21H2 
 * Windows 10 
-    * Version 20H2, 21H1 and 21H2 
+    * Version 20H2, 21H1, and 21H2 
 
-**Windows Server:**  
+### Windows Server
 
 * Windows Server 2022 
 * Windows Server 
@@ -22,13 +22,12 @@ eleventyComputed:
 * 2016 
     * Version 1607 
 
-Microsoft .NET Framework 4.8  
+Microsoft .NET 8.0  
 1 GHz or faster processor  
-4GB RAM  
+4 GB RAM  
 1024 x 768 screen resolution  
 500+ MB hard drive space  
 64-bit operating system  
-[Microsoft Edge WebView2 Runtime](/kb/remote-desktop-manager/knowledge-base/download-microsoft-edge-chromium/)  
 
 ## Remote Desktop Services and thin client support 
 

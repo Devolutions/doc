@@ -2,19 +2,33 @@
 eleventyComputed:
   title: Prerequisites
   order: 10
+  description: "{{ en.DLAUNCHER }} requires the following prior to installation."
 ---
+{{ en.DLAUNCHER }} requires the following prior to installation.
+
 ## {{ en.DLAUNCHER }} minimum requirements  
 
-{{ en.DVLS }} 2019.1.X.X or later.  
+{{ en.DVLS }} 2019.1.X.X or later.
 
-Most recent browsers are supported and so is Internet Explorer 11 or above.  
+### Windows Desktop
 
-## {{ en.DLAUNCHER }} minimum platform requirements 
+* Windows 11 
+    * Version 21H2 
+* Windows 10 
+    * Version 20H2, 21H1, and 21H2 
 
-### Windows 
+### Windows Server
 
-* Windows 8 or later 
-* Microsoft .NET Framework 4.8 
-* 1GHz or faster processor 
-* 2GB of RAM 
-* 100MB hard drive space 
+* Windows Server 2022 
+* Windows Server 
+    * Version 20H2 
+* Windows Server 2019 
+* 2016 
+    * Version 1607 
+
+Microsoft .NET 8.0  
+1 GHz or faster processor  
+4 GB RAM  
+1024 x 768 screen resolution  
+500+ MB hard drive space  
+64-bit operating system  

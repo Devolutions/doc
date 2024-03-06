@@ -5,13 +5,9 @@ eleventyComputed:
 ---
 ## Minimum requirements
 
-{% snippet icon.badgeInfo %}
-{{ en.DVLS }} requires Microsoft .NET Core 6.0 to operate. Additionally, .NET Framework 4.8 is required to install the {{ en.DVLSCONSOLE }}. Please adapt your environment depending on which version you are running.
-{% endsnippet %}
+{{ en.DVLS }} requires Microsoft .NET 8.0 to operate. Please adapt your environment depending on which version you are running.
 
-{% snippet icon.badgeInfo %}
 {{ en.DVLS }} now verifies that the domain and forest functional levels are at least Windows Server 2016. This is essential when using Active Directory authentication.
-{% endsnippet %}
 
 The following table lists the minimum recommended hardware specifications for {{ en.DVLS }}. These specifications may vary depending on the usage of the application, as indicated later in the topic. 
 
@@ -26,8 +22,7 @@ The following table lists the minimum recommended hardware specifications for {{
 * Azure SQL database is supported with SQL login accounts only. Azure Active Directory accounts are not supported. 
 * Windows Server 2016, 2019, and 2022. 
 * Windows Server 2016 domain and forest functional level or higher. 
-* Microsoft .NET Framework 4.8 (Please refer to the [.NET Framework system requirements](https://msdn.microsoft.com/en-us/library/8z6watww%28v=vs.110%29.aspx) for operating systems). 
-* Microsoft .NET 6.0 (ASP.NET Core Runtime 6.0.19).
+* [Microsoft .NET 8.0](https://dotnet.microsoft.com/en-us/download/dotnet/8.0)
 * Internet Information Services (IIS) 7.0 or later. 
 * {{ en.DVLSCONSOLE }} must be installed on the server to manage the {{ en.DVLS }} instance(s). 
 
