@@ -15,12 +15,17 @@ When removing a ***Security Provider***, it is important to complete these steps
 {% endsnippet %}
 
 1. Go to the desired ***Microsoft SQL Server*** data source.
-1. Select the ***Administration*** tab in the ribbon.  
+1. Select the ***Administration*** tab in the ribbon.
 1. Click on ***Security Provider***.  
+![Security Provider](https://cdnweb.devolutions.net/docs/en/kb/RDMW0009_2024_1.png)
 1. Click on ***Change Security Settings***.  
+![Change Security Settings](https://cdnweb.devolutions.net/docs/en/kb/RDMW0010_2024_1.png)
 1. In the dropdown select the ***Default*** option and click ***Apply***.  
-1. Click ***Yes*** after the warning window appears.  
-1. Click ***Close*** (this may take some time with larger data bases).  
+![Default security type](https://cdnweb.devolutions.net/docs/en/kb/RDMW0011_2024_1.png)
+1. Click ***Yes*** after the warning window appears (this may take some time with larger data bases).  
+![Warning window](https://cdnweb.devolutions.net/docs/en/kb/RDMW0012_2024_1.png)
+1. Click ***Close***.  
+![Warning window](https://cdnweb.devolutions.net/docs/en/kb/RDMW0012_2024_1.png)
 
 ## Migrating MSSQL to {{ en.DVLS }}
 This operation assumes that you have [{{ en.DVLSCONSOLE }} installed](https://devolutions.net/server/home/download) on your target {{ en.DVLSCONSOLE }} host. You may migrate an MSSQL data source prior to [fully installing](/server/installation/) an instance of {{ en.DVLS }}.
