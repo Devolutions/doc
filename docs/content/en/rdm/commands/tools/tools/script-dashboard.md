@@ -4,7 +4,7 @@ eleventyComputed:
   description: The script dashboard is a great addition for IT teams, who often have to use scripts with variables, specifically scripts which do not have a direct link with an entry.
 ---
 
-The ***Script dashboard*** is a great addition for IT teams, who often have to use scripts with variables, specifically scripts that do not have a direct link to an entry (for example, a script creating users in Active Directory).
+The ***Script dashboard*** is useful for centralizing scripts and running them with specific permissions. It is a great addition for IT teams who often need to use scripts with variables, especially scripts that do not have a direct link to an entry (for example, a script that creates users in Active Directory).
 
 ## Settings
 
