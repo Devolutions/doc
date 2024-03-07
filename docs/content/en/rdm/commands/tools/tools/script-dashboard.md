@@ -28,7 +28,7 @@ This tab provides an overview of the selected script, including information abou
 |------------------|---------------------------------------------------------------------------------------------------|
 | Last executed by | Indicates the identity of the user that last executed the script.                                 |
 | Last executed on | Displays the date and time when the script was last executed.                                     |
-| Script preview   | Provides a snippet or the full view of the script code, allowing for a quick review of its contents. |
+| Script preview   | Provides a preview of the script code, allowing for a quick review of its contents. |
 
 ### Execution Logs Tab
 
