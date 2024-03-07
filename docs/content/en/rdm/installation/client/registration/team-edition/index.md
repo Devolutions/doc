@@ -6,11 +6,9 @@ eleventyComputed:
 ---
 When using an [Advanced Data Source](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/), there is no need to register {{ en.RDM }} since the license serial is stored in the data source and retrieved directly from it. When launching the application for the first time, simply [add the data source](/rdm/windows/data-sources/create-new-data-source/) containing the serial.
 
-{% snippet icon.badgeCaution %}
-The license menu to register {{ en.RDM }} is available for SQLite and {{ en.DHUBP }}, but not for other individual data sources.
-{% endsnippet %}
-
 {% snippet icon.badgeInfo %}
+The license menu to register {{ en.RDM }} is available for SQLite and {{ en.DHUBP }}, but not for other individual data sources.
+
 It is possible to [request a trial](/rdm/windows/installation/client/registration/trial-request/) to try {{ en.RDM }} Team for 30 days. If you decide not to register the application with a Team Edition license serial at the end of the 30-day period, your data will not be altered or erased, and you will have full access to it once you provide a license serial.
 {% endsnippet %}
 
@@ -27,14 +25,9 @@ It is possible to [request a trial](/rdm/windows/installation/client/registratio
 1. Optional: Check the ***Auto assign*** box to automatically provide the {{ en.RDM }} serial to all newly created users.
 ![Auto Assign Setting](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMWin0001.png)
 1. Click ***Assigned To*** in the left menu.
-1. Click ***Assign All*** or select in the ***Assigned*** column who should have a {{ en.RDM }} serial access.
-{% snippet icon.badgeNotice %}
-This step will automatically assign the license to the selected users, removing the need to interact with each user.
-{% endsnippet %}
-
+1. Click ***Assign All*** or select in the ***Assigned*** column who should have a {{ en.RDM }} serial access. This step will automatically assign the license to the selected users, removing the need to interact with each user.
 ![Assigned To Tab](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMWin2237.png)
-
-7. Click ***OK*** and ***Close*** the ***User and Security Management*** window.
+1. Click ***OK*** and ***Close*** the ***User and Security Management*** window.
 
 ### Offline registration
 

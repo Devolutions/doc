@@ -1,8 +1,8 @@
 ---
 eleventyComputed:
-  title: Change master key
+  title: Manage master key
 ---
-Use ***File – Change Master Key*** to encrypt the data source.
+Use ***File – Manage Master Key*** to encrypt the data source.
 
 The master key prevents unauthorized users to access the data source without knowing the master key. It is highly recommended to apply a master key to the data source if you are using {{ en.RDM }} in a portable environment (i.e., USB Flash Drive, USB Hard Drive).
 

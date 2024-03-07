@@ -1,15 +1,17 @@
 ---
 eleventyComputed:
   title: Update
-  description: The Update feature prompts the user to update to a newer version of the application and displays the release notes. The user's choice for the previous update is shown as selected.
+  description: When a new {{ en.RDM }} version is available, an update window appears in your application prompting you to update.
 ---
-The ***Update*** feature prompts the user to update to a newer version of the application and displays the release notes. The user's choice for the previous update is shown as selected.
-![Update](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip3587.png)
+When a new {{ en.RDM }} version is available, an update window appears in your application prompting you to update. It also displays the ***Release Notes*** (new features, improvements, fices, breaking changes).
 
-| OPTION | DESCRIPTION |
-|--------|-------------|
-| Remind me later | Remind to update the next time the application is opened. |
-| Skip this version | Do not update the application with this version.        |
+You have the option to download the latest version, skip it, or have {{ en.RDM }} notify you about the update at a later time.
+![Update options](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMW2005_2024_1.png)
+
+| OPTION                                                           | DESCRIPTION                                                                       |
+|------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| Download this version and install now                            | Immediately download the new version and install it.                              |
 | Download this version and install when the application is closed | Download the version and wait for the application to be closed before installing. |
-| Download installer using your default browser | Download the installer externally using your default web browser. |
-| Download this version and install now | Immediately download the new version and install it. |
+| Download installer using your default browser                    | Download the installer externally using your default web browser.                 |
+| Skip this version                                                | Do not update the application with this version.                                  |
+| Remind me later                                                  | Remind your to update the next time the application is opened.                    |

@@ -3,15 +3,11 @@ eleventyComputed:
   title: Configuration file location
   description: "{{ en.RDM }} saves its configuration in a file named **RemoteDesktopManager.cfg**. This file contains most of the application settings."
 ---
-{{ en.RDM }} saves its configuration in a file named **RemoteDesktopManager.cfg**. This file contains most of the application settings.
-
-{% snippet icon.badgeInfo %}
-You can retrieve the installation folder of {{ en.RDM }} by clicking ***File*** – ***Options*** – ***Advanced***. A hyperlink displays the installation folder.
-{% endsnippet %}
+{{ en.RDM }} saves its configuration in a file named **RemoteDesktopManager.cfg**. This file contains most of the application settings. You can retrieve the installation folder of {{ en.RDM }} by clicking ***File*** – ***Options*** – ***Advanced***. A hyperlink displays the installation folder.
 
 ![Options – Advanced](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMWin2257.png)
 
-The configuration file can be located in different folders depending on certain conditions:
+The configuration file can be located in different folders depending on certain conditions.
 
 | Case                                                         | Configuration file location                       |
 |--------------------------------------------------------------|---------------------------------------------------|
@@ -31,4 +27,4 @@ There are two ways to change the folder where the configuration file is stored:
 1. By adding a key in the registry: CurrentUser\SOFTWARE\RemoteDesktopManager, OptionPath. Set the desired path in the key OptionPath. You must not include the file name in the value, just the path.
 
 ## Default configuration for Remote Desktop Services environment
-Please refer to [Remote Desktop Services](/rdm/windows/installation/client/terminal-services/) for details.
+Please refer to [Terminal Services / Remote Desktop Services](/rdm/windows/installation/client/terminal-services/) for details.
