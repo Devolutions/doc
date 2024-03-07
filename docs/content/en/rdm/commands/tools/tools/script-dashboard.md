@@ -39,9 +39,6 @@ This tab contains logs related to the execution of the script, detailing when th
 | Log Date       | The date and time when the execution log entry was created.           |
 | End Date/Time  | The date and time marking the end of the script's execution period.  |
 
-
-It contains the scripts of ***current vault, the global vault***, and the ***user vault***.
-
 ### Favorites
 
  Scripts can be added as ***favorite*** by clicking on the star. Favorites are listed on the left menu. 
