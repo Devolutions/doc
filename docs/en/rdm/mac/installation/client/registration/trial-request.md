@@ -11,8 +11,6 @@ If you are not ready to buy {{ en.RDMMAC }}, you can use the [Free Edition](/rdm
 If you decide not to register by the end of the trial, your data will not be altered or erased, and you will have full access to it once you provide a license key.
 {% endsnippet %}
 
-## Steps
-
 1. Request your [30-day trial](https://devolutions.net/remote-desktop-manager/trial) from our website.
 1. Copy the trial license serial that you receive in a confirmation email from Devolutions.
 1. In {{ en.RDMMAC }}, go to ***Administration – Licenses***.
