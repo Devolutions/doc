@@ -27,3 +27,4 @@ There is a ***Send*** button at the bottom of the form that will send our suppor
 ## Suggested blocklisted applications
 
 * [PhoneExperienceHost (Phone Link app)](https://forum.devolutions.net/topics/39461/paste-once-and-teamviewer#186637)
+* [StorageExplorer.exe (Microsoft Azure Storage Explorer)](https://github.com/microsoft/AzureStorageExplorer/releases)

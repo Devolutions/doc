@@ -4,7 +4,7 @@ eleventyComputed:
   description: The script dashboard is a great addition for IT teams, who often have to use scripts with variables, specifically scripts which do not have a direct link with an entry.
 ---
 
-The ***Script dashboard*** is a great addition for IT teams, who often have to use scripts with variables, specifically scripts that do not have a direct link to an entry (for example, a script creating users in Active Directory).
+The ***Script dashboard*** is useful for centralizing scripts and running them with specific permissions. It is a great addition for IT teams who often need to use scripts with variables, especially scripts that do not have a direct link to an entry (for example, a script that creates users in Active Directory).
 
 ## Settings
 
@@ -28,7 +28,7 @@ This tab provides an overview of the selected script, including information abou
 |------------------|---------------------------------------------------------------------------------------------------|
 | Last executed by | Indicates the identity of the user that last executed the script.                                 |
 | Last executed on | Displays the date and time when the script was last executed.                                     |
-| Script preview   | Provides a snippet or the full view of the script code, allowing for a quick review of its contents. |
+| Script preview   | Provides a preview of the script code, allowing for a quick review of its contents. |
 
 ### Execution Logs Tab
 
@@ -38,9 +38,6 @@ This tab contains logs related to the execution of the script, detailing when th
 |------------------|-----------------------------------------------------------------------|
 | Log Date       | The date and time when the execution log entry was created.           |
 | End Date/Time  | The date and time marking the end of the script's execution period.  |
-
-
-It contains the scripts of ***current vault, the global vault***, and the ***user vault***.
 
 ### Favorites
 

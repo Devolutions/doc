@@ -1,6 +1,7 @@
 ---
 eleventyComputed:
   title: Domain
+  description: The domain is used to authenticate the user. This is the most secure, flexible and easiest to manage. No need to sync users between the domain and {{ en.DVLS }}.
   order: 10
 ---
 The domain is used to authenticate the user. This is the most secure, flexible and easiest to manage. No need to sync users between the domain and {{ en.DVLS }}. With the Automatic User Creation On First Login option enabled, on first use of the {{ en.DVLS }} data source, the user will be created and be given access rights according to their role in the organization as defined on the domain. You simply need to grant appropriate permissions to your user groups in {{ en.DVLS }}. Upon authentication we will validate the AD groups to which the user belongs and for any that have a corresponding user group we will grant the permissions to the user.
@@ -9,7 +10,8 @@ The domain is used to authenticate the user. This is the most secure, flexible a
 The Multi Domain feature requires the {{ en.DVLS }} Platinum Edition license. Please see [Multi Domain](/server/web-interface/administration/configuration/server-settings/general/authentication/domain/multi-domain/) for more information about its configuration.
 {% endsnippet %}
 
-![Authentication - Configure Domain](https://cdnweb.devolutions.net/docs/en/server/AuthenticationDomain.png)
+Go to ***Administration – Server settings – Authentication – Domain*** in the web interface of {{ en.DVLS }}. 
+![Authentication - Configure Domain](https://cdnweb.devolutions.net/docs/en/server/DVLS6009_2024_1.png)
 
 ## Settings
 
@@ -34,10 +36,3 @@ The Multi Domain feature requires the {{ en.DVLS }} Platinum Edition license. Pl
 | Default {{ en.VLT }}               | Will give access to that {{ en.VLT }} to the user.                                            |
 | Only from this AD group            | Will create automatically the user only if he is a member of this AD group.                   |
 | Username Format                    | Select the username format that will be created in the database.<ul><li>UPN: The user will be created using the UPN format ex: bill@windjammer.loc.</li><li>NetBios: The user will be created using the NetBios format ex: WINDJAMMER\bill.</li><li>Username: The user will be created using the SAM account name.</li></ul> |
-
-### Domain Users and User Group Cache
-| Option                                   | Description                                                  |
-|------------------------------------------|--------------------------------------------------------------|
-| Enable domain cache feature              | Enable the Domain users and user group cache.                |
-| Recurrence                               | Interval: Refresh the cache based on the refresh rate set with Hours and minutes parameters.<br>Daily: Refresh the cache based on the refresh rate set with Every X days and At parameters.           |
-| Update users and user groups data every: | Will refresh the cache based on the selected refresh method. |
