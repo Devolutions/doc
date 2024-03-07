@@ -6,4 +6,4 @@ Create an empty SQL database on your Microsoft Azure SQL portal. Provide enough 
 
 Once all fields are properly configured in ***Server – Edit – Database***, click on the ***Update Database*** button to update the database schema.
 
-![{{ en.DVLSCONSOLE }} – Database](https://cdnweb.devolutions.net/docs/en/server/ServerOp8132.png)
+![{{ en.DVLSCONSOLE }} – Database](https://cdnweb.devolutions.net/docs/en/server/DVLSCONSOLE2007_2024_1.png)

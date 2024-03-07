@@ -29,6 +29,6 @@ Installing prerequisites from [{{ en.DVLSCONSOLE }}](/server/management/devoluti
 ## {{ en.DVLSCONSOLE }} method
 1. Open the [{{ en.DVLSCONSOLE }}](/server/management/devolutions-server-console/).
 1. Go in the ***Support*** tab and click on ***IIS Diagnostic***.
-![!!ServerOp8162](https://cdnweb.devolutions.net/docs/en/server/ServerOp8162.png)
+![!!ServerOp8162](https://cdnweb.devolutions.net/docs/en/server/DVLSCONSOLE2006_2024_1.png)
 1. Click on ***Install Prerequisites*** to run the PowerShell script. The window below only appears if a prerequisite is missing during a new installation or an update.
-![IIS features diagnostic](https://cdnweb.devolutions.net/docs/en/server/ServerOp8171.png)
+![IIS features diagnostic](https://cdnweb.devolutions.net/docs/en/server/DVLSCONSOLE2005_2024_1.png)

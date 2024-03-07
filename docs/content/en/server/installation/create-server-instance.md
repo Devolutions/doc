@@ -3,18 +3,17 @@ eleventyComputed:
   title: Create a {{ en.DVLS }} instance
   order: 30
   status: Topic available in German language
+  description: Multiple {{ en.DVLS }} instances can be hosted on the same server. Each instance resides in its own web application within IIS.
   keywords:
   - Roles
 ---
 {% snippet icon.badgeInfo %}
 If you have recently received your serial license keys, please refer to [Getting started](/server/getting-started/).
-{% endsnippet %}
 
-{% snippet icon.badgeInfo %}
 For more information about any of the features in the deploy wizard, please consult their respective topic under [Server Settings](/server/management/devolutions-server-console/devolutions-server-settings/general/).
 {% endsnippet %}
 
-Multiple {{ en.DVLS }} instances can be hosted on the same server. Each instance resides in its own Web Application within IIS. The following steps are carried out using the {{ en.DVLSCONSOLE }}.
+Multiple {{ en.DVLS }} instances can be hosted on the same server. Each instance resides in its own web application within IIS. The following steps are carried out using the {{ en.DVLSCONSOLE }}.
 
 ## First steps
 1. Install {{ en.DVLSCONSOLE }} on the web server. It is available from the [Download](https://server.devolutions.net/home/download) page.
@@ -24,12 +23,12 @@ Multiple {{ en.DVLS }} instances can be hosted on the same server. Each instance
    {% endsnippet %}
 
    ![Run as administrator](https://cdnweb.devolutions.net/docs/en/server/ServerOp8175.png)
-3. In the {{ en.DVLSCONSOLE }}, click on the ***New*** button or the ***Install New Instance*** button to deploy a new server instance using the [***Basic Installation***](#basic-installation) or the [***Advanced Installation***](#advanced-installation) wizard. It is also possible to ***Migrate SQL Data Source***.
+3. In the {{ en.DVLSCONSOLE }}, click on the ***New*** button or the ***Install New Instance*** button to deploy a new server instance using the [basic installation](#basic-installation) or the [advanced installation](#advanced-installation) wizard. It is also possible to ***Migrate SQL Data Source***.
 ![Deploy a new {{ en.DVLS }}](https://cdnweb.devolutions.net/docs/en/server/ServerOp0049.png)
 
 ### Basic installation
 1. If an SQL Server instance is not available on the machine where {{ en.DVLS }} is hosted, a SQL Server Express Edition instance will be installed by the wizard.
-![Basic Installation dialog](https://cdnweb.devolutions.net/docs/en/server/ServerOp8176.png)
+![Basic installation dialog](https://cdnweb.devolutions.net/docs/en/server/ServerOp8176.png)
 1. The following dialog provides the credentials created for the sa SQL account, the {{ en.DVLS }} administrator account and the Encryption Key password. Click on the ***Save As*** button to save the information in a file.
 ![Important credentials dialog](https://cdnweb.devolutions.net/docs/en/server/ServerOp8177.png)
 1. The following dialog displays the SQL Server information, including the ***sa*** account credentials, that will be used by {{ en.DVLS }} to create and connect to the SQL database.

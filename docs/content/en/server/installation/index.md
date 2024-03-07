@@ -2,39 +2,26 @@
 eleventyComputed:
   title: Installation
   order: 20
+  description: A {{ en.DVLS }} instance is a web application. This allows for exposing its services on the Internet or an Intranet.
 ---
-## Topology 
 {% snippet icon.badgeInfo %} 
 If you have just received your license serials, please refer to [Getting started](/server/getting-started/). 
 {% endsnippet %}
- 
-A {{ en.DVLS }} instance is actually a web application. This allows for exposing its services on the Internet or an Intranet.  
 
-The recommended [Topology](/server/overview/topologies/) is the use of two servers: a Database server and a Web server. For smaller installations, a single server can be used, but resources will be shared between the two user groups, thereby affecting performance.  
+## Topology
 
-{% snippet icon.badgeInfo %} 
-The {{ en.DVLSCONSOLE }} is now offered as a stand alone application. It is available on the [Devolutions download page](https://server.devolutions.net/home/download). 
-{% endsnippet %}
- 
-{% snippet icon.badgeCaution %} 
-Please ensure before starting the installation that you have .NET 4.8 installed on your machine. Available to download from this Microsoft link: [.NET Framework 4.8 Offline Installer](https://api.devolutions.net/redirection/a2ad328a-b3a3-4e04-977a-a3e8681f00dc). 
-{% endsnippet %}
- 
-{% snippet icon.shieldWarning %} 
-It is highly recommended to enable SSL Encryption to protect communication with the instance of the SQL Server. Please follow the instructions from Microsoft in [Configure SQL Server Database Engine for encrypting connections](https://learn.microsoft.com/en-US/sql/database-engine/configure-windows/configure-sql-server-encryption). Note that we recommend this be done after the initial setup is complete. 
-{% endsnippet %}
- 
-{% snippet icon.badgeInfo %} 
-For full Active Directory integration, the application pool uses a domain identity. Both servers need to be joined to the domain. 
-{% endsnippet %}
- 
-## Install {{ en.DVLS }} 
+A {{ en.DVLS }} instance is a web application. This allows for exposing its services on the Internet or an Intranet.
 
-### Web Server Prerequisites 
+The recommended [Topology](/server/overview/topologies/) is the use of two servers: a database server and a Web server. For smaller installations, a single server can be used, but resources will be shared between the two user groups, thereby affecting performance.
 
-Please refer to the appropriate topic depending on the operating system of the web server. 
+Key points to consider:
+* Please ensure before starting the installation that you have .NET 8.0 installed on your machine.
+* It is highly recommended to enable SSL Encryption to protect communication with the instance of the SQL Server. Please follow the instructions from Microsoft in [Configure SQL Server Database Engine for encrypting connections](https://learn.microsoft.com/en-US/sql/database-engine/configure-windows/configure-sql-server-encryption). Note that we recommend this be done after the initial setup is complete.
+* For full Active Directory integration, the application pool uses a domain identity. Both servers need to be joined to the domain. 
 
-### Installing web servers
+## Installing {{ en.DVLS }}
+
+### Web server prerequisistes
 
 Please refer to [Installing web server prerequisites](/server/installation/installing-web-server-prerequisites/). 
 
@@ -42,10 +29,10 @@ Please refer to [Installing web server prerequisites](/server/installation/insta
 After you have installed the prerequisites, test the IIS installation by navigating to http<area>://localhost. Do not proceed further if you do not see the IIS welcome screen. There are issues that must be resolved. 
 {% endsnippet %}
  
-### Database Server Prerequisites  
+### Database server prerequisites
 
 Please refer to [Database Instance](/server/installation/database-instance/). 
 
-### Create {{ en.DVLS }} Instance 
+### Create {{ en.DVLS }} instance
 
-Please refer to [Create {{ en.DVLS }} Instance](/server/installation/create-server-instance/).
+Please refer to [Create a {{ en.DVLS }} instance](/server/installation/create-server-instance/).
