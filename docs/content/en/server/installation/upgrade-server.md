@@ -46,6 +46,9 @@ The following is a list of recommendations and steps to follow before proceeding
 1. BREAKING CHANGE: If you upgrade from version 2021.2.14 or older to version 2022.1 or higher, you will have to provide the [Access URI](/kb/devolutions-server/knowledge-base/access-uri/) to reach the {{ en.DVLS }} web page.
 ![!!ServerOp8099](https://cdnweb.devolutions.net/docs/en/server/ServerOp8099.png)
 1. Review the summary and press ***Upgrade*** if you are satisfied.
+1. The {{ en.DVLS }} Maintenance Mode window opens.  
+![{{ en.DVLS }} Maintenance Mode](https://cdnweb.devolutions.net/docs/en/server/DVLS6008_2024_1.png)
+1. The upgrade is completed.
 ![Upgrade completed](https://cdnweb.devolutions.net/docs/en/server/ServerOp8067.png)
 
 ### Final phase
