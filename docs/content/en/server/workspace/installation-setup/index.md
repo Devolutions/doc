@@ -7,5 +7,5 @@ The {{ en.WAPPS }} (mobile and desktop) can be used with {{ en.DVLS }}. They are
 
 Set up your {{ en.DVLS }} with a {{ en.WAPP }} through one of the following guides:
 
-* [{{ en.WDAPP }} with {{ en.DVLS }}](/server/workspace/installation-setup/setup-desktop-devolutions-server/)
-* [{{ en.WMAPP }} with {{ en.DVLS }}](/server/workspace/installation-setup/setup-mobile-devolutions-server/)
+* [{{ en.WDAPP }} setup with {{ en.DVLS }}](/server/workspace/installation-setup/workspace-desktop-app/setup-desktop-devolutions-server/)
+* [{{ en.WMAPP }} setup with {{ en.DVLS }}](/server/workspace/installation-setup/workspace-mobile-app/setup-mobile-devolutions-server/)

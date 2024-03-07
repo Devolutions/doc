@@ -7,7 +7,7 @@ The {{ en.WAPPS }} (mobile and desktop) can be used with {{ en.DHUB }}. They are
 
 Set up your {{ en.DHUBB }} or {{ en.DHUBP }} with a {{ en.WAPP }} through one of the following guides:
 
-* [{{ en.WDAPP }} with {{ en.DHUBB }}](/hub/workspace/installation-setup/setup-desktop-hub-business/)
-* [{{ en.WDAPP }} with {{ en.DHUBP }}](/hub/workspace/installation-setup/setup-desktop-hub-personal/)
-* [{{ en.WMAPP }} with {{ en.DHUBB }}](/hub/workspace/installation-setup/setup-mobile-hub-business/)
-* [{{ en.WMAPP }} with {{ en.DHUBP }}](/hub/workspace/installation-setup/setup-mobile-hub-personal/)
+* [{{ en.WDAPP }} with {{ en.DHUBB }}](/hub/workspace/installation-setup/workspace-desktop-app/setup-desktop-hub-business/)
+* [{{ en.WDAPP }} with {{ en.DHUBP }}](/hub/workspace/installation-setup/workspace-desktop-app/setup-desktop-hub-personal/)
+* [{{ en.WMAPP }} with {{ en.DHUBB }}](/hub/workspace/installation-setup/workspace-mobile-app/setup-mobile-hub-business/)
+* [{{ en.WMAPP }} with {{ en.DHUBP }}](/hub/workspace/installation-setup/workspace-mobile-app/setup-mobile-hub-personal/)
