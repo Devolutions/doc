@@ -6,30 +6,6 @@ eleventyComputed:
 
 PingOne, a renowned cloud-based identity and access management (IAM) solution provided by Ping Identity, offers secure single sign-on (SSO) capabilities, multi-factor authentication (MFA), and user provisioning features. By integrating PingOne with {{ en.RDM }}, organizations can leverage these robust security features directly within their remote desktop management environment.
 
-## Prerequisites 
-
-### Azure AD (EntraID)
-
-Make sure that the ***Use only TokenID for authentication*** option is unchecked in {{ en.DVLS }}. To do so, open the {{ en.DVLS }} web interface and go to ***Administration – Server Settings – Authentication – Microsoft Authentication***.
-
-In ***Azure AD (EntraID)***, the ***Access token (used for implicit flows)*** option must be checked.
-
-1. Open Azure AD (EntraID) web interface.
-1. Click ***App registration***.
-1. In the application found list, select your {{ en.DVLS }} application.
-1. Click ***Authentication***.
-1. Check the ***Access token (used for implicit flows)*** option.
-
-### Okta
-
-Make sure that the ***Use only TokenID for authentication*** option is unchecked in {{ en.DVLS }}. To do so, open the {{ en.DVLS }} web interface and go to ***Administration – Server Settings – Authentication – Microsoft Authentication***.
-
-In ***Okta***, the ***Refresh Token*** option must be checked.
-
-1. Open Okta and click ***Applications***. 
-1. Select {{ en.DVLS }} in the application list.
-1. Under ***General Settings – Grant type***, check ***Refresh Token***.
-
 ## PingOne authentication settings
 
 In PingOne, permissions are assigned based on the type of application. For a ***worker***, permissions come from predefined roles, while permissions for all other types of apps come directly from the user. For PingOne we need two applications.
