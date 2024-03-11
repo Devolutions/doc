@@ -4,8 +4,6 @@ eleventyComputed:
   order: 30
   status: Topic available in German language
   description: Multiple {{ en.DVLS }} instances can be hosted on the same server. Each instance resides in its own web application within IIS.
-  keywords:
-  - Roles
 ---
 {% snippet icon.badgeInfo %}
 If you have recently received your serial license keys, please refer to [Getting started](/server/getting-started/).
@@ -34,8 +32,9 @@ Multiple {{ en.DVLS }} instances can be hosted on the same server. Each instance
 1. The following dialog displays the SQL Server information, including the ***sa*** account credentials, that will be used by {{ en.DVLS }} to create and connect to the SQL database.
 1. Once the installation is successfully completed, the wizard will display the installation summary and will automatically open the default browser to connect on the {{ en.DVLS }} web interface.
 ![Installation summary report](https://cdnweb.devolutions.net/docs/en/server/ServerOp8181.png)
-1. On the {{ en.DVLS }} web interface, use the credentials provided in step 2 to log in. Afterward, a prompt will request a password change before continuing with the login process.
-![Change your password prompt](https://cdnweb.devolutions.net/docs/en/server/ServerOp8182.png)
+1. On the {{ en.DVLS }} web interface, use the credentials provided in step 2 to log in. Afterward, a prompt will request a password change before continuing with the login process.  
+![Change your password prompt](https://cdnweb.devolutions.net/docs/en/server/DVLS6013_2024_1.png)  
+1. Enter your license. To activate the free edition, click the ***Activate the Free Version*** button to immediately access Devolutions Server with a free license.
 
 ### Advanced installation
 1. For the first step, the installation wizard will run diagnostics on the server to verify if the IIS Server has all the necessary web server prerequisites installed and is ready to run {{ en.DVLS }}. Missing features are marked with an error icon. The Install Prerequisites button will install all missing features using a PowerShell script.Click on Close to continue. An internet connection is required for [IIS Application Request Routing (ARR)](https://api.devolutions.net/redirection/f19f07f3-5ea4-436d-a3ba-4bb69d373321), [IIS Rewrite Module](https://api.devolutions.net/redirection/3cb42413-5dfd-4b1b-bd20-4e5968274ed0) and [IIS ASP.NET Core Module (ANCM)](https://dotnet.microsoft.com/permalink/dotnetcore-current-windows-runtime-bundle-installer).
