@@ -9,8 +9,8 @@ The following steps are the same for Teams, Enterprise, and Platinum licenses.
 1. Go to the ***Administration*** tab.
 1. Go to the ***Server Settings – Authentication – Domain*** page.
 ![Domain](https://cdnweb.devolutions.net/docs/en/kb/KB0022.png)
-1. Click on the ***Diagnostics*** button to the top right.
-![Diagnostics](https://cdnweb.devolutions.net/docs/en/kb/KB0023.png)
+1. Go to your domain anb click on the ***Diagnostics*** button.
+![Diagnostics](https://cdnweb.devolutions.net/docs/en/kb/KB6001_2024_1.png)
 1. Set the ***Diagnostic type*** option to ***Get groups by user***.
 ![Get groups by user](https://cdnweb.devolutions.net/docs/en/kb/KB0013.png)
 1. Enter a username from the problematic group in the ***Parameter*** field.
@@ -23,8 +23,10 @@ If this fails, instead use ***Directory entry token group (Legacy)*** or ***Recu
 {% endsnippet %}
 
 9. Close this window by clicking on ***Close***.
+1. Go to your domain et click on the ***Edit*** button.
+![Edit](https://cdnweb.devolutions.net/docs/en/kb/KB6002_2024_1.png)
 1. Click on ***Advanced Settings***.
 ![Advanced Settings Button](https://cdnweb.devolutions.net/docs/en/kb/KB0024.png)
 1. Under ***Strategy***, change the ***Get groups by user*** option to the one selected in step 7.
-![Strategy – Get groups by user](https://cdnweb.devolutions.net/docs/en/kb/KB0018.png)
+![Strategy – Get groups by user](https://cdnweb.devolutions.net/docs/en/kb/KB6000_2024_1.png)
 1. Click on ***OK*** to save the changes.
