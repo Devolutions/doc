@@ -2,15 +2,7 @@
 eleventyComputed:
   title: Systemanforderungen
 ---
-## Mindestanforderungen
-
-{% snippet icon.badgeInfo %}
-{{ de.DVLS }} benötigt Microsoft .NET Core 6.0, .NET Framework 4.8 ist für die Installation der {{ de.DVLSCONSOLE }} erforderlich. Bitte passen Sie Ihre Umgebung an die von Ihnen verwendete Version an.
-{% endsnippet %}
-
-{% snippet icon.badgeInfo %}
 Außerdem überprüft {{ de.DVLS }}, ob die Funktionsebenen von Domäne- und Gesamtstruktur mindestens Windows Server 2016 entsprechen. Dies ist unerlässlich, wenn Sie die Active Directory-Authentifizierung verwenden. 
-{% endsnippet %}
 
 In der folgenden Tabelle sind die empfohlenen Mindestanforderungen für {{ de.DVLS }} aufgeführt. Diese Spezifikationen können, wie weiter unten im Artikel beschrieben, je nach Größe variieren. 
 
@@ -25,8 +17,8 @@ In der folgenden Tabelle sind die empfohlenen Mindestanforderungen für {{ de.DV
 * Azure SQL-Datenbank wird nur mit SQL-Anmeldekonten unterstützt. Azure Active Directory-Konten werden nicht unterstützt. 
 * Windows Server 2019 und 2022. 
 * Funktionsebene von Domänen- und Gesamtstruktur mindestens Windows Server 2016 oder höher. 
-* Microsoft .NET Framework 4.8 (Bitte beachten Sie die [Voraussetzungen für das .NET Framework](https://learn.microsoft.com/de-de/dotnet/framework/get-started/system-requirements) für Betriebssysteme). 
-* Microsoft .NET 6.0 (ASP.NET Core Runtime 6.0.19). 
+* [Microsoft .NET Framework 4.8](https://dotnet.microsoft.com/en-us/download/dotnet-framework/net48) (für die {{ de.DVLSCONSOLE }}).
+* [Microsoft .NET 8.0](https://dotnet.microsoft.com/en-us/download/dotnet/8.0).
 * Internetinformationsdienste (IIS) 7.0 oder höher. 
 * Zur Verwaltung der {{ de.DVLS }} Instanz(en) ist die Installation von {{ de.DVLSCONSOLE }} auf dem Server erforderlich.
 
