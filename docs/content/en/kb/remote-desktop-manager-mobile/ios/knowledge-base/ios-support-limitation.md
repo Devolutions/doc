@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: iOS support limitation
+  title: iOS life cycle policy
   description: "{{ en.RDM }} will support the current version of the iOS operating system (OS) and up to two major versions that directly precede it."
 ---
 {{ en.RDM }} will support the current version of the iOS operating system (OS) and up to one major version that directly precedes it.
