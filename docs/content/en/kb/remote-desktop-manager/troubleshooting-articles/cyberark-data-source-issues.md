@@ -10,7 +10,7 @@ Here is the list of all known CyberArk data source issues.
 
 ### Solution
 
-To perform the [initial configuration](/kb/remote-desktop-manager/how-to-articles/cyberark-data-source/#initial-configuration) steps, make sure you first connect to a user who has the required CyberArk permissions.
+To perform the [initial configuration](/rdm/data-sources/data-sources-types/cyberark-data-source/#initial-configuration) steps, make sure you first connect to a user who has the required CyberArk permissions.
 
 ## Unable to edit an account
 
