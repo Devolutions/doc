@@ -1,9 +1,9 @@
 ---
 eleventyComputed:
   title: Android support limitation
-  description: Devolutions will ensure compatibility of {{ en.RDM }} with the current version of the Android operating system (OS) and up to four major versions that directly precede it.
+  description: Devolutions will ensure compatibility of {{ en.RDM }} with the current version of the Android operating system (OS) and up to three major versions that directly precede it.
 ---
-Devolutions will ensure compatibility of {{ en.RDM }} with the current version of the Android operating system (OS) and up to four major versions that directly precede it (e.g., from Android 14 to Android 10).
+Devolutions will ensure compatibility of {{ en.RDM }} with the current version of the Android operating system (OS) and up to three major versions that directly precede it (e.g., from Android 14 to Android 11).
 
 A “major version” is defined as an official and numbered release that includes significant changes, enhancements, or updates (e.g., Android 13 to Android 14). It is the user’s responsibility to ensure that their device is operating a version of the mobile OS that is supported by {{ en.RDM }}.
 
