@@ -6,7 +6,7 @@ eleventyComputed:
 Following the upgrade process, when trying to open the {{ en.DVLS }} web page, the browser displays ***HTTP Error 500.30 - ASP.NET Core app failed to start***.
 ![HTTP Error 500.30 - ASP.NET Core app failed to start](https://cdnweb.devolutions.net/docs/en/kb/KB8109.png)
 
-## Solution
+### Solution
 
 Verify that ***Enable 32-Bit Applications*** is set to ***False*** in the {{ en.DVLS }} application pool's advanced settings in IIS Manager.
 ![Enable 32-Bit Applications set to False](https://cdnweb.devolutions.net/docs/en/kb/KB6161.png)
@@ -15,5 +15,5 @@ If ***Enable 32-Bit Applications*** is already set to false, ensure that the ser
 Make sure that the APS.Net Core Hostin Bundle installed on the server where {{ en.DVLS }} is hosted is the [latest version](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-aspnetcore-6.0.25-windows-hosting-bundle-installer).
 
 {% snippet icon.badgeHelp %}
-Please contact us at [service@devolutions.net](mailto:service@devolutions.net) if this solution does not solve your problem.
+Please contact our support technicians at [service@devolutions.net](mailto:service@devolutions.net) if this solution does not solve your problem.
 {% endsnippet %}
