@@ -1298,6 +1298,14 @@
                       "url": "/kb/remote-desktop-manager-mobile/android/how-to-articles/deprecated-data-mobile/"
                     }
                   ]
+                },
+                {
+                  "label": "knowledgeBase",
+                  "items": [
+                    {
+                      "url": "/kb/remote-desktop-manager-mobile/android/knowledge-base/android-support-limitation/"
+                    }
+                  ]
                 }
               ]
             },
@@ -1318,6 +1326,14 @@
                     },
                     {
                       "url": "/kb/remote-desktop-manager-mobile/ios/how-to-articles/ios-send-rdp-logs-support/"
+                    }
+                  ]
+                },
+                {
+                  "label": "knowledgeBase",
+                  "items": [
+                    {
+                      "url": "/kb/remote-desktop-manager-mobile/ios/knowledge-base/ios-support-limitation/"
                     }
                   ]
                 }
