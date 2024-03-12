@@ -3,7 +3,7 @@ eleventyComputed:
   title: iOS life cycle policy
   description: "{{ en.RDM }} will support the current version of the iOS operating system (OS) and up to two major versions that directly precede it."
 ---
-{{ en.RDM }} will support the current version of the iOS operating system (OS) and up to one major version that directly precedes it.
+{{ en.RDM }} will support the current version of the iOS operating system (OS) and one major version that directly precedes it.
 
 A “major version” is defined as an official and numbered release that includes significant changes, enhancements, or updates (e.g., iOS 16 to iOS 17). It is the user’s responsibility to ensure that their device is operating a version of the mobile OS that is supported by {{ en.RDM }}.
 
