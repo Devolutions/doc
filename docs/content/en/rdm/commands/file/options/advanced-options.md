@@ -40,7 +40,7 @@ Use ***File – Settings – Advanced*** to control the behavior of the applicat
 | Use Microsoft Office instead of editors                         | When adding a new document by selecting a file supported by a Microsoft Office application (Word, Excel), it will make a Word/Excel document instead of a Rich Text Editor/Spreadsheet Editor entry.     |
 | Use ZipCrypto compression (not recommended)                     | Enable this option to allow the ZipCrypto compression in {{ en.RDM }}. We do not recommend enabling this option. Here is a blog written by our security team about the subject: [Why you should never use the native .Zip Crypto in Windows](https://blog.devolutions.net/2020/08/why-you-should-never-use-zipcrypto/).    |
 
-### Other Options – Microsoft Edge
+### Other options – Microsoft Edge
 
 | OPTION                      | DESCRIPTION                                                                                     |
 |-----------------------------|-------------------------------------------------------------------------------------------------|
@@ -50,7 +50,7 @@ Use ***File – Settings – Advanced*** to control the behavior of the applicat
 | Use embedded Microsoft Edge for reports   | Enabling this option will allow to use the browser Microsoft Edge instead of Internet Explorer to display the reports. |
 
 
-### Other Options – User Interface
+### Other options – User Interface
 
 | OPTION                      | DESCRIPTION                                                                                     |
 |-----------------------------|-------------------------------------------------------------------------------------------------|
@@ -63,6 +63,14 @@ Use ***File – Settings – Advanced*** to control the behavior of the applicat
 | Hide loading data sources progress bar            | Hide the loading data sources progress bar when loading.     |
 | Keep View Password window on top                  | Force the ***View Password*** window to display on top of all the {{ en.RDM }} windows.     |
 | Use old entry sort                                | Use the old entry sort from previous version of {{ en.RDM }}.      |
+
+### Other options - Diagnostic 
+| OPTION                      | DESCRIPTION                                                                                     |
+|-----------------------------|-------------------------------------------------------------------------------------------------|
+| Disable multi-thread loading    | This setting allows {{ en.RDM }} to use multiple threads to load the data. Disabling this option will decrease the performance.        |
+| Disable multi-thread offline file  | This setting allows {{ en.RDM }} to use multiple threads in the offline file. Disabling this option will decrease the performance.      |
+| Disable resilient database connection handling            | Resilient Database connection handling is a mechanism we put in place to retry certain database connections in {{ en.RDM }} to avoid certain errors. Some slowness can be expected when enabled.        |
+| Disable timed caches | Disable temporary data storage. |
 
 ### Information
 
