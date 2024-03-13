@@ -3,8 +3,8 @@ eleventyComputed:
   title: Advanced
   description: Use File – Preferences – Advanced to control the behavior of the application with respect to the lower level settings.
 ---
-Use ***File – Preferences – Advanced*** to control the behavior of the application with respect to the lower level settings.
-![File – Preferences – Advanced](https://cdnweb.devolutions.net/docs/en/rdm/mac/RDMMac2061.png)
+Go to ***File – Preferences – Advanced*** to control the behavior of the application with respect to the lower level settings.
+![File – Preferences – Advanced](https://cdnweb.devolutions.net/docs/en/rdm/mac/RDMM4000_2024_1.png)
 
 ## Settings
 | OPTION     | DESCRIPTION |
@@ -23,10 +23,10 @@ Use ***File – Preferences – Advanced*** to control the behavior of the appli
 |--------------------------------------------------|---------------------------------------------------------------------------------------|
 | Allow multiple instances                         | Allow more than one instance of {{ en.RDMMAC }} to run concurrently. Not recommended. |
 | Automatically open file location after recording | After session recording, opens the destination folder.                                |
-| Confirm on drag and drop move                    | Prompts a confirmation window for every drag and drop move.                           |
 | Disable AppleScript                              | AppleScript is enabled by default; disable it here if desired.                        |
-| Disable Gravatar in user management              | Disable Gravatar in ***Administration – Users*** to improve performance.              |
-| Disable compromised password check               | Disable pwned check if not forced in ***Administration – System Settings – Password Validation***. |
+| Disable Gravatar images in user management       | Disable Gravatar images in ***Administration – Users*** to improve performance.              |
+| Disable all Gravatar images                      | Disable all Gravatars images to improve performance.                                         |
+| Disable compromised password (pwned) check       | Disable pwned check if not forced in ***Administration – System Settings – Password Validation***. |
 | Enable session logging                           | Record and track activities and interactions with {{ en.RDMMAC }}.                    |
 | Prompt Onboarding on startup                     | Enable to be prompted with Onboarding at startup.                                     |
 
@@ -35,7 +35,6 @@ Use ***File – Preferences – Advanced*** to control the behavior of the appli
 |-----------------------------------------|-------------|
 | Disable custom images                   | Disable the loading of any custom images in the tree view. Too many custom images could dramatically increase the size of the data source and increase the load time at the same time. |
 | Get file icons from their apparent type | The file icon will be “deduced“ from the file extension rather than asking the OS to resolve the image for the file directly. Only works for ***FTP***, ***SFTP***, ***SCP***, and ***WebDAV*** session entries. |
-| Use {{ en.VLT }} image in tree view     | The image of the {{ en.VLT }} will be displayed next the {{ en.VLT }} name in the ***{{ en.NPANE }}***. |
 
 ### SSH Key Agent
 | OPTION                           | DESCRIPTION                                     |
@@ -49,3 +48,4 @@ Use ***File – Preferences – Advanced*** to control the behavior of the appli
 | Force “localhost“ when using VPN dynamic port                | Force the use of “localhost“ when using the VPN dynamic port.                |
 | Confirm on multiple sessions open if open count greater than | Select a target number where mass opening sessions will demand confirmation. |
 | Automatically go offline on network change                   | When changing network, {{ en.RDMMAC }} goes in Offline mode.                 |
+| Favor low power GPU                                          | Favor the use of the GPU that requires the least power, if many GPUs are available.
