@@ -3,7 +3,6 @@ eleventyComputed:
   title: Script dashboard 
   description: The script dashboard is a great addition for IT teams, who often have to use scripts with variables, specifically scripts which do not have a direct link with an entry.
 ---
-
 The ***Script dashboard*** is useful for centralizing scripts and running them with specific permissions. It is a great addition for IT teams who often need to use scripts with variables, especially scripts that do not have a direct link to an entry (for example, a script that creates users in Active Directory).
 
 ## Settings
@@ -24,11 +23,12 @@ The ***Script Dashboard*** feature is also available as an entry. Create a new e
 
 This tab provides an overview of the selected script, including information about its most recent execution and a preview of the script itself.
 
-| SETTINGS            | DESCRIPTION                                                                                       |
+| SETTINGS            | DESCRIPTION                                                                                    |
 |------------------|---------------------------------------------------------------------------------------------------|
 | Last executed by | Indicates the identity of the user that last executed the script.                                 |
 | Last executed on | Displays the date and time when the script was last executed.                                     |
-| Script preview   | Provides a preview of the script code, allowing for a quick review of its contents. |
+| Parameters       | Lists the parameters in the PowerShell script.                                                    |
+| Script preview   | Provides a preview of the script code, allowing for a quick review of its contents.               |
 
 ### Execution Logs Tab
 
