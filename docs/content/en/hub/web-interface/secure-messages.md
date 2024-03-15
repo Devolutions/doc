@@ -6,32 +6,43 @@ Send and receive ***Secure Messages*** with users from your hub. Click the ***Me
 ![Messages](https://cdnweb.devolutions.net/docs/en/hub/Hub0005.png)
 
 ## Send a secure message
-1. Click the ***Messages*** icon.
+1. Click the ***Messages*** icon.  
 ![Messages](https://cdnweb.devolutions.net/docs/en/hub/Hub0015.png)
-1. Click on ***New message***.
+1. Click on ***New message***.  
 ![New message](https://cdnweb.devolutions.net/docs/en/hub/Hub0014.png)
-1. Select ***Send In-app***.
+1. Select ***Send In-app***.  
 ![Send In-app](https://cdnweb.devolutions.net/docs/en/hub/Hub0007.png)
    {% snippet icon.badgeInfo %}
    Learn more about the other [two options](/hub/send/).
    {% endsnippet %}
-1. To select the recipient, click the dropdown arrow and select from the list or type in the desired name(s).
+1. To select the recipient, click the dropdown arrow and select from the list or type in the desired name(s).  
 ![Dropdown arrow](https://cdnweb.devolutions.net/docs/en/hub/Hub0016.png)
 1. Fill in the ***Subject*** and add a ***Secure Message***.
-    * Optional: The message can be automatically deleted after some time. To do so, click the ***Expires after*** checkbox and select a date.
-1. Click ***Send*** to forward the message.
+   {% snippet icon.badgeInfo %}
+   The message can be automatically deleted after some time. To do so, click the ***Expires after*** checkbox and select a date.
+   {% endsnippet %}
+1. Click ***Send*** to forward the message.  
 ![Send](https://cdnweb.devolutions.net/docs/en/hub/Hub0023.png)
 
 ## Send an entry copy with secure messages
 You can send a copy of one of your entries to other users with secure messages.
 
 1. Select the entry in your ***{{ en.NPANE }}***.
-1. Click the ***More*** button.
-![!!Hub4129](https://cdnweb.devolutions.net/docs/en/hub/Hub4129.png)
-1. Click ***Send***.
-![!!Hub4130](https://cdnweb.devolutions.net/docs/en/hub/Hub4130.png)
-1. Select the receiver by name.
-1. Fill in the ***Subject*** and add a ***Secure Message***.
-1. Optional: Enter an expiration date for the message. It will automatically be deleted after the selected date.
-![!!Hub4131](https://cdnweb.devolutions.net/docs/en/hub/Hub4131.png)
+1. Click the ***More*** button.  
+![More](https://cdnweb.devolutions.net/docs/en/hub/HUBB0001_2024_1.png)
+1. Click ***Send Copy***.  
+![Send Copy](https://cdnweb.devolutions.net/docs/en/hub/HUBB0000_2024_1.png)
+1. Enter the name of the recipient.
+1. Fill in the ***Subject*** and add a ***Secure Message***.  
+![Message window](https://cdnweb.devolutions.net/docs/en/hub/HUBB0002_2024_1.png)
+   {% snippet icon.badgeInfo %}
+   The message can be automatically deleted after some time. To do so, click the ***Expires after*** checkbox and select a date.
+   {% endsnippet %}
 1. Click ***Send*** to forward the message.
+
+## How to receive a secure message
+A blue dot will appear on the message icon to signify you have unread messages.
+1. Click on the ***Messages*** button.  
+![Messages](https://cdnweb.devolutions.net/docs/en/hub/HUBB0003_2024_1.png)
+1. Click on the message in the inbox.  
+![Inbox](https://cdnweb.devolutions.net/docs/en/hub/HUBB0004_2024_1.png)
