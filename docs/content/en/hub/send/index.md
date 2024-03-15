@@ -69,4 +69,4 @@ It is also possible to send a password directly to another user in-app or outsid
 The main difference with this option is that the password is automatically added and hidden as the message. The password can only be edited if the text is revealed (by clicking the eye icon).
 ![Editable only when revealed](https://cdnweb.devolutions.net/docs/en/hub/Hub0022.png)
 
-To learn more about the ***New Message*** features, please refer to the above section on [How to use {{ en.DSEND }} with {{ en.DHUBB }}](#how-to-use-devolutions-send-with-devolutions-hub-business).
+To learn more about the ***Secure message*** features, please refer to the above section on [How to use {{ en.DSEND }} with {{ en.DHUBB }}](#how-to-use-devolutions-send-with-devolutions-hub-business).
