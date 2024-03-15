@@ -7,7 +7,8 @@ When installing the Microsoft Edge WebView2 Runtime for {{ en.RDM }}, you may ge
 
 **Installation failed. The Microsoft Edge WebView2 Runtime is already installed for the system.**
 
-If that's the case, you need to force the reinstallation of the program by deleting a registry key:
+### Solution
+Force the reinstallation of the program by deleting a registry key:
 1. Open the Windows Registry Editor. To do so, press the <kbd>Windows</kbd>+<kbd>R</kbd> keys to open the Windows ***Run*** dialog.
 1. In the dialog box, enter "regedit" in the field then click ***OK*** (or press <kbd>Enter</kbd>).
 ![Open the Windows Registry Editor](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMW2008_2024_1.png)
