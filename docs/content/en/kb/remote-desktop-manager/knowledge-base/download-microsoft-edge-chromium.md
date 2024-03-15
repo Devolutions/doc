@@ -1,22 +1,12 @@
 ---
 eleventyComputed:
   title: Download Microsoft Edge Chromium
-  description: When launching an entry in {{ en.RDM }} with Microsoft Edge Chromium it might require you to download the WebView2 Runtime from Microsoft.
+  description: We highly recommend that you download and install the Microsoft Edge WebView2 Runtime, as many of {{ en.RDM }}'s features require it to function.
   keywords:
   -  Microsoft Edge Chromium
   -  WebView2 Runtime
 ---
-{% snippet icon.badgeCaution %}
-{{ en.RDM }} will need to be restarted for this download to apply.
-{% endsnippet %}
-
-Many features in {{ en.RDM }} use Microsoft's [WebView2 Runtime](https://developer.microsoft.com/en-us/microsoft-edge/webview2/#download-section). Its installation is highly recommended.
-
-The compatible download link for {{ en.RDM }} is the one under the Evergreen Bootstrapper.
-![Evergreen Bootstrapper](https://cdnweb.devolutions.net/docs/en/kb/KB6021.png)
-
-Here is a list of features that require ***WebView2 Runtime***:
-
+We highly recommend that you download and install the Microsoft Edge WebView2 Runtime, as many of {{ en.RDM }}'s features require it to function, such as:
 * Onboarding
 * Dashboards
 * Web browser (ex: Edge embedded)
@@ -26,3 +16,12 @@ Here is a list of features that require ***WebView2 Runtime***:
 * Compare prompt (ex: documentation)
 * Help prompt
 * Change history in available update prompt
+
+Download the [Microsoft Edge WebView2 Runtime](https://developer.microsoft.com/en-us/microsoft-edge/webview2/#download-section). The compatible download link for {{ en.RDM }} is the one under the ***Evergreen Bootstrapper*** section.
+![Evergreen Bootstrapper download](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMW2007_2024_1.png)
+
+Once downloaded and installed, restart {{ en.RDM }} for the installation to take effect.
+
+{% snippet icon.badgeHelp %}
+If you get an error message indicating that installation has failed due to an existing installation on the current system, you need to force reinstallation of the program by deleting a registry key. Follow the steps in [Microsoft Edge WebView2 Runtime installation troubleshooting](/kb/remote-desktop-manager/troubleshooting-articles/microsoft-edge-webview2-runtime-installation-troubleshooting).
+{% endsnippet %}
