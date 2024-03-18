@@ -9,7 +9,7 @@ To find this feature in {{ en.RDM }}, go to ***File – Settings – Types – S
 ![File – Settings – Types – Sessions – Terminal – Syntax highlighting](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMW2010_2024_1.png)
 
 Below is a list of all ***Syntax highlighting*** options.
-![Syntax highlighting](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMW2011_2024_1.png)
+![Syntax highlighting](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMW2012_2024_1.png)
 
 | Option               | Description                                                                                                        |
 |----------------------|--------------------------------------------------------------------------------------------------------------------|
