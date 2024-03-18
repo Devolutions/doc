@@ -9,7 +9,7 @@ eleventyComputed:
 To enable and configure your encryption service, the following prerequisites are necessary:
 * A configured and active [Single Sign-On (SSO) setup](/hub/getting-started/get-started-sso-hub-business/).
 * An [application identity](#application-identity-permissions) in your Hub.
-* A self-hosted server to the [{{ en.DHUBS }}](#devolutions-hub-services-installation-configuration).
+* A self-hosted server to install the [{{ en.DHUBS }}](#devolutions-hub-services-installation-configuration).
 * A trusted SSL certificate.
 * A reachable network port within the local network and, if applicable, from the internet.
 
