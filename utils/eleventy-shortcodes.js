@@ -113,13 +113,70 @@ module.exports = (config) => {
     }).join('');
 
     return `<div class="tabs"><nav role="tablist">${htmlTabs}</nav><div>${content}</div></div>`;
-  })
+  });
 
   config.addPairedShortcode('tabItem', (content, label) => {
     if (!label) {
-      throw new Error('Missing label prop on {% tabItem "My Label" %} component');
+      throw new Error('Missing label prop on {% tabItem "My label is missing" %} component');
     }
 
     return `<section role="tabpanel" data-label="${label}">${md.render(content).replace(/\n/g, '')}</section>`;
-  })
+  });
+
+  config.addFilter('gTab', function (content) {
+    const dataLabelGlobalRegex = /data-label="gTab-(.+?)"/g;
+    const dataLabelRegex = /data-label="gTab-(.+?)"/;
+    const icons = ['windows', 'macos', 'linux'];
+    let tabs = new Set();
+    let htmlTabs = "";
+
+    content.match(dataLabelGlobalRegex)?.map((match) => {
+      const dataLabel = match.match(dataLabelRegex)[1];
+      tabs.add(dataLabel);
+
+      if (dataLabel !== tabs.values().next().value) {
+        const addHidden = `${match} hidden>`;
+
+        content = content.replace(`${match}>`, addHidden);
+      }
+    });
+
+    if (tabs.size !== 0) {
+      htmlTabs += '<nav id="global-tab" class="flex mb-6 shadow-[inset_0_-2px_0_rgba(0,0,0,0.18)]" role="tablist">';
+
+      let isFirst = true;
+      tabs.forEach(tab => {
+        const tabSlugify = slugify(tab, { lower: true });
+        let htmlIcon = '';
+
+        if (icons.includes(tabSlugify)) {
+          htmlIcon = `<img alt="${tab} icon" class="size-6 mr-1.5" src="https://cdnweb.devolutions.net/web/common/images/icons/sys-${tabSlugify}.png" />`;
+        }
+
+        htmlTabs += `<a class="flex items-center px-3 py-2 mt-0 font-semibold border-b-2 border-transparent text-sm/none hover:text-primary aria-selected:text-primary aria-selected:border-primary" href="?tab=${tabSlugify}" role="tab" aria-selected="${isFirst}">
+          ${htmlIcon}${tab}
+        </a>`;
+
+        isFirst = false;
+      });
+
+      htmlTabs += '</nav>';
+    }
+
+    return `${htmlTabs}<div class="prose markdown">${content}</div>`;
+  });
+
+  const gTabs = [
+    { label: "Windows" },
+    { label: "macOS" },
+    { label: "Linux" }
+  ];
+
+  gTabs.forEach(tab => {
+    const labelSlugify = slugify(tab.label, { lower: true });
+
+    config.addPairedShortcode(labelSlugify, (content) => {
+      return `<section role="tabpanel" data-label="gTab-${tab.label}" data-panel="gTab-${labelSlugify}">${md.render(content).replace(/\n/g, '')}</section>`;
+    });
+  });
 }

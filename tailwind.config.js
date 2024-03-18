@@ -2,7 +2,7 @@
 const plugin = require('tailwindcss/plugin');
 
 module.exports = {
-  content: ['./docs/**/*.liquid'],
+  content: ['./docs/**/*.liquid', './utils/eleventy-shortcodes.js', './src/_utils/filters/toc.js'],
   darkMode: 'class',
   theme: {
     extend: {

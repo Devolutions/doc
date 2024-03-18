@@ -104,8 +104,10 @@ eleventyImport:
       </div>
     </div>
 
-    <main class="markdown">
-      {{- content | safe -}}
+    <main class="markdown-old">
+      <div class="markdown">
+        {{- content | safe -}}
+      </div>
 
       <a class="button feedback-type-product github-link" aria-label="Send feedback about this page" data-bi-name="create-issue-on-github" href="https://github.com/Devolutions/doc/issues/new?template=feedback.yml&title={{- '[Feedback]: ' | encodeURIComponent -}}&feedback={{- feedbackBody | encodeURIComponent -}}" target="_blank">
         <span class="icon" aria-hidden="true">
