@@ -1,40 +1,24 @@
 ---
 eleventyComputed:
   title: Syntax highlighting
-  description: How to use Syntax highlighting in {{ en.RDM }}
+  description: Syntax highlighting displays text, particularly source code, in various colors and fonts to differentiate and emphasize different categories of terms.
 ---
-Syntax highlighting is a feature found in text editors, commonly used for programming, scripting, and markup languages like HTML. This feature displays text, particularly source code, in various colors and fonts to differentiate and emphasize different categories of terms.
+Syntax highlighting is a feature found in text editors, commonly used for programming, scripting, and markup languages like HTML. It displays text, particularly source code, in various colors and fonts to differentiate and emphasize different categories of terms.
 
-1. In {{ en.RDM }}, go to ***File – Options*** and select ***Types – Terminal – Syntax highlighting***.
+To find this feature in {{ en.RDM }}, go to ***File – Settings – Types – Sessions – Terminal*** and select ***Syntax highlighting***. Add a new item in the list by clicking on ***Add***.
+![File – Settings – Types – Sessions – Terminal – Syntax highlighting](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMW2010_2024_1.png)
 
-1. Click ***Add (+)*** to open the ***Syntax highlighting window***.
+Below is a list of all ***Syntax highlighting*** options.
+![Syntax highlighting](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMW2011_2024_1.png)
 
-![File – Options – Types –  Terminal – Syntax highlighting – Add (+)](https://cdnweb.devolutions.net/docs/en/kb/KB6102.png)
-
-Below is a list of all the options available in the ***Syntax highlighting window***.
-
-![Syntax highlighting window](https://cdnweb.devolutions.net/docs/en/kb/KB6101.png)
-
-### General section
-
-***Name***: The name that will be displayed in the highlight list. For information only.
-
-***Keyword***: What is used to make the match. If you don't check ***Use regex comparison*** (below in the Advanced section), it does a simple text string validation.
-
-***Highlighting enabled***: Check whether highlighting will be applied or not. You might want to save different highlightings and not set them all.
-
-### Style section
-
-***Foreground color***: The highlight color for the foreground (text).
-
-***Background color***: The color of the highlight for the background.
-
-***Underlined***: Check to underline the highlight.
-
-### Advanced section
-
-***Use regex comparison***: Change how the match is made. In regex mode, it uses regex syntax to make the match.
-
-***Case sensitive***: Select whether the match will be case sensitive or not. Only available in normal mode.
-
-***Complete word***: Set the match to be on the complete word or not. Only available in normal mode.
+| Option               | Description                                                                                                        |
+|----------------------|--------------------------------------------------------------------------------------------------------------------|
+| Name                 | The name that will be displayed in the highlight list. For information only.                                       |
+| Keyword              | What is used to make the match. If you do not check ***Use regex comparison*** (below in the ***Advanced*** section), it does a simple text string validation. Separate multiple keywords in the field by pressing <kbd>Enter</kbd>.                                                    |
+| Highlighting enabled | Enable to highlight the specified keyword(s). You might want to save different highlightings and not set them all. |
+| Foreground color     | The highlight color for the foreground (text).                                                                     |
+| Background color     | The highlight color for the background (behind the text).                                                          |
+| Underlined           | Enable this option to underline the highlight.                                                                     |
+| Use regex comparison | Enable this option to change how the match is made to regex (regular expression) mode.                             |
+| Case sensitive       | Enable this option to make the match case sensitive. This is only available in normal mode.                        |
+| Complete word        | Enable this option to set the match to be on the whole word. This is only available in normal mode.                |
