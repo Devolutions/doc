@@ -5,8 +5,6 @@ eleventyComputed:
 ---
 The {{ en.WBEX }} user interface is slightly different in your browser depending on the Devolutions product used in conjunction with the extension. This topic will present the {{ en.WBEX }} user interface when used with {{ en.DVLS }}.
 
-Testtesttest
-
 The main view, which is the one displayed when first opening the {{ en.WBEX }} in your browser, can be divided into three main sections:
 
 1. The ***Top Menu*** gives you access to some {{ en.WBEX }} functionalities and settings.
