@@ -2,10 +2,8 @@
 eleventyComputed:
   title: Permissions
   description: The Permissions panel can be found in every entry properties in the Security – Permissions section.
-  keywords:
-  - Roles
 ---
-The ***Permissions*** panel can be found in every entry properties in the ***Security – Permissions*** section.
+The ***Permissions*** panel can be found in every entry properties by clicking ***Security – Permissions – Advanced***.
 
 Allow administrators to grant administrative permissions to standard users without making them administrators with [system permissions](/server/web-interface/administration/configuration/system-permissions/).
 

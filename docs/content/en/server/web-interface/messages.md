@@ -4,7 +4,7 @@ eleventyComputed:
   description: This topic covers reading and sending messages through the {{ en.DVLS }} web interface.
 ---
 Send and receive ***Secure Messages*** with users from your {{ en.DVLS }}.
-![Messages button](https://cdnweb.devolutions.net/docs/en/server/ServerOp4009.png)
+![Messages button](https://cdnweb.devolutions.net/docs/en/server/DVLS6025_2024_1.png)
 
 Click the ***Messages*** icon to create and read secure messages. These can include credentials, {{ en.UVLT }} entries, and files.
 ![New Messages](https://cdnweb.devolutions.net/docs/en/server/ServerOp4052.png)
