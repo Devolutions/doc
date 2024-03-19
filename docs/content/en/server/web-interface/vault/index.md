@@ -1,6 +1,7 @@
 ---
 eleventyComputed:
   title: "{{ en.VLT_MAJ }}"
+  description: The {{ en.VLT }}s allow the users to [Create Entries](/server/web-interface/vault/entries/create-entries-manually/) and manage the content of the data source. 
   order: 60
 ---
 The ***{{ en.VLT }}s*** allow the users to [Create Entries](/server/web-interface/vault/entries/create-entries-manually/) and manage the content of the data source. {{ en.VLT_MAJ }} s are containers that divide the data source into multiple compartments.
@@ -16,4 +17,4 @@ To access the {{ en.VLT }}s management, navigate to [Administration – {{ en.VL
 * The ***{{ en.NPANE }}*** (left) lists the entries available in the data source (current {{ en.VLT }}).
 * The ***Content Area*** (right) displays information regarding the selected entry.
 
-![{{ en.VLT_MAJ }}s](https://cdnweb.devolutions.net/docs/en/server/ServerOp8023.png)
+![{{ en.VLT_MAJ }}s](https://cdnweb.devolutions.net/docs/en/server/DVLS6032_2024_1.png)

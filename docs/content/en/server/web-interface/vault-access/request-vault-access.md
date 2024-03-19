@@ -7,7 +7,7 @@ eleventyComputed:
 You can request access to a public {{ en.VLT }} in {{ en.DVLS }}. Follow the steps below to complete a request.
 
 1. Connect to the {{ en.DVLS }} that contains the {{ en.VLT }} you want access to.
-1. In the {{ en.VLT }} selector drop-down menu, click ***More*** and then click on ***View All {{ en.VLT }}s***.
+1. In the {{ en.VLT }} selector drop-down menu, click ***More*** and then click on ***Browse All {{ en.VLT }}s***.
 ![More](https://cdnweb.devolutions.net/docs/en/server/ServerOp0024.png)
 1. Choose the {{ en.VLT }} you want to access, then click on ***Request Access***.
 ![Request Access](https://cdnweb.devolutions.net/docs/en/server/ServerOp0027.png)
