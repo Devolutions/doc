@@ -30,7 +30,7 @@ Il existe deux façons d'utiliser {{ fr.DVLS }} :
 Accès par le navigateur Web et le [{{ fr.WBEX }}](/fr/server/workspace-browser-extension/overview/)
 		</td>
 		<td>
-![!!Application64x64](https://cdnweb.devolutions.net/docs/common/Application64x64.png)
+![!!Application64x64](https://cdnweb.devolutions.net/docs/docs_common_Application64x64.png)
 
 ## Gestion de sessions
 

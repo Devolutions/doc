@@ -20,10 +20,10 @@ The list of snippet icons is available in the [_data](https://github.com/Devolut
 
 The initial set of icons represents fundamental information and is characterized by a circular shape.
 
-![!!Snippet Basic](https://cdnweb.devolutions.net/docs/common/contribute_snippet_basic.png)
+![!!Snippet Basic](https://cdnweb.devolutions.net/docs/docs_common_contribute_snippet_basic.png)
 
 ### Security information snippet
 
 The second set of icons is dedicated to addressing security-related matters. These icons are designed in the shape of a shield.
 
-![!!Snippet Security](https://cdnweb.devolutions.net/docs/common/contribute_snippet_security.png)
+![!!Snippet Security](https://cdnweb.devolutions.net/docs/docs_common_contribute_snippet_security.png)

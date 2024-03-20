@@ -29,8 +29,8 @@ You can use the menu in the Play list Management for multiple options.
 ### Settings
 | OPTION                                                                                         | DESCRIPTION                        |
 |------------------------------------------------------------------------------------------------|------------------------------------|
-| ![!!add-large](https://cdnweb.devolutions.net/docs/common/add-large.png)                 | Create a new Play list.            |
-| ![!!remove](https://cdnweb.devolutions.net/docs/common/remove.png)                       | Delete an existing Play list.      |
-| ![!!entry-SampleGear1](https://cdnweb.devolutions.net/docs/common/entry-SampleGear1.png) | Edit the selected Play list.       |
-| ![!!refresh-macOS](https://cdnweb.devolutions.net/docs/common/refresh-macOS.png)         | Refresh your Play list Management. |
-| ![!!copy-macOS](https://cdnweb.devolutions.net/docs/common/copy-macOS.png)               | Copy the selected Play list.       |
+| ![!!add-large](https://cdnweb.devolutions.net/docs/docs_common_add-large.png)                 | Create a new Play list.            |
+| ![!!remove](https://cdnweb.devolutions.net/docs/docs_common_remove.png)                       | Delete an existing Play list.      |
+| ![!!entry-SampleGear1](https://cdnweb.devolutions.net/docs/docs_common_entry-SampleGear1.png) | Edit the selected Play list.       |
+| ![!!refresh-macOS](https://cdnweb.devolutions.net/docs/docs_common_refresh-macOS.png)         | Refresh your Play list Management. |
+| ![!!copy-macOS](https://cdnweb.devolutions.net/docs/docs_common_copy-macOS.png)               | Copy the selected Play list.       |

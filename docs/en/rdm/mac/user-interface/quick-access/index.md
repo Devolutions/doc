@@ -18,8 +18,8 @@ The Quick Access Toolbar normally sits at the top of the application. It is comp
 
 | Command | Description |
 |---------|-------------|
-| ![!!clip10553](https://cdnweb.devolutions.net/docs/common/document-empty.png) | Create a new entry in your current data source.   |
-| ![!!clip10554](https://cdnweb.devolutions.net/docs/common/edit.png) | Open the properties window of your selected entry.    |
+| ![!!clip10553](https://cdnweb.devolutions.net/docs/docs_common_document-empty.png) | Create a new entry in your current data source.   |
+| ![!!clip10554](https://cdnweb.devolutions.net/docs/docs_common_edit.png) | Open the properties window of your selected entry.    |
 
 ### Quick Connect
 

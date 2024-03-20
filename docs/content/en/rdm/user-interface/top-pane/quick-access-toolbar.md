@@ -20,10 +20,10 @@ Commands contained in the ribbon can be added in the quick access toolbar. These
 
 | COMMAND | DESCRIPTION |
 |---------|-------------|
-| ![!!RibbonNewDocumentSmall](https://cdnweb.devolutions.net/docs/common/document-empty.png) | Create a new entry in your current data source.        |
-| ![!!RibbonEditSmall](https://cdnweb.devolutions.net/docs/common/edit.png) | Open the properties window of your selected entry.                   |
-| ![!!RibbonRefreshSmall](https://cdnweb.devolutions.net/docs/common/refresh-large.png) | Refresh your data source.                                      |
-| ![!!RibbonSearchSmall](https://cdnweb.devolutions.net/docs/common/search.png) | Open the filter dialog window to allow you to do a quick search. |
+| ![!!RibbonNewDocumentSmall](https://cdnweb.devolutions.net/docs/docs_common_document-empty.png) | Create a new entry in your current data source.        |
+| ![!!RibbonEditSmall](https://cdnweb.devolutions.net/docs/docs_common_edit.png) | Open the properties window of your selected entry.                   |
+| ![!!RibbonRefreshSmall](https://cdnweb.devolutions.net/docs/docs_common_refresh-large.png) | Refresh your data source.                                      |
+| ![!!RibbonSearchSmall](https://cdnweb.devolutions.net/docs/docs_common_search.png) | Open the filter dialog window to allow you to do a quick search. |
 
 Right-Click on any command to display the contextual menu. To remove an item from the quick access toolbar, right-click on the item and select ***Remove***. To add an item to the quick access toolbar, right-click an item in the ribbon and select ***Add***. Use this to customize your workspace with your preferences.
 

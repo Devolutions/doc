@@ -32,7 +32,7 @@ DESCRIPTION
 	</tr>
 	<tr>
 		<td>
-![!!RibbonAddSmall](https://cdnweb.devolutions.net/docs/common/RibbonAddSmall.png)
+![!!RibbonAddSmall](https://cdnweb.devolutions.net/docs/docs_common_RibbonAddSmall.png)
 		</td>
 		<td>
 Créer une nouvelle entrée dans votre source de données actuelle.
@@ -40,7 +40,7 @@ Créer une nouvelle entrée dans votre source de données actuelle.
 	</tr>
 	<tr>
 		<td>
-![!!RibbonEditSmall](https://cdnweb.devolutions.net/docs/common/edit.png)
+![!!RibbonEditSmall](https://cdnweb.devolutions.net/docs/docs_common_edit.png)
 		</td>
 		<td>
 Ouvrir la fenêtre des propriétés de votre entrée sélectionnée
@@ -48,7 +48,7 @@ Ouvrir la fenêtre des propriétés de votre entrée sélectionnée
 	</tr>
 	<tr>
 		<td>
-![!!RibbonRefreshSmall](https://cdnweb.devolutions.net/docs/common/refresh-large.png)
+![!!RibbonRefreshSmall](https://cdnweb.devolutions.net/docs/docs_common_refresh-large.png)
 		</td>
 		<td>
 Actualiser votre source de données.
@@ -56,7 +56,7 @@ Actualiser votre source de données.
 	</tr>
 	<tr>
 		<td>
-![!!RibbonSearchSmall](https://cdnweb.devolutions.net/docs/common/search.png)
+![!!RibbonSearchSmall](https://cdnweb.devolutions.net/docs/docs_common_search.png)
 		</td>
 		<td>
 Ouvrir la fenêtre de dialogue du filtre pour vous permettre d'effectuer une recherche rapide

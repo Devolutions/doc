@@ -28,7 +28,7 @@ Ajouter un groupe d'utilisateur.
 	</tr>
 	<tr>
 		<td>
-![NavImportSmall](https://cdnweb.devolutions.net/docs/common/NavImportSmall.png)
+![NavImportSmall](https://cdnweb.devolutions.net/docs/docs_common_NavImportSmall.png)
 		</td>
 		<td>
 Importer des groupes d'utilisateurs depuis LDAP ou Azure.
@@ -36,7 +36,7 @@ Importer des groupes d'utilisateurs depuis LDAP ou Azure.
 	</tr>
 	<tr>
 		<td>
-![!!RibbonRefreshGraySmall](https://cdnweb.devolutions.net/docs/common/RibbonRefreshGraySmall.png)
+![!!RibbonRefreshGraySmall](https://cdnweb.devolutions.net/docs/docs_common_RibbonRefreshGraySmall.png)
 		</td>
 		<td>
 Actualiser la liste des groupes d'utilisateurs.
@@ -72,7 +72,7 @@ Assigner un {{ fr.VLT }} au groupe d'utilisateur.
 	</tr>
 	<tr>
 		<td>
-![!!RibbonEditSmall](https://cdnweb.devolutions.net/docs/common/edit.png)
+![!!RibbonEditSmall](https://cdnweb.devolutions.net/docs/docs_common_edit.png)
 		</td>
 		<td>
 Modifier les paramètres du groupe d'utilisateurs.
@@ -80,7 +80,7 @@ Modifier les paramètres du groupe d'utilisateurs.
 	</tr>
 	<tr>
 		<td>
-![!!delete](https://cdnweb.devolutions.net/docs/common/delete.png)
+![!!delete](https://cdnweb.devolutions.net/docs/docs_common_delete.png)
 		</td>
 		<td>
 Supprimer le groupe d'utilisateur.

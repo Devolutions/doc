@@ -6,7 +6,7 @@ eleventyComputed:
 	<tr>
 		<td>
 
-![!!DataSourceFtpLarge](https://cdnweb.devolutions.net/docs/common/DataSourceFtpLarge.png)
+![!!DataSourceFtpLarge](https://cdnweb.devolutions.net/docs/docs_common_DataSourceFtpLarge.png)
 		</td>
 		<td>
 {{ fr.RDM }} télécharge et téléverse les paramètres de session directement à partir d'un fichier situé sur un site FTP.

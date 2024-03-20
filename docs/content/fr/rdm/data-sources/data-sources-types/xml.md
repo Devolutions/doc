@@ -6,7 +6,7 @@ eleventyComputed:
 	<tr>
 		<td>
 
-![!!DataSourceXMLLarge](https://cdnweb.devolutions.net/docs/common/DataSourceXMLLarge.png)
+![!!DataSourceXMLLarge](https://cdnweb.devolutions.net/docs/docs_common_DataSourceXMLLarge.png)
 		</td>
 		<td>
 {{ fr.RDM }} enregistre les paramètres directement dans un fichier au format XML.

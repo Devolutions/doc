@@ -12,7 +12,7 @@ Here are the ways you can contribute to our documentation:
 ### Send us feedback
 
 At the bottom of all our topics in our documentation, you can click on ***Feedback***.
-![!!Feedback button](https://cdnweb.devolutions.net/docs/common/contribute_feedback_button.png)
+![!!Feedback button](https://cdnweb.devolutions.net/docs/docs_common_contribute_feedback_button.png)
 
 You will be sent to our GitHub repository to [create an issue](https://github.com/Devolutions/doc/issues). Simply write a meaningful title and enter your feedback about our documentation below. This is also where you can [send us images](https://github.com/Devolutions/doc/blob/master/contribute/images.md).
 
@@ -22,24 +22,24 @@ For feedback on product features, head to our [Devolutions Forum](https://forum.
 
 1. Go to the topic you want to edit in our [documentation](https://docs.devolutions.net/).
 1. In the web page, click the pencil icon located at the top of the topic next to the title to edit the topic in GitHub.
-![!!Pencil icon](https://cdnweb.devolutions.net/docs/common/contribute_pencil_icon.png)
+![!!Pencil icon](https://cdnweb.devolutions.net/docs/docs_common_contribute_pencil_icon.png)
 1. In the GitHub page, click the ***Edit the file in your fork of this project*** pencil icon.
-![!!Edit the file in your fork of this project](https://cdnweb.devolutions.net/docs/common/contribute_github_edit.png)
+![!!Edit the file in your fork of this project](https://cdnweb.devolutions.net/docs/docs_common_contribute_github_edit.png)
 1. Edit your topic. At any time, you can click the ***Preview*** tab in GitHub to see what the topics will look like in the web page. Note that some features may not display correctly in this tab, but will be properly displayed in the final product.
-![!!Edit and Preview tabs](https://cdnweb.devolutions.net/docs/common/contribute_edit_preview_tabs.png)
+![!!Edit and Preview tabs](https://cdnweb.devolutions.net/docs/docs_common_contribute_edit_preview_tabs.png)
 
    See [Manage the front matter metadata](front-matter-metadata.md) to learn what to add in the front matter of your topic. Also visit the other guides in the current contribute folder to help you write your topic.
 
 1. Once you are completely done, click ***Commit changes***.
-![!!Commit changes](https://cdnweb.devolutions.net/docs/common/contribute_commit_changes.png)
+![!!Commit changes](https://cdnweb.devolutions.net/docs/docs_common_contribute_commit_changes.png)
 1. Write a ***Commit message*** (mandatory, but you can keep the default message) and an ***Extended description*** (optional but recommended).
-![!!Commit message and Extended description](https://cdnweb.devolutions.net/docs/common/contribute_commit_message_extended_description.png)
+![!!Commit message and Extended description](https://cdnweb.devolutions.net/docs/docs_common_contribute_commit_message_extended_description.png)
 1. Click ***Propose changes***.
-![!!Propose changes](https://cdnweb.devolutions.net/docs/common/contribute_propose_changes.png)
+![!!Propose changes](https://cdnweb.devolutions.net/docs/docs_common_contribute_propose_changes.png)
 1. In ***Comparing changes***, click ***Create pull request***.
-![!!Comparing changes – Create pull request](https://cdnweb.devolutions.net/docs/common/contribute_create_pull_request.png)
+![!!Comparing changes – Create pull request](https://cdnweb.devolutions.net/docs/docs_common_contribute_create_pull_request.png)
 1. In ***Open a pull request***, click ***Create pull request*** again to confirm.
- ![!!Open a pull request – Create pull request](https://cdnweb.devolutions.net/docs/common/contribute_create_pull_request_2.png)
+ ![!!Open a pull request – Create pull request](https://cdnweb.devolutions.net/docs/docs_common_contribute_create_pull_request_2.png)
 You are done! Thank you for your contribution, our team will review your changes in a timely manner.
 
 ### Create a new topic
@@ -59,12 +59,12 @@ You are done! Thank you for your contribution, our team will review your changes
    We may change its location if we deem that it should be placed elsewhere.
 
 1. Once you have found the desired location in GitHub, in the direct parent folder, click ***Add file***, then ***Create new file*** to write the topic in the GitHub web interface.
-![!!Add file – Create new file](https://cdnweb.devolutions.net/docs/common/contribute_create_new_file.png)
+![!!Add file – Create new file](https://cdnweb.devolutions.net/docs/docs_common_contribute_create_new_file.png)
 
    For security reasons, the option to upload a file is disabled.
 
 1. Name your file at the top in the path by following the instructions below. Note that even if it is based on the topic title, it is not the title but the file name (it will appear in the page URL).
-   ![!!Name your file](https://cdnweb.devolutions.net/docs/common/contribute_name_your_file.png)
+   ![!!Name your file](https://cdnweb.devolutions.net/docs/docs_common_contribute_name_your_file.png)
 
     1. Decide on a meaningful topic title. For example, "Create an account for a website". The file name must always be in English, even if the topic content is not.
 {type="a"}
@@ -75,18 +75,18 @@ You are done! Thank you for your contribution, our team will review your changes
     1. Add the ".md" extension at the end of the file name. For example, "create-account-website.md".
 
 1. Write your topic. At any time, you can click the ***Preview*** tab in GitHub to see what the topics will look like in the web page. Note that some features may not display correctly in this tab, but will be properly displayed in the final product.
-   ![!!Edit and Preview tabs](https://cdnweb.devolutions.net/docs/common/contribute_edit_preview_tabs.png)
+   ![!!Edit and Preview tabs](https://cdnweb.devolutions.net/docs/docs_common_contribute_edit_preview_tabs.png)
 
    See [Manage the front matter metadata](front-matter-metadata.md) to learn what to add in the front matter of your topic. Also visit the other guides in the current contribute folder to help you compose your topic.
 
 1. Once you are completely done, click ***Commit changes***.
-![!!Commit changes](https://cdnweb.devolutions.net/docs/common/contribute_commit_changes.png)
+![!!Commit changes](https://cdnweb.devolutions.net/docs/docs_common_contribute_commit_changes.png)
 1. Write a ***Commit message*** (mandatory, but you can keep the default message) and an ***Extended description*** (optional but recommended).
-![!!Commit message and Extended description](https://cdnweb.devolutions.net/docs/common/contribute_commit_message_extended_description.png)
+![!!Commit message and Extended description](https://cdnweb.devolutions.net/docs/docs_common_contribute_commit_message_extended_description.png)
 1. Click ***Propose changes***.
-![!!Propose changes](https://cdnweb.devolutions.net/docs/common/contribute_propose_changes.png)
+![!!Propose changes](https://cdnweb.devolutions.net/docs/docs_common_contribute_propose_changes.png)
 1. Click ***Create pull request***.
-![!!Comparing changes – Create pull request](https://cdnweb.devolutions.net/docs/common/contribute_create_pull_request.png)
+![!!Comparing changes – Create pull request](https://cdnweb.devolutions.net/docs/docs_common_contribute_create_pull_request.png)
 1. Click ***Create pull request*** again.
-![!!Open a pull request – Create pull request](https://cdnweb.devolutions.net/docs/common/contribute_create_pull_request_2.png)
+![!!Open a pull request – Create pull request](https://cdnweb.devolutions.net/docs/docs_common_contribute_create_pull_request_2.png)
 You are done! Thank you for your contribution, our team will review your topic in a timely manner.

@@ -6,7 +6,7 @@ eleventyComputed:
 	<tr>
 		<td>
 
-![!!DataSourceAzureLarge](https://cdnweb.devolutions.net/docs/common/DataSourceAzureLarge.png)
+![!!DataSourceAzureLarge](https://cdnweb.devolutions.net/docs/docs_common_DataSourceAzureLarge.png)
 		</td>
 		<td>
 Avec une source de données Microsoft Azure SQL, {{ fr.RDMMAC }} utilise la plateforme infonuagique de Microsoft pour enregistrer et gérer toutes les sessions.
