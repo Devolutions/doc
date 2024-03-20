@@ -11,9 +11,9 @@ Please note that you must create a file in {{ en.RDM }} before creating the inst
 ## Settings
 
 1. In {{ en.RDM }}, click on ***File – {{ en.DA }} – {{ en.CIM }}***.
-![File – {{ en.DA }} – {{ en.CIM }}](https://cdnweb.devolutions.net/docs/en/cloud/Cloud6003.png)
+![File – {{ en.DA }} – {{ en.CIM }}](https://cdnweb.devolutions.net/docs/docs_en_cloud_Cloud6003.png)
 1. Select the file in the list, then click on ***Download MSI***.
-![{{ en.CIM }} – Download MSI](https://cdnweb.devolutions.net/docs/en/cloud/Cloud6004.png)
+![{{ en.CIM }} – Download MSI](https://cdnweb.devolutions.net/docs/docs_en_cloud_Cloud6004.png)
 1. Go to the [{{ en.CI }}](https://portal.devolutions.com/rdm-online-services/custom-installer) in your {{ en.DPORTAL }}.
 1. In the ***{{ en.CI }}*** tab, click on ***.msi*** next to your package and save the file on your computer.
 ![{{ en.CI }}](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMWin6201.png)

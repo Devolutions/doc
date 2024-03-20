@@ -21,13 +21,13 @@ The {{ en.DOD }} is for single users only, and it cannot share files.
 ## Settings
 
 1. From {{ en.RDM }} in ***File - Data Sources***, create a new ***{{ en.DOD }}*** data source.
-![!!clip4017](https://cdnweb.devolutions.net/docs/en/cloud/clip4017.png)
+![!!clip4017](https://cdnweb.devolutions.net/docs/docs_en_cloud_clip4017.png)
 1. Enter your {{ en.DA }} credentials, or change the ***Connection mode*** to use the [Application password](/cloud/sign-in-security/application-passwords/).
-![!!Cloud4056](https://cdnweb.devolutions.net/docs/en/cloud/Cloud4056.png)
+![!!Cloud4056](https://cdnweb.devolutions.net/docs/docs_en_cloud_Cloud4056.png)
 {% snippet icon.badgeNotice %}
 Consult [{{ en.DOD }} Settings](/rdm/windows/data-sources/data-sources-types/online-drive/) for more information on the configuration settings.
 {% endsnippet %}
 
 3. Click on the ***Backup*** tab to set your ***{{ en.OBACK }}*** for your new data source.
-![!!Cloud4057](https://cdnweb.devolutions.net/docs/en/cloud/Cloud4057.png)
+![!!Cloud4057](https://cdnweb.devolutions.net/docs/docs_en_cloud_Cloud4057.png)
 1. Click ***OK*** twice to save.

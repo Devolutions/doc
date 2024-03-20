@@ -23,4 +23,4 @@ The common feature between all of these services is that they only require the p
 
 Access all the {{ en.DCS }} through the menu icon.
 
-![!!Cloud4017](https://cdnweb.devolutions.net/docs/en/cloud/Cloud4017.png)
+![!!Cloud4017](https://cdnweb.devolutions.net/docs/docs_en_cloud_Cloud4017.png)

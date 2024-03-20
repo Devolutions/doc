@@ -6,4 +6,4 @@ The ***Device Login*** section is to set up the Cloud backup of your {{ en.WS }}
 
 When unlocked, go to your {{ en.WAPP }} and create a backup. This will allow you to restore previous backup.
 
-![!!Cloud4061](https://cdnweb.devolutions.net/docs/en/cloud/Cloud4061.png)
+![!!Cloud4061](https://cdnweb.devolutions.net/docs/docs_en_cloud_Cloud4061.png)

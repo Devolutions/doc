@@ -6,4 +6,4 @@ The ***{{ en.DFORCE }}*** is a private channel that lets you connect and network
 
 Are you ready to feel the [Force](https://devolutions.net/force)?
 
-![!!Cloud4055](https://cdnweb.devolutions.net/docs/en/cloud/Cloud4055.png)
+![!!Cloud4055](https://cdnweb.devolutions.net/docs/docs_en_cloud_Cloud4055.png)
