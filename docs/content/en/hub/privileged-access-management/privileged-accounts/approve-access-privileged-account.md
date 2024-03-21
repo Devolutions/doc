@@ -16,15 +16,15 @@ The ***Check-out*** feature allows users to request temporary access to a privil
 
 When a user sends you a check-out request, you will be automatically notified by email. You can click on ***Go to entry dashboard*** to view the request directly in the entry in {{ en.DHUBB }}.
 
-![Check-out request email](https://cdnweb.devolutions.net/docs/en/hub/Hub2311.png)
+![Check-out request email](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub2311.png)
 
 Once you are on the entry, you will see a ***Check-out request*** section near the top. Clicking on ***View Details*** opens the ***Check-out request*** window, which is described in the next section.
 
-![Check-out request from the entry](https://cdnweb.devolutions.net/docs/en/hub/Hub2320.png)
+![Check-out request from the entry](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub2320.png)
 
 Note that you can also see all pending check-out requests from a selected {{ en.VLT }} in the ***Check-out requests*** box of the ***Dashboard***.
 
-![Check-out request from the dashboard](https://cdnweb.devolutions.net/docs/en/hub/Hub2313.png)
+![Check-out request from the dashboard](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub2313.png)
 
 ## Approve/Deny check-out requests
 
@@ -34,7 +34,7 @@ The duration of the access begins when the request is approved.
 
 When the entry is selected, clicking on ***View Details*** in the ***Check-out request*** section allows you to see information about the request as well as ***Approve/Deny*** it.
 
-![View Details](https://cdnweb.devolutions.net/docs/en/hub/Hub2314.png)
+![View Details](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub2314.png)
 
 In the top section, you can view the ***Requested duration***. You can override this duration by specifying a new time frame in the ***Authorized duration*** drop-down list next to it.
 
@@ -42,7 +42,7 @@ Further down is the requester's message. You can add your own message as well.
 
 Finally, you can ***Approve*** or ***Deny*** the check-out request by clicking on the corresponding button.
 
-![Approve/Deny check-out request](https://cdnweb.devolutions.net/docs/en/hub/Hub2315.png)
+![Approve/Deny check-out request](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub2315.png)
 
 Once the request is approved, the user can proceed to view/copy the password account (per their assigned permission).
 
@@ -57,10 +57,10 @@ Alternatively, you can assign a specific role at the privileged account entry le
 You can force a check-in of the entry to end the user's access by either:
 
 * Clicking on ***Force Check-in*** at the top of the entry ***Overview***.
-   ![Force check-in from the entry overview](https://cdnweb.devolutions.net/docs/en/hub/Hub2317.png)
+   ![Force check-in from the entry overview](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub2317.png)
 
 * Clicking on ***View Details*** again, then ***Force Check-in***.
-   ![Force check-in from View Details](https://cdnweb.devolutions.net/docs/en/hub/Hub2316.png)
+   ![Force check-in from View Details](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub2316.png)
 
 When you check in the entry, the privileged account password automatically resets and the old password is rendered useless. Be sure you want to do this first, since to regain access to the entry, they will need to make another request. Otherwise, their access will end within the set time frame.
 

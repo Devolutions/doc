@@ -57,7 +57,7 @@ Vous devez octroyer l'accès au {{ fr.VLT }} en fonction du ***Système*** ou du
 
 1. Télécharger [{{ fr.DHUBS }} Beta](https://devolutions.net/fr/password-hub/home/download/).
 1. Lancer l'installateur.
-![Installateur {{ fr.DHUBS }}](https://cdnweb.devolutions.net/docs/en/hub/Hub6038.png) 
+![Installateur {{ fr.DHUBS }}](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub6038.png) 
 1. Cliquer ***Next***.
 1. Lire le ***End-User License Agreement*** et cliquer ***I accept the terms in the License Agreement***.
 1. Cliquer ***Next***.
@@ -70,7 +70,7 @@ Vous devez octroyer l'accès au {{ fr.VLT }} en fonction du ***Système*** ou du
 1. Cliquer ***Tester la connexion***.
 
 1. Cliquer ***Next*** si votre connexion est validée.
-![Connexion validée](https://cdnweb.devolutions.net/docs/en/hub/Hub6055.png) 
+![Connexion validée](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub6055.png) 
 ## Vérifier les journaux de {{ fr.DHUBS }}
 
 Les journaux de {{ fr.DHUBS }} sont disponibles dans ***Windows Event Viewer***. Le service devrait être capable de se connecter au fournisseur créé. Le fournisseur doit être ajouté dans {{ fr.DHUB }}.

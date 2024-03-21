@@ -4,7 +4,7 @@ eleventyComputed:
   order: 20
 ---
 Navigate and explore the menus through the different sections of {{ en.DHUBB }} and manage your data.
-![Web interface](https://cdnweb.devolutions.net/docs/en/hub/HUBB6005_2024_1.png)
+![Web interface](https://cdnweb.devolutions.net/docs/docs_en_hub_HUBB6005_2024_1.png)
 
 | Options                 | Description                                                                                                        |
 |-------------------------|--------------------------------------------------------------------------------------------------------------------|

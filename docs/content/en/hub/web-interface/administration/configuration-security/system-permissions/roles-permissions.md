@@ -31,4 +31,4 @@ The ***View sensitive*** permission is granted to ***Reader***, ***Operator***, 
 
 Sensitive information requiring the ***View sensitive*** permission will have this icon next to it, while information requiring the ***View password*** permission will have this key icon. You can see both examples in the image below.
 
-![Sensible information icons](https://cdnweb.devolutions.net/docs/en/hub/Hub2267.png)
+![Sensible information icons](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub2267.png)

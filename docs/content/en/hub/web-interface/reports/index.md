@@ -14,4 +14,4 @@ Non-admin users will have a limited access to the ***Reports*** section.
 Web-based reports from [{{ en.DVLS }}](/server/overview/what-is-server/) and [{{ en.DHUB }}](/hub/overview/what-is-hub/) are available in {{ en.RDM }}.
 {% endsnippet %}
 
-![Reports](https://cdnweb.devolutions.net/docs/en/hub/Hub6082.png)
+![Reports](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub6082.png)

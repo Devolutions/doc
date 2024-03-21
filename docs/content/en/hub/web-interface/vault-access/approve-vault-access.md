@@ -25,9 +25,9 @@ Depending on the data source, administrators / {{ en.VLT }} owners may receive a
 
 To accept pending requests, use the ***Pending {{ en.VLT }} Access Requests*** section (see image below) in your ***Dashboard***. Clicking on the request will open the ***Approval request*** window.
 
-![Pending {{ en.VLT }} Access Requests](https://cdnweb.devolutions.net/docs/en/hub/Hub0000.png)
+![Pending {{ en.VLT }} Access Requests](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub0000.png)
 
-![Approve or Deny the request](https://cdnweb.devolutions.net/docs/en/hub/Hub0001.png)
+![Approve or Deny the request](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub0001.png)
 
 This view is divided into two sections:
 

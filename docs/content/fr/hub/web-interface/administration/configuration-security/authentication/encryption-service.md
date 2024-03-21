@@ -22,20 +22,20 @@ Pour activer et configurer votre service de chiffrement, les conditions préalab
 {{ fr.DHUBS }} est nécessaire pour établir la communication entre votre serveur auto-hébergé et votre {{ fr.DHUBB }}.
 1. [Télécharger {{ fr.DHUBS }}](https://devolutions.net/fr/password-hub/home/download/) et lancer le programme d'installation.
 1. Cliquer sur ***Next*** pour continuer après la page de bienvenue.
-![{{ en.DHUBS }} Page de bienvenue de l'assistant d'installation de {{ fr.DHUBS }}](https://cdnweb.devolutions.net/docs/en/hub/HUBB2360_2024_1.png)
+![{{ en.DHUBS }} Page de bienvenue de l'assistant d'installation de {{ fr.DHUBS }}](https://cdnweb.devolutions.net/docs/docs_en_hub_HUBB2360_2024_1.png)
 1. Lire et accepter les termes du ***License Agreement***, puis cliquer sur ***Next***.
-![Lire et accepter les termes du License Agreement](https://cdnweb.devolutions.net/docs/en/hub/HUBB2361_2024_1.png)
+![Lire et accepter les termes du License Agreement](https://cdnweb.devolutions.net/docs/docs_en_hub_HUBB2361_2024_1.png)
 1. Sous ***Custom Setup***, sélectionner ***Encryption***, puis cliquer sur ***Next***.
-![Installation de la fonctionnalité d'encryption](https://cdnweb.devolutions.net/docs/en/hub/HUBB2362_2024_1.png)
+![Installation de la fonctionnalité d'encryption](https://cdnweb.devolutions.net/docs/docs_en_hub_HUBB2362_2024_1.png)
 1. Saisir les informations suivantes dans les champs correspondants :
     * Le ***Host***, qui est l'URL de votre {{ fr.DHUB }}.
     * Les ***Application secret*** et ***Application key***, fournis lors de la création initiale de l'identité de l'application.
 1. Cliquer sur ***Test Connection***. Un message indiquant que la connexion est réussie devrait apparaître. Si ce n'est pas le cas, vérifier la validité des informations saisies puis réessayer. Si cela ne fonctionne toujours pas, contacter nos techniciens du soutien technique au [service@devolutions.net](mailto:service@devolutions.net).
-![Test Connection](https://cdnweb.devolutions.net/docs/en/hub/HUBB2363_2024_1.png)
+![Test Connection](https://cdnweb.devolutions.net/docs/docs_en_hub_HUBB2363_2024_1.png)
 1. Cliquer sur ***Next***.
 1. Saisir l'***URL*** (HTTPS est obligatoire) et le numéro de ***Port*** où le service de chiffrement écoutera les demandes entrantes. S'assurer que le port soit configuré pour être accessible.
 1. Rechercher et sélectionner le certificat. Si le certificat est protégé par un mot de passe, le saisir dans le champ ***Certificate Password***.
-![URL, port et certificat](https://cdnweb.devolutions.net/docs/en/hub/HUBB2365_2024_1.png)
+![URL, port et certificat](https://cdnweb.devolutions.net/docs/docs_en_hub_HUBB2365_2024_1.png)
 1. Cliquer sur ***Next***. 
 
 Le processus d'installation devrait maintenant débuter.
@@ -44,7 +44,7 @@ Le processus d'installation devrait maintenant débuter.
 1. Dans {{ fr.DHUBB }}, naviguer vers ***Administration – Authentification – Service de chiffrement***.
 1. Activer le service de chiffrement.
 1. Saisir l'***URL du service de chiffrement*** où le service de chiffrement écoutera les demandes entrantes. Cette URL ou adresse IP ne doit être accessible qu'aux clients qui se connectent à l'aide du service de chiffrement.
-![Activer le service de chiffrement et saisir l'URL](https://cdnweb.devolutions.net/docs/en/hub/HUBB2366_2024_1.png)
+![Activer le service de chiffrement et saisir l'URL](https://cdnweb.devolutions.net/docs/docs_en_hub_HUBB2366_2024_1.png)
 1. Tester la connexion. Si la connexion échoue, vérifier la validité des informations saisies puis réessayer. Si cela ne fonctionne toujours pas, contacter nos techniciens du soutien technique au [service@devolutions.net](mailto:service@devolutions.net).
 
 Tous les utilisateurs de votre fournisseur SSO peuvent désormais se connecter et accéder à votre {{ fr.DHUB }} automatiquement, sans avoir besoin d'invitations. Il n'est pas non plus nécessaire que les utilisateurs disposent d'une clé privée pour utiliser le Hub. Le serveur fonctionne sur une base auto-hébergée ; il joue donc un rôle essentiel dans l'infrastructure. En cas d'arrêt ou de défaillance du serveur, les utilisateurs qui n'ont pas de clé privée auront des difficultés à se connecter au Hub.

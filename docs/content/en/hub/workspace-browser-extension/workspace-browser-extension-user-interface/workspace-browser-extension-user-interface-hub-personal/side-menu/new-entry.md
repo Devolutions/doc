@@ -3,12 +3,12 @@ eleventyComputed:
   title: New entry
 ---
 The ***New Entry*** button is only available while in the [***Matching***](/hub/workspace-browser-extension/workspace-browser-extension-user-interface/workspace-browser-extension-user-interface-hub-personal/side-menu/#matching-tab) tab, which is the tab selected when opening the extension, or when browsing through the entries of the [***All Entries***](/hub/workspace-browser-extension/workspace-browser-extension-user-interface/workspace-browser-extension-user-interface-hub-personal/side-menu/#all-entries-tab) tab. You can choose to create a new ***Website***, ***Credit Card***, ***Contact***, or ***Secure Note*** entry.
-![New Entry Type Selection](https://cdnweb.devolutions.net/docs/en/hub/Hub2134.png)
+![New Entry Type Selection](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub2134.png)
 
 When the entry type is selected, a new tab opens in your browser that allows you to add an entry of that type in {{ en.DHUBP }} through the {{ en.WBEX }}.
 
 When {{ en.DHUBP }} is used as the data source, the basic entry configuration is done in the ***General*** tab, but other parameters are also available in other tabs. Below is an example of the ***General*** tab settings when creating a website entry.
-![New Entry – Website (General Tab)](https://cdnweb.devolutions.net/docs/en/hub/Hub2135.png)
+![New Entry – Website (General Tab)](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub2135.png)
 
 The tables below list all fields/settings available in the ***New Entry*** windows. The different sections and subsections represent the entry types and the left menu tabs respectively.
 

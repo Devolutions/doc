@@ -9,14 +9,14 @@ The main view, which is the one displayed when first opening the {{ en.WBEX }} i
 1. The ***Top Menu*** gives you access to some {{ en.WBEX }} functionalities and settings.
 1. The window depending on its function.
 1. The ***Content Area*** is where information will be displayed and where you can interact with {{ en.WBEX }} functionalities corresponding to the different tabs.
-![User Interface Sections](https://cdnweb.devolutions.net/docs/en/hub/Hub2102.png)
+![User Interface Sections](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub2102.png)
 
 ### Top Menu
 
 If you use multiple Devolutions products with the extension, you can switch between them using the ***Data Source Selector*** at the left of the ***Top Menu***. A drop-down list will appear with the other products you have previously paired with the {{ en.WBEX }}.
-![Data Source Selector](https://cdnweb.devolutions.net/docs/en/hub/Hub2103.png)
+![Data Source Selector](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub2103.png)
 At the right of the ***Top Menu***, the ***Settings*** button opens a new tab in which you can configure your extension. See the [full settings list](/hub/workspace-browser-extension/settings/).
-![Settings Button](https://cdnweb.devolutions.net/docs/en/hub/Hub2104.png)
+![Settings Button](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub2104.png)
 Next to the ***Settings*** button is your ***Account*** button. This section has some useful links and information, namely:
 
 * a ***Manage Account*** button to view/edit your {{ en.DA }} through the {{ en.DPORTAL }}.
@@ -27,12 +27,12 @@ Next to the ***Settings*** button is your ***Account*** button. This section has
 * a link to our [{{ en.DHUB }} Forum](https://forum.devolutions.net/product/password-hub).
 * a link to our [{{ en.DHUB }} documentation (Online Help)](/hub/overview/what-is-hub/).
 * the current version of the {{ en.WBEX }}.
-![Account Button](https://cdnweb.devolutions.net/docs/en/hub/Hub2105.png)
+![Account Button](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub2105.png)
 
 ### Side menu and Content Area
 
 Using the tabs of the ***Side menu***, you can access various {{ en.WBEX }} features.
-![Side menu Tabs](https://cdnweb.devolutions.net/docs/en/hub/Hub2106.png)
+![Side menu Tabs](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub2106.png)
 Each tab will display a different view in the ***Content Area***. The tabs available when using the {{ en.WBEX }} with {{ en.DHUBP }} are:
 
 * the ***Matching*** tab, where you find available credentials for a specific website.

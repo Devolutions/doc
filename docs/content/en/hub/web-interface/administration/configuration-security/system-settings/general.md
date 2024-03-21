@@ -4,7 +4,7 @@ eleventyComputed:
   description: In the General section of the System Settings, manage settings related to temporary passwords, networking, support tickets, opened sessions, and usage profiles.
 ---
 In the ***General*** section of the ***System Settings***, manage settings related to temporary passwords, networking, support tickets, opened sessions, and usage profiles.
-![Administration – System Settings – General](https://cdnweb.devolutions.net/docs/en/hub/Hub2268.png)
+![Administration – System Settings – General](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub2268.png)
 
 | OPTION | DESCRIPTION |
 |--------|-------------|

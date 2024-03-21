@@ -16,4 +16,4 @@ The ***Help & Tools*** section is full of resources for {{ en.DHUB }}.
 * Looking for help? Consult our [Support Center](https://devolutions.net/support) for our ***Documentation*** and ***Knowledge base***, stay up to date with our blogs, share with the community on our forum, or contact our support team.
 * Consult the {{ en.DHUBB }} [Release News](/hub/web-interface/tools/release-news/).
 
-![Help & Tools](https://cdnweb.devolutions.net/docs/en/hub/HUBB2035_2024_1.png)
+![Help & Tools](https://cdnweb.devolutions.net/docs/docs_en_hub_HUBB2035_2024_1.png)

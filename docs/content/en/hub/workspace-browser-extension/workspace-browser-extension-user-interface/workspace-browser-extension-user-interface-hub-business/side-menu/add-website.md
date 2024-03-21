@@ -5,7 +5,7 @@ eleventyComputed:
 The ***Add Website*** button is only available while in the [***Matching***](/hub/workspace-browser-extension/workspace-browser-extension-user-interface/workspace-browser-extension-user-interface-hub-business/side-menu/#matching-tab) tab, which is the tab selected when opening the extension, or when browsing through the {{ en.VLT }}s and entries of the [***{{ en.VLT_MAJ }}s***](/hub/workspace-browser-extension/workspace-browser-extension-user-interface/workspace-browser-extension-user-interface-hub-business/side-menu/#vaults-tab) or [***{{ en.UVLT_MAJ }}***](/hub/workspace-browser-extension/workspace-browser-extension-user-interface/workspace-browser-extension-user-interface-hub-business/side-menu/#user-vault-tab) tabs. It opens a new tab in your browser that allows you to add a website entry in {{ en.DHUBB }} through the {{ en.WBEX }}.
 
 When {{ en.DHUBB }} is used as the data source, the basic entry configuration is done in the ***General*** tab, but other parameters are also available in other tabs. Below is an example of the ***General*** tab settings when creating a website entry.
-![New Entry – Website (General Tab)](https://cdnweb.devolutions.net/docs/en/hub/Hub2132.png)
+![New Entry – Website (General Tab)](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub2132.png)
 
 The tables below list all fields/settings available in the ***New Entry – Website*** window. The different sections represent the left menu tabs.
 

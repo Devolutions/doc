@@ -22,7 +22,7 @@ eleventyComputed:
 | ![!!user-sync](https://cdnweb.devolutions.net/docs/docs_common_user-sync.png)         | Synchronize users from provider(s). |
 | ![!!refresh-large](https://cdnweb.devolutions.net/docs/docs_common_refresh-large.png) | Refresh users list.                 |
 
-![!!ServerOp8004](https://cdnweb.devolutions.net/docs/en/hub/Hub6063.png)
+![!!ServerOp8004](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub6063.png)
 
 ### User Options
 

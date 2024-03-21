@@ -15,7 +15,7 @@ The ***{{ en.DHUB }} site*** name becomes your website address and cannot be edi
 {% endsnippet %}
 
 5. Select the region where you want your data to be [hosted](/kb/hub-business/knowledge-base/hosting-region-password-hub/) and accept the ***Terms of Online Services and Privacy Policy***.
-![Start Trial](https://cdnweb.devolutions.net/docs/en/hub/Hub4009.png)
+![Start Trial](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub4009.png)
 1. Click on ***Start Trial***.
 
 Once the deployment is ready, you will receive an email with your {{ en.DHUBB }} website address.
@@ -26,7 +26,7 @@ If you are a {{ en.RDM }} Team Edition user, you can connect your {{ en.DHUBB }}
 
 7. Click the {{ en.DHUBB }} website address.
 1. Download your ***Emergency Kit***.
-![Emergency Kit](https://cdnweb.devolutions.net/docs/en/hub/Hub4170.png)
+![Emergency Kit](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub4170.png)
 
 {% snippet icon.badgeCaution %}
 The ***Emergency Kit*** contains your emergency key that will be required in case you lose or reset your {{ en.DA }} password. Remember to keep it in a safe place.

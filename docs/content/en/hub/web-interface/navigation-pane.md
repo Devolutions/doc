@@ -7,4 +7,4 @@ The ***{{ en.NPANE }}*** displays the entries that users have access to from the
 Research the entries with the ***Filter*** option or with the ***Tag*** name filter in the ***Display settings***.
 
 To create entries, click the ***Add*** button.
-![!!Hub4107](https://cdnweb.devolutions.net/docs/en/hub/Hub4107.png)
+![!!Hub4107](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub4107.png)

@@ -9,9 +9,9 @@ Create entries manually and save your data in {{ en.DHUBB }}.
 
 1. Select the {{ en.VLT }} / {{ en.UVLT }} and the folder in which you wish to create the new entry.
 1. Click on the ***Add*** button located in the ***{{ en.NPANE }}***.
-   ![Add](https://cdnweb.devolutions.net/docs/en/hub/Hub2285.png)
+   ![Add](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub2285.png)
 1. Select an [entry type](/hub/web-interface/entries/entry-type/) from the list.
-   ![Entry type](https://cdnweb.devolutions.net/docs/en/hub/Hub2286.png)
+   ![Entry type](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub2286.png)
 1. Click ***Continue***.
 1. Configure the entry with all the required information.
 1. Click ***Add*** to save.

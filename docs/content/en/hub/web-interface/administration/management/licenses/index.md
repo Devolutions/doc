@@ -11,4 +11,4 @@ In the ***Licenses*** section, you will be able to register your {{ en.DHUBB }} 
 Only ***Administrators*** and users with permissions in the ***System Permissions – System – Manage {{ en.DHUB }} license*** section will have access to register a license in {{ en.DHUBB }}.
 {% endsnippet %}
 
-![!!Hub4111](https://cdnweb.devolutions.net/docs/en/hub/Hub4111.png)
+![!!Hub4111](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub4111.png)
