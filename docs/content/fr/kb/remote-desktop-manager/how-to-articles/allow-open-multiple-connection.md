@@ -5,7 +5,7 @@ eleventyComputed:
 {{ en.RDM }} allows you to open multiple connections on the same host.
 
 You can enable the ***Allow open multiple connections option*** in the ***Advanced*** Tab of an entry.
-![!!KB4528](https://cdnweb.devolutions.net/docs/en/kb/KB4528.png)
+![!!KB4528](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4528.png)
 
 | Option | Description                                                           |
 | ------ | --------------------------------------------------------------------- |

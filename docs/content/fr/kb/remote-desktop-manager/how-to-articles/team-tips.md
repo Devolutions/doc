@@ -36,7 +36,7 @@ The general tab of the ***Administration – System Settings*** form allows you 
 
 A great team feature here is the System Message, which allows an administrator to inform users of upcoming system downtime, policy change or anything else. Each user will get the message when they connect to the data source or the message is changed. Use it to display company confidentially clauses or, if you wish, create chaos with a message like the one below. A little bit of chaos is good for the soul.  
 
-![System Message](https://cdnweb.devolutions.net/docs/en/kb/KB6113.png)
+![System Message](https://cdnweb.devolutions.net/docs/docs_en_kb_KB6113.png)
 
 ## {{ en.DVLS }}
 

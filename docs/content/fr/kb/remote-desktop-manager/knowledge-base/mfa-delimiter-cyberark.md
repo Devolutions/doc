@@ -53,8 +53,8 @@ The entry can be found under ***New Entry*** – ***Session*** – ***Privileged
 The ***Append RSA SecurID code to password*** option needs to be enabled to have access to ***MFA delimiter***.
 {% endsnippet %}
 
-![CyberArk Dashboard](https://cdnweb.devolutions.net/docs/en/kb/KB0076.png)
+![CyberArk Dashboard](https://cdnweb.devolutions.net/docs/docs_en_kb_KB0076.png)
 
 ## CyberArk PVWA (Credentials)
 The entry can be found under ***New Entry*** – ***Credential Management*** – ***Privileged Access Management***. The option is in the ***Common*** – ***General*** – ***Advanced*** tab.
-![CyberArk PVWA](https://cdnweb.devolutions.net/docs/en/kb/KB0077.png)
+![CyberArk PVWA](https://cdnweb.devolutions.net/docs/docs_en_kb_KB0077.png)

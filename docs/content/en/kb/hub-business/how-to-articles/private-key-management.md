@@ -30,11 +30,11 @@ All three methods can be enabled at the same time, and you will always have at l
 
 See the examples below:
 
-![Private Key Storage Methods – Password Method Configured](https://cdnweb.devolutions.net/docs/en/kb/KB2185.png)
+![Private Key Storage Methods – Password Method Configured](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2185.png)
 
-![Private Key Storage Methods – Mobile Device Method Configured](https://cdnweb.devolutions.net/docs/en/kb/KB2186.png)
+![Private Key Storage Methods – Mobile Device Method Configured](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2186.png)
 
-![Private Key Storage Methods – QR Code Method Configured](https://cdnweb.devolutions.net/docs/en/kb/KB2187.png)
+![Private Key Storage Methods – QR Code Method Configured](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2187.png)
 
 ### Store on a Mobile Device (Recommended)
 
@@ -43,36 +43,36 @@ This method is recommended because there is no need to remember a password or st
 Follow the steps below to configure this method.
 
 1. In the ***Private Key Storage Methods*** section of your {{ en.DPORTAL }}, click ***Configure*** in the mobile device method box.
-![Configure the Mobile Device Method](https://cdnweb.devolutions.net/docs/en/kb/KB2188.png)
+![Configure the Mobile Device Method](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2188.png)
 1. [Download](https://devolutions.net/workspace/) the {{ en.WMAPP }}.
-![Download {{ en.WMAPP }}](https://cdnweb.devolutions.net/docs/en/kb/KB2189.png)
+![Download {{ en.WMAPP }}](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2189.png)
 1. Once done, click ***Continue***. A QR code will appear.
 1. In the {{ en.WMAPP }}, access the ***Authenticator*** space.
 1. Click ***Add***, then ***Scan a QR code***.
 1. Scan the QR code in the browser with your mobile device.
-![Scan the QR Code](https://cdnweb.devolutions.net/docs/en/kb/KB2190.png)
+![Scan the QR Code](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2190.png)
 
 The pairing process will begin. After it ends (it should only take a few seconds), your Private Key will be stored on the {{ en.WMAPP }}.
 
 #### Unpair
 
 At any moment, you can decide to delete that storage configuration by clicking on ***Unpair***. This option is useful if you have pairing problems with your mobile device and want to redo the configuration from the start.
-![Unpair the Mobile Device](https://cdnweb.devolutions.net/docs/en/kb/KB2191.png)
+![Unpair the Mobile Device](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2191.png)
 
 ### Store as a QR Code
 
 If you do not have access to a mobile device or if you want an additional method, this option is the best alternative. Follow the steps below to configure this method.
 
 1. In the ***Private Key Storage Methods*** section of your {{ en.DPORTAL }}, click ***Configure*** in the QR code method box.
-![Configure the QR Code Method](https://cdnweb.devolutions.net/docs/en/kb/KB2192.png)
+![Configure the QR Code Method](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2192.png)
 1. Either ***Download*** or ***Print*** the QR code. Whichever you choose, **be sure to keep it in a safe place**.
-![Download or Print the QR Code](https://cdnweb.devolutions.net/docs/en/kb/KB2193.png)
+![Download or Print the QR Code](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2193.png)
 
 #### Regenerate
 
 If you encounter problems using this method to authenticate or if you lost your QR code, you can generate a new one by clicking on the vertical ellipsis and selecting ***Regenerate a new QR Code***. You can also delete the current code without generating a new one by selecting ***Delete Current QR Code***.
 
-![Regenerate or Delete a QR Code](https://cdnweb.devolutions.net/docs/en/kb/KB2194.png)
+![Regenerate or Delete a QR Code](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2194.png)
 
 {% snippet icon.badgeCaution %}
 Generating a new QR code makes your old code unusable. We therefore recommend that you delete the old code after generating the new one.
@@ -83,14 +83,14 @@ Generating a new QR code makes your old code unusable. We therefore recommend th
 Follow the steps below to configure this method.
 
 1. In the ***Private Key Storage Methods*** section of your {{ en.DPORTAL }}, click ***Configure*** in the password method box.
-![Configure the Password Method](https://cdnweb.devolutions.net/docs/en/kb/KB2195.png)
+![Configure the Password Method](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2195.png)
 1. In the ***Password*** fields, enter a password that follows the specified rules written underneath. **Be sure to keep it in a sake place.**
 1. Click on ***Create password***.
 
 If you want to change this password, click on the ***Change Password*** icon.
 
-![Change Password](https://cdnweb.devolutions.net/docs/en/kb/KB2196.png)
+![Change Password](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2196.png)
 
 Follow the steps, then click ***Change Password*** when done.
 
-![Current and New Passwords](https://cdnweb.devolutions.net/docs/en/kb/KB2197.png)
+![Current and New Passwords](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2197.png)

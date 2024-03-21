@@ -15,7 +15,7 @@ You receive an error when trying to connect to {{ en.RDM }} with your {{ en.DA }
 1. If it persists, open the ***Developer Tools*** of your browser by pressing on F12.
 1. Go back to [Devolutions Login](https://login.devolutions.com/op/login)
 1. Clear the content of the ***Console*** and ***Network*** section of the ***Developer Tool*** window.
-![!!KB4830](https://cdnweb.devolutions.net/docs/en/kb/KB4830.png)
+![!!KB4830](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4830.png)
 1. Try to connect to your ***{{ en.DA }}*** once more by entering your email address on the login page.
 1. When you get the error:
     * In the Network section, export the trace report with the ***Export HAR*** button (arrow down button).
@@ -25,5 +25,5 @@ You receive an error when trying to connect to {{ en.RDM }} with your {{ en.DA }
 Protect your session data by [sanitizing your HAR files](https://har-sanitizer.pages.dev/) before sharing.
    {% endsnippet %}
 
-   ![!!KB4831](https://cdnweb.devolutions.net/docs/en/kb/KB4831.png)
+   ![!!KB4831](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4831.png)
 11. Attach the data in an email to [service@devolutions.net](mailto:service@devolutions.net) with a brief description of your issue. We will then be able to troubleshoot this issue with you through our ticketing system.

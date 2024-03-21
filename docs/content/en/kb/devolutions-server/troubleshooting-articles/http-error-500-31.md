@@ -4,7 +4,7 @@ eleventyComputed:
   description: When updating {{ en.DVLS }} to version 2024.1 or later, the web UI displays HTTP Error 500.31 - Failed to load ASP.NET Core runtime.
 ---
 When updating {{ en.DVLS }} to version 2024.1 or later, the web UI displays ***HTTP Error 500.31 - Failed to load ASP.NET Core runtime***. The reason is that the ASP.Net Core version 8.0.x is not installed on the server where {{ en.DVLS }} is hosted.
-![HTTP Error 500.31 - Failed to load ASP.NET Core runtime](https://cdnweb.devolutions.net/docs/en/kb/CLOUD2014_2024_1.png)
+![HTTP Error 500.31 - Failed to load ASP.NET Core runtime](https://cdnweb.devolutions.net/docs/docs_en_kb_CLOUD2014_2024_1.png)
 
 ### Solution
 

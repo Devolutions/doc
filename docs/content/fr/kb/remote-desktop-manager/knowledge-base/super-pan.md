@@ -7,7 +7,7 @@ Specifies or retrieves a Boolean value that indicates whether SuperPan is enable
 SuperPan does not support more than one monitor.
 {% endsnippet %}
 
-![Enable super pan](https://cdnweb.devolutions.net/docs/en/kb/KB0124.png)
+![Enable super pan](https://cdnweb.devolutions.net/docs/docs_en_kb_KB0124.png)
 The ***Enable super pan*** option can be found under ***Properties*** – ***Common*** – ***General*** – ***Advanced***. It is not enabled by default.
 {% snippet icon.badgeHelp %}
 Learn more about [super pan](https://learn.microsoft.com/en-us/windows/win32/termserv/imsrdpclientadvancedsettings7-enablesuperpan).

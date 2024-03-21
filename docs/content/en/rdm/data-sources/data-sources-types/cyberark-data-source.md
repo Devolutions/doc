@@ -18,7 +18,7 @@ eleventyComputed:
 1. Select ***CyberArk (Preview)*** from the Enterprise section.
 ![Selecting the CyberArk (Preview) data source](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMW6001_2024_1.png)
 1. Next, enter your CyberArk connection details.
-![CyberArk window configuration](https://cdnweb.devolutions.net/docs/en/kb/KB6224.png)
+![CyberArk window configuration](https://cdnweb.devolutions.net/docs/docs_en_kb_KB6224.png)
 
 * ***Name***: A unique name for the data source.
 

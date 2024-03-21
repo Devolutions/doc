@@ -7,7 +7,7 @@ Keyboard keycodes vary based on the type of keyboard used, with minor difference
 
 ## Changing the keyboard type
 1. In the ***File*** tab, click on ***Preferences***.
-![Preferences](https://cdnweb.devolutions.net/docs/en/kb/KB0042.png)
+![Preferences](https://cdnweb.devolutions.net/docs/docs_en_kb_KB0042.png)
 1. Go to ***User Interface*** – ***Keyboard***.
 1. Select the desired ***Keyboard type***.
-![Keyboard type](https://cdnweb.devolutions.net/docs/en/kb/KB0043.png)
+![Keyboard type](https://cdnweb.devolutions.net/docs/docs_en_kb_KB0043.png)

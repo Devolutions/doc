@@ -12,11 +12,11 @@ Check the backup of the SQL database and the web application folder integrity by
 ## Backup configuration
 
 1. Install the DevolutionsSchedulerService with the ***Install Scheduler*** button of the {{ en.DVLSCONSOLE }} it is not already installed. For more information please see [{{ en.DVLSCONSOLE }}](/server/management/devolutions-server-console/).
-![Install Scheduler](https://cdnweb.devolutions.net/docs/en/kb/KB4359.png)
+![Install Scheduler](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4359.png)
 1. Create a domain service account that will be used to run the service.
-![Create a domain service](https://cdnweb.devolutions.net/docs/en/kb/KB4360.png)
+![Create a domain service](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4360.png)
 1. This service account must have proper permission on the destinations folder(s) to create files and needs at least the db_datareader and db_backupoperator rights on the SQL database.
-![Login Properties](https://cdnweb.devolutions.net/docs/en/kb/KB4361.png)
+![Login Properties](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4361.png)
 1. Create a network folder, it can be one for the database backup and one for the web application backup, that both the server which hosted the {{ en.DVLS }} instance and the SQL Server will have access to.
 1. Configure the options in the Backup Manager. For more information please see [Backup Manager](/server/web-interface/administration/backup/backup-manager/).
 1. In the following sample:
@@ -24,10 +24,10 @@ Check the backup of the SQL database and the web application folder integrity by
     * The web backup is ***enabled*** and will be saved in folder TeamShare\BackupDVLS\Web on DC machine.
     * The administrators will be notified on backup failed.
     * The administrators will be notified on backup success.
-![Backup configuration](https://cdnweb.devolutions.net/docs/en/kb/KB6035.png)
+![Backup configuration](https://cdnweb.devolutions.net/docs/docs_en_kb_KB6035.png)
     * The scheduled backup has been started on November 13, 2018, at 5:43 AM.
     * The scheduler will repeat the backup process every day.
-![Scheduled backup](https://cdnweb.devolutions.net/docs/en/kb/KB6036.png)
+![Scheduled backup](https://cdnweb.devolutions.net/docs/docs_en_kb_KB6036.png)
 
 ## Recovery Kit
 
@@ -39,11 +39,11 @@ We recommend to protect the Recovery Kit file in a safe to avoid data loss if {{
 
 To generate the ***Recovery Kit***, go to the ribbon and click ***Tools*** – ***Generate***.
 
-![Tools – Generate](https://cdnweb.devolutions.net/docs/en/kb/KB6039.png)
+![Tools – Generate](https://cdnweb.devolutions.net/docs/docs_en_kb_KB6039.png)
 
 To generate the ***Recovery Kit***, select ***Location*** and ***Export path***. If the ***Include sensitive data*** option is enabled, the SQL authentication credentials will be included in the ***Recovery Kit***. Enter the password protecting the ***Encryption Keys***.
 
-![Generate Recovery Kit](https://cdnweb.devolutions.net/docs/en/kb/KB6038.png)
+![Generate Recovery Kit](https://cdnweb.devolutions.net/docs/docs_en_kb_KB6038.png)
 
 Click ***OK*** to close the window and generate the ***Recovery Kit***.
 ## Restore steps
@@ -66,11 +66,11 @@ Be sure that the database and the web application match before launching the res
     1. Ensure that the instance users have the offline mode enabled and they are not making any modifications.
 {type="a"}
     1. Ensure that the **DevolutionsSchedulerService** service is not running.
-![DevolutionsSchedulerService](https://cdnweb.devolutions.net/docs/en/kb/KB4363.png)
+![DevolutionsSchedulerService](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4363.png)
     1. **Restore** the **SQL database**.
     1. Overwrite the web application folder with the content of the web application .zip file.
     1. Start the **DevolutionsSchedulerService** service and ensure that the **Startup** type is set to **Automatic**.
-![Startup type](https://cdnweb.devolutions.net/docs/en/kb/KB4364.png)
+![Startup type](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4364.png)
     1. Reconfigure the **Backup Scheduler** feature.
 1. If the goal is to restore {{ en.DVLS }} and the SQL database on new servers:
     1. **Restore** the **SQL database** on the new server.

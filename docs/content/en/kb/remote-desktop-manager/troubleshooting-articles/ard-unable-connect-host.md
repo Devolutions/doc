@@ -12,4 +12,4 @@ We have identified the Remote Management option on macOS as one of the possible 
 
 1. Open ***System Preferences*** and click on ***Sharing***.
 1. Check/uncheck the option ***Remote Management*** to fix the issue.
-![!!KB2001](https://cdnweb.devolutions.net/docs/en/kb/KB2001.png)
+![!!KB2001](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2001.png)

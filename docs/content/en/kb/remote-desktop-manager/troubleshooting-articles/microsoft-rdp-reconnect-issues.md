@@ -9,4 +9,4 @@ However, the session does not reconnect properly, because the credentials are no
 ## Solution
 In ***File - Options - Types - Remote Desktop*** in the ***Reconnect Mode*** drop-down menu, select ***Full***.
 
-![!!KB4039](https://cdnweb.devolutions.net/docs/en/kb/KB4039.png)
+![!!KB4039](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4039.png)

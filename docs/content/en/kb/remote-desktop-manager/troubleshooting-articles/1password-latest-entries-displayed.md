@@ -9,4 +9,4 @@ The integration of credentials from password managers is only available in the T
 When you create a new 1Password Credential entry, only the latest entries added to 1Password are displayed.
 ## Solution
 Head in 1Password (Fat Client), go in ***File - Repair 1Password {{ en.VLT }}*** This should fix the issue.
-![!!KB4008](https://cdnweb.devolutions.net/docs/en/kb/KB4008.png)
+![!!KB4008](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4008.png)

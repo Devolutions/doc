@@ -31,7 +31,7 @@ And what if you’re exporting multiple data entries? To prevent prying eyes fro
 
 We use AES-256 to encrypt/decrypt your sensitive data. Since the decryption is done entirely in the browser, there’s no need for external tools, downloads or installs. Here’s a snapshot of the encrypted values:
 
-![!!KB4555](https://cdnweb.devolutions.net/docs/en/kb/KB4555.png)
+![!!KB4555](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4555.png)
 
 ## Safe & Smart Virtual Backup
 

@@ -3,7 +3,7 @@ eleventyComputed:
   title: Documentation tab is empty
 ---
 The ***Documentation*** tab, in an entry, is empty although you have ***Reset the layout*** in the ***Window*** tab.
-![!!KB4705](https://cdnweb.devolutions.net/docs/en/kb/KB4705.png)
+![!!KB4705](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4705.png)
 ## Solution
 First validate that you are allowed to ***View documentation*** in ***Administration - {{ en.VLT_MAJ }} Settings - Permissions - Documentation - View documentation***.
 

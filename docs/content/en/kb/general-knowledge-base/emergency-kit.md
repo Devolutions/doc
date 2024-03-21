@@ -13,14 +13,14 @@ Make sure that you have your ***Emergency Kit*** at hand before clicking on ***N
 {% endsnippet %}
 
 3. Select ***I understand and accept the risks*** and click ***Next***.
-![{{ en.DA }} – Forgot Password](https://cdnweb.devolutions.net/docs/en/kb/KB6197.png)
+![{{ en.DA }} – Forgot Password](https://cdnweb.devolutions.net/docs/docs_en_kb_KB6197.png)
 1. Enter the access code received by email.
 1. Type your new password.
 1. Go to your {{ en.DHUB }}.
 1. The emergency reset code page opens.
 1. Enter the emergency reset code version.
 1. Click on the lock to access your {{ en.DHUB }}.
-![Click on the lock to access your {{ en.DHUB }}](https://cdnweb.devolutions.net/docs/en/kb/KB6200.png)
+![Click on the lock to access your {{ en.DHUB }}](https://cdnweb.devolutions.net/docs/docs_en_kb_KB6200.png)
 
 Note: The ***Emergency Kit*** can be reset and downloaded again by going to ***Administration*** – ***Emergency Kit*** – ***Reset Emergency Kit*** in your {{ en.DHUB }}.
 

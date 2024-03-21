@@ -24,17 +24,17 @@ The installation folder for KeePass should use the default path (e.g., **C:\Prog
 1. Save the database.
 1. Close KeePass.
 1. In {{ en.RDM }}, go to ***File*** – ***Options*** – ***Paths*** and click on ***Configure Installation Path***.
-![Configure Installation Path](https://cdnweb.devolutions.net/docs/en/kb/KB0034.png)
+![Configure Installation Path](https://cdnweb.devolutions.net/docs/docs_en_kb_KB0034.png)
 1. Select ***KeePass*** which is under ***Applications*** – ***Password Manager***, and make sure the executable is detected.
-![KeePass is detected](https://cdnweb.devolutions.net/docs/en/kb/KB0035.png)
+![KeePass is detected](https://cdnweb.devolutions.net/docs/docs_en_kb_KB0035.png)
 1. Click on ***Extensions Manager*** which is under the ***Tools*** tab.
-![Extensions Manager](https://cdnweb.devolutions.net/docs/en/kb/KB0036.png)
+![Extensions Manager](https://cdnweb.devolutions.net/docs/docs_en_kb_KB0036.png)
 1. Go to the ***Others*** tab and click on ***Install***.
-![Install Button](https://cdnweb.devolutions.net/docs/en/kb/KB0037.png)
+![Install Button](https://cdnweb.devolutions.net/docs/docs_en_kb_KB0037.png)
 1. Create a new entry.
 1. Select the ***KeePass*** entry, which is under ***Credential Management*** – ***Password Management***.
 1. Select ***Plugin*** from the ***Mode*** dropdown.
-![Plugin Mode](https://cdnweb.devolutions.net/docs/en/kb/KB0038.png)
+![Plugin Mode](https://cdnweb.devolutions.net/docs/docs_en_kb_KB0038.png)
 {% snippet icon.badgeInfo %}
 It is possible to set the database path by checking the ***Set database path manually*** option.
 {% endsnippet %}
@@ -48,11 +48,11 @@ It is also possible to use either of these options:
 {% endsnippet %}
 
 14. Click the ellipsis button next to the ***Uuid*** field.
-![Configure Uuid](https://cdnweb.devolutions.net/docs/en/kb/KB0039.png)
+![Configure Uuid](https://cdnweb.devolutions.net/docs/docs_en_kb_KB0039.png)
 1. Enter the ***Master password*** to access the KeePass database.
-![Master Password](https://cdnweb.devolutions.net/docs/en/kb/KB0040.png)
+![Master Password](https://cdnweb.devolutions.net/docs/docs_en_kb_KB0040.png)
 1. In {{ en.RDM }}, the ***KeePass Credentials List*** will now show which credentials are available to reference in the KeePass entry.
-![KeePass Credentials List](https://cdnweb.devolutions.net/docs/en/kb/KB0041.png)
+![KeePass Credentials List](https://cdnweb.devolutions.net/docs/docs_en_kb_KB0041.png)
 1. Select the credential that will be referenced and click ***OK***.
 1. Click ***OK*** to save the changes and close the entry options window.
 

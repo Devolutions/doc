@@ -7,11 +7,11 @@ The ***Report entry*** generates a customized report with the appropriated prope
 
 1. To fetch the property's names of your entries, go to {{ en.RDM }}.
 1. Select your entries and click ***Home*** – ***Clipboard*** – ***Copy*** in the ribbon. Alternatively, you can right-click your entry selection and select ***Clipboard*** – ***Copy***.
-![Home – Clipboard – Copy](https://cdnweb.devolutions.net/docs/en/kb/KB2105.png)
+![Home – Clipboard – Copy](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2105.png)
 1. In the ***Copy Options*** window, go to the ***Preview tab***.
 1. Select all the content of the box, then copy and paste it in a text editor.
 1. In {{ en.RDM }} go to ***New Entry*** – ***Macro/Script/Tool*** – ***Report***.
-![New Entry – Macro/Script/Tool – Report](https://cdnweb.devolutions.net/docs/en/kb/KB6081.png)
+![New Entry – Macro/Script/Tool – Report](https://cdnweb.devolutions.net/docs/docs_en_kb_KB6081.png)
 1. Click ***OK***.
 1. Enter a ***Name*** and choose a ***Folder***.
 1. In the ***General*** tab, select ***Connection List*** or ***Custom Field Report*** under ***Type***.
@@ -23,18 +23,18 @@ The ***Report entry*** generates a customized report with the appropriated prope
    ***Power Shell*** is embedded in the Report entry. ***Linked entry*** is linked to a PowerShell entry which contains the script to select the list of entries.
    {% endsnippet %}
 1. Go to ***Fields*** and copy/paste  the property's names previously saved.
-![New Entry – Macro/Script/Tool – Report – General tab](https://cdnweb.devolutions.net/docs/en/kb/KB6084.png)
+![New Entry – Macro/Script/Tool – Report – General tab](https://cdnweb.devolutions.net/docs/docs_en_kb_KB6084.png)
 1. Go to the ***Script tab*** and write your script. A sample is available at the bottom of the window.
    {% snippet icon.badgeInfo %}
    Note that this Script example only lists the RDP entries per this if statement:
    `if ($connection.ConnectionType -eq 'RDPConfigured')`
    {% endsnippet %}
 
-   ![Script tab](https://cdnweb.devolutions.net/docs/en/kb/KB6082.png)
+   ![Script tab](https://cdnweb.devolutions.net/docs/docs_en_kb_KB6082.png)
 
    The ***Parameters*** tab is for submitting values to be used with the $PARAMETER1$, $PARAMETER2$ variables and so on.
 1. Click ***OK*** to save and close the window.
 1. Select your newly created ***Report entry*** and click ***Execute***.
 
 The report is available in HTML format. Three options are also displayed at the top of the report: ***Refresh***, ***Save as*** and ***Print***.
-![Refresh, Save as and Print options](https://cdnweb.devolutions.net/docs/en/kb/KB6083.png)
+![Refresh, Save as and Print options](https://cdnweb.devolutions.net/docs/docs_en_kb_KB6083.png)

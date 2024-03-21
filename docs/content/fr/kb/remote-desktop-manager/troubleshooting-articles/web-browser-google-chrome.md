@@ -18,4 +18,4 @@ Certificate errors in embedded mode.
 {{ en.RDM }} starts Google Chrome in a separate application (**Embedded32.exe**) and then re-parents the application inside {{ en.RDM }}.
 ### Solution 2
 To resolve this issue, you need to check the option ***Ignore certificate errors*** in the ***Properties*** of the ***Website*** session entry.
-![!!KB4102](https://cdnweb.devolutions.net/docs/en/kb/KB4102.png)
+![!!KB4102](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4102.png)

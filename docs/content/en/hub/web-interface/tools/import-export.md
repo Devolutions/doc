@@ -66,7 +66,7 @@ Your data has been exported to the destination folder.
    | `$appKey`               | Enter the application user's ***Application key***.                                                             |
    | `$pathToExportedFolder` | Enter the ***Destination folder path*** This is where your data will be exported.                               |
 
-   ![Variables in PowerShell](https://cdnweb.devolutions.net/docs/en/kb/KB2082.png)
+   ![Variables in PowerShell](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2082.png)
 1. Run the script using PowerShell 7.
 
 Your data has been exported to the destination folder.

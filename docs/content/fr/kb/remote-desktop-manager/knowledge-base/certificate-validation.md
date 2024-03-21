@@ -15,7 +15,7 @@ If the validation is successful, contact us to open a ticket. If it is not succe
 
 ## Troubleshooting WITHIN {{ en.RDM }}
 {{ en.RDM }} indicates a certificate validation error by displaying the following dialog:
-![Certificate error dialog](https://cdnweb.devolutions.net/docs/en/kb/KB0126.png)
+![Certificate error dialog](https://cdnweb.devolutions.net/docs/docs_en_kb_KB0126.png)
 
 {% snippet icon.shieldCaution %}
 Before ignoring the error or adding the certificate to the exception list, always perform a perfunctory validation of the certificate by using the ***View Certificate*** action, verify the ***Issued To*** and ***Issued By*** fields to determine if they seem correct for your organization.
@@ -76,7 +76,7 @@ This option will display the certificate using the <a href="#systemdialog">Syste
 ## {{ en.RDM }} Certificate diagnostic window
 <a name="certificatediagnosticwindow"></a>
 
-![Certificate Diagnostic](https://cdnweb.devolutions.net/docs/en/kb/KB0127.png)
+![Certificate Diagnostic](https://cdnweb.devolutions.net/docs/docs_en_kb_KB0127.png)
 ## System dialog
 <a name="systemdialog"></a>
 
@@ -86,7 +86,7 @@ To export the certificate, follow these steps:
 
 1. Go to the ***Details*** tab of the Windows certificate prompt.
 1. Click ***Copy to File...*** and proceed to export the certificate as a *.cer file.
-![Certificate information system dialog](https://cdnweb.devolutions.net/docs/en/kb/KB4452.png)
+![Certificate information system dialog](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4452.png)
 ## Manual certificate validation
 <a name="manualcertificatevalidation"></a>
 
@@ -107,7 +107,7 @@ The resulting output from the tools mentioned above can be used to obtain more i
 <a name="certificatesecurityrelatedoptions"></a>
 
 Navigate to ***File*** – ***Options*** – ***Security*** – ***Certificate security*** to manage options related to certificates.
-![Certificate security options](https://cdnweb.devolutions.net/docs/en/kb/KB0129.png)
+![Certificate security options](https://cdnweb.devolutions.net/docs/docs_en_kb_KB0129.png)
 {% snippet icon.badgeInfo %}
 The ***Reset Known Certificates*** option only appears if you have selected ***Continue and Remember*** on one or more certificate.
 {% endsnippet %}
@@ -149,11 +149,11 @@ Use this option to clear the cached certificates. All certificates will need to 
 
 ## Verify the Certification Authority (CA)
 1. Open the certificate, then verify by which Certification Authority the certificate has been ***Issued by***, in the ***General*** tab.
-![Certificate Issued by](https://cdnweb.devolutions.net/docs/en/kb/KB4448.png)
+![Certificate Issued by](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4448.png)
 1. Verify that the Certification Authority is properly installed in the certificate store.
-![Certificates](https://cdnweb.devolutions.net/docs/en/kb/KB4449.png)
+![Certificates](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4449.png)
 ## Certificate revocation check
 <a name="certificatecheck"></a>
 
 Ensure that the CRL (Certificate Revocation List) server is reachable as it is required to validate a certificate.
-![CRL](https://cdnweb.devolutions.net/docs/en/kb/KB4454.png)
+![CRL](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4454.png)

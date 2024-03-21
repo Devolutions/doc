@@ -13,7 +13,7 @@ Create a VPN entry TheGreenBow in {{ en.RDM }} with the steps below. To use TheG
 1. In {{ en.RDM }}, click ***New Entry***.
 1. Select ***VPN*** or ***Search*** the entry for ***TheGreenBow***.
 1. Select ***TheGreenBow IPSEC VPN Client*** and click ***OK***.
-![!!KB4904](https://cdnweb.devolutions.net/docs/en/kb/KB4904.png)
+![!!KB4904](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4904.png)
 1. Set up your entry with your ***Connection*** information and your VPN options.
-![!!KB4905](https://cdnweb.devolutions.net/docs/en/kb/KB4905.png)
+![!!KB4905](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4905.png)
 1. Click ***OK***.

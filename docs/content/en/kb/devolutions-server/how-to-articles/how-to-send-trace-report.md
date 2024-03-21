@@ -19,10 +19,10 @@ Protect your session data by [sanitizing your HAR files](https://har-sanitizer.p
 
 1. In Chrome, or any browser, to toggle open the developer diagnostic window, click ***F12*** on your keyboard.
 1. Select the ***Network*** tab.
-![!!KB4675](https://cdnweb.devolutions.net/docs/en/kb/KB4675.png)
+![!!KB4675](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4675.png)
 1. Click on the ***Clear*** button to clear unrelated data.
-![!!KB4676](https://cdnweb.devolutions.net/docs/en/kb/KB4676.png)
+![!!KB4676](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4676.png)
 1. Perform the action in the web interface of {{ en.DVLS }}, as requested by our support team, to collect the data.
 1. Export the trace report with the ***Export HAR*** button (arrow down button).
-![!!KB4677](https://cdnweb.devolutions.net/docs/en/kb/KB4677.png)
+![!!KB4677](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4677.png)
 1. Attach the data in an email to [service@devolutions.net](mailto:service@devolutions.net) with your ticket number.

@@ -15,7 +15,7 @@ In most cases, this is caused by the migration process causing a ***Validation C
 
 1. Open the user web {{ en.DVLS }} and click on his ***Avatar*** in the right upper corner.
 1. In the menu, you should see an ***Export Nonmigrated {{ en.UVLT }}*** and a ***Delete Nonmigrated {{ en.UVLT }}*** option.
-![Export Nonmigrated {{ en.UVLT }}](https://cdnweb.devolutions.net/docs/en/kb/KB4784.png)
+![Export Nonmigrated {{ en.UVLT }}](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4784.png)
 1. Click on ***Export Nonmigrated {{ en.UVLT }}*** to create a password protectedrdm file.
 1. Import the data file in an empty Local Data source to test and ensure the integrity of the data.
 1. When your validation is conclusive, click on ***Delete Nonmigrated {{ en.UVLT }}***.
@@ -34,4 +34,4 @@ Removing the ***Security Provider*** will leave your database unencrypted.
 Regenerating the ***Encryption Keys*** will re-encrypt the database.
 {% endsnippet %}
 
-![Remove the security provider and regenerate the encryption keys](https://cdnweb.devolutions.net/docs/en/kb/KB4785.png)
+![Remove the security provider and regenerate the encryption keys](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4785.png)

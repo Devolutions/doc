@@ -11,9 +11,9 @@ Follow the steps below to complete the installation of the {{ en.WBEX }} in the 
 1. Open Opera.
 1. Download the extension of the [{{ en.WBEX }}](https://devolutions.net/workspace) from our website page.
 1. Click on ***Go to Extension*** from the information panel at the top or click on the Extension button.
-![Go to Extensions](https://cdnweb.devolutions.net/docs/en/kb/KB4815.png)
+![Go to Extensions](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4815.png)
 1. Click ***Install*** and the ***Yes, install*** pop up.
-![Extension Installation Button](https://cdnweb.devolutions.net/docs/en/kb/KB4816.png)
+![Extension Installation Button](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4816.png)
 1. Click on the ***Extensions*** button of the browser and ***Pin*** the {{ en.WBEX }}.
-![Extension Pin](https://cdnweb.devolutions.net/docs/en/kb/KB4817.png)
+![Extension Pin](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4817.png)
 1. Access the extension by clicking the {{ en.WBEX }} button icon in the top-right corner of Opera.

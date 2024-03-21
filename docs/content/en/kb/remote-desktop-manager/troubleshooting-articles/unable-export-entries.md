@@ -13,11 +13,11 @@ Validate all the following settings and policies for the export to work.
 * ***Disable the reveal password***
 * ***Remove possibility to see passwords entirely***
 
-![!!KB4881](https://cdnweb.devolutions.net/docs/en/kb/KB4881.png)
+![!!KB4881](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4881.png)
 
 2. Validate that ***Allow reveal password for administrator and authorized users*** is check in ***Administration - System Settings - Password Policy - Advanced***.
-![!!KB4882](https://cdnweb.devolutions.net/docs/en/kb/KB4882.png)
+![!!KB4882](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4882.png)
 
 3. In ***File - Data Sources*** select the data source and click ***Edit Data Source***.
 1. Validate that ***Disable reveal password*** is unchecked in the ***Advanced*** tab (not all data sources have this option).
-![!!KB4883](https://cdnweb.devolutions.net/docs/en/kb/KB4883.png)
+![!!KB4883](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4883.png)

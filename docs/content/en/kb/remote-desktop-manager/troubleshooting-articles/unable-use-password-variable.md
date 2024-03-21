@@ -14,7 +14,7 @@ Follow the steps below to use passwords in variables:
    Also, if you are using the ***Linked ({{ en.VLT }})*** credential mode in your entry, you will need to enable the ***Allow password in variable*** option in the linked credential entry as well.
    {% endsnippet %}
 
-   ![Allow password in variable](https://cdnweb.devolutions.net/docs/en/kb/KB2130.png)
+   ![Allow password in variable](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2130.png)
 4. Click ***OK*** to save your changes.
 
 You can now use the $PASSWORD$ variable in your macros.

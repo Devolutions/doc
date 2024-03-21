@@ -12,7 +12,7 @@ It is possible to get access to the {{ en.UVLT }} of a {{ en.DHUBB }} user, who 
 1. In the filtering drop-down menus:
    * In ***Type***, select ***{{ en.UVLT_MAJ }}***.
    * In ***Status***, select ***Deleted***.
-   ![Type and status](https://cdnweb.devolutions.net/docs/en/kb/KB4853.png)
+   ![Type and status](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4853.png)
 1. Click ***Restore as a Shared {{ en.VLT }}*** button.
 
 You can now view the restored {{ en.VLT }} in the {{ en.VLT }} selector of {{ en.DHUB }}.

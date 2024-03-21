@@ -11,4 +11,4 @@ OpenVpn keeps losing the VPN connection when another VPN opens in {{ en.RDM }}.
 For this to work, the configuration file path must be the same in {{ en.RDM }} and OpenVPN GUI.
 
 Also the ***Allow multiple connections*** option must be enabled in ***File - Options - Types - VPN***.
-![!!KB4626](https://cdnweb.devolutions.net/docs/en/kb/KB4626.png)
+![!!KB4626](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4626.png)

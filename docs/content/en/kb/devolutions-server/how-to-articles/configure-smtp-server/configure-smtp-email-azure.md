@@ -13,7 +13,7 @@ Before proceeding with the configuration in {{ en.DVLS }}, you must perform the 
 You can now configure the SMTP email in {{ en.DVLS }}.
 1. In {{ en.DVLS }}, go to ***Administration – Server Settings – Email***.
 1. In the ***Authentication type*** drop-down list, select ***Azure***.
-![Azure Authentication type](https://cdnweb.devolutions.net/docs/en/kb/KB2204.png)
+![Azure Authentication type](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2204.png)
 3. In the ***Administrator Email*** field, enter the recipient email address that will receive the errors.
 1. In the ***Client ID*** field, enter the ID of the application. In the Azure portal, this information is called ***Application (client) ID*** and can be found in the ***Overview*** of your app.
 1. In the ***Tenant ID*** field, enter the ID of the tenant that can be found in the ***Overview*** of your application.

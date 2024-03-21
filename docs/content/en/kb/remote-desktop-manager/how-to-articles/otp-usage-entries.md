@@ -5,7 +5,7 @@ eleventyComputed:
 {{ en.RDM }} entries can be set up to use ***One Time Password (OTP)*** when launch.
 
 In the ***Connection – One Time Password*** section of an entry, select a credential ***Source*** and a ***Usage*** for the OTP code.
-![!!KB5004](https://cdnweb.devolutions.net/docs/en/kb/KB5004.png)
+![!!KB5004](https://cdnweb.devolutions.net/docs/docs_en_kb_KB5004.png)
 
 For [Source](#source) configuration information, select from the list or click this link to jump to the [Usage](#usage) configuration information.
 
@@ -19,11 +19,11 @@ The ***Current session's credentials*** options will use the OTP credentials set
 In a team environment, we recommend using the [Linked ({{ en.VLT }})](#linked-vault) option instead with a ***One Time Password (OTP)*** credential entry.
 {% endsnippet %}
 
-![!!KB5008](https://cdnweb.devolutions.net/docs/en/kb/KB5008.png)
+![!!KB5008](https://cdnweb.devolutions.net/docs/docs_en_kb_KB5008.png)
 
 ### Custom
 Choose the ***Custom*** option to save the OTP credentials in the entry itself.
-![!!KB5005](https://cdnweb.devolutions.net/docs/en/kb/KB5005.png)
+![!!KB5005](https://cdnweb.devolutions.net/docs/docs_en_kb_KB5005.png)
 
 ### Inherited
 The ***Inherited*** option will climb up the navigation tree until it has access to a set of OTP credentials in a parent folder in the ***Connection - One Time Password*** section.
@@ -32,12 +32,12 @@ The ***Inherited*** option will climb up the navigation tree until it has access
 ***For the Source*** inheritance to work, the ***Connection - One Time Password - Source*** needs to be set to ***Inherited*** for every parent folder until it reaches the desired configuration.
 {% endsnippet %}
 
-![!!KB5009](https://cdnweb.devolutions.net/docs/en/kb/KB5009.png)
+![!!KB5009](https://cdnweb.devolutions.net/docs/docs_en_kb_KB5009.png)
 
 ### Linked ({{ en.VLT }})
 Link your entry to use an existing specific ***One Time Password (OTP)*** credential entry from the same {{ en.VLT }}. This is the preferred method.
 
-![!!KB5006](https://cdnweb.devolutions.net/docs/en/kb/KB5006.png)
+![!!KB5006](https://cdnweb.devolutions.net/docs/docs_en_kb_KB5006.png)
 
 ### None
 By default, the entries OTP ***Source*** is set to ***None*** In this state the entry is not linked to any OTP credentials.
@@ -45,7 +45,7 @@ By default, the entries OTP ***Source*** is set to ***None*** In this state the 
 ### Prompt
 The ***Prompt*** option opens a credential list of available OTP credentials every time the session launch.
 
-![!!KB5007](https://cdnweb.devolutions.net/docs/en/kb/KB5007.png)
+![!!KB5007](https://cdnweb.devolutions.net/docs/docs_en_kb_KB5007.png)
 
 ## Usage
 One Time Password ***Usage*** is an option to affix the OTP code. Here is the list of possible actions:

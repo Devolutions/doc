@@ -19,12 +19,12 @@ Only one license is needed for each ***Linked Account*** pair.
 ## Steps
 1. In a ***Small team*** or ***Enterprise*** data source, log in with an administrator.
 1. In the ***Ribbon***, go to ***Administration*** – ***Management*** – ***Users***.
-![Administration tab](https://cdnweb.devolutions.net/docs/en/kb/KB0073.png)
+![Administration tab](https://cdnweb.devolutions.net/docs/docs_en_kb_KB0073.png)
 1. Select one of the users you want to pair, then click on ***Edit User***.
-![Edit User](https://cdnweb.devolutions.net/docs/en/kb/KB0074.png)
+![Edit User](https://cdnweb.devolutions.net/docs/docs_en_kb_KB0074.png)
 1. Go to the ***Linked Account*** tab.
 1. Select the other account from the dropdown.
-![Linked Account](https://cdnweb.devolutions.net/docs/en/kb/KB0075.png)
+![Linked Account](https://cdnweb.devolutions.net/docs/docs_en_kb_KB0075.png)
 1. Click ***OK*** to save the changes and close the window, then click ***Close***.
 
 The accounts are now linked. It is possible to check which accounts are linked by going back to the ***User and Security Management*** window, which is under the ***Users*** button, and scrolling until the ***Linked Account*** column.

@@ -12,6 +12,6 @@ If the PAM check-in was done automatically by the scheduler (e.g., when the time
 1. Go to ***Administration*** – ***Privileged Access*** – ***Providers***.
 1. Click the ***Settings*** button on the Entra ID (Azure) provider.
 1. Go to the Settings tab and review the groups in the ***Just-In-Time (JIT) elevation*** section.  
-![Just-In-Time (JIT) elevation groups](https://cdnweb.devolutions.net/docs/en/kb/KB0191.png)
+![Just-In-Time (JIT) elevation groups](https://cdnweb.devolutions.net/docs/docs_en_kb_KB0191.png)
 1. In Microsoft Azure go to ***Azure*** – ***Microsoft Entra ID*** – ***Groups***.  
 1. Review the desired group to make certain the user accounts used during the JIT elevation process are no longer part of the group(s).

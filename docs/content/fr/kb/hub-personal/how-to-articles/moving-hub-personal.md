@@ -11,11 +11,11 @@ Get started with creating a [{{ en.DHUBP }}](/hub/getting-started/create-hub/hub
 ## Add {{ en.DHUBP }} in {{ en.RDM }} as a Data Source
 1. In {{ en.RDM }}, go to ***File - Data Sources*** and click on the plus sign to ***Add a New Data Source***.
 1. Select the ***{{ en.DHUBP }}*** data source and click ***OK***.
-![{{ en.DHUBP }}](https://cdnweb.devolutions.net/docs/en/kb/KB4823.png)
+![{{ en.DHUBP }}](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4823.png)
 1. Fill in the fields in the ***General*** section and click ***OK*** when done.
     1. ***Name***: Name of the data source.
     1. ***Username***: Email address.
-![Credentials](https://cdnweb.devolutions.net/docs/en/kb/KB4824.png)
+![Credentials](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4824.png)
 
 ## Export and Import Your Data Source
 You can migrate your data in {{ en.RDM }} from multiple sources.

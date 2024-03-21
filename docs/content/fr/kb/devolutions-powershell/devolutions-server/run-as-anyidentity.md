@@ -11,12 +11,12 @@ The ***Run As*** option lets you run {{ en.ANYID }} provider scripts within diff
 ## Run As PowerShell script in various contexts
 1. In {{ en.DVLS }}, go to ***Administration*** – ***Privileged Access*** – ***Providers***.
 1. Click on ***Add***.
-![Add button](https://cdnweb.devolutions.net/docs/en/kb/KB0149.png)
+![Add button](https://cdnweb.devolutions.net/docs/docs_en_kb_KB0149.png)
 1. Click on the ***{{ en.ANYID }}*** tab.
-![{{ en.ANYID }} tab](https://cdnweb.devolutions.net/docs/en/kb/KB0150.png)
+![{{ en.ANYID }} tab](https://cdnweb.devolutions.net/docs/docs_en_kb_KB0150.png)
 1. Select a PAM provider and click ***Continue***.
 1. Click on the ***Run As*** tab.
-![Run As tab](https://cdnweb.devolutions.net/docs/en/kb/KB0151.png)
+![Run As tab](https://cdnweb.devolutions.net/docs/docs_en_kb_KB0151.png)
 1. In the ***Credential*** dropdown select either;
   * Default: Runs the script with the current scheduler configuration.
   * Custom: Runs the script within a specified ***Username***, ***Password*** and ***Host Name***.

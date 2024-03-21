@@ -9,7 +9,7 @@ eleventyComputed:
 In {{ en.DHUB }}, many situations can trigger an ***Access denied*** error. Here are the most common messages and their solutions.
 
 ## Activate your Two-Step Verification on your account.
-![Activate your Two-Step Verification on your account.](https://cdnweb.devolutions.net/docs/en/kb/KB4770.png)
+![Activate your Two-Step Verification on your account.](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4770.png)
 
 #### Description
 The two-factor authentication login was enforced on the {{ en.DHUBB }}.
@@ -19,7 +19,7 @@ All users that connect to this {{ en.DHUBB }} need to have a two-factor authenti
 ---
 
 ## Enter your emergency reset code.
-![Enter your emergency reset code.](https://cdnweb.devolutions.net/docs/en/kb/KB4771.png)
+![Enter your emergency reset code.](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4771.png)
 
 #### Description
 This user did a Forgot password on their {{ en.DA }} for their {{ en.DHUBP }}.
@@ -31,7 +31,7 @@ You can search for a PDF file titled "{{ en.DHUBP }} Emergency Kit". There is no
 ---
 
 ## Please contact your administrator to be allowed to use the {{ en.WBEX }}.
-![Please contact your administrator to be allowed to use the {{ en.WBEX }}.](https://cdnweb.devolutions.net/docs/en/kb/KB2146.png)
+![Please contact your administrator to be allowed to use the {{ en.WBEX }}.](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2146.png)
 
 #### Description
 This user is not allowed to access this {{ en.DHUBB }} via the {{ en.WBEX }} {{ en.CTOOL }}.
@@ -41,7 +41,7 @@ The user needs to contact their {{ en.DHUBB }} administrator or any user that ha
 ---
 
 ## Please contact your administrator to enable your account.
-![Please contact your administrator to enable your account.](https://cdnweb.devolutions.net/docs/en/kb/KB4767.png)
+![Please contact your administrator to enable your account.](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4767.png)
 
 #### Description
 This user was disabled in {{ en.DHUBB }}.
@@ -51,7 +51,7 @@ The user needs to contact their {{ en.DHUBB }} administrator or any user that ha
 ---
 
 ## Please contact your administrator to request an invitation.
-![Please contact your administrator to request an invitation.](https://cdnweb.devolutions.net/docs/en/kb/KB4763.png)
+![Please contact your administrator to request an invitation.](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4763.png)
 
 #### Description
 This user account does not exist in the {{ en.DHUBB }}.
@@ -61,7 +61,7 @@ An administrator or any user that has the permission to manage users needs to in
 ---
 
 ## Please contact your administrator to request an invitation OR Enter your emergency reset code.
-![Please contact your administrator to request an invitation OR Enter your emergency reset code.](https://cdnweb.devolutions.net/docs/en/kb/KB4765.png)
+![Please contact your administrator to request an invitation OR Enter your emergency reset code.](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4765.png)
 
 #### Description
 This user did a Forgot password on his {{ en.DA }} and is the owner of the {{ en.DHUBB }}.
@@ -78,7 +78,7 @@ You can search for a PDF file titled "{{ en.DHUB }} Emergency Kit huburlxxxx.dev
 ---
 
 ## We detected a forgot password. In order to regain access to this Hub, please contact your administrator to request a new invitation.
-![We detected a forgot password. In order to regain access to this Hub, please contact your administrator to request a new invitation.](https://cdnweb.devolutions.net/docs/en/kb/KB4764.png)
+![We detected a forgot password. In order to regain access to this Hub, please contact your administrator to request a new invitation.](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4764.png)
 
 #### Description
 This user did a Forgot password on their {{ en.DA }} and is not the owner. This action cuts the link with the {{ en.DHUBB }}.
@@ -90,7 +90,7 @@ An administrator or any user that has the permission to manage users needs to re
 ---
 
 ## We detected a forgot password or a lost your phone (unpaired). In order to regain access to this Hub, please contact your administrator to request a new invitation.
-![We detected a forgot password or a lost your phone (unpaired). In order to regain access to this Hub, please contact your administrator to request a new invitation.](https://cdnweb.devolutions.net/docs/en/kb/KB2219.png)
+![We detected a forgot password or a lost your phone (unpaired). In order to regain access to this Hub, please contact your administrator to request a new invitation.](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2219.png)
 
 #### Description
 This user's phone pairing is broken for the private key push notification storage method.
@@ -105,7 +105,7 @@ This user's phone pairing is broken for the private key push notification storag
 ---
 
 ## {{ en.WS }} is disabled for this user on this hub.
-![{{ en.WS }} is disabled for this user on this hub.](https://cdnweb.devolutions.net/docs/en/kb/KB2209.png)
+![{{ en.WS }} is disabled for this user on this hub.](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2209.png)
 
 #### Description
 This user is not allowed to access this {{ en.DHUBB }} via the {{ en.WAPPS }}.
@@ -115,7 +115,7 @@ The user needs to contact their {{ en.DHUBB }} administrator or any user that ha
 ---
 
 ## Your IP address is not allowed.
-![Your IP address is not allowed.](https://cdnweb.devolutions.net/docs/en/kb/KB4768.png)
+![Your IP address is not allowed.](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4768.png)
 
 #### Description
 The IP address of this user is not in the IP Allowlist.
@@ -125,7 +125,7 @@ The user needs to contact their {{ en.DHUBB }} administrator.
 ---
 
 ## Your license is invalid; please contact your administrator. If you believe this is an error, contact support.
-![Your license is invalid; please contact your administrator. If you believe this is an error, contact support.](https://cdnweb.devolutions.net/docs/en/kb/KB4766.png)
+![Your license is invalid; please contact your administrator. If you believe this is an error, contact support.](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4766.png)
 
 #### Description
 The trial or paid license for {{ en.DHUBB }} has expired.
@@ -135,7 +135,7 @@ The {{ en.DHUBB }} owner must [buy or renew the license](https://store.devolutio
 ---
 
 ## Your hub has been disabled; contact your administrator.
-![Your hub has been disabled; contact your administrator.](https://cdnweb.devolutions.net/docs/en/kb/KB4769.png)
+![Your hub has been disabled; contact your administrator.](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4769.png)
 
 #### Description
 This {{ en.DHUBB }} was locked or a bug occurred between the license and the link to the {{ en.DHUBB }}.

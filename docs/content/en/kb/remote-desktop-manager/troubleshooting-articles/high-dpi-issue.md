@@ -17,7 +17,7 @@ There are multiple problems that can be caused by high DPI in RDP sessions, the 
 There are multiple methods on how to solve these issues.
 ### Method 1
 1. In {{ en.RDM }}, go to ***File – Options – User Interface*** and change the ***Display scaling*** to ***DPI unaware***.
-![Display scaling](https://cdnweb.devolutions.net/docs/en/kb/KB4994.png)
+![Display scaling](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4994.png)
 
 If you cannot see the setting because of display issues, you can add the line in your config files directly.
 {% snippet icon.badgeHelp %}
@@ -32,23 +32,23 @@ To locate your config file refer to [Configuration File Location](/kb/remote-des
 1. Right-click on your {{ en.RDM }} icon.
 1. Go to ***Properties***.
 1. In ***Compatibility*** tab, click ***Change high DPI settings***.
-![Change high DPI settings](https://cdnweb.devolutions.net/docs/en/kb/KB4995.png)
+![Change high DPI settings](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4995.png)
 1. In ***High DPI scaling override*** section, check ***Override high DPI scaling behavior*** and click OK.
-![High DPI scaling override](https://cdnweb.devolutions.net/docs/en/kb/KB4996.png)
+![High DPI scaling override](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4996.png)
 {% snippet icon.badgeInfo %}
 When applying this change, you must log off and log back in with your user for changes to take effect.
 {% endsnippet %}
 
 ### Method 3
 In ***File – Options – Types – Remote Desktop – Advanced***, uncheck the ***Disable RDP scale factor (HDPI)*** option.
-![Disable RDP scale factor (HDPI)](https://cdnweb.devolutions.net/docs/en/kb/KB6004.png)
+![Disable RDP scale factor (HDPI)](https://cdnweb.devolutions.net/docs/docs_en_kb_KB6004.png)
 
 ### Method 4
 
 1. In {{ en.RDM }}, go to ***File – Options – Advanced***.
 1. Set ***Hardware acceleration*** on ***Default (Automatic)***. Click ***OK***.
-![Advanced window](https://cdnweb.devolutions.net/docs/en/kb/KB6001.png)
+![Advanced window](https://cdnweb.devolutions.net/docs/docs_en_kb_KB6001.png)
 1. In the ribbon under the ***Help*** tab, click on ***Diagnostic***.
-![Help tab](https://cdnweb.devolutions.net/docs/en/kb/KB6003.png)
+![Help tab](https://cdnweb.devolutions.net/docs/docs_en_kb_KB6003.png)
 1. At the bottom of the ***System*** tab, make sure that ***DirectX enabled*** is deactivated.
-![System Diagnostic](https://cdnweb.devolutions.net/docs/en/kb/KB6002.png)
+![System Diagnostic](https://cdnweb.devolutions.net/docs/docs_en_kb_KB6002.png)

@@ -7,11 +7,11 @@ The {{ en.WBEX }} can work without HTTP(S) by using native messaging. Here are t
 1. In your browser, click on the {{ en.WBEX }} icon and click on the ***Settings*** button.
 1. Under the ***Data sources*** section, click ***{{ en.RDM }}***.
 1. Go to the ***Advanced*** tab and check the ***Enable native messaging*** option.
-![!!KB4790](https://cdnweb.devolutions.net/docs/en/kb/KB4790.png)
+![!!KB4790](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4790.png)
 1. Click ***Save***.
 1. In {{ en.RDM }}, go to ***File – Options – Browser Extensions – Advanced***.
 1. Check the ***Enable native messaging*** option and uncheck the ***Enable Http listener*** option.
-![!!KB4791](https://cdnweb.devolutions.net/docs/en/kb/KB4791.png)
+![!!KB4791](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4791.png)
 1. Click ***OK*** to save your changes.
 1. Go to your {{ en.RDM }} installation folder. It is installed by default in **C:\Program Files\Devolutions\Remote Desktop Manager**.
 1. Open the **com.devolutions.rdmnativemessaging.json** file.

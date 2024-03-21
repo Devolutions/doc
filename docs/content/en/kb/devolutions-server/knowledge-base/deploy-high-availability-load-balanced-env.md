@@ -2,7 +2,7 @@
 eleventyComputed:
   title: Deploy in a high-availability or load-balancing environment
 ---
-![Deploy in a high-availability or load-balancing environment](https://cdnweb.devolutions.net/docs/en/kb/KB4773.png)
+![Deploy in a high-availability or load-balancing environment](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4773.png)
 
 ## Key points
 * {{ en.DVLS }} instances are not able to discover the public name of the whole infrastructure. It must be provided using a few different strategies.
@@ -18,7 +18,7 @@ eleventyComputed:
 
 ## Validation
 * Any email sent by the system contains the public URI (not the name as the server node). You can use the server messaging feature and inspect the received email for the proper URI.
-![Messages](https://cdnweb.devolutions.net/docs/en/kb/KB2377.png)
+![Messages](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2377.png)
 * The ***LoginHistory*** table contains the IP Address for the client, not any intervening servers.
 * The ***LoginAttempts*** table lists the IP Address as well, but there are more scenarios:
     * Login failures (e.g., bad credentials)

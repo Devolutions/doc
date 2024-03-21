@@ -15,23 +15,23 @@ The following steps describe how to configure the failed request tracing using [
 | appcmd.exe set config "Default Web Site" -section:system.webServer/tracing/traceFailedRequests /[path='*'].failureDefinitions.statusCodes:"400-599" |
 
 1. In IIS Manager, expand the root node, expand ***Sites***, then select ***Default Web Site***.
-![Root node – Sites – Default Web Site](https://cdnweb.devolutions.net/docs/en/kb/KB4327.png)
+![Root node – Sites – Default Web Site](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4327.png)
 1. In the ***Actions*** pane on the right, select ***Failed Request Tracing***.
-![Actions – Failed Request Tracing](https://cdnweb.devolutions.net/docs/en/kb/KB4328.png)
+![Actions – Failed Request Tracing](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4328.png)
 1. Check the ***Enable*** box (mandatory). The ***Directory*** target and ***Maximum number of trace files*** options can be customized (optional). Click ***OK*** when done.
-![Edit Website Failed Request Tracing Settings](https://cdnweb.devolutions.net/docs/en/kb/KB4329.png)
+![Edit Website Failed Request Tracing Settings](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4329.png)
 1. Expand ***Default Web Site***, then select the website to be traced.
-![Select the website](https://cdnweb.devolutions.net/docs/en/kb/KB4330.png)
+![Select the website](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4330.png)
 1. Double-click on the ***Failed Request Tracing Rules*** icon of the selected website.
-![Failed Request Tracing Rules](https://cdnweb.devolutions.net/docs/en/kb/KB4331.png)
+![Failed Request Tracing Rules](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4331.png)
 1. In the ***Actions*** pane on the right, click on ***Add*** to add a new rule.
-![Actions – Add](https://cdnweb.devolutions.net/docs/en/kb/KB4332.png)
+![Actions – Add](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4332.png)
 1. Select ***All content (*)***, then click ***Next***.
-![Trace all content](https://cdnweb.devolutions.net/docs/en/kb/KB4333.png)
+![Trace all content](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4333.png)
 1. Check the ***Status Code(s)*** box, then enter the type of the status code to be traced. In this case, the ***Status code(s)*** is set to monitor everything from codes 400 to 599. Click ***Next*** when done.
-![Status code(s)](https://cdnweb.devolutions.net/docs/en/kb/KB4334.png)
+![Status code(s)](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4334.png)
 1. Select the providers of the tracing. For each provider, set the ***Verbosity*** to ***Verbose*** and check ***Rewrite*** in ***Arear***.
-![Providers](https://cdnweb.devolutions.net/docs/en/kb/KB4335.png)
+![Providers](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4335.png)
 1. Click ***Finish***.
 The tracing rule is now defined.
-![Defined tracing rule](https://cdnweb.devolutions.net/docs/en/kb/KB4336.png)
+![Defined tracing rule](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4336.png)

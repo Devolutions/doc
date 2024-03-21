@@ -24,14 +24,14 @@ If you call config without parameters, it will return the current settings.
 The command output will be formatted in JSON format.
 
 #### Examples:
-![{{ en.DVLS }} CLI examples](https://cdnweb.devolutions.net/docs/en/kb/KB8006.png)
+![{{ en.DVLS }} CLI examples](https://cdnweb.devolutions.net/docs/docs_en_kb_KB8006.png)
 
 ## Get
 Returns the credentials of an entry based on its id.
 
 #### Parameters:
 The entry's id can be found in its advance property or in the last part of its URL.
-![Entry ID](https://cdnweb.devolutions.net/docs/en/kb/KB4351.png)
+![Entry ID](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4351.png)
 
 #### Options:
 `-j or --json`
@@ -65,17 +65,17 @@ DPS> get 4574725f-0d24-4cbc-a116-a5270179e251 -p
 12345
 ```
 
-![GET Command Line Interface examples](https://cdnweb.devolutions.net/docs/en/kb/KB4352.png)
+![GET Command Line Interface examples](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4352.png)
 
 ## Login
 
 #### Parameters:
 First parameter: the username (the key, if the user is of the type application)
 Second parameter: the password (the secret, if the user is of the type application)
-![Application – General](https://cdnweb.devolutions.net/docs/en/kb/KB4353.png)
+![Application – General](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4353.png)
 
 The user/application must have the right to use the CLI
-![Edit user – Applications](https://cdnweb.devolutions.net/docs/en/kb/KB4354.png)
+![Edit user – Applications](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4354.png)
 
 #### Options:
 `-j or --json`
@@ -83,18 +83,18 @@ The command output will be formatted in JSON format.
 
 #### Examples:
 `DPS> login dsavard 12345`
-![Command Line Interface examples](https://cdnweb.devolutions.net/docs/en/kb/KB4355.png)
+![Command Line Interface examples](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4355.png)
 
 ## Logout
 Logout the current user.
-![Command Line Interface examples](https://cdnweb.devolutions.net/docs/en/kb/KB4356.png)
+![Command Line Interface examples](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4356.png)
 
 ## Set
 Update the credentials of an entry.
 
 #### Parameters:
 The entry's id can be found in its advance property or in the last part of its URL.
-![Credentials – Username/Password – Advanced](https://cdnweb.devolutions.net/docs/en/kb/KB4357.png)
+![Credentials – Username/Password – Advanced](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4357.png)
 
 #### Options:
 `-j or --json`
@@ -112,4 +112,4 @@ Update the password.
 #### Examples:
 `DPS> set 4574725f-0d24-4cbc-a116-a5270179e251 --domain newdomain`
 Entry has been successfully updated
-![Command Line Interface examples](https://cdnweb.devolutions.net/docs/en/kb/KB4358.png)
+![Command Line Interface examples](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4358.png)

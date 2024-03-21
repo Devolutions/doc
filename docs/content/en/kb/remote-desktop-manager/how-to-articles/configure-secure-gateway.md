@@ -8,10 +8,10 @@ The new jump integration will give you the possibility to jump through a DMZ zon
 ## Configure the jump server
 
 1. Create an SSH Tunnel entry by entering the SSH server information that we have to authenticate through for access to the DMZ zone (#1). Then in the Outgoing Tunnel Settings configure the Mode to Dynamic and the Source to 127.0.0.1 (#2).
-![!!KB4222](https://cdnweb.devolutions.net/docs/en/kb/KB4222.png)
+![!!KB4222](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4222.png)
 
 1. A nice feature for Secure Gateway is keeping the Secure Gateway window hidden. To do go to the ***Advanced*** tab and check ***Hide when connection successful***.
-![!!KB4223](https://cdnweb.devolutions.net/docs/en/kb/KB4223.png)
+![!!KB4223](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4223.png)
 
 The Jump server (Secure Gateway) is now configured and ready to use.
 
@@ -24,7 +24,7 @@ The configuration contains two steps: the first one is the general configuration
 ### General configuration
 
 1. Configure the Host, Port, Username, Domain and Password that refer your RDP session (forget the old configuration, do not enter a localhost IP 127.0.0.1).
-![!!KB4224](https://cdnweb.devolutions.net/docs/en/kb/KB4224.png)
+![!!KB4224](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4224.png)
 
 ### Secure Gateway configuration
 
@@ -33,10 +33,10 @@ The configuration contains two steps: the first one is the general configuration
 {type="a"}
     1. ***VPN Group*** can be configured as explained in [Configure VPN for multiple sessions](/kb/remote-desktop-manager/how-to-articles/configure-vpn-multiple-sessions/). We Strongly recommend configuring VPN Group if many RDP/Web Browser session uses the same Secure Gateway.
     1. For ***Type*** select ***Existing – SSH***.
-![!!KB4225](https://cdnweb.devolutions.net/docs/en/kb/KB4225.png)
+![!!KB4225](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4225.png)
 1. Under the ***Settings*** tab, select the SSH Secure Gateway entry and check ***Use over secure gateway***.
-![!!KB4226](https://cdnweb.devolutions.net/docs/en/kb/KB4226.png)
+![!!KB4226](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4226.png)
 1. The waiting time for the VPN session can be reduced by changing the Delay. The delay is set to 1 second below.
-![!!KB4227](https://cdnweb.devolutions.net/docs/en/kb/KB4227.png)
+![!!KB4227](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4227.png)
 
 Both sessions are configured and you are ready to start the RDP session, everything else will be performed automatically by {{ en.RDM }}.

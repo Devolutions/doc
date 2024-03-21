@@ -93,6 +93,6 @@ krbtgt/DOMAIN.COMPANY.COM@ DOMAIN.COMPANY.COM.
 1. Select the “ ***Integrated Security (Active Directory) - Experimental*** ” mode.
 1. Select the database.
 1. Save the data source.
-![!!KB4792](https://cdnweb.devolutions.net/docs/en/kb/KB4792.png)
+![!!KB4792](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4792.png)
 
 If you have followed all the steps above, you should be able to connect successfully to the data source.

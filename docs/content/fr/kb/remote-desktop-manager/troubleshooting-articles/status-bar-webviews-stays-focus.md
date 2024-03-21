@@ -10,6 +10,6 @@ For a long-term solution, there is an option to disable the status bar altogethe
 1. In {{ en.RDM }}, go to ***File – Options – User Interface***.
 1. Under the ***Advanced*** section, find the ***Show status bar in WebView*** option and disable it.
 
-![Disable Show status bar in WebViews](https://cdnweb.devolutions.net/docs/en/kb/KB2183.png)
+![Disable Show status bar in WebViews](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2183.png)
 
 3. Click ***OK*** to save your change.

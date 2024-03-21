@@ -17,15 +17,15 @@ If you are using a shared data source, we recommend to use a [portable version o
 2. In {{ en.RDM }}, create your ***CyberArk Dashboard*** entry. Make sure to created it from version 2023.2.18 or later and **not** from the previous version.
 1. Enter the necessary information. See [CyberArk Dashboard Configuration and Use](/kb/remote-desktop-manager/how-to-articles/cyberark-dashboard-configuration/) for more information.
 
-![CyberArk Dashboard SAML Configuration](https://cdnweb.devolutions.net/docs/en/kb/KB2167.png)
+![CyberArk Dashboard SAML Configuration](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2167.png)
 
 4. Once your entry is created, go to ***File – Options – Advanced***.
 1. Click the link at the bottom that leads to your {{ en.RDM }} configuration files.
 
-![Link to Configuration Files](https://cdnweb.devolutions.net/docs/en/kb/KB2168.png)
+![Link to Configuration Files](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2168.png)
 
 6. Open the folder called "WebView2.Cache", then delete the "CyberArk_SAML" folder that is inside.
 
-![Delete "CyberArk_SAML" Folder](https://cdnweb.devolutions.net/docs/en/kb/KB2169.png)
+![Delete "CyberArk_SAML" Folder](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2169.png)
 
 7. Try to connect again to your entry. You may need to refresh or restart {{ en.RDM }} for this solution to work.

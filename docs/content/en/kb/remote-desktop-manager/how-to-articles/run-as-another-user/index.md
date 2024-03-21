@@ -13,7 +13,7 @@ The ***Run As*** command requires that the ***Secondary Logon*** service is runn
 ## Settings
 
 In Windows you can manually start any process as a different user using <kbd>Shift</kbd>+right-click to get the context menu.
-![!!KB4565](https://cdnweb.devolutions.net/docs/en/kb/KB4565.png)
+![!!KB4565](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4565.png)
 
 The ***Run As*** command has many parameters to change its behaviour, we will not cover them all here, but if you have an advanced scenario we suggest you consult the Windows help.
 

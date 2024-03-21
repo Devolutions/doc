@@ -7,14 +7,14 @@ The following Office365 authentication issue occurs on an updated {{ en.DVLS }} 
 {% endsnippet %}
 
 When trying to authenticate on the {{ en.DVLS }} web interface using the Office365 authentication method, the following error is displayed.
-![!!KB8099](https://cdnweb.devolutions.net/docs/en/kb/KB8099.png)
+![!!KB8099](https://cdnweb.devolutions.net/docs/docs_en_kb_KB8099.png)
 
 ## Solution
 
 1. Go in the Azure Active Directory portal.
 1. Find the {{ en.DVLS }} Web application in App Registration.
-![Azure App Registration](https://cdnweb.devolutions.net/docs/en/kb/KB8100.png)
+![Azure App Registration](https://cdnweb.devolutions.net/docs/docs_en_kb_KB8100.png)
 1. In the Redirect URIs properties of the application, update the URI from **https://<access_uri>/login** to this URI **https://<access_uri>/api/external-provider-response**.
-![Redirect URI](https://cdnweb.devolutions.net/docs/en/kb/KB8101.png)
+![Redirect URI](https://cdnweb.devolutions.net/docs/docs_en_kb_KB8101.png)
 1. Save the modification.
 1. Reload the {{ en.DVLS }} web page to login properly with your Office365 account.

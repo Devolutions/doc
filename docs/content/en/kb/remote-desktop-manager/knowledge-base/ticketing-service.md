@@ -17,10 +17,10 @@ As of now, the Jira ticketing system is the only one supported.
 {% endsnippet %}
 
 You can find this feature in ***Administration – System Settings – Advanced – Ticketing Service*** in {{ en.RDM }}.
-![Administration – System Settings – Advanced – Ticketing Service](https://cdnweb.devolutions.net/docs/en/kb/KB2198.png)
+![Administration – System Settings – Advanced – Ticketing Service](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2198.png)
 
 If you are using a {{ en.DVLS }} data source, you can also access it via the web interface in ***Administration – System Settings – Ticketing Service***.
-![Administration – System Settings – Ticketing Service](https://cdnweb.devolutions.net/docs/en/kb/KB2199.png)
+![Administration – System Settings – Ticketing Service](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2199.png)
 
 The table below gives you an explanation of each parameter to configure. You will need to [create an API token](https://support.atlassian.com/atlassian-account/docs/manage-api-tokens-for-your-atlassian-account/) to complete the configuration.
 

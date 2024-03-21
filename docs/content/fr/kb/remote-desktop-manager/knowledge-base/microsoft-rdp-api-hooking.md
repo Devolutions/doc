@@ -8,7 +8,7 @@ If you have disabled it, you can enable it again by going in {{ en.RDM }} ***Fil
 
 Restart {{ en.RDM }} to apply the change.
 
-![File - Options - Types - Remote Desktop - API hooking](https://cdnweb.devolutions.net/docs/en/kb/KB4969.png)
+![File - Options - Types - Remote Desktop - API hooking](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4969.png)
 
 {% snippet icon.badgeInfo %}
 Since {{ en.RDM }} 2022.3.23, a policy, EnableRDPHooking, has been added that overrides the ***Enable API hooking*** setting. If it is not configured (no registry key), the value from the {{ en.RDM }} option will be used. A value of "0" indicates that RDP hooking is disabled, while a value different than "0" indicates that RDP hooking is enabled. This enables the administrator to force either setting or allow the local configuration to be effective.
@@ -28,7 +28,7 @@ Microsoft RDP API hooking should be enabled for {{ en.DGW }} connections, as it 
 
 Once Microsoft RDP API hooking is enabled, the ***Force using IP address for RDP connections*** option should be disabled. In cases where the Kerberos name mismatch issue occurred, Kerberos should now work just fine.
 
-![!!KB4970](https://cdnweb.devolutions.net/docs/en/kb/KB4970.png)
+![!!KB4970](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4970.png)
 
 ### RDP Fresh Credentials GPO
 

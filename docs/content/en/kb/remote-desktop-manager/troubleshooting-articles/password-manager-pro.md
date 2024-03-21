@@ -4,10 +4,10 @@ eleventyComputed:
 ---
 ## SYSTEM.NET.WEBEXCEPTION: THE SERVER COMMITTED A PROTOCOL VIOLATION. SECTION=RESPONSESTATUSLINE
 During the configuration of your Password Manager Pro credential entry, make sure that the URL of your server contains https:// and not http://. You absolutely need an https:// at the beginning of the address to communicate properly with the server.
-![!!KB4113](https://cdnweb.devolutions.net/docs/en/kb/KB4113.png)
+![!!KB4113](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4113.png)
 
 ## WHEN YOU TRY TO CONNECT ON A REMOTE COMPUTER OR GET THE CREDENTIAL LIST, A WINDOW APPEARs WITH AN EMPTY TOKEN FIELD AND THE USERNAME AND WORKSTATION FIELD GREYED OUT.
-![!!KB4114](https://cdnweb.devolutions.net/docs/en/kb/KB4114.png)
+![!!KB4114](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4114.png)
 The Host Name configured in your API user in Password Manager Pro is not the same that you have configured in {{ en.RDM }} in ***File – My Account Settings – Password Manager Pro*** Please consult [Configure Password Manager Pro in {{ en.RDM }}](/kb/remote-desktop-manager/how-to-articles/rdm-mac-configure-password-manager-pro/) for more information on the configuration.
 
 ## SYSTEM.NET.WEBEXCEPTION: THE REQUEST WAS ABORTED: COULD NOT CREATE SSL/TLS SECURE CHANNEL.

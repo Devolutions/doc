@@ -11,7 +11,7 @@ Follow the steps below to add X-Forwarded-For column into IIS 8.5 logs:
     1.***Field Name***: X-Forwarded-For, ***Source type***: Request Header, ***Source***: X-Forwarded-For
 1. Click ***OK*** in both open windows.
 1. Click ***Apply*** in the actions pane.
-![!!KB4772](https://cdnweb.devolutions.net/docs/en/kb/KB4772.png)
+![!!KB4772](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4772.png)
 Wait for a new log file to be created in the logs folder. Column changes will be effective when a new log file is created.
 ## Command Line
 

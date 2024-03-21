@@ -16,12 +16,12 @@ Only one license is needed for each ***Linked Account*** pair.
 ## Steps
 1. Log in to {{ en.DVLS }} with an administrator account.
 1. Go to ***Administration*** – ***Security Management*** – ***Users***.
-![Users](https://cdnweb.devolutions.net/docs/en/kb/KB0117.png)
+![Users](https://cdnweb.devolutions.net/docs/docs_en_kb_KB0117.png)
 1. Select one of the users you want to pair, then click on ***Edit***.
-![Edit](https://cdnweb.devolutions.net/docs/en/kb/KB0118.png)
+![Edit](https://cdnweb.devolutions.net/docs/docs_en_kb_KB0118.png)
 1. Go to the ***Linked Account*** tab.
 1. Select the other account from the dropdown.
-![Linked Account](https://cdnweb.devolutions.net/docs/en/kb/KB0119.png)
+![Linked Account](https://cdnweb.devolutions.net/docs/docs_en_kb_KB0119.png)
 1. Click ***Update*** to save the changes and close the window.
 
 The accounts are now linked. The ***Linked Account*** column shows which account is paired to one another.

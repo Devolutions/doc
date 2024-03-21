@@ -9,7 +9,7 @@ Customize the default size and colors of the remote desktop window in RDP sessio
 Most of the display properties require you to close the RDP entry completely, then reopen it to take effect.
 {% endsnippet %}
 
-![Display properties](https://cdnweb.devolutions.net/docs/en/kb/KB2373.png)
+![Display properties](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2373.png)
 
 ## Remote desktop size
 
@@ -19,7 +19,7 @@ Three default size parameter values can be customized to best suit your needs:
 * [***Zoom***](#zoom)
 
 ### Screen sizing mode
-![Remote desktop size settings](https://cdnweb.devolutions.net/docs/en/kb/KB2374.png)
+![Remote desktop size settings](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2374.png)
 The ***Screen sizing mode*** defines how the host resolution adapts to the current screen configuration by default.
 
 | Settings                 | Description                                                                                                                     |
@@ -46,7 +46,7 @@ The content of your RDP session window can be zoomed in or out when opening the 
 
 ## Colors
 Customize the color depth of the RDP session display. The ***Highest Quality (32 bits)*** is set by default. Note that settings on the remote computer might override this one.
-![Colors settings](https://cdnweb.devolutions.net/docs/en/kb/KB2375.png)
+![Colors settings](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2375.png)
 
 ## Connection bar settings
 The two settings at the bottom of the display properties are related to how the connection bar is displayed inside your RDP session window while in full screen mode.

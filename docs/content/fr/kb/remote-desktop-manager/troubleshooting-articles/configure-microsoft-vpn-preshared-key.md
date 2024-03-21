@@ -7,7 +7,7 @@ The VPN L2TP configuration in {{ en.RDM }} required a Phonebook file. We are als
 1. Create a phonebook entry with the PBK file.
 1. We will configure a Microsoft VPN session.
 Important the VPN Name need to be the address that you will connect to. The PowerShell script is not reading the information in the PBK file when creating the local VPN.
-![!!KB4243](https://cdnweb.devolutions.net/docs/en/kb/KB4243.png)
+![!!KB4243](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4243.png)
 
 Configure the Microsoft VPN entry as:
 
@@ -16,7 +16,7 @@ Configure the Microsoft VPN entry as:
 1. Enter the credentials.
 
 Now it is time for the PreShared key, under ***Common – Custom Fields***, in the ***Custom #1***, click on the name and change it for PreSharedKey (#1). Then enter the Preshared-Key in the field at the right. At the end as a visual protection only click on the lock at the end (#2)
-![!!KB4244](https://cdnweb.devolutions.net/docs/en/kb/KB4244.png)
+![!!KB4244](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4244.png)
 {% snippet icon.badgeCaution %}
 The Preshared key is not protected with View Password permission. To prevent the user to see it you need to block the Edit access to the entry.
 {% endsnippet %}

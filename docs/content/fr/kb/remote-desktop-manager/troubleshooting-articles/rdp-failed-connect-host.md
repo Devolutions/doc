@@ -4,7 +4,7 @@ eleventyComputed:
 ---
 Error silent: failed to connect to the host (131084) for macOS
 
-![!!KB4066](https://cdnweb.devolutions.net/docs/en/kb/KB4066.png)
+![!!KB4066](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4066.png)
 ## Solution
 Usually, this error occurs because of a failure in the pre-authentication "handshake".
 

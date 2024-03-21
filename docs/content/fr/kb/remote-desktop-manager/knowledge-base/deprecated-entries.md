@@ -9,7 +9,7 @@ Here is how to display them:
 1. Click on the ellipsis at the bottom left of the ***Add New Entry*** window.
 1. Select ***Show Deprecated Entries***.
 
-![Edit – New Entry – Show Deprecated Entries](https://cdnweb.devolutions.net/docs/en/kb/KB4130.png)
+![Edit – New Entry – Show Deprecated Entries](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4130.png)
 
 Here is the list of deprecated entries:
 

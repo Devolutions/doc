@@ -7,7 +7,7 @@ VMware tools make assumptions that their scripts are run in an interactive sessi
 The PowerCLI configuration has multiple scopes: ***Session***, ***User***, and ***AllUsers*** Please refer to their documentation for details and on how to properly configure as per your requirements.
 ## Connection to the server failed!
 This error message is displayed for various reasons. For a quick diagnostic, launch the VMware vSphere PowerCLI shortcut of the same bitness (64 bit) as your {{ en.RDM }} Some commands will be listed in the table below to diagnose issues in sequence.
-![!!KB4121](https://cdnweb.devolutions.net/docs/en/kb/KB4121.png)
+![!!KB4121](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4121.png)
 ## In the PowerShell window: error message appear but it is impossible to read them before the window closes
 {{ en.RDM }} ultimately sends a few commands in an encoded script, you can open a PowerShell window and type the following commands sequentially. This way you will have time to see the error messages.
 
@@ -32,19 +32,19 @@ This error occurs because the PowerCLI modules are not linked with PowerShell or
 Check is VMware PowerCLI is installed.
 
 Running Get-Module VM* -ListAvailable in PowerShell shows the list of VMware modules installed.
-![!!KB4122](https://cdnweb.devolutions.net/docs/en/kb/KB4122.png)
+![!!KB4122](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4122.png)
 You should see 4 VMware modules listed in PowerShell as shown in the image above.
 
 You can test to see if PowerShell recognizes the Connect-ViServer command.
-![!!KB4123](https://cdnweb.devolutions.net/docs/en/kb/KB4123.png)
+![!!KB4123](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4123.png)
 By typing the command, we see that PowerShell does not have the proper module installed.
 
 In the PowerShell Window, install the PowerCLI modules by using the Install-Module command. Many step by step instructions can be found on Google.
 
 Then type the Get-Module VM* -ListAvailable command again, we can see that the PowerCLI modules are now listed.
-![!!KB4124](https://cdnweb.devolutions.net/docs/en/kb/KB4124.png)
+![!!KB4124](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4124.png)
 A final test with the Connect-ViServer command, by typing it in PowerShell, the connection is established and the issue should be resolved.
-![!!KB4125](https://cdnweb.devolutions.net/docs/en/kb/KB4125.png)
+![!!KB4125](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4125.png)
 ## Additional troubleshooting
 If try on a new computer and have an issue with VimAutomation.Core, you can install it with the command:
 
@@ -55,7 +55,7 @@ After the installation, if you run the command:
     Get-Module VM* -ListAvailable
 
 You should get the output below:
-![!!KB4126](https://cdnweb.devolutions.net/docs/en/kb/KB4126.png)
+![!!KB4126](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4126.png)
 If you restart {{ en.RDM }} with the current user (not running as admin) and open the VMware Dashboard entry, after 30 seconds, you should see all your servers.
 
 If this does not work, create a PowerShell entry, the blue one, select ***Embedded Script*** and type the script below:

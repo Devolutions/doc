@@ -4,8 +4,8 @@ eleventyComputed:
 ---
 When you connect to a remote workstation, you receive one of the errors below.
 
-![!!KB4234](https://cdnweb.devolutions.net/docs/en/kb/KB4234.png)
-![!!KB4235](https://cdnweb.devolutions.net/docs/en/kb/KB4235.png)
+![!!KB4234](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4234.png)
+![!!KB4235](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4235.png)
 
 ## Solution 1
 

@@ -6,7 +6,7 @@ eleventyComputed:
 You seem unable to uninstall {{ en.RDM }} from Programs and Features in Windows.
 
 In the Event log, you see the following error message:
-![!!KB4091](https://cdnweb.devolutions.net/docs/en/kb/KB4091.png)
+![!!KB4091](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4091.png)
 ## Solution
 Try the suggested fix by Microsoft:
 

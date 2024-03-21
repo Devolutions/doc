@@ -5,7 +5,7 @@ eleventyComputed:
 ---
 By default, the RDP protocol will reserve a sizable chunk of memory right from the start of a session for caching purposes, but we have some level of control over that. In the ***Experience*** tab of the RDP session, there is a ***Cache*** setting that you can use to control the behavior.
 
-![Cache mode](https://cdnweb.devolutions.net/docs/en/kb/KB4455.png)
+![Cache mode](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4455.png)
 
 Here is what each mode does:
 
@@ -20,4 +20,4 @@ Choosing ***Thin client*** is therefore the choice that limits memory consumptio
 
 You might wish to set this for all sessions. In this case, go to ***File – Options – Types – Remote Desktop – Cache*** to assign the default value, then in all of your sessions use ***Default***.
 
-![File – Options – Types – Remote Desktop – Cache](https://cdnweb.devolutions.net/docs/en/kb/KB4456.png)
+![File – Options – Types – Remote Desktop – Cache](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4456.png)

@@ -10,7 +10,7 @@ This feature simply uses a basic mechanism of sending keystrokes provided by the
 Be advised that using this feature in an environment where passwords must be hidden from the user is highly discouraged.
 {% endsnippet %}
 
-![!!KB4621](https://cdnweb.devolutions.net/docs/en/kb/KB4621.png)
+![!!KB4621](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4621.png)
 ## Settings
 ### Typing macro
 Keyboard keys are represented by predefined tags between braces. To specify a single keyboard character, use the character itself without braces. For example, represent the letter ***A*** by typing the "A" character in the typing macro. To represent more than one character, such as ***Hello***, append each additional character to the preceding one: "Hello".

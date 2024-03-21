@@ -11,14 +11,14 @@ You can configure a MMC snap-in console to run on any of your servers. The snap-
 1. In Macro/Script/Tool, select the ***Command Line*** entry type.
 1. Name the session DHCP.
 1. Under the ***General*** tab, in the ***Run*** field, type *dhcpmgmt.msc /ComputerName $HOST$* ($HOST$ is the variable that will be replaced by the server name or IP address).
-![Run](https://cdnweb.devolutions.net/docs/en/kb/KB4529.png)
+![Run](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4529.png)
 1. Under the ***Advanced*** tab, enable ***Run as Administrator***.
    {% snippet icon.shieldInfo %}
    If you are running a Windows 64-bit edition, enable ***Run in 64-bit mode*** as well.
    {% endsnippet %}
 1. Click ***Add*** to save your entry.
 1. Verify that your sessions use the appropriate credentials to run the tool. In the ***Management Tools – Tools*** section of each session, make sure you have selected the proper credentials to be supplied.
-   ![Management Tools – Tools – Credentials](https://cdnweb.devolutions.net/docs/en/kb/KB4530.png)
+   ![Management Tools – Tools – Credentials](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4530.png)
 
    | Option                      | Description                                       |
    | --------------------------- | ------------------------------------------------- |
@@ -31,4 +31,4 @@ You can configure a MMC snap-in console to run on any of your servers. The snap-
    | My privileged account       | Use ***My Privileged Account*** set in ***File – My account settings***. |
 
 To run the snpa-in, select your session and execute the tool from the dashboard.
-![Run from the dashboard](https://cdnweb.devolutions.net/docs/en/kb/KB4531.png)
+![Run from the dashboard](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4531.png)

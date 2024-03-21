@@ -15,16 +15,16 @@ Here is a quick troubleshooting guide to diagnose any issue with Jump ({{ en.RDM
     1. Start {{ en.RDM }}.
 {type="a"}
     1. Go to ***Tools – More Tools***.
-![Tools – More Tools](https://cdnweb.devolutions.net/docs/en/kb/KB2226.png)
+![Tools – More Tools](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2226.png)
     1. Select ***RDM Agent***, then click ***OK***.
-![{{ en.RDMA }}](https://cdnweb.devolutions.net/docs/en/kb/KB2227.png)
+![{{ en.RDMA }}](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2227.png)
     1. Validate the installation and connection.
     1. In the system tray, right-click the {{ en.RDMA }} tray icon and click on ***About...***.
-![{{ en.RDMA }} Tray Icon – About...](https://cdnweb.devolutions.net/docs/en/kb/KB2228.png)
+![{{ en.RDMA }} Tray Icon – About...](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2228.png)
     1. Validate that ***Connected*** and ***{{ en.RDM }} is installed*** have a checkmark icon next to them.
-![Connected and {{ en.RDM }} is installed](https://cdnweb.devolutions.net/docs/en/kb/KB2229.png)
+![Connected and {{ en.RDM }} is installed](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2229.png)
     1. Right-click the {{ en.RDMA }} tray icon again and make sure that the ***Auto Start*** setting has a checkmark next to it. If not, click on it to enable it.
-![{{ en.RDMA }} Tray Icon – Auto Start](https://cdnweb.devolutions.net/docs/en/kb/KB2230.png)
+![{{ en.RDMA }} Tray Icon – Auto Start](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2230.png)
     1. You will be prompted for elevated rights as the ***Auto Start*** setting requires it. Click ***Yes***.
 1. If {{ en.RDM }} did not start automatically, you can optionally [configure it through Windows](https://support.microsoft.com/en-us/windows/add-an-app-to-run-automatically-at-startup-in-windows-10-150da165-dcd9-7230-517b-cf3c295d89dd).
 
@@ -32,23 +32,23 @@ Here is a quick troubleshooting guide to diagnose any issue with Jump ({{ en.RDM
 
 1. In {{ en.RDM }}, start the jump host RDP session.
 1. Right-click on the jump host tab and select ***Agent Status*** in the contextual menu.
-![Agent Status](https://cdnweb.devolutions.net/docs/en/kb/KB2231.png)
+![Agent Status](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2231.png)
 1. Validate that at least the ***{{ en.RDMA }}*** is connected. There will be a checkmark icon next to it. ***{{ en.RDM }}*** may also have a checkmark, which is normal.
-![{{ en.RDMA }} Connected](https://cdnweb.devolutions.net/docs/en/kb/KB2232.png)
+![{{ en.RDMA }} Connected](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2232.png)
 
 ## Validate the jump session
 
 1. With the jump host RDP session running in {{ en.RDM }}, start the jump session. It should start in the jump host.
 1. Right-click on the jump host tab and select ***Agent Status*** in the contextual menu.
-![Agent Status](https://cdnweb.devolutions.net/docs/en/kb/KB2231.png)
+![Agent Status](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2231.png)
 1. Validate that there is a "1" next to ***{{ en.RDM }} Jump Sessions*** since the jump session is now open.
-![1 {{ en.RDM }} Jump Session](https://cdnweb.devolutions.net/docs/en/kb/KB2233.png)
+![1 {{ en.RDM }} Jump Session](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2233.png)
 1. To enable logging, right-click the {{ en.RDMA }} tray icon and click on ***Settings...***.
-![{{ en.RDMA }} Tray Icon – Settings...](https://cdnweb.devolutions.net/docs/en/kb/KB2234.png)
+![{{ en.RDMA }} Tray Icon – Settings...](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2234.png)
 1. Check the ***Log debug messages*** setting, then click ***Save***.
-![Check Log debug messages](https://cdnweb.devolutions.net/docs/en/kb/KB2235.png)
+![Check Log debug messages](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2235.png)
 1. To view the logs, right-click the {{ en.RDMA }} tray icon again and click on ***View Logs...***.
-![{{ en.RDMA }} Tray Icon – View Logs...](https://cdnweb.devolutions.net/docs/en/kb/KB2236.png)
+![{{ en.RDMA }} Tray Icon – View Logs...](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2236.png)
 1. Close the jump host RDP session. By doing so, both the jump session and the jump host should close.
 
 ## Perform a full test

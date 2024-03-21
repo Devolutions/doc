@@ -19,7 +19,7 @@ Here are mainly the approaches and techniques associated with them:
 
 ## Initial Import of Cyberark Connections From CSV
 ### Create the Cyberark PSM server entry (or multiple)
-![CyberArk PSM Server](https://cdnweb.devolutions.net/docs/en/kb/KB4680.png)
+![CyberArk PSM Server](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4680.png)
 Select the ***Connection Mode*** you elect on the server.
 
 * Custom (AD Account with permissions to RDP into the PSM server and an associated account in Cyberark).
@@ -29,25 +29,25 @@ In this example, Custom is in force; Username/domain/password has been populated
 
 Then choose an RDP Template created beforehand, this template defines the setting of the initial connection on the PSM server.
 
-![RDP Template created beforehand](https://cdnweb.devolutions.net/docs/en/kb/KB4681.png)
+![RDP Template created beforehand](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4681.png)
 
 Once the Cyberark PSM Server has been added, get the ID of the new entry (***Property - Entry Information***).
 
 In our example, the ID is 33628378-d4a6-431f-8438-16b75921aef9.
 
-![ID of the new entry](https://cdnweb.devolutions.net/docs/en/kb/KB4682.png)
+![ID of the new entry](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4682.png)
 
 ### Create the Cyberark PSM Connection Template
 <a name="psm"></a>
 
 1. Go to ***File - Templates - Templates***.
-![File - Templates - Templates](https://cdnweb.devolutions.net/docs/en/kb/KB4683.png)
+![File - Templates - Templates](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4683.png)
 1. Add a new template.
-![Add a new template](https://cdnweb.devolutions.net/docs/en/kb/KB4684.png)
+![Add a new template](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4684.png)
 1. Select ***CyberArk PSM Connection*** (Pro-tip: you can filter in the ***<Search>*** field).
-![CyberArk PSM Connection](https://cdnweb.devolutions.net/docs/en/kb/KB4685.png)
+![CyberArk PSM Connection](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4685.png)
 1. Give the template a significant name, some of the remaining fields can be filled, but the CSV should be complete enough if filled properly.
-![Template name](https://cdnweb.devolutions.net/docs/en/kb/KB4686.png)
+![Template name](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4686.png)
 
 ### Create a CSV File for the import
 <a name="csv"></a>
@@ -116,16 +116,16 @@ End point Hostname/IP
 Once the PSM Server entry has been created, and the CSV File is populated.
 
 1. Go to ***File - Import - Import Session Csv Wizard***.
-![File - Import - Import Session Csv Wizard](https://cdnweb.devolutions.net/docs/en/kb/KB4687.png)
+![File - Import - Import Session Csv Wizard](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4687.png)
 1. Browse and select the Csv File created beforehand, and click ***Next***.
-![Import Csv Wizard](https://cdnweb.devolutions.net/docs/en/kb/KB4688.png)
+![Import Csv Wizard](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4688.png)
 1. Select ***Selected template***.
 2. Select the template we created and click ***Finish***.
-![PSMImport](https://cdnweb.devolutions.net/docs/en/kb/KB4689.png)
+![PSMImport](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4689.png)
 Note: You must tick the ***Generate Direct Mapping*** check box.
-![Generate Direct Mapping check box](https://cdnweb.devolutions.net/docs/en/kb/KB6063.png)
+![Generate Direct Mapping check box](https://cdnweb.devolutions.net/docs/docs_en_kb_KB6063.png)
 
-![Imported connections](https://cdnweb.devolutions.net/docs/en/kb/KB4690.png)
+![Imported connections](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4690.png)
 
 ## Synchronization (Using the {{ en.RDM }} Synchronizer entry)
 {% snippet icon.badgeInfo %}
@@ -148,12 +148,12 @@ Please refer to <a href="#psm">Create the Cyberark PSM Connection Template</a> i
 The template will contain the Privileged account, the PSM Server and Connection Component to use.
 ### Create an Active Directory Synchronizer
 
-![Synchronizer- Active Directory](https://cdnweb.devolutions.net/docs/en/kb/KB4691.png)
+![Synchronizer- Active Directory](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4691.png)
 
 1. Enter the domain related data in the ***General*** tab.
 1. Then in the ***Settings*** tab, select your destination folder for the new entries to be created.
 1. Select the PSM Connection Template.
-![PSM Connection Template](https://cdnweb.devolutions.net/docs/en/kb/KB4692.png)
+![PSM Connection Template](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4692.png)
 1. Fill in the rest of the options and save.
 
 Then you only have to run the Synchronizer whenever you need to refresh the server list.
@@ -172,7 +172,7 @@ Please refer to <a href="#psm">Create the Cyberark PSM Connection Template</a> i
 
 ### Create a CSV Synchronizer
 
-![Synchronizer – Comma-separated values (CSV)](https://cdnweb.devolutions.net/docs/en/kb/KB4693.png)
+![Synchronizer – Comma-separated values (CSV)](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4693.png)
 
 Enter the file path, the template to use (created beforehand) and the destination folder.
 
@@ -187,7 +187,7 @@ A Cyberark PSM Connection template is required beforehand.
 1. In ***Host***, enter $QUICK_CONNECT$
 1. Set a privileged account to be used.
 1. Select the ***PSM Server*** that this PSM connection will be using and a ***Connection component***.
-![File - Templates - Templates](https://cdnweb.devolutions.net/docs/en/kb/KB4694.png)
+![File - Templates - Templates](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4694.png)
 
 {% snippet icon.badgeInfo %}
 This approach would allow you to create multiple templates for PSM connections reflecting several ***Privileged Accounts*** and ***Connection components***.
@@ -195,7 +195,7 @@ This approach would allow you to create multiple templates for PSM connections r
 
 ### Utilization
 Once a template has been created, it will be showing up in the ***Quick connect*** list of templates.
-![Quick connect](https://cdnweb.devolutions.net/docs/en/kb/KB4695.png)
+![Quick connect](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4695.png)
 
 You can then type in the ***Host*** of the target endpoint, and launch the session.
 ## Host
@@ -207,9 +207,9 @@ What is actually interesting about this, is that a variable can be used to popul
 
 In this example I used the Custom Field #1 variable, here’s the template configuration:
 
-![Privileged account variable](https://cdnweb.devolutions.net/docs/en/kb/KB4696.png)
+![Privileged account variable](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4696.png)
 
 And the ***Host*** entry:
 
-![Host entry](https://cdnweb.devolutions.net/docs/en/kb/KB4697.png)
-![Custom Fields](https://cdnweb.devolutions.net/docs/en/kb/KB4698.png)
+![Host entry](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4697.png)
+![Custom Fields](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4698.png)

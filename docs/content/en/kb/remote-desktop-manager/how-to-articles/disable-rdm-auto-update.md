@@ -9,4 +9,4 @@ eleventyComputed:
 ## Settings
 
 In ***File – Options – Application – Application Startup – Auto Update*** of {{ en.RDM }}, uncheck the option ***Enable check for updates*** or set a different notification frequency with the drop-down menu next to ***Check for updates at startup***.
-![!!KB4516](https://cdnweb.devolutions.net/docs/en/kb/KB4516.png)
+![!!KB4516](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4516.png)

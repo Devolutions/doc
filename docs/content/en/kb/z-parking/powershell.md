@@ -8,12 +8,12 @@ When running PowerShell (RDM CmdLet) after deploying {{ en.RDM }} from the *.zip
 Exception occurred while initializing the installation:
 
 System.IO.FileLoadException: Could not load file or assembly 'file<area>:///C:\Tools\Devolutions\RDM\RDM For Phone Support\RemoteDesktopManager.PowerShell.dll' or one of its dependencies. Operation is not supported. (Exception from HRESULT: 0x80131515).
-![!!KB4115](https://cdnweb.devolutions.net/docs/en/kb/KB4115.png)
+![!!KB4115](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4115.png)
 ### Solution
 You must unblock ***RemoteDesktopManager.PowerShell.dll*** & ***RemoteDesktopManager.Core.XmlSerializers.dll*** The 2 files are located in the installation folder of {{ en.RDM }}.
 
 Right-click on ***RemoteDesktopManager.PowerShell.dll*** & ***RemoteDesktopManager.Core.XmlSerializers.dll*** and select ***Properties*** then click on ***Unblock***.
-![!!KB4116](https://cdnweb.devolutions.net/docs/en/kb/KB4116.png)
+![!!KB4116](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4116.png)
 ## Problem 2
 Cannot load Windows PowerShell snap-in Remote.Desktop.Manager.10.0.4 because of the following error:
 
@@ -26,13 +26,13 @@ None of the Powershell cmdlets in {{ en.RDM }} work after an update, even if the
 The first step is to check how many versions of the {{ en.RDM }} snap-in are currently installed on the computer. Just type this command in Powershell (RDM CmdLet):
 
 Get-PSSnapin -name Remote.Desktop.Manager.*
-![!!KB4117](https://cdnweb.devolutions.net/docs/en/kb/KB4117.png)
+![!!KB4117](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4117.png)
 If there are more than one version of the snap-in installed, the result of the command will list them like this:
-![!!KB4118](https://cdnweb.devolutions.net/docs/en/kb/KB4118.png)
+![!!KB4118](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4118.png)
 To remove snap-ins that do not match with the actual version of {{ en.RDM }} installed on the computer, use the ***Remove-PSSnapin*** cmdlet, ensure you specify the specific version to remove.
-![!!KB4119](https://cdnweb.devolutions.net/docs/en/kb/KB4119.png)
+![!!KB4119](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4119.png)
 Finally, verify if only the snap-in of the current version of {{ en.RDM }} is installed with the Get-PSSnapin command.
-![!!KB4120](https://cdnweb.devolutions.net/docs/en/kb/KB4120.png)
+![!!KB4120](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4120.png)
 ## Problem 4
 Cannot be loaded because running scripts is disabled on this system.
 ### Solution

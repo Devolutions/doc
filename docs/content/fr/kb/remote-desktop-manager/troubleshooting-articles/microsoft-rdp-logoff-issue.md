@@ -6,4 +6,4 @@ After creating and connecting to an RDP session, if you click the "LogOff" butto
 
 ## Solution
 Check the ***Disable run dialog check*** option in ***File – Options – Types – Remote Desktop***.
-![!!KB4040](https://cdnweb.devolutions.net/docs/en/kb/KB4040.png)
+![!!KB4040](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4040.png)

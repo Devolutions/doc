@@ -15,14 +15,14 @@ Follow the instructions below to obtain the information you need to send to our 
 
 1. Download the [Windows Software Development Kit (SDK) installer](https://developer.microsoft.com/en-us/windows/downloads/windows-sdk/).
 1. Run the installer. When asked to select the features to install, check the ***Application Verifier For Windows***, then continue the installation process.
-![Application Verifier For Windows](https://cdnweb.devolutions.net/docs/en/kb/KB2248.png)
+![Application Verifier For Windows](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2248.png)
 1. Once the installation is complete, open Application Verifier.
 1. Go to ***File – Add Application*** or use the <kbd>Ctrl</kbd>+<kbd>A</kbd> shortcut.
-![File – Add Application](https://cdnweb.devolutions.net/docs/en/kb/KB2249.png)
+![File – Add Application](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2249.png)
 1. In the file chooser, select the {{ en.RDM }} application (**C:\Program Files\Devolutions\Remote Desktop Manager\RemoteDesktopManager.exe**). It will be added to the ***Applications*** list on the left.
-![RemoteDesktopManager.exe](https://cdnweb.devolutions.net/docs/en/kb/KB2250.png)
+![RemoteDesktopManager.exe](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2250.png)
 1. Select **RemoteDesktopManager.exe** in the ***Applications*** list, then under ***Tests***, ensure that all check boxes under ***Basics*** are selected.
-![Basics](https://cdnweb.devolutions.net/docs/en/kb/KB2251.png)
+![Basics](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2251.png)
 1. Click ***Save***. You can close Application Verifier after the configuration is done.
 
 ### Information to send to our support team

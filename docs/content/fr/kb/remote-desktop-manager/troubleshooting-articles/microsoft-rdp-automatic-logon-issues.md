@@ -14,13 +14,13 @@ Check the ***Activate network level authentication NLA (SingleSignOn)*** in the 
 You might also have to check the ***Public mode*** option in the ***Advanced*** tab to make it work.
 {% endsnippet %}
 
-![!!KB4041](https://cdnweb.devolutions.net/docs/en/kb/KB4041.png)
+![!!KB4041](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4041.png)
 
 ## The connection was denied because the user account is not authorized for remote login
 
 We have discovered that enabling the ***Public mode*** option in the ***Advanced*** tab resolves the issue.
 
-![!!KB4042](https://cdnweb.devolutions.net/docs/en/kb/KB4042.png)
+![!!KB4042](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4042.png)
 
 ## Ensure credentials are entered properly
 
@@ -30,4 +30,4 @@ RDM allows for advanced credential management. Depending on your choice of: ***C
 Ensure that ***Always ask password*** is not checked.
 {% endsnippet %}
 
-![!!KB4043](https://cdnweb.devolutions.net/docs/en/kb/KB4043.png)
+![!!KB4043](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4043.png)

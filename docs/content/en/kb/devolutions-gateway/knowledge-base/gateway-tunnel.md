@@ -10,7 +10,7 @@ The ***{{ en.DGW }} Tunnel*** can fulfill similar needs to SSH port forwarding/S
 {{ en.DGW }} needs to be set up in the {{ en.RDM }} data source and then configured through [inheritance](/kb/remote-desktop-manager/knowledge-base/inheritance/) or on the connection itself. The option is under ***Properties*** – ***Connection*** – ***VPN/Tunnel/Gateway*** – ***VPN/Tunnel/Gateway*** – ***General***.
 {% endsnippet %}
 
-![{{ en.DGW }} Tunnel](https://cdnweb.devolutions.net/docs/en/kb/KB0116.png)
+![{{ en.DGW }} Tunnel](https://cdnweb.devolutions.net/docs/docs_en_kb_KB0116.png)
 ## Listeners
 {% snippet icon.badgeWarning %}
 If the ***Listener*** is set to 0.0.0.0, it will accept connections from any source within the network. Due to the difficulty in tracking accountability, it is recommended ***NOT*** to do this for multiple security reasons.
@@ -27,7 +27,7 @@ Dynamic ports can be used with all three listener types. If the value is 0, it w
 The ***HTTP*** and ***SOCKS5*** listeners will also make use of the ***Allow Rules*** to specify authorized destinations, anything not on the allow list will be denied.
 
 ***Target filters*** can be specified using IP addresses or hostnames. Both can contain wildcards. Each ***Target filter*** must explicitly specify a destination port. Leaving the default port as '0' will result in an error when attempting to save the filter.
-![Default](https://cdnweb.devolutions.net/docs/en/kb/KB0163.png)
+![Default](https://cdnweb.devolutions.net/docs/docs_en_kb_KB0163.png)
 
 #### Examples of valid target filters
 | Target filter          | Description                                                                                 |

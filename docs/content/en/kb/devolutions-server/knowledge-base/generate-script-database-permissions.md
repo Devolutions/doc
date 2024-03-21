@@ -11,4 +11,4 @@ To get to this dialog:
 3. Click on the ***Advanced Credentials*** button.
 4. Click on the arrow beside of one of the ***Apply Least Permissions*** buttons.
 5. Click on the ***Generate Script*** button to save thesql file.
-![Edit – Database – Advanced Credentials – Apply Least Permissions – Generate Script](https://cdnweb.devolutions.net/docs/en/kb/KB2371.png)
+![Edit – Database – Advanced Credentials – Apply Least Permissions – Generate Script](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2371.png)

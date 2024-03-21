@@ -4,7 +4,7 @@ eleventyComputed:
 ---
 Lors de l'installation du nouveau module {{ fr.PS }}, l'erreur suivante se produit.
 
-![!!KB8122](https://cdnweb.devolutions.net/docs/en/kb/KB8122.png)
+![!!KB8122](https://cdnweb.devolutions.net/docs/docs_en_kb_KB8122.png)
 
 ## Solution 1
 
@@ -21,4 +21,4 @@ Voici les différentes commandes pour désinstaller ces modules :
 
 En exécutant la cmdlet `Get-Module -ListAvailable`, si certains modules sont encore visibles dans la liste et que le type de module est Binary, ils doivent être supprimés manuellement dans le chemin donné.
 
-![!!KB8123](https://cdnweb.devolutions.net/docs/en/kb/KB8123.png)
+![!!KB8123](https://cdnweb.devolutions.net/docs/docs_en_kb_KB8123.png)

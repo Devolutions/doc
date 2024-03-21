@@ -11,7 +11,7 @@ Since issues can arise from multiple sources, when setting up integrated securit
     1. Raise the ***Debug level*** to 1.
     1. Uncheck ***Disable stack trace***.
     1. Click ***OK***.
-![!!KB4897](https://cdnweb.devolutions.net/docs/en/kb/KB4897.png)
+![!!KB4897](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4897.png)
 1. Reproduce the issue.
 1. Once the issue is reproduced, go to ***Help - Application Logs - Report (tab)***.
 1. Click ***Send to Support***.

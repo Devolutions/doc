@@ -11,7 +11,7 @@ We suggest using a {{ en.DOD }} data source to import an XML data source from Wi
 ## Overwriting an existing XML data source
 
 1. In the Data Source menu tap on ***Data Sources*** Select the data source to overwrite and in the Entry menu select ***Edit***.
-![!!KB2040](https://cdnweb.devolutions.net/docs/en/kb/KB2040.png)
+![!!KB2040](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2040.png)
 1. Validate the data source file name (in our example it is Connections.xml).
 1. Copy the XML data source that you want to import from your Windows/MAC computer to your device. Make sure that the file you want to import has the same name as the current file on your Android device.
 1. Copy the file in data/data/com.devolutions.remotedesktopmanager/files on your Android device (this will overwrite the existing file).

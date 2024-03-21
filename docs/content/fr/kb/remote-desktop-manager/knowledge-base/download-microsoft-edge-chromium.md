@@ -13,7 +13,7 @@ eleventyComputed:
 Many features in {{ en.RDM }} use Microsoft's [WebView2 Runtime](https://developer.microsoft.com/en-us/microsoft-edge/webview2/#download-section). Its installation is highly recommended.
 
 The compatible download link for {{ en.RDM }} is the one under the Evergreen Bootstrapper.  
-![Evergreen Bootstrapper](https://cdnweb.devolutions.net/docs/en/kb/KB6021.png)  
+![Evergreen Bootstrapper](https://cdnweb.devolutions.net/docs/docs_en_kb_KB6021.png)  
 
 Here is a list of features that require ***WebView2 Runtime***:
 
