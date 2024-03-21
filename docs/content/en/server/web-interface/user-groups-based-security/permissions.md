@@ -9,7 +9,7 @@ Allow administrators to grant administrative permissions to standard users witho
 
 The user groups based permissions system can give a very accurate control of the security. Here is an overview of the permissions window:
 
-![Permissions](https://cdnweb.devolutions.net/docs/en/server/clip8046.png)
+![Permissions](https://cdnweb.devolutions.net/docs/docs_en_server_clip8046.png)
 
 | Option                       | Description                                                                                                       |
 |------------------------------|-------------------------------------------------------------------------------------------------------------------|
@@ -20,7 +20,7 @@ The user groups based permissions system can give a very accurate control of the
 
 ## General
 
-![Permissions – General](https://cdnweb.devolutions.net/docs/en/server/clip8047.png)
+![Permissions – General](https://cdnweb.devolutions.net/docs/docs_en_server_clip8047.png)
 
 | Option            | Description                                                                                       |
 |-------------------|---------------------------------------------------------------------------------------------------|
@@ -34,7 +34,7 @@ The user groups based permissions system can give a very accurate control of the
 
 ## Security
 
-![Permissions – Security](https://cdnweb.devolutions.net/docs/en/server/clip8048.png)
+![Permissions – Security](https://cdnweb.devolutions.net/docs/docs_en_server_clip8048.png)
 
 | Option           | Description                                              |
 |------------------|----------------------------------------------------------|
@@ -44,7 +44,7 @@ The user groups based permissions system can give a very accurate control of the
 
 ## More
 
-![Permissions – More](https://cdnweb.devolutions.net/docs/en/server/clip8049.png)
+![Permissions – More](https://cdnweb.devolutions.net/docs/docs_en_server_clip8049.png)
 
 | Option       | Description                                                 |
 |--------------|-------------------------------------------------------------|
@@ -53,7 +53,7 @@ The user groups based permissions system can give a very accurate control of the
 
 ## Attachments
 
-![Permissions – Attachments](https://cdnweb.devolutions.net/docs/en/server/clip8050.png)
+![Permissions – Attachments](https://cdnweb.devolutions.net/docs/docs_en_server_clip8050.png)
 
 | Option                      | Description                                               |
 |-----------------------------|-----------------------------------------------------------|
@@ -62,7 +62,7 @@ The user groups based permissions system can give a very accurate control of the
 
 ## Documentation
 
-![Permissions – Documentation](https://cdnweb.devolutions.net/docs/en/server/clip8051.png)
+![Permissions – Documentation](https://cdnweb.devolutions.net/docs/docs_en_server_clip8051.png)
 
 | Option             | Description                                      |
 |--------------------|--------------------------------------------------|

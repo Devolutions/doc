@@ -7,15 +7,15 @@ This section lists the {{ en.DGW }}s installed that the {{ en.DVLS }} can connec
 
 To install {{ en.DGW }}, please see [{{ en.DVLS }} configuration](/server/dgw/server-configuration/).
 
-![Administration – Gateway](https://cdnweb.devolutions.net/docs/en/server/ServerOp0069.png)
+![Administration – Gateway](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp0069.png)
 
 The following tools are available to monitor any {{ en.DGW }} using the advanced menu (ellipsis).
-![Advanced menu](https://cdnweb.devolutions.net/docs/en/server/ServerOp0070.png)
+![Advanced menu](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp0070.png)
 
 ## Logs
 The ***Logs*** button provides the logs of the selected {{ en.DGW }}. The ***Download*** button downloads the logs and saves it in a .log text file.
-![{{ en.DGW }} Logs](https://cdnweb.devolutions.net/docs/en/server/ServerOp0071.png)
+![{{ en.DGW }} Logs](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp0071.png)
 
 ## Sessions
 The ***Sessions*** button provide the list of current active sessions of the selected {{ en.DGW }}.
-![{{ en.DGW }} Active sessions](https://cdnweb.devolutions.net/docs/en/server/ServerOp0072.png)
+![{{ en.DGW }} Active sessions](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp0072.png)

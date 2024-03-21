@@ -7,7 +7,7 @@ eleventyComputed:
 The domain is used to authenticate the user. This is the most secure, flexible and easiest to manage. No need to sync users between the domain and {{ en.DVLS }}. With the Automatic User Creation On First Login option enabled, on first use of the {{ en.DVLS }} data source, the user will be created and be given access rights according to their role in the organization as defined on the domain. You simply need to grant appropriate permissions to your user groups in {{ en.DVLS }}. Upon authentication we will validate the AD groups to which the user belongs and for any that have a corresponding user group we will grant the permissions to the user.
 
 Go to ***Administration – Server settings – Authentication – Domain*** in the web interface of {{ en.DVLS }}. 
-![Authentication - Configure Domain](https://cdnweb.devolutions.net/docs/en/server/DVLS6009_2024_1.png)
+![Authentication - Configure Domain](https://cdnweb.devolutions.net/docs/docs_en_server_DVLS6009_2024_1.png)
 
 ## Settings
 

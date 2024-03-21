@@ -24,4 +24,4 @@ A license is now required to enable the PAM module. Please contact our [sales de
 ## Privileged Access
 The Privileged Access page provides a quick overview of the current PAM {{ en.VLT }} accounts, current check-outs and the recent activities.
 
-![PAM Dashboard](https://cdnweb.devolutions.net/docs/en/server/DVLS6031_2024_1.png)
+![PAM Dashboard](https://cdnweb.devolutions.net/docs/docs_en_server_DVLS6031_2024_1.png)

@@ -7,16 +7,16 @@ eleventyComputed:
 Register your {{ en.DVLS }} license in the {{ en.DVLS }} web interface.
 
 1. In the {{ en.DVLS }} web interface, go to ***Administration – Licenses***.
-![Administration – Licenses](https://cdnweb.devolutions.net/docs/en/server/ServerOp2101.png)
+![Administration – Licenses](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp2101.png)
 1. Select ***Add***.
-![Administration – Licenses – Add](https://cdnweb.devolutions.net/docs/en/server/ServerOp2102.png)
+![Administration – Licenses – Add](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp2102.png)
 1. Enter the license or import the license file, then click ***Add***.
 
    {% snippet icon.badgeInfo %}
    Importing the license using the **.lic** file is most uselful when offline. See the next section about offline registration for more information.
    {% endsnippet %}
 
-   ![License window](https://cdnweb.devolutions.net/docs/en/server/ServerOp2103.png)
+   ![License window](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp2103.png)
 
 ### Offline registration
 

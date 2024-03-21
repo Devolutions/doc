@@ -6,7 +6,7 @@ eleventyComputed:
 ***Users*** is where you can create, import and manage users. To access the user management, navigate to ***Administration – Users***. Click on a user to configure specific settings and permissions.
 
 ## Settings
-![Administration – Users](https://cdnweb.devolutions.net/docs/en/server/ServerOp6082.png)
+![Administration – Users](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp6082.png)
 
 {% snippet icon.badgeInfo %}
 ***User Specific Settings*** are shared between {{ en.RDM }}, {{ en.DVLS }} and {{ en.DHUB }}.

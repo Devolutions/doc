@@ -13,9 +13,9 @@ Create entries manually and save your data in {{ en.DVLS }}.
    Hovering over the ***More*** button will display shortcuts for common entry types.
    {% endsnippet %}
 
-   ![More](https://cdnweb.devolutions.net/docs/en/server/ServerOp2088.png)
+   ![More](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp2088.png)
 1. Select an [entry type](/server/web-interface/vault/entries/entry-type/) from the list.
-   ![Entry type](https://cdnweb.devolutions.net/docs/en/server/ServerOp2090.png)
+   ![Entry type](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp2090.png)
 1. Click ***Continue***.
 1. Configure the entry with all the required information.
 1. Click ***Add*** to save.

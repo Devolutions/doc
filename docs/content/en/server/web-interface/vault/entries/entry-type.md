@@ -5,7 +5,7 @@ eleventyComputed:
 ---
 ***Entries*** come in various types, all serving different purposes for your convenience.
 
-![New entry](https://cdnweb.devolutions.net/docs/en/server/clip10074.png)
+![New entry](https://cdnweb.devolutions.net/docs/docs_en_server_clip10074.png)
 
 | Option           | Description                                                   |
 |------------------|---------------------------------------------------------------|

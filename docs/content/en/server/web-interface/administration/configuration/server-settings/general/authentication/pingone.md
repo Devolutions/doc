@@ -24,11 +24,11 @@ This application is used to find users and groups from the directory. Both ***En
 
 In {{ en.DVLS }} web interface, go to ***Administration – Server Settings – Authentication***. Check ***Authenticate with PingOne user*** and click ***PingOne authentication***.
 
-![Authentication – Authenticate with PingOne user – PingOne authentication](https://cdnweb.devolutions.net/docs/en/server/ServerOp6118.png)
+![Authentication – Authenticate with PingOne user – PingOne authentication](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp6118.png)
 
 The following is a description of the authentication settings for PingOne in {{ en.DVLS }}.
 
-![PingOne authentication settings](https://cdnweb.devolutions.net/docs/en/server/ServerOp6119.png)
+![PingOne authentication settings](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp6119.png)
 
 ### General
 

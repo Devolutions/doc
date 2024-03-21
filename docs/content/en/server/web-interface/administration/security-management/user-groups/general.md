@@ -2,7 +2,7 @@
 eleventyComputed:
   title: General
 ---
-![User Group – General](https://cdnweb.devolutions.net/docs/en/server/ServerOp8009.png)
+![User Group – General](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp8009.png)
 
 ## User groups
 | Option             | Description                                                                |

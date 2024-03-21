@@ -4,7 +4,7 @@ eleventyComputed:
   order: 20
 ---
 The ***Advanced*** section allows the administrator to configure the ***Refresh token lifetime*** parameter and some other specific parameters like the [Labelling](/server/web-interface/administration/configuration/server-settings/general/advanced/white-labeling-customizations/).
-![Administration – {{ en.DVLS }} Settings – Advanced](https://cdnweb.devolutions.net/docs/en/server/ServerOp8044.png)
+![Administration – {{ en.DVLS }} Settings – Advanced](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp8044.png)
 
 ## Settings
 

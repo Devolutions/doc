@@ -4,7 +4,7 @@ eleventyComputed:
   description: The {{ en.VLT }} Management section allows you to set default permissions and create new permission sets, as well as force the save location of My Account Settings.
 ---
 The ***{{ en.VLT_MAJ }} Management*** section allows you to set default permissions and create new permission sets, as well as force the save location of ***My Account Settings***.
-![Administration – System Settings – {{ en.VLT_MAJ }} Management](https://cdnweb.devolutions.net/docs/en/server/ServerOp2069.png)
+![Administration – System Settings – {{ en.VLT_MAJ }} Management](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp2069.png)
 
 ## Vault management
 

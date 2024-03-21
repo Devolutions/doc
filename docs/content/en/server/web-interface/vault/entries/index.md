@@ -7,4 +7,4 @@ Every item you see in your ***{{ en.VLT }}*** and ***{{ en.UVLT }}*** is an ***E
 
 Manage, import, organize, and save all your data with ***Entries*** and ***Folders*** in your {{ en.DVLS }}.
 
-![!!ServerOp4025](https://cdnweb.devolutions.net/docs/en/server/ServerOp4025.png)
+![!!ServerOp4025](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp4025.png)

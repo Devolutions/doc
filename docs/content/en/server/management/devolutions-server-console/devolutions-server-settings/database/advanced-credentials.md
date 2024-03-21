@@ -13,7 +13,7 @@ Only SQL login accounts can be used.
 
 For further information about these accounts, please see [Pre-deployment account survey](/kb/devolutions-server/knowledge-base/pre-deployment-account-survey/).
 
-![Advanced credentials dialog](https://cdnweb.devolutions.net/docs/en/server/ServerOp8168.png)
+![Advanced credentials dialog](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp8168.png)
 
 ## Settings
 

@@ -2,7 +2,7 @@
 eleventyComputed:
   title: General
 ---
-![Edit Users – General](https://cdnweb.devolutions.net/docs/en/server/ServerOp7005.png)
+![Edit Users – General](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp7005.png)
 
 ## Edit users
 | Option                             | Description                                                           |

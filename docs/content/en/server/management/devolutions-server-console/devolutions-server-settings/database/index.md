@@ -6,7 +6,7 @@ eleventyComputed:
 ---
 The ***Database*** tab section contains the information of the SQL Server, the SQL credentials information, and the database name used by {{ en.DVLS }}.
 
-![Server settings – Database](https://cdnweb.devolutions.net/docs/en/server/ServerOp8002.png)
+![Server settings – Database](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp8002.png)
 
 ## Settings
 

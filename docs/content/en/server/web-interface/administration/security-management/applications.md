@@ -9,9 +9,9 @@ The ***Applications identities*** section allows the creation of an application 
 For more information on connecting {{ en.DVLS }} with an application user, see [PowerShell connectivity methods to {{ en.DVLS }}](/kb/devolutions-powershell/devolutions-server/powershell-connectivity/).
 {% endsnippet %}
 
-![Administration – Applications identities](https://cdnweb.devolutions.net/docs/en/server/DVLS6023_2024_1.png)
+![Administration – Applications identities](https://cdnweb.devolutions.net/docs/docs_en_server_DVLS6023_2024_1.png)
 
-![Adding a new application identity](https://cdnweb.devolutions.net/docs/en/server/DVLS6022_2024_1.png)
+![Adding a new application identity](https://cdnweb.devolutions.net/docs/docs_en_server_DVLS6022_2024_1.png)
 
 | General               | Description                                                                                               |
 |-----------------------|-----------------------------------------------------------------------------------------------------------|

@@ -95,7 +95,7 @@ This ***Password Propagation*** feature is only available for Domain accounts.
 {% endsnippet %}
 
 The following section describes the properties of the Active Directory ***Password Propagation*** feature within the Privileged Access Management solution.
-![Password Propagation](https://cdnweb.devolutions.net/docs/en/server/ServerOp8174.png)
+![Password Propagation](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp8174.png)
 
 ### Properties
 | Option                         | Description                                                              |

@@ -5,7 +5,7 @@ eleventyComputed:
 ---
 The ***IIS*** settings are part of the prerequisite at the installation level. Most of what is found in this tab is automatically filled in by the information given while setting up your {{ en.DVLS }}, the IIS settings section is used more as an information source rather than configuration.
 
-![Server Settings - IIS](https://cdnweb.devolutions.net/docs/en/server/ServerOp8010.png)
+![Server Settings - IIS](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp8010.png)
 
 ## Settings
 

@@ -5,7 +5,7 @@ eleventyComputed:
   - Roles
 ---
 Assign users to ***User Groups***.
-![Edit User – User Groups](https://cdnweb.devolutions.net/docs/en/server/ServerOp7007.png)
+![Edit User – User Groups](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp7007.png)
 
 ## Edit user
 | Option      | Description                                                                                     |

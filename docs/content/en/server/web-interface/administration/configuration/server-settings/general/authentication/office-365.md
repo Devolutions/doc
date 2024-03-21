@@ -9,7 +9,7 @@ Microsoft Azure Active Directory subscription is required to configure Office365
 {% endsnippet %}
 
 The ***Microsoft Authentication*** tab allows {{ en.DVLS }} to authenticate users using Office365 authentication. The ***Display name***, ***Tenant ID***, ***Client ID*** and ***Secret value*** fields are mandatory.
-![Authentication - Configure Microsoft Authentication](https://cdnweb.devolutions.net/docs/en/server/ServerOp0022.png)
+![Authentication - Configure Microsoft Authentication](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp0022.png)
 
 ## Settings
 

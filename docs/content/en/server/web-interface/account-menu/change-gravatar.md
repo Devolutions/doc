@@ -10,4 +10,4 @@ The use of an avatar, other than the initials, is only available when the option
 
 Users can change the avatar and use an image uploaded at [Gravatar](http://en.gravatar.com/) by entering the email associated with the Gravatar account.
 
-![Change your avatar](https://cdnweb.devolutions.net/docs/en/server/clip7004.png)
+![Change your avatar](https://cdnweb.devolutions.net/docs/docs_en_server_clip7004.png)

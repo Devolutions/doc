@@ -5,7 +5,7 @@ eleventyComputed:
 The Add Website button is only available while in the [Matching](/server/workspace-browser-extension/workspace-browser-extension-user-interface/side-menu/#matching-tab) tab., which is the tab selected when opening the extension, or when browsing through the {{ en.VLT }}s of the [All Entries](/server/workspace-browser-extension/workspace-browser-extension-user-interface/side-menu/#all-entries-tab) tab. It opens a new tab in your browser that allows you to add a website entry in {{ en.DVLS }} through the {{ en.WBEX }}.
 
 When {{ en.DVLS }} is used as the data source, the entry configuration is done in the General tab.
-![Add Website](https://cdnweb.devolutions.net/docs/en/server/ServerOp2049.png)
+![Add Website](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp2049.png)
 
 See the table below to learn about each field/setting from this view.
 

@@ -10,7 +10,7 @@ Notifications preferences in {{ en.DVLS }} enable administrators and users with 
 
 Choose the type of notifications you want to receive.
 
-![Notifications preferences](https://cdnweb.devolutions.net/docs/en/server/DVLS6000_2024_1.png)
+![Notifications preferences](https://cdnweb.devolutions.net/docs/docs_en_server_DVLS6000_2024_1.png)
 
 * ***Error***: Error notifications indicate a significant problem that has occurred within the Devolutions Server environment.
 * ***Warning***: Warning notifications represent issues that, while not immediately critical, could lead to errors if not addressed.
@@ -20,7 +20,7 @@ Choose the type of notifications you want to receive.
 
 Administrators and users with system permissions can choose the actions they wish to receive notifications for.
 
-![Enable personalized selection](https://cdnweb.devolutions.net/docs/en/server/DVLS6002_2024_1.png)
+![Enable personalized selection](https://cdnweb.devolutions.net/docs/docs_en_server_DVLS6002_2024_1.png)
 
 ## Administration 
 

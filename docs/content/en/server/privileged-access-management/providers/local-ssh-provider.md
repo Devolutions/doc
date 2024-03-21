@@ -3,7 +3,7 @@ eleventyComputed:
   title: Local SSH provider
 ---
 The SSH Provider allows {{ en.DVLS }} to store the SSH local account credentials to be used for SSH accounts discovery or to achieve password rotation.
-![SSH Provider dialog](https://cdnweb.devolutions.net/docs/en/server/ServerOp8142.png)
+![SSH Provider dialog](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp8142.png)
 
 ### General
 | Option      | Description                  |

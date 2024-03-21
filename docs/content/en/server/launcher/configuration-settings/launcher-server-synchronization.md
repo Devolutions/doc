@@ -14,7 +14,7 @@ You need to at least log in once to {{ en.DLAUNCHER }} for the companion tool to
 This method sets how all users launch remote connections.
 
 In ***Administration - Server Settings - Advanced***, select ***{{ en.DLAUNCHER }}*** in the ***Launch connection with*** drop-down menu.
-![!!ServerOp4043](https://cdnweb.devolutions.net/docs/en/server/ServerOp4043.png)
+![!!ServerOp4043](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp4043.png)
 
 ### Account Settings
 
@@ -22,7 +22,7 @@ This method sets how individual users open remote connections.
 
 1. Click the ***User avatar***.
 1. Click ***Settings***.
-![!!ServerOp4044](https://cdnweb.devolutions.net/docs/en/server/ServerOp4044.png)
+![!!ServerOp4044](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp4044.png)
 1. Choose ***{{ en.DLAUNCHER }}*** from the drop-down menu ***Launch connection with*** and ***Save***.
-![!!ServerOp4045](https://cdnweb.devolutions.net/docs/en/server/ServerOp4045.png)
+![!!ServerOp4045](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp4045.png)
 

@@ -36,31 +36,31 @@ This procedure operates on the existing database, not a copy. To revert this pro
 
 1. Open the {{ en.DVLSCONSOLE }}.
 1. Navigate to ***Server*** – ***New*** – ***IIS Web Server*** – ***Migrate SQL Data Source***.  
-![Migrate SQL Data Source](https://cdnweb.devolutions.net/docs/en/server/DVLSCONSOLE0000_2024_1.png)
+![Migrate SQL Data Source](https://cdnweb.devolutions.net/docs/docs_en_server_DVLSCONSOLE0000_2024_1.png)
 1. Enter the information in the ***Database*** and ***Credentials*** sections.
 1. Enable ***Activate Encryption At Rest***. With this option enabled, a new *encryption.config* file is generated and data re-encrypted via the newly created key.
 1. Click on ***Test Connection***.  
-![Test Connection](https://cdnweb.devolutions.net/docs/en/server/DVLSCONSOLE0001_2024_1.png)
+![Test Connection](https://cdnweb.devolutions.net/docs/docs_en_server_DVLSCONSOLE0001_2024_1.png)
 1. Click ***OK***.  
-![OK](https://cdnweb.devolutions.net/docs/en/server/DVLSCONSOLE0002_2024_1.png)
+![OK](https://cdnweb.devolutions.net/docs/docs_en_server_DVLSCONSOLE0002_2024_1.png)
    {% snippet icon.badgeInfo %}
    The “Database contains encrypted data” warning is specific to {{ en.DVLS }} encryption keys and not default {{ en.RDM }} data encryption.
    {% endsnippet %}
 1. Enter the ***Server name*** and click ***Next***.  
-![Server name](https://cdnweb.devolutions.net/docs/en/server/DVLSCONSOLE0003_2024_1.png)
+![Server name](https://cdnweb.devolutions.net/docs/docs_en_server_DVLSCONSOLE0003_2024_1.png)
 1. Choose which version of {{ en.DVLS }} to download and click ***Next***.  
-![Download version](https://cdnweb.devolutions.net/docs/en/server/DVLSCONSOLE0004_2024_1.png)
+![Download version](https://cdnweb.devolutions.net/docs/docs_en_server_DVLSCONSOLE0004_2024_1.png)
 1. Fill the information fields for the ***IIS Settings*** of the new {{ en.DVLS }} installation.  
-![IIS Settings](https://cdnweb.devolutions.net/docs/en/server/DVLSCONSOLE0005_2024_1.png)
+![IIS Settings](https://cdnweb.devolutions.net/docs/docs_en_server_DVLSCONSOLE0005_2024_1.png)
 1. Enter the information for the new administrator user.  
-![Administrator user](https://cdnweb.devolutions.net/docs/en/server/DVLSCONSOLE0006_2024_1.png)
+![Administrator user](https://cdnweb.devolutions.net/docs/docs_en_server_DVLSCONSOLE0006_2024_1.png)
    {% snippet icon.badgeInfo %}
    Install the Scheduler Service if this is the first instance of {{ en.DVLSCONSOLE }}.
    {% endsnippet %}
 1. Configure the ***Recovery Kit*** and click ***Next***.  
-![Recovery Kit](https://cdnweb.devolutions.net/docs/en/server/DVLSCONSOLE0007_2024_1.png)
+![Recovery Kit](https://cdnweb.devolutions.net/docs/docs_en_server_DVLSCONSOLE0007_2024_1.png)
 1. Click ***Install***.  
-![Install](https://cdnweb.devolutions.net/docs/en/server/DVLSCONSOLE0008_2024_1.png)
+![Install](https://cdnweb.devolutions.net/docs/docs_en_server_DVLSCONSOLE0008_2024_1.png)
 
 Once the process is completed, the new {{ en.DVLS }} installation will be immediately available for use. At this time, you will want to [add a new data source](/rdm/commands/file/data-sources/) for your {{ en.RDM }} clients to connect to the {{ en.DVLS }} data source.
 

@@ -3,7 +3,7 @@ eleventyComputed:
   title: General
 ---
 The ***General*** section of the ***System Settings*** allows the administrators to apply general policies for the whole data source.
-![Administration – System Settings – General](https://cdnweb.devolutions.net/docs/en/server/clip10373.png)
+![Administration – System Settings – General](https://cdnweb.devolutions.net/docs/docs_en_server_clip10373.png)
 
 ## General
 | Option                                       | Description                                                        |

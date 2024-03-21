@@ -16,10 +16,10 @@ To view all deleted attachments, run the ***Activity Logs*** report with the fil
 {% endsnippet %}
 
 2. Click ***Attachments***.
-![!!ServerOp4075](https://cdnweb.devolutions.net/docs/en/server/ServerOp4075.png)
+![!!ServerOp4075](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp4075.png)
 1. Click ***View Deleted Attachments***.
-![!!ServerOp4076](https://cdnweb.devolutions.net/docs/en/server/ServerOp4076.png)
+![!!ServerOp4076](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp4076.png)
 1. Select the attachment in the list.
-![!!ServerOp4074](https://cdnweb.devolutions.net/docs/en/server/ServerOp4074.png)
+![!!ServerOp4074](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp4074.png)
 1. Click ***Resurrect***.
 

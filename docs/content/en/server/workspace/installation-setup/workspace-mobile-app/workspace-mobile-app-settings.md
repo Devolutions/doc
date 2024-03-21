@@ -4,7 +4,7 @@ eleventyComputed:
   description: "{{ en.WMAPP }} settings"
 ---
 
-![Workspace settings](https://cdnweb.devolutions.net/docs/en/server/ServerOp6103.png)
+![Workspace settings](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp6103.png)
 
 ## General Settings
 

@@ -4,7 +4,7 @@ eleventyComputed:
   order: 10
 ---
 The General section allows the Administrator to modify the name or the description of the {{ en.DVLS }} instance.
-![Administration – {{ en.DVLS }} Settings – General](https://cdnweb.devolutions.net/docs/en/server/ServerOp8041.png)
+![Administration – {{ en.DVLS }} Settings – General](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp8041.png)
 
 ## Settings
 

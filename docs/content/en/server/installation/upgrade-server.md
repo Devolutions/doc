@@ -38,20 +38,20 @@ The following is a list of recommendations and steps to follow before proceeding
 1. Open the [{{ en.DVLSCONSOLE }}](/server/management/devolutions-server-console/).
 1. Select the instance that you wish to upgrade.
 1. Set the instance in ***Offline Mode*** with the ***Go Offline*** button. On a High Availability/Load Balancing topology, all instances must be set to Offline mode before starting the upgrade process.
-![Server – Go Offline](https://cdnweb.devolutions.net/docs/en/server/DVLSCONSOLE2004_2024_1.png)
+![Server – Go Offline](https://cdnweb.devolutions.net/docs/docs_en_server_DVLSCONSOLE2004_2024_1.png)
 1. Click ***Update***.
-![{{ en.DVLSCONSOLE }}](https://cdnweb.devolutions.net/docs/en/server/DVLSCONSOLE2000_2024_1.png)
+![{{ en.DVLSCONSOLE }}](https://cdnweb.devolutions.net/docs/docs_en_server_DVLSCONSOLE2000_2024_1.png)
 1. Select the upgrade source. You can either use the latest latest or stable release that is available online or specify the path to a ZIP file that you have downloaded yourself. Use this for beta releases or for earlier versions.
-![Select Update Source File](https://cdnweb.devolutions.net/docs/en/server/DVLSCONSOLE2001_2024_1.png)
+![Select Update Source File](https://cdnweb.devolutions.net/docs/docs_en_server_DVLSCONSOLE2001_2024_1.png)
 1. Click ***Next***.
    {% snippet icon.badgeWarning %}
    If you upgrade from version 2021.2.14 or older to version 2022.1 or higher, you will have to provide the [access URI](/kb/devolutions-server/knowledge-base/access-uri/) to reach the {{ en.DVLS }} web page.
    {% endsnippet %}
 1. Review the summary and click ***Update*** if you are satisfied.
-![Summary](https://cdnweb.devolutions.net/docs/en/server/DVLSCONSOLE2002_2024_1.png)
+![Summary](https://cdnweb.devolutions.net/docs/docs_en_server_DVLSCONSOLE2002_2024_1.png)
 
 The process will now begin. After completion, a message will appear to inform you that the operation was successful.
-![Operation successful](https://cdnweb.devolutions.net/docs/en/server/DVLSCONSOLE2003_2024_1.png)
+![Operation successful](https://cdnweb.devolutions.net/docs/docs_en_server_DVLSCONSOLE2003_2024_1.png)
 
 ### Final phase
 

@@ -6,11 +6,11 @@ eleventyComputed:
 ---
 
 Dans l'interface Web {{ fr.DVLS }}, allez dans ***Administration*** - ***Licences***.  
-![Administration – Licences](https://cdnweb.devolutions.net/docs/en/server/ServerOp2101.png)  
+![Administration – Licences](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp2101.png)  
 Sélectionner ***Add***. 
-![Administration – Licences – Ajouter](https://cdnweb.devolutions.net/docs/en/server/ServerOp2102.png)  
+![Administration – Licences – Ajouter](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp2102.png)  
 Saisir ou importer la licence et cliquer sur ***Ajouter***.
-![Fenêtre License](https://cdnweb.devolutions.net/docs/en/server/ServerOp2103.png)  
+![Fenêtre License](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp2103.png)  
 
 ### Enregistrement hors ligne
 

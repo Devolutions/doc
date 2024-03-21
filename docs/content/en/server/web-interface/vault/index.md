@@ -17,4 +17,4 @@ To access the {{ en.VLT }}s management, navigate to [Administration – {{ en.VL
 * The ***{{ en.NPANE }}*** (left) lists the entries available in the data source (current {{ en.VLT }}).
 * The ***Content Area*** (right) displays information regarding the selected entry.
 
-![{{ en.VLT_MAJ }}s](https://cdnweb.devolutions.net/docs/en/server/DVLS6032_2024_1.png)
+![{{ en.VLT_MAJ }}s](https://cdnweb.devolutions.net/docs/docs_en_server_DVLS6032_2024_1.png)

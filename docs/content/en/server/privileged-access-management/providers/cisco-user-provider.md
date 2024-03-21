@@ -3,7 +3,7 @@ eleventyComputed:
   title: Cisco user provider
 ---
 The Cisco Provider allows {{ en.DVLS }} to store the Cisco account credentials to be used to achieve password rotation.
-![Cisco User Provider](https://cdnweb.devolutions.net/docs/en/server/ServerOp8093.png)
+![Cisco User Provider](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp8093.png)
 
 ### General
 | Option        | Description                    |

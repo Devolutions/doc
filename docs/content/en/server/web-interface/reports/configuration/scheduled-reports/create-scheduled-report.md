@@ -11,13 +11,13 @@ For this feature to work, it is mandatory to enable the [***Scheduler service***
 ### Create a scheduled report
 1. Go to ***Reports – Scheduled reports***.
 1. Click on the ***Add*** button.
-![Add a scheduled report](https://cdnweb.devolutions.net/docs/en/server/ServerOp4077.png)
+![Add a scheduled report](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp4077.png)
 1. Select a report type in the ***General*** drop-down menu.
 {% snippet icon.badgeInfo %}
 Available options upon report selection will differ from one to another.
 {% endsnippet %}
 
-![Report settings](https://cdnweb.devolutions.net/docs/en/server/ServerOp8134.png)
+![Report settings](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp8134.png)
 
 | Report options                       | Description                                                                                  |
 |--------------------------------------|----------------------------------------------------------------------------------------------|
@@ -34,7 +34,7 @@ Available options upon report selection will differ from one to another.
 Available filter options upon report selection will differ from one to another.
 {% endsnippet %}
 
-![Event and recurrence settings](https://cdnweb.devolutions.net/docs/en/server/ServerOp8058.png)
+![Event and recurrence settings](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp8058.png)
 
 | Filter options   | Description                                                             |
 |------------------|-------------------------------------------------------------------------|

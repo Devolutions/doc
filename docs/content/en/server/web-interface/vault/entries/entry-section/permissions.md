@@ -6,4 +6,4 @@ eleventyComputed:
   - Permissions
 ---
 Users can view their ***Permissions*** access for this entry and contact their administrator if a right is not allowed.
-![Permissions](https://cdnweb.devolutions.net/docs/en/server/ServerOp4006.png)
+![Permissions](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp4006.png)

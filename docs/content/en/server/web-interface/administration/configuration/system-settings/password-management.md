@@ -3,7 +3,7 @@ eleventyComputed:
   title: Password management
 ---
 The ***Password Management*** settings allow to set the minimal requirements for passwords that will be saved in the entries.
-![Administration – System Settings – Password Management](https://cdnweb.devolutions.net/docs/en/server/ServerOp8076.png)
+![Administration – System Settings – Password Management](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp8076.png)
 
 ## Password Management
 

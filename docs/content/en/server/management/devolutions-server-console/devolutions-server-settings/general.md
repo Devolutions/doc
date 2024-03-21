@@ -6,7 +6,7 @@ eleventyComputed:
 ---
 The ***General*** section contains basic information for the {{ en.DVLS }} instance such as its name, a description, and update information.
 
-![Server settings – General](https://cdnweb.devolutions.net/docs/en/server/ServerOp2126.png)
+![Server settings – General](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp2126.png)
 
 ## General
 

@@ -3,7 +3,7 @@ eleventyComputed:
   title: "{{ en.RDM }}"
 ---
 This section lets you configure various options for {{ en.RDM }}.
-![Administration – System Settings – {{ en.RDM }}](https://cdnweb.devolutions.net/docs/en/server/ServerOp2095.png)
+![Administration – System Settings – {{ en.RDM }}](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp2095.png)
 
 ## {{ en.RDM }}
 

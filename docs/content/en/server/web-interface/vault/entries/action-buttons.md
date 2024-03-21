@@ -4,7 +4,7 @@ eleventyComputed:
 ---
 The display of ***Action Buttons*** for entries will vary depending on the type of entry selected and your {{ en.DVLS }} settings.
 
-![Entry Action Buttons](https://cdnweb.devolutions.net/docs/en/server/ServerOp8025.png)
+![Entry Action Buttons](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp8025.png)
 
 | Icon                                  | Option                           | Description |
 | ------------------------------------- | -------------------------------- | ----------- |

@@ -6,4 +6,4 @@ The ***{{ en.UVLT }}*** is a user centric ***{{ en.VLT }}*** used to store perso
 
 The ***{{ en.UVLT }}*** also prevents users from using a non-secure tool to manage their personal passwords at work.
 
-![{{ en.UVLT_MAJ }}](https://cdnweb.devolutions.net/docs/en/server/DVLS6033_2024_1.png)
+![{{ en.UVLT_MAJ }}](https://cdnweb.devolutions.net/docs/docs_en_server_DVLS6033_2024_1.png)

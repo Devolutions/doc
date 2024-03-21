@@ -5,7 +5,7 @@ eleventyComputed:
   order: 10
 ---
 The Authentication section allows the administrator to select which authentication types will be used to connect on {{ en.DVLS }}.
-![Adminsitration – Server Settings – Authentication](https://cdnweb.devolutions.net/docs/en/server/DVLS6006_2024_1.png)
+![Adminsitration – Server Settings – Authentication](https://cdnweb.devolutions.net/docs/docs_en_server_DVLS6006_2024_1.png)
 
 ## Settings
 

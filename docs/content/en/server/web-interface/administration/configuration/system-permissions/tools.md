@@ -5,7 +5,7 @@ eleventyComputed:
   - Roles
   status: Topic available in German language
 ---
-![Administration – System Permissions – Tools](https://cdnweb.devolutions.net/docs/en/server/ServerOp0063.png)
+![Administration – System Permissions – Tools](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp0063.png)
 
 | Option                                        | Description                                               |
 |-----------------------------------------------|-----------------------------------------------------------|

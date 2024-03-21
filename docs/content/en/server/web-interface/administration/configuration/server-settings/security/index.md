@@ -4,7 +4,7 @@ eleventyComputed:
   order: 20
 ---
 The Security section allows the administrator to configure the allowed and denied IPs addresses.
-![Administration – {{ en.DVLS }} Settings – Security](https://cdnweb.devolutions.net/docs/en/server/ServerOp8045.png)
+![Administration – {{ en.DVLS }} Settings – Security](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp8045.png)
 
 ## Settings
 

@@ -5,12 +5,12 @@ eleventyComputed:
 ---
 At least one subscriber must exist to receive notifications about {{ en.DVLS }} activities.
 To create a new ***Subscriber***, click on the ***Add*** button.
-![Create a subscriber](https://cdnweb.devolutions.net/docs/en/server/ServerOp8154.png)
+![Create a subscriber](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp8154.png)
 
 Fill in the information in the following fields.
-![Email subscriber properties](https://cdnweb.devolutions.net/docs/en/server/ServerOp8155.png)
+![Email subscriber properties](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp8155.png)
 
-![Syslog server subscriber properties](https://cdnweb.devolutions.net/docs/en/server/ServerOp2122.png)
+![Syslog server subscriber properties](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp2122.png)
 
 ## Subscriber
 | Option | Description                |
