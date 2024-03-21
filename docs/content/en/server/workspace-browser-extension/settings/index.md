@@ -6,10 +6,10 @@ eleventyComputed:
 ---
 The {{ en.WBEX }} settings can be accessed via the ***Settings*** button in the browser extension window regardless of which Devolutions application you are using with the {{ en.WBEX }}.
 
-![{{ en.WBEX }} Settings Button](https://cdnweb.devolutions.net/docs/en/dwl/Dwl2000.png)
+![{{ en.WBEX }} Settings Button](https://cdnweb.devolutions.net/docs/docs_en_dwl_Dwl2000.png)
 
 The ***Settings*** are separated in two categories: [***Configuration***](#configuration) and [***Data sources***](#data-sources).
-![{{ en.WBEX }} Settings](https://cdnweb.devolutions.net/docs/en/dwl/Dwl4027.png)
+![{{ en.WBEX }} Settings](https://cdnweb.devolutions.net/docs/docs_en_dwl_Dwl4027.png)
 
 ### Configuration
 The ***General*** settings are about the user interface and interaction.
