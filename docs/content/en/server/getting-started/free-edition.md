@@ -25,14 +25,14 @@ Multiple {{ en.DVLS }} instances can be hosted on the same server. Each instance
 
 ### Basic installation
 1. If an SQL Server instance is not available on the machine where {{ en.DVLS }} is hosted, a SQL Server Express Edition instance will be installed by the wizard.  
-![Basic installation dialog](https://cdnweb.devolutions.net/docs/docs_en_server_DVLS6011_2024_1.png)
+![Basic installation dialog](https://cdnweb.devolutions.net/docs/DVLS6011_2024_1.png)
 1. The following dialog provides the credentials created for the sa SQL account, the {{ en.DVLS }} administrator account and the Encryption Key password. Click on the ***Save As*** button to save the information in a file.
 ![Important credentials dialog](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp8177.png)
 1. The following dialog displays the SQL Server information, including the ***sa*** account credentials, that will be used by {{ en.DVLS }} to create and connect to the SQL database.
 1. Once the installation is successfully completed, the wizard will display the installation summary and will automatically open the default browser to connect on the {{ en.DVLS }} web interface.
 ![Installation summary report](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp8181.png)
 1. On the {{ en.DVLS }} web interface, use the credentials provided in step 2 to log in. Afterward, a prompt will request a password change before continuing with the login process.  
-![Change your password prompt](https://cdnweb.devolutions.net/docs/docs_en_server_DVLS6013_2024_1.png)  
+![Change your password prompt](https://cdnweb.devolutions.net/docs/DVLS6013_2024_1.png)  
 1. Enter your license. To activate the free edition, click the ***Activate the Free Version*** button to immediately access Devolutions Server with a free license.
 
 ### Advanced installation

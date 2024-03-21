@@ -78,5 +78,5 @@ A warning message is displayed to the user if the account expires in less than 2
 
 3. Click ***Update*** to save. 
 
-![Expiration date](https://cdnweb.devolutions.net/docs/docs_en_hub_HUBB6001_2024_1.png)
+![Expiration date](https://cdnweb.devolutions.net/docs/HUBB6001_2024_1.png)
 

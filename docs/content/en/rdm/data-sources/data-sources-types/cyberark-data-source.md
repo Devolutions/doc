@@ -16,7 +16,7 @@ eleventyComputed:
 
 1. Navigate to ***File – Data Sources – Add New Data Source***.
 1. Select ***CyberArk (Preview)*** from the Enterprise section.
-![Selecting the CyberArk (Preview) data source](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMW6001_2024_1.png)
+![Selecting the CyberArk (Preview) data source](https://cdnweb.devolutions.net/docs/RDMW6001_2024_1.png)
 1. Next, enter your CyberArk connection details.
 ![CyberArk window configuration](https://cdnweb.devolutions.net/docs/docs_en_kb_KB6224.png)
 
@@ -34,7 +34,7 @@ eleventyComputed:
 
 4. Once connected, click on a host or account to see all linked entries and connect as needed.
 
-![Viewing available machines and accounts](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMW6002_2024_1.png)
+![Viewing available machines and accounts](https://cdnweb.devolutions.net/docs/RDMW6002_2024_1.png)
 
 ### First connection
 
@@ -74,7 +74,7 @@ Now that you have your CyberArk data source configured and authenticated, you ca
 
 From an account, you have several options. In addition to the connecting actions, you may choose to edit the ***Properties*** (admin account required) which directly opens the ***Account properties page*** from the CyberArk PVWA. You may also choose to create a ***New Entry*** (admin account required) in the  {{ en.RDM }} CyberArk data source which directly opens the ***New Account*** page from the CyberArk PVWA. Finally, basic account details are shown in the ***Overview*** pane.
 
-![Viewing an account](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMW6003_2024_1.png)
+![Viewing an account](https://cdnweb.devolutions.net/docs/RDMW6003_2024_1.png)
 
 There are three ways to connect to a host from an account view.
 
@@ -83,11 +83,11 @@ There are three ways to connect to a host from an account view.
 1. Click the ***Connect*** button to display a list of machines to connect to. Depending on your CyberArk account settings you are shown either of the following windows. The first option displays if you do not have the ***Limit access to these machines only*** option enabled within the ***Account – Account Properties*** screen within the CyberArk PVWA. If you have this option enabled, then the second window displays as a drop-down with the list populated from the ***Suggested Remote Machines*** on the ***Account Properties*** page.
 
 You are shown two panes, a ***Host field*** to pick or manually enter the host, or an {{ en.RDM}} {{ en.VLT}} view of all available hosts to choose from.
-![Selecting a host](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMW6004_2024_1.png)
+![Selecting a host](https://cdnweb.devolutions.net/docs/RDMW6004_2024_1.png)
 
 With the ***Limit access to these machines only*** option checked in CyberArk PVWA for an account, show only the allowed hosts to connect to.
 
-![Selecting only an allowed host](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMW6005_2024_1.png)
+![Selecting only an allowed host](https://cdnweb.devolutions.net/docs/RDMW6005_2024_1.png)
 
 3. Click the Connect to ***Host*** button to display a list of machines to connect to. This option bypasses PSM (not recommended), and is only shown if the ***System Settings – General – Allow to connect to host*** option is checked. The shown windows reflect the same as in the ***Connect action***, only bypassing PSM.
 
@@ -95,20 +95,20 @@ With the ***Limit access to these machines only*** option checked in CyberArk PV
 
 Like an account, you can connect to a host through the connect actions, but here you can only create a ***New Entry*** (admin account required) in the {{ en.RDM}} CyberArk data source which directly opens the New Account page from the CyberArk PVWA
 
-![Viewing a machine](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMW6006_2024_1.png)
+![Viewing a machine](https://cdnweb.devolutions.net/docs/RDMW6006_2024_1.png)
 
 Similar to an account, there are three ways to connect to a host from the machine view.
 
 1. In the ***Overview view***, double-click on an ***Account*** to connect to a host with. This list is populated by filtering all accounts shown in the {{ en.RDM}} CyberArk data source by their ***Suggested Remote Machines*** to create the list of available accounts.
 1. Click the ***Connect*** button to display a list of accounts to connect as. The ***Account*** drop-down reflects the same list as shown in the ***Overview***, while you may use the  {{ en.RDM}} CyberArk data source {{ en.VLT}} view to connect as a different account.
-![Selecting an account](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMW6007_2024_1.png)
+![Selecting an account](https://cdnweb.devolutions.net/docs/RDMW6007_2024_1.png)
 1. Click the ***Connect to Host*** button to display a list of accounts to connect as. This option bypasses PSM (not recommended), and is only shown if the ***System Settings – General – Allow to connect to host*** option is checked. The shown windows reflect the same as in the ***Connect*** action, only bypassing PSM.
 
 ## Data Source Settings
 
 If you have connected using an Administrator account to your CyberArk data source, on the {{ en.RDM}} Administration tab, you are shown three additional options: ***Licenses, System Settings***, and a direct ***CyberArk PVWA button***.
 
-![Viewing the Administration tab](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMW6008_2024_1.png)
+![Viewing the Administration tab](https://cdnweb.devolutions.net/docs/RDMW6008_2024_1.png)
 
 ## Licenses
 
@@ -118,13 +118,13 @@ Here, you have the option to add, edit, or remove a CyberArk Integration license
 This license is stored within the ***CyberArk safe (RDM_Settings)*** created from the data source initialization step.
 {% endsnippet %}
 
-![Viewing the licenses](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMW6009_2024_1.png)
+![Viewing the licenses](https://cdnweb.devolutions.net/docs/RDMW6009_2024_1.png)
 
 ## System Settings
 
 If you open the ***System Settings***, you are shown three different sections, ***General, PVWA***, and ***System Message***. Since the CyberArk data source is a specialized data source, many traditional RDM data source options are not available.
 
-![Viewing the {{ en.RDM}} System Settings](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMW6010_2024_1.png)
+![Viewing the {{ en.RDM}} System Settings](https://cdnweb.devolutions.net/docs/RDMW6010_2024_1.png)
 
 ## General Page
 
@@ -150,7 +150,7 @@ If you open the ***System Settings***, you are shown three different sections, *
 ## System Message
 Here, set a message to be displayed on open of the {{ en.RDM}} CyberArk data source or whenever the message is changed.
 
-![Viewing the System Message](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMW6011_2024_1.png)
+![Viewing the System Message](https://cdnweb.devolutions.net/docs/RDMW6011_2024_1.png)
 
 ## Troubleshooting 
 

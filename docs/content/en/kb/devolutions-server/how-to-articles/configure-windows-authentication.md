@@ -22,7 +22,7 @@ These steps provide the information to enable the ***domain single sign-on (SSO)
 1. When done, you can close the ***IIS Manager***.
 ![Authentication - Windows](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2129.png)
 1. In ***Administration – Server Settings – Authentication*** of the {{ en.DVLS }} instance web interface, check the ***Enable domain single sign-on (SSO)*** option box. When done, click on the ***Save*** button.
-![Check the Enable domain single sign-on (SSO) option box](https://cdnweb.devolutions.net/docs/docs_en_server_DVLS6007_2024_1.png)
+![Check the Enable domain single sign-on (SSO) option box](https://cdnweb.devolutions.net/docs/DVLS6007_2024_1.png)
 1. Set the administrator credential properties in the ***Administration – Server Settings – Authentication – Domains***.
 7. Finally, in the data source configuration of each client in {{ en.RDM }}, enable the ***Use Windows authentication*** option, then click ***OK*** when done to save your modifications.
 ![Use Windows authentication ](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4381.png)

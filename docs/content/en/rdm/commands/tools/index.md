@@ -4,7 +4,7 @@ eleventyComputed:
   description: The Tools tab contains your Add-on and Extensions manager as well as your {{ en.DVLSCONSOLE }}, Generators and multiple useful tools.
 ---
 The Tools tab contains your Add-on and Extensions manager as well as your {{ en.DVLSCONSOLE }}, Generators and multiple useful tools.
-![Tools tab](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMW6000_2024_1.png)
+![Tools tab](https://cdnweb.devolutions.net/docs/RDMW6000_2024_1.png)
 
 ### Generators
 

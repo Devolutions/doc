@@ -10,9 +10,9 @@ The {{ en.DHUBS }} installer facilitates the installation and integration of our
 
 1. Go to {{ en.DHUB }}.
 1. Click ***Administration*** – ***Application Identities***.
-![Administration – Application Identities](https://cdnweb.devolutions.net/docs/docs_en_hub_HUBB6004_2024_1.png)
+![Administration – Application Identities](https://cdnweb.devolutions.net/docs/HUBB6004_2024_1.png)
 1. Select ***Add Application Identity (+)***.
-![Add Application Identity (+)](https://cdnweb.devolutions.net/docs/docs_en_hub_HUBB6003_2024_1.png)
+![Add Application Identity (+)](https://cdnweb.devolutions.net/docs/HUBB6003_2024_1.png)
 1. Enter a name and click ***Add***.
 1. Save the given ***Application Secret*** and ***Application key*** to your clipboard or as a PDF file. It will be needed during {{ en.DHUBS }}' installation.
 ![Save the given Application Secret and Application key](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub6043.png)

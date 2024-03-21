@@ -9,7 +9,7 @@ The ***Script dashboard*** is useful for centralizing scripts and running them w
 
 1. Open {{ en.RDM }}.
 1. Select ***Tools – Script Dashboard*** in the ribbon of {{ en.RDM }}.
-![Script Dashboard](https://webdevolutions.blob.core.windows.net/docs/docs_en_rdm_windows_RDM6000_2024_1.png)
+![Script Dashboard](https://webdevolutions.blob.core.windows.net/docs/RDM6000_2024_1.png)
 
 {% snippet icon.badgeInfo %}
 The ***Script Dashboard*** feature is also available as an entry. Create a new entry in {{ en.RDM }} and select ***Script Dashboard*** under ***Session – Other***.
@@ -17,7 +17,7 @@ The ***Script Dashboard*** feature is also available as an entry. Create a new e
 
 3. The ***Script Dashboard*** open.
 
-![Script Dashboard](https://webdevolutions.blob.core.windows.net/docs/docs_en_rdm_windows_RDM6003_2024_1.png)
+![Script Dashboard](https://webdevolutions.blob.core.windows.net/docs/RDM6003_2024_1.png)
 
 ### Overview Tab
 
@@ -43,4 +43,4 @@ This tab contains logs related to the execution of the script, detailing when th
 
  Scripts can be added as ***favorite*** by clicking on the star. Favorites are listed on the left menu. 
 
-![Add scripts as favorite by clicking on the star](https://webdevolutions.blob.core.windows.net/docs/docs_en_rdm_windows_RDM6001_2024_1.png)
+![Add scripts as favorite by clicking on the star](https://webdevolutions.blob.core.windows.net/docs/RDM6001_2024_1.png)

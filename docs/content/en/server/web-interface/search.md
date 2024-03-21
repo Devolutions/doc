@@ -4,7 +4,7 @@ eleventyComputed:
   description: The Search and Advanced Search feature in {{ en.DVLS }}.
 ---
 The [***Search***](#search) feature helps you quickly find certain entries within your {{ en.VLT }}(s). The [***Advanced Search***](#advanced-search) is useful for more specific inquiries because it lets you add filters to the search.
-![Search button](https://cdnweb.devolutions.net/docs/docs_en_server_DVLS6024_2024_1.png)
+![Search button](https://cdnweb.devolutions.net/docs/DVLS6024_2024_1.png)
 
 ## Search
 The ***Search*** feature screen has a ***Recently viewed*** section that shows entries that were used recently. There is also a ***Clear Recent Entries*** button to clear those results.

@@ -8,4 +8,4 @@ To access the ***Account Menu*** of {{ en.DVLS }}, click on the initials or the 
 
 ***Sign out*** of {{ en.DVLS }} from the ***Account Menu***.
 
-![Account Menu](https://cdnweb.devolutions.net/docs/docs_en_server_DVLS4003_2024_1.jpg)
+![Account Menu](https://cdnweb.devolutions.net/docs/DVLS4003_2024_1.jpg)

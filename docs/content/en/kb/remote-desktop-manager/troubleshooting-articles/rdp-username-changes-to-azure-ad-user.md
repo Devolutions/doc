@@ -9,7 +9,7 @@ In the Microsoft implementation, if the RDP username does not contain ***“\”
 The solution is to set a period "." as the domain for the RDP connection entry. Follow these instructions:
 1. In {{ en.RDM }}, right-click your RDP entry and select ***Properties***.
 1. In the RDP entry properties, write a period "." inside the ***Domain*** field.
-![Set the domain](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMW2013_2024_1.png)
+![Set the domain](https://cdnweb.devolutions.net/docs/RDMW2013_2024_1.png)
 1. Save your changes.
 
 {% snippet icon.badgeHelp %}

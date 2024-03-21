@@ -4,7 +4,7 @@ eleventyComputed:
   description: Go to File – Settings – Performance to control the behavior of the application with respect to performance.
 ---
 Go to ***File – Settings – Performance*** to control the behavior of the application with respect to performance.
-![File – Settings – Performance](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMW4004_2024_1.png)
+![File – Settings – Performance](https://cdnweb.devolutions.net/docs/RDMW4004_2024_1.png)
 
 ## Settings
 

@@ -29,12 +29,12 @@ You can send a copy of one of your entries to other users with secure messages.
 
 1. Select the entry in your ***{{ en.NPANE }}***.
 1. Click the ***More*** button.  
-![More](https://cdnweb.devolutions.net/docs/docs_en_hub_HUBB0001_2024_1.png)
+![More](https://cdnweb.devolutions.net/docs/HUBB0001_2024_1.png)
 1. Click ***Send Copy***.  
-![Send Copy](https://cdnweb.devolutions.net/docs/docs_en_hub_HUBB0000_2024_1.png)
+![Send Copy](https://cdnweb.devolutions.net/docs/HUBB0000_2024_1.png)
 1. Enter the name of the recipient.
 1. Fill in the ***Subject*** and add a ***Secure Message***.  
-![Message window](https://cdnweb.devolutions.net/docs/docs_en_hub_HUBB0002_2024_1.png)
+![Message window](https://cdnweb.devolutions.net/docs/HUBB0002_2024_1.png)
    {% snippet icon.badgeInfo %}
    The message can be automatically deleted after some time. To do so, click the ***Expires after*** checkbox and select a date.
    {% endsnippet %}
@@ -43,6 +43,6 @@ You can send a copy of one of your entries to other users with secure messages.
 ## How to receive a secure message
 A blue dot will appear on the message icon to signify you have unread messages.
 1. Click on the ***Messages*** button.  
-![Messages](https://cdnweb.devolutions.net/docs/docs_en_hub_HUBB0003_2024_1.png)
+![Messages](https://cdnweb.devolutions.net/docs/HUBB0003_2024_1.png)
 1. Click on the message in the inbox.  
-![Inbox](https://cdnweb.devolutions.net/docs/docs_en_hub_HUBB0004_2024_1.png)
+![Inbox](https://cdnweb.devolutions.net/docs/HUBB0004_2024_1.png)

@@ -19,13 +19,13 @@ An [Azure AD account](https://azure.microsoft.com/) with the appropriate rights 
 **In {{ en.DHUBB }}**
 
 1. Go to ***Administration – Authentication – Domain***, then click on ***Add Domain***.
-![Administration – Authentication – Domain – Add domain](https://cdnweb.devolutions.net/docs/docs_en_hub_HUBB2000_2024_1.png)
+![Administration – Authentication – Domain – Add domain](https://cdnweb.devolutions.net/docs/HUBB2000_2024_1.png)
 1. Fill in your domain, then click on the checkmark to start the verification process.
-![Domain](https://cdnweb.devolutions.net/docs/docs_en_hub_HUBB2001_2024_1.png)
+![Domain](https://cdnweb.devolutions.net/docs/HUBB2001_2024_1.png)
 1. To have multiple domains, click ***Add Domain*** once again, fill in your other domain, then click on the checkmark. Repeat this process for every domain you wish to add.
-![Multiple domains](https://cdnweb.devolutions.net/docs/docs_en_hub_HUBB2002_2024_1.png)
+![Multiple domains](https://cdnweb.devolutions.net/docs/HUBB2002_2024_1.png)
 1. Create a [DNS TXT Record](https://learn.microsoft.com/en-us/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider) using the provided ***Host name*** and ***TXT value***. This allows us to verify the ownership of the domain(s) supplied.
-![Host name and TXT value](https://cdnweb.devolutions.net/docs/docs_en_hub_HUBB2003_2024_1.png)
+![Host name and TXT value](https://cdnweb.devolutions.net/docs/HUBB2003_2024_1.png)
 
    We recommend that you verify that your configuration is adequate through DNS querying tools such as [MXToolBox](https://mxtoolbox.com/SuperTool.aspx) or [whatsmydns.net](https://www.whatsmydns.net/). The example below uses MXToolBox's TXT Lookup tool. The first part of the Domain Name must match the ***Host name*** in {{ en.DHUB }} and the Record must match the ***TXT value*** in {{ en.DHUB }} as well.
    {% snippet icon.badgeCaution %}
@@ -34,7 +34,7 @@ An [Azure AD account](https://azure.microsoft.com/) with the appropriate rights 
 
    ![DNS TXT Record in MXToolBox](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub2236.png)
 1. Await domain verification. Upon successful verification, a checkmark within a green circle will display next to the domain. You may proceed to configure Single Sign-On (SSO) during the verification process; however, user provisioning will become accessible only after the domain has been verified.
-![Verified domain](https://cdnweb.devolutions.net/docs/docs_en_hub_HUBB2004_2024_1.png)
+![Verified domain](https://cdnweb.devolutions.net/docs/HUBB2004_2024_1.png)
 
    {% snippet icon.badgeCaution %}
    This validation lasts for 48 hours and does not restart automatically after that period. If you do not configure your TXT record within those 48 hours, your validation status will be ***Expired***. If that happens, you can click on ***Retry***.
@@ -45,7 +45,7 @@ An [Azure AD account](https://azure.microsoft.com/) with the appropriate rights 
 ## Single Sign-On (SSO) configuration
 
 1. Go to ***Administration – Authentication – Single Sign-On (SSO)***, then click on ***Microsoft Single Sign-On (SSO)***. You will be directed to the configuration page.
-![Administration – Authentication – Single Sign-On (SSO) – Microsoft Single Sign-On (SSO)](https://cdnweb.devolutions.net/docs/docs_en_hub_HUBB2005_2024_1.png)
+![Administration – Authentication – Single Sign-On (SSO) – Microsoft Single Sign-On (SSO)](https://cdnweb.devolutions.net/docs/HUBB2005_2024_1.png)
 
 1. ***Name*** your SSO configuration. This name will only appear in your {{ en.DHUB }} SSO settings menu. The default name is "Microsoft".
 ![Configuration Name](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub2219.png)
@@ -186,7 +186,7 @@ Now that your users and groups have been added, continue with the provisioning c
 **In {{ en.DHUBB }}**
 
 6. Go to ***Administration – Authentication – Provisioning*** and enable ***SCIM provisioning***.
-![Enable SCIM provisioning](https://cdnweb.devolutions.net/docs/docs_en_hub_HUBB2006_2024_1.png)
+![Enable SCIM provisioning](https://cdnweb.devolutions.net/docs/HUBB2006_2024_1.png)
 
 1. In the ***Provisioning synchronization setup***, copy the ***Tenant URL*** by clicking on the ***Copy to Clipboard*** icon next to it.
 ![Copy the Tenant URL](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub2227.png)

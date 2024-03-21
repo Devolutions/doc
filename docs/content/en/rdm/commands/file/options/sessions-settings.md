@@ -4,7 +4,7 @@ eleventyComputed:
   description: Go to File – Settings – Types – Sessions to control the behavior of the application with respect to sessions.
 ---
 Go to ***File – Settings – Types – Sessions*** to control the behavior of the application with respect to sessions.
-![File – Settings – Types – Sessions](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMW4003_2024_1.png)
+![File – Settings – Types – Sessions](https://cdnweb.devolutions.net/docs/RDMW4003_2024_1.png)
 
 ## Settings
 
