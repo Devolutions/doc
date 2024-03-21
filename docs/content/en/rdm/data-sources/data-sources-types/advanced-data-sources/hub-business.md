@@ -17,7 +17,7 @@ Start your [free {{ en.DHUBB }} trial](https://devolutions.net/password-hub/busi
 
 ### General
 
-![!!RDMWin2220](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMWin2220.png)
+![!!RDMWin2220](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin2220.png)
 
 | OPTION   | DESCRIPTION                                                        |
 |----------|--------------------------------------------------------------------|
@@ -28,9 +28,9 @@ Start your [free {{ en.DHUBB }} trial](https://devolutions.net/password-hub/busi
 ### VPN
 
 Open a VPN to access your data prior to connecting to your {{ en.DHUB }}.
-![!!RDMWin2249](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMWin2249.png)
+![!!RDMWin2249](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin2249.png)
 
 ### Advanced
 
 Set the interval for the automatic refresh.
-![!!RDMWin2221](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMWin2221.png)
+![!!RDMWin2221](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin2221.png)

@@ -6,12 +6,12 @@ eleventyComputed:
 The Synchronizers feature centralizes all your synchronizers entry in one place.
 
 When experiencing a performance degradation with {{ en.RDM }}, you will be able to verify if a synchronizer is running in the background causing the system to slow down.
-![Synchronizers](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip11280.png)
+![Synchronizers](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip11280.png)
 
 ## Is Online
 
 ***Is Online*** allows you to verify and change the settings of your server's online availability.
-![Is Online](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip10033.png)
+![Is Online](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip10033.png)
 
 
 | OPTION                      | DESCRIPTION                                                            |

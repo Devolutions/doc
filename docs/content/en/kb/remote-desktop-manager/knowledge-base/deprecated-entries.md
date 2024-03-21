@@ -9,7 +9,7 @@ Here is how to display them:
 1. Click on the settings icon in the search bar.
 1. Enable ***Show deprecated entries***.
 
-![Edit – New Entry – Show Deprecated Entries](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMW2004_2024_1.png)
+![Edit – New Entry – Show Deprecated Entries](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMW2004_2024_1.png)
 
 Here is the list of deprecated entries:
 

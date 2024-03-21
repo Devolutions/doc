@@ -12,22 +12,22 @@ You can also create password generator templates to generate passwords. After yo
 ### Default
 
 Customize all criteria you would want your password to have.
-![Password Generator - Default](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMWin2201.png)
+![Password Generator - Default](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin2201.png)
 
 ### Advanced settings
 
 Select the type and amount of characters to include in the password.
-![Password Generator - Advanced Settings](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip10383.png)
+![Password Generator - Advanced Settings](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip10383.png)
 
 ### Readable password
 
 Generate passwords that are readable but are not actual words.
-![Password Generator - Readable password](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip10384.png)
+![Password Generator - Readable password](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip10384.png)
 
 ### Use a pattern
 
 Press the button and select any pattern you need to create the passwords, you can also exclude certain characters if desired. A list of the most recent used pattern will also be created.
-![Password Generator - Use a pattern](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip10385.png)
+![Password Generator - Use a pattern](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip10385.png)
 
 The following are supported patterns:
 
@@ -60,9 +60,9 @@ The following are supported patterns:
 ### Pronounceable password
 
 Generate passwords that are pronounceable, but are not actual words.
-![Password Generator - Pronounceable password](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip10386.png)
+![Password Generator - Pronounceable password](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip10386.png)
 
 ### Strong password
 
 Generate an 8 character passwords with alphanumeric and special characters.
-![Password Generator - Strong password](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip10387.png)
+![Password Generator - Strong password](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip10387.png)

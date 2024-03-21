@@ -4,7 +4,7 @@ eleventyComputed:
   description: Use File – Options – Security to configure security settings related to local application security, multi-factor authentication, locking, offline security, certificate security, and more.
 ---
 Use ***File – Options – Security*** to configure security settings related to local application security, multi-factor authentication, locking, offline security, certificate security, and more.
-![File – Options – Security](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMWin2152.png)
+![File – Options – Security](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin2152.png)
 
 ## Settings
 ### Application Security (Local)

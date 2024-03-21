@@ -10,15 +10,15 @@ eleventyComputed:
 ## Configuration
 
 To select the User Interface style you must go in ***File - Preferences - User Interface***.
-![User Interface - Options](https://cdnweb.devolutions.net/docs/en/rdm/mac/clip6001.png)
+![User Interface - Options](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip6001.png)
 
 ### Ribbon
 
 The ribbon is {{ en.RDMMAC }} default style that sports an advanced control called ribbon. Icons and text makes it easy to learn what feature exists.
-![RDM main screen - Ribbon style](https://cdnweb.devolutions.net/docs/en/rdm/mac/clip10550.png)
+![RDM main screen - Ribbon style](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10550.png)
 
 ### Classic
 
 Classic is {{ en.RDMMAC }} previous generation style, it holds a standard menu to invoke commands.
-![RDM main menu - Classic style](https://cdnweb.devolutions.net/docs/en/rdm/mac/clip10551.png)
+![RDM main menu - Classic style](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10551.png)
 

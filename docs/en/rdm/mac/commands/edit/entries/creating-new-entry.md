@@ -10,12 +10,12 @@ When getting started with {{ en.RDMMAC }}, you must first configure your entries
 ### From the Ribbon
 
 In the ***{{ en.NPANE }}***, select where you wish the entry to be located. In the ***Ribbon***, go to ***Edit*** and click on ***New Entry***. You will be prompted to customize your settings in the entry properties window.
-![Add an entry from the Ribbon](https://cdnweb.devolutions.net/docs/en/rdm/mac/RDMMac2092.png)
+![Add an entry from the Ribbon](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_RDMMac2092.png)
 
 ### From the contextual menu
 
 In the ***{{ en.NPANE }}***, right-click where you wish the entry to be located and select ***Add*** from the menu. To initialize a new session, you can specify either the type of session or a template. You will be prompted to customize your settings in the entry properties window.
-![Add an entry from the contextual menu](https://cdnweb.devolutions.net/docs/en/rdm/mac/RDMMac2093.png)
+![Add an entry from the contextual menu](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_RDMMac2093.png)
 
 ### By importing a configuration
 
@@ -45,8 +45,8 @@ In the ***{{ en.NPANE }}***, select the entry under which you wish to place a su
 You cannot create a sub entry under another sub entry.
 {% endsnippet %}
 
-![Add a sub entry from the Ribbon](https://cdnweb.devolutions.net/docs/en/rdm/mac/RDMMac2092.png)
-![New Sub Entry prompt](https://cdnweb.devolutions.net/docs/en/rdm/mac/RDMMac2096.png)
+![Add a sub entry from the Ribbon](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_RDMMac2092.png)
+![New Sub Entry prompt](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_RDMMac2096.png)
 
 ### From the contextual menu
 
@@ -56,5 +56,5 @@ In the ***{{ en.NPANE }}***, right-click the entry under which you wish to place
 You cannot create a sub entry under another sub entry.
 {% endsnippet %}
 
-![Add a sub entry from the contextual menu](https://cdnweb.devolutions.net/docs/en/rdm/mac/RDMMac2095.png)
-![New Sub Entry prompt](https://cdnweb.devolutions.net/docs/en/rdm/mac/RDMMac2096.png)
+![Add a sub entry from the contextual menu](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_RDMMac2095.png)
+![New Sub Entry prompt](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_RDMMac2096.png)

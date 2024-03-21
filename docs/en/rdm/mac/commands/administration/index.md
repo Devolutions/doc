@@ -5,7 +5,7 @@ eleventyComputed:
 The Administration ribbon is only available for the Administrator of the data source since it is mostly used to manage settings and users of a data source. If the options are grayed out contact your administrator.
 
 Also most features contained in the Administration menu requires an [Advanced Data Source](/rdm/mac/data-sources/data-sources-types/advanced-data-sources/).
-![Administration ribbon](https://cdnweb.devolutions.net/docs/en/rdm/mac/clip10372.png)
+![Administration ribbon](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10372.png)
 
 Refer to the following topics for more information:
 

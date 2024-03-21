@@ -21,4 +21,4 @@ All entries will be imported in the current folder.
 For some applications, it is not possible to extract the password.
 {% endsnippet %}
 
-![Import sessions from an external source](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip10036.png)
+![Import sessions from an external source](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip10036.png)

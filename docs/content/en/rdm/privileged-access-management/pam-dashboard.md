@@ -12,18 +12,18 @@ The ***PAM Dashboard*** is only available with [{{ en.DVLS }}](https://devolutio
 {% endsnippet %}
 
 The ***PAM Dashboard*** feature can be found in ***View*** – ***Panels*** – ***PAM Dashboard***.
-![PAM Dashboard](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMWin2053.png)
+![PAM Dashboard](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin2053.png)
 
 In the ***PAM Dashboard***, for every privileged account, it is possible to connect to the account, copy the password, and manage the checkout/check-in process.
 
 To access the user accounts, a PAM folder must first be selected. If you have multiple folders, it might be helpful to use the filter bar to find the one you are looking for. Note that these are the same folders as in your {{ en.DVLSCONSOLE }}. You can go to [Privileged Account Management in {{ en.DVLS }}](/server/privileged-access-management/) to learn more about it.
-![PAM Dashboard](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMWin2054.png)
+![PAM Dashboard](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin2054.png)
 
 When the folder is selected, all the accounts in that folder will appear. It is possible to sort them by ***Name***, ***Folder Path***, ***Username***, ***Account Type***, or ***Checkout Status***.
-![PAM Dashboard](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMWin2055.png)
+![PAM Dashboard](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin2055.png)
 
 If there are multiple accounts in the folder, you can use the filter bar to display only the accounts containing what you typed. You can push your search even further by filtering the accounts by credential type.
-![Filter Bar](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMWin2056.png)
+![Filter Bar](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin2056.png)
 
 ## Check Out request with custom time
 
@@ -43,4 +43,4 @@ Making a ***Check Out*** request in advance is only available in PAM {{ en.VLT }
 1. Set the ***Start time*** and ***End time***. It is recommended to add a ***Comment*** to let the approver know why the ***Check Out*** is needed.
 1. Click on ***Request Check-out*** to send the request and close the window.
 
-![Check-out Request](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMWin6243.png)
+![Check-out Request](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin6243.png)

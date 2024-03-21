@@ -16,22 +16,22 @@ In this topic:
 ## Create a new template
 
 1. Navigate to ***File – Templates*** and select ***Entry Templates***.
-![File – Templates](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip3405.png)
+![File – Templates](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip3405.png)
 1. In the ***Entry Templates*** window, click the ***Add template*** button.
-![Add a new template](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip3406.png)
+![Add a new template](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip3406.png)
 1. Choose between ***Template*** or ***Template group***.
-![Create a Template or Template group](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMWin6187.png)
+![Create a Template or Template group](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin6187.png)
 1. Select an entry to create the template for, then click ***OK***.
-![Select an entry to create the template for](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip3408.png)
+![Select an entry to create the template for](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip3408.png)
 1. Enter a name for the template, and configure the properties as necessary.
-![Template Properties](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip3409.png)
+![Template Properties](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip3409.png)
 
 ## Save entry as template
 
 It is possible to save entries as templates to use their properties in other entries. Furthermore, this can be achieve on folders to include all their child items in the template.
 
 From the ***{{ en.NPANE }}***, right-click an entry and select ***Add – Save as Template***.
-![Save as Template...](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip3410.png)
+![Save as Template...](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip3410.png)
 
 ## Import template
 
@@ -39,7 +39,7 @@ It is possible to import previously exported entries as templates.
 
 1. Navigate to ***File – Templates*** and select ***Templates***.
 1. From the ***Templates*** window, click on the ***Import template*** button.
-![Import Template](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip3411.png)
+![Import Template](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip3411.png)
 1. Select the RDM file to import to create a template for each entry in the file.
 
 ## Duplicate template

@@ -16,7 +16,7 @@ The ***Reset*** and ***Restore Defaults*** buttons erase your custom shortcuts, 
 Visit [Keyboard shortcut customization in {{ en.RDMMAC }}](/kb/remote-desktop-manager-macos/how-to-articles/keyboard-shortcuts-customization-rdm-mac/).
 {% endsnippet %}
 
-![Keyboard shortcuts](https://cdnweb.devolutions.net/docs/en/rdm/mac/RDMMac2025.png)
+![Keyboard shortcuts](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_RDMMac2025.png)
 
 ## Default shortcuts
 

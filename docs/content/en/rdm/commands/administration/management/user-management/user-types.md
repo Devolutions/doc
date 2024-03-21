@@ -4,7 +4,7 @@ eleventyComputed:
   description: When creating users in {{ en.RDM }}, four types of user are available. Basic rights are granted to the created users depending on their type.
 ---
 When creating users in {{ en.RDM }}, four types of user are available. Basic rights are granted to the created users depending on their type.
-![User Management - User Type](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip3423.png)
+![User Management - User Type](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip3423.png)
 
 | TYPE            | DESCRIPTION                                                                                                 |
 |-----------------|-------------------------------------------------------------------------------------------------------------|
@@ -21,4 +21,4 @@ When setting a user to the ***Restricted User*** type, rights must be granted ma
 Once rights are granted, they can be restricted with the [User Groups Based Security](/rdm/windows/user-groups-based-access-control/).
 
 The ***Add*** right also displays the ***Add in {{ en.VLT }}*** option. This must be enable for users to be able to add entries into the {{ en.VLT }} folder of the data source.
-![User Management - Rights](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip3424.png)
+![User Management - Rights](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip3424.png)

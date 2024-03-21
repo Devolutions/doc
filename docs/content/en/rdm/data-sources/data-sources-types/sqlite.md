@@ -27,13 +27,13 @@ SQLite supports an unlimited number of simultaneous readers, but will only allow
 You can specify a password to further encrypt your data. Specify it at creation time. If the data source already exists you can modify the password by using the File – Manage Password dialog.
 
 Change or clear the password of a SQLite data source.
-![Manage password dialog](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip10340.png)
+![Manage password dialog](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip10340.png)
 
 ## Settings
 
 ### General
 
-![SQLite - General Tab](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip11345.png)
+![SQLite - General Tab](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip11345.png)
 
 | OPTION             | DESCRIPTION |
 |--------------------|-------------|
@@ -46,7 +46,7 @@ Change or clear the password of a SQLite data source.
 
 ### Backup
 
-![SQLite - Backup Tab](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip10784.png)
+![SQLite - Backup Tab](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip10784.png)
 
 | OPTION  | DESCRIPTION |
 |---------|-------------|
@@ -55,11 +55,11 @@ Change or clear the password of a SQLite data source.
 ### VPN
 
 Open a VPN to access your data prior to connecting to your SQLite.
-![SQLite - VPN Tab](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMWin2254.png)
+![SQLite - VPN Tab](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin2254.png)
 
 ### Advanced
 
-![SQLite - Advanced Tab](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip10785.png)
+![SQLite - Advanced Tab](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip10785.png)
 
 | OPTION              | DESCRIPTION |
 |---------------------|-------------|

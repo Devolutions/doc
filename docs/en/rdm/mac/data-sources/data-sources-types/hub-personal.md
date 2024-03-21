@@ -11,7 +11,7 @@ Please consult our [website](https://password.devolutions.net/personal) for more
 
 ### General
 
-![!!RDMMac2128](https://cdnweb.devolutions.net/docs/en/rdm/mac/RDMMac2128.png)
+![!!RDMMac2128](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_RDMMac2128.png)
 
 | OPTION   | DESCRIPTION |
 |----------|-------------|
@@ -21,9 +21,9 @@ Please consult our [website](https://password.devolutions.net/personal) for more
 ### VPN
 
 Open a ***VPN*** to access your data prior to connecting to your {{ en.DHUB }}.
-![!!RDMMac2129](https://cdnweb.devolutions.net/docs/en/rdm/mac/RDMMac2129.png)
+![!!RDMMac2129](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_RDMMac2129.png)
 
 ### Advanced
 
 This is the ***Server*** address.
-![!!RDMMac2130](https://cdnweb.devolutions.net/docs/en/rdm/mac/RDMMac2130.png)
+![!!RDMMac2130](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_RDMMac2130.png)

@@ -48,7 +48,7 @@ Consult [Configure SQL Server](/rdm/windows/data-sources/data-sources-types/adva
 
 ### General
 
-![Microsoft SQL Server – General tab](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip11357.png)
+![Microsoft SQL Server – General tab](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip11357.png)
 
 | OPTION | DESCRIPTION |
 |--------|-------------|
@@ -66,7 +66,7 @@ Consult [Configure SQL Server](/rdm/windows/data-sources/data-sources-types/adva
 
 ### Settings
 
-![Microsoft SQL Server – Settings tab](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip11358.png)
+![Microsoft SQL Server – Settings tab](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip11358.png)
 
 | OPTION | DESCRIPTION |
 |--------|-------------|
@@ -77,7 +77,7 @@ Consult [Configure SQL Server](/rdm/windows/data-sources/data-sources-types/adva
 
 ### {{ en.UVLT_MAJ }}
 
-![Microsoft SQL Server – {{ en.UVLT_MAJ }} tab](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip3413.png)
+![Microsoft SQL Server – {{ en.UVLT_MAJ }} tab](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip3413.png)
 
 | OPTION | DESCRIPTION |
 |--------|-------------|
@@ -85,7 +85,7 @@ Consult [Configure SQL Server](/rdm/windows/data-sources/data-sources-types/adva
 
 ### Upgrade
 
-![Microsoft SQL Server – Upgrade tab](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip11360.png)
+![Microsoft SQL Server – Upgrade tab](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip11360.png)
 
 | OPTION | DESCRIPTION |
 |--------|-------------|
@@ -98,11 +98,11 @@ Consult [Configure SQL Server](/rdm/windows/data-sources/data-sources-types/adva
 ### VPN
 
 Open a VPN to access your data prior to connecting to your Microsoft SQL Server.
-![Microsoft SQL Server – VPN tab](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMWin2255.png)
+![Microsoft SQL Server – VPN tab](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin2255.png)
 
 ### Advanced
 
-![Microsoft SQL Server – Advanced tab](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip11359.png)
+![Microsoft SQL Server – Advanced tab](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip11359.png)
 
 | OPTION | DESCRIPTION |
 |--------|-------------|

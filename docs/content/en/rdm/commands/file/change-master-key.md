@@ -16,4 +16,4 @@ A master key can be used with the following data sources:
 Since version 14.0.4.0, the user is automatically prompted to add a master key when connecting to one of the above mentioned data sources for the first time. The master key is completely optional (yet highly recommended).
 {% endsnippet %}
 
-![Change Master Key](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip10079.png)
+![Change Master Key](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip10079.png)

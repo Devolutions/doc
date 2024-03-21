@@ -4,11 +4,11 @@ eleventyComputed:
   description: The Entry Security Analyzer is available in the Tools menu. It will display the strength indicator for all passwords stored in your data source.
 ---
 The Entry Security Analyzer is available in the Tools menu. It will display the strength indicator for all passwords stored in your data source.
-![!!clip10460](https://cdnweb.devolutions.net/docs/en/rdm/mac/clip10460.png)
+![!!clip10460](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10460.png)
 
 ## Settings
 
-![!!clip10034](https://cdnweb.devolutions.net/docs/en/rdm/mac/clip10034.png)
+![!!clip10034](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10034.png)
 
 In a single glance you can see the strength ratings of all your stored passwords.
 

@@ -12,7 +12,7 @@ This features requires an [Advanced Data Source](/rdm/mac/data-sources/data-sour
 
 ## Settings
 
-![Data Source Settings](https://cdnweb.devolutions.net/docs/en/rdm/mac/clip10374.png)
+![Data Source Settings](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10374.png)
 
 For more information on the different options held in the Data Source settings please see:
 

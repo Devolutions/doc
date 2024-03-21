@@ -6,10 +6,10 @@ eleventyComputed:
 Syntax highlighting is a feature found in text editors, commonly used for programming, scripting, and markup languages like HTML. It displays text, particularly source code, in various colors and fonts to differentiate and emphasize different categories of terms.
 
 To find this feature in {{ en.RDM }}, go to ***File – Settings – Types – Sessions – Terminal*** and select ***Syntax highlighting***. Add a new item in the list by clicking on ***Add***.
-![File – Settings – Types – Sessions – Terminal – Syntax highlighting](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMW2010_2024_1.png)
+![File – Settings – Types – Sessions – Terminal – Syntax highlighting](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMW2010_2024_1.png)
 
 Below is a list of all ***Syntax highlighting*** options.
-![Syntax highlighting](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMW2012_2024_1.png)
+![Syntax highlighting](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMW2012_2024_1.png)
 
 | Option               | Description                                                                                                        |
 |----------------------|--------------------------------------------------------------------------------------------------------------------|

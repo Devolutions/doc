@@ -47,6 +47,6 @@ If the user chooses to ignore the new configuration file when presented with the
 If the main concern is deploying a new license key and you are using an [advanced data source](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/), you should rather use the feature to store it in ***Administration – Licenses***.
 
 Whenever {{ en.RDM }} is started and it detects a new **default.cfg** file, the following dialog will appear:
-![New default.cfg detected](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip10368.png)
+![New default.cfg detected](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip10368.png)
 
 By selecting ***Use New Configuration (Lose Mine)***, the user's configuration is simply overwritten. If you only wish to update the {{ en.RDM }} license key after a renewal, choose ***Retrieve New Registration Only***.

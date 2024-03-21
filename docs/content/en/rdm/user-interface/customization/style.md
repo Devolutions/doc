@@ -10,16 +10,16 @@ eleventyComputed:
 ## Configuration
 
 To select the ***User Interface*** style you must go in ***File – Options – User Interface*** and modify the ***Main header***.
-![Options - User Interface](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip11406.png)
+![Options - User Interface](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip11406.png)
 
 ## Existing styles
 
 ### Ribbon
 
 The latest style sports a ribbon. Icons and text makes it easy to explore features.
-![Ribbon User Interface](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip11407.png)
+![Ribbon User Interface](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip11407.png)
 
 ### Menu
 
 Previous generation style, it holds a standard menu to invoke commands.
-![Default User Interface](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip11404.png)
+![Default User Interface](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip11404.png)

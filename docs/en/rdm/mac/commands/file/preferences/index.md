@@ -3,7 +3,7 @@ eleventyComputed:
   title: Preferences
 ---
 There are multiple options available to manage and customize your {{ en.RDMMAC }} in the menu ***File - Preferences***.
-![File - Preferences](https://cdnweb.devolutions.net/docs/en/rdm/mac/RDMMac2113.png)
+![File - Preferences](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_RDMMac2113.png)
 
 Please see the following topics for more information each tab:
 

@@ -3,7 +3,7 @@ eleventyComputed:
   title: Offline
   description: The offline mode is useful when using a VPN connection that makes using local network impossible.
 ---
-![!!clip3562](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip3562.png)
+![!!clip3562](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip3562.png)
 
 | OPTION                                      | DESCRIPTION                                              |
 |---------------------------------------------|----------------------------------------------------------|

@@ -15,14 +15,14 @@ Avant de commencer la configuration, assurez-vous d'avoir créé un compte Duo e
 
 1. Se connecter au ***Duo Admin Panel***.
 1. Dans ***Applications***, cliquer sur ***Protect an Application***.
-![Protect an Application](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip6000.png)
+![Protect an Application](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip6000.png)
 1. Protéger l’application ***Partner Auth API***.
-![Protéger l'application Partner Auth API](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip6001.png)
+![Protéger l'application Partner Auth API](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip6001.png)
 1. Si ce n'est pas déjà fait, suivre ces [étapes de configuration de l'authentification multifacteur](/fr/rdm/mac/data-sources/multi-factor-authentication/).
 1. Après avoir sélectionné le type d'AMF ***Duo***, cliquer sur ***Appliquer***.
 ![Appliquer l'authentification multifacteur](https://cdnweb.devolutions.net/docs/fr/rdm/mac/clip0317.png)
 1. Toutes les informations nécessaires pour remplir les champs ***Paramètres de Duo*** seront générées par le compte Duo.
-![Compte Duo – Détails de l'application Partner Auth API](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip6002.png)
+![Compte Duo – Détails de l'application Partner Auth API](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip6002.png)
 1. Copier et coller toutes les informations dans les champs correspondants de la fenêtre ***Paramètres de Duo***.
 ![Paramètres de Duo](https://cdnweb.devolutions.net/docs/fr/rdm/mac/clip0319.png)
 1. Cliquer sur ***Vérifier*** pour valider les informations, puis cliquer sur ***OK*** lorsque terminé.

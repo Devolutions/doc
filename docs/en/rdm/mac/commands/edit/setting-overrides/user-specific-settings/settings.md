@@ -12,7 +12,7 @@ Override screen size is only visible for RDP sessions.
 {% endsnippet %}
 
 Override Screen Size allows you to customize the size of the local window hosting the remote session.
-![User Specfic settings - Override screen size](https://cdnweb.devolutions.net/docs/en/rdm/mac/clip10340.png)
+![User Specfic settings - Override screen size](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10340.png)
 
 | OPTION              | DESCRIPTION                             |
 |---------------------|-----------------------------------------|
@@ -28,7 +28,7 @@ Override gateway allows you to customize the RDP Gateway credentials used on the
 Override gateway is only visible for RDP sessions.
 {% endsnippet %}
 
-![User Specific settings – Override gateway](https://cdnweb.devolutions.net/docs/en/rdm/mac/clip10341.png)
+![User Specific settings – Override gateway](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10341.png)
 
 ### Hard Drives
 Override hard drives allows you to customize the RDP hard drives that are shared with the remote desktop connection.
@@ -37,7 +37,7 @@ Override hard drives allows you to customize the RDP hard drives that are shared
 Override hard drives is only visible for RDP sessions.
 {% endsnippet %}
 
-![User Specific settings – Override hard drives](https://cdnweb.devolutions.net/docs/en/rdm/mac/clip10342.png)
+![User Specific settings – Override hard drives](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10342.png)
 
 | OPTION                    | DESCRIPTION                                                                 |
 |---------------------------|-----------------------------------------------------------------------------|

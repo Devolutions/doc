@@ -4,7 +4,7 @@ eleventyComputed:
   description: The Help tab contain links to our Devolutions website and documentation. It also includes all the links to follow us on different social media platform.
 ---
 The Help tab contain links to our Devolutions website and documentation. It also includes all the links to follow us on different social media platform. Our support team might also ask you to perform some operations that you will find in the Help tab.
-![Help ribbon](https://cdnweb.devolutions.net/docs/en/rdm/mac/clip10462.png)
+![Help ribbon](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10462.png)
 
 | OPTION               | DESCRIPTION |
 |----------------------|-------------|

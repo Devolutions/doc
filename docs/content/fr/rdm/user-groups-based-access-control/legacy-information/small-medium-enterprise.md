@@ -114,6 +114,6 @@ Enfin, la permission d'afficher le dossier Windjammer sera définie pour Service
 ### Conclusion 
 
 Les permissions sont désormais correctement définies. Notez que chaque entrée ajoutée plus haut que les groupes/dossiers au niveau racine n'aura aucune sécurité par défaut. Cela signifie qu'ils seraient disponibles pour n'importe qui, même le consultant. Cela peut être confirmé en regardant la capture d'écran ci-dessous dans laquelle la routine quotidienne d'entrée est disponible pour tout le monde. Voici ce que chaque utilisateur devrait voir dans l'arborescence :  
-![Navigation des groupes d'utilisateurs](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMWin6054.png) 
+![Navigation des groupes d'utilisateurs](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin6054.png) 
 
 Vous pouvez aller plus loin avec l'octroi de permissions en utilisant les onglets ***Sécurité*** et ***Pièces jointes*** de la section des permissions. Comme toujours, il faut être très prudent lors de l'octroi des permissions et les utilisateurs doivent avoir des privilèges très stricts. 

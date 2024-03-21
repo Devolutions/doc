@@ -31,5 +31,5 @@ The Override Source column indicates if an available mechanism can relocate the 
 ### Offline and Local Play list option
 
 Offline and local play list options can be accessed by navigating to ***File - Options - Advanced***.
-![Options - Advanced](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip11275.png)
+![Options - Advanced](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip11275.png)
 

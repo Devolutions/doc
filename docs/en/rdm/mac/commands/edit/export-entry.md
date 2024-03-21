@@ -5,7 +5,7 @@ eleventyComputed:
 Use the Export options to export selected entries from {{ en.RDMMAC }}.
 
 ## Settings
-![Edit ribbon - Export options](https://cdnweb.devolutions.net/docs/en/rdm/mac/clip10353.png)
+![Edit ribbon - Export options](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10353.png)
 
 | OPTION                                     | DESCRIPTION                                                          |
 |--------------------------------------------|----------------------------------------------------------------------|

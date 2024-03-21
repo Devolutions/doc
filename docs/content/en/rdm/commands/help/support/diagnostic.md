@@ -12,7 +12,7 @@ Some other issues could be related to the fact that the application is running i
 
 FIPS related issues and solutions can be found in the specific FIPS (Encryption) troubleshooting section.
 If you have a [{{ en.RDMJ }}](/rdm/windows/overview/the-devolutions-platform/rdm-jump/) configured you can run a test of your Jump host by clicking on Jump Test.
-![System Diagnostic – System](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip10814.png)
+![System Diagnostic – System](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip10814.png)
 
 ## Data Source
 
@@ -22,9 +22,9 @@ The ***Data Source*** tab contains information regarding the current data source
 Too many custom images could dramatically increase the size of the data source and cause load time issue.
 {% endsnippet %}
 
-![System Diagnostic - Data Source](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip11353.png)
+![System Diagnostic - Data Source](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip11353.png)
 
 ## Policy
 
 The ***Policy*** tab display the list of Group Policy Templates to see if any of them has been applied.
-![System Diagnostic - Policy](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip11354.png)
+![System Diagnostic - Policy](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip11354.png)

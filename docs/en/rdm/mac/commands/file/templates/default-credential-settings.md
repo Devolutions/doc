@@ -13,13 +13,13 @@ By editing your default template, you will be able to save settings that you wan
 ### No template defined
 
 Notice that a [No default] notice is displayed below each credential type that does not have a default template defined.
-![Default Template - No default](https://cdnweb.devolutions.net/docs/en/rdm/mac/clip10009.png)
+![Default Template - No default](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10009.png)
 
 ### Template defined
 
 All the Credentials without the [No default] notice has a default template. You can double-click on the type to edit the template or press the edit button.
-![Edit button](https://cdnweb.devolutions.net/docs/en/rdm/mac/clip10010.png)
+![Edit button](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10010.png)
 
 If you wish to remove the default settings template press the delete button.
-![Delete button](https://cdnweb.devolutions.net/docs/en/rdm/mac/clip10011.png)
+![Delete button](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10011.png)
 

@@ -19,7 +19,7 @@ You can also use the context menu to create and edit your Play List. When your e
 
 ### Use the Play list management
 From the ribbon, go to ***Edit – Play List – Play List Management***.
-![Local Play List](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip10253.png)
+![Local Play List](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip10253.png)
 
 Play lists can be saved three different ways:
 
@@ -34,9 +34,9 @@ Play lists can be saved three different ways:
 
 ### Create Play List depending on entries state and selection
 1. If you wish to pre-determine a list of entries, select them for your Play List in the {{ en.UVLT }}.
-![Selected Entries in the {{ en.NPANE }}](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip10902.png)
+![Selected Entries in the {{ en.NPANE }}](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip10902.png)
 1. In the ***Edit*** ribbon menu, click ***Play List***, then select whichever setting you prefer.
-![Edit - Play List - New](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip10792.png)
+![Edit - Play List - New](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip10792.png)
 
 | OPTION                                        | DESCRIPTION |
 |-----------------------------------------------|-------------|
@@ -45,9 +45,9 @@ Play lists can be saved three different ways:
 | Add Selection to Existing Play List (X Entry) | Prompts a window where you can select currently accessible Play Lists and adds the selection in the {{ en.NPANE }} to the Play List. |
 
 3. Choose if you wish to save your Play List locally, in a shared {{ en.VLT }} or in your {{ en.UVLT }}. Saving it locally will prompt a different window. This window will contain everything needed for a local Play List.
-![Save New Play List](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip10255.png)
+![Save New Play List](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip10255.png)
 1. The next window lets you choose how you want your current selection or opened sessions to affect your playlist.
-![Selected Entries in {{ en.NPANE }}](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip10256.png)
+![Selected Entries in {{ en.NPANE }}](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip10256.png)
 
 | OPTION                                   | DESCRIPTION |
 |------------------------------------------|-------------|
@@ -59,15 +59,15 @@ Play lists can be saved three different ways:
 	1. Enter a name for your ***Play List***.
 	1. You can review, add or remove entries from the play list on the ***Connections*** tab.
 	1. In ***Advanced*** you can set how the entries open.
-	![Play List Editor](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip10787.png)
+	![Play List Editor](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip10787.png)
 
 And there you have it, your ***Play List*** is ready for use.
 
 ### Edit Existing Play List
 1. In ***Edit***, click ***Play List Management***.
-![View - Play List Management](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip11490.png)
+![View - Play List Management](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip11490.png)
 1. Select the ***Play List*** you wish to modify and click ***Edit***.
-![Play List Management](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip10259.png)
+![Play List Management](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip10259.png)
 
 {% snippet icon.badgeInfo %}
 If the ***Play List*** is shared or saved in your {{ en.UVLT }}, you can also right-click the entry and click ***Properties*** to access it.

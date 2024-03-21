@@ -7,7 +7,7 @@ When opening your {{ en.RDM }} application for the first time, an Onboarding pro
 
 ## Step 1: Create your data source
 
-![Create your data source](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMWin2174.png)
+![Create your data source](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin2174.png)
 
 To get started, you must configure a data source. A data source is at the heart of {{ en.RDM }}. It is the {{ en.VLT }} that contains all of your precious and sensitive data.
 
@@ -22,7 +22,7 @@ Skipping the creation of your data source will end the Onboarding process.
 
 ### Team (Subscription)
 
-![Team (Subscription)](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMWin2175.png)
+![Team (Subscription)](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin2175.png)
 
 Select the data source you are going to use:
 * [***{{ en.DHUBB }}***](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/hub-business/): Select {{ en.DHUBB }} for a highly-secure, flexible and easy-to-use cloud-based password management solution for team environments. You will then be prompted to enter your ***Email*** to connect to your {{ en.DA }}, and to select which of your hubs to use (if you have access to multiple ones).
@@ -32,7 +32,7 @@ Select the data source you are going to use:
 
 ## Step 2: Manage your entries
 
-![Manage your entries](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMWin2176.png)
+![Manage your entries](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin2176.png)
 
 {% snippet icon.badgeInfo %}
 If you selected a data source configuration file (.rdd), this step is skipped.
@@ -52,7 +52,7 @@ You can always import files later.
 
 ## Step 3: User Interface Profile
 
-![User Interface Profile](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMWin2177.png)
+![User Interface Profile](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin2177.png)
 
 Usage profiles allow users to have a tailored experience in {{ en.RDM }} based on their tasks and roles. Select the user interface profile that best matches your needs:
 * ***IT professional***: This profile displays all entry types and options provided the user has the necessary permissions to access them. This profile offers all of what our solutions have to offer, advanced options, and access to all entries and information.
@@ -65,13 +65,13 @@ For a detailed overview of both profiles, see [Usage profiles](/rdm/windows/user
 
 ## Step 4: UI Options
 
-![UI Options](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMWin2178.png)
+![UI Options](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin2178.png)
 
 Select your favorite [theme](/rdm/windows/user-interface/customization/theme/) (***System***, ***Light***, or ***Dark***) and [menu display](/rdm/windows/user-interface/customization/style/) (***Ribbon*** or ***Menu***). When you are done, click ***Continue*** to go to the last step.
 
 ## Step 5: Join the community
 
-![Join the community](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMWin2179.png)
+![Join the community](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin2179.png)
 
 In this last step, you can subscribe to our email list and join the {{ en.DFORCE }}. Both are free!
 

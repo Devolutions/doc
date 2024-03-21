@@ -6,7 +6,7 @@ eleventyComputed:
 {% youtube 'FtSlp_TVAxE?si=VU395_g6MZ75HHvm&amp;start=636' %}
 
 Multiple options are available to use for ***Credentials*** in {{ en.RDM }} entries.
-![Credentials](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMWin2225.png)
+![Credentials](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin2225.png)
 
 | OPTION                      | DESCRIPTION                                                            |
 |-----------------------------|------------------------------------------------------------------------|

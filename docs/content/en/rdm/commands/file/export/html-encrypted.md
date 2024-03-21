@@ -21,7 +21,7 @@ When exporting multiple entries that are all contained within the same file, at 
 ### AES-256
 
 We use AES-256 to encrypt/decrypt your sensitive data. Since the decryption is done entirely in the browser, there is no need for external tools, downloads, or installs.
-![Encrypted Value](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip10883.png)
+![Encrypted Value](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip10883.png)
 
 ### Safe & Smart Virtual Backup
 

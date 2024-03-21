@@ -16,7 +16,7 @@ If you want a more specific configuration, you can set the template to use in th
 
 {% snippet icon.badgeNotice %}
 In ***File – Import***, we recommend you use the ***Import Generic Csv Wizard*** option first. You can modify, if needed, the ***Header format instruction***.
-![Import Csv Wizard](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMWin2226.png)
+![Import Csv Wizard](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin2226.png)
 {% endsnippet %}
 
 ## File content

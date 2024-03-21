@@ -6,7 +6,7 @@ eleventyComputed:
 ***Use File*** – ***Preferences*** – ***Security*** to configure the security of the application.
 
 ## Settings
-![Preferences - Security](https://cdnweb.devolutions.net/docs/en/rdm/mac/RDMMac6058.png)
+![Preferences - Security](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_RDMMac6058.png)
 
 ### Application Security (Local)
 | OPTION                                           | DESCRIPTION                                                                         |

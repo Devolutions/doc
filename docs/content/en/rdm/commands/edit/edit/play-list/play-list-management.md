@@ -8,7 +8,7 @@ eleventyComputed:
 First, open your Play List Management in ***Edit – Play List – Play List Management***.
 
 There are five methods of using your Play List.
-![Default Mode](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip10260.png)
+![Default Mode](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip10260.png)
 
 | OPTION                      | DESCRIPTION                                                            |
 |-----------------------------|------------------------------------------------------------------------|

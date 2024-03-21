@@ -27,31 +27,31 @@ The template selection should not be overlooked. In fact, it is probably the mos
 Upon launching the wizard, you are prompted for the source to use.
 
 The ***Resolve IP address*** option must be checked if you want to use the IP address in the host field of your sessions instead of the host name.
-![Import Session Wizard](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip10736.png)
+![Import Session Wizard](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip10736.png)
 
 Refer to the sections below depending on the chosen source.
 
 ### Network Neighborhood
 
 The next screen will immediately be populated with the result of the network discovery.
-![!!clip10737](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip10737.png)
+![!!clip10737](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip10737.png)
 
 If you prefer your sessions to use the IP address instead of the Host name to connect to the devices, check the ***Select by IP address*** option. This requires that the ***Resolve by IP address*** was selected in the first screen of the wizard. Select the computers for which you want to create session and proceed to [Template Selection](#template-selection) below. Multi-select is allowed by using <kbd>Ctrl</kbd>+click and <kbd>Shift</kbd>-click.
 
 ### Active directory
 
 The following screen allows you to select the domain to interrogate after which you must press refresh to load the list of computers that are available.
-![!!clip10093](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip10093.png)
+![!!clip10093](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip10093.png)
 
 After the query is executed, the results are displayed in the grid.
-![!!clip10094](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip10094.png)
+![!!clip10094](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip10094.png)
 
 If you prefer your sessions to use the IP address instead of the Host name to connect to the devices, check the ***Select by IP address*** option. This requires that the ***Resolve by IP address*** was selected in the first screen of the wizard. Select the computers for which you want to create session and proceed to [Template Selection](#template-selection) below. Multi-select is allowed by using <kbd>Ctrl</kbd>+click and <kbd>Shift</kbd>-click.
 
 ### Host list
 
 The following screen allows you to enter a list of hosts in an Edit control. If you prefer that your sessions use the IP address to connect to the hosts, you must enter the host name, a pipe, then the IP address.
-![!!clip10095](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip10095.png)
+![!!clip10095](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip10095.png)
 
 Proceed to [Template Selection](#template-selection) below.
 

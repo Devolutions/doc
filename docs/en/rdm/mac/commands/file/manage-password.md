@@ -7,7 +7,7 @@ You can apply a Master Key to encrypt the data files of the following data sourc
 * [XML](DataSource_Xml)
 * [Dropbox](DataSource_Dropbox)
 
-![Master Key ](https://cdnweb.devolutions.net/docs/en/rdm/mac/clip10099.png)
+![Master Key ](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10099.png)
 
 It is generally recommended to apply a Master Key to your XML or Dropbox Data Sources as it adds another layer of security protecting your Remote Sessions.
 

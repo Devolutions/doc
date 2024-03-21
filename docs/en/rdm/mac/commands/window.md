@@ -3,7 +3,7 @@ eleventyComputed:
   title: Window
 ---
 The Window menu allows you to manage the overall display of {{ en.RDMMAC }}.
-![Windows ribbon](https://cdnweb.devolutions.net/docs/en/rdm/mac/clip10461.png)
+![Windows ribbon](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10461.png)
 
 ## Settings
 | OPTION       | DESCRIPTION                                                                          |

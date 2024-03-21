@@ -42,10 +42,10 @@ A dynamic credential link can also be applied to a Folder or a VPN entry type if
 ## Settings
 
 1. Create a credential entry and check ***Always prompt with list***.
-![1Password Settings](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip11064.png)
+![1Password Settings](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip11064.png)
 1. When creating a entry, select ***Credential repository*** from the ***Credentials*** drop-down list, then select the credential entry created in the previous step. Notice that a new action appears just below the credential selection drop down list.
-![Select from List](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip11065.png)
+![Select from List](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip11065.png)
 1. Select a credential from the list.
-![LastPass Credentials list](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip10657.png)
+![LastPass Credentials list](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip10657.png)
 1. The link changes to the name of the credential. To remove linked credential and bring back automatic list prompt, simply click on the "X".
-![Name of the credential](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip11066.png)
+![Name of the credential](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip11066.png)

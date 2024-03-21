@@ -4,7 +4,7 @@ eleventyComputed:
   description: The ***File***., menu contains many actions regarding the application and the data source. This menu is contextual and depends on the connected data source.  ç
 ---
 The ***File*** menu contains many actions regarding the application and the data source. This menu is contextual and depends on the connected data source.  
-![File](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMWin6238.png) 
+![File](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin6238.png) 
 
 ### Go Offline/Online 
 

@@ -9,7 +9,7 @@ The data source is at the heart of {{ en.RDMMAC }}, it is the container that hol
 ## Settings
 
 The data source can be a file or a database and you use multiple data sources at the time, as seen below. They need to be configured on all workstations.
-![Data Sources](https://cdnweb.devolutions.net/docs/en/rdm/mac/clip6016.png)
+![Data Sources](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip6016.png)
 
 ### Create a new Data Source
 
@@ -18,7 +18,7 @@ Please consult [Create a new data source](/rdm/mac/data-sources/create-new-data-
 ### Multiple Data Sources
 
 You can configure multiple data sources within the application. These data sources can be of mixed types but there is only one active at a time. It is possible to switch from one data source to another via the data source combo box.
-![Choose your current data source](https://cdnweb.devolutions.net/docs/en/rdm/mac/clip10137.png)
+![Choose your current data source](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10137.png)
 
 ### Open Data Source at Startup
 

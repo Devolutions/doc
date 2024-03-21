@@ -16,7 +16,7 @@ The offline mode availability relies on several settings, refer to [Offline Mode
 The lowest setting (in terms of security) prevails over the others, which may prevent you from using the offline mode. If the ***Go Offline*** button is not available, please consult your administrator.
 
 The ***Data Source Information*** displays the size of the offline cache file along with the effective modes (disabled, read-only or read/write).
-![Data Source Information - Offline mode](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip11278.png)
+![Data Source Information - Offline mode](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip11278.png)
 
 Several features are not available in offline mode, such as:
 

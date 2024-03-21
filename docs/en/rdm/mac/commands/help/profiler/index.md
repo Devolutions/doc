@@ -11,18 +11,18 @@ Too many custom images could dramatically increase the size of the data source a
 ## Procedure
 
 1. Select ***Help - Profiler***.
-![Help – Profiler](https://cdnweb.devolutions.net/docs/en/rdm/mac/clip10470.png)
+![Help – Profiler](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10470.png)
 1. Move the window to the side to display the {{ en.RDM }} main window and refresh the data source by using the refresh button or by using ***File – Refresh***.
 {% snippet icon.badgeInfo %}
 Holding the <kbd>Ctrl</kbd> key while performing the refresh will force a full reload of the data source, thereby ignoring the cache.
 {% endsnippet %}
 
-![Perfromance Profiling](https://cdnweb.devolutions.net/docs/en/rdm/mac/clip10471.png)
+![Perfromance Profiling](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10471.png)
 
 3. The Profiler data will appear in the Performance Profiler window.
-![Performance Profiling result](https://cdnweb.devolutions.net/docs/en/rdm/mac/clip10472.png)
+![Performance Profiling result](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10472.png)
 4. Click on Send Trace to Support to send the Profiler data logs to our support team. You can add a Marker when running multiple tests to separate them.
-![Send Trace to Support](https://cdnweb.devolutions.net/docs/en/rdm/mac/clip10473.png)
+![Send Trace to Support](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10473.png)
 
 ### Debug only
 

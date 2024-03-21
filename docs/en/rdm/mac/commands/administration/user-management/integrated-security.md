@@ -12,7 +12,7 @@ This feature requires a {{ en.DVLS }} data source.
 ## Settings
 
 In the User Management window when activating the Integrated Security checkbox, the password field will be disabled because the operating system will provide a cached copy automatically.
-![User Management - Integrated Security](https://cdnweb.devolutions.net/docs/en/rdm/mac/clip10391.png)
+![User Management - Integrated Security](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10391.png)
 
 When using Integrated Security, you are currently running windows session must be from a user of that domain.
 

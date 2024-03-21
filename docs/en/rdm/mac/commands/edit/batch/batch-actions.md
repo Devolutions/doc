@@ -8,12 +8,12 @@ Use the Edit – Batch Edit – Batch Actions to change the settings of multiple
 Batch Actions are only applied to entries currently selected in your ***{{ en.NPANE }}***.
 {% endsnippet %}
 
-![Batch Edit - Batch Actions](https://cdnweb.devolutions.net/docs/en/rdm/mac/clip10350.png)
+![Batch Edit - Batch Actions](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10350.png)
 
 ## Settings
 
 ### General
-![Batch action - General](https://cdnweb.devolutions.net/docs/en/rdm/mac/clip10351.png)
+![Batch action - General](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10351.png)
 
 | OPTION               | DESCRIPTION                                                                                          |
 |----------------------|------------------------------------------------------------------------------------------------------|
@@ -25,17 +25,17 @@ Batch Actions are only applied to entries currently selected in your ***{{ en.NP
 These options will only work for ***Website*** session entries, NOT for ***Website (Legacy)*** data entries.
 {% endsnippet %}
 
-![Batch Action – Web](https://cdnweb.devolutions.net/docs/en/rdm/mac/clip10102.png)
+![Batch Action – Web](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10102.png)
 
 | OPTION                    | DESCRIPTION |
 |---------------------------|-------------|
 | Discover HTML Autofill    | Once you have selected your ***Website*** session entries and run the batch action, it will automatically fill in the HTML login information. |
 | Set Default HTML Autofill | Once you have selected your ***Website*** session entries and run the batch action, it will automatically fill in the Username ID and Password ID fields with the default values. |
 
-![Website Html Control ID Settings](https://cdnweb.devolutions.net/docs/en/rdm/mac/clip10352.png)
+![Website Html Control ID Settings](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10352.png)
 
 ### SSH
-![Batch Action - Web](https://cdnweb.devolutions.net/docs/en/rdm/mac/clip10103.png)
+![Batch Action - Web](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10103.png)
 
 | OPTION                                                        | DESCRIPTION |
 |---------------------------------------------------------------|-------------|

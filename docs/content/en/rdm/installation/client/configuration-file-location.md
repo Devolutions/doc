@@ -5,7 +5,7 @@ eleventyComputed:
 ---
 {{ en.RDM }} saves its configuration in a file named **RemoteDesktopManager.cfg**. This file contains most of the application settings. You can retrieve the installation folder of {{ en.RDM }} by clicking ***File*** – ***Options*** – ***Advanced***. A hyperlink displays the installation folder.
 
-![Options – Advanced](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMWin2257.png)
+![Options – Advanced](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin2257.png)
 
 The configuration file can be located in different folders depending on certain conditions.
 

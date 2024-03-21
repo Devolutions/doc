@@ -55,7 +55,7 @@ Consult [Configure SQL Server](/rdm/mac/data-sources/data-sources-types/advanced
 
 ### Connection
 
-![SQL Server - Connection tab](https://cdnweb.devolutions.net/docs/en/rdm/mac/clip6034.png)
+![SQL Server - Connection tab](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip6034.png)
 
 | OPTION       | DESCRIPTION |
 |--------------|-------------|
@@ -75,7 +75,7 @@ Consult [Configure SQL Server](/rdm/mac/data-sources/data-sources-types/advanced
 
 ### Settings
 
-![SQL Server - Settings tab](https://cdnweb.devolutions.net/docs/en/rdm/mac/clip6035.png)
+![SQL Server - Settings tab](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip6035.png)
 
 | OPTION          | DESCRIPTION |
 |-----------------|-------------|
@@ -87,7 +87,7 @@ Consult [Configure SQL Server](/rdm/mac/data-sources/data-sources-types/advanced
 
 ### Advanced
 
-![SQL Server - Advanced tab](https://cdnweb.devolutions.net/docs/en/rdm/mac/clip6036.png)
+![SQL Server - Advanced tab](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip6036.png)
 
 | OPTION                              | DESCRIPTION |
 |-------------------------------------|-------------|
@@ -103,7 +103,7 @@ Consult [Configure SQL Server](/rdm/mac/data-sources/data-sources-types/advanced
 
 ### Upgrade
 
-![SQL Server - Upgrade tab](https://cdnweb.devolutions.net/docs/en/rdm/mac/clip6040.png)
+![SQL Server - Upgrade tab](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip6040.png)
 
 | OPTION             | DESCRIPTION |
 |--------------------|-------------|
@@ -115,7 +115,7 @@ Consult [Configure SQL Server](/rdm/mac/data-sources/data-sources-types/advanced
 
 ### {{ en.UVLT_MAJ }}
 
-![SQL Server - {{ en.UVLT_MAJ }}](https://cdnweb.devolutions.net/docs/en/rdm/mac/clip6041.png)
+![SQL Server - {{ en.UVLT_MAJ }}](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip6041.png)
 
 | OPTION | DESCRIPTION |
 |--------|-------------|

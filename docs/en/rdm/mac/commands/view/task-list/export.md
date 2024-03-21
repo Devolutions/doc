@@ -11,7 +11,7 @@ Before exporting tasks, you can perform a [Search](/rdm/mac/commands/view/task-l
 {% endsnippet %}
 
 Right-Click on a task and select the file format.
-![Export options](https://cdnweb.devolutions.net/docs/en/rdm/mac/clip10357.png)
+![Export options](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10357.png)
 
 ## Export file type
 

@@ -6,7 +6,7 @@ eleventyComputed:
 When a new {{ en.RDM }} version is available, an update window appears in your application prompting you to update. It also displays the ***Release Notes*** (new features, improvements, fices, breaking changes).
 
 You have the option to download the latest version, skip it, or have {{ en.RDM }} notify you about the update at a later time.
-![Update options](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMW2005_2024_1.png)
+![Update options](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMW2005_2024_1.png)
 
 | OPTION                                                           | DESCRIPTION                                                                       |
 |------------------------------------------------------------------|-----------------------------------------------------------------------------------|

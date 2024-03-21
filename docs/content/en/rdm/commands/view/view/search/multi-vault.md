@@ -4,7 +4,7 @@ eleventyComputed:
   description: The Multi {{ en.VLT }} search feature of {{ en.RDM }} allows you to search for folders and entries in all the {{ en.VLT }}s of the selected data source at once.
 ---
 The ***Multi {{ en.VLT }} search*** feature of {{ en.RDM }} allows you to search for folders and entries in all the {{ en.VLT }}s of the selected data source at once.
-![Multi {{ en.VLT }} Search Window](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMWin2008.png)
+![Multi {{ en.VLT }} Search Window](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin2008.png)
 
 ### Criteria types
 
@@ -14,14 +14,14 @@ The following criteria are available to refine your search: ***Connection type**
 At least one criterion must be used to filter your results, and a maximum of four criteria can be applied at once.
 {% endsnippet %}
 
-![Multi {{ en.VLT }} Search Criteria](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMWin2009.png)
+![Multi {{ en.VLT }} Search Criteria](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin2009.png)
 
 {% snippet icon.badgeInfo %}
 In ***Hub*** databases, only the ***Name*** criterion is available.
 {% endsnippet %}
 
 Drop-down lists will appear when selecting certain criteria to give you more search options.
-![Multi {{ en.VLT }} Search Drop-down](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMWin2010.png)
+![Multi {{ en.VLT }} Search Drop-down](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin2010.png)
 
 Below is a description of what each of these drop-down lists type is used for.
 
@@ -35,7 +35,7 @@ Below is a description of what each of these drop-down lists type is used for.
 ### Results Display
 
 The results are displayed when the ***Search*** button is pressed. Once done, the name of all entries and folders and the {{ en.VLT }} in which they are located are shown in the results field. The paths to entries or folders are also displayed above each result or result group.
-![Search Button](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMWin2011.png)
+![Search Button](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin2011.png)
 
 It is possible to select multiple entries at once by <kbd>Shift</kbd>–clicking or all of them with the <kbd>Ctrl</kbd>+<kbd>A</kbd> shortcut. Right-clicking one or more entries shows the same menu and options as the ***{{ en.NPANE }}***.
 

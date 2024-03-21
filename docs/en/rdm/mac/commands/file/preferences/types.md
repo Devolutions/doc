@@ -7,7 +7,7 @@ Use File - Preferences - Types to control settings applied to Session entries.
 
 ## Settings
 
-![Preferences - Types](https://cdnweb.devolutions.net/docs/en/rdm/mac/clip10319.png)
+![Preferences - Types](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10319.png)
 
 ### Session Type
 

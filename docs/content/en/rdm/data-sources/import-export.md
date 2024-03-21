@@ -9,7 +9,7 @@ The .rdd file does not include the database content. Only the configuration is e
 {% endsnippet %}
 
 Use ***File – Data Sources*** to access the import or export functionality.
-![Data Sources - Import and Export](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip11263.png)
+![Data Sources - Import and Export](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip11263.png)
 
 {% snippet icon.badgeCaution %}
 Whether or not users can ***Read/Write*** in [Offline mode](/rdm/windows/data-sources/offline-mode/) is first decided at the data source's [Caching mode](/rdm/windows/data-sources/offline-mode/offline-read-write/) level. This cannot be changed remotely. If you wish to prevent or allow remote users the ***Read/Write*** offline feature, you should do so before exporting your data source.

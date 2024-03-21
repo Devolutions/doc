@@ -20,9 +20,9 @@ Follow these steps for a successful version update:
 1. Back up your database using the database tools.
 1. Open {{ en.RDMMAC }} while logged on as a user with administrative rights. You must also be SYSDBA or DB_OWNER.
 1. You may be prompted with an upgrade message when your data source is accessed. If so, accept the upgrade or using ***File – Data sources***, locate and edit your data source to upgrade.
-![Edit your data source](https://cdnweb.devolutions.net/docs/en/rdm/mac/clip11015.png)
+![Edit your data source](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip11015.png)
 1. Switch to the ***Upgrade*** tab, then click on ***Update Database***.
-![Upgrade tab – Upgrade Database](https://cdnweb.devolutions.net/docs/en/rdm/mac/clip11016.png)
+![Upgrade tab – Upgrade Database](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip11016.png)
 
    | Option              | Description                                                                                  |
    |---------------------|----------------------------------------------------------------------------------------------|

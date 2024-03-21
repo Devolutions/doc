@@ -14,10 +14,10 @@ If you decide not to register by the end of the trial, your data will not be alt
 1. Request your [30-day trial](https://devolutions.net/remote-desktop-manager/trial) from our website.
 1. Copy the trial license serial that you receive in a confirmation email from Devolutions.
 1. In {{ en.RDMMAC }}, go to ***Administration – Licenses***.
-![Administration – Licenses](https://cdnweb.devolutions.net/docs/en/rdm/mac/RDMMac0000.png)
+![Administration – Licenses](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_RDMMac0000.png)
 1. Click ***Add License***.
-![Add License](https://cdnweb.devolutions.net/docs/en/rdm/mac/RDMMac0001.png)
+![Add License](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_RDMMac0001.png)
 1. Paste the trial license serial from step 2 in the ***License*** field, then click ***OK***.
-![License Field](https://cdnweb.devolutions.net/docs/en/rdm/mac/RDMMac0002.png)
+![License Field](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_RDMMac0002.png)
 
 Your trial has now started.

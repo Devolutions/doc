@@ -16,4 +16,4 @@ You can import the credentials from a wide array of formats exported by various 
 All the entries will be imported in the current folder.
 {% endsnippet %}
 
-![File – Import – Logins](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip10745.png)
+![File – Import – Logins](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip10745.png)

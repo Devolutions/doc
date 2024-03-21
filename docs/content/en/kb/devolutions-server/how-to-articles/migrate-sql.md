@@ -17,15 +17,15 @@ When removing a ***Security Provider***, it is important to complete these steps
 1. Go to the desired ***Microsoft SQL Server*** data source.
 1. Select the ***Administration*** tab in the ribbon.
 1. Click on ***Security Provider***.  
-![Security Provider](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMW0009_2024_1.png)
+![Security Provider](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMW0009_2024_1.png)
 1. Click on ***Change Security Settings***.  
-![Change Security Settings](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMW0014_2024_1.png)
+![Change Security Settings](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMW0014_2024_1.png)
 1. In the dropdown select the ***Default*** option and click ***Apply***.  
-![Default security type](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMW0015_2024_1.png)
+![Default security type](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMW0015_2024_1.png)
 1. Click ***Yes*** after the warning window appears (this may take some time with larger data bases).  
-![Warning window](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMW0012_2024_1.png)
+![Warning window](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMW0012_2024_1.png)
 1. Click ***Close***.  
-![Close](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMW0013_2024_1.png)
+![Close](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMW0013_2024_1.png)
 
 ## Migrating MSSQL to {{ en.DVLS }}
 This operation assumes that you have [{{ en.DVLSCONSOLE }} installed](https://devolutions.net/server/home/download) on your target {{ en.DVLSCONSOLE }} host. You may migrate an MSSQL data source prior to [fully installing](/server/installation/) an instance of {{ en.DVLS }}.

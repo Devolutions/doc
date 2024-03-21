@@ -12,19 +12,19 @@ There are 3 way to open a Play list:
 
 ### Open items in default mode
 In ***View – Play list***, select the Play list to open and click on ***Open***.
-![Open Default Mode](https://cdnweb.devolutions.net/docs/en/rdm/mac/clip10115.png)
+![Open Default Mode](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10115.png)
 
 ### Open items in Embedded mode
 In ***View – Play list***, select the Play list to open and click on ***Open Embedded***.
-![Open Embedded Mode](https://cdnweb.devolutions.net/docs/en/rdm/mac/clip10116.png)
+![Open Embedded Mode](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10116.png)
 
 ### Open items with Select in ***{{ en.NPANE }}***
 In ***View – Play list***, select the Play list to open and click on ***Select*** in the ***{{ en.NPANE }}***. Then, select the desired entries in your ***{{ en.NPANE }}*** using <kbd>Cmd</kbd>+click.
-![Select in ***{{ en.NPANE }}***](https://cdnweb.devolutions.net/docs/en/rdm/mac/clip10117.png)
+![Select in ***{{ en.NPANE }}***](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10117.png)
 
 ## Menu
 You can use the menu in the Play list Management for multiple options.
-![Play list Management Menu](https://cdnweb.devolutions.net/docs/en/rdm/mac/clip10118.png)
+![Play list Management Menu](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10118.png)
 
 ### Settings
 | OPTION                                                                                         | DESCRIPTION                        |

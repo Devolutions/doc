@@ -10,7 +10,7 @@ To create a new entry in your {{ en.UVLT }}, simply click on {{ en.UVLT }} in yo
 The {{ en.UVLT }} is only available for all [Advanced Data Sources](/rdm/mac/data-sources/data-sources-types/advanced-data-sources/).
 {% endsnippet %}
 
-![{{ en.NPANE }} – {{ en.UVLT_MAJ }}](https://cdnweb.devolutions.net/docs/en/rdm/mac/clip6003.png)
+![{{ en.NPANE }} – {{ en.UVLT_MAJ }}](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip6003.png)
 
 ## A note on Credentials
 

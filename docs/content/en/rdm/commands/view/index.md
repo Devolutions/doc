@@ -4,7 +4,7 @@ eleventyComputed:
   description: The View tab is used to control different features regarding the panels, views, and logs of {{ en.RDM }}.
 ---
 The ***View*** tab is used to control different features regarding the panels, views, logs, and layout of {{ en.RDM }}.
-![View](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMWin6203.png)
+![View](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin6203.png)
 
 Refer to the following topics for more information:
 

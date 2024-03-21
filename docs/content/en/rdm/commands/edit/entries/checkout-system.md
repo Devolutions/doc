@@ -26,12 +26,12 @@ Administrators can force ***Check In*** entries that are ***Check Out*** by othe
 ### Security Settings
 
 To access the check out settings, go into the ***Properties*** of an entry, folder or of the root folder. Navigate to the ***Security Settings*** section.
-![!!RDMWin2233](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMWin2233.png)
+![!!RDMWin2233](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin2233.png)
 
 ### Checkout mode
 
 ***Checkout mode*** enables or disables the checkout system. It also decides how the checkout mode functions.
-![!!clip3519](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip3519.png)
+![!!clip3519](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip3519.png)
 
 | OPTION                      | DESCRIPTION                                                            |
 |-----------------------------|------------------------------------------------------------------------|
@@ -45,7 +45,7 @@ To access the check out settings, go into the ***Properties*** of an entry, fold
 ### Checkout prompt
 
 ***Checkout prompt*** sets if a user must enter a comment when they check out the entry. Administrators can monitor the comments through the logs available on the entry or the ***Activity Logs***.
-![!!clip3522](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip3522.png)
+![!!clip3522](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip3522.png)
 
 | OPTION   | DESCRIPTION                                  |
 |----------|----------------------------------------------|

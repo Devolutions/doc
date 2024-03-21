@@ -7,18 +7,18 @@ The ***Playback (Ansi)*** is available in ***Tools – More Tools – Playback (
 
 ## Settings
 
-![More Tools - Playback (Ansi)](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip10414.png)
+![More Tools - Playback (Ansi)](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip10414.png)
 
 | OPTION   | DESCRIPTION                                                   |
 |----------|---------------------------------------------------------------|
-| ![!!Select ANSI File Icon](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip10865.png) | Select the ANSI file you wish to open in the Terminal Playback.                                     |
+| ![!!Select ANSI File Icon](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip10865.png) | Select the ANSI file you wish to open in the Terminal Playback.                                     |
 | Font     | Select the font for the Terminal Playback.                    |
-| ![!!Options Icon](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip10867.png) | See the ***Options*** section.   |
-| ![!!Clear Screen Icon](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip10868.png) | Clear the screen to play another ANSI file. |
+| ![!!Options Icon](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip10867.png) | See the ***Options*** section.   |
+| ![!!Clear Screen Icon](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip10868.png) | Clear the screen to play another ANSI file. |
 
 ### Options
 
-![Playback (Ansi) - Ansi Player Options](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip10415.png)
+![Playback (Ansi) - Ansi Player Options](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip10415.png)
 
 | OPTION   | DESCRIPTION                                                   |
 |----------|---------------------------------------------------------------|

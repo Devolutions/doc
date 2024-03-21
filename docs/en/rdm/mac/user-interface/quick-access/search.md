@@ -7,10 +7,10 @@ It is possible to apply a filter in the [***{{ en.NPANE }}***](/rdm/mac/user-int
 ## Settings
 
 The Search filter is accessible from the {{ en.RDMMAC }} Quick Access [Toolbar](/rdm/mac/user-interface/quick-access/).
-![Quick Access - Search](https://cdnweb.devolutions.net/docs/en/rdm/mac/clip10561.png)
+![Quick Access - Search](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10561.png)
 
 Click on the arrow in the Search box to display your search options.
-![Search box - Dropdown options](https://cdnweb.devolutions.net/docs/en/rdm/mac/clip10562.png)
+![Search box - Dropdown options](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10562.png)
 
 The filter expression is matched against fields as selected in the filter options such as:
 
@@ -29,8 +29,8 @@ It is possible to exclude results by choosing to display entries that match cert
 * If the session is marked as a Favorites
 
 A search by types can be executed to include Sessions, Data Entries, Contacts, Documents, Credentials Entries, VPNs, Macros/Scripts/Tools, Show Sync.
-![Search - Type](https://cdnweb.devolutions.net/docs/en/rdm/mac/clip10563.png)
+![Search - Type](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10563.png)
 
 The Search Options will offer you the possibility to include the shortcuts, the sub entries, show only the favorites and/or make the search case sensitive.
-![Search - Search Options](https://cdnweb.devolutions.net/docs/en/rdm/mac/clip10564.png)
+![Search - Search Options](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10564.png)
 

@@ -14,11 +14,11 @@ Download the [{{ en.DLOCALIZER }}](https://devolutions.net/localizer) translatio
 ## Translation process
 
 1. In ***File – Languages***, select the language(s) to translate. Click ***Ok***.
-![File – Languages](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMWin2228.png)
+![File – Languages](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin2228.png)
 1. Click on the ***Translate*** button.
-![Translate](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMWin2131.png)
+![Translate](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin2131.png)
 1. Choose the file in which to translate in the ***File*** drop-down list.
-![File Selection](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMWin2132.png)
+![File Selection](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin2132.png)
 1. In the lower part, you can filter and review the content already translated or in need of translation. Information about each resource line is available in the different columns.
 
    | Column{width=150}         | Description                                                                               |
@@ -32,9 +32,9 @@ Download the [{{ en.DLOCALIZER }}](https://devolutions.net/localizer) translatio
    | Modified (UTC) | Time at which the last modification to the translated text was done.                      |
    | Original (UTC) | Time at which the last modification to the original English text was done by Devolutions. |
 
-   ![Content to Translate or Translated](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMWin2229.png)
+   ![Content to Translate or Translated](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin2229.png)
 1. To start, select a ***Resource*** line in the bottom list and click ***Translate***. The original text will appear in the ***Original*** box.
-![Resource Line Selection](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMWin2133.png)
+![Resource Line Selection](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin2133.png)
 
    {% snippet icon.badgeCaution %}
    When translating text, you may encounter the ampersand character ("&") used in a way other than its usual meaning of "and". This is not an error: the ampersand causes the character immediately to the right of it to be underlined when displayed. Please double check before translating.
@@ -47,10 +47,10 @@ Download the [{{ en.DLOCALIZER }}](https://devolutions.net/localizer) translatio
    A ***Bing*** button is available to assist you in translating your text. The Bing API limits the number of calls per hour. If it fails, try again in an hour or so.
    {% endsnippet %}
 
-   ![Translation](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip11554.png)
+   ![Translation](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip11554.png)
 
 1. When done, change the ***Status*** to ***Translated*** for this resource and click the ***Save Changes*** button. This will send your translation to our server and it will be deployed with the next release version of our applications.
-![Change Status and Save Changes](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMWin2134.png)
+![Change Status and Save Changes](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin2134.png)
 
 ### Preview
 

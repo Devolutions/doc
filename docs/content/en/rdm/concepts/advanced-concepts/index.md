@@ -3,7 +3,7 @@ eleventyComputed:
   title: Advanced concepts
   order: 30
 ---
-![!!advanced_concepts](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMWin6191.jpg)
+![!!advanced_concepts](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin6191.jpg)
 
 Advanced concepts are meant for system administrators as they cover much more complex topics, or features useful to manage an organisation.
 

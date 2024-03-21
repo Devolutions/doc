@@ -3,7 +3,7 @@ eleventyComputed:
   title: Home
 ---
 The Home ribbon allows you to apply an action to the currently selected entry. The actions available in the ribbon will depend on the type of entry that is selected in your ***{{ en.NPANE }}***.
-![Home Ribbon menu - RDP embedded session selected](https://cdnweb.devolutions.net/docs/en/rdm/mac/clip10326.png)
+![Home Ribbon menu - RDP embedded session selected](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10326.png)
 
 ## Settings
 

@@ -4,7 +4,7 @@ eleventyComputed:
   description: Use File – Preferences – Advanced to control the behavior of the application with respect to the lower level settings.
 ---
 Go to ***File – Preferences – Advanced*** to control the behavior of the application with respect to the lower level settings.
-![File – Preferences – Advanced](https://cdnweb.devolutions.net/docs/en/rdm/mac/RDMM4000_2024_1.png)
+![File – Preferences – Advanced](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_RDMM4000_2024_1.png)
 
 ## Settings
 | OPTION     | DESCRIPTION |

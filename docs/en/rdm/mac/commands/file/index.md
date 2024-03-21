@@ -3,7 +3,7 @@ eleventyComputed:
   title: File
 ---
 The ***File*** menu contains several actions available to you regarding your data source. The options will change depending on the data source you are currently using.
-![File menu](https://cdnweb.devolutions.net/docs/en/rdm/mac/RDMMac2115.png)
+![File menu](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_RDMMac2115.png)
 
 See the following topics to learn more about each setting:
 

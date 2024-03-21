@@ -5,7 +5,7 @@ eleventyComputed:
 Use ***File – Preferences – General*** to configure options related to the functionality of the application.
 
 ## Settings
-![!!RDMMac2143](https://cdnweb.devolutions.net/docs/en/rdm/mac/RDMMac2143.png)
+![!!RDMMac2143](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_RDMMac2143.png)
 
 ### General
 | OPTION                               | DESCRIPTION |

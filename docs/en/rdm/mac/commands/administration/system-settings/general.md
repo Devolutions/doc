@@ -3,7 +3,7 @@ eleventyComputed:
   title: General
 ---
 In the General side menu, you will be able to manage different right access specific to the data source.
-![Data Source Settings - General](https://cdnweb.devolutions.net/docs/en/rdm/mac/clip10374.png)
+![Data Source Settings - General](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10374.png)
 
 ## Data Source Settings
 | OPTION                                | DESCRIPTION                                                                                    |

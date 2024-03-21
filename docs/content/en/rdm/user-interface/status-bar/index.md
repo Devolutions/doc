@@ -9,7 +9,7 @@ The status bar rests at the bottom of the application. It is composed of multipl
 * The Online/Offline toggle
 * Grab input toggle
 
-![Status bar](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip10988.png)
+![Status bar](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip10988.png)
 
 ## Search/Filter
 

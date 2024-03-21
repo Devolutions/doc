@@ -4,7 +4,7 @@ eleventyComputed:
   description: The Layout section located in the Window tab includes several options for changing the display of {{ en.RDM }}.
 ---
 The ***Layout*** section located in the ***Window*** tab includes several options for changing the display of {{ en.RDM }}. It is possible to enable/disable certain windows and tabs to customize your experience.
-![Layout Section](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMWin6207.png)
+![Layout Section](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin6207.png)
 Most tabbed windows can be moved and docked as you wish. This applies to the default styles (***Ribbon*** or ***Menu***). To learn more about this feature, see [Docking](/rdm/windows/user-interface/customization/docking/). The table below lists each option available in this section and provides a brief description of each.
 | OPTION   | DESCRIPTION                                                   |
 |----------|---------------------------------------------------------------|

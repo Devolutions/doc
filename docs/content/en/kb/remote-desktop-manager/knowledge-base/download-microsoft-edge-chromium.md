@@ -18,7 +18,7 @@ We highly recommend that you download and install the Microsoft Edge WebView2 Ru
 * Change history in available update prompt
 
 Download the [Microsoft Edge WebView2 Runtime](https://developer.microsoft.com/en-us/microsoft-edge/webview2/#download-section). The compatible download link for {{ en.RDM }} is the one under the ***Evergreen Bootstrapper*** section.
-![Evergreen Bootstrapper download](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMW2007_2024_1.png)
+![Evergreen Bootstrapper download](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMW2007_2024_1.png)
 
 Once downloaded and installed, restart {{ en.RDM }} for the installation to take effect.
 

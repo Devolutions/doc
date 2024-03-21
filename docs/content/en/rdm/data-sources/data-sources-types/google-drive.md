@@ -7,7 +7,7 @@ eleventyComputed:
 
 ### General
 
-![Google Drive - General Tab](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip3622.png)
+![Google Drive - General Tab](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip3622.png)
 
 | OPTION              | DESCRIPTION |
 |---------------------|-------------|
@@ -24,4 +24,4 @@ eleventyComputed:
 ### VPN
 
 Open a VPN to access your data prior to connecting to your Google Drive.
-![Google Drive - VPN Tab](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMWin2200.png)
+![Google Drive - VPN Tab](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin2200.png)

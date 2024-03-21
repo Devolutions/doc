@@ -7,7 +7,7 @@ Use ***File – My Account Settings*** to configure accounts that connect to dif
 
 ## Settings
 
-![My Account Settings](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip10203.png)
+![My Account Settings](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip10203.png)
 
 ### Information
 

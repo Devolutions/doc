@@ -12,11 +12,11 @@ Once you have identified your needs, you can proceed with the creation of your f
 
 1. In {{ en.RDM }}, go to ***File – Data sources***.
 1. Click on ***Add a new data source***.
-![Add a new data source](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMW2000_2024_1.png)
+![Add a new data source](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMW2000_2024_1.png)
 1. Select the type of data source to create, then click ***Add***. In the example below, a {{ en.DVLS }} data source is being created.
-![Data source type selection](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMW2001_2024_1.png)
+![Data source type selection](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMW2001_2024_1.png)
 1. Configure the data source connection settings. To validate the information, click on ***Test connection*** or ***Test host*** depending on the type of data source being created.
-![Data source configuration](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMW2002_2024_1.png)
+![Data source configuration](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMW2002_2024_1.png)
 1. Click ***Add*** when the configuration is complete.
 1. Once created, the new data source should automatically open. You can also manually open the data source by selecting it from the data source drop-down list at the top of the ***{{ en.NPANE }}***.
 

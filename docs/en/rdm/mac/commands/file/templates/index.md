@@ -3,7 +3,7 @@ eleventyComputed:
   title: Templates
 ---
 Templates are available from the menu ***File - Templates***.
-![File - Templates](https://cdnweb.devolutions.net/docs/en/rdm/mac/cli4035.png)
+![File - Templates](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_cli4035.png)
 
 This allows you to create predefined configuration such as:
 
@@ -18,7 +18,7 @@ This allows you to create predefined templates that are available with the quick
 ## Settings
 
 Simply click on Templates and then click on Add Template to create a new template.
-![Templates - Create a New Template](https://cdnweb.devolutions.net/docs/en/rdm/mac/clip10321.png)
+![Templates - Create a New Template](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10321.png)
 
 ## Usage
 
@@ -27,4 +27,4 @@ Templates can be used in the following cases:
 ### Creating a new entry
 
 When creating a new entry, select Template to have access to your previously created template, click on the one you wish to use to create your new entry.
-![Create a new entry - Template](https://cdnweb.devolutions.net/docs/en/rdm/mac/clip10322.png)
+![Create a new entry - Template](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10322.png)

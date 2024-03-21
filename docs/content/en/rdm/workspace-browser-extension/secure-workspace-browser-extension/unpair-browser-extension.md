@@ -10,4 +10,4 @@ In the event that you want to deny access to {{ en.RDM }} from a previously pair
 In the ***{{ en.WBEX }} Associations*** section, you will find a list of each association made to {{ en.RDM }}, including some information to identify them. This includes the name specified at the time of the association (which defaults to the web browser’s name), a part of the encryption key used between the two, its creation date, and the date when it was last used.
 {% endsnippet %}
 
-![Delete the {{ en.WBEX }} Association](https://cdnweb.devolutions.net/docs/en/rdm/windows/Dwl4061.png)
+![Delete the {{ en.WBEX }} Association](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_Dwl4061.png)

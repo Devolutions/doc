@@ -11,7 +11,7 @@ After it has been properly configured, the only modification to perform in {{ en
 ## Procedure
 
 1. Create or edit an Microsoft SQL Server data source, access the ***Advanced*** tab and click the ***More Settings*** button.
-![!!clip3516](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip3516.png)
+![!!clip3516](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip3516.png)
 1. Set the ***Encrypt*** property value to ***true***. Click ***OK*** to validate.
-![!!clip7001](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip7001.png)
+![!!clip7001](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip7001.png)
 

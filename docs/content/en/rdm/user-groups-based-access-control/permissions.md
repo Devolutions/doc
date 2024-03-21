@@ -8,7 +8,7 @@ eleventyComputed:
 The ***Permissions*** window, which is only available in an [advanced data source](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/), can be found in every entry properties in ***Security*** – ***Permission*** section (or ***Security*** – ***Inherited permissions*** for the {{ en.VLT }} root).
 
 The user group based permission system can give a very accurate control of the security. Here is an overview of the permission window:
-![Permission panel](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMWin6083.png)
+![Permission panel](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin6083.png)
 
 | OPTION              | DESCRIPTION                                                                                                                |
 |---------------------|----------------------------------------------------------------------------------------------------------------------------|
@@ -17,4 +17,4 @@ The user group based permission system can give a very accurate control of the s
 | Inherited values    | Indicates what is inherited from parent groups.                                                                            |
 | Select user groups  | Lets you select users / user groups to be granted the permission. Available only if the permission is set to ***Custom***. |
 
-![Batch Grant Access](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMWin6082.png)
+![Batch Grant Access](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin6082.png)

@@ -15,7 +15,7 @@ This procedure is not recommended for running {{ en.RDM }} from a network share 
 The following steps ensure true portability and ease of maintenance. It can easily be adapted to your liking.
 
 1. Download the ***ZIP*** package of {{ en.RDM }} Team.
-![ZIP package of {{ en.RDM }} Team](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip11586.png)
+![ZIP package of {{ en.RDM }} Team](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip11586.png)
 1. Create a RemoteDesktopManager folder on your portable device.
 1. In the folder created in step 2, create these folders:
     1. A config folder. {type="a"}
@@ -26,8 +26,8 @@ The following steps ensure true portability and ease of maintenance. It can easi
 1. Open {{ en.RDM }} and display the data sources window using ***File – Data sources***.
 1. Create a new data source of a type that can be stored on your portable device (SQLite, XML, etc.).
 1. Configure the data source using a relative path so it is stored on the portable device: **.\Data\Connections.db**.
-![Configure the data source](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip11276.png)
+![Configure the data source](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip11276.png)
 1. Configure your portable applications (FileZilla, UltraVNC, etc.) in the same manner (relative to the folder). Click on ***Configure Installation Path*** to select your preferred portable application.
-![Configure Installation Path](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip10449.png)
-![Installation Path](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip11277.png)
+![Configure Installation Path](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip10449.png)
+![Installation Path](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip11277.png)
 1. You can now delete the pre-existing ***Local data source*** that had been created automatically.

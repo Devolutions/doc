@@ -9,4 +9,4 @@ A Refresh may also help when experiencing [Cache](/rdm/mac/data-sources/caching/
 ## Settings
 
 You can also perform a refresh of your data source by holding the Command plus R button.
-![File - Refresh](https://cdnweb.devolutions.net/docs/en/rdm/mac/clip10311.png)
+![File - Refresh](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10311.png)

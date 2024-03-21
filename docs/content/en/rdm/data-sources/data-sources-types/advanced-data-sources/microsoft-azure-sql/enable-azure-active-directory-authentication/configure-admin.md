@@ -11,17 +11,17 @@ It may take a few minutes for this change to propagate. You might experience a t
 You can use an existing Microsoft Azure account if you already have one created. It is not necessary to create another to perform the following steps.
 {% endsnippet %}
 
-![Azure AD Portal](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip11581.png)
+![Azure AD Portal](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip11581.png)
 
 1. As shown in the ***Overview*** tab, the ***Active Directory admin*** is set to ***Not configured***.
-![!!RDMWin2212](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMWin2212.png)
+![!!RDMWin2212](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin2212.png)
 1. Click on ***Active Directory admin*** under ***Settings*** in the left menu.
-![!!RDMWin2213](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMWin2213.png)
+![!!RDMWin2213](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin2213.png)
 1. Click on ***Set admin*** to search for the admin.
-![!!RDMWin2214](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMWin2214.png)
+![!!RDMWin2214](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin2214.png)
 1. Type the admin name in the ***Search*** field. Click on the admin in the list provided and then ***Select***.
-![!!RDMWin2215](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMWin2215.png)
+![!!RDMWin2215](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin2215.png)
 1. To finish the process, click on ***Save***.
-![!!RDMWin2216](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMWin2216.png)
+![!!RDMWin2216](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin2216.png)
 1. Copy the ***Active Directory admin*** email: it is essential for the next steps.
 

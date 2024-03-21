@@ -16,7 +16,7 @@ The same dialog is used for the {{ en.CIS }} and for exporting the {{ en.RDM }} 
 ## Options
 
 You can open the ***Installer File Generator*** from ***File – {{ en.DA }} – Installer File Generator***. It is also accessible when creating a installation package in ***File – {{ en.DA }} – {{ en.CIM }}***.
-![Installer file generator](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip11249.png)
+![Installer file generator](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip11249.png)
 
 ### Miscellaneous
 
@@ -26,7 +26,7 @@ Do not redistribute the ***{{ en.DA }} credentials***. Doing so would share thes
 All ***Local templates*** will be included. If any of these contain credentials, it may pose a security risk. Ensure that you only share what is needed.
 {% endsnippet %}
 
-![Miscellaneous options](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip11260.png)
+![Miscellaneous options](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip11260.png)
 
 | OPTION                                 | DESCRIPTION                                                                                               |
 |----------------------------------------|-----------------------------------------------------------------------------------------------------------|

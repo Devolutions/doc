@@ -7,7 +7,7 @@ Use ***File – Preferences – User Interface*** to configure options related t
 
 ## Settings
 
-![File – Preferences – User Interface](https://cdnweb.devolutions.net/docs/en/rdm/mac/RDMMac2091.png)
+![File – Preferences – User Interface](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_RDMMac2091.png)
 
 ### User Interface
 

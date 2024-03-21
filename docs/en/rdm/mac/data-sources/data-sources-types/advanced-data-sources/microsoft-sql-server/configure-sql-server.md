@@ -14,15 +14,15 @@ For added security, you can enable SSL Encryption to communicate with your insta
 
 
 2. Click on the setting button in the ***{{ en.NPANE }}*** or go in ***File - Data Sources***.
-![Setting button](https://cdnweb.devolutions.net/docs/en/rdm/mac/clip10487.png)
+![Setting button](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10487.png)
 1. Click on the plus to Add a New Data Source.
-![Data Source – Add a new data source](https://cdnweb.devolutions.net/docs/en/rdm/mac/clip10488.png)
+![Data Source – Add a new data source](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10488.png)
 1. Select ***Microsoft SQL Server***.
-![Select SQL Server data source](https://cdnweb.devolutions.net/docs/en/rdm/mac/clip10489.png)
+![Select SQL Server data source](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10489.png)
 1. Provide the connection information for the SQL Server with a user having enough privileges to create the database.
-![SQL Server data source configuration](https://cdnweb.devolutions.net/docs/en/rdm/mac/clip6042.png)
+![SQL Server data source configuration](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip6042.png)
 1. Select the Upgrade tab and click the Create Database button. If the database is already created on the SQL Server, press the Update Database button to create the appropriate tables in the database.
-![SQL Server – Upgrade tab](https://cdnweb.devolutions.net/docs/en/rdm/mac/clip6043.png)
+![SQL Server – Upgrade tab](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip6043.png)
 1. Once the database is created, create a {{ en.RDM }} administrator account via the [Administration – Users](/rdm/mac/commands/administration/user-management/) menu.
 {% snippet icon.badgeInfo %}
 If the database is created using a system administrator (example: SA), we recommend to keep this user only for the database creation and the [database upgrade](/rdm/mac/installation/database-upgrade/). A {{ en.RDM }} administrator account must be created first. Then, regular users are created with this administrator account.
@@ -30,6 +30,6 @@ If the database is created using a system administrator (example: SA), we recomm
 
 
 8. Connect to the SQL Server data source with the {{ en.RDM }} administrator account. To do so, go in ***File – Data Source*** and click on the setting button to edit the data source used to create the database and change the login information for the administrator account created with {{ en.RDM }}.
-![SQL Server – Connection tab – User](https://cdnweb.devolutions.net/docs/en/rdm/mac/clip10492.png)
+![SQL Server – Connection tab – User](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10492.png)
 
 The SQL Server data source is now correctly configured.

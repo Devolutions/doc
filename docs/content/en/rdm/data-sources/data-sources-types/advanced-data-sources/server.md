@@ -31,7 +31,7 @@ Export the data source, then import the file in your client workstations as desc
 
 ### General
 
-![{{ en.DVLS }} – General](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip11355.png)
+![{{ en.DVLS }} – General](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip11355.png)
 
 | OPTION                       | DESCRIPTION |
 |------------------------------|-------------|
@@ -48,7 +48,7 @@ Export the data source, then import the file in your client workstations as desc
 
 ### Settings
 
-![{{ en.DVLS }} – Settings](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip11356.png)
+![{{ en.DVLS }} – Settings](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip11356.png)
 
 | OPTION                   | DESCRIPTION |
 |--------------------------|-------------|
@@ -58,7 +58,7 @@ Export the data source, then import the file in your client workstations as desc
 
 ### {{ en.UVLT_MAJ }}
 
-![{{ en.DVLS }} – {{ en.UVLT_MAJ }}](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip3603.png)
+![{{ en.DVLS }} – {{ en.UVLT_MAJ }}](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip3603.png)
 
 | OPTION | DESCRIPTION |
 |--------|-------------|
@@ -67,11 +67,11 @@ Export the data source, then import the file in your client workstations as desc
 ### VPN
 
 Open a VPN to access your data prior to connecting to your {{ en.DVLS }}.
-![{{ en.DVLS }} – VPN](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMWin2197.png)
+![{{ en.DVLS }} – VPN](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin2197.png)
 
 ### Advanced
 
-![{{ en.DVLS }} – Avanced](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip10815.png)
+![{{ en.DVLS }} – Avanced](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip10815.png)
 
 | OPTION                          | DESCRIPTION |
 |---------------------------------|-------------|

@@ -4,7 +4,7 @@ eleventyComputed:
   description: The {{ en.RDMA }} is a very powerful tool that allows commands to be run on multiple machines.
 ---
 The ***{{ en.RDMA }}*** is a very powerful tool that allows commands to be run on multiple machines.
-![More Tools – {{ en.RDMA }}](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip11234.png)
+![More Tools – {{ en.RDMA }}](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip11234.png)
 
 ## Settings
 
@@ -14,11 +14,11 @@ To launch a script through the ***{{ en.RDMA }}***, you first need to open an RD
 Execute script via Agent only needs the {{ en.RDMA }} when the script is executed from the Quick Script tab. {{ en.RDM }} needs to be fully installed on the remote computer when the script is executed from the Scripts/Tools tab.
 {% endsnippet %}
 
-![Execute Script Via Agent](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip11244.png)
+![Execute Script Via Agent](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip11244.png)
 
 ### Quick Script – Message
 
-![Quick Script – Message](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMWin2199.png)
+![Quick Script – Message](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin2199.png)
 
 | OPTION  | DESCRIPTION                     |
 |---------|---------------------------------|
@@ -27,7 +27,7 @@ Execute script via Agent only needs the {{ en.RDMA }} when the script is execute
 
 ### Quick Script – Command Line (cmd.exe)
 
-![Quick Script – Command Line](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip10407.png)
+![Quick Script – Command Line](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip10407.png)
 
 | OPTION                    | DESCRIPTION                                               |
 |---------------------------|-----------------------------------------------------------|
@@ -39,7 +39,7 @@ Execute script via Agent only needs the {{ en.RDMA }} when the script is execute
 
 ### Quick Script - PowerShell
 
-![Quick Script – PowerShell](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip10408.png)
+![Quick Script – PowerShell](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip10408.png)
 
 | OPTION             | DESCRIPTION                                            |
 |--------------------|--------------------------------------------------------|
@@ -53,7 +53,7 @@ Execute script via Agent only needs the {{ en.RDMA }} when the script is execute
 
 ### Quick Script - Run
 
-![Quick Script – Run](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip10409.png)
+![Quick Script – Run](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip10409.png)
 
 | OPTION                    | DESCRIPTION                                               |
 |---------------------------|-----------------------------------------------------------|
@@ -65,7 +65,7 @@ Execute script via Agent only needs the {{ en.RDMA }} when the script is execute
 
 ### Quick Script - Scripts/Tools
 
-![Quick Script – Scripts/Tools](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip10410.png)
+![Quick Script – Scripts/Tools](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip10410.png)
 
 | OPTION       | DESCRIPTION                                                     |
 |--------------|-----------------------------------------------------------------|
@@ -74,13 +74,13 @@ Execute script via Agent only needs the {{ en.RDMA }} when the script is execute
 
 ### Script/Tools
 
-![Scripts/Tools](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip10411.png)
+![Scripts/Tools](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip10411.png)
 
 Search for a script or a tool you wish to execute through the {{ en.RDMA }}.
 
 ### Settings
 
-![Advanced](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip10412.png)
+![Advanced](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip10412.png)
 
 | OPTION               | DESCRIPTION                                                                                       |
 |----------------------|---------------------------------------------------------------------------------------------------|
@@ -90,5 +90,5 @@ Search for a script or a tool you wish to execute through the {{ en.RDMA }}.
 ### Agent Status
 
 Open a RDP session, right-click on this single session and select Agent Status. The Agent Status will show you that {{ en.RDM }} is installed on the remote computer or not, that the {{ en.RDMA }} is active or not and how many {{ en.RDM }} Jump sessions are opened.
-![Agent Status](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip10413.png)
+![Agent Status](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip10413.png)
 

@@ -7,7 +7,7 @@ The commands for an RDP session allow you to send remote commands to your host.
 
 ## Settings
 
-![RDP Commands](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip10190.png)
+![RDP Commands](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip10190.png)
 
 | Option    | Description                                                                                                      |
 |-----------|------------------------------------------------------------------------------------------------------------------|

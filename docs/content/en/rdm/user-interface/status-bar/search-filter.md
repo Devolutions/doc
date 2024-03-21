@@ -7,7 +7,7 @@ It is possible to apply a filter in the ***{{ en.NPANE }}*** tree view by typing
 ## Ellipsis button
 
 Select the ellipsis button to display the options.
-![Ellipsis button](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip11003.png)
+![Ellipsis button](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip11003.png)
 
 The filter expression is matched against fields as selected in the filter options such as:
 
@@ -23,10 +23,10 @@ It is possible to exclude results by choosing to display entries that match cert
 * If the session is marked as a ***Favorites***
 
 In Navigation options, you can limit the search parameters to specific entry types. Such as Sessions, Data Entries, etc.
-![Search Types](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip11006.png)
+![Search Types](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip11006.png)
 
 The Search Options offers the chance to customize your search, such as including shortcuts or favorites, making it case sensitive, and more!
-![Search Options](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip11012.png)
+![Search Options](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip11012.png)
 
 ## Keyboard shortcut
 

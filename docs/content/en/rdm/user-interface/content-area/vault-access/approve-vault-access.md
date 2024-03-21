@@ -9,14 +9,14 @@ In {{ en.RDM }}, users can request access to a public {{ en.VLT }}. An administr
 ## View pending {{ en.VLT }} access requests
 
 To view all your past and current requests, you must use the following ***Pending {{ en.VLT }} Access Requests*** box to open the ***{{ en.VLT_MAJ }} Access Requests*** window.
-![Dashboard – Pending {{ en.VLT }} access requests](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMWin2157.png)
+![Dashboard – Pending {{ en.VLT }} access requests](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin2157.png)
 In the ***{{ en.VLT_MAJ }} Access Requests*** window, you can see all your temporary access requests and sort them by ***Status***, ***{{ en.VLT_MAJ }}***, ***Username***, ***Data source user***, ***Request date***, ***Authorizer username***, or ***Authorizer data source user***.
-![Show {{ en.VLT }} access requests](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMWin2158.png)
+![Show {{ en.VLT }} access requests](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin2158.png)
 
 It is also possible to display only certain requests with the ***Status*** drop-down menu or with the filter bar at the top.
 
 Using the ***View messages*** button, you can view the ***Request message*** and the ***Authorization message*** of a specific request.
-![Request Messages](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMWin2076.png)
+![Request Messages](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin2076.png)
 Finally, clicking on the ***Approve*** and ***Deny*** buttons opens the ***{{ en.VLT_MAJ }} Access Request Response*** window, which is described next.
 
 ## Approve/Deny {{ en.VLT }} access requests
@@ -32,11 +32,11 @@ To respond to a request, you need to open the ***{{ en.VLT_MAJ }} Access Request
 
 The first option is to use the ***Pending {{ en.VLT }} Access Requests*** box (see image below) in your ***Dashboard***. Clicking on either the green check mark (approve the request) or the red "X" (deny the request) next to a request will open the ***{{ en.VLT_MAJ }} Access Request Response*** window.
 
-![Pending Access Requests](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMWin2159.png)
+![Pending Access Requests](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin2159.png)
 
 The second option requires you to go through the other ***Pending {{ en.VLT_MAJ }} Access Requests*** box described in the previous section. Whatever way you choose to access the response window, the result will be the same.
 
-![{{ en.VLT }} Access Request Response](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMWin2160.png)
+![{{ en.VLT }} Access Request Response](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin2160.png)
 
 This view is divided into two sections:
 

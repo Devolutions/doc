@@ -5,7 +5,7 @@ eleventyComputed:
 The Add options lets you quickly create new entries, duplicate them, create shortcut or rapidly save your entry as a template.
 
 ## Settings
-![Add options](https://cdnweb.devolutions.net/docs/en/rdm/mac/clip10333.png)
+![Add options](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10333.png)
 
 | OPTION           | DESCRIPTION                                                                                   |
 |------------------|-----------------------------------------------------------------------------------------------|

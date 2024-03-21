@@ -7,7 +7,7 @@ The Status allows you to change the status of a session.
 
 ## Settings
 
-![Home - Status](https://cdnweb.devolutions.net/docs/en/rdm/mac/clip409.png)
+![Home - Status](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip409.png)
 
 | OPTION   | DESCRIPTION |
 |----------|-------------|

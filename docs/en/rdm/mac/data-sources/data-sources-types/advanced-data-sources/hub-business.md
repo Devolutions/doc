@@ -14,7 +14,7 @@ Start your [free {{ en.DHUBB }} trial](https://devolutions.net/password-hub/busi
 
 ### General
 
-![!!RDMMac2125](https://cdnweb.devolutions.net/docs/en/rdm/mac/RDMMac2125.png)
+![!!RDMMac2125](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_RDMMac2125.png)
 
 | OPTION   | DESCRIPTION |
 |----------|-------------|
@@ -25,10 +25,10 @@ Start your [free {{ en.DHUBB }} trial](https://devolutions.net/password-hub/busi
 ### VPN
 
 Open a VPN to access your data prior to connecting to your {{ en.DHUB }}.
-![!!RDMMac2126](https://cdnweb.devolutions.net/docs/en/rdm/mac/RDMMac2126.png)
+![!!RDMMac2126](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_RDMMac2126.png)
 
 ### Advanced
 
 Set the interval for the automatic refresh.
-![!!RDMMac2127](https://cdnweb.devolutions.net/docs/en/rdm/mac/RDMMac2127.png)
+![!!RDMMac2127](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_RDMMac2127.png)
 

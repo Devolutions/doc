@@ -10,7 +10,7 @@ The import feature is only active if the import [Permission](/rdm/mac/commands/a
 
 ## Settings
 
-![File – Import](https://cdnweb.devolutions.net/docs/en/rdm/mac/clip10313.png)
+![File – Import](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10313.png)
 
 ### Import Entries
 

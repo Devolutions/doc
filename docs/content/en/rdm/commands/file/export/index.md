@@ -15,7 +15,7 @@ The only appropriate formats to import {{ en.VLT }}s back into {{ en.RDM }} are 
 
 ## Settings
 
-![File - Export](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMWin6239.png)
+![File - Export](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin6239.png)
 
 {% snippet icon.badgeInfo %}
 When using an [Advanced Data Source](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/), export capabilities can be disabled via security policies at the data source level (no one can export) or at a user level (particular users cannot export).
@@ -33,7 +33,7 @@ By default the credentials are NOT included. It is critical to check the ***Cred
 Specifying a ***Master key*** will encrypt the whole content of the .rdm file to protect its content. It is highly recommended as a backup measure, but the key is absolutely necessary for decryption. Preserve this as well in a separate storage device for safekeeping.
 {% endsnippet %}
 
-![!!clip10103](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip10103.png)
+![!!clip10103](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip10103.png)
 
 ### Export {{ en.VLT }} (.json)
 
@@ -61,7 +61,7 @@ Because it brought confusion to our user base, this export format has been conve
 ### Export All Documents
 
 Export all attachments or all document entries that are linked to your data source.
-![Export Documents](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip10044.png)
+![Export Documents](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip10044.png)
 
 ### Export "my personal credentials" (.rdm)
 

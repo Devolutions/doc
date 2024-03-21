@@ -6,11 +6,11 @@ eleventyComputed:
 The Advanced Search allows you to search for entries and folders based on multiple conditions in one {{ en.VLT }} at a time. To search multiple {{ en.VLT }}s simultaneously, please refer to [***Multi {{ en.VLT }} Search***](/rdm/windows/commands/view/view/search/multi-vault/).  
 
 The ***Advanced Search*** is available in the ribbon of {{ en.RDM }} or by pressing  <kbd>F11</kbd> on your keyboard.
-![Advanced Search](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMWin6219.png)
+![Advanced Search](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin6219.png)
 
 It is possible to select multiple entries at once by <kbd>Shift</kbd>-clicking or all of them with the <kbd>Ctrl</kbd>+<kbd>A</kbd> shortcut. Right-clicking one or more entries shows the same menu and options as in the ***{{ en.NPANE }}***. 
 
-![Advanced Search Window](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMWin6221.png) 
+![Advanced Search Window](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin6221.png) 
 
 ## Search tab 
 
@@ -40,11 +40,11 @@ Use the settings to completely customize search conditions.
 
 * ***Condition number***: To reference a specific condition within your search, select a ***condition*** in the drop-down menu. For example, here we want to use the ***RDP Connection type*** in our customized condition. To do so, note the ***condition number***.
 
-![Condition number](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMWin6233.png)
+![Condition number](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin6233.png)
 
 Go to ***Settings*** and check ***Override logical operator***. Enclose the ***condition number*** within **"{}"** brackets.
 
-![Enclose the condition number within {} brackets](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMWin6234.png)
+![Enclose the condition number within {} brackets](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin6234.png)
 
 * ***AND Operator:*** To use **"AND"**, enter the characters **"&&"**.
 
@@ -52,7 +52,7 @@ Go to ***Settings*** and check ***Override logical operator***. Enclose the ***c
 
 There is always an operator **( && ; || )** between specified ***condition numbers*** surrounded by brackets.
 
-![Example with multiple conditions and operators](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMWin6236.png)
+![Example with multiple conditions and operators](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin6236.png)
 
 ***Parenthetical Order and Priority:*** You can specify the order and priority of the condition using parentheses: **"(" and ")"**. A parenthesis cannot be next to a bracket, it is **ALWAYS** next to an operator, both for opening and closing parentheses.
 

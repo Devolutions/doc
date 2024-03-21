@@ -4,7 +4,7 @@ eleventyComputed:
   description:
 ---
 The ***{{ en.NPANE }}*** is one of the main components of the {{ en.RDM }} user interface. It lists all available entries in the current data source and allows to switch to another data source or {{ en.VLT }}.
-![{{ en.NPANE }}](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip11204.png)
+![{{ en.NPANE }}](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip11204.png)
 
 | ELEMENT                | DESCRIPTION |
 |------------------------|-------------|
@@ -16,7 +16,7 @@ The ***{{ en.NPANE }}*** is one of the main components of the {{ en.RDM }} user 
 ### Column Chooser
 
 Choose the columns to display in the tree view. Right-clicking on the column name in the ***{{ en.NPANE }}*** and select ***Column Chooser***.
-![{{ en.NPANE }} - Column Chooser](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip11201.png)
+![{{ en.NPANE }} - Column Chooser](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip11201.png)
 
 {% snippet icon.badgeInfo %}
 Additional tree view settings and information are available in ***File – Options – Tree View***.

@@ -4,7 +4,7 @@ eleventyComputed:
   description: The View tab is used to control different features regarding the panels, views, logs, and layout of {{ en.RDMMAC }}.
 ---
 The View tab is used to control different features regarding the panels, views, logs, and layout of {{ en.RDMMAC }}.
-![View Tab](https://cdnweb.devolutions.net/docs/en/rdm/mac/clip10354.png)
+![View Tab](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10354.png)
 
 ### Topics
 

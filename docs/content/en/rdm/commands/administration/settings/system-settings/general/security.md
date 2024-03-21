@@ -3,7 +3,7 @@ eleventyComputed:
   title: Security
   description: Data source security and time-based usage in {{ en.RDM }}.
 ---
-![!!clip10724](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip10724.png)
+![!!clip10724](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip10724.png)
 
 | DATA SOURCE SECURITY                      | DESCRIPTION                                              |
 |-------------------------------------------|----------------------------------------------------------|

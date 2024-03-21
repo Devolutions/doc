@@ -11,7 +11,7 @@ The [{{ en.UVLT }}](/rdm/mac/user-interface/navigation-pane/user-vault/) credent
 1. The {{ en.UVLT }} is available for your data source.
 1. You are overriding at the folder level.
 1. You are overriding a session that is itself in the {{ en.UVLT }}.
-![User Specific settings – VPN](https://cdnweb.devolutions.net/docs/en/rdm/mac/clip10344.png)
+![User Specific settings – VPN](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10344.png)
 
 | OPTION              | DESCRIPTION                             |
 |---------------------|-----------------------------------------|

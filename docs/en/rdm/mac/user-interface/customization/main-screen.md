@@ -3,7 +3,7 @@ eleventyComputed:
   title: Main screen
 ---
 Below is an illustration of {{ en.RDMMAC }}'s main screen.
-![Main Screen](https://cdnweb.devolutions.net/docs/en/rdm/mac/clip10291.png)
+![Main Screen](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10291.png)
 
 Refer to the the following topics for additional details:
 

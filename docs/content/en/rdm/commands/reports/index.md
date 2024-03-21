@@ -14,7 +14,7 @@ The logs feature requires an [Advanced Data Source](/rdm/windows/data-sources/da
 Web-based reports from [{{ en.DVLS }}](/server/overview/what-is-server/) and [{{ en.DHUB }}](/hub/overview/what-is-hub/) are available in {{ en.RDM }}.
 {% endsnippet %}
 
-![Reports](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMWin6205.png)
+![Reports](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin6205.png)
 
 | OPTION               | DESCRIPTION |
 |----------------------|-------------|
@@ -27,7 +27,7 @@ Web-based reports from [{{ en.DVLS }}](/server/overview/what-is-server/) and [{{
 | More Reports         | Opens the ***Reports*** window. |
 
 
-![Reports window](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMWin6197.png)
+![Reports window](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin6197.png)
 
 From this window, you can browse and select a wide variety of Report Types. Explore to your heart's content.
 

@@ -22,13 +22,13 @@ To create users and assign rights, you must be administrator of not only {{ en.R
 ## Manage Users
 
 To create, edit, delete, rename, or otherwise manage users as a whole, simply use the buttons in the toolbar.
-![User and Security Management - Toolbar](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip10726.png)
+![User and Security Management - Toolbar](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip10726.png)
 
 ## User Management Settings
 
 ### General
 
-![User Management - General](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip11296.png)
+![User Management - General](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip11296.png)
 
 | OPTION                            | DESCRIPTION  |
 |-----------------------------------|------------------------------------------------------------------------------------------- |
@@ -44,18 +44,18 @@ To create, edit, delete, rename, or otherwise manage users as a whole, simply us
 ### Information
 
 The ***Information*** section allows to store information regarding the users, such as their name, address, and more. The Information section is divided in three sub-sections: ***Details, Address, Phone***.
-![User Management - Information - Details](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip10728.png)
+![User Management - Information - Details](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip10728.png)
 
 ### User Groups
 
 Select user groups to assign to the user.
-![User Management - User Groups](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip11297.png)
+![User Management - User Groups](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip11297.png)
 
 | OPTION                            | DESCRIPTION
 |-----------------------------------|-----------------------------------------------------------------------------------------------|
 | User Groups  | Check the ***Is Member*** box to assign user groups to the user. Consult [User Groups Management](/rdm/windows/commands/administration/management/user-groups-management/) for more information.                                                                                      |
-| {{ en.VLT }}s | Select which repositories the user has access to. For more information, please consult {{ en.VLT }}s.  ![User Management - {{ en.VLT }}s](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip3624.png)                                                                      |
-| Application Access | The application access section allows you to restrict access to {{ en.RDM }} or the [{{ en.WBEX }}](/rdm/windows/workspace-browser-extension/overview/).   ![User Management - Application Access](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip3625.png)                      |
+| {{ en.VLT }}s | Select which repositories the user has access to. For more information, please consult {{ en.VLT }}s.  ![User Management - {{ en.VLT }}s](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip3624.png)                                                                      |
+| Application Access | The application access section allows you to restrict access to {{ en.RDM }} or the [{{ en.WBEX }}](/rdm/windows/workspace-browser-extension/overview/).   ![User Management - Application Access](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip3625.png)                      |
 
 
 | OPTION                            | DESCRIPTION
@@ -65,7 +65,7 @@ Select user groups to assign to the user.
 
 ### Settings
 
-![User Management - Settings](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip11304.png)
+![User Management - Settings](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip11304.png)
 
 Allow the user to enable the [Offline Mode](/rdm/windows/data-sources/offline-mode/) on the data sources. This also depends on the data source being configured to allow it. See the available modes below:
 

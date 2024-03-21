@@ -4,7 +4,7 @@ eleventyComputed:
   description: The Account tab gives you access to settings for customizing your {{ en.RDM }} interface.
 ---
 The ***Account*** tab gives you access to settings for customizing your {{ en.RDM }} interface. At the top, information about the account connected to {{ en.RDM }} is displayed.
-![Account tab](https://cdnweb.devolutions.net/docs/en/rdm/mac/RDMMac2075.png)
+![Account tab](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_RDMMac2075.png)
 
 ## Settings
 

@@ -23,7 +23,7 @@ Even though this is a cloud service, you MUST use our [{{ en.OBACK }}](/cloud/rd
 
 ### General
 
-![{{ en.DOD }} - General Tab](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip11347.png)
+![{{ en.DOD }} - General Tab](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip11347.png)
 
 | OPTION                          | DESCRIPTION |
 |---------------------------------|-------------|
@@ -41,7 +41,7 @@ Even though this is a cloud service, you MUST use our [{{ en.OBACK }}](/cloud/rd
 ### Backup
 
 Please consult [{{ en.OBACK }}](/cloud/rdm-online-services/online-backup/) for information on this service.
-![{{ en.DOD }} – Backup Tab](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip11334.png)
+![{{ en.DOD }} – Backup Tab](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip11334.png)
 
 | OPTION  | DESCRIPTION |
 |---------|-------------|
@@ -50,11 +50,11 @@ Please consult [{{ en.OBACK }}](/cloud/rdm-online-services/online-backup/) for i
 ### VPN
 
 Open a VPN to access your data prior to connecting to your {{ en.DOD }}.
-![{{ en.DOD }} - VPN Tab](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMWin2196.png)
+![{{ en.DOD }} - VPN Tab](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin2196.png)
 
 ### Advanced
 
-![{{ en.DOD }} - Advanced Tab](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip11335.png)
+![{{ en.DOD }} - Advanced Tab](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip11335.png)
 
 | OPTION               | DESCRIPTION |
 |----------------------|-------------|

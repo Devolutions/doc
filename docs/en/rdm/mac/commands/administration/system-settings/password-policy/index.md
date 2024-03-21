@@ -6,7 +6,7 @@ Password Policy allows you to manage the different password policy and settings 
 Some of these settings could be overridden using Group Policies.
 
 ## Settings
-![Data Source Settings - Password Policy](https://cdnweb.devolutions.net/docs/en/rdm/mac/clip10375.png)
+![Data Source Settings - Password Policy](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10375.png)
 
 | OPTION                                                                                                         | DESCRIPTION |
 |----------------------------------------------------------------------------------------------------------------|-------------|

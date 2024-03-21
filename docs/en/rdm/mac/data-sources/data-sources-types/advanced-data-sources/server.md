@@ -33,7 +33,7 @@ Alternatively, you can export the data source information and then import the fi
 
 ### Connection
 
-![{{ en.DVLS }} Connection tab](https://cdnweb.devolutions.net/docs/en/rdm/mac/clip6023.png)
+![{{ en.DVLS }} Connection tab](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip6023.png)
 
 | OPTION              | DESCRIPTION |
 |---------------------|-------------|
@@ -47,11 +47,11 @@ Alternatively, you can export the data source information and then import the fi
 
 ### Settings
 
-![{{ en.DVLS }} – Settings tab](https://cdnweb.devolutions.net/docs/en/rdm/mac/clip6024.png)
+![{{ en.DVLS }} – Settings tab](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip6024.png)
 
 ### Advanced
 
-![{{ en.DVLS }} – Advanced tab](https://cdnweb.devolutions.net/docs/en/rdm/mac/clip6025.png)
+![{{ en.DVLS }} – Advanced tab](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip6025.png)
 
 | OPTION                          | DESCRIPTION |
 |---------------------------------|-------------|
@@ -65,7 +65,7 @@ Alternatively, you can export the data source information and then import the fi
 
 ### {{ en.UVLT_MAJ }}
 
-![{{ en.DVLS }} – {{ en.UVLT_MAJ }}](https://cdnweb.devolutions.net/docs/en/rdm/mac/clip6026.png)
+![{{ en.DVLS }} – {{ en.UVLT_MAJ }}](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip6026.png)
 
 | OPTION           | DESCRIPTION |
 |------------------|-------------|

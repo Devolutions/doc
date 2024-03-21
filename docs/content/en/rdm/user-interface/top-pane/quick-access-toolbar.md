@@ -16,7 +16,7 @@ The ***Quick Access Toolbar*** found at the top of the application is composed o
 ### Favorite commands
 
 Commands contained in the ribbon can be added in the quick access toolbar. These are the favorite commands. To add a command to the quick access toolbar, right-click any icon in the ribbon the select ***Add***.
-![Favorite Commands](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip11178.png)
+![Favorite Commands](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip11178.png)
 
 | COMMAND | DESCRIPTION |
 |---------|-------------|

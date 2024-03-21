@@ -13,20 +13,20 @@ It is possible to [request a trial](/rdm/windows/installation/client/registratio
 {% endsnippet %}
 
 1. To add a license serial to the data source, navigate to ***Administration – Management – Licenses***.
-![Administration – Management – Licenses](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip3417.png)
+![Administration – Management – Licenses](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip3417.png)
 1. Click ***Add License***.
-![Add License Button](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMWin2236.png)
+![Add License Button](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin2236.png)
 1. Enter the license serial in the ***License*** field or import the license file using the ***Import*** button.
    {% snippet icon.badgeInfo %}
    Importing the license using the **.lic** file is most uselful when offline. See the next section about offline registration for more information.
    {% endsnippet %}
 
-   ![License field](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMWin2238.png)
+   ![License field](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin2238.png)
 1. Optional: Check the ***Auto assign*** box to automatically provide the {{ en.RDM }} serial to all newly created users.
-![Auto Assign Setting](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMWin0001.png)
+![Auto Assign Setting](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin0001.png)
 1. Click ***Assigned To*** in the left menu.
 1. Click ***Assign All*** or select in the ***Assigned*** column who should have a {{ en.RDM }} serial access. This step will automatically assign the license to the selected users, removing the need to interact with each user.
-![Assigned To Tab](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMWin2237.png)
+![Assigned To Tab](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin2237.png)
 1. Click ***OK*** and ***Close*** the ***User and Security Management*** window.
 
 ### Offline registration
