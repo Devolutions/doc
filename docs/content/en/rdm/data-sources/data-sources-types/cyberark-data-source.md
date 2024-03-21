@@ -8,7 +8,7 @@ eleventyComputed:
 
 ## Prerequisites
 
-* {{ en.RDM}} version 2024.1 or greater.
+* {{ en.RDM}} team edition, version 2024.1 or greater.
 * CyberArk Version 14 or greater.
 * An {{ en.RDM}} CyberArk Integration license.
 
@@ -78,7 +78,7 @@ From an account, you have several options. In addition to the connecting actions
 
 There are three ways to connect to a host from an account view.
 
-1. In the ***Overview – Machines view***, double-click on a ***Machine*** to connect to. This list is populated from the ***Suggested Remote Machines*** listed in the CyberArk PVWA Accounts – Accounts View – (account) – Details screen.
+1. In the ***Overview – Machines view***, double-click on a ***Machine*** to connect to. This list is populated from the ***Suggested Remote Machines*** listed in the ***CyberArk PVWA Accounts – Accounts View – (account) – Details screen***.
 
 1. Click the ***Connect*** button to display a list of machines to connect to. Depending on your CyberArk account settings you are shown either of the following windows. The first option displays if you do not have the ***Limit access to these machines only*** option enabled within the ***Account – Account Properties*** screen within the CyberArk PVWA. If you have this option enabled, then the second window displays as a drop-down with the list populated from the ***Suggested Remote Machines*** on the ***Account Properties*** page.
 
@@ -89,7 +89,7 @@ With the ***Limit access to these machines only*** option checked in CyberArk PV
 
 ![Selecting only an allowed host](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMW6005_2024_1.png)
 
-3. Click the Connect to ***Host*** button to display a list of machines to connect to. This option bypasses PSM (not recommended), and is only shown if the ***System Settings – General – Allow to connect to host*** option is checked. The shown windows reflect the same as in the Connect action, only bypassing PSM.
+3. Click the Connect to ***Host*** button to display a list of machines to connect to. This option bypasses PSM (not recommended), and is only shown if the ***System Settings – General – Allow to connect to host*** option is checked. The shown windows reflect the same as in the ***Connect action***, only bypassing PSM.
 
 ### Starting from a machine
 
@@ -102,7 +102,7 @@ Similar to an account, there are three ways to connect to a host from the machin
 1. In the ***Overview view***, double-click on an ***Account*** to connect to a host with. This list is populated by filtering all accounts shown in the {{ en.RDM}} CyberArk data source by their ***Suggested Remote Machines*** to create the list of available accounts.
 1. Click the ***Connect*** button to display a list of accounts to connect as. The ***Account*** drop-down reflects the same list as shown in the ***Overview***, while you may use the  {{ en.RDM}} CyberArk data source {{ en.VLT}} view to connect as a different account.
 ![Selecting an account](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMW6007_2024_1.png)
-1. Click the Connect to Host button to display a list of accounts to connect as. This option bypasses PSM (not recommended), and is only shown if the ***System Settings – General – Allow to connect to host*** option is checked. The shown windows reflect the same as in the ***Connect*** action, only bypassing PSM.
+1. Click the ***Connect to Host*** button to display a list of accounts to connect as. This option bypasses PSM (not recommended), and is only shown if the ***System Settings – General – Allow to connect to host*** option is checked. The shown windows reflect the same as in the ***Connect*** action, only bypassing PSM.
 
 ## Data Source Settings
 
