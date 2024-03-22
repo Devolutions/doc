@@ -9,7 +9,7 @@ Create entries manually and save your data in {{ en.DVLS }}.
 
 1. Select the {{ en.VLT }} or {{ en.UVLT }} and the folder in which you wish to create the new entry.
 1. Click on the ***Add*** button located in the ***{{ en.NPANE }}***.
-   ![Add](https://cdnweb.devolutions.net/docs/DVLS6039_2024_1.png)
+   ![Add](https://cdnweb.devolutions.net/docs/DVLS6040_2024_1.png)
 1. Select an [entry type](/server/web-interface/vault/entries/entry-type/) from the list.
    ![Entry type](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp2090.png)
 1. Click ***Continue***.
