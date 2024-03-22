@@ -13,10 +13,10 @@ The Security section allows the administrator to configure IP and auto-lock sett
 
 | OPTION              | DESCRIPTION                                                                                       |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Force token public IP validation  | Force token validation                           |
+| Force token public IP validation.  | Force token validation.                           |
 | Use X-Forwarded-For | Enable the usage of X-Forwarded-For header for Deploy in a High Availability or Load Balanced Environment. |
 
-**Auto Lock**
+### Auto Lock
 
 | OPTION          | DESCRIPTION                                                                                     |
 |-----------------|-------------------------------------------------------------------------------------------------|
