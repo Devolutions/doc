@@ -6,7 +6,7 @@ eleventyComputed:
 ---
 Send the password through in-app secure messaging or email external contacts directly from an entry. Create a shareable link to send secrets outside your organization securely.
 
-This features needs the user or user group to have ***Send messages with attachments*** enabled. This option can be found under ***Administration*** – ***Users*** or ***User Groups***.
+This features needs the user to have ***Send messages with attachments*** enabled. This option can be found under ***Administration*** – ***Users***.
 ![Copy to Clipboard](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub0013.png)
 
 {% snippet icon.badgeInfo %}
