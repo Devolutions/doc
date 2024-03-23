@@ -3,7 +3,6 @@ eleventyComputed:
   title: Secure messages
 ---
 Send and receive ***Secure Messages*** with users from your hub. Click the ***Messages*** icon above your avatar to create and read secure messages.
-![Messages](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub0005.png)
 
 ## Send a secure message
 1. Click the ***Messages*** icon.  
