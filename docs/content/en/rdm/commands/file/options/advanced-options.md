@@ -4,7 +4,7 @@ eleventyComputed:
   description: Use File – Settings – Advanced to control the behavior of the application with respect to the lower level settings.
 ---
 Use ***File – Settings – Advanced*** to control the behavior of the application with respect to the lower level settings.
-![File – Settings – Advanced](https://cdnweb.devolutions.net/docs/RDMW4002_2024_1.jpg)
+![File – Settings – Advanced](https://cdnweb.devolutions.net/docs/RDMW2019_2024_1.png)
 
 ## Settings
 

@@ -1,10 +1,10 @@
 ---
 eleventyComputed:
   title: Concepts
-  description: This guide organizes the concepts to lead you along your {{ en.RDM }} journey.
+  description: Mastering the concepts underpinning {{ en.RDM }} saves time for both users and administrators.
   order: 25
 ---
-![!!Concepts](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin6188.jpg)
+![!!Concepts](https://cdnweb.devolutions.net/docs/MARKETING_sysadminotaur-104-final.apk.png)
 
 Mastering the concepts underpinning {{ en.RDM }} saves time for both users and administrators. Do you need help with what to learn next? This guide organizes the concepts to lead you along your {{ en.RDM }} journey.
 

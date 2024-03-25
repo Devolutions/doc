@@ -1,9 +1,10 @@
 ---
 eleventyComputed:
   title: Basic concepts
+  description: Basic concepts are just that, easy to grasp! They cover essential features and fundamental principles to help beginners and refresh the basics for others.
   order: 10
 ---
-![!!Basic_concepts](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin6192.jpg)
+![!!Basic concepts](https://cdnweb.devolutions.net/docs/MARKETING_sysadminotaur-108-debugging.png)
 
 Basic concepts are just that, easy to grasp! They cover essential features and fundamental principles to help beginners and refresh the basics for others.
 

@@ -9,7 +9,7 @@ There are two modes used to configure a 1Password entry in {{ en.RDM }}. ***Web 
 1. In {{ en.RDM }}, go to ***Edit*** – ***New Entry***, and select the 1Password entry.
 1. Name the 1Password entry.
 1. Select the ***Web connector*** mode.
-![Web connector mode](https://cdnweb.devolutions.net/docs/RDMW4000_2024_1.jpg)
+![Web connector mode](https://cdnweb.devolutions.net/docs/RDMW2017_2024_1.png)
 1. Set the ***Host*** as either ***Default*** or ***Custom***.
     1. If set as ***Default***, select a ***Region***. {type="a"}
     1. If set as ***Custom***, add the custom ***URL*** needed to access the database. {type="a"}
@@ -27,7 +27,7 @@ The steps below are only available in older versions of 1Password.
 1. In {{ en.RDM }}, go to ***Edit*** – ***New Entry***, and select the 1Password entry.
 1. Name the 1Password entry.
 1. Set the ***Mode*** to ***Linked to a local file***.
-![Linked to a local file mode](https://cdnweb.devolutions.net/docs/RDMW4001_2024_1.jpg)
+![Linked to a local file mode](https://cdnweb.devolutions.net/docs/RDMW2018_2024_1.png)
 1. Click the ellipsis button to select the local database file. Its extension is **.opvault**, and is found in the location selected earlier.
 1. Select the entry from your 1Password database you wish to reference by selecting the ellipsis next to the ***Title*** field, or check ***Always prompt with list*** to have the entry show all the available entries in the 1Password database.
 1. Click ***Add*** to save the configuration.

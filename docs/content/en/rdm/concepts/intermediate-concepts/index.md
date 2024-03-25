@@ -1,9 +1,10 @@
 ---
 eleventyComputed:
   title: Intermediate concepts
+  description: Intermediate concepts bridge the gap between fundamentals and more advanced topics.
   order: 20
 ---
-![!!inter_concepts](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin6190.jpg)
+![!!Intermediate concepts](https://cdnweb.devolutions.net/docs/MARKETING_sysadminotaur-111-lukynumber0b111.png)
 
 Intermediate concepts bridge the gap between fundamentals and more advanced topics.
 

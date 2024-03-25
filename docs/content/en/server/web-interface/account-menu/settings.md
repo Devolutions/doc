@@ -4,7 +4,7 @@ eleventyComputed:
   description: In the Preferences section, modify the user web interface elements.
 ---
 In the ***Preferences*** section located in the account menu, modify the user web interface elements.
-![Account preferences](https://cdnweb.devolutions.net/docs/DVLS4002_2024_1.jpg)
+![Account preferences](https://cdnweb.devolutions.net/docs/DVLS2001_2024_1.png)
 ## General
 | Option                                  | Description                                                                                 |
 |-----------------------------------------|---------------------------------------------------------------------------------------------|
