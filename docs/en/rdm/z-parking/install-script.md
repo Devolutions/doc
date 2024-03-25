@@ -3,7 +3,6 @@ eleventyComputed:
   title: Install with script
   order: 10
   description: The following instructions explain how to install {{ en.DGW }} with the use of a script through {{ en.DHUBB }}.
-  permalink: false
 ---
 The following instructions explain how to install {{ en.DGW }} with the use of a script through {{ en.DHUBB }}.
 
