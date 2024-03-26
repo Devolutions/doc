@@ -8,12 +8,9 @@ The ***Documentation*** feature allows for storing information about resources i
 The documentation is written using ***Markdown*** or ***WYSIWYG***. ***Plain text*** and ***HTML*** are also available.
 
 {% snippet icon.badgeInfo %}
-This feature is also available with {{ en.DVLS }}, {{ en.DHUBB }}, {{ en.DHUBP }} and SQL Server data sources.
-
-The ***Documentation*** feature is encrypted only for {{ en.DVLS }}, {{ en.DHUBB }}, and {{ en.DHUBP }} data sources. If you are using data sources like SQL Server or Azure SQL, the ***Documentation*** feature is not encrypted.
-{% endsnippet %}
-{% snippet icon.badgeCaution %}
-The feature for using ***Documentation*** in offline mode is available for documents that are stored in the database.  This property is set to be inherited by default.
+* This feature is also available with {{ en.DVLS }}, {{ en.DHUBB }}, {{ en.DHUBP }} and SQL Server data sources.
+* The ***Documentation*** feature is encrypted only for {{ en.DVLS }}, {{ en.DHUBB }}, and {{ en.DHUBP }} data sources. If you are using data sources like SQL Server or Azure SQL, the ***Documentation*** feature is not encrypted.
+* The feature for using ***Documentation*** in offline mode is available for documents that are stored in the database. This property is set to be inherited by default.
 {% endsnippet %}
 
 ## Create a new page
@@ -40,14 +37,5 @@ Note: You can switch between ***Markdown*** and ***WYSIWYG*** when you select **
 ![Synchronize documentation to offline](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin6004.png)
 1. Click ***OK*** and close the window.
 
-The offline ***Documentation*** tab is now available in the ***Dashboard***.
-![Documentation tab](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin6003.png)
-##  Synchronize offline document
-1. Choose the entry in the ***{{ en.NPANE }}***.
-1. Go to ***Administration – {{ en.VLT_MAJ }} Settings***.
-![{{ en.VLT_MAJ }} Settings](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin6000.png)
-1. In ***Security Settings – Offline – Synchronize document to offline***, select ***Yes***.
-1. Click ***OK*** and close the window.
-![Synchronize document to offline](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin6005.png)
 The offline ***Documentation*** tab is now available in the ***Dashboard***.
 ![Documentation tab](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin6003.png)
