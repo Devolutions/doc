@@ -1,24 +1,45 @@
 ---
 eleventyComputed:
-  title: Pingone
+  title: PingOne
   description: By integrating PingOne with {{ en.RDM }}, organizations can leverage these robust security features directly within their remote desktop management environment.
 ---
 
 PingOne, a renowned cloud-based identity and access management (IAM) solution provided by Ping Identity, offers secure single sign-on (SSO) capabilities, multi-factor authentication (MFA), and user provisioning features. By integrating PingOne with {{ en.RDM }}, organizations can leverage these robust security features directly within their remote desktop management environment.
 
-## PingOne authentication settings
+## Required applications
 
-In PingOne, permissions are assigned based on the type of application. For a ***worker***, permissions come from predefined roles, while permissions for all other types of apps come directly from the user. For PingOne we need two applications.
+In PingOne, permissions are assigned based on the type of application. For a ***worker***, permissions come from predefined roles, while permissions for all other types of apps come directly from the user. For PingOne we need ***two applications*** unlike Azure or Okta.
 
-### Worker application
+## Worker application
 
-This application is used to find users and groups from the directory. Both ***Environment Admin*** and ***Identity Admin*** roles are required. 
+This application is used to find users and groups from the directory.
 
-1. Go to ***Edit Configuration***.
-1. Under ***Response Type***, check ***Token***.
-1. Check ***Implicit*** and ***Client Credentials***.
-1. Select ***Client Secret Post*** in the ***Token Endpoint Authentication Method*** drop-down menu.
-1. Click ***Save***. 
+![Worker application](https://cdnweb.devolutions.net/docs/DVLS6062_2024_1.png)
+
+### Required roles
+
+ Both ***Environment Admin*** and ***Identity Admin*** roles are required. 
+
+![Required roles](https://cdnweb.devolutions.net/docs/DVLS6059_2024_1.png)
+
+### Required configuration settings
+
+The following are the required configuration settings in PingOne.
+
+![{{ en.DVLS }} Worker – Edit Configuration](https://cdnweb.devolutions.net/docs/DVLS6061_2024_1.png)
+
+### Authentication app
+
+Here are the required configuration settings for the application used to authenticate a user to our system using their PingOne identity. The required configuration settings are located in the ***Overview tab***. 
+
+{% snippet icon.badgeInfo %}
+The basic URL for the worker application is ***api.pingone.[com, ca, eu, asia]/v1***. Note that the URL depends on where PingOne is deployed.
+{% endsnippet %}
+
+
+![{{ en.DVLS }} Authentication – Edit configuration](https://cdnweb.devolutions.net/docs/DVLS6063_2024_1.png)
+
+![{{ en.DVLS }} Authentication – Edit configuration](https://cdnweb.devolutions.net/docs/DVLS6064_2024_1.png)
 
 ## PingOne authentication settings in {{ en.DVLS }} 
 
@@ -40,14 +61,14 @@ The following is a description of the authentication settings for PingOne in {{ 
 ### Authentication configuration
 | SETTINGS          | DESCRIPTION                                                                                        |
 |-----------------|----------------------------------------------------------------------------------------------------|
-| **Domain** | The domain used in authentication processes, often reflecting the organization's primary internet domain, to identify the organization in PingOne.|
+| **Domain** | The domain used in authentication processes, often reflecting the organization's primary internet domain, to identify the organization in PingOne. |
 | ***Client ID*** | A unique identifier provided by PingOne for an application, facilitating OAuth 2.0 authentication by distinguishing it from others.             |
 | ***Client Secret*** | A secret key given by PingOne, used with the Client ID for OAuth 2.0 authentication, ensuring secure access to the application.                |
 
 ### Synchronize users and groups
 | SETTINGS          | DESCRIPTION                                                                                        |
 |-----------------|----------------------------------------------------------------------------------------------------|
-| ***Domain*** | The internet domain associated with the organization for user and group synchronization purposes, typically the organization's email domain.    |
+| ***Domain*** | The internet domain associated with the organization for user and group synchronization purposes, typically the organization's email domain. The URL is ***api.pingone.[com, ca, eu, asia]/v1***. Note that the URL depends on where PingOne is deployed.   |
 | ***Client ID*** | An identifier for the application or service used by PingOne for managing user and group synchronization processes.                            |
 |***Client Secret*** | A secret key used alongside the Client ID to securely sync users and groups between the organization's directory services and PingOne.         |
 | ***Test Connection*** | Test and verify that the settings for user and group synchronization are correctly configured and operational with PingOne.       |
