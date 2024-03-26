@@ -11,7 +11,7 @@ eleventyComputed:
 ---
 TLS can be blocked inside organization and they request Devolutions help regarding the managements of TLS inside {{ en.DVLS }} or any other Devolutions product.
 
-## Solution
+### Solution
 
 This is all managed by your server/desktop environment, namely your Windows Operating System.
 
