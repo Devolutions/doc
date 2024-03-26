@@ -38,7 +38,7 @@ You can set the focus back on the ***{{ en.NPANE }}*** by using the keyboard sho
 
 Here a few implementation notes for the Boolean filter:
 
-* We use the C# nomenclature (& for AND, || for OR)
+* We use the C# nomenclature (&& for AND, || for OR)
 * Evaluated left-to-right
 * No parentheses matching
 * Double-quotes (") are not required or removed, they are part of the text filter, do not use them unless you are looking for a double-quote.
@@ -46,15 +46,15 @@ Here a few implementation notes for the Boolean filter:
 
 ### Examples (this will work)
 
-* Boise & Laptop
-* Boise&Laptop
-* Boise & Laptop
-* Baton Rouge || Boise & Laptop
-* Laptop & Baton Rouge
+* Boise && Laptop
+* Boise&&Laptop
+* Boise && Laptop
+* Baton Rouge || Boise && Laptop
+* Laptop && Baton Rouge
 
 ### Examples (this will not work as expected)
 
-* Laptop & "Baton Rouge"
+* Laptop && "Baton Rouge"
 * Will work but filter for the string "Baton Rouge" and not the string Baton Rouge
-* Laptop & (Baton Rouge || Boise)
+* Laptop && (Baton Rouge || Boise)
 * Will work but filter for Laptop and the string (Baton Rouge || Boise)
