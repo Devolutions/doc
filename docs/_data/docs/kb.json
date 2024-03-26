@@ -980,6 +980,9 @@
               "label": "knowledgeBase",
               "items": [
                 {
+                  "url": "/kb/remote-desktop-manager/knowledge-base/access-manage-rdm-variables/"
+                },
+                {
                   "url": "/kb/remote-desktop-manager/knowledge-base/account-brokering-not-available/"
                 },
                 {
@@ -1082,6 +1085,9 @@
                   "url": "/kb/remote-desktop-manager/knowledge-base/ip-list-entry/"
                 },
                 {
+                  "url": "/kb/remote-desktop-manager/knowledge-base/ip-variables/"
+                },
+                {
                   "url": "/kb/remote-desktop-manager/knowledge-base/it-asset-entry/"
                 },
                 {
@@ -1095,6 +1101,9 @@
                 },
                 {
                   "url": "/kb/remote-desktop-manager/knowledge-base/locating-configuration-file/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/knowledge-base/manage-custom-variables/"
                 },
                 {
                   "url": "/kb/remote-desktop-manager/knowledge-base/memory-usage-windows/"
