@@ -1312,6 +1312,14 @@
                       "url": "/kb/remote-desktop-manager-mobile/android/knowledge-base/android-support-limitation/"
                     }
                   ]
+                },
+                {
+                  "label": "troubleshootingArticles",
+                  "items": [
+                    {
+                      "url": "/kb/remote-desktop-manager-mobile/android/troubleshooting-articles/TLS-connection-errors-rdm-android-7-lets-encrypt-certificates/"
+                    }
+                  ]
                 }
               ]
             },
