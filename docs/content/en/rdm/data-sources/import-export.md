@@ -5,7 +5,7 @@ eleventyComputed:
 To simplify deployment for multiple users, it is possible to export and import data source configurations. The generated .rdd file contains all the information to recreate the configuration.
 
 {% snippet icon.badgeCaution %}
-The .rdd file does not include the database content. Only the configuration is exported. Use the entry's export functionality to back up or copy the content of the database.
+The RDD file does not include the content of the data source; only the configuration is exported. Use the entry's export functionality to back up or copy the content of the database.
 {% endsnippet %}
 
 Use ***File – Data Sources*** to access the import or export functionality.
