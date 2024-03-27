@@ -1,10 +1,10 @@
 ---
 eleventyComputed:
   title: "{{ en.DSEND }}"
-  description: Send the password through in-app secure messaging or email external contacts directly from an entry.
+  description: "{{ en.DSEND }} features a secure method to generate a link to share secrets instead of using insecure email to send sensitive data."
   order: 65
 ---
-Send the password through in-app secure messaging or email external contacts directly from an entry. Create a shareable link to send secrets outside your organization securely.
+Send a password through in-app secure messaging or email external contacts directly from an entry. Create a shareable link to send secrets outside your organization securely.
 
 This features needs the user to have ***Send messages with attachments*** enabled. This option can be found under ***Administration*** – ***Users***.
 ![Copy to Clipboard](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub0013.png)
