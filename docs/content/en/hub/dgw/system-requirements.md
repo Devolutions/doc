@@ -25,7 +25,7 @@ A Gigabit Ethernet controller is recommended for optimal performance.
 
 * Each {{ en.DHUB }} license comes with a {{ en.DGW }} which supports up to 5 concurrent sessions. Contact our [sales department](mailto:sales@devolutions.net) for more concurrent sessions.
 
-## Certificate requirements
+### Certificate requirements
 
 {{ en.DGW }} supports TLS 1.2 and TLS 1.3 as well as the following cipher suites:
 * AES_256_GCM_SHA384
