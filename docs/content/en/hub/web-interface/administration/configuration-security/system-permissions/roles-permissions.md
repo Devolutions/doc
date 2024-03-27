@@ -25,10 +25,10 @@ Each ***Role*** in {{ en.DHUB }} has its own set of ***Permissions***.
 
 ## Sensitive information permissions
 
-In {{ en.DHUB }}, all sensitive information is hidden by default. Some can be viewed by anyone that has access to the entry by clicking on the eye icon, and others require ***View sensitive*** or ***View password*** permissions to be viewed.
+In {{ en.DHUB }}, all sensitive information is hidden by default. Some can be viewed by anyone that has access to the entry by clicking on the eye icon, and others require ***View sensitive*** or ***View password*** permissions to be viewed. The value of a hidden custom field is also encrypted and protected with the ***View sensitive*** permission.
 
 The ***View sensitive*** permission is granted to ***Reader***, ***Operator***, ***Contributor***, and ***Manager*** roles, while the ***Contributor*** or ***Manager*** roles are required for the ***View password*** permission. Therefore, even if passwords are indeed sensitive information, you will not be able to view them with the ***View sensitive*** permission alone.
 
-Sensitive information requiring the ***View sensitive*** permission will have this icon next to it, while information requiring the ***View password*** permission will have this key icon. You can see both examples in the image below.
+You can see the difference between the ***View sensitive*** permission and ***View password*** permission icons in the image below.
 
 ![Sensible information icons](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub2267.png)

@@ -110,7 +110,7 @@ The tables below list all fields/settings available in the ***New Entry*** windo
 |---------------|-------------------------------------------------------------------------------------------------------|
 | Custom #1-5   | Enter a name for the custom field.                                                                   |
 | Value         | Enter a value for the custom field.                                                                  |
-| Hide/Reveal   | Hide or reveal the value of the custom field. <br> <br> This button is only available for ***Hidden Custom Fields*** (see below). |
+| Hide/Reveal   | Hide or reveal the value of the custom field. <br> <br> This button is only available for ***Hidden Custom Fields*** (see below). The value of a hidden custom field is encrypted and protected with the ***View sensitive*** permission. |
 | Add           | Create a new custom field using this button. You can select between ***Text*** or ***Hidden***. Both of them allow you to enter a value for your custom field. Selecting ***Text*** gives you more text options in the ***Value*** field, while selecting ***Hidden*** gives you access to the ***Hide/Reveal*** option (see setting above). |
 
 ### Description
@@ -155,7 +155,7 @@ These are the buttons at the bottom of the ***New Entry – Website*** window th
 |---------------|-------------------------------------------------------------------------------------------------------|
 | Custom #1-5   | Enter a name for the custom field.                                                                   |
 | Value         | Enter a value for the custom field.                                                                  |
-| Hide/Reveal   | Hide or reveal the value of the custom field. <br> <br> This button is only available for ***Hidden Custom Fields*** (see below). |
+| Hide/Reveal   | Hide or reveal the value of the custom field. <br> <br> This button is only available for ***Hidden Custom Fields*** (see below). The value of a hidden custom field is encrypted and protected with the ***View sensitive*** permission. |
 | Add           | Create a new custom field using this button. You can select between ***Text*** or ***Hidden***. Both of them allow you to enter a value for your custom field. Selecting ***Text*** gives you more text options in the ***Value*** field, while selecting ***Hidden*** gives you access to the ***Hide/Reveal*** option (see setting above). |
 
 ### Description
@@ -209,7 +209,7 @@ These are the buttons at the bottom of the ***New Entry – Credit Card*** windo
 |---------------|-------------------------------------------------------------------------------------------------------|
 | Custom #1-5   | Enter a name for the custom field.                                                                   |
 | Value         | Enter a value for the custom field.                                                                  |
-| Hide/Reveal   | Hide or reveal the value of the custom field. <br> <br> This button is only available for ***Hidden Custom Fields*** (see below). |
+| Hide/Reveal   | Hide or reveal the value of the custom field. <br> <br> This button is only available for ***Hidden Custom Fields*** (see below). The value of a hidden custom field is encrypted and protected with the ***View sensitive*** permission. |
 | Add           | Create a new custom field using this button. You can select between ***Text*** or ***Hidden***. Both of them allow you to enter a value for your custom field. Selecting ***Text*** gives you more text options in the ***Value*** field, while selecting ***Hidden*** gives you access to the ***Hide/Reveal*** option (see setting above). |
 
 ### Description
@@ -246,7 +246,7 @@ These are the buttons at the bottom of the ***New Entry – Contact*** window th
 |---------------|-------------------------------------------------------------------------------------------------------|
 | Custom #1-5   | Enter a name for the custom field.                                                                   |
 | Value         | Enter a value for the custom field.                                                                  |
-| Hide/Reveal   | Hide or reveal the value of the custom field. <br> <br> This button is only available for ***Hidden Custom Fields*** (see below). |
+| Hide/Reveal   | Hide or reveal the value of the custom field. <br> <br> This button is only available for ***Hidden Custom Fields*** (see below). The value of a hidden custom field is encrypted and protected with the ***View sensitive*** permission. |
 | Add           | Create a new custom field using this button. You can select between ***Text*** or ***Hidden***. Both of them allow you to enter a value for your custom field. Selecting ***Text*** gives you more text options in the ***Value*** field, while selecting ***Hidden*** gives you access to the ***Hide/Reveal*** option (see setting above). |
 
 ### Description
