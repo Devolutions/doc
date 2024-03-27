@@ -25,16 +25,15 @@ A Gigabit Ethernet controller is recommended for optimal performance.
 
 * Each {{ en.DHUB }} license comes with a {{ en.DGW }} which supports up to 5 concurrent sessions. Contact our [sales department](mailto:sales@devolutions.net) for more concurrent sessions.
 
-## Supported TLS versions and cipher suites
+## Certificate requirements
 
-* TLS 1.2 and 1.3
-* Cypher suites:
-    * AES_256_GCM_SHA384
-    * AES_128_GCM_SHA256
-    * CHACHA20_POLY1305_SHA256
-    * ECDHE_ECDSA_AES_256_GCM_SHA384
-    * ECDHE_ECDSA_AES_128_GCM_SHA256
-    * ECDHE_ECDSA_CHACHA20_POLY1305_SHA256
-    * ECDHE_RSA_AES_256_GCM_SHA384
-    * ECDHE_RSA_AES_128_GCM_SHA256
-    * ECDHE_RSA_CHACHA20_POLY1305_SHA256
+{{ en.DGW }} supports TLS 1.2 and TLS 1.3 as well as the following cipher suites:
+* AES_256_GCM_SHA384
+* AES_128_GCM_SHA256
+* CHACHA20_POLY1305_SHA256
+* ECDHE_ECDSA_AES_256_GCM_SHA384
+* ECDHE_ECDSA_AES_128_GCM_SHA256
+* ECDHE_ECDSA_CHACHA20_POLY1305_SHA256
+* ECDHE_RSA_AES_256_GCM_SHA384
+* ECDHE_RSA_AES_128_GCM_SHA256
+* ECDHE_RSA_CHACHA20_POLY1305_SHA256
