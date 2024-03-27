@@ -33,13 +33,13 @@ Use the Lock button to lock the data source with a password to prevent any modif
 
 Use the Unlock button to unlock a data source locked with a password.
 
-### Import data source
+### Import/Export data source
 
-Use the Import button to import a data source.
+Use the Import or Export buttons to import/export a data source configuration (RDD file).
 
-### Export data source
-
-Use the Export button to export one of your data source.
+{% snippet icon.badgeCaution %}
+The RDD file does not include the content of the data source; only the configuration is exported. Use the entry's export functionality to back up or copy the content of the database.
+{% endsnippet %}
 
 ### On Start up
 
