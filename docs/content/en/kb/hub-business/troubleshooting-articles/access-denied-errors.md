@@ -2,11 +2,12 @@
 eleventyComputed:
   title: Access denied errors
   description: In {{ en.DHUB }}, many situations can trigger an Access denied error. Here are the most common messages and their solutions.
-  keywords:
-  - Access Denied
-  - Error
 ---
 In {{ en.DHUB }}, many situations can trigger an ***Access denied*** error. Here are the most common messages and their solutions.
+
+{% snippet icon.badgeInfo %}
+All other types of {{ en.DHUB }} errors are listed [here](/kb/hub-business/troubleshooting-articles/hub-errors/).
+{% endsnippet %}
 
 ## Activate your Two-Step Verification on your account.
 ![Activate your Two-Step Verification on your account.](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4770.png)
