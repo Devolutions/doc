@@ -42,4 +42,4 @@ This feature is covered in [***Secure messages***](/rdm/commands/window/panels/s
 1. Click on ***Create Link***.
 ![Create Link](https://cdnweb.devolutions.net/docs/RDMW0026_2024_1.png)
 1. Copy the link and send it to the intended individual(s).
-![Copy to Clipboard](https://cdnweb.devolutions.net/docs/RDMW0027_2024_1.png)
+![Copy to Clipboard](https://cdnweb.devolutions.net/docs/RDMW0028_2024_1.png)
