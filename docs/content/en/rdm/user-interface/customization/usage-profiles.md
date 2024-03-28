@@ -12,9 +12,9 @@ The profile is first selected during the {{ en.RDM }} Onboarding process.
 
 ![User Interface Profile selection in Onboarding](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin2167.png)
 
-If none is chosen or if the user decides to choose one later, they will be assigned the ***Default*** profile, which can be changed in ***File – Options – User Interface – Usage profile*** or in the web interface.
+If none is chosen or if the user decides to choose one later, they will be assigned the ***Default*** profile, which can be changed in ***File – Settings – User Interface – Usage profile*** or in the web interface.
 
-![File – Options – User Interface – Usage profile](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin2168.png)
+![File – Settings – User Interface – Usage profile](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin2168.png)
 
 Users can individually change this setting in the [***Account***](/rdm/windows/user-interface/navigation-pane/account/) tab of the ***{{ en.NPANE }}***.
 

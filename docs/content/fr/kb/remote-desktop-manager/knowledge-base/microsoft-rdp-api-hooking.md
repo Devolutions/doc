@@ -4,11 +4,11 @@ eleventyComputed:
 ---
 Since {{ en.RDM }} 2022.2, Microsoft RDP API hooking is available and enabled by default. API hooking is required to extend the functionality of the Microsoft RDP client in both embedded (ActiveX) and external modes (mstsc).
 
-If you have disabled it, you can enable it again by going in {{ en.RDM }} ***File – Options – Types – Remote Desktop – API Hooking*** and setting ***Enable API hooking*** to ***Enabled*** or ***Default***.
+If you have disabled it, you can enable it again by going in {{ en.RDM }} ***File – Settings – Types – Remote Desktop – API Hooking*** and setting ***Enable API hooking*** to ***Enabled*** or ***Default***.
 
 Restart {{ en.RDM }} to apply the change.
 
-![File - Options - Types - Remote Desktop - API hooking](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4969.png)
+![File – Settings – Types – Remote Desktop – API hooking](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4969.png)
 
 {% snippet icon.badgeInfo %}
 Since {{ en.RDM }} 2022.3.23, a policy, EnableRDPHooking, has been added that overrides the ***Enable API hooking*** setting. If it is not configured (no registry key), the value from the {{ en.RDM }} option will be used. A value of "0" indicates that RDP hooking is disabled, while a value different than "0" indicates that RDP hooking is enabled. This enables the administrator to force either setting or allow the local configuration to be effective.
@@ -20,7 +20,7 @@ The Microsoft RDP API hooking module will be loaded on the first Microsoft RDP c
 
 ### Microsoft RDP Logging
 
-Microsoft RDP API hooking makes it possible to log internal events and options that were not possible previously. If you encounter issues, go to ***File – Options – Types – Remote Desktop – API Hooking*** and set the ***Log level*** to ***Debug*** Restart {{ en.RDM }} to obtain log files under **%LocalAppData%\MsRdpEx** which you can then send to the [support team](mailto:service@devolutions.net) to help diagnose issues.
+Microsoft RDP API hooking makes it possible to log internal events and options that were not possible previously. If you encounter issues, go to ***File – Settings – Types – Remote Desktop – API Hooking*** and set the ***Log level*** to ***Debug*** Restart {{ en.RDM }} to obtain log files under **%LocalAppData%\MsRdpEx** which you can then send to the [support team](mailto:service@devolutions.net) to help diagnose issues.
 
 ### {{ en.DGW }}
 

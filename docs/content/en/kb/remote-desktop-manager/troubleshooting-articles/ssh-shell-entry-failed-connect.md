@@ -13,7 +13,7 @@ Errors appear when connecting with an SSH Shell in {{ en.RDM }} 2019.X.
 ## Cause
 ***Interactive authentication*** in terminal is set to ***True*** under ***Advanced*** tab.
 
-Under ***File – Options – Types – Terminal***, interactive authentication in terminal is also configurable.
+Under ***File – Settings – Types – Terminal***, interactive authentication in terminal is also configurable.
 ### Solution
 Change the value to ***False*** if Interactive authentication in terminal is not required.
 ### Alternative Solution

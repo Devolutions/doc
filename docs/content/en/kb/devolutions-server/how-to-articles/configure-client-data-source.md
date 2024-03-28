@@ -2,7 +2,7 @@
 eleventyComputed:
   title: Configure a client data source
 ---
-1. In {{ en.RDM }} select ***File - Data Sources***.
+1. In {{ en.RDM }} select ***File – Data sources***.
 ![!!KB4365](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4365.png)
 
 1. Add a ***New Data Source***.

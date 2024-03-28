@@ -12,7 +12,7 @@ Every time I use a device referencing to my LastPass integration, it asks for my
 
 This behavior is caused by the recent changes made to the two-factor authentication mode of LastPass in {{ en.RDM }} 2020.1.20.
 
-You can now go under ***File - Options - Types - Credentials***, under the LastPass section to decide how you want to manage your 2FA.
+You can now go under ***File – Settings – Types – Credentials***, under the LastPass section to decide how you want to manage your 2FA.
 
 ![LastPass two-factor authentication mode](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4000.png)
 

@@ -5,7 +5,7 @@ eleventyComputed:
 For several reasons, multiple data sources are tagged as deprecated in {{ en.RDM }}.
 
 Here is how to display them in ***File – Data Sources – Add a New Data Source***:
-1. Click on ***File – Options – Advanced***.
+1. Click on ***File – Settings – Advanced***.
 1. Check ***Show deprecated data source types***.
 1. Click ***OK***.
 ![Show Deprecated Data Source Types option](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4884.png)

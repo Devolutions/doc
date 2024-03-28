@@ -9,7 +9,7 @@ Get started with creating a [{{ en.DHUBP }}](/hub/getting-started/create-hub/hub
 {% endsnippet %}
 
 ## Add {{ en.DHUBP }} in {{ en.RDM }} as a Data Source
-1. In {{ en.RDM }}, go to ***File - Data Sources*** and click on the plus sign to ***Add a New Data Source***.
+1. In {{ en.RDM }}, go to ***File – Data sources*** and click on the plus sign to ***Add a New Data Source***.
 1. Select the ***{{ en.DHUBP }}*** data source and click ***OK***.
 ![{{ en.DHUBP }}](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4823.png)
 1. Fill in the fields in the ***General*** section and click ***OK*** when done.

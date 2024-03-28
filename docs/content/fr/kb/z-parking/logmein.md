@@ -26,5 +26,5 @@ Comexception - requested resource in use. (exception from hresult: 0x800700aa).
 
 ### Solution
 
-Change the IE emulation mode in ***File – Options – Types – Website*** to use Internet Explorer 11.
+Change the IE emulation mode in ***File – Settings – Types – Website*** to use Internet Explorer 11.
 ![!!KB4112](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4112.png)

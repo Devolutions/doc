@@ -10,7 +10,7 @@ The same dialog is used for the {{ en.CIS }} and for exporting the {{ en.RDM }} 
 {% endsnippet %}
 
 {% snippet icon.badgeInfo %}
-{{ en.RDM }} may install required add-ons automatically when it detects that they are needed (configured in ***File – Options – Paths***). If you need to customize the application's installation path of an add-on, you must first perform the modification, then create the installation package. This setting will be replicated in the installer file (*.rdi).
+{{ en.RDM }} may install required add-ons automatically when it detects that they are needed (configured in ***File – Settings – Paths***). If you need to customize the application's installation path of an add-on, you must first perform the modification, then create the installation package. This setting will be replicated in the installer file (*.rdi).
 {% endsnippet %}
 
 ## Options
@@ -35,7 +35,7 @@ All ***Local templates*** will be included. If any of these contain credentials,
 | Saved templates                        | Includes your local templates in the {{ en.CI }}. Database templates are stored in the data source and may be a better option if you need to share them. |
 | {{ en.DA }} credentials                | Includes your {{ en.DA }} credentials used to create the {{ en.CI }}. Consult the security warning above. |
 | Include data source credentials        | Includes the credentials for all selected data sources below. Consult the security warning above.         |
-| Clear application lock information     | Clears the information from ***File – Options – Security – Lock – Lock application*** (local).            |
+| Clear application lock information     | Clears the information from ***File – Settings – Security – Lock – Lock application*** (local).            |
 | Force always retrieve new registration | Allows the administrator to force the users to use this new configuration file.                           |
 
 {% snippet icon.badgeInfo %}

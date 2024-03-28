@@ -4,7 +4,7 @@ eleventyComputed:
 ---
 It is possible to import data source configuration files for {{ en.RDMANDROID }}.
 
-1. To export the data source configuration from {{ en.RDM }}, navigate to ***File - Data Sources*** Select the data source to import on the Android device, click on ***Export Data Source Configuration***, and save therdd file on the computer.
+1. To export the data source configuration from {{ en.RDM }}, navigate to ***File – Data sources*** Select the data source to import on the Android device, click on ***Export Data Source Configuration***, and save therdd file on the computer.
 ![!!KB4181](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4181.png)
 1. Select the .rdd file exported from {{ en.RDM }} and transfer it on your Android via the Windows File Explorer.
 

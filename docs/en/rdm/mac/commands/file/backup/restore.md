@@ -7,7 +7,7 @@ You may need to restore a backup of your [{{ en.DOD }}](/rdm/mac/data-sources/da
 {% snippet icon.shieldCaution %}
 Before being able to restore a backup, you MUST create an empty data source and define the backup name before being able to use it. A quick step is written below:
 
-* Create a new [{{ en.DOD }}](/rdm/mac/data-sources/data-sources-types/online-drive/), [SQLite](/rdm/mac/data-sources/data-sources-types/sqlite/) or an [XML](/rdm/mac/data-sources/data-sources-types/xml/) data source in ***File - Data Sources***.
+* Create a new [{{ en.DOD }}](/rdm/mac/data-sources/data-sources-types/online-drive/), [SQLite](/rdm/mac/data-sources/data-sources-types/sqlite/) or an [XML](/rdm/mac/data-sources/data-sources-types/xml/) data source in ***File – Data sources***.
 {% endsnippet %}
 
 ## Settings

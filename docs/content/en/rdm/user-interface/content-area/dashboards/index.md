@@ -8,7 +8,7 @@ The ***Dashboard*** displays commands and information related to the selected en
 
 The different tabs available in the dashboard are the following:
 
-* ***Actions***: Add special Open actions to dashboard, similar to ***Open Session*** or ***Properties*** in the contextual menu. Configure in ***File – Options – User Interface***.
+* ***Actions***: Add special Open actions to dashboard, similar to ***Open Session*** or ***Properties*** in the contextual menu. Configure in ***File – Settings – User Interface***.
 * ***Overview***
 * ***Documentation***
 * ***Macros/Scripts/Tools***

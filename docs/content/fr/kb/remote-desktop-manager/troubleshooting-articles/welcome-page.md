@@ -8,7 +8,7 @@ There are 2 ways of removing that page:
 
 If you have not closed it yet, click on ***Do not show again*** in the upper left corner.
 ![!!KB4109](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4109.png)
-Or go in ***File - Options - User Interface*** and uncheck ***Show Welcome page at start-up***.
+Or go in ***File – Settings – User Interface*** and uncheck ***Show Welcome page at start-up***.
 ![!!KB4110](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4110.png)
 ## Custom welcome page
 It is possible to display your own welcome page at startup.

@@ -31,4 +31,4 @@ Usage profile changes are applied to your account in the current data source. Th
 For a more detailed overview of the profiles, see [Usage profiles](/rdm/windows/user-interface/customization/usage-profiles/).
 {% endsnippet %}
 
-The profile can also be selected during the {{ en.RDM }} Onboarding process. If none is chosen or if the user decides to choose one later, they will be assigned the ***Default*** profile, which can be changed in ***File – Options – User Interface – Usage profile*** or in the web interface.
+The profile can also be selected during the {{ en.RDM }} Onboarding process. If none is chosen or if the user decides to choose one later, they will be assigned the ***Default*** profile, which can be changed in ***File – Settings – User Interface – Usage profile*** or in the web interface.

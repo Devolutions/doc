@@ -5,7 +5,7 @@ eleventyComputed:
 ---
 Set up which version of PowerShell you want {{ en.RDMWIN }} to open and use:
 
-1. In {{ en.RDM }}, go to ***File*** – ***Options*** – ***Type*** – ***Sessions*** – ***PowerShell***.
+1. In {{ en.RDM }}, go to ***File*** – ***Settings*** – ***Type*** – ***Sessions*** – ***PowerShell***.
 1. Under the ***PowerShell*** section, change the ***PowerShell version*** option to the desired value using the drop-down menu.
-![File – Options – Types – Sessions  – PowerShell – PowerShell version](https://cdnweb.devolutions.net/docs/docs_en_kb_KB6162.png)
+![File – Settings – Types – Sessions  – PowerShell – PowerShell version](https://cdnweb.devolutions.net/docs/docs_en_kb_KB6162.png)
 1. Click ***OK*** to save your changes.

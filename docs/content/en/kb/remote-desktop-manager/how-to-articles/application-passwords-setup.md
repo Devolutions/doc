@@ -20,7 +20,7 @@ The ***Application Passwords*** is a way to quickly authenticate with other Devo
 ![!!KB4797](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4797.png)
 
 ## {{ en.DOD }}
-1. In ***File - Data Sources***, edit or create a {{ en.DOD }} data source.
+1. In ***File – Data sources***, edit or create a {{ en.DOD }} data source.
 1. Change the ***Connection mode*** to ***Application password*** and enter the ***Application password***.
 1. Click ***OK***.
 ![!!KB4798](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4798.png)

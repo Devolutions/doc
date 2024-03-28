@@ -12,5 +12,5 @@ Some applications can affect the clipboard. Below is a list of applications that
 
 An option in {{ en.RDM }} allows to revert to the legacy copy/paste method.
 
-Navigate to ***File - Options - Application - Clipboard - Advanced*** and set the ***Clipboard copy method*** option to ***Legacy***.
+Navigate to ***File – Settings – Application – Clipboard – Advanced*** and set the ***Clipboard copy method*** option to ***Legacy***.
 ![!!KB4009](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4009.png)

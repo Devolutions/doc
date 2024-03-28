@@ -6,7 +6,7 @@ It is possible to import data source configuration files for {{ en.RDMIOS }}.
 
 ## Export the data source
 
-1. In {{ en.RDM }} navigate to ***File - Data Sources***, select the data source to import on the iOS device, click on ***Export Data Source Configuration***, and ***Save*** therdd file on the computer.
+1. In {{ en.RDM }} navigate to ***File – Data sources***, select the data source to import on the iOS device, click on ***Export Data Source Configuration***, and ***Save*** therdd file on the computer.
 ![!!KB4173](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4173.png)
 1. Launch iTunes and connect the iOS device to the computer. In iTunes, select the iOS device.
 ![!!KB4174](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4174.png)

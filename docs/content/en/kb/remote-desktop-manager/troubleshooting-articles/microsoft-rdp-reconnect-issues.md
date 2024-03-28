@@ -7,6 +7,6 @@ When a remote connection is locked and ask for the username and password to reco
 However, the session does not reconnect properly, because the credentials are not sent to the remote session.
 
 ## Solution
-In ***File - Options - Types - Remote Desktop*** in the ***Reconnect Mode*** drop-down menu, select ***Full***.
+In ***File – Settings – Types – Remote Desktop*** in the ***Reconnect Mode*** drop-down menu, select ***Full***.
 
 ![!!KB4039](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4039.png)

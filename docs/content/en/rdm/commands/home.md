@@ -7,5 +7,5 @@ The ***Home*** ribbon tab allows you to apply an action on the currently selecte
 
 * Connect
 * Macros
-* Clipboard: Configuration in ***File – Options***
+* Clipboard: Configuration in ***File – Settings***
 * Miscellaneous

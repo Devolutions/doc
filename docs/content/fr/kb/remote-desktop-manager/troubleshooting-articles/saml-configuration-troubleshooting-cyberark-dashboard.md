@@ -19,7 +19,7 @@ If you are using a shared data source, we recommend to use a [portable version o
 
 ![CyberArk Dashboard SAML Configuration](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2167.png)
 
-4. Once your entry is created, go to ***File – Options – Advanced***.
+4. Once your entry is created, go to ***File – Settings – Advanced***.
 1. Click the link at the bottom that leads to your {{ en.RDM }} configuration files.
 
 ![Link to Configuration Files](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2168.png)

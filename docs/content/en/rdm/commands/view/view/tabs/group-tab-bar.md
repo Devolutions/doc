@@ -11,7 +11,7 @@ To enable the ***Tab Group Bar***, navigate to ***View – Tabs*** in the ribbon
 ![Tab Group Bar Button](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin6211.png)
 
 {% snippet icon.badgeInfo %}
-The ***Tab Group Bar*** will only appear if a session that is part of a ***Tab group*** (other than the ***All*** tab) is active. To make it show at all times, check the ***Always show Tab Group Bar*** box in ***File – Options – User Interface – Advanced***.
+The ***Tab Group Bar*** will only appear if a session that is part of a ***Tab group*** (other than the ***All*** tab) is active. To make it show at all times, check the ***Always show Tab Group Bar*** box in ***File – Settings – User Interface – Advanced***.
 {% endsnippet %}
 
 {% snippet icon.badgeInfo %}

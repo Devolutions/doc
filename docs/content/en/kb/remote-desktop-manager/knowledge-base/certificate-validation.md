@@ -56,7 +56,7 @@ Adapt the path for the certificate file, then run the following command:
 The resulting output from the tools mentioned above can be used to obtain more information about the issue.
 
 ## Certificate security related options
-Navigate to ***File*** – ***Options*** – ***Security*** – ***Certificate security*** to manage options related to certificates.
+Navigate to ***File*** – ***Settings*** – ***Security*** – ***Certificate security*** to manage options related to certificates.
 ![Certificate security options](https://cdnweb.devolutions.net/docs/docs_en_kb_KB0129.png)
 {% snippet icon.badgeInfo %}
 The ***Reset Known Certificates*** option only appears if you have selected ***Continue and Remember*** on one or more certificate.

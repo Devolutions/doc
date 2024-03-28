@@ -23,7 +23,7 @@ The installation folder for KeePass should use the default path (e.g., **C:\Prog
 1. Configure the database.
 1. Save the database.
 1. Close KeePass.
-1. In {{ en.RDM }}, go to ***File*** – ***Options*** – ***Paths*** and click on ***Configure Installation Path***.
+1. In {{ en.RDM }}, go to ***File*** – ***Settings*** – ***Paths*** and click on ***Configure Installation Path***.
 ![Configure Installation Path](https://cdnweb.devolutions.net/docs/docs_en_kb_KB0034.png)
 1. Select ***KeePass*** which is under ***Applications*** – ***Password Manager***, and make sure the executable is detected.
 ![KeePass is detected](https://cdnweb.devolutions.net/docs/docs_en_kb_KB0035.png)

@@ -1,9 +1,9 @@
 ---
 eleventyComputed:
   title: Export options
-  description: Use File – Options – Export Options to control the options to export from your application configuration.
+  description: Use File – Settings – Export Options to control the options to export from your application configuration.
 ---
-Use ***File*** – ***Options*** – ***Export Options*** to control the options to export from your application configuration. Use this to easily transfer settings to another machine.
+Use ***File*** – ***Settings*** – ***Export Options*** to control the options to export from your application configuration. Use this to easily transfer settings to another machine.
 
 {% snippet icon.shieldWarning %}
 Sharing the exported file with a colleague would effectively give that person whatever credentials you have set in your data source definitions.

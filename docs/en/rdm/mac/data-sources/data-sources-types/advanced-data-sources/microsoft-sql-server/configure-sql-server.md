@@ -13,7 +13,7 @@ For added security, you can enable SSL Encryption to communicate with your insta
 {% endsnippet %}
 
 
-2. Click on the setting button in the ***{{ en.NPANE }}*** or go in ***File - Data Sources***.
+2. Click on the setting button in the ***{{ en.NPANE }}*** or go in ***File – Data sources***.
 ![Setting button](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10487.png)
 1. Click on the plus to Add a New Data Source.
 ![Data Source – Add a new data source](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10488.png)

@@ -39,7 +39,7 @@ If using a version of {{ en.RDM }} prior to 11.2, the default engine will be the
 If using version 11.2 or newer of {{ en.RDM }} the default cache engine will be the Microsoft Compound Document Format (MCDF) files.
 
 {% snippet icon.shieldNotice %}
-You can enhance the security of the offline file by setting the Enhanced security in ***File – Options – Security – Offline Security.***
+You can enhance the security of the offline file by setting the Enhanced security in ***File – Settings – Security – Offline Security.***
 {% endsnippet %}
 
 {% snippet icon.badgeInfo %}

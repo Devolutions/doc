@@ -13,7 +13,7 @@ Manually install the [latest version of Webview2](https://developer.microsoft.co
 
 ### Solution 2
 
-In {{ en.RDM }}, go to ***File*** – ***Options*** – ***Advanced***, and disable ***Use embedded Microsoft Edge for overview panel***.
+In {{ en.RDM }}, go to ***File*** – ***Settings*** – ***Advanced***, and disable ***Use embedded Microsoft Edge for overview panel***.
 Save and restart {{ en.RDM }}.
 ![Use embedded Microsoft Edge for overview panel](https://cdnweb.devolutions.net/docs/docs_en_kb_KB6160.png)  
 

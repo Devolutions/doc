@@ -61,7 +61,7 @@ You can preview your changes in {{ en.RDM }} prior to the release or view the on
 
 Follow the next steps if you want to change the language of your {{ en.RDM }} application to reflect the one you were translating:
 
-1. Go to ***File – Options – User Interface***.
+1. Go to ***File – Settings – User Interface***.
 1. In the ***Language*** drop-down list, select the language and click ***OK***.
 1. Restart the application for this to take effect.
 

@@ -798,7 +798,7 @@ Disable the menu File – Data Sources
 	</tr>
 	<tr>
 		<td>
-Disable the menu File – Options
+Disable the menu File – Settings
 		</td>
 		<td>
 %Root%\SOFTWARE\Policies\Devolutions\RemoteDesktopManager\DisableFileOptions

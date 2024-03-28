@@ -28,4 +28,4 @@ Right-click on the Windows tray menu bar to access the context menu. You can lau
 
 ## Tray icon preferences
 
-The application options contain many settings that allows for customizing the system tray icon preferences. To change these, navigate to ***File – Options – User Interface – Trayicon/Taskbar***.
+The application options contain many settings that allows for customizing the system tray icon preferences. To change these, navigate to ***File – Settings – User Interface – Trayicon/Taskbar***.

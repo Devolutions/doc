@@ -6,6 +6,6 @@ eleventyComputed:
 
 ## Settings
 
-1. In the application, check both options ***Check for update at startup*** and ***Enable check for updates*** in ***File – Options – Application – Application Startup***.
+1. In the application, check both options ***Check for update at startup*** and ***Enable check for updates*** in ***File – Settings – Application – Application Startup***.
 ![!!KB4517](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4517.png)
 1. Subscribe to the [Announcements Forums](/kb/remote-desktop-manager/how-to-articles/subscribe-announcements-forums/) to be aware of all the latest announcements on our products.

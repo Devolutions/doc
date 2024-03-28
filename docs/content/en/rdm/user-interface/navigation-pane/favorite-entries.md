@@ -24,6 +24,6 @@ Favorites do not necessarily replicate the folder structure of the ***{{ en.VLT 
 
 ### Icon overlay
 
-If desired, an icon overlay blue star can be displayed in the ***{{ en.VLT }}*** over favorite entries. To display the icon overlay, navigate to ***File – Options – User Interface – Favorites***, then enable the ***Show favorite icon in navigation tree*** option.
+If desired, an icon overlay blue star can be displayed in the ***{{ en.VLT }}*** over favorite entries. To display the icon overlay, navigate to ***File – Settings – User Interface – Favorites***, then enable the ***Show favorite icon in navigation tree*** option.
 ![Overlayed Favorite Icons](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin2083.png)
 
