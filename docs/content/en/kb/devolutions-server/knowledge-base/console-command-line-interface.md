@@ -6,13 +6,13 @@ eleventyComputed:
   - CLI
   - Command Line Interface
 ---
-The {{ en.DVLSCONSOLE }} Command Line Interface (CLI) is a {{ en.CTOOL }} which allows administrators to interact with {{ en.DVLS }} instances, the Scheduler, the Recording Server or the Gateway with create, configure or delete operations. It is automatically available with the installation of the {{ en.DVLSCONSOLE }}. The **DPS.Console.CLI.exe** file is located in the {{ en.DVLSCONSOLE }} application installation folder.
+The {{ en.DVLSCONSOLE }} Command Line Interface (CLI) is a {{ en.CTOOL }} which allows administrators to interact with {{ en.DVLS }} instances, the scheduler, the recording rerver or a gateway with create, configure or delete operations. It is automatically available with the installation of the {{ en.DVLSCONSOLE }}. The **DPS.Console.CLI.exe** file is located in the {{ en.DVLSCONSOLE }} application installation folder.
 
 ## Using the CLI
 The ***/help*** switch will list all available commands and parameters.
 ![{{ en.DVLSCONSOLE }} CLI commands list](https://cdnweb.devolutions.net/docs/docs_en_kb_KB8032.png)
 
-The ***/help*** switch can be used to list command's parameters.
+The ***/help*** switch can be used to list command parameters.
 ![CLI command parameters](https://cdnweb.devolutions.net/docs/docs_en_kb_KB8033.png)
 
 The following sample command launch the upgrade process from a zip file available in **C:\temp folder**.
