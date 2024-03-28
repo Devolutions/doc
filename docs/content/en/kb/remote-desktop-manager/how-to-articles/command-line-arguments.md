@@ -25,7 +25,7 @@ It is possible to get the IDs of a ***database***, ***data source***, ***entry**
 ## Retrieve a data source ID
 The ID of a data source can be retrieved with other identifiers by following the steps in the previous section. Here is another way to get only data source IDs:
 
-1. Go to ***File*** – ***Data Sources*** Alternatively, you can click on the ellipsis next to your data source name in your ***{{ en.NPANE }}***.
+1. Go to ***File – Data Sources*** Alternatively, you can click on the ellipsis next to your data source name in your ***{{ en.NPANE }}***.
 1. Select the data source of your choice in the bottom section, then click on the ***Edit Data Source*** icon.
 ![!!KB2059](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2059.png)
 The ID of the chosen data source will be at the bottom of the window. You can copy it by clicking on it.
