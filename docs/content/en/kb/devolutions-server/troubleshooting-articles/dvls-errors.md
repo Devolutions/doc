@@ -2,6 +2,7 @@
 eleventyComputed:
   title:  '{{ en.DVLS }} errors'
   description: Here all the possible errors in {{ en.DVLS }} with the code number.
+  permalink: false  
 ---
 
 Here are all the possible errors in {{ en.DVLS }} with the corresponding missing resources.
