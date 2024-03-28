@@ -6,7 +6,10 @@ eleventyComputed:
   - CLI
   - Command Line Interface
 ---
-The {{ en.DVLSCONSOLE }} Command Line Interface (CLI) is a {{ en.CTOOL }} which allows administrators to interact with {{ en.DVLS }} instances, the Scheduler, the Recording Server or the Gateway with create, configure or delete operations. It is automatically available with the installation of the {{ en.DVLSCONSOLE }}. The **DPS.Console.CLI.exe** file is located in the {{ en.DVLSCONSOLE }} application installation folder. The ***/help*** switch will list all available commands and parameters.
+The {{ en.DVLSCONSOLE }} Command Line Interface (CLI) is a {{ en.CTOOL }} which allows administrators to interact with {{ en.DVLS }} instances, the Scheduler, the Recording Server or the Gateway with create, configure or delete operations. It is automatically available with the installation of the {{ en.DVLSCONSOLE }}. The **DPS.Console.CLI.exe** file is located in the {{ en.DVLSCONSOLE }} application installation folder.
+
+## Using the CLI
+The ***/help*** switch will list all available commands and parameters.
 ![{{ en.DVLSCONSOLE }} CLI commands list](https://cdnweb.devolutions.net/docs/docs_en_kb_KB8032.png)
 
 The ***/help*** switch can be used to list command's parameters.
@@ -59,4 +62,31 @@ Sample of a JSON response file for creating a new {{ en.DVLS }} instance.
   "webApplicationName": "/dvls",
   "verbose": false
 }
+```
+
+### Emergency procedure
+This procedure is useful in case of an Azure Directory outage.
+
+{% snippet icon.badgeInfo %}
+Please note that you should replace `dvls` (after ...`\wwwroot\`) with your own custom domain.
+{% endsnippet %}
+
+#### Enabling custom authentication
+In the CLI enter either:
+```powershell
+server instance --instance=C:\inetpub\wwwroot\dvls --enable-custom-authentication=true
+```
+or
+```powershell
+server instance --instance=C:\inetpub\wwwroot\dvls --custom-auth=true
+```
+
+#### Disabling custom authentication
+When done with the necessary operations:
+```powershell
+server instance --instance=C:\inetpub\wwwroot\dvls --enable-custom-authentication=false
+```
+or
+```powershell
+server instance --instance=C:\inetpub\wwwroot\dvls --custom-auth=false
 ```
