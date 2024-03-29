@@ -4,7 +4,7 @@ eleventyComputed:
   description: The Dashboard displays commands and information related to the selected entry. Its contents depend on the selected entry type.
 ---
 The ***Dashboard*** displays commands and information related to the selected entry. Its contents depend on the selected entry type.
-![Dashboard for credential entry](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip3576.png)
+![Dashboard for credential entry](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMW4015_2024_1.png)
 
 The different tabs available in the dashboard are the following:
 
@@ -15,13 +15,16 @@ The different tabs available in the dashboard are the following:
 * ***Management Tools***: Configure the Hyper-V, VMware, XenServer Dashboard before using the dashboard.
 * ***Information***
 * ***Sub Entries***
+* ***Created entries***
 * ***Attachments***
 * ***Logs***
 * ***Recordings***
-
-{% snippet icon.badgeInfo %}
-The tabs can be hidden if they are not necessary for a user.
-
-Simply right-click any tab, then select an item to toggle the visibility of its relative tab.
-![!!clip3577](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip3577.png)
-{% endsnippet %}
+* ***Tasks***
+* ***Asset***
+* ***Permissions***
+* ***Referenced by***
+* ***Entries***
+* ***Remote management***
+* ***Home page***
+* ***Dashboard***
+* ***Administration***
