@@ -6,7 +6,7 @@ eleventyComputed:
 Use ***File – Data Sources*** to manage data sources. {{ en.RDM }} supports multiple types of data source. Most are available only with an Team Edition of {{ en.RDM }}.
 
 Please refer to [Data Source Types](/rdm/windows/data-sources/data-sources-types/) for more information on all supported types of data sources.
-![Data Source](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip11314.png)
+![Data Source](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip11314.png)
 
 ## Settings
 
@@ -24,6 +24,10 @@ Only the configuration will be deleted but the actual file or database will stil
 ### Import/Export data source configuration
 
 Use the buttons to respectively import or export the selected data source configuration. The configuration is exported as a ***.RDD*** file.
+
+{% snippet icon.badgeCaution %}
+The RDD file does not include the content of the data source; only the configuration is exported. Use the entry's export functionality to back up or copy the content of the database.
+{% endsnippet %}
 
 ### Lock data source
 

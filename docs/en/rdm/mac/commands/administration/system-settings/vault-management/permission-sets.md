@@ -5,7 +5,7 @@ eleventyComputed:
 ---
 Permissions can be grouped in ***Permission Sets***. It is possible to create custom sets manually or use the default sets. They are managed via {{ en.RDM }} in ***Administration – System Settings – {{ en.VLT_MAJ }} Management – Permission Sets***.
 
-![Administration – System Settings – {{ en.VLT_MAJ }} Management – Permission Sets](https://cdnweb.devolutions.net/docs/en/rdm/mac/RDMMac2097.png)
+![Administration – System Settings – {{ en.VLT_MAJ }} Management – Permission Sets](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_RDMMac2097.png)
 
 ## Default permission sets
 
@@ -20,17 +20,17 @@ Create a new set that suits your specific needs:
 
 1. In ***Administration – System Settings – {{ en.VLT_MAJ }} Management – Permission Sets***, click on the ***New*** button.
 
-   ![Add a permission set](https://cdnweb.devolutions.net/docs/en/rdm/mac/RDMMac2098.png)
+   ![Add a permission set](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_RDMMac2098.png)
 
 1. Give a ***Name*** to your custom set and check each permission you want included in the set.
 
-   ![Customize the permission set](https://cdnweb.devolutions.net/docs/en/rdm/mac/RDMMac2099.png)
+   ![Customize the permission set](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_RDMMac2099.png)
 
 1. Click ***OK***.
 
    You can now see your custom permission set alongside the default ones in the main view. At any time you can ***Edit*** or ***Delete*** it using the corresponding buttons.
 
-   ![Custom permission set overview](https://cdnweb.devolutions.net/docs/en/rdm/mac/RDMMac2100.png)
+   ![Custom permission set overview](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_RDMMac2100.png)
 
 1. Click ***OK*** again to save your changes.
 

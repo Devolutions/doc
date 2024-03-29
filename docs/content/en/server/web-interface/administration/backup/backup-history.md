@@ -3,7 +3,7 @@ eleventyComputed:
   title: Backup history
 ---
 The ***Backup History*** section displays the list of the backups that have been run with messages related to their success or failure.
-![Administration – Backup History](https://cdnweb.devolutions.net/docs/en/server/clip10404.png)
+![Administration – Backup History](https://cdnweb.devolutions.net/docs/docs_en_server_clip10404.png)
 
 | Column           | Description                                                                                          |
 |------------------|------------------------------------------------------------------------------------------------------|

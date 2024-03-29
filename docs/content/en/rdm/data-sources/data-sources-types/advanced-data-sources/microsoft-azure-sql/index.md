@@ -39,7 +39,7 @@ Consult [Configure Azure SQL](/rdm/windows/data-sources/data-sources-types/advan
 
 ### General
 
-![Microsoft Azure SQL - General](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip11499.png)
+![Microsoft Azure SQL - General](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip11499.png)
 
 | OPTION                | DESCRIPTION |
 |-----------------------|-------------|
@@ -56,7 +56,7 @@ Consult [Configure Azure SQL](/rdm/windows/data-sources/data-sources-types/advan
 
 ### Settings
 
-![Microsoft Azure SQL - Settings Tab](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip11363.png)
+![Microsoft Azure SQL - Settings Tab](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip11363.png)
 
 | OPTION          | DESCRIPTION |
 |-----------------|-------------|
@@ -67,7 +67,7 @@ Consult [Configure Azure SQL](/rdm/windows/data-sources/data-sources-types/advan
 
 ### {{ en.UVLT_MAJ }}
 
-![Microsoft Azure SQL – {{ en.UVLT_MAJ }} tab](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip3416.png)
+![Microsoft Azure SQL – {{ en.UVLT_MAJ }} tab](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip3416.png)
 
 | OPTION | DESCRIPTION |
 |--------|-------------|
@@ -75,7 +75,7 @@ Consult [Configure Azure SQL](/rdm/windows/data-sources/data-sources-types/advan
 
 ### Upgrade
 
-![Microsoft Azure SQL - Upgrade Tab](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip10377.png)
+![Microsoft Azure SQL - Upgrade Tab](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip10377.png)
 
 | OPTION                | DESCRIPTION |
 |-----------------------|-------------|
@@ -88,11 +88,11 @@ Consult [Configure Azure SQL](/rdm/windows/data-sources/data-sources-types/advan
 ### VPN
 
 Open a VPN to access your data prior to connecting to your Microsoft Azure SQL database.
-![Microsoft Azure SQL - VPN](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMWin2253.png)
+![Microsoft Azure SQL - VPN](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin2253.png)
 
 ### Advanced
 
-![Microsoft Azure SQL - Advanced Tab](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip10370.png)
+![Microsoft Azure SQL - Advanced Tab](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip10370.png)
 
 | OPTION                           | DESCRIPTION |
 |----------------------------------|-------------|

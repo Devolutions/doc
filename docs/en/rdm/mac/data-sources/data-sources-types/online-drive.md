@@ -21,7 +21,7 @@ Even though this is a cloud service, you MUST use our {{ en.OBACK }} service to 
 
 ### General
 
-![{{ en.DOD }} – General tab](https://cdnweb.devolutions.net/docs/en/rdm/mac/clip10499.png)
+![{{ en.DOD }} – General tab](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10499.png)
 
 | OPTION                              | DESCRIPTION |
 |-------------------------------------|-------------|
@@ -38,7 +38,7 @@ Even though this is a cloud service, you MUST use our {{ en.OBACK }} service to 
 ### Backup
 
 Please consult [{{ en.OBACK }}](/cloud/rdm-online-services/online-backup/) for more information on this service.
-![{{ en.DOD }} – Backup](https://cdnweb.devolutions.net/docs/en/rdm/mac/clip10500.png)
+![{{ en.DOD }} – Backup](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10500.png)
 
 | OPTION  | DESCRIPTION |
 |---------|-------------|
@@ -48,11 +48,11 @@ Please consult [{{ en.OBACK }}](/cloud/rdm-online-services/online-backup/) for m
 ### VPN
 
 Open a VPN to access your data prior to connecting to your {{ en.DOD }}.
-![!!RDMMac2145](https://cdnweb.devolutions.net/docs/en/rdm/mac/RDMMac2145.png)
+![!!RDMMac2145](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_RDMMac2145.png)
 
 ### Advanced
 
-![{{ en.DOD }} – Advanced tab](https://cdnweb.devolutions.net/docs/en/rdm/mac/clip10501.png)
+![{{ en.DOD }} – Advanced tab](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10501.png)
 
 | OPTION                  | DESCRIPTION |
 |-------------------------|-------------|

@@ -21,11 +21,11 @@ To enable the security layer in {{ en.RDM }}, follow these steps:
 
 1. In {{ en.RDM }}, navigate to ***File – Preferences – Browser Extensions***.
 1. Under the ***{{ en.WBEX }}*** section, click ***Default***. Enter a custom ***Port*** and click ***Done***.
-![Port](https://cdnweb.devolutions.net/docs/en/rdm/mac/RDMMac2021.png)
+![Port](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_RDMMac2021.png)
 1. Type an ***Application key***. Your changes will only be applied after an application restart.
-![Application Key](https://cdnweb.devolutions.net/docs/en/rdm/mac/RDMMac2023.png)
+![Application Key](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_RDMMac2023.png)
 1. In your browser, click the {{ en.WBEX }} icon and go to ***Settings – Data sources – {{ en.RDM }}***.
 1. In the ***General*** tab, uncheck ***Use default port***, then enter the custom ***Port*** created earlier in {{ en.RDM }}.
-![General Tab](https://cdnweb.devolutions.net/docs/en/rdm/mac/Dwl2000.png)
+![General Tab](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_Dwl2000.png)
 1. In the ***Advanced*** tab, enter the same ***Application key*** as in {{ en.RDM }}, then click ***Save***.
-![Advanced Tab](https://cdnweb.devolutions.net/docs/en/rdm/mac/Dwl4033.png)
+![Advanced Tab](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_Dwl4033.png)

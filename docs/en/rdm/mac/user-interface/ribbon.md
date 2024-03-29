@@ -7,13 +7,13 @@ The ***Ribbon*** is composed of multiple tabs that contain commands, further cla
 
 Depending on your chosen user interface style, commands are presented via the ***Ribbon*** or a ***Classic*** menu.
 
-![Ribbon style](https://cdnweb.devolutions.net/docs/en/rdm/mac/RDMMac2072.png)
+![Ribbon style](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_RDMMac2072.png)
 
-![Classic style](https://cdnweb.devolutions.net/docs/en/rdm/mac/RDMMac2073.png)
+![Classic style](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_RDMMac2073.png)
 
 The style can be changed in the [Account](/rdm/mac/user-interface/navigation-pane/account/) tab of the ***{{ en.NPANE }}*** or in ***File – Preferences – User Interface – User Interface***.
 
-![File – Preferences – User Interface – User Interface](https://cdnweb.devolutions.net/docs/en/rdm/mac/RDMMac2074.png)
+![File – Preferences – User Interface – User Interface](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_RDMMac2074.png)
 
 For more information on menu tabs, please see the following topics:
 

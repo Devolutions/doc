@@ -8,7 +8,7 @@ The ***Password Generator*** allows to create random passwords that are difficul
 You can create and force a [***Password Templates***](/server/web-interface/administration/templates/password-templates/) to follow your organization secure policies.
 {% endsnippet %}
 
-![Password generator in entry properties](https://cdnweb.devolutions.net/docs/en/server/ServerOp4086.png)
+![Password generator in entry properties](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp4086.png)
 
 ### Generate passwords with the password generator
 
@@ -25,7 +25,7 @@ At the bottom of the list, you can review the strength and phonetics of the sele
 You can also create a ***Password template*** from your ***Password Generator*** settings. Just customize the settings and click on ***Add template*** next to the ***Template*** drop-down list.
 {% endsnippet %}
 
-![Password generator](https://cdnweb.devolutions.net/docs/en/server/ServerOp4085.png)
+![Password generator](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp4085.png)
 
 | Option                           | Description                                                                    |
 |----------------------------------|--------------------------------------------------------------------------------|

@@ -13,4 +13,4 @@ Specify a scan range, then, once the scan is completed, select the sessions you 
 If you wish to review every session one by one as they are imported, you can check the ***Edit imported entry*** option. However, this is not recommend for a large number of sessions.
 {% endsnippet %}
 
-![Import with Network Scan](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip10034.png)
+![Import with Network Scan](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip10034.png)

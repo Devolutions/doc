@@ -4,12 +4,12 @@ eleventyComputed:
   description: The View section in the View tab allows you to access different lists and information as well as to quickly connect to a host.
 ---
 The ***View*** section in the ***View*** tab allows you to access different lists and information as well as to quickly connect to a host.
-![View Section](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMWin6203.png)
+![View Section](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin6203.png)
 
 ## Search
 
 The [***Search***](/rdm/windows/commands/view/view/search/) allows you to search folders and entries in the database you are currently in.
-![Search Function](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMWin2207.png)
+![Search Function](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin2207.png)
 
 For information about other search methods, see our related topics:
 
@@ -24,4 +24,4 @@ The ***Quick Connect*** feature allows you to open an ad-hoc session by specifyi
 ## Lists
 
 Multiple list types are available in the ***View*** section: ***Credential List***, ***Contact List***, ***Document List***,***Synchronizer List***, and ***VPN List***. These options open a window showing a tree view of all entries of the specific entry type in the database. The lists can be filtered using the search bar. Right-clicking on an item shows the same menu and options as in the ***{{ en.NPANE }}***.
-![Credentials List](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMWin2016.png)
+![Credentials List](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin2016.png)

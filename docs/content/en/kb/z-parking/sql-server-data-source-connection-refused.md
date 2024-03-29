@@ -5,7 +5,7 @@ eleventyComputed:
 Unable to connect from {{ en.RDM }}. Connection refused.
 
 When you try to connect from {{ en.RDM }}, you receive the following message;
-![!!KB4082](https://cdnweb.devolutions.net/docs/en/kb/KB4082.png)
+![!!KB4082](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4082.png)
 ### Solution
 {% snippet icon.badgeInfo %}
 Do a backup of the database before running the following script.

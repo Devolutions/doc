@@ -18,19 +18,19 @@ Only the ***Session***, ***Remote Management***, ***Miscellaneous***, ***VPN***,
 1. Input the URL to a specific asset.
 1. Type an ***IT asset management title*** in the corresponding field.
 1. Click ***Update*** to save the changes and close the window.
-![IT Asset Management](https://cdnweb.devolutions.net/docs/en/kb/KB6165.png)
+![IT Asset Management](https://cdnweb.devolutions.net/docs/docs_en_kb_KB6165.png)
 1. In the ***Dashboard***, select the ***IT Asset Management*** tab.
    {% snippet icon.badgeInfo %}
    The tab will be named according to what was written in the ***IT asset management title field***. If the field is left empty ***Lansweeper*** will show (if this service was chosen), or show as ***IT Asset Management***.
    {% endsnippet %}
 
-   ![ IT Asset Management tab](https://cdnweb.devolutions.net/docs/en/kb/KB6176.png)
+   ![ IT Asset Management tab](https://cdnweb.devolutions.net/docs/docs_en_kb_KB6176.png)
 
 ## Import assets from Lansweeper
 To import Lansweeper assets and create connections in {{ en.RDM }}, use the ***CSV import*** option.
 
 1. Go to ***File*** – ***Import*** – ***Session*** – ***Lansweeper***.
-![File – Import – Session – Lansweeper](https://cdnweb.devolutions.net/docs/en/kb/KB6175.png)
+![File – Import – Session – Lansweeper](https://cdnweb.devolutions.net/docs/docs_en_kb_KB6175.png)
 You can also right click on the ***{{ en.NPANE }}*** – ***Import*** – ***Import Sessions From*** – ***Lansweeper***.
 1. In the ***Import From Lansweeper*** window, enter the ***identity code*** and the ***site***.
    {% snippet icon.badgeInfo %}
@@ -50,7 +50,7 @@ Populating {{ en.VLT }}s with assets is a time-consuming task in {{ en.RDM }}. [
 1. Go to ***Synchronizer***.
 1. Choose ***Lansweeper***.
 1. Click ***Select***.
-![Add a new entry – Synchronizer – Lansweeper](https://cdnweb.devolutions.net/docs/en/kb/KB6167.png)
+![Add a new entry – Synchronizer – Lansweeper](https://cdnweb.devolutions.net/docs/docs_en_kb_KB6167.png)
 
 ### General tab
 * ***Name***: Entry name in {{ en.RDM }}.
@@ -64,7 +64,7 @@ Populating {{ en.VLT }}s with assets is a time-consuming task in {{ en.RDM }}. [
     * ***Root***: Check for duplicates within the whole data source.
     * ***Destination folder***: Check for duplicates only within the {{ en.RDM }} destination folder or subfolder.
 
-![General tab](https://cdnweb.devolutions.net/docs/en/kb/KB6173.png)
+![General tab](https://cdnweb.devolutions.net/docs/docs_en_kb_KB6173.png)
 
 ### Filter tab
 * ***Use custom query***: If our supported parameters don’t satisfy your needs, or if you already have a pre-made query, you can enter it in this section. Following the
@@ -92,7 +92,7 @@ groups:
 * ***Type***: Select the type of asset you want to import from the Type list.
 * ***Add Condition***:  Add a condition to the filter. You must first enter the value of the property, followed by the operator you want to apply to this condition.
 
-![Filter tab](https://cdnweb.devolutions.net/docs/en/kb/KB6171.png)
+![Filter tab](https://cdnweb.devolutions.net/docs/docs_en_kb_KB6171.png)
 
 ### Advanced tab
 * ***Session name prefix***: A prefix for the entry that will be created through the synchronizer
@@ -104,4 +104,4 @@ groups:
     * ***Make expired***: Mark that entry as expired.
 * ***Silent mode***: This option disables error dialogs (useful when the synchronizer runs automatically at set intervals).
 
-![Advanced tab](https://cdnweb.devolutions.net/docs/en/kb/KB6174.png)
+![Advanced tab](https://cdnweb.devolutions.net/docs/docs_en_kb_KB6174.png)

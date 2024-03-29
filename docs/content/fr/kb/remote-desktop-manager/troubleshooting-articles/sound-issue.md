@@ -15,4 +15,4 @@ A computer policy setting in Windows needs to be changed.
 The ***Force Allow*** setting will not work.
 {% endsnippet %}
 
-![!!KB4941](https://cdnweb.devolutions.net/docs/en/kb/KB4941.png)
+![!!KB4941](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4941.png)

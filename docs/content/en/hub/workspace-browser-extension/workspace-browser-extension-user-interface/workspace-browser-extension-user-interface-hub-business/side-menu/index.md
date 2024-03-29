@@ -17,7 +17,7 @@ The extension opens on the ***Matching*** tab. This is where you will see the li
 For methods of retrieving your credentials, visit [Retrieve credentials from {{ en.DHUBB}} with the {{ en.WBEX }}](/hub/workspace-browser-extension/using-workspace-browser-extension/using-workspace-browser-extension-with-hub-business/retrieve-credentials-hub-business/).
 {% endsnippet %}
 
-![Matching tab](https://cdnweb.devolutions.net/docs/en/hub/Hub2110.png)
+![Matching tab](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub2110.png)
 
 At the top, you can use the ***Search*** bar to filter through all your credentials, not just those applicable to the website. You can also use the ***Refresh*** button next to it to update the search results.
 
@@ -34,7 +34,7 @@ When accessing the ***{{ en.VLT_MAJ }}s*** tab for the first time, you need to s
 {% endsnippet %}
 
 The ***{{ en.VLT_MAJ }}s*** tab allows you to browse through all your synchronized {{ en.VLT }}s for your entries.
-![{{ en.VLT_MAJ }}s tab](https://cdnweb.devolutions.net/docs/en/hub/Hub2119.png)
+![{{ en.VLT_MAJ }}s tab](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub2119.png)
 
 At the top, you can use the ***Filter*** bar to search through all your {{ en.VLT }}s for entries.
 
@@ -45,7 +45,7 @@ When navigating in the folders, the [***Add Website***](/hub/workspace-browser-e
 ### {{ en.UVLT_MAJ }} tab
 
 The ***{{ en.UVLT }}*** tab works the same way as the ***{{ en.VLT_MAJ }}s*** tab, except that you navigate through your ***{{ en.UVLT }}*** instead of your other {{ en.VLT }}s. You also do not have to select {{ en.VLT }}s to synchronize as the only {{ en.VLT }} available in this tab is your own ***{{ en.UVLT }}***.
-![{{ en.UVLT_MAJ }} Tab](https://cdnweb.devolutions.net/docs/en/hub/Hub2120.png)
+![{{ en.UVLT_MAJ }} Tab](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub2120.png)
 
 At the top, you can use the ***Filter*** bar to search through all your folders and entries.
 
@@ -56,15 +56,15 @@ When navigating in the folders, the [***Add Website***](/hub/workspace-browser-e
 ### Password Generator tab
 
 The ***Password Generator*** tab assists you in creating a strong and secure password adapted to your needs and to website requirements for your new account.
-![Password Generator Tab](https://cdnweb.devolutions.net/docs/en/hub/Hub2111.png)
+![Password Generator Tab](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub2111.png)
 
 Your custom password is generated at the top of the ***Content Area*** with a strenght indicator below it. You can copy it or generate a new one using the ***Copy to Clipboard*** and ***Generate Password*** buttons respectively. The ***Password lenght***, which is set to 12 by default, can also be adjusted.
 
 In the ***General*** drop-down section, you are able to select the types of characters that your password must contain as well as the minimum number of characters of each type that must be included.
-![General Section](https://cdnweb.devolutions.net/docs/en/hub/Hub2114.png)
+![General Section](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub2114.png)
 
 In the ***Advanced*** drop-down section, you are able to further customize your password by entering characters you want included in your password, followed by the minimum number of times they must appear. In the second field, you can also enter characters you want excluded from your password.
-![Advanced Section](https://cdnweb.devolutions.net/docs/en/hub/Hub2115.png)
+![Advanced Section](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub2115.png)
 
 {% snippet icon.badgeInfo %}
 To learn how to use the ***Password Generator*** when creating an account on a website, visit [Create an account for a website in {{ en.DHUBB }} with the {{ en.WBEX }}](/hub/workspace-browser-extension/using-workspace-browser-extension/using-workspace-browser-extension-with-hub-business/create-account-website-hub-business/).
@@ -73,7 +73,7 @@ To learn how to use the ***Password Generator*** when creating an account on a w
 ### Entry functionalities
 
 No matter what tab you are in (except the ***Password Generator*** tab), when hovering over an entry, three new options appear: the ***Copy Username***, ***Copy Password***, and ***View*** buttons.
-![Copy Username, Copy Password, and View options](https://cdnweb.devolutions.net/docs/en/hub/Hub2116.png)
+![Copy Username, Copy Password, and View options](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub2116.png)
 
 The ***Copy Username*** and ***Copy Password*** buttons copy the username/password of the entry to your clipboard.
 
@@ -84,4 +84,4 @@ The ***View*** button gives you an overview of the entry as well as additional f
 * See when the entry was last modified and created under the ***Last Modified On*** and ***Created on*** sections respectively.
 
 Other information and functionalities will depend on what you provided when creating the entry (username, password, tags, description, etc.).
-![Entry Overview](https://cdnweb.devolutions.net/docs/en/hub/Hub2118.png)
+![Entry Overview](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub2118.png)

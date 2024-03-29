@@ -15,9 +15,9 @@ Make certain the ***Display*** option is set to ***Embedded (tabbed)***, or thes
 {% endsnippet %}
 
 2. Set the ***Web browser*** option to ***Microsoft Edge***, in the ***Common*** – ***General*** – ***General*** tab.
-![Web browser](https://cdnweb.devolutions.net/docs/en/kb/KB0060.png)
+![Web browser](https://cdnweb.devolutions.net/docs/docs_en_kb_KB0060.png)
 1. Input the desired website URL.
 1. Go to the ***Advanced*** tab.
 1. Check the ***Profile name*** option and input a name.
-![Profile name](https://cdnweb.devolutions.net/docs/en/kb/KB0061.png)
+![Profile name](https://cdnweb.devolutions.net/docs/docs_en_kb_KB0061.png)
 1. Click ***OK*** to save the changes and close the window.

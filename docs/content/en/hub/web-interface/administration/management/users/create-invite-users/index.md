@@ -16,7 +16,7 @@ We strongly recommend that you invite at least one other administrator. Learn ho
 ### Invite users
 1. Go to ***Administration – Users***.
 1. Click ***Add Users***.
-![!!Hub4181](https://cdnweb.devolutions.net/docs/en/hub/Hub4181.png)
+![!!Hub4181](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub4181.png)
 1. Type the user's email address.
 {% snippet icon.badgeInfo %}
 It is possible to paste a list of email addresses of ***Users*** that will be part of the same [User Groups](/hub/web-interface/administration/management/user-groups/). Each email address is required to be separated by a semicolon (;) or a comma (,).
@@ -31,11 +31,11 @@ This step will validate if the user has a {{ en.DA }}.
 {% endsnippet %}
 
 
-![!!Hub4182](https://cdnweb.devolutions.net/docs/en/hub/Hub4182.png)
+![!!Hub4182](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub4182.png)
 
 5. Click ***Next***.
 1. Select additional ***Options***.
-![!!Hub4183](https://cdnweb.devolutions.net/docs/en/hub/Hub4183.png)
+![!!Hub4183](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub4183.png)
 
 {% snippet icon.badgeInfo %}
 To set a usage profile for a user, you will need to create and invite them first. Then, in ***Administration – Users***, the option will be available when editing said user.
@@ -48,7 +48,7 @@ To set a usage profile for a user, you will need to create and invite them first
 {% endsnippet %}
 
 
-![!!Hub4184](https://cdnweb.devolutions.net/docs/en/hub/Hub4184.png)
+![!!Hub4184](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub4184.png)
 
 9. Click ***Send Invite***.
 

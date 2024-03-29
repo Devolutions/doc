@@ -24,4 +24,4 @@ Nous vous recommandons fortement de ***Supprimer tout***, mais cela peut être p
 Lorsque vous rencontrez des problèmes avec {{ fr.RDM }}, notre équipe de support peut vous demander d'augmenter le niveau de débogage de l'application pendant le processus d'assistance. Nous vous suggérons fortement d'augmenter le niveau de débogage uniquement sur demande de notre équipe d'assistance.
 
 Augmentez le niveau de débogage dans ***Fichier - Options - Avancée***.
-![File – Options – Advanced – Debug level](https://cdnweb.devolutions.net/docs/fr/rdm/windows/clip10813.png)
+![File – Settings – Advanced – Debug level](https://cdnweb.devolutions.net/docs/fr/rdm/windows/clip10813.png)

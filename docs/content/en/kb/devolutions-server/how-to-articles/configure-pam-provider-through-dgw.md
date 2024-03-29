@@ -8,16 +8,16 @@ This option makes it possible to support Active Directory domain accounts in {{ 
 1. Connect to the {{ en.DVLS }} web interface.
 1. Go to ***Administration*** – ***Privileged Access*** – ***Providers***.
 1. Click ***Edit*** on an already configured ***Domain Provider***.
-![Edit](https://cdnweb.devolutions.net/docs/en/kb/KB0160.png)
+![Edit](https://cdnweb.devolutions.net/docs/docs_en_kb_KB0160.png)
    {% snippet icon.badgeHelp %}
    Read more about [Domain Providers](/server/privileged-access-management/providers/domain-provider/).
    {% endsnippet %}
 
 1. Enable ***Use {{ en.DGW }}*** under the ***Domain*** section.
-![PAM domain account provider](https://cdnweb.devolutions.net/docs/en/kb/KB0000.png)
+![PAM domain account provider](https://cdnweb.devolutions.net/docs/docs_en_kb_KB0000.png)
 1. Click on the ellipsis button to choose the {{ en.DGW }} and then click on ***Select***.
-![Select](https://cdnweb.devolutions.net/docs/en/kb/KB0161.png)
+![Select](https://cdnweb.devolutions.net/docs/docs_en_kb_KB0161.png)
 1. Click on ***Edit*** to choose the ***Domain controller*** (which is now mandatory because of the ***Use {{ en.DGW }}*** option).
 1. Click on ***Save*** in the ***Preferred domain controller*** window.
-![Save](https://cdnweb.devolutions.net/docs/en/kb/KB0162.png)
+![Save](https://cdnweb.devolutions.net/docs/docs_en_kb_KB0162.png)
 1. To save these settings and close the window click on ***Save***.

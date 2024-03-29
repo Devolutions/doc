@@ -14,5 +14,5 @@ This feature requires an [Advanced Data Source](/rdm/windows/data-sources/data-s
 1. Open the data source you wish to optimize. 
 1. In the ribbon of {{ en.RDM }}, go to ***Administration***, and select ***Pack Data Source (Optimize)***.
 1. Click ***Analyze***.  
-![Pack Data Source (Optimize) – Analyze](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMWin6225.png) 
+![Pack Data Source (Optimize) – Analyze](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin6225.png) 
 1. Once the Analyze is completed click on ***Optimize*** to proceed with the optimization of your data source. You can select which ***{{ en.VLT }}*** you wish to ***Analyze*** and ***Optimize***, or use the ***Optimize All*** feature to perform the ***Optimize*** action on all available ***{{ en.VLT }}s***. 

@@ -34,6 +34,7 @@ Auf einem Server können mehrere {{ de.DVLS }}-Instanzen gehostet werden. Jede I
 ![Installation summary report](https://cdnweb.devolutions.net/docs/de/server/ServerOp8181.png)
 1. Verwenden Sie zur Anmeldung bei der {{ de.DVLS }}-Weboberfläche die Anmeldeinformationen von Punkt 2. Bevor Sie den Anmeldevorgang abschließen können, müssen Sie das Passwort ändern.
 ![Passwortänderung](https://cdnweb.devolutions.net/docs/de/server/ServerOp8182.png)
+1. Geben Sie Ihren Lizenzkey ein. Um die Free Version zu aktivieren, klicken Sie auf die Schaltfläche „Free Version aktivieren“.
 
 ### Erweiterte Installation
 1. Im ersten Schritt führt der Installationsassistent eine Diagnose auf dem Server durch, um zu überprüfen, ob der IIS Server alle notwendigen Voraussetzungen der Webfunktionen installiert hat und bereit ist, {{ de.DVLS }} auszuführen. Fehlende Funktionen werden mit einem Fehlersymbol gekennzeichnet. Mit Klick auf ***Voraussetzungen installieren*** werden alle fehlenden Funktionen mithilfe eines PowerShell-Skripts installiert. Für [IIS Application Request Routing (ARR)](https://api.devolutions.net/redirection/f19f07f3-5ea4-436d-a3ba-4bb69d373321), [IIS Rewrite Module](https://api.devolutions.net/redirection/3cb42413-5dfd-4b1b-bd20-4e5968274ed0) und [IIS ASP.NET Core Module (ANCM)](https://dotnet.microsoft.com/permalink/dotnetcore-current-windows-runtime-bundle-installer) ist eine Internetverbindung erforderlich.

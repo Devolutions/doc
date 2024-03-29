@@ -4,5 +4,5 @@ eleventyComputed:
 ---
 Display the ***User Information*** rights and permission configuration.
 
-![User Information](https://cdnweb.devolutions.net/docs/en/server/ServerOp8021.png)
+![User Information](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp8021.png)
 

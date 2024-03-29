@@ -17,7 +17,7 @@ Follow the steps below to disable ***Legacy Security*** in {{ en.RDM }}.
 
 1. Navigate to the ***Administration*** tab in {{ en.RDM }}.
 1. Under the ***Settings*** section, select ***System Settings***.
-![Administration – System Settings](https://cdnweb.devolutions.net/docs/en/kb/KB0026.png)
+![Administration – System Settings](https://cdnweb.devolutions.net/docs/docs_en_kb_KB0026.png)
 1. Go to ***{{ en.VLT_MAJ }} Management – Security Settings – Security*** and disable ***Use legacy security***.
-![Use legacy security](https://cdnweb.devolutions.net/docs/en/kb/KB0027.png)
+![Use legacy security](https://cdnweb.devolutions.net/docs/docs_en_kb_KB0027.png)
 1. Click ***Ok*** to apply the changes and close the window.

@@ -19,4 +19,4 @@ at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wpa
 ### Method 1
 Many issues related to it have been addressed in the latest version which you can download here; [https://devolutions.net/remote-desktop-manager/home/download](https://devolutions.net/remote-desktop-manager/home/download).
 ### Method 2
-The other solution is to switch between data sources or delete and recreate the data source in ***File - Data Sources***.
+The other solution is to switch between data sources or delete and recreate the data source in ***File – Data sources***.

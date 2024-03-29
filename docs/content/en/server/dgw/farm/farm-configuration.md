@@ -10,7 +10,7 @@ This topic will cover how to configure a {{ en.DGW }} farm through the web inter
 1. In the web interface for {{ en.DVLS }}, make sure you are connected to the right data source.
 1. Go to ***Administration*** – ***Modules*** – ***{{ en.DGW }}***.
 1. Click ***Add*** and click ***Gateway Farm***.
-![Gateway Farm](https://cdnweb.devolutions.net/docs/en/server/ServerOp0032.png)
+![Gateway Farm](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp0032.png)
 1. In the ***General*** tab, provide a name and description for the farm. You can also choose to set this farm as the default.
 
    {% snippet icon.badgeInfo %}

@@ -23,7 +23,7 @@ All passwords are encrypted by default. You can specify a custom password (maste
 
 ### Connection
 
-![XML - Connection tab](https://cdnweb.devolutions.net/docs/en/rdm/mac/clip10163.png)
+![XML - Connection tab](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10163.png)
 
 | OPTION   | DESCRIPTION |
 |----------|-------------|
@@ -32,7 +32,7 @@ All passwords are encrypted by default. You can specify a custom password (maste
 
 ### Backup
 
-![XML - Backup tab](https://cdnweb.devolutions.net/docs/en/rdm/mac/clip10164.png)
+![XML - Backup tab](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10164.png)
 
 | OPTION      | DESCRIPTION |
 |-------------|-------------|
@@ -41,7 +41,7 @@ All passwords are encrypted by default. You can specify a custom password (maste
 
 ### Advanced
 
-![XML - Advanced tab](https://cdnweb.devolutions.net/docs/en/rdm/mac/clip10502.png)
+![XML - Advanced tab](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10502.png)
 
 | OPTION                   | DESCRIPTION |
 |--------------------------|-------------|

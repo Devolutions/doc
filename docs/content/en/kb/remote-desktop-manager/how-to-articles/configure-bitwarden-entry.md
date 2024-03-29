@@ -20,8 +20,8 @@ To learn more about creating and managing a Bitwarden account, please consult th
 
 ## Credential Management
 Here is a description for each field or option, in order from top to bottom. The entry can be found under ***New Entry*** – ***Credential Management*** – ***Password Management***.
-![Credential Management](https://cdnweb.devolutions.net/docs/en/kb/KB0066.png)
-![General tab](https://cdnweb.devolutions.net/docs/en/kb/KB0067.png)
+![Credential Management](https://cdnweb.devolutions.net/docs/docs_en_kb_KB0066.png)
+![General tab](https://cdnweb.devolutions.net/docs/docs_en_kb_KB0067.png)
 * ***Name***: Entry name in {{ en.RDM }}
 * ***Folder***: Which {{ en.RDM }} folder the entry will be in
 
@@ -40,8 +40,8 @@ Here is a description for each field or option, in order from top to bottom. The
 
 ## Synchronizer
 Here is a description for each field or option, in order from top to bottom. The entry can be found under ***New Entry*** – ***Synchronizer***:
-![Synchronizer](https://cdnweb.devolutions.net/docs/en/kb/KB0068.png)
-![General tab](https://cdnweb.devolutions.net/docs/en/kb/KB0069.png)
+![Synchronizer](https://cdnweb.devolutions.net/docs/docs_en_kb_KB0068.png)
+![General tab](https://cdnweb.devolutions.net/docs/docs_en_kb_KB0069.png)
 * ***Name***: Entry name in {{ en.RDM }}
 * ***Folder***: Which {{ en.RDM }} folder the entry will be in
 * ***Credentials***: Read more on [***Credentials*** options](/rdm/windows/commands/edit/entries/entry-credentials-options/)
@@ -61,7 +61,7 @@ Here is a description for each field or option, in order from top to bottom. The
     * ***Destination folder***: Check for duplicates only within the {{ en.RDM }} destination folder or subfolder
 
 ### Filter
-![Filter tab](https://cdnweb.devolutions.net/docs/en/kb/KB0070.png)
+![Filter tab](https://cdnweb.devolutions.net/docs/docs_en_kb_KB0070.png)
 * ***Filter box***: It will load the Bitwarden {{ en.VLT }} to let the user pick the wanted Organizations/Collections for synchronization
 * ***Filter severity***
     * ***Normal***: Accounts that are either in the selected folders or collections will be returned
@@ -69,7 +69,7 @@ Here is a description for each field or option, in order from top to bottom. The
 * ***Create tags for Organizations/Collections***: If enabled, organization and collection tags from Bitwarden will be added to the {{ en.RDM }} entry
 
 ### Advanced
-![Advanced tab](https://cdnweb.devolutions.net/docs/en/kb/KB0071.png)
+![Advanced tab](https://cdnweb.devolutions.net/docs/docs_en_kb_KB0071.png)
 * ***Session name prefix***: A prefix for the entry
 * ***Session name suffix***: A suffix for the entry
 * ***Action on entry mismatch***

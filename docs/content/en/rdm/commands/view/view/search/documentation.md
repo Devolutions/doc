@@ -13,11 +13,11 @@ We can search documentation pages linked to entries. ***Documentation Search*** 
 The ***Documentation*** feature is encrypted only for the {{ en.DVLS }} data source. If you are using data sources such as SQL Server or Azure SQL, the feature is not encrypted.
 {% endsnippet %}
 
-![Documentation Search Window](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip9001.png)
+![Documentation Search Window](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip9001.png)
 
 ## User Interface
 
-![Documentation Search Elements](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip7003.png)
+![Documentation Search Elements](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip7003.png)
 
 | ELEMENTS                 | DESCRIPTION                                   |
 |--------------------------|-----------------------------------------------|

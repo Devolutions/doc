@@ -19,12 +19,12 @@ You must be an administrator of the data source to perform this action.
 1. Select prior to which date the ***Deleted Entries*** history will be deleted.
 1. Select from which {{ en.VLT }} the ***Deleted Entries*** history will be deleted.
 1. Click ***OK***.
-![Clean Up Deleted History](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMWin0003.png)
+![Clean Up Deleted History](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin0003.png)
    {% snippet icon.badgeWarning %}
    There will be no backup of the ***Deleted History***. We strongly recommend to do a [Backup](/rdm/windows/commands/file/backup/) before proceeding.
    {% endsnippet %}
 
 1. Click on ***Proceed anyway***.
-![Confirmation window](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMWin0004.png)
+![Confirmation window](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin0004.png)
 
 1. Click ***OK*** to close the dialog window.

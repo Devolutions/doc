@@ -10,17 +10,17 @@ PAM {{ en.VLT }}s are one of the key features of {{ en.DHUB }}'s privileged acce
 
 Creating a PAM {{ en.VLT }} via the {{ en.DHUB }} web interface is not that much different from creating a regular {{ en.VLT }}. In ***Administration – {{ en.VLT_MAJ }}s***, click on ***Add (+)***, then ***Add PAM {{ en.VLT }}*** as shown in the image below.
 
-![Add a PAM {{ en.VLT }}](https://cdnweb.devolutions.net/docs/en/hub/Hub2288.png)
+![Add a PAM {{ en.VLT }}](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub2288.png)
 
 Alternatively, you can also create a PAM {{ en.VLT }} via the ***{{ en.NPANE }}***'s {{ en.VLT }} selector by clicking on the ellipsis button and selecting ***Add PAM {{ en.VLT }}***.
 
-![Add a PAM {{ en.VLT }} via the {{ en.NPANE }}](https://cdnweb.devolutions.net/docs/en/hub/Hub2289.png)
+![Add a PAM {{ en.VLT }} via the {{ en.NPANE }}](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub2289.png)
 
 ## PAM {{ en.VLT }} setup
 
 Either way, you are now presented with the setup window for your PAM {{ en.VLT }}.
 
-![PAM {{ en.VLT }} setup](https://cdnweb.devolutions.net/docs/en/hub/Hub2290.png)
+![PAM {{ en.VLT }} setup](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub2290.png)
 
 Start by entering a ***Name*** for your PAM {{ en.VLT }} (mandatory) and a ***Description*** (optional). Then, set its visibility:
 * ***Default***: Refers to the system-wide {{ en.VLT }} visibility set in ***Administration – Configuration & Security – System Settings – {{ en.VLT_MAJ }}***.
@@ -49,11 +49,11 @@ Alternatively, you can assign a specific role at the privileged account entry le
 
 When you click ***Add*** at the bottom of the settings, the new PAM {{ en.VLT }} will be created. You can find it in ***Administration – {{ en.VLT_MAJ }}s***. The number of PAM {{ en.VLT }}s is also displayed at the top.
 
-![{{ en.VLT_MAJ }}s list](https://cdnweb.devolutions.net/docs/en/hub/Hub2291.png)
+![{{ en.VLT_MAJ }}s list](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub2291.png)
 
 You can access all your {{ en.VLT }}s via the {{ en.VLT }} selector in the ***{{ en.NPANE }}***.
 
-![{{ en.VLT_MAJ }} selector](https://cdnweb.devolutions.net/docs/en/hub/Hub2292.png)
+![{{ en.VLT_MAJ }} selector](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub2292.png)
 
 {% snippet icon.badgeHelp %}
 The next step is to add privileged accounts to your new PAM {{ en.VLT }}. Visit [Privileged accounts](/hub/privileged-access-management/privileged-accounts/index/) for more information.

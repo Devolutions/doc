@@ -9,7 +9,7 @@ Please note that if your Windows profile is corrupted, {{ en.RDMA }} and {{ en.R
 The {{ en.RDMA }} can run commands on remote hosts, but what is really useful is that it can send commands to multiple hosts at the same time. Since {{ en.RDM }} uses a secure RDP channel to communicate with the {{ en.RDMA }}, it can only operate against Windows-based hosts.
 
 It supports both environment and {{ en.RDM }} variables. {{ en.RDM }} variables (i.e. $HOST$, basically all the ones surrounded by dollar signs) are resolved on the client against the running session, while environment variables (i.e. %windir%, basically all the ones surrounded by percent signs) will be resolved on the remote host at execution time. You can use {{ en.RDM }} variables while running file based scripts (.ps1) within the command. The file based script variables (.ps1) will be resolved prior to sending the script to the destination host.
-![{{ en.RDMA }}](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip11234.png)
+![{{ en.RDMA }}](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip11234.png)
 
 ## Scenarios
 The {{ en.RDMA }} can be used to run scripts from another {{ en.RDM }} installation. Since it uses an RDP channel for communication, it saves you from remote management headaches such as opening various ports in your firewall. This requires the lightweight installation model of just the agent package (Methods 2-4 below).

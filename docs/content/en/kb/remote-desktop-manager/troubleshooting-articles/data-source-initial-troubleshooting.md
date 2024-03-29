@@ -27,5 +27,5 @@ For a Web based VPN, ensure the routes are all valid, i.e. the path followed to 
 ### An anti-virus or firewall is blocking the application
 This may be hard to diagnose but sadly the support department can attest that it occurs quite often. Here are some items to monitor.
 
-![!!KB2003](https://cdnweb.devolutions.net/docs/en/kb/KB2003.png)
+![!!KB2003](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2003.png)
 If you are in a position to do so, it may help to TEMPORARILY disable the AV and the Firewall. You must make an informed decision as to the risk that is involved in your situation. Always enable all security features as soon as you have ascertained if that component was causing the issue.

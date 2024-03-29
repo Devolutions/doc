@@ -9,7 +9,7 @@ Import contacts from an external source into {{ en.RDM }} via ***File – Import
 The import feature is only active if the import ***Privilege*** has been enabled inside the user account.
 {% endsnippet %}
 
-![File – Import – Contacts](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip10882.png)
+![File – Import – Contacts](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip10882.png)
 
 ### Import from Contact
 

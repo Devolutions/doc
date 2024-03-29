@@ -4,7 +4,7 @@ eleventyComputed:
   description: Create a Task List to keep track of work that needs to be done by the team.
 ---
 Create a ***Task List*** to keep track of work that needs to be done by the team. Toggle the ***Task List*** pane in the ***View*** tab.
-![Task List Button](https://cdnweb.devolutions.net/docs/en/rdm/mac/RDMMac0016.png)
+![Task List Button](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_RDMMac0016.png)
 
 You can perform a search to filter out the list of displayed tasks. You can search by ***Due Date***, ***Status***, or ***Username***.
 
@@ -12,14 +12,14 @@ You can perform a search to filter out the list of displayed tasks. You can sear
 This feature is only available for the following data sources: [{{ en.DVLS }}](/rdm/mac/data-sources/data-sources-types/advanced-data-sources/server/), [Azure SQL](/rdm/mac/data-sources/data-sources-types/advanced-data-sources/microsoft-azure-sql/), [SQL Server](/rdm/mac/data-sources/data-sources-types/advanced-data-sources/microsoft-sql-server/), and [SQLite](/rdm/mac/data-sources/data-sources-types/sqlite/).
 {% endsnippet %}
 
-![Task List](https://cdnweb.devolutions.net/docs/en/rdm/mac/RDMMac0017.png)
+![Task List](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_RDMMac0017.png)
 
 ### Creating a task
 
 1. Click on ***New*** to open the ***Task Management*** window.
-![New Button](https://cdnweb.devolutions.net/docs/en/rdm/mac/RDMMac0018.png)
+![New Button](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_RDMMac0018.png)
 1. Enter your task information, like the name of the task, the priority, the due date, the description, etc.
-![Task Management](https://cdnweb.devolutions.net/docs/en/rdm/mac/RDMMac2146.png)
+![Task Management](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_RDMMac2146.png)
 
 | OPTION        | DESCRIPTION                                                                                                                     |
 |---------------|---------------------------------------------------------------------------------------------------------------------------------|

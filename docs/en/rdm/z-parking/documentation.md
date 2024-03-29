@@ -14,5 +14,5 @@ The feature for using ***Documentation*** in offline mode is available for docum
 Enable the ***Synchronize document to offline*** in the ***Security Settings***. This property is set to be inherited by default.
 {% endsnippet %}
 
-![Dashboard tabs - Documentation](https://cdnweb.devolutions.net/docs/en/rdm/mac/clip6059.png)
+![Dashboard tabs - Documentation](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip6059.png)
 

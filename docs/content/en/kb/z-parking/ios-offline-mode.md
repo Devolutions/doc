@@ -16,7 +16,7 @@ Please note that there is no Read/Write level permission for the Offline Mode on
 
 ## Offline Mode
 
-![!!KB4158](https://cdnweb.devolutions.net/docs/en/kb/KB4158.png)
+![!!KB4158](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4158.png)
 
 ***Disabled***: Prevents an offline cache from being used.
 

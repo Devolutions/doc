@@ -24,10 +24,10 @@ Follow the steps below to learn how to make a temporary access request:
 
 1. In the ***{{ en.NPANE }}*** of {{ en.RDM }}, open the entry you want access to by double clicking on it.
 1. A message will pop up asking if you want to send a request to get temporary access. Click ***Yes***.
-![Send a temporary access request](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMWin2059.png)
+![Send a temporary access request](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin2059.png)
 1. In the ***Temporary Access Request*** window, select ***Access duration***. You can click ***Set custom time frame*** if you need access for a specific period of time.
 1. Choose the approver you want to send the request to.
-![Temporary Access Request](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMWin6011.png)
+![Temporary Access Request](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin6011.png)
 1. Write a short ***Message*** to the approver explaining why you want access to this entry and its dependencies. This is optional, but we strongly recommend it as it allows the approver to make a more informed decision. When you are done, click on ***Send Request***.
 1. A message will appear indicating that the request has been sent to the approver. Click ***OK*** to make it disappear.
 
@@ -40,18 +40,18 @@ Once the approver has approved you access, you can go straight to your entry in 
 ## Request temporary access to a credentials entry
 
  Users can request access to a credentials entry to view and copy passwords. The process is the same as described above. Once the approver has given you access, you can use the ***View Password***, ***Copy Username***, ***Copy Username and Password*** and ***Copy Password*** buttons.
- ![View Password, Copy Username, Copy Username and Password  and Copy Password buttons](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMWin6026.png)
+ ![View Password, Copy Username, Copy Username and Password  and Copy Password buttons](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin6026.png)
  You can also view these buttons by right-clicking on the entry.
-  ![Right-clicking on the entry](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMWin6216.png)
+  ![Right-clicking on the entry](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin6216.png)
 
 ## Revoke your temporary access
 
 For any reason, you may revoke your temporary access. Be sure you want to do this first, since to regain access to your entry, you will need to make another request. Otherwise, your access will end within the time frame set by you and the approver.
 
 1. Select your entry in the ***{{ en.NPANE }}***. Then, from the ***Actions*** menu of your ***Dashboard***, click on ***Revoke Temporary Access***.
-![Revoke Temporary Access](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMWin2065.png)
+![Revoke Temporary Access](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin2065.png)
 1. Click ***Yes*** when asked if you are sure you want to revoke your temporary access.
-![Confirm temporary access revocation](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMWin2066.png)
+![Confirm temporary access revocation](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin2066.png)
 1. The next window will indicate that the revocation has been executed. Click on OK to make this window disappear.
 
 Your temporary access has now been revoked.

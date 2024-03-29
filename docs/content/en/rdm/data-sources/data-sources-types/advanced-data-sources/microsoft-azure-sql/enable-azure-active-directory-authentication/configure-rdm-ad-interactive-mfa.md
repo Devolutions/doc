@@ -17,7 +17,7 @@ Use the servers defined Azure Active Directory administrator to create your firs
 
 ## Settings
 
-![Microsoft SQL Azure with MFA support](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMWin2180.png)
+![Microsoft SQL Azure with MFA support](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin2180.png)
 
 1. In {{ en.RDM }}, go to ***File – Data Sources*** and click on ***Add a New Data Source***.
 1. Select the ***Microsoft Azure SQL*** data source type.
@@ -28,7 +28,7 @@ Use the servers defined Azure Active Directory administrator to create your firs
    On first connect, the username must be the Active Directory administrator as defined in [Configure the Azure Active Directory administrator](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/microsoft-azure-sql/enable-azure-active-directory-authentication/configure-admin/). Once you add other AD users in {{ en.RDM }}, they will be able to connect.
    {% endsnippet %}
    {% snippet icon.badgeCaution %}
-   ![!!RDMWin2217](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMWin2217.png) If you get the error message ***Unable to connect to the database! Login failed for user '&lt;token-identified principal&gt;'.***, double-check the username for spelling errors.
+   ![!!RDMWin2217](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin2217.png) If you get the error message ***Unable to connect to the database! Login failed for user '&lt;token-identified principal&gt;'.***, double-check the username for spelling errors.
    {% endsnippet %}
 1. Enter the ***Database*** to authenticate to.
 1. Click ***OK***.

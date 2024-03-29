@@ -17,7 +17,7 @@ If you want to change the credential type, go in **%LOCALAPPDATA%** (Default) or
 **\Devolutions\RemoteDesktopManager** and delete the **Credentials.rdt** file to reset it.
 {% endsnippet %}
 
-![My Personal Credentials](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip10269.png)
+![My Personal Credentials](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip10269.png)
 
 My Personal Credentials can be selected in your entries under Credentials.
-![Credentials - My personal credentials](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip11293.png)
+![Credentials - My personal credentials](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip11293.png)

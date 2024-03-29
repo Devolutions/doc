@@ -16,7 +16,7 @@ Here are the steps to stop your built-in browser password manager from asking to
 1. Click the Chrome menu in the toolbar and choose ***Settings***.
 2. Under ***Autofill***, click ***Passwords***.
 3. Turn off ***Offer to save passwords***.
-![!!KB4610](https://cdnweb.devolutions.net/docs/en/kb/KB4610.png)
+![!!KB4610](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4610.png)
 
 ## Firefox
 <a name="firefox"></a>
@@ -24,7 +24,7 @@ Here are the steps to stop your built-in browser password manager from asking to
 1. Click the Firefox menu in the toolbar and choose ***Options*** (***Preferences*** in macOS).
 2. Click ***Privacy & Security***.
 3. Turn off ***Ask to save logins and passwords for websites***.
-![!!KB4612](https://cdnweb.devolutions.net/docs/en/kb/KB4612.png)
+![!!KB4612](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4612.png)
 
 ## Microsoft Edge
 <a name="microsoft"></a>
@@ -32,7 +32,7 @@ Here are the steps to stop your built-in browser password manager from asking to
 1. Click the Edge menu in the toolbar and choose ***Settings***.
 2. Click ***Passwords and autofill***.
 3. Turn off ***Save passwords***.
-![!!KB4614](https://cdnweb.devolutions.net/docs/en/kb/KB4614.png)
+![!!KB4614](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4614.png)
 
 ## Safari
 <a name="safari"></a>
@@ -40,7 +40,7 @@ Here are the steps to stop your built-in browser password manager from asking to
 1. Click the Safari menu and choose ***Preferences***.
 2. Click the ***AutoFill*** icon.
 3. Turn off all the AutoFill web forms settings: ***Using info from my contacts***, ***User names and passwords***, ***Credit cards***, and ***Other forms***.
-![!!KB4615](https://cdnweb.devolutions.net/docs/en/kb/KB4615.png)
+![!!KB4615](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4615.png)
 
 ## Internet Explorer
 <a name="explorer"></a>
@@ -49,4 +49,4 @@ Here are the steps to stop your built-in browser password manager from asking to
 2. Click the ***Content*** tab.
 3. In the ***AutoComplete*** section, click ***Settings***.
 4. Turn off ***Forms and Searches*** and ***User names and passwords on forms***, then click ***OK***.
-![!!KB4616](https://cdnweb.devolutions.net/docs/en/kb/KB4616.png)
+![!!KB4616](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4616.png)

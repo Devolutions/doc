@@ -23,7 +23,7 @@ What happens if you run the following at the command prompt?
 ## Problem 1
 Remote access error 623.
 
-![!!KB4079](https://cdnweb.devolutions.net/docs/en/kb/KB4079.png)
+![!!KB4079](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4079.png)
 
 ### Solution
 Ensure that within the phonebook, the vpn definition name does contain a space character.

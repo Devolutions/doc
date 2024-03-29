@@ -17,12 +17,12 @@ Here are the steps to follow:
 1. Restore the SQL database.
 1. Install the previous working version of the {{ en.DVLSCONSOLE }}.
 1. Create a new {{ en.DVLS }} instance and connect it to the restored database. Use steps 3 to 6 on the following [page](/server/installation/create-server-instance/).
-![!!KB4647](https://cdnweb.devolutions.net/docs/en/kb/KB4647.png)
+![!!KB4647](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4647.png)
 1. Select the DPS offline zip file and set the Installation Destination parameters.
-![!!KB4648](https://cdnweb.devolutions.net/docs/en/kb/KB4648.png)
+![!!KB4648](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4648.png)
 1. Click on the install button to Import the Encryption Keys.
-![!!KB4649](https://cdnweb.devolutions.net/docs/en/kb/KB4649.png)
-![!!KB4650](https://cdnweb.devolutions.net/docs/en/kb/KB4650.png)
-![!!KB4651](https://cdnweb.devolutions.net/docs/en/kb/KB4651.png)
-![!!KB4652](https://cdnweb.devolutions.net/docs/en/kb/KB4652.png)
+![!!KB4649](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4649.png)
+![!!KB4650](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4650.png)
+![!!KB4651](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4651.png)
+![!!KB4652](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4652.png)
 1. To finish the installation close the window.

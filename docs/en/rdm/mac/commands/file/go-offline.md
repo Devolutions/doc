@@ -25,4 +25,4 @@ Some options will not be available in the Offline mode:
 ## Offline Mode
 
 In the Data Source tab of the My Data Source Information the offline mode displays the size of the offline file along with the effective mode (disabled, read-only or writable). Hover the mouse over the offline mode to get the full offline mode display.
-![My Data Source Information - Offline Mode](https://cdnweb.devolutions.net/docs/en/rdm/mac/clip10303.png)
+![My Data Source Information - Offline Mode](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10303.png)

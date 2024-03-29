@@ -28,8 +28,8 @@ We recommend you follow these steps to ensure data security:
 * Use encrypted communication with the database when available. 
 * Use the [System Settings](/rdm/windows/commands/administration/settings/system-settings/general/security/) to control settings impacting security. 
 * Use the [Security Provider](/rdm/windows/commands/administration/settings/security-providers/) to encrypt entries completely instead of just the password. 
-* If using the offline mode, add your own password for an additional layer of protection to the local cache. Go to ***File - Options - Security***. 
-* Require a password to launch the application and even require two-factor authentication. Go to ***File - Options - Security***. 
+* If using the offline mode, add your own password for an additional layer of protection to the local cache. Go to ***File – Settings – Security***. 
+* Require a password to launch the application and even require two-factor authentication. Go to ***File – Settings – Security***. 
 * If your data source supports it, choose not to save password in the data source, which will prompt for the credentials on the first connection. 
 * Use our [Group policies](/kb/remote-desktop-manager/how-to-articles/group-policies/) to set up the system. 
 

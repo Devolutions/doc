@@ -6,4 +6,4 @@ The ***Diagnostic*** report contains information such as the {{ en.DVLS }} and d
 
 This report is useful for troubleshooting or as an indication of your {{ en.DVLS }} size and content.
 
-![Reports - Diagnostic](https://cdnweb.devolutions.net/docs/en/server/ServerOp8135.png)
+![Reports - Diagnostic](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp8135.png)

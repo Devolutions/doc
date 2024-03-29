@@ -8,14 +8,14 @@ The ***Data Source Information*** window displays various information related to
 The ***My Data Source Information*** view can be different depending on the [Data Source Type](/rdm/windows/data-sources/data-sources-types/). This topic uses an SQL Server data source.
 {% endsnippet %}
 
-![File – My Data Source Information](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip3567.png)
+![File – My Data Source Information](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip3567.png)
 
 ## User and security
 
 ### General
 
 The General tab displays information about the current user and data source configuration.
-![My Data Source Information - General](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip10881.png)
+![My Data Source Information - General](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip10881.png)
 
 | OPTION                      | DESCRIPTION                                                                                     |
 |-----------------------------|-------------------------------------------------------------------------------------------------|
@@ -32,7 +32,7 @@ The General tab displays information about the current user and data source conf
 
 ### Entries
 
-![My Data Source Information – Entries](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip10065.png)
+![My Data Source Information – Entries](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip10065.png)
 
 | OPTION                                 | DESCRIPTION                                                                   |
 |----------------------------------------|-------------------------------------------------------------------------------|
@@ -50,4 +50,4 @@ The ***User Groups*** tab displays the user groups that the user is a member of 
 This feature is only available with an SQL Server/Azure SQL and a {{ en.DVLS }} (DVLS) data source.
 {% endsnippet %}
 
-![!!RDMWin2219](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMWin2219.png)
+![!!RDMWin2219](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin2219.png)

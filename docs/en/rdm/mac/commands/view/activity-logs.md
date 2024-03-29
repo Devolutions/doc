@@ -3,7 +3,7 @@ eleventyComputed:
   title: Activity logs
 ---
 ***Activity Logs*** provide a robust logging solution. With this feature, it is possible to monitor an open session for all users using [Advanced Data Sources](/rdm/mac/data-sources/data-sources-types/advanced-data-sources/). The log is available in the ***View*** tab.
-![Activity Logs Button](https://cdnweb.devolutions.net/docs/en/rdm/mac/RDMMac0040.png)
+![Activity Logs Button](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_RDMMac0040.png)
 
 {% snippet icon.badgeInfo %}
 Depending on the permissions each user has, they may only be able to access ***Local Connection Logs***.
@@ -11,12 +11,12 @@ Depending on the permissions each user has, they may only be able to access ***L
 
 ### Search
 All activities in the data source are automatically displayed when opening the ***Activity Logs*** without having to apply any settings. However, search fields are available and can be useful when there are many activity entries. The results can be refined by specifying the ***Date*** or a custom period, the ***Username***, the ***Message***, the ***Host***, the ***Folder***, the ***On open comment*** and the ***On close comment***. It is also possible to choose between ***Local Time***, ***Original Time*** and ***UTC Time*** and to search in all {{ en.VLT }}s or in the current {{ en.VLT }} only. When all the criteria have been chosen, the ***Search*** button will apply them to the results.
-![Activity Logs Search Fields](https://cdnweb.devolutions.net/docs/en/rdm/mac/RDMMac0041.png)
+![Activity Logs Search Fields](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_RDMMac0041.png)
 
 ### Logs
 
 The log contains all the CRUD operations (add, edit, and delete), passwords being viewed, credentials being used by other sessions, etc. It is possible to right-click an entry to access more options.
-![Logs](https://cdnweb.devolutions.net/docs/en/rdm/mac/RDMMac0042.png)
+![Logs](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_RDMMac0042.png)
 
 The information available for each activity line is presented in the following table.
 

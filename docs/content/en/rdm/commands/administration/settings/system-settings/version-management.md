@@ -8,7 +8,7 @@ The ***Version Management*** allows the administrators to manage the data source
 
 ## Windows, macOS, and Linux
 
-![Version Management](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMWin2239.png)
+![Version Management](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin2239.png)
 
 | OPTION                                                    | DESCRIPTION
 |-----------------------------------------------------------|----------------------------------------------|

@@ -31,17 +31,17 @@ Both instances of {{ en.RDMJ }} or {{ en.RDM }} and {{ en.RDMA }} running on the
 ### Accessing a secure network through a single host
 
 This allows you to have a strict firewall policy that allows connections only from a specific IP address. This configuration only grants you access to hosts that are accessible from the Jump Box. Imagine you have the following infrastructure:
-![!!clip10825](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip10825.png)
+![!!clip10825](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip10825.png)
 
 You need to access the remote hosts, but you want to limit risks and expose only the Jump Host to the internet traffic. This allows you to create strict firewall rules and to open only a single port. Therefore, it forces you to connect to the Jump Host before hopping to a remote host.
-![!!clip10826](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip10826.png)
+![!!clip10826](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip10826.png)
 
 {{ en.RDMJ }} helps achieve that goal simply and efficiently.
 
 ### Workaround limitations of some VPN clients
 
 These limitations make it impossible to use multiple VPN clients concurrently on the same workstation. In this case, you can have multiple virtual machines, each running a single VPN client. Using these virtual machines as jump boxes allows you to connect to the virtual machine, launch the VPN client, then launch the remote session.
-![!!clip10820](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip10820.png)
+![!!clip10820](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip10820.png)
 
 ## Configure a Jump Host
 
@@ -51,10 +51,10 @@ These limitations make it impossible to use multiple VPN clients concurrently on
    For ***Jumps*** to work, you need to supply the credentials via the ***Jump Host*** session. If the RDP sessions prompt you for the credentials after the start, the ***Jump*** will fail.
    {% endsnippet %}
 
-   ![Create an RDP entry for the Jump Host](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMWin6193.png)
+   ![Create an RDP entry for the Jump Host](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin6193.png)
 
 1. In the ***Jump Host*** section, check ***Is Jump host***.
-![Check Is Jump host](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMWin6195.png)
+![Check Is Jump host](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin6195.png)
 1. Click ***OK***.
 1. Launch the ***Jump Host*** session.
 1. Install {{ en.RDM }} on the ***Jump Host***.
@@ -80,7 +80,7 @@ These limitations make it impossible to use multiple VPN clients concurrently on
     1. Select {{ en.RDMA }}.
     1. Click ***OK***.
     1. Click ***Yes***.
-![!!RdmWin4058](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMWin6196.png)
+![!!RdmWin4058](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin6196.png)
 
 1. Right-click the {{ en.RDMA }} icon in the taskbar.
     1. Check ***Auto Start***.
@@ -103,7 +103,7 @@ The ***Jump Host*** is ready to use.
     * The ***Jump Host*** can be ***Inherited*** if it is defined in the parent folder.
 or
     * Choose a specific ***Session*** to point directly to the ***Jump Host*** entry.
-![!!RDMWin2235](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMWin2235.png)
+![!!RDMWin2235](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin2235.png)
 1. Click ***OK*** twice.
 1. Launch the RDP session. The {{ en.RDMJ }} opens automatically and it looks like a session in a session.
 

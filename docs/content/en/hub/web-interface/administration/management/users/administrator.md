@@ -12,4 +12,4 @@ eleventyComputed:
 A restart of {{ en.RDM }} may be needed to activate the administrator rights.
 {% endsnippet %}
 
-![!!Hub4104](https://cdnweb.devolutions.net/docs/en/hub/Hub4104.png)
+![!!Hub4104](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub4104.png)

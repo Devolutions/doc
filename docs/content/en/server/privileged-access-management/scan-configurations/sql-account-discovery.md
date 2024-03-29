@@ -4,7 +4,7 @@ eleventyComputed:
   description: The SQL account discovery allows {{ en.DVLS }} to scan the host to find accounts.
 ---
 The SQL account discovery allows {{ en.DVLS }} to scan the host to find accounts. The accounts will not be automatically added in the Privileged Access Management folders.
-![SQL account discovery dialog](https://cdnweb.devolutions.net/docs/en/server/ServerOp2117.png)
+![SQL account discovery dialog](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp2117.png)
 
 ## General
 | Option | Description                                |

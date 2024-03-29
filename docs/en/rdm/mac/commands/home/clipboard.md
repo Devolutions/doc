@@ -16,7 +16,7 @@ When using an [Advanced Data Source](/rdm/mac/data-sources/data-sources-types/ad
 
 ## Settings
 
-![Home - Copy options](https://cdnweb.devolutions.net/docs/en/rdm/mac/clip10327.png)
+![Home - Copy options](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10327.png)
 
 ### Copy Username
 

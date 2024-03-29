@@ -21,9 +21,9 @@ The integration of credentials from password managers is only available in the T
 
 1. Open a web browser and log into your Psono account.
 1. Click on your email address and select ***Other***.
-![!!KB4891](https://cdnweb.devolutions.net/docs/en/kb/KB4891.png)
+![!!KB4891](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4891.png)
 1. Click ***Create new API key***.
-![!!KB4892](https://cdnweb.devolutions.net/docs/en/kb/KB4892.png)
+![!!KB4892](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4892.png)
 1. ***Name*** the API key, we suggest {{ en.RDM }}
 1. Choose whether to check the ***Secret Restriction?*** box:
 * If you check the box, you will need to add a secret to every Psono folder. Follow Psono's [Creating secrets](https://doc.psono.com/user/basic/creating-secrets.html#creating-secrets) for more information.
@@ -34,21 +34,21 @@ Both options are supported in {{ en.RDM }}; it all depend on the access level th
 
 6. Check ***Right to read*** and ***Right to write***.
 1. Click ***Create***.
-![!!KB4893](https://cdnweb.devolutions.net/docs/en/kb/KB4893.png)
+![!!KB4893](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4893.png)
 1. Click the edit button next to the new API key you created.
-![!!KB4894](https://cdnweb.devolutions.net/docs/en/kb/KB4894.png)
+![!!KB4894](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4894.png)
 1. You will find in the ***Details*** section the information required for the configuration of {{ en.RDM }}
-![!!KB4895](https://cdnweb.devolutions.net/docs/en/kb/KB4895.png)
+![!!KB4895](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4895.png)
 
 ### Configure Psono in {{ en.RDM }}
 <a name="rdm"></a>
 
 1. In {{ en.RDM }} click ***New entry***.
 1. Use the search field to locate Psono, click ***OK***.
-![!!KB4899](https://cdnweb.devolutions.net/docs/en/kb/KB4899.png)
+![!!KB4899](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4899.png)
 1. Copy/Paste all the Psono API Key details from your account.
 1. Check ***Always prompt with list***.
-![!!KB4896](https://cdnweb.devolutions.net/docs/en/kb/KB4896.png)
+![!!KB4896](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4896.png)
 1. Optional: To allow OTP, click the ***Advanced*** tab and check the ***Allow OPT retrieval*** option.
 1. Click ***OK***.
 

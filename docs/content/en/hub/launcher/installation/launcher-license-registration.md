@@ -14,11 +14,11 @@ Only ***Administrators*** and users with permissions in the ***System Permission
 
 1. Go to ***Administration - Licenses***.
 1. Click the ***Add*** button.
-![!!Hub4007](https://cdnweb.devolutions.net/docs/en/hub/Hub4007.png)
+![!!Hub4007](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub4007.png)
 1. Paste the ***License*** and click ***Add***.
-![!!Hub4008](https://cdnweb.devolutions.net/docs/en/hub/Hub4008.png)
+![!!Hub4008](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub4008.png)
 1. Click the ***Edit*** button next to the product ***{{ en.DLAUNCHER }}*** license.
-![!!Hub4010](https://cdnweb.devolutions.net/docs/en/hub/Hub4010.png)
+![!!Hub4010](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub4010.png)
 1. Click ***Assigned To*** and manage your users license access.
-![!!Hub4011](https://cdnweb.devolutions.net/docs/en/hub/Hub4011.png)
+![!!Hub4011](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub4011.png)
 1. Click ***Update*** to save.

@@ -17,10 +17,10 @@ Learn how to add a website entry by following the instructions from these sectio
 
 ### Automatically Add a Website Entry
 1. Go to the login page of the website. This page will be different for each website; this topic will use the Atlassian website as an example.
-![Login Page](https://cdnweb.devolutions.net/docs/en/hub/Hub2055.png)
+![Login Page](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub2055.png)
 1. Websites usually ask for information such as an email address/username and a password. Follow the website’s login process until you log in to your account.
 1. A {{ en.WBEX }} ***Add Website*** window will pop up in the corner of your web browser.
-![Add Website](https://cdnweb.devolutions.net/docs/en/hub/Hub2054.png)
+![Add Website](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub2054.png)
 1. Provide a ***Name*** for the entry. You can keep the default name or change it, but we recommend that it reflects the content of the entry so that it is easier to find when needed.
 1. Select the ***{{ en.VLT }}*** and ***folder*** in which to save your website entry.
 1. Click ***Save***.
@@ -29,11 +29,11 @@ Your credentials are now securely stored in a new website entry in {{ en.DHUBB }
 
 ### Manually Add a Website Entry
 1. Go to the login page of the website. This page will be different for each website; this topic will use the Atlassian website as an example.
-![!!Hub2055](https://cdnweb.devolutions.net/docs/en/hub/Hub2055.png)
+![!!Hub2055](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub2055.png)
 1. Click on the {{ en.WBEX }} icon in your browser toolbar and, in the ***Matching*** tab, click on the ***Add Website*** button.
-![Add Website Button](https://cdnweb.devolutions.net/docs/en/hub/Hub2057.png)
+![Add Website Button](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub2057.png)
 1. The {{ en.WBEX }} ***New Entry - Website*** tab will open in your browser.
-![New Entry - Website (General Tab)](https://cdnweb.devolutions.net/docs/en/hub/Hub2132.png)
+![New Entry - Website (General Tab)](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub2132.png)
 1. Provide a ***Name*** for the entry. You can keep the default name or change it, but we recommend that it reflects the content of the entry so that it is easier to find when needed.
 1. Select the ***{{ en.VLT }}*** and ***folder*** in which to save your credentials.
 1. The ***Host*** drop-down list is set to ***Custom*** by default. This allows the {{ en.WBEX }} to automatically specify the ***URL*** in the next field with the login page URL from step 1.

@@ -11,6 +11,6 @@ This issue can be caused by a corruption of the local cache. There are several m
 Press <kbd>Ctrl</kbd>+<kbd>F5</kbd> on your keyboard.
 ### Method 2
 Hold the <kbd>Ctrl</kbd> key on your keyboard and click on the refresh button in the Quick Access Toolbar.
-![!!KB4071](https://cdnweb.devolutions.net/docs/en/kb/KB4071.png)
+![!!KB4071](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4071.png)
 ### Method 3
 You can manage the local cache by doing a ***Vaccum***, a ***Repair*** or a ***Delete***.

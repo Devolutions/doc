@@ -10,13 +10,13 @@ Die Installation von {{ de.DVLS }} wird unter Windows Server 2016, 2019 und 2022
 {% endsnippet %}
 
 {% snippet icon.badgeInfo %}
-Als Webanwendung benötigt {{ de.DVLS }} den IIS Manager, das [URL Rewrite Modul](https://api.devolutions.net/redirection/3cb42413-5dfd-4b1b-bd20-4e5968274ed0), das [Application Request Routing](https://api.devolutions.net/redirection/52ba9ac0-fb5f-44c1-9521-972caf763b1a), das [ASP.Net 6.0](https://api.devolutions.net/redirection/2f1f6a33-20c5-4d84-947b-90ff3cdd7492) und bestimmte Web Server-Rollen. Diese Voraussetzungen können über die {{ de.DVLSCONSOLE }} installiert werden oder über ein vorhandenes Powershell-Skript, das mit der {{ de.DVLSCONSOLE }} bereitgestellt wird.
+Als Webanwendung benötigt {{ de.DVLS }} den IIS Manager, das [URL Rewrite Modul](https://api.devolutions.net/redirection/3cb42413-5dfd-4b1b-bd20-4e5968274ed0), das [Application Request Routing](https://api.devolutions.net/redirection/52ba9ac0-fb5f-44c1-9521-972caf763b1a), [ASP.Net 8.0](https://redirection.devolutions.com/dvls/asp-net-core-8.0.3) und bestimmte Web Server-Rollen. Diese Voraussetzungen können über die {{ de.DVLSCONSOLE }} oder über ein vorhandenes Powershell-Skript, das mit der {{ de.DVLSCONSOLE }} bereitgestellt wird, installiert werden. 
 {% endsnippet %}
 
 ![Für {{ de.DVLS }} benötigte Web-Rollen](https://cdnweb.devolutions.net/docs/de/server/clip10313.png)
 
 {% snippet icon.badgeInfo %}
-Für die Installation der Voraussetzungen über die [{{ de.DVLSCONSOLE }}](/server/management/devolutions-server-console/) oder mittels dem PowerShell-Skript ist eine Internetzugang zum Herunterladen des [URL Rewrite Modul](https://api.devolutions.net/redirection/3cb42413-5dfd-4b1b-bd20-4e5968274ed0), [Application Request Routing](https://api.devolutions.net/redirection/52ba9ac0-fb5f-44c1-9521-972caf763b1a) und [ASP.Net 6.0](https://api.devolutions.net/redirection/2f1f6a33-20c5-4d84-947b-90ff3cdd7492) erforderlich.
+Für die Installation der Voraussetzungen über die [{{ de.DVLSCONSOLE }}](/server/management/devolutions-server-console/) oder mittels dem PowerShell-Skript ist eine Internetzugang zum Herunterladen des [URL Rewrite Modul](https://api.devolutions.net/redirection/3cb42413-5dfd-4b1b-bd20-4e5968274ed0), [Application Request Routing](https://api.devolutions.net/redirection/52ba9ac0-fb5f-44c1-9521-972caf763b1a) und [ASP.Net 8.0](https://redirection.devolutions.com/dvls/asp-net-core-8.0.3) erforderlich.
 {% endsnippet %}
 
 ### Anleitung
@@ -44,5 +44,5 @@ Nachfolgend beide Methoden zur Installation der Voraussetzungen:
     1. Das Skript installiert nun die fehlenden Web Server Rollen sowie folgende Komponenten:
         * IIS URL Rewrite Module
         * IIS Application Request Routing Module
-        * IIS [ASP.Net 6.0](https://api.devolutions.net/redirection/2f1f6a33-20c5-4d84-947b-90ff3cdd7492) Core Module
+        * IIS [ASP.Net 8.0](https://redirection.devolutions.com/dvls/asp-net-core-8.0.3) Core Module
 ![!!ServerOp4020](https://cdnweb.devolutions.net/docs/de/server/ServerOp4020.png)

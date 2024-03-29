@@ -143,4 +143,4 @@ Die Berechtigungen sind nun korrekt festgelegt. Bitte beachten Sie, dass jeder E
 ![Baumansicht Seite an Seite](https://cdnweb.devolutions.net/docs/de/rdm/windows/RDMWin6099.png)
 
 Sie können die Berechtigungen weiter anpassen, indem Sie beim Bearbeiten von Einträgen den Bereich ***Sicherheit*** verwenden. Wie immer muss bei der Vergabe von Berechtigungen große Sorgfalt gewahrt werden.
-![Sicherheit](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMWin2258.png)
+![Sicherheit](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin2258.png)

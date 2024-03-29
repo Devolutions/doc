@@ -8,7 +8,7 @@ eleventyComputed:
 ## Tray icon context menu
 
 Right-click on the Windows tray menu bar to access the context menu. You can launch sessions, change data source, use the ***Quick Connect*** feature, and more.
-![Tray Icon Context Menu](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip11271.png)
+![Tray Icon Context Menu](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip11271.png)
 
 | OPTION | DESCRIPTION |
 |--------|-------------|
@@ -28,4 +28,4 @@ Right-click on the Windows tray menu bar to access the context menu. You can lau
 
 ## Tray icon preferences
 
-The application options contain many settings that allows for customizing the system tray icon preferences. To change these, navigate to ***File – Options – User Interface – Trayicon/Taskbar***.
+The application options contain many settings that allows for customizing the system tray icon preferences. To change these, navigate to ***File – Settings – User Interface – Trayicon/Taskbar***.

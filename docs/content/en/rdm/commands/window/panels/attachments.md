@@ -6,7 +6,7 @@ eleventyComputed:
 Files are attached to an entry and are stored directly in the database.
 
 To enable the attachment pane, navigate to ***Window – Layout*** in the ribbon, then select ***Attachments***.
-![Attachments Button](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMWin6212.png)
+![Attachments Button](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin6212.png)
 
 {% snippet icon.badgeInfo %}
 This feature is only available when using an [Advanced Data Source](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/).
@@ -16,7 +16,7 @@ This feature is only available when using an [Advanced Data Source](/rdm/windows
 The files in attachments are available in offline mode.
 {% endsnippet %}
 
-![Attachments](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMWin2027.png)
+![Attachments](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin2027.png)
 
 The attachment type and size are limited only by your bandwidth and the data source. You can also view a saved attachment:
 
@@ -28,7 +28,7 @@ The refresh button allows you to update directly the selected document. Use it t
 
 ### Actions
 Use the toolbar above the attachments list to manage the selected attachment.
-![Attachments Toolbar](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip3566.png)
+![Attachments Toolbar](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip3566.png)
 
 | OPTION            | DESCRIPTION |
 |-------------------|-------------|

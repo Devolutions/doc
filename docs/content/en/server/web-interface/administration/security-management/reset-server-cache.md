@@ -5,7 +5,7 @@ eleventyComputed:
   - Roles
 ---
 ***Reset Server Cache*** for specific elements.
-![Administration – Reset Server Cache](https://cdnweb.devolutions.net/docs/en/server/ServerOp8039.png)
+![Administration – Reset Server Cache](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp8039.png)
 
 ## Reset server cache
 | Option                                                                                                                        | Description |

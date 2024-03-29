@@ -13,7 +13,7 @@ We support native import formats from many popular tools on the market. In case 
 The import feature is only active if the import ***Privileges*** have been enabled inside the user account. See [System Permissions](/rdm/windows/commands/administration/settings/system-permissions/).
 {% endsnippet %}
 
-![File – Import](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip11281.png)
+![File – Import](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip11281.png)
 
 See the following topics to get more information about each option:
 

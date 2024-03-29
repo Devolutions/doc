@@ -19,7 +19,7 @@ The Manage Cache options should only be used upon request from our Support Team 
 The Manage Cache option will only be available when using an SQLite cache.
 {% endsnippet %}
 
-![Manage Cache](https://cdnweb.devolutions.net/docs/en/rdm/mac/clip10504.png)
+![Manage Cache](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10504.png)
 
 | OPTION     | DESCRIPTION |
 |------------|-------------|

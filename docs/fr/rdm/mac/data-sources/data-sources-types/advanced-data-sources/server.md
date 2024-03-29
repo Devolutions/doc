@@ -6,7 +6,7 @@ eleventyComputed:
 	<tr>
 		<td>
 
-![!!logo-dvls](https://cdnweb.devolutions.net/docs/common/logo-dvls.png)
+![!!logo-dvls](https://cdnweb.devolutions.net/docs/docs_common_logo-dvls.png)
 		</td>
 		<td>
 {{ fr.DVLS }} est un {{ fr.VLT }} autohébergé pour stocker et partager vos connexions et identifiants à distance. Vous pouvez trouver plus d'informations sur la [page Web de {{ fr.DVLS }}](https://devolutions.net/server/fr).

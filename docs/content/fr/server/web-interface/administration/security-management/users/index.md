@@ -30,7 +30,7 @@ Ajouter un utilisateur.
 	</tr>
 	<tr>
 		<td>
-![!!NavImportSmall](https://cdnweb.devolutions.net/docs/common/NavImportSmall.png)
+![!!NavImportSmall](https://cdnweb.devolutions.net/docs/docs_common_NavImportSmall.png)
 		</td>
 		<td>
 Importer des utilisateurs depuis LDAP ou Azure.
@@ -38,7 +38,7 @@ Importer des utilisateurs depuis LDAP ou Azure.
 	</tr>
 	<tr>
 		<td>
-![!!RibbonRefreshGraySmall](https://cdnweb.devolutions.net/docs/common/RibbonRefreshGraySmall.png)
+![!!RibbonRefreshGraySmall](https://cdnweb.devolutions.net/docs/docs_common_RibbonRefreshGraySmall.png)
 		</td>
 		<td>
 Actualiser la liste des utilisateurs.
@@ -62,7 +62,7 @@ Description
 	</tr>
 	<tr>
 		<td>
-![!!user-group](https://cdnweb.devolutions.net/docs/common/user-group.png)
+![!!user-group](https://cdnweb.devolutions.net/docs/docs_common_user-group.png)
 		</td>
 		<td>
 Assigner des groupes d'utilisateurs à l'utilisateur.
@@ -70,7 +70,7 @@ Assigner des groupes d'utilisateurs à l'utilisateur.
 	</tr>
 	<tr>
 		<td>
-![!!{{ en.VLT }}](https://cdnweb.devolutions.net/docs/common/vault.png)
+![!!{{ en.VLT }}](https://cdnweb.devolutions.net/docs/docs_common_vault.png)
 		</td>
 		<td>
 Assigner un {{ fr.VLT }} à l'utilisateur.
@@ -78,7 +78,7 @@ Assigner un {{ fr.VLT }} à l'utilisateur.
 	</tr>
 	<tr>
 		<td>
-![!!RibbonActivityReport](https://cdnweb.devolutions.net/docs/common/RibbonActivityReport.png)
+![!!RibbonActivityReport](https://cdnweb.devolutions.net/docs/docs_common_RibbonActivityReport.png)
 		</td>
 		<td>
 Voir le rapport d'activité des utilisateurs.
@@ -86,7 +86,7 @@ Voir le rapport d'activité des utilisateurs.
 	</tr>
 	<tr>
 		<td>
-![!!EditPassword](https://cdnweb.devolutions.net/docs/common/EditPassword.png)
+![!!EditPassword](https://cdnweb.devolutions.net/docs/docs_common_EditPassword.png)
 		</td>
 		<td>
 Changer le mot de passe.
@@ -94,7 +94,7 @@ Changer le mot de passe.
 	</tr>
 	<tr>
 		<td>
-![!!RibbonEditSmall](https://cdnweb.devolutions.net/docs/common/edit.png)
+![!!RibbonEditSmall](https://cdnweb.devolutions.net/docs/docs_common_edit.png)
 		</td>
 		<td>
 Modifier les paramètres utilisateur.
@@ -102,7 +102,7 @@ Modifier les paramètres utilisateur.
 	</tr>
 	<tr>
 		<td>
-![!!delete](https://cdnweb.devolutions.net/docs/common/delete.png)
+![!!delete](https://cdnweb.devolutions.net/docs/docs_common_delete.png)
 		</td>
 		<td>
 Supprimer l'utilisateur.

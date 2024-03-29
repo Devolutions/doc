@@ -7,6 +7,6 @@ If you wish to move an entry under a different Group or Folder you have the opti
 ## Settings
 
 1. Select your entry in your ***{{ en.NPANE }}*** and then use the menu ***Edit - Move to Another Group/Folder***.
-![Move to Another Group/Folder](https://cdnweb.devolutions.net/docs/en/rdm/mac/clip10371.png)
+![Move to Another Group/Folder](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10371.png)
 1. Select the ***Folder*** or ***Group*** under which you want to move your entry and then click on ***Select***.
-![Select Group/Folder](https://cdnweb.devolutions.net/docs/en/rdm/mac/clip10105.png)
+![Select Group/Folder](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10105.png)

@@ -4,7 +4,7 @@ eleventyComputed:
   description: User Template allows you to modify the user settings that are selected by default when creating a new user.
 ---
 ***User Template*** allows you to modify the user settings that are selected by default when creating a new user in [***User Management***](/rdm/windows/commands/administration/management/user-management/).
-![Administration – System Settings – User Management – User Template](https://cdnweb.devolutions.net/docs/en/rdm/mac/RDMMac2083.png)
+![Administration – System Settings – User Management – User Template](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_RDMMac2083.png)
 
 | SETTING                   | DESCRIPTION                                                                          |
 |---------------------------|--------------------------------------------------------------------------------------|

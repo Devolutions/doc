@@ -114,6 +114,6 @@ Pas besoin de définir des permissions sur le dossier Montréal, car elles sont 
 
 ### Conclusion 
 Les permissions sont désormais correctement définies. Notez que chaque entrée ajoutée au niveau du {{ fr.VLT }} n'aura aucune sécurité par défaut. Cela signifie qu'ils seraient disponibles pour n'importe qui, même pour les consultants. Cela peut être confirmé en regardant la capture d'écran ci-dessous dans laquelle la routine quotidienne d'entrée est disponible pour tout le monde. Voici ce que chaque utilisateur devrait voir dans l'arborescence :  
-![Navigation des groupes d'utilisateurs](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMWin6065.png) 
+![Navigation des groupes d'utilisateurs](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin6065.png) 
 
 Vous pouvez personnaliser davantage vos permissions en utilisant l'onglet ***Paramètres de sécurité*** lors de la modification des entrées ou l'onglet ***Journaux*** pour ajouter plus de traces des entrées et des sorties. Comme toujours, il faut faire très attention lors de l'octroi des permissions.

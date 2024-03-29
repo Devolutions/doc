@@ -42,19 +42,19 @@ After you have configured the {{ en.DVLS }} instance and connected through a cli
 
 If you are upgrading your {{ en.DVLS }} from a version prior to 2022.1 to 2022.2 or later, follow the steps in [Access URI](/kb/devolutions-server/knowledge-base/access-uri/). During the upgrade process or the installation process of {{ en.DVLS }}, we must provide an Access URI. This URI is a redirect URL that is used by the OAuth system and redirects the authentication traffic to the Access URI.
 
-![Access URI](https://cdnweb.devolutions.net/docs/en/kb/KB2211.png)
+![Access URI](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2211.png)
 
 ## Encryption
 
 To ensure that the communication between the {{ en.DVLS }} instance and the SQL Server database is encrypted, an extensive procedure must be followed on the SQL Server instance. See [Encrypting Connections to SQL Server](/server/getting-started/security-checklist/encrypting-connections-sql-server/).
 
-![Use SQL Server encrypted connection](https://cdnweb.devolutions.net/docs/en/kb/KB2212.png)
+![Use SQL Server encrypted connection](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2212.png)
 
 When using SQL Server Login accounts, encrypting the **web.config** and **appsettings.json** files is of the utmost importance, as sensitive information is stored in them. Visit [Encrypting the web.config File](/kb/devolutions-server/how-to-articles/encrypting-web-config-file/) for more information and recommendations.
 
 The encryption key is used to encrypt data entries (connections, {{ en.UVLT }}, documentation, and attachments). The encryption keys are generated and stored in the **encryption.config** file on the server only. Learn how to export, import, and regenerate them in [Manage Encryption Keys](/kb/devolutions-server/how-to-articles/manage-encryption-keys/).
 
-![Encryption Keys Management](https://cdnweb.devolutions.net/docs/en/kb/KB2213.png)
+![Encryption Keys Management](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2213.png)
 
 For businesses that require FIPS (Federal Information Processing Standards), refer to [FIPS (Encryption)](/kb/remote-desktop-manager/troubleshooting-articles/forticlient/fips-encryption/).
 
@@ -62,31 +62,31 @@ For businesses that require FIPS (Federal Information Processing Standards), ref
 
 The [Backup Manager](/server/web-interface/administration/backup/backup-manager/) accessible from the {{ en.DVLS }} web interface allows administrators to configure the parameters to back up the database and the web application folder. Backups should be enabled and configured to an external media or cloud storage to avoid permanent loss of data.
 
-![Backup Manager](https://cdnweb.devolutions.net/docs/en/kb/KB2214.png)
+![Backup Manager](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2214.png)
 
 Also learn about the requirements and the steps to properly configure the {{ en.DVLS }} Backup Scheduler and instructions on how to restore your {{ en.DVLS }} instance succeeding a disaster in [Backup and Restore {{ en.DVLS }}](/kb/devolutions-server/knowledge-base/backup-restore-server/).
 
 Concerning logs, it is recommended to send them to an external system to maintain integrity and availability of event information. Configure the [Logging](/server/web-interface/administration/configuration/server-settings/general/logging/) feature in the {{ en.DVLS }} web interface.
 
-![Logging](https://cdnweb.devolutions.net/docs/en/kb/KB2215.png)
+![Logging](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2215.png)
 
 ## Refresh Token Lifetime
 
 Excessive session duration may allow exposure beyond necessary to unauthorized users. The Refresh token lifetime should therefore be configured within 24 hours (1440 min.). This can be configured in the [Advanced Server Settings](/server/web-interface/administration/configuration/server-settings/general/advanced/) via the {{ en.DVLS }} web interface.
 
-![Refresh Token Lifetime](https://cdnweb.devolutions.net/docs/en/kb/KB2216.png)
+![Refresh Token Lifetime](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2216.png)
 
 ## Email Notifications
 
 An email server configuration is required to transmit important application messages such as security events or errors. They can be configured in the web interface. See [Configure an SMTP Email](/kb/devolutions-server/how-to-articles/configure-smtp-server/configure-smtp-email/) or [Configure an SMTP Email With Azure](/kb/devolutions-server/how-to-articles/configure-smtp-server/configure-smtp-email-azure/) for configuration steps and information on each setting.
 
-![Email Configuration](https://cdnweb.devolutions.net/docs/en/kb/KB2217.png)
+![Email Configuration](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2217.png)
 
 ## {{ en.DVLSCONSOLE }} Password
 
 It is recommended to add another layer of security by enabling and setting a password for the {{ en.DVLSCONSOLE }}. Learn about this password setting and all other {{ en.DVLSCONSOLE }} settings in [{{ en.DVLSCONSOLE }}](/server/management/devolutions-server-console/).
 
-![Set a {{ en.DVLSCONSOLE }} password](https://cdnweb.devolutions.net/docs/en/kb/KB2218.png)
+![Set a {{ en.DVLSCONSOLE }} password](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2218.png)
 
 ## {{ en.DVLS }} Security Dashboard
 
@@ -94,4 +94,4 @@ The [{{ en.DVLS }} Security Dashboard](/kb/devolutions-server/knowledge-base/ser
 
 The scores are admittedly open to question and we do not pretend each topic has the same relative value for all community members. Achieving 100% is surely not an end goal in itself, we simply aim to raise awareness and provide ideas for your own security hardening.
 
-![Security Dashboard](https://cdnweb.devolutions.net/docs/en/kb/KB2210.png)
+![Security Dashboard](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2210.png)

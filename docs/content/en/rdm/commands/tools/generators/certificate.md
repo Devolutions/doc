@@ -7,7 +7,7 @@ The ***Certificate Generator*** allows you to create a self signed certificate w
 
 ## Settings
 
-![Certificate Generator - Self Signed Certificate](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip10390.png)
+![Certificate Generator - Self Signed Certificate](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip10390.png)
 
 | OPTION               | DESCRIPTION                                                            |
 |----------------------|------------------------------------------------------------------------|
@@ -20,7 +20,7 @@ The ***Certificate Generator*** allows you to create a self signed certificate w
 | Location             | Indicate the location of the certificate. Select between: <ul><li>Current user</li><li>Local machine</li> </ul>                                                                                             |
 | Store                | Indicate the store location of the certificate. Select between: <ul><li>Address book</li><li>Authorization root</li><li>Certificate authority</li><li>Disallowed</li> <li>My</li><li>Root</li><li>Trusted people</li><li>Trusted publisher</li></ul> |
 
-![Self Signed Certificate](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip10391.png)
+![Self Signed Certificate](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip10391.png)
 
 | OPTION         | DESCRIPTION                                   |
 |----------------|-----------------------------------------------|

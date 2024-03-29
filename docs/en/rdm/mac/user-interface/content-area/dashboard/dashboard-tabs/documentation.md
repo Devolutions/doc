@@ -22,13 +22,13 @@ The feature for using ***Documentation*** in offline mode is available for docum
 ## Create a new page
 1. Choose the entry in the ***{{ en.NPANE }}***.
 1. Go to the ***Documentation*** tab and click ***New page***.
-![Documentation tab – New page](https://cdnweb.devolutions.net/docs/en/rdm/mac/RDMMac6018.png)
+![Documentation tab – New page](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_RDMMac6018.png)
 1. Enter a name and select a ***Documentation type***.
-![Documentation type](https://cdnweb.devolutions.net/docs/en/rdm/mac/RDMMac6027.png)
+![Documentation type](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_RDMMac6027.png)
 Note: You can switch between ***Markdown*** and ***WYSIWYG*** when you select ***Markdown*** in ***Documentation type***.
-![Markdown and WYSIWYG](https://cdnweb.devolutions.net/docs/en/rdm/mac/RDMMac6034.png)
+![Markdown and WYSIWYG](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_RDMMac6034.png)
 1. Choose a ***Default template***.
-![Default template](https://cdnweb.devolutions.net/docs/en/rdm/mac/RDMMac6028.png)
+![Default template](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_RDMMac6028.png)
 
    ***Tutorial*** creates a document containing generated text and ***Empty*** a blank document. The last option, ***Custom***, lets you select a custom template of your choice.
 
@@ -39,9 +39,9 @@ Note: You can switch between ***Markdown*** and ***WYSIWYG*** when you select **
 ## Synchronize offline documentation
 1. Choose the entry in the ***{{ en.NPANE }}***.
 1. Go to ***Administration – {{ en.VLT_MAJ }} settings*** in the ribbon.
-![{{ en.VLT_MAJ }} settings](https://cdnweb.devolutions.net/docs/en/rdm/mac/RDMMac6025.png)
+![{{ en.VLT_MAJ }} settings](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_RDMMac6025.png)
 1. In ***Security Settings – Offline – Synchronize documentation to offline***, select ***Yes***.
-![Synchronize documentation to offline](https://cdnweb.devolutions.net/docs/en/rdm/mac/RDMMac6019.png)
+![Synchronize documentation to offline](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_RDMMac6019.png)
 1. Click ***Save*** and close the window.
-![Documentation tab](https://cdnweb.devolutions.net/docs/en/rdm/mac/RDMMac6026.png)
+![Documentation tab](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_RDMMac6026.png)
 The offline ***Documentation*** tab is now available in the ***Dashboard***.

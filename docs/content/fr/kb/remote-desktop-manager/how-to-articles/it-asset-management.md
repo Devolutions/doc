@@ -13,12 +13,12 @@ Only the ***Session***, ***Remote Management***, ***Miscellaneous***, ***VPN***,
 1. Go to ***View*** – ***IT Asset Management***.
 1. Select a ***Service type*** in the dropdown.
 1. Input the URL to a specific asset.
-![IT Asset Management](https://cdnweb.devolutions.net/docs/en/kb/KB0058.png)
+![IT Asset Management](https://cdnweb.devolutions.net/docs/docs_en_kb_KB0058.png)
 1. Click ***OK*** to save the changes and close the window.
 1. In the ***Dashboard***, select the ***IT Asset Management*** tab.
 {% snippet icon.badgeInfo %}
 The tab will be named according to what was written in the ***IT asset management title field***. If the field is left empty ***BlueTally*** will show (if this service was chosen), or show as ***IT Asset Management***.
 {% endsnippet %}
 
-![IT Asset Management tab](https://cdnweb.devolutions.net/docs/en/kb/KB0059.png)
+![IT Asset Management tab](https://cdnweb.devolutions.net/docs/docs_en_kb_KB0059.png)
 7. Log in to that service.

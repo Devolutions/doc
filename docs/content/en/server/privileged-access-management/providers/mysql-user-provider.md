@@ -3,7 +3,7 @@ eleventyComputed:
   title: MySQL user provider
 ---
 The MySQL Provider allows {{ en.DVLS }} to store the MySQL account credentials to be used for MySQL accounts discovery or to achieve password rotation.
-![MySQL User Provider](https://cdnweb.devolutions.net/docs/en/server/ServerOp8092.png)
+![MySQL User Provider](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp8092.png)
 
 ### General
 | Option        | Description                   |

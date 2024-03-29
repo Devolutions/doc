@@ -10,10 +10,10 @@ This feature is available with the [SQL Server](/rdm/windows/data-sources/data-s
 
 ## Settings
 To use the ***Integrated Security***, enable the ***Integrated Security*** box in the ***User Management*** window. The ***Password*** field is disabled because the operating system will provide a cached copy automatically.
-![Integrated Security](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip10291.png)
+![Integrated Security](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip10291.png)
 
 When the option is activated, an ellipsis button either appears or is enabled. Click this button to display the ***Select User*** dialog.
-![Select User](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip10294.png)
+![Select User](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip10294.png)
 
 {% snippet icon.badgeInfo %}
 Ensure the appropriate domain is displayed in the ***From this location*** field. Sometime the location defaults to the local computer. Click the ***Locations*** button to browse for the domain instead.

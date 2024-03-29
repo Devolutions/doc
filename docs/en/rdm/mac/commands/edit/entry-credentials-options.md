@@ -3,7 +3,7 @@ eleventyComputed:
   title: Entry credentials options
 ---
 Multiple options are available to use for ***Credentials*** in {{ en.RDM }} entries.
-![Credentials](https://cdnweb.devolutions.net/docs/en/rdm/mac/RDMMac2131.png)
+![Credentials](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_RDMMac2131.png)
 
 | OPTION                  | DESCRIPTION                                                                              |
 |-------------------------|------------------------------------------------------------------------------------------|

@@ -13,7 +13,7 @@ eleventyComputed:
 
 1. Go to ***Administration – {{ en.VLT_MAJ }}s***.
 1. Click on the ***Add*** icon at the top right of the screen.
-![Add a {{ en.VLT }}](https://cdnweb.devolutions.net/docs/en/hub/Hub4098.png)
+![Add a {{ en.VLT }}](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub4098.png)
 1. ***Name*** the {{ en.VLT }}.
 1. Optional: Write a short ***Description*** for the purpose of this {{ en.VLT }}.
 1. Click ***Add*** to save.
@@ -27,7 +27,7 @@ eleventyComputed:
    Click the ***View Roles Definition*** button to choose from the list. You can also visit [Roles and Permissions](/hub/web-interface/administration/configuration-security/system-permissions/roles-permissions/).
    {% endsnippet %}
 
-   ![Assign permissions](https://cdnweb.devolutions.net/docs/en/hub/Hub2347.png)
+   ![Assign permissions](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub2347.png)
 
 4. Click ***Update*** to save.
 
@@ -35,5 +35,5 @@ eleventyComputed:
 
 1. Go to ***Administration – {{ en.VLT_MAJ }}s***.
 1. Click the ***Edit*** pencil icon next to the {{ en.VLT }}.
-![!!Hub4100](https://cdnweb.devolutions.net/docs/en/hub/Hub4100.png)
+![!!Hub4100](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub4100.png)
 1. Click ***Update*** to save.

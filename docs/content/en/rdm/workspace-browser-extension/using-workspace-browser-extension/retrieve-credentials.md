@@ -13,23 +13,23 @@ After the [installation](/rdm/windows/workspace-browser-extension/installation/)
 ## Settings
 
 1. Click on the {{ en.WBEX }} button in your browser, then click on the ***Settings*** icon.
-![Settings Icon](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMWin2111.png)
+![Settings Icon](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin2111.png)
 1. Click on ***General*** in the ***Configuration*** section.
-![Settings – Configuration – General](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMWin2112.png)
+![Settings – Configuration – General](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin2112.png)
 1. In the ***General*** tab, the ***Show icon in fields*** setting should be enabled by default. If not, check the box next to the option to enable it.
    {% snippet icon.badgeNotice %}
    With this option enabled, a the {{ en.WBEX }} icon is displayed in every credential fields on the websites you visit. This makes it easier to select the correct entry from which to retrieve your credentials, especially when more than one is available.
    {% endsnippet %}
 
-   ![General – Show icon in fields](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMWin2113.png)
+   ![General – Show icon in fields](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin2113.png)
 
 1. Click ***Save***.
 1. Click on ***{{ en.RDM }}*** in the ***Data sources*** section.
-![Settings – Data sources – {{ en.RDM }}](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMWin2114.png)
+![Settings – Data sources – {{ en.RDM }}](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin2114.png)
 1. In the ***Actions*** tab, enable the ***Automatically retrieve credentials on page load*** and ***Automatically fill in credentials on load*** options by checking the boxes next to them. Below is a description of each setting:
     * ***Automatically retrieve credentials on page load*** (enabled by default): Allows the {{ en.WBEX }} to automatically search for available credentials when loading a web page.
     * ***Automatically fill in credentials on load*** (disabled by default): Credentials fields are automatically filled in when loading a web page. This only works if you only have one set of credentials for a given website.
-![Actions – Automatically retrieve and fill credentials on page load](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMWin2115.png)
+![Actions – Automatically retrieve and fill credentials on page load](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin2115.png)
    {% snippet icon.badgeInfo %}
    If the ***Automatically submit the form after filling*** setting is enabled, the credentials are automatically submitted when the fields are filled. Enabling it is optional as it is not a best practice.
    {% endsnippet %}
@@ -53,10 +53,10 @@ Credentials can be retrieved from {{ en.RDM }} automatically or manually via the
 
 1. Go to the login page of the website you want to access. This page will be different for each website; this section will use the Atlassian website as an example. One of two scenarios can happen:
     1. If you only have one set of credentials for this website, the login fields should already be filled in with your credentials. If that is the case, follow the login process of the website until you successfully log in to your account. You do not have to follow the next step.
-![Automatically Filled Credentials Fields](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMWin2117.png)
+![Automatically Filled Credentials Fields](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin2117.png)
 {type="a"}
     1. If you have more than one set of credentials or if your credentials are not filled in, click on the {{ en.WBEX }} icon in the credential field and select the entry that contains your credentials for that website. If multiple entries are available, you can search for the one you want using the ***Filter*** bar. Follow the rest of the website's login process until you successfully log in to your account.
-![Entry Filter and Selection](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMWin2116.png)
+![Entry Filter and Selection](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin2116.png)
 
 ### Manually Retrieving Credentials
 
@@ -65,6 +65,6 @@ Depending on the options you have enabled/disabled, you may need to retrieve you
 1. Go to the login page of the website you want to access. This page will be different for each website; this section will use the Atlassian website as an example.
 1. Click on the {{ en.WBEX }} in your browser. Website entries that are linked to this website will appear.
 1. Click on the website entry that contains the credentials for this website. If multiple entries are available, you can use the ***Filter*** bar to find the one you need.
-![Entry Selection](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMWin2118.png)
+![Entry Selection](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin2118.png)
 1. Your credentials will be transferred to the credentials fields of the website. Follow the rest of the website's login process until you successfully log in to your account.
-![Credentials Transfer in Corresponding Fields](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMWin2145.png)
+![Credentials Transfer in Corresponding Fields](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin2145.png)

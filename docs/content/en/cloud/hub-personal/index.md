@@ -6,4 +6,4 @@ eleventyComputed:
 
 Click on the ***Create your {{ en.DHUBP }}*** button to start using it today!
 
-![!!Cloud4054](https://cdnweb.devolutions.net/docs/en/cloud/Cloud4054.png)
+![!!Cloud4054](https://cdnweb.devolutions.net/docs/docs_en_cloud_Cloud4054.png)

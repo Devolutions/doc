@@ -7,7 +7,7 @@ eleventyComputed:
 
 The feature can be found by right-clinking on an entry and going to ***Properties*** – ***Asset*** – ***Load from System Information***.
 
-![Load from System Information](https://cdnweb.devolutions.net/docs/en/kb/KB6103.png)
+![Load from System Information](https://cdnweb.devolutions.net/docs/docs_en_kb_KB6103.png)
 
 ### Supported Linux type:
 

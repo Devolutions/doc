@@ -42,7 +42,7 @@ Consult [Configure Azure SQL](/rdm/mac/data-sources/data-sources-types/advanced-
 
 ### General
 
-![!!RDMMac2132](https://cdnweb.devolutions.net/docs/en/rdm/mac/RDMMac2132.png)
+![!!RDMMac2132](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_RDMMac2132.png)
 
 | OPTION              | DESCRIPTION |
 |---------------------|-------------|
@@ -58,7 +58,7 @@ Consult [Configure Azure SQL](/rdm/mac/data-sources/data-sources-types/advanced-
 
 ### Settings
 
-![!!RDMMac2133](https://cdnweb.devolutions.net/docs/en/rdm/mac/RDMMac2133.png)
+![!!RDMMac2133](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_RDMMac2133.png)
 
 | OPTION            | DESCRIPTION |
 |-------------------|-------------|
@@ -68,7 +68,7 @@ Consult [Configure Azure SQL](/rdm/mac/data-sources/data-sources-types/advanced-
 
 ### {{ en.UVLT_MAJ }}
 
-![RDMMac2135](https://cdnweb.devolutions.net/docs/en/rdm/mac/RDMMac2135.png)
+![RDMMac2135](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_RDMMac2135.png)
 
 | OPTION | DESCRIPTION |
 |--------|-------------|
@@ -76,7 +76,7 @@ Consult [Configure Azure SQL](/rdm/mac/data-sources/data-sources-types/advanced-
 
 ### Upgrade
 
-![!!RDMMac2134](https://cdnweb.devolutions.net/docs/en/rdm/mac/RDMMac2134.png)
+![!!RDMMac2134](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_RDMMac2134.png)
 
 | OPTION                | DESCRIPTION |
 |-----------------------|-------------|
@@ -88,11 +88,11 @@ Consult [Configure Azure SQL](/rdm/mac/data-sources/data-sources-types/advanced-
 ### VPN
 
 Open a VPN to access your data prior to connecting to your Microsoft Azure SQL database.
-![!!RDMMac2136](https://cdnweb.devolutions.net/docs/en/rdm/mac/RDMMac2136.png)
+![!!RDMMac2136](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_RDMMac2136.png)
 
 ### Advanced
 
-![!!RDMMac2137](https://cdnweb.devolutions.net/docs/en/rdm/mac/RDMMac2137.png)
+![!!RDMMac2137](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_RDMMac2137.png)
 
 | OPTION                    | DESCRIPTION |
 |---------------------------|-------------|

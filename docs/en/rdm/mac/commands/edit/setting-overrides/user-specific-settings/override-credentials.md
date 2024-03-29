@@ -10,7 +10,7 @@ The Override credentials is available for all type of entries.
 
 ### General
 Simply check the Override credentials and select your credential to start overriding your credentials. To stop overriding credentials uncheck the Override credentials option.
-![User Specific Settings - Override credentials](https://cdnweb.devolutions.net/docs/en/rdm/mac/clip10338.png)
+![User Specific Settings - Override credentials](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10338.png)
 
 The following choices are offered depending on the type of entry being overridden, as well as the location of that entry.
 

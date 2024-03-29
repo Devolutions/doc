@@ -12,4 +12,4 @@ The entirety of our documentation can be found in the [docs folder](https://gith
 
 To contribute to our help topics, see our guidelines in the [contribute folder](https://github.com/Devolutions/doc/tree/master/contribute) of the ***doc*** repository.
 
-![!!Support4001](https://cdnweb.devolutions.net/docs/en/rdm/windows/Support4001.png)
+![!!Support4001](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_Support4001.png)

@@ -3,7 +3,7 @@ eleventyComputed:
   title: Domain information
 ---
 Provides the user group's domain information.
-![!!ServerOp8013](https://cdnweb.devolutions.net/docs/en/server/ServerOp8013.png)
+![!!ServerOp8013](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp8013.png)
 
 ## Domain information
 | Option | Description                            |
@@ -13,4 +13,4 @@ Provides the user group's domain information.
 
 ### Find on domain
 Display the detailed user group domain information.
-![User Group Domain Information](https://cdnweb.devolutions.net/docs/en/server/ServerOp8017.png)
+![User Group Domain Information](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp8017.png)

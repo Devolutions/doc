@@ -6,7 +6,7 @@ eleventyComputed:
   - logging
 ---
 The ***Logging*** section allows the administrator to configure the logging features.
-![Administration – Server Settings – Logging](https://cdnweb.devolutions.net/docs/en/server/ServerOp8040.png)
+![Administration – Server Settings – Logging](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp8040.png)
 
 ## Settings
 

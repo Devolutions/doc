@@ -15,4 +15,4 @@ You will be able to delete your backup files from your ***{{ en.RDMOS }}***, but
 
 Consult [{{ en.OBACK }} Settings - Windows Edition](/rdm/windows/commands/file/backup/backup-settings/) or [{{ en.OBACK }} Settings - Mac Edition](/rdm/mac/commands/file/backup/settings/) for more information on the configuration.
 
-![Online Backup](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMWin6202.png)
+![Online Backup](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin6202.png)

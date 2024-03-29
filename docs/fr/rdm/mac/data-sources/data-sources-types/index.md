@@ -29,7 +29,7 @@ AVANTAGES ET INCONVÉNIENTS
 	<tr>
 		<td>
 
-![!!online-drive](https://cdnweb.devolutions.net/docs/common/online-drive.png)
+![!!online-drive](https://cdnweb.devolutions.net/docs/docs_common_online-drive.png)
 		</td>
 		<td>
 {{ fr.DOD }}
@@ -53,7 +53,7 @@ Inconvénients :
 	</tr>
 	<tr>
 		<td>
-![!!logo-dvls](https://cdnweb.devolutions.net/docs/common/logo-dvls.png)
+![!!logo-dvls](https://cdnweb.devolutions.net/docs/docs_common_logo-dvls.png)
 		</td>
 		<td>
 {{ fr.DVLS }}
@@ -79,7 +79,7 @@ Inconvénients :
 	</tr>
 	<tr>
 		<td>
-![!!entry-dropbox](https://cdnweb.devolutions.net/docs/common/entry-dropbox.png)
+![!!entry-dropbox](https://cdnweb.devolutions.net/docs/docs_common_entry-dropbox.png)
 		</td>
 		<td>
 Dropbox
@@ -106,7 +106,7 @@ Inconvénients :
 	</tr>
 	<tr>
 		<td>
-![!!DataSourceAzureLarge](https://cdnweb.devolutions.net/docs/common/DataSourceAzureLarge.png)
+![!!DataSourceAzureLarge](https://cdnweb.devolutions.net/docs/docs_common_DataSourceAzureLarge.png)
 		</td>
 		<td>
 Microsoft Azure SQL
@@ -131,7 +131,7 @@ Inconvénients :
 	</tr>
 	<tr>
 		<td>
-![!!logo-microsoft-sql](https://cdnweb.devolutions.net/docs/common/logo-microsoft-sql.png)
+![!!logo-microsoft-sql](https://cdnweb.devolutions.net/docs/docs_common_logo-microsoft-sql.png)
 		</td>
 		<td>
 Microsoft SQL Server
@@ -157,7 +157,7 @@ Inconvénients :
 	</tr>
 	<tr>
 		<td>
-![!!logo-hub](https://cdnweb.devolutions.net/docs/common/logo-hub.png)
+![!!logo-hub](https://cdnweb.devolutions.net/docs/docs_common_logo-hub.png)
 		</td>
 		<td>
 {{ fr.DHUBB }}
@@ -185,7 +185,7 @@ Inconvénients :
 	</tr>
 	<tr>
 		<td>
-![!!logo-hub-personal](https://cdnweb.devolutions.net/docs/common/logo-hub-personal.png)
+![!!logo-hub-personal](https://cdnweb.devolutions.net/docs/docs_common_logo-hub-personal.png)
 		</td>
 		<td>
 {{ fr.DHUBP }}
@@ -210,7 +210,7 @@ Inconvénients :
 	</tr>
 	<tr>
 		<td>
-![!!DataSourceSQLiteLarge](https://cdnweb.devolutions.net/docs/common/DataSourceSQLiteLarge.png)
+![!!DataSourceSQLiteLarge](https://cdnweb.devolutions.net/docs/docs_common_DataSourceSQLiteLarge.png)
 		</td>
 		<td>
 SQLite
@@ -236,7 +236,7 @@ Inconvénients :
 	</tr>
 	<tr>
 		<td>
-![!!DataSourceXMLLarge](https://cdnweb.devolutions.net/docs/common/DataSourceXMLLarge.png)
+![!!DataSourceXMLLarge](https://cdnweb.devolutions.net/docs/docs_common_DataSourceXMLLarge.png)
 		</td>
 		<td>
 XML

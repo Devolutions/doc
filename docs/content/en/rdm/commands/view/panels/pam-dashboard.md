@@ -11,7 +11,7 @@ The ***PAM Dashboard*** is only available with [{{ en.DVLS }}](https://devolutio
 {% endsnippet %}
 
 The ***PAM Dashboard*** feature can be found in ***View*** – ***Panels*** – ***PAM Dashboard***.
-![PAM Dashboard](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMWin2053.png)
+![PAM Dashboard](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin2053.png)
 
 In the ***PAM Dashboard***, for every privileged account, it is possible to connect to the account, copy the password, and manage the checkout/check-in process.
 

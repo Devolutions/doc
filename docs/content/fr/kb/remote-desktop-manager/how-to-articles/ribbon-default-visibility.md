@@ -6,5 +6,5 @@ eleventyComputed:
   - Ribbon
 ---
 The ribbon is set by default to ***Show Tabs Only*** in {{ en.RDM }}.
-![Ribbon Layout](https://cdnweb.devolutions.net/docs/en/kb/KB6000.png)  
+![Ribbon Layout](https://cdnweb.devolutions.net/docs/docs_en_kb_KB6000.png)  
 Ribbon default visibility can be switched by clicking on ***Full Screen Mode*** or ***Always Show Ribbon***.

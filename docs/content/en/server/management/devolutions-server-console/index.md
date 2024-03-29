@@ -4,7 +4,7 @@ eleventyComputed:
   description: Because {{ en.DVLS }} is in fact a web application, the management interface is provided by the {{ en.DVLSCONSOLE }}.
 ---
 Because {{ en.DVLS }} is in fact a web application, the management interface is provided by the {{ en.DVLSCONSOLE }}.
-![{{ en.DVLSCONSOLE }}](https://cdnweb.devolutions.net/docs/en/server/ServerOp0043.png)
+![{{ en.DVLSCONSOLE }}](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp0043.png)
 
 ## Usage
 
@@ -20,7 +20,7 @@ The {{ en.DVLSCONSOLE }} manages the IIS metabase. It must be started with eleva
 
 ### Server
 
-![Server](https://cdnweb.devolutions.net/docs/en/server/ServerOp0044.png)
+![Server](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp0044.png)
 
 | Option                     | Description                                                                                                        |
 |----------------------------|--------------------------------------------------------------------------------------------------------------------|
@@ -39,7 +39,7 @@ The {{ en.DVLSCONSOLE }} manages the IIS metabase. It must be started with eleva
 
 ### Companions
 
-![Companions](https://cdnweb.devolutions.net/docs/en/server/ServerOp0045.png)
+![Companions](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp0045.png)
 
 #### Scheduler service
 
@@ -69,7 +69,7 @@ The {{ en.DVLSCONSOLE }} manages the IIS metabase. It must be started with eleva
 
 ### Tools
 
-![Tools](https://cdnweb.devolutions.net/docs/en/server/ServerOp0046.png)
+![Tools](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp0046.png)
 
 #### Keys Management
 
@@ -95,7 +95,7 @@ The {{ en.DVLSCONSOLE }} manages the IIS metabase. It must be started with eleva
 
 ### Administration
 
-![Administration](https://cdnweb.devolutions.net/docs/en/server/ServerOp0047.png)
+![Administration](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp0047.png)
 
 | Option             | Description                                                                                                                                        |
 |--------------------|----------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -108,7 +108,7 @@ The {{ en.DVLSCONSOLE }} manages the IIS metabase. It must be started with eleva
 
 ### Support
 
-![Support](https://cdnweb.devolutions.net/docs/en/server/ServerOp0048.png)
+![Support](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp0048.png)
 
 | Option                          | Description                                                       |
 |---------------------------------|-------------------------------------------------------------------|

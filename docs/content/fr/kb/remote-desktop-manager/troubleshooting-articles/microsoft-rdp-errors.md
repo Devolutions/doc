@@ -22,7 +22,7 @@ This most often occurs on systems that use a DPI setting of more than 100%. To d
 1. Select Properties.
 1. Go to the Compatibility tab.
 1. Check Disable display scaling on high DPI settings.
-![!!KB4072](https://cdnweb.devolutions.net/docs/en/kb/KB4072.png)
+![!!KB4072](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4072.png)
 ## Problem 3
 
 I have multiple sessions to the same computer with different credentials, but it always uses the last one I entered.
@@ -39,7 +39,7 @@ The windows shortcuts are being performed in the session but always on my comput
 
 You must configure the ***Keyboard*** setting in the ***Local Resources*** tab of the session settings. You can select ***On the remote computer*** or In ***full screen only***.
 
-![!!KB4073](https://cdnweb.devolutions.net/docs/en/kb/KB4073.png)
+![!!KB4073](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4073.png)
 
 ## Problem 5
 

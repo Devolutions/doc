@@ -3,7 +3,7 @@ eleventyComputed:
   title: Entries
   status: Topic available in German language
 ---
-![Administration – System Permissions](https://cdnweb.devolutions.net/docs/en/server/ServerOp0060.png)
+![Administration – System Permissions](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp0060.png)
 
 The administrative permissions regarding the ***Entries*** section are described below.
 

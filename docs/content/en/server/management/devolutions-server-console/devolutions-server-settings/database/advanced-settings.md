@@ -5,7 +5,7 @@ eleventyComputed:
 ---
 The ***Advanced settings*** contain advanced parameters that are used for the SQL database connection string.
 
-![Advanced Settings Dialog](https://cdnweb.devolutions.net/docs/en/server/ServerOp8003.png)
+![Advanced Settings Dialog](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp8003.png)
 
 ## Settings
 
@@ -24,4 +24,4 @@ The ***Advanced settings*** contain advanced parameters that are used for the SQ
 
 The ***More settings*** button, in the ***Advanced settings*** section, contains more advanced parameters that can be edited to replace a missing parameter. Double click a ***Setting name*** to enter edit mode.
 
-![More settings](https://cdnweb.devolutions.net/docs/en/server/ServerOp4089.png)
+![More settings](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp4089.png)

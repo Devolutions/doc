@@ -11,7 +11,7 @@ There are three types of tools:
 * Build in tools
 * Add-on session tools
 * Session script tools
-![Dashboard tabs – Macros/Scripts/Tools](https://cdnweb.devolutions.net/docs/en/rdm/mac/clip6060.png)
+![Dashboard tabs – Macros/Scripts/Tools](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip6060.png)
 
 ### Built-in Tools
 

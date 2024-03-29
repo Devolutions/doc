@@ -10,15 +10,15 @@ eleventyComputed:
 
 The profile is first selected during the {{ en.RDM }} Onboarding process.
 
-![User Interface Profile selection in Onboarding](https://cdnweb.devolutions.net/docs/en/rdm/mac/RDMMac2076.png)
+![User Interface Profile selection in Onboarding](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_RDMMac2076.png)
 
 If none is chosen or if the user decides to choose one later, they will be assigned the ***Default*** profile, which can be changed in ***File – Preferences – User Interface – User Interface – Usage profile*** or in the web interface.
 
-![File – Preferences – User Interface – User Interface – Usage profile](https://cdnweb.devolutions.net/docs/en/rdm/mac/RDMMac2077.png)
+![File – Preferences – User Interface – User Interface – Usage profile](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_RDMMac2077.png)
 
 Users can individually change this setting in the [***Account***](/rdm/mac/user-interface/navigation-pane/account/) tab of the ***{{ en.NPANE }}***.
 
-![Account – User Interface Profile](https://cdnweb.devolutions.net/docs/en/rdm/mac/RDMMac2078.png)
+![Account – User Interface Profile](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_RDMMac2078.png)
 
 ## Detailed overview
 
@@ -26,7 +26,7 @@ Below you can find tables detailing the differences between the ***Business user
 
 ### New entries
 
-![New entries](https://cdnweb.devolutions.net/docs/en/rdm/mac/RDMMac2079.png)
+![New entries](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_RDMMac2079.png)
 
 This table shows the entry types that can be created depending on your usage profile.
 
@@ -52,7 +52,7 @@ Note that this only applies to the creation of new entries and does not affect e
 
 ### {{ en.VLT_MAJ }} Dashboard widgets
 
-![{{ en.VLT_MAJ }} Dashboard widgets](https://cdnweb.devolutions.net/docs/en/rdm/mac/RDMMac2080.png)
+![{{ en.VLT_MAJ }} Dashboard widgets](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_RDMMac2080.png)
 
 This table shows the different widgets that can be displayed in your ***{{ en.VLT_MAJ }} dashboard*** depending on your usage profile.
 
@@ -74,7 +74,7 @@ This table shows the different widgets that can be displayed in your ***{{ en.VL
 
 ### Ribbon sections
 
-![Ribbon sections](https://cdnweb.devolutions.net/docs/en/rdm/mac/RDMMac2081.png)
+![Ribbon sections](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_RDMMac2081.png)
 
 This table shows the different sections that are available in your ***Ribbon*** depending on your usage profile.
 
@@ -90,7 +90,7 @@ This table shows the different sections that are available in your ***Ribbon*** 
 
 ### Entry properties
 
-![Entry properties](https://cdnweb.devolutions.net/docs/en/rdm/mac/RDMMac2082.png)
+![Entry properties](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_RDMMac2082.png)
 
 The sections that are available in ***entry properties*** are different depending on your usage profile. Business users see the simplified view of entry properties without the option to toggle to all properties, while IT professionals see all properties by default but have the option to toggle between this view and the simplified view.
 

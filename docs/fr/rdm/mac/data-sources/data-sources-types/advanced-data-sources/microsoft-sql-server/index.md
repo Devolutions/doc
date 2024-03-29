@@ -6,7 +6,7 @@ eleventyComputed:
 	<tr>
 		<td>
 
-![!!logo-microsoft-sql](https://cdnweb.devolutions.net/docs/common/logo-microsoft-sql.png)
+![!!logo-microsoft-sql](https://cdnweb.devolutions.net/docs/docs_common_logo-microsoft-sql.png)
 		</td>
 		<td>
 {{ fr.RDM }} utilise la puissance de SQL Server de Microsoft pour enregistrer et gérer toutes les sessions.

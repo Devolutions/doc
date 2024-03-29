@@ -7,7 +7,7 @@ The actions for a Telnet session allow you to send remote commands to your host.
 
 ## Settings
 
-![Telnet Commands Actions ](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMWin2195.png)
+![Telnet Commands Actions ](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin2195.png)
 
 | OPTION                | DESCRIPTION                                                 |
 | --------------------- | ----------------------------------------------------------- |
@@ -18,7 +18,7 @@ The actions for a Telnet session allow you to send remote commands to your host.
 
 ### Start recording
 
-![!!clip10199](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip10199.png)
+![!!clip10199](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip10199.png)
 
 | OPTION                | DESCRIPTION                                                      |
 | ----------------------| -----------------------------------------------------------------|

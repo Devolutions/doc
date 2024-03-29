@@ -10,7 +10,7 @@ If the ***{{ en.NPANE }}*** has disappeared and the ***Reset Layout*** button do
 1. Close {{ en.RDM }}.
 1. Open your File Explorer and navigate to **%localappdata%\Devolutions\RemoteDesktopManager**.
 1. Delete the **RemoteDesktopManager.ext** file.
-![.ext File](https://cdnweb.devolutions.net/docs/en/kb/KB0006.png)
+![.ext File](https://cdnweb.devolutions.net/docs/docs_en_kb_KB0006.png)
 1. Delete all the **RemoteDesktopManagerLayout.lyt** files.
-![.lyt Files](https://cdnweb.devolutions.net/docs/en/kb/KB0007.png)
+![.lyt Files](https://cdnweb.devolutions.net/docs/docs_en_kb_KB0007.png)
 1. Open {{ en.RDM }}.

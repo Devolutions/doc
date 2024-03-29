@@ -3,7 +3,7 @@ eleventyComputed:
   title: User groups
 ---
 Grant access to user groups on the {{ en.VLT }}.
-![{{ en.VLT_MAJ }}s – User Groups](https://cdnweb.devolutions.net/docs/en/server/ServerOp8069.png)
+![{{ en.VLT_MAJ }}s – User Groups](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp8069.png)
 
 ## Edit {{ en.VLT }} settings
 | Option    | Description                                                      |

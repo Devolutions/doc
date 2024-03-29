@@ -15,7 +15,7 @@ You must have the rights to run report in {{ en.RDM }} to use this feature.
 For Reports containing settings, you will have to start with exporting your report settings to create the *.rdr file that the command line use to generate the reports. Here is a list of reports containing settings:
 
 1. Select your Report in Administrations – Report and then select the option ***Export Settings*** in the ***More*** text button. It will create an *.rdr file containing all your report settings. This is also where you Report ID is located (this will be useful later on).
-![Export Settings](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip10006.png)
+![Export Settings](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip10006.png)
 1. In your Windows Command Prompt enter the following command line:
 ```powershell
 C:\*** /DataSource:*** /report:***/reportoutput:"***" /reportsettings:"***.rdr"
@@ -31,7 +31,7 @@ C:\*** /DataSource:*** /report:***/reportoutput:"***" /reportsettings:"***.rdr"
 
 
 To find your Data Source ID and the Command Line use to start {{ en.RDM }} edit one of your session from your data source and select the Advanced section.
-![RDP Session - Advanced Section ](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip10008.png)
+![RDP Session - Advanced Section ](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip10008.png)
 
 Here is a list of types of ***Reports*** you can find in {{ en.RDM }} and the name to enter in the command line to generate the report:
 

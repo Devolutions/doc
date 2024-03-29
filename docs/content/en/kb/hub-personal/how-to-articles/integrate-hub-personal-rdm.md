@@ -12,12 +12,12 @@ To integrate {{ en.DHUBP }} as a data source in {{ en.RDM }} you will be require
 1. Launch {{ en.RDM }}.
 1. Go to ***File – Data sources***.
 1. Click ***Add a New Data Source***.
-![Add a New Data Source](https://cdnweb.devolutions.net/docs/en/kb/KB4909.png)
+![Add a New Data Source](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4909.png)
 1. Under ***Individual***, select ***{{ en.DHUBP }}*** and click ***OK***.
-![{{ en.DHUBP }}](https://cdnweb.devolutions.net/docs/en/kb/KB0064.png)
+![{{ en.DHUBP }}](https://cdnweb.devolutions.net/docs/docs_en_kb_KB0064.png)
 1. Enter a ***Name*** for the data source.
 1. Enter the ***Email*** from the {{ en.DA }}, and click ***OK***.
-![Information fields](https://cdnweb.devolutions.net/docs/en/kb/KB0065.png)
+![Information fields](https://cdnweb.devolutions.net/docs/docs_en_kb_KB0065.png)
 {% snippet icon.badgeInfo %}
 It is possible to configure a backup for this datasource at this point, but it can also be done later.
 {% endsnippet %}

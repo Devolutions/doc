@@ -2,7 +2,7 @@
 eleventyComputed:
   title: Settings
 ---
-![Edit User – Settings](https://cdnweb.devolutions.net/docs/en/server/ServerOp7012.png)
+![Edit User – Settings](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp7012.png)
 
 Allow the user to enable [Offline Mode](/rdm/windows/data-sources/offline-mode/) on the data source. The data source also needs to be configured to permit offline mode. There are multiple modes available:
 

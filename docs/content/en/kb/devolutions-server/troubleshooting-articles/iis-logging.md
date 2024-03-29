@@ -7,13 +7,13 @@ Here is the description of desired settings when we troubleshoot a performance/c
 ## IIS Web Site Logging
 
 1. Open IIS Manager and go in the ***Logging*** settings.
-![!!KB4290](https://cdnweb.devolutions.net/docs/en/kb/KB4290.png)
+![!!KB4290](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4290.png)
 2. Click on ***Select Fields***.
-![!!KB4291](https://cdnweb.devolutions.net/docs/en/kb/KB4291.png)
+![!!KB4291](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4291.png)
 3. We recommend that at the very least the following fields be selected:
-![!!KB4292](https://cdnweb.devolutions.net/docs/en/kb/KB4292.png)
+![!!KB4292](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4292.png)
 
 ## Application pool recycle
 
 The application pool that is in fact running the instance can be restarted for a multitude of reasons.  It may be useful to know when those recycles occur as well as the reasons. Go in the ***Application pools*** section of the IIS manager, then open the ***Advanced settings*** for your application pool. Enable all of the ***Recycle events***, it will create a log entry in the ***Windows Event Log***.
-![!!KB4293](https://cdnweb.devolutions.net/docs/en/kb/KB4293.png)
+![!!KB4293](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4293.png)

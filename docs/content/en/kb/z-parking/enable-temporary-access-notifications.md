@@ -24,5 +24,5 @@ This notification is only available for the Microsoft SQL Server and Microsoft A
 ## Steps
 1. In {{ en.RDM }}, go to ***Administration – System Settings – {{ en.VLT_MAJ }}***.
 1. Click ***Enable Temporary Access Notifications***.
-![Administration – System Settings – {{ en.VLT_MAJ }} – Enable Temporary Access Notifications](https://cdnweb.devolutions.net/docs/en/kb/KB4854.png)
+![Administration – System Settings – {{ en.VLT_MAJ }} – Enable Temporary Access Notifications](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4854.png)
 3. Click ***OK*** to close the window, then save the changes.

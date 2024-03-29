@@ -10,7 +10,7 @@ The only requirement is that you operate CyberArk's ***Application Access Manage
 Also, let’s start with a caveat that the password-less part is in regards to CyberArk, you still have to authenticate to {{ en.RDM }}, whatever datasource you are using.
 ### Overview
 A diagram is necessary to properly illustrate the solution.
-![!!KB4661](https://cdnweb.devolutions.net/docs/en/kb/KB4661.png)
+![!!KB4661](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4661.png)
 1. The user is authenticated to {{ en.RDM }} with a ***Least Privilege Account***, this gives them a view into the {{ en.RDM }} content as per the permissions set in our User Groups Based Access Control.
 1. When their ***Privileged Account*** is required to launch a supported technology, {{ en.RDM }} will obtain the appropriate Private Key from the workstation, it must be held in the certificate store for the user.
 1. The PK is used to authenticate against the CyberArk {{ en.VLT }}. It’s configured as an ***Application*** object that is essentially a ***user proxy*** used to query the {{ en.VLT }}.
@@ -31,7 +31,7 @@ As always with {{ en.RDM }}, you can mix and match approaches depending on your 
 An application name other than ***AIMWebService*** must be specified in the ***application name*** field.
 {% endsnippet %}
 
-![Application name field](https://cdnweb.devolutions.net/docs/en/kb/KB6118.png)
+![Application name field](https://cdnweb.devolutions.net/docs/docs_en_kb_KB6118.png)
 
 ### CyberArk Privilege Session Manager (PSM) Configuration
 A discussion on the PSM is surely too broad to fit in this topic, so I will again refer to CyberArk’s documentation.  As for {{ en.RDM }}, in your PSM-Server entry, use one of our mechanism to have the connection use the AAM entry configured in the previous step.

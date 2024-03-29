@@ -3,7 +3,7 @@ eleventyComputed:
   title: Privileged access management
 ---
 This section is dedicated to enable and configure the Privileged access management.
-![Administration – {{ en.DVLS }} Settings – Privileged Access Management](https://cdnweb.devolutions.net/docs/en/server/ServerOp8047.png)
+![Administration – {{ en.DVLS }} Settings – Privileged Access Management](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp8047.png)
 
 ## Settings
 

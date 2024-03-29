@@ -439,6 +439,9 @@
                   "url": "/kb/remote-desktop-manager/how-to-articles/switching-back-old-color-scheme/"
                 },
                 {
+                  "url": "/kb/remote-desktop-manager/how-to-articles/synchronize-document-entries-offline-access/"
+                },
+                {
                   "url": "/kb/remote-desktop-manager/how-to-articles/team-tips/"
                 },
                 {
@@ -702,6 +705,9 @@
                   "url": "/kb/remote-desktop-manager/troubleshooting-articles/2fa-rdm-application-lost/"
                 },
                 {
+                  "url": "/kb/remote-desktop-manager/troubleshooting-articles/microsoft-edge-webview2-runtime-installation-troubleshooting/"
+                },
+                {
                   "url": "/kb/remote-desktop-manager/troubleshooting-articles/microsoft-rdp-automatic-logon-issues/"
                 },
                 {
@@ -799,6 +805,9 @@
                 },
                 {
                   "url": "/kb/remote-desktop-manager/troubleshooting-articles/rdp-issue-after-updating-2023/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/troubleshooting-articles/rdp-session-troubleshooting/"
                 },
                 {
                   "url": "/kb/remote-desktop-manager/troubleshooting-articles/rdp-username-changes-to-azure-ad-user/"
@@ -977,6 +986,9 @@
               "label": "knowledgeBase",
               "items": [
                 {
+                  "url": "/kb/remote-desktop-manager/knowledge-base/access-manage-rdm-variables/"
+                },
+                {
                   "url": "/kb/remote-desktop-manager/knowledge-base/account-brokering-not-available/"
                 },
                 {
@@ -1079,6 +1091,9 @@
                   "url": "/kb/remote-desktop-manager/knowledge-base/ip-list-entry/"
                 },
                 {
+                  "url": "/kb/remote-desktop-manager/knowledge-base/ip-variables/"
+                },
+                {
                   "url": "/kb/remote-desktop-manager/knowledge-base/it-asset-entry/"
                 },
                 {
@@ -1092,6 +1107,9 @@
                 },
                 {
                   "url": "/kb/remote-desktop-manager/knowledge-base/locating-configuration-file/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/knowledge-base/manage-custom-variables/"
                 },
                 {
                   "url": "/kb/remote-desktop-manager/knowledge-base/memory-usage-windows/"
@@ -1298,6 +1316,22 @@
                       "url": "/kb/remote-desktop-manager-mobile/android/how-to-articles/deprecated-data-mobile/"
                     }
                   ]
+                },
+                {
+                  "label": "knowledgeBase",
+                  "items": [
+                    {
+                      "url": "/kb/remote-desktop-manager-mobile/android/knowledge-base/android-support-limitation/"
+                    }
+                  ]
+                },
+                {
+                  "label": "troubleshootingArticles",
+                  "items": [
+                    {
+                      "url": "/kb/remote-desktop-manager-mobile/android/troubleshooting-articles/TLS-connection-errors-rdm-android-7-lets-encrypt-certificates/"
+                    }
+                  ]
                 }
               ]
             },
@@ -1318,6 +1352,14 @@
                     },
                     {
                       "url": "/kb/remote-desktop-manager-mobile/ios/how-to-articles/ios-send-rdp-logs-support/"
+                    }
+                  ]
+                },
+                {
+                  "label": "knowledgeBase",
+                  "items": [
+                    {
+                      "url": "/kb/remote-desktop-manager-mobile/ios/knowledge-base/ios-support-limitation/"
                     }
                   ]
                 }
@@ -1477,6 +1519,9 @@
                   "url": "/kb/devolutions-server/troubleshooting-articles/cryptographic-exception-bad-data/"
                 },
                 {
+                  "url": "/kb/devolutions-server/troubleshooting-articles/domain-containers-enforcement/"
+                },
+                {
                   "url": "/kb/devolutions-server/troubleshooting-articles/domain-group-not-retrieved/"
                 },
                 {
@@ -1500,10 +1545,16 @@
                   "url": "/kb/devolutions-server/troubleshooting-articles/http-error-500-30-asp-net-core/"
                 },
                 {
+                  "url": "/kb/devolutions-server/troubleshooting-articles/http-error-500-31/"
+                },
+                {
                   "url": "/kb/devolutions-server/troubleshooting-articles/iis-logging/"
                 },
                 {
                   "url": "/kb/devolutions-server/troubleshooting-articles/invalid-self-signed-certificate-chrome/"
+                },
+                {
+                  "url": "/kb/devolutions-server/troubleshooting-articles/invalid-username-password/"
                 },
                 {
                   "url": "/kb/devolutions-server/troubleshooting-articles/encryption-file-missing/"
@@ -1560,9 +1611,6 @@
                 },
                 {
                   "url": "/kb/devolutions-server/knowledge-base/backup-restore-server/"
-                },
-                {
-                  "url": "/kb/devolutions-server/knowledge-base/command-line-interface/"
                 },
                 {
                   "url": "/kb/devolutions-server/knowledge-base/deploy-high-availability-load-balanced-env/"
@@ -1700,6 +1748,9 @@
               "items": [
                 {
                   "url": "/kb/hub-business/troubleshooting-articles/access-denied-errors/"
+                },
+                {
+                  "url": "/kb/hub-business/troubleshooting-articles/errors-list/"
                 },
                 {
                   "url": "/kb/hub-business/troubleshooting-articles/prompt-mfa-everytime/"

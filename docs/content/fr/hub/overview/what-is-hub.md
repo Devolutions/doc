@@ -22,7 +22,7 @@ La sécurité est au coeur de {{ fr.DHUB }} puisque l'application est hébergée
 	<tr>
 		<td>
 
-![!!workspace-icon-shadow](https://cdnweb.devolutions.net/docs/en/workspace/WorkspaceIconShadow64x64.png)
+![!!workspace-icon-shadow](https://cdnweb.devolutions.net/docs/fr/workspace/WorkspaceIconShadow64x64.png)
 
 ## {{ fr.WBEX_MAJ }}
 

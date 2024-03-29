@@ -108,9 +108,9 @@ L'accès est refusé aux utilisateurs en accordant expressément l'accès à d'a
 Pour qu'un utilisateur ait accès à un sous-dossier, l'utilisateur doit avoir au moins la permission d'affichage sur tous les dossiers parents.
 
 Considérer la structure suivante :
-![Trois niveaux de dossiers](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMWin6041.png)
+![Trois niveaux de dossiers](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin6041.png)
 
 Il existe trois niveaux de dossiers : les éléments du {{ fr.VLT }}, Telemark et enfant du Telemark.
 
 Supposons qu'un utilisateur, tel qu'un consultant, doit avoir accès au dossier Montréal uniquement. Le consultant doit également être autorisé à consulter le dossier Telemark. Toutefois, accorder l'accès à la vue au dossier Telemark donne au consultant les autorisations pour afficher tous les éléments enfants de Telemark. Pour refuser les autorisations d'affichage pour le consultant sur des éléments enfants spécifiques, les autorisations d'affichage de ces éléments doivent être expressément définies pour les autres utilisateurs.
-![Les autorisations d'affichage de ces éléments doivent être expressément définies pour les autres utilisateurs](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMWin6042.png)
+![Les autorisations d'affichage de ces éléments doivent être expressément définies pour les autres utilisateurs](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin6042.png)

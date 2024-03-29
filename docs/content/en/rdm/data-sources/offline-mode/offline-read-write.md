@@ -20,7 +20,7 @@ When an entry is edited by an online user while another user is offline, the loc
 * Go back online with ***File – Go Online***.
 
 The ***Offline Edits*** window is displayed:
-![Offline Edits](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip10394.png)
+![Offline Edits](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip10394.png)
 
 Use this dialog to accept/reject your offline changes.
 
@@ -38,10 +38,10 @@ When multiple users edit the same entry offline simultaneously, a conflict occur
 Here is an example of such a case to help resolving conflicts properly:
 
 When the first user returns online, the ***Offline Edits*** window is displayed. Changes are accepted by default.
-![Offline Edits For The First User Back Online](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip3451.png)
+![Offline Edits For The First User Back Online](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip3451.png)
 
 When a second user returns online, a conflict occurs and the ***Offline Edits*** window is displayed.
-![Offline Edits For The Second User Back Online](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip3452.png)
+![Offline Edits For The Second User Back Online](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip3452.png)
 
 When the conflict occurs, the user must decide to accept or reject the changes. The different versions of the entry can be compared to view which changes has been made.
 
@@ -50,4 +50,4 @@ When the conflict occurs, the user must decide to accept or reject the changes. 
 Click the ***Compare*** button to compare the versions of a conflicted entry. Analyze the XML structure of the entry to decide to ***Accept*** or ***Reject*** the changes.
 
 The content on the left represents the entry retrieved online, and the content on the right represents the local version of the entry, edited in Offline mode.
-![Compare Session Modification](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip3453.png)
+![Compare Session Modification](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip3453.png)

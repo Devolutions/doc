@@ -3,7 +3,7 @@ eleventyComputed:
   title: Forbidden password
 ---
 ***Forbidden Passwords*** allow to create a list of blacklisted passwords to forbid usage in the application. Once set in this list, the password cannot be used anymore in the {{ en.DVLS }} data source.
-![Administration – System Settings – Forbidden Password](https://cdnweb.devolutions.net/docs/en/server/clip10378.png)
+![Administration – System Settings – Forbidden Password](https://cdnweb.devolutions.net/docs/docs_en_server_clip10378.png)
 
 | Option            | Description                                                                                                 |
 |-------------------|-------------------------------------------------------------------------------------------------------------|

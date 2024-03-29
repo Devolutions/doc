@@ -8,7 +8,7 @@ PAM Usage Policies are useful to set which entry types and applications your use
 ## Where to find and modify PAM Usage Policies
 1. In the web interface for {{ en.DVLS }}, make sure you are connected to the right data source.
 1. Go to ***Administration*** – ***Privileged Access*** – ***Usage Policies***.
-![Administration – Privileged Access – Usage Policies](https://cdnweb.devolutions.net/docs/en/kb/KB0159.png)
+![Administration – Privileged Access – Usage Policies](https://cdnweb.devolutions.net/docs/docs_en_kb_KB0159.png)
 1. Modify the desired applications or entry types policies.
 1. Click ***Save***.
 

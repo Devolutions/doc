@@ -3,10 +3,10 @@ eleventyComputed:
   title: Licenses
 ---
 Managing registration globally for all your users can be done with a license serial stored in ***Licenses*** section.
-![Licenses](https://cdnweb.devolutions.net/docs/en/server/ServerOp8030.png)
+![Licenses](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp8030.png)
 
 ## Licenses
-![Licenses - General](https://cdnweb.devolutions.net/docs/en/server/ServerOp8043.png)
+![Licenses - General](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp8043.png)
 
 ### General
 | Option                | Description                                                          |
@@ -15,7 +15,7 @@ Managing registration globally for all your users can be done with a license ser
 | Auto assign new users | Will automatically assign the license key to every new user account. |
 
 ### Assigned To
-![Licenses - Assigned to](https://cdnweb.devolutions.net/docs/en/server/ServerOp8052.png)
+![Licenses - Assigned to](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp8052.png)
 
 | Option         | Description                                                          |
 |----------------|----------------------------------------------------------------------|

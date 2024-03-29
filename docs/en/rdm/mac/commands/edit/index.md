@@ -3,7 +3,7 @@ eleventyComputed:
   title: Edit
 ---
 The Edit ribbon contains operations to rapidly Add, Edit, Overrides, Batch Edit, or Export entries.
-![Edit ribbon](https://cdnweb.devolutions.net/docs/en/rdm/mac/clip10332.png)
+![Edit ribbon](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10332.png)
 
 To learn more please see:
 

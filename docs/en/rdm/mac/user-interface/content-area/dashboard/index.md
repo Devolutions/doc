@@ -3,7 +3,7 @@ eleventyComputed:
   title: Dashboard
 ---
 The Dashboard displays commands and information related to the selected entry. The dashboard is context sensitive and its content depends on the type of the selected entry.
-![Dashboard for credential entry](https://cdnweb.devolutions.net/docs/en/rdm/mac/clip6010.png)
+![Dashboard for credential entry](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip6010.png)
 
 For more information about the dashboard of a specific type of entry, please consult the following topics:
 

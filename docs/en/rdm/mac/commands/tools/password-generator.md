@@ -7,24 +7,24 @@ The Password Generator enables you to create random passwords that are secured a
 You can also create password generator templates to generate more rapidly your passwords. After you have selected your mode and settings, you can create your template.
 
 Password Generator is available in ***Tools - Password Generator***.
-![Tools - Password Generator](https://cdnweb.devolutions.net/docs/en/rdm/mac/clip10459.png)
+![Tools - Password Generator](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10459.png)
 
 ## Settings
 
 ### Use specified settings
 
 Choose all the character types you desire and generate a password.
-![Password generator - Use specified settings](https://cdnweb.devolutions.net/docs/en/rdm/mac/clip10035.png)
+![Password generator - Use specified settings](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10035.png)
 
 ### Readable password
 
 Each generated password will be readable, but will not be a word in the dictionary.
-![Password generator - Readable password](https://cdnweb.devolutions.net/docs/en/rdm/mac/clip10036.png)
+![Password generator - Readable password](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10036.png)
 
 ### Use a pattern
 
 Press the help button and select any pattern you need to create your passwords. A list of the most recent used pattern will also be create.
-![Password generator - User a pattern](https://cdnweb.devolutions.net/docs/en/rdm/mac/clip10037.png)
+![Password generator - User a pattern](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10037.png)
 
 The following are the supported patterns:
 
@@ -58,15 +58,15 @@ The following are the supported patterns:
 ### Pronounceable password
 
 The application will generate a password that is pronounceable.
-![Password generator - Pronounceable password](https://cdnweb.devolutions.net/docs/en/rdm/mac/clip10046.png)
+![Password generator - Pronounceable password](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10046.png)
 
 ### Strong password
 
 The application will generate an 8 characters password with mixed case alphanumerics and special characters.
-![Password generator - strong password](https://cdnweb.devolutions.net/docs/en/rdm/mac/clip10047.png)
+![Password generator - strong password](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10047.png)
 
 ### Forbidden Password
 
 You can generate your own list of forbidden password in the application.
-![Forbidden password](https://cdnweb.devolutions.net/docs/en/rdm/mac/clip10051.png)
+![Forbidden password](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10051.png)
 

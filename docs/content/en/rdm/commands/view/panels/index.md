@@ -3,7 +3,7 @@ eleventyComputed:
   title: Panels
 ---
 In {{ en.RDM }}, the ***Panels*** section of the ***View*** tab allows you to browse and search the {{ en.VLT }}s, sessions, and entries in the ***{{ en.NPANE }}***.
-![Panels Section](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMWin6208.png)
+![Panels Section](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin6208.png)
 
 Below are the different features available in this section:
 

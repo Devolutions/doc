@@ -3,7 +3,7 @@ eleventyComputed:
   title: "{{ en.RDMMAC }} reset layout"
 ---
 To resolve effectively most of your display issues, in {{ en.RDMMAC }}, click on ***Window – Reset Layout***.
-![!!KB4943](https://cdnweb.devolutions.net/docs/en/kb/KB4943.png)
+![!!KB4943](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4943.png)
 
 In the case it did not resolve your interface error, close the application and delete the layout files (*.lyt).
 

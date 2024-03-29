@@ -11,10 +11,10 @@ User management and permissions can be made easier with ***User Groups*** in {{ 
 
 1. Go to ***Administration – User Groups***.
 1. Click ***Add***.
-![!!Hub4172](https://cdnweb.devolutions.net/docs/en/hub/Hub4172.png)
+![!!Hub4172](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub4172.png)
 ***Name*** your ***User Group***.
 1. Select the ***Users***.
-![!!Hub4173](https://cdnweb.devolutions.net/docs/en/hub/Hub4173.png)
+![!!Hub4173](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub4173.png)
 1. Click ***Add***.
 
 ### Manage User Groups

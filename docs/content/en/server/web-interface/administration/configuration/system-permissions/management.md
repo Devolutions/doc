@@ -5,7 +5,7 @@ eleventyComputed:
   - Roles
   status: Topic available in German language
 ---
-![Administration – System Permissions – Management](https://cdnweb.devolutions.net/docs/en/server/ServerOp0066.png)
+![Administration – System Permissions – Management](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp0066.png)
 
 | Option             | Description                                                      |
 |--------------------|------------------------------------------------------------------|

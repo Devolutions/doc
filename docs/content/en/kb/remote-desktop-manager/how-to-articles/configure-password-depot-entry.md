@@ -13,8 +13,8 @@ The integration of credentials from password managers is only available in the T
 {% endsnippet %}
 
 The entry can be found under ***New Entry*** – ***Credential Management*** – ***Password Management***.
-![Credential Management](https://cdnweb.devolutions.net/docs/en/kb/KB0086.png)
-![General tab](https://cdnweb.devolutions.net/docs/en/kb/KB0087.png)
+![Credential Management](https://cdnweb.devolutions.net/docs/docs_en_kb_KB0086.png)
+![General tab](https://cdnweb.devolutions.net/docs/docs_en_kb_KB0087.png)
 * ***Name***: Entry name in {{ en.RDM }}.
 * ***Folder***: Which {{ en.RDM }} folder the entry will be in.
 

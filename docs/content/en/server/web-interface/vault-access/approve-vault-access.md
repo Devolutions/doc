@@ -9,7 +9,7 @@ In {{ en.DVLS }}, users can request access to a public {{ en.VLT }}. An administ
 ## View pending {{ en.VLT }} access requests
 
 To view the number of pending requests, you can look at the following ***Pending {{ en.VLT }} Access Requests*** box in the top of the ***Dashboard***.
-![Dashboard – Pending {{ en.VLT }} Access Requests](https://cdnweb.devolutions.net/docs/en/server/ServerOp0028.png)
+![Dashboard – Pending {{ en.VLT }} Access Requests](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp0028.png)
 To accept the pending requests, scroll down to the ***Pending {{ en.VLT }} Access Requests*** section.
 Using the ***Messages*** button, you can view the ***{{ en.VLT_MAJ }} Access Request*** message of a specific request.
 
@@ -31,17 +31,17 @@ Depending on the data source, administrators / {{ en.VLT }} owners may receive a
 To respond to a request, you can use the ***Pending {{ en.VLT }} Access Requests*** box or open the ***{{ en.VLT_MAJ }} Access Request Response*** window.
 
 The first option is to use the ***Pending {{ en.VLT }} Access Requests*** section (see image below) in your ***Dashboard***, it can be found by scrolling down. Clicking on either the green check mark (approve the request) or the red "X" (deny the request) next to a request will open the ***{{ en.VLT_MAJ }} Access Request Response*** window.
-![Pending {{ en.VLT }} Access Requests](https://cdnweb.devolutions.net/docs/en/server/ServerOp0029.png)
+![Pending {{ en.VLT }} Access Requests](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp0029.png)
 
 The second option requires you to go through the other ***Messages***. Whatever way you choose to access the response window, the result will be the same.
-![Message](https://cdnweb.devolutions.net/docs/en/server/ServerOp0030.png)
+![Message](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp0030.png)
 
 This view is divided into two sections:
 
 * The ***Request Info*** section contains information about the user's request. Because this was done on the user's side, fields in this section cannot be edited.
 * The ***Response Parameters*** section allows you to write a message to the user explaining your decision, but it remains optional.
 
-![Approve or Deny the request](https://cdnweb.devolutions.net/docs/en/server/ServerOp0031.png)
+![Approve or Deny the request](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp0031.png)
 
 The button to send the response (***Approve request*** or ***Deny request***) will change, depending on what you selected earlier.
 

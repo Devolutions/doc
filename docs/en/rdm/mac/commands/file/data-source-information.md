@@ -12,7 +12,7 @@ The display of My Data Source Information can be different depending on the [Dat
 
 ### General
 
-![My Data Source Information - General tab](https://cdnweb.devolutions.net/docs/en/rdm/mac/clip10305.png)
+![My Data Source Information - General tab](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10305.png)
 
 The General displays information on the data source such as:
 
@@ -25,7 +25,7 @@ The General displays information on the data source such as:
 
 ### Sessions
 
-![My Data Source Information - Sessions](https://cdnweb.devolutions.net/docs/en/rdm/mac/clip10306.png)
+![My Data Source Information - Sessions](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10306.png)
 
 The Sessions tab will display user rights on the sessions such as:
 
@@ -41,10 +41,10 @@ The Sessions tab will display user rights on the sessions such as:
 ### Groups
 
 The Groups tab displays which rights the user has into which user groups.
-![My Data Source Information - Groups](https://cdnweb.devolutions.net/docs/en/rdm/mac/clip10307.png)
+![My Data Source Information - Groups](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10307.png)
 
 ### User groups
 
 The Roles tab displays the roles that the user is a member of and the rights related to those roles.
-![Data Source Information - Roles](https://cdnweb.devolutions.net/docs/en/rdm/mac/clip10308.png)
+![Data Source Information - Roles](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10308.png)
 

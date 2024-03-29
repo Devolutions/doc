@@ -21,7 +21,7 @@ The Access URI is case sensitive and must respect the certificate host name. Ens
 There can be more than one Access URI. Click the ellipsis button to add or manage additional ***Access URI***.
 {% endsnippet %}
 
-![Server – Edit – ISS](https://cdnweb.devolutions.net/docs/en/kb/KB5020.png)
+![Server – Edit – ISS](https://cdnweb.devolutions.net/docs/docs_en_kb_KB5020.png)
 1. Click ***OK***.
 {start="3"}
 

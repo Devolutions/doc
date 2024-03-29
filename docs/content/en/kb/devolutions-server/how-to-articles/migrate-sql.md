@@ -15,12 +15,17 @@ When removing a ***Security Provider***, it is important to complete these steps
 {% endsnippet %}
 
 1. Go to the desired ***Microsoft SQL Server*** data source.
-1. Select the ***Administration*** tab in the ribbon.  
+1. Select the ***Administration*** tab in the ribbon.
 1. Click on ***Security Provider***.  
+![Security Provider](https://cdnweb.devolutions.net/docs/RDMW0009_2024_1.png)
 1. Click on ***Change Security Settings***.  
+![Change Security Settings](https://cdnweb.devolutions.net/docs/RDMW0014_2024_1.png)
 1. In the dropdown select the ***Default*** option and click ***Apply***.  
-1. Click ***Yes*** after the warning window appears.  
-1. Click ***Close*** (this may take some time with larger data bases).  
+![Default security type](https://cdnweb.devolutions.net/docs/RDMW0015_2024_1.png)
+1. Click ***Yes*** after the warning window appears (this may take some time with larger data bases).  
+![Warning window](https://cdnweb.devolutions.net/docs/RDMW0012_2024_1.png)
+1. Click ***Close***.  
+![Close](https://cdnweb.devolutions.net/docs/RDMW0013_2024_1.png)
 
 ## Migrating MSSQL to {{ en.DVLS }}
 This operation assumes that you have [{{ en.DVLSCONSOLE }} installed](https://devolutions.net/server/home/download) on your target {{ en.DVLSCONSOLE }} host. You may migrate an MSSQL data source prior to [fully installing](/server/installation/) an instance of {{ en.DVLS }}.
@@ -31,22 +36,37 @@ This procedure operates on the existing database, not a copy. To revert this pro
 
 1. Open the {{ en.DVLSCONSOLE }}.
 1. Navigate to ***Server*** – ***New*** – ***IIS Web Server*** – ***Migrate SQL Data Source***.  
-1. Enter the information in the ***Database*** and ***Credentials*** sections.  
+![Migrate SQL Data Source](https://cdnweb.devolutions.net/docs/DVLSCONSOLE0000_2024_1.png)
+1. Enter the information in the ***Database*** and ***Credentials*** sections.
 1. Enable ***Activate Encryption At Rest***. With this option enabled, a new *encryption.config* file is generated and data re-encrypted via the newly created key.
-1. Click on ***Test Connection***.
+1. Click on ***Test Connection***.  
+![Test Connection](https://cdnweb.devolutions.net/docs/DVLSCONSOLE0001_2024_1.png)
 1. Click ***OK***.  
+![OK](https://cdnweb.devolutions.net/docs/DVLSCONSOLE0002_2024_1.png)
    {% snippet icon.badgeInfo %}
    The “Database contains encrypted data” warning is specific to {{ en.DVLS }} encryption keys and not default {{ en.RDM }} data encryption.
    {% endsnippet %}
 1. Enter the ***Server name*** and click ***Next***.  
+![Server name](https://cdnweb.devolutions.net/docs/DVLSCONSOLE0003_2024_1.png)
 1. Choose which version of {{ en.DVLS }} to download and click ***Next***.  
+![Download version](https://cdnweb.devolutions.net/docs/DVLSCONSOLE0004_2024_1.png)
 1. Fill the information fields for the ***IIS Settings*** of the new {{ en.DVLS }} installation.  
+![IIS Settings](https://cdnweb.devolutions.net/docs/DVLSCONSOLE0005_2024_1.png)
 1. Enter the information for the new administrator user.  
-1. Install the Scheduler Service if this is the first instance of {{ en.DVLSCONSOLE }}.  
-1. Configure the ***Recovery Kit***.
+![Administrator user](https://cdnweb.devolutions.net/docs/DVLSCONSOLE0006_2024_1.png)
+   {% snippet icon.badgeInfo %}
+   Install the Scheduler Service if this is the first instance of {{ en.DVLSCONSOLE }}.
+   {% endsnippet %}
+1. Configure the ***Recovery Kit*** and click ***Next***.  
+![Recovery Kit](https://cdnweb.devolutions.net/docs/DVLSCONSOLE0007_2024_1.png)
 1. Click ***Install***.  
+![Install](https://cdnweb.devolutions.net/docs/DVLSCONSOLE0008_2024_1.png)
 
 Once the process is completed, the new {{ en.DVLS }} installation will be immediately available for use. At this time, you will want to [add a new data source](/rdm/commands/file/data-sources/) for your {{ en.RDM }} clients to connect to the {{ en.DVLS }} data source.
 
 ### {{ en.DVLS }} free
+{% snippet icon.badgeInfo %}
+A {{ en.RDM }} Team license is needed to use {{ en.DVLS }} free.
+{% endsnippet %}
+
 {{ en.DVLS }} offers a free license to use for up to 10 users. Upon first connection to the {{ en.DVLS }} web interface, you are prompted to enter a license. Click on the ***Activate the Free Version*** button to use the free license. Please note you do need an {{ en.RDM }} Team edition subscription.

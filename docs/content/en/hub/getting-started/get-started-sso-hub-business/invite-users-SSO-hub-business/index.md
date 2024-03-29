@@ -23,24 +23,24 @@ As part of the creation process, a {{ en.DA }} will be created since it is requi
 ## Invite Organization Users
 
 1. Go to ***Administration – Users***. If you have new users who are synced from your provider, they will be ready to be invited. You can see their count in the ***Invitation required*** widget. Click on this widget.
-![Invitation required](https://cdnweb.devolutions.net/docs/en/hub/Hub4141.png)
+![Invitation required](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub4141.png)
 1. ***Step 1 - From Organization***: Select from the users that are suggested, if applicable, or invite all members of a sync group from the ***Groups*** tab. Click ***Next***.
-![Step 1 - From Organization](https://cdnweb.devolutions.net/docs/en/hub/Hub2176.png)
+![Step 1 - From Organization](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub2176.png)
 1. ***Step 2 - By Emails***: It is possible to invite other users that are not synced, but who belong to the same provider. Enter either an individual email or a group email, then click ***Next***.
 {% snippet icon.badgeInfo %}
 This is only possible if the enterprise application in Azure has the ***Assignment required*** set to ***No***. This setting can be found in the ***Properties*** of the enterprise application.
 {% endsnippet %}
 
-![Step 2 - By Emails](https://cdnweb.devolutions.net/docs/en/hub/Hub2177.png)
+![Step 2 - By Emails](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub2177.png)
 
 4. ***Step 3 - Options***: Select ***Options*** for users, then click ***Next***.
-![Step 3 - Options](https://cdnweb.devolutions.net/docs/en/hub/Hub2178.png)
+![Step 3 - Options](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub2178.png)
 1. ***Step 4 - User groups***: Synchronized users do not need to be assigned to the synced ***User Groups***. They will be added automatically as they log in. If you have custom ***User Groups***, you can assign them users.
 {% snippet icon.badgeInfo %}
 Custom ***User groups*** need to be defined beforehand in {{ en.DHUBB }}. For more information, see [User Groups](/hub/web-interface/administration/management/users/).
 {% endsnippet %}
 
-![Step 4 - User groups](https://cdnweb.devolutions.net/docs/en/hub/Hub2179.png)
+![Step 4 - User groups](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub2179.png)
 
 6. Click ***Send invite*** at the bottom.
 

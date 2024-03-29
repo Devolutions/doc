@@ -19,11 +19,11 @@ Go to the section that corresponds to your data source type:
 
 1. In {{ en.RDMMAC }}, go to the data source for which you want to configure the MFA.
 1. Go to ***File – My Account Settings – Data Source MFA***.
-![File – My Account Settings – Data Source MFA](https://cdnweb.devolutions.net/docs/en/rdm/mac/RDMMac2056.png)
+![File – My Account Settings – Data Source MFA](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_RDMMac2056.png)
 1. In the ***Multi-Factor Configuration*** window, click ***Change***.
-![Change Multi-Factor Configuration](https://cdnweb.devolutions.net/docs/en/rdm/mac/clip10064.png)
+![Change Multi-Factor Configuration](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10064.png)
 1. Select your MFA ***Type*** in the drop-down list.
-![Multi-Factor Authentication Type](https://cdnweb.devolutions.net/docs/en/rdm/mac/clip10066.png)
+![Multi-Factor Authentication Type](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10066.png)
 1. Follow one of the links below depending on the choice made in the previous step:
     * [Authenticator (TOTP)](/rdm/mac/data-sources/multi-factor-authentication/authenticator-totp/)
     * [Yubikey](/rdm/mac/data-sources/multi-factor-authentication/yubikey/)
@@ -33,13 +33,13 @@ Go to the section that corresponds to your data source type:
 
 1. In {{ en.RDMMAC }}, go to ***File – Data Sources***.
 1. Select the SQLite data source in the left menu, then click on ***Edit data source*** button.
-![Edit data source](https://cdnweb.devolutions.net/docs/en/rdm/mac/RDMMac2057.png)
+![Edit data source](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_RDMMac2057.png)
 1. Next to the ***Multi-factor*** setting, click on ***None***.
-![Multi-factor Option](https://cdnweb.devolutions.net/docs/en/rdm/mac/clip10065.png)
+![Multi-factor Option](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10065.png)
 1. In the ***Multi-Factor Configuration*** window, click ***Change***.
-![Two Factor Configuration](https://cdnweb.devolutions.net/docs/en/rdm/mac/clip10064.png)
+![Two Factor Configuration](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10064.png)
 1. Select your MFA ***Type*** in the drop-down list.
-![Two Factor Configuration](https://cdnweb.devolutions.net/docs/en/rdm/mac/clip10066.png)
+![Two Factor Configuration](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10066.png)
 1. Follow one of the links below depending on the choice made in the previous step:
     * [Authenticator (TOTP)](/rdm/mac/data-sources/multi-factor-authentication/authenticator-totp/)
     * [Yubikey](/rdm/mac/data-sources/multi-factor-authentication/yubikey/)

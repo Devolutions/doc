@@ -11,4 +11,4 @@ Visit the different sections and help contribute to our community knowledge.
 A free [{{ en.DA }}](/cloud/devolutions-account/) is required to log in and interact on the {{ en.DFORUM }}.
 {% endsnippet %}
 
-![{{ en.DFORUM }}](https://cdnweb.devolutions.net/docs/en/cloud/Cloud2002.png)
+![{{ en.DFORUM }}](https://cdnweb.devolutions.net/docs/docs_en_cloud_Cloud2002.png)

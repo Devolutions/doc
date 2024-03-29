@@ -4,7 +4,7 @@ eleventyComputed:
   description: The Applications section manages the availability of different features related to {{ en.RDM }} application.
 ---
 The ***Applications*** section manages the availability of different features related to {{ en.RDM }} application.
-![!!clip3561](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip3561.png)
+![!!clip3561](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip3561.png)
 
 | ALLOW ACCESS       | DESCRIPTION                                                     |
 |--------------------|-----------------------------------------------------------------|

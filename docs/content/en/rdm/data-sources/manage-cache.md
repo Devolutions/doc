@@ -19,7 +19,7 @@ The Manage Cache options should usually only be used upon request from our Suppo
 The Manage Cache options will only be available when using an SQLite cache.
 {% endsnippet %}
 
-![Manage Cache](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip10013.png)
+![Manage Cache](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip10013.png)
 
 | OPTION       | DESCRIPTION |
 |--------------|-------------|

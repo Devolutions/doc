@@ -27,7 +27,7 @@ Despite sharing the same underlying architecture, slight differences exist betwe
 1. Add a ***Passphrase*** for extra security (mandatory if the recipient does not have a {{ en.DA }}, optional otherwise).
 1. Read and agree to our [online services terms](https://devolutions.net/legal/online-services-terms/).
 1. Click on ***Create secure link*** to get your in-browser encrypted, 24-hour short-lived link.
-![{{ en.DSEND_STANDALONE }} interface](https://cdnweb.devolutions.net/docs/en/kb/KB2363.png)
+![{{ en.DSEND_STANDALONE }} interface](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2363.png)
 
 ## How to receive a {{ en.DSEND_STANDALONE }} secret
 1. Click on the received encrypted link.
@@ -35,17 +35,17 @@ Despite sharing the same underlying architecture, slight differences exist betwe
    A {{ en.DSEND_STANDALONE }} secret will always start with `https://send.devolutions.com/receive/`.
    {% endsnippet %}
 1. Enter the ***Passphrase*** the sender provided (if necessary) and click on ***Decrypt***.
-![Decrypt button](https://cdnweb.devolutions.net/docs/en/kb/KB0187.png)
+![Decrypt button](https://cdnweb.devolutions.net/docs/docs_en_kb_KB0187.png)
 1. Click on ***Unmask text***.
    {% snippet icon.shieldCaution %}
    Make certain to be in a private setting before reading this message if it contains sensitive information.
    {% endsnippet %}
 
-   ![Unmask text](https://cdnweb.devolutions.net/docs/en/kb/KB0188.png)
+   ![Unmask text](https://cdnweb.devolutions.net/docs/docs_en_kb_KB0188.png)
 1. Once done, click on ***Delete Now***.
 1. Click ***Yes***.
-![Yes button](https://cdnweb.devolutions.net/docs/en/kb/KB0189.png)
-![Deleted secure message](https://cdnweb.devolutions.net/docs/en/kb/KB0190.png)
+![Yes button](https://cdnweb.devolutions.net/docs/docs_en_kb_KB0189.png)
+![Deleted secure message](https://cdnweb.devolutions.net/docs/docs_en_kb_KB0190.png)
 
 ## Technical details
 The core tenant of {{ en.DSEND }} is that Devolutions itself cannot decrypt the user's secret. This is accomplished via client-side (browser) encryption through a Rust program compiled to WASM (WebAssembly) in-browser. Therefore, Devolutions does not hold the encryption key and cannot decrypt the data.

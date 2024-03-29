@@ -12,11 +12,11 @@ Any debug level other then zero will slow down the application and write a lot o
 Use the debugging method whenever you need to diagnose the start-up or initial connection.
 
 1. Start by clicking on Help - Profiler. Move the window aside to clear the main window of {{ en.RDMMAC }}
-![Perfromance Profiling](https://cdnweb.devolutions.net/docs/en/rdm/mac/clip10471.png)
+![Perfromance Profiling](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10471.png)
 1. In the Debug only tab, click on the ellipsis button and activate the proper debug categories.
-![Help - Profiler - Debug only](https://cdnweb.devolutions.net/docs/en/rdm/mac/clip10474.png)
+![Help - Profiler - Debug only](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10474.png)
 1. In {{ en.RDMMAC }}, click on Flags to check what perform the action that is under investigation.
-![Performance Profiling - Debug level](https://cdnweb.devolutions.net/docs/en/rdm/mac/clip10475.png)
+![Performance Profiling - Debug level](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10475.png)
 1. Then, click on Send trace to support. In the following dialog, ensure you specify enough information to link the report to the appropriate ticket, if the process was started from the forum include your forum user name.
-![Send trace to support](https://cdnweb.devolutions.net/docs/en/rdm/mac/clip10609.png)
+![Send trace to support](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10609.png)
 

@@ -9,7 +9,7 @@ This topic will cover how to create a Custom Field Report to use various PowerSh
 1. Click the ***New Entry*** button.
 1. Select ***Report***, which is under ***Macro/Script/Tool*** – ***Tool***.
 1. Enter the ***Name***.
-![Custom Field Report](https://cdnweb.devolutions.net/docs/en/kb/KB0138.png)
+![Custom Field Report](https://cdnweb.devolutions.net/docs/docs_en_kb_KB0138.png)
 1. In the ***General*** tab:
     * Set the ***Type*** to ***Custom Field Report***.
     * The ***Script source*** can either be;
@@ -21,7 +21,7 @@ This topic will cover how to create a Custom Field Report to use various PowerSh
    If you chose ***Linked Entry***, skip step 5.
    {% endsnippet %}
 1. In the ***Script*** tab, add the custom script.
-![Script example](https://cdnweb.devolutions.net/docs/en/kb/KB0139.png)
+![Script example](https://cdnweb.devolutions.net/docs/docs_en_kb_KB0139.png)
    {% snippet icon.badgeInfo %}
    There is a ***Sample*** script at the bottom of this tab to use as reference.
    {% endsnippet %}

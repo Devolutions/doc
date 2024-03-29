@@ -21,12 +21,12 @@ Delete duplicate folders before running the PowerShell script from the new entry
 1. Select the data source {{ en.VLT }}s from which you want to delete all virtual folders in the ***{{ en.NPANE }}***.  
 1. Add a new entry.  
 1. Go to ***Session – PowerShell*** to create a PowerShell session entry.  
-![PowerShell session entry](https://cdnweb.devolutions.net/docs/en/kb/KB6014.png)  
+![PowerShell session entry](https://cdnweb.devolutions.net/docs/docs_en_kb_KB6014.png)  
 1. Name the entry and choose the folder in which you want to create it.  
 1. Set the entry to ***Embedded Script***.  
- ![Embedded Script](https://cdnweb.devolutions.net/docs/en/kb/KB6020.png)  
+ ![Embedded Script](https://cdnweb.devolutions.net/docs/docs_en_kb_KB6020.png)  
 1.  Click on ***Edit embedded script***.  
- ![Edit embedded script](https://cdnweb.devolutions.net/docs/en/kb/KB6019.png)  
+ ![Edit embedded script](https://cdnweb.devolutions.net/docs/docs_en_kb_KB6019.png)  
 1. Add the following script:  
 
 ```powershell
@@ -165,5 +165,5 @@ Write-Host "Time taken to convert virtual folders: $(($afterCreatingGroups).Subt
 9. Click ***OK*** to apply the script.  
 1. Click ***OK*** the save the entry settings and close the window.  
 1. Click on ***Open Session*** to run the entry.  
-![Open Session](https://cdnweb.devolutions.net/docs/en/kb/KB6018.png)  
+![Open Session](https://cdnweb.devolutions.net/docs/docs_en_kb_KB6018.png)  
 The script will now delete all virtual folders in the data source {{ en.VLT }}s.

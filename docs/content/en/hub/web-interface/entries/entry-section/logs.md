@@ -3,5 +3,5 @@ eleventyComputed:
   title: Logs
 ---
 Consult the entry ***Logs*** interaction made by users with the entry using the filter to refine your search.
-![!!Hub4124](https://cdnweb.devolutions.net/docs/en/hub/Hub4124.png)
+![!!Hub4124](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub4124.png)
 

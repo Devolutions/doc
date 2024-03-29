@@ -29,7 +29,7 @@ If you have multiple {{ en.VLT }}s, you will need to export each {{ en.VLT }} se
 {% endsnippet %}
 
 2. Select ***File – Export – Export {{ en.VLT }} (.rdm)***.
-![File – Export – Export {{ en.VLT }} (.rdm)](https://cdnweb.devolutions.net/docs/en/kb/KB4540.png)
+![File – Export – Export {{ en.VLT }} (.rdm)](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4540.png)
 1. For a typical migration, you would check the options ***Include credentials***, ***Include attachments and documents***, and ***Encrypt with master key***.
     * You can choose to remove all the folders present in your navigation tree.
     * It is important to ***Include credentials*** at this step. If you choose not to, all your entries will be imported without any credentials.
@@ -39,16 +39,16 @@ If you have multiple {{ en.VLT }}s, you will need to export each {{ en.VLT }} se
 Ensure that you do not forget the ***Master Key*** as you will not be able to decrypt the data without it.
 {% endsnippet %}
 
-![Export Entries](https://cdnweb.devolutions.net/docs/en/kb/KB4541.png)
+![Export Entries](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4541.png)
 4. Save the file.
 
 ## Import a data source
 1. Validate that your new data source is created and selected in the ***{{ en.NPANE }}***.
 1. Select ***File – Import – Import (.rdm)***.
-![File – Import – Import (.rdm)](https://cdnweb.devolutions.net/docs/en/kb/KB4542.png)
+![File – Import – Import (.rdm)](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4542.png)
 1. Find your previously saved file on your computer, select it, then click ***Open***.
 1. In ***Import Entries***, select if you wish to ***Import in root***, ***Import in current folder***, or ***Import in specific folder***.
-![Import Entries](https://cdnweb.devolutions.net/docs/en/kb/KB4543.png)
+![Import Entries](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4543.png)
 
    | Option                    | Description                                                                  |
    |---------------------------|------------------------------------------------------------------------------|

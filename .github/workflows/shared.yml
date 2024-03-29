@@ -106,11 +106,6 @@ jobs:
         with:
           github_token: ${{ secrets.DEVOLUTIONSBOT_TOKEN }}
 
-      - name: Connect to Tailscale
-        uses: ./.github/workflows/tailscale
-        with:
-          auth_key: ${{ secrets.TAILSCALE_AUTH_KEY_EPHEMERAL }}
-
       - uses: azure/login@v2
         with:
           client-id: ${{ secrets.AZURE_CLIENT_ID }}
@@ -122,6 +117,11 @@ jobs:
         with:
           cluster: ${{ inputs.cluster }}
           subscription_id: ${{ inputs.subscription_id }}
+
+      - name: Connect to Tailscale
+        uses: ./.github/workflows/tailscale
+        with:
+          auth_key: ${{ secrets.TAILSCALE_AUTH_KEY_EPHEMERAL }}
 
       - name: Deploy with kustomize
         uses: ./.github/workflows/k8s-kustomize-deploy

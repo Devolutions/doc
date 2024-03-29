@@ -5,7 +5,7 @@ eleventyComputed:
 You can manage your {{ en.RDM }} versions for Windows, Mac, Android or iOS.
 
 ### Version Management
-![Version Management tab](https://cdnweb.devolutions.net/docs/en/rdm/mac/2015-09-22_09-38-30.png)
+![Version Management tab](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_2015-09-22_09-38-30.png)
 
 | OPTION                           | DESCRIPTION                                                                                    |
 |----------------------------------|------------------------------------------------------------------------------------------------|

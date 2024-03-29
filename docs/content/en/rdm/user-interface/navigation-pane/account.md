@@ -4,7 +4,7 @@ eleventyComputed:
   description: The Account tab gives you access to settings for customizing your {{ en.RDM }} interface.
 ---
 The ***Account*** tab gives you access to settings for customizing your {{ en.RDM }} interface. At the top, information about the account connected to {{ en.RDM }} is displayed.
-![Account tab](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMWin2165.png)
+![Account tab](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin2165.png)
 
 ## Settings
 
@@ -31,4 +31,4 @@ Usage profile changes are applied to your account in the current data source. Th
 For a more detailed overview of the profiles, see [Usage profiles](/rdm/windows/user-interface/customization/usage-profiles/).
 {% endsnippet %}
 
-The profile can also be selected during the {{ en.RDM }} Onboarding process. If none is chosen or if the user decides to choose one later, they will be assigned the ***Default*** profile, which can be changed in ***File – Options – User Interface – Usage profile*** or in the web interface.
+The profile can also be selected during the {{ en.RDM }} Onboarding process. If none is chosen or if the user decides to choose one later, they will be assigned the ***Default*** profile, which can be changed in ***File – Settings – User Interface – Usage profile*** or in the web interface.

@@ -27,7 +27,7 @@ Then you need to add a key of {{ en.RDM }} in **HKEY_LOCAL_MACHINE\SYSTEM\Curren
 
 Also, String Value and DWORD (1000) are necessary.
 
-![!!KB4065](https://cdnweb.devolutions.net/docs/en/kb/KB4065.png)
+![!!KB4065](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4065.png)
 
 This reg key has to be added on the server-side.
 

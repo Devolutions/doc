@@ -19,7 +19,7 @@ The only appropriate format to import the entries back into {{ en.RDM }} is the 
 
 ## Settings
 
-![File – Export](https://cdnweb.devolutions.net/docs/en/rdm/mac/clip10315.png)
+![File – Export](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10315.png)
 
 {% snippet icon.badgeInfo %}
 When using an [Advanced Data Source](/rdm/mac/data-sources/data-sources-types/advanced-data-sources/), export capabilities can be disabled via security policies at the data source level (no one can export) or at a user level (particular users cannot export).
@@ -37,7 +37,7 @@ By default the credentials are NOT included. It is critical to check the Credent
 By default the credentials are NOT included. It is critical to check the Credentials option for the exported data to include the credentials.
 {% endsnippet %}
 
-![Export all entries (.rdm)](https://cdnweb.devolutions.net/docs/en/rdm/mac/clip10316.png)
+![Export all entries (.rdm)](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10316.png)
 
 ### Export Selection (.rdm)
 

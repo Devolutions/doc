@@ -6,7 +6,7 @@ eleventyComputed:
 
 Uncheck Persistent bitmap caching under the Experience tab in the properties of your RDP session.
 
-![!!KB4047](https://cdnweb.devolutions.net/docs/en/kb/KB4047.png)
+![!!KB4047](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4047.png)
 
 ### Sessions are flickering, turning black or randomly shuffles while working.
 
@@ -14,8 +14,8 @@ We have identified the CA DSM Agent Suite for desktop management as being the cu
 
 ### The remote taskbar on your remote system is hidden by the one from your local machine.
 
-![!!KB4049](https://cdnweb.devolutions.net/docs/en/kb/KB4049.png)
+![!!KB4049](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4049.png)
 
 Set the Screen sizing mode in the properties of your RDP session under the Display tab.
 
-![!!KB4050](https://cdnweb.devolutions.net/docs/en/kb/KB4050.png)
+![!!KB4050](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4050.png)

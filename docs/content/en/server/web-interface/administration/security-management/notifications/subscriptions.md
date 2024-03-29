@@ -5,9 +5,9 @@ eleventyComputed:
   - Roles
 ---
 The ***Subscriptions*** are intended to send email according to activities on {{ en.DVLS }}. It could be activities on entries, user accounts, system settings, etc.
-![Notifications – Subscriptions](https://cdnweb.devolutions.net/docs/en/server/ServerOp8073.png)
+![Notifications – Subscriptions](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp8073.png)
 
-![Subscription properties dialog](https://cdnweb.devolutions.net/docs/en/server/ServerOp8158.png)
+![Subscription properties dialog](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp8158.png)
 
 ## Subscriptions
 | Option               | Description               |

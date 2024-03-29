@@ -30,7 +30,7 @@ You can specify a password to further encrypt your data, you must enter your pas
 
 ### Connection
 
-![SQLite - Connection tab](https://cdnweb.devolutions.net/docs/en/rdm/mac/clip10159.png)
+![SQLite - Connection tab](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10159.png)
 
 | OPTION               | DESCRIPTION |
 |----------------------|-------------|
@@ -43,7 +43,7 @@ You can specify a password to further encrypt your data, you must enter your pas
 
 ### Backup
 
-![SQLite - Backup tab](https://cdnweb.devolutions.net/docs/en/rdm/mac/clip6055.png)
+![SQLite - Backup tab](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip6055.png)
 
 | OPTION      | DESCRIPTION |
 |-------------|-------------|
@@ -52,7 +52,7 @@ You can specify a password to further encrypt your data, you must enter your pas
 
 ### Advanced
 
-![SQLite - Advanced tab](https://cdnweb.devolutions.net/docs/en/rdm/mac/clip10161.png)
+![SQLite - Advanced tab](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10161.png)
 
 | OPTION               | DESCRIPTION |
 |----------------------|-------------|
@@ -64,7 +64,7 @@ You can specify a password to further encrypt your data, you must enter your pas
 
 ### Maintenance
 
-![SQLite - Maintenance tab](https://cdnweb.devolutions.net/docs/en/rdm/mac/clip10162.png)
+![SQLite - Maintenance tab](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10162.png)
 
 | OPTION               | DESCRIPTION |
 |----------------------|-------------|

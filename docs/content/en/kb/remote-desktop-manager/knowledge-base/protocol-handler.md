@@ -60,7 +60,7 @@ There are three rules to follow when constructing an URL for the protocol handle
 
 #### Open an RDP session
 1. In the ***Advanced*** section of an entry properties, click on the ***Create Web Url*** button.
-![Create Web URL](https://cdnweb.devolutions.net/docs/en/kb/KB4466.png)
+![Create Web URL](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4466.png)
 1. The Url is stored in the clipboard.
-![URL has been copied to the clipboard](https://cdnweb.devolutions.net/docs/en/kb/KB4467.png)
+![URL has been copied to the clipboard](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4467.png)
 1. Paste (<kbd>Ctrl</kbd>+<kbd>V</kbd>) this Url in any application able to handle application protocols. It can be in a web page, a web browser address bar, or even a supported chat application. The protocol handler launches {{ en.RDM }} if it is closed, then perform the requested action with the provided parameters.

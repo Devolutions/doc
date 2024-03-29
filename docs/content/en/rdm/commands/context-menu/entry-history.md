@@ -14,7 +14,7 @@ You must be an administrator of the data source to perform this action.
 
 ## Settings
 
-![Home - Entry History](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip10887.png)
+![Home - Entry History](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip10887.png)
 
 To display the entry history, right-click on an entry and select ***View – Entry History***.
 
@@ -22,10 +22,10 @@ To display the entry history, right-click on an entry and select ***View – Ent
 
 The entry history view dialog allows you to compare two entries and manage history revisions. To compare simply select any two entries then use the ***Compare*** button. You can delete any history revision or the entire history using the ***Delete*** and ***Delete All*** buttons.
 
-![Entry history view](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip10180.png)
-![Compare session modifications](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip10181.png)
+![Entry history view](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip10180.png)
+![Compare session modifications](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip10181.png)
 
 ### View Deleted Entries
 
 Use the Administration – [View Deleted](/rdm/windows/commands/administration/reports/deleted-entries/) to manage and resurrect deleted entries.
-![Deleted Entries](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip10182.png)
+![Deleted Entries](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip10182.png)

@@ -7,21 +7,21 @@ The ***Logs*** section provides tools to view ***Activity***, ***Data Sources***
 
 You can refine your search with the filters for each report and click the ***Export*** button of each section to create a CSV report.
 
-![Logs](https://cdnweb.devolutions.net/docs/en/server/ServerOp6083.png)
+![Logs](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp6083.png)
 ### Activity Logs
 The ***Activity Logs*** report displays specific {{ en.VLT }} actions on the activity of selected users or of all of your users. Activity ***Message*** are listed in a drop down menu to choose from and refine your search.
 
 Click the ***Log Entry*** button to view more information about the activity.
 
-![Activity Logs](https://cdnweb.devolutions.net/docs/en/server/ServerOp6086.png)
+![Activity Logs](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp6086.png)
 ### Data Sources Logs
 The ***Data Sources Logs*** displays the logs of the {{ en.DVLS }} data source. For more information on a specific log, click the arrow at the beginning of the line.
 
-![Data Sources Logs ](https://cdnweb.devolutions.net/docs/en/server/ServerOp4067.png)
+![Data Sources Logs ](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp4067.png)
 ### Administration Logs
 The ***Administration Logs*** keeps track of administrative level activities, such as access denied, temporary access request and user or user group update.
 
-![Administration Logs ](https://cdnweb.devolutions.net/docs/en/server/ServerOp4068.png)
+![Administration Logs ](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp4068.png)
 ### Deleted Entries
 The ***Deleted Entries*** lists every entry deleted in the data source, including the folder it originated from, when and whom deleted it. Refine your search by {{ en.VLT }} with the filter and click ***Resurrect Entry*** to recover the entry in its original {{ en.VLT }} and folder.
 
@@ -29,18 +29,18 @@ The ***Deleted Entries*** lists every entry deleted in the data source, includin
 Once you confirm to delete an entry from the ***Deleted Entries*** lists, it will be deleted completely from the {{ en.DVLS }} data.
 {% endsnippet %}
 
-![Deleted Entries](https://cdnweb.devolutions.net/docs/en/server/ServerOp4070.png)
+![Deleted Entries](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp4070.png)
 ### Last Usage Logs
 The ***Last Usage Logs*** displays the time and date of the last modification done on an entry.
 
 From the list you can also move the entries shown to another {{ en.VLT }}. For this, select the entries and click the ***Move To {{ en.VLT }}*** button.
 
-![Last Usage Logs](https://cdnweb.devolutions.net/docs/en/server/ServerOp4069.png)
+![Last Usage Logs](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp4069.png)
 
 ### User Behavior Analytics
 
 The ***User Behavior Analytics*** allows you to track user behavior. Detect multiple failed login attempts and connections from a country or location that deviates from established patterns. View when emergency access is used and when login requests are made through the Tor Browser.
 
-![User Behavior Analytics](https://cdnweb.devolutions.net/docs/en/server/ServerOp6085.png)
+![User Behavior Analytics](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp6085.png)
 
 

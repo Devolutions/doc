@@ -6,7 +6,7 @@ eleventyComputed:
 The ***Actions*** tab is only available when a session is open. Available actions differ depending on the action.
 
 For our example we are running an RDP session. The ribbon will display the following tab when the session runs with the ***Embedded (tabbed)*** display mode.
-![Ribbon - Actions](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip11288.png)
+![Ribbon - Actions](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip11288.png)
 
 ### Connection
 
@@ -72,4 +72,4 @@ Session add-ons may add custom command in this section, they will not be documen
 | Record | Record your screen in an MP4 format. We recommend the use of a VLC player to view the recorded video. |
 
 Alternatively, these actions are also available by right-clicking on the tab of an embedded session.
-![Actions Context Menu of an Embedded Session](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip10184.png)
+![Actions Context Menu of an Embedded Session](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip10184.png)

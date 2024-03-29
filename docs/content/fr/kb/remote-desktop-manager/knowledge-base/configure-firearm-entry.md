@@ -7,9 +7,9 @@ eleventyComputed:
 ---
 Here is a list of all the fields in the ***Firearm*** entry. The entry can be found under ***New Entry – Information – Other***.
 
-![Firearm entry](https://cdnweb.devolutions.net/docs/en/kb/KB6008.png)  
+![Firearm entry](https://cdnweb.devolutions.net/docs/docs_en_kb_KB6008.png)  
 
-![General tab](https://cdnweb.devolutions.net/docs/en/kb/KB6009.png)
+![General tab](https://cdnweb.devolutions.net/docs/docs_en_kb_KB6009.png)
 ## General settings
 * ***Name***
 * ***Folder***
@@ -23,7 +23,7 @@ Here is a list of all the fields in the ***Firearm*** entry. The entry can be fo
 * ***Serial number***
 
 ## Details tab
-![Details tab](https://cdnweb.devolutions.net/docs/en/kb/KB6010.png)  
+![Details tab](https://cdnweb.devolutions.net/docs/docs_en_kb_KB6010.png)  
 * ***Cost***
 * ***Caliber***
 * ***Magazine capacity***

@@ -28,6 +28,6 @@ The size of the dump file should not generally exceed 100 MB to 300 MB. Files la
    In the next step, make sure you create a minidump and **NOT** a full dump.
    {% endsnippet %}
 1. Select ***Create Dump – Create Minidump***.
-   ![Create Dump – Create Minidump](https://cdnweb.devolutions.net/docs/en/kb/KB2262.png)
+   ![Create Dump – Create Minidump](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2262.png)
 1. Save the ***RemoteDesktopManager.dmp*** file.
 1. Contact our [support team](mailto:service@devolutions.net) for them to provide a secure link that can be used to send them this file.

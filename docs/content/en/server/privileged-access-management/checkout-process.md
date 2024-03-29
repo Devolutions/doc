@@ -15,7 +15,7 @@ This topic will cover both the [PAM checkout process](#checkout) and the [PAM ch
 1. In the web interface for {{ en.DVLS }}, make sure you are connected to the right data source.
 1. Go to the ***Privileged Access*** tab and select the desired {{ en.VLT }}.
 1. Click on an entry and then click ***Check Out***.
-![Check Out](https://cdnweb.devolutions.net/docs/en/server/ServerOp0036.png)
+![Check Out](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp0036.png)
 1. Select whom you want to send the request to.
 
 {% snippet icon.badgeInfo %}
@@ -27,7 +27,7 @@ Selecting ***All Approvers*** speeds up the process by allowing the first availa
    The minimum checkout time is 10 minutes.
    {% endsnippet %}
 1. Click the ***Request Check Out*** button to confirm and close this dialog box.
-![Check-out Request](https://cdnweb.devolutions.net/docs/en/server/ServerOp6112.png)
+![Check-out Request](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp6112.png)
 
 ## Checkout with custom time
 {% snippet icon.badgeInfo %}
@@ -37,8 +37,8 @@ Making a ***Checkout*** request in advance is only available in PAM {{ en.VLT }}
 1. In the web interface for {{ en.DVLS }}, make sure you are connected to the right data source.
 1. Go to the ***Privileged Access*** tab and select the desired {{ en.VLT }}.
 1. Click on an entry and then click ***Check Out***.
-![Check Out](https://cdnweb.devolutions.net/docs/en/server/ServerOp0036.png)
+![Check Out](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp0036.png)
 1. Enable ***Set custom time frame***.
-![PAM checkout with custom time frame](https://cdnweb.devolutions.net/docs/en/server/ServerOp0035.png)
+![PAM checkout with custom time frame](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp0035.png)
 1. Choose the ***Start time*** and ***End time***.
 1. Click the ***Check Out*** button to confirm and close this dialog box.

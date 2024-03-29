@@ -12,7 +12,7 @@ This security setting determines whether passwords must meet predetermined compl
 
 ## Settings
 The settings set in the Password Complexity Data source will determine what is the Default value of the Session settings.
-![Data Source Settings – Password Complexity](https://cdnweb.devolutions.net/docs/en/rdm/mac/clip10376.png)
+![Data Source Settings – Password Complexity](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10376.png)
 
 ### Enabled
 The Enable option set in the data source settings will determine the Default option of your Password Complexity session entry.
@@ -37,4 +37,4 @@ The validation option determined in the data source settings will determine the 
 
 ## Create
 You must create your own Password Complexity requirements template to then apply them to your sessions. Click on the plus button to create your Password Complexity template, enter a name and the desired requirements.
-![Data Source Settings – Password Complexity](https://cdnweb.devolutions.net/docs/en/rdm/mac/clip10377.png)
+![Data Source Settings – Password Complexity](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10377.png)

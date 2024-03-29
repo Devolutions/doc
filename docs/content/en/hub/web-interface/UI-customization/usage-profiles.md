@@ -10,11 +10,11 @@ eleventyComputed:
 
 Users will be assigned the ***Default*** profile, which can be changed in ***Administration – System Settings – General – User Interface Profile***. For administrators, the default profile is ***IT professional***. For users, it is ***Business user***.
 
-![Administration – System Settings – General – User Interface Profile](https://cdnweb.devolutions.net/docs/en/hub/Hub2352.png)
+![Administration – System Settings – General – User Interface Profile](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub2352.png)
 
 Users can individually change it in the ***Settings*** section of their account.
 
-![Account – Settings – User interface – User Interface Profile](https://cdnweb.devolutions.net/docs/en/hub/Hub2353.png)
+![Account – Settings – User interface – User Interface Profile](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub2353.png)
 
 ## Detailed overview
 
@@ -22,7 +22,7 @@ Below you can find tables detailing the differences between the ***Business user
 
 ### New entries
 
-![New entries](https://cdnweb.devolutions.net/docs/en/hub/Hub2281.png)
+![New entries](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub2281.png)
 
 This table shows the entry types that can be created depending on your user interface profile.
 
@@ -40,7 +40,7 @@ Note that this only applies to the creation of new entries and does not affect e
 
 ### {{ en.VLT_MAJ }} Dashboard widgets
 
-![{{ en.VLT_MAJ }} Dashboard widgets](https://cdnweb.devolutions.net/docs/en/hub/Hub2282.png)
+![{{ en.VLT_MAJ }} Dashboard widgets](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub2282.png)
 
 This table shows the different widgets that can be displayed in your ***{{ en.VLT_MAJ }} dashboard*** depending on your user interface profile.
 

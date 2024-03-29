@@ -6,10 +6,10 @@ eleventyComputed:
 ---
 The {{ en.WBEX }} settings can be accessed via the ***Settings*** button in the browser extension window regardless of which Devolutions application you are using with the {{ en.WBEX }}.
 
-![{{ en.WBEX }} Settings Button](https://cdnweb.devolutions.net/docs/en/dwl/Dwl2000.png)
+![{{ en.WBEX }} Settings Button](https://cdnweb.devolutions.net/docs/docs_en_dwl_Dwl2000.png)
 
 The ***Settings*** are separated in two categories: [***Configuration***](#configuration) and [***Data sources***](#data-sourcea).
-![{{ en.WBEX }} Settings](https://cdnweb.devolutions.net/docs/en/dwl/Dwl4027.png)
+![{{ en.WBEX }} Settings](https://cdnweb.devolutions.net/docs/docs_en_dwl_Dwl4027.png)
 
 ### Configuration
 The ***General*** settings are about the user interface and interaction.
@@ -54,7 +54,7 @@ The ***Data sources*** settings are used to customize the {{ en.WBEX }} interact
 
 | ADVANCED TAB            | DESCRIPTION                                                                              |
 |-------------------------|------------------------------------------------------------------------------------------|
-| Application key         | Secure the communication with an application key by using the same code in {{ en.RDM }} and the {{ en.WBEX }}. <br> <br> Navigate to ***File – Options – Browser Extensions*** in {{ en.RDM }} to set the application key. |
+| Application key         | Secure the communication with an application key by using the same code in {{ en.RDM }} and the {{ en.WBEX }}. <br> <br> Navigate to ***File – Settings – Browser Extensions*** in {{ en.RDM }} to set the application key. |
 | Enable native messaging | Exchange messages with a native application installed on the user's computer.            |
 | Use legacy API          | Use the old browser extension API for compatibility with older versions of {{ en.RDM }}. |
 

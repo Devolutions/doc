@@ -6,5 +6,5 @@ eleventyComputed:
 ---
 The ***Server Settings*** page allows to manage the {{ en.DVLS }} configuration remotely.
 
-![Administration – Server Settings](https://webdevolutions.blob.core.windows.net/docs/en/server/ServerOp6117.png)
+![Administration – Server Settings](https://webdevolutions.blob.core.windows.net/docs/docs_en_server_ServerOp6117.png)
 

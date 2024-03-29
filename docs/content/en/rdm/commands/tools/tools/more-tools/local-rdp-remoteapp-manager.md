@@ -10,12 +10,12 @@ If you are running on Windows Vista, the RemoteApp console built into {{ en.RDM 
 
 ## Settings
 
-![More Tools - Local RDP/RemoteApp Manager](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip11350.png)
+![More Tools - Local RDP/RemoteApp Manager](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip11350.png)
 
 ### Remote Desktop Settings
 
 Allow or disallow the remote connections to your computer.
-![Remote Desktop Settings](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip10418.png)
+![Remote Desktop Settings](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip10418.png)
 
 ### Remote Desktop
 
@@ -25,7 +25,7 @@ Allows you to modify the local RDP port.
 {{ en.RDM }} must be run as an administrator to modify the Remote Desktop settings.
 {% endsnippet %}
 
-![Remote Desktop Connection Settings](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip10419.png)
+![Remote Desktop Connection Settings](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip10419.png)
 
 ### RemoteApp Settings
 
@@ -35,18 +35,18 @@ You must ***Enable RemoteApp*** to be able to create a New RemoteApp Setting.
 {{ en.RDM }} must be run as an administrator to modify the RemoteApp settings.
 {% endsnippet %}
 
-![RemoteApp Settings](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip10420.png)
+![RemoteApp Settings](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip10420.png)
 
 ### UDP Settings
 
 Enable or disable UDP (User Datagram Protocol) locally on your computer. UDP is a communication protocol that offers a limited amount of service when messages are exchanged between computers in a network that uses the Internet Protocol (IP).
-![Local RDP/RemoteApp Manager - UDP is Enabled](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip11351.png)
+![Local RDP/RemoteApp Manager - UDP is Enabled](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip11351.png)
 
 ## Usage
 
 1. Click on ***New RemoteApp Settings***.
-![New RemoteApp Settings](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip10422.png)
+![New RemoteApp Settings](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip10422.png)
 1. Configure the RemoteApp.
-![!!clip10423](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip10423.png)
+![!!clip10423](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip10423.png)
 1. Create a new RDP session and select the ***Programs*** tab. Enable the ***Use RemoteApp*** option and then enter the name of the RemoteApp program and save the session. When the session is launched you will have the RemoteApp running locally.
-![RDP session - Programs Tab](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip10812.png)
+![RDP session - Programs Tab](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip10812.png)

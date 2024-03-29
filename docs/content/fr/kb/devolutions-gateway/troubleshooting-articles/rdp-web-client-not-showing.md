@@ -14,7 +14,7 @@ If you are unable to launch the RDP web client in the {{ en.DVLS }} web interfac
 
 You must have at least a <a href="/rdm/windows/commands/administration/management/licenses/" target="_blank">{{ en.RDM }} license</a> or a <a href="/server/launcher/" target="_blank">{{ en.DLAUNCHER }} license</a>, ideally both. If you do not have either of these, the ***Open in Web Client*** button that allows you to open the RDP entry in a web client will not show.
 
-![Open in Web Client (Preview)](https://cdnweb.devolutions.net/docs/en/kb/KB2163.png)
+![Open in Web Client (Preview)](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2163.png)
 
 ### {{ en.DGW }}
 
@@ -26,4 +26,4 @@ You need to have the ***View password*** permission to launch the RDP session.
 
 To check if you have been granted this permission, select your entry in the {{ en.DVLS }} web interface, then click on the ***Permissions*** tab. If you see a green check mark next to the ***View password*** permission, you have the proper permissions and your problem is elsewhere. If you have a red "X" instead, you do not have this permission. If you think you should have it, contact your administrator.
 
-![View password Permission](https://cdnweb.devolutions.net/docs/en/kb/KB2162.png)
+![View password Permission](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2162.png)

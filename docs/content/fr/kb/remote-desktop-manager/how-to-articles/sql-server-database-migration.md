@@ -21,7 +21,7 @@ We strongly suggest you clean up your database prior to the move.
 1. Click on the plus "+" sign to create a new migration.
 1. Select ***Migration*** and name the ***Project***.
 1. Select the ***Source*** of your ***server type*** and the ***Target*** of your ***server type*** from the drop-down menu and leave the ***Migration scope*** to ***Schema and data***. Click ***Create***.
-![!!KB4728](https://cdnweb.devolutions.net/docs/en/kb/KB4728.png)
+![!!KB4728](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4728.png)
 
 1. Enter the local ***Server name*** and choose an ***Authentication type***.
    {% snippet icon.badgeInfo %}
@@ -30,7 +30,7 @@ We strongly suggest you clean up your database prior to the move.
 
 1. Click ***Connect***.
 1. Choose your database in the selection loaded and click ***Next***.
-![!!KB4729](https://cdnweb.devolutions.net/docs/en/kb/KB4729.png)
+![!!KB4729](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4729.png)
 1. Enter the target ***Server name*** and choose an ***Authentication type***.
    {% snippet icon.badgeInfo %}
    Make sure you have sufficient rights and permission to perform this action.
@@ -42,7 +42,7 @@ We strongly suggest you clean up your database prior to the move.
    Your new database must have already been [created](https://docs.microsoft.com/en-us/azure/azure-sql/database/single-database-create-quickstart) to appear in this list.
    {% endsnippet %}
 
-   ![!!KB4730](https://cdnweb.devolutions.net/docs/en/kb/KB4730.png)
+   ![!!KB4730](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4730.png)
 
 1. Validate if you have issues by scrolling down the schema objects list on the left. You can click on an item for more detail on the specific issue and if a fix is available.
    {% snippet icon.badgeCaution %}
@@ -54,19 +54,19 @@ We strongly suggest you clean up your database prior to the move.
    {% endsnippet %}
 
 1. When all the issues are fixed or deselected, click ***Generate SQL script***.
-![!!KB4731](https://cdnweb.devolutions.net/docs/en/kb/KB4731.png)
+![!!KB4731](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4731.png)
 1. Once the script has been generated, validate if there are any issues, then click ***Deploy schema***.
-![!!KB4732](https://cdnweb.devolutions.net/docs/en/kb/KB4732.png)
+![!!KB4732](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4732.png)
    {% snippet icon.badgeInfo %}
    This may take some time to execute depending on how many connection history you have in your database.
    {% endsnippet %}
 
 1. Once the ***Deployment results*** is done executing, validate if there are any issues, then click ***Migrate data***.
-![!!KB4734](https://cdnweb.devolutions.net/docs/en/kb/KB4734.png)
+![!!KB4734](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4734.png)
 1. Click ***Start data migration***. Note that the number of tables might be different depending on your version.
-![!!KB4735](https://cdnweb.devolutions.net/docs/en/kb/KB4735.png)
+![!!KB4735](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4735.png)
 1. Wait for the migration to complete. When done, you can close the ***Data Migration Assistant***.
-![!!KB4736](https://cdnweb.devolutions.net/docs/en/kb/KB4736.png)
+![!!KB4736](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4736.png)
 1. You are now ready to create the new data source in <a href="#rdm">{{ en.RDM }}</a> or update the <a href="#dvls">{{ en.DVLSCONSOLE }}</a>.
 
 ### Solution 2 [BACPAC](https://learn.microsoft.com/en-us/sql/relational-databases/data-tier-applications/data-tier-applications?view=sql-server-ver15#bacpac) <a name="ssms"></a>
@@ -96,7 +96,7 @@ You cannot use this Wizard to move databases between local instances of SQL Serv
 
 1. Create a new data source in ***File – Data Sources – Add a New Data Source***.
 1. On first connect, you may receive the following error message. If so, click on ***Fix It***.
-![!!KB4646](https://cdnweb.devolutions.net/docs/en/kb/KB4646.png)
+![!!KB4646](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4646.png)
 
    {% snippet icon.badgeInfo %}
    This may take some time to execute depending on how many connection history you have in your database.
@@ -105,4 +105,4 @@ You cannot use this Wizard to move databases between local instances of SQL Serv
 ### Connect to {{ en.DVLS }} <a name="dvls"></a>
 
 Update the ***Host*** and ***Database*** name for the {{ en.DVLSCONSOLE }} in ***Server – Edit – Database***.
-![!!KB4971](https://cdnweb.devolutions.net/docs/en/kb/KB4971.png)
+![!!KB4971](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4971.png)

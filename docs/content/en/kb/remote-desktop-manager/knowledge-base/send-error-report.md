@@ -11,6 +11,6 @@ When sending your error report please make sure to include as many details as po
 ## Send an error report
 When an error dialog appears in {{ en.RDM }} follow these steps to send it to the support team.
 1. Press the ***Send Error Report*** button.
-![!!KB4439](https://cdnweb.devolutions.net/docs/en/kb/KB4439.png)
+![!!KB4439](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4439.png)
 1. Fill in your contact information along with a detailed explanation on the issue and press ***OK***.
-![!!KB4440](https://cdnweb.devolutions.net/docs/en/kb/KB4440.png)
+![!!KB4440](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4440.png)

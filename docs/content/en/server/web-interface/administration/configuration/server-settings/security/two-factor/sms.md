@@ -10,7 +10,7 @@ eleventyComputed:
 Multi-factor authentication (MFA) via SMS requires the user to enter a code they receive on their mobile phone as its second component to access the data source.
 
 To enable this MFA method for your users, go to ***Administration – Server Settings – Multi-factor*** and check the ***SMS*** MFA option. A ***Configure*** button will appear next to the option.
-![Administration – Server Settings – Multi-factor – Supported MFA – SMS](https://cdnweb.devolutions.net/docs/en/server/ServerOp2068.png)
+![Administration – Server Settings – Multi-factor – Supported MFA – SMS](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp2068.png)
 
 {% snippet icon.badgeInfo %}
 See [Multi-factor](/server/web-interface/administration/configuration/server-settings/security/two-factor/) for more information on MFA configuration.
@@ -23,7 +23,7 @@ The free version uses a carrier configured in your server's email settings. Do n
 
 ## Configured with Twilio
 To configure the SMS method with Twilio, you must have a Twilio subscription. In ***Configure***, check the ***Use Twilio instead of a carrier to send SMS*** option, then fill in the fields with your Twilio subscription information.
-![SMS Setup](https://cdnweb.devolutions.net/docs/en/server/ServerOp8136.png)
+![SMS Setup](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp8136.png)
 
 | Option      | Description                                  |
 |-------------|----------------------------------------------|

@@ -33,9 +33,9 @@ Applying a new security provider does process the whole database, therefore we a
 
 1. Go to ***Administration*** – ***Security Provider*** in the ribbon of {{ en.RDM }}.  
 1. Click on ***Change Security Settings*** to change the security provider.  
-![Security Provider](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMWin6226.png) 
+![Security Provider](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin6226.png) 
 1. Select a security type from the drop-down list.  
-![Security Type](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMWin6227.png) 
+![Security Type](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin6227.png) 
 
 | OPTION           | DESCRIPTION                                                                                                                  |
 |------------------|------------------------------------------------------------------------------------------------------------------------------|
@@ -52,7 +52,7 @@ Applying a new security provider does process the whole database, therefore we a
 If the passphrase is lost, nothing that can be done to recover the data. When using a passphrase, always copy it to a secure location. 
 {% endsnippet %}
  
-![Security Provider - Shared Passphrase](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMWin6228.png) 
+![Security Provider - Shared Passphrase](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin6228.png) 
 
 Entries configuration data is encrypted using a mix of a key stored in {{ en.RDM }} and the passphrase you have entered.  
 
@@ -76,7 +76,7 @@ In a portable installation of {{ en.RDM }}, the passphrase will be saved at the 
 ## Certificate 
 
 When choosing ***Certificate*** as Security Provider, entries configuration data is encrypted using a mix of a key stored in {{ en.RDM }} and the private key contained in the certificate.  
-![Security Provider - Certificate](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMWin6229.png) 
+![Security Provider - Certificate](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin6229.png) 
 
 | OPTION    | DESCRIPTION                                                                                   |
 |-----------|-----------------------------------------------------------------------------------------------|
@@ -87,7 +87,7 @@ When choosing ***Certificate*** as Security Provider, entries configuration data
 ### Create Certificate 
 
 It is possible to create a Self Signed certificate by clicking on ***Create Certificate***.  
-![Self Signed Certificate](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMWin6230.png) 
+![Self Signed Certificate](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin6230.png) 
 
 | OPTION                    | DESCRIPTION                                                                                     |
 |---------------------------|-------------------------------------------------------------------------------------------------|

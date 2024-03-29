@@ -26,7 +26,7 @@ The ***No Internet connection*** option in {{ en.RDM }} (***File*** – ***Optio
 The ***{{ en.CI }}*** replicates the settings from the {{ en.RDM }} instance used to create the package and stores them in the package for distribution. You have control over which categories of settings you are redistributing, but not discrete settings. It may be desirable to have a {{ en.RDM }} installation that is used specifically to create the Installation Package.
 
 You can go to ***File – {{ en.DA }} – Tools*** to access the ***{{ en.CIM }}***.
-![File – {{ en.DA }} – {{ en.CIM }}](https://cdnweb.devolutions.net/docs/en/cloud/clip0009.png)
+![File – {{ en.DA }} – {{ en.CIM }}](https://cdnweb.devolutions.net/docs/docs_en_cloud_clip0009.png)
 
 Please consult our [{{ en.CI }} package creation guide](/rdm/windows/installation/client/custom-installer-service/).
 

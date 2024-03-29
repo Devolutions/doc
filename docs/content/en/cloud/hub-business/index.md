@@ -6,4 +6,4 @@ eleventyComputed:
 
 Learn more and start your free [30-day trial](https://password.devolutions.net/).
 
-![!!Cloud4053](https://cdnweb.devolutions.net/docs/en/cloud/Cloud4053.png)
+![!!Cloud4053](https://cdnweb.devolutions.net/docs/docs_en_cloud_Cloud4053.png)

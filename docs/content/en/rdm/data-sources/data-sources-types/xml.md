@@ -22,7 +22,7 @@ All passwords are encrypted by default. You can specify a custom password (maste
 
 ### General
 
-![XML - General Tab](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip10788.png)
+![XML - General Tab](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip10788.png)
 
 | OPTION                | DESCRIPTION |
 |-----------------------|-------------|
@@ -34,7 +34,7 @@ All passwords are encrypted by default. You can specify a custom password (maste
 
 ### Backup
 
-![XML - Backup Tab](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip10789.png)
+![XML - Backup Tab](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip10789.png)
 
 | OPTION      | DESCRIPTION |
 |-------------|-------------|
@@ -44,11 +44,11 @@ All passwords are encrypted by default. You can specify a custom password (maste
 ### VPN
 
 Open a VPN to access your data prior to connecting to your XML.
-![XML - VPN Tab](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMWin2256.png)
+![XML - VPN Tab](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin2256.png)
 
 ### Advanced
 
-![XML - Advanced Tab](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip10790.png)
+![XML - Advanced Tab](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip10790.png)
 
 | OPTION                   | DESCRIPTION |
 |--------------------------|-------------|

@@ -11,7 +11,7 @@ This feature is only available when using an [Advanced Data Source](/rdm/mac/dat
 {% endsnippet %}
 
 In the majority of cases this dialog will appear.
-![Local Specific Settings](https://cdnweb.devolutions.net/docs/en/rdm/mac/clip10345.png)
+![Local Specific Settings](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10345.png)
 
 Please consult each specific override topic for more information.
 

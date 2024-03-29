@@ -6,7 +6,7 @@ Use the File - Import - Import Sessions From to import sessions into {{ en.RDMMA
 
 ## Settings
 
-![Import Sessions from](https://cdnweb.devolutions.net/docs/en/rdm/mac/clip10314.png)
+![Import Sessions from](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10314.png)
 
 ### Import Sessions From
 

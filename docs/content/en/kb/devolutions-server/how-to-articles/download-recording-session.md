@@ -13,14 +13,14 @@ Make certain the [***Recording Server***](/kb/devolutions-server/how-to-articles
 Ensure that {{ en.RDM }} has access to the correct {{ en.DVLS }} data source.
 1. Navigate to the {{ en.VLT }} where the entry is and click on that entry.
 1. Click on the ***Logs*** tab in the ***Dashboard***.
-![Logs tab](https://cdnweb.devolutions.net/docs/en/kb/KB0152.png)
+![Logs tab](https://cdnweb.devolutions.net/docs/docs_en_kb_KB0152.png)
 1. Click on the ***Recording*** button to download it.
-![Recording button](https://cdnweb.devolutions.net/docs/en/kb/KB0153.png)
+![Recording button](https://cdnweb.devolutions.net/docs/docs_en_kb_KB0153.png)
 1. Choose where to save the recording and click ***Save***.
 
 ## {{ en.DVLS }} web interface
 1. In {{ en.DVLS }} web, navigate to the {{ en.VLT }} where the entry is and click on that entry.
 1. Click on the ***Logs*** tab.
-![Logs tab](https://cdnweb.devolutions.net/docs/en/kb/KB0154.png)
+![Logs tab](https://cdnweb.devolutions.net/docs/docs_en_kb_KB0154.png)
 1. Click on the play button to view the recording.
-![Play button](https://cdnweb.devolutions.net/docs/en/kb/KB0155.png)
+![Play button](https://cdnweb.devolutions.net/docs/docs_en_kb_KB0155.png)

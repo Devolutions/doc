@@ -8,11 +8,11 @@ You can request access to a public {{ en.VLT }} in {{ en.RDM }}. Follow the step
 
 1. If you have multiple data sources in {{ en.RDM }}, select an [advanced data source](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/) that contains the {{ en.VLT }} you want access to in the ***{{ en.NPANE }}***.
 1. In the {{ en.VLT }} selector drop-down menu, click the ellipsis button to open a {{ en.VLT }} selection window.
-![Ellipsis in {{ en.VLT }} selector](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMWin2153.png)
+![Ellipsis in {{ en.VLT }} selector](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin2153.png)
 1. Go to the ***Request {{ en.VLT }} Access*** tab.
-![Request {{ en.VLT }} Access tab](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMWin2154.png)
+![Request {{ en.VLT }} Access tab](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin2154.png)
 1. Select the {{ en.VLT }} you want to access, then click on ***Send Access Request***.
-![Send Access Request](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMWin2155.png)
+![Send Access Request](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin2155.png)
    {% snippet icon.badgeInfo %}
    If you are using a {{ en.DHUBB }} data source, select from the list an administrator / {{ en.VLT }} owner to send the request to. For other data source types, the request is sent to all administrators and {{ en.VLT }} owners.
    {% endsnippet %}

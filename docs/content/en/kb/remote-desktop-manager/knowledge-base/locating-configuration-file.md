@@ -12,7 +12,7 @@ Note that if you are storing passwords to your datasource(s) and/or your {{ en.D
 
 ## Finding and sending your Configuration file
 ### Method 1 - Using {{ en.RDM }}
-1. In {{ en.RDM }}, open ***File – Options – Advanced***.
+1. In {{ en.RDM }}, open ***File – Settings – Advanced***.
 1. At the bottom in the ***Information*** section, you will see a blue hyperlink, press on it to have a Windows Explorer open with the proper file selected.
 ### Method 2 - Using the file system
 {% snippet icon.badgeInfo %}
@@ -21,7 +21,7 @@ Note that this example assumes that {{ en.RDM }} was installed with the default 
 
 1. Press <kbd>Windows</kbd>+<kbd>R</kbd>.
 1. Type "**%LOCALAPPDATA%\Devolutions\RemoteDesktopManager**" in the ***Run*** window and press ***OK***.
-![Run window](https://cdnweb.devolutions.net/docs/en/kb/KB2028.png)
+![Run window](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2028.png)
 1. In the folder, locate the **RemoteDesktopManager.cfg** file.
-![RemoteDesktopManager.cfg file](https://cdnweb.devolutions.net/docs/en/kb/KB2029.png)
+![RemoteDesktopManager.cfg file](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2029.png)
 1. Please send us the file securely by following the instructions in [Securely send a file to our team](/kb/devolutions-customer-success/securely-send-file/).
