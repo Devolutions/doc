@@ -37,6 +37,8 @@ Below is the approver's reply. The ***Permissions*** and ***Duration*** can be c
 Finally, you can ***Approve*** or ***Deny*** the temporary access request by clicking on the corresponding button.
 ![Approve/Deny temporary access request](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub6023.png)
 
+## Revoke temporary access
+
 After the approbation, for any reason, you may revoke the user's temporary access by clicking on ***View Details*** again, then ***Revoke***. Be sure you want to do this first, since to regain access to the entry, they will need to make another request. Otherwise, their access will end within the set time frame.
 ![Revoke temporary access](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub6024.png)
 

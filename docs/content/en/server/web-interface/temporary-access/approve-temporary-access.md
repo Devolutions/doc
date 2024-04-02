@@ -54,6 +54,8 @@ This view is divided into two sections:
 
 Clicking on ***Approve request*** or ***Deny request*** will approve or deny the request, depending on what you selected earlier.
 
+## Revoke temporary access
+
 After the approbation, for any reason, you may revoke the user's temporary access by clicking on ***View Details*** again, then ***Revoke***. Be sure you want to do this first, since to regain access to the entry, they will need to make another request. Otherwise, their access will end within the set time frame.
 
 ![Temporary Access Response](https://cdnweb.devolutions.net/docs/DVLS6066_2024_1.png)
