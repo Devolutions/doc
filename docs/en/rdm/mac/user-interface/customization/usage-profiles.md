@@ -43,7 +43,7 @@ Note that this only applies to the creation of new entries and does not affect e
 | Folder                 | {{ icon.badgeNotice | safe }} | {{ icon.badgeNotice | safe }} |
 | Contact                | {{ icon.badgeNotice | safe }} | {{ icon.badgeNotice | safe }} |
 | Document               |               | {{ icon.badgeNotice | safe }}                 |
-| VPN/Tunnel/Gateway     |               | {{ icon.badgeNotice | safe }}                 |
+| VPN/SSH/Gateway     |               | {{ icon.badgeNotice | safe }}                 |
 | IT Asset Management    |               | {{ icon.badgeNotice | safe }}                 |
 | Macro/Script/Tool      |               | {{ icon.badgeNotice | safe }}                 |
 | Synchronizer           |               | {{ icon.badgeNotice | safe }}                 |
@@ -106,7 +106,7 @@ The availability of entry property sections also depends on the type of entry as
 | Custom Fields                        |               | {{ icon.badgeNotice | safe }} |
 | Entry Information                    | {{ icon.badgeNotice | safe }} | {{ icon.badgeNotice | safe }} |
 | Settings                             | {{ icon.badgeNotice | safe }} | {{ icon.badgeNotice | safe }} |
-| VPN/Tunnel/Gateway                   | {{ icon.badgeNotice | safe }} | {{ icon.badgeNotice | safe }} |
+| VPN/SSH/Gateway                   | {{ icon.badgeNotice | safe }} | {{ icon.badgeNotice | safe }} |
 | Events                               |               | {{ icon.badgeNotice | safe }} |
 | One Time Password                    |               | {{ icon.badgeNotice | safe }} |
 | Permissions / Inherited Permissions  |               | {{ icon.badgeNotice | safe }} |

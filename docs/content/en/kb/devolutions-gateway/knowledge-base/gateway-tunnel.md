@@ -7,7 +7,7 @@ eleventyComputed:
 ---
 The ***{{ en.DGW }} Tunnel*** can fulfill similar needs to SSH port forwarding/SSH tunneling, but it requires nothing other than {{ en.DGW }} itself. It is useful when using connections that do not have built-in support in {{ en.RDM }} through the {{ en.DGW }}. The entry can be found under ***New Entry*** – ***Session*** – ***Remote Connections***.
 {% snippet icon.badgeInfo %}
-{{ en.DGW }} needs to be set up in the {{ en.RDM }} data source and then configured through [inheritance](/kb/remote-desktop-manager/knowledge-base/inheritance/) or on the connection itself. The option is under ***Properties*** – ***Connection*** – ***VPN/Tunnel/Gateway*** – ***VPN/Tunnel/Gateway*** – ***General***.
+{{ en.DGW }} needs to be set up in the {{ en.RDM }} data source and then configured through [inheritance](/kb/remote-desktop-manager/knowledge-base/inheritance/) or on the connection itself. The option is under ***Properties*** – ***Connection*** – ***VPN/SSH/Gateway*** – ***VPN/SSH/Gateway*** – ***General***.
 {% endsnippet %}
 
 ![{{ en.DGW }} Tunnel](https://cdnweb.devolutions.net/docs/docs_en_kb_KB0116.png)

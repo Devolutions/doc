@@ -8,10 +8,10 @@ A jump host acts as a gate between two trusted networks, allowing access, but on
 However, in the case of maintaining multiple connections through a jump host on the same network, the current procedure requires disabling the jump host or resorting to the direct connection (without jump host) alternative. Learn how to bypass the jump host below.
 
 1. Go to the ***Properties*** of your entry.
-2. Click on ***Connect if unable to ping/port scan*** under ***Connection – VPN/Tunnel/Gateway – General – Connect***.
+2. Click on ***Connect if unable to ping/port scan*** under ***Connection – VPN/SSH/Gateway – General – Connect***.
 3. Click ***OK*** to save and close the window.
 
-![Connection – VPN/Tunnel/Gateway – General – Connect](https://cdnweb.devolutions.net/docs/docs_en_kb_KB6028.png)
+![Connection – VPN/SSH/Gateway – General – Connect](https://cdnweb.devolutions.net/docs/docs_en_kb_KB6028.png)
 
 {{ en.RDM }} automatically tests if the host responds, if not the VPN opens.
 
