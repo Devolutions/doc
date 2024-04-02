@@ -5,6 +5,8 @@ eleventyComputed:
   description: The Temporary Access feature allows users to request a temporary elevation of their permissions for a specific entry. The approver must then approve or deny the request.
 ---
 
+![Allowed temporay access](https://cdnweb.devolutions.net/docs/RDMW6020_2024_1.png)
+
 The ***Temporary Access*** feature allows users to request a temporary elevation of their permissions for a specific entry. The approver must then approve or deny the request.
 
 {% snippet icon.badgeInfo %}
@@ -51,6 +53,10 @@ This view is divided into two sections:
 * The ***Response Parameters*** section allows you to change the temporary access duration specified by the user. It is also possible to write a message to the user explaining your decision, but it remains optional.
 
 Clicking on ***Approve request*** or ***Deny request*** will approve or deny the request, depending on what you selected earlier.
+
+After the approbation, for any reason, you may revoke the user's temporary access by clicking on ***View Details*** again, then ***Revoke***. Be sure you want to do this first, since to regain access to the entry, they will need to make another request. Otherwise, their access will end within the set time frame.
+
+![Temporary Access Response](https://cdnweb.devolutions.net/docs/DVLS6066_2024_1.png)
 
 {% snippet icon.badgeInfo %}
 To learn more about the end user experience in {{ en.DVLS }}, visit [Request temporary access to an entry in {{ en.DVLS }}](/server/web-interface/temporary-access/request-temporary-access/).
