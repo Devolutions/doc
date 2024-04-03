@@ -8,7 +8,7 @@ eleventyComputed:
 
 {{ en.RDMMAC }} is an application that integrates a comprehensive set of tools and managers to meet the needs of any IT team. It is designed to centralize remote connection technologies, credentials, and secure the access to these resources. Most connections are established using either an external library or third-party software.
 
-{{ en.RDMMAC }} is compatible with several relevant tools and technologies, including Apple Remote Desktop, Citrix, Dameware, FTP, Hyper-V, LogMeIn, Radmin, RDP (Microsoft Remote Desktop), SSH Port Forward, SSH Shell, TeamViewer, Telnet, Remote Desktop Services, VMware, VNC, SCP, X Windows, and more!
+{{ en.RDMMAC }} is compatible with several relevant tools and technologies, including Apple Remote Desktop, Citrix, Dameware, FTP, Hyper-V, LogMeIn, Radmin, RDP (Microsoft Remote Desktop), SSH Port Forward, SSH Shell, TeamViewer, Telnet, Remote Desktop Services, VMware, VNC, SCP, X Windows, and 
 
 ## The {{ en.RDM }} ecosystem
 
