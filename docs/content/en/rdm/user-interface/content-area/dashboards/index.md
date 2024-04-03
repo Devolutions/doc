@@ -4,7 +4,7 @@ eleventyComputed:
   description: The Dashboard displays commands and information related to the selected entry. Its contents depend on the selected entry type.
 ---
 The ***Dashboard*** displays commands and information related to the selected entry. Its contents depend on the selected entry type.
-![Dashboard for credential entry](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMW4015_2024_1.png)
+![Dashboard for credential entry](https://cdnweb.devolutions.net/docs/RDMW4015_2024_1.png)
 
 The different tabs available in the dashboard are the following:
 

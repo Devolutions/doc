@@ -8,4 +8,4 @@ To prevent this, use $INFORMATION_IP$ – or one of its many variants – to res
 
 To configure an IP address this way, right-click on an entry, then go to ***Properties*** – ***Asset*** – ***Network***.
 
-![IP address configuration in an entry](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMW4011_2024_1.png)
+![IP address configuration in an entry](https://cdnweb.devolutions.net/docs/RDMW4011_2024_1.png)

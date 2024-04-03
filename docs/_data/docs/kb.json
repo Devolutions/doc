@@ -1724,6 +1724,9 @@
               "label": "howToArticles",
               "items": [
                 {
+                  "url": "/kb/hub-business/how-to-articles/assign-roles-permissions/"
+                },
+                {
                   "url": "/kb/hub-business/how-to-articles/create-azure-ad-pam-provider/"
                 },
                 {
