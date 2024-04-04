@@ -4,7 +4,7 @@ eleventyComputed:
   description: '{{ en.DVLS }} dashboard widgets can be added or removed by clicking on Customize.'
 ---
 
-{{ en.DVLS }} dashboard widgets can be added or removed by clicking on ***Customize***.
+{{ en.DVLS }} dashboard widgets can be added or removed by clicking on ***Customize Widgets***.
 
 ![Dashboard customization button](https://cdnweb.devolutions.net/docs/DVLS6067_2024_1.png)
 
