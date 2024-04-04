@@ -807,6 +807,9 @@
                   "url": "/kb/remote-desktop-manager/troubleshooting-articles/rdp-issue-after-updating-2023/"
                 },
                 {
+                  "url": "/kb/remote-desktop-manager/troubleshooting-articles/rdp-session-troubleshooting/"
+                },
+                {
                   "url": "/kb/remote-desktop-manager/troubleshooting-articles/rdp-username-changes-to-azure-ad-user/"
                 },
                 {
@@ -1516,6 +1519,9 @@
                   "url": "/kb/devolutions-server/troubleshooting-articles/cryptographic-exception-bad-data/"
                 },
                 {
+                  "url": "/kb/devolutions-server/troubleshooting-articles/devolutions-server-unavailable-after-reboot/"
+                },
+                {
                   "url": "/kb/devolutions-server/troubleshooting-articles/domain-containers-enforcement/"
                 },
                 {
@@ -1610,16 +1616,10 @@
                   "url": "/kb/devolutions-server/knowledge-base/backup-restore-server/"
                 },
                 {
-                  "url": "/kb/devolutions-server/knowledge-base/command-line-interface/"
-                },
-                {
                   "url": "/kb/devolutions-server/knowledge-base/deploy-high-availability-load-balanced-env/"
                 },
                 {
                   "url": "/kb/devolutions-server/knowledge-base/console-command-line-interface/"
-                },
-                {
-                  "url": "/kb/devolutions-server/knowledge-base/cli-custom-authentication/"
                 },
                 {
                   "url": "/kb/devolutions-server/knowledge-base/server-security-dashboard/"
@@ -1726,6 +1726,9 @@
             {
               "label": "howToArticles",
               "items": [
+                {
+                  "url": "/kb/hub-business/how-to-articles/assign-roles-permissions/"
+                },
                 {
                   "url": "/kb/hub-business/how-to-articles/create-azure-ad-pam-provider/"
                 },

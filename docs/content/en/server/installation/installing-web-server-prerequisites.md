@@ -8,9 +8,9 @@ eleventyComputed:
 ---
 The installation of {{ en.DVLS }} is supported by Windows Server 2016, 2019, and 2022.
 
-As a web application, {{ en.DVLS }} requires the IIS Manager, the [URL Rewrite Module](https://api.devolutions.net/redirection/3cb42413-5dfd-4b1b-bd20-4e5968274ed0), the [Application Request Routing](https://api.devolutions.net/redirection/52ba9ac0-fb5f-44c1-9521-972caf763b1a), [Microsoft .NET 8.0](https://dotnet.microsoft.com/en-us/download/dotnet/8.0), and specific web server roles on the machine on which it will be hosted. These prerequisites can be installed from the {{ en.DVLSCONSOLE }} or trought an existing PowerShell script provided with the {{ en.DVLSCONSOLE }}.
+As a web application, {{ en.DVLS }} requires the IIS Manager, the [URL Rewrite Module](https://api.devolutions.net/redirection/3cb42413-5dfd-4b1b-bd20-4e5968274ed0), the [Application Request Routing](https://api.devolutions.net/redirection/52ba9ac0-fb5f-44c1-9521-972caf763b1a), [Microsoft .NET 8.0](https://dotnet.microsoft.com/en-us/download/dotnet/8.0) hosting bundle, and specific web server roles on the machine on which it will be hosted. These prerequisites can be installed from the {{ en.DVLSCONSOLE }} or trought an existing PowerShell script provided with the {{ en.DVLSCONSOLE }}.
 
-Installing prerequisites from [{{ en.DVLSCONSOLE }}](/server/management/devolutions-server-console/) or from the PowerShell script require internet access to download the [URL Rewrite Module](https://api.devolutions.net/redirection/3cb42413-5dfd-4b1b-bd20-4e5968274ed0), the [Application Request Routing](https://api.devolutions.net/redirection/52ba9ac0-fb5f-44c1-9521-972caf763b1a) and [Microsoft .NET 8.0](https://dotnet.microsoft.com/en-us/download/dotnet/8.0).
+Installing prerequisites from [{{ en.DVLSCONSOLE }}](/server/management/devolutions-server-console/) or from the PowerShell script require internet access to download the [URL Rewrite Module](https://api.devolutions.net/redirection/3cb42413-5dfd-4b1b-bd20-4e5968274ed0), the [Application Request Routing](https://api.devolutions.net/redirection/52ba9ac0-fb5f-44c1-9521-972caf763b1a) and [Microsoft .NET 8.0](https://dotnet.microsoft.com/en-us/download/dotnet/8.0) hosting bundle.
 
 ![Web Roles needed for {{ en.DVLS }}](https://cdnweb.devolutions.net/docs/docs_en_server_clip10313.png)
 
@@ -22,7 +22,7 @@ Installing prerequisites from [{{ en.DVLSCONSOLE }}](/server/management/devoluti
 1. The script will install the missing web roles and the following components:
     * IIS URL Rewrite Module
     * IIS Application Request Routing Module
-    * IIS [Microsoft .NET 8.0](https://dotnet.microsoft.com/en-us/download/dotnet/8.0) Core Module.
+    * IIS [Microsoft .NET 8.0](https://dotnet.microsoft.com/en-us/download/dotnet/8.0) Core Module hosting bundle.
 
    ![Windows PowerShell script](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp4020.png)
 

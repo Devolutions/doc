@@ -82,7 +82,7 @@ The ***Drain*** button is in the column with the same name. Clicking it makes a 
 
 ### After configuration
 
-Selecting a farm for a session is similar to choosing a regular gateway (under ***Properties*** – ***VPN/Tunnel/Gateway*** in the {{ en.DVLS }} web interface). Farms are listed along with individual gateways. A gateway within a farm cannot be selected outside the farm.
+Selecting a farm for a session is similar to choosing a regular gateway (under ***Properties*** – ***VPN/SSH/Gateway*** in the {{ en.DVLS }} web interface). Farms are listed along with individual gateways. A gateway within a farm cannot be selected outside the farm.
 
 The ***Check Health*** button is available for farms. A positive response means at least one gateway in the farm is available. A negative response means no gateways in the farm are available.
 

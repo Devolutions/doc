@@ -6,19 +6,13 @@ eleventyComputed:
 ---
 {% youtube 'En3pmonz1f8' %}
 
-{% snippet icon.badgeInfo %}
-If a temporary access request was made in {{ en.RDM }} from a {{ en.DHUB }} database, the authorization process must be performed in {{ en.DHUB }}. See [Approve temporary access to an entry in {{ en.DHUBB }}](/hub/web-interface/temporary-access/approve-temporary-access/).
-{% endsnippet %}
-
 The ***Temporary Access*** feature allows users to request a temporary elevation of their permissions for a specific entry. The approver must then approve or deny the request.
+
+If a ***Temporary access*** request was made in {{ en.RDM }} from a {{ en.DHUB }} database, the authorization process must be performed in {{ en.DHUB }}. See [Approve temporary access to an entry in {{ en.DHUBB }}](/hub/web-interface/temporary-access/approve-temporary-access/).
 
 {% snippet icon.badgeInfo %}
 When using {{ en.DVLS }}, Microsoft SQL Server or Microsoft Azure SQL data sources, you must first [Enable temporary access](/kb/remote-desktop-manager/how-to-articles/enable-temporary-access/) in {{ en.RDM }}.
 {% endsnippet %}
-
-To learn how to view your past and current requests, go to [View temporary access requests](#view-temporary-access-requests).
-
-To learn how to respond to a request, go to [Approve/Deny temporary access requests](#approvedeny-temporary-access-requests).
 
 ## View temporary access requests
 

@@ -1,7 +1,7 @@
 ---
 eleventyComputed:
   title: Configure an Azure Bastion entry in {{ en.RDM }}
-  description: "{{ en.RDM }} allows seamless connection to Azure Bastion instances through a VPN/Tunnel/Gateway entry either per connection or shared amongst many."
+  description: "{{ en.RDM }} allows seamless connection to Azure Bastion instances through a VPN/SSH/Gateway entry either per connection or shared amongst many."
 ---
 Microsoft Azure Bastion is a comprehensive, fully managed service providing both Remote Desktop Protocol (RDP) and Secure Shell Protocol (SSH) access to Azure virtual machines (VMs) without their public IP exposure. An hourly billed service, Azure Bastion is tied to a specific Azure Virtual Network, allowing access to all VMs contained within.
 
@@ -9,7 +9,7 @@ Microsoft Azure Bastion is a comprehensive, fully managed service providing both
 Azure Bastion is compatible with the latest versions (2023.1.x and later) of {{ en.RDM }}.
 {% endsnippet %}  
 
-{{ en.RDM }} allows seamless connection to Azure Bastion instances through a VPN/Tunnel/Gateway entry either per connection or shared amongst many. Once Azure Bastion is provisioned, add the necessary details to {{ en.RDM }}, authenticate to Azure, and connect to any VMs within the given Azure virtual network.
+{{ en.RDM }} allows seamless connection to Azure Bastion instances through a VPN/SSH/Gateway entry either per connection or shared amongst many. Once Azure Bastion is provisioned, add the necessary details to {{ en.RDM }}, authenticate to Azure, and connect to any VMs within the given Azure virtual network.
 
 ## Provisioning Azure Bastion for an Azure Virtual Network
 
@@ -75,7 +75,7 @@ With Azure Bastion now configured, you can now configure {{ en.RDM }} to connect
 {% snippet icon.badgeInfo %}
 The steps below show the creation of an external Azure Bastion VPN entry that is then linked to a RDP/SSH session entry. This is useful if you plan to use the Azure Bastion entry with multiple session entries. 
 
-However, if you plan on using only one session entry with it, you can set up the Azure Bastion configuration directly in that session's properties, under the ***VPN/Tunnel/Gateway*** section in the left menu. Still, you should follow the steps below, as the configuration and information to provide remains the same.
+However, if you plan on using only one session entry with it, you can set up the Azure Bastion configuration directly in that session's properties, under the ***VPN/SSH/Gateway*** section in the left menu. Still, you should follow the steps below, as the configuration and information to provide remains the same.
 {% endsnippet %}  
 
 1. Before connecting, locate the following property details:
@@ -100,7 +100,7 @@ However, if you plan on using only one session entry with it, you can set up the
 
    ![Edit – New Entry](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2279.png)
 
-1. Under the ***VPN/Tunnel/Gateway*** entry types, select ***Azure Bastion*** and click ***OK***.
+1. Under the ***VPN/SSH/Gateway*** entry types, select ***Azure Bastion*** and click ***OK***.
 
    ![Azure Bastion entry](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2280.png)
 
@@ -147,9 +147,9 @@ However, if you plan on using only one session entry with it, you can set up the
 
    ![General RDP information](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2284.png)
 
-1. In the left menu, navigate to the RDP connection's ***VPN/Tunnel/Gateway*** screen.
+1. In the left menu, navigate to the RDP connection's ***VPN/SSH/Gateway*** screen.
 
-1. In the ***VPN/Tunnel/Gateway*** tab, under ***General***, select ***Always connect*** in the ***Connect*** drop-down list.
+1. In the ***VPN/SSH/Gateway*** tab, under ***General***, select ***Always connect*** in the ***Connect*** drop-down list.
 
    ![Always connect](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2285.png)
 
