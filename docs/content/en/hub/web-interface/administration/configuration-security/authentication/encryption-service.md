@@ -53,7 +53,7 @@ Using an Azure template to configure the encryption service is the recommended m
 
 1. In {{ en.DHUBB }}, go to ***Administration – Authentication – Encryption service*** and click on ***Generate Azure template***.
 1. Copy the generated template.
-1. In Azure, select ***Deploy a custom template*** in the ***Azure services***. If you do not see it, click on ***More services*** to show other services. This service can be found under the ***General*** services category.
+1. In Azure, select ***Deploy a custom template*** in the ***Azure services***. If you do not see it, search for it in the search bar at the top of the page or click on ***More services*** to show other services. This service can be found under the ***General*** services category.
 1. Click on ***Build your own template in the editor***.
 1. Paste the generated Azure template you obtained from {{ en.DHUB }} into the Azure template editor, replacing any pre-existing content within the editor.
 1. Click ***Save***.
