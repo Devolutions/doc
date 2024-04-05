@@ -51,6 +51,16 @@ This view is divided into two sections:
 
 Clicking on ***Approve*** or ***Deny*** will approve or deny the request, depending on what you selected earlier. A confirmation window will pop up which you can make disappear by clicking on ***OK***.
 
+## Revoke temporary access
+
+After the approbation, for any reason, you may revoke the user's temporary access by clicking on ***Approved Access Requests*** in the dashboard. Be sure you want to do this first, since to regain access to the entry, they will need to make another request. Otherwise, their access will end within the set time frame.
+
+![Approved Access Requests](https://cdnweb.devolutions.net/docs/RDMWin6022_2024_1.png)
+
+Click ***Revoke***. 
+
+![Revoke temporary access](https://cdnweb.devolutions.net/docs/RDMW6021_2024_1.png)
+
 {% snippet icon.badgeInfo %}
 To learn more about the end user experience in {{ en.RDM }}, visit [Request temporary access to an entry in {{ en.RDM }}](/rdm/windows/user-interface/content-area/temporary-access/request-temporary-access/).
 {% endsnippet %}
