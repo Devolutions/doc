@@ -23,31 +23,33 @@ This method only works for Windows.
 {% endsnippet %}
 
 1. Log in with an administrator {{ en.DHUBB }} account.
-1. Access the ***Administration*** tab on the left.
-![Administration tab](https://cdnweb.devolutions.net/docs/docs_en_hub_DGW0020.png)
-1. Click on {{ en.DGW }}, which is under the ***Management*** section.
-![{{ en.DGW }} button](https://cdnweb.devolutions.net/docs/docs_en_hub_DGW0021.png)
-1. Click on the ***Add*** ( ***+*** ) button in the top right.
-![Add button](https://cdnweb.devolutions.net/docs/docs_en_hub_DGW0022.png)
-1. Select ***Install Manually*** from the dropdown.
-![Install Manually](https://cdnweb.devolutions.net/docs/docs_en_hub_DGW0023.png)
-1. Download the {{ en.DGW }} ***installer*** and execute it.
-![Installer](https://cdnweb.devolutions.net/docs/docs_en_hub_DGW0027.png)
-1. Click on ***Generate Gateway Public Key and download***. This key is unique to the {{ en.DHUBB }} account and can only be generated once. If already generated, the key can be downloaded again, if necessary.
-![Gateway Public Key](https://cdnweb.devolutions.net/docs/docs_en_hub_DGW0028.png)
+1. Click on the ***Administration*** tab.  
+![Administration tab](https://cdnweb.devolutions.net/docs/HUBB0005_2024_1.png)
+1. Click on {{ en.DGW }}, which is under the ***Management*** section.  
+![{{ en.DGW }}](https://cdnweb.devolutions.net/docs/HUBB0006_2024_1.png)
+1. Click on the ***More*** button in the top right.  
+![More button](https://cdnweb.devolutions.net/docs/HUBB0007_2024_1.png)
+1. Click on ***Download public key***. This key is unique to the {{ en.DHUBB }} account.  
+![Gateway Public Key](https://cdnweb.devolutions.net/docs/HUBB0009_2024_1.png)
+1. Select ***Download MSI*** from the dropdown.  
+![Download MSI](https://cdnweb.devolutions.net/docs/HUBB0008_2024_1.png)
+1. Execute the installer.
    {% snippet icon.badgeInfo %}
    The installer should be run on the server hosting {{ en.DGW }}.
    {% endsnippet %}
 1. Click ***Next***.
-![Setup wizard](https://cdnweb.devolutions.net/docs/docs_en_hub_DGW0024.png)
+![Setup wizard](https://cdnweb.devolutions.net/docs/HUBB0010_2024_1.png)
 1. Once the desired installation path is selected, click ***Next***.
-![Destination folder](https://cdnweb.devolutions.net/docs/docs_en_hub_DGW0025.png)
-1. Select ***Configure now***, then click ***Next***.
-![Configure now](https://cdnweb.devolutions.net/docs/docs_en_hub_DGW0026.png)
-1. Input your {{ en.DGW }} access URI. The default port is 443, but can be changed. Click ***Next***.
-![Access URI](https://cdnweb.devolutions.net/docs/docs_en_hub_DGW0029.png)
-1. HTTP(S) and TCP default ports are 7171 and 8181 respectively, but can be changed. Additionally, if a reverse proxy is not used, the ***HTTP Listener*** should have the same port as the ***Access URI***.
-![Listeners](https://cdnweb.devolutions.net/docs/docs_en_hub_DGW0030.png)
+![Destination folder](https://cdnweb.devolutions.net/docs/HUBB0011_2024_1.png)
+1. Click ***Next***.
+![Configure the Gateway installation](https://cdnweb.devolutions.net/docs/HUBB0012_2024_1.png)
+1. Change the ***Ports*** to the desired value and click ***Next***.
+   {% snippet icon.badgeInfo %}
+   HTTP(S) and TCP default ports are 7171 and 8181 respectively, but can be changed. Additionally, if a reverse proxy is not used, the ***HTTP Listener*** should have the same port as the ***Access URI***.
+   {% endsnippet %}
+![Listeners](https://cdnweb.devolutions.net/docs/HUBB0013_2024_1.png)
+1. Input the {{ en.DGW }} access URI and click ***Next***.
+![Access URI](https://cdnweb.devolutions.net/docs/HUBB0014_2024_1.png)
 1. After clicking the top ellipsis button, select either a PFX file or a Certificate file, then enter the corresponding password. (If the listener is not in ***HTTPS*** or if using a reverse proxy, skip this step)
 ![Certificate](https://cdnweb.devolutions.net/docs/docs_en_hub_DGW0031.png)
 1. Click on the ellipsis button and select the ***Provisioner Public Key*** which was generated in Step 7.
