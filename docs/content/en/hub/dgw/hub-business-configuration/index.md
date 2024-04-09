@@ -43,25 +43,24 @@ This method only works for Windows.
 ![Destination folder](https://cdnweb.devolutions.net/docs/HUBB0011_2024_1.png)
 1. Click ***Next***.
 ![Configure the Gateway installation](https://cdnweb.devolutions.net/docs/HUBB0012_2024_1.png)
-1. Change the ***Ports*** to the desired value and click ***Next***.
+1. Change the ***Ports*** to the desired value and click ***Next***.  
+![Listeners](https://cdnweb.devolutions.net/docs/HUBB0013_2024_1.png)
    {% snippet icon.badgeInfo %}
    HTTP(S) and TCP default ports are 7171 and 8181 respectively, but can be changed. Additionally, if a reverse proxy is not used, the ***HTTP Listener*** should have the same port as the ***Access URI***.
    {% endsnippet %}
-![Listeners](https://cdnweb.devolutions.net/docs/HUBB0013_2024_1.png)
 1. Input the {{ en.DGW }} access URI and click ***Next***.
 ![Access URI](https://cdnweb.devolutions.net/docs/HUBB0014_2024_1.png)
 1. After clicking the top ellipsis button, select either a PFX file or a Certificate file, then enter the corresponding password. (If the listener is not in ***HTTPS*** or if using a reverse proxy, skip this step)
-![Certificate](https://cdnweb.devolutions.net/docs/docs_en_hub_DGW0031.png)
-1. Click on the ellipsis button and select the ***Provisioner Public Key*** which was generated in Step 7.
-![Public key](https://cdnweb.devolutions.net/docs/docs_en_hub_DGW0032.png)
-1. Select the ***Automatically*** option for Service Startup and click ***Next***.
-![Service startup](https://cdnweb.devolutions.net/docs/docs_en_hub_DGW0033.png)
-1. This screen shows a summary of the current paths/settings. It is possible to go ***Back*** and modify them. If the settings are correct, click ***Next***.
-![Gateway setup summary](https://cdnweb.devolutions.net/docs/docs_en_hub_DGW0034.png)
-1. Click ***Install***.
-![Install button](https://cdnweb.devolutions.net/docs/docs_en_hub_DGW0035.png)
-1. Click ***Finish*** when the setup is complete.
-1. Go back to the ***Administration – {{ en.DGW }}*** page in {{ en.DHUBB }}.
+![Certificate](https://cdnweb.devolutions.net/docs/HUBB0015_2024_1.png)
+1. Click on the ellipsis button and select the ***Provisioner Public Key*** which was generated in Step 5.  
+![Public key](https://cdnweb.devolutions.net/docs/HUBB0016_2024_1.png)
+1. This screen shows a summary of the current paths/settings. It is possible to go ***Back*** and modify them. If the settings are correct, click ***Next***.  
+![Gateway setup summary](https://cdnweb.devolutions.net/docs/HUBB0017_2024_1.png)
+1. Click ***Install***.  
+![Install button](https://cdnweb.devolutions.net/docs/HUBB0018_2024_1.png)
+1. Click ***Finish*** when the setup is complete.  
+![Install button](https://cdnweb.devolutions.net/docs/HUBB0019_2024_1.png)
+1. Go back to the ***Administration*** – ***{{ en.DGW }}*** page in {{ en.DHUBB }}.
 1. Input the correct information.
 ![Information fields](https://cdnweb.devolutions.net/docs/docs_en_hub_DGW0036.png)
 ![Information fields](https://cdnweb.devolutions.net/docs/docs_en_hub_DGW0041.png)
