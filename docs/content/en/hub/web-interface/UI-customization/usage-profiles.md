@@ -42,7 +42,7 @@ Note that this only applies to the creation of new entries and does not affect e
 
 ![{{ en.VLT_MAJ }} Dashboard widgets](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub2282.png)
 
-This table shows the different widgets that can be displayed in your ***{{ en.VLT_MAJ }} dashboard*** depending on your user interface profile.
+This table shows the different widgets that can be displayed in your ***{{ en.VLT_MAJ }} dashboard*** depending on your user interface profile. Widget visibility can be set to ***Always, Never*** or ***If not empty***.
 
 | WIDGETS                              | BUSINESS USER                 | IT PROFESSIONAL               |
 |--------------------------------------|:-----------------------------:|:-----------------------------:|

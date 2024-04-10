@@ -608,6 +608,9 @@
                   "url": "/kb/remote-desktop-manager/troubleshooting-articles/devolutions-account-inactive-account/"
                 },
                 {
+                  "url": "/kb/remote-desktop-manager/troubleshooting-articles/gateway-id-not-found/"
+                },
+                {
                   "url": "/kb/remote-desktop-manager/troubleshooting-articles/disappearing-navigation-pane/"
                 },
                 {
@@ -862,6 +865,9 @@
                 },
                 {
                   "url": "/kb/remote-desktop-manager/troubleshooting-articles/sql-azure-troubleshooting/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/troubleshooting-articles/sql-server-connection-timeout/"
                 },
                 {
                   "url": "/kb/remote-desktop-manager/troubleshooting-articles/sql-server-connectivity-troubleshooting/"
@@ -1519,6 +1525,9 @@
                   "url": "/kb/devolutions-server/troubleshooting-articles/cryptographic-exception-bad-data/"
                 },
                 {
+                  "url": "/kb/devolutions-server/troubleshooting-articles/devolutions-server-unavailable-after-reboot/"
+                },
+                {
                   "url": "/kb/devolutions-server/troubleshooting-articles/domain-containers-enforcement/"
                 },
                 {
@@ -1723,6 +1732,9 @@
             {
               "label": "howToArticles",
               "items": [
+                {
+                  "url": "/kb/hub-business/how-to-articles/assign-roles-permissions/"
+                },
                 {
                   "url": "/kb/hub-business/how-to-articles/create-azure-ad-pam-provider/"
                 },

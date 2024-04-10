@@ -27,16 +27,16 @@ Here is a familiar scenario: your team has been using {{ en.RDM }} for months or
 ![Version management](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin6164.png)
 
 {% snippet icon.badgeHelp %}
-For more information on license and version management, see [Licenses](/rdm/windows/commands/administration/management/licenses/) and [Version Management](/rdm/windows/commands/administration/settings/system-settings/application/version-management/) respectively.
+See [Licenses](/rdm/windows/commands/administration/management/licenses/) and [Version management](/rdm/commands/administration/settings/system-settings/version-management/) for more information.
 {% endsnippet %}
 
-## System Settings
+## System settings
 
 The general tab of the ***Administration – System Settings*** form allows you to easily control security aspects.
 
 A great team feature here is the System Message, which allows an administrator to inform users of upcoming system downtime, policy change or anything else. Each user will get the message when they connect to the data source or the message is changed. Use it to display company confidentially clauses or, if you wish, create chaos with a message like the one below. A little bit of chaos is good for the soul.
 
-![System Message](https://cdnweb.devolutions.net/docs/docs_en_kb_KB6113.png)
+![System message](https://cdnweb.devolutions.net/docs/docs_en_kb_KB6113.png)
 
 ## {{ en.DVLS }}
 

@@ -6,19 +6,13 @@ eleventyComputed:
 ---
 {% youtube 'En3pmonz1f8' %}
 
-{% snippet icon.badgeInfo %}
-If a temporary access request was made in {{ en.RDM }} from a {{ en.DHUB }} database, the authorization process must be performed in {{ en.DHUB }}. See [Approve temporary access to an entry in {{ en.DHUBB }}](/hub/web-interface/temporary-access/approve-temporary-access/).
-{% endsnippet %}
-
 The ***Temporary Access*** feature allows users to request a temporary elevation of their permissions for a specific entry. The approver must then approve or deny the request.
+
+If a ***Temporary access*** request was made in {{ en.RDM }} from a {{ en.DHUB }} database, the authorization process must be performed in {{ en.DHUB }}. See [Approve temporary access to an entry in {{ en.DHUBB }}](/hub/web-interface/temporary-access/approve-temporary-access/).
 
 {% snippet icon.badgeInfo %}
 When using {{ en.DVLS }}, Microsoft SQL Server or Microsoft Azure SQL data sources, you must first [Enable temporary access](/kb/remote-desktop-manager/how-to-articles/enable-temporary-access/) in {{ en.RDM }}.
 {% endsnippet %}
-
-To learn how to view your past and current requests, go to [View temporary access requests](#view-temporary-access-requests).
-
-To learn how to respond to a request, go to [Approve/Deny temporary access requests](#approvedeny-temporary-access-requests).
 
 ## View temporary access requests
 
@@ -56,6 +50,16 @@ This view is divided into two sections:
 * The ***Response Parameters*** section allows you to change the temporary access duration specified by the user. It is also possible to write a message to the user explaining your decision, but it remains optional.
 
 Clicking on ***Approve*** or ***Deny*** will approve or deny the request, depending on what you selected earlier. A confirmation window will pop up which you can make disappear by clicking on ***OK***.
+
+## Revoke temporary access
+
+After the approbation, for any reason, you may revoke the user's temporary access by clicking on ***Approved Access Requests*** in the dashboard. Be sure you want to do this first, since to regain access to the entry, they will need to make another request. Otherwise, their access will end within the set time frame.
+
+![Approved Access Requests](https://cdnweb.devolutions.net/docs/RDMW6022_2024_1.png)
+
+Click ***Revoke***. 
+
+![Revoke](https://cdnweb.devolutions.net/docs/RDMW6021_2024_1.png)
 
 {% snippet icon.badgeInfo %}
 To learn more about the end user experience in {{ en.RDM }}, visit [Request temporary access to an entry in {{ en.RDM }}](/rdm/windows/user-interface/content-area/temporary-access/request-temporary-access/).
