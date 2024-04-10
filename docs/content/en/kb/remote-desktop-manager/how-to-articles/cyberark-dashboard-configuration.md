@@ -125,7 +125,7 @@ With the safe selector, you can browse your safes and select the one you wish to
 
 ![Safe Selector](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2069.png)
 
-1. The upper section of the drop-down list contains a subset of the safes that one has access to. You can also see and manage the list of excluded safes in ***File – Options – Types – CyberArk***.
+1. The upper section of the drop-down list contains a subset of the safes that one has access to. You can also see and manage the list of excluded safes in ***File – Settings – Types – CyberArk***.
 1. ***Favorites*** will display accounts that have been tagged as favorites, but from within {{ en.RDM }}. This is not a CyberArk functionality.
 1. ***Show all*** will list all accounts that the user has access to. For certain users, this we be a sizeable list and will not be a quick operation. It is provided for users that have access to a finite list of accounts.
 1. ***Browse...*** will display the safe selection dialog, where there is paging and filtering to help the user to locate the relevant safe. Again, they are listed by default in the order received from CyberArk.
@@ -173,10 +173,10 @@ $RDM.Save();
 1. Go to ***Connect using dashboard on double click*** and click ***Yes***.
 ![Properties – Advanced](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin6160.png)
    {% snippet icon.badgeInfo %}
-   The same option can be found in ***File*** – ***Options*** – ***Types***.
+   The same option can be found in ***File*** – ***Settings*** – ***Types***.
    {% endsnippet %}
 
-   ![File – Options – Types](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin6162.png)
+   ![File – Settings – Types](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin6162.png)
 3. Click ***OK*** to save and close the window.
 
 Double-clicking will now automatically open the ***Dashboard***.

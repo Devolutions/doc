@@ -56,7 +56,7 @@ Vous pouvez prévisualiser vos modifications dans {{ fr.RDM }} avant la publicat
 
 Suivez les étapes suivantes si vous voulez changer la langue de votre application {{ fr.RDM }} afin de refléter celle que vous traduisiez :
 
-1. Accéder à ***Fichier – Options – Interface utilisateur*** (en anglais, ***File – Options – User Interface***).
+1. Accéder à ***Fichier – Options – Interface utilisateur*** (en anglais, ***File – Settings – User Interface***).
 1. Dans la liste déroulante ***Langue*** (en anglais, ***Language***), sélectionner la langue et cliquez sur ***OK***.
 1. Redémarrer l'application pour que cela prenne effet.
 

@@ -15,6 +15,7 @@ eleventyComputed:
 * Any load balancer technology can be used. The only requirement is that the [X-Forwarded-For header](/kb/devolutions-server/knowledge-base/use-x-forwarded-for/) is added by any proxy/device that intervenes in the communication. As a best practice, the ***X-Forwarded-For*** header must be stripped if received by a client device. It **must** be set by your own network equipment.
 * The presence of the ***X-Forwarded-For*** header must be included in the IIS Logs. Please follow [Add X-Fowarded-For](/kb/devolutions-server/knowledge-base/add-x-forwarded-for-column-iis/).
 * Each node should add its own identity in the HTTP Response headers. This helps see the full workflow, but some more security-conscious organizations strip that header. Since this is a plain string, simply using a basic string that does not divulge the FQDN of the responding server is acceptable for most (e.g., “node1”, “node2”). Please follow [Identify the server answering on a high-availability topology](/kb/devolutions-server/knowledge-base/identify-server-answering/) and add a unique string for each server node.
+* The load balancer must support session persistence (some technologies may use different terminology).
 
 ## Validation
 * Any email sent by the system contains the public URI (not the name as the server node). You can use the server messaging feature and inspect the received email for the proper URI.

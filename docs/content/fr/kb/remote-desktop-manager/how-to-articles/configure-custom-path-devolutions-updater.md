@@ -8,8 +8,8 @@ eleventyComputed:
 Since {{ en.RDM }} version 2023.1.7, it is possible to set a custom download path for {{ en.DUPDATER }} instead of downloading in %TEMP%.
 
 It can be configured in two ways:
-* In ***File – Options – Paths – Custom download path***.
-  ![File – Options – Paths – Custom download path](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2238.png)
+* In ***File – Settings – Paths – Custom download path***.
+  ![File – Settings – Paths – Custom download path](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2238.png)
 * Directly in the updater.
     1. In the ***Help*** tab, click on ***Check for Updates***.
     ![Help – Check for Updates](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2239.png)

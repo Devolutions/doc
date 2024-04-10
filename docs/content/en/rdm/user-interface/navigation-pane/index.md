@@ -19,7 +19,7 @@ Choose the columns to display in the tree view. Right-clicking on the column nam
 ![{{ en.NPANE }} - Column Chooser](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip11201.png)
 
 {% snippet icon.badgeInfo %}
-Additional tree view settings and information are available in ***File – Options – Tree View***.
+Additional tree view settings and information are available in ***File – Settings – Tree View***.
 {% endsnippet %}
 
 For more information on each tab, please consult the following topics:

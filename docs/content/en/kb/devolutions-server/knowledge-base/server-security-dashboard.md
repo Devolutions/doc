@@ -8,14 +8,14 @@ The ***Security Dashboard*** is a tool to offer guidance on how to improve the s
 The scores are admittedly open to question and we do not pretend each topic has the same relative value for all of our community members. Achieving 100% is surely not an end goal in itself, we simply aim to raise awareness and provide ideas for your own security hardening.
 ![!!KB4707](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4707.png)
 
-## Improvement Actions Items
+## Improvement action items
 
 ### Active directory should be configured to use a secure communication channel
 
 |             |     |
 | ----------- | --- |
 | Description | The LDAPS protocol should be used to provide communication confidentiality and integrity over the network. Otherwise, actions such as password resets could send the password in cleartext over the network. |
-| Mitigation  | In the web interface ***Administration – Server Settings – Authentication – Domain***, check ***Enable LDAPS*** |
+| Mitigation  | In the web interface ***Administration – Server Settings – Authentication – Domain***, check ***Enable LDAPS***. |
 
 ### Backups should be enabled and configured
 
@@ -77,5 +77,5 @@ The scores are admittedly open to question and we do not pretend each topic has 
 
 |             |     |
 | ----------- | --- |
-| Description | {{ en.VLT_MAJ }} security level should be set to high in the ***{{ en.VLT }} settings***. |
+| Description | {{ en.VLT_MAJ }} security level should be set to high in the ***{{ en.VLT }} settings***. A high-level security {{ en.VLT }} does not have access to offline mode. |
 | Mitigation  | ***{{ en.VLT_MAJ }} settings*** are in the web interface of {{ en.DVLS }} under ***Administration – User and Security Management – {{ en.VLT_MAJ }}s***. Edit a {{ en.VLT }} to open the ***Edit {{ en.VLT }} settings window*** and select ***High*** in the drop-down menu under ***General – Security level***. |

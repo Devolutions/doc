@@ -17,7 +17,7 @@ In the ***Advanced*** tab of your session, set the ***Algorithm support*** optio
 {{ en.RDM }} might need to be restarted for the solutions to take effect.
 {% endsnippet %}
 
-It is also possible to globally reactivate all the algorithms in {{ en.RDM }} via the ***File - Options - Types - Terminal - Algorithm support*** menu.
+It is also possible to globally reactivate all the algorithms in {{ en.RDM }} via the ***File – Settings – Types – Terminal – Algorithm support*** menu.
 ![!!KB4654](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4654.png)
-If you are still unable to connect after enabling the algorithm, go into the entry ***Properties - Advanced*** tab and check the ***Skip environment variable setup***.
+If you are still unable to connect after enabling the algorithm, go into the entry ***Properties – Advanced*** tab and check the ***Skip environment variable setup***.
 ![!!KB4702](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4702.png)

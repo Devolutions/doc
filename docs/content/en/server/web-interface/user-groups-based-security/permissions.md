@@ -57,6 +57,7 @@ The user groups based permissions system can give a very accurate control of the
 
 ![Permissions – Attachments](https://cdnweb.devolutions.net/docs/DVLS6055_2024_1.png)
 
+
 | Option                      | Description                                               |
 |-----------------------------|-----------------------------------------------------------|
 | View attachments            | Allow users / user groups to view attachments.            |

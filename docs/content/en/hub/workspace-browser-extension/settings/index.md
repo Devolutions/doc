@@ -52,7 +52,7 @@ The ***Data sources*** settings are used to customize the {{ en.WBEX }} interact
 
 | ADVANCED TAB            | DESCRIPTION                                                                              |
 |-------------------------|------------------------------------------------------------------------------------------|
-| Application key         | Secure the communication with an application key by using the same code in {{ en.RDM }} and the {{ en.WBEX }}.<br>Navigate to ***File*** – ***Options*** – ***Browser Extensions*** in {{ en.RDM }} to set the application key. |
+| Application key         | Secure the communication with an application key by using the same code in {{ en.RDM }} and the {{ en.WBEX }}.<br>Navigate to ***File*** – ***Settings*** – ***Browser Extensions*** in {{ en.RDM }} to set the application key. |
 | Enable native messaging | Exchange messages with a native application installed on the user's computer.            |
 | Use legacy API          | Use the old browser extension API for compatibility with older versions of {{ en.RDM }}. |
 

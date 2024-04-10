@@ -60,8 +60,8 @@ The ***Allow offline*** option is enabled by default. If it is disabled, the new
 
 In the ***{{ en.NPANE }}***, you can use the {{ en.VLT }} selector to move between {{ en.VLT }}s.
 ![{{ en.NPANE }} {{ en.VLT }} Selector](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip3602.png)
-You can change the location of the {{ en.VLT }} selector in ***File – Options – User Interface – {{ en.VLT_MAJ }}s – {{ en.VLT_MAJ }} location***. By default, the selector is at the bottom of the ***{{ en.NPANE }}***.
-![File – Options – User Interface – {{ en.VLT_MAJ }}s – {{ en.VLT_MAJ }} location](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin2141.png)
+You can change the location of the {{ en.VLT }} selector in ***File – Settings – User Interface – {{ en.VLT_MAJ }}s – {{ en.VLT_MAJ }} location***. By default, the selector is at the bottom of the ***{{ en.NPANE }}***.
+![File – Settings – User Interface – {{ en.VLT_MAJ }}s – {{ en.VLT_MAJ }} location](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin2141.png)
 
 ### Move entries to a different {{ en.VLT }}
 
@@ -113,7 +113,7 @@ If you have access to multiple {{ en.VLT }}s, you can create {{ en.VLT }} shortc
 
 * Centralize all of your {{ en.VLT }} shortcuts entries into one main (default) {{ en.VLT }}.
 * In each {{ en.VLT }}, add a ***{{ en.VLT_MAJ }} (Shortcut)*** entry that returns the user to the main {{ en.VLT }}.
-* Remove the data source drop-down list when using {{ en.VLT }} shortcuts. To do so, navigate to ***File – Options – User Interface – Data Sources*** and select ***Not visible*** in the ***Data source location*** drop-down list. Then, the {{ en.VLT }} selector can be [moved above the {{ en.NPANE }}](#move-entries-to-a-different-vault) for easier access.
+* Remove the data source drop-down list when using {{ en.VLT }} shortcuts. To do so, navigate to ***File – Settings – User Interface – Data Sources*** and select ***Not visible*** in the ***Data source location*** drop-down list. Then, the {{ en.VLT }} selector can be [moved above the {{ en.NPANE }}](#move-entries-to-a-different-vault) for easier access.
 
 Follow the steps below to create a ***{{ en.VLT_MAJ }} (Shortcut)*** entry.
 

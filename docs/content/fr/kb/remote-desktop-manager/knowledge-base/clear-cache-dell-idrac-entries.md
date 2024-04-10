@@ -4,7 +4,7 @@ eleventyComputed:
 ---
 The Integrated Dell Remote Access Controller (iDRAC) provides secure on-site and remote server management, giving IT administrators the ability to deploy, update and monitor PowerEdge servers anytime, anywhere. Clearing the cache of iDRAC entries can be done in the ***Google Chrome section*** of {{ en.RDM }}, as it is tied to the same code.
 
-1. In {{ en.RDM }}, select ***Files*** – ***Options***.
+1. In {{ en.RDM }}, select ***Files*** – ***Settings***.
 1. Go to ***Types – Website – Google Chrome***.
 1. Click ***Clear Cache***.
 ![Types – Website – Google Chrome](https://cdnweb.devolutions.net/docs/docs_en_kb_KB6059.png)  

@@ -13,23 +13,22 @@ The Override Source column indicates if an available mechanism can relocate the 
 
 ## Summary
 
-| FILE(S) | LOCATION | OVERRIDE SOURCE |
-|---------|----------|-----------------|
-| Configuration File(s) (*.cfg*, .ext) | [CONFIG] | None |
-| Data File(s) (*.xml*, *.db*) | [CONFIG] or custom path. | None |
-| Default Settings | [CONFIG] | Data source settings (System Settings) |
-| Encryption (*.enc*, *.enb*) | [CONFIG] | None |
-| Layout Files (*.lyt*) | [CONFIG] | None |
-| Log Files (*.log*, *.debug*) | [CONFIG] | None |
-| Local Play lists | [PROFILE]\\[Datasource]\\Playlists | Use application directory for local playlist will use instead [INSTALLDIR] |
-| Local Templates | They are serialized directly in the configuration file of the application. | None |
-| Offline/Cache data (*offline.db*) | [PROFILE]\\[Datasource] | Use application directory for online cache will use instead [INSTALLDIR] |
-| Sensitive (*.stv*, *.stb*) | [CONFIG] | None |
-| Themes | [CONFIG] | None |
+| FILE(S)                              | LOCATION                           | OVERRIDE SOURCE                  |
+|--------------------------------------|------------------------------------|----------------------------------|
+| Configuration File(s) (*.cfg*, .ext) | [CONFIG]                           | None                             |
+| Data File(s) (*.xml*, *.db*)         | [CONFIG] or custom path.           | None                             |
+| Default Settings                     | [CONFIG]                           | Data source settings (System Settings) |
+| Encryption (*.enc*, *.enb*)          | [CONFIG]                           | None                             |
+| Layout Files (*.lyt*)                | [CONFIG]                           | None                             |
+| Log Files (*.log*, *.debug*)         | [CONFIG]                           | None                             |
+| Local Play lists                     | [PROFILE]\\[Datasource]\\Playlists | Use application directory for local playlist will use instead [INSTALLDIR] |
+| Local Templates                      | They are serialized directly in the configuration file of the application. | None |
+| Offline/Cache data (*offline.db*)    | [PROFILE]\\[Datasource]            | Use application directory for online cache will use instead [INSTALLDIR] |
+| Sensitive (*.stv*, *.stb*)           | [CONFIG]                           | None                             |
+| Themes                               | [CONFIG]                           | None                             |
 
 
 ### Offline and Local Play list option
 
-Offline and local play list options can be accessed by navigating to ***File - Options - Advanced***.
+Offline and local play list options can be accessed by navigating to ***File – Settings – Advanced***.
 ![Options - Advanced](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip11275.png)
-

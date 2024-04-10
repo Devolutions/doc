@@ -12,9 +12,9 @@ The profile is first selected during the {{ en.RDM }} Onboarding process.
 
 ![User Interface Profile selection in Onboarding](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin2167.png)
 
-If none is chosen or if the user decides to choose one later, they will be assigned the ***Default*** profile, which can be changed in ***File – Options – User Interface – Usage profile*** or in the web interface.
+If none is chosen or if the user decides to choose one later, they will be assigned the ***Default*** profile, which can be changed in ***File – Settings – User Interface – Usage profile*** or in the web interface.
 
-![File – Options – User Interface – Usage profile](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin2168.png)
+![File – Settings – User Interface – Usage profile](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin2168.png)
 
 Users can individually change this setting in the [***Account***](/rdm/windows/user-interface/navigation-pane/account/) tab of the ***{{ en.NPANE }}***.
 
@@ -43,7 +43,7 @@ Note that this only applies to the creation of new entries and does not affect e
 | Folder                 | {{ icon.badgeNotice | safe }} | {{ icon.badgeNotice | safe }} |
 | Contact                | {{ icon.badgeNotice | safe }} | {{ icon.badgeNotice | safe }} |
 | Document               |               | {{ icon.badgeNotice | safe }}                 |
-| VPN/Tunnel/Gateway     |               | {{ icon.badgeNotice | safe }}                 |
+| VPN/SSH/Gateway     |               | {{ icon.badgeNotice | safe }}                 |
 | IT Asset Management    |               | {{ icon.badgeNotice | safe }}                 |
 | Macro/Script/Tool      |               | {{ icon.badgeNotice | safe }}                 |
 | Synchronizer           |               | {{ icon.badgeNotice | safe }}                 |
@@ -107,7 +107,7 @@ The availability of entry property sections also depends on the type of entry as
 | Custom Fields                        |               | {{ icon.badgeNotice | safe }} |
 | Entry Information                    | {{ icon.badgeNotice | safe }} | {{ icon.badgeNotice | safe }} |
 | Settings                             | {{ icon.badgeNotice | safe }} | {{ icon.badgeNotice | safe }} |
-| VPN/Tunnel/Gateway                   | {{ icon.badgeNotice | safe }} | {{ icon.badgeNotice | safe }} |
+| VPN/SSH/Gateway                   | {{ icon.badgeNotice | safe }} | {{ icon.badgeNotice | safe }} |
 | Events                               |               | {{ icon.badgeNotice | safe }} |
 | One Time Password                    |               | {{ icon.badgeNotice | safe }} |
 | Permissions / Inherited Permissions  |               | {{ icon.badgeNotice | safe }} |

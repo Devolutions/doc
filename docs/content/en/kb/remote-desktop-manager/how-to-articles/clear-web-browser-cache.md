@@ -3,7 +3,7 @@ eleventyComputed:
   title: Clear web browser cache
   description: By deleting a file, you are able to clear the web browser cache in the application folder of {{ en.RDM }}.
 ---
-By deleting a folder, you are able to clear the web browser cache in the application folder of {{ en.RDM }}. In ***File – Options – Advanced***, you can click the link at the bottom of the window to access the application folder. If your {{ en.RDM }} is in **Program Files**, you should find the ***EO.WebBrowser.Cache*** and ***WebView2.Cache*** folders in the **localappdata**.
+By deleting a folder, you are able to clear the web browser cache in the application folder of {{ en.RDM }}. In ***File – Settings – Advanced***, you can click the link at the bottom of the window to access the application folder. If your {{ en.RDM }} is in **Program Files**, you should find the ***EO.WebBrowser.Cache*** and ***WebView2.Cache*** folders in the **localappdata**.
 
 1. Close your {{ en.RDM }} application.
 1. In the application folder, locate the ***EO.WebBrowser.Cache*** and ***WebView2.Cache*** folders. Depending on your {{ en.RDM }} version, you may only have one of those folders.

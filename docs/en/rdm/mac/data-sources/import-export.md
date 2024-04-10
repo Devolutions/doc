@@ -3,7 +3,11 @@ eleventyComputed:
   title: Import or export a data source
   order: 30
 ---
-To simplify deployment for multiple users, it is possible to export and import data source configurations. The generated .rdd file contains all the information to recreate the configuration. Please note that the .rdd file does not include the database content. Only the configuration is exported. Use the entries [Export](/rdm/mac/commands/file/export/overview/) functionality to backup or copy the database's content.
+To simplify deployment for multiple users, it is possible to export and import data source configurations. The generated .rdd file contains all the information to recreate the configuration.
+
+{% snippet icon.badgeCaution %}
+The RDD file does not include the content of the data source; only the configuration is exported. Use the entry's export functionality to back up or copy the content of the database.
+{% endsnippet %}
 
 Use the data source dialog (File-Data Sources...) to access the import or export of the file.
 ![Data Sources – Import/Export](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip5068.png)

@@ -21,7 +21,7 @@ Multiple {{ en.DVLS }} instances can be hosted on the same server. Each instance
    {% endsnippet %}
 
    ![Run as administrator](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp8175.png)
-3. In the {{ en.DVLSCONSOLE }}, click on the ***New*** button or the ***Install New Instance*** button to deploy a new server instance using the [basic installation](#basic-installation) or the [advanced installation](#advanced-installation) wizard. It is also possible to ***Migrate SQL Data Source***.
+3. In the {{ en.DVLSCONSOLE }}, click on the ***New*** button or the ***Install New Instance*** button to deploy a new server instance using the [basic installation](#basic-installation) or the [advanced installation](#advanced-installation) wizard. It is also possible to [***Migrate SQL Data Source***](/kb/devolutions-server/how-to-articles/migrate-sql/).
 ![Deploy a new {{ en.DVLS }}](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp0049.png)
 
 ### Basic installation

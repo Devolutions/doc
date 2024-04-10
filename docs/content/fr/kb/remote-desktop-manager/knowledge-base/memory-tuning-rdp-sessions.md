@@ -18,7 +18,7 @@ DESCRIPTION
 Default
 		</td>
 		<td>
-Uses the value set in File - Options - Types - Remote Desktop - Cache
+Uses the value set in File – Settings – Types – Remote Desktop – Cache
 		</td>
 	</tr>
 	<tr>
@@ -51,6 +51,6 @@ Choosing ***Thin client*** is therefore the choice that limits memory consumptio
 
 ![!!KB4455](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4455.png)
 
-You might wish to set this for all sessions. In this case, go to File - Options - Types - Remote Desktop to assign the default value, then in all of your sessions use ***Default***.
+You might wish to set this for all sessions. In this case, go to ***File – Settings – Types – Remote Desktop*** to assign the default value, then in all of your sessions use ***Default***.
 
 ![!!KB4456](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4456.png)

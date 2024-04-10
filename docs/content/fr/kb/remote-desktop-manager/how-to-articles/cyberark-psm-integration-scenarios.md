@@ -205,7 +205,7 @@ Steps are very similar to the ***Quick connect***, the creation of the template 
 
 What is actually interesting about this, is that a variable can be used to populate the ***Privileged account***.
 
-In this example I used the Custom Field #1 variable, here’s the template configuration:
+This example uses the Custom Field #1 variable. Here is the template configuration:
 
 ![Privileged account variable](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4696.png)
 

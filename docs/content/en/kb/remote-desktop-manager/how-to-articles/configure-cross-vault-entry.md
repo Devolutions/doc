@@ -15,7 +15,7 @@ This topic covers how to share a credential from a different {{ en.VLT }} in the
 ![General tab](https://cdnweb.devolutions.net/docs/docs_en_kb_KB0157.png)
 1. Fill the information in the ***General*** tab;
     * ***Host***: The URL to {{ en.DVLS }}
-    * ***Use "My Account Settings"***: Use the ***My Acount Settings*** {{ en.DVLS }} login set in ***File*** – ***Options***
+    * ***Use "My Account Settings"***: Use the ***My Acount Settings*** {{ en.DVLS }} login set in ***File*** – ***Settings***
     * ***Use Windows authentication***: Use Windows authentication to log into {{ en.DVLS }}
     * ***Username***: Use a set email to log into {{ en.DVLS }}
     * ***{{ en.VLT_MAJ }}***: Click on the ellipsis button to select which {{ en.VLT }} to get the credential from

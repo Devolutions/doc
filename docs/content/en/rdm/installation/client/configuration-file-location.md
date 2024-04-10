@@ -3,7 +3,7 @@ eleventyComputed:
   title: Configuration file location
   description: "{{ en.RDM }} saves its configuration in a file named **RemoteDesktopManager.cfg**. This file contains most of the application settings."
 ---
-{{ en.RDM }} saves its configuration in a file named **RemoteDesktopManager.cfg**. This file contains most of the application settings. You can retrieve the installation folder of {{ en.RDM }} by clicking ***File*** – ***Options*** – ***Advanced***. A hyperlink displays the installation folder.
+{{ en.RDM }} saves its configuration in a file named **RemoteDesktopManager.cfg**. This file contains most of the application settings. You can retrieve the installation folder of {{ en.RDM }} by clicking ***File*** – ***Settings*** – ***Advanced***. A hyperlink displays the installation folder.
 
 ![Options – Advanced](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin2257.png)
 

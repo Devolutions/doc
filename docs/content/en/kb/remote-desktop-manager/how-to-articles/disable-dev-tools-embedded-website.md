@@ -22,6 +22,6 @@ To prevent a user from editing the code and seeing the autofill password, follow
 
 ## Website settings
 
-1. In ***File - Options - Types - Website***, check the ***Disable developer tools*** option.
+1. In ***File – Settings – Types – Website***, check the ***Disable developer tools*** option.
 ![System Settings](https://cdnweb.devolutions.net/docs/docs_en_kb_KB6013.png)
 1. Click ***OK*** to save the new settings and close the window.

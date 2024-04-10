@@ -43,9 +43,9 @@ Sub entries are full-fledged, independant entries located bewlow a "parent" entr
 They can be found under the parent entry or in the ***Sub Entries*** tab of the parent entry [***Dashboard***](/rdm/windows/user-interface/content-area/dashboards/).
 
 {% snippet icon.badgeInfo %}
-To create sub entries, make sure the ***Allow sub entries*** option is enabled in the option lists in ***File – Options – Advanced***.
+To create sub entries, make sure the ***Allow sub entries*** option is enabled in the option lists in ***File – Settings – Advanced***.
 
-To see sub entries in the ***{{ en.NPANE }}***, make sure the ***Load sub entry in tree view*** option is enabled in the option lists in ***File – Options – User Interface – Tree View***.
+To see sub entries in the ***{{ en.NPANE }}***, make sure the ***Load sub entry in tree view*** option is enabled in the option lists in ***File – Settings – User Interface – Tree View***.
 {% endsnippet %}
 
 ### From the Ribbon

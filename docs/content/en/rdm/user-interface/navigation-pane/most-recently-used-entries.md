@@ -9,7 +9,7 @@ The ***Recent*** tab can be customized in the same way as the tree view. Click o
 
 To delete the most recently used entries history, select ***Clear Recent Entries***.
 
-By default, ten items will be kept in the ***Recent*** history. This setting can be changed in ***File – Options – Application – Recent***.
+By default, ten items will be kept in the ***Recent*** history. This setting can be changed in ***File – Settings – Application – Recent***.
 
 The ***Recent*** tab can also be accessed from the ***Ribbon*** in ***View – Panels – Recent***.
 ![View – Panels – Recent](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin2050.png)

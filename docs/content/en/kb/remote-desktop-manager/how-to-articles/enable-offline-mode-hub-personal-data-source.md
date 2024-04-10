@@ -9,8 +9,8 @@ In {{ en.RDM }}, to use the Offline Mode with a {{ en.DHUBP }} data source, you 
 
 ## Steps
 
-1. In {{ en.DHUBP }}, go to ***Tools – Settings***.
-![Tools – Settings](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2147.png)
-1. In the ***Allow offline mode*** drop-down menu, select ***Yes***.
-![Allow offline mode](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2148.png)
-1. Click ***Save***.
+1. In {{ en.DHUBP }}, go to your account, then click on ***Preferences***.
+![Account – Preferences](https://cdnweb.devolutions.net/docs/RDMW4019_2024_1.png)
+1. In ***General***, under ***Offline settings***, click to ***Allow offline***.
+![Allow offline mode](https://cdnweb.devolutions.net/docs/RDMW4017_2024_1.png)
+1. Click ***Close***.

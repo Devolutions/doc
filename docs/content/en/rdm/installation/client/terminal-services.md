@@ -29,7 +29,7 @@ Each user must have a unique application data folder (roaming profiles or simila
 1. When running {{ en.RDM }} under a Remote Desktop Services environment, we may have to tweak the parameters of the RDP entries to use less resources as possible and improve the startup performance of the application.
     1. To improve the {{ en.RDM }} startup performance, please see Solution #3 of the [Startup performance](/kb/remote-desktop-manager/troubleshooting-articles/startup-performance/) article. {type="a"}
     1. To limit the memory consumption of RDP entries, please see [RDP sessions memory tuning](/kb/remote-desktop-manager/knowledge-base/memory-tuning-rdp-sessions/). {type="a"}
-1. When {{ en.RDM }} is configured to your liking, use ***File – Options – Export Options***. This will allow you to choose exactly the data sources to include, as well as the various categories of settings. Please refer to [Export options](/rdm/windows/commands/file/options/export/) for further details. Save the file with the name **default.cfg**.
+1. When {{ en.RDM }} is configured to your liking, use ***File – Settings – Export Options***. This will allow you to choose exactly the data sources to include, as well as the various categories of settings. Please refer to [Export options](/rdm/windows/commands/file/options/export/) for further details. Save the file with the name **default.cfg**.
 1. Move the **default.cfg** file in the installation folder of {{ en.RDM }}.
 
 ## Workflow

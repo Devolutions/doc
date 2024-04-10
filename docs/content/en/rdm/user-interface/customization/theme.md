@@ -5,8 +5,8 @@ eleventyComputed:
 ---
 The theme of {{ en.RDM }} can be changed to better suit your preferences. It modifies the color and shade of the user interface.
 
-This ***Theme*** setting is available in ***File – Options – User Interface***. The ***Light*** theme is set by default, but you can select the ***Dark*** theme instead if you prefer. The theme will be automatically applied once you click ***OK***.
-![File – Options – User Interface – Theme](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip11341.png)
+This ***Theme*** setting is available in ***File – Settings – User Interface***. The ***Light*** theme is set by default, but you can select the ***Dark*** theme instead if you prefer. The theme will be automatically applied once you click ***OK***.
+![File – Settings – User Interface – Theme](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip11341.png)
 
 | OPTION | DESCRIPTION |
 |--------|-------------|

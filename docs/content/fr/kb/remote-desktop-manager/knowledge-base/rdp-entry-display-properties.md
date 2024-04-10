@@ -24,7 +24,7 @@ The ***Screen sizing mode*** defines how the host resolution adapts to the curre
 
 | Settings                 | Description                                                                                                                     |
 | ------------------------ | ------------------------------------------------------------------------------------------------------------------------------- |
-| ***Default***            | This value defaults to the ***Screen sizing mode*** defined in ***File – Options – Types – Sessions – Remote Desktop (RDP)***.  |
+| ***Default***            | This value defaults to the ***Screen sizing mode*** defined in ***File – Settings – Types – Sessions – Remote Desktop (RDP)***.  |
 | ***Smart reconnect***    | The resolution of the host adjusts accordingly to mirror the resolution of the window when resizing the window. For RDP hosts prior to version 8.1 or when using the FreeRDP application, a reconnection is initiated to accomplish the resolution synchronization. If you set the screen sizing mode to this option, you also have to specify a ***Delay on login*** (in seconds). |
 | ***Smart sizing***       | Window resizing stretches the original resolution to fit the new window size. This disables the ***Zoom*** option further down. |
 | ***Scrollbar***          | Scrollbars are added if the resolution exceeds the window dimensions when resizing the window. If the resolution is smaller than the window, gray borders appear around it. The resolution remains unchanged and scrollbars are added as needed. |
@@ -35,7 +35,7 @@ The ***Remote desktop size*** defines the default dimensions of the RDP session 
 
 | Settings                     | Description                                                                                                                    |
 | ---------------------------- | ------------------------------------------------------------------------------------------------------------------------------ |
-| ***Default***                | This value defaults to the ***Remote desktop size*** defined in ***File – Options – Types – Sessions – Remote desktop size***. |
+| ***Default***                | This value defaults to the ***Remote desktop size*** defined in ***File – Settings – Types – Sessions – Remote desktop size***. |
 | ***Full screen***            | The RDP session display takes the entire screen.                                                                               |
 | ***Custom***                 | The RDP session window follows a ***Custom width*** and ***Custom height*** that you define.                                   |
 | ***Current screen size***    | The RDP session window is the same size as your current screen.                                                                |

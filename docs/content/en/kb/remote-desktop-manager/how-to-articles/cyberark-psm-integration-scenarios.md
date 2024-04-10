@@ -51,7 +51,7 @@ The fields are mapped like this:
 | Columns                              | Description                                  |
 |--------------------------------------|----------------------------------------------|
 | Name                                 | Name of the entry                            |
-| ConnectionType                       | Always “CyberarkPSM”                         |
+| ConnectionType                       | “CyberArk PSM Connection”                         |
 | CyberArkPSM\Component                | For RDP: PSM-RDP (several options available) |
 | CyberArkPSM\CyberArkJumpConnectionID | ID of the Cyberark PSM Server entry          |
 | CyberArkPSM\PrivilegedAccount        | Privileged account to use                    |
@@ -152,7 +152,7 @@ Steps are very similar to the ***Quick connect***, the creation of the template 
 
 What is actually interesting about this, is that a variable can be used to populate the ***Privileged account***.
 
-In this example I used the Custom Field #1 variable, here’s the template configuration:
+In this example, the Custom Field #1 variable is used. Here is the template configuration:
 
 ![Privileged account variable](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4696.png)
 

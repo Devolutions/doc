@@ -9,8 +9,8 @@ Since {{ en.RDM }} version 2023.1.7, it is possible to set a custom download pat
 
 ## Method 1: From the File menu
 
-Go to ***File – Options – Paths*** and enter a ***Custom download path*** in the field.
-![File – Options – Paths – Custom download path](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2238.png)
+Go to ***File – Settings – Paths*** and enter a ***Custom download path*** in the field.
+![File – Settings – Paths – Custom download path](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2238.png)
 
 ## Method 2: Directly in the updater
 

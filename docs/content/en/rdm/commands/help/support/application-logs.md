@@ -23,5 +23,5 @@ We strongly recommend to do a ***Delete all***, but this can be customized to de
 
 When experiencing issues with {{ en.RDM }} our support team might ask you to increase the debug level of the application during the support process. We strongly suggest to only increase the debug level when requested by our support team.
 
-Increase the debug level in ***File – Options – Advanced***.
-![File – Options – Advanced – Debug level](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip10813.png)
+Increase the debug level in ***File – Settings – Advanced***.
+![File – Settings – Advanced – Debug level](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip10813.png)

@@ -25,5 +25,5 @@ The host format must be similar to this: https://something.screenconnect.com
 6. As for the ***Session name*** selection, it is for the remote session that you would like to use.
 1. In the ***Advanced*** tab, change the version for ***Extension (Version 5 or higher)***.
 ![!!KB4510](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4510.png)
-1. You can also select ***Default*** in the drop down list instead of ***Extension (Version 5 or higher)*** If you select ***Default***, you will need to configure the ScreenConnect version that you wish to use in ***File – Options – Types – ConnectWise Control***.
+1. You can also select ***Default*** in the drop down list instead of ***Extension (Version 5 or higher)*** If you select ***Default***, you will need to configure the ScreenConnect version that you wish to use in ***File – Settings – Types – ConnectWise Control***.
 ![!!KB4511](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4511.png)

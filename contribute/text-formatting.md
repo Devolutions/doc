@@ -42,7 +42,7 @@ Since paths consist of UI elements, we also use the bold + italics formatting on
 #### Examples
 
 * Go to ***Administration – System Settings – General*** and enable ***Allow user specific settings***.
-* The ***Ribbon style*** can be customized in ***File – Options – User Interface – Ribbon***.
+* The ***Ribbon style*** can be customized in ***File – Settings – User Interface – Ribbon***.
 
 ### Keyboard keys and shortcuts
 

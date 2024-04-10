@@ -12,7 +12,7 @@ Note that if you are storing passwords to your datasource(s) and/or your {{ en.D
 
 ## Finding and sending your Configuration file
 ### Method 1 - Using {{ en.RDM }}
-1. In {{ en.RDM }}, open ***File – Options – Advanced***.
+1. In {{ en.RDM }}, open ***File – Settings – Advanced***.
 1. At the bottom in the ***Information*** section, you will see a blue hyperlink, press on it to have a Windows Explorer open with the proper file selected.
 ### Method 2 - Using the file system
 {% snippet icon.badgeInfo %}

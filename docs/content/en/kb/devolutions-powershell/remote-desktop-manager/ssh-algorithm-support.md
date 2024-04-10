@@ -31,7 +31,7 @@ In versions 2020.3.13.0 and later of {{ en.RDM }}, an error message can appear w
 ![Skip environment variable setup](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4702.png)
 
 ## Global Solution for all entries
-It is also possible to globally reactivate all the algorithms in {{ en.RDM }} via the ***File*** – ***Options*** – ***Types*** – ***Terminal*** – ***Algorithm Support*** menu. Just select the missing algorithms, then click ***OK***.
+It is also possible to globally reactivate all the algorithms in {{ en.RDM }} via the ***File*** – ***Settings*** – ***Types*** – ***Terminal*** – ***Algorithm Support*** menu. Just select the missing algorithms, then click ***OK***.
 {% snippet icon.badgeCaution %}
 Make sure to go through the algorithms in **all tabs**.
 {% endsnippet %}
@@ -40,7 +40,7 @@ Make sure to go through the algorithms in **all tabs**.
 You may have to restart {{ en.RDM }} for the solution to take effect.
 {% endsnippet %}
 
-![File – Options – Types – Terminal – Algorithm Support](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4654.png)
+![File – Settings – Types – Terminal – Algorithm Support](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4654.png)
 
 ## Custom Powershell command script
 If you still encounter issues on a specific entry, you can run the following PowerShell script in {{ en.RDM }}.

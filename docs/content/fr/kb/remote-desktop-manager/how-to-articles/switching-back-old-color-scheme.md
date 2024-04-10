@@ -10,7 +10,7 @@ It is possible to change the color scheme in {{ en.RDM }}.
 
 ## Step-by-Step Guide
 
-1. In {{ en.RDM }}, go to ***File – Options – UI – Title Bar***.
+1. In {{ en.RDM }}, go to ***File – Settings – UI – Title Bar***.
 1. Click on the ***Color*** dropdown menu.
 1. Right-click an empty color combo box.
 ![Right-Click an Empty Combo Box](https://cdnweb.devolutions.net/docs/docs_en_kb_KB0008.png)
@@ -23,5 +23,5 @@ The color scheme can be reset by clicking on the ***X*** to the right of the ***
 
 ## Alternate Solution
 
-Another option would be to use the ***Use gray theme (experimental)*** which is located under ***File – Options – User Interface – Advanced***.
+Another option would be to use the ***Use gray theme (experimental)*** which is located under ***File – Settings – User Interface – Advanced***.
 ![Use gray theme](https://cdnweb.devolutions.net/docs/docs_en_kb_KB0010.png)

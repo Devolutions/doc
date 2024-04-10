@@ -497,7 +497,7 @@ If {{ en.RDM }} is open when you make this change, then you will need to restart
 
 ---
 
-#### Disable the menu File – Options
+#### Disable the menu File – Settings
 `%Root%\SOFTWARE\Policies\Devolutions\RemoteDesktopManager\DisableFileOptions`
 
 ---

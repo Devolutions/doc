@@ -18,7 +18,7 @@ The application key is displayed in clear text. It must be kept secret by the us
 
 To enable the security layer in {{ en.RDM }}, follow these steps:
 
-1. In {{ en.RDM }}, navigate to ***File – Options – Browser Extensions***.
+1. In {{ en.RDM }}, navigate to ***File – Settings – Browser Extensions***.
 1. Under the ***{{ en.WBEX }}*** section, uncheck ***Use default port***.
 ![Uncheck Use default port](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin2097.png)
 1. Click ***Default***. In the window that pops up, enter a custom ***Port*** and click ***OK*** when done.

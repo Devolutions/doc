@@ -14,7 +14,7 @@ In {{ en.RDM }}, you can specify a language (and a location) for the tree view i
 Note that the system on which {{ en.RDM }} is installed must support the specific language for it to work in {{ en.RDM }}.
 {% endsnippet %}
 
-1. In {{ en.RDM }}, go to ***File – Options – User Interface – Tree View***.
+1. In {{ en.RDM }}, go to ***File – Settings – User Interface – Tree View***.
 1. In the ***Tree view culture*** field, specify a ***Language tag***.
    ![Tree view culture field](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2110.png)
 

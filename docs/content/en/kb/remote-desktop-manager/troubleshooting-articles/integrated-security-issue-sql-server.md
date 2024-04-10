@@ -9,7 +9,7 @@ Since issues can arise from multiple sources, when setting up integrated securit
 ### Retrieve log details
 1. In {{ en.RDM }} go to ***Help – Application Logs – Report (tab)***.
 1. Click ***Delete All***.
-1. In ***File – Options – Advanced***:
+1. In ***File – Settings – Advanced***:
 1. Raise the ***Debug level*** to 1.
 1. Uncheck ***Disable stack trace***.
 1. Click ***OK***.

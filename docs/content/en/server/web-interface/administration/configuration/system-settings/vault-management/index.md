@@ -11,7 +11,7 @@ The ***{{ en.VLT_MAJ }} Management*** section allows you to set default permissi
 ### Default permissions
 | Option       | Description                                                                                           |
 |--------------|-------------------------------------------------------------------------------------------------------|
-| Permission   | Set all the default permissions in the different tabs to ***Default***, ***Custom***, or ***Never***. |
+| Permission   | Set all the default permissions in the different tabs to ***Default***, ***Custom***, or ***Disallowed***. |
 | Grant Access | Get access to the ***Batch Grant Access*** feature when selecting ***Custom*** in the ***Permission*** drop-down list. It allows you to set permissions and permission sets to multiple users, user groups, and/or application users at once. |
 
 ### My account settings

@@ -18,7 +18,7 @@ These values originate from the Microsoft’s documentation [FIPS140.2 annex A s
 
 ## Settings
 
-1. In {{ en.RDM }}, go to ***File - Options - Types - Terminal - Algorithm Support***.
+1. In {{ en.RDM }}, go to ***File – Settings – Types – Terminal – Algorithm Support***.
 1. In the ***Cipher*** tab, uncheck:
     * Chacha20 Poly1305 (openssh<area>.com)
     * Aes256 Gcm (openssh<area>.com)

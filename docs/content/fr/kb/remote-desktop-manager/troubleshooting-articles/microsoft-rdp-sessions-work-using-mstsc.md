@@ -25,5 +25,5 @@ The file will be deleted when you close {{ en.RDM }}, you need to copy it before
 
 ### Starting rdp sessions is slow compared to the native rdp
 
-We have isolated the issue and we fixed it by changing your RDP engine version to RDP 6.0 or 7.0 in ***File - Options - Types - Remote Desktop***.
+We have isolated the issue and we fixed it by changing your RDP engine version to RDP 6.0 or 7.0 in ***File – Settings – Types – Remote Desktop***.
 ![!!KB4056](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4056.png)

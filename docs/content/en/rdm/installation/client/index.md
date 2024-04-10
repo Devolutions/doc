@@ -19,7 +19,7 @@ By default, a local data source is created using the SQLite format. You can add 
 
 ## External applications
 
-Configure your installation path for all external applications you intend to use such as RealVNC, Putty, Filezilla, etc. Set the paths in ***File – Options – Application – Paths***
+Configure your installation path for all external applications you intend to use such as RealVNC, Putty, Filezilla, etc. Set the paths in ***File – Settings – Application – Paths***
 
 ## Terminal Services / Remote Desktop Services
 

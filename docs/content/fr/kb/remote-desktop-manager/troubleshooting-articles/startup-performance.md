@@ -9,7 +9,7 @@ If you experience slow startup times, there are a few things to try to reduce th
 ## Problem 1
 {{ en.RDM }} is slow to open.
 ### Solution
-1. In {{ en.RDM }}, go to ***File – Options – Advanced***.
+1. In {{ en.RDM }}, go to ***File – Settings – Advanced***.
 1. Set ***Hardware acceleration*** to ***DirectX*** and ***Optimize UI performance*** to ***Yes***.
 
 ![DirectX Hardware Acceleration and Optimized UI Performance](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2184.png)
@@ -41,7 +41,7 @@ Every time you start {{ en.RDM }}, the application will try to connect on [https
 ### Solution
 Add the line `<DisableAnalytics>true</DisableAnalytics>` to your [**RemoteDesktopManager.cfg**](/rdm/windows/installation/client/configuration-file-location/) file. You can place it above the last line, which should contain </Option>.
 
-You can find the configuration file using ***File – Options – Advanced*** and click on the blue hyperlink at the bottom.
+You can find the configuration file using ***File – Settings – Advanced*** and click on the blue hyperlink at the bottom.
 
 ![!!KB4090](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4090.png)
 ## Problem 4

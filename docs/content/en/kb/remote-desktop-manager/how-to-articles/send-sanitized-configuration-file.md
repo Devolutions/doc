@@ -8,9 +8,9 @@ eleventyComputed:
 ---
 This topic describes how to send a copy of your {{ en.RDM }} configuration file that does not have any credentials included. This may be requested by our support team to try and reproduce an issue.
 
-1. In {{ en.RDM }}, use ***File – Options***.
+1. In {{ en.RDM }}, use ***File – Settings***.
 1. At the bottom of the navigation tree view, press ***Export Options***.
-![File – Options – Export Options](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2331.png)
+![File – Settings – Export Options](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2331.png)
 1. In the ***Configuration file export*** dialog, the following options are disabled by default. Double-check that they really are unchecked.
     * ***Saved templates***
     * ***{{ en.DA }} credentials***

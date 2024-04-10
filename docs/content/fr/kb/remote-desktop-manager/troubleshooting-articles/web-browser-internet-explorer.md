@@ -12,14 +12,14 @@ In embedded mode, you need to enable the ***Hide script error*** in the properti
 ## Problem 2
 Browser extension does not appear in the toolbar but it is installed.
 ### Solution
-This issue occurs when a specific option is unchecked for IE in ***Tools - Internet Options - Advanced***.
+This issue occurs when a specific option is unchecked for IE in ***Tools – Internet Options – Advanced***.
 
 The option is called ***Enable third-party browser extensions*** After enabling this option, IE must be restarted.
 ![!!KB4104](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4104.png)
 ## Problem 3
 Embedded html content is not rendered with the latest Internet Explorer version.
 ### Solution
-By default {{ en.RDM }} does not use the latest IE version (emulation mode). This can be changed in ***File – Options – Type – Web, IE Mode***.
+By default {{ en.RDM }} does not use the latest IE version (emulation mode). This can be changed in ***File – Settings – Type – Web, IE Mode***.
 ## Problem 4
 Accessviolationexception - attempted to read or write protected memory.
 ### Solution
@@ -48,8 +48,8 @@ Please note that some programs that have an extensive library of add-ons (Like M
 ## Problem 6
 Unable to copy from ***Overview***.
 ### Solution
-Enable the option: ***Use embedded Microsoft Edge for overview panel*** in ***File - Options - Advanced - Microsoft Edge***.
+Enable the option: ***Use embedded Microsoft Edge for overview panel*** in ***File – Settings – Advanced – Microsoft Edge***.
 
-Enable the option: ***Enable context menu in Overview*** in ***File - Options - User Interface - Dashboard***.
+Enable the option: ***Enable context menu in Overview*** in ***File – Settings – User Interface – Dashboard***.
 
 Open the ***Internet Properties*** dialogue. Go to ***Security - Custom level***, scroll down to ***Allow Programmatic clipboard access*** and select ***Enable***.

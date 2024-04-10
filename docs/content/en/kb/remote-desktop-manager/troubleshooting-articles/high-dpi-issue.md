@@ -16,7 +16,7 @@ There are multiple problems that can be caused by high DPI in RDP sessions, the 
 ## Solution
 There are multiple methods on how to solve these issues.
 ### Method 1
-1. In {{ en.RDM }}, go to ***File – Options – User Interface*** and change the ***Display scaling*** to ***DPI unaware***.
+1. In {{ en.RDM }}, go to ***File – Settings – User Interface*** and change the ***Display scaling*** to ***DPI unaware***.
 ![Display scaling](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4994.png)
 
 If you cannot see the setting because of display issues, you can add the line in your config files directly.
@@ -40,12 +40,12 @@ When applying this change, you must log off and log back in with your user for c
 {% endsnippet %}
 
 ### Method 3
-In ***File – Options – Types – Remote Desktop – Advanced***, uncheck the ***Disable RDP scale factor (HDPI)*** option.
+In ***File – Settings – Types – Remote Desktop – Advanced***, uncheck the ***Disable RDP scale factor (HDPI)*** option.
 ![Disable RDP scale factor (HDPI)](https://cdnweb.devolutions.net/docs/docs_en_kb_KB6004.png)
 
 ### Method 4
 
-1. In {{ en.RDM }}, go to ***File – Options – Advanced***.
+1. In {{ en.RDM }}, go to ***File – Settings – Advanced***.
 1. Set ***Hardware acceleration*** on ***Default (Automatic)***. Click ***OK***.
 ![Advanced window](https://cdnweb.devolutions.net/docs/docs_en_kb_KB6001.png)
 1. In the ribbon under the ***Help*** tab, click on ***Diagnostic***.
