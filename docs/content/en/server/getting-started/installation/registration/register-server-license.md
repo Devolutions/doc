@@ -7,14 +7,14 @@ eleventyComputed:
 Register your {{ en.DVLS }} license in the {{ en.DVLS }} web interface.
 1. In the {{ en.DVLS }} web interface, go to ***Administration – Licenses***.
 ![Administration – Licenses](https://cdnweb.devolutions.net/docs/DVLS2012_2024_1.png)
-1. Select ***Add***.
-![Add](https://cdnweb.devolutions.net/docs/DVLS2015_2024_1.png)
-1. Enter the license or import the license file, then click ***Add***.
+1. ***Edit*** your current {{ en.DVLS }} license.
+![Edit your license](https://cdnweb.devolutions.net/docs/DVLS2017_2024_1.png)
+1. Enter the new license or import the license file, then click ***Save license***.
    {% snippet icon.badgeInfo %}
    Importing the license using the **.lic** file is most uselful when offline. See the next section about offline registration for more information.
    {% endsnippet %}
 
-   ![Add the license](https://cdnweb.devolutions.net/docs/DVLS2016_2024_1.png)
+   ![Save license](https://cdnweb.devolutions.net/docs/DVLS2018_2024_1.png)
 
 ### Offline registration
 If you need to register your license while offline (if internet is disabled or if for whatever reason you cannot reach the servers), you can only do it by importing the **.lic** file provided to you, which contains a JSON Web Token (JWT).
