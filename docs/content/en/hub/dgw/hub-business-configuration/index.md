@@ -61,17 +61,16 @@ This method only works for Windows.
 1. Click ***Finish*** when the setup is complete.  
 ![Finish button](https://cdnweb.devolutions.net/docs/HUBB0019_2024_1.png)
 1. Go back to the ***Administration*** – ***{{ en.DGW }}*** page in {{ en.DHUBB }}.
-1. Input the correct information.
-![Information fields](https://cdnweb.devolutions.net/docs/docs_en_hub_DGW0036.png)
-![Information fields](https://cdnweb.devolutions.net/docs/docs_en_hub_DGW0041.png)
-1. By checking the ***Default*** box, this {{ en.DGW }} will be the one selected if none are specified or if ***Default*** is chosen when connecting.
-![Default option](https://cdnweb.devolutions.net/docs/docs_en_hub_DGW0037.png)
-1. Make certain the gateway can be reached by clicking ***Test Connection***.
-![Test Connection button](https://cdnweb.devolutions.net/docs/docs_en_hub_DGW0038.png)
-1. Click the ***Add*** button to link your {{ en.DGW }} installation to your {{ en.DHUBB }}.
-![Add button](https://cdnweb.devolutions.net/docs/docs_en_hub_DGW0039.png)
-1. A rectangle will show the information for every {{ en.DGW }} Hub link(s).
-![Successful link](https://cdnweb.devolutions.net/docs/docs_en_hub_DGW0040.png)
+1. Input the correct information.  
+![Information fields](https://cdnweb.devolutions.net/docs/HUBB0020_2024_1.png)
+1. By checking the ***Default*** box, this {{ en.DGW }} will be the one selected if none are specified or if ***Default*** is chosen when connecting.  
+![Default option](https://cdnweb.devolutions.net/docs/HUBB0021_2024_1.png)
+1. Make certain the gateway can be reached by clicking ***Test Connection***.  
+![Test Connection button](https://cdnweb.devolutions.net/docs/HUBB0022_2024_1.png)
+1. Click the ***Add*** button to link your {{ en.DGW }} installation to your {{ en.DHUBB }}.  
+![Add button](https://cdnweb.devolutions.net/docs/HUBB0023_2024_1.png)
+1. A rectangle will show the information for every {{ en.DGW }} Hub link(s).  
+![Successful link](https://cdnweb.devolutions.net/docs/HUBB0024_2024_1.png)
 {% snippet icon.badgeInfo %}
 Visit [{{ en.RDM }} Configuration](/hub/dgw/rdm-configuration/) to learn more about linking {{ en.RDM }} and {{ en.DGW }}.
 {% endsnippet %}
