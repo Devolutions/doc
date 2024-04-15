@@ -28,7 +28,7 @@ As the installer is an MSI file, this method only works on Windows.
 ![{{ en.DGW }}](https://cdnweb.devolutions.net/docs/HUBB0006_2024_1.png)
 1. Click on the ***More*** button in the top right.  
 ![More button](https://cdnweb.devolutions.net/docs/HUBB0007_2024_1.png)
-1. Click on ***Download public key***. This key is unique to the {{ en.DHUBB }} account. It is automatically renamed to *provisioner.pem*. Keep track of where you saved this key, as you will need it later.
+1. Click on ***Download public key***. This key is unique to the {{ en.DHUBB }} account. It is automatically renamed to *provisioner.pem*. Keep track of where you saved this key, as you will need it later.  
 ![Gateway public key](https://cdnweb.devolutions.net/docs/HUBB0009_2024_1.png)
 1. Select ***Download MSI*** from the dropdown.  
 ![Download MSI](https://cdnweb.devolutions.net/docs/HUBB0008_2024_1.png)
@@ -36,15 +36,15 @@ As the installer is an MSI file, this method only works on Windows.
    {% snippet icon.badgeInfo %}
    The installer should be run on the server hosting {{ en.DGW }}.
    {% endsnippet %}
-1. Click ***Next***.
+1. Click ***Next***.  
 ![Setup Wizard](https://cdnweb.devolutions.net/docs/HUBB0010_2024_1.png)
-1. Once the desired installation path is selected, click ***Next***.
+1. Once the desired installation path is selected, click ***Next***.  
 ![Destination Folder](https://cdnweb.devolutions.net/docs/HUBB0011_2024_1.png)
-1. Click ***Next***.
+1. Click ***Next***.  
+![Configure the Gateway installation](https://cdnweb.devolutions.net/docs/HUBB0012_2024_1.png)
    {% snippet icon.badgeInfo %}
    The additional options are for the {{ en.DGW }} Standalone web interface and ngrok integration, both of which are not needed for {{ en.DHUB }}.
    {% endsnippet %}
-![Configure the Gateway installation](https://cdnweb.devolutions.net/docs/HUBB0012_2024_1.png)
 1. Change the ***Ports*** to the desired value and click ***Next***.
 ![Listeners](https://cdnweb.devolutions.net/docs/HUBB0013_2024_1.png)
    {% snippet icon.badgeInfo %}
