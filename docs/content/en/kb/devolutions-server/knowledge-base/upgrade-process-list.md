@@ -4,7 +4,7 @@ eleventyComputed:
 ---
 ## Upgrading an instance of {{ en.DVLS }}
 
-Please visit the [Upgrading {{ en.DVLS }}](/server/installation/upgrade-server/) page for informational steps of the upgrade procedure.
+Please visit the [Upgrading {{ en.DVLS }}](/server/getting-started/installation/upgrade-server/) page for informational steps of the upgrade procedure.
 
 {{ en.DVLS }} upgrades are not overly complicated, but certain steps must be planned carefully.
 
@@ -35,7 +35,7 @@ The following bullet list describe each steps a support technician will follow t
 1. Make sure that no antivirus is currently running or scanning the web application and {{ en.DVLSCONSOLE }} installation folders.
 1. Open the {{ en.DVLSCONSOLE }} and tell the user to upgrade it.
 1. Upgrade the {{ en.DVLS }} instance with the Update button on the {{ en.DVLSCONSOLE }}
-1. [Install Prerequisites](/server/installation/installing-web-server-prerequisites/) for {{ en.DVLS }} if required.
+1. [Install Prerequisites](/server/getting-started/installation/installing-web-server-prerequisites/) for {{ en.DVLS }} if required.
 1. Check if {{ en.DVLS }} is back Online in the {{ en.DVLSCONSOLE }}.
 1. Test web page login directly on the server or from the customer's computer with the Navigate to Website button on the {{ en.DVLSCONSOLE }}
 1. If required, install the latest {{ en.RDM }} version that belongs to the {{ en.DVLS }} version.

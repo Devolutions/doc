@@ -3,7 +3,7 @@ eleventyComputed:
   title: Move the {{ en.DVLS }} website at the default website root
   description: The following guide explains how to move the {{ en.DVLS }} web application on the root and set it as a web site.
 ---
-The following guide explains how to move the {{ en.DVLS }} web application on the root and set it as a web site. We recommend to first have a working {{ en.DVLS }} instance according to this guide for [Creating {{ en.DVLS }} Instance](/server/installation/create-server-instance/) We highly recommend to backup your current working installation before modifying any parameters in IIS Manager.
+The following guide explains how to move the {{ en.DVLS }} web application on the root and set it as a web site. We recommend to first have a working {{ en.DVLS }} instance according to this guide for [Creating {{ en.DVLS }} Instance](/server/getting-started/installation/create-server-instance/) We highly recommend to backup your current working installation before modifying any parameters in IIS Manager.
 
 1. From the {{ en.DVLSCONSOLE }}, uninstall the ***Scheduler*** in the ***Companions*** tab.  
 ![Uninstall the Scheduler](https://cdnweb.devolutions.net/docs/DVLSCONSOLE6000_2024_1)  

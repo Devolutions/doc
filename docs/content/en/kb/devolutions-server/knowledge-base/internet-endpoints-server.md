@@ -38,5 +38,5 @@ We use a "best effort" approach to maintain this list, but it **does not replace
 
 | Description                    | URL                                                                            | Related setting(s) / action |
 | ------------------------------ | ------------------------------------------------------------------------------ | --------------------------- |
-| [{{ en.DVLS }} script installation](/server/installation/installing-web-server-prerequisites/) | https<area>://api.devolutions.net<br>https<area>://iis.net<br>https<area>://dotnet.microsoft.com | {{ en.DVLS }} service installation |
-| {{ en.DVLS }} (instance and scheduler) and {{ en.DGW }} installation | https<area>://devolutions.net<br>https<area>://redirection.devolutions.com | [Create a {{ en.DVLS }} instance](/server/installation/create-server-instance/)<br>[{{ en.DGW }} configuration with {{ en.DVLS }}](/server/dgw/server-configuration/) |
+| [{{ en.DVLS }} script installation](/server/getting-started/installation/installing-web-server-prerequisites/) | https<area>://api.devolutions.net<br>https<area>://iis.net<br>https<area>://dotnet.microsoft.com | {{ en.DVLS }} service installation |
+| {{ en.DVLS }} (instance and scheduler) and {{ en.DGW }} installation | https<area>://devolutions.net<br>https<area>://redirection.devolutions.com | [Create a {{ en.DVLS }} instance](/server/getting-started/installation/create-server-instance/)<br>[{{ en.DGW }} configuration with {{ en.DVLS }}](/server/dgw/server-configuration/) |

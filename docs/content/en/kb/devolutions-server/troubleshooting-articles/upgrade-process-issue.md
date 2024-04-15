@@ -17,7 +17,7 @@ If the {{ en.DVLSCONSOLE }} version is older than the web application version, p
 Then, install again the {{ en.DVLS }} web application over the current installation with the Upgrade Server button in the Actions pane. This will properly install all required files and update the SQL database to the appropriate version.
 
 {% snippet icon.badgeNotice %}
-We strongly recommend following the instructions in [Upgrading {{ en.DVLS }}](/server/installation/upgrade-server/) to perform the upgrade.
+We strongly recommend following the instructions in [Upgrading {{ en.DVLS }}](/server/getting-started/installation/upgrade-server/) to perform the upgrade.
 {% endsnippet %}
 
 {% snippet icon.badgeNotice %}

@@ -16,7 +16,7 @@ Here are the steps to follow:
 
 1. Restore the SQL database.
 1. Install the previous working version of the {{ en.DVLSCONSOLE }}.
-1. Create a new {{ en.DVLS }} instance and connect it to the restored database. Use steps 3 to 6 on the following [page](/server/installation/create-server-instance/).
+1. Create a new {{ en.DVLS }} instance and connect it to the restored database. Use steps 3 to 6 on the following [page](/server/getting-started/installation/create-server-instance/).
 ![!!KB4647](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4647.png)
 1. Select the DPS offline zip file and set the Installation Destination parameters.
 ![!!KB4648](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4648.png)

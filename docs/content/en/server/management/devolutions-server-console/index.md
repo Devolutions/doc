@@ -25,7 +25,7 @@ The {{ en.DVLSCONSOLE }} manages the IIS metabase. It must be started with eleva
 | Option                     | Description                                                                                                        |
 |----------------------------|--------------------------------------------------------------------------------------------------------------------|
 | Refresh                    | Refresh the list of {{ en.DVLS }} instances in the {{ en.DVLSCONSOLE }}.                                           |
-| New                        | [Create a new {{ en.DVLS }} instance](/server/installation/create-server-instance/) or migrate an SQL data source. |
+| New                        | [Create a new {{ en.DVLS }} instance](/server/getting-started/installation/create-server-instance/) or migrate an SQL data source. |
 | Edit                       | Edit the selected {{ en.DVLS }} instance's properties.                                                             |
 | Update                     | Update the selected {{ en.DVLS }} instance.                                                                        |
 | Uninstall                  | Uninstall the selected {{ en.DVLS }} instance.                                                                     |

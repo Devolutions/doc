@@ -30,7 +30,7 @@ When removing a ***Security Provider***, it is important to complete these steps
 ![Close](https://cdnweb.devolutions.net/docs/RDMW0013_2024_1.png)
 
 ## Migrating MSSQL to {{ en.DVLS }}
-This operation assumes that you have [{{ en.DVLSCONSOLE }} installed](https://devolutions.net/server/home/download) on your target {{ en.DVLSCONSOLE }} host. You may migrate an MSSQL data source prior to [fully installing](/server/installation/) an instance of {{ en.DVLS }}.
+This operation assumes that you have [{{ en.DVLSCONSOLE }} installed](https://devolutions.net/server/home/download) on your target {{ en.DVLSCONSOLE }} host. You may migrate an MSSQL data source prior to [fully installing](/server/getting-started/installation/) an instance of {{ en.DVLS }}.
 
 {% snippet icon.badgeCaution %}
 This procedure operates on the existing database, not a copy. To revert this process, you would need to restore from a backup, therefore it’s recommended to make a full backup.
