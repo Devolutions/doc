@@ -148,7 +148,7 @@ An [Azure AD account](https://azure.microsoft.com/) with the appropriate rights 
 1. Click on ***Test Configuration*** to make sure it is correct. You will be prompted by a popup window to enter your login credentials.
 
    {% snippet icon.badgeCaution %}
-   If the popup does not appear, your browser or browser extension may be blocking it. You will need to change your browser and/or extension settings. If this still does not work, deactivating/removing the extension or changing your browser may also solve the problem.
+   If the popup page does not appear, see [Devolutions login page does not open in the browser](/kb/general-knowledge-base/devolutions-login-page-does-not-open-browser/).
    {% endsnippet %}
 
    ![Test Configuration](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub2224.png)

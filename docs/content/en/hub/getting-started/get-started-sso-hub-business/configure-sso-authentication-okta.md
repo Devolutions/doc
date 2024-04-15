@@ -147,8 +147,9 @@ An [Okta account](https://www.okta.com/) with the appropriate rights is required
 **In {{ en.DHUBB }}**
 
 25. Test the configuration in {{ en.DHUB }}. A new window should open to connect you to {{ en.DHUB }} through Okta. You will get a success message when connected.
+
    {% snippet icon.badgeCaution %}
-   If the popup does not appear, your browser or browser extension may be blocking it. You will need to change your browser and/or extension settings. If this still does not work, deactivating/removing the extension or changing your browser may also solve the problem.
+   If the popup page does not appear, see [Devolutions login page does not open in the browser](/kb/general-knowledge-base/devolutions-login-page-does-not-open-browser/).
    {% endsnippet %}
 
 26. Click ***Save*** in the ***Summary*** of your Okta SSO configuration.
