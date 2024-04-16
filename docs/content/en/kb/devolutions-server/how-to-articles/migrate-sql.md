@@ -71,4 +71,4 @@ Once the process is completed, the new {{ en.DVLS }} installation will be immedi
 A {{ en.RDM }} Team license is needed to use {{ en.DVLS }} free.
 {% endsnippet %}
 
-{{ en.DVLS }} offers a free license to use for up to 10 users. Upon first connection to the {{ en.DVLS }} web interface, you are prompted to enter a license. Click on the ***Activate the Free Version*** button to use the free license. Please note you do need an {{ en.RDM }} Team edition subscription.
+{{ en.DVLS }} offers a free license to use for up to 10 users. Upon first connection to the {{ en.DVLS }} web interface, you are prompted to enter a license. Click on the [***Activate the Free Version***](/server/getting-started/installation/create-server-instance/#basic-installation) button to use the free license.
