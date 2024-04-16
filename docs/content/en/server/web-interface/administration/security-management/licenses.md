@@ -1,25 +1,34 @@
 ---
 eleventyComputed:
   title: Licenses
+  description: Managing registration globally for all your users can be done with a license serial stored in Administration – Licenses.
 ---
-Managing registration globally for all your users can be done with a license serial stored in ***Licenses*** section.
-![Licenses](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp8030.png)
+Managing registration globally for all your users can be done with a license serial stored in ***Administration – Licenses***.
+![Adding a license](https://cdnweb.devolutions.net/docs/DVLS2009_2024_1.png)
 
-## Licenses
-![Licenses - General](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp8043.png)
+Here are the different license types that can be added in {{ en.DVLS }}:
+* {{ en.RDM }}
+* {{ en.DLAUNCHER }}
+* {{ en.DGW }} module
+* Privileged access management (PAM) module
+* Third party PAM integrations (CyberArk, Delinea Secret Server, BeyondTrust)
+* Client access license (user CAL)
 
-### General
-| Option                | Description                                                          |
-|-----------------------|----------------------------------------------------------------------|
-| License               | License to be stored.                                                |
-| Auto assign new users | Will automatically assign the license key to every new user account. |
+![Add a license – General](https://cdnweb.devolutions.net/docs/DVLS2020_2024_1.png)
 
-### Assigned To
-![Licenses - Assigned to](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp8052.png)
+## General
+| Option      | Description                                                                                      |
+|-------------|--------------------------------------------------------------------------------------------------|
+| License     | Enter the license to be stored.                                                                  |
+| Import      | Import the license using a **LIC** file.                                                         |
+| Auto assign | Automatically assign the license key to every new user account (not available for PAM licenses). |
+
+## Assigned to
+![Add a license – Assigned to](https://cdnweb.devolutions.net/docs/DVLS2021_2024_1.png)
 
 | Option         | Description                                                          |
 |----------------|----------------------------------------------------------------------|
 | Filter         | Filter the list based on the ***Name*** or ***Description*** column. |
-| Assign All     | Assign the license to all accounts.                                  |
-| Assign Missing | Assign the license to accounts that are not already selected.        |
-| Clear All      | Remove the license for all accounts.                                 |
+| Assign all     | Assign the license to all accounts.                                  |
+| Assign missing | Assign the license to accounts that are not already selected.        |
+| Clear all      | Remove the license from all accounts.                                |
