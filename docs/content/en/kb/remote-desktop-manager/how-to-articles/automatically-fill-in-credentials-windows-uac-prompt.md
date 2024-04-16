@@ -9,10 +9,10 @@ You may require to enter credentials in a Windows user access control (UAC) prom
 ![Copy username](https://cdnweb.devolutions.net/docs/RDMW2035_2024_1.png)
 1. Click in the username field in the RDP session.
 1. Right-click the RDP session tab and select ***Clipboard – Type clipboard***. Doing this pastes the contents of your clipboard into the selected field, which is currently your username.
-![Clipboard – Type clipboard](RDMW2037_2024_1.png)
+![Clipboard – Type clipboard](https://cdnweb.devolutions.net/docs/RDMW2037_2024_1.png)
 1. Right-click on the RDP entry in the {{ en.NPANE }} and this time select ***Copy password***.
-![Copy password](RDMW2036_2024_1.png)
+![Copy password](https://cdnweb.devolutions.net/docs/RDMW2036_2024_1.png)
 1. Click in the password field in the RDP session.
 1. Right-click the RDP session tab and select ***Clipboard – Type clipboard***. Doing this pastes the contents of your clipboard into the selected field, which is currently your password.
-![Clipboard – Type clipboard](RDMW2037_2024_1.png)
+![Clipboard – Type clipboard](https://cdnweb.devolutions.net/docs/RDMW2037_2024_1.png)
 1. Connect to your session.
