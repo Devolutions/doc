@@ -9,9 +9,10 @@ eleventyComputed:
 If you have recently received your serial license keys, please refer to [Getting started](/server/getting-started/).
 
 For more information about any of the features in the deploy wizard, please consult their respective topic under [Server Settings](/server/management/devolutions-server-console/devolutions-server-settings/general/).
+
 {% endsnippet %}
 
-Multiple {{ en.DVLS }} instances can be hosted on the same server. Each instance resides in its own web application within IIS. The following steps are carried out using the {{ en.DVLSCONSOLE }}.
+Multiple {{ en.DVLS }} instances can be hosted on the same server. Each instance resides in its own web application within IIS. The following steps are carried out using the {{ en.DVLSCONSOLE }} and are also valid for the ***free edition*** of {{ en.DVLS }}.
 
 ## First steps
 1. Install {{ en.DVLSCONSOLE }} on the web server. It is available from the [Download](https://server.devolutions.net/home/download) page.
