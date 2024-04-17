@@ -2,6 +2,7 @@
 eleventyComputed:
   title: iOS life cycle policy
   description: "{{ en.RDM }} will support the current version of the iOS operating system (OS) and up to two major versions that directly precede it."
+  status: This policy comes from the Devolutions legal team. Do not edit the content of this policy unless told otherwise by the legal team.
 ---
 {{ en.RDM }} will support the current version of the iOS operating system (OS) and one major version that directly precedes it.
 
