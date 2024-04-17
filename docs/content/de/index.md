@@ -18,7 +18,7 @@ cards:
       - name: Erste Schritte
         url: /de/server/getting-started/
       - name: Installation
-        url: /de/server/installation/
+        url: /de/server/getting-started/installation/
       - name: Privileged Access Management
         url: /de/server/privileged-access-management/
   - name: kb
