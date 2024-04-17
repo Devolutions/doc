@@ -1709,6 +1709,9 @@
               "label": "troubleshootingArticles",
               "items": [
                 {
+                  "url": "/kb/devolutions-gateway/troubleshooting-articles/troubleshooting/"
+                },
+                {
                   "url": "/kb/devolutions-gateway/troubleshooting-articles/install-dgw-method-not-found/"
                 },
                 {
