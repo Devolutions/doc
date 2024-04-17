@@ -1791,9 +1791,6 @@
               "label": "knowledgeBase",
               "items": [
                 {
-                  "url": "/kb/hub-business/knowledge-base/csv-files-import-strategies-format-hub-importer/"
-                },
-                {
                   "url": "/kb/hub-business/knowledge-base/devolutions-password-hub-changes-name-devolutions-hub/"
                 },
                 {
@@ -1804,6 +1801,9 @@
                 },
                 {
                   "url": "/kb/hub-business/knowledge-base/internet-endpoints-access/"
+                },
+                {
+                  "url": "/kb/hub-business/knowledge-base/csv-files-import-strategies-format-hub-importer/"
                 }
               ]
             }
