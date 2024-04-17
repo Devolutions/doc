@@ -1,27 +1,29 @@
 ---
 eleventyComputed:
   title: Deploy in a high-availability or load-balancing environment
+  description: By adhering to these guidelines, you can ensure a robust and secure high-availability or load-balancing deployment.
 ---
+By adhering to these guidelines, you can ensure a robust and secure high-availability or load-balancing deployment.
+
 ![Deploy in a high-availability or load-balancing environment](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4773.png)
 
-## Key points
-* {{ en.DVLS }} instances are not able to discover the public name of the whole infrastructure. It must be provided using a few different strategies.
-* To prevent the use of out-of-date data and thus improve the user experience, it is essential to employ a server affinity strategy due to the heavy reliance on server cache for storing tokens and managing user membership data (such as UserGroups/Roles). While you may select any method for server allocation (such as round-robin or random assignment), maintaining server affinity thereafter is crucial.
-* Our security layer prevents token reuse. Therefore, it validates the client IP address. It is essential that the true origin information be relayed downstream to the {{ en.DVLS }} instance.
-* Our IP allowlisting/blocklisting features also validate the client IP address.
+## Critical considerations
+* **Infrastructure discovery**: {{ en.DVLS }} instances cannot automatically detect the public identifier of the entire infrastructure. It must be manually specified using a few defined strategies.
+* **Server affinity**: To ensure data is current and enhance user experience, a server affinity strategy is critical due to the reliance on server cache for token storage and user membership data (such as UserGroups/Roles) management. Although any server allocation method (such as round-robin or random) can be used initially, maintaining server affinity is imperative thereafter.
+* **Security measures**: Our system prevents token reuse by validating the client IP address, ensuring that the original client information is accurately relayed to the {{ en.DVLS }} instance.
+* **IP allowlisting and blocklisting**: These features also require validation of the client IP address to ensure security and compliance.
 
-## Preparation
-* The [access URI](/kb/devolutions-server/knowledge-base/access-uri/) parameter must be properly set according to the DNS entry to reach the load balancer.
-* Any load balancer technology can be used. The only requirement is that the [X-Forwarded-For header](/kb/devolutions-server/knowledge-base/use-x-forwarded-for/) is added by any proxy/device that intervenes in the communication. As a best practice, the ***X-Forwarded-For*** header must be stripped if received by a client device. It **must** be set by your own network equipment.
-* The presence of the ***X-Forwarded-For*** header must be included in the IIS Logs. Please follow [Add X-Fowarded-For](/kb/devolutions-server/knowledge-base/add-x-forwarded-for-column-iis/).
-* Each node should add its own identity in the HTTP Response headers. This helps see the full workflow, but some more security-conscious organizations strip that header. Since this is a plain string, simply using a basic string that does not divulge the FQDN of the responding server is acceptable for most (e.g., “node1”, “node2”). Please follow [Identify the server answering on a high-availability topology](/kb/devolutions-server/knowledge-base/identify-server-answering/) and add a unique string for each server node.
-* The load balancer must support session persistence (some technologies may use different terminology).
+## Setup instructions
+* **Access URI configuration**: Ensure the [access URI](/kb/devolutions-server/knowledge-base/access-uri/) parameter aligns with the DNS settings for the load balancer.
+* **Load balancer requirements**: Utilize any load balancing technology that can add the [X-Forwarded-For header](/kb/devolutions-server/knowledge-base/use-x-forwarded-for/) via intervening proxies or devices. This header should be stripped if received from a client, and only set by your network equipment.
+* **Logging requirements**: Include the X-Forwarded-For header in IIS logs to ensure accurate tracking of client IP addresses. See instructions for [adding X-Fowarded-For](/kb/devolutions-server/knowledge-base/add-x-forwarded-for-column-iis/).
+* **HTTP response headers**: Each server node should add a unique, non-descriptive identifier to the headers of HTTP responses. This identifier, which could be as generic as "node1" or "node2", serves to track the path of requests across different servers without disclosing sensitive server details like the fully qualified domain name (FQDN). This practice is crucial for not only mapping the request journey but also for maintaining operational security, as it limits the exposure of infrastructure details that could be exploited. Organizations focused on heightened security should consider additional precautions such as using randomized or hashed values as identifiers to further obscure server identities. Please follow [Identify the server answering on a high-availability topology](/kb/devolutions-server/knowledge-base/identify-server-answering/) and add a unique string for each server node.
+* **Session persistence**: Your load balancer should support session persistence to maintain user sessions effectively (some technologies may use different terminology).
 
-## Validation
-* Any email sent by the system contains the public URI (not the name as the server node). You can use the server messaging feature and inspect the received email for the proper URI.
+## Verification process
+* **Email validation**: Verify that any system-generated email contains the correct public URI, rather than the server's name. This can be checked using the {{ en.DVLS }} messaging feature.
 ![Messages](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2377.png)
-* The ***LoginHistory*** table contains the IP Address for the client, not any intervening servers.
-* The ***LoginAttempts*** table lists the IP Address as well, but there are more scenarios:
+* **Login history and attempts**: The ***LoginHistory*** table contains the IP address for the client, not any intervening servers. The ***LoginAttempts*** table also lists the IP address, but there are more scenarios:
     * Login failures (e.g., bad credentials)
     * Blocklisted IPs
     * IPs identified as a TOR exit node
