@@ -7,12 +7,12 @@ Sometimes the support staff will ask for the {{ en.DVLS }} database schema. The 
 ## Steps
 
 1. Select the {{ en.DVLS }} instance in the {{ en.DVLSCONSOLE }} and click on the Edit button.
-   ![!!KB8098](https://cdnweb.devolutions.net/docs/docs_en_kb_KB8098.png)
+   ![!!DVLSCONSOLE4001](https://cdnweb.devolutions.net/docs/DVLSCONSOLE4001_2024_1.png)
 1. Select the Database tab.
 1. Click on the Save Schema button.
-   ![!!KB8095](https://cdnweb.devolutions.net/docs/docs_en_kb_KB8095.png)
+   ![!!DVLSCONSOLE4002](https://cdnweb.devolutions.net/docs/DVLSCONSOLE4003_2024_1.png)
 1. Select the destination folder and set the file name.
 1. Click on Save button.
-   ![!!KB8096](https://cdnweb.devolutions.net/docs/docs_en_kb_KB8096.png)
-   ![!!KB8097](https://cdnweb.devolutions.net/docs/docs_en_kb_KB8097.png)
+   ![!!KB8096](https://cdnweb.devolutions.net/docs/DVLSCONSOLE4004_2024_1.png)
+   ![!!KB8097](https://cdnweb.devolutions.net/docs/DVLSCONSOLE4005_2024_1.png)
 1. Send us the database schema XML file to [service@devolutions.net](mailto:service@devolutions.net).
