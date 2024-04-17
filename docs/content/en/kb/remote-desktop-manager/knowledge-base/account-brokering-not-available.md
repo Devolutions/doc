@@ -1,22 +1,16 @@
 ---
 eleventyComputed:
-  title: Account brokering not available for certain tools
-  description: With Privileged Access Management (PAM) solutions, it is often times undesirable to allow passwords to be viewed under any circumstances.
+  title: Limitations on account brokering for specific tools
+  description: In {{ en.DVLS }}, on permission allows viewing the password, and the other permits the use of the password through {{ en.RDM }}.
   keywords:
   - Privileged Access Management
   - PAM
   - Brokering
 ---
-With Privileged Access Management (PAM) solutions, it is often times undesirable to allow passwords to be viewed under any circumstances. In {{ en.DVLS }} (as with a few partners..) we offer two distinct permissions: one to view the password; another to have {{ en.RDM }} use the password in your name. At Devolutions, we call this Account Brokering, others call this "*for/by proxy*". Our best analogy is that {{ en.RDM }} is the concierge that; rather than loaning you a key to access a room, will instead go open the door for you.  
+Privileged Access Management (PAM) systems often restrict the visibility of passwords for security reasons. In {{ en.DVLS }}, and similar to some of our partners, we implement a dual permission approach: one allows viewing the password, and the other permits the use of the password through {{ en.RDM }} acting on your behalf. We refer to this functionality as account brokering, commonly known as "acting by proxy." Essentially, {{ en.RDM }} acts like a concierge who, instead of giving you a key, directly opens the door for you.
 
-This creates a challenge with {{ en.RDM }} as, since its creation, it has been designed for: 
-* ease-of-use; 
-* utmost flexibility; 
-* and to integrate with now close to 160 different technologies.  
+However, this functionality presents a challenge with {{ en.RDM }}, which was initially designed to prioritize ease-of-use, flexibility, and integration with nearly 160 different technologies. For some of these technologies, restricting password usage proved to be highly complex. The only viable solution to mitigate risk was to disable access to certain technologies entirely. Examples of these include command lines, PowerShell, and various management tools.
 
-For some of these technologies, it was extremely difficult to limit how the password was being used and the only choice to limit exposure was to block the whole technology at the root. Some example entries are: Command Line; PowerShell; Management Tools.  
+While it remains a possibility to enable these technologies in the future, currently, the risk of potential security breaches — especially considering that a malicious user could substitute a secure tool with a self-created, insecure one — is too great to address effectively at this time.
 
-This is not to say that we will not be able to enable them in the future, but at this juncture we did not have a choice. Our Macro system and variables, paired with the risk that malicious users would simply replace a tool with one they would have built themselves, created an attack area much too big to tackle.  
-
-In {{ en.DVLS }}, you can grant the permission to ***View the password*** which will resolve the issue, but if your security posture forbids it, or if you use one of our integrations that does not offer that choice, there is not a workaround at this time. 
-
+In {{ en.DVLS }}, granting permission to view the password can circumvent some issues, but if your security protocols prohibit this or if you utilize an integration that lacks this option, unfortunately, there is no current workaround available.
