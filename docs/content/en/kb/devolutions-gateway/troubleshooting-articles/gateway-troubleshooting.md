@@ -15,7 +15,7 @@ It is possible to check if a particular gateway is alive and healthy.
 ![Health check](https://cdnweb.devolutions.net/docs/DGW0000_2024_1.png)
 
 ## {{ en.DGW }} Logs and Diagnostics
-If you are having trouble with a gateway these solutions can make it easier to find more apparent errors.
+If you are having trouble with a gateway, these solutions can make it easier to find more apparent errors.
 
 1. In the {{ en.DVLS }} web UI, go to ***Administration*** – ***{{ en.DGW }}***.
 1. Click ***More*** on the desired gateway.  
@@ -26,7 +26,7 @@ If you are having trouble with a gateway these solutions can make it easier to f
 1. Click on ***Logs***.  
 ![Logs](https://cdnweb.devolutions.net/docs/DGW0002_2024_1.png)
 1. Observe the logs.  
-![Logs window](https://cdnweb.devolutions.net/docs/DGW0003_2024_1.png)
+![Logs window](https://cdnweb.devolutions.net/docs/DGW0006_2024_1.png)
 
 ### {{ en.DGW }} Diagnostics
 1. Click on Diagnostics.  
