@@ -7,5 +7,5 @@ eleventyComputed:
 It is possible to check if a particular gateway is alive and healthy.
 
 1. Open a web browser.
-1. In the address bar enter `https://<gateway.url>:<external URL>/jet/health`.
+1. In the address bar type `https://<gateway.url>:<external port>/jet/health`.
 1. Press Enter.
