@@ -4,7 +4,7 @@ eleventyComputed:
 ---
 Follow these steps to download and install {{ en.DLAUNCHER }}:
 1. Download [{{ en.DLAUNCHER }}](https://devolutions.net/launcher/download) or search the {{ en.CTOOLS }} in the products section of our [Devolutions](https://devolutions.net/) Devolutions website.
-![!!Hub4000](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub4000.png)
+![!!Hub4000](https://cdnweb.devolutions.net/docs/HUBB6000_2023_3.png)
 2. Launch the executable file.
 3. Click ***Next*** on the welcome page.
 ![!!Hub4001](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub4001.png)
