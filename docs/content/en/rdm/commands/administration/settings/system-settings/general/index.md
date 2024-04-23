@@ -9,7 +9,7 @@ The ***General*** section allows to manage the availability of different feature
 These settings applies to all users that have access to the data source.
 {% endsnippet %}
 
-![System Settings - General](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip10720.png)
+![System Settings - General](https://cdnweb.devolutions.net/docs/RDMW4027_2024_1.png)
 
 | GENERAL                      | DESCRIPTION                                                            |
 |----------------------------- |------------------------------------------------------------------------|
@@ -23,6 +23,8 @@ These settings applies to all users that have access to the data source.
 | Allow favorites                                | Allow users to favorite connections.                       |
 | Allow embedded credential source mode (legacy) | Allow embedded Credential entry in the entry itself. This mode is deprecated and not recommended. Please review other [Credentials options](/rdm/windows/commands/edit/entries/entry-credentials-options/) available.                        |
 | Add entry mode                                | Select if users are prompted to choose a template when creating a new entry. Select between: <ul><li>Default</li><li>Template list (include default)</li><li>Template list only</li> <li>No template selection</li></ul>      |
+| Default vault root label | Choose which label to apply by default to the vault root. Select between: <ul><li>Default</li><li>Data source</li><li>Vault</li></ul>
+| Default vault visibility | Choose who can see vault by default. Select between: <ul><li>Private – Invitation Only</li><li>Public – Allow Access Requests</li></ul>
 
 | COMMENTS              | DESCRIPTION                                                     |
 |-----------------------|-----------------------------------------------------------------|
