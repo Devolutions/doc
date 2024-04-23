@@ -8,13 +8,13 @@ eleventyComputed:
 * ***IT professional***: This profile displays all entry types and options provided the user has the necessary permissions to access them. This profile offers all of what our solutions have to offer, advanced options, and access to all entries and information.
 * ***Business user***: This profile is specifically designed for users who do not require access to view remote connection entries and administrative options. Our interfaces have been streamlined to minimize options that are primarily intended for IT Professionals, allowing business users to focus on their daily tasks without unnecessary complexities.
 
-Users will be assigned the ***Default*** profile, which can be changed in ***Administration – System Settings – General – User Interface Profile***. For administrators, the default profile is ***IT professional***. For users, it is ***Business user***.
+Users will be assigned the ***Default*** profile, which can be changed in ***Administration – System settings – General – User interface profile***. For administrators, the default profile is ***IT professional***. For users, it is ***Business user***.
 
-![Administration – System Settings – General – User Interface Profile](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub2352.png)
+![Administration – System settings – General – User interface profile](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub2352.png)
 
-Users can individually change it in the ***Settings*** section of their account.
+Users can individually change it in the ***Preferences*** section of their account.
 
-![Account – Settings – User interface – User Interface Profile](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub2353.png)
+![Account – Preferences – User interface – User interface profile](https://cdnweb.devolutions.net/docs/HUBB2367_2024_1.png)
 
 ## Detailed overview
 
@@ -30,19 +30,19 @@ This table shows the entry types that can be created depending on your user inte
 Note that this only applies to the creation of new entries and does not affect existing entries.
 {% endsnippet %}
 
-| ENTRY TYPES           | BUSINESS USER                 | IT PROFESSIONAL               |
-|-----------------------|:-----------------------------:|:-----------------------------:|
+| ENTRY TYPES           | BUSINESS USER                                        | IT PROFESSIONAL               |
+|-----------------------|:----------------------------------------------------:|:-----------------------------:|
 | Popular               | {{ icon.badgeNotice | safe }}<br>(without RDP entry) | {{ icon.badgeNotice | safe }} |
-| Information           | {{ icon.badgeNotice | safe }} | {{ icon.badgeNotice | safe }} |
-| Session               |                               | {{ icon.badgeNotice | safe }} |
-| Credential Entry      |                               | {{ icon.badgeNotice | safe }} |
-| Template              | {{ icon.badgeNotice | safe }} | {{ icon.badgeNotice | safe }} |
+| Information           | {{ icon.badgeNotice | safe }}                        | {{ icon.badgeNotice | safe }} |
+| Session               |                                                      | {{ icon.badgeNotice | safe }} |
+| Credential entry      |                                                      | {{ icon.badgeNotice | safe }} |
+| Template              | {{ icon.badgeNotice | safe }}                        | {{ icon.badgeNotice | safe }} |
 
-### {{ en.VLT_MAJ }} Dashboard widgets
+### {{ en.VLT_MAJ }} dashboard widgets
 
-![{{ en.VLT_MAJ }} Dashboard widgets](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub2282.png)
+![{{ en.VLT_MAJ }} dashboard widgets](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub2282.png)
 
-This table shows the different widgets that can be displayed in your ***{{ en.VLT_MAJ }} dashboard*** depending on your user interface profile. Widget visibility can be set to ***Always, Never*** or ***If not empty***.
+This table shows the different widgets that can be displayed in your ***{{ en.VLT_MAJ }} dashboard*** depending on your user interface profile. Widget visibility can be set to ***Always***, ***Never***, or ***If not empty***.
 
 | WIDGETS                              | BUSINESS USER                 | IT PROFESSIONAL               |
 |--------------------------------------|:-----------------------------:|:-----------------------------:|
