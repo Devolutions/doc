@@ -1951,6 +1951,9 @@
               "label": "howToArticles",
               "items": [
                 {
+                  "url": "/kb/devolutions-workspace/how-to-articles/enable-autofill-android/"
+                },
+                {
                   "url": "/kb/devolutions-workspace/how-to-articles/enable-autofill-ios/"
                 },
                 {
