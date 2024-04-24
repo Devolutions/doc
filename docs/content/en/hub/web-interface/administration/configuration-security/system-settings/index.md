@@ -12,7 +12,7 @@ To learn more about SSO, please refer to [Get started with SSO in {{ en.DHUBB }}
 
 ## General
 
-In the ***General*** section of the ***System Settings***, manage settings related to temporary passwords, networking, support tickets, opened sessions, and usage profiles.
+In the ***General*** section of the ***System Settings***, manage settings related to temporary passwords, networking, support tickets, opened sessions, and user interface profiles.
 ![Administration – System Settings – General](https://cdnweb.devolutions.net/docs/HUBB6009_2024_1.png)
 
 | OPTION | DESCRIPTION |
@@ -21,7 +21,7 @@ In the ***General*** section of the ***System Settings***, manage settings relat
 | Block Tor traffic | Blocks Internet traffic coming from the Tor network. |
 | Allow users to submit a support ticket | Enables the option for users to submit a ticket to the support team. |
 | Automatic "Mark as Closed" after X days | Marks opened sessions as closed after a set amount of days. |
-| Usage profile | Select the default usage profile users will be assigned between ***IT professional***, ***Business user***, or the ***Default***. |
+| User interface profiles | Select the default user interface profile users will be assigned between ***IT professional***, ***Business user***, or the ***Default***. |
 
 ## {{ en.VLT_MAJ  }}
 

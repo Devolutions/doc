@@ -18,7 +18,7 @@ Use ***File – Preferences – User Interface*** to configure options related t
 | Hide footer               | When using the **_Ribbon User Interface_**, select this option to hide your footer. |
 | Language                  | Select {{ en.RDMMAC }}'s default application language. |
 | Wait progress mode        | Select how the progress when waiting is displayed. Choose between a **_Status bar_** or a **_Window_**. |
-| Usage profile             | Select the default usage profile users will be assigned between **_IT professional_** and **_Business user_**.|
+| User interface profile    | Select the default user interface profile users will be assigned between **_IT professional_** and **_Business user_**.|
 | Navigation toggle location| Specify the default location of the toolbar (right or left). |
 | Navigation tab location   | Specify the default location of the **_Navigation_** tab (top or bottom of the **_{{ en.NPANE }}_**).|
 | Data source location      | Specify the location of the data source on your screen (top or bottom of the **_{{ en.NPANE }}_**). |

@@ -6,7 +6,7 @@ eleventyComputed:
 ***User interface profiles*** allow users to have a tailored experience in {{ en.DHUB }} and other Devolutions products based on their tasks and roles. There are two different profiles:
 
 * ***IT professional***: This profile displays all entry types and options provided the user has the necessary permissions to access them. This profile offers all of what our solutions have to offer, advanced options, and access to all entries and information.
-* ***Business user***: This profile is specifically designed for users who do not require access to view remote connection entries and administrative options. Our interfaces have been streamlined to minimize options that are primarily intended for IT Professionals, allowing business users to focus on their daily tasks without unnecessary complexities.
+* ***Business user***: This profile is specifically designed for users who do not require access to view remote connection entries and administrative options. Our interfaces have been streamlined to minimize options that are primarily intended for IT professionals, allowing business users to focus on their daily tasks without unnecessary complexities.
 
 Users will be assigned the ***Default*** profile, which can be changed in ***Administration – System settings – General – User interface profile***. For administrators, the default profile is ***IT professional***. For users, it is ***Business user***.
 
@@ -30,13 +30,13 @@ This table shows the entry types that can be created depending on your user inte
 Note that this only applies to the creation of new entries and does not affect existing entries.
 {% endsnippet %}
 
-| ENTRY TYPES           | BUSINESS USER                                        | IT PROFESSIONAL               |
-|-----------------------|:----------------------------------------------------:|:-----------------------------:|
-| Popular               | {{ icon.badgeNotice | safe }}<br>(without RDP entry) | {{ icon.badgeNotice | safe }} |
-| Information           | {{ icon.badgeNotice | safe }}                        | {{ icon.badgeNotice | safe }} |
-| Session               |                                                      | {{ icon.badgeNotice | safe }} |
-| Credential entry      |                                                      | {{ icon.badgeNotice | safe }} |
-| Template              | {{ icon.badgeNotice | safe }}                        | {{ icon.badgeNotice | safe }} |
+| ENTRY TYPES           | BUSINESS USER                                                                  | IT PROFESSIONAL               |
+|-----------------------|:------------------------------------------------------------------------------:|:-----------------------------:|
+| Popular               | {{ icon.badgeNotice | safe }}<br>(except ***RDP (Microsoft Remote Desktop***)) | {{ icon.badgeNotice | safe }} |
+| Information           | {{ icon.badgeNotice | safe }}                                                  | {{ icon.badgeNotice | safe }} |
+| Session               |                                                                                | {{ icon.badgeNotice | safe }} |
+| Credential entry      |                                                                                | {{ icon.badgeNotice | safe }} |
+| Template              | {{ icon.badgeNotice | safe }}                                                  | {{ icon.badgeNotice | safe }} |
 
 ### {{ en.VLT_MAJ }} dashboard widgets
 

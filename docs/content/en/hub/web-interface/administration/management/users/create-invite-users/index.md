@@ -38,7 +38,7 @@ This step will validate if the user has a {{ en.DA }}.
 ![!!Hub4183](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub4183.png)
 
 {% snippet icon.badgeInfo %}
-To set a usage profile for a user, you will need to create and invite them first. Then, in ***Administration – Users***, the option will be available when editing said user.
+To set a user interface profile for a user, you will need to create and invite them first. Then, in ***Administration – Users***, the option will be available when editing said user.
 {% endsnippet %}
 
 1. Click ***Next***.

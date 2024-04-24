@@ -16,19 +16,19 @@ Under ***Settings***, you can choose the [theme](/rdm/mac/user-interface/customi
 
 Next, you can also change the [style of the main header (top menu)](/rdm/mac/user-interface/ribbon/) of your {{ en.RDM }} application. Choose between a ***Ribbon*** view or a ***Classic*** view.
 
-## User Interface Profile
+## User interface profile
 
 {% snippet icon.badgeInfo %}
-Usage profile changes are applied to your account in the current data source. This means that if you change your usage profile in a {{ en.DHUB }} or {{ en.DVLS }} data source in {{ en.RDM }}, the change will also be made in the web interface of that data source, and vice versa.
+User interface profile changes are applied to your account in the current data source. This means that if you change your user interface profile in a {{ en.DHUB }} or {{ en.DVLS }} data source in {{ en.RDM }}, the change will also be made in the web interface of that data source, and vice versa.
 {% endsnippet %}
 
-***Usage profiles*** allow users to have a tailored experience in {{ en.RDM }} and other Devolutions products based on their tasks and roles.
+***User interface profiles*** allow users to have a tailored experience in {{ en.RDM }} and other Devolutions products based on their tasks and roles.
 
 * ***IT professional***: A comprehensive interface with full-fledged capabilities and all remote connection features.
 * ***Business user***: A streamlined interface for managing sensitive information, such as passwords.
 
 {% snippet icon.badgeHelp %}
-For a more detailed overview of the profiles, see [Usage profiles](/rdm/mac/user-interface/customization/usage-profiles/).
+For a more detailed overview of the profiles, see [User interface profiles](/rdm/mac/user-interface/customization/usage-profiles/).
 {% endsnippet %}
 
-The profile can also be selected during the {{ en.RDM }} Onboarding process. If none is chosen or if the user decides to choose one later, they will be assigned the ***Default*** profile, which can be changed in ***File – Preferences – User Interface – Usage profile*** or in the web interface.
+The profile can also be selected during the {{ en.RDM }} Onboarding process. If none is chosen or if the user decides to choose one later, they will be assigned the ***Default*** profile, which can be changed in ***File – Preferences – User Interface – User interface profile*** or in the web interface.

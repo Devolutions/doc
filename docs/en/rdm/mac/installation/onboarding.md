@@ -50,17 +50,17 @@ If you decide to import entries, you must first have exported and saved a file i
 You can always import files later.
 {% endsnippet %}
 
-## Step 3: User Interface Profile
+## Step 3: User interface profile
 
-![User Interface Profile](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_RDMMac2090.png)
+![User interface profile](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_RDMMac2090.png)
 
-Usage profiles allow users to have a tailored experience in {{ en.RDM }} based on their tasks and roles. Select the user interface profile that best matches your needs:
+User interface profiles allow users to have a tailored experience in {{ en.RDM }} based on their tasks and roles. Select the user interface profile that best matches your needs:
 * ***IT professional***: This profile displays all entry types and options provided the user has the necessary permissions to access them. This profile offers all of what our solutions have to offer, advanced options, and access to all entries and information.
-* ***Business user***: This profile is specifically designed for users who do not require access to view remote connection entries, administrative options, or advanced properties. Our interfaces have been streamlined to minimize options that are primarily intended for IT Professionals, allowing business users to focus on their daily tasks without unnecessary complexities.
+* ***Business user***: This profile is specifically designed for users who do not require access to view remote connection entries, administrative options, or advanced properties. Our interfaces have been streamlined to minimize options that are primarily intended for IT professionals, allowing business users to focus on their daily tasks without unnecessary complexities.
 * ***Choose later***: You can set a profile later in the [***Account***](/rdm/mac/user-interface/navigation-pane/account/) tab of the ***{{ en.NPANE }}***. In the meantime, you will be assigned the default profile.
 
 {% snippet icon.badgeInfo %}
-For a detailed overview of both profiles, see [Usage profiles](/rdm/mac/user-interface/customization/usage-profiles/).
+For a detailed overview of both profiles, see [User interface profiles](/rdm/mac/user-interface/customization/usage-profiles/).
 {% endsnippet %}
 
 ## Step 4: UI Options

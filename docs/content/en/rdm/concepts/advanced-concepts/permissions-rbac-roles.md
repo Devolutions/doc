@@ -13,4 +13,4 @@ Permissions allow granular control over who can view, modify, or delete data or 
 
 ### See also  
 * [Easily elevate permissions with Remote Desktop Manager's temporary access feature](https://youtu.be/En3pmonz1f8?si=YSYgYaFINdUMBoLR)
-* [Privileged Access Management by Devolutions - Simple PAM for IT Professionals and SMBs](https://youtu.be/drRLA7U8YsQ?si=3F1LRRSxODVHO65O)
+* [Privileged Access Management by Devolutions - Simple PAM for IT professionals and SMBs](https://youtu.be/drRLA7U8YsQ?si=3F1LRRSxODVHO65O)
