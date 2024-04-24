@@ -10,6 +10,7 @@ When you finish the installation of {{ en.DLAUNCHER }}, you are prompted to choo
 {% endsnippet %}
 
 1. Click ***{{ en.DVLS }}***.
+1. Click ***Add***.
 ![Click {{ en.DVLS }}](https://cdnweb.devolutions.net/docs/DVLS6001_2023_3.png)
 1. In the ***Host*** field enter the {{ en.DVLS }} web address and fill in your credentials.
 ![Enter the {{ en.DVLS }} web address and fill in your credentials](https://cdnweb.devolutions.net/docs/DVLS6002_2023_3.png)
