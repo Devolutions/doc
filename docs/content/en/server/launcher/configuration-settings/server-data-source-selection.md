@@ -1,6 +1,7 @@
 ---
 eleventyComputed:
   title: "{{ en.DVLS }} data source selection"
+  description: When you finish the installation of {{ en.DLAUNCHER }}, you are prompted to choose a web source between {{ en.DHUB }} and {{ en.DVLS }}.
   order: 10
 ---
 When you finish the installation of {{ en.DLAUNCHER }}, you are prompted to choose a web source between {{ en.DHUB }} and {{ en.DVLS }}.
@@ -9,9 +10,9 @@ When you finish the installation of {{ en.DLAUNCHER }}, you are prompted to choo
 {% endsnippet %}
 
 1. Click ***{{ en.DVLS }}***.
-![!!ServerOp4041](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp4041.png)
+![Click {{ en.DVLS }}](https://cdnweb.devolutions.net/docs/DVLS6001_2023_3.png)
 1. In the ***Host*** field enter the {{ en.DVLS }} web address and fill in your credentials.
-![!!ServerOp4042](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp4042.png)
+![Enter the {{ en.DVLS }} web address and fill in your credentials](https://cdnweb.devolutions.net/docs/DVLS6002_2023_3.png)
 1. Click ***OK*** to save.
 
 You can close the ***Data Sources*** window, you are now connected to your {{ en.DVLS }} with {{ en.DLAUNCHER }}.
