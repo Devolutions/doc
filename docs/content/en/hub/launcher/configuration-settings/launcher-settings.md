@@ -4,7 +4,6 @@ eleventyComputed:
   description: In the General section, you can personalize the color Theme and Language of {{ en.DLAUNCHER }}.
   order: 20
 ---
-
 Here are listed all the settings available in the menus of {{ en.DLAUNCHER }}. 
 
 ### Files
