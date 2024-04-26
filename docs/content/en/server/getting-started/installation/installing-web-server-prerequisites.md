@@ -8,11 +8,23 @@ eleventyComputed:
 ---
 The installation of {{ en.DVLS }} is supported by Windows Server 2016, 2019, and 2022.
 
-As a web application, {{ en.DVLS }} requires the IIS Manager, the [URL Rewrite Module](https://api.devolutions.net/redirection/3cb42413-5dfd-4b1b-bd20-4e5968274ed0), the [Application Request Routing](https://api.devolutions.net/redirection/52ba9ac0-fb5f-44c1-9521-972caf763b1a), [Microsoft .NET 8.0](https://dotnet.microsoft.com/en-us/download/dotnet/8.0) hosting bundle, and specific web server roles on the machine on which it will be hosted. These prerequisites can be installed from the {{ en.DVLSCONSOLE }} or trought an existing PowerShell script provided with the {{ en.DVLSCONSOLE }}.
+As a web application, {{ en.DVLS }} requires the following:
+* IIS Manager
+* [URL Rewrite module](https://api.devolutions.net/redirection/3cb42413-5dfd-4b1b-bd20-4e5968274ed0)
+* [Application Request Routing](https://api.devolutions.net/redirection/52ba9ac0-fb5f-44c1-9521-972caf763b1a)
+* [Microsoft .NET 8.0](https://dotnet.microsoft.com/en-us/download/dotnet/8.0) hosting bundle
+* specific web server roles on the host machine
 
-Installing prerequisites from [{{ en.DVLSCONSOLE }}](/server/management/devolutions-server-console/) or from the PowerShell script require internet access to download the [URL Rewrite Module](https://api.devolutions.net/redirection/3cb42413-5dfd-4b1b-bd20-4e5968274ed0), the [Application Request Routing](https://api.devolutions.net/redirection/52ba9ac0-fb5f-44c1-9521-972caf763b1a) and [Microsoft .NET 8.0](https://dotnet.microsoft.com/en-us/download/dotnet/8.0) hosting bundle.
+These prerequisites can be installed from the {{ en.DVLSCONSOLE }} or trought an existing PowerShell script provided with the {{ en.DVLSCONSOLE }}.
 
-![Web Roles needed for {{ en.DVLS }}](https://cdnweb.devolutions.net/docs/docs_en_server_clip10313.png)
+Installing prerequisites from [{{ en.DVLSCONSOLE }}](/server/management/devolutions-server-console/) or from the PowerShell script requires internet access to download the following:
+* [URL Rewrite module](https://api.devolutions.net/redirection/3cb42413-5dfd-4b1b-bd20-4e5968274ed0)
+* [Application Request Routing](https://api.devolutions.net/redirection/52ba9ac0-fb5f-44c1-9521-972caf763b1a)
+* [Microsoft .NET 8.0](https://dotnet.microsoft.com/en-us/download/dotnet/8.0) hosting bundle
+* [ASP.NET Core Runtime Desktop 8.0](https://redirection.devolutions.com/asp-runtime-desktop-8.0.4)
+* [Microsoft Edge WebView2](https://developer.microsoft.com/en-us/microsoft-edge/webview2/consumer/)
+
+![Web server roles needed for {{ en.DVLS }}](https://cdnweb.devolutions.net/docs/INTERFACE2033.png)
 
 ## PowerShell method
 1. Run Windows PowerShell with elevated privileges.
