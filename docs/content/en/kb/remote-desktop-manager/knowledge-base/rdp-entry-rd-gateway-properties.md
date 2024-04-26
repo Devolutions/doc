@@ -3,12 +3,11 @@ eleventyComputed:
   title: RDP entry RD gateway properties
   description: RDP entry programs properties can be configured when creating or editing the RDP entry.
 ---
-
 {% snippet icon.badgeInfo %}
 The following properties can be configured when creating or editing the RDP entry. Most of the general properties require you to close the RDP entry completely, then reopen it to take effect.
 {% endsnippet %}  
 
-![RDP entry RD Gateway properties](https://webdevolutions.blob.core.windows.net/docs/docs_en_kb_KB6221.png)
+![RDP entry RD Gateway properties](https://webdevolutions.azureedge.net/docs/RDMW6007.png)
 
 ### RD Gateway server settings
 
@@ -22,17 +21,17 @@ The following properties can be configured when creating or editing the RDP entr
 
 | SETTINGS                             | DESCRIPTION |
 |------------------------------------|-------------|
-| ***Ask for password (NTLM)***            | Utilizes NTLM protocol for authentication, requiring a password.|
-| ***Smart card***                         | Employs smart card technology for secure authentication. |
+| ***Ask for password (NTLM)***            | Utilize NTLM protocol for authentication, requiring a password.|
+| ***Smart card***                         | Employ smart card technology for secure authentication. |
 | ***Allow me to select later***           | Select authentication method later.|
-| ***Use a gateway access token***         | Relies on a gateway access token for authentication, bypassing traditional methods. |
+| ***Use a gateway access token***         | Rely on a gateway access token for authentication, bypassing traditional methods. |
 
 ### Additional options 
 
 | SETTINGS                                     | DESCRIPTION |
 |--------------------------------------------|-------------|
 | ***Gateway access token***                       | A secure method for authentication using a predefined token. |
-| ***Open gateway only when unable to ping host*** | Activates the RD Gateway only if the host cannot be reached directly. |
-| ***Bypass RD Gateway server for local addresses***| Excludes the use of RD Gateway for connections to addresses within the same network.|
-| ***Use same RD Gateway credentials as remote computer*** | Excludes the use of RD Gateway for connections to addresses within the same network. |
-| ***Credentials***                                | Refers to authentication details required for access, typically a username and password. |
+| ***Open gateway only when unable to ping host*** | Activate the RD Gateway only if the host cannot be reached directly. |
+| ***Bypass RD Gateway server for local addresses***| Exclude the use of RD Gateway for connections to addresses within the same network.|
+| ***Use same RD Gateway credentials as remote computer*** | Exclude the use of RD Gateway for connections to addresses within the same network. |
+| ***Credentials***                                | Refer to authentication details required for access, typically a username and password. |

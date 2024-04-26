@@ -7,7 +7,7 @@ eleventyComputed:
 The following properties can be configured when creating or editing the RDP entry. Most of the general properties require you to close the RDP entry completely, then reopen it to take effect.
 {% endsnippet %}  
 
-![Local resources properties](https://webdevolutions.blob.core.windows.net/docs/docs_en_kb_KB6214.png)
+![Local resources properties](https://webdevolutions.azureedge.net/docs/RDMW6005.png)
 
 ## Remote Computer Sound
 
@@ -17,9 +17,9 @@ Configure how sound from the remote system is played back. This can be either on
 
 | SETTINGS      | Description   |                                             
 |-------------------------------|---------------|
-| ***Bring to this computer***        | Redirects all audio from the remote computer to play on the local computer.         |
-| ***Do not play***                   | Disables audio playback entirely during the RDP session. No sound will be played on either the local or remote system.    |
-| ***Leave at remote computer***      | Keeps all audio playback on the remote computer, without redirecting it to the local system.                               |
+| ***Bring to this computer***        | Redirect all audio from the remote computer to play on the local computer.         |
+| ***Do not play***                   | Disable audio playback entirely during the RDP session. No sound will be played on either the local or remote system.    |
+| ***Leave at remote computer***      | Keep all audio playback on the remote computer, without redirecting it to the local system.                               |
 | ***Default (Bring to this computer)*** | The default setting, which redirects all audio from the remote computer to the local computer.                       |
 
 ### Audio quality mode
@@ -27,8 +27,8 @@ Configure how sound from the remote system is played back. This can be either on
 | SETTINGS | DESCRIPTION                                                                                          |
 |--------------------|------------------------------------------------------------------------------------------------------|
 | ***Dynamic***            | Automatically adjusts the audio quality based on the current network conditions to optimize performance          |
-| ***High***               | Provides the highest audio quality, using more bandwidth. Suitable for high-speed network connections          |
-| ***Medium***             | Offers a balance between audio quality and bandwidth usage, designed for average network conditions           |
+| ***High***               | Provide the highest audio quality, using more bandwidth. Suitable for high-speed network connections          |
+| ***Medium***             | Offer a balance between audio quality and bandwidth usage, designed for average network conditions           |
 | ***Default (Dynamic)***  | The default setting, which dynamically adjusts audio quality based on network conditions to ensure the best possible performance. |
 
 ### Remote audio recording
@@ -37,8 +37,8 @@ Allow or restrict the redirection of audio input from the local computer microph
 
 | SETTINGS | DESCRIPTION    |
 |---------------------------|--------------------------|
-| Do not record             | Disables audio recording from the local computer's microphone during the RDP session. No audio input from the local machine will be captured or transmitted to the remote system. |
-| Record from this computer | Enables audio recording from the local computer's microphone, allowing the audio input to be redirected and used in the remote session. This is useful for applications or services on the remote desktop that require audio input from the user.  |
+| Do not record             | Disable audio recording from the local computer's microphone during the RDP session. No audio input from the local machine will be captured or transmitted to the remote system. |
+| Record from this computer | Enable audio recording from the local computer's microphone, allowing the audio input to be redirected and used in the remote session. This is useful for applications or services on the remote desktop that require audio input from the user.  |
 
 ## Keyboard 
 
@@ -74,4 +74,4 @@ Use RemoteFX USB redirection to redirect specific USB devices from the local com
 | SETTINGS                        | DESCRIPTION |
 |---------------------------------|-------------|
 | ***Goodix USB2.0***                  | A device supported for redirection in RemoteFX, typically used for fingerprint sensors and other biometric devices.   |
-| ***MISC USB DFU***                   | Stands for Miscellaneous USB Device Firmware Upgrade, supported for redirection in RemoteFX for devices that require firmware updates or use DFU protocol for operations. |
+| ***MISC USB DFU***                   | Stand for Miscellaneous USB Device Firmware Upgrade, supported for redirection in RemoteFX for devices that require firmware updates or use DFU protocol for operations. |
