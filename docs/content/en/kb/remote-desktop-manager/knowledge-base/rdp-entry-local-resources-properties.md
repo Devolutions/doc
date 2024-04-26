@@ -65,7 +65,7 @@ Choose which peripherals and data sources on your local computer can be redirect
 
 | SETTINGS                      | DESCRIPTION |
 |-------------------------------|-------------|
-| Select the devices and the resources you want to use in your remote session | Choose from a variety of local devices and resources to be redirected and used within the remote session such as ***printers***, ***ports***, ***clipboard***, etc. |
+| ***Select the devices and the resources you want to use in your remote session*** | Choose from a variety of local devices and resources to be redirected and used within the remote session such as ***printers***, ***ports***, ***clipboard***, etc. |
 
 ### Other supported RemoteFX USB devices
 
