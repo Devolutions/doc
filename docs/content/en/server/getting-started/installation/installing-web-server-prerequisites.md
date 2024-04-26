@@ -1,6 +1,7 @@
 ---
 eleventyComputed:
   title: Installing web server prerequisites
+  description: The installation of {{ en.DVLS }} is supported by Windows Server 2016, 2019, and 2022.
   order: 40
   status: Topic available in German language
   keywords:
@@ -13,7 +14,7 @@ As a web application, {{ en.DVLS }} requires the following:
 * [URL Rewrite module](https://api.devolutions.net/redirection/3cb42413-5dfd-4b1b-bd20-4e5968274ed0)
 * [Application Request Routing](https://api.devolutions.net/redirection/52ba9ac0-fb5f-44c1-9521-972caf763b1a)
 * [Microsoft .NET 8.0](https://dotnet.microsoft.com/en-us/download/dotnet/8.0) hosting bundle
-* specific web server roles on the host machine
+* Specific web server roles on the host machine
 
 These prerequisites can be installed from the {{ en.DVLSCONSOLE }} or trought an existing PowerShell script provided with the {{ en.DVLSCONSOLE }}.
 
@@ -21,8 +22,8 @@ Installing prerequisites from [{{ en.DVLSCONSOLE }}](/server/management/devoluti
 * [URL Rewrite module](https://api.devolutions.net/redirection/3cb42413-5dfd-4b1b-bd20-4e5968274ed0)
 * [Application Request Routing](https://api.devolutions.net/redirection/52ba9ac0-fb5f-44c1-9521-972caf763b1a)
 * [Microsoft .NET 8.0](https://dotnet.microsoft.com/en-us/download/dotnet/8.0) hosting bundle
-* [ASP.NET Core Runtime Desktop 8.0](https://redirection.devolutions.com/asp-runtime-desktop-8.0.4)
-* [Microsoft Edge WebView2](https://developer.microsoft.com/en-us/microsoft-edge/webview2/consumer/)
+* [ASP.NET Core Runtime Desktop 8.0](https://redirection.devolutions.com/asp-runtime-desktop-8.0.4) ({{ en.DVLSCONSOLE }})
+* [Microsoft Edge WebView2](https://developer.microsoft.com/en-us/microsoft-edge/webview2/consumer/) ({{ en.DVLSCONSOLE }})
 
 ![Web server roles needed for {{ en.DVLS }}](https://cdnweb.devolutions.net/docs/INTERFACE2033.png)
 
