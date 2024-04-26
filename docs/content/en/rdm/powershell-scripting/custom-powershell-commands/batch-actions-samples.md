@@ -1,6 +1,7 @@
 ---
 eleventyComputed:
   title: Batch actions samples
+  description: The Batch Actions allow for a quick way to modify multiple sessions at once, but within {{ en.RDM }} itself.  
 ---
 The ***Batch Actions*** allow for a quick way to modify multiple sessions at once, but within {{ en.RDM }} itself.  
 
@@ -206,3 +207,10 @@ $RDM.Save();
 $connection.KeyboardHook = "OnTheRemoteComputer";
 $RDM.Save();
 ```
+
+### Set credential property to Prompt on connection and bind it to a folder.
+```powershell
+$connection.CredentialConnectionGroup = "YourFolderPath\Credentials"
+$connection.CredentialConnectionID = "00000000-0000-0000-0000-000000000000"
+$connection.CredentialConnectionSavedPath = "--- Prompt on connection ---"
+$RDM.Save()```
