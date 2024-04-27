@@ -33,12 +33,12 @@ Despite sharing the same underlying architecture, slight differences exist betwe
 1. Click ***New message***.
 ![New message](https://cdnweb.devolutions.net/docs/DVLS0002_2024_1.png)
 1. Select one of the three available options:
-    * [Send In-app](#send-in-app)
+    * [Send in-app](#send-in-app)
     * [Send by Email](#send-by-email)
     * [Create Shareable Link](#create-shareable-link)
 
-### Send In-app
-![Send In-app](https://cdnweb.devolutions.net/docs/DVLS0009_2024_1.png)
+### Send in-app
+![Send in-app](https://cdnweb.devolutions.net/docs/DVLS0009_2024_1.png)
 This feature is covered in [***Secure messages***](/server/web-interface/messages/).
 
 ### Send by Email
