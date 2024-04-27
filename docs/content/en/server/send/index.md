@@ -38,7 +38,7 @@ Despite sharing the same underlying architecture, slight differences exist betwe
     * [Create Shareable Link](#create-shareable-link)
 
 ### Send In-app
-![Send In-app](https://cdnweb.devolutions.net/docs/)
+![Send In-app](https://cdnweb.devolutions.net/docs/DVLS0009_2024_1.png)
 This feature is covered in [***Secure messages***](/server/web-interface/messages/).
 
 ### Send by Email
@@ -63,10 +63,10 @@ This feature is covered in [***Secure messages***](/server/web-interface/message
 ![Copy to Clipboard](https://cdnweb.devolutions.net/docs/DVLS0007_2024_1.png)
 
 ## Send Copy of a password
-It is also possible to send a password directly to another user in-app or outside of {{ en.DVLS }} by using {{ en.DSEND }}. The user needs to have somethingsomethingsSOMETHINGsomethingSOMETHINGsomething on that entry to send it.
-![Send Copy](https://cdnweb.devolutions.net/docs/)
+It is also possible to send a password directly to another user in-app or outside of {{ en.DVLS }} by using {{ en.DSEND }}. The user needs to have [view permission](/server/web-interface/user-groups-based-security/permissions/) on that entry to send it.
+![Send Copy](https://cdnweb.devolutions.net/docs/DVLS0008_2024_1.png)
 
 The main difference with this option is that the password is automatically added and hidden as the message. The password can only be edited if the text is revealed (by clicking the eye icon).
-![Editable only when revealed](https://cdnweb.devolutions.net/docs/)
+![Editable only when revealed](https://cdnweb.devolutions.net/docs/DVLS0010_2024_1.png)
 
 To learn more about the ***Secure message*** features, please refer to the above section on [How to use {{ en.DSEND }} with {{ en.DVLS }}](#how-to-use-devolutions-send-with-devolutions-server).
