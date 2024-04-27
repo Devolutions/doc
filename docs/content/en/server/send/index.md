@@ -29,7 +29,7 @@ Despite sharing the same underlying architecture, slight differences exist betwe
 ## How to use {{ en.DSEND }} with {{ en.DVLS }}
 1. Open the {{ en.DVLS }} web page.
 1. Click on ***Messages*** next to the user's avatar.
-![Messages](https://cdnweb.devolutions.net/docs/DVLS0001_2024_1.png)
+![Messages](https://cdnweb.devolutions.net/docs/DVLS0011_2024_1.png)
 1. Click ***New message***.
 ![New message](https://cdnweb.devolutions.net/docs/DVLS0002_2024_1.png)
 1. Select one of the three available options:
