@@ -3,13 +3,17 @@ eleventyComputed:
   title: Licenses
   description: Managing {{ en.RDM }} registration globally for all your users can be done with a license serial stored in an advanced data source.
 ---
-Managing {{ en.RDM }} registration globally for all your users can be done with a license serial stored in an advanced data source: {{ en.DVLS }}, {{ en.DHUBB }}, Microsoft SQL Server, and Azure SQL.
+Managing {{ en.RDM }} registration globally for all your users can be done with a license serial stored in an advanced data source (small teams and enterprises): {{ en.DVLS }}, {{ en.DHUBB }}, CyberArk, Microsoft Azure SQL, and Microsoft SQL Server.
+
+The ***Licenses*** menu is available for all data source types (granted you have access to the ***Administration*** section) but behaves differently:
+* For {{ en.DVLS }}, {{ en.DHUBB }}, and {{ en.DHUBP }}, the menu brings up the web page of the corresponding data source. You could be prompted to connect to your account on the web.
+* For all other data source types, the menu opens in {{ en.RDM }}.
+
+With the license stored in an [advanced data source](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/), there is no need to register {{ en.RDM }} as the license serial is retrieved directly from it. When launching the application for the first time, add the data source containing the serial.
 
 {% snippet icon.badgeInfo %}
 It is possible to [request a trial](/rdm/windows/installation/client/registration/trial-request/) to try {{ en.RDM }} for 30 days. If you decide not to register the application at the end of the 30 days period, your data will not be altered or erased, and you will have full access to it once you provide a valid license serial.
 {% endsnippet %}
-
-With the license stored in an [Advanced Data Source](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/), there is no need to register {{ en.RDM }} as the license serial is retrieved directly from it. When launching the application for the first time, add the data source containing the serial.
 
 1. To add a license serial, navigate to ***Administration – Licenses***.
 ![Administration – Licenses](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip3417.png)
