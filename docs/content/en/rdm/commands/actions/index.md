@@ -5,24 +5,27 @@ eleventyComputed:
 ---
 The ***Actions*** tab is only available when a session is open. Available actions differ depending on the action.
 
-For our example we are running an RDP session. The ribbon will display the following tab when the session runs with the ***Embedded (tabbed)*** display mode.
-![Ribbon - Actions](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip11288.png)
+For our example we are running an RDP session. The ribbon will display the following tab when the session runs with the ***embedded (tabbed)*** display mode.
+![Ribbon - Actions](https://cdnweb.devolutions.net/docs/RDMW6001_2023_3.png)
 
 ### Connection
 
 | Option    | Description                                                                                                      |
 |-----------|------------------------------------------------------------------------------------------------------------------|
-| Reconnect | Quickly close the session and then re-open it automatically. Use it to update the resolution of your embedded RDP connections when you resize the window. |
+| Reconnect | Quickly close the session and then re-open it automatically using the resolved credentials. Use it to update the resolution of your embedded RDP connections when you resize the window. Note that passwords may change periodically (for instance, due to Secret Server password rotation). To fully resolve the credentials during reconnection, press <kbd>Ctrl</kbd>+ ***Reconnect All***. Alternatively, you can right-click on the entry and select <kbd>Ctrl</kbd>+ ***Reconnect*** to achieve the same outcome.     |
 | Close     | Close the active session.                                                                                        |
-| LogOff    | Log off the RDP session.                                                                                         |
-
+| Log Off    | Log off the RDP session.                                                                                         |
+| Force Log Off    |Force log off the RDP session.                                                                                         |
+| Reconnect All   | Reconnect all sessions using the resolved credentials. Note that passwords may change periodically (for instance, due to Secret Server password rotation). To fully resolve the credentials during reconnection, press <kbd>Ctrl</kbd>+ ***Reconnect All***. Alternatively, you can right-click on the entry and select <kbd>Ctrl</kbd>+ ***Reconnect*** to achieve the same outcome.                                                                              |
+| Close All   |  Close all the opened tabs.                                                                                      |
+| Close All Other Tabs  | Close all other opened tabs.                                                                                       |
+| Hide   | Hide the selected tab.                                                                                       |
 
 ### Actions
 
 | Option        | Description                                                                                                     |
 | ------------- | --------------------------------------------------------------------------------------------------------------- |
-| Execute       | Execute the selected macro or script in the previous window or in the current tab. This is only available when there is something to Execute. |
-| Macro/Script  | Display a window where you can select a macro or script, as well as the execution options.                      |
+| Execute Macro/Script       | Display a window where you can select a macro or script, as well as the execution options. |
 | Type Clipboard| Send the content of the clipboard over to the opened session.                                                   |
 
 
@@ -31,7 +34,6 @@ For our example we are running an RDP session. The ribbon will display the follo
 | Option           | Description                                                                                 |
 | -----------------|-------------------------------------------------------------------------------------------- |
 | Undock           | Undock your embedded session and move it anywhere outside {{ en.RDM }} or even on another monitor. |
-| Embedded         | Re-embed your session when your session is undocked. This option will only appear if your session is not already in an embedded mode. |
 | Full Screen      | Display your session in full screen outside {{ en.RDM }}.                                   |
 | Work Area Screen | Open the connection in full screen and have access to your local taskbar.                   |
 
@@ -71,5 +73,5 @@ Session add-ons may add custom command in this section, they will not be documen
 |--------|----------------------------------------------------------------------------------|
 | Record | Record your screen in an MP4 format. We recommend the use of a VLC player to view the recorded video. |
 
-Alternatively, these actions are also available by right-clicking on the tab of an embedded session.
+These actions are also available by right-clicking on the tab of an embedded session.
 ![Actions Context Menu of an Embedded Session](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip10184.png)
