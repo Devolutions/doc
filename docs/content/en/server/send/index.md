@@ -2,7 +2,7 @@
 eleventyComputed:
   title: "{{ en.DSEND }}"
   description: "{{ en.DSEND }} features a secure method to generate a link to share secrets instead of using insecure email to send sensitive data."
-  order: 65
+  order: 75
 ---
 Send a password through in-app secure messaging or email external contacts directly from an entry. Create a shareable link to send secrets outside your organization securely.
 
