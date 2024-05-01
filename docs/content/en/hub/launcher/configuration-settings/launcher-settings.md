@@ -18,14 +18,13 @@ Here are listed all the settings available in the menus of {{ en.DLAUNCHER }}.
 ### View
 
 | SETTINGS   | DESCRIPTION |
-|--------|-------------|
-| Display the {{ en.VLT }} or the {{ en.UVLT }}. |
+|------------|-------------|
+| **{{ en.VLT_MAJ }}**     | Display the {{ en.VLT }}.                                                                                                   |
+| **{{ en.UVLT_MAJ }}**     | Display the {{ en.UVLT }}.  
 
 ### Window
 
-| SETTINGS | DESCRIPTION |
-|--------|-------------|
-| Select how you want the window to be displayed. |
+Select how you want the window to be displayed.
 
 ### Help
 
