@@ -28,9 +28,9 @@ The following properties can be configured when creating or editing the RDP entr
 | ***Desktop composition***                  | Allow the use of Windows Aero features such as transparency and other visual effects.                  |
 | ***Show window contents while dragging***  | Display the contents of windows as they are moved or resized, rather than just an outline.             |
 | ***Menu and window animation***            | Enable animations when opening or closing windows and accessing menus.                                 |
-| ***Visual styles***                        | Applie the visual style and theme of the remote desktop, such as colors and control button appearances.|
-| ***Persistent bitmap caching***            | Store images or parts of the remote desktop to improve performance during the session.                 |
-| ***Redirect video playback***              | Optimize the playback of video content from the remote desktop on the local machine.                   |
+| ***Visual styles***                        | Applie the visual style and theme, such as colors and control button appearances.|
+| ***Persistent bitmap caching***            | Store images or parts to improve performance during the session.                 |
+| ***Redirect video playback***              | Optimize the playback of video content on the local machine.                   |
 | ***Reconnect if connection is dropped***   | Automatically attempts to reconnect to the remote session if the connection is temporarily lost.        |
 | ***Detect bandwidth automatically***       | Automatically adjusts session settings based on the estimated bandwidth of the connection.              |
 | ***Enable data compression***              | Compresse data to improve performance over slower connections.                                         |

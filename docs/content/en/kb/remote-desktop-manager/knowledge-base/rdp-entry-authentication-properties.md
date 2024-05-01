@@ -25,7 +25,7 @@ The following properties can be configured when creating or editing the RDP entr
 | SETTINGS      | DESCRIPTION |
 |-------------|-------------|  
 | ***Enable Transport Layer Security (TLS)***    | Secure the connection using ***TLS***, providing encryption and integrity protection.                            |
-| ***Enable Remote Desktop Protocol Security (RDP)***| Use ***RDP Security*** Layer for encryption to protect the data transmitted between client and server.       |
+| ***Enable Remote Desktop Protocol Security (RDP)***| Use ***RDP Security Layer*** for encryption to protect the data transmitted between client and server.       |
 
 ### SSPI
 
@@ -34,5 +34,5 @@ The following properties can be configured when creating or editing the RDP entr
 | ***RD Gateway is KDC proxy***                  | Indicate that the ***RD Gateway*** serves as a ***Key Distribution Center (KDC)*** proxy for Kerberos authentication.  |
 | ***SSPI Module***                              | Specifie the ***Security Support Provider Interface (SSPI)*** module to be used for authentication.              |
 | ***Authentication Package***                   | Define the ***authentication package*** (e.g., Kerberos, NTLM) used for verifying user credentials.              |
-| ***KDC Detection Method***                     | Determine the method for detecting the Key Distribution Center in Kerberos authentication scenarios.       |
+| ***KDC Detection Method***                     | Determine the method for detecting the ***Key Distribution Center*** in Kerberos authentication scenarios.       |
 | ***KDC Server URL***                           | Specifie the ***URL of the KDC server*** to be used for Kerberos authentication, if applicable.                  |

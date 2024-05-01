@@ -26,9 +26,9 @@ Configure how sound from the remote system is played back. This can be either on
 
 | SETTINGS | DESCRIPTION                                                                                          |
 |--------------------|------------------------------------------------------------------------------------------------------|
-| ***Dynamic***            | Automatically adjusts the audio quality based on the current network conditions to optimize performance          |
-| ***High***               | Provide the highest audio quality, using more bandwidth. Suitable for high-speed network connections          |
-| ***Medium***             | Offer a balance between audio quality and bandwidth usage, designed for average network conditions           |
+| ***Dynamic***            | Automatically adjusts the audio quality based on the current network conditions to optimize performance.          |
+| ***High***               | Provide the highest audio quality, using more bandwidth. Suitable for high-speed network connections.          |
+| ***Medium***             | Offer a balance between audio quality and bandwidth usage, designed for average network conditions.           |
 | ***Default (Dynamic)***  | The default setting, which dynamically adjusts audio quality based on network conditions to ensure the best possible performance. |
 
 ### Remote audio recording
@@ -42,7 +42,7 @@ Allow or restrict the redirection of audio input from the local computer microph
 
 ## Keyboard 
 
-This setting determines how Windows key combinations (e.g., <kbd>ALT</kbd>+<kbd>TAB</kbd>) are handled during a remote desktop session
+This setting determines how Windows key combinations (e.g., <kbd>ALT</kbd>+<kbd>TAB</kbd>) are handled during a remote desktop session.
 
 | SETTINGS                        | DESCRIPTION |
 |-------------------------------|-------------|
