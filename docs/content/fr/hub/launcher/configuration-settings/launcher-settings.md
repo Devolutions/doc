@@ -3,34 +3,34 @@ eleventyComputed:
   title: "{{ fr.DLAUNCHER }} paramètres"
   order: 20
 ---
-### Général 
+### Général
 
-Dans la section ***Général***, vous pouvez personnaliser la couleur du ***Thème*** et choisir la langue de {{ fr.DLAUNCHER }}. Vous devrez fermer l'application pour activer le paramètre.  
-![!!Hub4013](https://webdevolutions.azureedge.net/docs/fr/hub/Hub4013.png) 
+Dans la section ***Général***, vous pouvez personnaliser la couleur du ***Thème*** et choisir la langue de {{ fr.DLAUNCHER }}. Vous devrez fermer l'application pour activer le paramètre.
+![!!Hub4013](https://cdnweb.devolutions.net/docs/fr/hub/Hub4013.png)
 
-### Sources de données 
+### Sources de données
 
-Connecter à une source de données. 
+Connecter à une source de données.
 
-### Mes identifiants personnels 
+### Mes identifiants personnels
 
-Ajouter un identifiant personnel a votre {{ fr.DLAUNCHER }} à partir de la liste d'***Entrée d'identifiants***. 
+Ajouter un identifiant personnel a votre {{ fr.DLAUNCHER }} à partir de la liste d'***Entrée d'identifiants***.
 
-### Journaux 
+### Journaux
 
-L'information de la section ***Journaux*** est principalement destinée aux administrateurs et aux développeurs d'applications. Vous pouvez localiser le fichier journal en cliquant sur le bouton ***Ouvrir*** ou en suivant le lien fourni au bas de la fenêtre ***Journaux des connexions locales***. 
-![!!Hub4014](https://webdevolutions.azureedge.net/docs/fr/hub/Hub4014.png) 
+L'information de la section ***Journaux*** est principalement destinée aux administrateurs et aux développeurs d'applications. Vous pouvez localiser le fichier journal en cliquant sur le bouton ***Ouvrir*** ou en suivant le lien fourni au bas de la fenêtre ***Journaux des connexions locales***.
+![!!Hub4014](https://cdnweb.devolutions.net/docs/fr/hub/Hub4014.png)
 
-### Diagnostic 
+### Diagnostic
 
-Dans cette section, vous pouvez accéder au ***Diagnostic du système*** de l'application et lancer le ***Profileur*** à des fins de débogage.  
+Dans cette section, vous pouvez accéder au ***Diagnostic du système*** de l'application et lancer le ***Profileur*** à des fins de débogage.
 
-Vous pouvez également valider les informations de la source de données et les politiques appliquées. 
+Vous pouvez également valider les informations de la source de données et les politiques appliquées.
 
-### Vérifier les mises à jour 
+### Vérifier les mises à jour
 
-Valider et télécharger les nouvelles versions de {{ fr.DLAUNCHER }}. 
+Valider et télécharger les nouvelles versions de {{ fr.DLAUNCHER }}.
 
-### À propos 
+### À propos
 
-Afficher la version installée et les informations de {{ fr.DLAUNCHER }}. 
+Afficher la version installée et les informations de {{ fr.DLAUNCHER }}.

@@ -18,7 +18,7 @@ cards:
       - name: Erste Schritte
         url: /de/server/getting-started/
       - name: Installation
-        url: /de/server/installation/
+        url: /de/server/getting-started/installation/
       - name: Privileged Access Management
         url: /de/server/privileged-access-management/
   - name: kb
@@ -39,9 +39,9 @@ cards:
         url: /de/kb/hub-personal/
       - name: Devolutions Gateway
         url: /de/kb/devolutions-gateway/
-      - name: Devolutions PowerShell Modules
+      - name: Devolutions PowerShell Modul
         url: /de/kb/devolutions-powershell/
-      - name: Workspace browser extension
+      - name: Workspace-Browsererweiterung
         url: /de/kb/workspace-browser-extension/
       - name: Devolutions Workspace
         url: /de/kb/devolutions-workspace/

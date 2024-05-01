@@ -11,6 +11,7 @@ module.exports = {
     DFORCE: 'Devolutions Force',
     DFORUM: 'Devolutions Forum',
     DGW: 'Devolutions Gateway',
+    DGW_STANDALONE: 'Devolutions Gateway Standalone',
     DHUB: 'Devolutions Hub',
     DHUBB: 'Devolutions Hub Business',
     DHUBI: 'Devolutions Hub Importer',

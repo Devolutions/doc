@@ -2,52 +2,52 @@
 eleventyComputed:
   title: Ajouter des entrées
 ---
-Les options pour ajouter vous permettent de créer rapidement de nouvelles entrées, de les dupliquer, de créer des raccourcis ou d'enregistrer votre entrée en tant que modèle.  
+Les options pour ajouter vous permettent de créer rapidement de nouvelles entrées, de les dupliquer, de créer des raccourcis ou d'enregistrer votre entrée en tant que modèle.
 
-## Paramètres 
+## Paramètres
 
-![Ajouter des entrées](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4049.png) 
+![Ajouter des entrées](https://cdnweb.devolutions.net/docs/fr/rdm/mac/clip4049.png)
 
 <table>
 	<tr>
 		<td>
-Option 
+Option
 		</td>
 		<td>
-Description 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Nouvelle entrée 
-		</td>
-		<td>
-Créer une nouvelle entrée (session, dossier, entrée de données, identifiants, etc.) 
+Description
 		</td>
 	</tr>
 	<tr>
 		<td>
-Dupliquer 
+Nouvelle entrée
 		</td>
 		<td>
-Créer un double de votre entrée. 
+Créer une nouvelle entrée (session, dossier, entrée de données, identifiants, etc.)
 		</td>
 	</tr>
 	<tr>
 		<td>
-Créer un raccourci 
+Dupliquer
+		</td>
+		<td>
+Créer un double de votre entrée.
+		</td>
+	</tr>
+	<tr>
+		<td>
+Créer un raccourci
 		</td>
 		<td>
 
-Lier votre entrée à plusieurs dossiers. Voir [Créer un raccourci](/fr/rdm/mac/commands/edit/entries/shortcut/) pour plus d'informations. 
+Lier votre entrée à plusieurs dossiers. Voir [Créer un raccourci](/fr/rdm/mac/commands/edit/entries/shortcut/) pour plus d'informations.
 		</td>
 	</tr>
 	<tr>
 		<td>
-Enregistrer comme modèle 
+Enregistrer comme modèle
 		</td>
 		<td>
-Enregistrer votre entrée sélectionnée en tant que [Modèles](/fr/rdm/mac/commands/file/templates/) local ou partagé. 
+Enregistrer votre entrée sélectionnée en tant que [Modèles](/fr/rdm/mac/commands/file/templates/) local ou partagé.
 		</td>
 	</tr>
 </table>

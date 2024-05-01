@@ -1,8 +1,8 @@
 {
   "_schema": "doc",
   "isTopic": true,
-  "icon": "https://webdevolutions.azureedge.net/images/projects/knowledge-base/logos/knowledge-base-icon-shadow.svg",
-  "logo": "https://webdevolutions.azureedge.net/images/projects/knowledge-base/logos/knowledge-base-color-shadow.svg",
+  "icon": "https://cdnweb.devolutions.net/images/projects/knowledge-base/logos/knowledge-base-icon-shadow.svg",
+  "logo": "https://cdnweb.devolutions.net/images/projects/knowledge-base/logos/knowledge-base-color-shadow.svg",
   "url": "/kb/devolutions-customer-success/",
   "formattedName": "<b>Devolutions</b> Knowledge Base",
   "sidebars": [
@@ -72,6 +72,9 @@
                 },
                 {
                   "url": "/kb/remote-desktop-manager/how-to-articles/configure-1password-integrated-mode/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/how-to-articles/configure-1password-entry/"
                 },
                 {
                   "url": "/kb/remote-desktop-manager/how-to-articles/configure-bitwarden-entry/"
@@ -436,6 +439,9 @@
                   "url": "/kb/remote-desktop-manager/how-to-articles/switching-back-old-color-scheme/"
                 },
                 {
+                  "url": "/kb/remote-desktop-manager/how-to-articles/synchronize-document-entries-offline-access/"
+                },
+                {
                   "url": "/kb/remote-desktop-manager/how-to-articles/team-tips/"
                 },
                 {
@@ -557,6 +563,9 @@
                   "url": "/kb/remote-desktop-manager/troubleshooting-articles/carbon-black-user32-dll-error/"
                 },
                 {
+                  "url": "/kb/remote-desktop-manager/troubleshooting-articles/certificate-security-provider-configuration-errors/"
+                },
+                {
                   "url": "/kb/remote-desktop-manager/troubleshooting-articles/chrome-cannot-launch-embedded-mode/"
                 },
                 {
@@ -584,6 +593,9 @@
                   "url": "/kb/remote-desktop-manager/troubleshooting-articles/connections-are-missing/"
                 },
                 {
+                  "url": "/kb/remote-desktop-manager/troubleshooting-articles/cyberark-data-source-issues/"
+                },
+                {
                   "url": "/kb/remote-desktop-manager/troubleshooting-articles/data-recovery/"
                 },
                 {
@@ -597,6 +609,9 @@
                 },
                 {
                   "url": "/kb/remote-desktop-manager/troubleshooting-articles/devolutions-account-inactive-account/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/troubleshooting-articles/gateway-id-not-found/"
                 },
                 {
                   "url": "/kb/remote-desktop-manager/troubleshooting-articles/disappearing-navigation-pane/"
@@ -684,6 +699,9 @@
                   "url": "/kb/remote-desktop-manager/troubleshooting-articles/lastpass-2fa/"
                 },
                 {
+                  "url": "/kb/remote-desktop-manager/troubleshooting-articles/links-not-loading-embedded-mode/"
+                },
+                {
                   "url": "/kb/remote-desktop-manager/troubleshooting-articles/lost-rdm-configuration/"
                 },
                 {
@@ -694,6 +712,9 @@
                 },
                 {
                   "url": "/kb/remote-desktop-manager/troubleshooting-articles/2fa-rdm-application-lost/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/troubleshooting-articles/microsoft-edge-webview2-runtime-installation-troubleshooting/"
                 },
                 {
                   "url": "/kb/remote-desktop-manager/troubleshooting-articles/microsoft-rdp-automatic-logon-issues/"
@@ -777,6 +798,9 @@
                   "url": "/kb/remote-desktop-manager/troubleshooting-articles/password-manager-pro/"
                 },
                 {
+                  "url": "/kb/remote-desktop-manager/troubleshooting-articles/permission-issues/"
+                },
+                {
                   "url": "/kb/remote-desktop-manager/troubleshooting-articles/performance-data-sources/"
                 },
                 {
@@ -793,6 +817,9 @@
                 },
                 {
                   "url": "/kb/remote-desktop-manager/troubleshooting-articles/rdp-issue-after-updating-2023/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/troubleshooting-articles/rdp-session-troubleshooting/"
                 },
                 {
                   "url": "/kb/remote-desktop-manager/troubleshooting-articles/rdp-username-changes-to-azure-ad-user/"
@@ -847,6 +874,9 @@
                 },
                 {
                   "url": "/kb/remote-desktop-manager/troubleshooting-articles/sql-azure-troubleshooting/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/troubleshooting-articles/sql-server-connection-timeout/"
                 },
                 {
                   "url": "/kb/remote-desktop-manager/troubleshooting-articles/sql-server-connectivity-troubleshooting/"
@@ -971,7 +1001,13 @@
               "label": "knowledgeBase",
               "items": [
                 {
+                  "url": "/kb/remote-desktop-manager/knowledge-base/access-manage-rdm-variables/"
+                },
+                {
                   "url": "/kb/remote-desktop-manager/knowledge-base/account-brokering-not-available/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/knowledge-base/active-directory/"
                 },
                 {
                   "url": "/kb/remote-desktop-manager/knowledge-base/add-rdp-entry/"
@@ -1046,9 +1082,6 @@
                   "url": "/kb/remote-desktop-manager/knowledge-base/deprecated-entries/"
                 },
                 {
-                  "url": "/kb/remote-desktop-manager/knowledge-base/organization-deprecated/"
-                },
-                {
                   "url": "/kb/remote-desktop-manager/knowledge-base/download-microsoft-edge-chromium/"
                 },
                 {
@@ -1059,6 +1092,9 @@
                 },
                 {
                   "url": "/kb/remote-desktop-manager/knowledge-base/favorite-duo-push-method/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/knowledge-base/credentials-find-by-name/"
                 },
                 {
                   "url": "/kb/remote-desktop-manager/knowledge-base/going-password-less-rdm-cyberark/"
@@ -1076,6 +1112,9 @@
                   "url": "/kb/remote-desktop-manager/knowledge-base/ip-list-entry/"
                 },
                 {
+                  "url": "/kb/remote-desktop-manager/knowledge-base/ip-variables/"
+                },
+                {
                   "url": "/kb/remote-desktop-manager/knowledge-base/it-asset-entry/"
                 },
                 {
@@ -1091,6 +1130,9 @@
                   "url": "/kb/remote-desktop-manager/knowledge-base/locating-configuration-file/"
                 },
                 {
+                  "url": "/kb/remote-desktop-manager/knowledge-base/manage-custom-variables/"
+                },
+                {
                   "url": "/kb/remote-desktop-manager/knowledge-base/memory-usage-windows/"
                 },
                 {
@@ -1098,6 +1140,9 @@
                 },
                 {
                   "url": "/kb/remote-desktop-manager/knowledge-base/permissions-move/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/knowledge-base/notification-badge-taskbar/"
                 },
                 {
                   "url": "/kb/remote-desktop-manager/knowledge-base/offboarding-users/"
@@ -1313,6 +1358,22 @@
                       "url": "/kb/remote-desktop-manager-mobile/android/how-to-articles/deprecated-data-mobile/"
                     }
                   ]
+                },
+                {
+                  "label": "knowledgeBase",
+                  "items": [
+                    {
+                      "url": "/kb/remote-desktop-manager-mobile/android/knowledge-base/android-support-limitation/"
+                    }
+                  ]
+                },
+                {
+                  "label": "troubleshootingArticles",
+                  "items": [
+                    {
+                      "url": "/kb/remote-desktop-manager-mobile/android/troubleshooting-articles/TLS-connection-errors-rdm-android-7-lets-encrypt-certificates/"
+                    }
+                  ]
                 }
               ]
             },
@@ -1332,7 +1393,18 @@
                       "url": "/kb/remote-desktop-manager-mobile/ios/how-to-articles/ios-import-data-source-configuration/"
                     },
                     {
+                      "url": "/kb/remote-desktop-manager-mobile/ios/how-to-articles/ios-install-register/"
+                    },
+                    {
                       "url": "/kb/remote-desktop-manager-mobile/ios/how-to-articles/ios-send-rdp-logs-support/"
+                    }
+                  ]
+                },
+                {
+                  "label": "knowledgeBase",
+                  "items": [
+                    {
+                      "url": "/kb/remote-desktop-manager-mobile/ios/knowledge-base/ios-support-limitation/"
                     }
                   ]
                 }
@@ -1359,6 +1431,9 @@
                   "url": "/kb/devolutions-server/how-to-articles/change-listening-port-recording/"
                 },
                 {
+                  "url": "/kb/devolutions-server/how-to-articles/change-vault-selector-position/"
+                },
+                {
                   "url": "/kb/devolutions-server/how-to-articles/configure-client-data-source/"
                 },
                 {
@@ -1374,9 +1449,6 @@
                 },
                 {
                   "url": "/kb/devolutions-server/how-to-articles/configure-server-always-available/"
-                },
-                {
-                  "url": "/kb/devolutions-server/how-to-articles/configure-server-use-domain-sso/"
                 },
                 {
                   "url": "/kb/devolutions-server/how-to-articles/configure-pam-provider-through-dgw/"
@@ -1439,6 +1511,9 @@
                   "url": "/kb/devolutions-server/how-to-articles/manage-encryption-keys/"
                 },
                 {
+                  "url": "/kb/devolutions-server/how-to-articles/migrate-sql/"
+                },
+                {
                   "url": "/kb/devolutions-server/how-to-articles/move-server-default-web-site-root/"
                 },
                 {
@@ -1469,9 +1544,6 @@
                   "url": "/kb/devolutions-server/how-to-articles/stop-caching-users/"
                 },
                 {
-                  "url": "/kb/devolutions-server/how-to-articles/update-registration-serial-renewal/"
-                },
-                {
                   "url": "/kb/devolutions-server/how-to-articles/view-server-datasource-logs/"
                 },
                 {
@@ -1487,6 +1559,12 @@
                 },
                 {
                   "url": "/kb/devolutions-server/troubleshooting-articles/cryptographic-exception-bad-data/"
+                },
+                {
+                  "url": "/kb/devolutions-server/troubleshooting-articles/devolutions-server-unavailable-after-reboot/"
+                },
+                {
+                  "url": "/kb/devolutions-server/troubleshooting-articles/domain-containers-enforcement/"
                 },
                 {
                   "url": "/kb/devolutions-server/troubleshooting-articles/domain-group-not-retrieved/"
@@ -1512,13 +1590,22 @@
                   "url": "/kb/devolutions-server/troubleshooting-articles/http-error-500-30-asp-net-core/"
                 },
                 {
+                  "url": "/kb/devolutions-server/troubleshooting-articles/http-error-500-31/"
+                },
+                {
                   "url": "/kb/devolutions-server/troubleshooting-articles/iis-logging/"
                 },
                 {
                   "url": "/kb/devolutions-server/troubleshooting-articles/invalid-self-signed-certificate-chrome/"
                 },
                 {
+                  "url": "/kb/devolutions-server/troubleshooting-articles/invalid-username-password/"
+                },
+                {
                   "url": "/kb/devolutions-server/troubleshooting-articles/encryption-file-missing/"
+                },
+                {
+                  "url": "/kb/devolutions-server/troubleshooting-articles/jit-elevation-error/"
                 },
                 {
                   "url": "/kb/devolutions-server/troubleshooting-articles/security-token-invalid-idx10205/"
@@ -1571,9 +1658,6 @@
                   "url": "/kb/devolutions-server/knowledge-base/backup-restore-server/"
                 },
                 {
-                  "url": "/kb/devolutions-server/knowledge-base/command-line-interface/"
-                },
-                {
                   "url": "/kb/devolutions-server/knowledge-base/deploy-high-availability-load-balanced-env/"
                 },
                 {
@@ -1586,13 +1670,13 @@
                   "url": "/kb/devolutions-server/knowledge-base/dvls-security-hardening/"
                 },
                 {
+                  "url": "/kb/devolutions-server/knowledge-base/important-operation-server/"
+                },
+                {
                   "url": "/kb/devolutions-server/knowledge-base/generate-script-database-permissions/"
                 },
                 {
                   "url": "/kb/devolutions-server/knowledge-base/identify-server-answering/"
-                },
-                {
-                  "url": "/kb/devolutions-server/knowledge-base/important-operation-server/"
                 },
                 {
                   "url": "/kb/devolutions-server/knowledge-base/installation-requirements/"
@@ -1658,6 +1742,9 @@
               "label": "troubleshootingArticles",
               "items": [
                 {
+                  "url": "/kb/devolutions-gateway/troubleshooting-articles/gateway-troubleshooting/"
+                },
+                {
                   "url": "/kb/devolutions-gateway/troubleshooting-articles/install-dgw-method-not-found/"
                 },
                 {
@@ -1685,13 +1772,13 @@
               "label": "howToArticles",
               "items": [
                 {
+                  "url": "/kb/hub-business/how-to-articles/assign-roles-permissions/"
+                },
+                {
                   "url": "/kb/hub-business/how-to-articles/create-azure-ad-pam-provider/"
                 },
                 {
                   "url": "/kb/hub-business/how-to-articles/creating-shared-one-time-password-entry/"
-                },
-                {
-                  "url": "/kb/hub-business/how-to-articles/export-data-hub-business-powershell/"
                 },
                 {
                   "url": "/kb/hub-business/how-to-articles/import-csv-files-pasword-hub-importer/"
@@ -1714,6 +1801,9 @@
                   "url": "/kb/hub-business/troubleshooting-articles/access-denied-errors/"
                 },
                 {
+                  "url": "/kb/hub-business/troubleshooting-articles/errors-list/"
+                },
+                {
                   "url": "/kb/hub-business/troubleshooting-articles/prompt-mfa-everytime/"
                 },
                 {
@@ -1734,16 +1824,19 @@
               "label": "knowledgeBase",
               "items": [
                 {
-                  "url": "/kb/hub-business/knowledge-base/csv-files-import-strategies-format-hub-importer/"
+                  "url": "/kb/hub-business/knowledge-base/devolutions-password-hub-changes-name-devolutions-hub/"
                 },
                 {
-                  "url": "/kb/hub-business/knowledge-base/devolutions-password-hub-changes-name-devolutions-hub/"
+                  "url": "/kb/hub-business/knowledge-base/deleting-devolutions-account-affect-hub/"
                 },
                 {
                   "url": "/kb/hub-business/knowledge-base/hosting-region-password-hub/"
                 },
                 {
                   "url": "/kb/hub-business/knowledge-base/internet-endpoints-access/"
+                },
+                {
+                  "url": "/kb/hub-business/knowledge-base/csv-files-import-strategies-format-hub-importer/"
                 }
               ]
             }
@@ -1755,9 +1848,6 @@
             {
               "label": "howToArticles",
               "items": [
-                {
-                  "url": "/kb/hub-personal/how-to-articles/import-export-data-hub-personal/"
-                },
                 {
                   "url": "/kb/hub-personal/how-to-articles/integrate-hub-personal-rdm/"
                 },
@@ -1888,6 +1978,9 @@
               "label": "howToArticles",
               "items": [
                 {
+                  "url": "/kb/devolutions-workspace/how-to-articles/enable-autofill-android/"
+                },
+                {
                   "url": "/kb/devolutions-workspace/how-to-articles/enable-autofill-ios/"
                 },
                 {
@@ -1933,6 +2026,9 @@
                   "url": "/kb/general-knowledge-base/clear-browser-local-storage/clear-safari-local-storage/"
                 }
               ]
+            },
+            {
+              "url": "/kb/general-knowledge-base/devolutions-login-page-does-not-open-browser/"
             },
             {
               "url": "/kb/general-knowledge-base/devolutions-send-standalone/"

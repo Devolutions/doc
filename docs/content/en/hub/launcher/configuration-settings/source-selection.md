@@ -1,18 +1,19 @@
 ---
 eleventyComputed:
   title: "{{ en.DHUB }} source selection"
+  description: When you finish the installation of {{ en.DLAUNCHER }}, you are prompted to choose a data source between {{ en.DHUB }} and {{ en.DVLS }}.
   order: 10
 ---
-When you finish the installation of {{ en.DLAUNCHER }}, you are prompted to choose a web source between {{ en.DHUB }} and {{ en.DVLS }}.  
+When you finish the installation of {{ en.DLAUNCHER }}, you are prompted to choose a data source between {{ en.DHUBB }} and {{ en.DVLS }}.
 
-{% snippet icon.badgeInfo %} 
-***Web Source Selection*** is available in the ***Settings – Data Sources*** of {{ en.DLAUNCHER }}. 
+{% snippet icon.badgeInfo %}
+***Data Source Selection*** is also available in ***File – Data Sources*** of {{ en.DLAUNCHER }}.
 {% endsnippet %}
- 
-1. Choose ***{{ en.DHUB }}***.  
-![!!Hub4018](https://webdevolutions.azureedge.net/docs/en/hub/Hub4018.png) 
-1. Enter your {{ en.DA }} ***Username*** and follow the authentication process.  
-![!!Hub4019](https://webdevolutions.azureedge.net/docs/en/hub/Hub4019.png) 
-1. Next to the ***Host*** field click on the 3 dots to select your {{ en.DHUBB }} data source and click ***OK*** to save.  
+
+1. Choose ***{{ en.DHUBB }}***.
+![{{ en.DHUB }}](https://cdnweb.devolutions.net/docs/HUBB6003_2023_3.png)
+1. Enter your {{ en.DA }} ***Email*** and follow the authentication process.
+1. Next to the ***Host*** field, click on the 3 dots to select your {{ en.DHUBB }} data source and click ***Add*** to save.
+![!!Hub4019](https://cdnweb.devolutions.net/docs/HUBB6002_2023_3.png)
 
 You can close the ***Data Sources*** window, you are now connected to your {{ en.DHUBB }} with {{ en.DLAUNCHER }}.

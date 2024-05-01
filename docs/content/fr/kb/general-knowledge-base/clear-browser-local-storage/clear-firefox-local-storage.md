@@ -7,14 +7,14 @@ eleventyComputed:
   - Navigateur
   - Firefox
 ---
-Voici les étapes à suivre pour effacer votre stockage local dans le navigateur Firefox :  
+Voici les étapes à suivre pour effacer votre stockage local dans le navigateur Firefox :
 
-1. Ouvrir une page du navigateur Firefox.  
-1. Utiliser la touche **F12** de votre clavier pour ouvrir la console des outils de développement de Firefox.  
-![Console des outils de développement de Firefox](https://webdevolutions.azureedge.net/docs/fr/kb/KB2054.png) 
-1. Cliquer sur ***Stockage*** dans le menu supérieur de la console.  
-![Console – Stockage](https://webdevolutions.azureedge.net/docs/fr/kb/KB2055.png) 
-1. Développer la liste ***Stockage local*** située dans le menu gauche de la console.  
-![Console – Stockage – Stockage local](https://webdevolutions.azureedge.net/docs/fr/kb/KB2056.png) 
-1. Faire un clic droit sur votre ou vos sites et cliquer sur ***Tout supprimer*** pour supprimer le stockage local.  
-![Stockage local – Tout supprimer](https://webdevolutions.azureedge.net/docs/fr/kb/KB2057.png)
+1. Ouvrir une page du navigateur Firefox.
+1. Utiliser la touche **F12** de votre clavier pour ouvrir la console des outils de développement de Firefox.
+![Console des outils de développement de Firefox](https://cdnweb.devolutions.net/docs/fr/kb/KB2054.png)
+1. Cliquer sur ***Stockage*** dans le menu supérieur de la console.
+![Console – Stockage](https://cdnweb.devolutions.net/docs/fr/kb/KB2055.png)
+1. Développer la liste ***Stockage local*** située dans le menu gauche de la console.
+![Console – Stockage – Stockage local](https://cdnweb.devolutions.net/docs/fr/kb/KB2056.png)
+1. Faire un clic droit sur votre ou vos sites et cliquer sur ***Tout supprimer*** pour supprimer le stockage local.
+![Stockage local – Tout supprimer](https://cdnweb.devolutions.net/docs/fr/kb/KB2057.png)

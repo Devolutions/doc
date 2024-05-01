@@ -2,55 +2,55 @@
 eleventyComputed:
   title: Sécurité GeoIP
 ---
-La section de la ***Sécurité GeoIP*** permet à l'administrateur de définir la restriction IP en fonction de l'emplacement géographique.  
-![Administration - Paramètres de {{ fr.DVLS }} - Sécurité GeoIP](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp8046.png)  
+La section de la ***Sécurité GeoIP*** permet à l'administrateur de définir la restriction IP en fonction de l'emplacement géographique.
+![Administration - Paramètres de {{ fr.DVLS }} - Sécurité GeoIP](https://cdnweb.devolutions.net/docs/fr/server/ServerOp8046.png)
 
-## Paramètres 
+## Paramètres
 
 <table>
 	<tr>
 		<th>
 
-Option 
+Option
 		</th>
 		<th>
-Description 
+Description
 		</th>
 	</tr>
 	<tr>
 		<td>
-Mode de GeoIP 
+Mode de GeoIP
 		</td>
 		<td>
-Choisir votre méthode de GeoIP entre :  
+Choisir votre méthode de GeoIP entre :
 
-Aucun : N'utilisera pas la sécurité GeoIP.  
+Aucun : N'utilisera pas la sécurité GeoIP.
 
-MaxMind : Utiliser la base de données GeoIP de MaxMind pour rechercher la ville, le numéro AS et d'autres informations pour une adresse IP. Connectez-vous à votre compte en saisissant votre ID de l'utilisateur et votre clé de licence dans le champ approprié, puis sélectionner les pays dans lesquels vous souhaitez accorder l'accès à votre {{ fr.DVLS }}.  
+MaxMind : Utiliser la base de données GeoIP de MaxMind pour rechercher la ville, le numéro AS et d'autres informations pour une adresse IP. Connectez-vous à votre compte en saisissant votre ID de l'utilisateur et votre clé de licence dans le champ approprié, puis sélectionner les pays dans lesquels vous souhaitez accorder l'accès à votre {{ fr.DVLS }}.
 		</td>
 	</tr>
 	<tr>
 		<td>
-ID de l'utilisateur 
+ID de l'utilisateur
 		</td>
 		<td>
-ID de l'utilisateur pour se connecter sur MaxMind. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Clé de licence 
-		</td>
-		<td>
-Clé de licence pour se connecter sur MaxMind. 
+ID de l'utilisateur pour se connecter sur MaxMind.
 		</td>
 	</tr>
 	<tr>
 		<td>
-Pays 
+Clé de licence
 		</td>
 		<td>
-Sélectionner tous les pays autorisés pour se connecter à l'instance {{ fr.DVLS }}. 
+Clé de licence pour se connecter sur MaxMind.
+		</td>
+	</tr>
+	<tr>
+		<td>
+Pays
+		</td>
+		<td>
+Sélectionner tous les pays autorisés pour se connecter à l'instance {{ fr.DVLS }}.
 		</td>
 	</tr>
 </table>

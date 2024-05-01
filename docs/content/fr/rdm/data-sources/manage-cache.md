@@ -2,68 +2,68 @@
 eleventyComputed:
   title: Gérer la cache
 ---
-Cette option vous permet de gérer votre cache qui décide de la manière dont le client rechargera les entrées lorsque des modifications seront détectées. Sur les grandes sources de données, la mise en cache est indispensable et augmentera considérablement les performances. 
+Cette option vous permet de gérer votre cache qui décide de la manière dont le client rechargera les entrées lorsque des modifications seront détectées. Sur les grandes sources de données, la mise en cache est indispensable et augmentera considérablement les performances.
 
-{% snippet icon.badgeNotice %} 
-Cette fonctionnalité est disponible que lorsque le moteur hors ligne est configuré pour utiliser SQLite. Nous supprimons progressivement ce moteur en raison de plusieurs problèmes signalés par les clients. Nous vous recommandons d'utiliser ***MCDFv2***. 
+{% snippet icon.badgeNotice %}
+Cette fonctionnalité est disponible que lorsque le moteur hors ligne est configuré pour utiliser SQLite. Nous supprimons progressivement ce moteur en raison de plusieurs problèmes signalés par les clients. Nous vous recommandons d'utiliser ***MCDFv2***.
 {% endsnippet %}
- 
-{% snippet icon.badgeInfo %} 
-Les options de gestion du cache ne doivent généralement être utilisées que sur demande de notre équipe d'assistance en cas de problème de cache. 
-{% endsnippet %}
- 
-## Paramètres 
 
-{% snippet icon.badgeInfo %} 
-Les options de gestion du cache ne seront disponibles que lors de l'utilisation d'un cache SQLite. 
+{% snippet icon.badgeInfo %}
+Les options de gestion du cache ne doivent généralement être utilisées que sur demande de notre équipe d'assistance en cas de problème de cache.
 {% endsnippet %}
- 
-![Gérer fichier SQLite](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10013.png) 
+
+## Paramètres
+
+{% snippet icon.badgeInfo %}
+Les options de gestion du cache ne seront disponibles que lors de l'utilisation d'un cache SQLite.
+{% endsnippet %}
+
+![Gérer fichier SQLite](https://cdnweb.devolutions.net/docs/fr/rdm/windows/clip10013.png)
 
 <table>
 	<tr>
 		<th>
 
-OPTION 
+OPTION
 		</th>
 		<th>
-DESCRIPTION 
+DESCRIPTION
 		</th>
 	</tr>
 	<tr>
 		<td>
-Effacer la sortie 
+Effacer la sortie
 		</td>
 		<td>
-Effacer le contenu de la fenêtre de sortie. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Analyser 
-		</td>
-		<td>
-Analyser va générer un rapport de tout ce qui est contenu dans le cache. Il lira les données hors ligne et effectuera un test de lecture/écriture pour vérifier si le fichier hors ligne est valide. 
+Effacer le contenu de la fenêtre de sortie.
 		</td>
 	</tr>
 	<tr>
 		<td>
-Nettoyer 
+Analyser
 		</td>
 		<td>
-Cela exécutera une commande SQLite pour réduire la taille de votre cache. L'option Nettoyer doit être utilisée qu'après avoir tenté d'exécuter une réparation de votre cache. Si la réparation n'a pas résolu votre problème, l'exécution d'un vide résout généralement les problèmes liés à un cache corrompu. 
+Analyser va générer un rapport de tout ce qui est contenu dans le cache. Il lira les données hors ligne et effectuera un test de lecture/écriture pour vérifier si le fichier hors ligne est valide.
 		</td>
 	</tr>
 	<tr>
 		<td>
-Réparer 
+Nettoyer
 		</td>
 		<td>
-La réparation exécutera ces commandes SQLite différentes pour réparer un cache corrompu :  
+Cela exécutera une commande SQLite pour réduire la taille de votre cache. L'option Nettoyer doit être utilisée qu'après avoir tenté d'exécuter une réparation de votre cache. Si la réparation n'a pas résolu votre problème, l'exécution d'un vide résout généralement les problèmes liés à un cache corrompu.
+		</td>
+	</tr>
+	<tr>
+		<td>
+Réparer
+		</td>
+		<td>
+La réparation exécutera ces commandes SQLite différentes pour réparer un cache corrompu :
 
-* PRAGMA integrigy_check 
-* REINDEX DatabaseInfo 
-* REINDEX Connections 
+* PRAGMA integrigy_check
+* REINDEX DatabaseInfo
+* REINDEX Connections
 		</td>
 	</tr>
 </table>

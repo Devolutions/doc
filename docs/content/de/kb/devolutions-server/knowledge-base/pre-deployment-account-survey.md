@@ -22,7 +22,7 @@ Bisher besteht die Lösung darin, volle Administratorrechte für dieses Konto zu
 
 | # | Name                  | Herkunft | Beschreibung                               | Konfiguriert in... |
 | - | --------------------- | -------- | ------------------------------------------ | ------------------ |
-| 1 | VaultDBOwner            | AD     | Konto mit allen Berechtigungen auf der DB. | Interaktive Windows-Sitzungen zum Installieren/Aktualisieren einer {{ de.DVLS }}-Instanz. |
+| 1 | VaultDBOwner            | AD     | Konto mit allen Berechtigungen auf der DB. | Interaktive Windows-Sitzungen zum Installieren/Aktualisieren einer {{ de.DVLS }}-Instanz. Dieses Konto muss zudem über lokale Administratorrechte auf dem {{ de.DVLS }} verfügen. |
 | 2 | VaultDBRunner           | AD     | Am wenigsten privilegiertes Konto zur Ausführung der Webanwendung. Wird zur Verbindung mit der DB und für den Zugriff auf das Dateisystem verwendet. | IIS-Anwendungspools, die einer {{ de.DVLS }}-Instanz zugeordnet sind. |
 | 3 | VaultADReader         | AD     | Am wenigsten privilegiertes Konto zur Abfrage des Active Directory. | {{ de.DVLS }}-Instanz-Einstellungen - Administrative Anmeldeinformationen. |
 | 4 | VaultDBSchedulerService | AD     | Am wenigsten privilegiertes Konto zur Ausführung des Scheduler Dienst. Wird für die Verbindung zur DB und zum Lesen / Schreiben aus dem Dateisystem verwendet. | Windows Dienste |

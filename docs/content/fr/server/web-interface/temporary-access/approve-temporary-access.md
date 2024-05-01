@@ -17,15 +17,15 @@ Pour apprendre comment répondre à une demande, consultez [Approuver/refuser le
 ## Afficher les demandes d'accès temporaire 
 
 Pour afficher toutes vos demandes passées et actuelles, vous devez utiliser la boîte ***Demandes d'accès en attente*** dans le ***Tableau de bord*** pour ouvrir la fenêtre ***Demandes d'accès temporaire***.
-![Demandes d'accès en attente](https://webdevolutions.blob.core.windows.net/docs/fr/server/ServerOp6006.png) 
+![Demandes d'accès en attente](https://cdnweb.devolutions.net/docs/fr/server/ServerOp6006.png) 
 
 Dans la fenêtre ***Rapport des demandes d'accès temporaire***, vous pouvez voir toutes les demandes d'accès temporaire et les trier par ***Statut***, ***Demandé par***, ***Nom de la connexion***, ***Demandé le***, ***Heure de début demandée***, ***Heure de fin demandée***, ***Durée demandée***, ***Durée de l'autorisation*** et ***Approbateur***.
-![Rapport des demandes d'accès temporaire](https://webdevolutions.blob.core.windows.net/docs/fr/server/ServerOp6018.png)
+![Rapport des demandes d'accès temporaire](https://cdnweb.devolutions.net/docs/fr/server/ServerOp6018.png)
 
 Il est également possible d'afficher uniquement certaines demandes en utilisant le menu déroulant ***Statut*** ou avec la barre de filtre au haut de la fenêtre.
 
 L'icône en forme d'œil vous permet de visualiser le ***Message de la demande*** et le ***Message d'autorisation*** d'une demande spécifique.
-![Messages de la demande](https://webdevolutions.blob.core.windows.net/docs/fr/server/ServerOp6012.png) 
+![Messages de la demande](https://cdnweb.devolutions.net/docs/fr/server/ServerOp6012.png) 
 
 Enfin, en cliquant sur ***Approuver*** ou ***Refuser***, vous ouvrez la fenêtre ***Réponse à la demande d'accès temporaire*** qui est décrite dans la section suivante. 
 
@@ -38,10 +38,10 @@ La durée de l'***Accès temporaire*** commence lorsque la demande est approuvé
 Pour répondre à une demande, vous devez ouvrir la fenêtre ***Réponse à la demande d'accès temporaire***. Il y a deux façons d'y accéder.
 
 La première option consiste à utiliser la boîte ***Demandes d'accès en attente*** (voir image ci-dessous) dans l'onglet ***Aperçu*** de votre ***Tableau de bord***. En cliquant sur le crochet vert (approuver la demande) ou le « X » rouge (refuser la demande) à côté d'une demande, vous ouvrirez la fenêtre ***Réponse à la demande d'accès temporaire***.
-![Demandes d'accès en attente](https://webdevolutions.blob.core.windows.net/docs/fr/server/ServerOp6013.png) 
+![Demandes d'accès en attente](https://cdnweb.devolutions.net/docs/fr/server/ServerOp6013.png) 
 
 La deuxième option vous demande de passer par la boîte ***Demandes d'accès en attente*** décrite dans la [section précédente](#view-temporary-access-requests). Quelle que soit la façon dont vous choisissez d'accéder à la fenêtre de réponse, le résultat sera le même.
-![Réponse à la demande d'accès temporaire](https://webdevolutions.blob.core.windows.net/docs/fr/server/ServerOp6014.png) 
+![Réponse à la demande d'accès temporaire](https://cdnweb.devolutions.net/docs/fr/server/ServerOp6014.png) 
 
 Cette vue est divisée en deux sections :
 

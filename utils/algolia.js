@@ -15,7 +15,7 @@ module.exports = function (results) {
         let objects = [];
         let title;
         let url = result.url;
-        let icon = "https://webdevolutions.azureedge.net/images/projects/devolutions/logos/devolutions-icon-shadow.svg";
+        let icon = "https://cdnweb.devolutions.net/images/projects/devolutions/logos/devolutions-icon-shadow.svg";
 
         let locale = result.url.split('/')[1];
         let doc = result.url.split('/')[2];
@@ -31,22 +31,22 @@ module.exports = function (results) {
 
         switch (doc) {
           case 'cloud':
-            icon = "https://webdevolutions.azureedge.net/images/projects/cloud/logos/cloud-icon-shadow.svg";
+            icon = "https://cdnweb.devolutions.net/images/projects/cloud/logos/cloud-icon-shadow.svg";
             docLabel = "Cloud Services";
             os = "";
             break;
           case 'hub':
-            icon = "https://webdevolutions.azureedge.net/images/projects/password-hub/logos/password-hub-icon-shadow.svg";
+            icon = "https://cdnweb.devolutions.net/images/projects/password-hub/logos/password-hub-icon-shadow.svg";
             docLabel = "Devolutions Hub";
             os = "";
             break;
           case 'kb':
-            icon = "https://webdevolutions.azureedge.net/images/projects/knowledge-base/logos/knowledge-base-icon-shadow.svg";
+            icon = "https://cdnweb.devolutions.net/images/projects/knowledge-base/logos/knowledge-base-icon-shadow.svg";
             docLabel = "Knowledge Base";
             os = "";
             break;
           case 'rdm':
-            icon = "https://webdevolutions.azureedge.net/images/projects/remote-desktop-manager/logos/remote-desktop-manager-icon-shadow.svg";
+            icon = "https://cdnweb.devolutions.net/images/projects/remote-desktop-manager/logos/remote-desktop-manager-icon-shadow.svg";
             if (os == 'windows') {
               docLabel = "Remote Desktop Manager (Windows)";
             } else if (os == 'mac') {
@@ -54,7 +54,7 @@ module.exports = function (results) {
             }
             break;
           case 'server':
-            icon = "https://webdevolutions.azureedge.net/images/projects/server/logos/server-icon-shadow.svg";
+            icon = "https://cdnweb.devolutions.net/images/projects/server/logos/server-icon-shadow.svg";
             docLabel = "Devolutions Server";
             os = "";
             break;

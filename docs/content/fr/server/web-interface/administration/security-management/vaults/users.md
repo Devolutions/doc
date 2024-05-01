@@ -2,24 +2,24 @@
 eleventyComputed:
   title: Usagers
 ---
-Permet d'assigner des utilisateurs au {{ fr.VLT }}.  
-![{{ fr.VLT_MAJ }}s - Usagers](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp8069.png) 
+Permet d'assigner des utilisateurs au {{ fr.VLT }}.
+![{{ fr.VLT_MAJ }}s - Usagers](https://cdnweb.devolutions.net/docs/fr/server/ServerOp8069.png)
 
 <table>
 	<tr>
 		<th>
-Option 
+Option
 		</th>
 		<th>
-Description 
+Description
 		</th>
 	</tr>
 	<tr>
 		<td>
-Est membre 
+Est membre
 		</td>
 		<td>
-Lorsque coché, assigne le {{ fr.VLT }} à l'utilisateur. 
+Lorsque coché, assigne le {{ fr.VLT }} à l'utilisateur.
 		</td>
 	</tr>
 </table>

@@ -14,7 +14,7 @@ Make sure that the installation of KeePass was successful and is not on a networ
 
 1. Follow the steps in [Download the KeePass plugin](/kb/remote-desktop-manager/how-to-articles/download-keepass-plugin/).
 1. Unzip the files in the installation folder of KeePass (e.g., **C:\Program Files (x86)\KeePass Password Safe 2**).
-1. KeePass installation path (***File - Options - Path - Configure Installation Path***), has to be configured in **default.cfg** refereed in [Terminal Services / Remote Desktop Services](/rdm/windows/installation/client/terminal-services/).  
+1. KeePass installation path (***File – Settings – Path – Configure Installation Path***), has to be configured in **default.cfg** refereed in [Terminal Services / Remote Desktop Services](/rdm/windows/installation/client/terminal-services/).  
 
 To manually edit **default.cfg**, adjust the path and add the line below in <Option> </Option> context.  
 

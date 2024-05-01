@@ -2,151 +2,151 @@
 eleventyComputed:
   title: Journalisation
 ---
-La section ***Journalisation*** permet à l'administrateur de configurer les fonctionnalités de journalisation.  
-![Administration - Paramètres de {{ fr.DVLS }} - Journalisation](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp8040.png) 
+La section ***Journalisation*** permet à l'administrateur de configurer les fonctionnalités de journalisation.
+![Administration - Paramètres de {{ fr.DVLS }} - Journalisation](https://cdnweb.devolutions.net/docs/fr/server/ServerOp8040.png)
 
-## Paramètres 
+## Paramètres
 
-### Général 
+### Général
 
 <table>
 	<tr>
 		<th>
-Option 
+Option
 		</th>
 		<th>
-Description 
+Description
 		</th>
 	</tr>
 	<tr>
 		<td>
-Log de débogage 
+Log de débogage
 		</td>
 		<td>
-Activer les journaux de l'instance {{ fr.DVLS }}. Lorsqu'elle est activée, cela augmentera le niveau de débogage et fournira plus d'entrées de journal. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Langue 
-		</td>
-		<td>
-Choisir la langue des journaux. 
+Activer les journaux de l'instance {{ fr.DVLS }}. Lorsqu'elle est activée, cela augmentera le niveau de débogage et fournira plus d'entrées de journal.
 		</td>
 	</tr>
 	<tr>
 		<td>
-Chemin du journal du planificateur 
+Langue
 		</td>
 		<td>
-Définir le chemin de destination du fichier journal. 
+Choisir la langue des journaux.
+		</td>
+	</tr>
+	<tr>
+		<td>
+Chemin du journal du planificateur
+		</td>
+		<td>
+Définir le chemin de destination du fichier journal.
 		</td>
 	</tr>
 </table>
 
-### Serveur syslog 
+### Serveur syslog
 
 <table>
 	<tr>
 		<th>
 
-Option 
+Option
 		</th>
 		<th>
-Description 
+Description
 		</th>
 	</tr>
 	<tr>
 		<td>
-Connectez-vous au serveur Syslog 
+Connectez-vous au serveur Syslog
 		</td>
 		<td>
-Envoyer les journaux à un serveur Syslog. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Hôte 
-		</td>
-		<td>
-Entrer l'hôte de votre serveur Syslog pour vous connecter. 
+Envoyer les journaux à un serveur Syslog.
 		</td>
 	</tr>
 	<tr>
 		<td>
-Port 
+Hôte
 		</td>
 		<td>
-Entrer le port de votre serveur Syslog pour vous connecter. 
+Entrer l'hôte de votre serveur Syslog pour vous connecter.
 		</td>
 	</tr>
 	<tr>
 		<td>
-Protocole 
+Port
 		</td>
 		<td>
-Sélectionner votre mode de protocole préféré entre :  
+Entrer le port de votre serveur Syslog pour vous connecter.
+		</td>
+	</tr>
+	<tr>
+		<td>
+Protocole
+		</td>
+		<td>
+Sélectionner votre mode de protocole préféré entre :
 
-* TCP 
-* UDP 
+* TCP
+* UDP
 		</td>
 	</tr>
 </table>
 
-### Journal d'événements Windows 
+### Journal d'événements Windows
 
 <table>
 	<tr>
 		<th>
-Option 
+Option
 		</th>
 		<th>
-Description 
+Description
 		</th>
 	</tr>
 	<tr>
 		<td>
-Journal d'événements 
+Journal d'événements
 		</td>
 		<td>
-Envoyer les journaux au journal des événements de Windows. 
+Envoyer les journaux au journal des événements de Windows.
 		</td>
 	</tr>
 </table>
 
-### Intégration Slack 
+### Intégration Slack
 
 <table>
 	<tr>
 		<th>
-Option 
+Option
 		</th>
 		<th>
-Description 
+Description
 		</th>
 	</tr>
 	<tr>
 		<td>
-Publier les journaux d'activité sur Slack 
+Publier les journaux d'activité sur Slack
 		</td>
 		<td>
-Publier les journaux dans un canal Slack. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Jeton d'accès Bot OAuth 
-		</td>
-		<td>
-Jeton d'accès d'authentification Slack. 
+Publier les journaux dans un canal Slack.
 		</td>
 	</tr>
 	<tr>
 		<td>
-Nom de la chaîne Slack 
+Jeton d'accès Bot OAuth
 		</td>
 		<td>
-Nom du canal Slack où les journaux seront publiés. 
+Jeton d'accès d'authentification Slack.
+		</td>
+	</tr>
+	<tr>
+		<td>
+Nom de la chaîne Slack
+		</td>
+		<td>
+Nom du canal Slack où les journaux seront publiés.
 		</td>
 	</tr>
 </table>

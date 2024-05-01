@@ -9,7 +9,7 @@ Customize the default size and colors of the remote desktop window in RDP sessio
 Most of the display properties require you to close the RDP entry completely, then reopen it to take effect.
 {% endsnippet %}
 
-![Display properties](https://webdevolutions.azureedge.net/docs/en/kb/KB2373.png)
+![Display properties](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2373.png)
 
 ## Remote desktop size
 
@@ -19,12 +19,12 @@ Three default size parameter values can be customized to best suit your needs:
 * [***Zoom***](#zoom)
 
 ### Screen sizing mode
-![Remote desktop size settings](https://webdevolutions.azureedge.net/docs/en/kb/KB2374.png)
+![Remote desktop size settings](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2374.png)
 The ***Screen sizing mode*** defines how the host resolution adapts to the current screen configuration by default.
 
 | Settings                 | Description                                                                                                                     |
 | ------------------------ | ------------------------------------------------------------------------------------------------------------------------------- |
-| ***Default***            | This value defaults to the ***Screen sizing mode*** defined in ***File – Options – Types – Sessions – Remote Desktop (RDP)***.  |
+| ***Default***            | This value defaults to the ***Screen sizing mode*** defined in ***File – Settings – Types – Sessions – Remote Desktop (RDP)***.  |
 | ***Smart reconnect***    | The resolution of the host adjusts accordingly to mirror the resolution of the window when resizing the window. For RDP hosts prior to version 8.1 or when using the FreeRDP application, a reconnection is initiated to accomplish the resolution synchronization. If you set the screen sizing mode to this option, you also have to specify a ***Delay on login*** (in seconds). |
 | ***Smart sizing***       | Window resizing stretches the original resolution to fit the new window size. This disables the ***Zoom*** option further down. |
 | ***Scrollbar***          | Scrollbars are added if the resolution exceeds the window dimensions when resizing the window. If the resolution is smaller than the window, gray borders appear around it. The resolution remains unchanged and scrollbars are added as needed. |
@@ -35,7 +35,7 @@ The ***Remote desktop size*** defines the default dimensions of the RDP session 
 
 | Settings                     | Description                                                                                                                    |
 | ---------------------------- | ------------------------------------------------------------------------------------------------------------------------------ |
-| ***Default***                | This value defaults to the ***Remote desktop size*** defined in ***File – Options – Types – Sessions – Remote desktop size***. |
+| ***Default***                | This value defaults to the ***Remote desktop size*** defined in ***File – Settings – Types – Sessions – Remote desktop size***. |
 | ***Full screen***            | The RDP session display takes the entire screen.                                                                               |
 | ***Custom***                 | The RDP session window follows a ***Custom width*** and ***Custom height*** that you define.                                   |
 | ***Current screen size***    | The RDP session window is the same size as your current screen.                                                                |
@@ -46,7 +46,7 @@ The content of your RDP session window can be zoomed in or out when opening the 
 
 ## Colors
 Customize the color depth of the RDP session display. The ***Highest Quality (32 bits)*** is set by default. Note that settings on the remote computer might override this one.
-![Colors settings](https://webdevolutions.azureedge.net/docs/en/kb/KB2375.png)
+![Colors settings](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2375.png)
 
 ## Connection bar settings
 The two settings at the bottom of the display properties are related to how the connection bar is displayed inside your RDP session window while in full screen mode.

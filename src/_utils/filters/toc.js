@@ -2,7 +2,7 @@ const headingRe = /<(h[23])(|\s.*?)>([\s\S]*?)<\/h[23]>/gm;
 const idRe = /\bid="(.+?)"/;
 
 const renderEl = el => {
-  const title = `<a class="dwd-toc__item ${el.hType === 'h3' ? 'dwd-toc__item--level-2' : 'dwd-toc__item--level-1'}" href="#${el.id}">${el.title}</a>`;
+  const title = `<a class="dwd-toc__item ${el.hType === 'h3' ? 'dwd-toc__item--level-2' : 'dwd-toc__item--level-1'} aria-hidden:hidden" href="#${el.id}">${el.title}</a>`;
 
   const children = el?.children?.length ? renderListEl(el.children) : '';
 

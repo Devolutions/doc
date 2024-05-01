@@ -1,8 +1,8 @@
 {
   "_schema": "doc",
   "isTopic": true,
-  "icon": "https://webdevolutions.azureedge.net/images/projects/server/logos/server-icon-shadow.svg",
-  "logo": "https://webdevolutions.azureedge.net/images/projects/server/logos/server-color-shadow.svg",
+  "icon": "https://cdnweb.devolutions.net/images/projects/server/logos/server-icon-shadow.svg",
+  "logo": "https://cdnweb.devolutions.net/images/projects/server/logos/server-color-shadow.svg",
   "url": "/server/overview/what-is-server/",
   "formattedName": "<b>Devolutions</b> Server",
   "sidebars": [

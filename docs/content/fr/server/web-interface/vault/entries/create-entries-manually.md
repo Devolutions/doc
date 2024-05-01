@@ -9,13 +9,13 @@ Créer des entrées manuellement et enregistrer vos données dans {{ fr.DVLS }}.
 
 1. Sélectionner le {{ fr.VLT }} / {{ fr.UVLT }} et le dossier dans lequel vous souhaitez créer la nouvelle entrée.
 1. Cliquer sur le bouton ***Plus*** situé dans le ***{{ fr.NPANE }}***.
-   {% snippet icon.badgeInfo %} 
+   {% snippet icon.badgeInfo %}
    En survolant le bouton ***Plus***, des raccourcis pour les types d'entrée les plus courants s'affichent.
-   {% endsnippet %}  
+   {% endsnippet %}
 
-   ![Plus](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp2057.png)
+   ![Plus](https://cdnweb.devolutions.net/docs/fr/server/ServerOp2057.png)
 1. Sélectionner un [type d'entrée](/fr/server/web-interface/vault/entries/entry-type/) dans la liste.
-   ![Type d'entrée](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp2059.png)
+   ![Type d'entrée](https://cdnweb.devolutions.net/docs/fr/server/ServerOp2059.png)
 1. Cliquer sur ***Continuer***.
 1. Configurer l'entrée avec toutes les informations requises.
 1. Cliquer sur ***Ajouter*** pour enregistrer.

@@ -14,9 +14,9 @@ La fonction d'***Accès temporaire*** permet aux utilisateurs de demander une é
 
 1. Dans le ***Tableau de bord*** de {{ fr.DVLS }}, sélectionnez l'entrée à laquelle vous souhaitez accorder l'accès.  
 1. Cliquer sur ***Plus*** – ***Accorder un accès temporaire***.  
-![Accorder un accès temporaire](https://webdevolutions.blob.core.windows.net/docs/fr/server/ServerOp6019.png)  
+![Accorder un accès temporaire](https://cdnweb.devolutions.net/docs/fr/server/ServerOp6019.png)  
 1. Choisir l'***Utilisateur*** et la ***Durée de l'accès*** dans la fenêtre ***Accorder un accès temporaire***.  
-![Fenêtre Accorder un accès temporaire](https://webdevolutions.blob.core.windows.net/docs/fr/server/ServerOp6011.png)  
+![Fenêtre Accorder un accès temporaire](https://cdnweb.devolutions.net/docs/fr/server/ServerOp6011.png)  
 
 Vous pouvez consulter les ***Dépendances de l'entrée***, comme que les identifiants et les VPN liés. À noter que les ***entrées liées*** doivent se trouver dans le même {{ fr.VLT }}. Les identifiants PAM liés à des {{ fr.VLT }}s courants ne sont pas pris en compte.
  

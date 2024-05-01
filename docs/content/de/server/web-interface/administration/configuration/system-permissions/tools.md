@@ -2,7 +2,7 @@
 eleventyComputed:
   title: Werkzeuge
 ---
-![Administration – System Berechtigungen – Werkzeuge](https://webdevolutions.azureedge.net/docs/de/server/ServerOp0063.png)
+![Administration – System Berechtigungen – Werkzeuge](https://cdnweb.devolutions.net/docs/de/server/ServerOp0063.png)
 
 | Option                              | Beschreibung                                               |
 | ----------------------------------- | ---------------------------------------------------------- |

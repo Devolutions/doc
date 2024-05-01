@@ -1,38 +1,38 @@
 ---
 eleventyComputed:
-  title: Usage profiles
-  description: Usage profiles allow users to have a tailored experience in {{ en.RDM }} and other Devolutions products based on their tasks and roles.
+  title: User interface profiles
+  description: User interface profiles allow users to have a tailored experience in {{ en.RDM }} and other Devolutions products based on their tasks and roles.
 ---
-***Usage profiles*** allow users to have a tailored experience in {{ en.RDM }} and other Devolutions products based on their tasks and roles. There are two different profiles:  
+***User interface profiles*** allow users to have a tailored experience in {{ en.RDM }} and other Devolutions products based on their tasks and roles. There are two different profiles:
 
-* ***IT professional***: This profile displays all entry types and options provided the user has the necessary permissions to access them. This profile offers all of what our solutions have to offer, advanced options, and access to all entries and information.  
-* ***Business user***: This profile is specifically designed for users who do not require access to view remote connection entries, administrative options, or advanced properties. Our interfaces have been streamlined to minimize options that are primarily intended for IT Professionals, allowing business users to focus on their daily tasks without unnecessary complexities.  
+* ***IT professional***: This profile displays all entry types and options provided the user has the necessary permissions to access them. This profile offers all of what our solutions have to offer, advanced options, and access to all entries and information.
+* ***Business user***: This profile is specifically designed for users who do not require access to view remote connection entries, administrative options, or advanced properties. Our interfaces have been streamlined to minimize options that are primarily intended for IT professionals, allowing business users to focus on their daily tasks without unnecessary complexities.
 
-The profile is first selected during the {{ en.RDM }} Onboarding process. 
+The profile is first selected during the {{ en.RDM }} Onboarding process.
 
-![User Interface Profile selection in Onboarding](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2167.png) 
+![User interface profile selection in Onboarding](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin2167.png)
 
-If none is chosen or if the user decides to choose one later, they will be assigned the ***Default*** profile, which can be changed in ***File – Options – User Interface – Usage profile*** or in the web interface.  
+If none is chosen or if the user decides to choose one later, they will be assigned the ***Default*** profile, which can be changed in ***File – Settings – User Interface – User interface profile*** or in the web interface.
 
-![File – Options – User Interface – Usage profile](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2168.png) 
+![File – Settings – User Interface – User interface profile](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin2168.png)
 
 Users can individually change this setting in the [***Account***](/rdm/windows/user-interface/navigation-pane/account/) tab of the ***{{ en.NPANE }}***.
 
-![Account – User Interface Profile](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2166.png) 
+![Account – User interface profile](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin2166.png)
 
 ## Detailed overview
 
-Below you can find tables detailing the differences between the ***Business user*** and ***IT professional*** usage profiles.
+Below you can find tables detailing the differences between the ***Business user*** and ***IT professional*** user interface profiles.
 
 ### New entries
 
-![New entries](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2169.png) 
+![New entries](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin2169.png)
 
-This table shows the entry types that can be created depending on your usage profile.  
+This table shows the entry types that can be created depending on your user interface profile.
 
-{% snippet icon.badgeInfo %} 
+{% snippet icon.badgeInfo %}
 Note that this only applies to the creation of new entries and does not affect existing entries.
-{% endsnippet %}  
+{% endsnippet %}
 
 | ENTRY TYPES            | BUSINESS USER | IT PROFESSIONAL |
 |------------------------|:---------------:|:-----------------:|
@@ -43,7 +43,7 @@ Note that this only applies to the creation of new entries and does not affect e
 | Folder                 | {{ icon.badgeNotice | safe }} | {{ icon.badgeNotice | safe }} |
 | Contact                | {{ icon.badgeNotice | safe }} | {{ icon.badgeNotice | safe }} |
 | Document               |               | {{ icon.badgeNotice | safe }}                 |
-| VPN/Tunnel/Gateway     |               | {{ icon.badgeNotice | safe }}                 |
+| VPN/SSH/Gateway     |               | {{ icon.badgeNotice | safe }}                 |
 | IT Asset Management    |               | {{ icon.badgeNotice | safe }}                 |
 | Macro/Script/Tool      |               | {{ icon.badgeNotice | safe }}                 |
 | Synchronizer           |               | {{ icon.badgeNotice | safe }}                 |
@@ -52,9 +52,9 @@ Note that this only applies to the creation of new entries and does not affect e
 
 ### {{ en.VLT_MAJ }} Dashboard widgets
 
-![{{ en.VLT_MAJ }} Dashboard widgets](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2170.png) 
+![{{ en.VLT_MAJ }} Dashboard widgets](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin2170.png)
 
-This table shows the different widgets that can be displayed in your ***{{ en.VLT_MAJ }} Dashboard*** depending on your usage profile.  
+This table shows the different widgets that can be displayed in your ***{{ en.VLT_MAJ }} Dashboard*** depending on your user interface profile.
 
 | WIDGETS                    | BUSINESS USER | IT PROFESSIONAL |
 |----------------------------|:---------------:|:-----------------:|
@@ -74,9 +74,9 @@ This table shows the different widgets that can be displayed in your ***{{ en.VL
 
 ### Ribbon sections
 
-![Ribbon sections](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2171.png)
+![Ribbon sections](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin2171.png)
 
-This table shows the different sections that are available in your ***Ribbon*** depending on your usage profile.  
+This table shows the different sections that are available in your ***Ribbon*** depending on your user interface profile.
 
 | RIBBON SECTIONS | BUSINESS USER | IT PROFESSIONAL |
 |-----------------|:---------------:|:-----------------:|
@@ -91,13 +91,13 @@ This table shows the different sections that are available in your ***Ribbon*** 
 
 ### Entry properties
 
-![Entry properties](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2172.png)
+![Entry properties](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin2172.png)
 
-The sections that are available in ***entry properties*** are different depending on your usage profile. Business users see the simplified view of entry properties without the option to toggle to all properties, while IT professionals see all properties by default but have the option to toggle between this view and the simplified view.
+The sections that are available in ***entry properties*** are different depending on your user interface profile. Business users see the simplified view of entry properties without the option to toggle to all properties, while IT professionals see all properties by default but have the option to toggle between this view and the simplified view.
 
-{% snippet icon.badgeInfo %} 
+{% snippet icon.badgeInfo %}
 The availability of entry property sections also depends on the type of entry as usual.
-{% endsnippet %}  
+{% endsnippet %}
 
 | ENTRY PROPERTIES                     | BUSINESS USER | IT PROFESSIONAL |
 |--------------------------------------|:---------------:|:-----------------:|
@@ -107,7 +107,7 @@ The availability of entry property sections also depends on the type of entry as
 | Custom Fields                        |               | {{ icon.badgeNotice | safe }} |
 | Entry Information                    | {{ icon.badgeNotice | safe }} | {{ icon.badgeNotice | safe }} |
 | Settings                             | {{ icon.badgeNotice | safe }} | {{ icon.badgeNotice | safe }} |
-| VPN/Tunnel/Gateway                   | {{ icon.badgeNotice | safe }} | {{ icon.badgeNotice | safe }} |
+| VPN/SSH/Gateway                   | {{ icon.badgeNotice | safe }} | {{ icon.badgeNotice | safe }} |
 | Events                               |               | {{ icon.badgeNotice | safe }} |
 | One Time Password                    |               | {{ icon.badgeNotice | safe }} |
 | Permissions / Inherited Permissions  |               | {{ icon.badgeNotice | safe }} |

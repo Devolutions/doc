@@ -14,13 +14,13 @@ La fonction d'***Accès temporaire*** permet aux utilisateurs de demander une é
 
 1. Dans le ***Tableau de bord*** de {{ fr.RDM }}, sélectionnez l'entrée à laquelle vous souhaitez accorder l'accès.  
 1. Cliquer sur ***Accorder un accès temporaire*** dans le ruban.  
-![Accorder un accès temporaire](https://webdevolutions.blob.core.windows.net/docs/fr/rdm/windows/RDMWin6007.png)  
+![Accorder un accès temporaire](https://cdnweb.devolutions.net/docs/fr/rdm/windows/RDMWin6007.png)  
 1. Choisir ***Utilisateur*** et ***Durée*** dans la fenêtre ***Accorder un accès temporaire***.  
-![Accorder un accès temporaire](https://webdevolutions.blob.core.windows.net/docs/fr/rdm/windows/RDMWin6005.png)  
+![Accorder un accès temporaire](https://cdnweb.devolutions.net/docs/fr/rdm/windows/RDMWin6005.png)  
 Vous pouvez consulter les ***Dépendances de l'entrée***, comme les identifiants et les VPN liés, dans le menu à gauche.  
  1. Cliquer sur ***Définir une période de temps personnalisée*** si vous avez besoin d'accorder l'accès pour une durée déterminée et écrivez un court ***Message*** à l'utilisateur  expliquant pourquoi vous accordez l'accès.  
  1. Cliquer sur ***OK*** pour fermer la fenêtre.  
-![L'accès temporaire a été accordé](https://webdevolutions.blob.core.windows.net/docs/fr/rdm/windows/RDMWin6006.png)  
+![L'accès temporaire a été accordé](https://cdnweb.devolutions.net/docs/fr/rdm/windows/RDMWin6006.png)  
 L'***accès temporaire*** a été accordé.  
 
 ## Accorder un accès temporaire à une entrée d'identifiants avec le mode Afficher le mot de passe
@@ -29,16 +29,16 @@ Un approbateur peut configurer une entrée d'identifiants avec un accès tempora
 
 1. Dans le ***Tableau de bord*** de {{ fr.RDM }}, sélectionnez l'entrée à laquelle vous souhaitez accorder l'accès. 
 1. Aller dans ***Propriétés*** – ***Sécurité*** – ***Permissions*** – ***Général*** et régler ***Afficher le mot de passe*** sur ***Jamais***. 
-![Afficher le mot de passe](https://webdevolutions.blob.core.windows.net/docs/fr/rdm/windows/RDMWin6010.png)  
+![Afficher le mot de passe](https://cdnweb.devolutions.net/docs/fr/rdm/windows/RDMWin6010.png)  
 1. Toujours dans la même fenêtre, aller dans ***Sécurité*** – ***Paramètre de sécurité*** – ***Accès temporaire*** – ***Mode*** et choisir ***Autorisé***.
-![Autoriser un accès temporaire](https://webdevolutions.blob.core.windows.net/docs/fr/rdm/windows/RDMWin6011.png)  
+![Autoriser un accès temporaire](https://cdnweb.devolutions.net/docs/fr/rdm/windows/RDMWin6011.png)  
 1. Cliquer ***OK*** pour fermer la fenêtre.
 1. Cliquer sur ***Accorder un accès temporaire*** dans le ruban.  
-![Accorder un accès temporaire](https://webdevolutions.blob.core.windows.net/docs/fr/rdm/windows/RDMWin6007.png)  
+![Accorder un accès temporaire](https://cdnweb.devolutions.net/docs/fr/rdm/windows/RDMWin6007.png)  
 1. Choisir ***Utilisateur*** et ***Durée*** dans la fenêtre ***Accorder un accès temporaire***.  
-![Accorder un accès temporaire](https://webdevolutions.blob.core.windows.net/docs/fr/rdm/windows/RDMWin6005.png)  
+![Accorder un accès temporaire](https://cdnweb.devolutions.net/docs/fr/rdm/windows/RDMWin6005.png)  
 Vous pouvez consulter les ***Dépendances de l'entrée***, comme les identifiants et les VPN liés, dans le menu à gauche.  
  1. Cliquer sur ***Définir une période de temps personnalisée*** si vous avez besoin d'accorder l'accès pour une durée déterminée et écrivez un court ***Message*** à l'utilisateur  expliquant pourquoi vous accordez l'accès.  
  1. Cliquer sur ***OK*** pour fermer la fenêtre.  
-![L'accès temporaire a été accordé](https://webdevolutions.blob.core.windows.net/docs/fr/rdm/windows/RDMWin6006.png)  
+![L'accès temporaire a été accordé](https://cdnweb.devolutions.net/docs/fr/rdm/windows/RDMWin6006.png)  
 L'***accès temporaire*** a été accordé.  

@@ -21,11 +21,11 @@ Suivez les étapes ci-dessous pour savoir comment faire une demande d'accès tem
 
 1. Dans le ***{{ fr.NPANE }}*** de {{ fr.DVLS }}, sélectionnez l'entrée à laquelle accéder.
 1. Cliquer sur ***Plus*** – ***Demande d'accès temporaire***. 
-![Demande d'accès temporaire](https://webdevolutions.blob.core.windows.net/docs/fr/server/ServerOp6015.png)  
+![Demande d'accès temporaire](https://cdnweb.devolutions.net/docs/fr/server/ServerOp6015.png)  
 1. Dans la fenêtre ***Demande d'accès temporaire***, choisir l'approbateur à qui envoyer la demande.  
 1. Sélectionner la ***Durée de l'accès***. Vous pouvez aussi cliquer sur ***Définir une période de temps personnalisée*** si vous avez besoin d'un accès pour une durée déterminée.
 
-![Demande d'accès temporaire](https://webdevolutions.blob.core.windows.net/docs/fr/server/ServerOp6017.png)  
+![Demande d'accès temporaire](https://cdnweb.devolutions.net/docs/fr/server/ServerOp6017.png)  
 5. Rédiger un court ***Message*** à l'intention de l'approbateur expliquant les raisons de cette demande d'accès. Ce message est facultatif, mais vivement recommandé, car il permet à l'approbateur de prendre une décision plus éclairée. Lorsque terminé, cliquer sur ***Envoyer une demande***.
 
 Vous devez maintenant attendre que l'approbateur réponde à votre demande. En fonction de ses paramètres, vous serez peut-être averti par courriel lorsqu'il répondra, que la réponse soit positive ou négative.
@@ -38,11 +38,11 @@ Une fois que l'approbateur vous a approuvé l'accès, vous pouvez aller directem
 Pour n'importe quelle raison, vous pouvez révoquer votre accès temporaire. Assurez-vous d'abord que ce soit bel et bien ce que vous voulez faire, car pour retrouver l'accès à votre entrée, vous devrez faire une autre demande. Sinon, votre accès prendra fin dans le délai fixé par vous et l'approbateur.
 
 1. Aller dans ***Rapports***.  
-![Confirmer Révoquer l'accès temporaire](https://webdevolutions.blob.core.windows.net/docs/fr/server/ServerOp6002.png)
+![Confirmer Révoquer l'accès temporaire](https://cdnweb.devolutions.net/docs/fr/server/ServerOp6002.png)
 2. Sélectionner ***Rapport des demandes d'accès temporaire***.
-![Rapport des demandes d'accès temporaire](https://webdevolutions.blob.core.windows.net/docs/fr/server/ServerOp6003.png)
+![Rapport des demandes d'accès temporaire](https://cdnweb.devolutions.net/docs/fr/server/ServerOp6003.png)
 3. Cliquer sur ***Annuler la requête***.
-![Rapport des demandes d'accès temporaire](https://webdevolutions.blob.core.windows.net/docs/fr/server/ServerOp6004.png)
+![Rapport des demandes d'accès temporaire](https://cdnweb.devolutions.net/docs/fr/server/ServerOp6004.png)
 1. La prochaine fenêtre indiquera que la révocation a bien été exécutée. Cliquer sur ***Oui*** pour faire disparaître cette fenêtre. 
-![Confirmer Annuler la requête](https://webdevolutions.blob.core.windows.net/docs/fr/server/ServerOp6005.png)  
+![Confirmer Annuler la requête](https://cdnweb.devolutions.net/docs/fr/server/ServerOp6005.png)  
 Votre accès temporaire a maintenant été révoqué.

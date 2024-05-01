@@ -6,7 +6,7 @@ When opening {{ en.RDM }}, you receive the following error message;
 
 The remote server returned an error. (407) Proxy Authentication Required.  
 ## Method 1
-Please configure your proxy in ***File - Options - Proxy***.
+Please configure your proxy in ***File – Settings – Proxy***.
 ## Method 2
 Add the devolutions<area>.net in your Proxy's exception list.  
 

@@ -30,7 +30,7 @@ cards:
       - name: Getting started
         url: /server/getting-started/
       - name: Installation
-        url: /server/installation/
+        url: /server/getting-started/installation/
       - name: Privileged Access Management
         url: /server/privileged-access-management/
   - name: hub

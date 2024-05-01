@@ -3,10 +3,10 @@ eleventyComputed:
   title: "{{ en.RDM }} Security Dashboard"
   description: The Security dashboard is a tool to offer guidance on how to improve the security of the {{ en.RDM }} platform.
 ---
-The Security dashboard is a tool to offer guidance on how to improve the security of the {{ en.RDM }} platform and also tips on reducing the workload for administrators. Some tips are common infosec best practices, others are a consensus between our owns teams.  
+The Security dashboard is a tool to offer guidance on how to improve the security of the {{ en.RDM }} platform and also tips on reducing the workload for administrators. Some tips are common infosec best practices, others are a consensus between our owns teams.
 
-The scores are admittedly open to question and we do not pretend each topic has the same relative value for all of our community members. Achieving 100% is surely not an end goal in itself, we simply aim to raise awareness and provide ideas for your own security hardening.  
-![{{ en.RDM }} security dashboard](https://webdevolutions.azureedge.net/docs/docs_en_kb_KB4707.png)
+The scores are admittedly open to question and we do not pretend each topic has the same relative value for all of our community members. Achieving 100% is surely not an end goal in itself, we simply aim to raise awareness and provide ideas for your own security hardening.
+![{{ en.RDM }} security dashboard](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4707.png)
 
 ## Improvement actions items
 
@@ -43,7 +43,7 @@ Setting a minimal {{ en.RDM }} version is recommended to ensure clients are up t
 The application password should be used to encrypt sensitive information in {{ en.RDM }} configuration files.
 
 #### Mitigation
-In ***File – Options – Security – Application Security (local)***, choose ***Use application password*** and check ***Encrypt local files using the application password***.
+In ***File – Settings – Security – Application Security (local)***, choose ***Use application password*** and check ***Encrypt local files using the application password***.
 
 ---
 
@@ -125,7 +125,7 @@ In ***Administration – System Settings – Password Policy***, set ***Password
 Validating certificates guarantees that the connection is established with the intended party and protects against data interception attacks.
 
 #### Mitigation
-In ***File – Options – Security – Certificate security***, uncheck ***Ignore application certificate errors***.
+In ***File – Settings – Security – Certificate security***, uncheck ***Ignore application certificate errors***.
 
 ---
 
@@ -154,7 +154,7 @@ In ***Administration – System Settings – Security***, check ***Create {{ en.
 When presented with an unknown certificate, the RDP client should be configured to either present a warning (***Warn me***) or abort the connection (***Do not connect***).
 
 #### Mitigation
-In ***File – Options – Types – Remote Desktop***, set ***Authentication level*** to ***Warn me*** or ***Do not connect***.
+In ***File – Settings – Types – Remote Desktop***, set ***Authentication level*** to ***Warn me*** or ***Do not connect***.
 
 ---
 
@@ -162,6 +162,6 @@ In ***File – Options – Types – Remote Desktop***, set ***Authentication le
 The ZipCrypto algorithm is considered insecure and AES should be used instead. It is susceptible to known-plaintext attacks which can allow recovering the content of the archive without knowing the password (see [Why You Should Never Use the NativeZip Crypto in Windows](https://blog.devolutions.net/2020/08/why-you-should-never-use-zipcrypto/) for details on this attack).
 
 #### Mitigation
-In ***File – Options – Advanced***, uncheck ***Use ZipCrypto compression (not recommended)***.
+In ***File – Settings – Advanced***, uncheck ***Use ZipCrypto compression (not recommended)***.
 
 ---

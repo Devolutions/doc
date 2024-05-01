@@ -2,23 +2,23 @@
 eleventyComputed:
   title: Disponibilité de type
 ---
-![Paramètres du système - Disponibilité de type](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10330.png) 
+![Paramètres du système - Disponibilité de type](https://cdnweb.devolutions.net/docs/fr/rdm/windows/clip10330.png)
 
 <table>
 	<tr>
 		<th>
-		
-OPTION 
+
+OPTION
 		</th>
 		<th>
-DESCRIPTION 
+DESCRIPTION
 		</th>
 	</tr>
 		<td>
-Disponibilité de type 
+Disponibilité de type
 		</td>
 		<td>
-Les entrées exclues ne seront pas dans la fenêtre ***Ajouter une nouvelle entrée***. 
+Les entrées exclues ne seront pas dans la fenêtre ***Ajouter une nouvelle entrée***.
 		</td>
 	</tr>
 </table>

@@ -2,43 +2,42 @@
 eleventyComputed:
   title: Keyboard shortcuts
   description: Here are the default keyboard shortcuts for various commands.
---- 
+---
 
-Here are the default keyboard shortcuts for various commands. These can be modified in ***File – Preferences – User Interface – Shortcuts***.  
+Here are the default keyboard shortcuts for various commands. These can be modified in ***File – Preferences – User Interface – Shortcuts***.
 
-The ***Reset*** button undoes any shortcut custom changes that have not yet been saved. The ***Restore Defaults*** button returns all shortcuts to their default values.  
+The ***Reset*** button undoes any shortcut custom changes that have not yet been saved. The ***Restore Defaults*** button returns all shortcuts to their default values.
 
-{% snippet icon.badgeCaution %} 
-The ***Reset*** and ***Restore Defaults*** buttons erase your custom shortcuts, although ***Reset*** only erases unsaved changes. Use these options with care so as not to risk losing your custom shortcuts. 
+{% snippet icon.badgeCaution %}
+The ***Reset*** and ***Restore Defaults*** buttons erase your custom shortcuts, although ***Reset*** only erases unsaved changes. Use these options with care so as not to risk losing your custom shortcuts.
 {% endsnippet %}
- 
-{% snippet icon.badgeInfo %} 
-Visit [Keyboard shortcut customization in {{ en.RDMMAC }}](/kb/remote-desktop-manager-macos/how-to-articles/keyboard-shortcuts-customization-rdm-mac/). 
+
+{% snippet icon.badgeInfo %}
+Visit [Keyboard shortcut customization in {{ en.RDMMAC }}](/kb/remote-desktop-manager-macos/how-to-articles/keyboard-shortcuts-customization-rdm-mac/).
 {% endsnippet %}
- 
-![Keyboard shortcuts](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RDMMac2025.png) 
 
-## Default shortcuts 
+![Keyboard shortcuts](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_RDMMac2025.png)
 
-### {{ en.RDM }} 
+## Default shortcuts
 
-		</th>
-| ACTION            | SHORTCUT                                   |
+### {{ en.RDM }}
+
+| NAME              | SHORTCUT                                   |
 |-------------------|--------------------------------------------|
 | Preferences       | <kbd>Cmd</kbd>+<kbd>,</kbd>                |
 | Hide {{ en.RDM }} | <kbd>Cmd</kbd>+<kbd>H</kbd>                |
 | Hide Others       | <kbd>Alt</kbd>+<kbd>Cmd</kbd>+<kbd>H</kbd> |
 | Quit              | <kbd>Cmd</kbd>+<kbd>Q</kbd>                |
 
-### File 
-| ACTION             | SHORTCUT                                     |
+### File
+| NAME               | SHORTCUT                                     |
 |--------------------|----------------------------------------------|
 | Refresh            | <kbd>Cmd</kbd>+<kbd>R</kbd>                  |
 | Force Refresh      | <kbd>Shift</kbd>+<kbd>Cmd</kbd>+<kbd>R</kbd> |
 | Switch Data Source | <kbd>Shift</kbd>+<kbd>Cmd</kbd>+<kbd>D</kbd> |
 
-### Edit 
-| ACTION                | SHORTCUT                                                    |
+### Edit
+| NAME                  | SHORTCUT                                                    |
 |-----------------------|-------------------------------------------------------------|
 | Undo                  | <kbd>Cmd</kbd>+<kbd>Z</kbd>                                 |
 | Redo                  | <kbd>Shift</kbd>+<kbd>Cmd</kbd>+<kbd>Z</kbd>                |
@@ -55,8 +54,8 @@ Visit [Keyboard shortcut customization in {{ en.RDMMAC }}](/kb/remote-desktop-ma
 | Spelling              | <kbd>Cmd</kbd>+<kbd>:</kbd>                                 |
 | Check Spelling        | <kbd>Cmd</kbd>+<kbd>;</kbd>                                 |
 
-### View 
-| ACTION            | SHORTCUT                                    |
+### View
+| NAME              | SHORTCUT                                    |
 |-------------------|---------------------------------------------|
 | Show Toolbar      | <kbd>Alt</kbd>+<kbd>Cmd</kbd>+<kbd>T</kbd>  |
 | Hide Navigation   | <kbd>Cmd</kbd>+<kbd>N</kbd>                 |
@@ -65,15 +64,15 @@ Visit [Keyboard shortcut customization in {{ en.RDMMAC }}](/kb/remote-desktop-ma
 | Zoom Out          | <kbd>Cmd</kbd>+<kbd>-</kbd>                 |
 | Enter Full Screen | <kbd>Ctrl</kbd>+<kbd>Cmd</kbd>+<kbd>F</kbd> |
 
-### Entry 
-| ACTION                       | SHORTCUT                                     |
+### Entry
+| NAME                         | SHORTCUT                                     |
 |------------------------------|----------------------------------------------|
 | Open Session                 | <kbd>Enter</kbd>                             |
 | Delete (MnuDeleteConnection) | <kbd>Cmd</kbd>+<kbd>Backspace</kbd>          |
 | Edit Entry                   | <kbd>Shift</kbd>+<kbd>Cmd</kbd>+<kbd>E</kbd> |
 
-### Window 
-| ACTION              | SHORTCUT                                         |
+### Window
+| NAME                | SHORTCUT                                         |
 |---------------------|--------------------------------------------------|
 | Minimize            | <kbd>Cmd</kbd>+<kbd>M</kbd>                      |
 | Select Next Tab     | <kbd>Shift</kbd>+<kbd>Cmd</kbd>+<kbd>Right</kbd> |
@@ -88,7 +87,7 @@ Visit [Keyboard shortcut customization in {{ en.RDMMAC }}](/kb/remote-desktop-ma
 | Goto Bookmark 8     | <kbd>Ctrl</kbd>+<kbd>Cmd</kbd>+<kbd>8</kbd>      |
 | Goto Bookmark 9     | <kbd>Ctrl</kbd>+<kbd>Cmd</kbd>+<kbd>9</kbd>      |
 
-### Help 
-| ACTION        | SHORTCUT                    |
+### Help
+| NAME          | SHORTCUT                    |
 |---------------|-----------------------------|
 | Online Help   | <kbd>Cmd</kbd>+<kbd>?</kbd> |

@@ -2,10 +2,10 @@
 eleventyComputed:
   title: Microsoft RDP licensing protocol error
 ---
-When you connect to a remote workstation, you receive one of the errors below.  
+When you connect to a remote workstation, you receive one of the errors below.
 
-![!!KB4234](https://webdevolutions.azureedge.net/docs/en/kb/KB4234.png)  
-![!!KB4235](https://webdevolutions.azureedge.net/docs/en/kb/KB4235.png)
+![!!KB4234](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4234.png)
+![!!KB4235](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4235.png)
 
 ## Solution 1
 
@@ -16,7 +16,7 @@ When you connect to a remote workstation, you receive one of the errors below.
 
 ## Solution 2
 
-In ***File - Options - Types - RDP*** change the RDP engine to ***RDP (FreeRDP Latest)***.
+In ***File – Settings – Types – RDP*** change the RDP engine to ***RDP (FreeRDP Latest)***.
 
 ## Solution 3
 
@@ -24,7 +24,7 @@ Try to check/uncheck the ***NLA*** option located under the ***Connection*** tab
 
 ## Solution 4
 
-In some cases, and sometimes depending on the host OS, the ***CredSSP*** setting may interfere. Change its value in ***Session properties - General - Advanced*** Tab.
+In some cases, and sometimes depending on the host OS, the ***CredSSP*** setting may interfere. Change its value in ***Session properties – General – Advanced*** Tab.
 
 ## Solution 5
 

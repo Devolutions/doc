@@ -20,5 +20,5 @@ Nous utilisons une approche de « meilleur effort » pour maintenir cette liste 
 | Icônes du site Web (favicône)  | https<area>://iconcache.devolutions.com                                        | Le service favicône de Devolutions pour les entrées de sites Web |
 | Avatars d'utilisateurs         | https<area>://secure.gravatar.com<br>https<area>://ui-avatars.com<br>https<area>://i2.wp.com | Service des avatars |
 | Certains graphiques            | https<area>://chart.googleapis.com                                             | Service de graphiques à afficher dans les tableaux de bord |
-| Certaines images               | https<area>://webdevolutions.blob.core.windows.net                             | Service pour les images |
+| Certaines images               | https<area>://cdnweb.devolutions.net                             | Service pour les images |
 | Certaines icônes               | https<area>://use.fontawesome.com/                                             | Fournisseur d'icônes |

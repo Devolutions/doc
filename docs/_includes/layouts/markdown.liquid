@@ -55,14 +55,12 @@ layout: 'layouts/base.liquid'
       </div>
     </div>
 
-    <main class="prose markdown">
-      {{- content -}}
+    <main class="[grid-area:md] max-w-[1076px] mx-auto w-full">
+      {{- content | gTab -}}
 
-      <a class="button feedback-type-product github-link" aria-label="Send feedback about this page" data-bi-name="create-issue-on-github" href="https://github.com/Devolutions/doc/issues/new?template=feedback.yml&title={{- '[Feedback]: ' | encodeURIComponent -}}&feedback={{- feedbackBody | encodeURIComponent -}}" target="_blank">
-        <span class="icon" aria-hidden="true">
-          {{- icons.github -}}
-        </span>
-        <span class="text">{{- locale[lang].labelFeedbackButton -}}</span>
+      <a class="flex items-center mt-4 p-1.5 w-fit border border-black font-semibold hover:bg-neutral-200" aria-label="Send feedback about this page" data-bi-name="create-issue-on-github" href="https://github.com/Devolutions/doc/issues/new?template=feedback.yml&title={{- '[Feedback]: ' | encodeURIComponent -}}&feedback={{- feedbackBody | encodeURIComponent -}}" target="_blank">
+        {{- icons.github -}}
+        <span class="ml-1.5 text-base/4">{{- locale[lang].labelFeedbackButton -}}</span>
       </a>
     </main>
   </div>

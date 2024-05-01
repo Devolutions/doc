@@ -2,58 +2,58 @@
   "projects": {
     "rdm": {
       "isTopic": true,
-      "icon": "https://webdevolutions.azureedge.net/images/projects/remote-desktop-manager/logos/remote-desktop-manager-icon-shadow.svg",
-      "logo": "https://webdevolutions.azureedge.net/images/projects/remote-desktop-manager/logos/remote-desktop-manager-color-shadow.svg",
+      "icon": "https://cdnweb.devolutions.net/images/projects/remote-desktop-manager/logos/remote-desktop-manager-icon-shadow.svg",
+      "logo": "https://cdnweb.devolutions.net/images/projects/remote-desktop-manager/logos/remote-desktop-manager-color-shadow.svg",
       "url": "/fr/rdm/overview/what-is-rdm/",
       "formattedName": "<b>Remote Desktop</b> Manager"
     },
     "rdm/windows": {
       "isTopic": false,
-      "icon": "https://webdevolutions.azureedge.net/images/projects/remote-desktop-manager/logos/remote-desktop-manager-icon-shadow.svg",
-      "logo": "https://webdevolutions.azureedge.net/images/projects/remote-desktop-manager/logos/remote-desktop-manager-color-shadow.svg",
+      "icon": "https://cdnweb.devolutions.net/images/projects/remote-desktop-manager/logos/remote-desktop-manager-icon-shadow.svg",
+      "logo": "https://cdnweb.devolutions.net/images/projects/remote-desktop-manager/logos/remote-desktop-manager-color-shadow.svg",
       "url": "/fr/rdm/overview/what-is-rdm/",
       "formattedName": "<b>Remote Desktop</b> Manager",
       "os": "windows"
     },
     "rdm/mac": {
       "isTopic": false,
-      "icon": "https://webdevolutions.azureedge.net/images/projects/remote-desktop-manager/logos/remote-desktop-manager-icon-shadow.svg",
-      "logo": "https://webdevolutions.azureedge.net/images/projects/remote-desktop-manager/logos/remote-desktop-manager-color-shadow.svg",
+      "icon": "https://cdnweb.devolutions.net/images/projects/remote-desktop-manager/logos/remote-desktop-manager-icon-shadow.svg",
+      "logo": "https://cdnweb.devolutions.net/images/projects/remote-desktop-manager/logos/remote-desktop-manager-color-shadow.svg",
       "url": "/fr/rdm/mac/overview/what-is-rdm/",
       "formattedName": "<b>Remote Desktop</b> Manager",
       "os": "apple"
     },
     "gateway": {
       "isTopic": false,
-      "icon": "https://webdevolutions.azureedge.net/images/projects/gateway/logos/gateway-icon-shadow.svg",
-      "logo": "https://webdevolutions.azureedge.net/images/projects/gateway/logos/gateway-color-shadow.svg",
+      "icon": "https://cdnweb.devolutions.net/images/projects/gateway/logos/gateway-icon-shadow.svg",
+      "logo": "https://cdnweb.devolutions.net/images/projects/gateway/logos/gateway-color-shadow.svg",
       "formattedName": "<b>Devolutions</b> Gateway"
     },
     "kb": {
       "isTopic": true,
-      "icon": "https://webdevolutions.azureedge.net/images/projects/base-de-connaissances/logos/base-de-connaissances-icon-shadow.svg",
-      "logo": "https://webdevolutions.azureedge.net/images/projects/base-de-connaissances/logos/base-de-connaissances-color-shadow.svg",
+      "icon": "https://cdnweb.devolutions.net/images/projects/base-de-connaissances/logos/base-de-connaissances-icon-shadow.svg",
+      "logo": "https://cdnweb.devolutions.net/images/projects/base-de-connaissances/logos/base-de-connaissances-color-shadow.svg",
       "url": "/fr/kb/devolutions-customer-success/",
       "formattedName": "Base de connaissances de <b>Devolutions</b>"
     },
     "server": {
       "isTopic": true,
-      "icon": "https://webdevolutions.azureedge.net/images/projects/server/logos/server-icon-shadow.svg",
-      "logo": "https://webdevolutions.azureedge.net/images/projects/server/logos/server-color-shadow.svg",
+      "icon": "https://cdnweb.devolutions.net/images/projects/server/logos/server-icon-shadow.svg",
+      "logo": "https://cdnweb.devolutions.net/images/projects/server/logos/server-color-shadow.svg",
       "url": "/fr/server/overview/what-is-server/",
       "formattedName": "<b>Devolutions</b> Server"
     },
     "hub": {
       "isTopic": true,
-      "icon": "https://webdevolutions.azureedge.net/images/projects/devolutions-hub/devolutions-hub-icon-shadow.svg",
-      "logo": "https://webdevolutions.azureedge.net/images/projects/devolutions-hub/devolutions-hub-color-shadow.svg",
+      "icon": "https://cdnweb.devolutions.net/images/projects/devolutions-hub/devolutions-hub-icon-shadow.svg",
+      "logo": "https://cdnweb.devolutions.net/images/projects/devolutions-hub/devolutions-hub-color-shadow.svg",
       "url": "/fr/hub/overview/what-is-hub/",
       "formattedName": "<b>Devolutions</b> Hub"
     },
     "cloud": {
       "isTopic": true,
-      "icon": "https://webdevolutions.azureedge.net/images/projects/cloud/logos/cloud-icon-shadow.svg",
-      "logo": "https://webdevolutions.azureedge.net/images/projects/cloud/logos/cloud-color-shadow.svg",
+      "icon": "https://cdnweb.devolutions.net/images/projects/cloud/logos/cloud-icon-shadow.svg",
+      "logo": "https://cdnweb.devolutions.net/images/projects/cloud/logos/cloud-color-shadow.svg",
       "url": "/fr/cloud/getting-started/devolutions-cloud-services/",
       "formattedName": "Services en ligne de <b>Devolutions</b>"
     }

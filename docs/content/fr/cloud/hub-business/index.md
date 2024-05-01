@@ -6,4 +6,4 @@ eleventyComputed:
 
 Pour en savoir plus, commencer votre [essai gratuit de 30 jours](https://password.devolutions.net/fr).
 
-![!!Cloud4044](https://webdevolutions.azureedge.net/docs/fr/cloud/Cloud4044.png)
+![!!Cloud4044](https://cdnweb.devolutions.net/docs/fr/cloud/Cloud4044.png)

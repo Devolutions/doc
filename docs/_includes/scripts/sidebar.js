@@ -14,6 +14,7 @@ document.addEventListener('DOMContentLoaded', () => {
           if (newContent) {
             markdownContainer.innerHTML = newContent.innerHTML;
             dwdTabs.init();
+            globalTab.init();
             window.history.pushState({html: newContent.innerHTML, pageTitle: document.title, sidebar: sidebar.innerHTML}, '', url);
             window.scrollTo(0, 0);
           }
@@ -38,10 +39,18 @@ document.addEventListener('DOMContentLoaded', () => {
 
   window.addEventListener('popstate', function(event) {
     if (event.state) {
-      markdownContainer.innerHTML = event.state.html;
+      if (event.state.html) {
+        markdownContainer.innerHTML = event.state.html;
+      }
+
       dwdTabs.init();
+      globalTab.init();
+
       document.title = event.state.pageTitle;
-      document.querySelector('.navigation').innerHTML = event.state.sidebar;
+
+      if (event.state.sidebar) {
+        document.querySelector('.navigation').innerHTML = event.state.sidebar;
+      }
 
       window.scrollTo(0, 0);
     }

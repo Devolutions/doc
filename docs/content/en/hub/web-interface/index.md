@@ -3,8 +3,8 @@ eleventyComputed:
   title: Web interface
   order: 20
 ---
-Navigate and explore the menus through the different sections of {{ en.DHUBB }} and manage your data.  
-![!!Hub4093](https://webdevolutions.azureedge.net/docs/en/hub/Hub4093.png) 
+Navigate and explore the menus through the different sections of {{ en.DHUBB }} and manage your data.
+![Web interface](https://cdnweb.devolutions.net/docs/HUBB6005_2024_1.png)
 
 | Options                 | Description                                                                                                        |
 |-------------------------|--------------------------------------------------------------------------------------------------------------------|

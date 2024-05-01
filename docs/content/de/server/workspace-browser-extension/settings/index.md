@@ -3,15 +3,15 @@ eleventyComputed:
   title: Einstellungen
   order: 20
 ---
-Die Einstellungen der {{ de.WBEX }} sind über die Schaltfläche ***Einstellungen*** in der Oberfläche der Browser-Erweiterung verfügbar, unabhängig davon, welche Devolutions-Anwendung Sie zusammen mit der {{ de.WBEX }} verwenden.  
-![{{ de.WBEX }} Einstellungen](https://webdevolutions.azureedge.net/docs/de/dwl/Dwl2000.png)
+Die Einstellungen der {{ de.WBEX }} sind über die Schaltfläche ***Einstellungen*** in der Oberfläche der Browser-Erweiterung verfügbar, unabhängig davon, welche Devolutions-Anwendung Sie zusammen mit der {{ de.WBEX }} verwenden.
+![{{ de.WBEX }} Einstellungen](https://cdnweb.devolutions.net/docs/de/dwl/Dwl2000.png)
 
 Die ***Einstellungen*** sind in zwei Kategorien unterteilt: [***Konfiguration***](#konfiguration) und [***Datenquellen***](#datenquellen).
 
-![{{ de.WBEX }} Einstellungen](https://webdevolutions.azureedge.net/docs/de/dwl/Dwl4027.png)
+![{{ de.WBEX }} Einstellungen](https://cdnweb.devolutions.net/docs/de/dwl/Dwl4027.png)
 
 ### Konfiguration
-Die ***Allgemeinen*** Einstellungen betreffen die Benutzeroberfläche und die Interaktion.  
+Die ***Allgemeinen*** Einstellungen betreffen die Benutzeroberfläche und die Interaktion.
 
 * Registerkarte ***Allgemein***
     * Das Symbol der {{ de.WBEX }} in den Felder für die Anmeldeinformationen anzeigen.
@@ -23,12 +23,12 @@ Die ***Allgemeinen*** Einstellungen betreffen die Benutzeroberfläche und die In
     * Telemetrie deaktivieren.
     * Beta-Versionen der {{ de.WBEX }} aktivieren.
 
-Die ***Ausnahmen*** ermöglichen eine Liste von Websites zu hinterlegen, bei denen der Benutzer keine Benachrichtigung erhält, die eingegebenen Anmeldeinformationen zu speichern.  
+Die ***Ausnahmen*** ermöglichen eine Liste von Websites zu hinterlegen, bei denen der Benutzer keine Benachrichtigung erhält, die eingegebenen Anmeldeinformationen zu speichern.
 
 * Die möglichen Optionen lauten: ***Diese Seite nicht hinzufügen***, ***Nie Automatisch ausfüllen***, ***Nie etwas durchführen*** und ***Keine Symbole in Felder anzeigen***.
-* Diese Einstellungen lassen sich für ***Basisdomäne***, ***Host***, ***Beginnt mit***, ***RegEx***, und ***Exakt***e Werte konfigurieren.  
+* Diese Einstellungen lassen sich für ***Basisdomäne***, ***Host***, ***Beginnt mit***, ***RegEx***, und ***Exakt***e Werte konfigurieren.
 
-Die ***Import- / Export- Einstellungen*** ermöglichen das Speichern und Übertragen der aktuellen Einstellungen.  
+Die ***Import- / Export- Einstellungen*** ermöglichen das Speichern und Übertragen der aktuellen Einstellungen.
 
 * Einstellungen von anderen Browsern oder Benutzern importieren.
 * Auswählen, ob die ***Einstellungen*** für die {{ de.WBEX }}, ***Passwort Generator***  und ***Ausnahmen*** exportiert werden sollen.

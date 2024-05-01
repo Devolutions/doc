@@ -13,7 +13,7 @@ File based data sources (XML, SQLite, etc.) are by default stored in the configu
 {% endsnippet %}
 
 {% snippet icon.badgeInfo %}
-The paths mentioned here are for those that have installed using the default settings. The best way to locate your configuration folder is to go to ***File – Options – Advanced***. You will find a hyperlink near the bottom under the ***Information*** section that opens your configuration folder.
+The paths mentioned here are for those that have installed using the default settings. The best way to locate your configuration folder is to go to ***File – Settings – Advanced***. You will find a hyperlink near the bottom under the ***Information*** section that opens your configuration folder.
 {% endsnippet %}
 
 {% snippet icon.badgeCaution %}

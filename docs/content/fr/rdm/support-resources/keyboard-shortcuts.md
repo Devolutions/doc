@@ -5,36 +5,36 @@ eleventyComputed:
   keywords:
   - Raccourcis clavier
 ---
-Voici les raccourcis clavier par défaut pour diverses commandes. Ceux-ci peuvent être modifiés dans ***Fichier – Options – Interface utilisateur – Clavier***.  
+Voici les raccourcis clavier par défaut pour diverses commandes. Ceux-ci peuvent être modifiés dans ***Fichier – Options – Interface utilisateur – Clavier***.
 
-Le bouton ***Désactiver tout*** vous permet de désactiver tous les raccourcis. Le bouton ***Réinitialiser par défaut*** permet de rétablir les valeurs par défaut des raccourcis. 
+Le bouton ***Désactiver tout*** vous permet de désactiver tous les raccourcis. Le bouton ***Réinitialiser par défaut*** permet de rétablir les valeurs par défaut des raccourcis.
 
-{% snippet icon.badgeCaution %} 
-Les boutons ***Désactiver tout*** et ***Réinitialiser par défaut*** effacent vos raccourcis personnalisés. Utilisez ces options avec précaution afin de ne pas risquer la perte de vos raccourcis personnalisés. 
+{% snippet icon.badgeCaution %}
+Les boutons ***Désactiver tout*** et ***Réinitialiser par défaut*** effacent vos raccourcis personnalisés. Utilisez ces options avec précaution afin de ne pas risquer la perte de vos raccourcis personnalisés.
 {% endsnippet %}
- 
-{% snippet icon.badgeInfo %} 
-Consultez [Keyboard shortcuts customization in {{ fr.RDMWIN }} (EN)](/kb/remote-desktop-manager/how-to-articles/keyboard-shortcuts-customization-rdm-windows/). 
+
+{% snippet icon.badgeInfo %}
+Consultez [Keyboard shortcuts customization in {{ fr.RDMWIN }} (EN)](/kb/remote-desktop-manager/how-to-articles/keyboard-shortcuts-customization-rdm-windows/).
 {% endsnippet %}
- 
-![Raccourcis clavier](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RDMWin2061.png) 
 
-## Raccourcis par défaut 
+![Raccourcis clavier](https://cdnweb.devolutions.net/docs/fr/rdm/windows/RDMWin2061.png)
 
-### Actions 
+## Raccourcis par défaut
+
+### Actions
 
 <table>
 	<tr>
-		<th>		
-ACTION 
+		<th>
+ACTION
 		</th>
 		<th>
-RACCOURCI 
+RACCOURCI
 		</th>
 	</tr>
 	<tr>
 		<td>
-Exécuter la macro de frappe 
+Exécuter la macro de frappe
 		</td>
 		<td>
 <kbd>Ctrl</kbd>+<kbd>Maj</kbd>+<kbd>A</kbd>
@@ -42,7 +42,7 @@ Exécuter la macro de frappe
 	</tr>
 	<tr>
 		<td>
-Ouvrir (externe) 
+Ouvrir (externe)
 		</td>
 		<td>
 <kbd>Maj</kbd>+<kbd>Entrée</kbd>
@@ -50,7 +50,7 @@ Ouvrir (externe)
 	</tr>
 	<tr>
 		<td>
-Ouvrir (intégrée / à onglet) 
+Ouvrir (intégrée / à onglet)
 		</td>
 		<td>
 <kbd>Ctrl</kbd>+<kbd>Entrée</kbd>
@@ -58,7 +58,7 @@ Ouvrir (intégrée / à onglet)
 	</tr>
 	<tr>
 		<td>
-Ouvrir en plein écran 
+Ouvrir en plein écran
 		</td>
 		<td>
 <kbd>Alt</kbd>+<kbd>Entrée</kbd>
@@ -66,7 +66,7 @@ Ouvrir en plein écran
 	</tr>
 	<tr>
 		<td>
-Parcourir l'adresse URL 
+Parcourir l'adresse URL
 		</td>
 		<td>
 <kbd>Entrée</kbd>
@@ -74,7 +74,7 @@ Parcourir l'adresse URL
 	</tr>
 	<tr>
 		<td>
-Presse-papiers - Copier l'hôte 
+Presse-papiers - Copier l'hôte
 		</td>
 		<td>
 <kbd>Ctrl</kbd>+<kbd>H</kbd>
@@ -82,7 +82,7 @@ Presse-papiers - Copier l'hôte
 	</tr>
 	<tr>
 		<td>
-Presse-papiers - Copier la chaîne de connexion 
+Presse-papiers - Copier la chaîne de connexion
 		</td>
 		<td>
 <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>H</kbd>
@@ -90,7 +90,7 @@ Presse-papiers - Copier la chaîne de connexion
 	</tr>
 	<tr>
 		<td>
-Presse-papiers - Copier le domaine 
+Presse-papiers - Copier le domaine
 		</td>
 		<td>
 <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>B</kbd>
@@ -98,7 +98,7 @@ Presse-papiers - Copier le domaine
 	</tr>
 	<tr>
 		<td>
-Presse-papiers - Copier le mot de passe 
+Presse-papiers - Copier le mot de passe
 		</td>
 		<td>
 <kbd>Ctrl</kbd>+<kbd>Maj</kbd>+<kbd>B</kbd>
@@ -106,7 +106,7 @@ Presse-papiers - Copier le mot de passe
 	</tr>
 	<tr>
 		<td>
-Presse-papiers - Copier le nom d'utilisateur 
+Presse-papiers - Copier le nom d'utilisateur
 		</td>
 		<td>
 <kbd>Ctrl</kbd>+<kbd>B</kbd>
@@ -114,7 +114,7 @@ Presse-papiers - Copier le nom d'utilisateur
 	</tr>
 	<tr>
 		<td>
-Presse-papiers - Copier l'URL 
+Presse-papiers - Copier l'URL
 		</td>
 		<td>
 <kbd>Ctrl</kbd>+<kbd>Maj</kbd>+<kbd>H</kbd>
@@ -122,7 +122,7 @@ Presse-papiers - Copier l'URL
 	</tr>
 	<tr>
 		<td>
-Voir mot de passe 
+Voir mot de passe
 		</td>
 		<td>
 <kbd>Ctrl</kbd>+<kbd>P</kbd>
@@ -130,20 +130,20 @@ Voir mot de passe
 	</tr>
 </table>
 
-### Affichage 
+### Affichage
 
 <table>
 	<tr>
 		<th>
-ACTION 
+ACTION
 		</th>
 		<th>
-RACCOURCI 
+RACCOURCI
 		</th>
 	</tr>
 	<tr>
 		<td>
-Barre d'état 
+Barre d'état
 		</td>
 		<td>
 <kbd>Alt</kbd>+<kbd>F7</kbd>
@@ -151,7 +151,7 @@ Barre d'état
 	</tr>
 	<tr>
 		<td>
-Basculer visionnement uniquement RDP 
+Basculer visionnement uniquement RDP
 		</td>
 		<td>
 <kbd>Maj</kbd>+<kbd>F3</kbd>
@@ -159,7 +159,7 @@ Basculer visionnement uniquement RDP
 	</tr>
 	<tr>
 		<td>
-{{ fr.VLT_MAJ }} 
+{{ fr.VLT_MAJ }}
 		</td>
 		<td>
 <kbd>F6</kbd>
@@ -167,7 +167,7 @@ Basculer visionnement uniquement RDP
 	</tr>
 	<tr>
 		<td>
-Favoris 
+Favoris
 		</td>
 		<td>
 <kbd>F9</kbd>
@@ -175,7 +175,7 @@ Favoris
 	</tr>
 	<tr>
 		<td>
-Gestionnaire de listes d'exécution 
+Gestionnaire de listes d'exécution
 		</td>
 		<td>
 <kbd>Ctrl</kbd>+<kbd>G</kbd>
@@ -183,7 +183,7 @@ Gestionnaire de listes d'exécution
 	</tr>
 	<tr>
 		<td>
-Mon {{ fr.UVLT }} 
+Mon {{ fr.UVLT }}
 		</td>
 		<td>
 <kbd>F7</kbd>
@@ -191,7 +191,7 @@ Mon {{ fr.UVLT }}
 	</tr>
 	<tr>
 		<td>
-Récent 
+Récent
 		</td>
 		<td>
 <kbd>F10</kbd>
@@ -199,15 +199,15 @@ Récent
 	</tr>
 	<tr>
 		<td>
-Recherche avancée... 
+Recherche avancée...
 		</td>
 		<td>
 <kbd>F11</kbd>
 		</td>
 	</tr>
 	<tr>
-		<td>		
-Recherche multi-{{ fr.VLT }}s... 
+		<td>
+Recherche multi-{{ fr.VLT }}s...
 		</td>
 		<td>
 <kbd>F12</kbd>
@@ -215,7 +215,7 @@ Recherche multi-{{ fr.VLT }}s...
 	</tr>
 	<tr>
 		<td>
-Sessions ouvertes 
+Sessions ouvertes
 		</td>
 		<td>
 <kbd>F8</kbd>
@@ -223,7 +223,7 @@ Sessions ouvertes
 	</tr>
 	<tr>
 		<td>
-Tableau de bord 
+Tableau de bord
 		</td>
 		<td>
 <kbd>Alt</kbd>+<kbd>F6</kbd>
@@ -231,7 +231,7 @@ Tableau de bord
 	</tr>
 	<tr>
 		<td>
-<b><i>{{ fr.NPANE }}</i></b> 
+<b><i>{{ fr.NPANE }}</i></b>
 		</td>
 		<td>
 <kbd>Alt</kbd>+<kbd>F8</kbd>
@@ -239,15 +239,15 @@ Tableau de bord
 	</tr>
 	<tr>
 		<td>
-Volet des onglets regroupés 
+Volet des onglets regroupés
 		</td>
 		<td>
 <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>F9</kbd>
 		</td>
 	</tr>
 	<tr>
-		<td>	
-Volet du haut 
+		<td>
+Volet du haut
 		</td>
 		<td>
 <kbd>Alt</kbd>+<kbd>Maj</kbd>+<kbd>F6</kbd>
@@ -255,7 +255,7 @@ Volet du haut
 	</tr>
 	<tr>
 		<td>
-Volet entrées à onglets 
+Volet entrées à onglets
 		</td>
 		<td>
 <kbd>Alt</kbd>+<kbd>F9</kbd>
@@ -263,7 +263,7 @@ Volet entrées à onglets
 	</tr>
 	<tr>
 		<td>
-Volet supérieur (Ruban/Barre de menu) 
+Volet supérieur (Ruban/Barre de menu)
 		</td>
 		<td>
 <kbd>Alt</kbd>+<kbd>F11</kbd>
@@ -271,20 +271,20 @@ Volet supérieur (Ruban/Barre de menu)
 	</tr>
 </table>
 
-### Général 
+### Général
 
 <table>
 	<tr>
 		<th>
-ACTION 
+ACTION
 		</th>
 		<th>
-RACCOURCI 
+RACCOURCI
 		</th>
 	</tr>
 	<tr>
 		<td>
-Actualiser 
+Actualiser
 		</td>
 		<td>
 <kbd>F5</kbd>
@@ -300,7 +300,7 @@ Aide en ligne
 	</tr>
 	<tr>
 		<td>
-Connexion rapide 
+Connexion rapide
 		</td>
 		<td>
 <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Q</kbd>
@@ -308,7 +308,7 @@ Connexion rapide
 	</tr>
 	<tr>
 		<td>
-Filtrer... 
+Filtrer...
 		</td>
 		<td>
 <kbd>Ctrl</kbd>+<kbd>F</kbd>
@@ -316,7 +316,7 @@ Filtrer...
 	</tr>
 	<tr>
 		<td>
-Forcer l'actualisation 
+Forcer l'actualisation
 		</td>
 		<td>
 <kbd>Ctrl</kbd>+<kbd>F5</kbd>
@@ -324,7 +324,7 @@ Forcer l'actualisation
 	</tr>
 	<tr>
 		<td>
-Profileur... 
+Profileur...
 		</td>
 		<td>
 <kbd>Ctrl</kbd>+<kbd>F12</kbd>
@@ -332,7 +332,7 @@ Profileur...
 	</tr>
 	<tr>
 		<td>
-Recherche rapide... 
+Recherche rapide...
 		</td>
 		<td>
 <kbd>Ctrl</kbd>+<kbd>Espace</kbd>
@@ -340,20 +340,20 @@ Recherche rapide...
 	</tr>
 </table>
 
-### Importer/Exporter 
+### Importer/Exporter
 
 <table>
 	<tr>
 		<th>
-ACTION 
+ACTION
 		</th>
 		<th>
-RACCOURCI 
+RACCOURCI
 		</th>
 	</tr>
 	<tr>
 		<td>
-Importer (.rdm)... 
+Importer (.rdm)...
 		</td>
 		<td>
 <kbd>Ctrl</kbd>+<kbd>Maj</kbd>+<kbd>I</kbd>
@@ -361,20 +361,20 @@ Importer (.rdm)...
 	</tr>
 </table>
 
-### Modifier 
+### Modifier
 
 <table>
 	<tr>
 		<th>
-ACTION 
+ACTION
 		</th>
 		<th>
-RACCOURCI 
+RACCOURCI
 		</th>
 	</tr>
 	<tr>
 		<td>
-Ajouter de identifiants 
+Ajouter de identifiants
 		</td>
 		<td>
 <kbd>Alt</kbd>+<kbd>Maj</kbd>+<kbd>N</kbd>
@@ -382,7 +382,7 @@ Ajouter de identifiants
 	</tr>
 	<tr>
 		<td>
-Ajouter un dossier 
+Ajouter un dossier
 		</td>
 		<td>
 <kbd>Ctrl</kbd>+<kbd>Maj</kbd>+<kbd>N</kbd>
@@ -390,7 +390,7 @@ Ajouter un dossier
 	</tr>
 	<tr>
 		<td>
-Ajouter une information 
+Ajouter une information
 		</td>
 		<td>
 <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>N</kbd>
@@ -398,7 +398,7 @@ Ajouter une information
 	</tr>
 	<tr>
 		<td>
-Ajouter une session 
+Ajouter une session
 		</td>
 		<td>
 <kbd>Ctrl</kbd>+<kbd>N</kbd>
@@ -406,7 +406,7 @@ Ajouter une session
 	</tr>
 	<tr>
 		<td>
-Dupliquer 
+Dupliquer
 		</td>
 		<td>
 <kbd>Ctrl</kbd>+<kbd>D</kbd>
@@ -414,7 +414,7 @@ Dupliquer
 	</tr>
 	<tr>
 		<td>
-Modifier l'entrée 
+Modifier l'entrée
 		</td>
 		<td>
 <kbd>Ctrl</kbd>+<kbd>E</kbd>
@@ -422,7 +422,7 @@ Modifier l'entrée
 	</tr>
 	<tr>
 		<td>
-Nouvelle entrée 
+Nouvelle entrée
 		</td>
 		<td>
 <kbd>Ins</kbd>
@@ -430,7 +430,7 @@ Nouvelle entrée
 	</tr>
 	<tr>
 		<td>
-Paramètres spécifiques de l'usager 
+Paramètres spécifiques de l'usager
 		</td>
 		<td>
 <kbd>Ctrl</kbd>+<kbd>Maj</kbd>+<kbd>E</kbd>
@@ -438,7 +438,7 @@ Paramètres spécifiques de l'usager
 	</tr>
 	<tr>
 		<td>
-Paramètres spécifiques locaux 
+Paramètres spécifiques locaux
 		</td>
 		<td>
 <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>E</kbd>
@@ -446,7 +446,7 @@ Paramètres spécifiques locaux
 	</tr>
 	<tr>
 		<td>
-Renommer 
+Renommer
 		</td>
 		<td>
 <kbd>F2</kbd>
@@ -454,7 +454,7 @@ Renommer
 	</tr>
 	<tr>
 		<td>
-Supprimer... 
+Supprimer...
 		</td>
 		<td>
 <kbd>Ctrl</kbd>+<kbd>Suppr</kbd>
@@ -462,20 +462,20 @@ Supprimer...
 	</tr>
 </table>
 
-### Navigation 
+### Navigation
 
 <table>
 	<tr>
 		<th>
-ACTION 
+ACTION
 		</th>
 		<th>
-RACCOURCI 
+RACCOURCI
 		</th>
 	</tr>
 	<tr>
 		<td>
-Aller au signet 1 
+Aller au signet 1
 		</td>
 		<td>
 <kbd>Ctrl</kbd>+<kbd>1</kbd>
@@ -483,7 +483,7 @@ Aller au signet 1
 	</tr>
 	<tr>
 		<td>
-Aller au signet 2 
+Aller au signet 2
 		</td>
 		<td>
 <kbd>Ctrl</kbd>+<kbd>2</kbd>
@@ -491,7 +491,7 @@ Aller au signet 2
 	</tr>
 	<tr>
 		<td>
-Aller au signet 3 
+Aller au signet 3
 		</td>
 		<td>
 <kbd>Ctrl</kbd>+<kbd>3</kbd>
@@ -499,7 +499,7 @@ Aller au signet 3
 	</tr>
 	<tr>
 		<td>
-Aller au signet 4 
+Aller au signet 4
 		</td>
 		<td>
 <kbd>Ctrl</kbd>+<kbd>4</kbd>
@@ -507,7 +507,7 @@ Aller au signet 4
 	</tr>
 	<tr>
 		<td>
-Aller au signet 5 
+Aller au signet 5
 		</td>
 		<td>
 <kbd>Ctrl</kbd>+<kbd>5</kbd>
@@ -515,7 +515,7 @@ Aller au signet 5
 	</tr>
 	<tr>
 		<td>
-Aller au signet 6 
+Aller au signet 6
 		</td>
 		<td>
 <kbd>Ctrl</kbd>+<kbd>6</kbd>
@@ -523,7 +523,7 @@ Aller au signet 6
 	</tr>
 	<tr>
 		<td>
-Aller au signet 7 
+Aller au signet 7
 		</td>
 		<td>
 <kbd>Ctrl</kbd>+<kbd>7</kbd>
@@ -531,7 +531,7 @@ Aller au signet 7
 	</tr>
 	<tr>
 		<td>
-Aller au signet 8 
+Aller au signet 8
 		</td>
 		<td>
 <kbd>Ctrl</kbd>+<kbd>8</kbd>
@@ -539,7 +539,7 @@ Aller au signet 8
 	</tr>
 	<tr>
 		<td>
-Aller au signet 9 
+Aller au signet 9
 		</td>
 		<td>
 <kbd>Ctrl</kbd>+<kbd>9</kbd>
@@ -549,13 +549,13 @@ Aller au signet 9
 		<td>
 Rechercher dans le ruban
 		</td>
-		<td>		
+		<td>
 <kbd>Ctrl</kbd>+<kbd>9</kbd>
 		</td>
 	</tr>
 	<tr>
 		<td>
-Changer de {{ fr.VLT }} 
+Changer de {{ fr.VLT }}
 		</td>
 		<td>
 <kbd>Ctrl</kbd>+<kbd>Maj</kbd>+<kbd>R</kbd>
@@ -563,7 +563,7 @@ Changer de {{ fr.VLT }}
 	</tr>
 	<tr>
 		<td>
-Changer source de données 
+Changer source de données
 		</td>
 		<td>
 <kbd>Ctrl</kbd>+<kbd>Maj</kbd>+<kbd>D</kbd>
@@ -571,7 +571,7 @@ Changer source de données
 	</tr>
 	<tr>
 		<td>
-Définir un signet 1 
+Définir un signet 1
 		</td>
 		<td>
 <kbd>Ctrl</kbd>+<kbd>Maj</kbd>+<kbd>1</kbd>
@@ -579,7 +579,7 @@ Définir un signet 1
 	</tr>
 	<tr>
 		<td>
-Définir un signet 2 
+Définir un signet 2
 		</td>
 		<td>
 <kbd>Ctrl</kbd>+<kbd>Maj</kbd>+<kbd>2</kbd>
@@ -587,7 +587,7 @@ Définir un signet 2
 	</tr>
 	<tr>
 		<td>
-Définir un signet 3 
+Définir un signet 3
 		</td>
 		<td>
 <kbd>Ctrl</kbd>+<kbd>Maj</kbd>+<kbd>3</kbd>
@@ -595,7 +595,7 @@ Définir un signet 3
 	</tr>
 	<tr>
 		<td>
-Définir un signet 4 
+Définir un signet 4
 		</td>
 		<td>
 <kbd>Ctrl</kbd>+<kbd>Maj</kbd>+<kbd>4</kbd>
@@ -603,7 +603,7 @@ Définir un signet 4
 	</tr>
 	<tr>
 		<td>
-Définir un signet 5 
+Définir un signet 5
 		</td>
 		<td>
 <kbd>Ctrl</kbd>+<kbd>Maj</kbd>+<kbd>5</kbd>
@@ -611,7 +611,7 @@ Définir un signet 5
 	</tr>
 	<tr>
 		<td>
-Définir un signet 6 
+Définir un signet 6
 		</td>
 		<td>
 <kbd>Ctrl</kbd>+<kbd>Maj</kbd>+<kbd>6</kbd>
@@ -619,7 +619,7 @@ Définir un signet 6
 	</tr>
 	<tr>
 		<td>
-Définir un signet7 
+Définir un signet7
 		</td>
 		<td>
 <kbd>Ctrl</kbd>+<kbd>Maj</kbd>+<kbd>7</kbd>
@@ -627,7 +627,7 @@ Définir un signet7
 	</tr>
 	<tr>
 		<td>
-Définir un signet 8 
+Définir un signet 8
 		</td>
 		<td>
 <kbd>Ctrl</kbd>+<kbd>Maj</kbd>+<kbd>8</kbd>
@@ -635,7 +635,7 @@ Définir un signet 8
 	</tr>
 	<tr>
 		<td>
-Définir un signet 9 
+Définir un signet 9
 		</td>
 		<td>
 <kbd>Ctrl</kbd>+<kbd>Maj</kbd>+<kbd>9</kbd>
@@ -643,7 +643,7 @@ Définir un signet 9
 	</tr>
 	<tr>
 		<td>
-Fichier 
+Fichier
 		</td>
 		<td>
 <kbd>Ctrl</kbd>+<kbd>Maj</kbd>+<kbd>F</kbd>
@@ -651,7 +651,7 @@ Fichier
 	</tr>
 	<tr>
 		<td>
-Focus sur le tableau de bord 
+Focus sur le tableau de bord
 		</td>
 		<td>
 <kbd>Ctrl</kbd>+<kbd>Maj</kbd>+<kbd>L</kbd>
@@ -659,7 +659,7 @@ Focus sur le tableau de bord
 	</tr>
 	<tr>
 		<td>
-Mise au point de l'arborescence / Liste 
+Mise au point de l'arborescence / Liste
 		</td>
 		<td>
 <kbd>Ctrl</kbd>+<kbd>L</kbd>
@@ -667,7 +667,7 @@ Mise au point de l'arborescence / Liste
 	</tr>
 	<tr>
 		<td>
-Sélectionner l'onglet 
+Sélectionner l'onglet
 		</td>
 		<td>
 <kbd>Ctrl</kbd>+<kbd>Maj</kbd>+<kbd>Haut</kbd>
@@ -675,7 +675,7 @@ Sélectionner l'onglet
 	</tr>
 	<tr>
 		<td>
-Sélectionnez l'onglet précédent 
+Sélectionnez l'onglet précédent
 		</td>
 		<td>
 <kbd>Ctrl</kbd>+<kbd>Maj</kbd>+<kbd>Gauche</kbd>
@@ -683,7 +683,7 @@ Sélectionnez l'onglet précédent
 	</tr>
 	<tr>
 		<td>
-Sélectionnez l'onglet suivant 
+Sélectionnez l'onglet suivant
 		</td>
 		<td>
 <kbd>Ctrl</kbd>+<kbd>Maj</kbd>+<kbd>Droite</kbd>

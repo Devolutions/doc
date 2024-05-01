@@ -3,13 +3,13 @@ eleventyComputed:
   title: User Interface
   description: Use File – Preferences – User Interface to configure options related to the user interface.
 ---
-Use ***File – Preferences – User Interface*** to configure options related to the user interface. 
+Use ***File – Preferences – User Interface*** to configure options related to the user interface.
 
-## Settings 
+## Settings
 
-![File – Preferences – User Interface](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RDMMac2091.png) 
+![File – Preferences – User Interface](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_RDMMac2091.png)
 
-### User Interface 
+### User Interface
 
 | OPTION                    | DESCRIPTION |
 |---------------------------|-------------|
@@ -18,7 +18,7 @@ Use ***File – Preferences – User Interface*** to configure options related t
 | Hide footer               | When using the **_Ribbon User Interface_**, select this option to hide your footer. |
 | Language                  | Select {{ en.RDMMAC }}'s default application language. |
 | Wait progress mode        | Select how the progress when waiting is displayed. Choose between a **_Status bar_** or a **_Window_**. |
-| Usage profile             | Select the default usage profile users will be assigned between **_IT professional_** and **_Business user_**.|
+| User interface profile    | Select the default user interface profile users will be assigned between **_IT professional_** and **_Business user_**.|
 | Navigation toggle location| Specify the default location of the toolbar (right or left). |
 | Navigation tab location   | Specify the default location of the **_Navigation_** tab (top or bottom of the **_{{ en.NPANE }}_**).|
 | Data source location      | Specify the location of the data source on your screen (top or bottom of the **_{{ en.NPANE }}_**). |
@@ -27,21 +27,21 @@ Use ***File – Preferences – User Interface*** to configure options related t
 | Allow tabs to be rearranged | Allow tabs to be moved from one position to another in the tab bar. |
 | Allow tabs to leave the tab bar | Tabs can be move out of the tab bar. |
 
-### Context Menu 
+### Context Menu
 
 | OPTION                      | DESCRIPTION |
 |-----------------------------|-------------|
 | Include Properties Menu     | Display the Properties menu in the context menu when a session is selected. |
 | Use legacy edit context menu | Use the Legacy theme edit context menu (old {{ en.RDM }} interface). |
 
-### Dashboard 
+### Dashboard
 
 | OPTION                     | DESCRIPTION |
 |----------------------------|-------------|
 | Auto Focus Dashboard       | When option is activated if an active entry is selected in the tree view the corresponding dashboard is displayed and focus is immediately set on it. |
 | Use classic dashboard overview | The classic dashboard will be displayed instead of the new dashboard with larger buttons. |
 
-### Menu Bar 
+### Menu Bar
 
 | OPTION                                   | DESCRIPTION |
 |------------------------------------------|-------------|
@@ -57,7 +57,7 @@ Use ***File – Preferences – User Interface*** to configure options related t
 | Only show favorites entries in icon menu | Only the Favorite Entries will appear in the menu. |
 | Show credentials in icon menu            | Indicate if the credentials are listed in the menu. |
 
-### Tree View 
+### Tree View
 
 | OPTION                         | DESCRIPTION |
 |--------------------------------|-------------|

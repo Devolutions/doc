@@ -3,132 +3,132 @@ eleventyComputed:
   title: Général
   order: 10
 ---
-La section de l'onglet ***Général*** contient les informations de base de l'instance {{ fr.DVLS }} tels que le ***Nom***, la ***Description***, les ***Licences***, etc.  
+La section de l'onglet ***Général*** contient les informations de base de l'instance {{ fr.DVLS }} tels que le ***Nom***, la ***Description***, les ***Licences***, etc.
 
-![Paramètres Serveur - Général](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp8006.png) 
+![Paramètres Serveur - Général](https://cdnweb.devolutions.net/docs/fr/server/ServerOp8006.png)
 
-## Paramètres 
+## Paramètres
 
-### Général 
+### Général
 
 <table>
 	<tr>
 		<th>
-Option 
+Option
 		</th>
 		<th>
-Description 
+Description
 		</th>
 	</tr>
 	<tr>
 		<td>
-Nom 
+Nom
 		</td>
 		<td>
-Entrer le nom de votre serveur, il sera affiché dans la zone Contenu. 
+Entrer le nom de votre serveur, il sera affiché dans la zone Contenu.
 		</td>
 	</tr>
 	<tr>
 		<td>
-Description 
+Description
 		</td>
 		<td>
-Saisir une brève description ou des informations supplémentaires. 
+Saisir une brève description ou des informations supplémentaires.
 		</td>
 	</tr>
 </table>
 
-### Licence 
+### Licence
 
 <table>
 	<tr>
 		<th>
-Option 
+Option
 		</th>
 		<th>
-Description 
+Description
 		</th>
 	</tr>
 	<tr>
 		<td>
-Serveur 
+Serveur
 		</td>
 		<td>
-Insérer votre numéro d'enregistrement de série. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Demander un essai 
-		</td>
-		<td>
-Ceci vous redirigera vers notre page {{ fr.DVLS }} pour demander un essai gratuit de 30 jours. 
+Insérer votre numéro d'enregistrement de série.
 		</td>
 	</tr>
 	<tr>
 		<td>
-LAC utilisateur 
+Demander un essai
 		</td>
 		<td>
-Insérer votre clé de Licence d'Accès Client. 
+Ceci vous redirigera vers notre page {{ fr.DVLS }} pour demander un essai gratuit de 30 jours.
+		</td>
+	</tr>
+	<tr>
+		<td>
+LAC utilisateur
+		</td>
+		<td>
+Insérer votre clé de Licence d'Accès Client.
 		</td>
 	</tr>
 </table>
 
-### Informations 
+### Informations
 
 <table>
 	<tr>
 		<th>
-Option 
+Option
 		</th>
 		<th>
-Description 
+Description
 		</th>
 	</tr>
 	<tr>
 		<td>
-Édition 
+Édition
 		</td>
 		<td>
-Affiche l'édition {{ fr.DVLS }} en fonction de votre clé de licence. 
+Affiche l'édition {{ fr.DVLS }} en fonction de votre clé de licence.
 		</td>
 	</tr>
 	<tr>
 		<td>
-Expiration 
+Expiration
 		</td>
 		<td>
-Date d'expiration de la clé de licence de {{ fr.DVLS }}. 
+Date d'expiration de la clé de licence de {{ fr.DVLS }}.
 		</td>
 	</tr>
 </table>
 
-### Mise à jour 
+### Mise à jour
 
 <table>
 	<tr>
 		<th>
-Option 
+Option
 		</th>
 		<th>
-Description 
+Description
 		</th>
 	</tr>
 	<tr>
 		<td>
-Afficher l'indicateur de nouvelle version 
+Afficher l'indicateur de nouvelle version
 		</td>
 		<td>
-Afficher une icône en superposition indiquant qu'une mise à jour est disponible 
+Afficher une icône en superposition indiquant qu'une mise à jour est disponible
 		</td>
 	</tr>
 	<tr>
 		<td>
-Type de publication 
+Type de publication
 		</td>
 		<td>
-Choisir entre la version Courante, Bêta et Version stable. 
+Choisir entre la version Courante, Bêta et Version stable.
 		</td>
 	</tr>
 </table>

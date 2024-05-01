@@ -3,7 +3,7 @@ eleventyComputed:
   title: Survol
   order: 5
 ---
-![!!Logo {{ fr.WBEX }}](https://webdevolutions.blob.core.windows.net/images/projects/workspace/logos/workspace-color-shadow.svg)
+![!!Logo {{ fr.WBEX }}](https://cdnweb.devolutions.net/images/projects/workspace/logos/workspace-color-shadow.svg)
 
 Le {{ fr.WBEX }} est une extension de navigateur Web pour les mots de passe. Utilisée conjointement avec {{ fr.RDM }}, {{ fr.DVLS }} et {{ fr.DHUB }}, elle permet aux utilisateurs d'injecter en toute sécurité des identifiants, stockés dans leur {{ fr.VLT }}s, dans des sites Web.  
 
@@ -12,20 +12,20 @@ Elle offre aux administrateurs système un contrôle total sur la gestion des mo
 <table>
 	<tr>
 		<th>
-<img src="https://webdevolutions.blob.core.windows.net/images/projects/remote-desktop-manager/logos/remote-desktop-manager-icon-shadow.svg" alt="!!{{ fr.RDM }} logo"><br>
+<img src="https://cdnweb.devolutions.net/images/projects/remote-desktop-manager/logos/remote-desktop-manager-icon-shadow.svg" alt="!!{{ fr.RDM }} logo"><br>
 {{ fr.RDM }} <br>
 <br>
 Centralisez, gérez et lancez des connexions sécurisées à distance. 
 <br>
 		</th>
 		<th>
-<img src="https://webdevolutions.blob.core.windows.net/images/projects/server/logos/server-icon-shadow.svg" alt="!!{{ fr.DVLS }} logo"><br>
+<img src="https://cdnweb.devolutions.net/images/projects/server/logos/server-icon-shadow.svg" alt="!!{{ fr.DVLS }} logo"><br>
 {{ fr.DVLS }} <br>
 <br>
 Sécurisez, gérez et surveillez les accès aux comptes privilégiés. <br>
 		</th>
 		<th>
-<img src="https://webdevolutions.blob.core.windows.net/images/projects/password-hub/logos/password-hub-icon-shadow.svg" alt="!!{{ fr.DHUB }} logo"><br>
+<img src="https://cdnweb.devolutions.net/images/projects/password-hub/logos/password-hub-icon-shadow.svg" alt="!!{{ fr.DHUB }} logo"><br>
 {{ fr.DHUB }} <br>
 <br>
 Stockez et gérez les mots de passe professionnels. <br>

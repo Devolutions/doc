@@ -5,16 +5,16 @@ eleventyComputed:
 ---
 La section ***Gestion des {{ fr.VLT }}s*** vous permet de définir des permissions par défaut et de créer des ensembles de permissions, ainsi que de forcer la location d'enregistrement des ***Paramètres de mon compte***.
 
-![Administration – Paramètres du système – Gestion des {{ fr.VLT }}s](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp2046.png)
+![Administration – Paramètres du système – Gestion des {{ fr.VLT }}s](https://cdnweb.devolutions.net/docs/fr/server/ServerOp2046.png)
 
-## Permissions par défaut 
+## Permissions par défaut
 <table>
 	<tr>
 		<th>
-Option 
+Option
 		</th>
 		<th>
-Description 
+Description
 		</th>
 	</tr>
 	<tr>
@@ -39,15 +39,15 @@ Permet l'accès à la fonctionnalité <b><i>Accorder l'accès en lot</i></b> apr
 <table>
 	<tr>
 		<th>
-Option 
+Option
 		</th>
 		<th>
-Description 
+Description
 		</th>
 	</tr>
 	<tr>
 		<td>
-Forcer la location d'enregistrement 
+Forcer la location d'enregistrement
 		</td>
 		<td>
 Permet de choisir de forcer ou non les <b><i>Paramètres de mon compte</i></b> à être sauvegardés dans la base de données ou localement.
@@ -59,15 +59,15 @@ Permet de choisir de forcer ou non les <b><i>Paramètres de mon compte</i></b> �
 <table>
 	<tr>
 		<th>
-Option 
+Option
 		</th>
 		<th>
-Description 
+Description
 		</th>
 	</tr>
 	<tr>
 		<td>
-Ajouter « + » 
+Ajouter « + »
 		</td>
 		<td>
 Permet de créer une liste personnalisée de permissions qui peut être appliqués aux permissions d'une entrée, d'un dossier ou d'un {{ fr.VLT }} en passant par la fonctionnalité <b><i>Accorder l'accès en lot</i></b>. Certains ensembles de permissions existent déjà par défaut.

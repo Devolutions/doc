@@ -7,14 +7,14 @@ eleventyComputed:
   - Navigateur
   - Safari
 ---
-Voici les étapes à suivre pour effacer votre stockage local dans le navigateur Safari :  
+Voici les étapes à suivre pour effacer votre stockage local dans le navigateur Safari :
 
-1. Ouvrir une page du navigateur Safari.  
-1. Utiliser les touches <kbd>Alt</kbd>+<kbd>Cmd</kbd>+<kbd>C</kbd> de votre clavier pour ouvrir la console Javascript de Safari.  
-![Console Javascript de Safari](https://webdevolutions.azureedge.net/docs/fr/kb/KB2066.png) 
-1. Cliquer sur ***Stockage*** dans le menu supérieur de la console.  
-![Console – Stockage](https://webdevolutions.azureedge.net/docs/fr/kb/KB2067.png) 
-1. Développer la liste ***Stockage local*** dans le menu de gauche de la console.  
-![Console – Stockage – Stockage local](https://webdevolutions.azureedge.net/docs/fr/kb/KB2068.png) 
-1. Sélectionner votre site et cliquer sur ***Effacer le stockage local***. 
-![Stockage local – Effacer le stockage local](https://webdevolutions.azureedge.net/docs/fr/kb/KB2069.png)
+1. Ouvrir une page du navigateur Safari.
+1. Utiliser les touches <kbd>Alt</kbd>+<kbd>Cmd</kbd>+<kbd>C</kbd> de votre clavier pour ouvrir la console Javascript de Safari.
+![Console Javascript de Safari](https://cdnweb.devolutions.net/docs/fr/kb/KB2066.png)
+1. Cliquer sur ***Stockage*** dans le menu supérieur de la console.
+![Console – Stockage](https://cdnweb.devolutions.net/docs/fr/kb/KB2067.png)
+1. Développer la liste ***Stockage local*** dans le menu de gauche de la console.
+![Console – Stockage – Stockage local](https://cdnweb.devolutions.net/docs/fr/kb/KB2068.png)
+1. Sélectionner votre site et cliquer sur ***Effacer le stockage local***.
+![Stockage local – Effacer le stockage local](https://cdnweb.devolutions.net/docs/fr/kb/KB2069.png)

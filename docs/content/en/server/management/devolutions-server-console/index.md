@@ -3,29 +3,30 @@ eleventyComputed:
   title: "{{ en.DVLSCONSOLE }}"
   description: Because {{ en.DVLS }} is in fact a web application, the management interface is provided by the {{ en.DVLSCONSOLE }}.
 ---
-Because {{ en.DVLS }} is in fact a web application, the management interface is provided by the {{ en.DVLSCONSOLE }}.  
-![{{ en.DVLSCONSOLE }}](https://webdevolutions.azureedge.net/docs/en/server/ServerOp0043.png)
+Because {{ en.DVLS }} is in fact a web application, the management interface is provided by the {{ en.DVLSCONSOLE }}, which you can download from our [download page](https://devolutions.net/server/home/download).
 
-## Usage
-
-{% snippet icon.badgeInfo %}
-The {{ en.DVLSCONSOLE }} is now offered as a standalone application. It is now available on the [download page](https://server.devolutions.net/home/download).
-
-Since {{ en.DVLS }} 2019.x, many features can only be managed from the web interface. Please see [Server settings](/server/web-interface/administration/configuration/server-settings/).
+{% snippet icon.badgeHelp %}
+Consult the list of [web server prerequisites](/server/getting-started/installation/installing-web-server-prerequisites/) for the {{ en.DVLSCONSOLE }}.
 {% endsnippet %}
 
-The {{ en.DVLSCONSOLE }} manages the IIS metabase. It must be started with elevated privileges when the {{ en.DVLSCONSOLE }} needs to be used. Elevated privileges are granted when you use ***Run as administrator*** to launch the application. You can modify the shortcut to always start it in this manner.  
+![{{ en.DVLSCONSOLE }}](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp0043.png)
+
+The {{ en.DVLSCONSOLE }} manages the IIS metabase. It must be started with elevated privileges when it needs to be used. Elevated privileges are granted when you use ***Run as administrator*** to launch the application. You can modify the shortcut to always start it in this manner.
 
 ## Settings
 
+{% snippet icon.badgeHelp %}
+Some features can only be managed from the web interface. Please see [Server settings](/server/web-interface/administration/configuration/server-settings/) for more information.
+{% endsnippet %}
+
 ### Server
 
-![Server](https://webdevolutions.azureedge.net/docs/en/server/ServerOp0044.png)
+![Server](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp0044.png)
 
 | Option                     | Description                                                                                                        |
 |----------------------------|--------------------------------------------------------------------------------------------------------------------|
 | Refresh                    | Refresh the list of {{ en.DVLS }} instances in the {{ en.DVLSCONSOLE }}.                                           |
-| New                        | [Create a new {{ en.DVLS }} instance](/server/installation/create-server-instance/) or migrate an SQL data source. |
+| New                        | [Create a new {{ en.DVLS }} instance](/server/getting-started/installation/create-server-instance/) or migrate an SQL data source. |
 | Edit                       | Edit the selected {{ en.DVLS }} instance's properties.                                                             |
 | Update                     | Update the selected {{ en.DVLS }} instance.                                                                        |
 | Uninstall                  | Uninstall the selected {{ en.DVLS }} instance.                                                                     |
@@ -39,7 +40,7 @@ The {{ en.DVLSCONSOLE }} manages the IIS metabase. It must be started with eleva
 
 ### Companions
 
-![Companions](https://webdevolutions.azureedge.net/docs/en/server/ServerOp0045.png)
+![Companions](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp0045.png)
 
 #### Scheduler service
 
@@ -69,7 +70,7 @@ The {{ en.DVLSCONSOLE }} manages the IIS metabase. It must be started with eleva
 
 ### Tools
 
-![Tools](https://webdevolutions.azureedge.net/docs/en/server/ServerOp0046.png)
+![Tools](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp0046.png)
 
 #### Keys Management
 
@@ -95,7 +96,7 @@ The {{ en.DVLSCONSOLE }} manages the IIS metabase. It must be started with eleva
 
 ### Administration
 
-![Administration](https://webdevolutions.azureedge.net/docs/en/server/ServerOp0047.png)
+![Administration](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp0047.png)
 
 | Option             | Description                                                                                                                                        |
 |--------------------|----------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -108,7 +109,7 @@ The {{ en.DVLSCONSOLE }} manages the IIS metabase. It must be started with eleva
 
 ### Support
 
-![Support](https://webdevolutions.azureedge.net/docs/en/server/ServerOp0048.png)
+![Support](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp0048.png)
 
 | Option                          | Description                                                       |
 |---------------------------------|-------------------------------------------------------------------|

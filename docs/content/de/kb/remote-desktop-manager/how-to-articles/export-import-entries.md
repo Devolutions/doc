@@ -18,28 +18,28 @@ Die erste Methode wird direkt im [{{ de.RDM }}](#exportierenimportieren-uber-rem
    Um den gesamten {{ de.VLT }} zu exportieren, gehen Sie zu ***Datei – Exportieren – {{ de.VLT }} exportieren (.rdm)*** und fahren Sie mit Schritt 4 fort.
    {% endsnippet %}
 1. Wählen Sie die Einträge und/oder Ordner aus, die Sie exportieren möchten. Verwenden Sie die Tastenkombination <kbd>Strg</kbd>+Klick, um mehrere Einträge auf einmal auszuwählen.
-1. Klicken Sie mit der rechten Maustaste auf die Auswahl. Wählen Sie im Kontextmenü ***Exportieren – Auswahl exportieren (.rdm)***.  
-![Auswahl exportieren (.rdm)](https://webdevolutions.azureedge.net/docs/de/kb/KB4998.png)
+1. Klicken Sie mit der rechten Maustaste auf die Auswahl. Wählen Sie im Kontextmenü ***Exportieren – Auswahl exportieren (.rdm)***.
+![Auswahl exportieren (.rdm)](https://cdnweb.devolutions.net/docs/de/kb/KB4998.png)
 1. Markieren Sie im Fenster ***Einträge exportieren*** die Optionen, die Sie aktivieren möchten. Für eine typische Migration sollten Sie die Optionen ***Anmeldeinformationen einbeziehen, Anhänge und Dokumente einbeziehen*** und ***Mit Hauptschlüssel verschlüsseln*** wählen.
    {% snippet icon.badgeInfo %}
    Standardmäßig werden die Anmeldeinformationen **nicht** einbezogen. Es ist wichtig, dass Sie die Option ***Anmeldeinformationen einbeziehen*** aktivieren, damit die exportierten Daten diese enthalten.
-   {% endsnippet %}  
+   {% endsnippet %}
    {% snippet icon.shieldWarning %}
    Durch die Angabe eines Hauptschlüssels wird der gesamte Inhalt der **.rdm** Datei verschlüsselt. Dies ist zum Schutz der Daten sehr zu empfehlen, der Schlüssel ist jedoch für die Entschlüsselung unbedingt erforderlich. Bewahren Sie ihn zur Sicherheit an einem sicheren Ort auf.
    {% endsnippet %}
 
-   ![Export-Optionen für Einträge](https://webdevolutions.azureedge.net/docs/de/kb/KB4839.png)
+   ![Export-Optionen für Einträge](https://cdnweb.devolutions.net/docs/de/kb/KB4839.png)
 1. Klicken Sie auf ***OK***.
 1. Speichern Sie die **.rdm**-Datei auf Ihrem Computer.
 1. Wählen Sie im ***{{ de.NPANE }}*** die Datenquelle und den {{ de.VLT }} aus, in den die Einträge importiert werden sollen.
 1. Klicken Sie mit der rechten Maustaste auf den Ordner und wählen ***Sie Importieren – Importieren (.rdm)***.
-![Importieren (.rdm)](https://webdevolutions.azureedge.net/docs/de/kb/KB4999.png)
+![Importieren (.rdm)](https://cdnweb.devolutions.net/docs/de/kb/KB4999.png)
    {% snippet icon.badgeNotice %}
    Über ***Datei*** – ***Importieren*** – ***Importieren (.rdm)*** können Sie den gesamten {{ de.VLT }} importieren.
    {% endsnippet %}
 1. Lokalisieren Sie die auf Ihrem Computer gespeicherte **.rdm** Datei und klicken Sie auf ***Öffnen***.
 1. Wählen Sie ***Importieren ins Stammverzeichnis***, ***Importieren in den aktuellen Ordner*** oder ***Importieren in einen spezifischen Ordner***.
-![Ort der importierten Einträge](https://webdevolutions.azureedge.net/docs/de/kb/KB5000.png)
+![Ort der importierten Einträge](https://cdnweb.devolutions.net/docs/de/kb/KB5000.png)
 1. Klicken Sie auf ***OK***.
 1. Im nächsten Dialogfeld wird eine Liste mit allen Einträgen in der Datendatei angezeigt. Sie können bestimmte Einträge auswählen, die Sie importieren möchten, oder ***Alle auswählen***, um alle Einträge zu importieren.
    {% snippet icon.badgeCaution %}
@@ -56,7 +56,7 @@ Das folgende PowerShell-Skript dient zum Exportieren aller Einträge aus einer D
 1. Aktualisieren Sie das Passwort im Skript.
 1. Passen Sie den Zielpfad im Skript an, in dem die **.rdm** Dateien gespeichert werden sollen.
 1. Speichern Sie das PowerShell-Skript in einer **.ps1** Datei auf dem Computer, auf dem es ausgeführt werden soll.
-1. Erstellen Sie eine geplante Aufgabe, um das Skript regelmäßig auszuführen.  
+1. Erstellen Sie eine geplante Aufgabe, um das Skript regelmäßig auszuführen.
 
    ```powershell
    Import-Module 'C:\Program Files (x86)\Devolutions\Remote Desktop Manager\RemoteDesktopManager.PowerShellModule.psd1'

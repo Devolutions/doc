@@ -2,9 +2,9 @@
 eleventyComputed:
   title: Versionsverwaltung
 ---
-Die ***Versionsverwaltung*** ermöglichte es Administratoren, den Zugriff auf die Datenquelle auf bestimmte {{ de.RDM }} Versionen einzuschränken. 
+Die ***Versionsverwaltung*** ermöglichte es Administratoren, den Zugriff auf die Datenquelle auf bestimmte {{ de.RDM }} Versionen einzuschränken.
 
-![Administration – Systemeinstellungen – Versionsverwaltung](https://webdevolutions.azureedge.net/docs/de/server/ServerOp8078.png)
+![Administration – Systemeinstellungen – Versionsverwaltung](https://cdnweb.devolutions.net/docs/de/server/ServerOp8078.png)
 
 | Option                                    | Beschreibung |
 | ----------------------------------------- | ------------ |

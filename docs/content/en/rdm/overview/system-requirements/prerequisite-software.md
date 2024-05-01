@@ -10,7 +10,6 @@ These installations are managed automatically by our installers. The only situat
  
 ## Settings 
 
-The following package must be installed prior to proceeding with the {{ en.RDM }} installation:  
-
-* [Microsoft .NET Framework 4.8](https://support.microsoft.com/en-us/topic/microsoft-net-framework-4-8-offline-installer-for-windows-9d23f658-3b97-68ab-d013-aa3c3e7495e0) 
-
+The following package must be installed prior to proceeding with the {{ en.RDM }} installation:
+* [Microsoft .NET 8.0](https://dotnet.microsoft.com/en-us/download/dotnet/8.0)
+* [Microsoft Edge WebView2 Runtime](/kb/remote-desktop-manager/knowledge-base/download-microsoft-edge-chromium/)

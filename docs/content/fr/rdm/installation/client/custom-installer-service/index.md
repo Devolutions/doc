@@ -6,7 +6,7 @@ eleventyComputed:
 	<tr>
 		<td>
 
-![!!CustomInstallerServiceIcon](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/CustomInstallerServiceIcon.png)
+![!!CustomInstallerServiceIcon](https://cdnweb.devolutions.net/docs/fr/rdm/windows/CustomInstallerServiceIcon.png)
 		</td>
 		<td>
 * Générer des paquets d'installation personnalisés pour {{ fr.RDM }}.
@@ -26,7 +26,7 @@ Vous pouvez stocker et créer jusqu'à six paquets de fichiers de configuration 
 {% endsnippet %}
 
 Le {{ fr.CIS }} peut être trouvé dans les outils du {{ fr.DA }}, situés sous ***Fichier – {{ fr.DA }} – Outils***. Vous devez être connecté pour y accéder.
-![Fichier – {{ fr.DA }} – Outils](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip11245.png)
+![Fichier – {{ fr.DA }} – Outils](https://cdnweb.devolutions.net/docs/fr/rdm/windows/clip11245.png)
 
 Les rubriques suivantes vous aideront à commencer la configuration de vos programmes d'installation personnalisés avec {{ fr.RDM }}.
 

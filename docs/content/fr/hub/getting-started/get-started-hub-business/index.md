@@ -24,9 +24,9 @@ Description
 
 Étape 1 - Configuration des ***Groupes d'utilisateurs*** et des ***{{ fr.VLT }}s***  
 
-* [Inviter un administrateur](/fr/hub/web-interface/hub-overview/administration/management/users/administrator-invite/) 
-* [Créer et gérer des Groupes d'utilisateurs](/fr/hub/web-interface/hub-overview/administration/management/user-groups/create-manage-user-groups/) 
-* [Créer et gérer des {{ fr.VLT }}s](/fr/hub/web-interface/hub-overview/administration/management/vaults/create-manage-vaults/) 
+* [Inviter un administrateur](/fr/hub/web-interface/administration/management/users/administrator-invite/) 
+* [Créer et gérer des Groupes d'utilisateurs](/fr/hub/web-interface/administration/management/user-groups/create-manage-user-groups/) 
+* [Créer et gérer des {{ fr.VLT }}s](/fr/hub/web-interface/administration/management/vaults/create-manage-vaults/) 
 		</td>
 		<td>
 Dans cette vidéo (EN), nous montrerons la configuration appropriée pour {{ fr.DHUBB }} ainsi que les meilleures pratiques pour inviter un ***Administrateur***, créer des ***Groupes d'utilisateurs***, configurer des ***{{ fr.VLT }}s*** partagés et leur attribuer des ***Rôles*** et des ***Permissions***. 
@@ -39,7 +39,7 @@ Dans cette vidéo (EN), nous montrerons la configuration appropriée pour {{ fr.
 
 Étape 2 - Inviter plusieurs ***Utilisateurs***  
 
-* [Inviter des Utilisateurs](/fr/hub/web-interface/hub-overview/administration/management/users/create-invite-users/) 
+* [Inviter des Utilisateurs](/fr/hub/web-interface/administration/management/users/create-invite-users/) 
 		</td>
 		<td>
 Avec cette vidéo (EN), nous vous montrerons comment ajouter des ***Utilisateurs*** à votre {{ fr.DHUBB }} pour ceux qui ont déjà un {{ fr.DA }}, ainsi que pour ceux qui n'en ont pas.  
@@ -52,8 +52,8 @@ Avec cette vidéo (EN), nous vous montrerons comment ajouter des ***Utilisateurs
 
 Étape 3 - Ajouter des données dans les ***{{ fr.VLT }}s***  
 
-* [Créer des entrées manuellement](/fr/hub/web-interface/hub-overview/entries/create-entries-manually/) 
-* [Importer des entrées avec {{ fr.DHUBI }}](/fr/hub/web-interface/hub-overview/tools/hub-importer/) 
+* [Créer des entrées manuellement](/fr/hub/web-interface/entries/create-entries-manually/) 
+* [Importer des entrées avec {{ fr.DHUBI }}](/fr/hub/web-interface/tools/hub-importer/) 
 		</td>
 		<td>
 À ce stade, cette vidéo (EN) vous montrera quatre façons différentes d'ajouter et d'importer des ***Entrées*** dans votre {{ fr.DHUBB }} nouvellement créée. Nous couvrirons également les ***Propriétés*** et les ***Permissions*** des ***Entrées***.  
@@ -66,10 +66,10 @@ Avec cette vidéo (EN), nous vous montrerons comment ajouter des ***Utilisateurs
 
 Étape 4 - ***Paramètres d'administration*** et ***Rapports***  
 
-* [Administration](/fr/hub/web-interface/hub-overview/administration/) 
-* [Configuration et sécurité](/fr/hub/web-interface/hub-overview/administration/configuration-security/system-settings/) 
-* [Rapports](/fr/hub/web-interface/hub-overview/reports/) 
-* [Outils](/fr/hub/web-interface/hub-overview/tools/) 
+* [Administration](/fr/hub/web-interface/administration/) 
+* [Configuration et sécurité](/fr/hub/web-interface/administration/configuration-security/system-settings/) 
+* [Rapports](/fr/hub/web-interface/reports/) 
+* [Outils](/fr/hub/web-interface/tools/) 
 		</td>
 		<td>
 Dans cette dernière vidéo (EN), nous vous montrerons certains des paramètres de gestion de l'***Administration***, de la ***Configuration***, des ***Outils*** et des ***Rapports*** qui, selon nous, vous seront utiles lorsque vous finaliserez la configuration de votre {{ fr.DHUBB }}.  
