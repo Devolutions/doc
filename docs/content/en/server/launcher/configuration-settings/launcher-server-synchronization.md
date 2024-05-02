@@ -22,8 +22,8 @@ In ***Administration - Server Settings - Advanced***, select ***{{ en.DLAUNCHER 
 This method sets how individual users open remote connections.
 
 1. Click the ***User avatar***.
-1. Click ***Preferences***.
+1. Select ***Preferences***.
 ![Preferences](https://cdnweb.devolutions.net/docs/DVLS6004_2023_3.png)
-1. Choose ***{{ en.DLAUNCHER }}*** from the drop-down menu ***Launch connection with*** and click ***Save***.
+1. Choose ***{{ en.DLAUNCHER }}*** from the ***Launch connection with*** drop-down menu and click ***Save***.
 ![!!ServerOp4045](https://cdnweb.devolutions.net/docs/DVLS6005_2023_3.png)
 
