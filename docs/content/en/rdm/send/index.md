@@ -43,3 +43,11 @@ This feature is covered in [***Secure messages***](/rdm/commands/window/panels/s
 ![Create Link](https://cdnweb.devolutions.net/docs/RDMW0026_2024_1.png)
 1. Copy the link and send it to the intended individual(s).
 ![Copy to Clipboard](https://cdnweb.devolutions.net/docs/RDMW0028_2024_1.png)
+
+### Disabling {{ en.DSEND }} in {{ en.RDM }}
+1. In an SQL data source, go to the ***Administration*** tab.
+1. Click on ***System Settings***.  
+![System Settings](https://cdnweb.devolutions.net/docs/RDMW0029_2024_1.png)
+1. Under ***Application Specific*** – ***Applications*** – ***General***, enable ***Disable send message in dashboard***.  
+![Disable send message in dashboard](https://cdnweb.devolutions.net/docs/RDMW0030_2024_1.png)
+1. Click ***Save***.
