@@ -3,7 +3,7 @@ eleventyComputed:
   title: "{{ en.DLAUNCHER }} session menu"
   order: 30
 ---
-To access the {{ en.DLAUNCHER }} session menu, right click on an open session tab.
+To access the {{ en.DLAUNCHER }} session menu, right-click on an open session tab.
 ![{{ en.DLAUNCHER }} session menu](https://cdnweb.devolutions.net/docs/DVLS6006_2023_3.png)
 
 ### Docking
