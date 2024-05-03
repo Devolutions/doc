@@ -26,8 +26,8 @@ Most features contained in the ***Administration*** tab are only available when 
 |------------------------------------|----------------------------------------------------------|
 | {{ en.VLT_MAJ }} Settings          | Opens the {{ en.VLT }} Settings. The {{ en.VLT }} Folder is the one at the top of the ***{{ en.NPANE }}*** (in Tree View). It is the one from which all entries and folder stem. By default, lower level folders inherit settings and security from parent folder until reaching the {{ en.VLT }}. Therefore, using permissions on the {{ en.VLT }} folder allows to secure all entries below the {{ en.VLT }} level. Refer to [Default security for entries](/rdm/windows/commands/administration/settings/vault-settings/default-security-entries/) for more information.                        |
 | System Settings (Data Source Settings) | Opens the System Settings. There are many features here, all meant to help you customize your data source and security needs. Remember that these settings applies to all users that have access to the data source.                   |
-| System Permissions                 | Modify [System Permissions](/rdm/windows/commands/administration/settings/system-permissions/). |
-| Security Provider                  | Set up a [Security Provider](/rdm/windows/commands/administration/settings/security-providers/) for an additional layer of security. |
+| System Permissions                 | Modify [System permissions](/rdm/commands/administration/security/system-permissions/). |
+| Security Provider                  | Set up a [Security provider](/rdm/commands/administration/security/security-providers/) for an additional layer of security. |
 
 ### Clean Up
 

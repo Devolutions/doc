@@ -7,7 +7,7 @@ Permissions allow granular control over who can view, modify, or delete data or 
 
 ### Related topics  
 * [Inheritance](/kb/remote-desktop-manager/knowledge-base/inheritance/)
-* [Permissions](/rdm/windows/commands/administration/settings/system-settings/vault-management/batch-grant-access/#permissions)
+* [Permissions](/rdm/commands/administration/settings/system-settings/vault-management/default-permissions/batch-grant-access/#permissions)
 * [RBAC](/rdm/windows/commands/administration/management/user-management/#user-groups)
 * [Roles](/rdm/windows/commands/administration/management/user-management/#user-groups)
 

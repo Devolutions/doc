@@ -35,4 +35,4 @@ You may assign a data source to open automatically when {{ en.RDM }} starts.
 
 ## Data Source Settings (System Settings)
 
-[Advanced Data Sources](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/) can manage a lot more settings related to the database and security. Those settings are saved directly in the database. For more information, please consult [Data Source Settings (System Settings)](/rdm/windows/commands/administration/settings/system-settings/general/).
+[Advanced Data Sources](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/) can manage a lot more settings related to the database and security. Those settings are saved directly in the database. For more information, please consult [Data Source Settings (System Settings)](/rdm/commands/administration/settings/system-settings/).

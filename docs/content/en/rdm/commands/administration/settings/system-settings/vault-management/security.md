@@ -3,7 +3,7 @@ eleventyComputed:
   title: Security settings
   description: Data source security and time-based usage in {{ en.RDM }}.
 ---
-![!!clip10724](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip10724.png)
+![Administration – System settings – {{ en.VLT_MAJ }} management – Security settings](https://cdnweb.devolutions.net/docs/RDMW2045_2024_1.png)
 
 | DATA SOURCE SECURITY                      | DESCRIPTION                                              |
 |-------------------------------------------|----------------------------------------------------------|

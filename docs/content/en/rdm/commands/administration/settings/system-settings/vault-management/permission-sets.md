@@ -35,5 +35,5 @@ Create a new set that suits your specific needs:
 1. Click ***OK*** again to save your changes.
 
 {% snippet icon.badgeHelp %}
-See [Batch Grant Access](/rdm/windows/commands/administration/settings/system-settings/vault-management/batch-grant-access) to learn how to grant permissions sets to multiple users, user groups, and application users at once.
+See [Batch Grant Access](/rdm/commands/administration/settings/system-settings/vault-management/default-permissions/batch-grant-access/) to learn how to grant permissions sets to multiple users, user groups, and application users at once.
 {% endsnippet %}

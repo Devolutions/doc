@@ -17,7 +17,7 @@ This feature is not available for all data sources, please consult the help topi
 The offline cache is first encrypted using our own private key mixed with some information taken from the local computer. This makes it impossible for a copy on another machine to be readable. By default it is also encrypted with Windows NTFS encryption, in which case there is no key saved anywhere.
 {% endsnippet %}
 
-For added security, offline files are set to expire after a delay. The default expiry is set to 7 days but can be modified via the [System Settings](/rdm/windows/commands/administration/settings/system-settings/application/offline/).
+For added security, offline files are set to expire after a delay. The default expiry is set to 7 days but can be modified via the [System settings](/rdm/commands/administration/settings/system-settings/application-specific/offline/).
 
 {{ en.RDM }} will prompt for offline mode when the application is unable to reach the data source but the offline mode can be toggled manually with ***File – Go Offline***.
 

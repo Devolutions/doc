@@ -4,7 +4,7 @@ eleventyComputed:
   description: The Applications section manages the availability of different features related to {{ en.RDM }} application.
 ---
 The ***Applications*** section manages the availability of different features related to {{ en.RDM }} application.
-![!!clip3561](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip3561.png)
+![Administration – System settings – Application specific – Applications](https://cdnweb.devolutions.net/docs/RDMW2041_2024_1.png)
 
 | ALLOW ACCESS       | DESCRIPTION                                                     |
 |--------------------|-----------------------------------------------------------------|
@@ -12,7 +12,7 @@ The ***Applications*** section manages the availability of different features re
 
 | OPTION                             | DESCRIPTION                                              |
 |------------------------------------|----------------------------------------------------------|
-| Allow local Specific Settings      | Allow users to save [Local Specific Settings](/rdm/windows/commands/edit/setting-overrides/specific-settings/). |
+| Allow local Specific Settings      | Allow users to save [Local specific settings](/rdm/windows/commands/edit/setting-overrides/specific-settings/). |
 | Allow templates (local)            | Allows to locally save entry's templates.                |
 | Disable entry drag-and-drop        | Disable entries drag and drop from one folder to another. This setting is useful for avoiding accidental drag and drop. |
 | Disable quick connect              | Disable the Quick Connect feature for all users of the data source. |

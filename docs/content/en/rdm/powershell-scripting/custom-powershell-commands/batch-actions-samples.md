@@ -47,7 +47,7 @@ $RDM.Save();
 
 Here are some values that you can change for this command;  
 
-LogPath: your path between ' ' (single quotes). You can also use variables. i.e. %USERPROFILE%, $NAME$, etc. In this example $LOGPATH$ is a custom variable defined in the [Data Source Settings (System Settings) - Custom Variables](/rdm/windows/commands/administration/settings/system-settings/application/).
+LogPath: your path between ' ' (single quotes). You can also use variables. i.e. %USERPROFILE%, $NAME$, etc. In this example $LOGPATH$ is a custom variable defined in the [System settings – Custom Variables](/rdm/commands/administration/settings/system-settings/application-specific/application/).
 
 ```powershell
 LogMode: 1 = Printable Output, 0 = Event
