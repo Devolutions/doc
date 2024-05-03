@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Application
+  title: Applications
   description: The Applications section manages the availability of different features related to {{ en.RDM }} application.
 ---
 The ***Applications*** section manages the availability of different features related to {{ en.RDM }} application.
