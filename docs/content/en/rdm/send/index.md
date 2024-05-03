@@ -44,6 +44,19 @@ This feature is covered in [***Secure messages***](/rdm/commands/window/panels/s
 1. Copy the link and send it to the intended individual(s).
 ![Copy to Clipboard](https://cdnweb.devolutions.net/docs/RDMW0028_2024_1.png)
 
+### Send a password from a credential entry
+1. Select a credential entry.
+1. Click ***Send message***.  
+![Send message](https://cdnweb.devolutions.net/docs/RDMW0031_2024_1.png)
+   {% snippet icon.badgeInfo %}
+   A ***Passphrase*** may be added for additional security. To modify the message, click on ***Reveal*** (eye button).
+   {% endsnippet %}
+1. Click ***Create Link***.  
+![Create Link](https://cdnweb.devolutions.net/docs/RDMW0032_2024_1.png)
+1. Click ***Copy***.  
+![Copy](https://cdnweb.devolutions.net/docs/RDMW0033_2024_1.png)
+1. Send the link to the intended user(s).
+
 ### Disabling {{ en.DSEND }} in {{ en.RDM }}
 1. In an SQL data source, go to the ***Administration*** tab.
 1. Click on ***System Settings***.  
