@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Security
+  title: Security settings
   description: Data source security and time-based usage in {{ en.RDM }}.
 ---
 ![!!clip10724](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip10724.png)

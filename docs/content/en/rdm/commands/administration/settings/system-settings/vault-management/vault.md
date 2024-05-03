@@ -1,15 +1,15 @@
 ---
 eleventyComputed:
-  title: General
-  description:
+  title: "{{ en.VLT_MAJ }}"
+  description: The {{ en.VLT_MAJ }} section allows to manage the availability of different features related to the database.
 ---
-The ***General*** section allows to manage the availability of different features related to the database.
+The ***{{ en.VLT_MAJ }}*** section allows to manage the availability of different features related to the database.
 
 {% snippet icon.shieldCaution %}
 These settings applies to all users that have access to the data source.
 {% endsnippet %}
 
-![System Settings - General](https://cdnweb.devolutions.net/docs/RDMW4027_2024_1.png)
+![System Settings - {{ en.VLT_MAJ }}](https://cdnweb.devolutions.net/docs/RDMW4027_2024_1.png)
 
 | GENERAL                      | DESCRIPTION                                                            |
 |----------------------------- |------------------------------------------------------------------------|
