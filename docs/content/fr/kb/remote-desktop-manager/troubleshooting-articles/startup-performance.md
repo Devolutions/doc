@@ -34,8 +34,8 @@ The workaround is to create a text file in the {{ en.RDM }} installation folder 
 
 Every time you start {{ en.RDM }}, the application will try to connect on [https://devolutions.net/remote-desktop-manager/clientinternal/enterprisenews](https://devolutions.net/remote-desktop-manager/clientinternal/enterprisenews). You should prevent all internet access from the application.
 
-Add the line `<DisableAnalytics>true</DisableAnalytics>` to your [**RemoteDesktopManager.cfg** file](/rdm/windows/installation/client/configuration-file-location/). You can place it above the last line, which should contain "</Option>".
-![<DisableAnalytics>true</DisableAnalytics>](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4090.png)
+Add the line `<DisableAnalytics>true</DisableAnalytics>` to your [**RemoteDesktopManager.cfg** file](/rdm/windows/installation/client/configuration-file-location/). You can place it above the last line, which should contain `</Option>`.
+![<DisableAnalytics>true</DisableAnalytics>](https://cdnweb.devolutions.net/docs/INTERFACE2034.png)
 To find the configuration file, navigate to ***File – Settings – Advanced*** in {{ en.RDM }} and click on the blue hyperlink at the bottom.
 
 ## Solution 4: Native image generation
