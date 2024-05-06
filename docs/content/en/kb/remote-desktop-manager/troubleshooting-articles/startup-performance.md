@@ -1,31 +1,26 @@
 ---
 eleventyComputed:
   title: Startup performance
+  description: The application performance must be validated with an empty data source. Create a new empty XML data source and select it as being the current data source.
 ---
 The application performance must be validated with an empty data source. Create a new empty XML data source and select it as being the current data source.
 
-If you experience slow startup times, there are a few things to try to reduce the time before the application is available for use.
+If you are facing slow startup times, consider these solutions to speed up application readiness.
 
-## Problem 1
-{{ en.RDM }} is slow to open.
+## Solution 1: {{ en.RDM }} is slow to open
 
-### Solution
-1. In {{ en.RDM }}, go to ***File – Settings – Advanced***.
+1. In {{ en.RDM }}, go to ***File – Settings – Performance***.
 1. Set ***Hardware acceleration*** to ***DirectX*** and ***Optimize UI performance*** to ***Yes***.
-![DirectX Hardware Acceleration and Optimized UI Performance](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2184.png)
-1. Click ***OK*** to save your changes, then restart {{ en.RDM }} to apply them.
+![DirectX hardware acceleration and optimized UI performance](https://cdnweb.devolutions.net/docs/RDMW2046_2024_1.png)
+1. ***Save*** your changes, then restart {{ en.RDM }} to apply them.
 
-## Problem 2
-Slow startup on machines that are not connected to the internet.
+## Solution 2: Slow startup on offline machines
 
-### Solution
-For your security, we "sign" our program with a code signature. This results in the validity of the signature being checked at application startup. If the machine is not connected to the internet, the application will wait for a response until a timeout occurs. For detailed explanations please read the following:
+For your security, we "sign" our program with a code signature. This results in the validity of the signature being checked at application startup. If the machine is not connected to the internet, the application waits for a response until a timeout occurs. For detailed explanations, please consult the following Microsoft articles:
+* [Improving application Start up time](https://learn.microsoft.com/en-us/archive/blogs/amolravande/improving-application-start-up-time-generatepublisherevidence-setting-in-machine-config)
+* [The Case of the Slow Keynote Demo](https://learn.microsoft.com/en-us/archive/blogs/markrussinovich/the-case-of-the-slow-keynote-demo)
 
-[Improving Application Start Up Time](https://docs.microsoft.com/fr-fr/archive/blogs/amolravande/improving-application-start-up-time-generatepublisherevidence-setting-in-machine-config)
-
-[https://blogs.technet.microsoft.com/markrussinovich/2009/05/23/the-case-of-the-slow-keynote-demo/](https://blogs.technet.microsoft.com/markrussinovich/2009/05/23/the-case-of-the-slow-keynote-demo/)
-
-The workaround is to create a text file in the {{ en.RDM }} installation folder named **RemoteDesktopManager.exe.config** that must contain the following:
+The workaround is to create a text file in the {{ en.RDM }} installation folder named **RemoteDesktopManager.exe.config** that contains the following:
 
 ```
 <configuration>
@@ -35,33 +30,26 @@ The workaround is to create a text file in the {{ en.RDM }} installation folder 
 </configuration>
 ```
 
-## Problem 3
-Prevent internet access.
+## Solution 3: Prevent internet access
 
 Every time you start {{ en.RDM }}, the application will try to connect on [https://devolutions.net/remote-desktop-manager/clientinternal/enterprisenews](https://devolutions.net/remote-desktop-manager/clientinternal/enterprisenews). You should prevent all internet access from the application.
 
-### Solution
-Add the line `<DisableAnalytics>true</DisableAnalytics>` to your [**RemoteDesktopManager.cfg**](/rdm/windows/installation/client/configuration-file-location/) file. You can place it above the last line, which should contain </Option>.
+Add the line `<DisableAnalytics>true</DisableAnalytics>` to your [**RemoteDesktopManager.cfg** file](/rdm/windows/installation/client/configuration-file-location/). You can place it above the last line, which should contain "</Option>".
+![<DisableAnalytics>true</DisableAnalytics>](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4090.png)
+To find the configuration file, navigate to ***File – Settings – Advanced*** in {{ en.RDM }} and click on the blue hyperlink at the bottom.
 
-You can find the configuration file using ***File – Settings – Advanced*** and click on the blue hyperlink at the bottom.
-![!!KB4090](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4090.png)
+## Solution 4: Native image generation
 
-## Problem 4
-Native image generation.
+{{ en.RDM }} is a .NET application. This means that the code is delivered in an intermediate format. It is then processed on your local machine to generate what is called a native image. Sometimes, this process can be slow. It can also reoccur after certain conditions are met. For those reasons, we deliver a batch file to process all of our files at once. You will find this file in the installation folder of {{ en.RDM }}. It is called **OptimizeRDM.bat**.
 
-### Solution
-{{ en.RDM }} is aNET application. This means that the code is delivered in an intermediate format. It is then processed on your local machine to generate what is called a Native Image. Sometimes, this process can be slow. It can also reoccur after certain conditions are met. For these reasons, we deliver a batch file to process all of our files at once. You will find this file in the installation folder of {{ en.RDM }} It is called OptimizeRDM.bat.
+Open a command window using ***Run as Administrator*** and launch that script.
 
-Open a Command Window using Run as Administrator and launch that script.
+## Solution 5: Antivirus
 
-## Problem 5
-Antivirus.
-
-### Solution
-If the profiler log reveals slowness on one of the 3 offline loading (between 10 to 30 seconds), it might be caused by an antivirus limiting the access to the path. Whitelisting the path can allow to significantly reduce the slowness.
+If the profiler log reveals slowness on one of the three offline loading (between 10 to 30 seconds), it might be caused by an antivirus limiting the access to the path. Allowlisting the path can allow to significantly reduce the slowness.
 
 We do not recommend turning off the antivirus protection in risky conditions. You should close all browsers and ensure that only essential applications are running. We also suggest this step only for a short duration to see the startup time of the application change significantly.
 
-If your antivirus application allows it, simply turn off monitoring of {{ en.RDM }}'s installation folder. If you are comfortable with turning of the whole antivirus protection, do this to test the startup time.
+If your antivirus application allows it, turn off the monitoring of {{ en.RDM }}'s installation folder. If you are comfortable with turning off the whole antivirus protection, do it to test the startup time.
 
-There is nothing we can do in this case. It is only a step that helps in isolating the cause.
+There is nothing we can do in this case. It is only a step that helps isolate the cause.
