@@ -28,5 +28,3 @@ The following properties can be configured when creating or editing the RDP entr
 | ***Username***     | Choose a ***Username***. |
 | ***Domain***       | Enter the ***Domain***. |
 | ***Password***     | Provide a ***Password***. Check ***Always ask password*** if needed, and ***Open console (Admin mode)*** to open the console in admin mode when you log in. |
-
-Click [here](/kb/remote-desktop-manager/knowledge-base/rdp-entry-display-properties/) to learn more about ***RDP entry display properties***.
