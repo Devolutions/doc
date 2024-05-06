@@ -4,7 +4,7 @@ eleventyComputed:
 ---
 Since version 2022.2.12 of {{ en.RDM }}, the ***Web Browser*** session entry type is now known as ***Website***, and the old ***Website*** information entry type has been renamed to ***Website (legacy)***, as it is a deprecated entry type.
 
-Follow the steps below to learn how to convert your ***Website (legacy)*** entry to a ***Website*** entry type in {{ en.RDM }} using [***Special Actions***](kb/remote-desktop-manager/how-to-articles/edit-special-actions/).
+Follow the steps below to learn how to convert your ***Website (legacy)*** entry to a ***Website*** entry type in {{ en.RDM }} using [***Special Actions***](rdm/windows/commands/edit/edit-special-actions/).
 
 {% snippet icon.badgeInfo %}
 To convert several entries at once, you can perform a batch conversion by searching by ***Connection type*** with the ***Advanced Search*** feature. If your entries are in different {{ en.VLT }}s, you can use the ***Multi {{ en.VLT }} Search*** to get the same results. First make sure your {{ en.VLT }}(s) contain ***Website (legacy)*** entries, otherwise the entry type will not appear in the search options. Visit [Batch Edit](/rdm/windows/commands/edit/batch/batch-edit/) for more information.
