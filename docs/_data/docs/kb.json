@@ -596,6 +596,9 @@
                   "url": "/kb/remote-desktop-manager/troubleshooting-articles/connections-are-missing/"
                 },
                 {
+                  "url": "/kb/remote-desktop-manager/troubleshooting-articles/connection-issues-sql-data-sources/"
+                },
+                {
                   "url": "/kb/remote-desktop-manager/troubleshooting-articles/cyberark-data-source-issues/"
                 },
                 {
@@ -624,6 +627,9 @@
                 },
                 {
                   "url": "/kb/remote-desktop-manager/troubleshooting-articles/documentation-tab-empty/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/troubleshooting-articles/embedded-credentials-not-working-in-chromium-based-browsers/"
                 },
                 {
                   "url": "/kb/remote-desktop-manager/troubleshooting-articles/errconnect-tls-failed/"
