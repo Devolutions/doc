@@ -1,6 +1,7 @@
 ---
 eleventyComputed:
   title: Configure a VPN for multiple sessions
+  description: This procedure sets the VPN configurations on the folder and the entries inherit the settings.
 ---
 {{ en.RDM }} automates opening a VPN when launching a remote session. This configuration is well suited to situations where you need one VPN for a group of servers at a remote location. This procedure sets the VPN configurations on the folder and the entries inherit the settings.
 
@@ -10,11 +11,11 @@ eleventyComputed:
 
 Before following the steps below, in a folder, create a VPN entry and remote session entries.
 
-### Configure the vpn settings on the parent folder entry
+### Configure the VPN settings on the parent folder entry
 
 1. Right-click the folder entry and open its ***Properties***.
 1. From the left menu, under the ***Connection*** section, click on ***VPN/SSH/Gateway***.
-![!!KB2063](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2063.png)
+![VPN/SSH/Gateway](https://cdnweb.devolutions.net/docs/RDMW6001_2023_2.png)
 1. Under the ***General*** section, in the ***Type*** drop-down list, click on ***Session***.
 1. In the ***Connect*** drop-down list, select how the VPN opens when you launch a remote session. We recommend choosing ***Connect if unable to ping/port scan*** on the folder. We will have to set each session entry to ***Inherited*** later.
    | Option                               | Description |
@@ -25,7 +26,7 @@ Before following the steps below, in a folder, create a VPN entry and remote ses
    | Connect if unable to ping/port scan  | {{ en.RDM }} automatically tests if the host responds, if not the VPN opens. |
    | Inherited                            | The VPN inherits the settings from the parent folder. |
    | Ask for confirmation to connect      | The VPN prompts for confirmation before opening. |
-   | Connect if network adapter not found | {{ en.RDM }} tests if network adapter is installed and active, if not the VPN opens. |
+   | Connect if network adapter not found | {{ en.RDM }} tests if the network adapter is installed and active, if not the VPN opens. |
    | Prompt if unable to ping/scan        | {{ en.RDM }} tests if the host responds, if not the VPN prompts for confirmation before opening. |
 
 1. In the ***Close*** drop-down list, select how the VPN closes at the end of a remote session.
@@ -36,16 +37,13 @@ Before following the steps below, in a folder, create a VPN entry and remote ses
    | Confirm disconnect | The VPN prompts to close the VPN when the session is closed. |
 
 1. Create a ***VPN group*** so the VPN only closes when the last session in the ***VPN group*** is closed.
-   - Click the plus sign to add a new ***VPN group***, then enter a group name. Click ***OK*** when the name is entered.
-{% snippet icon.badgeHelp %}
-Watch this [YouTube video](https://youtu.be/5jKREtc63ks) for a demonstration on the ***VPN group*** option.
-{% endsnippet %}
+   - Click the plus sign to add a new ***VPN group***, then enter a group name. Click ***OK*** when the name is entered. Watch this [YouTube video](https://youtu.be/5jKREtc63ks) for a demonstration on the ***VPN group*** option.
 
-7. If you need to use specific credentials, in a team environment, you can define them in the ***Credentials (VPN/SSH/Gateway)***.
-1. Click the ***Settings*** tab.
-![!!KB2064](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2064.png)
-1. In ***Session***, select the VPN entry you created.
-1. Click ***OK***.
+7. If you need to use specific credentials, in a team environment, you can define them in the ***VPN/SSH/Gateway***.
+1. Click the ***Settings (Session)*** tab.
+1. In ***Session***, select the VPN entry you created by clicking ***Linked ({{ en.VLT_MAJ }})*** in the drop-down menu. You can also select ***Find by name ({{ en.UVLT_MAJ }})*** to search VPN created by users in their {{ en.UVLT }}.
+![Linked ({{ en.VLT_MAJ }}) and Find by name ({{ en.UVLT_MAJ }})](https://cdnweb.devolutions.net/docs/RDMW6002_2023_2.png)
+1. Click ***Update*** to save.
 
 ### Perform a batch edit to configure the session entries
 
