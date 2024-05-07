@@ -11,8 +11,8 @@ In the ***Customize Widgets*** window, widget visibility can be set to ***Always
 
 ![Widget customization options](https://cdnweb.devolutions.net/docs/RDMW4013_2024_1.png)
 
-The tabs can be hidden if they are not necessary for a user.
+The tabs can be hidden if they are not necessary.
 
-Simply right-click any tab, then select an item to toggle the visibility of its relative tab.
+Right-click any tab, then select an item to toggle the visibility of its relative tab.
 ![!!clip3577](https://cdnweb.devolutions.net/docs/RDMW4014_2024_1.png)
 
