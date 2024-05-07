@@ -7,19 +7,14 @@ The Edge cache is controlled by a few settings. This is a limitation of the Edge
 
 Here are the settings that affect sharing a cache between multiple Website sessions using Microsoft Edge:
 
-## In {{ en.RDM }} Settings
+## In {{ en.RDM }} settings
 
 1. Language code (in entry ***Properties*** – ***Common*** – ***General*** – ***Advanced***).
-
-![!!Language code](https://cdnweb.devolutions.net/docs/RDMW4034_2024_1.png)
-
-2. SmartScreen (in entry ***Properties*** – ***Common*** – ***General*** – ***General***)
-
-![!!SmartScreen option](https://cdnweb.devolutions.net/docs/RDMW4035_2024_1.png)
-
-3. Enable Single Sign-On with Windows accounts (***File*** – ***Settings*** – ***Types*** – ***Website*** – ***Session*** – ***Microsoft Edge***).
-
-![!!Enable Single Sign-On](https://cdnweb.devolutions.net/docs/RDMW4038_2024_1.png)
+![Language code](https://cdnweb.devolutions.net/docs/RDMW4034_2024_1.png)
+1. SmartScreen (in entry ***Properties*** – ***Common*** – ***General*** – ***General***)
+![SmartScreen option](https://cdnweb.devolutions.net/docs/RDMW4035_2024_1.png)
+1. Enable Single Sign-On with Windows accounts (***File*** – ***Settings*** – ***Types*** – ***Sessions*** – ***Website*** – ***Microsoft Edge***).
+![Enable Single Sign-On](https://cdnweb.devolutions.net/docs/RDMW4038_2024_1.png)
 
 These settings need to be appended to the Microsoft Edge’s cache folder path. Here are some examples:
 
@@ -30,9 +25,9 @@ C:\Users\{user}\AppData\Local\Devolutions\RemoteDesktopManager\WebView2.Cache\de
 ## Profile
 
 A profile then needs to be specified using the Edgeview2 control, which allows for various cache matching configurations.
-1. Private mode: This mode its own private profile consisting of a profile name – if it exists – and the entry’s ID.
-1. Profile name: This profile will allow sharing with all other sessions that match the three settings previously defined in {{ en.RDM }} and the profile name.
-1. No profile name: This profile will allow sharing with all other sessions that match the three settings previously defined in {{ en.RDM }} without a profile name (it will revert to a hard-coded folder name).
+1. Private mode: This mode has its own private profile consisting of a profile name – if it exists – and the entry’s ID.
+1. Profile name: This profile allows sharing with all other sessions that match the three settings previously defined in {{ en.RDM }} and the profile name.
+1. No profile name: This profile allows sharing with all other sessions that match the three settings previously defined in {{ en.RDM }} without a profile name (it reverts to a hard-coded folder name).
 
 ## Clear cache on startup
 
