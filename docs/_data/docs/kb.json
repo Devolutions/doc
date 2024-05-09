@@ -1858,6 +1858,9 @@
               "label": "howToArticles",
               "items": [
                 {
+                  "url": "/kb/hub-personal/how-to-articles/hub-personal-legacy-decommissioning/"
+                },
+                {
                   "url": "/kb/hub-personal/how-to-articles/integrate-hub-personal-rdm/"
                 },
                 {
