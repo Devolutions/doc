@@ -6,11 +6,13 @@ All passwords stored in the data sources are encrypted using a strong encryption
 
 If you choose to store passwords locally, {{ en.RDM }} will use the same mechanism used by mstsc.exe ({{ en.RDM }} client), which stores the passwords in the Windows Credential Manager. It must be noted that the password will not be able to be viewed due to being encrypted by Windows. For obvious reasons, this choice also means that credentials stored in this fashion are not shared.  
 
-## U.S. Federal Government Approved Encryption 
+## Encryption algorithm
 
-Our application integrates an Advanced Encryption Standard (AES) algorithm to protect sensitive data in the database.  
+Our application uses the XChaCha20Poly1305 encryption algorithm to protect sensitive data in the database. Consult [Devolutions cryptographic library](https://github.com/Devolutions/devolutions-crypto) for more details.
 
-This cipher is proven to be very secure. AES/Rijndael became effective as a U.S. Federal government standard and is approved by the National Security Agency (NSA) for top secret information. 
+{% snippet icon.shieldInfo %}
+The local RDM data is encrypted using Advanced Encryption Standard (AES) for computers running in FIPS mode.
+{% endsnippet %}
 
 ## Tips 
 
