@@ -20,7 +20,7 @@ Follow the steps below to learn how to make a temporary access request:
 
 1. In the ***{{ en.NPANE }}*** of {{ en.DVLS }}, select the entry you want access to.
 1. Click ***More*** – ***Request Temporary Access***.
-![Request Temporary Access Request](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp6039.png)
+![Request Temporary Access Request](https://cdnweb.devolutions.net/docs/DVLS6070_2024_1.png)
 1. In the ***Temporary Access Request*** window, choose the approver you want to send the request to.
 1. Select the time of ***Access duration***. You can click ***Set custom time frame*** if you need access for a specific period of time.
 
@@ -45,11 +45,11 @@ You can also right-clicking on the entry to view the password.
 For any reason, you may revoke your temporary access. Be sure you want to do this first, since to regain access to your entry, you will need to make another request. Otherwise, your access will end within the time frame set by you and the approver.
 
 1. Go to ***Reports***.
-![Reports](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp6042.png)
+![Reports](https://cdnweb.devolutions.net/docs/DVLS6071_2024_1.png)
 1. Select ***Temporary Access Requests Report***.
-![Temporary Access Requests Report](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp6044.png)
+![Temporary Access Requests Report](https://cdnweb.devolutions.net/docs/DVLS6072_2024_1.png)
 1. Click ***Cancel request***.
-![Cancel request](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp6041.png)
+![Cancel request](https://cdnweb.devolutions.net/docs/DVLS6073_2024_1.png)
 1. The next window will ask if you really want to cancel your request. Click ***OK*** to confirm.
 ![Cancel request confirmation](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp6051.png)
 

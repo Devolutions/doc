@@ -126,7 +126,7 @@ module.exports = (config) => {
   config.addFilter('gTab', function (content) {
     const dataLabelGlobalRegex = /data-label="gTab-(.+?)"/g;
     const dataLabelRegex = /data-label="gTab-(.+?)"/;
-    const icons = ['windows', 'macos', 'linux'];
+    const icons = ['windows', 'macos', 'linux', 'rdm', 'dvls', 'hub', 'workspace', 'gateway', 'pam'];
     let tabs = new Set();
     let htmlTabs = "";
 
@@ -150,7 +150,7 @@ module.exports = (config) => {
         let htmlIcon = '';
 
         if (icons.includes(tabSlugify)) {
-          htmlIcon = `<img alt="${tab} icon" class="size-6 mr-1.5" src="https://cdnweb.devolutions.net/web/common/images/icons/sys-${tabSlugify}.png" />`;
+          htmlIcon = `<img alt="${tab} icon" class="size-6 mr-1.5" src="https://cdnweb.devolutions.net/sysadminotaur/icons/48x48/logo-${tabSlugify}.png" />`;
         }
 
         htmlTabs += `<a class="flex items-center px-3 py-2 mt-0 font-semibold border-b-2 border-transparent text-sm/none hover:text-primary aria-selected:text-primary aria-selected:border-primary" href="?tab=${tabSlugify}" role="tab" aria-selected="${isFirst}">
@@ -169,7 +169,13 @@ module.exports = (config) => {
   const gTabs = [
     { label: "Windows" },
     { label: "macOS" },
-    { label: "Linux" }
+    { label: "Linux" },
+    { label: "RDM" },
+    { label: "DVLS" },
+    { label: "Hub" },
+    { label: "Workspace" },
+    { label: "Gateway" },
+    { label: "PAM" },
   ];
 
   gTabs.forEach(tab => {

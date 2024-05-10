@@ -11,66 +11,71 @@ Every {{ en.DHUBB }} license comes with a free {{ en.DGW }} license that support
 {% endsnippet %}
 
 {% snippet icon.badgeCaution %}
-If your clients fail to connect with {{ en.DGW }}, ensure the certificate contains the entire chain. This certificate chain includes any intermediate certificates. For example:
-Root Certificate Authority – Secure Certificate Authority – Purchased XYZ Certificate
+If your clients fail to connect with {{ en.DGW }}, ensure the certificate contains the entire chain. This certificate chain includes any intermediate certificates. For example: Root Certificate Authority – Secure (Intermediate) Certificate Authority – Purchased XYZ Certificate
 {% endsnippet %}  
 
 ## Steps for installing manually
 The following instructions explain how to manually install {{ en.DGW }} through {{ en.DHUBB }}.
 
 {% snippet icon.badgeCaution %}
-This method only works for Windows.
+As the installer is an MSI file, this method only works on Windows.
 {% endsnippet %}
 
 1. Log in with an administrator {{ en.DHUBB }} account.
-1. Access the ***Administration*** tab on the left.
-![Administration tab](https://cdnweb.devolutions.net/docs/docs_en_hub_DGW0020.png)
-1. Click on {{ en.DGW }}, which is under the ***Management*** section.
-![{{ en.DGW }} button](https://cdnweb.devolutions.net/docs/docs_en_hub_DGW0021.png)
-1. Click on the ***Add*** ( ***+*** ) button in the top right.
-![Add button](https://cdnweb.devolutions.net/docs/docs_en_hub_DGW0022.png)
-1. Select ***Install Manually*** from the dropdown.
-![Install Manually](https://cdnweb.devolutions.net/docs/docs_en_hub_DGW0023.png)
-1. Download the {{ en.DGW }} ***installer*** and execute it.
-![Installer](https://cdnweb.devolutions.net/docs/docs_en_hub_DGW0027.png)
-1. Click on ***Generate Gateway Public Key and download***. This key is unique to the {{ en.DHUBB }} account and can only be generated once. If already generated, the key can be downloaded again, if necessary.
-![Gateway Public Key](https://cdnweb.devolutions.net/docs/docs_en_hub_DGW0028.png)
+1. Click on the ***Administration*** tab.  
+![Administration tab](https://cdnweb.devolutions.net/docs/HUBB0005_2024_1.png)
+1. Click on {{ en.DGW }}, which is under the ***Management*** section.  
+![{{ en.DGW }}](https://cdnweb.devolutions.net/docs/HUBB0006_2024_1.png)
+1. Click on the ***More*** button in the top right.  
+![More button](https://cdnweb.devolutions.net/docs/HUBB0007_2024_1.png)
+1. Click on ***Download public key***. This key is unique to the {{ en.DHUBB }} account. It is automatically renamed to *provisioner.pem*. Keep track of where you saved this key, as you will need it later.  
+![Gateway public key](https://cdnweb.devolutions.net/docs/HUBB0009_2024_1.png)
+1. Select ***Download MSI*** from the dropdown.  
+![Download MSI](https://cdnweb.devolutions.net/docs/HUBB0008_2024_1.png)
+1. Execute the installer.
    {% snippet icon.badgeInfo %}
    The installer should be run on the server hosting {{ en.DGW }}.
    {% endsnippet %}
-1. Click ***Next***.
-![Setup wizard](https://cdnweb.devolutions.net/docs/docs_en_hub_DGW0024.png)
-1. Once the desired installation path is selected, click ***Next***.
-![Destination folder](https://cdnweb.devolutions.net/docs/docs_en_hub_DGW0025.png)
-1. Select ***Configure now***, then click ***Next***.
-![Configure now](https://cdnweb.devolutions.net/docs/docs_en_hub_DGW0026.png)
-1. Input your {{ en.DGW }} access URI. The default port is 443, but can be changed. Click ***Next***.
-![Access URI](https://cdnweb.devolutions.net/docs/docs_en_hub_DGW0029.png)
-1. HTTP(S) and TCP default ports are 7171 and 8181 respectively, but can be changed. Additionally, if a reverse proxy is not used, the ***HTTP Listener*** should have the same port as the ***Access URI***.
-![Listeners](https://cdnweb.devolutions.net/docs/docs_en_hub_DGW0030.png)
+1. Click ***Next***.  
+![Setup Wizard](https://cdnweb.devolutions.net/docs/HUBB0010_2024_1.png)
+1. Once the desired installation path is selected, click ***Next***.  
+![Destination Folder](https://cdnweb.devolutions.net/docs/HUBB0011_2024_1.png)
+1. Click ***Next***.  
+![Configure the Gateway installation](https://cdnweb.devolutions.net/docs/HUBB0012_2024_1.png)
+   {% snippet icon.badgeInfo %}
+   The additional options are for the {{ en.DGW }} Standalone web interface and ngrok integration, both of which are not needed for {{ en.DHUB }}.
+   {% endsnippet %}
+1. Change the ***Ports*** to the desired value and click ***Next***.
+![Listeners](https://cdnweb.devolutions.net/docs/HUBB0013_2024_1.png)
+   {% snippet icon.badgeInfo %}
+   HTTP(S) and TCP default ports are 7171 and 8181, respectively, but can be changed. Additionally, if a reverse proxy is not used, the ***HTTP Listener*** should have the same port as the ***Access URI***.
+   {% endsnippet %}
+1. Input the {{ en.DHUBB }} access URI and click ***Next***.
+![Access URI](https://cdnweb.devolutions.net/docs/HUBB0014_2024_1.png)
 1. After clicking the top ellipsis button, select either a PFX file or a Certificate file, then enter the corresponding password. (If the listener is not in ***HTTPS*** or if using a reverse proxy, skip this step)
-![Certificate](https://cdnweb.devolutions.net/docs/docs_en_hub_DGW0031.png)
-1. Click on the ellipsis button and select the ***Provisioner Public Key*** which was generated in Step 7.
-![Public key](https://cdnweb.devolutions.net/docs/docs_en_hub_DGW0032.png)
-1. Select the ***Automatically*** option for Service Startup and click ***Next***.
-![Service startup](https://cdnweb.devolutions.net/docs/docs_en_hub_DGW0033.png)
-1. This screen shows a summary of the current paths/settings. It is possible to go ***Back*** and modify them. If the settings are correct, click ***Next***.
-![Gateway setup summary](https://cdnweb.devolutions.net/docs/docs_en_hub_DGW0034.png)
-1. Click ***Install***.
-![Install button](https://cdnweb.devolutions.net/docs/docs_en_hub_DGW0035.png)
-1. Click ***Finish*** when the setup is complete.
-1. Go back to the ***Administration – {{ en.DGW }}*** page in {{ en.DHUBB }}.
+![Certificate](https://cdnweb.devolutions.net/docs/HUBB0015_2024_1.png)
+1. Click on the ellipsis button and select the ***Provisioner Public Key*** which was generated in Step 5.  
+![Public Key File](https://cdnweb.devolutions.net/docs/HUBB0016_2024_1.png)
+1. This screen shows a summary of the current paths/settings. It is possible to go ***Back*** and modify them. If the settings are correct, click ***Next***.  
+![Gateway setup summary](https://cdnweb.devolutions.net/docs/HUBB0017_2024_1.png)
+1. Click ***Install***.  
+![Install button](https://cdnweb.devolutions.net/docs/HUBB0018_2024_1.png)
+1. Click ***Finish*** when the setup is complete.  
+![Finish button](https://cdnweb.devolutions.net/docs/HUBB0019_2024_1.png)
+1. Go back to the ***Administration*** – ***{{ en.DGW }}*** page in {{ en.DHUBB }}.
 1. Input the correct information.
-![Information fields](https://cdnweb.devolutions.net/docs/docs_en_hub_DGW0036.png)
-![Information fields](https://cdnweb.devolutions.net/docs/docs_en_hub_DGW0041.png)
-1. By checking the ***Default*** box, this {{ en.DGW }} will be the one selected if none are specified or if ***Default*** is chosen when connecting.
-![Default option](https://cdnweb.devolutions.net/docs/docs_en_hub_DGW0037.png)
-1. Make certain the gateway can be reached by clicking ***Test Connection***.
-![Test Connection button](https://cdnweb.devolutions.net/docs/docs_en_hub_DGW0038.png)
-1. Click the ***Add*** button to link your {{ en.DGW }} installation to your {{ en.DHUBB }}.
-![Add button](https://cdnweb.devolutions.net/docs/docs_en_hub_DGW0039.png)
-1. A rectangle will show the information for every {{ en.DGW }} Hub link(s).
-![Successful link](https://cdnweb.devolutions.net/docs/docs_en_hub_DGW0040.png)
+![Information fields](https://cdnweb.devolutions.net/docs/HUBB0020_2024_1.png)
+   {% snippet icon.badgeInfo %}
+   Once the {{ en.DGW }} URL is entered, click the ***Auto-Detect*** button next to the TCP Hostname to fill in the value automatically.
+   {% endsnippet %}
+1. By checking the ***Default*** box, this {{ en.DGW }} will be the one selected if none are specified or if ***Default*** is chosen when connecting.  
+![Default option](https://cdnweb.devolutions.net/docs/HUBB0021_2024_1.png)
+1. Make certain the gateway can be reached by clicking ***Test Connection***.  
+![Test Connection button](https://cdnweb.devolutions.net/docs/HUBB0022_2024_1.png)
+1. Click the ***Add*** button to link your {{ en.DGW }} installation to your {{ en.DHUBB }}.  
+![Add button](https://cdnweb.devolutions.net/docs/HUBB0023_2024_1.png)
+1. A rectangle will show the information for every {{ en.DGW }} Hub link(s).  
+![Successful link](https://cdnweb.devolutions.net/docs/HUBB0024_2024_1.png)
 {% snippet icon.badgeInfo %}
 Visit [{{ en.RDM }} Configuration](/hub/dgw/rdm-configuration/) to learn more about linking {{ en.RDM }} and {{ en.DGW }}.
 {% endsnippet %}

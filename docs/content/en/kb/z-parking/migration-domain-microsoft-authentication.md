@@ -25,7 +25,7 @@ It is possible to efficiently migrate {{ en.DVLS }} Domain authentication to Mic
 * If migrating {{ en.DVLS }} and/or SQL on a new server.  
     * Export Encryption Keys from the old {{ en.DVLS }} instance.
     * Restore the SQL database on the new server.  
-    * [Create the new {{ en.DVLS }} instance](/server/installation/create-server-instance/) and connect it on the existing or newly restored SQL database using the exported Encryption Keys.
+    * [Create the new {{ en.DVLS }} instance](/server/getting-started/installation/create-server-instance/) and connect it on the existing or newly restored SQL database using the exported Encryption Keys.
 * Migrate all existing user accounts to Microsoft authentication UPN username format.  
     * We provide an SQL statement for this migration step. Please send an email to [service@devolutions.net](mailto:service@devolutions.net) to get it.
 * Migrate User groups (formerly known as Roles) to the new AAD group names.  

@@ -1,9 +1,10 @@
 ---
 eleventyComputed:
   title: Copy buttons for custom fields
+  description: The Custom Fields must be hidden to show the Copy Custom Fields in the ribbon of {{ en.RDM }}.
 ---
-In {{ en.RDM }} version 2022.2 and higher, located in the ***Home - Clipboard*** tab section, we have added copy buttons from the ***Custom Fields*** section of the entries.
-![!!KB4976](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4976.png)
+Copy buttons from the ***Custom Fields*** section of the entries are located under ***Home - Clipboard*** in the {{ en.RDM }} ribbon.
+![Home - Clipboard](https://cdnweb.devolutions.net/docs/RDMW6004_2023_2.png)
 
 ## Settings
 
@@ -13,4 +14,4 @@ To show the ***Copy Custom Fields*** button in the ***Home*** menu, you need to 
 Changing the ***Custom Field*** tag name will be reflected in the ***Home*** menu tab.
 {% endsnippet %}
 
-![!!KB4977](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4977.png)
+![Hide the value of the Custom Fields](https://cdnweb.devolutions.net/docs/RDMW6003_2023_2.png)

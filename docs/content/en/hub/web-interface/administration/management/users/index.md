@@ -45,7 +45,7 @@ In the ***User groups*** tab, you can assign them to one or more user groups wit
 | Allow offline in {{ en.RDM }}     | Allows the user to use the hub as a data source in offline mode in {{ en.RDM }}.                                                                                                                                                  |
 | Is administrator                  | Sets the user as an administrator of the hub. This option cannot be changed if the user is the owner of the hub (as seen in the image above).                                                                                   |
 | [Allow send messages](/hub/web-interface/secure-messages/) | Select if the user is allowed to send messages with entries, without entries, or is not allowed to send messages.                                                                                                            |
-| Usage profile                     | Select the user's usage profile between ***IT professional***, ***Business user***, or the ***Default***. This cannot only be changed when editing the user, not when creating them.                                           |
+| User interface profile                     | Select the user interface profile between ***IT professional***, ***Business user***, or the ***Default***. This cannot only be changed when editing the user, not when creating them.                                           |
 
 ## Delete a user
 

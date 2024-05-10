@@ -6,7 +6,7 @@ eleventyComputed:
 {{ en.RDM }}'s offline mode allows you to connect to a local copy of a [data source](/rdm/windows/concepts/basic-concepts/data-sources/). Changes are saved locally and synchronized with the data source once it is back online. Entries can be accessed even if there is no connection to the database.
 
 ### Related topics  
-* [Offline settings](/rdm/windows/commands/administration/settings/system-settings/application/offline/) 
+* [Cache/Offline](/rdm/commands/administration/settings/system-settings/application-specific/offline/) 
 * [Offline Read/Write](/rdm/windows/data-sources/offline-mode/offline-read-write/)
 * [Manage cache](/rdm/windows/data-sources/manage-cache/)
 

@@ -2,6 +2,7 @@
 eleventyComputed:
   title: Android life cycle policy
   description: Devolutions will ensure compatibility of {{ en.RDM }} with the current version of the Android operating system (OS) and up to three major versions that directly precede it.
+  status: This policy comes from the Devolutions legal team. Do not edit the content of this policy unless told otherwise by the legal team.
 ---
 Devolutions will ensure compatibility of {{ en.RDM }} with the current version of the Android operating system (OS) and the three major versions that directly precede it (e.g., from Android 14 to Android 11).
 

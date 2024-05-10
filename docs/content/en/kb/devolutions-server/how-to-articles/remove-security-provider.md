@@ -16,7 +16,7 @@ The following procedure explains how to remove the Security Provider and impleme
 ![Go Offline](https://cdnweb.devolutions.net/docs/docs_en_kb_KB8046.png)
 1. If the scheduler is installed, uninstall it from the {{ en.DVLSCONSOLE }} in ***Companions – Scheduler Service – Uninstall***. If a service account is configured to run the scheduler service, make sure you have the service account's password to reinstall it at the end of the procedure.
 ![Uninstall the scheduler](https://cdnweb.devolutions.net/docs/docs_en_kb_KB8083.png)
-1. Back up the {{ en.DVLS }} web application folder or, if possible, take a screenshot of the virtual machine where {{ en.DVLS }} is hosted.
+1. Back up the {{ en.DVLS }} web application folder or, if possible, take a snapshot of the virtual machine where {{ en.DVLS }} is hosted.
 1. Make a full database backup.
 1. In the ***Tools*** menu of the {{ en.DVLSCONSOLE }}, click on ***Remove Security Provider***.
 ![Remove Security Provider](https://cdnweb.devolutions.net/docs/docs_en_kb_KB8047.png)

@@ -8,9 +8,9 @@ eleventyComputed:
 1. Scroll to ***Passwords***.
 1. Tap on ***Password Options***.
 ![Password Options](https://cdnweb.devolutions.net/docs/docs_en_kb_KB0045.png)
-1. Select ***{{ en.WS }}***.
-![{{ en.WS }}](https://cdnweb.devolutions.net/docs/docs_en_kb_KB0046.png)
-1. Go into the ***{{ en.WIAPP }}*** app.
+1. Toggle ***AutoFill Passwords and Passkeys***, and select ***{{ en.WS }}***.
+![{{ en.WS }}](https://cdnweb.devolutions.net/docs/INTERFACE4001.png)
+1. Go into the ***{{ en.WIAPP }}***.
 1. Tap the menu button.
 ![Menu Button](https://cdnweb.devolutions.net/docs/docs_en_kb_KB0047.png)
 1. Go to the ***Settings***.

@@ -18,7 +18,7 @@ It is possible to create local and database templates.
 * Database templates are saved in the database. They are available to all users of the data source.
 
 {% snippet icon.badgeInfo %}
-By default, standard users cannot create or manage templates. To allow users to create or manage templates, the permission must be granted to users using the ***Administration*** – ***Templates*** section of the [System Permissions](/rdm/windows/commands/administration/settings/system-permissions/).
+By default, standard users cannot create or manage templates. To allow users to create or manage templates, the permission must be granted to users using the ***Administration*** – ***Templates*** section of the [system permissions](/rdm/commands/administration/security/system-permissions/).
 {% endsnippet %}
 
 ![File – Templates](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip10235.png)
@@ -34,7 +34,7 @@ Templates can be used in the following cases:
 
 ### Create a new entry
 
-By default, when creating an entry of a type that has templates configured for, the user is prompted for a template to use. This behavior can be modified in the [System Settings](/rdm/windows/commands/administration/settings/system-settings/general/).
+By default, when creating an entry of a type that has templates configured for, the user is prompted for a template to use. This behavior can be modified in the [System Settings](/rdm/commands/administration/settings/system-settings/).
 ![!!clip3584](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip3584.png)
 
 The template can be selected before creating the entry as well. Use the ***Template*** section of the ***Add New Entry*** window.

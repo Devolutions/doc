@@ -18,7 +18,7 @@ The following steps will explain how to define which server is answering when co
 1. Open the ***Developer Tools*** in the browser. Usually the ***F12*** key will open the ***Developer Tools*** in Google Chrome, Firefox, or Microsoft Edge.
 1. Browse to your {{ en.DVLS }} web page.
 1. Using Firefox, in the ***Network*** tab, you should find the ***Custom HTTP Response Header*** value of the answering server of the cluster.
-![!!KB4350](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4350.png)
+![!!KB4350](https://cdnweb.devolutions.net/docs/INTERFACE4000.png)
 
 ## Command Line
 ```

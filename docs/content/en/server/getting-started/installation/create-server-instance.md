@@ -9,13 +9,14 @@ eleventyComputed:
 If you have recently received your serial license keys, please refer to [Getting started](/server/getting-started/).
 
 For more information about any of the features in the deploy wizard, please consult their respective topic under [Server Settings](/server/management/devolutions-server-console/devolutions-server-settings/general/).
+
 {% endsnippet %}
 
-Multiple {{ en.DVLS }} instances can be hosted on the same server. Each instance resides in its own web application within IIS. The following steps are carried out using the {{ en.DVLSCONSOLE }}.
+Multiple {{ en.DVLS }} instances can be hosted on the same server. Each instance resides in its own web application within IIS. The following steps are carried out using the {{ en.DVLSCONSOLE }} and are also valid for the ***free edition*** of {{ en.DVLS }}.
 
 ## First steps
 1. Install {{ en.DVLSCONSOLE }} on the web server. It is available from the [Download](https://server.devolutions.net/home/download) page.
-1. Execute {{ en.DVLSCONSOLE }} with elevated privileges (run as administrator). This is performed by right-clicking on the application, and selecting ***Run as administrator***.
+1. Execute {{ en.DVLSCONSOLE }} with elevated privileges (run as administrator). This is performed by right-clicking on the application and selecting ***Run as administrator***.
    {% snippet icon.shieldWarning %}
    All operations performed through the {{ en.DVLSCONSOLE }} are done with the credentials used to launch {{ en.DVLSCONSOLE }}. If you must use other credentials, you will need to launch another Windows session. The ***RunAs*** command does not offer the option of starting a process with elevated privileges. The Run as different user option can work only if the account is a member of the server's local administrator group.
    {% endsnippet %}
@@ -25,7 +26,7 @@ Multiple {{ en.DVLS }} instances can be hosted on the same server. Each instance
 ![Deploy a new {{ en.DVLS }}](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp0049.png)
 
 ### Basic installation
-1. If an SQL Server instance is not available on the machine where {{ en.DVLS }} is hosted, a SQL Server Express Edition instance will be installed by the wizard.  
+1. If a SQL Server instance is not available on the machine where {{ en.DVLS }} is hosted, a SQL Server Express edition instance will be installed by the wizard. An internet connection is required to download the SQL Server Express edition and the following prerequisites: [IIS Application Request Routing (ARR)](https://api.devolutions.net/redirection/f19f07f3-5ea4-436d-a3ba-4bb69d373321), [IIS Rewrite Module](https://api.devolutions.net/redirection/3cb42413-5dfd-4b1b-bd20-4e5968274ed0), and [ASP.NET Core Module (ANCM)](https://dotnet.microsoft.com/permalink/dotnetcore-current-windows-runtime-bundle-installer). 
 ![Basic installation dialog](https://cdnweb.devolutions.net/docs/DVLS6011_2024_1.png)
 1. The following dialog provides the credentials created for the sa SQL account, the {{ en.DVLS }} administrator account and the Encryption Key password. Click on the ***Save As*** button to save the information in a file.
 ![Important credentials dialog](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp8177.png)
@@ -37,7 +38,7 @@ Multiple {{ en.DVLS }} instances can be hosted on the same server. Each instance
 1. Enter your license. To activate the free edition, click the ***Activate the Free Version*** button to immediately access Devolutions Server with a free license.
 
 ### Advanced installation
-1. For the first step, the installation wizard will run diagnostics on the server to verify if the IIS Server has all the necessary web server prerequisites installed and is ready to run {{ en.DVLS }}. Missing features are marked with an error icon. The Install Prerequisites button will install all missing features using a PowerShell script.Click on Close to continue. An internet connection is required for [IIS Application Request Routing (ARR)](https://api.devolutions.net/redirection/f19f07f3-5ea4-436d-a3ba-4bb69d373321), [IIS Rewrite Module](https://api.devolutions.net/redirection/3cb42413-5dfd-4b1b-bd20-4e5968274ed0) and [IIS ASP.NET Core Module (ANCM)](https://dotnet.microsoft.com/permalink/dotnetcore-current-windows-runtime-bundle-installer).
+1. For the first step, the installation wizard will run diagnostics on the server to verify if the IIS Server has all the necessary web server prerequisites installed and is ready to run {{ en.DVLS }}. Missing features are marked with an error icon. The Install Prerequisites button will install all missing features using a PowerShell script.Click on Close to continue. An internet connection is required for [IIS Application Request Routing (ARR)](https://api.devolutions.net/redirection/f19f07f3-5ea4-436d-a3ba-4bb69d373321), [IIS Rewrite Module](https://api.devolutions.net/redirection/3cb42413-5dfd-4b1b-bd20-4e5968274ed0) and [ASP.NET Core Module (ANCM)](https://dotnet.microsoft.com/permalink/dotnetcore-current-windows-runtime-bundle-installer).
 ![IIS Features Diagnostic](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp8049.png)
 1. The License Agreement needs to be accepted to proceed.
 ![{{ en.DVLS }} End User License Agreement](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp8050.png)

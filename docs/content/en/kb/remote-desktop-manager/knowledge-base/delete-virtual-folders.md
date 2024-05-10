@@ -7,12 +7,11 @@ eleventyComputed:
 Deleting virtual folders can be done by manually editing each virtual folder, saving the changes and converting them into real folders. However, this process becomes time-consuming when dealing with a significant number of virtual folders, as it requires converting each one manually.
 
 ## PowerShell method
-{% snippet icon.badgeWarning %}
-This method deletes all virtual folders in the data source {{ en.VLT }}s.
-{% endsnippet %}
 
 {% snippet icon.badgeWarning %}
-Delete duplicate folders before running the PowerShell script from the new entry.
+Before proceeding with the PowerShell method, please take note of the following:
+* This method deletes all virtual folders in the data source {{ en.VLT }}s.
+* Delete duplicate folders before running the PowerShell script from the new entry.
 {% endsnippet %}
 
 1. Launch {{ en.RDM }} as an administrator by right-clicking on the application and choosing ***Run as administrator***.
@@ -22,7 +21,7 @@ Delete duplicate folders before running the PowerShell script from the new entry
 ![PowerShell session entry](https://cdnweb.devolutions.net/docs/docs_en_kb_KB6014.png)
 1. Name the entry and choose the folder in which you want to create it.
 1. Set the entry to ***Embedded Script***.
-![Embedded Script](https://cdnweb.devolutions.net/docs/docs_en_kb_KB6020.png)
+![Embedded script](https://cdnweb.devolutions.net/docs/docs_en_kb_KB6020.png)
 1. Click on ***Edit embedded script***.
 ![Edit embedded script](https://cdnweb.devolutions.net/docs/docs_en_kb_KB6019.png)
 1. Add the following script:
@@ -162,6 +161,6 @@ Write-Host "Time taken to convert virtual folders: $(($afterCreatingGroups).Subt
 9. Click ***OK*** to apply the script.
 1. Click ***OK*** the save the entry settings and close the window.
 1. Click on ***Open Session*** to run the entry.
-![Open Session](https://cdnweb.devolutions.net/docs/docs_en_kb_KB6018.png)
+![Open session](https://cdnweb.devolutions.net/docs/docs_en_kb_KB6018.png)
 
 The script will now convert all virtual folders in the data source {{ en.VLT }}s.

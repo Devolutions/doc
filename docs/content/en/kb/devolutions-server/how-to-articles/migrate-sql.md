@@ -30,7 +30,7 @@ When removing a ***Security Provider***, it is important to complete these steps
 ![Close](https://cdnweb.devolutions.net/docs/RDMW0013_2024_1.png)
 
 ## Migrating MSSQL to {{ en.DVLS }}
-This operation assumes that you have [{{ en.DVLSCONSOLE }} installed](https://devolutions.net/server/home/download) on your target {{ en.DVLSCONSOLE }} host. You may migrate an MSSQL data source prior to [fully installing](/server/installation/) an instance of {{ en.DVLS }}.
+This operation assumes that you have [{{ en.DVLSCONSOLE }} installed](https://devolutions.net/server/home/download) on your target {{ en.DVLSCONSOLE }} host. You may migrate an MSSQL data source prior to [fully installing](/server/getting-started/installation/) an instance of {{ en.DVLS }}.
 
 {% snippet icon.badgeCaution %}
 This procedure operates on the existing database, not a copy. To revert this process, you would need to restore from a backup, therefore it’s recommended to make a full backup.
@@ -71,4 +71,4 @@ Once the process is completed, the new {{ en.DVLS }} installation will be immedi
 A {{ en.RDM }} Team license is needed to use {{ en.DVLS }} free.
 {% endsnippet %}
 
-{{ en.DVLS }} offers a free license to use for up to 10 users. Upon first connection to the {{ en.DVLS }} web interface, you are prompted to enter a license. Click on the ***Activate the Free Version*** button to use the free license. Please note you do need an {{ en.RDM }} Team edition subscription.
+{{ en.DVLS }} offers a free license to use for up to 10 users. Upon first connection to the {{ en.DVLS }} web interface, you are prompted to enter a license. Click on the [***Activate the Free Version***](/server/getting-started/installation/create-server-instance/#basic-installation) button to use the free license.

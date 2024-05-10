@@ -17,7 +17,7 @@ Here are the main key points of the user group based access system:
 ### Enhance the security
 While the user group based access control is a great feature to secure access to entries, many other features can be used to add more security layers. For more information, please consult the following topics:
 
-* [Security Provider](/rdm/windows/commands/administration/settings/security-providers/)
+* [Security Provider](/rdm/commands/administration/security/security-providers/)
 * [{{ en.VLT_MAJ }}](/rdm/windows/commands/administration/management/vaults-overview/)
 * [Password Templates](/rdm/windows/commands/file/templates/password-templates/)
 * [Two-factor authentication](/rdm/windows/data-sources/multi-factor-authentication/)

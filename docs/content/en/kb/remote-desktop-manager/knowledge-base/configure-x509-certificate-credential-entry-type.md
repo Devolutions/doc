@@ -1,9 +1,9 @@
 ---
 eleventyComputed:
-  title: Configure a aX.509 certificate credential entry type
+  title: Configure a X.509 certificate credential entry type
   description: Learn how to configure an access code entry in Remote Desktop Manager
 ---
-The ***aX.509 certificate credential entry type*** facilitate RDP Smart Card authentication, and stores the full X.509 certificate (public and private portion) for insertion into an RDP virtual Smart Card.
+The ***X.509 certificate credential entry type*** facilitate RDP Smart Card authentication, and stores the full X.509 certificate (public and private portion) for insertion into an RDP virtual Smart Card.
 
 Some organizations use X.509 certificates as as alternative to authenticating with user IDs and passwords. X.509 certificates leverage public-private key cryptography, and are widely seen as an enhanced safeguard against malicious network impersonators.
 

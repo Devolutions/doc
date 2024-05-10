@@ -8,6 +8,6 @@ The ***batch operations*** of {{ en.RDM }} are useful for large-scale data manag
 ### Related topics  
 
 * [Batch Edit](/rdm/windows/commands/edit/batch/batch-edit/#batch-edit-options)  
-* [Batch Grant Access (Permissions)](/rdm/windows/commands/administration/settings/system-settings/vault-management/batch-grant-access/)
+* [Batch Grant Access (Permissions)](/rdm/commands/administration/settings/system-settings/vault-management/default-permissions/batch-grant-access/)
 * [Batch operations](/rdm/windows/commands/edit/batch/batch-edit/#batch-edit-options)
 * [Network Scan](/rdm/windows/commands/file/import/network-scan/)

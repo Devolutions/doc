@@ -3,7 +3,7 @@ eleventyComputed:
   title: Créer votre {{ fr.DHUBB }}
 ---
 {% snippet icon.badgeInfo %}
-Commencer votre [essai gratuit](https://password.devolutions.net/fr/business/sign-up) {{ fr.DHUBB }} dès aujourd'hui.
+Commencer votre [essai gratuit](https://devolutions.net/fr/password-hub/business/sign-up/) {{ fr.DHUBB }} dès aujourd'hui.
 {% endsnippet %}
 
 1. Accéder à la section [{{ fr.DPORTAL }}](https://portal.devolutions.com/password-hub) de votre {{ fr.DA }} pour créer votre {{ fr.DHUBB }}.

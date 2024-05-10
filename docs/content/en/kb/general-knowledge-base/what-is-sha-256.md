@@ -1,17 +1,18 @@
 ---
 eleventyComputed:
-  title: What is SHA-256
+  title: What is SHA-256?
+  description: The Secure Hash Algorithm (SHA) family encompasses several cryptographic hash functions, with SHA-256 being a widely-used variant.
 ---
-The SHA (Secure Hash Algorithm) is one of a number of cryptographic hash functions. A cryptographic hash is like a signature for a data set. If you would like to compare two sets of raw data (source of the file, text or similar) it is always better to hash it and compare SHA-256 values.
+The Secure Hash Algorithm (SHA) family encompasses several cryptographic hash functions, with SHA-256 being a widely-used variant. Cryptographic hashes act as digital signatures for data, enabling the comparison of large data sets by their hash values rather than their full content. This method is similar to using fingerprints for identification—each data set has a unique hash, and even a minor alteration to the data changes the hash value.
 
-It is like the fingerprints of the data. Even if only one symbol is changed, the algorithm will produce different hash value. SHA-256 algorithm generates an almost-unique, fixed size 256-bit (32-byte) hash. Hash is so called a one way function. This makes it suitable for checking integrity of your data and challenge hash authentication, anti-tamper, digital signatures, and blockchain.
+SHA-256 generates a distinctive, fixed-size 256-bit (32-byte) hash, functioning as a one-way process that makes it excellent for data integrity checks, authentication challenges, anti-tampering measures, digital signatures, and blockchain applications.
 
-SHA-256 algorithm can be used for making sure you acquired the same data as the original one. For example, if you download our Devolutions applications you can easily check if the data has not changed due to network errors or malware injection.
+For instance, when downloading applications like those from Devolutions, SHA-256 helps verify that the data received matches the original, ensuring it has not been altered due to network errors or malware attacks. To check a file's hash, simply click on the SHA-256 icon on the download page of the Devolutions website.
 
-To compare the hash of your file, click on the SHA-256 icon on our Devolutions website download page.
+For additional guidance on how to obtain the SHA-256 hash of a file, refer to Microsoft's documentation on the [Get-FileHash](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/get-filehash?view=powershell-7.2) command. Here is how you can use it:
 
-For more information and to know how to get the SHA-256 from a file, see Microsoft's [Get-FileHash](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/get-filehash?view=powershell-7.2).
+```powershell
+Get-FileHash C:\Users\user1\Downloads\Setup.RemoteDesktopManager.exe -Algorithm SHA256 | Format-List.
+```
 
-{% snippet icon.badgeNotice %}
-The command should look similar to this: Get-FileHash C:\Users\user1\Downloads\Setup.RemoteDesktopManager.exe -Algorithm SHA256 | Format-List. 
-{% endsnippet %}
+This command provides a structured output of the hash value, aiding in easy verification of your file's integrity.

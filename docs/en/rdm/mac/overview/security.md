@@ -4,11 +4,13 @@ eleventyComputed:
 ---
 All passwords stored in the application database are encrypted using a strong encryption algorithm, to the extent that if a user attempts to access the data directly in the database, it will be considered unreadable. 
 
-## U.S. Federal Government Approved Encryption 
+## Encryption algorithm
 
-Our application integrates an Advanced Encryption Standard (AES) algorithm to protect your local files and your sensitive data in the database.  
+Our application uses the XChaCha20Poly1305 encryption algorithm to protect sensitive data in the database. Consult [Devolutions cryptographic library](https://github.com/Devolutions/devolutions-crypto) for more details.
 
-This cipher is incredibly secure. AES/Rijndael became effective as a U.S. Federal Government standard and is approved by the National Security Agency (NSA) for top secret information. 
+{% snippet icon.shieldInfo %}
+The local RDM data is encrypted using Advanced Encryption Standard (AES) for computers running in FIPS mode.
+{% endsnippet %}
 
 ## Tips 
 

@@ -8,10 +8,10 @@ Follow the steps below to complete the installation of the {{ en.WBEX }} in the 
 1. Open a Chrome window.
 1. Download the {{ en.WBEX }} from our [web page](https://devolutions.net/workspace).
 1. Click the ***Add To Chrome*** button.
-![{{ en.WBEX }} in the Chrome Web Store](https://cdnweb.devolutions.net/docs/CLOUD2000_2024_1.png)
+![{{ en.WBEX }} in the Chrome Web Store](https://cdnweb.devolutions.net/docs/INTERFACE2015.png)
 1. Click ***Add extension*** in the confirmation dialog.
-![Add extension](https://cdnweb.devolutions.net/docs/CLOUD2001_2024_1.png)
+![Add extension](https://cdnweb.devolutions.net/docs/INTERFACE2016.png)
 1. Click the Chrome ***Extensions*** button and ***Pin*** the {{ en.WBEX }} to finish the installation.
-![Pin the {{ en.WBEX }}](https://cdnweb.devolutions.net/docs/CLOUD2003_2024_1.png)
+![Pin the {{ en.WBEX }}](https://cdnweb.devolutions.net/docs/INTERFACE2017.png)
 
 You can now access the extension by clicking the {{ en.WBEX }} button in the top-right corner of your Chrome web browser.

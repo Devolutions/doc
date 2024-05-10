@@ -23,7 +23,7 @@ Key points to consider:
 
 ### Web server prerequisistes
 
-Please refer to [Installing web server prerequisites](/server/installation/installing-web-server-prerequisites/). 
+Please refer to [Installing web server prerequisites](/server/getting-started/installation/installing-web-server-prerequisites/). 
 
 {% snippet icon.badgeCaution %} 
 After you have installed the prerequisites, test the IIS installation by navigating to http<area>://localhost. Do not proceed further if you do not see the IIS welcome screen. There are issues that must be resolved. 
@@ -31,8 +31,8 @@ After you have installed the prerequisites, test the IIS installation by navigat
  
 ### Database server prerequisites
 
-Please refer to [Database Instance](/server/installation/database-instance/). 
+Please refer to [Database Instance](/server/getting-started/installation/database-instance/). 
 
 ### Create {{ en.DVLS }} instance
 
-Please refer to [Create a {{ en.DVLS }} instance](/server/installation/create-server-instance/).
+Please refer to [Create a {{ en.DVLS }} instance](/server/getting-started/installation/create-server-instance/).

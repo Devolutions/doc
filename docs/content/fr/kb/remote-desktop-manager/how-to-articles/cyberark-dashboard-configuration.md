@@ -103,7 +103,7 @@ Here are the restrictions related to PSM:
 
 * A user must connect to the PSM server via RDP and be granted permission to do so.
 * PSM has to be able to link the LDAP account with a CyberArk PVWA profile (could work with a SAML Azure AD when LDAP is cloned on Azure AD)
-* The ***account to use*** (/u) must be found without any ambiguity in the CyberArk {{ en.VLT }}.
+* The ***account to use*** must be found without any ambiguity in the CyberArk {{ en.VLT }}.
 
 {% snippet icon.badgeCaution %}
 This is provided as a convenience and is not recommended by the CyberArk team. It has some limitations when compared to the ***Connect*** action from PVWA which uses a limited lifetime token.

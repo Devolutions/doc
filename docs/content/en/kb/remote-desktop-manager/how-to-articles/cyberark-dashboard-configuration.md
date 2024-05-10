@@ -23,8 +23,7 @@ Learn more about the [CyberArk MFA delimiter option](/kb/remote-desktop-manager/
    The following is what your ***Web services URL*** will be, depending on your CyberArk subscription:
    * ***SelfHosted***: Short URL
    * ***PrivilegeCloud***: Short URL if the URL does not end in "cyberark.cloud"
-   * ***PrivilegeCloud***: /PrivilegeCloud if the URL ends in "cyberark.cloud"
-   * ***PrivilegeCloud ISSPS***: /privilegecloud
+   * ***PrivilegeCloud***: /privilegecloud if the URL ends in "cyberark.cloud"
    {% endsnippet %}
 
 4. Enter a ***Virtual directory***. This field is either /privilegecloud or empty.
@@ -91,7 +90,7 @@ PSM Alternate Shell PSM /u <account to use> /a <endpoint> /c <component> restric
 ```
 * A user must connect to the PSM server via RDP and be granted permission to do so.
 * PSM has to be able to link the LDAP account with a CyberArk PVWA profile (could work with a SAML Azure AD when LDAP is cloned on Azure AD)
-* The ***account to use*** (/u) must be found without any ambiguity in the CyberArk {{ en.VLT }}.
+* The ***account to use*** must be found without any ambiguity in the CyberArk {{ en.VLT }}.
 
 {% snippet icon.badgeCaution %}
 This is provided as a convenience and is not recommended by the CyberArk team. It has some limitations when compared to the ***Connect*** action from PVWA which uses a limited lifetime token.

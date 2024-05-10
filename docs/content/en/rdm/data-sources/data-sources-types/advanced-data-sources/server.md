@@ -19,7 +19,7 @@ eleventyComputed:
 
 For more information, please consult these topics:
 
-* [{{ en.DVLS }} installation instructions](/server/installation/)
+* [{{ en.DVLS }} installation instructions](/server/getting-started/installation/)
 * [{{ en.DVLS }} Security Checklist](/server/getting-started/security-checklist/)
 
 ## Configure the server data source on all your client machines

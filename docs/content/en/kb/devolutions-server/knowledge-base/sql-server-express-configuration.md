@@ -1,10 +1,9 @@
 ---
 eleventyComputed:
   title: SQL Server express configuration
+  description: To be able to connect to a SQL database with {{ en.DVLS }}, here is the suggested configuration in Microsoft SQL Server Express Edition.
 ---
 To be able to connect to a SQL database with {{ en.DVLS }}, here is the suggested configuration in Microsoft SQL Server Express Edition.
-
-## Steps
 
 **Most of our customers use the mixed mode Server Authentication**. As per Microsoft, it is not the safest authentication method to use with Microsoft SQL Server Express Edition but we recommend to use it to configure and test your {{ en.DVLS }} instance. After a successful installation of {{ en.DVLS }}, you can set it back to ***Windows Authentication*** mode and set the ***Domain single sign-on (SSO)*** option in the ***Database*** tab of the {{ en.DVLS }} Server Settings. Consult [Configure {{ en.DVLS }} to use domain single sign-on (SSO)](/kb/devolutions-server/how-to-articles/configure-server-use-domain-sso/). To enable the mixed mode, in the Microsoft SQL Server Management Studio, open the properties dialog of your server and go in the ***Security*** tab. Then, select the SQL Server and Windows Authentication mode option.
 ![!!KB4311](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4311.png)

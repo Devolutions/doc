@@ -27,7 +27,7 @@ The ***Deleted Entries*** will generate a list containing all the entries previo
 | Delete All   | Permanently delete all the deleted entries.   |
 
 {% snippet icon.badgeNotice %} 
-Deleted entries can be restored as long as the [Security Provider](/rdm/windows/commands/administration/settings/security-providers/) has not been changed since the deleted action. 
+Deleted entries can be restored as long as the [Security Provider](/rdm/commands/administration/security/security-providers/) has not been changed since the deleted action. 
 {% endsnippet %}
  
 ### Export deleted entries list 

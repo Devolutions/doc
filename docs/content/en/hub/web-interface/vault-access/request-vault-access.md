@@ -8,7 +8,7 @@ You can request access to a public {{ en.VLT }} in {{ en.DHUBB }}. Follow the st
 
 1. Connect to the {{ en.DHUBB }} that contains the {{ en.VLT }} you want access to.
 1. In the {{ en.VLT }} selector drop-down menu, click ***More*** and then click on ***Browse All {{ en.VLT }}s***.
-![More](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub0002.png)
+![More](https://cdnweb.devolutions.net/docs/HUBB6007_2024_1.png)
 1. Choose the {{ en.VLT }} you want to access, then click on ***Request Access***.
 ![Request Access](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub0003.png)
    {% snippet icon.badgeInfo %}

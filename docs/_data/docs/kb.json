@@ -53,6 +53,9 @@
                   "url": "/kb/remote-desktop-manager/how-to-articles/beyondtrust-configuration/"
                 },
                 {
+                  "url": "/kb/remote-desktop-manager/how-to-articles/cache-sharing-between-multiple-edge-sessions/"
+                },
+                {
                   "url": "/kb/remote-desktop-manager/how-to-articles/certificate-security-provider-published-app-environment/"
                 },
                 {
@@ -563,6 +566,9 @@
                   "url": "/kb/remote-desktop-manager/troubleshooting-articles/carbon-black-user32-dll-error/"
                 },
                 {
+                  "url": "/kb/remote-desktop-manager/troubleshooting-articles/certificate-security-provider-configuration-errors/"
+                },
+                {
                   "url": "/kb/remote-desktop-manager/troubleshooting-articles/chrome-cannot-launch-embedded-mode/"
                 },
                 {
@@ -588,6 +594,9 @@
                 },
                 {
                   "url": "/kb/remote-desktop-manager/troubleshooting-articles/connections-are-missing/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/troubleshooting-articles/connection-issues-sql-data-sources/"
                 },
                 {
                   "url": "/kb/remote-desktop-manager/troubleshooting-articles/cyberark-data-source-issues/"
@@ -618,6 +627,9 @@
                 },
                 {
                   "url": "/kb/remote-desktop-manager/troubleshooting-articles/documentation-tab-empty/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/troubleshooting-articles/embedded-credentials-not-working-in-chromium-based-browsers/"
                 },
                 {
                   "url": "/kb/remote-desktop-manager/troubleshooting-articles/errconnect-tls-failed/"
@@ -694,6 +706,9 @@
                 },
                 {
                   "url": "/kb/remote-desktop-manager/troubleshooting-articles/lastpass-2fa/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/troubleshooting-articles/links-not-loading-embedded-mode/"
                 },
                 {
                   "url": "/kb/remote-desktop-manager/troubleshooting-articles/lost-rdm-configuration/"
@@ -790,6 +805,9 @@
                 },
                 {
                   "url": "/kb/remote-desktop-manager/troubleshooting-articles/password-manager-pro/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/troubleshooting-articles/permission-issues/"
                 },
                 {
                   "url": "/kb/remote-desktop-manager/troubleshooting-articles/performance-data-sources/"
@@ -998,6 +1016,9 @@
                   "url": "/kb/remote-desktop-manager/knowledge-base/account-brokering-not-available/"
                 },
                 {
+                  "url": "/kb/remote-desktop-manager/knowledge-base/active-directory/"
+                },
+                {
                   "url": "/kb/remote-desktop-manager/knowledge-base/add-rdp-entry/"
                 },
                 {
@@ -1130,6 +1151,9 @@
                   "url": "/kb/remote-desktop-manager/knowledge-base/permissions-move/"
                 },
                 {
+                  "url": "/kb/remote-desktop-manager/knowledge-base/notification-badge-taskbar/"
+                },
+                {
                   "url": "/kb/remote-desktop-manager/knowledge-base/offboarding-users/"
                 },
                 {
@@ -1148,10 +1172,28 @@
                   "url": "/kb/remote-desktop-manager/knowledge-base/rdp-protocol-clarification-information/"
                 },
                 {
+                  "url": "/kb/remote-desktop-manager/knowledge-base/rdp-entry-advanced-properties/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/knowledge-base/rdp-entry-authentication-properties/"
+                },
+                {
                   "url": "/kb/remote-desktop-manager/knowledge-base/rdp-entry-display-properties/"
                 },
                 {
+                  "url": "/kb/remote-desktop-manager/knowledge-base/rdp-entry-experience-properties/"
+                },
+                {
                   "url": "/kb/remote-desktop-manager/knowledge-base/rdp-entry-general-properties/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/knowledge-base/rdp-entry-local-resources-properties/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/knowledge-base/rdp-entry-programs-properties/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/knowledge-base/rdp-entry-rd-gateway-properties/"
                 },
                 {
                   "url": "/kb/remote-desktop-manager/knowledge-base/rdp-reconnect-mode/"
@@ -1360,6 +1402,9 @@
                       "url": "/kb/remote-desktop-manager-mobile/ios/how-to-articles/ios-import-data-source-configuration/"
                     },
                     {
+                      "url": "/kb/remote-desktop-manager-mobile/ios/how-to-articles/ios-install-register/"
+                    },
+                    {
                       "url": "/kb/remote-desktop-manager-mobile/ios/how-to-articles/ios-send-rdp-logs-support/"
                     }
                   ]
@@ -1413,9 +1458,6 @@
                 },
                 {
                   "url": "/kb/devolutions-server/how-to-articles/configure-server-always-available/"
-                },
-                {
-                  "url": "/kb/devolutions-server/how-to-articles/configure-server-use-domain-sso/"
                 },
                 {
                   "url": "/kb/devolutions-server/how-to-articles/configure-pam-provider-through-dgw/"
@@ -1637,13 +1679,13 @@
                   "url": "/kb/devolutions-server/knowledge-base/dvls-security-hardening/"
                 },
                 {
+                  "url": "/kb/devolutions-server/knowledge-base/important-operation-server/"
+                },
+                {
                   "url": "/kb/devolutions-server/knowledge-base/generate-script-database-permissions/"
                 },
                 {
                   "url": "/kb/devolutions-server/knowledge-base/identify-server-answering/"
-                },
-                {
-                  "url": "/kb/devolutions-server/knowledge-base/important-operation-server/"
                 },
                 {
                   "url": "/kb/devolutions-server/knowledge-base/installation-requirements/"
@@ -1708,6 +1750,9 @@
             {
               "label": "troubleshootingArticles",
               "items": [
+                {
+                  "url": "/kb/devolutions-gateway/troubleshooting-articles/gateway-troubleshooting/"
+                },
                 {
                   "url": "/kb/devolutions-gateway/troubleshooting-articles/install-dgw-method-not-found/"
                 },
@@ -1788,9 +1833,6 @@
               "label": "knowledgeBase",
               "items": [
                 {
-                  "url": "/kb/hub-business/knowledge-base/csv-files-import-strategies-format-hub-importer/"
-                },
-                {
                   "url": "/kb/hub-business/knowledge-base/devolutions-password-hub-changes-name-devolutions-hub/"
                 },
                 {
@@ -1801,6 +1843,9 @@
                 },
                 {
                   "url": "/kb/hub-business/knowledge-base/internet-endpoints-access/"
+                },
+                {
+                  "url": "/kb/hub-business/knowledge-base/csv-files-import-strategies-format-hub-importer/"
                 }
               ]
             }
@@ -1812,6 +1857,9 @@
             {
               "label": "howToArticles",
               "items": [
+                {
+                  "url": "/kb/hub-personal/how-to-articles/hub-personal-legacy-decommissioning/"
+                },
                 {
                   "url": "/kb/hub-personal/how-to-articles/integrate-hub-personal-rdm/"
                 },
@@ -1942,6 +1990,9 @@
               "label": "howToArticles",
               "items": [
                 {
+                  "url": "/kb/devolutions-workspace/how-to-articles/enable-autofill-android/"
+                },
+                {
                   "url": "/kb/devolutions-workspace/how-to-articles/enable-autofill-ios/"
                 },
                 {
@@ -1987,6 +2038,9 @@
                   "url": "/kb/general-knowledge-base/clear-browser-local-storage/clear-safari-local-storage/"
                 }
               ]
+            },
+            {
+              "url": "/kb/general-knowledge-base/devolutions-login-page-does-not-open-browser/"
             },
             {
               "url": "/kb/general-knowledge-base/devolutions-send-standalone/"

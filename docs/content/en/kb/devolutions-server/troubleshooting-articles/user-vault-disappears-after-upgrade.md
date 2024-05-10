@@ -19,19 +19,17 @@ In most cases, this is caused by the migration process causing a ***Validation C
 1. Click on ***Export Nonmigrated {{ en.UVLT }}*** to create a password protectedrdm file.
 1. Import the data file in an empty Local Data source to test and ensure the integrity of the data.
 1. When your validation is conclusive, click on ***Delete Nonmigrated {{ en.UVLT }}***.
-1. Import therdm file in the {{ en.DVLS }} data source.
+1. Import the rdm file in the {{ en.DVLS }} data source.
 
 ## Empty {{ en.UVLT }} in {{ en.RDM }}, but it is showing on the web {{ en.DVLS }} UI
 Usually, this issue is organization wide and is caused by a ***Security Provider*** still present on the data source. This is available in {{ en.DVLS }} 2021.1.10 and later or the 2020.3.19 LTS version.
 
 1. In the {{ en.DVLSCONSOLE }} click on ***Tools – Remove Security Provider***.
-{% snippet icon.shieldWarning %}
-Removing the ***Security Provider*** will leave your database unencrypted.
-{% endsnippet %}
+   {% snippet icon.shieldWarning %}
+   Removing the ***Security Provider*** will leave your database unencrypted.
+   {% endsnippet %}
 
-2. Once it is completed, click on ***Tools – Regenerate*** and store the file and the password in a safe location.
-{% snippet icon.badgeCaution %}
-Regenerating the ***Encryption Keys*** will re-encrypt the database.
-{% endsnippet %}
-
-![Remove the security provider and regenerate the encryption keys](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4785.png)
+1. Once it is completed, click on ***Tools – Regenerate*** and store the file and the password in a safe location.
+   {% snippet icon.badgeCaution %}
+   Regenerating the ***Encryption Keys*** will re-encrypt the database.
+   {% endsnippet %}

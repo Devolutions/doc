@@ -19,4 +19,4 @@ Further, protect direct {{ en.RDM }} access through an [application password](/k
 
 ### See also
 * [Security](/rdm/windows/commands/file/options/security/)
-* [Security Settings](/rdm/windows/commands/administration/settings/system-settings/general/security/)
+* [Security Settings](/rdm/commands/administration/settings/system-settings/vault-management/security/)
