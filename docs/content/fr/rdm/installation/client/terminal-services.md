@@ -44,7 +44,7 @@ Ne cochez pas les options pour inclure les ***identifiants du {{ fr.DA }}*** ain
 
 3. Lors de l'utilisation de {{ fr.RDM }} sous un environnement Remote Desktop Services, nous devons améliorer les paramètres des entrées de type RDP afin d'utiliser le moins de ressources possibles ou d'améliorer les performances de démarrage de l'application.
     1. Pour améliorer le démarrage de {{ fr.RDM }}, veuillez consulter la solution #3 de l'article [Startup Performance](/kb/remote-desktop-manager/troubleshooting-articles/startup-performance/).
-    1. Afin de limiter la consommation de la mémoire par les entrées de type RDP, veuillez consulter l'article [Memory Tuning of RDP Sessions](/kb/remote-desktop-manager/knowledge-base/memory-tuning-rdp-sessions/).
+    1. Afin de limiter la consommation de la mémoire par les entrées de type RDP, veuillez consulter l'article [Memory Tuning of RDP Sessions](/kb/remote-desktop-manager/knowledge-base/rdp-session-entry/memory-tuning-rdp-sessions/).
 1. Lorsque {{ fr.RDM }} est configuré à votre gout, utiliser ***Fichier – Options – Exporter les options***. Cela vous permettra de choisir exactement les sources de données à inclure, ainsi que les différentes catégories de paramètres. Veuillez vous référer aux [Options d'exportation](/fr/rdm/windows/commands/file/options/export/) pour plus de détails. Enregistrez le fichier sous le nom **default.cfg**.
 1. Déplacer le fichier **default.cfg** dans le dossier d'installation de {{ fr.RDM }}, si vous avez utilisé les paramètres d'installation par défaut, il se trouve sous le répertoire **%appdata%\Devolutions\RemoteDesktopManager**.
 

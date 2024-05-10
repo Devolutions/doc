@@ -1018,9 +1018,7 @@
                 {
                   "url": "/kb/remote-desktop-manager/knowledge-base/active-directory/"
                 },
-                {
-                  "url": "/kb/remote-desktop-manager/knowledge-base/add-rdp-entry/"
-                },
+
                 {
                   "url": "/kb/remote-desktop-manager/knowledge-base/allow-range-open/"
                 },
@@ -1089,9 +1087,6 @@
                 },
                 {
                   "url": "/kb/remote-desktop-manager/knowledge-base/download-microsoft-edge-chromium/"
-                },
-                {
-                  "url": "/kb/remote-desktop-manager/knowledge-base/super-pan/"
                 },
                 {
                   "url": "/kb/remote-desktop-manager/knowledge-base/encrypting-file-system-message/"
@@ -1208,39 +1203,6 @@
                       "url": "/kb/remote-desktop-manager/knowledge-base/rdp-session-entry/memory-tuning-rdp-sessions/"
                     }
                   ]
-                },
-                {
-                  "url": "/kb/remote-desktop-manager/knowledge-base/rdp-protocol-clarification-information/"
-                },
-                {
-                  "url": "/kb/remote-desktop-manager/knowledge-base/rdp-entry-advanced-properties/"
-                },
-                {
-                  "url": "/kb/remote-desktop-manager/knowledge-base/rdp-entry-authentication-properties/"
-                },
-                {
-                  "url": "/kb/remote-desktop-manager/knowledge-base/rdp-entry-display-properties/"
-                },
-                {
-                  "url": "/kb/remote-desktop-manager/knowledge-base/rdp-entry-experience-properties/"
-                },
-                {
-                  "url": "/kb/remote-desktop-manager/knowledge-base/rdp-entry-general-properties/"
-                },
-                {
-                  "url": "/kb/remote-desktop-manager/knowledge-base/rdp-entry-local-resources-properties/"
-                },
-                {
-                  "url": "/kb/remote-desktop-manager/knowledge-base/rdp-entry-programs-properties/"
-                },
-                {
-                  "url": "/kb/remote-desktop-manager/knowledge-base/rdp-entry-rd-gateway-properties/"
-                },
-                {
-                  "url": "/kb/remote-desktop-manager/knowledge-base/rdp-reconnect-mode/"
-                },
-                {
-                  "url": "/kb/remote-desktop-manager/knowledge-base/memory-tuning-rdp-sessions/"
                 },
                 {
                   "url": "/kb/remote-desktop-manager/knowledge-base/rdm-security-dashboard/"
