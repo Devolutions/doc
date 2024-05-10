@@ -62,6 +62,9 @@
                   "url": "/kb/remote-desktop-manager/how-to-articles/change-ssh-color-font/"
                 },
                 {
+                  "url": "/kb/remote-desktop-manager/how-to-articles/change-sorting-priority/"
+                },
+                {
                   "url": "/kb/remote-desktop-manager/how-to-articles/clear-web-browser-cache/"
                 },
                 {
@@ -1494,6 +1497,9 @@
                 },
                 {
                   "url": "/kb/devolutions-server/how-to-articles/enable-emergency-login-code-authentication/"
+                },
+                {
+                  "url": "/kb/devolutions-server/how-to-articles/enable-offline-mode-devolutions-server/"
                 },
                 {
                   "url": "/kb/devolutions-server/how-to-articles/enable-server-log4net-log/"
