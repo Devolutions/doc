@@ -1,7 +1,8 @@
 ---
 eleventyComputed:
   title: PAM dashboard
-  description:
+  description: In the PAM Dashboard, for every privileged account, it is possible to connect to the account, copy the password, and manage the checkout/check-in process.
+  order: 10
 ---
 {% snippet icon.badgeNotice %}
 A license is now required to enable the Privileged Access Management (PAM) module. Please contact our [sales department](mailto:sales@devolutions.net) for more information about the license.

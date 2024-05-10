@@ -5,5 +5,6 @@
     "server": "Devolutions Server",
     "hub": "Devolutions Hub",
     "cloud": "Devolutions Cloud",
-    "dgw": "Devolutions Gateway"
+    "dgw": "Devolutions Gateway",
+    "pam": "Privileged access management"
 }

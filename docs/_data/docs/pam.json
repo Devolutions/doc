@@ -1,8 +1,8 @@
 {
     "_schema": "doc",
     "isTopic": true,
-    "icon": "https://cdnweb.devolutions.net/images/projects/server/logos/server-icon-shadow.svg",
-    "logo": "https://cdnweb.devolutions.net/images/projects/server/logos/server-color-shadow.svg",
+    "icon": "https://cdnweb.devolutions.net/images/projects/devolutions-pam/devolutions-pam-white-shadow.svg",
+    "logo": "https://cdnweb.devolutions.net/images/projects/devolutions-pam/devolutions-pam-color-shadow.svg",
     "url": "/pam/overview/what-is-pam/",
     "formattedName": "Privileged access management",
     "sidebars": [

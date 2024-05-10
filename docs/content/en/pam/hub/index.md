@@ -1,8 +1,8 @@
 ---
 eleventyComputed:
   title: '{{ en.DHUBB }}'
-  order: 30
   description: Devolutions Privileged Access Management for {{ en.DHUBB }} takes care of Azure AD privileged accounts.
+  order: 40
 ---
 {% snippet icon.badgeInfo %}
 The Privileged Access Management (PAM) module in {{ en.DHUBB }} is currently in beta development. Please contact our [sales department](mailto:sales@devolutions.net) for further information.

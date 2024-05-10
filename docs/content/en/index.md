@@ -39,6 +39,8 @@ cards:
         url: /cloud/devolutions-account/
   - name: gateway
     links:
+      - name: What is Devolutions Gateway?
+        url: /dgw/overview/what-is-dgw/
       - name: Devolutions Server
         url: /dgw/server/system-requirements/
       - name: Devolutions Hub
@@ -49,6 +51,12 @@ cards:
     links:
       - name: What is Privileged access management?
         url: /pam/overview/what-is-pam/
+      - name: Remote Desktop Manager
+        url: /pam/rdm/
+      - name: Devolutions Server
+        url: /pam/server/
+      - name: Devolutions Hub Business
+        url: /pam/hub/
   - name: kb
     links:
       - name: Devolutions Knowledge Base
