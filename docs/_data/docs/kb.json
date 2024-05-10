@@ -1166,6 +1166,50 @@
                   "url": "/kb/remote-desktop-manager/knowledge-base/quick-connect/"
                 },
                 {
+                  "url": "/kb/remote-desktop-manager/knowledge-base/rdp-session-entry/",
+                  "items": [
+                    {
+                      "url": "/kb/remote-desktop-manager/knowledge-base/rdp-session-entry/add-rdp-entry/"
+                    },
+                    {
+                      "url": "/kb/remote-desktop-manager/knowledge-base/rdp-session-entry/super-pan/"
+                    },
+                    {
+                      "url": "/kb/remote-desktop-manager/knowledge-base/rdp-session-entry/rdp-protocol-clarification-information/"
+                    },
+                    {
+                      "url": "/kb/remote-desktop-manager/knowledge-base/rdp-session-entry/rdp-entry-advanced-properties/"
+                    },
+                    {
+                      "url": "/kb/remote-desktop-manager/knowledge-base/rdp-session-entry/rdp-entry-authentication-properties/"
+                    },
+                    {
+                      "url": "/kb/remote-desktop-manager/knowledge-base/rdp-session-entry/rdp-entry-display-properties/"
+                    },
+                    {
+                      "url": "/kb/remote-desktop-manager/knowledge-base/rdp-session-entry/rdp-entry-experience-properties/"
+                    },
+                    {
+                      "url": "/kb/remote-desktop-manager/knowledge-base/rdp-session-entry/rdp-entry-general-properties/"
+                    },
+                    {
+                      "url": "/kb/remote-desktop-manager/knowledge-base/rdp-session-entry/rdp-entry-local-resources-properties/"
+                    },
+                    {
+                      "url": "/kb/remote-desktop-manager/knowledge-base/rdp-session-entry/rdp-entry-programs-properties/"
+                    },
+                    {
+                      "url": "/kb/remote-desktop-manager/knowledge-base/rdp-session-entry/rdp-entry-rd-gateway-properties/"
+                    },
+                    {
+                      "url": "/kb/remote-desktop-manager/knowledge-base/rdp-session-entry/rdp-reconnect-mode/"
+                    },
+                    {
+                      "url": "/kb/remote-desktop-manager/knowledge-base/rdp-session-entry/memory-tuning-rdp-sessions/"
+                    }
+                  ]
+                },
+                {
                   "url": "/kb/remote-desktop-manager/knowledge-base/rdp-protocol-clarification-information/"
                 },
                 {
