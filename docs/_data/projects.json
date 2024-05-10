@@ -49,5 +49,12 @@
     "logo": "https://cdnweb.devolutions.net/images/projects/cloud/logos/cloud-color-shadow.svg",
     "url": "/cloud/getting-started/devolutions-cloud-services/",
     "formattedName": "<b>Devolutions</b> Cloud Services"
+  },
+  "dgw": {
+    "isTopic": true,
+    "icon": "https://cdnweb.devolutions.net/images/projects/gateway/logos/gateway-icon.svg",
+    "logo": "https://cdnweb.devolutions.net/images/projects/gateway/logos/gateway-color-shadow.svg",
+    "url": "/dgw/overview/overview/",
+    "formattedName": "<b>Devolutions</b> Gateway"
   }
 }

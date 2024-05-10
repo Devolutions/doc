@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Overview
+  title: "{{ en.DGW }}"
   description: "{{ en.DGW }} provides authorized just-in-time access to resources in segmented networks."
   order: 10
 ---

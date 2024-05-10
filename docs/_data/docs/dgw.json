@@ -1,0 +1,13 @@
+{
+    "_schema": "doc",
+    "isTopic": true,
+    "icon": "https://cdnweb.devolutions.net/images/projects/gateway/logos/gateway-icon.svg",
+    "logo": "https://cdnweb.devolutions.net/images/projects/gateway/logos/gateway-color-shadow.svg",
+    "url": "/dgw/overview/overview/",
+    "formattedName": "<b>Devolutions</b> Gateway",
+    "sidebars": [
+      {
+        "autogenerate": { "directory": "dgw" }
+      }
+    ]
+  }

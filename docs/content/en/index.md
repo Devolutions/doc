@@ -48,11 +48,11 @@ cards:
   - name: gateway
     links:
       - name: Devolutions Server
-        url: /server/dgw/overview/
+        url: /dgw/server/system-requirements/
       - name: Devolutions Hub
-        url: /hub/dgw/overview/
+        url: /dgw/hub/system-requirements/
       - name: Knowledge Base
-        url: /kb/devolutions-gateway/
+        url: /dgw/kb/
   - name: kb
     links:
       - name: Devolutions Knowledge Base
