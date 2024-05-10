@@ -48,7 +48,7 @@ cards:
   - name: PAM
     links:
       - name: What is Privileged access management?
-        url: /pam/index
+        url: /pam/overview/what-is-pam/
   - name: kb
     links:
       - name: Devolutions Knowledge Base
