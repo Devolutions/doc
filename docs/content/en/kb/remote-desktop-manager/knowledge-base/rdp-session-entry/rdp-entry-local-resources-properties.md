@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Local resources properties 
+  title: RDP entry local resources properties 
   description: The following properties can be configured when creating or editing the RDP entry.
 ---
 {% snippet icon.badgeInfo %}
