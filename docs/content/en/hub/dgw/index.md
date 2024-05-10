@@ -8,5 +8,5 @@ eleventyComputed:
 {{ en.DGW }} provides authorized just-in-time access to resources in segmented networks.
 
 {% snippet icon.badgeHelp %}
-Learn more about [{{ en.DGW }}](/dgw/overview/overview/).
+Learn more about [{{ en.DGW }}](/dgw/overview/what-is-dgw/).
 {% endsnippet %}
