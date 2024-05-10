@@ -11,8 +11,6 @@ cards:
         url: /rdm/getting-started/
       - name: Installation
         url: /rdm/installation/client/
-      - name: Privileged Access Management
-        url: /rdm/privileged-access-management/
   - name: rdm/mac
     links:
       - name: What is Remote Desktop Manager (macOS)?
@@ -21,8 +19,6 @@ cards:
         url: /rdm/mac/getting-started/
       - name: Installation
         url: /rdm/mac/installation/client/
-      - name: Privileged Access Management
-        url: /rdm/mac/privileged-access-management/
   - name: server
     links:
       - name: What is Devolutions Server?
@@ -31,8 +27,6 @@ cards:
         url: /server/getting-started/
       - name: Installation
         url: /server/installation/
-      - name: Privileged Access Management
-        url: /server/privileged-access-management/
   - name: hub
     links:
       - name: What is Devolutions Hub?
@@ -43,8 +37,6 @@ cards:
         url: /hub/getting-started/get-started-sso-hub-business/
       - name: Devolutions Account
         url: /cloud/devolutions-account/
-      - name: Privileged Access Management
-        url: /hub/privileged-access-management/
   - name: gateway
     links:
       - name: Devolutions Server
@@ -53,6 +45,10 @@ cards:
         url: /hub/dgw/overview/
       - name: Knowledge Base
         url: /kb/devolutions-gateway/
+  - name: PAM
+    links:
+      - name: What is Privileged access management?
+        url: /pam/index
   - name: kb
     links:
       - name: Devolutions Knowledge Base

@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Privileged access management
+  title: '{{ en.RDM }}'
   description: Devolutions Privileged Access Management is specifically designed to meet the needs of SMBs, providing enterprise-grade features to bring a level of protection usually only afforded to large organizations.
   order: 55
 ---
