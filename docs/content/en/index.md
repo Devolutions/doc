@@ -47,7 +47,7 @@ cards:
         url: /dgw/hub/system-requirements/
       - name: Knowledge Base
         url: /dgw/kb/
-  - name: PAM
+  - name: pam
     links:
       - name: What is Privileged access management?
         url: /pam/overview/what-is-pam/
