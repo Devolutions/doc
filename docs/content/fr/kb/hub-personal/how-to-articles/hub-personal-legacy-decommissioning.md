@@ -1,9 +1,9 @@
 ---
 eleventyComputed:
-  title: Mise hors service de l'ancienne version de {{ fr.DHUBP }}
+  title: Mise hors service de {{ fr.DHUBP }} (déprécié)
   description: Si cette transition ne se fait pas automatiquement, vous devrez migrer vos données manuellement.
 ---
-Les équipes de {{ fr.DHUBP }} et Business fusionnent dans le cadre de l'initiative de Devolutions pour simplifier nos opérations et nos processus de développement. À compter du 31 octobre 2024, {{ fr.DHUBP }} adoptera le même back-end que {{ fr.DHUBB }}. Cette harmonisation standardise nos processus de mise à jour. Pour plus de détails sur les avantages de ces changements, veuillez lire notre article de blog : [Streamlining {{ fr.DHUBP }}](https://blog.devolutions.net/2023/10/streamlining-devolutions-hub-personal/).
+Les équipes de {{ fr.DHUBP }} et Business fusionnent dans le cadre de l'initiative de Devolutions pour simplifier nos opérations et nos processus de développement. À compter du 31 octobre 2024, {{ fr.DHUBP }} adoptera le même back end que {{ fr.DHUBB }}. Cette harmonisation standardise nos processus de mise à jour. Pour plus de détails sur les avantages de ces changements, veuillez lire notre article de blog : [Mise à jour : simplification de {{ fr.DHUBP }}](https://blog.devolutions.net/fr/2023/10/devolutions-hub-personal-est-simplifie/).
 
 La migration peut être effectuée en [vous connectant à votre {{ fr.DHUBP }}](https://hub.devolutions.net). Vous recevrez ensuite des invites pour vous guider à travers la mise à niveau des données et la transition. L'ancienne version de {{ fr.DHUBP }} sera complètement éliminée d'ici le 5 août 2024. Ne pas migrer avant la date limite entraînera une perte de données permanente.
 
