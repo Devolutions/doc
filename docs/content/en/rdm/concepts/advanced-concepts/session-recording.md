@@ -9,4 +9,4 @@ Enable recordings of sessions performed by {{ en.RDM }} users for a wide range o
 * [Session recording](/kb/remote-desktop-manager/how-to-articles/session-recording/)
 
 ### See also
-* [{{ en.DGW }} recording path](/kb/devolutions-gateway/knowledge-base/recording-path/)
+* [{{ en.DGW }} recording path](/dgw/kb/recording-path/)

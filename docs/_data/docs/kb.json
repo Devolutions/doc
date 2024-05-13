@@ -1734,51 +1734,7 @@
           ]
         },
         {
-          "url": "/kb/devolutions-gateway/",
-          "items": [
-            {
-              "label": "howToArticles",
-              "items": [
-                {
-                  "url": "/kb/devolutions-gateway/how-to-articles/launch-rdp-session-web-client/"
-                },
-                {
-                  "url": "/kb/devolutions-gateway/how-to-articles/use-dgw-external-browser/"
-                },
-                {
-                  "url": "/kb/devolutions-gateway/how-to-articles/use-nla-rdp-connection/"
-                },
-                {
-                  "url": "/kb/devolutions-gateway/how-to-articles/use-windows-certificate-store/"
-                }
-              ]
-            },
-            {
-              "label": "troubleshootingArticles",
-              "items": [
-                {
-                  "url": "/kb/devolutions-gateway/troubleshooting-articles/gateway-troubleshooting/"
-                },
-                {
-                  "url": "/kb/devolutions-gateway/troubleshooting-articles/install-dgw-method-not-found/"
-                },
-                {
-                  "url": "/kb/devolutions-gateway/troubleshooting-articles/rdp-web-client-not-showing/"
-                }
-              ]
-            },
-            {
-              "label": "knowledgeBase",
-              "items": [
-                {
-                  "url": "/kb/devolutions-gateway/knowledge-base/recording-path/"
-                },
-                {
-                  "url": "/kb/devolutions-gateway/knowledge-base/gateway-tunnel/"
-                }
-              ]
-            }
-          ]
+          "url": "/kb/devolutions-gateway/"
         },
         {
           "url": "/kb/hub-business/",
