@@ -20,7 +20,7 @@ Refer to the following topics for more information:
 | {{ en.VLT_MAJ }}   | Access the view mode of the ***{{ en.NPANE }}*** for the current [{{ en.VLT }}](/rdm/windows/commands/view/panels/vault/). |
 | {{ en.UVLT_MAJ }}  | Display your [***{{ en.UVLT }}***](/rdm/windows/commands/view/panels/vault/) in the ***{{ en.NPANE }}***. |
 | Opened Sessions    | Display the [currently opened sessions](/rdm/windows/commands/view/panels/opened-sessions/) in the ***{{ en.NPANE }}***. |
-| PAM Dashboard      | Connect to a privileged account, copy its password, and manage its checkout/check-in process through a [privileged access management dashboard](/rdm/windows/commands/view/panels/pam-dashboard/). |
+| PAM Dashboard      | Connect to a privileged account, copy its password, and manage its checkout/check-in process through a [privileged access management dashboard](/rdm/commands/view/panels/pam-dashboard/). |
 | Favorites          | Display your [favorite entries](/rdm/windows/user-interface/navigation-pane/favorite-entries/) and folders in the ***{{ en.NPANE }}***. |
 | Recent             | Display your [most recently used entries](/rdm/windows/user-interface/navigation-pane/most-recently-used-entries/) in the ***{{ en.NPANE }}***.   |
 | Task List          | Display a list of your current [tasks](/rdm/windows/commands/view/panels/task-list/).     |
