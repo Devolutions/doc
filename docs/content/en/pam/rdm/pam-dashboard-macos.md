@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: PAM dashboard macOS
+  title: PAM dashboard (macOS)
   description: In the PAM Dashboard, for every privileged account, it is possible to connect to the account, copy the password, and manage the checkout/check-in process.
   order: 20
 ---
