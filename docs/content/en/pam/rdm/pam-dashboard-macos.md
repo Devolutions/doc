@@ -17,7 +17,7 @@ The ***PAM Dashboard*** feature can be found in the ***View*** tab.
 
 In the ***PAM Dashboard***, for every privileged account, it is possible to connect to the account, copy the password, and manage the checkout/check-in process.
 
-To access the user accounts, a PAM folder must first be selected. If you have multiple folders, it might be helpful to use the filter bar to find the one you are looking for. Note that these are the same folders as in your {{ en.DVLSCONSOLE }}. You can go to [Privileged Account Management in {{ en.DVLS }}](/server/privileged-access-management/) to learn more about it.
+To access the user accounts, a PAM folder must first be selected. If you have multiple folders, it might be helpful to use the filter bar to find the one you are looking for. Note that these are the same folders as in your {{ en.DVLSCONSOLE }}. You can go to [Privileged Account Management in {{ en.DVLS }}](/pam/server/) to learn more about it.
 ![PAM Dashboard](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_RDMMac0007.png)
 
 When the folder is selected, all the accounts in that folder will appear. It is possible to sort them by ***Name***, ***Folder Path***, ***Username***, ***Account Type***, or ***Checkout Status***.

@@ -18,7 +18,7 @@ Here are some of its main features:
 * Secure password injection
 * Administration report
 
-Since {{ en.DHUBB }} is a cloud-based solution, you must download and install the [{{ en.DHUBS }}](/hub/privileged-access-management/download-and-install-devolutions-hub-services/) to establish communication between your {{ en.DHUBB }} and your internal resources.
+Since {{ en.DHUBB }} is a cloud-based solution, you must download and install the [{{ en.DHUBS }}](/pam/hub/download-and-install-devolutions-hub-services/) to establish communication between your {{ en.DHUBB }} and your internal resources.
 
 {% snippet icon.badgeInfo %}
 A license is required to enable the PAM module. Please contact our [sales department](mailto:sales@devolutions.net) for more information about the license.

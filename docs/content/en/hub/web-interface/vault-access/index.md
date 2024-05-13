@@ -6,7 +6,7 @@ eleventyComputed:
 In {{ en.DHUBB }}, users can request access to a public {{ en.VLT }}. An administrator / {{ en.VLT }} owner then has to approve the request.
 
 {% snippet icon.badgeInfo %}
-This feature is also available for [PAM {{ en.VLT }}s](/hub/privileged-access-management/pam-vaults/).
+This feature is also available for [PAM {{ en.VLT }}s](/pam/hub/pam-vaults/).
 {% endsnippet %}  
 
 {% snippet icon.badgeInfo %}

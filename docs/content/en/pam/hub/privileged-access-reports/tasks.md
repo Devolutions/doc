@@ -17,7 +17,7 @@ Hover over the icon in the status cell to see the complete history of that task'
 ![Entry status history](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub2299.png)
 
 {% snippet icon.badgeInfo %}
-Password reset logs can also be found in the ***Logs*** section of the [privileged account](/hub/privileged-access-management/privileged-accounts/)'s dashboard.
+Password reset logs can also be found in the ***Logs*** section of the [privileged account](/pam/hub/privileged-accounts/)'s dashboard.
 
 In the [***Activity Logs Report***](/hub/web-interface/reports/logs/), you can see logs pertaining to {{ en.VLT }} and PAM {{ en.VLT }} activity.
 {% endsnippet %}

@@ -53,6 +53,6 @@ In the entry logs, you can see the different activities from the request to the 
 
 ![Entry logs](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub2300.png)
 
-To see the password reset status, go to the [***Tasks***](/hub/privileged-access-management/privileged-access-reports/tasks/) report in ***Reports – Privileged Access – Tasks***. If it worked, you will see that the task status is set to ***Completed***.
+To see the password reset status, go to the [***Tasks***](/pam/hub/privileged-access-reports/tasks/) report in ***Reports – Privileged Access – Tasks***. If it worked, you will see that the task status is set to ***Completed***.
 
 ![Completed password reset task](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub2301.png)

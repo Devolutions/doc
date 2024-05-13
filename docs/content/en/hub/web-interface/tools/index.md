@@ -10,7 +10,7 @@ The ***Help & Tools*** section is full of resources for {{ en.DHUB }}.
     * The [{{ en.WBEX }}](/hub/workspace-browser-extension/overview/), which is a free browser plugin that allows users to securely inject passwords into websites using credentials stored in their {{ en.VLT }}s.
     * The [{{ en.PS }} module](/hub/powershell-module/), which allows you to access, create, update, and remove elements in your {{ en.DHUBB }}, helping you automate some operations/scripts.
     * [{{ en.DGW }}](/hub/dgw/overview/), which provides authorized just-in-time access to resources in segmented networks.
-    * The [{{ en.DHUBS }}](/hub/privileged-access-management/download-and-install-devolutions-hub-services/), which facilitate the installation and integration of our modules, such as the Privileged Access Management (PAM) module and encryption service (SSO-enabled feature), among others.
+    * The [{{ en.DHUBS }}](/pam/hub/download-and-install-devolutions-hub-services/), which facilitate the installation and integration of our modules, such as the Privileged Access Management (PAM) module and encryption service (SSO-enabled feature), among others.
 * Import and export data to and from {{ en.DHUB }}:
     * [Import entries](/hub/web-interface/tools/import-export/#import) directly into your Hub.
     * [Export data](/hub/web-interface/tools/import-export/#export) in JSON format or using a PowerShell script.

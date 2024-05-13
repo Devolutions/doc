@@ -9,4 +9,4 @@ A license is now required to enable the Privileged Access Management (PAM) modul
 
 Devolutions Privileged Access Management solution is specifically designed to meet the needs of SMBs, providing enterprise-grade features to bring a level of protection usually only afforded to large organizations while at the same time being robust, easy to deploy and affordable.
 
-For more information and configuration help, jump to the [Privileged Access Management (PAM)](/server/privileged-access-management/) section.
+For more information and configuration help, jump to the [Privileged Access Management (PAM)](/pam/server/) section.

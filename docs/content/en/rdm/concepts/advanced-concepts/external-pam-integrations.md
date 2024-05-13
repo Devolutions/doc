@@ -4,7 +4,7 @@ eleventyComputed:
   description: Combine an external privileged access management (PAM) integration with {{ en.RDM }} to help secure all your privileged assets and identities.
 ---
 Combine an external privileged access management (PAM) integration with {{ en.RDM }} to help secure, control, manage, and monitor privileged access to critical assets. Streamline injecting credentials into remote sessions from an external PAM solution, eliminating the need to store them in {{ en.RDM }}.
-[Devolutions Server with the PAM module](/server/privileged-access-management/) works hand-in-hand with RDM for an easy-to-use and powerful PAM solution.
+[Devolutions Server with the PAM module](/pam/server/) works hand-in-hand with RDM for an easy-to-use and powerful PAM solution.
 
 ### Related topics  
 * [PAM partners integration](/kb/remote-desktop-manager/knowledge-base/pam-partner-integration/)  

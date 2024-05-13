@@ -10,7 +10,7 @@ To get started with the ***Privileged Access Management*** (PAM)features in {{ e
 1. In {{ en.DVLS }}, head to ***Administration – Licenses***.
 1. Add your PAM license using the ***Add*** (+) button. When done, the license appears in the license list and the Privileged Access menu appears in the side panel of your {{ en.DVLS }}.
 ![PAM license](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp2104.png)
-1. In ***Administration – Privileged Access – Default settings***, configure the settings for the [{{ en.VLT }} visibility](/server/web-interface/vault-access/), [checkout system](/server/privileged-access-management/checkout-process/), [credentials brokering](/server/privileged-access-management/view-sensitive-data-account-brokering/), [sensitive information access](/server/privileged-access-management/view-sensitive-data-account-brokering/), default checkout times, and synchronizations.
+1. In ***Administration – Privileged Access – Default settings***, configure the settings for the [{{ en.VLT }} visibility](/server/web-interface/vault-access/), [checkout system](/pam/server/checkout-process/), [credentials brokering](/pam/server/view-sensitive-data-account-brokering/), [sensitive information access](/pam/server/view-sensitive-data-account-brokering/), default checkout times, and synchronizations.
 ![Administration – Privileged Access – Default settings](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp2105.png)
 1. Next, head to ***Administration – System Permissions – Modules***.
 1. Configure access to the PAM system for users/admins and manage privileged accounts rights on who can edit the privileged entries. Then, click ***Save***.
@@ -30,7 +30,7 @@ When adding the provider, make sure to enable the ***Add PAM {{ en.VLT }}*** and
 ![PAM provider configuration](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp2110.png)
 
 {% snippet icon.badgeHelp %}
-For more information, please refer to [Providers](/server/privileged-access-management/providers/).
+For more information, please refer to [Providers](/pam/server/providers/).
 {% endsnippet %}
 
 When you click ***Save***, the ***Scan Configuration*** appears.
@@ -46,7 +46,7 @@ For more information, please refer to [Scan configurations](/pam/scan-configurat
 
 ## Add a PAM {{ en.VLT }}
 
-In the ***PAM {{ en.VLT }}s*** section of ***Administration – Privileged Access***, you need to create at least one PAM {{ en.VLT }} to contain the accounts. You can customize that particular [folder's security options](/server/privileged-access-management/accounts/) if you do not wish it to have the default initial configuration. You can also [customize the approvers on the folder](/pam/accounts/) directly, which gives you a list of the administrators.
+In the ***PAM {{ en.VLT }}s*** section of ***Administration – Privileged Access***, you need to create at least one PAM {{ en.VLT }} to contain the accounts. You can customize that particular [folder's security options](/pam/server/accounts/) if you do not wish it to have the default initial configuration. You can also [customize the approvers on the folder](/pam/server/accounts/) directly, which gives you a list of the administrators.
 ![PAM {{ en.VLT }}s](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp2112.png)
 
 ## Import accounts from a scan

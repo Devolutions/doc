@@ -39,7 +39,7 @@ Access-denied-errors in {{ en.DHUBB }} are listed [here](/kb/hub-business/troubl
 | 24   | CannotCreateTemporaryAccessOnRoot           | [Temporary access](/hub/web-interface/temporary-access/request-temporary-access/) to a root entry cannot be ***requested***. |
 | 25   | UserExpired                                 | User has [expired](/hub/web-interface/administration/management/users/#re-invite-a-user). |
 | 26   | SupportTicketsOnlyAllowedForAdministrators  | This feature is blocked for regular users if the {{ en.DHUB }} has restricted the ability to submit [support tickets](/hub/web-interface/administration/configuration-security/system-settings/) to administrators only. |
-| 27   | InvalidPAMCheckoutApprover                  | Current user is not allowed to [approve/reject PAM check out requests](/hub/privileged-access-management/privileged-accounts/approve-access-privileged-account/). |
+| 27   | InvalidPAMCheckoutApprover                  | Current user is not allowed to [approve/reject PAM check out requests](/pam/hub/privileged-accounts/approve-access-privileged-account/). |
 
 ## Unauthorized - 401
 | Code | Error             | Description/Solution                                                           |

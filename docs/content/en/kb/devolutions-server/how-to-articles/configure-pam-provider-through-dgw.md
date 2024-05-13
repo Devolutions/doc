@@ -10,7 +10,7 @@ This option makes it possible to support Active Directory domain accounts in {{ 
 1. Click ***Edit*** on an already configured ***Domain Provider***.
 ![Edit](https://cdnweb.devolutions.net/docs/docs_en_kb_KB0160.png)
    {% snippet icon.badgeHelp %}
-   Read more about [Domain Providers](/server/privileged-access-management/providers/domain-provider/).
+   Read more about [Domain Providers](/pam/server/providers/domain-provider/).
    {% endsnippet %}
 
 1. Enable ***Use {{ en.DGW }}*** under the ***Domain*** section.

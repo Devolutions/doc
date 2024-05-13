@@ -4,7 +4,7 @@ eleventyComputed:
 ---
 The ***Modules*** section provides the administrators with ***Privileged Access – Password Rotation*** and ***Recent Activities*** reports. For ***{{ en.DGW }}*** users reports to view ***Permission*** and ***User Access*** are available.
 {% snippet icon.badgeNotice %}
-The ***Privileged Access*** reports are only available for [Privileged Access Management (PAM)](/server/privileged-access-management/) solution user.
+The ***Privileged Access*** reports are only available for [Privileged Access Management (PAM)](/pam/server/) solution user.
 {% endsnippet %}
 
 ![!!ServerOp4071](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp4071.png)
