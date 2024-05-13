@@ -24,7 +24,7 @@ Votre source de données devrait automatiquement passer de l'ancien système à 
 La migration est terminée et vous pouvez maintenant accéder à vos entrées de {{ fr.DHUBP }} via la nouvelle source de données.
 
 {% snippet icon.badgeHelp %}
-Si vous rencontrez encore des problèmes ou pour toute question concernant cette migration, veuillez [contacter notre équipe de support](mailto:service@devolutions.net).
+Si vous rencontrez encore des problèmes ou pour toute question concernant cette migration, veuillez [contacter notre équipe de soutien technique](mailto:service@devolutions.net).
 {% endsnippet %}
 
 ## Suppression de votre {{ fr.DHUBP }}
