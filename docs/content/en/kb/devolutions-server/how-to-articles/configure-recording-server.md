@@ -6,7 +6,7 @@ The following steps will describe the options to install the ***Recording Server
 
 ## {{ en.DGW }} installation
 {% snippet icon.badgeHelp %}
-A [gateway](https://docs.devolutions.net/server/dgw/server-configuration/) first needs to be installed before starting this process.
+A [gateway](/dgw/server/server-configuration/) first needs to be installed before starting this process.
 {% endsnippet %}
 
 1. In the web interface for {{ en.DVLS }}, make sure you are connected to the right data source.

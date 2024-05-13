@@ -5,7 +5,7 @@ eleventyComputed:
 ---
 This section lists the {{ en.DGW }}s installed that the {{ en.DVLS }} can connect through to access resources in segmented networks. Multiple {{ en.DGW }}s can be added to that list.
 
-To install {{ en.DGW }}, please see [{{ en.DVLS }} configuration](/server/dgw/server-configuration/).
+To install {{ en.DGW }}, please see [{{ en.DVLS }} configuration](/dgw/server/server-configuration/).
 
 ![Administration – Gateway](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp0069.png)
 

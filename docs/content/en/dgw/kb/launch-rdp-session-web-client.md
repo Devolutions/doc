@@ -17,7 +17,7 @@ This feature is still under development. Thus, it is only possible to see a prev
 To use this feature, certain requirements must be met, namely:
 * Windows 10 or 11.
 * Windows Server 2016 and higher.
-* Have a [{{ en.DGW }}](/server/dgw/server-configuration/) version 2023.1 or later.
+* Have a [{{ en.DGW }}](/dgw/server/server-configuration/) version 2023.1 or later.
 * Have a [{{ en.DVLS }}](/server/getting-started/installation/upgrade-server/) version 2023.1.3 or later.
 * Have an [RDP type connection](#rdp-session-configuration) with:
     * a gateway type VPN configured.

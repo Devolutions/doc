@@ -16,7 +16,7 @@ You must have at least a [{{ en.RDM }} license](/rdm/windows/commands/administra
 ![Open in Web Client (Preview)](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2163.png)
 
 ### {{ en.DGW }}
-{{ en.DGW }} is required to open a RDP session in the web client of {{ en.DVLS }}. If you do have a Gateway installed, check its [configuration](https://docs.devolutions.net/server/dgw/server-configuration/).
+{{ en.DGW }} is required to open a RDP session in the web client of {{ en.DVLS }}. If you do have a Gateway installed, check its [configuration](/dgw/server/server-configuration/).
 
 ### View Password permission
 You need to have the ***View password*** permission to launch the RDP session.

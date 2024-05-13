@@ -17,7 +17,7 @@ The following instructions explain how to use {{ en.DGW }} in an RDP session.
 ![{{ en.DGW }}](https://cdnweb.devolutions.net/docs/docs_en_server_DGW0008.png)
 1. In the same section, set the ***Connect*** option to ***Always connect***.
 ![Always Connect](https://cdnweb.devolutions.net/docs/docs_en_server_DGW0009.png)
-1. In the ***Settings ({{ en.DGW }})*** tab select the gateway configured in [{{ en.DVLS }} Configuration](/server/dgw/server-configuration/).
+1. In the ***Settings ({{ en.DGW }})*** tab select the gateway configured in [{{ en.DVLS }} Configuration](/dgw/server/server-configuration/).
 ![Settings](https://cdnweb.devolutions.net/docs/docs_en_server_DGW0007.png)
 {% snippet icon.badgeInfo %}
 To remove the five-second delay when opening a connection, set the ***Delay*** value to 0 in the ***Advanced*** tab.

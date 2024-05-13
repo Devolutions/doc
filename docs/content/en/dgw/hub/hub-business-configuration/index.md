@@ -77,5 +77,5 @@ As the installer is an MSI file, this method only works on Windows.
 1. A rectangle will show the information for every {{ en.DGW }} Hub link(s).  
 ![Successful link](https://cdnweb.devolutions.net/docs/HUBB0024_2024_1.png)
 {% snippet icon.badgeInfo %}
-Visit [{{ en.RDM }} Configuration](/hub/dgw/rdm-configuration/) to learn more about linking {{ en.RDM }} and {{ en.DGW }}.
+Visit [{{ en.RDM }} Configuration](/dgw/hub/rdm-configuration/) to learn more about linking {{ en.RDM }} and {{ en.DGW }}.
 {% endsnippet %}

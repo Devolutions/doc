@@ -53,5 +53,5 @@ An ***Application User*** is required to proceed. If one is not already created,
 ![Succesful Link](https://cdnweb.devolutions.net/docs/docs_en_hub_DGW0040.png)
 
 {% snippet icon.badgeInfo %}
-Visit [{{ en.RDM }} Configuration](/hub/dgw/rdm-configuration/) to learn more about linking {{ en.RDM }} and {{ en.DGW }}.
+Visit [{{ en.RDM }} Configuration](/dgw/hub/rdm-configuration/) to learn more about linking {{ en.RDM }} and {{ en.DGW }}.
 {% endsnippet %}

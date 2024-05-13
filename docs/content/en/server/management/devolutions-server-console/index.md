@@ -63,7 +63,7 @@ Some features can only be managed from the web interface. Please see [Server set
 
 | Option    | Description                                                    |
 |-----------|----------------------------------------------------------------|
-| Install   | [Install the {{ en.DGW }}](/server/dgw/server-configuration/). |
+| Install   | [Install the {{ en.DGW }}](/dgw/server/server-configuration/). |
 | Edit      | Edit the {{ en.DGW }} configuration.                           |
 | Update    | Update the {{ en.DGW }}.                                       |
 | Uninstall | Uninstall the {{ en.DGW }}.                                    |
