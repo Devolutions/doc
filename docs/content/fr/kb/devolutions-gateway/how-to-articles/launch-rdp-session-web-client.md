@@ -60,7 +60,7 @@ A new browser tab should open and your session should start.
 ![RDP Session Opened in a Web Client](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2224.png)
 
 {% snippet icon.badgeHelp %}
-If the connection does not work, check the <a href="#requirements">Requirements</a> again or visit [RDP Web Client Not Showing](/kb/devolutions-gateway/troubleshooting-articles/rdp-web-client-not-showing/).
+If the connection does not work, check the <a href="#requirements">Requirements</a> again or visit [RDP Web Client Not Showing](/dgw/kb/rdp-web-client-not-showing/).
 {% endsnippet %}
 
 ### Currently Supported Features
