@@ -16,36 +16,41 @@ Available special actions depend on the type of entry selected.
 ## General
 | | |
 |------------------------------------------------|------------------------------------------------|
-| Change color | Changes the selected entries icon color. |
-| [Custom PowerShell Command](/rdm/powershell-scripting/custom-powershell-commands/) | Applies custom PowerShell commands to the selected entries. |
-| Detect MAC Addresses | Returns the selected entries' MAC address(es). |
-| [Load from System Information](/kb/remote-desktop-manager/knowledge-base/load-from-inventory/) | Allows to view the configuration of an entry. |
+| Change color | Changes entries icon color, provided they are part of {{ en.RDM }} default icon set. |
+| [Custom PowerShell Command](/rdm/powershell-scripting/custom-powershell-commands/) | Allows executing a custom powershell command to perform many different operations. |
+| Detect MAC Addresses | Detects the MAC address of the selected machine entries and fills the appropriate field in the asset section. |
+| Load from System Information | Fills the asset section of the entry. |
 | Move Selection To New Folder | Moves the selected entries to another folder. |
 | Move to existing password list | Relocates the selected credential entries information to an existing password list. |
 
 ## Web
 | | |
 |----------|------------|
-| Assign Favicon | Automatically assigns the relevant favicon(s) to the selected website entries. |
+| Assign Favicon | Assigns the relevant favicon(s) to the selected website entries. |
 | [Convert Website (legacy) to Website](/kb/remote-desktop-manager/how-to-articles/convert-website-legacy-to-website/) | Converts a deprecated website (legacy) entry into a Website entry. |
-| Discover HTLM Autofill | Automatically fills the HTLM login information fields of the selected entries. |
-| Set Default HTML Autofill | Automatically fills in the Username ID and Password ID fields of the selected entries with their default values. |
+| Discover HTML Autofill | Attempts to fill the HTML login information fields of the selected entries. |
+| Set Default HTML Autofill | Fills in the Username ID and Password ID fields of the selected entries with their default values. |
 
 ## Convert to
 | | |
 |----------|------------|
-| Convert PuTTY Session to Embedded PuTTY Session | Automatically converts selected PuTTY session(s) into embedded PuTTY session(s). |
-| Convert SSH/Telnet/PortForward Session to Putty/Rebex Session| 	Automatically converts selected SSH/Telnet/PortForward session(s) into Putty/Rebex session(s). |
-| Convert to API Key | Automatically converts the selected credential entry into an API Key entry. |
-| Convert to Login (Account) | Automatically converts the selected credential entry into a Login (Account) entry. |
-| Convert to Password List | Automatically converts the selected credential entry into a Password List. |
-| Convert to Website | Automatically converts the selected credential entry into a Website entry. | 
+| Convert PuTTY Session to Embedded PuTTY Session | Converts selected PuTTY session(s) into embedded PuTTY session(s). |
+| Convert SSH/Telnet/PortForward Session to Putty/Rebex Session | Converts selected SSH/Telnet/PortForward session(s) into PuTTY/Rebex session(s). |
+| Convert PuTTY/Rebex session to SSH/Telnet/Port forward session | Converts selected PuTTY/Rebex session(s) to SSH/Telnet/Port forward session(s). |
+| Convert to API Key | Converts the selected credential entry into an API Key entry. |
+| Convert to crendential entry | Converts an information type entry to a username/password entry. |
+| Convert to Login (Account) | Converts the selected credential entry into a Login (Account) entry. |
+| Convert to Password List | Converts the selected credential entry into a password list. |
+| Convert to Website | Converts the selected credential entry into a Website entry. | 
 
 ## Extractor
 | | |
 |----------|------------|
-| Extract Credential Entry | Creates an entry for the credentials stored in the selected entries. | 
-| Extract Host Entry | Creates a host entry for the selected entry. | 
+| Extract Credential Entry | Extracts the credentials of the entry in a new entry and links the previous entry to that host. In the case of a password list, extracts the individual items of the password list into multiple credential entries. | 
+| Extract merged information entry | Extracts the different parts of an information entry into separate entries |
+| Extract VPN | Extracts the VPN information of the entry in a new entry and links the previous entry to that VPN. |
+| Extract Contact | Extracts the contact information of the entry in a new entry. |
+| Extract Host Entry | Extracts the host of the entry in a new entry and links the previous entry to that host. | 
 
 ## Template
 | | | 
