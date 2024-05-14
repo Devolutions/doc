@@ -52,7 +52,7 @@ As the installer is an MSI file, this method only works on Windows.
    {% endsnippet %}
 1. Input the {{ en.DHUBB }} access URI and click ***Next***.
 ![Access URI](https://cdnweb.devolutions.net/docs/HUBB0014_2024_1.png)
-1. After clicking the top ellipsis button, select either a PFX file or a Certificate file, then enter the corresponding password. (If the listener is not in ***HTTPS*** or if using a reverse proxy, skip this step)
+1. After clicking the top ellipsis button, select either a PFX file or a Certificate file, then enter the corresponding password. (If the listener is ***HTTP*** this step is automatically skipped)
 ![Certificate](https://cdnweb.devolutions.net/docs/HUBB0015_2024_1.png)
 1. Click on the ellipsis button and select the ***Provisioner Public Key*** which was generated in Step 5.  
 ![Public Key File](https://cdnweb.devolutions.net/docs/HUBB0016_2024_1.png)
