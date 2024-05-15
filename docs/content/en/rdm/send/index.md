@@ -20,6 +20,10 @@ Despite sharing the same underlying architecture, slight differences exist betwe
 * A sender email is required and stored with the GUID as part of the “payload” stored in the database.
 
 ## Using {{ en.DSEND }} with {{ en.RDM }}
+{% snippet icon.badgeInfo %}
+These steps are valid for {{ en.DVLS }} and {{ en.DHUBB }} datasources. Only the [Send a password from a credential entry](#send-a-password-from-a-credential-entry) is available for SQL datasources.
+{% endsnippet %}
+
 1. In the ribbon, navigate to the ***Window*** tab.
 1. Click ***Message***.  
 ![Message button](https://cdnweb.devolutions.net/docs/RDMW0016_2024_1.png)
