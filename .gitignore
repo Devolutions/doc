@@ -1,5 +1,14 @@
+# Webstorm
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/usage.statistics.xml
+.idea/**/dictionaries
+.idea/**/shelf
+.idea/**/material_theme_project_new.xml
+
+# Project
+.cache
+.DS_Store
+.translation-tool
 dist/
 node_modules/
-.DS_Store
-.cache
-.translation-tool
