@@ -3,6 +3,8 @@ eleventyComputed:
   title: "{{ en.DSEND_STANDALONE }}"
   description: "{{ en.DSEND_STANDALONE }} features a secure method to generate a link to share secrets instead of using insecure email to send sensitive data."
 ---
+{% youtube 'hClqb2jvGj0?si=wZ4vQVa6vte0riOX&amp;start=37' %}
+
 ![!!DevolutionsSendLogo](https://cdnweb.devolutions.net/images/projects/devolutions-send/devolutions-send-color-shadow.svg)
 
 [{{ en.DSEND_STANDALONE }}](https://devolutions.net/devolutions-send/) features a secure method to generate a link to share secrets instead of using insecure email to send sensitive data.

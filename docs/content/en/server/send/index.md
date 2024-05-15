@@ -4,6 +4,8 @@ eleventyComputed:
   description: "{{ en.DSEND }} features a secure method to generate a link to share secrets instead of using insecure email to send sensitive data."
   order: 75
 ---
+{% youtube 'hClqb2jvGj0?si=fy1j76dooxGFho4g&amp;start=189' %}
+
 Send a password through in-app secure messaging or email external contacts directly from an entry. Create a shareable link to send secrets outside your organization securely.
 
 This feature needs {{ en.DVLS }} to have ***SMTP*** configured. This option can be found under ***Administration*** – ***Server Settings*** – ***Email***.

@@ -4,6 +4,8 @@ eleventyComputed:
   description: "{{ en.DSEND }} features a secure method to generate a link to share secrets instead of using insecure email to send sensitive data."
   order: 65
 ---
+{% youtube 'hClqb2jvGj0?si=QhUVzmld4aADfx9q&amp;start=224' %}
+
 Send a password through in-app secure messaging or email external contacts directly from an entry. Create a shareable link to send secrets outside your organization securely.
 
 This feature needs the user to have ***Send messages with attachments*** enabled. This option can be found under ***Administration*** – ***Users***.
