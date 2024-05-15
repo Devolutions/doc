@@ -1,6 +1,9 @@
 <header class="h-13 lg:h-18 bg-black">
   <div class="grid grid-flow-col lg:grid-cols-layout gap-x-4 h-13 lg:h-18 bg-black text-white/90 text-sm lg:text-base fixed w-full z-50">
     <nav class="flex items-center pl-5 gap-4">
+      <button class="xl:hidden" data-dwd-modal data-dwd-modal-group="mobile-menu" data-dwd-modal-target="all">
+        {{ icons.menu }}
+      </button>
       <a href="https://devolutions.net{{- lang | localized -}}/" target="_blank" class="hover:text-white svg:size-8 lg:svg:size-10" aria-label="Devolutions">
         {{ icons.logoDevolutions }}
       </a>

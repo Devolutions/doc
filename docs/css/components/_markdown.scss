@@ -1,14 +1,18 @@
 .markdown-container {
   padding: 0 16px;
 
-  @media (min-width: 1200px) {
+  @media (min-width: 1024px) {
     column-gap: 24px;
     display: grid;
     grid-template-areas:
       ". title toc"
       ". md    toc";
-    grid-auto-columns: minmax(328px, 328px) minmax(0px, auto) minmax(328px, 328px);
+    grid-auto-columns: minmax(0px, 0px) minmax(0px, auto) minmax(328px, 328px);
     padding: 0;
+  }
+
+  @media (min-width: 1280px) {
+    grid-auto-columns: minmax(328px, 328px) minmax(0px, auto) minmax(328px, 328px);
   }
 
   .title {
