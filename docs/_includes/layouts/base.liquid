@@ -1,20 +1,14 @@
 <!DOCTYPE html>
 <html lang="{{ lang }}">
   <head>
-    <script>
-      (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-      'https://www.googletagmanager.com/gtm.js?id='+i+dl;j.setAttributeNode(d.createAttribute('data-ot-ignore'));
-      j.setAttribute('class','optanon-category-C0001');f.parentNode.insertBefore(j, f);
-      })(window,document,'script','dataLayer','GTM-K2QBJ5');
-    </script>
-
+    <title>{{ title }}{{ title | if: " - ", "" }}Devolutions Documentation</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ title }}{{ title | if: " - ", "" }}Devolutions Documentation</title>
+
     <meta name="description" content="{{ description }}">
     <meta name="keywords" content="{{ keywords }}">
+
+    {%- include './partials/gtm.html' -%}
 
     <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
@@ -27,8 +21,7 @@
     <link rel="stylesheet" href="/css/style.css"/>
   </head>
   <body>
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K2QBJ5"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    {%- include './partials/gtm-no-script.html' -%}
 
     {%- include 'partials/header.liquid' -%}
     {%- include 'partials/sub-header.liquid' -%}
