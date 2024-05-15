@@ -22,43 +22,29 @@ For more information, please consult these topics:
 * [{{ en.DVLS }} installation instructions](/server/getting-started/installation/)
 * [{{ en.DVLS }} Security Checklist](/server/getting-started/security-checklist/)
 
-## Configure the server data source on all your client machines
-Enter a name of the data source and the URL for the Host. Ensure you use the correct protocol if SSL is required by the server (https).
+## Configure the server data source on client machines
+Enter the data source name and the URL for the Host. Make sure to use the correct protocol if SSL is required by the server (https).
 
-Export the data source, then import the file in your client workstations as described [Import/Export Data Source](/rdm/data-sources/import-export/).
+Export the data source, then import the file in client workstations as described in [Import/Export Data Source](https://docs.devolutions.net/rdm/data-sources/import-export/).
 
-## Settings
+## Data sources settings
 
 ### General
 
-![{{ en.DVLS }} – General](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip11355.png)
+![{{ en.DVLS }} data source – General](https://cdnweb.devolutions.net/docs/RDMW4057_2024_1.png)
 
 | OPTION                       | DESCRIPTION |
 |------------------------------|-------------|
 | Name                         | Enter a name for the data source. |
 | Host                         | Enter the URL of the {{ en.DVLS }} instance. <br> Example: http://<hostname or IP address>/<instance name> |
-| Use Windows authentication   | Use the same credentials as your current Windows user. |
-| Use Office365 authentication | Use the same credentials as your current Office365 user. Choose an authentication option: <ul><li>Default: Create a new authentication token each time and keeps it in the memory only.</li><li>Persistent: Takes the saved token, if it does not exist, will create a new one and save it.</li><li>Linked account: Takes a saved token from Windows (registry).</li></ul> |
-| Always prompt for credentials | Always ask for the username and password when connecting to the data source. |
+| Use domain single sign-on (SSO) | Use domain single sign-on (SSO) [if previously configured](https://docs.devolutions.net/kb/devolutions-server/how-to-articles/configure-windows-authentication/) in the {{ en.DVLS }} instance. |
 | Username                     | Enter the username to connect to the data source. |
-| Password                     | Enter the password to connect to the data source. |
-| Always ask password          | Always ask for the password when connecting to the data source. |
+| Always ask username          | Always ask for the username when connecting to the data source. |
 | Test Connection              | Test the connection with {{ en.DVLS }} to validate the credentials. |
-
-
-### Settings
-
-![{{ en.DVLS }} – Settings](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip11356.png)
-
-| OPTION                   | DESCRIPTION |
-|--------------------------|-------------|
-| Remote tools access mode | Select whether the Remote Tools will be accessed locally or through the host. |
-| Manage Cache             | Manage the data source cache. On large data sources, caching is a must and will increase performance significantly. For more information, please consult [Manage Cache](/rdm/windows/data-sources/manage-cache/). |
-
 
 ### {{ en.UVLT_MAJ }}
 
-![{{ en.DVLS }} – {{ en.UVLT_MAJ }}](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip3603.png)
+![{{ en.DVLS }} – data source {{ en.UVLT_MAJ }}](https://cdnweb.devolutions.net/docs/RDMW4058_2024_1.png)
 
 | OPTION | DESCRIPTION |
 |--------|-------------|
@@ -66,19 +52,31 @@ Export the data source, then import the file in your client workstations as desc
 
 ### VPN
 
-Open a VPN to access your data prior to connecting to your {{ en.DVLS }}.
-![{{ en.DVLS }} – VPN](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin2197.png)
+Open a VPN to access data prior to connecting to {{ en.DVLS }}.
+![{{ en.DVLS }} – VPN](https://cdnweb.devolutions.net/docs/RDMW4059_2024_1.png)
+
+### PowerShell
+
+![!!{{ en.DVLS }} – PowerShell](https://cdnweb.devolutions.net/docs/RDMW4060_2024_1.png)
+
+| OPTION | DESCRIPTION |
+|--------|-------------|
+| Tenant ID | Stores application Tenant ID for PowerShell to retrieve. | 
+| Password | Stores application password for PowerShell to retrieve. | 
 
 ### Advanced
 
-![{{ en.DVLS }} – Avanced](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip10815.png)
+![{{ en.DVLS }} – Advanced](https://cdnweb.devolutions.net/docs/RDMW4061_2024_1.png)
 
 | OPTION                          | DESCRIPTION |
 |---------------------------------|-------------|
 | Caching mode                    | Determines how the entries will be reloaded in the data source. For more information, please consult [Caching](/rdm/windows/data-sources/caching/).                        |
 | Ping online method              | Indicate the preferred ping online method. Select between: <ul><li>None</li><li>Web request</li></ul> |
 | Popup license expiration        | Determine how the application advises of the license expiration. Select between: <ul><li>All</li><li>Only Administrator(s)</li><li>Disabled</li></ul>                          |
+| Connection timeout | Set a connection timeout delay for the {{ en.DVLS }} instance.                                                     |
 | Auto refresh                    | Set the interval for the automatic refresh.                                                           |
+| Client certificate authentication mode | Determine how client certificates are to be authenticated.                                     | 
 | Prompt for offline mode on startup | Ask to use the data source in offline mode when the user connects to the data source.              |
-| Auto go offline                 | Use the data source in offline mode when the ping method does not respond.                            |
+| Automatically go offline on offline prompt | Use the data source in offline mode when the ping method does not respond.                            |
 | Disable lock                    | Disable the option to lock the data source directly. The application still can be locked but the user is not prompted for the data source password when unlocking the application.                                                                                                  |
+| Manage cache | Clear the output, analyze or delete the content of the {{ en.DVLS }} instance's cache.                                   | 
