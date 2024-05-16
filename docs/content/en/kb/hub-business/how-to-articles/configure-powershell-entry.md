@@ -11,7 +11,6 @@ To use this feature, certain requirements must be met, namely:
 * Windows 10 or 11.
 * Windows Server 2016 and higher.
 * Have a [{{ en.DGW }}](/dgw/hub/hub-business-configuration/) version 2023.1 or later.
-* Have the ***View password*** permission if you are the one to use the session.
 
 ### PowerShell Remote Session Configuration
 Follow the steps below to properly configure your PowerShell remote session in {{ en.DHUBB }}:
