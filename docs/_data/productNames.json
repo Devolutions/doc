@@ -6,5 +6,6 @@
     "hub": "Devolutions Hub",
     "cloud": "Devolutions Cloud",
     "dgw": "Devolutions Gateway",
-    "pam": "Privileged access management"
+    "pam": "Privileged access management",
+    "workspace": "Devolutions Workspace"
 }
