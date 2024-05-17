@@ -11,7 +11,7 @@ You can also access the privileged account in the {{ en.DHUBB }} web interface e
 {% endsnippet %}
 
 {% snippet icon.badgeHelp %}
-To learn how to approve or deny a request, visit [Approve access to a privileged account](/pam/privileged-accounts/approve-access-privileged-account/).
+To learn how to approve or deny a request, visit [Approve access to a privileged account](/pam/hub/privileged-accounts/approve-access-privileged-account/).
 {% endsnippet %}
 
 The PAM ***Check-out*** feature allows users to request temporary access to a privileged account entry in a PAM {{ en.VLT }}. The approver must then approve or deny the request.
