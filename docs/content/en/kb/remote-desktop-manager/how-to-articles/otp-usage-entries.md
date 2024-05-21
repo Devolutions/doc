@@ -52,15 +52,15 @@ The ***Prompt*** option opens a credential list of available OTP credentials eve
 ## Usage
 One Time Password ***Usage*** is an option to affix the OTP code. Here is the list of possible actions:
 
-* ***None***: No action is done. This is the set default setting. If ***Specific to session*** is selected, the OTP will, if it applies, be used in a manner specific to the session being launched (not all sessions support OTP).
-
-{% snippet icon.badgeInfo %}
-The following sessions are supported by OTP: OpenVPN, SophosVPN, FTP, SFTP, SCP, SSH Tunnel, Telnet, Portforward, and SSH Shell. Please note that the ***expected OTP prompt*** setting must be enabled for all sessions to run, with the exception of OpenVPN and SophosVPN.
-{% endsnippet %}
-
+* ***None***: No action is done. This is the set default setting. 
 * ***Append to the password***: Affix the OTP after the password.
 * ***Prepend to the password***: Affix the OTP before the password.
-* ***Specific to session***: If selected, the OTP will, if it applies, be used in a manner specific to the session being launched. This option is specific for OpenVPN and SophosVPN.
+* ***Specific to session***: If selected, the OTP will, if it applies, be used in a manner specific to the session being launched (not all sessions support OTP).
+
+{% snippet icon.badgeInfo %}
+The following sessions are supported by OTP: OpenVPN, SophosVPN, FTP, SFTP, SCP, SSH Tunnel, Telnet, Portforward, and SSH Shell. Please note that the ***OTP prompt string*** setting must be configured for all sessions to run, with the exception of OpenVPN and SophosVPN.
+{% endsnippet %}
+
 * ***Inherited***: Will climb up the navigation tree until it has access to a ***Usage*** setting in a parent folder in the ***Connection - One Time Password*** section. For the ***Usage*** inheritance to work, the ***Connection - One Time Password - Usage*** needs to be set to ***Inherited*** for every parent folder until it reaches the desired configuration.
 * ***Append to the username***: Affix the OTP after the username.
 * ***Prepend to the username***: Affix the OTP before the username.
