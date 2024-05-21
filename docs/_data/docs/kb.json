@@ -1673,9 +1673,6 @@
                   "url": "/kb/devolutions-server/knowledge-base/add-x-forwarded-for-column-iis/"
                 },
                 {
-                  "url": "/kb/devolutions-server/knowledge-base/backup-restore-server/"
-                },
-                {
                   "url": "/kb/devolutions-server/knowledge-base/deploy-high-availability-load-balanced-env/"
                 },
                 {
@@ -1747,6 +1744,9 @@
               "items": [
                 {
                   "url": "/kb/hub-business/how-to-articles/assign-roles-permissions/"
+                },
+                {
+                  "url": "/kb/hub-business/how-to-articles/configure-powershell-entry/"
                 },
                 {
                   "url": "/kb/hub-business/how-to-articles/create-azure-ad-pam-provider/"

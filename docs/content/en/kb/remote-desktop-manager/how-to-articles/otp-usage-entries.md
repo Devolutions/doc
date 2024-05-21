@@ -6,6 +6,7 @@ eleventyComputed:
 {{ en.RDM }} entries can be set up to use ***One Time Password (OTP)*** when launch.
 
 In the ***Connection – One Time Password*** section of an entry, select a credential ***Source*** and a ***Usage*** for the OTP code. Type if needed a ***combination string***.
+
 ![Connection – One Time Password](https://cdnweb.devolutions.net/docs/RDMW6005_2023_2.png)
 
 For [Source](#source) configuration information, select from the list or click this link to jump to the [Usage](#usage) configuration information.

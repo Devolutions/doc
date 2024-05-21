@@ -8,10 +8,10 @@ eleventyComputed:
 The ***Scheduler Service*** is a {{ en.DVLS }} component in charge of several features of {{ en.DVLS }}:
 
 * [Active Directory Cache](/server/web-interface/administration/configuration/server-settings/general/authentication/domain/)
-    * Activated through the {{ en.DVLS }} web UI in ***Administration – Server Settings – Authentication – Domain – Enable cache feature***.
-![Administration – Server Settings – Authentication – Domain – Enable cache feature](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4953.png)
-* Office 365 Cache
-    * Mandatory when using Azure AD / Office 365 Authentication Method.
+    * Activated through the {{ en.DVLS }} web UI in ***Administration*** – ***Server Settings*** – ***Authentication*** – ***Domain*** – ***Settings*** – ***Enable cache feature***.
+![Administration – Server Settings – Authentication – Domain – Settings – Enable cache feature](https://cdnweb.devolutions.net/docs/DVLS0024_2024_1.png)
+* Entra ID cache
+    * The scheduler is used if the Entra cache is active.
 * PAM Heartbeat (checkout processing, password rotation)
     * Mandatory when using ***PAM features***.
 * [Backup Manager](/server/web-interface/administration/backup/backup-manager/)
@@ -29,10 +29,9 @@ The ***Scheduler Service*** is a {{ en.DVLS }} component in charge of several fe
 ![Log to Syslog server](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4957.png)
 * [Automatic Log Cleanup](/server/web-interface/administration/logs/cleanup-logs/)
     * Mandatory when ***Automatic Log cleanup*** is enabled through the {{ en.DVLS }} web UI in ***Administration – Logs – Cleanup Logs – Enable automatic cleanup***.
-![Enable automatic cleanup](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4958.png)
+![Enable automatic cleanup](https://cdnweb.devolutions.net/docs/DVLS0025_2024_1.png)
 
 ## Configuration and Requirements
-
 The ***Scheduler*** is a Windows Service. It is installed from the {{ en.DVLSCONSOLE }} ***Install Scheduler***. The ***Scheduler*** will be installed and available from the Windows Services Console, ***DevolutionsSchedulerService***.
 
 This service requires access to the {{ en.DVLS }} database and to specific locations on the file system. Depending on whether {{ en.DVLS }} is configured to use Integrated Security or SQL accounts, different settings must be applied.
@@ -42,7 +41,6 @@ Refer to the ***VaultDBSchedulerService*** account in [Pre-Deployment Account Su
 {% endsnippet %}
 
 ### When using Integrated Security
-
 * The ***Scheduler*** will use the identity set to the account in Windows Services (services.msc).
 * The AD service account requires the ***Read*** permission on the encryption key file (<web app path>\App_Data\encryption.config).
 * The AD service account also requires a ***Read*** permission for the ***NetFrameworkConfigurationKey*** container from theNET’s RsaProtectedConfigurationProvider.
@@ -52,7 +50,6 @@ Refer to [Encrypting the web.config File](/kb/devolutions-server/how-to-articles
 {% endsnippet %}
 
 ### When using SQL Accounts
-
 * The identity used against the database is set in the {{ en.DVLSCONSOLE }} in ***Server – Edit – Database***, ***Scheduler Service***.
 * The service runs by default with Network Service. This account cannot decrypt a **web.config** file by default, and it is not recommended to do so without proper knowledge.
 
@@ -61,7 +58,6 @@ Refer to [Encrypting the web.config File](/kb/devolutions-server/how-to-articles
 {% endsnippet %}
 
 ## Enable Scheduler Logging
-
 1. In the {{ en.DVLS }} web UI, go to ***Administration – Server Settings – Logging***.
 1. Check ***Log debug information***, then specify a ***Scheduler log path*** to store the log files. The folder location is relative to the scheduler service (**C:\** is the C drive of the server).
 ![Log debug information and Scheduler log path](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2237.png)
