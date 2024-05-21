@@ -5,17 +5,16 @@ eleventyComputed:
 ---
 {{ en.RDM }} entries can be set up to use ***One Time Password (OTP)*** when launch.
 
-In the ***Connection – One Time Password*** section of an entry, select a credential ***Source*** and a ***Usage*** for the OTP code. Type if needed a ***combinaison string***. For example, you might configure an OTP to prepend or append a user-defined token or string to the username or password.
-
+In the ***Connection – One Time Password*** section of an entry, select a credential ***Source*** and a ***Usage*** for the OTP code. Type if needed a ***combination string***.
 ![Connection – One Time Password](https://cdnweb.devolutions.net/docs/RDMW6005_2023_2.png)
 
 For [Source](#source) configuration information, select from the list or click this link to jump to the [Usage](#usage) configuration information.
 
 ## Source
-Credential ***Source*** are used to link entries to OTP account credential information.
+Credential ***Source*** is used to link entries to OTP account credential information.
 
 ### Current session's credentials
-The ***Current session's credentials*** options will use the OTP credentials setup in the entry ***Common - General - Credentials*** section. Credentials options available with OTP are [***My personal credentials***](/rdm/windows/commands/file/my-account-settings/my-personal-credentials/), ***My privileged account*** and ***Embedded*** (this mode is deprecated and not recommended). 
+The ***Current session's credentials*** options will use the OTP credentials setup in the entry ***Common - General - Credentials*** section. Credentials options available with OTP are [***My personal credentials***](/rdm/commands/file/my-account-settings/my-personal-credentials/), ***My privileged account*** and ***Embedded*** (this mode is deprecated and not recommended). 
 
 {% snippet icon.badgeCaution %}
 In a team environment, we recommend using the [Linked ({{ en.VLT }})](#linked-vault) option instead with a ***One Time Password (OTP)*** credential entry.
@@ -52,10 +51,16 @@ The ***Prompt*** option opens a credential list of available OTP credentials eve
 ## Usage
 One Time Password ***Usage*** is an option to affix the OTP code. Here is the list of possible actions:
 
-* ***None***: No action is done. This is the set default setting.
+* ***None***: No action is done. This is the set default setting. If ***Specific to session*** is selected, the OTP will, if it applies, be used in a manner specific to the session being launched (not all sessions support OTP).
+
+{% snippet icon.badgeInfo %}
+The following sessions are supported by OTP: OpenVPN, SophosVPN, FTP, SFTP, SCP, SSH Tunnel, Telnet, Portforward, and SSH Shell. Please note that the ***expected OTP prompt*** setting must be enabled for all sessions to run, with the exception of OpenVPN and SophosVPN.
+{% endsnippet %}
+
 * ***Append to the password***: Affix the OTP after the password.
 * ***Prepend to the password***: Affix the OTP before the password.
 * ***Specific to session***: If selected, the OTP will, if it applies, be used in a manner specific to the session being launched. This option is specific for OpenVPN and SophosVPN.
 * ***Inherited***: Will climb up the navigation tree until it has access to a ***Usage*** setting in a parent folder in the ***Connection - One Time Password*** section. For the ***Usage*** inheritance to work, the ***Connection - One Time Password - Usage*** needs to be set to ***Inherited*** for every parent folder until it reaches the desired configuration.
 * ***Append to the username***: Affix the OTP after the username.
 * ***Prepend to the username***: Affix the OTP before the username.
+* ***Append and use push notification***: Affix the OTP after the username and use push notification.
