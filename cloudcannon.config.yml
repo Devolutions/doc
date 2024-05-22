@@ -97,12 +97,13 @@ _snippets:
       snippet_type:
         type: select
     _select_data:
-      badgeHelp: Badge Help
-      badgeInfo: Badge Info
-      badgeNotice: Badge Notice
-      badgeCaution: Badge Caution
-      badgeWarning: Badge Warning
-      shieldInfo: Shield Info
-      shieldNotice: Shield Notice
-      shieldCaution: Shield Caution
-      shieldWarning: Shield Warning
+      snippet_type:
+        badgeHelp: Badge Help
+        badgeInfo: Badge Info
+        badgeNotice: Badge Notice
+        badgeCaution: Badge Caution
+        badgeWarning: Badge Warning
+        shieldInfo: Shield Info
+        shieldNotice: Shield Notice
+        shieldCaution: Shield Caution
+        shieldWarning: Shield Warning
