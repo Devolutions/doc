@@ -94,14 +94,16 @@ _snippets:
     _inputs:
       content:
         type: markdown
-    _select_data:
       snippet_type:
-        badgeHelp: Badge Help
-        badgeInfo: Badge Info
-        badgeNotice: Badge Notice
-        badgeCaution: Badge Caution
-        badgeWarning: Badge Warning
-        shieldInfo: Shield Info
-        shieldNotice: Shield Notice
-        shieldCaution: Shield Caution
-        shieldWarning: Shield Warning
+        type: select
+        options:
+          values:
+            - badgeHelp: Badge Help
+            - badgeInfo: Badge Info
+            - badgeNotice: Badge Notice
+            - badgeCaution: Badge Caution
+            - badgeWarning: Badge Warning
+            - shieldInfo: Shield Info
+            - shieldNotice: Shield Notice
+            - shieldCaution: Shield Caution
+            - shieldWarning: Shield Warning
