@@ -1,4 +1,14 @@
 collections_config:
+  topics:
+    name: Topics
+    path: 'content/en'
+    schemas:
+      default:
+        path: src/_cloudcannon/schemas/topic.md
+    _enabled_editors:
+      - content
+      - visual
+    output: true
   data:
     path: _data
     schemas:
@@ -10,6 +20,14 @@ collections_config:
 collections_config_override: true
 
 _inputs:
+  trim_top_left:
+    hidden: true
+  trim_top_right:
+    hidden: true
+  trim_bottom_left:
+    hidden: true
+  trim_bottom_right:
+    hidden: true
   sidebars:
     type: array
     options:
@@ -31,3 +49,10 @@ _structures:
           label:
           url:
           items:
+
+_snippets_imports:
+  eleventy_liquid:
+    exclude:
+      - eleventy_liquid_raw
+
+_snippets:
