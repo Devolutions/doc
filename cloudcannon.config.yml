@@ -82,13 +82,25 @@ _snippets:
     preview:
       text: Snippet
       subtext:
-        - key: inner_text
+        - key: content
     definitions:
       shortcode_name: snippet2
-      content_key: inner_text
+      content_key: content
       positional_args:
         - editor_key: snippet_type
           type: string
-      _inputs:
-        inner_text:
-          type: markdown
+          optional: true
+    _inputs:
+      content:
+        type: markdown
+    _select_data:
+      snippet_type:
+        badgeHelp: Badge Help,
+        badgeInfo: Badge Info,
+        badgeNotice: Badge Notice,
+        badgeCaution: Badge Caution,
+        badgeWarning: Badge Warning,
+        shieldInfo: Shield Info,
+        shieldNotice: Shield Notice,
+        shieldCaution: Shield Caution,
+        shieldWarning: Shield Warning
