@@ -26,7 +26,7 @@ cards:
       - name: Getting started
         url: /server/getting-started/
       - name: Installation
-        url: /server/installation/
+        url: /server/getting-started/installation/
   - name: hub
     links:
       - name: What is Devolutions Hub?
@@ -57,6 +57,16 @@ cards:
         url: /pam/server/
       - name: Devolutions Hub Business
         url: /pam/hub/
+  - name: workspace
+    links:
+      - name: What is Devolutions Workspace?
+        url: /workspace/overview/what-is-workspace/
+      - name: Workspace desktop app installation
+        url: /workspace/workspace-apps/workspace-desktop/installation/
+      - name: Workspace mobile app installation
+        url: /workspace/workspace-apps/workspace-mobile/installation/
+      - name: Workspace browser extention installation
+        url: /workspace/workspace-browser-extension/installation/
   - name: kb
     links:
       - name: Devolutions Knowledge Base

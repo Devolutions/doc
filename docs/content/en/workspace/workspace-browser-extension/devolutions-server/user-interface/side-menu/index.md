@@ -1,0 +1,103 @@
+---
+eleventyComputed:
+  title: Side menu
+---
+Using the ***Side menu*** tabs, you can access various {{ en.WBEX }} features. Each tab will display a different view in the ***Content Area***.
+
+When using the {{ en.WBEX }} with {{ en.DVLS }}, the available tabs are the ***Matching*** tab, the ***All Entries*** tab, the ***Favorites*** tab, the ***Recent*** tab, and the ***Password Generator*** tab.
+
+In all tabs except the ***Password Generator*** tab, when hovering over an entry, three new options appear: the ***Copy Username***, ***Copy Password***, and ***View*** buttons. Go to the Entries functionalities section for more information.
+
+## {{ en.WBEX }} Tabs
+
+### Matching tab
+
+The extension opens on the ***Matching*** tab. This is where you will see the list of credentials available for the particular website you are on.
+
+{% snippet icon.badgeInfo %}
+For methods of retrieving your credentials, visit [Retrieve credentials with the {{ en.WBEX }}](/server/workspace-browser-extension/using-workspace-browser-extension/retrieve-credentials-workspace-browser-extension/).
+{% endsnippet %}
+
+![Matching Tab](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp2033.png)
+
+At the top, you can use the ***Search*** bar to filter through all your credentials, not just those applicable to the website. You can also use the ***Refresh*** button next to it to update the search results.
+
+At the bottom, the ***Add Website*** button opens a new browser tab that allows you to manually add a website entry in {{ en.DVLS }} through the {{ en.WBEX }}.
+
+{% snippet icon.badgeInfo %}
+For a complete list of the available fields in the ***Add Website*** window, visit [Add Website](/server/workspace-browser-extension/workspace-browser-extension-user-interface/side-menu/add-website/). You can also consult our step-by-step guide on [how to add a website entry](/server/workspace-browser-extension/using-workspace-browser-extension/add-website-entry-workspace-browser-extension/).
+{% endsnippet %}
+
+### All Entries tab
+{% snippet icon.badgeHelp %}
+When accessing the ***All Entries*** tab for the first time, you need to select the {{ en.DVLS }} {{ en.VLT }}s you want to synchronize with the {{ en.WBEX }}. Learn more about it in [First login with the {{ en.WBEX }}](/server/workspace-browser-extension/first-login-workspace-browser-extension/).
+{% endsnippet %}
+
+The ***All Entries*** tab allows you to browse through all your synchronized {{ en.VLT }}s for website entries only. You will first encounter the list of your synchronized {{ en.VLT }}s.
+
+![All Entries Tab](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp2043.png)
+
+At the top, you can use the ***Filter*** bar to search through all your {{ en.VLT }}s for website entries.
+
+You can access your {{ en.VLT }}s in two ways:
+
+* To access a {{ en.VLT }} in {{ en.DVLS }}, click on the ***Open*** button next to a {{ en.VLT }} to open it in {{ en.DVLS }} in a new browser tab.
+* To access a {{ en.VLT }} in the {{ en.WBEX }}, click on it and navigate through the folders to manually find the entry you are looking for. The folder structure is identical to that of your {{ en.DVLS }}, except that only the paths leading to website entries will be displayed.
+
+When navigating in the folders, the [***Add Website***](/server/workspace-browser-extension/workspace-browser-extension-user-interface/side-menu/add-website/) button will appear at the bottom of the ***Content Area***. You can also use the search bar at the top to search in the specific location.
+
+![{{ en.VLT_MAJ }} Navigation via the {{ en.WBEX }}](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp2045.png)
+
+Back on the main view of the ***All Entries*** tab, the ***Select {{ en.VLT }}s to Sync*** at the bottom of the ***Content Area*** allows you to individually select the {{ en.DVLS }} {{ en.VLT }}s to synchronize with the {{ en.WBEX }}.
+
+### Favorites tab
+If you have entries marked as favorites, they will be displayed here in the ***Favorites*** tab.
+
+![Favorites Tab](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp2046.png)
+
+You can search a particular entry using the ***Search In Favorites*** bar at the top.
+### Recent tab
+The last entries you used will be displayed in the ***Recent*** tab.
+
+![Recent Tab](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp2047.png)
+
+You can search a particular entry using the ***Filter*** bar at the top.
+
+At the bottom, you can click on the ***Clear Recent Entries*** button to erase all current entries from this view.
+
+### Password Generator tab
+The ***Password Generator*** tab assists you in creating a strong and secure password adapted to your needs and to website requirements for your new account.
+
+![Password Generator Tab](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp2042.png)
+
+Your custom password is generated at the top of the ***Content Area*** with a strenght indicator below it. You can copy it or generate a new one using the ***Copy to Clipboard*** and ***Generate Password*** buttons respectively. The ***Password lenght***, which is set to 12 by default, can also be adjusted.
+
+In the ***General*** drop-down section, you are able to select the types of characters that your password must contain as well as the minimum number of characters of each type that must be included.
+
+![General Section](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp2040.png)
+
+In the ***Advanced*** drop-down section, you are able to further customize your password by entering characters you want included in your password, followed by the minimum number of times they must appear. In the second field, you can also enter characters you want excluded from your password.
+
+![Advanced Section](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp2041.png)
+
+{% snippet icon.badgeInfo %}
+To learn how to use the ***Password Generator*** when creating an account on a website, visit [Create an account for a website with the {{ en.WBEX }}](/server/workspace-browser-extension/using-workspace-browser-extension/create-account-website-workspace-browser-extension/).
+{% endsnippet %}
+
+### Entry functionalities
+No matter what tab you are in (except the ***Password Generator*** tab), when hovering over an entry, three new options appear: the ***Copy Username***, ***Copy Password***, and ***View*** buttons.
+
+![Copy Username, Copy Password, and View options](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp2048.png)
+
+The ***Copy Username*** and ***Copy Password*** buttons copy the username/password of the entry to your clipboard.
+
+The ***View*** button gives you an overview of the entry as well as additional functionalities. The availability of information and functionalities depends on the type of entry and the information provided in the entry, although some of them are always available:
+
+* ***Edit***/***Delete*** the entry or view its password with the vertical ellipsis button at the top right.
+* Mark your entry as favorite by clicking on the ***Add to Favorites*** icon next to the entry name. The entry will then show in the ***Favorites*** tab.
+* View the location of your entry under the ***{{ en.VLT }}*** and ***Folder*** (if it is located under a folder) sections.
+* View and access the ***URL*** associated to the entry.
+
+Other information and functionalities will depend on what you provided when creating the entry (username, password, tags, description, etc.).
+
+![Entry Overview](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp2037.png)
