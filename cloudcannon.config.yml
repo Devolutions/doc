@@ -52,6 +52,8 @@ _inputs:
     hidden: true
   trim_bottom_right:
     hidden: true
+  preview:
+    type: image
   sidebars:
     type: array
     options:
