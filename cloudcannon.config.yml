@@ -1,5 +1,3 @@
-source: ''
-
 collections_config:
   topics:
     name: Topics
@@ -58,7 +56,7 @@ _inputs:
     type: image
     options:
       paths:
-        uploads: /src/_cloudcannon/previews
+        uploads: /../src/_cloudcannon/previews
   sidebars:
     type: array
     options:
