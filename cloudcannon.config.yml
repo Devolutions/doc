@@ -17,7 +17,7 @@ collections_config:
         create:
           path: '[relative_base_path]/{slug}.json'
       snippets:
-        path: src/_cloudcannon/scehmas/snippets.json
+        path: src/_cloudcannon/schemas/snippets.json
 
 collections_config_override: true
 
