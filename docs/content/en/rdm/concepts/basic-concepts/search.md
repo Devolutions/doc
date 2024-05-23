@@ -7,6 +7,6 @@ eleventyComputed:
 
 ### Related topics  
 * [Search](/rdm/commands/view/view/search/)
-* [Advanced search](/rdm/commands/view/view/search/advanced/))
+* [Advanced search](/rdm/commands/view/view/search/advanced/)
 * [Multi {{ en.VLT }} search](/rdm/commands/view/view/search/multi-vault/)
-* [Documentation search](/rdm/commands/view/view/search/documentation/))
+* [Documentation search](/rdm/commands/view/view/search/documentation/)
