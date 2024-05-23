@@ -4,15 +4,15 @@ eleventyComputed:
   description: In the Help tab section, you will find links to the {{ en.DFORUM }}, Blog, Online Help, and much more
 ---
 In the ***Help*** tab section you will find links to the ***{{ en.DFORUM }}***, ***Blog***, ***Online Help***, and much more. Diagnostics tools for {{ en.RDM }} are all located in the ***Support*** section and many supported related features, such as the ***Application Logs***, the ***Profiler***, and the ***Recorder***.
-![Ribbon - Help](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip11352.png)
+![Ribbon - Help](https://cdnweb.devolutions.net/docs/INTERFACE6005.png)
 
 ### Help
 
 | OPTION         | DESCRIPTION                                                                                                                    |
 |----------------|--------------------------------------------------------------------------------------------------------------------------------|
 | Online Help    | Launches our [{{ en.RDM }} documentation](/rdm/windows/overview/what-is-rdm/).                                                 |
-| Knowledge Base | Launches our [{{ en.DKB }}](/kb/devolutions-customer-success/).                                                                |
 | Blog           | Visit our [Blog](https://blog.devolutions.net/) and learn about the Devolutions team, as well as our goals, products and more. |
+| Knowledge Base | Launches our [{{ en.DKB }}](/kb/devolutions-customer-success/).                                                                |
 
 ### Support
 
