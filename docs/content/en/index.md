@@ -88,7 +88,7 @@ cards:
       - name: Devolutions Gateway
         url: /kb/devolutions-gateway/
       - name: Workspace browser extension
-        url: /kb/workspace-browser-extension/
+        url: /workspace/kb/
       - name: Workspace apps
         url: /kb/devolutions-workspace/
 ---

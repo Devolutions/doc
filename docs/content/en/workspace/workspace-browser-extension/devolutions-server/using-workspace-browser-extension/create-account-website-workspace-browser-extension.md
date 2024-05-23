@@ -6,7 +6,7 @@ eleventyComputed:
 The {{ en.WBEX }} assists you in creating a new account when you register on a website. It gives you the ability to create a secure password and save your new credentials.
 
 {% snippet icon.badgeInfo %}
-If you already have an account for the website, learn how to [Add a Website Entry with the {{ en.WBEX }}](/server/workspace-browser-extension/using-workspace-browser-extension/add-website-entry-workspace-browser-extension/) instead.
+If you already have an account for the website, learn how to [Add a Website Entry with the {{ en.WBEX }}](/workspace/workspace-browser-extension/devolutions-server/using-workspace-browser-extension/add-website-entry-workspace-browser-extension/) instead.
 {% endsnippet %}
 
 Follow the steps below to learn how to create a website account with the {{ en.WBEX }} and save your credentials in {{ en.DVLS }}.
@@ -41,4 +41,4 @@ Your password settings are now configured.
 1. Provide a ***Destination folder*** in which to save your website entry. If you leave this field empty, the entry will be saved at the root of the {{ en.VLT }}. If the folder you specify does not exist, it will be created at the same time as your entry.
 1. Click ***Save***.
 
-Your credentials are now securely stored in a new website entry in {{ en.DVLS }}. The next time you log in to the same account, the {{ en.WBEX }} will detect it and you will be able to retrieve your credentials. Follow our step-by-step instructions for [retrieving your credentials](/server/workspace-browser-extension/using-workspace-browser-extension/retrieve-credentials-workspace-browser-extension/).
+Your credentials are now securely stored in a new website entry in {{ en.DVLS }}. The next time you log in to the same account, the {{ en.WBEX }} will detect it and you will be able to retrieve your credentials. Follow our step-by-step instructions for [retrieving your credentials](/workspace/workspace-browser-extension/devolutions-server/using-workspace-browser-extension/retrieve-credentials-workspace-browser-extension/).

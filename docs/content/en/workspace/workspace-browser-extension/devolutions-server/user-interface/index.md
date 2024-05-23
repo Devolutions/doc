@@ -16,7 +16,7 @@ The main view, which is the one displayed when first opening the {{ en.WBEX }} i
 
 If you use multiple Devolutions products with the extension, you can switch between them using the ***Data Source Selector*** at the left of the ***Top Menu***. A drop-down list will appear with the other products you have previously paired with the {{ en.WBEX }}.
 ![Data Source Selector](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp2029.png)
-At the right of the ***Top Menu***, the ***Settings*** button opens a new tab in which you can configure your extension. Consult the [full settings list](/server/workspace-browser-extension/settings/).
+At the right of the ***Top Menu***, the ***Settings*** button opens a new tab in which you can configure your extension. Consult the [full settings list](/workspace/workspace-browser-extension/settings/).
 ![Settings Button](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp2030.png)
 Next to the ***Settings*** button is your ***Account*** button. This section has some useful links and information, namely:
 
@@ -38,4 +38,4 @@ Each tab will display a different view in the ***Content Area***. The tabs avail
 * the ***Recent*** tab, where you can find a list of the entries that you recently used.
 * the ***Password Generator*** tab, where you can create a strong and secure password for a new account.
 
-See [Side menu](/server/workspace-browser-extension/workspace-browser-extension-user-interface/side-menu/) for more information on each of the tabs.
+See [Side menu](/workspace/workspace-browser-extension/devolutions-server/user-interface/side-menu/) for more information on each of the tabs.

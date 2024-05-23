@@ -8,7 +8,7 @@ eleventyComputed:
 ### Related topics  
 * [Create an entry](/rdm/windows/commands/edit/entries/creating-new-entry/)
 * [OTP usage with entries](/kb/remote-desktop-manager/how-to-articles/otp-usage-entries/)
-* [Using {{ en.WBEX }}](/rdm/windows/workspace-browser-extension/using-workspace-browser-extension/)
+* [Using {{ en.WBEX }}](/workspace/workspace-browser-extension/remote-desktop-manager/using-workspace-browser-extension/)
 * [Credential entry](/rdm/windows/support-resources/lexicon/#credential-entry)
 
 ### See also  

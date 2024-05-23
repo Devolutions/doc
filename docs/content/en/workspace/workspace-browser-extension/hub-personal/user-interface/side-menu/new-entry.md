@@ -2,7 +2,7 @@
 eleventyComputed:
   title: New entry
 ---
-The ***New Entry*** button is only available while in the [***Matching***](/hub/workspace-browser-extension/workspace-browser-extension-user-interface/workspace-browser-extension-user-interface-hub-personal/side-menu/#matching-tab) tab, which is the tab selected when opening the extension, or when browsing through the entries of the [***All Entries***](/hub/workspace-browser-extension/workspace-browser-extension-user-interface/workspace-browser-extension-user-interface-hub-personal/side-menu/#all-entries-tab) tab. You can choose to create a new ***Website***, ***Credit Card***, ***Contact***, or ***Secure Note*** entry.
+The ***New Entry*** button is only available while in the [***Matching***](/workspace/workspace-browser-extension/hub-personal/user-interface/side-menu/#matching-tab) tab, which is the tab selected when opening the extension, or when browsing through the entries of the [***All Entries***](/workspace/workspace-browser-extension/hub-personal/user-interface/side-menu/#all-entries-tab) tab. You can choose to create a new ***Website***, ***Credit Card***, ***Contact***, or ***Secure Note*** entry.
 ![New Entry Type Selection](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub2134.png)
 
 When the entry type is selected, a new tab opens in your browser that allows you to add an entry of that type in {{ en.DHUBP }} through the {{ en.WBEX }}.
@@ -37,8 +37,8 @@ The tables below list all fields/settings available in the ***New Entry*** windo
 | FIELD/SETTING | DESCRIPTION |
 | --- | --- |
 | Authentication | Select between ***Form*** or ***Basic*** authentication depending on the website. The default value is ***Form*** and usually doesn't need modification. |
-| Autofill login | Enable to automatically fill in credentials on the website's login page for this entry. Overrides the {{ en.WBEX }} [***Settings***](/hub/workspace-browser-extension/settings/) option. |
-| Auto submit | Enable to automatically submit filled credentials for this entry. Overrides the {{ en.WBEX }} [***Settings***](/hub/workspace-browser-extension/settings/) option. |
+| Autofill login | Enable to automatically fill in credentials on the website's login page for this entry. Overrides the {{ en.WBEX }} [***Settings***](/workspace/workspace-browser-extension/settings/) option. |
+| Auto submit | Enable to automatically submit filled credentials for this entry. Overrides the {{ en.WBEX }} [***Settings***](/workspace/workspace-browser-extension/settings/) option. |
 | URL encode credentials | Enable to encode credentials in the website URL. Only available if ***Basic*** is selected in ***Authentication***. |
 | Autofill delay | Enable to apply a delay before the {{ en.WBEX }} fills in credentials. Only available if ***Form*** is selected in ***Authentication***. |
 
@@ -269,5 +269,5 @@ These are the buttons at the bottom of the ***New Entry – Secure Note*** windo
 | Cancel        | Cancel the creation of a new website entry and clear all unsaved changes to settings.                             |
 
 {% snippet icon.badgeInfo %}
-Follow our step-by-step guide explaining how to [add an entry](/hub/workspace-browser-extension/using-workspace-browser-extension/using-workspace-browser-extension-with-hub-personal/add-entry-hub-personal-workspace-browser-extension/) in {{ en.DHUBP }} with the {{ en.WBEX }}.
+Follow our step-by-step guide explaining how to [add an entry](/workspace/workspace-browser-extension/hub-personal/using-workspace-browser-extension/add-entry-hub-personal-workspace-browser-extension/) in {{ en.DHUBP }} with the {{ en.WBEX }}.
 {% endsnippet %}

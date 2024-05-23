@@ -6,7 +6,7 @@ eleventyComputed:
 The {{ en.WBEX }} assists you in creating a new account when you register on a website. It gives you the ability to create a secure password and save your new credentials.
 
 {% snippet icon.badgeInfo %}
-If you already have an account for the website, visit [Add a Website Entry with the {{ en.WBEX }}](/hub/workspace-browser-extension/using-workspace-browser-extension/using-workspace-browser-extension-with-hub-business/add-entry-hub-business-workspace-browser-extension/).
+If you already have an account for the website, visit [Add a Website Entry with the {{ en.WBEX }}](/workspace/workspace-browser-extension/hub-business/using-workspace-browser-extension/add-entry-hub-business-workspace-browser-extension/).
 {% endsnippet %}
 
 Follow the steps below to learn how to create a website account with the {{ en.WBEX }} and save your credentials in {{ en.DHUBB }}.
@@ -40,4 +40,4 @@ Your password settings are now configured.
 1. Select the ***{{ en.VLT }}*** and ***folder*** in which to save your website entry.
 1. Click ***Save***.
 
-Your credentials are now securely stored in a new website entry in {{ en.DHUBB }}. The next time you log in to the same account, the {{ en.WBEX }} will detect it and you will be able to retrieve your credentials. Follow our step-by-step instructions for [retrieving your credentials](/hub/workspace-browser-extension/using-workspace-browser-extension/using-workspace-browser-extension-with-hub-business/retrieve-credentials-hub-business/).
+Your credentials are now securely stored in a new website entry in {{ en.DHUBB }}. The next time you log in to the same account, the {{ en.WBEX }} will detect it and you will be able to retrieve your credentials. Follow our step-by-step instructions for [retrieving your credentials](/workspace/workspace-browser-extension/hub-business/using-workspace-browser-extension/retrieve-credentials-hub-business/).

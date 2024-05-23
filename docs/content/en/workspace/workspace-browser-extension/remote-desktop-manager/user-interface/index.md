@@ -17,7 +17,7 @@ The main view, which is the one displayed when first opening the {{ en.WBEX }} i
 If you use multiple Devolutions products with the extension, you can switch between them using the ***Data Source Selector*** at the left of the ***Top Menu***. A drop-down list will appear with the other products you have previously paired with the {{ en.WBEX }}.
 ![Data Source Selector](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin2120.png)
 
-At the right of the ***Top Menu***, the ***Settings*** button opens a new tab in which you can configure your extension. Consult the [full settings list](/rdm/windows/workspace-browser-extension/settings/).
+At the right of the ***Top Menu***, the ***Settings*** button opens a new tab in which you can configure your extension. Consult the [full settings list](/workspace/workspace-browser-extension/settings/).
 ![Settings Button](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin2121.png)
 
 ### Side menu and Content Area

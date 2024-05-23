@@ -15,7 +15,7 @@ In all tabs except the ***Password Generator*** tab, when hovering over an entry
 The extension opens on the ***Matching*** tab. This is where you will see the list of credentials available for the particular website you are on.
 
 {% snippet icon.badgeInfo %}
-For methods of retrieving your credentials, visit [Retrieve credentials from {{ en.DHUBP }} with the {{ en.WBEX }}](/hub/workspace-browser-extension/using-workspace-browser-extension/using-workspace-browser-extension-with-hub-personal/retrieve-credentials-hub-personal/).
+For methods of retrieving your credentials, visit [Retrieve credentials from {{ en.DHUBP }} with the {{ en.WBEX }}](/workspace/workspace-browser-extension/hub-personal/using-workspace-browser-extension/retrieve-credentials-hub-personal/).
 {% endsnippet %}
 
 ![Matching Tab](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub2121.png)
@@ -25,7 +25,7 @@ At the top, you can use the ***Search*** bar to filter through all your credenti
 At the bottom, the ***New Entry*** button gives you access to entry types that, when selected, open a new browser tab that allows you to manually add an entry in {{ en.DHUBP }} through the {{ en.WBEX }}.
 
 {% snippet icon.badgeInfo %}
-For a complete list of the available entries and fields in the ***New Entry*** window, visit [New Entry](/hub/workspace-browser-extension/workspace-browser-extension-user-interface/workspace-browser-extension-user-interface-hub-personal/side-menu/new-entry/). You can also consult our step-by-step guide on [how to add an entry](/hub/workspace-browser-extension/using-workspace-browser-extension/using-workspace-browser-extension-with-hub-personal/add-entry-hub-personal-workspace-browser-extension/).
+For a complete list of the available entries and fields in the ***New Entry*** window, visit [New Entry](/workspace/workspace-browser-extension/hub-personal/user-interface/side-menu/new-entry/). You can also consult our step-by-step guide on [how to add an entry](/workspace/workspace-browser-extension/hub-personal/using-workspace-browser-extension/add-entry-hub-personal-workspace-browser-extension/).
 {% endsnippet %}
 
 ### All Entries tab
@@ -36,7 +36,7 @@ At the top, you can use the ***Filter*** bar to search through all your folders 
 
 To access an entry in the {{ en.WBEX }}, navigate through the folders to manually find the entry you are looking for. The folder structure is identical to that of your {{ en.DHUBP }}.
 
-When navigating in the folders, the [***New Entry***](/hub/workspace-browser-extension/workspace-browser-extension-user-interface/workspace-browser-extension-user-interface-hub-personal/side-menu/new-entry/) button will appear at the bottom of the ***Content Area***.
+When navigating in the folders, the [***New Entry***](/workspace/workspace-browser-extension/hub-personal/user-interface/side-menu/new-entry/) button will appear at the bottom of the ***Content Area***.
 
 ### Favorites tab
 
@@ -80,7 +80,7 @@ In the ***Advanced*** drop-down section, you are able to further customize your 
 ![Advanced Section](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub2115.png)
 
 {% snippet icon.badgeInfo %}
-To learn how to use the ***Password Generator*** when creating an account on a website, visit [Create an account for a website in {{ en.DHUBP }} with the {{ en.WBEX }}](/hub/workspace-browser-extension/using-workspace-browser-extension/using-workspace-browser-extension-with-hub-personal/create-account-website-hub-personal/).
+To learn how to use the ***Password Generator*** when creating an account on a website, visit [Create an account for a website in {{ en.DHUBP }} with the {{ en.WBEX }}](/workspace/workspace-browser-extension/hub-personal/using-workspace-browser-extension/create-account-website-hub-personal/).
 {% endsnippet %}
 
 ### Entry functionalities

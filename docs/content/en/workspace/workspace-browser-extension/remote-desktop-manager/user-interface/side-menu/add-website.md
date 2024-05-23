@@ -23,5 +23,5 @@ See the table below to learn about each field/setting from this view.
 | Cancel | Cancel the creation of a new website entry and clears all unsaved changes to settings.                                         |
 
 {% snippet icon.badgeInfo %}
-Follow our step-by-step guide on how to [add a website entry with the {{ en.WBEX }}](/rdm/windows/workspace-browser-extension/using-workspace-browser-extension/add-website-entry-workspace-browser-extension/).
+Follow our step-by-step guide on how to [add a website entry with the {{ en.WBEX }}](/workspace/workspace-browser-extension/remote-desktop-manager/using-workspace-browser-extension/add-website-entry-workspace-browser-extension/).
 {% endsnippet %}

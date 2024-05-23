@@ -14,7 +14,7 @@ In all tabs except the ***Password Generator*** tab, when hovering over an entry
 The extension opens on the ***Matching*** tab. This is where you will see the list of credentials available for the particular website you are on.
 
 {% snippet icon.badgeInfo %}
-For methods of retrieving your credentials, visit [Retrieve credentials from {{ en.DHUBB}} with the {{ en.WBEX }}](/hub/workspace-browser-extension/using-workspace-browser-extension/using-workspace-browser-extension-with-hub-business/retrieve-credentials-hub-business/).
+For methods of retrieving your credentials, visit [Retrieve credentials from {{ en.DHUBB}} with the {{ en.WBEX }}](/workspace/workspace-browser-extension/hub-business/using-workspace-browser-extension/retrieve-credentials-hub-business/).
 {% endsnippet %}
 
 ![Matching tab](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub2110.png)
@@ -24,13 +24,13 @@ At the top, you can use the ***Search*** bar to filter through all your credenti
 At the bottom, the ***Add Website*** button opens a new browser tab that allows you to manually add a website entry in {{ en.DHUBB }} through the {{ en.WBEX }}.
 
 {% snippet icon.badgeInfo %}
-For a complete list of the available fields in the ***Add Website*** window, visit [Add Website](/hub/workspace-browser-extension/workspace-browser-extension-user-interface/workspace-browser-extension-user-interface-hub-business/side-menu/add-website/). You can also consult our step-by-step guide on [how to add a website entry](/hub/workspace-browser-extension/using-workspace-browser-extension/using-workspace-browser-extension-with-hub-business/add-entry-hub-business-workspace-browser-extension/).
+For a complete list of the available fields in the ***Add Website*** window, visit [Add Website](/workspace/workspace-browser-extension/hub-business/user-interface/side-menu/add-website/). You can also consult our step-by-step guide on [how to add a website entry](/workspace/workspace-browser-extension/hub-business/using-workspace-browser-extension/add-entry-hub-business-workspace-browser-extension/).
 {% endsnippet %}
 
 ### {{ en.VLT_MAJ }}s tab
 
 {% snippet icon.badgeHelp %}
-When accessing the ***{{ en.VLT_MAJ }}s*** tab for the first time, you need to select the {{ en.DHUBB }} {{ en.VLT }}s you want to synchronize with the {{ en.WBEX }}. Learn more about it in [First login with the {{ en.WBEX }}](/hub/workspace-browser-extension/first-login-workspace-browser-extension/hub-business/).
+When accessing the ***{{ en.VLT_MAJ }}s*** tab for the first time, you need to select the {{ en.DHUBB }} {{ en.VLT }}s you want to synchronize with the {{ en.WBEX }}. Learn more about it in [First login with the {{ en.WBEX }}](/workspace/workspace-browser-extension/hub-business/first-login/).
 {% endsnippet %}
 
 The ***{{ en.VLT_MAJ }}s*** tab allows you to browse through all your synchronized {{ en.VLT }}s for your entries.
@@ -40,7 +40,7 @@ At the top, you can use the ***Filter*** bar to search through all your {{ en.VL
 
 To access a {{ en.VLT }} in the {{ en.WBEX }}, click on it and navigate through the folders to manually find the entry you are looking for. The folder structure is identical to that of your {{ en.DHUBB }}.
 
-When navigating in the folders, the [***Add Website***](/hub/workspace-browser-extension/workspace-browser-extension-user-interface/workspace-browser-extension-user-interface-hub-business/side-menu/add-website/)button will appear at the bottom of the ***Content Area***.
+When navigating in the folders, the [***Add Website***](/workspace/workspace-browser-extension/hub-business/user-interface/side-menu/add-website/)button will appear at the bottom of the ***Content Area***.
 
 ### {{ en.UVLT_MAJ }} tab
 
@@ -51,7 +51,7 @@ At the top, you can use the ***Filter*** bar to search through all your folders 
 
 To access an entry in the {{ en.WBEX }}, navigate through the folders to manually find the entry you are looking for. The folder structure is identical to that of your {{ en.DHUBB }}.
 
-When navigating in the folders, the [***Add Website***](/hub/workspace-browser-extension/workspace-browser-extension-user-interface/workspace-browser-extension-user-interface-hub-business/side-menu/add-website/) button will appear at the bottom of the ***Content Area***.
+When navigating in the folders, the [***Add Website***](/workspace/workspace-browser-extension/hub-business/user-interface/side-menu/add-website/) button will appear at the bottom of the ***Content Area***.
 
 ### Password Generator tab
 
@@ -67,7 +67,7 @@ In the ***Advanced*** drop-down section, you are able to further customize your 
 ![Advanced Section](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub2115.png)
 
 {% snippet icon.badgeInfo %}
-To learn how to use the ***Password Generator*** when creating an account on a website, visit [Create an account for a website in {{ en.DHUBB }} with the {{ en.WBEX }}](/hub/workspace-browser-extension/using-workspace-browser-extension/using-workspace-browser-extension-with-hub-business/create-account-website-hub-business/).
+To learn how to use the ***Password Generator*** when creating an account on a website, visit [Create an account for a website in {{ en.DHUBB }} with the {{ en.WBEX }}](/workspace/workspace-browser-extension/hub-business/using-workspace-browser-extension/create-account-website-hub-business/).
 {% endsnippet %}
 
 ### Entry functionalities

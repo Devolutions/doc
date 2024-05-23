@@ -15,7 +15,7 @@ In all tabs except the ***Password Generator*** tab, when hovering over an entry
 The extension opens on the ***Matching*** tab. This is where you will see the list of credentials available for the particular website you are on.
 
 {% snippet icon.badgeInfo %}
-For methods of retrieving your credentials, visit [Retrieve credentials with the {{ en.WBEX }}](/server/workspace-browser-extension/using-workspace-browser-extension/retrieve-credentials-workspace-browser-extension/).
+For methods of retrieving your credentials, visit [Retrieve credentials with the {{ en.WBEX }}](/workspace/workspace-browser-extension/devolutions-server/using-workspace-browser-extension/retrieve-credentials-workspace-browser-extension/).
 {% endsnippet %}
 
 ![Matching Tab](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp2033.png)
@@ -25,12 +25,12 @@ At the top, you can use the ***Search*** bar to filter through all your credenti
 At the bottom, the ***Add Website*** button opens a new browser tab that allows you to manually add a website entry in {{ en.DVLS }} through the {{ en.WBEX }}.
 
 {% snippet icon.badgeInfo %}
-For a complete list of the available fields in the ***Add Website*** window, visit [Add Website](/server/workspace-browser-extension/workspace-browser-extension-user-interface/side-menu/add-website/). You can also consult our step-by-step guide on [how to add a website entry](/server/workspace-browser-extension/using-workspace-browser-extension/add-website-entry-workspace-browser-extension/).
+For a complete list of the available fields in the ***Add Website*** window, visit [Add Website](/workspace/workspace-browser-extension/devolutions-server/user-interface/side-menu/add-website/). You can also consult our step-by-step guide on [how to add a website entry](/workspace/workspace-browser-extension/devolutions-server/using-workspace-browser-extension/add-website-entry-workspace-browser-extension/).
 {% endsnippet %}
 
 ### All Entries tab
 {% snippet icon.badgeHelp %}
-When accessing the ***All Entries*** tab for the first time, you need to select the {{ en.DVLS }} {{ en.VLT }}s you want to synchronize with the {{ en.WBEX }}. Learn more about it in [First login with the {{ en.WBEX }}](/server/workspace-browser-extension/first-login-workspace-browser-extension/).
+When accessing the ***All Entries*** tab for the first time, you need to select the {{ en.DVLS }} {{ en.VLT }}s you want to synchronize with the {{ en.WBEX }}. Learn more about it in [First login with the {{ en.WBEX }}](/workspace/workspace-browser-extension/devolutions-server/first-login/).
 {% endsnippet %}
 
 The ***All Entries*** tab allows you to browse through all your synchronized {{ en.VLT }}s for website entries only. You will first encounter the list of your synchronized {{ en.VLT }}s.
@@ -44,7 +44,7 @@ You can access your {{ en.VLT }}s in two ways:
 * To access a {{ en.VLT }} in {{ en.DVLS }}, click on the ***Open*** button next to a {{ en.VLT }} to open it in {{ en.DVLS }} in a new browser tab.
 * To access a {{ en.VLT }} in the {{ en.WBEX }}, click on it and navigate through the folders to manually find the entry you are looking for. The folder structure is identical to that of your {{ en.DVLS }}, except that only the paths leading to website entries will be displayed.
 
-When navigating in the folders, the [***Add Website***](/server/workspace-browser-extension/workspace-browser-extension-user-interface/side-menu/add-website/) button will appear at the bottom of the ***Content Area***. You can also use the search bar at the top to search in the specific location.
+When navigating in the folders, the [***Add Website***](/workspace/workspace-browser-extension/devolutions-server/user-interface/side-menu/add-website/) button will appear at the bottom of the ***Content Area***. You can also use the search bar at the top to search in the specific location.
 
 ![{{ en.VLT_MAJ }} Navigation via the {{ en.WBEX }}](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp2045.png)
 
@@ -81,7 +81,7 @@ In the ***Advanced*** drop-down section, you are able to further customize your 
 ![Advanced Section](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp2041.png)
 
 {% snippet icon.badgeInfo %}
-To learn how to use the ***Password Generator*** when creating an account on a website, visit [Create an account for a website with the {{ en.WBEX }}](/server/workspace-browser-extension/using-workspace-browser-extension/create-account-website-workspace-browser-extension/).
+To learn how to use the ***Password Generator*** when creating an account on a website, visit [Create an account for a website with the {{ en.WBEX }}](/workspace/workspace-browser-extension/devolutions-server/using-workspace-browser-extension/create-account-website-workspace-browser-extension/).
 {% endsnippet %}
 
 ### Entry functionalities

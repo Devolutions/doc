@@ -4,7 +4,7 @@ eleventyComputed:
   order: 10
   description: When using an advanced data source, there is no need to register {{ en.RDMMAC }} since the license serial is stored in the data source and retrieved directly from it.
 ---
-When using an [advanced data source](/rdm/mac/data-sources/data-sources-types/advanced-data-sources/), there is no need to register {{ en.RDMMAC }} since the license serial is stored in the data source and retrieved directly from it. When launching the application for the first time, simply [add the data source](/rdm/mac/workspace-browser-extension/using-workspace-browser-extension/create-account-website/) containing the serial. The license menu to register {{ en.RDMMAC }} is available for SQLite, but not for other individual data sources.
+When using an [advanced data source](/rdm/mac/data-sources/data-sources-types/advanced-data-sources/), there is no need to register {{ en.RDMMAC }} since the license serial is stored in the data source and retrieved directly from it. When launching the application for the first time, simply [add the data source](/workspace/workspace-browser-extension/remote-desktop-manager/using-workspace-browser-extension/create-account-website/) containing the serial. The license menu to register {{ en.RDMMAC }} is available for SQLite, but not for other individual data sources.
 
 {% snippet icon.badgeInfo %}
 It is possible to [request a trial](/rdm/mac/installation/client/registration/trial-request/) to try {{ en.RDM }} Team for 30 days. If you decide not to register the application with a Team Edition license serial at the end of the 30-day period, your data will not be altered or erased, and you will have full access to it once you provide a license serial.

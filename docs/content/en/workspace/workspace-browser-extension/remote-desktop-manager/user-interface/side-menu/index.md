@@ -11,7 +11,7 @@ When using the {{ en.WBEX }} with {{ en.RDM }}, the available tabs are the [***M
 The extension opens on the ***Matching*** tab. This is where you will see the list of credentials available for the particular website you are on.
 
 {% snippet icon.badgeInfo %}
-For methods of retrieving your credentials, visit [Retrieve credentials with the {{ en.WBEX }}](/rdm/windows/workspace-browser-extension/using-workspace-browser-extension/retrieve-credentials/).
+For methods of retrieving your credentials, visit [Retrieve credentials with the {{ en.WBEX }}](/workspace/workspace-browser-extension/remote-desktop-manager/using-workspace-browser-extension/retrieve-credentials/).
 {% endsnippet %}
 
 ![Matching Tab](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin2123.png)
@@ -21,7 +21,7 @@ At the top, you can use the ***Filter*** bar to search through all your credenti
 At the bottom, the ***Add Website*** button opens a new browser tab that allows you to manually add a website entry in {{ en.RDM }} through the {{ en.WBEX }}.
 
 {% snippet icon.badgeInfo %}
-For a complete list of the available fields in the ***Add Website*** window, visit [Add Website](/rdm/windows/workspace-browser-extension/workspace-browser-extension-user-interface/side-menu/add-website/). You can also find a step-by-step guide on [how to add a website entry](/rdm/windows/workspace-browser-extension/using-workspace-browser-extension/add-website-entry-workspace-browser-extension/).
+For a complete list of the available fields in the ***Add Website*** window, visit [Add Website](/rdm/windows/workspace-browser-extension/workspace-browser-extension-user-interface/side-menu/add-website/). You can also find a step-by-step guide on [how to add a website entry](/workspace/workspace-browser-extension/remote-desktop-manager/using-workspace-browser-extension/add-website-entry-workspace-browser-extension/).
 {% endsnippet %}
 
 ### Password Generator tab
@@ -38,7 +38,7 @@ In the ***Advanced*** drop-down section, you are able to further customize your 
 ![Advanced Section](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin2128.png)
 
 {% snippet icon.badgeInfo %}
-To learn how to use the ***Password Generator*** when creating an account on a website, visit [Create an account for a website with the {{ en.WBEX }}](/rdm/windows/workspace-browser-extension/using-workspace-browser-extension/create-account-website/).
+To learn how to use the ***Password Generator*** when creating an account on a website, visit [Create an account for a website with the {{ en.WBEX }}](/workspace/workspace-browser-extension/remote-desktop-manager/using-workspace-browser-extension/create-account-website/).
 {% endsnippet %}
 
 ### About tab

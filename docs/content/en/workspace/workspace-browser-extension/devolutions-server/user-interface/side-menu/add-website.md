@@ -2,7 +2,7 @@
 eleventyComputed:
   title: Add website
 ---
-The ***Add Website*** button is only available while in the [Matching](/server/workspace-browser-extension/workspace-browser-extension-user-interface/side-menu/#matching-tab) tab., which is the tab selected when opening the extension, or when browsing through the {{ en.VLT }}s of the [All Entries](/server/workspace-browser-extension/workspace-browser-extension-user-interface/side-menu/#all-entries-tab) tab. It opens a new tab in your browser that allows you to add a website entry in {{ en.DVLS }} through the {{ en.WBEX }}.
+The ***Add Website*** button is only available while in the [Matching](/workspace/workspace-browser-extension/devolutions-server/user-interface/side-menu/#matching-tab) tab., which is the tab selected when opening the extension, or when browsing through the {{ en.VLT }}s of the [All Entries](/workspace/workspace-browser-extension/devolutions-server/user-interface/side-menu/#all-entries-tab) tab. It opens a new tab in your browser that allows you to add a website entry in {{ en.DVLS }} through the {{ en.WBEX }}.
 
 When {{ en.DVLS }} is used as the data source, the entry configuration is done in the General tab.
 ![Add Website](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp2049.png)
@@ -30,5 +30,5 @@ See the table below to learn about each field/setting from this view.
 | Cancel                               | Cancel the creation of a new website entry and clear all unsaved changes to settings. |
 
 {% snippet icon.badgeInfo %}
-Follow our step-by-step guide on how to [add a website entry with the {{ en.WBEX }}](/server/workspace-browser-extension/using-workspace-browser-extension/add-website-entry-workspace-browser-extension/).
+Follow our step-by-step guide on how to [add a website entry with the {{ en.WBEX }}](/workspace/workspace-browser-extension/devolutions-server/using-workspace-browser-extension/add-website-entry-workspace-browser-extension/).
 {% endsnippet %}

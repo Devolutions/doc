@@ -1737,9 +1737,6 @@
           ]
         },
         {
-          "url": "/kb/devolutions-gateway/"
-        },
-        {
           "url": "/kb/hub-business/",
           "items": [
             {
@@ -1889,81 +1886,6 @@
                 },
                 {
                   "url": "/kb/devolutions-powershell/devolutions-gateway/powershell-updater/"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "url": "/kb/workspace-browser-extension/",
-          "items": [
-            {
-              "label": "howToArticles",
-              "items": [
-                {
-                  "url": "/kb/workspace-browser-extension/how-to-articles/allow-workspace-browser-extension-incognito-mode/"
-                },
-                {
-                  "url": "/kb/workspace-browser-extension/how-to-articles/deploy-current-version-workspace-browser-extension-firefox-opera-gpo/"
-                },
-                {
-                  "url": "/kb/workspace-browser-extension/how-to-articles/deploy-workspace-browser-extension-chrome-gpo/"
-                },
-                {
-                  "url": "/kb/workspace-browser-extension/how-to-articles/issue-using-workspace-browser-extension-with-localhost/"
-                },
-                {
-                  "url": "/kb/workspace-browser-extension/how-to-articles/urls-comparing-types/"
-                },
-                {
-                  "url": "/kb/workspace-browser-extension/how-to-articles/website-authentication/"
-                },
-                {
-                  "url": "/kb/workspace-browser-extension/how-to-articles/workspace-browser-extension-troubleshooting-connection-logs/"
-                },
-                {
-                  "url": "/kb/workspace-browser-extension/how-to-articles/workspace-browser-extension-via-native-messaging/"
-                }
-              ]
-            },
-            {
-              "label": "knowledgeBase",
-              "items": [
-                {
-                  "url": "/kb/workspace-browser-extension/knowledge-base/devolutions-web-login-changes-name-workspace-browser-extension/"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "url": "/kb/devolutions-workspace/",
-          "items": [
-            {
-              "label": "howToArticles",
-              "items": [
-                {
-                  "url": "/kb/devolutions-workspace/how-to-articles/enable-autofill-android/"
-                },
-                {
-                  "url": "/kb/devolutions-workspace/how-to-articles/enable-autofill-ios/"
-                },
-                {
-                  "url": "/kb/devolutions-workspace/how-to-articles/launch-session-desktop/"
-                },
-                {
-                  "url": "/kb/devolutions-workspace/how-to-articles/offline-mode/"
-                },
-                {
-                  "url": "/kb/devolutions-workspace/how-to-articles/send-application-logs/"
-                }
-              ]
-            },
-            {
-              "label": "troubleshootingArticles",
-              "items": [
-                {
-                  "url": "/kb/devolutions-workspace/troubleshooting-articles/authentication-change/"
                 }
               ]
             }

@@ -6,7 +6,7 @@ eleventyComputed:
 The {{ en.WBEX }} assists you in creating a new account when you register on a website. It gives you the ability to create a secure password and save your new credentials.
 
 {% snippet icon.badgeInfo %}
-If you already have an account for the website, visit [Add a Website Entry with the {{ en.WBEX }}](/rdm/windows/workspace-browser-extension/using-workspace-browser-extension/add-website-entry-workspace-browser-extension/).
+If you already have an account for the website, visit [Add a Website Entry with the {{ en.WBEX }}](/workspace/workspace-browser-extension/remote-desktop-manager/using-workspace-browser-extension/add-website-entry-workspace-browser-extension/).
 {% endsnippet %}
 
 Follow the instructions below to learn how to create a website account with the {{ en.WBEX }} and save your credentials in {{ en.RDM }}.
@@ -41,4 +41,4 @@ Your password settings are now configured.
 1. Select if you want to save your entry in your ***{{ en.UVLT }}*** or in a ***{{ en.VLT }}***. Note that to create your entry in the {{ en.VLT }} of your choice, the corresponding {{ en.VLT }} must currently be opened in {{ en.RDM }}.
 1. Click ***Save***.
 
-Your credentials are now securely stored in a new website entry in {{ en.RDM }}. The next time you log in to the same account, the {{ en.WBEX }} will detect it and you will be able to retrieve your credentials. Follow our step-by-step instructions for [retrieving your credentials](/rdm/windows/workspace-browser-extension/using-workspace-browser-extension/retrieve-credentials/).
+Your credentials are now securely stored in a new website entry in {{ en.RDM }}. The next time you log in to the same account, the {{ en.WBEX }} will detect it and you will be able to retrieve your credentials. Follow our step-by-step instructions for [retrieving your credentials](/workspace/workspace-browser-extension/remote-desktop-manager/using-workspace-browser-extension/retrieve-credentials/).

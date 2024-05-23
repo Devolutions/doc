@@ -3,12 +3,12 @@ eleventyComputed:
   title: Retrieve credentials from {{ en.DHUBB }} with the {{ en.WBEX }}
 ---
 {% snippet icon.badgeInfo %}
-You need website entries in {{ en.DHUBB }} to be able to retrieve their credentials. If that is not the case, start by [adding a website entry with the {{ en.WBEX }}](/hub/workspace-browser-extension/using-workspace-browser-extension/using-workspace-browser-extension-with-hub-business/add-entry-hub-business-workspace-browser-extension/).
+You need website entries in {{ en.DHUBB }} to be able to retrieve their credentials. If that is not the case, start by [adding a website entry with the {{ en.WBEX }}](/workspace/workspace-browser-extension/hub-business/using-workspace-browser-extension/add-entry-hub-business-workspace-browser-extension/).
 {% endsnippet %}
 
 The {{ en.WBEX }} facilitates access to your credentials by automatically matching websites to saved credentials in {{ en.DHUBB }} website entries. It is also possible to filter through your entries via the {{ en.WBEX }} to manually find your credentials.
 
-After the [installation](/hub/workspace-browser-extension/installation/) of the {{ en.WBEX }} and its [pairing](/hub/workspace-browser-extension/first-login-workspace-browser-extension/hub-business/) with {{ en.DHUBB }}, you can immediately use the extension to retrieve your credentials. However, you may want to modify some of the settings to customize your experience. We recommend that you follow the steps in the [Settings](#settings) section first: they will guide you through setting up the {{ en.WBEX }} by suggesting best practices for retrieving credentials. You can also skip the configuration and go straight to [Retrieving credentials](#retrieving-credentials).
+After the [installation](/workspace/workspace-browser-extension/installation/) of the {{ en.WBEX }} and its [pairing](/workspace/workspace-browser-extension/hub-business/first-login/) with {{ en.DHUBB }}, you can immediately use the extension to retrieve your credentials. However, you may want to modify some of the settings to customize your experience. We recommend that you follow the steps in the [Settings](#settings) section first: they will guide you through setting up the {{ en.WBEX }} by suggesting best practices for retrieving credentials. You can also skip the configuration and go straight to [Retrieving credentials](#retrieving-credentials).
 
 ## Settings
 

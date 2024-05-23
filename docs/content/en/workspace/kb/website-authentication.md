@@ -16,7 +16,7 @@ Some steps are required to properly send the username and password. Depending on
 
    ![Credentials](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4606.png)
 
-1. The {{ en.WBEX }} is enabled by default. To disable it, select ***Disabled*** in the ***{{ en.WBEX }}*** drop-down menu. The [***Comparing type***](/kb/workspace-browser-extension/how-to-articles/urls-comparing-types/) determines if the {{ en.WBEX }} should offer the entry as an available entry to perform autofill.
+1. The {{ en.WBEX }} is enabled by default. To disable it, select ***Disabled*** in the ***{{ en.WBEX }}*** drop-down menu. The [***Comparing type***](/workspace/kb/urls-comparing-types/) determines if the {{ en.WBEX }} should offer the entry as an available entry to perform autofill.
 1. In the ***Login*** tab, set the ***Authentication*** to ***Form***.
 1. In the ***Login – Settings*** tab, verify that the ***Autofill login*** and ***Auto submit*** options are enabled.
     * ***Autofill login***: Automatically fills in the credential fields when opening the web page.

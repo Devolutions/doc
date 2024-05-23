@@ -6,10 +6,10 @@ Website, credit card, contact, and secure note entries can be created with the {
 
 ## Add a Website entry
 {% snippet icon.badgeInfo %}
-This section explains how to create an entry with your existing website credentials. If you have not yet created an account for the website, follow the instructions in [Create an account for a website in {{ en.DHUBP }} with the {{ en.WBEX }}](/hub/workspace-browser-extension/using-workspace-browser-extension/using-workspace-browser-extension-with-hub-personal/create-account-website-hub-personal/) instead.
+This section explains how to create an entry with your existing website credentials. If you have not yet created an account for the website, follow the instructions in [Create an account for a website in {{ en.DHUBP }} with the {{ en.WBEX }}](/workspace/workspace-browser-extension/hub-personal/using-workspace-browser-extension/create-account-website-hub-personal/) instead.
 {% endsnippet %}
 
-The website entry is useful for saving your login credentials so that you do not have to remember them. These entries are also used by the {{ en.WBEX }} to recognize a website and [retrieve your credentials](/hub/workspace-browser-extension/using-workspace-browser-extension/using-workspace-browser-extension-with-hub-personal/retrieve-credentials-hub-personal/).
+The website entry is useful for saving your login credentials so that you do not have to remember them. These entries are also used by the {{ en.WBEX }} to recognize a website and [retrieve your credentials](/workspace/workspace-browser-extension/hub-personal/using-workspace-browser-extension/retrieve-credentials-hub-personal/).
 
 The main way to achieve this is by successfully logging into the website. The {{ en.WBEX }} will automatically offer to save your credentials in a new website entry in {{ en.DHUBP }}. It is also possible to manually create the website entry.
 
@@ -29,7 +29,7 @@ Learn how to add a website entry by following the instructions from these sectio
 1. Select a ***Folder*** in which to save your website entry.
 1. Click ***Save***.
 
-Your credentials are now securely stored in a new website entry in {{ en.DHUBP }}. The next time you log in to the same account, the {{ en.WBEX }} will detect it and you will be able to retrieve your credentials. Follow our step-by-step instructions for [retrieving your credentials](/hub/workspace-browser-extension/using-workspace-browser-extension/using-workspace-browser-extension-with-hub-personal/retrieve-credentials-hub-personal/).
+Your credentials are now securely stored in a new website entry in {{ en.DHUBP }}. The next time you log in to the same account, the {{ en.WBEX }} will detect it and you will be able to retrieve your credentials. Follow our step-by-step instructions for [retrieving your credentials](/workspace/workspace-browser-extension/hub-personal/using-workspace-browser-extension/retrieve-credentials-hub-personal/).
 
 ### Manually Add a Website Entry
 1. Go to the login page of the website. This page will be different for each website; this topic will use the Atlassian website as an example.
@@ -48,7 +48,7 @@ Your credentials are now securely stored in a new website entry in {{ en.DHUBP }
 1. The ***Compare type*** should be at ***Default*** and the ***{{ en.WBEX }}*** should be ***Enabled***.
 1. Click ***Add***.
 
-Your credentials are now securely stored in a new website entry in {{ en.DHUBP }}. The next time you log in to the same account, the {{ en.WBEX }} will detect it and you will be able to retrieve your credentials. Follow our step-by-step instructions for [retrieving your credentials](/hub/workspace-browser-extension/using-workspace-browser-extension/using-workspace-browser-extension-with-hub-personal/retrieve-credentials-hub-personal/).
+Your credentials are now securely stored in a new website entry in {{ en.DHUBP }}. The next time you log in to the same account, the {{ en.WBEX }} will detect it and you will be able to retrieve your credentials. Follow our step-by-step instructions for [retrieving your credentials](/workspace/workspace-browser-extension/hub-personal/using-workspace-browser-extension/retrieve-credentials-hub-personal/).
 
 ## Add another type of entry
 You can manually add ***Credit Card***, ***Contact***, and ***Secure Note*** entries in {{ en.DHUBP }} for easy access via the {{ en.WBEX }}.
