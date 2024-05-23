@@ -99,3 +99,7 @@ _snippets:
         type: select
         options:
           values: data.snippets
+          value_key: key
+          preview:
+            text:
+              - key: label
