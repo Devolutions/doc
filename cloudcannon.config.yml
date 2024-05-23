@@ -54,6 +54,9 @@ _inputs:
     hidden: true
   preview:
     type: image
+    options:
+      paths:
+        uploads: _cloudcannon/previews
   sidebars:
     type: array
     options:
