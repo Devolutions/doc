@@ -1,22 +1,16 @@
 {
   "_inputs": {
     "$": {
-      "type": "object",
+      "type": "choice",
       "options": {
-        "subtype": "mutable",
-        "structures": {
-          "values": [
-            {
-              "label": "Snippet",
-              "value": {
-                "label": "",
-                "theme": "",
-                "preview": "",
-                "svg": ""
-              }
-            }
-          ]
-        }
+        "allow_create": true,
+        "values": {
+          "label": "",
+          "theme": "",
+          "preview": "",
+          "svg": ""
+        },
+        "value_key": "key"
       }
     }
   },
