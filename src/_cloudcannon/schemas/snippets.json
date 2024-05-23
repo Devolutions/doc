@@ -3,6 +3,7 @@
     "$": {
       "type": "object",
       "options": {
+        "subtype": "mutable",
         "structures": {
           "values": [
             {
