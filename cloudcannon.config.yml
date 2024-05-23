@@ -96,10 +96,12 @@ _snippets:
       content:
         type: markdown
       snippet_type:
-        type: select
+        type: choice
         options:
           values: data.snippets
           value_key: key
           preview:
             text:
               - key: label
+            image:
+              - key: preview
