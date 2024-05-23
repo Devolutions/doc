@@ -12,7 +12,7 @@ To use this feature, certain requirements must be met, namely:
 * Windows Server 2016 and higher.
 * Have a [{{ en.DGW }}](/dgw/hub/hub-business-configuration/) version 2023.1 or later.
 
-### PowerShell Remote Session Configuration
+### PowerShell remote session configuration
 Follow the steps below to properly configure your PowerShell remote session in {{ en.DHUBB }}:
 
 1. Go to the ***Properties*** of the entry.
@@ -25,7 +25,7 @@ Follow the steps below to properly configure your PowerShell remote session in {
 1. Click ***Update*** to save. 
 ![VPN/tunnel/gateway](https://cdnweb.devolutions.net/docs/HUBB6015_2024_1.png)
 
-## Launching the Connection
+## Launching the connection
 Once all the conditions are met, you can press the ***Open in Web Client (Preview)*** button to launch the connection from the web client.
 ![Open in Web Client (Preview)](https://cdnweb.devolutions.net/docs/HUBB6013_2024_1.png)
 
