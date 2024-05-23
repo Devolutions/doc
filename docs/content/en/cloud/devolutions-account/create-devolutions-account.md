@@ -18,11 +18,22 @@ dfsdfsfddfsdsfs
 fdsfsd
 ```
 
+{% snippet2 %}By clicking on Create Account, you confirm that you have read and accepted our Terms of Use and Privacy Policy.{% endsnippet2 %}
+
+{% snippet2, "badgeCaution" %}
+By clicking on ***Create Account***, you confirm that you have read and accepted our [Terms of Use](https://devolutions.net/legal/online-services-terms) and [Privacy Policy](https://devolutions.net/legal).
+{% endsnippet2 %}
+
+1. Lorem Ipusm
+   {% snippet2, "badgeCaution" %}
+   By clicking on ***Create Account***, you confirm that you have read and accepted our [Terms of Use](https://devolutions.net/legal/online-services-terms) and [Privacy Policy](https://devolutions.net/legal).
+   {% endsnippet2 %}
+
 ## Creation
 
 1. Go to your [account login](https://portal.devolutions.com/).
 2. Click on ***Create your account*** to start the process. ![Create your account](https://cdnweb.devolutions.net/docs/docs_en_cloud_Cloud4014.png)
-3. Fill in the fields with your information, then click ***Create Account***. {% snippet icon.badgeCaution %} By clicking on ***Create Account***, you confirm that you have read and accepted our [Terms of Use](https://devolutions.net/legal/online-services-terms) and [Privacy Policy](https://devolutions.net/legal). {% endsnippet %} {% snippet2, "badgeCaution" %}By clicking on Create Account, you confirm that you have read and accepted our Terms of Use and Privacy Policy.{% endsnippet2 %}
+3. Fill in the fields with your information, then click ***Create Account***. {% snippet icon.badgeCaution %} By clicking on ***Create Account***, you confirm that you have read and accepted our [Terms of Use](https://devolutions.net/legal/online-services-terms) and [Privacy Policy](https://devolutions.net/legal). {% endsnippet %} {% snippet2, "badgeCaution" %}By clicking on ***Create Account***, you confirm that you have read and accepted our [Terms of Use](https://devolutions.net/legal/online-services-terms/) and [Privacy Policy](https://devolutions.net/legal/).{% endsnippet2 %}
 
    ![Account information](https://cdnweb.devolutions.net/docs/docs_en_cloud_Cloud4015.png)
 

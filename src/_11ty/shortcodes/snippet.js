@@ -1,18 +1,13 @@
-module.exports = (content, icon) => {
-  const iconToClass = {
-    badgeHelp: 'info',
-    badgeInfo: 'info',
-    shieldInfo: 'info',
-    badgeNotice: 'notice',
-    shieldNotice: 'notice',
-    badgeCaution: 'caution',
-    shieldCaution: 'caution',
-    badgeWarning: 'warning',
-    shieldWarning: 'warning'
-  }
+const MarkdownIt = require('markdown-it');
+const snippets = require("./../../../docs/_data/snippets.json");
 
-  const className = iconToClass[icon] || '';
+const md = new MarkdownIt({ html: true });
 
-  console.log(content, icon, className);
-  return `<div class="snippet ${className}">${content}</div>`;
+module.exports = (content, snippetKey) => {
+  const snippet = snippets[snippetKey];
+  const theme = snippet?.theme || '';
+  const svg = snippet?.svg || '';
+  const renderedContent = md.render(content).replace(/\n/g, '');
+
+  return `<div class="snippet ${theme}">${svg}<div>${renderedContent}</div></div>`;
 }

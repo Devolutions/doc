@@ -21,6 +21,7 @@ collections_config_override: true
 
 data_config:
   locale: true
+  snippets: true
 
 _editables:
   text:
@@ -74,9 +75,7 @@ _structures:
           items:
 
 _snippets_imports:
-  eleventy_liquid:
-    exclude:
-      - eleventy_liquid_raw
+  eleventy_liquid: true
 
 _snippets:
   eleventy_snippet:
@@ -92,21 +91,11 @@ _snippets:
       positional_args:
         - editor_key: snippet_type
           type: string
-          default: badgeInfo
           optional: true
     _inputs:
       content:
         type: markdown
       snippet_type:
         type: select
-    _select_data:
-      snippet_type:
-        badgeHelp: Badge Help
-        badgeInfo: Badge Info
-        badgeNotice: Badge Notice
-        badgeCaution: Badge Caution
-        badgeWarning: Badge Warning
-        shieldInfo: Shield Info
-        shieldNotice: Shield Notice
-        shieldCaution: Shield Caution
-        shieldWarning: Shield Warning
+        options:
+          values: data.snippets
