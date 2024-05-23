@@ -1,0 +1,21 @@
+{
+  "_inputs": {
+    "$": {
+      "type": "object",
+      "options": {
+        "structures": {
+          "values": [
+            {
+              "value": {
+                "label": "",
+                "theme": "",
+                "preview": "",
+                "svg": ""
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+}
