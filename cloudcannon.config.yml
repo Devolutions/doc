@@ -19,6 +19,9 @@ collections_config:
 
 collections_config_override: true
 
+data_config:
+  locale: true
+
 _editables:
   text:
     italic: true

@@ -1,6 +1,6 @@
 {
   "layout": "layouts/markdown.liquid",
-  "permalink": "{{- page.filePathStem | docLink(slug) -}}/",
+  "permalink": "{{- page.filePathStem | docLink: slug -}}/",
   "eleventyComputed": {
     "project": "{{- page.filePathStem | getProjectFromFilePathStem -}}",
     "lang": "{{- page.filePathStem | getLangFromFilePathStem -}}"

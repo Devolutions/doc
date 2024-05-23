@@ -33,7 +33,7 @@ AZURE
 Base de données inaccessible aux utilisateurs finaux 
 		</td>
 		<td>
-{{ icon.badgeNotice | safe }} 
+{{ icon.badgeNotice }} 
 		</td>
 		<td>
 Notes 1 et 2 
@@ -47,10 +47,10 @@ Note 1
 Comptes AD utilisés à des fins d’authentification 
 		</td>
 		<td>
-{{ icon.badgeNotice | safe }} 
+{{ icon.badgeNotice }} 
 		</td>
 		<td>
-{{ icon.badgeNotice | safe }} 
+{{ icon.badgeNotice }} 
 		</td>
 		<td>
 
@@ -61,7 +61,7 @@ Comptes AD utilisés à des fins d’authentification
 Attribution des permissions selon l'appartenance à un groupe AD 
 		</td>
 		<td>
-{{ icon.badgeNotice | safe }} 
+{{ icon.badgeNotice }} 
 		</td>
 		<td>
 
@@ -75,10 +75,10 @@ Attribution des permissions selon l'appartenance à un groupe AD
 Stockage des données sur site 
 		</td>
 		<td>
-{{ icon.badgeNotice | safe }} 
+{{ icon.badgeNotice }} 
 		</td>
 		<td>
-{{ icon.badgeNotice | safe }} 
+{{ icon.badgeNotice }} 
 		</td>
 		<td>
 
@@ -89,13 +89,13 @@ Stockage des données sur site
 Journaux d’activités 
 		</td>
 		<td>
-{{ icon.badgeNotice | safe }} 
+{{ icon.badgeNotice }} 
 		</td>
 		<td>
-{{ icon.badgeNotice | safe }} 
+{{ icon.badgeNotice }} 
 		</td>
 		<td>
-{{ icon.badgeNotice | safe }} 
+{{ icon.badgeNotice }} 
 		</td>
 	</tr>
 	<tr>
@@ -109,7 +109,7 @@ Note 3
 Note 4 
 		</td>
 		<td>
-{{ icon.badgeNotice | safe }} 
+{{ icon.badgeNotice }} 
 		</td>
 	</tr>
 	<tr>
@@ -117,13 +117,13 @@ Note 4
 Copie locale optionnelle des connexions 
 		</td>
 		<td>
-{{ icon.badgeNotice | safe }} 
+{{ icon.badgeNotice }} 
 		</td>
 		<td>
-{{ icon.badgeNotice | safe }} 
+{{ icon.badgeNotice }} 
 		</td>
 		<td>
-{{ icon.badgeNotice | safe }} 
+{{ icon.badgeNotice }} 
 		</td>
 	</tr>
 </table>

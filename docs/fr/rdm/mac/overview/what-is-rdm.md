@@ -29,10 +29,10 @@ En achetant une licence Team, vous détenez le droit d'utiliser TOUTES les appli
 Vous devez utiliser une application de bureau pour créer une source de données de type Équipe. Cela explique la gratuité des applications mobiles. Elles permettent d'utiliser les sources de données comme pour une utilisation individuelle de l'édition Free, mais elles ne permettent pas de gérer une source de données de type Équipe. 
 {% endsnippet %}
  
-| Plateforme | Édition Free                  | Édition Team                  |
-| -------- |:-----------------------------: |:-----------------------------: |
-| Windows  | {{ icon.badgeNotice | safe }} | {{ icon.badgeNotice | safe }} |
-| macOS    | {{ icon.badgeNotice | safe }} | {{ icon.badgeNotice | safe }} |
-| Linux    | {{ icon.badgeNotice | safe }} | {{ icon.badgeNotice | safe }} |
-| iOS      | {{ icon.badgeNotice | safe }} | {{ icon.badgeNotice | safe }} |
-| Android  | {{ icon.badgeNotice | safe }} | {{ icon.badgeNotice | safe }} |
+| Plateforme | Édition Free                  | Édition Team |
+| -------- |:-----------------------------: |:------------:|
+| Windows  | {{ icon.badgeNotice }}      | {{ icon.badgeNotice }} |
+| macOS    | {{ icon.badgeNotice }}    | {{ icon.badgeNotice }} |
+| Linux    | {{ icon.badgeNotice }}    | {{ icon.badgeNotice }} |
+| iOS      | {{ icon.badgeNotice }}    | {{ icon.badgeNotice }} |
+| Android  | {{ icon.badgeNotice }}    | {{ icon.badgeNotice }} |

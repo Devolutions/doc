@@ -46,13 +46,13 @@ MULTIUTILISATEUR
 
 		</td>
 		<td>
-{{ icon.badgeNotice | safe }} 
+{{ icon.badgeNotice }} 
 		</td>
 		<td>
-{{ icon.badgeNotice | safe }} 
+{{ icon.badgeNotice }} 
 		</td>
 		<td>
-{{ icon.badgeNotice | safe }} 
+{{ icon.badgeNotice }} 
 		</td>
 		<td>
 
@@ -63,7 +63,7 @@ MULTIUTILISATEUR
 SQLite 
 		</td>
 		<td>
-{{ icon.badgeNotice | safe }} 
+{{ icon.badgeNotice }} 
 		</td>
 		<td>
 
@@ -75,7 +75,7 @@ SQLite
 
 		</td>
 		<td>
-{{ icon.badgeNotice | safe }} 
+{{ icon.badgeNotice }} 
 		</td>
 		<td>
 
@@ -86,7 +86,7 @@ SQLite
 XML 
 		</td>
 		<td>
-{{ icon.badgeNotice | safe }} 
+{{ icon.badgeNotice }} 
 		</td>
 		<td>
 
@@ -98,7 +98,7 @@ XML
 
 		</td>
 		<td>
-{{ icon.badgeNotice | safe }} 
+{{ icon.badgeNotice }} 
 		</td>
 		<td>
 
@@ -115,13 +115,13 @@ XML
 
 		</td>
 		<td>
-{{ icon.badgeNotice | safe }} 
+{{ icon.badgeNotice }} 
 		</td>
 		<td>
-{{ icon.badgeNotice | safe }} 
+{{ icon.badgeNotice }} 
 		</td>
 		<td>
-{{ icon.badgeNotice | safe }} 
+{{ icon.badgeNotice }} 
 		</td>
 		<td>
 
@@ -138,10 +138,10 @@ Dropbox
 
 		</td>
 		<td>
-{{ icon.badgeNotice | safe }} 
+{{ icon.badgeNotice }} 
 		</td>
 		<td>
-{{ icon.badgeNotice | safe }} 
+{{ icon.badgeNotice }} 
 		</td>
 		<td>
 
