@@ -1,4 +1,5 @@
 ---
+_schema: default
 eleventyComputed:
   title: Change an account email
 ---
