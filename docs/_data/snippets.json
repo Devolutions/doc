@@ -1,5 +1,25 @@
 {
-  "_schema": "snippets",
+  "_inputs": {
+    "$": {
+      "type": "object",
+      "options": {
+        "subtype": "mutable",
+        "structures": {
+          "values": [
+            {
+              "label": "Snippet",
+              "value": {
+                "label": "",
+                "theme": "",
+                "preview": "",
+                "svg": ""
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
   "badgeCaution": {
     "label": "Badge Caution",
     "theme": "caution",
