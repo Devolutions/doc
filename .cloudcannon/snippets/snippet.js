@@ -8,6 +8,16 @@ module.exports = {
         {
           key: "content"
         }
+      ],
+      icon: [
+        {
+          key: "snippet_type.preview.icon"
+        }
+      ],
+      icon_color: [
+        {
+          key: "snippet_type.preview.icon_color"
+        }
       ]
     },
     definitions: {
