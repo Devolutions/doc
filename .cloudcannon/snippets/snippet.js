@@ -9,11 +9,10 @@ module.exports = {
           key: "content"
         }
       ],
-      icon: "error",
-      icon_color: "#f5af23",
+      icon: "text_snippet",
       image: [
         {
-          template: "/.cloudcannon/previews/{snippet_type|slugify}.svg"
+          template: "/.cloudcannon/previews/snippet/{snippet_type|slugify}.svg"
         }
       ]
     },
