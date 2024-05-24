@@ -52,7 +52,8 @@ module.exports = {
             icon_color: [
               {
                 key: "preview.icon_color"
-              }
+              },
+              "#000000"
             ]
           }
         }
