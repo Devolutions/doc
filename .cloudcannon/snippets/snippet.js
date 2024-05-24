@@ -44,12 +44,15 @@ module.exports = {
                 key: "label"
               }
             ],
-            icon: "error",
-            image: [
+            icon: [
               {
-                key: "preview"
-              },
-              "/.cloudcannon/previews/badge-caution.svg"
+                key: "preview.icon"
+              }
+            ],
+            icon_color: [
+              {
+                key: "preview.icon_color"
+              }
             ]
           }
         }
