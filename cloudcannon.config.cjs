@@ -9,7 +9,7 @@ module.exports = {
   collections_config: {
     topics: {
       name: "Topics",
-      path: "content/en",
+      path: "docs/content/en",
       schemas: {
         default: {
           path: ".cloudcannon/schemas/topic.md"
@@ -22,7 +22,7 @@ module.exports = {
       output: true,
     },
     data: {
-      path: "_data",
+      path: "docs/_data",
       filter: {
         exclude: [
           "snippets.json"
@@ -105,7 +105,7 @@ module.exports = {
       type: "image",
       options: {
         paths: {
-          uploads: "../.cloudcannon/previews"
+          uploads: ".cloudcannon/previews"
         },
         accepts_mime_types: [
           "image/svg+xml"
