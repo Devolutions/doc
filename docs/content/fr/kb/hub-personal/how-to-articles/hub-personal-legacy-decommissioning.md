@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Mise hors service de {{ fr.DHUBP }} (déprécié)"
+  title: Mise hors service de {{ fr.DHUBP }} (déprécié)
   description: Si cette transition ne se fait pas automatiquement, vous devrez migrer vos données manuellement.
 ---
 Les équipes de {{ fr.DHUBP }} et Business fusionnent dans le cadre de l'initiative de Devolutions pour simplifier nos opérations et nos processus de développement. À compter du 31 octobre 2024, {{ fr.DHUBP }} adoptera le même back end que {{ fr.DHUBB }}. Cette alignement standardise nos processus de mise à jour. Pour plus de détails sur les avantages de ces changements, veuillez lire notre article de blog : [Mise à jour : simplification de {{ fr.DHUBP }}](https://blog.devolutions.net/fr/2023/10/devolutions-hub-personal-est-simplifie/).
