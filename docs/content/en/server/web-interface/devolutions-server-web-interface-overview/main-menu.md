@@ -1,13 +1,10 @@
 ---
 eleventyComputed:
   title: Main menu
+  description: The left side menu allows the user to navigate through the different sections of {{ en.DVLS }}.
 ---
-The left side ***Menu*** allow the user to navigate through the different sections of {{ en.DVLS }}.
+The left side ***menu*** allows the user to navigate through the different sections of {{ en.DVLS }}. It can be resized by clicking the resize button while hovering over the left side ***menu***.
 
-{% snippet icon.badgeInfo %}
-It can only be hidden, by clicking the menu icon at the top-left corner, when the web interface window display is smaller.
-{% endsnippet %}
-
-![Menu](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp8015.png)
+![Left side Menu](https://cdnweb.devolutions.net/docs/INTERFACE6006.png)
 
 
