@@ -2,4 +2,5 @@
 eleventyComputed:
   title:
   description:
+preview:
 ---
