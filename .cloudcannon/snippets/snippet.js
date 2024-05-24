@@ -11,7 +11,11 @@ module.exports = {
       ],
       icon: "error",
       icon_color: "#f5af23",
-      image: "/.cloudcannon/previews/badge-caution.svg"
+      image: [
+        {
+          template: "/.cloudcannon/previews/{snippet_type|slugify}.svg"
+        }
+      ]
     },
     definitions: {
       shortcode_name: "snippet2",
