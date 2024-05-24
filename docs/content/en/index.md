@@ -85,10 +85,4 @@ cards:
         url: /kb/hub-personal/
       - name: Devolutions PowerShell Modules
         url: /kb/devolutions-powershell/
-      - name: Devolutions Gateway
-        url: /kb/devolutions-gateway/
-      - name: Workspace browser extension
-        url: /workspace/kb/
-      - name: Workspace apps
-        url: /kb/devolutions-workspace/
 ---
