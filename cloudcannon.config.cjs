@@ -104,8 +104,11 @@ module.exports = {
       type: "image",
       options: {
         paths: {
-          uploads: "/../.cloudcannon/previews"
-        }
+          uploads: "../.cloudcannon/previews"
+        },
+        accepts_mime_types: [
+          "image/svg+xml"
+        ]
       }
     },
     sidebars: {
