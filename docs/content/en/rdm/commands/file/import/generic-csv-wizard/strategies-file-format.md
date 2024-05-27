@@ -24,7 +24,7 @@ In ***File – Import***, we recommend you use the ***Import generic CSV wizard*
 
 ## File content
 
-{% snippet icon.badgeCaution %}
+{% snippet, "badgeCaution" %}
 Some entry settings checks are not performed during the import, but rather when the session(s) properties dialogs are invoked after the import. Therefore, using the import process may result in invalid entries that may trigger errors. Please validate the relevant entries carefully.
 {% endsnippet %}
 
@@ -32,14 +32,14 @@ In the CSV file, the ***Host*** and the ***Name*** fields are mandatory. If no t
 
 We cannot provide the list of all supported fields for all entry types because {{ en.RDM }} uses an open architecture and is therefore not aware of all the entry type fields that are provided by our add-on system. A good method of finding out the field structure is creating an entry of the desired type, right-clicking it and selecting ***Clipboard – Copy***, then pasting the content in your favorite editor. You will see the structure and the field names.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 * Default values for fields are not serialized, meaning that they are simply left out of the serialized structure.
 * Implementing support for all fields comes at a cost. The import process is time consuming because of all the dynamic field access that takes place. A massive initial import of entries should be separated in batches of manageable sizes. Please perform trials and tune the number of entries to achieve acceptable performance.
 {% endsnippet %}
 
 All of our entries share a basic set of fields; the rest is tied to the specific technology being interfaced with (RDP, SSH, etc.). Some fields are grouped in structures, like the Information Tab. Those fields are accessible only when providing the structure name as a prefix, for example, "MetaInformation\OS" or "MetaInformation\PurchaseDate".
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 The CSV file can contain our variables: they will be resolved upon saving. For instance, you could use the $HOST$ variable in fields like ***Description***, ***URL***, ***Putty\CustomSessionName***, etc. It will be replaced by the corresponding value.
 {% endsnippet %}
 

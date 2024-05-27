@@ -49,6 +49,6 @@ This code is used to delete the folder on the onClose Event:
 
 `Remove-Item "C:\MyPath" + connection.ID -Recurse -Force`
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 It is not possible to open a website using the {{ en.DGW }} that is already running without the workarounds because of the way Google Chrome is designed. An already opened Chrome cannot change the proxy settings dynamically.
 {% endsnippet %}

@@ -6,7 +6,7 @@ This solution applies if you have set a 2FA or an Application password on your {
 ## Solution
 1. Close {{ en.RDM }}.
 1. Find your **RemoteDesktopManager.cfg** configuration file and rename it "**RemoteDesktopManager.old**". 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 If the application was installed by default, you can locate the file:  
 
 For the Team Edition: **%localappdata%\Devolutions\RemoteDesktopManager**  

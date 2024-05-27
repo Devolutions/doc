@@ -10,7 +10,7 @@ Lors de l'utilisation de la fonction ***Rechercher***, une vue arborescente est 
 
 Il est également possible d'effectuer une ***Recherche rapide*** qui permet de chercher dans la base de données sans afficher de vue arborescente. Les résultats sont ainsi plus concis.
 
-{% snippet icon.badgeNotice %}
+{% snippet, "badgeNotice" %}
 Truc de pro : Utilisez les raccourcis suivants lorsqu'une entrée est sélectionnée pour rendre votre recherche encore plus rapide.
 
 * Appuyez sur Entrée pour naviguer à l'entrée.

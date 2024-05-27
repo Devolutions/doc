@@ -17,7 +17,7 @@ Les utilisateurs invités à rejoindre {{ fr.DHUBB }} reçoivent ce courriel de 
 1. Accéder au lien URL de {{ fr.DHUBB }}.
 1. Se connecter avec ***Se connecter avec Microsoft***.
 ![Se connecter avec Microsoft](https://cdnweb.devolutions.net/docs/fr/hub/Hub4090.png)
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Les nouveaux utilisateurs qui accèdent via la connexion Azure passeront par cette configuration s'ils n'ont pas de {{ fr.DA }}. Puisque nous ne voulons pas que l'utilisateur définisse un mot de passe pour ce compte, nous devons avoir un moyen de stocker la ***Clé Privée***. Habituellement, elle est conservée avec le compte de mot de passe. Cette clé spéciale et unique pour chaque utilisateur est nécessaire lorsque l'utilisateur change d'appareil ou de navigateur. Au quotidien, l'appareil et le navigateur reconnaissent l'utilisateur.
 
 C'est pourquoi nous souhaitons que l'utilisateur stocke cette ***Clé Privée*** sur l'{{ fr.WMAPP }}. Il sera beaucoup plus pratique pour l'utilisateur de faire une notification Push pour accepter le nouvel appareil ou navigateur.

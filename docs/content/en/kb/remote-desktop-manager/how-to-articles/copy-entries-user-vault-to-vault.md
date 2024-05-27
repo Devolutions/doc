@@ -5,7 +5,7 @@ eleventyComputed:
 ---
 To be able to copy some entries stored in your {{ en.UVLT }} to another {{ en.VLT }} without doing an export/import in {{ en.RDM }}, follow the steps below.
 
-{% snippet icon.badgeCaution %}
+{% snippet, "badgeCaution" %}
 For this to work, some permissions in ***Administration – System Permissions*** need to be allowed for standard users.  
 * Copy feature: Enable the ***Export*** and ***Copy Password*** permissions on the source folder.  
 * Paste feature: Enable ***Import*** and ***Add*** permissions on the destination folder.  

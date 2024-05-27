@@ -9,7 +9,7 @@ eleventyComputed:
 1. Sélectionner la source de données ***{{ fr.DVLS }}***.
 ![!!KB4013](https://cdnweb.devolutions.net/docs/fr/kb/KB4013.png)
 1. Définir les paramètres.
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Si vous saisissez %USERDOMAIN%\%USERNAME% dans la zone de texte des identifiants de l'utilisateur, la valeur des variables d’environnement qui y correspondent sera utilisée.
 {% endsnippet %}
 

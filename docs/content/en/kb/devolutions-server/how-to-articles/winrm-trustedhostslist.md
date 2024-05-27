@@ -5,7 +5,7 @@ eleventyComputed:
 ---
 This guide provides steps to enable WinRM and add the remote machine's names in the Trusted Hosts list on the server where {{ en.DVLS }} is hosted.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 WinRM transport ports are **5985 for HTTP** and **5986 for HTTPS**.
 {% endsnippet %}
 

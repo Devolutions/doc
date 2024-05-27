@@ -28,7 +28,7 @@ The {{ en.DHUBS }} installer facilitates the installation and integration of our
 1. Select your ***Application User*** in the drop-down menu under ***Manage privileged access tasks*** and ***Manage privileged access providers***.
 ![System Permissions – Manage privileged access tasks and Manage privileged access providers](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub6060.png)
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 You need to grant permission on the {{ en.VLT }} either at ***System level*** or ***Individual PAM {{ en.VLT }} level***.
 {% endsnippet %}
 

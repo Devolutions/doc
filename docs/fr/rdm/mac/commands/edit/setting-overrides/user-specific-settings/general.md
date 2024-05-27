@@ -6,7 +6,7 @@ L'onglet ***Général*** vous permet de remplacer le mode d'affichage et les ide
 
 ### Affichage
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 La substitution d'affichage est disponible que pour le type d'entrée Session.
 {% endsnippet %}
 

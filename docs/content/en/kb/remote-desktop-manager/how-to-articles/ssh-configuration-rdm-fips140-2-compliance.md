@@ -4,15 +4,15 @@ eleventyComputed:
 ---
 For the {{ en.RDM }} SSH client to be compliant with the FIPS 140-2 annex A standard, you need to apply specific configuration changes in {{ en.RDM }} options.
 
-{% snippet icon.shieldNotice %}
+{% snippet, "shieldNotice" %}
 To be compliant, you must ensure that non-compliant algorithms are disabled. To do this, you need to verify that the boxes that are NOT checked in the screenshots below are disabled in the client configuration.
 {% endsnippet %}
 
-{% snippet icon.shieldCaution %}
+{% snippet, "shieldCaution" %}
 We do not recommend using these settings unless you are in an environment that requires compliance with the FIPS 140-2. Most users should stick to the default settings of {{ en.RDM }} and enable additional cipher suites only if required by their servers.
 {% endsnippet %}
 
-{% snippet icon.badgeHelp %}
+{% snippet, "badgeHelp" %}
 These values originate from the Microsoft’s documentation [FIPS140.2 annex A standard](https://docs.microsoft.com/en-us/cpp/linux/set-up-fips-compliant-secure-remote-linux-development?view=msvc-160)
 {% endsnippet %}
 

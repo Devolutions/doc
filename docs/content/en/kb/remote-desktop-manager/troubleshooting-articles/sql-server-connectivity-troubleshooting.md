@@ -6,7 +6,7 @@ eleventyComputed:
 SQL Server installs with limited network connectivity. Therefore, when initially installed, the Database Engine cannot be accessed from another device.
 
 Jump to these connectivity issues troubleshooting help.
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Before everything, try to access the database via SQL Server Management Studio.
 {% endsnippet %}
 
@@ -34,7 +34,7 @@ To connect to the Database Engine from another device, a protocol, such as TCP/I
 
 ## Open a communication port in the firewall
 To connect to an SQL Server from another device, a communication port must be opened in the firewall.
-{% snippet icon.badgeNotice %}
+{% snippet, "badgeNotice" %}
 The default port for TCP/IP is 1433.
 {% endsnippet %}
 
@@ -47,7 +47,7 @@ The default port for TCP/IP is 1433.
 ![Port rule type](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4279.png)
 1. In the ***Protocol and Ports*** page, select ***TCP***.
 1. Select ***Specific local ports***, then type the port number of the instance of the Database Engine, then click ***Next***.
-   {% snippet icon.badgeNotice %}
+   {% snippet, "badgeNotice" %}
    The SQL Server default instance listens on port 1433.
 
    If you have an Anti-virus running on your server, you should also make sure that the port is allowed.
@@ -77,7 +77,7 @@ This will test that the instance is allowing your workstation to connect. Firewa
 1. Select the ***Home*** tab and, using the ***New item*** menu, create a ***Text Document***.
 ![Create a text document](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4246.png)
 1. Rename this file and change its file extension to ***.udl***.
-   {% snippet icon.badgeInfo %}
+   {% snippet, "badgeInfo" %}
    Do not include space characters in the name of the file. A warning that changing the file extensions can cause files to become unusable might be displayed, disregard it.
 
    File name extensions might be hidden by the ***Windows File Explorer***. To show the file name extensions, go to the ***View*** tab of the ***File Explorer*** and enable the ***File name extensions*** option.
@@ -89,7 +89,7 @@ This will test that the instance is allowing your workstation to connect. Firewa
 1. In the ***Provider*** tab, select the ***Microsoft OLE DB Provider for ODBC Drivers*** provider.
 ![Microsoft OLE DB Provider for ODBC Drivers](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4248.png)
 1. In the ***Connection*** tab, select ***Use connection string*** and enter a custom connection string.
-   {% snippet icon.badgeNotice %}
+   {% snippet, "badgeNotice" %}
    Example of valid connection string:
    `Driver={SQL Server};Server=myServerAddress;Database=myDataBase;Uid=myUsername;Pwd=myPassword;`
 

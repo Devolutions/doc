@@ -18,7 +18,7 @@ The following steps are the same for Teams, Enterprise, and Platinum licenses.
 ![Strategy](https://cdnweb.devolutions.net/docs/docs_en_kb_KB0014.png)
 1. Click on ***Get Diagnostic***.
 ![Get Diagnostic Button](https://cdnweb.devolutions.net/docs/docs_en_kb_KB0015.png)
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 If this fails, instead use ***Directory entry token group (Legacy)*** or ***Recursively*** in the ***Strategy*** dropdown.
 {% endsnippet %}
 

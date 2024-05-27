@@ -3,11 +3,11 @@ eleventyComputed:
   title: Sécurité simplifiée
   status: Topic available in German language
 ---
-{% snippet icon.badgeInfo %} 
+{% snippet, "badgeInfo" %} 
 Cette fonctionnalité est disponible que lors de l'utilisation d'une [Source de données avancée](/fr/rdm/windows/data-sources/data-sources-types/advanced-data-sources/). 
 {% endsnippet %}
  
-{% snippet icon.shieldCaution %} 
+{% snippet, "shieldCaution" %} 
 Bien que le scénario suivant soit pertinent pour les petites et moyennes entreprises, il n'est pas recommandé pour les grandes entreprises. Pour un scénario plus adapté aux grandes entreprises, veuillez consulter le scénario de [Sécurité avancée](/fr/rdm/windows/user-groups-based-access-control/scenarios/advanced-security/). 
 {% endsnippet %}
  
@@ -104,7 +104,7 @@ Nous voulons que ServiceDesk puisse également utiliser les informations d'ident
 La dernière étape pour les éléments enfants Telemark consiste à définir la permission ***Affichage*** sur ServiceDesk et HelpDesk sur le dossier Boston et laisser toutes les autres permissions de ce dossier sur ***Hérité***. Cela empêche les consultants d'afficher le dossier Boston. Désormais, les consultants ne pourront voir et ouvrir les entrées que dans le dossier Montréal.  
 ![Telemark/Boston - Permissions](https://cdnweb.devolutions.net/docs/fr/rdm/windows/RDMWin6030.png) 
 
-{% snippet icon.shieldCaution %} 
+{% snippet, "shieldCaution" %} 
 Chaque fois qu'un nouveau dossier est ajouté, la permission ***Affichage*** doit être définie pour ServiceDesk et HelpDesk pour masquer le nouveau dossier et son contenu aux consultants. 
 {% endsnippet %}
  

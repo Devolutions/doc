@@ -7,7 +7,7 @@ The Export Reports is a way to execute and export reports through a command line
 
 You will be able to export Data Report, Inventory report as well as most of the reports found in our Generate Report list except for the Password Usage.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 You must have the rights to run report in {{ en.RDM }} to use this feature.
 {% endsnippet %}
 

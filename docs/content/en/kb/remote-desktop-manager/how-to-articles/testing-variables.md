@@ -2,16 +2,16 @@
 eleventyComputed:
   title: Test variables
 ---
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Variables are only supported for ***Advanced Data Sources*** like SQL Server and {{ en.DVLS }}
 {% endsnippet %}
 
-{% snippet icon.badgeCaution %}
+{% snippet, "badgeCaution" %}
 For the password to be available as a variable, you must go in the ***Security Settings*** of the entry and check ***Allow password in variable***.
 If the option is greyed out, you need to activate ***Allow password variables for all entries*** and ***Allow password variable in macros*** in ***Administration – System Settings – Password Policy***.
 {% endsnippet %}
 
-{% snippet icon.badgeCaution %}
+{% snippet, "badgeCaution" %}
 If you are using the ***Linked ({{ en.VLT }})*** credential mode in your entries, you will need to enable the ***Allow password in variable*** option in the linked credential entry as well.
 {% endsnippet %}
 

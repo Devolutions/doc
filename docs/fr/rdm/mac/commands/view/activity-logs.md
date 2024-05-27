@@ -5,7 +5,7 @@ eleventyComputed:
 Les ***Journaux d'activité*** offrent une solution robuste de journalisation. Grâce à cette fonctionnalité, il est possible de surveiller une session ouverte pour tous les utilisateurs qui utilisent des [Sources de données avancées](/fr/rdm/mac/data-sources/data-sources-types/advanced-data-sources/). Le journal est disponible dans l'onglet ***Affichage***.
 ![Bouton Journaux d'activité](https://cdnweb.devolutions.net/docs/fr/rdm/mac/RDMMac0037.png)
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 En fonction des permissions dont dispose chaque utilisateur, il se peut qu'il ne puisse accéder qu'aux ***Journaux des connexions locales***.
 {% endsnippet %}
 

@@ -15,17 +15,17 @@ The ***Report entry*** generates a customized report with the appropriated prope
 1. Click ***OK***.
 1. Enter a ***Name*** and choose a ***Folder***.
 1. In the ***General*** tab, select ***Connection List*** or ***Custom Field Report*** under ***Type***.
-   {% snippet icon.badgeInfo %}
+   {% snippet, "badgeInfo" %}
    ***Connection List*** contains a list of predefined properties that cannot be modified.
    {% endsnippet %}
 1. In ***Script Source***, select ***Power Shell*** or ***Linked Entry***.
-   {% snippet icon.badgeInfo %}
+   {% snippet, "badgeInfo" %}
    ***Power Shell*** is embedded in the Report entry. ***Linked entry*** is linked to a PowerShell entry which contains the script to select the list of entries.
    {% endsnippet %}
 1. Go to ***Fields*** and copy/paste  the property's names previously saved.
 ![New Entry – Macro/Script/Tool – Report – General tab](https://cdnweb.devolutions.net/docs/docs_en_kb_KB6084.png)
 1. Go to the ***Script tab*** and write your script. A sample is available at the bottom of the window.
-   {% snippet icon.badgeInfo %}
+   {% snippet, "badgeInfo" %}
    Note that this Script example only lists the RDP entries per this if statement:
    `if ($connection.ConnectionType -eq 'RDPConfigured')`
    {% endsnippet %}

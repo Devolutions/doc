@@ -7,11 +7,11 @@ eleventyComputed:
 ---
 Voici la liste des adresses que {{ fr.RDM }} pourrait utiliser durant les activités normales, ainsi que les paramètres qui sont utilisés pour activer/désactiver ces accès.  
 
-{% snippet icon.badgeWarning %}
+{% snippet, "badgeWarning" %}
 {{ fr.RDM }} est un outil qui intègre plus de 150 technologies. Cette liste contient uniquement les points d'extrémité auxquels le produit principal accède. Nous utilisons une approche de « meilleur effort » pour maintenir cette liste à jour, mais celle-ci ne remplace pas les meilleures pratiques de sécurité TI. Si la sécurité est primordiale, il serait préférable de bloquer d'abord tout accès à Internet, puis de mettre les adresses souhaitées sur une liste d'autorisation si nécessaire.
 {% endsnippet %}  
 
-{% snippet icon.shieldNotice %}
+{% snippet, "shieldNotice" %}
 Dans le cadre d'une visite standard d'un site Web utilisant le protocole HTTPS, le certificat utilisé par le site distant est validé à l'aide des meilleures pratiques de l'industrie. Un certificat contient plusieurs URL auxquelles on accède pour effectuer la validation. Les URL varient non seulement pour chaque site, mais aussi au fil du temps, chaque fois qu'ils sont renouvelés. Apprenez-en plus sur la [Validation d'un certificat](/kb/remote-desktop-manager/knowledge-base/certificate-validation) (EN).
 {% endsnippet %}  
 

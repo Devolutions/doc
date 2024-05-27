@@ -11,7 +11,7 @@ To protect sensitive data in your data source configuration (e.g. server URL or 
 The locked data source will require a password. The password must be specify when the lock is applied. Use the same password to unlock it or to modify the data source configuration.
 ![Lock Data Source dialog](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip10396.png)
 
-{% snippet icon.badgeWarning %}
+{% snippet, "badgeWarning" %}
 There is no way of unlocking the data source if the password is lost or forgotten. In such an event, you will need to configure a new data source. However the content of the database will not be lost.
 {% endsnippet %}
 

@@ -3,7 +3,7 @@ eleventyComputed:
   title: Web browser Firefox
 ---
 Firefox in embedded mode does not work in the application.
-{% snippet icon.badgeCaution %}
+{% snippet, "badgeCaution" %}
 The Firefox web browser is deprecated in embedded mode.
 {% endsnippet %}
 

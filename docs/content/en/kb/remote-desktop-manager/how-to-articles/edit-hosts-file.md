@@ -17,7 +17,7 @@ Simply create a session with the proper settings.
 1. In the ***Advanced*** tab, check the ***Run as Administrator*** option.
 ![!!KB4549](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4549.png)
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Close your editor before proceeding with those steps. If your editor is already running, it will not elevate the privileges. We have implemented an AutoHotKey script that closes the editor of choice, but being that it shuts off without saving pending changes, it is not a risk-free solution. It will all depend on your chosen editor's reaction to the WM_QUIT message.
 {% endsnippet %}
 

@@ -7,7 +7,7 @@ The [{{ en.DFORUM }}](https://forum.devolutions.net/) is an efficient way to get
 
 Visit the different sections and help contribute to our community knowledge.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 A free [{{ en.DA }}](/cloud/devolutions-account/) is required to log in and interact on the {{ en.DFORUM }}.
 {% endsnippet %}
 

@@ -2,7 +2,7 @@
 eleventyComputed:
   title: Configure 1Password with integrated mode
 ---
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 The integration of credentials from password managers is only available in the Team version of {{ en.RDM }}.
 {% endsnippet %}
 

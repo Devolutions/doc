@@ -8,7 +8,7 @@ eleventyComputed:
   - Listener
 ---
 Ce sujet décrit comment configurer {{ fr.DVLS }} pour se connecter avec {{ fr.DGW }}. Il y a deux façons d'installer un {{ fr.DGW }} : <a href="#installation-cote-a-cote">l'***installation côte à côte***</a> et <a href="#installation-autonome">l'***installation autonome***</a>.
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Plusieurs passerelles peuvent être utilisées par {{ fr.DVLS }}, mais seulement un {{ fr.DGW }} peut être installé sur une machine.
 {% endsnippet %}
 
@@ -18,7 +18,7 @@ L'installation ***côté à côte*** sera utilisée si vous devez installer {{ f
 Pour installer {{ fr.DGW }} sur une autre machine que celle où {{ fr.DVLS }} est hébergé, vous devez suivre le processus d'installation ***autonome***. La procédure est similaire, mais vous devrez fournir plus d'informations sur votre instance {{ fr.DVLS }} pour la compléter.
 
 ## Installation côte à côte
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Pour mettre en place un {{ fr.DGW }} gratuit, il faut le configurer en utilisant ***l'installation côte à côte***. Cela crée une passerelle capable de gérer jusqu'à 5 sessions simultanées.
 {% endsnippet %}
 
@@ -28,7 +28,7 @@ Cette méthode permet également de gérer davantage de sessions si une ou plusi
 1. Dans la section {{ fr.DGW }}, cliquer sur ***Installer***.
 1. Choisir ***Installation côte à côte***.
 ![Installation côte à côte](https://cdnweb.devolutions.net/docs/fr/server/ServerOp0004.png)
-   {% snippet icon.badgeHelp %}
+   {% snippet, "badgeHelp" %}
    Il est possible de télécharger un fichier [.msi](https://devolutions.net/fr/gateway/download) pour installer {{ fr.DGW }} sur un {{ fr.DVLS }} hors ligne.
    {% endsnippet %}
 
@@ -45,7 +45,7 @@ Cette méthode permet également de gérer davantage de sessions si une ou plusi
 
 ## Installation autonome
 L'installation en utilisant la méthode ***autonome*** permettra d'installer {{ fr.DGW }} sur un serveur distinct de {{ fr.DVLS }}. Cela peut être pour des raisons de performance ou pour accéder à des réseaux auxquels {{ fr.DVLS }} ne peut pas accéder.
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 La {{ fr.DVLSCONSOLE }} doit être installée sur le serveur sur lequel {{ fr.DGW }} sera installé.
 {% endsnippet %}
 
@@ -55,7 +55,7 @@ La {{ fr.DVLSCONSOLE }} doit être installée sur le serveur sur lequel {{ fr.DG
 1. Choisir ***Installation autonome***.
 ![Installation autonome](https://cdnweb.devolutions.net/docs/fr/server/ServerOp0008.png)
 1. Choisir entre ***Télécharger la version*** et ***Installation à partir d'un fichier msi***.
-   {% snippet icon.badgeHelp %}
+   {% snippet, "badgeHelp" %}
    Il est possible de télécharger un fichier [.msi](https://devolutions.net/fr/gateway/download) pour installer {{ fr.DGW }} sur un {{ fr.DVLS }} hors ligne.
    {% endsnippet %}
 
@@ -68,7 +68,7 @@ La {{ fr.DVLSCONSOLE }} doit être installée sur le serveur sur lequel {{ fr.DG
     1. ***Fichier du certificat***: Il doit s'agir d'un certificat de chaîne complète (.pfx, .p12, .pem, .crt).
     1. ***Mot de passe du certificat***: Nécessaire uniquement si un certificat .pfx ou .p12 a été utilisé.
     1. ***Fichier de la clé privée***: Nécessaire uniquement si un certificat .pem ou .crt a été utilisé.
-   {% snippet icon.shieldWarning %}
+   {% snippet, "shieldWarning" %}
    Ne partager pas la clé privée avec d'autres utilisateurs, car elle peut être utilisée pour décrypter la communication entre un utilisateur et un {{ fr.DGW }}. Seule la clé publique doit être partagée.
    {% endsnippet %}
 

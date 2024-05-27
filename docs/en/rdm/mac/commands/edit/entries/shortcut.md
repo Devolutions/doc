@@ -19,7 +19,7 @@ One way to create a shortcut is by doing a right-click on the chosen entry and t
 Another way to create a shortcut is using the ***Edit menu - Create Shortcut***.
 ![Edit ribbon - Create Shortcut](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10335.png)
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 There is no visual differences between the shortcut and the original entry. Therefore, you’ll need to delete all entries to completely remove them.
 {% endsnippet %}
 

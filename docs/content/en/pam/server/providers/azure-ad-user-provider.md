@@ -4,7 +4,7 @@ eleventyComputed:
 ---
 The Azure AD user provider allows {{ en.DVLS }} to store the Azure AD application information to be used for Azure AD accounts discovery or to achieve password rotation.
 
-{% snippet icon.badgeHelp %}
+{% snippet, "badgeHelp" %}
 See [Create an Azure AD PAM provider](/kb/devolutions-server/how-to-articles/create-azure-ad-pam-provider/) for more information on its configuration.
 {% endsnippet %}
 

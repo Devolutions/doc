@@ -40,7 +40,7 @@ interface profiles.
 
 This table shows the entry types that can be created depending on your user interface profile.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Note that this only applies to the creation of new entries and does not affect existing entries.
 {% endsnippet %}
 
@@ -108,7 +108,7 @@ The sections that are available in ***entry properties*** are different dependin
 Business users see the simplified view of entry properties without the option to toggle to all properties, while IT
 professionals see all properties by default but have the option to toggle between this view and the simplified view.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 The availability of entry property sections also depends on the type of entry as usual.
 {% endsnippet %}
 

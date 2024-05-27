@@ -9,11 +9,11 @@ Lorsque vous atteignez un certain nombre de sessions en cours d'exécution, il p
 Pour activer la ***Barre d'onglets groupés***, naviguez jusqu'à ***Affichage – Disposition*** dans le ruban, puis sélectionnez ***Barre d'onglets groupés***.
 ![Bouton Barre d'onglets groupés](https://cdnweb.devolutions.net/docs/fr/rdm/windows/RDMWin2041.png)
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 La ***Barre d'onglets groupés*** n'apparaît que si une session faisant partie d'un groupe d'onglets (autre que l'onglet ***Tout***) est active. Pour qu'elle s'affiche en permanence, cochez la case ***Toujours afficher la barre d'onglets groupés*** dans ***Fichier – Options – Interface utilisateur – Avancé***.
 {% endsnippet %}
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 La fonction ***Groupes d'onglets*** dans ***Affichage – Affichage*** vous permet de consulter une vue arborescente des différents groupes d'onglets. Pour plus d'informations, consultez [***Affichage***](/fr/rdm/windows/commands/view/view/).
 {% endsnippet %}
 

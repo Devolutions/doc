@@ -6,7 +6,7 @@ eleventyComputed:
   -  Microsoft Edge Chromium
   -  WebView2 Runtime 
 ---
-{% snippet icon.badgeCaution %}
+{% snippet, "badgeCaution" %}
 {{ en.RDM }} will need to be restarted for this download to apply.
 {% endsnippet %}
 

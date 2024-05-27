@@ -5,7 +5,7 @@ eleventyComputed:
 Lorsque vous utilisez {{ fr.RDM }} localement avec une source de données de type individuel, les ***Journaux d'activité***, qui se trouvent en temps normal dans la section ***Affichage*** de l'onglet ***Affichage***, ne sont pas disponibles. Dans cette situation, la section ***Journaux*** apparaît dans l'onglet ***Affichage***.
 ![Bouton Journaux des connexions locales](https://cdnweb.devolutions.net/docs/fr/rdm/windows/RDMWin2046.png)
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Les ***Journaux des connexions locales*** remplacent les [***Journaux d'activité***](/fr/rdm/windows/commands/view/view/activity-logs/) si vous ne disposez pas des permissions suffisantes pour les consulter.
 {% endsnippet %}
 

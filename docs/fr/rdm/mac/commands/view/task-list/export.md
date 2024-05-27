@@ -6,7 +6,7 @@ Les tâches peuvent être exportées dans différents types de fichiers pour l'i
 
 ### Exporter des tâches
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Avant d'exporter des tâches, vous pouvez effectuer une [Recherche](/fr/rdm/mac/commands/view/task-list/search/) pour filtrer la liste des tâches.
 {% endsnippet %}
 

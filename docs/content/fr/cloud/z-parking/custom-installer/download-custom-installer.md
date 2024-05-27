@@ -6,11 +6,11 @@ eleventyComputed:
   - installateur personnalisé
 ---
 Le ***{{ fr.CIM }}*** vous permet de télécharger les paquets directement à partir de {{ fr.RDM }} ou de notre site Web. 
-{% snippet icon.badgeInfo %} 
+{% snippet, "badgeInfo" %} 
 Veuillez noter que vous devez créer un fichier dans {{ fr.RDM }} avant de créer le paquet d'installation sur le portail Web. 
 {% endsnippet %}
  
-{% snippet icon.badgeInfo %} 
+{% snippet, "badgeInfo" %} 
 Vous pouvez stocker et créer jusqu'à six paquets de fichiers de configuration d'***{{ fr.CI }}*** dans votre {{ fr.DA }}. 
 {% endsnippet %}
  

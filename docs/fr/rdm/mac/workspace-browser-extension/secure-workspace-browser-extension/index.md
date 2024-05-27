@@ -5,7 +5,7 @@ eleventyComputed:
 ---
 Dans {{ fr.RDMMAC }} versions 2021.1 et supérieures, nous avons changé la façon dont le {{ fr.WBEX }} communique avec {{ fr.RDM }} pour remplir les identifiants dans les pages Web. Nous avons fait ces changements pour augmenter la sécurité de cette fonctionnalité. Visitez [Première connexion](/fr/rdm/mac/workspace-browser-extension/first-login-workspace-browser-extension/) pour les étapes de configuration.
 
-{% snippet icon.shieldWarning %}
+{% snippet, "shieldWarning" %}
 Si vous utilisez une version antérieure à 2021.1 et, comme indiquée dans la section [Survol du {{ fr.WBEX }}](/fr/rdm/mac/workspace-browser-extension/overview/), l'installation de l'extension dans un environnement de services Bureau à distance (Terminal Services) peut présenter des risques de sécurité. Dans de tels environnements, chaque utilisateur doit disposer d'un port distinct ainsi que d'une clé d'application pour empêcher tout autre instance du {{ fr.WBEX }} d'écouter.
 
 Si vous insistez pour l'utiliser, il est essentiel que chaque utilisateur se voie attribuer un port distinct. Une clé d'application doit également être définie. La première application client qui démarre pourra utiliser exclusivement le port. TOUte instance du {{ fr.WBEX }} appelant sur ce port obtiendra les réponses, sauf si une clé d'application est définie. Continuez à la section suivante pour les étapes de configuration.
@@ -13,7 +13,7 @@ Si vous insistez pour l'utiliser, il est essentiel que chaque utilisateur se voi
 
 ## Configuration du {{ fr.WBEX }} pour une version antérieure à 2021.1 et pour les serveurs bureau à distance
 
-{% snippet icon.shieldWarning %}
+{% snippet, "shieldWarning" %}
 La clé de l'application est affichée en texte clair. Elle doit être gardée secrète par l'utilisateur.
 {% endsnippet %}
 

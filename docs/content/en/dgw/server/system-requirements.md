@@ -11,7 +11,7 @@ To use {{ en.DGW }}, your system must meet the following requirements.
 | :---: | :---: | :---: | :---: |
 | 2 vCPUs<br>4 GB RAM | 4 vCPUs<br>8 GB RAM | 8 vCPUs<br>16 GB RAM | Deploy multiple {{ en.DGW }} instances. |
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 A Gigabit Ethernet controller is recommended for optimal performance.
 {% endsnippet %}
 

@@ -3,7 +3,7 @@ eleventyComputed:
   title: Abonnements de l'utilisateur
 ---
 Gérer les paramètres de notification des ***Abonnements de l'utilisateur*** aux entrées.
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Un courriel doit être enregistré dans votre [compte](/fr/server/web-interface/account-menu/edit-account/) pour que cette fonctionnalité soit disponible.
 {% endsnippet %}
 

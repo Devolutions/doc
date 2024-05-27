@@ -6,7 +6,7 @@ La section ***Clés de licence*** vous permet d'ajouter, de modifier ou de suppr
 
 Cet emplacement est également l'endroit où vous pouvez trouver la licence pour enregistrer votre {{ fr.RDM }} Free et {{ fr.DVLS }} Free.
 
-{% snippet icon.badgeCaution %}
+{% snippet, "badgeCaution" %}
 La section ***Clés de licence*** n'est liée à aucune de vos applications Devolutions. Il s'agit uniquement d'une liste des informations de licence de votre produit.
 
 Vous devrez enregistrer la licence dans l'application Devolutions appropriée pour vous enregistrer.

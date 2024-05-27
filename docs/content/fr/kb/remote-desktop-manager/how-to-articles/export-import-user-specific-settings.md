@@ -4,7 +4,7 @@ eleventyComputed:
   description: Les options d'exportation et d'importation des paramètres spécifiques de l'utilisateur sont liées au {{ fr.VLT }}.
 ---
 
-{% snippet icon.badgeCaution %}
+{% snippet, "badgeCaution" %}
 Les options d'***exportation*** et d'***importation*** des ***paramètres spécifiques de l'utilisateur*** sont liées au {{ fr.VLT }}. Vous devez sélectionner le {{ fr.VLT }} à partir duquel ou dans lequel vous souhaitez exporter ou importer vos paramètres.
 {% endsnippet %}
 

@@ -4,11 +4,11 @@ eleventyComputed:
 ---
 Mit ***Gelöschte Einträge bereinigen*** werden Einträge endgültig gelöscht, sodass gelöschte Einträge nur dann wiederhergestellt werden können, wenn Sie zuvor eine Sicherung erstellt haben. Der Eintragsverlauf ist weiterhin unter Berichte – Aktivitätsprotokolle zu finden.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Diese Funktion erfordert eine [Erweiterte Datenquellen](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/).
 {% endsnippet %}
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Diese Aktion steht nur Administratoren zur Verfügung.
 {% endsnippet %}
 
@@ -20,7 +20,7 @@ Diese Aktion steht nur Administratoren zur Verfügung.
 1. Wählen Sie den ***Tresor*** aus dem die ***Gelöschten Einträge*** entfernt werden sollen.
 1. Klicken Sie auf ***OK***.
 ![Eintragsverlauf bereinigen](https://cdnweb.devolutions.net/docs/de/rdm/windows/RDMWin0003.png)
-   {% snippet icon.badgeWarning %}
+   {% snippet, "badgeWarning" %}
    Es wird keine Sicherungskopie der gelöschten Einträge angelegt. Wir empfehlen dringend, eine [Sicherung](/rdm/windows/commands/file/backup/) zu erstellen, bevor Sie fortfahren.
    {% endsnippet %}
 

@@ -11,12 +11,12 @@ Send a password through in-app secure messaging or email external contacts direc
 This feature needs the user to have ***Send messages with attachments*** enabled. This option can be found under ***Administration*** – ***Users***.
 ![Send messages with attachments](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub0013.png)
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 The ***External password sharing*** option also needs to be enabled for this feature to work. The option can be found under ***Administration*** – ***System Settings*** – ***Advanced***. It is enabled by default.
 {% endsnippet %}
 
 ## Features
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 [{{ en.DSEND_STANDALONE }}](https://devolutions.net/devolutions-send/) is also available if you do not have a license for one of our compatible products.
 {% endsnippet %}
 
@@ -47,7 +47,7 @@ This feature is covered in [***Secure messages***](/hub/web-interface/secure-mes
 ![Send by Email](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub0008.png)
 1. Enter the ***Recipient(s) Email***.
 1. Enter the information in the ***Secure Message*** field.
-   {% snippet icon.badgeInfo %}
+   {% snippet, "badgeInfo" %}
    A ***Passphrase*** may be added for additional security.
    {% endsnippet %}
 1. Click ***Submit***.
@@ -56,7 +56,7 @@ This feature is covered in [***Secure messages***](/hub/web-interface/secure-mes
 ### Create Shareable Link
 ![Create Shareable Link](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub0010.png)
 1. Enter the information in the ***Secure Message*** field.
-   {% snippet icon.badgeInfo %}
+   {% snippet, "badgeInfo" %}
    A ***Passphrase*** may be added for additional security.
    {% endsnippet %}
 1. Click on ***Create Link***.

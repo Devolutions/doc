@@ -20,7 +20,7 @@ Make sure that the installation of KeePass was successful.
 
 Delete all the RemoteDesktopManager.Connector.dll and RemoteDesktopManagerPlugin.dll files that you may have in the installation folder of KeePass.  
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 We have since then modified how Plug In functions, and these files should no longer exist.
 {% endsnippet %}
 
@@ -38,6 +38,6 @@ For this to work, you will need to have your ***Key Derivation function*** set t
 * Encryption AES/Rijndael
     * Argon2d  
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 If you are using a ***Keyfile*** it needs to be in v1.
 {% endsnippet %}

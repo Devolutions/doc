@@ -4,7 +4,7 @@ eleventyComputed:
 ---
 It is possible that the Azure AD cache stored in {{ en.DVLS }} is not properly loaded. Here are the steps to troubleshoot this problem.
 
-{% snippet icon.badgeCaution %}
+{% snippet, "badgeCaution" %}
 If you just activated the Microsoft Authentication option, it may take a while (about an hour) for the cache to load before being able to import users and user groups.
 {% endsnippet %}
 
@@ -17,7 +17,7 @@ If you just activated the Microsoft Authentication option, it may take a while (
 1. Go in ***Administration - Reset Server Cache*** and reset the ***Microsoft Authentication*** cache.
 ![!!KB5016](https://cdnweb.devolutions.net/docs/docs_en_kb_KB5016.png)
 1. In ***Reports - Data Source Logs***, monitor the logs until you get the ***Update Azure cache end*** log entry.
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 The process may take some time depending on the number of groups and users in Azure AD and their relationship.
 {% endsnippet %}
 

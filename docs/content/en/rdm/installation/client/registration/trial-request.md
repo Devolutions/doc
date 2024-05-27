@@ -5,7 +5,7 @@ eleventyComputed:
 ---
 If you are not ready to buy {{ en.RDM }}, you can use the [Free Edition](/rdm/windows/installation/client/registration/free-edition/) or follow the steps below to request a free 30-day trial to use the Team Edition.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 If you decide not to register by the end of the trial, your data will not be altered or erased, and you will have full access to it once you provide a license key.
 {% endsnippet %}
 
@@ -17,7 +17,7 @@ If you decide not to register by the end of the trial, your data will not be alt
 ![Add License](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin2236.png)
 1. Paste the trial license serial in the ***License*** field from step 2 or import the license file, then click ***OK***.
 1. Paste the license serial in the ***License*** field or import the license file using the ***Import*** button.
-   {% snippet icon.badgeInfo %}
+   {% snippet, "badgeInfo" %}
    If you need to register your license while offline (if internet is disabled or if for whatever reason you cannot reach the servers), you can only do it by importing the **.lic** file provided to you, which contains a JSON Web Token (JWT). The license file must be downloaded from the Devolutions confirmation email and imported as described in the steps above for {{ en.RDM }} 2023.3 and later.
    {% endsnippet %}
 

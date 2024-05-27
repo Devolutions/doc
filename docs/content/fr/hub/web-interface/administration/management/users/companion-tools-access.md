@@ -3,7 +3,7 @@ eleventyComputed:
   title: Accès aux {{ fr.CTOOLS }}
 ---
 En tant qu'administrateur de votre {{ fr.DHUBB }}, vous pouvez désactiver ou activer l'utilisation des {{ fr.CTOOLS }} pour des utilisateurs spécifiques qui ne sont pas des administrateurs.
-{% snippet icon.badgeNotice %}
+{% snippet, "badgeNotice" %}
 Pour réduire le nombre de demandes de renseignements de la part de vos utilisateurs, nous vous recommandons de les informer avant de modifier leur accès à {{ fr.DHUB }} via leurs {{ fr.CTOOLS }}, surtout si vous désactivez leur accès.
 {% endsnippet %}
 

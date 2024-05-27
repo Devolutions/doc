@@ -9,7 +9,7 @@ This option makes it possible to support Active Directory domain accounts in {{ 
 1. Go to ***Administration*** – ***Privileged Access*** – ***Providers***.
 1. Click ***Edit*** on an already configured ***Domain Provider***.
 ![Edit](https://cdnweb.devolutions.net/docs/docs_en_kb_KB0160.png)
-   {% snippet icon.badgeHelp %}
+   {% snippet, "badgeHelp" %}
    Read more about [Domain Providers](/server/privileged-access-management/providers/domain-provider/).
    {% endsnippet %}
 

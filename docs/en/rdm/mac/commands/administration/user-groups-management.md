@@ -7,7 +7,7 @@ eleventyComputed:
 User Groups in {{ en.RDMMAC }} are mainly used to reduce the time taken to manage users. The management of permissions granted to user groups are quite similar to the corresponding notions for users, but instead of a single user, they apply to all users to which you have assigned the user groups.
 ![Administration - User Groups](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10396.png)
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 This feature is only available with an [SQL Server](/rdm/mac/data-sources/data-sources-types/advanced-data-sources/microsoft-sql-server/) and a [{{ en.DVLS }}](/rdm/mac/data-sources/data-sources-types/advanced-data-sources/server/) data source.
 {% endsnippet %}
 
@@ -66,7 +66,7 @@ It is possible to assign a user group to multiple users at the same time. Select
 ### User groups in {{ en.DVLS }}
 User groups in {{ en.DVLS }} are in fact links to Active Directory groups. By leveraging Active Directory integration you can easily define access rights for all domain users in your organization. Once a domain user log in the {{ en.DVLS }} data source, their user account will be created if needed and users rights will be controlled by the defined groups.
 
-{% snippet icon.shieldWarning %}
+{% snippet, "shieldWarning" %}
 Please note that the Unsecured group permissions (the ones above the grid) are ignored. You must set them on each user individually.
 {% endsnippet %}
 

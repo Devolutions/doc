@@ -4,7 +4,7 @@ eleventyComputed:
 ---
 Vous devrez peut-être restaurer une sauvegarde de votre [{{ fr.DOD }}](/fr/rdm/mac/data-sources/data-sources-types/online-drive/), [SQLite](/fr/rdm/mac/data-sources/data-sources-types/sqlite/) ou une source de données [XML](/fr/rdm/mac/data-sources/data-sources-types/xml/) à un moment donné. L'option de restauration est accessible depuis le menu ***Fichier - Copie de sauvegarde - Restaurer***.
 
-{% snippet icon.shieldCaution %}
+{% snippet, "shieldCaution" %}
 Avant de pouvoir restaurer une sauvegarde, vous ***DEVEZ*** créer une source de données vide et définir le nom de la sauvegarde avant de pouvoir l'utiliser. Une étape rapide est écrite ci-dessous :
 
 * Créer un nouveau [{{ fr.DOD }}](/fr/rdm/mac/data-sources/data-sources-types/online-drive/), [SQLite](/fr/rdm/mac/data-sources/data-sources-types/sqlite/) ou une source de données [XML](/fr/rdm/mac/data-sources/data-sources-types/xml/) dans ***Fichier - Sources de données***.

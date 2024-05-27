@@ -5,7 +5,7 @@ eleventyComputed:
 ---
 This topic serves as a reference for general information on {{ en.DGW }} recording.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 The recording format is WebM and the file size is around 15 kb/s, depending on compression.
 {% endsnippet %}
 

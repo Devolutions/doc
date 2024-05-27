@@ -169,6 +169,6 @@ Ouvrir une fenêtre pour accéder à vos journaux locaux.
 	</tr>
 </table>
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Bien qu'ils soient affichés par défaut dans une fenêtre, tous ces volets peuvent être glissés et ancrés n'importe où dans {{ fr.RDMMAC }}.
 {% endsnippet %}

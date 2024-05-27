@@ -6,7 +6,7 @@ eleventyComputed:
 ---
 Here is a list of steps to help you get started with {{ en.DHUBB }} for your team environment.  
 
-{% snippet icon.badgeInfo %} 
+{% snippet, "badgeInfo" %} 
 Start your [free {{ en.DHUBB }} trial](https://password.devolutions.net/business/sign-up) today! 
 {% endsnippet %}  
 

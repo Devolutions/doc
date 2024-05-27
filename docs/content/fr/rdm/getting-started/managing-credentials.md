@@ -5,7 +5,7 @@ eleventyComputed:
 ---
 Selon les politiques de sécurité de votre organisation, il existe plusieurs façons de gérer les identifiants. Nous pouvons gérer un large éventail de scénarios; les plus populaires sont listés ci-dessous. Il est essentiel de comprendre que ce sont les identifiants utilisés pour se connecter à des hôtes distants, et non pas celles que vous utilisez pour lancer {{ fr.RDM }}. 
 
-{% snippet icon.badgeInfo %} 
+{% snippet, "badgeInfo" %} 
 La plupart de ces sélections n'existent pas dans l'édition Free de {{ fr.RDM }}, car elles dépendent des fonctionnalités offertes par une [Source de données avancée](/fr/rdm/windows/data-sources/data-sources-types/advanced-data-sources/). 
 {% endsnippet %}
  

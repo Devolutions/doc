@@ -10,7 +10,7 @@ Restart {{ en.RDM }} to apply the change.
 
 ![File – Settings – Types – Remote Desktop – API hooking](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4969.png)
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Since {{ en.RDM }} 2022.3.23, a policy, EnableRDPHooking, has been added that overrides the ***Enable API hooking*** setting. If it is not configured (no registry key), the value from the {{ en.RDM }} option will be used. A value of "0" indicates that RDP hooking is disabled, while a value different than "0" indicates that RDP hooking is enabled. This enables the administrator to force either setting or allow the local configuration to be effective.
 
 See all policies including this one in [Apply policies](/kb/remote-desktop-manager/how-to-articles/group-policies/).

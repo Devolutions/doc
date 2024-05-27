@@ -4,11 +4,11 @@ eleventyComputed:
 ---
 ***Mettre hors-ligne*** se connecte à une copie locale de la source de données lorsque la source de données n'est pas disponible. Cela peut être utilisé lorsqu'un utilisateur travaille à partir d'un réseau déconnecté ou lorsqu'il existe des problèmes de connectivité avec la source de données.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Certains paramètres de la source de données et du compte d'usagers peuvent vous empêcher d'utiliser le Mode hors connexion. Demandez à votre administrateur si le menu n'est pas visible.
 {% endsnippet %}
 
-{% snippet icon.shieldCaution %}
+{% snippet, "shieldCaution" %}
 Il y a des considérations de sécurité à prendre en compte lors de l'activation du mode hors ligne.
 {% endsnippet %}
 

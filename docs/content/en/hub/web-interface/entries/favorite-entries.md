@@ -3,7 +3,7 @@ eleventyComputed:
   title: Favorite entries
   description: Favorite entries in {{ en.DHUB }}
 ---
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Favorite entries are shared between {{ en.RDM }} and {{ en.WS }} ({{ en.WAPPS }} and {{ en.WBEX }}).
 {% endsnippet %}
 

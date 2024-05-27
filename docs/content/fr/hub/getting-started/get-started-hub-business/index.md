@@ -6,7 +6,7 @@ eleventyComputed:
 ---
 Voici une liste d'étapes pour vous aider à démarrer avec {{ fr.DHUBB }} pour votre équipe. 
 
-{% snippet icon.badgeInfo %} 
+{% snippet, "badgeInfo" %} 
 Commencez votre [essai gratuit de {{ fr.DHUBB }}](https://devolutions.net/password-hub/fr/business/sign-up) dès aujourd'hui! 
 {% endsnippet %}  
  

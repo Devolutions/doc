@@ -59,7 +59,7 @@ $content.operation.result.Message
 }
 ```
 Pause
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 The port is hard-coded in the script to 7272, which is the default value for Password Manager Pro. Adapt it to your environment
 {% endsnippet %}
 

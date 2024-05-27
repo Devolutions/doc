@@ -5,11 +5,11 @@ eleventyComputed:
 ---
 The ***Administration – Deleted Entries*** option allows you to view the deleted entries as well as restoring them.  
 
-{% snippet icon.badgeInfo %} 
+{% snippet, "badgeInfo" %} 
 This feature requires an [Advanced Data Source](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/). 
 {% endsnippet %}
  
-{% snippet icon.badgeInfo %} 
+{% snippet, "badgeInfo" %} 
 Administrators can permanently delete some or all deleted entries. 
 {% endsnippet %} 
 
@@ -26,7 +26,7 @@ The ***Deleted Entries*** will generate a list containing all the entries previo
 | Restore Entry| Use this button to restore an entry.          |
 | Delete All   | Permanently delete all the deleted entries.   |
 
-{% snippet icon.badgeNotice %} 
+{% snippet, "badgeNotice" %} 
 Deleted entries can be restored as long as the [Security Provider](/rdm/commands/administration/security/security-providers/) has not been changed since the deleted action. 
 {% endsnippet %}
  

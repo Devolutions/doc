@@ -31,11 +31,11 @@ Microsoft Azure SQL propose différents niveaux de service dans son modèle d'ac
 * Prise en charge du [mode hors ligne](/fr/rdm/windows/data-sources/offline-mode/) lorsque le réseau ou le serveur n'est pas disponible.
 * Prise en charge des journaux de connexions et des pièces jointes.
 
-{% snippet icon.badgeHelp %}
+{% snippet, "badgeHelp" %}
 Obtenez plus de détails sur [Microsoft Azure SQL](https://azure.microsoft.com/fr-ca/products/azure-sql/database/).
 {% endsnippet %}
 
-{% snippet icon.badgeWarning %}
+{% snippet, "badgeWarning" %}
 Une stratégie de sauvegarde de base de données appropriée doit être mise en œuvre pour minimiser les pertes de données possibles.
 {% endsnippet %}
 

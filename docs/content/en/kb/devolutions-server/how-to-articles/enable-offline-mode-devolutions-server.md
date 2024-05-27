@@ -14,6 +14,6 @@ eleventyComputed:
 1. In the edit menu, click on ***Settings***, and select the appropriate offline mode.
 ![Settings – Offline mode](https://cdnweb.devolutions.net/docs/DVLS4021_2024_1.png)
 
-{% snippet icon.badgeNotice %}
+{% snippet, "badgeNotice" %}
 Ensure that the users or groups have the necessary permissions to operate with reduced connectivity, and regularly update and synchronize settings when connectivity is available to maintain security and functionality.
 {% endsnippet %}

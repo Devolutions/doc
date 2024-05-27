@@ -6,7 +6,7 @@ Les ***Paramètres du système*** sont disponibles dans ***Administration - Para
 
 Les ***Paramètres du système*** vous permettent de contrôler de nombreux aspects globaux de la source de données, tels que le mode hors ligne, les politiques de mot de passe et la gestion des versions. Vous pouvez définir des stratégies générales applicables à l'ensemble de la source de données.
 
-{% snippet icon.shieldCaution %}
+{% snippet, "shieldCaution" %}
 Ces paramètres s'appliquent à tous les utilisateurs qui ont accès à la source de données.
 {% endsnippet %}
 

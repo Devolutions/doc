@@ -8,7 +8,7 @@ Pour localiser le propriétaire actuel, rechercher l'icône de la couronne à c�
 
 Pour modifier le propriétaire, cliquer sur l'icône ***Définir comme propriétaire*** à côté de l'administrateur sélectionné.
 
-{% snippet icon.badgeCaution %}
+{% snippet, "badgeCaution" %}
 Vous ne pouvez avoir qu'un seul propriétaire à la fois et seul un administrateur peut être propriétaire.
 {% endsnippet %}
 

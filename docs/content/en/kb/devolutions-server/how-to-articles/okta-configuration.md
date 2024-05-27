@@ -49,11 +49,11 @@ In this topic we will assume that your instance of {{ en.DVLS }} is configured i
 ![!!KB4195](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4195.png)
 1. Once created, copy the ***Token Value*** in a safe place.
 
-{% snippet icon.badgeCaution %}
+{% snippet, "badgeCaution" %}
 If you do not copy the ***Token Value***, you will not be able to find it afterward. You will have to create a new one.
 {% endsnippet %}
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 The token inherits the rights of the user who creates it. This is important because your user must be able to list groups and users. Okta recommends the creation of a ***Service user*** for the creation of Api tokens. You can read more on the subject on Okta's website from [Create an API token](https://developer.okta.com/docs/guides/create-an-api-token/main/).
 {% endsnippet %}
 
@@ -70,7 +70,7 @@ Once the application and Api token are created, you can configure the {{ en.DVLS
 ![!!KB4229](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4229.png)
 1. Optional: You can input an information in the ***Display Name*** field. This will be replacing the word ***Okta*** in the login page.
 1. In the ***Authentication Configuration*** section, enter your Okta ***Domain***.
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 To find your ***Domain*** go to your Okta account. In the top right corner of the screen, click on your user menu. Your domain should be visible.
 {% endsnippet %}
 

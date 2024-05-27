@@ -47,7 +47,7 @@ These limitations make it impossible to use multiple VPN clients concurrently on
 
 1. Create an ***RDP*** entry for the ***Jump Host***.
 1. Fill the entry with a ***Name***, ***Host*** and the ***Credentials***.
-   {% snippet icon.badgeCaution %}
+   {% snippet, "badgeCaution" %}
    For ***Jumps*** to work, you need to supply the credentials via the ***Jump Host*** session. If the RDP sessions prompt you for the credentials after the start, the ***Jump*** will fail.
    {% endsnippet %}
 
@@ -58,7 +58,7 @@ These limitations make it impossible to use multiple VPN clients concurrently on
 1. Click ***OK***.
 1. Launch the ***Jump Host*** session.
 1. Install {{ en.RDM }} on the ***Jump Host***.
-   {% snippet icon.badgeNotice %}
+   {% snippet, "badgeNotice" %}
    The ***Jump Host*** acts as a relay between the local and the remote systems, allowing to use the {{ en.RDM }} license that has been used on the local workstation to register the application on the ***Jump Host***.
 
    Install {{ en.RDM }} on the ***Jump Host***, perform your first jump and {{ en.RDM }} will be unlocked/licensed automatically via the jump communication/handshake.
@@ -68,7 +68,7 @@ These limitations make it impossible to use multiple VPN clients concurrently on
 
 1. Confirm {{ en.RDMA }} is started and set to ***Auto Start***.
 
-   {% snippet icon.badgeCaution %}
+   {% snippet, "badgeCaution" %}
    ***Auto Start*** must only be activated for the {{ en.RDMA }} or {{ en.RDM }} but not for both. In the case where {{ en.RDM }} is set to ***Auto Start*** please make sure to delete the shortcuts form either/both the following locations:
 
    * Run: shell:startup
@@ -90,7 +90,7 @@ These limitations make it impossible to use multiple VPN clients concurrently on
     * Hide the ***{{ en.NPANE }}*** in the ***View*** tab.
     * Hide the ***Ribbon*** in the ***View*** tab.
         * To show the ***Ribbon*** again, click the {{ en.RDM }} icon at the top left corner.
-   {% snippet icon.badgeNotice %}
+   {% snippet, "badgeNotice" %}
    To reset the layout, in the ***Window*** tab, click ***Reset Layout***.
    {% endsnippet %}
 

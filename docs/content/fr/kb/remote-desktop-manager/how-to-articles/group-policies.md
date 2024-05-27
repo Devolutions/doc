@@ -11,7 +11,7 @@ eleventyComputed:
 ---
 Administrative Templates facilitate the management of registry-based policy settings, which can be applied on the computer and/or user configuration. Group policy (GPO) is a tool that enables your organization to enforce global settings on all computers, and at the same time, harden {{ en.RDM }} security.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Administrative Templates are registry settings that are enforced by domains. They contain registry keys that can also be set on computers that are not joined to domains. In this case, however, proper Access Control Lists (ACLs) must be put in place to prevent users from modifying registry settings. Refer to the tables below to find the registry key for each policy setting.
 {% endsnippet %}
 
@@ -19,7 +19,7 @@ To learn more on how to deploy the {{ en.RDM }} Administrative Templates on your
 
 ## List {{ en.RDM }} GPOs in the Local Group Policy Editor
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 For now, the additional support is exclusively for the policies that require a numerical input higher than 0-1 (ex: ForceLockOnIdle).
 {% endsnippet %}
 

@@ -10,7 +10,7 @@ In {{ en.DVLS }}, [users can request access to a public {{ en.VLT }}](/server/we
 
 ***{{ en.VLT_MAJ }} Access Requests*** can be viewed using the ***Messages*** button.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 If there is a {{ en.VLT }} owner for the requested {{ en.VLT }}, the administrator will not receive a ***Message***.
 {% endsnippet %}
 

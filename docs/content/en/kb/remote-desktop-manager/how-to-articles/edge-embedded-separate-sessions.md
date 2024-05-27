@@ -10,7 +10,7 @@ It is possible to use multiple Edge website entries that each use different cred
 
 ## Steps
 1. Go into the ***Properties*** of a ***Website*** entry.
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Make certain the ***Display*** option is set to ***Embedded (tabbed)***, or these steps may not work.
 {% endsnippet %}
 

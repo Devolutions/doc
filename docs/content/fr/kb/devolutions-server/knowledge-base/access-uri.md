@@ -2,7 +2,7 @@
 eleventyComputed:
   title: URI d'accès
 ---
-{% snippet icon.badgeCaution %}
+{% snippet, "badgeCaution" %}
 Ce problème concerne la mise à niveau d'une version antérieure à 2022.1 vers 2022.2.
 {% endsnippet %}
 
@@ -10,11 +10,11 @@ Lors de l’installation ou de la mise à jour de {{ fr.DVLS }}, nous devons fou
 ## Paramètres
 1. Dans la {{ fr.DVLSCONSOLE }} aller dans ***Serveur – Modifier – IIS***.
 1. Saisir L'***Uri d'accès*** dans le champ de texte en suivant le format fourni dans les <a href="#scenarios">Scénarios</a>.
-{% snippet icon.badgeNotice %}
+{% snippet, "badgeNotice" %}
 L’URI d’accès respecte la casse et doit respecter le nom d’hôte du certificat. Assurez-vous qu’il n’y a pas de « / » à la fin de l’URL.
 {% endsnippet %}
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Il peut y avoir plus d'un ***Uri d'accès***. Cliquer sur le bouton ellipses pour ajouter ou gérer des ***Uri d'accès*** supplémentaires.
 {% endsnippet %}
 

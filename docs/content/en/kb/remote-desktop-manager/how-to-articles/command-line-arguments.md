@@ -6,7 +6,7 @@ eleventyComputed:
 
 {{ en.RDM }} can be launched using a command line.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Some features are only available in the Team Edition. {{ en.RDM }} also offers a Web Protocol Handler.
 {% endsnippet %}
 

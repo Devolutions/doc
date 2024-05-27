@@ -17,7 +17,7 @@ It is possible to create local and database templates.
 * Local templates are saved in the {{ en.RDM }} configuration file. They are available only to the current user of the machine.
 * Database templates are saved in the database. They are available to all users of the data source.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 By default, standard users cannot create or manage templates. To allow users to create or manage templates, the permission must be granted to users using the ***Administration*** – ***Templates*** section of the [system permissions](/rdm/commands/administration/security/system-permissions/).
 {% endsnippet %}
 

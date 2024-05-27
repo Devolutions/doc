@@ -3,10 +3,10 @@ eleventyComputed:
   title: Enable Temporary Access Notifications
 ---
 Enable automatic email notifications for temporary access requests with {{ en.RDM }}. When activated, a temporary access request will send an email notification to the authorizer. The user which initiated the request will receive a confirmation email with the authorizer's decision.
-{% snippet icon.badgeCaution %}
+{% snippet, "badgeCaution" %}
 This functionality will only work in combination with a [{{ en.DA }}](/cloud/devolutions-account/create-devolutions-account/) email.
 {% endsnippet %}
-{% snippet icon.badgeCaution %}
+{% snippet, "badgeCaution" %}
 This notification is only available for the Microsoft SQL Server and Microsoft Azure SQL advanced data sources.
 {% endsnippet %}
 

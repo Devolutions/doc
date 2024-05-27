@@ -6,7 +6,7 @@ Le paquet d'installation actuelle de {{ fr.RDM }} nécessite une installation av
 
 ## Procédure 
 
-{% snippet icon.badgeWarning %} 
+{% snippet, "badgeWarning" %} 
 Cette procédure enregistre toutes les associations de types de fichiers, cela signifie que les fichiers RDP seront désormais ouverts avec {{ fr.RDM }}. Si vous souhaitez éviter cela, installez manuellement en utilisant le mode Personnalisé et choisissez chaque option sauf l'association RDP. 
 {% endsnippet %}
  

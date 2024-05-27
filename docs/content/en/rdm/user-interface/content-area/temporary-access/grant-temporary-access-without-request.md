@@ -4,7 +4,7 @@ eleventyComputed:
   order: 30
   description: Approvers can grant Temporary Access without request to a user and even if the user already has access.
 ---
-{% snippet icon.badgeNotice %}
+{% snippet, "badgeNotice" %}
 To learn how to approve or deny a request, visit [Approve temporary access to an entry in {{ en.RDM }}](/rdm/windows/user-interface/content-area/temporary-access/approve-temporary-access/).
 {% endsnippet %}
 

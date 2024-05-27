@@ -3,11 +3,11 @@ eleventyComputed:
   title: Configure SQL Server
 ---
 1. Install Microsoft SQL Server or Microsoft SQL Server Express.
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Newly installed Microsoft SQL Server instances do not allow remote connections. Please follow the directions in SQL Server.
 {% endsnippet %}
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 For added security, you can enable SSL Encryption to communicate with your instance of SQL Server. However, due to a framework limitation, this is not compatible with our iOS and Android versions of {{ en.RDM }}.
 Please follow directions on [Configure SQL Server Database Engine for encrypting connections](https://learn.microsoft.com/en-US/sql/database-engine/configure-windows/configure-sql-server-encryption).
 {% endsnippet %}
@@ -16,13 +16,13 @@ Please follow directions on [Configure SQL Server Database Engine for encrypting
 1. Select the ***Upgrade*** tab and click the ***Create Database*** button. If the database is already created on the Microsoft SQL Server, click the ***Update Database*** button to add the appropriate tables to the database.
 ![Upgrade Tab](https://cdnweb.devolutions.net/docs/RDMW4024_2024_1.png)
 1. Once the database is created, create an administrator account for the database via the ***Administration – Users*** menu.
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 If the database is created using a system administrator (example: SA), we recommend to keep this user only for the database creation and the [database upgrade](/rdm/windows/installation/database-upgrade/). A {{ en.RDM }} administrator account must be created first. Then, regular users are created with this administrator account.
 {% endsnippet %}
 
 ![Create a {{ en.RDM }} Administrator Account](https://cdnweb.devolutions.net/docs/RDMW4025_2024_1.png)
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Note that {{ en.RDMLINUX }} was not intended to support the Integrated Security authentication mode. As such, it is not recommended to use this feature.
 {% endsnippet %}
 

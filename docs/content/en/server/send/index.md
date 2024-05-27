@@ -9,14 +9,14 @@ eleventyComputed:
 Send a password through in-app secure messaging or email external contacts directly from an entry. Create a shareable link to send secrets outside your organization securely.
 
 This feature needs {{ en.DVLS }} to have ***SMTP*** configured. This option can be found under ***Administration*** – ***Server Settings*** – ***Email***.
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Additionally, ***Allow users to send password with {{ en.DSEND }}*** needs to be enabled. This option can be found under ***Administration*** – ***Server Settings*** – ***Features***. It is enabled by default.
 {% endsnippet %}
 
 ![Allow users to send password with {{ en.DSEND }}](https://cdnweb.devolutions.net/docs/DVLS0000_2024_1.png)
 
 ## Features
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 [{{ en.DSEND_STANDALONE }}](https://devolutions.net/devolutions-send/) is also available if you do not have a license for one of our compatible products.
 {% endsnippet %}
 
@@ -47,7 +47,7 @@ This feature is covered in [***Secure messages***](/server/web-interface/message
 ![Send by Email](https://cdnweb.devolutions.net/docs/DVLS0003_2024_1.png)
 1. Enter the recipient(s) email in the ***To*** field.
 1. Enter the information in the ***Secure Message*** field.
-   {% snippet icon.badgeInfo %}
+   {% snippet, "badgeInfo" %}
    A ***Passphrase*** may be added for additional security.
    {% endsnippet %}
 1. Click ***Send by email***.
@@ -56,7 +56,7 @@ This feature is covered in [***Secure messages***](/server/web-interface/message
 ### Create Shareable Link
 ![Create Shareable Link](https://cdnweb.devolutions.net/docs/DVLS0004_2024_1.png)
 1. Enter the information in the ***Secure Message*** field.
-   {% snippet icon.badgeInfo %}
+   {% snippet, "badgeInfo" %}
    A ***Passphrase*** may be added for additional security.
    {% endsnippet %}
 1. Click on ***Create link***.

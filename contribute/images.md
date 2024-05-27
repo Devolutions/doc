@@ -22,6 +22,6 @@ To send us your image(s), [create an issue](https://github.com/Devolutions/doc/i
 * the location where you would like to it added (if applicable).
 * any other information you find useful.
 
-{% snippet icon.badgeNotice %}
+{% snippet, "badgeNotice" %}
 Before submitting the issue, make sure you have attached the image(s) to the issue.
 {% endsnippet %}  

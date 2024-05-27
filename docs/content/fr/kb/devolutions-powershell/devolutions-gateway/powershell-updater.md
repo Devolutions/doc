@@ -7,7 +7,7 @@ eleventyComputed:
 ---
 This PowerShell script is meant to be registered as a scheduled task that runs once a day to check for updates, download and then install them. This script is especially useful when using multiple gateways as it saves a lot of time.
 
-{% snippet icon.badgeHelp %}
+{% snippet, "badgeHelp" %}
 Read this [GitHub](https://github.com/Devolutions/devolutions-gateway/blob/master/tools/updater/README.md) page for more details.
 {% endsnippet %}  
 
@@ -37,12 +37,12 @@ TaskName                                 Next Run Time          Status
 Devolutions Gateway Updater              Date     3:00:00 AM    Ready
 ```
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 The updater automatically downloads the installer if there is a new version is available, then checks the file hash before running it silently.
 {% endsnippet %}
 
 ## Uninstalling
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 This will unregister the scheduled task and delete the GatewayUpdater.ps1 script from the path used in the command.
 {% endsnippet %}  
 

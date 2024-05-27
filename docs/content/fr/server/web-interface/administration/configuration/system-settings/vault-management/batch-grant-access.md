@@ -32,7 +32,7 @@ Dans les paramètres des permissions, vous pouvez définir la façon dont les pe
 
 Ensuite, vous pouvez sélectionner les permissions qui sont affectées par vos choix précédents. Vous pouvez afficher soit ***Toutes les permissions*** ou les ***Ensembles de permissions*** créés précédemment (ou ceux créés par défaut).
 
-{% snippet icon.badgeHelp %}
+{% snippet, "badgeHelp" %}
 Les ensembles de permissions sont créés et configurés dans ***Administration – Paramètres du système – Gestion des {{ fr.VLT }}s – Ensemble de permissions***. Pour davantage d'information, voir [Ensembles de permissions](/fr/server/web-interface/administration/configuration/system-settings/vault-management/permission-sets/).
 {% endsnippet %}
 

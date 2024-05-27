@@ -7,7 +7,7 @@ Lorsqu'une nouvelle version du {{ fr.WBEX }} est sur le point de sortir, une ver
 
 Sur cette page sont consignées les instructions pour installer une version préliminaire du {{ fr.WBEX }} sur les navigateurs [Chrome](#chrome), [Firefox](#firefox), [Opera](#opera) et [Safari](#safari).
 
-{% snippet icon.badgeInfo %} 
+{% snippet, "badgeInfo" %} 
 X.X.X.X correspond au numéro de la version (p. ex., 2023.2.1.0).
 {% endsnippet %}
  
@@ -34,7 +34,7 @@ Et le tour est joué!
 
 Et le tour est joué! 
 
-{% snippet icon.badgeCaution %} 
+{% snippet, "badgeCaution" %} 
 Le module temporaire sera automatiquement supprimé à la fermeture de Firefox. Il vous faudra l’ajouter à nouveau à la prochaine ouverture du navigateur. 
 {% endsnippet %}
  
@@ -49,7 +49,7 @@ Et le tour est joué!
 
 ## Safari 
 
-{% snippet icon.badgeCaution %} 
+{% snippet, "badgeCaution" %} 
 La version 16 ou ultérieure de Safari est requise. 
 {% endsnippet %}
 
@@ -64,7 +64,7 @@ La version 16 ou ultérieure de Safari est requise.
    1. Cocher la case ***Afficher les fonctionnalités de développement Web***.
    1. Sélectionner l'onglet ***Développement***.
    1. Cocher la case ***Autoriser les extensions non signées***.
-   {% snippet icon.badgeCaution %}
+   {% snippet, "badgeCaution" %}
    Le réglage ***Autoriser les extensions non signées*** se réinitialise lorsque vous quittez Safari; réglez-le à nouveau la prochaine fois que vous lancerez Safari.
    {% endsnippet %}  
 
@@ -83,7 +83,7 @@ La version 16 ou ultérieure de Safari est requise.
 
 Et le tour est joué! 
 
-{% snippet icon.badgeHelp %}
+{% snippet, "badgeHelp" %}
 Source (EN) : [Running your Safari Web extension - Configure Safari in macOS to run unsigned extensions](https://developer.apple.com/documentation/safariservices/safari_web_extensions/running_your_safari_web_extension#3744467)
 {% endsnippet %}
 
@@ -97,7 +97,7 @@ Source (EN) : [Running your Safari Web extension - Configure Safari in macOS to 
    1. Cocher la case ***Afficher le menu Développement dans la barre des menus***.
    1. Dans la barre des menus, accéder à l'onglet ***Développement***.
    1. Cliquer sur ***Autoriser les extensions non signées***.
-   {% snippet icon.badgeCaution %}
+   {% snippet, "badgeCaution" %}
    Le réglage ***Autoriser les extensions non signées*** se réinitialise lorsque vous quittez Safari; réglez-le à nouveau la prochaine fois que vous lancerez Safari.
    {% endsnippet %}  
 
@@ -109,6 +109,6 @@ Source (EN) : [Running your Safari Web extension - Configure Safari in macOS to 
 
 Et le tour est joué! 
 
-{% snippet icon.badgeHelp %}
+{% snippet, "badgeHelp" %}
 Source (EN) : [Running your Safari Web extension - Configure Safari in macOS to run unsigned extensions](https://developer.apple.com/documentation/safariservices/safari_web_extensions/running_your_safari_web_extension#3744467)
 {% endsnippet %}

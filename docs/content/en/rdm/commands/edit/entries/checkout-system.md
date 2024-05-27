@@ -11,15 +11,15 @@ The checkout system can be enabled for ***Sessions***, ***Documents***, ***Crede
 
 You can set the check out mode at the {{ en.VLT }}, folder or entry level.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 This feature is only available when using [SQL Server](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/microsoft-sql-server/) or [{{ en.DVLS }}](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/server/) data sources.
 {% endsnippet %}
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Administrators can set ***Automatic check in after*** a number of minutes in ***Administration – System Settings – {{ en.VLT_MAJ }}***.
 {% endsnippet %}
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Administrators can force ***Check In*** entries that are ***Check Out*** by other users. Right-click the entry that is check out, click ***Check In***.
 {% endsnippet %}
 

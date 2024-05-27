@@ -3,11 +3,11 @@ eleventyComputed:
   title: Advanced security
   status: Topic available in German language
 ---
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 This feature is only available when using an [Advanced Data Source](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/).
 {% endsnippet %}
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 The following scenario is designed for large enterprises. For a scenario more suited for small enterprises, please consult our [Simplified Security](/rdm/windows/user-groups-based-access-control/scenarios/simplified-security/) scenario.
 {% endsnippet %}
 
@@ -126,7 +126,7 @@ The last step for the Telemark child items is to set the ***View*** permission t
 * ***View password: Inherited***; Never inherited from {{ en.VLT }}. Only administrators can view password.
 * ***View sensitive information: Inherited***; Never inherited from {{ en.VLT }}. Only administrators can view sensitive information.
 
-{% snippet icon.shieldCaution %}
+{% snippet, "shieldCaution" %}
 Every time a new folder is added as a child of the Telemark folder, the ***View*** permission must be set for ServiceDesk and/or HelpDesk to hide the new folder and its content from the Consultants.
 {% endsnippet %}
 

@@ -5,7 +5,7 @@ eleventyComputed:
 ---
 To prevent your computer from being overloaded by background tasks, such as Synchronizer, perform these tasks on centralized servers.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 These instructions are for team data sources
 {% endsnippet %}
 

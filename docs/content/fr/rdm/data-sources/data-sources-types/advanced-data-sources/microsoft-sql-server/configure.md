@@ -3,11 +3,11 @@ eleventyComputed:
   title: Configurer SQL Server
 ---
 1. Installer SQL Server ou SQL Server Express.
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Les instances SQL Server nouvellement installées n'autorisent pas les connexions à distance. Veuillez suivre les instructions de SQL Server.
 {% endsnippet %}
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Pour plus de sécurité, vous pouvez activer le cryptage SSL pour communiquer avec votre instance de SQL Server. Cependant, en raison d'une limitation du cadre, cela n'est pas compatible avec nos versions iOS et Android de {{ fr.RDM }}. Veuillez suivre les instructions sur [https://learn.microsoft.com/fr-fr/sql/database-engine/configure-windows/configure-sql-server-encryption?view=sql-server-ver16](https://learn.microsoft.com/fr-fr/sql/database-engine/configure-windows/configure-sql-server-encryption?view=sql-server-ver16)
 {% endsnippet %}
 
@@ -22,7 +22,7 @@ Pour plus de sécurité, vous pouvez activer le cryptage SSL pour communiquer av
 1. Sélectionner l'onglet ***Mise à niveau*** et cliquer sur le bouton ***Créer une base de données***. Si la base de données est déjà créée sur Microsoft SQL Server, cliquer sur le bouton ***Mettre à jour la base de données*** pour ajouter les tables appropriées à la base de données.
 ![Mise à niveau](https://cdnweb.devolutions.net/docs/fr/rdm/windows/clip11360.png)
 1. Une fois la base de données créée, créez un compte d'administrateur {{ fr.RDM }} via le menu ***Administration – Utilisateurs***.
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Si votre base de données a été créée à l'aide d'un Super Utilisateur (exemple : SA), nous vous recommandons de conserver cet utilisateur uniquement pour la création de la base de données et/ou pour la mise à niveau de la base de données. Un compte administrateur {{ fr.RDM }} doit d'abord être créé, puis les utilisateurs doivent être créés avec ce compte administrateur {{ fr.RDM }}.
 {% endsnippet %}
 

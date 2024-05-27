@@ -9,11 +9,11 @@ Dans le volet navigation, sélectionner l'entrée que vous souhaitez remplacer, 
 
 ## Paramètres
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Cette fonctionnalité n'est disponible que lors de l'utilisation d'une [Source de données avancée](/fr/rdm/mac/data-sources/data-sources-types/advanced-data-sources/). Un paramètre sur la source de données permet l'utilisation des paramètres spécifiques à la machine locale. Contacter votre administrateur si le menu est grisé.
 {% endsnippet %}
 
-{% snippet icon.badgeCaution %}
+{% snippet, "badgeCaution" %}
 Si les ***Paramètres spécifiques de l'usager et locaux*** sont définis sur la même entrée, les ***Paramètres spécifiques locaux*** sont prioritaires.
 {% endsnippet %}
 

@@ -25,7 +25,7 @@ The ***Database*** tab section contains the information of the SQL Server, the S
 
 ### Credentials
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Note that the Integrated Security or Credentials settings affect how the {{ en.DVLS }} communicates with the SQL database. These options do not have any impact on how users will authenticate on the {{ en.DVLS }} instance.
 {% endsnippet %}
 

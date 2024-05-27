@@ -7,7 +7,7 @@ eleventyComputed:
 ---
 The ***Advanced Credentials*** are used to allow {{ en.DVLS }} to communicate with the SQL database.
 
-{% snippet icon.badgeCaution %}
+{% snippet, "badgeCaution" %}
 Only SQL login accounts can be manually configured. With the ***Authentication type*** set to ***Windows Authentication*** the accounts are automatically pulled from the ***Scheduler Service*** and the IIS Application Pool Identity.
 {% endsnippet %}
 

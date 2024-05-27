@@ -7,7 +7,7 @@ This information below applies to installations with data sources that are using
 
 Some {{ en.RDMMAC }} releases must alter the database structure. These are performed automatically for you but it is a best practice to perform a backup of your data source beforehand. Additionally, if you are in a team environment, you must be the sole user connected to the database during the upgrade.
 
-{% snippet icon.badgeWarning %}
+{% snippet, "badgeWarning" %}
 Key points to consider:
 * The user performing the actions on this screen must have administrative privileges on the database management system. You must also be SYSDBA or DB_OWNER.
 * Perform a database backup and ensure that you can quickly perform a restore if the need arises.

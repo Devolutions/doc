@@ -8,7 +8,7 @@ eleventyComputed:
 {{ en.RDM }} allows you to configure a ***Duo*** authentication to provide an additional security layer when opening a data source.
 
 ## Settings
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Before you start the configuration, make sure you have created a Duo account and have also installed the Duo application on your compatible device.
 {% endsnippet %}
 

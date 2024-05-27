@@ -19,7 +19,7 @@ Les instructions suivantes expliquent comment utiliser {{ fr.DGW }} dans une ses
 ![Toujours connecté](https://cdnweb.devolutions.net/docs/fr/hub/DGW0009.png)
 1. Dans l'onglet ***Paramètres ({{ fr.DGW }})***, sélectionner la passerelle configurée dans la [Configuration du {{ fr.DHUBB }}](/fr/hub/dgw/hub-business-configuration/).
 ![Paramètres](https://cdnweb.devolutions.net/docs/fr/hub/DGW0007.png)
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Pour supprimer le délai de cinq secondes lors de l'ouverture d'une connexion, définir la valeur ***Délai*** comme 0 dans l'onglet ***Avancé***.
 {% endsnippet %}
 

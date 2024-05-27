@@ -11,6 +11,6 @@ Inheritance means that certain properties or attributes of a higher-level entry 
 
 Inheritance is accessible by going into ***Properties*** – ***Common*** – ***General*** – ***Credentials*** and selecting ***Inherited***.
 ![Credentials Dropdown](https://cdnweb.devolutions.net/docs/docs_en_kb_KB0044.png)
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 If the credentials of the parent are not inherited properly, it indicates that one of the levels is not set to ***Inherited***.
 {% endsnippet %}

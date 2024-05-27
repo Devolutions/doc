@@ -4,7 +4,7 @@ eleventyComputed:
   description: This topic explains how to integrate {{ en.DHUBP }} in {{ en.RDM }}
 ---
 {{ en.DHUBP }} is our secure personal password management solution for individual users — and it’s free.
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 To integrate {{ en.DHUBP }} as a data source in {{ en.RDM }} you will be required to create it in your {{ en.DA }}. Follow the steps below to [create your free {{ en.DHUBP }}](/hub/getting-started/create-hub/hub-personal/) or visit our website to create your [{{ en.VLT }}](https://password.devolutions.net/personal) today.
 {% endsnippet %}
 
@@ -18,7 +18,7 @@ To integrate {{ en.DHUBP }} as a data source in {{ en.RDM }} you will be require
 1. Enter a ***Name*** for the data source.
 1. Enter the ***Email*** from the {{ en.DA }}, and click ***OK***.
 ![Information fields](https://cdnweb.devolutions.net/docs/docs_en_kb_KB0065.png)
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 It is possible to configure a backup for this datasource at this point, but it can also be done later.
 {% endsnippet %}
 

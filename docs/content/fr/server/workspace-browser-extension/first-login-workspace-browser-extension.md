@@ -7,7 +7,7 @@ Suivez ces étapes pour connecter {{ fr.DVLS }} au {{ fr.WBEX }}.
 
 1. Cliquer sur le ***{{ fr.WBEX }}*** dans le coin supérieur droit de votre navigateur.
 
-{% snippet icon.badgeNotice %}
+{% snippet, "badgeNotice" %}
 Un accès à {{ fr.DVLS }} est requis pour continuer.
 {% endsnippet %}
 

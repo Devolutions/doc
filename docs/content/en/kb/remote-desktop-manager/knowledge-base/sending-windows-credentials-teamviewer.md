@@ -11,7 +11,7 @@ Since we are not able to send the password automatically inside the TeamViewer s
 1. Add a new entry and select ***Typing Macro*** under ***Macro/Script/Tool***.  
 1. Enter ***$USERNAME${TAB}$PASSWORD${TAB}{ENTER}*** in the general field of the typing macro.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Please note that the ***initial wait*** has been configured to 5 seconds, this varies depending on each user system.
 {% endsnippet %}  
 

@@ -11,7 +11,7 @@ The ***Licenses*** menu is available for all data source types (granted you have
 
 With the license stored in an [advanced data source](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/), there is no need to register {{ en.RDM }} as the license serial is retrieved directly from it. When launching the application for the first time, add the data source containing the serial.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 It is possible to [request a trial](/rdm/windows/installation/client/registration/trial-request/) to try {{ en.RDM }} for 30 days. If you decide not to register the application at the end of the 30 days period, your data will not be altered or erased, and you will have full access to it once you provide a valid license serial.
 {% endsnippet %}
 
@@ -20,7 +20,7 @@ It is possible to [request a trial](/rdm/windows/installation/client/registratio
 1. Click ***Add License***.
 ![User and Security Mangement – Add License](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin6035.png)
 1. Enter the license or import the license file using the ***Import*** button.
-   {% snippet icon.badgeInfo %}
+   {% snippet, "badgeInfo" %}
    Importing the license using the **.lic** file is most uselful when offline. See the next section about offline registration for more information.
    {% endsnippet %}
 

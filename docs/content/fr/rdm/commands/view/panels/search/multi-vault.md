@@ -9,13 +9,13 @@ La fonctionnalité ***Recherche multi-{{ fr.VLT }}s*** de {{ fr.RDM }} permet de
 
 Les critères suivants sont disponibles afin d'affiner votre recherche : ***Type de connexion***, ***Date de création***, ***Description***, ***Dossier***, ***Date de la dernière mise à jour*** et ***Nom***.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Au moins un critère doit être utilisé pour filtrer vos résultats et un maximum de quatre critères peuvent être appliqués à une même recherche.
 {% endsnippet %}
 
 ![Critères pour Recherche multi-{{ fr.VLT }}s](https://cdnweb.devolutions.net/docs/fr/rdm/windows/RDMWIN2011.png)
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Avec une base de donnée ***Hub***, seulement le critère de recherche ***Nom*** peut être sélectionné.
 {% endsnippet %}
 

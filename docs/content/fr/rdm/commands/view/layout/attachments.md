@@ -7,11 +7,11 @@ Les fichiers sont joints à l'entrée et sont stockés directement dans la base 
 Pour activer le volet des pièces jointes, accéder à ***Affichage – Disposition*** dans le ruban, puis sélectionner ***Pièces jointes***.
 ![Bouton Pièces jointes](https://cdnweb.devolutions.net/docs/fr/rdm/windows/clip3565.png)
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Cette fonctionnalité n'est disponible que lors de l'utilisation d'une [Source de données avancée](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/).
 {% endsnippet %}
 
-{% snippet icon.badgeWarning %}
+{% snippet, "badgeWarning" %}
 Les fichiers en pièces jointes ne sont pas disponibles en mode hors ligne.
 {% endsnippet %}
 

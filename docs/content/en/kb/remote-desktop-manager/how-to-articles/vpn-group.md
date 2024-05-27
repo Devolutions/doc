@@ -2,7 +2,7 @@
 eleventyComputed:
   title: VPN groups
 ---
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 VPN groups are defined inside each individual entry in the VPN/SSH/Gateway section.
 {% endsnippet %}
 

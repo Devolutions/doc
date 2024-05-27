@@ -6,7 +6,7 @@ Les ***Rapports*** d'exportation sont un moyen d'exécuter et d'exporter des rap
 
 Vous pourrez exporter le rapport de données, le rapport d'inventaire ainsi que la plupart des rapports trouvés dans notre liste ***Générer le rapport***, à l'exception du groupe d'utilisation et de sécurité des mots de passe.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Vous devez avoir les droits pour exécuter le rapport dans {{ fr.RDM }} pour utiliser cette fonctionnalité.
 {% endsnippet %}
 

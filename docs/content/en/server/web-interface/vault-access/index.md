@@ -5,11 +5,11 @@ eleventyComputed:
 ---
 In {{ en.DVLS }}, users can request access to a public {{ en.VLT }}. An administrator / {{ en.VLT }} owner then has to approve the request.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 This feature is also available for [PAM](/server/privileged-access-management) {{ en.VLT }}s.
 {% endsnippet %}  
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Users can be set as {{ en.VLT }} owners to manage a specific {{ en.VLT }} without having access to data source administration. They are set in ***{{ en.VLT_MAJ }} Management*** when editing or creating a {{ en.VLT }} in {{ en.DVLS }}. For ***Entreprise*** data sources ({{ en.DVLS }} and {{ en.DHUBB }}), they can also be configured in their respective web interfaces.
 {% endsnippet %}
 
@@ -21,7 +21,7 @@ You can change the ***{{ en.VLT_MAJ }} visibility*** either system-wide or indiv
 
 ## Configure {{ en.VLT }} visibility
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 By default, shared {{ en.VLT }}s are set to private in the ***System Settings***.
 {% endsnippet %}
 
@@ -40,6 +40,6 @@ By default, shared {{ en.VLT }}s are set to private in the ***System Settings***
 1. In the ***General*** section, change the ***Visibility*** to ***Public - Allow Access Requests***, ***Private - Invitation Only***, or ***Defaut*** (which refers to the system-wide {{ en.VLT }} visibility setting described in the previous section).
 1. Click ***Update*** or ***Add*** to save your changes.
 
-{% snippet icon.badgeHelp %}
+{% snippet, "badgeHelp" %}
 If your {{ en.VLT }} is public, see how a user can [request access to the {{ en.VLT }}](/server/web-interface/vault-access/request-vault-access) and how you can [approve this request](/server/web-interface/vault-access/approve-vault-access).
 {% endsnippet %}

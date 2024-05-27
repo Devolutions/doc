@@ -17,7 +17,7 @@ Vous pouvez maintenant configurer le courriel SMTP dans {{ fr.DVLS }}.
 3. Dans le champ ***Courriel de l'administrateur***, saisir l'adresse courriel du destinataire qui recevra les erreurs.
 1. Dans le champ ***ID du client***, saisir l'ID de l'application. Dans le portail Azure, cette information se nomme ***ID d'application (client)*** et peut être trouvée dans la ***Vue d'ensemble*** de l'application.
 1. Dans le champ ***ID du locataire***, saisir l'ID du locataire qui peut être trouvé dans la ***Vue d'ensemble*** de votre application.
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Veuillez noter que les courriels ne peuvent être envoyés qu'aux comptes du même locataire; ils ne peuvent pas être envoyés à l'externe.
 {% endsnippet %}
 

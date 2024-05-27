@@ -73,7 +73,7 @@ Note: You must tick the ***Generate Direct Mapping*** check box.
 ![Imported connections](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4690.png)
 
 ## Synchronization (using the {{ en.RDM }} synchronizer entry)
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Both those techniques are used to connect to a third-party repository. The first one will connect to a domain controller and list the servers and computers according to filters and settings.
 {% endsnippet %}
 
@@ -135,7 +135,7 @@ A Cyberark PSM Connection template is required beforehand.
 1. Select the ***PSM Server*** that this PSM connection will be using and a ***Connection component***.
 ![File – Templates – Templates](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4694.png)
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 This approach would allow you to create multiple templates for PSM connections reflecting several ***Privileged Accounts*** and ***Connection components***.
 {% endsnippet %}
 

@@ -4,13 +4,13 @@ eleventyComputed:
   order: 10
   description: The Check-out feature allows users to request temporary access to a privileged account entry in a PAM {{ en.VLT }}. The approver must then approve or deny the request.
 ---
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 The following topic focuses on making a check-out request from the {{ en.DHUBB }} web interface. Note that this functionality is also available in {{ en.RDM }} with {{ en.DHUBB }}, either by accessing the privileged account entry in the PAM {{ en.VLT }}, or by connecting to a linked remote session.
 
 You can also access the privileged account in the {{ en.DHUBB }} web interface even if you make the request in {{ en.RDM }}.
 {% endsnippet %}
 
-{% snippet icon.badgeHelp %}
+{% snippet, "badgeHelp" %}
 To learn how to approve or deny a request, visit [Approve access to a privileged account](/pam/hub/privileged-accounts/approve-access-privileged-account/).
 {% endsnippet %}
 
@@ -18,7 +18,7 @@ The PAM ***Check-out*** feature allows users to request temporary access to a pr
 
 ## Privileged account check-out request
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 The duration of the access begins when the request is approved.
 {% endsnippet %}
 
@@ -27,7 +27,7 @@ Follow the steps below to learn how to make a check-out request:
 1. In the ***{{ en.VLT_MAJ }}*** tab, select the PAM {{ en.VLT }} using the selector.
 1. Select the privileged account entry you want to access, then click on ***Check Out***.
 
-   {% snippet icon.badgeInfo %}
+   {% snippet, "badgeInfo" %}
    Using the buttons to copy and view the password also opens the same ***Check-out request*** window.
    {% endsnippet %}
 

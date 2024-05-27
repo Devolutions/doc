@@ -4,13 +4,13 @@ eleventyComputed:
 ---
 {{ en.RDMMAC }} allows you to use a ***Yubikey*** to provide an additional security layer when opening a data source.
 
-{% snippet icon.badgeCaution %}
+{% snippet, "badgeCaution" %}
 {{ en.RDMMAC }} only support the Yubico OTP at this time.
 {% endsnippet %}
 
 ## Settings
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Before you start the configuration, make sure you have a ***Yubikey*** in your possession.
 {% endsnippet %}
 

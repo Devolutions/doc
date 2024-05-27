@@ -17,7 +17,7 @@ Les différents onglets disponibles dans le tableau de bord :
 * Journaux
 * Enregistrement de la session, etc.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Les onglets peuvent être masqués s'ils ne sont pas nécessaires pour un utilisateur.
 
 Cliquer avec le bouton droit sur n'importe quel onglet, puis sélectionner un élément pour basculer la visibilité de son onglet relatif.

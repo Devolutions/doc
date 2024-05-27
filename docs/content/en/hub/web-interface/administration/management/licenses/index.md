@@ -7,7 +7,7 @@ In the ***Licenses*** section, you will be able to register your {{ en.DHUBB }} 
 * [Register your {{ en.DHUBB }} License](/hub/web-interface/administration/management/licenses/register-hub-business-license/)
 * [Register Product Licenses](/hub/web-interface/administration/management/licenses/register-product-licenses/)
 
-{% snippet icon.badgeCaution %}
+{% snippet, "badgeCaution" %}
 Only ***Administrators*** and users with permissions in the ***System Permissions – System – Manage {{ en.DHUB }} license*** section will have access to register a license in {{ en.DHUBB }}.
 {% endsnippet %}
 

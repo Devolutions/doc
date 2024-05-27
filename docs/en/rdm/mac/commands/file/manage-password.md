@@ -13,7 +13,7 @@ It is generally recommended to apply a Master Key to your XML or Dropbox Data So
 
 The use of a Master Key function will stop unauthorized users from being able to easily see/access the stored Sessions within your Data Source.
 
-{% snippet icon.badgeCaution %}
+{% snippet, "badgeCaution" %}
 If you ever lose your master key it will be impossible for us to recover your data. Please ensure that you remember or backup your master key in a safe place.
 {% endsnippet %}
 

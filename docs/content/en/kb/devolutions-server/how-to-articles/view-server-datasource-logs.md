@@ -2,7 +2,7 @@
 eleventyComputed:
   title: View {{ en.DVLS }} logs
 ---
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 The Log debug information option must be enabled to view the debug logs. Consult [Logging](/server/web-interface/administration/configuration/server-settings/general/logging/) for raising the debug level.
 {% endsnippet %}
 

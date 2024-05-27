@@ -6,7 +6,7 @@ eleventyComputed:
 When using {{ en.RDMMAC }} with a data source without a database or if you do not possess the correct permissions, the ***Activity Logs***, normally found in the ***View*** tab, are not available. In this situation, the ***Local Connection Logs*** appear in the ***View*** tab instead.
 ![Local Connection Logs](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_RDMMac0024.png)
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 The ***Local Connection Logs*** replace the ***Activity Logs*** if you do not have the sufficient permissions to view them.
 {% endsnippet %}
 

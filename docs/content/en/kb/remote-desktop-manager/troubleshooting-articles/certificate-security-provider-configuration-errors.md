@@ -5,7 +5,7 @@ eleventyComputed:
 ---
 Occasionally, configuring certificate security providers may result in errors. To perform encryption using the certificate, the application must access the certificate's private key, which can sometimes cause issues.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 First try solving the issue by running {{ en.RDM }} in administrator mode to rule out any common permission errors.
 {% endsnippet %}
 

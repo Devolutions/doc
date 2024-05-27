@@ -6,7 +6,7 @@ In {{ en.RDM }}, the latest RDP Version will use the latest version of the Micro
 
 FreeRDP is the only RDP client we embed into {{ en.RDM }}, but it is only used if you change the RDP Version to one of the FreeRDP options available. All other options use the Microsoft RDP ActiveX which is always external to {{ en.RDM }}  
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 We have never embedded the Microsoft RDP client into {{ en.RDM }}, mostly because it is not possible to redistribute it separately. All you need to stay up to date is to update Windows, as we use the DLL present on the system, which we have no control over.
 {% endsnippet %}  
 

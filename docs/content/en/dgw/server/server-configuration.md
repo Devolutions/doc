@@ -8,11 +8,11 @@ eleventyComputed:
   - Listener
 ---
 This topic describes how to configure {{ en.DVLS }} to connect with {{ en.DGW }}. There are two ways to install a {{ en.DGW }}: the [***Side-by-side Installation***](#side-by-side-installation) and the [***Standalone Installation***](#standalone-installation).
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Many gateways can be used by {{ en.DVLS }}, but only one {{ en.DGW }} can be installed on a machine.
 {% endsnippet %}
 
-{% snippet icon.badgeCaution %}
+{% snippet, "badgeCaution" %}
 If your clients fail to connect with {{ en.DGW }}, ensure the certificate contains the entire chain. This certificate chain includes any intermediate certificates. For example:
 Root Certificate Authority – Secure Certificate Authority – Purchased XYZ Certificate
 {% endsnippet %}
@@ -23,7 +23,7 @@ The ***Side-by-side Installation*** will be used if you need to install {{ en.DG
 To install {{ en.DGW }} on another machine than the one where {{ en.DVLS }} is hosted, you need to follow the ***Standalone Installation*** process. The procedure is similar, but you will need to provide more information about your {{ en.DVLS }} instance to complete it.
 
 ## Side-by-side Installation
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 To set up a free {{ en.DGW }}, it must be installed using the ***Side-by-side*** configuration. It creates a gateway capable of handling up to 5 concurrent sessions.
 {% endsnippet %}
 
@@ -33,7 +33,7 @@ This method supports more sessions if there is an available {{ en.DGW }} license
 1. In the {{ en.DGW }} section, click on ***Install***.
 1. Choose ***Side-by-side Installation***.
 ![Side-by-side](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp0004.png)
-   {% snippet icon.badgeHelp %}
+   {% snippet, "badgeHelp" %}
    It is possible to download an [.msi](https://devolutions.net/gateway/download) file to install {{ en.DGW }} on an offline {{ en.DVLS }}.
    {% endsnippet %}
 
@@ -51,7 +51,7 @@ This method supports more sessions if there is an available {{ en.DGW }} license
 
 ## Standalone Installation
 The ***Standalone*** method allows {{ en.DGW }} to be installed on a separate server than {{ en.DVLS }}. It could be for performance purposes or access networks that {{ en.DVLS }} cannot access.
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 The {{ en.DVLSCONSOLE }} must be installed on the server on which {{ en.DGW }} will be installed.
 {% endsnippet %}
 
@@ -61,7 +61,7 @@ The {{ en.DVLSCONSOLE }} must be installed on the server on which {{ en.DGW }} w
 1. Choose ***Standalone Installation***.
 ![Standalone](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp0008.png)
 1. Choose between ***Download version*** & ***Install from msi file***.
-   {% snippet icon.badgeHelp %}
+   {% snippet, "badgeHelp" %}
    It is possible to download an [.msi](https://devolutions.net/gateway/download) file to install {{ en.DGW }} on an offline {{ en.DVLS }}.
    {% endsnippet %}
 
@@ -75,7 +75,7 @@ The {{ en.DVLSCONSOLE }} must be installed on the server on which {{ en.DGW }} w
     1. ***Certificate file***: Needs to be a full chain certificate (.pfx, .p12, .pem, .crt).
     1. ***Certificate password***: Only needed if a .pfx or .p12 certificate was used.
     1. ***Private key file***: Only needed if a .pem or .crt was used as a certificate.
-   {% snippet icon.shieldWarning %}
+   {% snippet, "shieldWarning" %}
    Do not share the private key with other users, as it can be used to decrypt the communication between a user and {{ en.DGW }}. Only the public key should be shared.
    {% endsnippet %}
 

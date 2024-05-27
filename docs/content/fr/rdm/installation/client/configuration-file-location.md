@@ -6,7 +6,7 @@ eleventyComputed:
 
 {{ fr.RDM }} enregistre sa configuration dans un fichier nommé **RemoteDesktopManager.cfg**. Ce fichier contient presque que tous les paramètres de l'application.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Vous pouvez récupérer le dossier d'installation de {{ fr.RDM }} en cliquant sur ***Fichier – Options – Avancée***. Un hyperlien affiche le dossier d'installation.
 {% endsnippet %}
 

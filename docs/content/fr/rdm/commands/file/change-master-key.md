@@ -14,7 +14,7 @@ Un mot de passe sur la source de données peut être utilisé avec les sources d
 * SQLite
 * XML
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Depuis la version 14.0.4.0, l'utilisateur est automatiquement invité à ajouter un mot de passe lors de sa première connexion à l'une des sources de données mentionnées ci-dessus. Le mot de passe est complètement facultatif (mais fortement recommandée).
 {% endsnippet %}
 

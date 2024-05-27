@@ -6,29 +6,29 @@ eleventyComputed:
 
 Le ***Fournisseur de sécurité*** est disponible dans ***Administration - Fournisseur de sécurité***. Il est responsable du cryptage des données dans la base de données.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Cette fonctionnalité nécessite une [Source de données avancées](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/).
 {% endsnippet %}
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Quel que soit le fournisseur de sécurité que vous avez sélectionné, les mots de passe stockés dans la source de données sont TOUJOURS cryptés à l'aide du cryptage AES 256 bits.
 {% endsnippet %}
 
-{% snippet icon.shieldNotice %}
+{% snippet, "shieldNotice" %}
 En utilisant un fournisseur de sécurité, vous vous assurez que personne ne peut lire vos données de configuration d'entrée, même lorsque des personnes ont un accès direct à vos bases de données ou à une sauvegarde. Vous devez toujours l'utiliser lorsque vous utilisez une source de données qui n'est pas locale.
 {% endsnippet %}
 
-{% snippet icon.shieldCaution %}
+{% snippet, "shieldCaution" %}
 Avant d'appliquer un nouveau ou de modifier le fournisseur de sécurité existant, assurez-vous que tous les utilisateurs sont déconnectés de la source de données. Si vous modifiez la phrase secrète ou un certificat partagé existant, veuillez noter que les utilisateurs auront de nouveau accès à la source de données lorsqu'ils auront la nouvelle phrase secrète ou le certificat partagé sur leur ordinateur.
 {% endsnippet %}
 
 ## Paramètres
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Changer un fournisseur de sécurité sur une source de données avec un grand nombre d'entrées est une opération longue.
 {% endsnippet %}
 
-{% snippet icon.badgeCaution %}
+{% snippet, "badgeCaution" %}
 L'application d'un nouveau fournisseur de sécurité traite toute la base de données, nous vous conseillons donc de créer une sauvegarde avant cette opération.
 {% endsnippet %}
 
@@ -74,7 +74,7 @@ Configurer un certificat pour le fournisseur de sécurité.
 
 ## Shared passphrase (v2)
 
-{% snippet icon.shieldWarning %}
+{% snippet, "shieldWarning" %}
 Si la phrase secrète est perdue, rien ne peut être fait pour récupérer les données. Copiez-le toujours dans un endroit sûr lors de sa création.
 {% endsnippet %}
 

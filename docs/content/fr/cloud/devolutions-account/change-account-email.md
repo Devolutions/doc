@@ -2,7 +2,7 @@
 eleventyComputed:
   title: Modifier le courriel d'un compte
 ---
-{% snippet icon.shieldWarning %}
+{% snippet, "shieldWarning" %}
 Pour des raisons de sécurité, nous n'effectuons plus de changement de courriel de {{ fr.DA }}.
 {% endsnippet %}
 
@@ -14,12 +14,12 @@ Pour modifier votre courriel de {{ fr.DA }}, vous devez [Créer un nouveau compt
 * [{{ fr.DHUBB }}](/fr/cloud/hub-business/) : Si vous êtes le propriétaire d'un {{ fr.DHUBB }}, transférer la [Propriété](/fr/hub/web-interface/administration/management/users/hub-ownership/) à un autre administrateur puis demander une invitation avec le nouveau compte.
 * [Sauvegarde en ligne](/fr/cloud/rdm-online-services/online-backup/) : Les sauvegardes sont stockées et liées à chaque {{ fr.DA }}. Pour cette raison, vous n'y aurez pas accès sous le nouveau {{ fr.DA }}.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Si vous avez des inquiétudes ou des questions, contactez-nous à [service@devolutions.net](mailto:service@devolutions.net).
 {% endsnippet %}
 
 Pour supprimer l'ancien compte (si nécessaire), cliquer sur ***Supprimer le compte***.
-{% snippet icon.badgeWarning %}
+{% snippet, "badgeWarning" %}
 CETTE ACTION NE PEUT PAS ÊTRE ANNULÉE!
 
 Une fois que vous avez supprimé un compte, les données et les informations du compte sont supprimées définitivement.

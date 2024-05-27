@@ -27,11 +27,11 @@ The [{{ en.OBACK }}](/rdm/mac/commands/file/backup/) allows you to backup your [
 5. Click on ***File - Backup - View History*** to validate that the {{ en.OBACK }} has been configured properly
 ![View History](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_2015-05-25_13-12-31.png)
 
-{% snippet icon.shieldCaution %}
+{% snippet, "shieldCaution" %}
 You must perform this for all your [SQLite](/rdm/mac/data-sources/data-sources-types/sqlite/) or [XML](/rdm/mac/data-sources/data-sources-types/xml/) data source to be fully secured.
 {% endsnippet %}
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 The automatic backup is executed in the background every 30 seconds after any modification to the content of the data source is made.
 {% endsnippet %}
 

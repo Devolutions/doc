@@ -7,7 +7,7 @@ You get the following error message dialog when you try to create or modify an e
 
 ## Steps
 
-{% snippet icon.badgeCaution %}
+{% snippet, "badgeCaution" %}
 Please note that you will have to restart the server after removing the WebDAV Publishing role to complete the procedure.
 {% endsnippet %}
 

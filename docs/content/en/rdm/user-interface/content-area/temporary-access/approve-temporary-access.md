@@ -10,7 +10,7 @@ The ***Temporary Access*** feature allows users to request a temporary elevation
 
 If a ***Temporary access*** request was made in {{ en.RDM }} from a {{ en.DHUB }} database, the authorization process must be performed in {{ en.DHUB }}. See [Approve temporary access to an entry in {{ en.DHUBB }}](/hub/web-interface/temporary-access/approve-temporary-access/).
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 When using {{ en.DVLS }}, Microsoft SQL Server or Microsoft Azure SQL data sources, you must first [Enable temporary access](/kb/remote-desktop-manager/how-to-articles/enable-temporary-access/) in {{ en.RDM }}.
 {% endsnippet %}
 
@@ -31,7 +31,7 @@ Finally, clicking on ***Approve*** or ***Deny*** opens the ***Temporary Access R
 
 ## Approve/Deny temporary access requests
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 The duration of ***Temporary Access*** begins when the request is approved.
 {% endsnippet %}
 
@@ -61,6 +61,6 @@ Click ***Revoke***.
 
 ![Revoke](https://cdnweb.devolutions.net/docs/RDMW6021_2024_1.png)
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 To learn more about the end user experience in {{ en.RDM }}, visit [Request temporary access to an entry in {{ en.RDM }}](/rdm/windows/user-interface/content-area/temporary-access/request-temporary-access/).
 {% endsnippet %}

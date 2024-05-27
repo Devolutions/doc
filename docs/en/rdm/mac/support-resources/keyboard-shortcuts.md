@@ -8,11 +8,11 @@ Here are the default keyboard shortcuts for various commands. These can be modif
 
 The ***Reset*** button undoes any shortcut custom changes that have not yet been saved. The ***Restore Defaults*** button returns all shortcuts to their default values.
 
-{% snippet icon.badgeCaution %}
+{% snippet, "badgeCaution" %}
 The ***Reset*** and ***Restore Defaults*** buttons erase your custom shortcuts, although ***Reset*** only erases unsaved changes. Use these options with care so as not to risk losing your custom shortcuts.
 {% endsnippet %}
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Visit [Keyboard shortcut customization in {{ en.RDMMAC }}](/kb/remote-desktop-manager-macos/how-to-articles/keyboard-shortcuts-customization-rdm-mac/).
 {% endsnippet %}
 

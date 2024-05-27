@@ -14,7 +14,7 @@ In all tabs except the ***Password Generator*** tab, when hovering over an entry
 
 The extension opens on the ***Matching*** tab. This is where you will see the list of credentials available for the particular website you are on.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 For methods of retrieving your credentials, visit [Retrieve credentials with the {{ en.WBEX }}](/server/workspace-browser-extension/using-workspace-browser-extension/retrieve-credentials-workspace-browser-extension/).
 {% endsnippet %}
 
@@ -24,12 +24,12 @@ At the top, you can use the ***Search*** bar to filter through all your credenti
 
 At the bottom, the ***Add Website*** button opens a new browser tab that allows you to manually add a website entry in {{ en.DVLS }} through the {{ en.WBEX }}.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 For a complete list of the available fields in the ***Add Website*** window, visit [Add Website](/server/workspace-browser-extension/workspace-browser-extension-user-interface/side-menu/add-website/). You can also consult our step-by-step guide on [how to add a website entry](/server/workspace-browser-extension/using-workspace-browser-extension/add-website-entry-workspace-browser-extension/).
 {% endsnippet %}
 
 ### All Entries tab
-{% snippet icon.badgeHelp %}
+{% snippet, "badgeHelp" %}
 When accessing the ***All Entries*** tab for the first time, you need to select the {{ en.DVLS }} {{ en.VLT }}s you want to synchronize with the {{ en.WBEX }}. Learn more about it in [First login with the {{ en.WBEX }}](/server/workspace-browser-extension/first-login-workspace-browser-extension/).
 {% endsnippet %}
 
@@ -80,7 +80,7 @@ In the ***Advanced*** drop-down section, you are able to further customize your 
 
 ![Advanced Section](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp2041.png)
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 To learn how to use the ***Password Generator*** when creating an account on a website, visit [Create an account for a website with the {{ en.WBEX }}](/server/workspace-browser-extension/using-workspace-browser-extension/create-account-website-workspace-browser-extension/).
 {% endsnippet %}
 

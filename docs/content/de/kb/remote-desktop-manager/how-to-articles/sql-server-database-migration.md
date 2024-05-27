@@ -22,25 +22,25 @@ Wir empfehlen, folgende Bereinigungen vor der Migration durchzuführen.
 1. Wählen Sie den ***Servertyps*** der ***Quelle*** und des ***Ziels*** aus dem Dropdown-Menü aus und lassen Sie den Migrationsbereich auf Schema und Daten. Klicken Sie auf ***Erstellen***.
 ![!!KB4728](https://cdnweb.devolutions.net/docs/de/kb/KB4728.png)
 1. Geben Sie den ***Servernamen*** des Quell-Server ein und wählen Sie ***Authentifizierungstyp***.
-   {% snippet icon.badgeInfo %}
+   {% snippet, "badgeInfo" %}
    Vergewissern Sie sich, dass Sie über ausreichende Berechtigungen verfügen, um diese Aktion durchzuführen.
    {% endsnippet %}
 1. Klicken Sie auf ***Verbinden***.
 1. Wählen Sie Ihre Datenbank in der geladenen Auswahl und klicken Sie auf ***Weiter***.
 ![!!KB4729](https://cdnweb.devolutions.net/docs/de/kb/KB4729.png)
 1. Geben Sie den ***Namen des Zielservers*** ein und wählen Sie ***Authentifizierungstyp***.
-   {% snippet icon.badgeInfo %}
+   {% snippet, "badgeInfo" %}
    Vergewissern Sie sich, dass Sie über ausreichende Rechte und Berechtigungen verfügen, um diese Aktion durchzuführen.
    {% endsnippet %}
 1. Klicken Sie auf Verbinden.
 1. Wählen Sie Ihre Datenbank in der geladenen Auswahl und klicken Sie auf ***Weiter***.
-   {% snippet icon.badgeCaution %}
+   {% snippet, "badgeCaution" %}
    Die neue Datenbank muss bereits [erstellt](https://learn.microsoft.com/de-de/azure/azure-sql/database/single-database-create-quickstart) worden sein, um in dieser Liste zu erscheinen.
    {% endsnippet %}
 
    ![!!KB4730](https://cdnweb.devolutions.net/docs/de/kb/KB4730.png)
 1. Überprüfen Sie, ob Sie Probleme haben, indem Sie in der Liste der Schemaobjekte auf der linken Seite nach unten scrollen. Sie können auf ein Element klicken, um weitere Details zu einem speziellen Problem zu erhalten und zu erfahren, ob eine Lösung verfügbar ist.
-   {% snippet icon.badgeCaution %}
+   {% snippet, "badgeCaution" %}
    Die Benutzerkonten mit dem Fehler „Windows-Benutzer können in der Azure SQL-Datenbank zu externen Nutzern konvertiert werden“ müssen in der Liste deaktiviert werden, damit die Migration funktioniert.
 
    Diese speziellen Benutzer müssen Ihren {{ de.UVLT }} und ihre Konfiguration vor der Migration [exportieren](/kb/remote-desktop-manager/how-to-articles/export-import-entries/). Wenn dieser Schritt nicht durchgeführt wird, gehen alle Einstellungen der folgenden Bereiche verloren: ***Meine Kontoeinstellungen***, ***Benutzerspezifische Einstellungen*** und alle Einträge im jeweiligen ***{{ de.UVLT }}***.
@@ -53,7 +53,7 @@ Wir empfehlen, folgende Bereinigungen vor der Migration durchzuführen.
 1. Wenn das Skript erstellt ist, überprüfen Sie bitte, ob es irgendwelche Probleme gibt und klicken Sie dann auf ***Schema bereitstellen***.
 ![!!KB4732](https://cdnweb.devolutions.net/docs/de/kb/KB4732.png)
 
-   {% snippet icon.badgeInfo %}
+   {% snippet, "badgeInfo" %}
    Dies kann einige Zeit in Anspruch nehmen, abhängig von der Datenbankgröße.
    {% endsnippet %}
 
@@ -77,7 +77,7 @@ Wir empfehlen, folgende Bereinigungen vor der Migration durchzuführen.
 1. Nun können Sie die neue Datenquelle in [{{ de.RDM }}](#verbindung-zu-remote-desktop-manager) erstellen oder die [{{ de.DVLSCONSOLE }}](#verbindung-zu-devolutions-server) aktualisieren.
 
 ### Lösung 3
-{% snippet icon.badgeCaution %}
+{% snippet, "badgeCaution" %}
 Diese Lösung wird nicht für ein Migration von lokal zu lokal unterstützt. Wenn Sie dies versuchen, erhalten Sie von SSMS folgende Fehlermeldung:
 
 Sie können diesen Assistenten nicht verwenden, um Datenbanken zwischen lokalen Instanzen des SQL Servers zu verschieben. Zu den unterstützten Vorgängen gehören die Bereitstellung einer lokalen Instanz von SQL Server für die Microsoft Azure SQL-Datenbank, von Microsoft Azure SQL-Datenbank für eine lokalen Instanz von SQL Server oder von einer Microsoft Azure SQL-Datenbank für eine andere Microsoft Azure SQL-Datenbank.
@@ -93,7 +93,7 @@ Sie können diesen Assistenten nicht verwenden, um Datenbanken zwischen lokalen 
 1. Bei der ersten Verbindung erhalten Sie möglicherweise folgende Fehlermeldung. Klicken Sie in diesem Fall auf ***Reparieren***.
 ![!!KB4646](https://cdnweb.devolutions.net/docs/de/kb/KB4646.png)
 
-   {% snippet icon.badgeInfo %}
+   {% snippet, "badgeInfo" %}
    Dies kann einige Zeit in Anspruch nehmen, abhängig von der Datenbankgröße.
    {% endsnippet %}
 

@@ -22,7 +22,7 @@ In the ***{{ en.NPANE }}***, right-click where you wish the entry to be located 
 ### With drag and drop
 
 You can also create a session by dragging and dropping an RDP file in the ***{{ en.NPANE }}***. By doing so, {{ en.RDM }} will ask you whether to import the content and create a new session, or create a session linked to the RDP file. It is also possible to drag and drop the LogMeIn desktop shortcut to create a LogMeIn session.
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 It is possible that drag and drop will not work because of your security settings. They may prevent applications running in different contexts from interacting. For example, if {{ en.RDM }} is running in an elevated context (administrator mode) and Internet Explorer is running in default mode, Windows will not allow you to drag a URL link in the application.
 {% endsnippet %}
 
@@ -32,7 +32,7 @@ You can also import entries by using the [Import Computer Wizard](/rdm/windows/c
 
 ## Create a sub entry
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Since {{ en.RDM }} version 2022.3, sub entries have replaced sub connections. They are different in that sub connections were stored as XML in their parent entry, which is not the case with sub entries, making them much more versatile.
 
 The migration of preexisting sub connections to the new sub entries is automatic when updating from {{ en.RDM }} version 2022.2 or prior to version 2022.3 or later.
@@ -42,7 +42,7 @@ Sub entries are full-fledged, independant entries located bewlow a "parent" entr
 
 They can be found under the parent entry or in the ***Sub Entries*** tab of the parent entry [***Dashboard***](/rdm/windows/user-interface/content-area/dashboards/).
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 To create sub entries, make sure the ***Allow sub entries*** option is enabled in the option lists in ***File – Settings – Advanced***.
 
 To see sub entries in the ***{{ en.NPANE }}***, make sure the ***Load sub entry in tree view*** option is enabled in the option lists in ***File – Settings – User Interface – Tree View***.
@@ -52,7 +52,7 @@ To see sub entries in the ***{{ en.NPANE }}***, make sure the ***Load sub entry 
 
 In the ***{{ en.NPANE }}***, select the entry under which you wish to place a sub entry. In the ***Ribbon***, go to ***Edit*** and click on ***New Entry***. Since you have previously selected the parent entry, you will be prompted to choose either to create a sub entry or an entry. Select ***New Sub Entry***. Then, customize your settings in the entry properties window.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 You cannot create a sub entry under another sub entry.
 {% endsnippet %}
 
@@ -63,7 +63,7 @@ You cannot create a sub entry under another sub entry.
 
 In the ***{{ en.NPANE }}***, right-click the entry under which you wish to place a sub entry and select ***Add*** from the menu. To initialize a new session, you can specify either the type of session or a template. You will be prompted to choose either to create a sub entry or an entry. Select ***New Sub Entry***. Then, customize your settings in the entry properties window.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 You cannot create a sub entry under another sub entry.
 {% endsnippet %}
 

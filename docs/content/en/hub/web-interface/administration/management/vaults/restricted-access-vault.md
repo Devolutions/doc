@@ -5,7 +5,7 @@ eleventyComputed:
 ---
 Administrators can allow users to view specific folders or entries in a {{ en.VLT }}. The ***Restricted {{ en.VLT }} role*** is assigned at the {{ en.VLT }} level. Users or groups with this setting will see only the {{ en.VLT }} content that they have permission to view.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 This functionality is also fully compatible with {{ en.RDM }}, the {{ en.WAPPS }} (mobile and desktop), and the {{ en.WBEX }}.
 {% endsnippet %}
 

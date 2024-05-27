@@ -8,7 +8,7 @@ Dans ce scénario, toutes les options de la section ***Privilèges*** des propri
 
 Bien que cet exemple puisse convenir à de nombreuses entreprises, veuillez garder à l'esprit que tout privilège ne devrait être accordé qu'en cas de besoin. Soyez extrêmement prudent lorsque vous accordez des permissions à un utilisateur ou à un groupe d'utilisateurs. 
 
-{% snippet icon.badgeInfo %} 
+{% snippet, "badgeInfo" %} 
 Cette fonctionnalité n'est disponible que lors de l'utilisation d'une [source de données avancée](/fr/rdm/windows/data-sources/data-sources-types/advanced-data-sources/). 
 {% endsnippet %}
  

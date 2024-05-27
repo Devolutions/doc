@@ -3,11 +3,11 @@ eleventyComputed:
   title: Configure the Azure Active Directory administrator
 ---
 To enable SQL Server Azure Active Directory Authentication, you must first configure the Azure Active Directory admin of the server.
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 It may take a few minutes for this change to propagate. You might experience a time delay before being able to connect with this Active Directory account.
 {% endsnippet %}
 
-{% snippet icon.badgeNotice %}
+{% snippet, "badgeNotice" %}
 You can use an existing Microsoft Azure account if you already have one created. It is not necessary to create another to perform the following steps.
 {% endsnippet %}
 

@@ -7,7 +7,7 @@ eleventyComputed:
 
 ***{{ fr.DHUBI }}*** est un outil essentiel conçu pour importer vos données dans {{ fr.DHUBB }}.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Disponible seulement sur Windows.
 {% endsnippet %}
 
@@ -20,11 +20,11 @@ Disponible seulement sur Windows.
 ![!!Hub4102](https://cdnweb.devolutions.net/docs/fr/hub/Hub4102.png)
 1. Cliquer sur les 3 points pour sélectionner la ***Source***.
 ![!!Hub4103](https://cdnweb.devolutions.net/docs/fr/hub/Hub4103.png)
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Chaque ***Type d'importation*** a une ***Source*** d'importation différente. Merci de suivre les étapes de {{ fr.DHUBI }}.
 {% endsnippet %}
 
-{% snippet icon.badgeCaution %}
+{% snippet, "badgeCaution" %}
 Dans l'éventualité où vous auriez besoin d'importer les ***Paramètres Spécifiques***, laisser la case ***Changer ID*** décochée dans la section ***Importer les paramètres***.
 {% endsnippet %}
 

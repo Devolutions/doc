@@ -7,7 +7,7 @@ You can create ***Groups*** to assign specific permissions and manage ***Users**
 ### Create groups
 
 1. Connect to your [{{ en.DA }}](https://portal.devolutions.com/).
-{% snippet icon.badgeCaution %}
+{% snippet, "badgeCaution" %}
 You must be the owner or an administrator of the organization to create groups.
 {% endsnippet %}
 
@@ -29,7 +29,7 @@ You must be the owner or an administrator of the organization to create groups.
 ![!!Cloud4074](https://cdnweb.devolutions.net/docs/docs_en_cloud_Cloud4074.png)
 1. Select the group in the drop down menu, click ***Add*** then ***Close***.
 ![!!Cloud4072](https://cdnweb.devolutions.net/docs/docs_en_cloud_Cloud4072.png)
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 You can add a user to multiple groups, just click on the 3 vertical dots next to the user to add more.
 {% endsnippet %}
 

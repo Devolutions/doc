@@ -4,7 +4,7 @@ eleventyComputed:
 ---
 {{ en.RDMMAC }} has a built-in profiler to diagnose connectivity issues with a data source.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Too many custom images could dramatically increase the size of the data source and cause load time issue.
 {% endsnippet %}
 
@@ -13,7 +13,7 @@ Too many custom images could dramatically increase the size of the data source a
 1. Select ***Help - Profiler***.
 ![Help – Profiler](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10470.png)
 1. Move the window to the side to display the {{ en.RDM }} main window and refresh the data source by using the refresh button or by using ***File – Refresh***.
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Holding the <kbd>Ctrl</kbd> key while performing the refresh will force a full reload of the data source, thereby ignoring the cache.
 {% endsnippet %}
 

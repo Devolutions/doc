@@ -8,6 +8,6 @@ eleventyComputed:
 ---
 If the ***Force prompt login*** option is enabled, login/multi-factor authentication information will be asked every time {{ en.DHUBB }} is open. The option can be disabled under ***Administration*** – ***Authentication*** – ***General***.
 ![Force prompt login](https://cdnweb.devolutions.net/docs/docs_en_kb_KB0072.png)
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 An administrator is needed to change this setting.
 {% endsnippet %}

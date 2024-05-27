@@ -5,7 +5,7 @@ eleventyComputed:
 ---
 In the ***Users*** section, you can manage users and user settings.
 
-{% snippet icon.badgeHelp %}
+{% snippet, "badgeHelp" %}
 Learn how to [add users](/hub/web-interface/administration/management/users/create-invite-users/) or [add an administrator](/hub/web-interface/administration/management/users/administrator-invite/).
 {% endsnippet %}
 
@@ -23,7 +23,7 @@ The owner has a crown icon next to their name and cannot be deleted.
 
 ![Owner icon](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub2272.png)
 
-{% snippet icon.shieldInfo %}
+{% snippet, "shieldInfo" %}
 For security reasons, only current administrators can be set as owners.
 {% endsnippet %}
 
@@ -55,7 +55,7 @@ If you click on the ***Delete*** icon, you will be asked if you really want to d
 
 ![Delete confirmation](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub2278.png)
 
-{% snippet icon.shieldInfo %}
+{% snippet, "shieldInfo" %}
 For security reasons, it is not possible to delete yourself nor the owner of the hub.
 {% endsnippet %}
 
@@ -72,7 +72,7 @@ You can determine in advance when a user account should no longer be used. This 
 1. Select the ***user***.
 1. Choose an ***expiration date***. 
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 A warning message is displayed to the user if the account expires in less than 24 hours.
 {% endsnippet %}
 

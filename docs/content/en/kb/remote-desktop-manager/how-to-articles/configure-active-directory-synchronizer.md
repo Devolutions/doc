@@ -7,10 +7,10 @@ eleventyComputed:
   - Synchronizer
 ---
 Every field from the ***Active Directory Synchronizer*** entry is described below.
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 To learn more about creating and managing an Active Directory, please consult the documentation on the official website.
 {% endsnippet %}
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Please note that the [***Schedule*** tab](#schedule) is only available in a {{ en.DVLS }} data source. Also needs the {{ en.DVLS }} ***Scheduler*** to be set up.
 {% endsnippet %}
 

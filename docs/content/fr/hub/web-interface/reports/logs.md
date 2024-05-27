@@ -18,7 +18,7 @@ L'***Activité de l'utilisateur*** affichera des informations sur l'activité sp
 
 ### Journaux d'administration
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Cette section est uniquement disponible pour les administrateurs.
 {% endsnippet %}
 

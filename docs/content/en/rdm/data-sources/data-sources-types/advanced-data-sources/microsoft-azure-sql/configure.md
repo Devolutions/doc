@@ -7,7 +7,7 @@ eleventyComputed:
 1. Select the ***Upgrade*** tab and click the ***Create Database*** button. If the database is already created on the Microsoft Azure SQL Server, click the ***Update Database*** button to add the appropriate tables to the database.
 ![Upgrade Tab](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip10377.png)
 1. Once the database is created, create an administrator account for the database via the ***Administration – User Management*** menu.
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 If the database is created using a system administrator (example: SA), we recommend to keep this user only for the database creation and the [database upgrade](/rdm/windows/installation/database-upgrade/). A {{ en.RDM }} administrator account must be created first. Then, regular users are created with this administrator account.
 {% endsnippet %}
 

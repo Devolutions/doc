@@ -54,7 +54,7 @@ Permet de basculer vers différentes vues de la liste des entrées, telles que l
 Choisir les colonnes à afficher dans l'arborescence. Cliquer avec le bouton droit sur le nom de la colonne dans le ***{{ fr.NPANE }}*** et sélectionner ***Sélecteur de colonnes***.
 ![Sélecteur de colonnes](https://cdnweb.devolutions.net/docs/fr/rdm/windows/clip11201.png)
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Des paramètres et informations additionnels sur l'arborescence sont disponibles dans ***Fichier – Options – Arborescence***.
 {% endsnippet %}
 

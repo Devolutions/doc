@@ -7,6 +7,6 @@ When trying to add a serial key to {{ en.DHUBB }}, if there are already a greate
 ## Solution
 Contact the [Devolutions sales department](mailto:sales@devolutions.net) to adjust the number of users needed for that license.  
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Alternatively, if some users were created by mistake, the administrator can delete them by going through the web interface to ***Administration*** – ***Users***.
 {% endsnippet %}  

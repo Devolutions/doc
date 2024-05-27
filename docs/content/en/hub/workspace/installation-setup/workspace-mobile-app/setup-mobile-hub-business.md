@@ -14,7 +14,7 @@ Follow the steps below to perform the initial configuration of your {{ en.WMAPP 
 1. In the ***{{ en.WS }} Setup***, check ***{{ en.DHUBB }}***, then tap on ***Start Setup***.
 ![{{ en.DHUBB }} setup](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub2210.png)
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 During the setup, you can always tap on ***Skip This Step*** to configure that specific setting later.
 {% endsnippet %}
 

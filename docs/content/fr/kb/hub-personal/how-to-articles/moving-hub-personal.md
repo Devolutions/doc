@@ -4,7 +4,7 @@ eleventyComputed:
 ---
 The {{ en.DHUBP }} is for individual users who want to use a secure personal password manager. Here are the steps for moving your data to {{ en.DHUBP }} in {{ en.RDM }}.
 
-{% snippet icon.badgeHelp %}
+{% snippet, "badgeHelp" %}
 Get started with creating a [{{ en.DHUBP }}](/hub/getting-started/create-hub/hub-personal/).
 {% endsnippet %}
 

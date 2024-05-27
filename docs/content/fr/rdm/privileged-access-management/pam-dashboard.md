@@ -2,11 +2,11 @@
 eleventyComputed:
   title: Tableau de bord PAM
 ---
-{% snippet icon.badgeNotice %}
+{% snippet, "badgeNotice" %}
 Une licence est désormais nécessaire pour activer le module de gestion des accès privilégiés (PAM). Veuillez contacter notre [service des ventes](mailto:sales@devolutions.net) pour plus d'informations sur la licence.
 {% endsnippet %}
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Le ***Tableau de bord PAM*** n'est disponible qu'avec [{{ fr.DVLS }}](https://devolutions.net/server/fr).
 {% endsnippet %}
 

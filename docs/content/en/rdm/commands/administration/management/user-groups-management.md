@@ -6,7 +6,7 @@ eleventyComputed:
 
 User Groups in {{ en.RDM }} manages multiple users at the same time by grouping them. The management of permissions granted to user groups are quite similar to the corresponding notions for users, but instead of a single user, they apply to all users to which you have assigned the user groups.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 This feature is only available with an Advanced Data Source.
 {% endsnippet %}
 
@@ -14,7 +14,7 @@ This feature is only available with an Advanced Data Source.
 
 User Groups in {{ en.DVLS }} are in fact links to Active Directory groups. By leveraging Active Directory integration you can easily define access rights for all domain users in your organization. Once a domain user log in the {{ en.DVLS }} data source, their user account will be created if needed and users rights will be controlled by the defined groups.
 
-{% snippet icon.shieldWarning %}
+{% snippet, "shieldWarning" %}
 Please note that the Unsecured group permissions (the ones above the grid) are ignored. You must set them on each user individually.
 {% endsnippet %}
 

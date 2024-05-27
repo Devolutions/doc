@@ -8,7 +8,7 @@ Register and assign your {{ en.DLAUNCHER }} license serial.
 
 To register a ***{{ en.DLAUNCHER }}*** license in {{ en.DHUBB }}, you need to add a ***Product Licenses*** and assign it to the users.
 
-{% snippet icon.badgeCaution %}
+{% snippet, "badgeCaution" %}
 Only ***Administrators*** and users with permissions in the ***System Permissions*** section will have access to register a license in {{ en.DHUBB }}.
 {% endsnippet %}
 

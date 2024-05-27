@@ -45,7 +45,7 @@ Stockez et gérez les mots de passe professionnels. <br>
 	</tr>
 </table>
 
-{% snippet icon.shieldWarning %} 
+{% snippet, "shieldWarning" %} 
 Les utilisateurs expérimentés, d'autres extensions de navigateur Web, ou même l'injection de JavaScript peuvent lire le mot de passe à partir du contrôle d'édition de mot de passe, et ce, même s'il affiche des points. Toute utilisation d'un navigateur externe doit être soigneusement évaluée par rapport à vos exigences de sécurité interne. 
 {% endsnippet %}
  

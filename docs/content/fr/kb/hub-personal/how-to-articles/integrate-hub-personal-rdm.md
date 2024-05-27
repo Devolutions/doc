@@ -4,7 +4,7 @@ eleventyComputed:
   description: Voici les étapes à suivre pour intégrer {{ fr.DHUBP }} comme source de données dans {{ fr.RDM }}
 ---
 {{ fr.DHUBP }} est notre solution sécurisée de gestion des mots de passe personnels pour les utilisateurs individuels — et c'est gratuit.
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Pour intégrer {{ fr.DHUBP }} comme source de données dans {{ fr.RDM }} il faut avant tout le créer dans votre {{ fr.DA }}. Suivez les étapes pour [créer votre {{ fr.DHUBP }} gratuit](/fr/hub/getting-started/create-hub/hub-personal/) ou visitez notre site Web pour créer votre [{{ fr.VLT }}](https://devolutions.net/fr/password-hub/personal) dès aujourd'hui.
 {% endsnippet %}
 
@@ -18,7 +18,7 @@ Pour intégrer {{ fr.DHUBP }} comme source de données dans {{ fr.RDM }} il faut
 1. Saisir un ***Nom*** pour la source de données.
 1. Saisir le ***Courriel*** du {{ fr.DA }}, puis cliquer sur ***OK***.
 ![Champs d'information](https://cdnweb.devolutions.net/docs/fr/kb/KB0005.png)
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Il est possible de configurer une sauvegarde pour cette source de données à ce moment, mais cela peut aussi être fait plus tard.
 {% endsnippet %}
 

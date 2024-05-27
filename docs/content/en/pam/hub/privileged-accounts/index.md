@@ -10,7 +10,7 @@ Privileged accounts are added and managed in the PAM {{ en.VLT }}. The accounts 
 
 ![Privileged account in PAM {{ en.VLT }}](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub2293.png)
 
-{% snippet icon.badgeHelp %}
+{% snippet, "badgeHelp" %}
 You can use the ***Check-out*** feature to request temporary access to a privileged account entry in a PAM {{ en.VLT }}. The approver must then approve or deny the request. To learn more about this process, see [Request access to a privileged account](/pam/privileged-accounts/request-access-privileged-account/) or [Approve access to a privileged account](/pam/privileged-accounts/approve-access-privileged-account/).
 {% endsnippet %}
 

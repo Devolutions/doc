@@ -5,7 +5,7 @@ eleventyComputed:
 The following steps will describe the options to install the ***Recording Server*** for {{ en.DVLS }}. It is possible to install it on a standalone machine. It is recommended to install the ***Recording Server*** using the [{{ en.DGW }} method](#devolutions-gateway-installation) since the [{{ en.DVLS }} format](#devolutions-server-console-installation) is now deprecated.
 
 ## {{ en.DGW }} installation
-{% snippet icon.badgeHelp %}
+{% snippet, "badgeHelp" %}
 A [gateway](https://docs.devolutions.net/server/dgw/server-configuration/) first needs to be installed before starting this process.
 {% endsnippet %}
 
@@ -13,7 +13,7 @@ A [gateway](https://docs.devolutions.net/server/dgw/server-configuration/) first
 1. Go to ***Administration*** – ***System Settings*** – ***Recording Server***.
 1. Click on ***Enable {{ en.DGW }} recording***.
 ![Enable {{ en.DGW }} recording](https://cdnweb.devolutions.net/docs/docs_en_kb_KB0130.png)
-   {% snippet icon.badgeHelp %}
+   {% snippet, "badgeHelp" %}
    It is possible to [migrate legacy session recording files](/kb/devolutions-powershell/devolutions-gateway/recording-server-migration-tool).
    {% endsnippet %}
 
@@ -40,11 +40,11 @@ A [gateway](https://docs.devolutions.net/server/dgw/server-configuration/) first
 1. Click ***OK*** to save the changes and close the window.
 
 ## {{ en.DVLSCONSOLE }} installation
-{% snippet icon.badgeCaution %}
+{% snippet, "badgeCaution" %}
 As it is now deprecated, this ***Recording Server*** format is only recommended for version 2023.1 and prior.
 {% endsnippet %}
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 The {{ en.DVLSCONSOLE }} is required to install the ***Recording Server***.
 {% endsnippet %}
 
@@ -59,7 +59,7 @@ The {{ en.DVLSCONSOLE }} is required to install the ***Recording Server***.
 
 1. Set the settings for the machine where the ***Recording Server*** will be installed and click ***Next***.
 ![Properties](https://cdnweb.devolutions.net/docs/docs_en_kb_KB8017.png)
-   {% snippet icon.badgeCaution %}
+   {% snippet, "badgeCaution" %}
    Do not to install the ***Recording Server*** in [...]\inetpub\ or in the same folder as the web instance of {{ en.DVLS }} and/or {{ en.DVLSCONSOLE }}, as this would make it impossible to work properly.
    {% endsnippet %}
 
@@ -109,6 +109,6 @@ The {{ en.DVLSCONSOLE }} is required to install the ***Recording Server***.
 
 1. Click ***OK*** and ***Close*** the window.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 To upgrade the ***Recording Server***, you need to uninstall and reinstall it from the ***Companions*** tab of the {{ en.DVLSCONSOLE }}
 {% endsnippet %}

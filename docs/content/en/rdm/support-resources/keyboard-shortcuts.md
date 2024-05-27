@@ -7,11 +7,11 @@ Here are the default keyboard shortcuts for various commands. These can be modif
 
 The ***Disable All*** button allows you to disable all shortcuts. The ***Reset Default*** button returns shortcuts to their default values.
 
-{% snippet icon.badgeCaution %}
+{% snippet, "badgeCaution" %}
 Both the ***Disable All*** and ***Reset Default*** buttons will erase your custom shortcuts. Use these options with care so as not to risk losing your custom shortcuts.
 {% endsnippet %}
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Visit [Keyboard shortcuts customization in {{ en.RDMWIN }}](/kb/remote-desktop-manager/how-to-articles/keyboard-shortcuts-customization-rdm-windows/).
 {% endsnippet %}
 

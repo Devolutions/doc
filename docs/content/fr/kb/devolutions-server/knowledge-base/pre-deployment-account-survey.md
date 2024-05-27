@@ -6,11 +6,11 @@ eleventyComputed:
 ---
 Prior to deployment of a {{ en.DVLS }} instance, some accounts are needed to operate the various services involved in a secure deployment of {{ en.DVLS }}. The first decision is to use either domain accounts for operating the platform, or to use local SQL accounts paired with local service accounts. Since this decision is a matter of personal preference, we support both models.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 The names used in this guide are to ease comprehension of the role fulfilled by the account. Our documentation uses these names as well, but there is no requirement that you use them.
 {% endsnippet %}
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 The following accounts interacting with the SQL database will be granted the least privileges permissions from scripts that will run during the creation and the upgrade of the {{ en.DVLS }} instance.
 {% endsnippet %}
 
@@ -21,7 +21,7 @@ Please choose the appropriate section
 
 ## Domain Based Operation (Integrated Security option) 
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 The ***Administration Credentials*** needs full read permissions on the AD structure, but does NOT perform any changes to your directory. Sadly, because of a side effect of how the net Directory Services are built, there is an issue when that account tries to read properties of AD groups that may reside in a protected area of your directory. The easiest fix was to grant full admin permissions, but we are looking into implementing a better fallback strategy to handle the case where access is denied. It may requires higher privileges than being part of the Domain Users built-in Active Directory group. In most case, it should be sufficient.
 {% endsnippet %}
 
@@ -34,11 +34,11 @@ The ***Administration Credentials*** needs full read permissions on the AD struc
 
 ## Non-Domain Based Operation or Azure SQL environment
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 On a non-domain based deployment, a single connection string is used for three different aspects of the system. This will be improved in a future release to respect the least-privilege principle.
 {% endsnippet %}
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 For Azure SQL hosted database, domain based operation (Integrated Security option) is not supported.
 {% endsnippet %}
 

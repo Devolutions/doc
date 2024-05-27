@@ -10,13 +10,13 @@ Please visit the [Upgrading {{ en.DVLS }}](/server/installation/upgrade-server/)
 
 Please contact us at [service@devolutions.net](mailto:service@devolutions.net) to book a session where we will help out.
 
-{% snippet icon.shieldWarning %}
+{% snippet, "shieldWarning" %}
 {{ en.DVLS }} is used by teams, this means that other users must be taken into account before starting with the upgrade.
 {% endsnippet %}
 
 ## Steps
 
-{% snippet icon.badgeNotice %}
+{% snippet, "badgeNotice" %}
 Confirm that all minimum requirements are installed and dependencies reach the supported versions according to the [System Requirements](/server/overview/system-requirements/) page.
 {% endsnippet %}
 

@@ -10,6 +10,6 @@ Vererbung bedeutet, dass bestimmte Eigenschaften oder Attribute eines übergeord
 
 Zur Vererbung gelangt man über ***Eigenschaften – Allgemein – Anmeldeinformationen*** und ***Vererbt***.
 ![Dropdown-Menü Anmeldeinformationen](https://cdnweb.devolutions.net/docs/de/kb/KB0044.png)
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Wenn die Anmeldeinformationen des übergeordneten Eintrags nicht richtig vererbt werden, bedeutet dies, dass eine der Ebenen nicht auf ***Vererbt*** konfiguriert ist.
 {% endsnippet %}

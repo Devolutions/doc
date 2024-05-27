@@ -10,11 +10,11 @@ Vous aimeriez avoir accès à un ***Outil personnalisé*** qui vous permettrait 
 1. Sélectionner ***Ouvrir à partir d’un modèle***.
 1. Choisir dans la liste le ***Modèle*** souhaité.
 La méthode suivante, en revanche, rend possible un accès plus rapide dans la section ***Outils/Scripts/Macros*** de l’entrée. Elle vous permettra de cliquer sur ***Outil personnalisé*** et d’ouvrir la connexion actuellement sélectionnée avec les paramètres spécifiés dans votre ***Modèle***.
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Avant d'utiliser cette méthode, vous devez d'abord créer un ***Modèle*** dans ***Fichier - Modèles***. Pour plus de détails, veuillez consulter ce [lien](/fr/rdm/windows/commands/file/templates/).
 {% endsnippet %}
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 L'activation de l'option ***Disponible dans Macros/Scripts/Outils*** située dans ***Paramètres de modèle - Disponibilité*** est nécessaire pour que le ***Modèle*** que vous allez créer (***Modèle de base de données*** seulement) soit visible sur votre ***Tableau de bord***.
 {% endsnippet %}
 

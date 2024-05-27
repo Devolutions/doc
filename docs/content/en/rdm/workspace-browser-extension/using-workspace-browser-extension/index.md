@@ -3,7 +3,7 @@ eleventyComputed:
   title: Using the {{ en.WBEX }}
   order: 60
 ---
-{% snippet icon.badgeNotice %} 
+{% snippet, "badgeNotice" %} 
 This topic assumes that you have previously [installed the {{ en.WBEX }}](/rdm/windows/workspace-browser-extension/installation/) in your browser and that it is [connected to {{ en.RDM }}](/rdm/windows/workspace-browser-extension/first-login-workspace-browser-extension/). 
 {% endsnippet %}
  

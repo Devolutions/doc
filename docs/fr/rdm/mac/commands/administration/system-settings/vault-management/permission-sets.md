@@ -34,6 +34,6 @@ Vous pouvez créer un nouvel ensemble qui répond à vos besoins spécifiques :
 
 1. Sauvegarder les changements.
 
-{% snippet icon.badgeHelp %}
+{% snippet, "badgeHelp" %}
 Voir [Accorder l'accès en lot](/fr/rdm/mac/commands/administration/system-settings/vault-management/batch-grant-access) pour apprendre comment accorder des ensembles de permissions à plusieurs utilisateurs, groupes d'utilisateurs et utilisateurs d'application en même temps.
 {% endsnippet %}

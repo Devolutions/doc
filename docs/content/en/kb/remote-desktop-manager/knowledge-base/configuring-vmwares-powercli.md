@@ -8,14 +8,14 @@ The [VMware PowerCLI](http://www.vmware.com/support/developer/PowerCLI/index.htm
 * Performing operations on these virtual machines (start, stop, etc)
 * Launching a VMware Remote Console
 
-{% snippet icon.badgeCaution %}
+{% snippet, "badgeCaution" %}
 Some operations are not allowed on the Free edition of VMware Esxi. All operations acting on the state of the virtual machine need the vSphere API license.
 {% endsnippet %}  
 
 As a service to our community, we provide the procedure to get the PowerCLI up and running. Please remember that this is not a product of Devolutions and that we have no control over breaking changes that may occur between versions of the PowerCLI. You should always refer to the manufacturer's documentation.
 
 ## Procedure
-{% snippet icon.badgeCaution %}
+{% snippet, "badgeCaution" %}
 This procedure is valid for version 6.5 of VMware's PowerCLI.
 
 The bitness of both {{ en.RDM }} and the PowerCLI must be taken into account for this procedure. Since these steps are performed only once, we would recommend that you follow the procedure for BOTH the 32 bit and the 64 bit editions of the PowerCLI.

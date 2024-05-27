@@ -9,7 +9,7 @@ The ***Edit (Special Actions)*** option allows users and administrators to modif
 
 ![!!Edit – special actions2](https://cdnweb.devolutions.net/docs/RDMW4039_2024_1.png)
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Available special actions depend on the type of entry selected.
 {% endsnippet %}
 

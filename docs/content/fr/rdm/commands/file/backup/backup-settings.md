@@ -16,11 +16,11 @@ La [Sauvegarde en ligne](/fr/cloud/rdm-online-services/online-backup/) vous perm
 1. Une fois que vous avez terminé toutes les étapes, effectuez un changement dans la source de données pour activer la sauvegarde en ligne.
 1. Le logo de sauvegarde affichera une flèche verte signifiant que votre sauvegarde est maintenant activée.
 ![Copie de sauvegarde](https://cdnweb.devolutions.net/docs/fr/rdm/windows/clip10075.png)
-{% snippet icon.badgeCaution %}
+{% snippet, "badgeCaution" %}
 Vous devez effectuer cette opération pour toutes vos sources de données [{{ fr.DOD }}](/fr/rdm/windows/data-sources/data-sources-types/online-drive/), [SQLite](/fr/rdm/windows/data-sources/data-sources-types/sqlite/) ou [XML](/fr/rdm/windows/data-sources/data-sources-types/xml/) afin d'être entièrement protégé!
 {% endsnippet %}
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 La sauvegarde automatique est exécutée en arrière-plan 30 secondes après toute modification apportée au contenu de la source de données.
 {% endsnippet %}
 

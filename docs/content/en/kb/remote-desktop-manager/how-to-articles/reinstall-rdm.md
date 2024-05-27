@@ -2,7 +2,7 @@
 eleventyComputed:
   title: Reinstall {{ en.RDM }}
 ---
-{% snippet icon.badgeNotice %}
+{% snippet, "badgeNotice" %}
 Before reinstalling {{ en.RDM }}, a backup will be required.
 {% endsnippet %}
 

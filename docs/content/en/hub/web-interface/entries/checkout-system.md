@@ -5,7 +5,7 @@ eleventyComputed:
 The ***Checkout system*** locks an entry while it is being used or modified. It prevents multiple users from using or editing an entry at the same time.
 
 It can be enabled for ***General***, ***Session***, ***Information***, and ***Credential*** entries.
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Administrators can ***Force Check in*** entries that are checked out by users. Select the ***Check Out*** entry and, in the top banner, click ***Force Check in***.
 {% endsnippet %}
 

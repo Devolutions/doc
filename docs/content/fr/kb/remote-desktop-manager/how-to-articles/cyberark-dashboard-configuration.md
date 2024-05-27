@@ -7,7 +7,7 @@ The purpose of the ***CyberArk Dashboard*** entry is to provide {{ en.RDM }} use
 
 Another design principle of the dashboard is that its main usage model is to go through the CyberArk Privileged Session Manager (PSM) to reach assets. This means that {{ en.RDM }} does NOT need to read the password for the account to be used. Less secure models are available to support older scenarios that some of our customers are still using.
 
-{% snippet icon.badgeHelp %}
+{% snippet, "badgeHelp" %}
 Learn more about the [CyberArk MFA delimiter option](/kb/remote-desktop-manager/knowledge-base/mfa-delimiter-cyberark/).
 {% endsnippet %}
 
@@ -22,7 +22,7 @@ Learn more about the [CyberArk MFA delimiter option](/kb/remote-desktop-manager/
 
 ![General Tab](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2068.png)
 3. Enter the ***Web services URL*** to connect to your CyberArk instance. It is the address of the server and should look like "https://&lt;server name&gt;.&lt;our domain&gt;.loc/".
-   {% snippet icon.badgeInfo %}
+   {% snippet, "badgeInfo" %}
    The following is what your ***Web services URL*** will be, depending on your CyberArk subscription:
    * ***SelfHosted***: Short URL
    * ***PrivilegeCloud***: Short URL if the URL does not end in "cyberark.cloud"
@@ -33,24 +33,24 @@ Learn more about the [CyberArk MFA delimiter option](/kb/remote-desktop-manager/
 4. Enter a ***Virtual directory***. This field is either /privilegecloud or empty.
 5. Select a ***Version*** in the drop-down list. This refers to the CyberArk PVWA version seen on the CyberArk authentication page.
 
-   {% snippet icon.badgeInfo %}
+   {% snippet, "badgeInfo" %}
    Please note that we only support the CyberArk V12 API for now and that CyberArk version 12.1 is required.
    {% endsnippet %}
 
 6. Select the ***Authentication mode*** used to connect to the CyberArk instance (***CyberArk***, ***Windows***, ***LDAP***, ***RADIUS***, or ***SAML***).
-   {% snippet icon.badgeNotice %}
+   {% snippet, "badgeNotice" %}
    SAML authentication is supported with CyberArk since version 2022.3.25 of {{ en.RDM }}, but important improvements and bug fixes have been implemented in ulterior versions. We recommend to at least update to the 2023.1 version of {{ en.RDM }} if your current version is older. One of the improvements in version 2023.1 is that you no longer have to provide the ***IdP sign-in URL*** when configuring your SAML authentication. If you have trouble with your SAML authentication, consult [SAML Configuration and Troubleshooting](/kb/remote-desktop-manager/troubleshooting-articles/saml-configuration-troubleshooting-cyberark-dashboard/).
    {% endsnippet %}
-   {% snippet icon.badgeCaution %}
+   {% snippet, "badgeCaution" %}
    SAML authentication for CyberArk Privilege Cloud requires {{ en.RDM }} 2023.2.17 or newer.
    {% endsnippet %}
-{% snippet icon.badgeCaution %}
+{% snippet, "badgeCaution" %}
 Your CyberArk {{ en.VLT }} administrator should provide you with the authentication model being used, but if, in the PVWA, you click on a link that matches your corporate domain name, this indicates that the LDAP model is being used. The icon looks like the following:
 ![LDAP CyberArk Icon](https://cdnweb.devolutions.net/docs/docs_en_kb_iconldapcyberark.png)
 {% endsnippet %}
 
 7. In the ***Authentication credentials*** drop-down list, select ***Custom*** to enter your credentials below or select them using a {{ en.RDM }} mechanism. This list is not available with the ***SAML Authentication mode***.
-   {% snippet icon.badgeNotice %}
+   {% snippet, "badgeNotice" %}
    As with all ***Dashboard*** entries in {{ en.RDM }}, if you are creating an entry that will be visible to multiple users, we recommend choosing ***My Account Settings PVWA***, then visiting ***File – My Account Settings – CyberArk PVWA*** to enter your personal CyberArk credentials.
    {% endsnippet %}
 
@@ -85,7 +85,7 @@ The ***Advanced*** tab is divided into three sub-tabs: ***General***, ***PVWA***
 1. In the ***Connection components*** box, enter the components you wish to use for your connections. We initialize the field with the default components of a vanilla CyberArk installation, but this list MUST match the components configured in your {{ en.VLT }}.
 1. Since {{ en.RDM }} version 2023.2.24, there is a new feature called ***Override RDP Settings***. By default, RDP settings are fetched from CyberArk PVWA when generating the PSM session. This new option allows you to ignore settings provided by CyberArk and apply the ones specified in the ***CyberArk Dashboard*** entry instead. This override is for all PSM sessions established from this dashboard to have different display settings. One might consider creating different instances of the dashboard entry to reflect different users' preferences.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 {{ en.RDM }} and {{ en.DVLS }} versions must be at least 2023.2.28 and 2023.2.8 for ***Override RDP Settings*** to work.
 {% endsnippet %}
 
@@ -105,16 +105,16 @@ Here are the restrictions related to PSM:
 * PSM has to be able to link the LDAP account with a CyberArk PVWA profile (could work with a SAML Azure AD when LDAP is cloned on Azure AD)
 * The ***account to use*** must be found without any ambiguity in the CyberArk {{ en.VLT }}.
 
-{% snippet icon.badgeCaution %}
+{% snippet, "badgeCaution" %}
 This is provided as a convenience and is not recommended by the CyberArk team. It has some limitations when compared to the ***Connect*** action from PVWA which uses a limited lifetime token.
 {% endsnippet %}
-{% snippet icon.badgeCaution %}
+{% snippet, "badgeCaution" %}
 You must have a PSM Server entry configured in the same {{ en.VLT }}. Select it in the ***PSM server*** drop-down list.
 {% endsnippet %}
 
 ## Using the Dashboard
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Please note that for the sake of clarity, this section will only provide information about the main usage model of connecting through the PSM.
 {% endsnippet %}
 
@@ -177,7 +177,7 @@ After selecting the account in the CyberArk Dashboard, you can also use the ***{
 
 The menu can be bypassed by allowing a double-click action when there is only one possible combination of account/gateway/component.
 
-{% snippet icon.badgeHelp %}
+{% snippet, "badgeHelp" %}
 You can use a batchedit PowerShell script to allow a double-click action instead of selecting the option described in the steps below.
 {% endsnippet %}
 
@@ -190,7 +190,7 @@ $RDM.Save();
 1. Go to ***Connect using dashboard on double click*** and click ***Yes***.
 ![Properties – Advanced](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin6160.png)
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 The same option can be found in ***File*** – ***Settings*** – ***Types***.
 {% endsnippet %}
 

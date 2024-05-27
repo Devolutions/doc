@@ -14,7 +14,7 @@ eleventyComputed:
 	</tr>
 </table>
 
-{% snippet icon.badgeWarning %}
+{% snippet, "badgeWarning" %}
 L'intégration Dropbox utilise le SDK Dropbox, donc toutes les fonctionnalités exclusives aux éditions Business ou Enterprise ne sont PAS prises en charge.
 {% endsnippet %}
 
@@ -26,7 +26,7 @@ L'intégration Dropbox utilise le SDK Dropbox, donc toutes les fonctionnalités 
 * Pour éviter la corruption des données, la liste des sessions doit être modifiée dans un seul endroit à la fois
 * Pas besoin d'installer le client Dropbox pour utiliser la source de données Dropbox
 * Chaque source de données Dropbox peut utiliser un compte Dropbox différent
-{% snippet icon.badgeCaution %}
+{% snippet, "badgeCaution" %}
 Bien qu'il puisse être partagé entre plusieurs emplacements, il n'y a pas de gestion des conflits pour la configuration. Si vous partagez avec d'autres utilisateurs, vous pouvez obtenir des conflits de mise à jour et rencontrer des problèmes. Ce type de source de données est destiné à un seul utilisateur utilisant plusieurs ordinateurs, et non plusieurs utilisateurs.
 {% endsnippet %}
 
@@ -36,7 +36,7 @@ Bien qu'il puisse être partagé entre plusieurs emplacements, il n'y a pas de g
 
 ![Dropbox - Général](https://cdnweb.devolutions.net/docs/fr/rdm/windows/clip10808.png)
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 {{ fr.RDM }} prend en charge l'authentification à 2 facteurs de Dropbox. Lorsque le bouton Valider Dropbox est enfoncé et que l'authentification à 2 facteurs est activée dans Dropbox, une première boîte s'ouvre et demande le mot de passe du compte Dropbox. Après, une deuxième boîte s'ouvrira pour entrer le code de sécurité. Le code de sécurité peut être reçu par SMS ou généré par Google Authenticator.
 {% endsnippet %}
 

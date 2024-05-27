@@ -14,6 +14,6 @@ The ***{{ en.VLT_MAJ }} settings*** serve as an extra layer of security that can
 Click on ***Administration - {{ en.VLT_MAJ }} settings***. At the moment the only option you will be able to change is to override the credentials for all your entries. You can select to override your credentials with existing credentials or define a new one.
 ![{{ en.VLT_MAJ }} settings - General](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10413.png)
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 This feature is presently under construction as we are working hard on adding the Permissions feature which will allow you to make more changes directly from the {{ en.VLT }}. We will update the information as soon as it is available.
 {% endsnippet %}

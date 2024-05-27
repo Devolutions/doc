@@ -17,7 +17,7 @@ There are two modes used to configure a 1Password entry in {{ en.RDM }}. ***Web 
 1. Select the entry from your 1Password database you wish to reference by clicking the ellipsis next to the ***Title*** field, or check ***Always prompt with list*** to have the entry show all the available entries from the 1Password database.
 1. Click ***Add*** to save the configuration.
 ## Linked to a local file mode
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 The steps below are only available in older versions of 1Password.
 {% endsnippet %}
 

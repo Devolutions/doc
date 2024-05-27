@@ -8,7 +8,7 @@ eleventyComputed:
 
 ## Settings
 
-{% snippet icon.badgeNotice %}
+{% snippet, "badgeNotice" %}
 Before you start the configuration, make sure you have installed the [Google Authenticator](https://support.google.com/accounts/answer/1066447?hl=en) application on your mobile device.
 {% endsnippet %}
 
@@ -19,6 +19,6 @@ Before you start the configuration, make sure you have installed the [Google Aut
 1. When the validation code is entered, click on ***Validate***, then ***OK***.
 1. Relaunch {{ en.RDM }} to be prompted for the Google Authenticator code.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Google Authenticator generates a new validation code every 30 seconds. There will be a color indicating the end of the time window is approaching, please consult the application documentation of your device for complete information.
 {% endsnippet %}

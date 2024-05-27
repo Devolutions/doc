@@ -1,5 +1,5 @@
 const MarkdownIt = require('markdown-it');
-const snippets = require("./../../../docs/_data/snippets.json");
+const snippets = require('./../../_data/snippets.json');
 
 const md = new MarkdownIt({ html: true });
 

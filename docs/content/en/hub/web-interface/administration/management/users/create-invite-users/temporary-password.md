@@ -4,7 +4,7 @@ eleventyComputed:
 ---
 ***Temporary Password*** are created automatically for new users who are invited to {{ en.DHUBB }} and who do not have {{ en.DA }}.
 
-{% snippet icon.badgeNotice %}
+{% snippet, "badgeNotice" %}
 You can predefine how they are handled in ***Administration - System Settings - General***. For an overview on the subject, see [General](/hub/web-interface/administration/configuration-security/system-settings/).
 {% endsnippet %}
 
@@ -15,7 +15,7 @@ You can predefine how they are handled in ***Administration - System Settings - 
 
 In the invite process, when a {{ en.DA }} is found for the user, it will automatically link the account to {{ en.DHUBB }}.
 
-{% snippet icon.badgeNotice %}
+{% snippet, "badgeNotice" %}
 In this case, the ***Temporary Password*** is not being used since the account already exists.
 {% endsnippet %}
 

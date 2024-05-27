@@ -8,15 +8,15 @@ La gestion des utilisateurs est disponible dans le menu ***Administration - Util
 
 {{ fr.RDM }} permet une gestion avancée des droits d'utilisateur vous permettant de contrôler la façon dont une session est utilisée par chaque utilisateur. Noter que certains contrôles de visibilité dépendent de la source de données active.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Cette fonctionnalité nécessite une [Source de données avancées](/fr/rdm/windows/data-sources/data-sources-types/advanced-data-sources/).
 {% endsnippet %}
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Toutes les [Source de données avancées](/fr/rdm/windows/data-sources/data-sources-types/advanced-data-sources/) ne prennent pas en charge l'utilisation de la sécurité intégrée. Pour en savoir plus, veuillez consulter [Sécurité intégrée](/fr/rdm/windows/commands/administration/management/user-management/integrated-security/).
 {% endsnippet %}
 
-{% snippet icon.badgeNotice %}
+{% snippet, "badgeNotice" %}
 Pour créer des utilisateurs et attribuer des droits, vous devez être administrateur non seulement de {{ fr.RDM }}, mais également de la base de données sous-jacente..
 {% endsnippet %}
 

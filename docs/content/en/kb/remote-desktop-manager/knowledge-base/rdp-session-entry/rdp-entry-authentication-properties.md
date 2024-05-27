@@ -3,7 +3,7 @@ eleventyComputed:
   title: RDP entry authentication properties
   description: RDP entry authentication properties can be configured when creating or editing the RDP entry.
 ---
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 The following properties can be configured when creating or editing the RDP entry. Most of the general properties require you to close the RDP entry completely, then reopen it to take effect.
 {% endsnippet %}  
 

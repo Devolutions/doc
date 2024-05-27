@@ -18,7 +18,7 @@ If you have a [{{ en.RDMJ }}](/rdm/windows/overview/the-devolutions-platform/rdm
 
 The ***Data Source*** tab contains information regarding the current data source, such as the number of entries it contains, the size of your data source, the number of custom images and the offline state.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Too many custom images could dramatically increase the size of the data source and cause load time issue.
 {% endsnippet %}
 

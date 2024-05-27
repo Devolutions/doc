@@ -15,6 +15,6 @@ These steps require that the certificate has been successfully installed on the 
 ![!!KB4859](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4859.png)
 1. Grant the ***Read permission*** over the certificate file to the proper group(s) or user(s).
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 The following Microsoft blog article provides more method on how to find the certificate file: [https://docs.microsoft.com/en-us/archive/blogs/dsnotes/service-failure-with-cryptographicexception-keyset-does-not-exist](https://docs.microsoft.com/en-us/archive/blogs/dsnotes/service-failure-with-cryptographicexception-keyset-does-not-exist)
 {% endsnippet %}

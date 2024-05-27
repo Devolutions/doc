@@ -2,7 +2,7 @@
 eleventyComputed:
   title: Just-in-time (JIT) elevation
 ---
-{% snippet icon.badgeCaution %}
+{% snippet, "badgeCaution" %}
 The ***Just-in-time elevation*** feature is only available for Domain accounts.
 {% endsnippet %}
 

@@ -10,13 +10,13 @@ If you have enabled Single Sign-on (SSO) with {{ en.DHUBB }} prior to January 9,
 * The provisioning feature with Azure AD has to be done within this new enterprise application.
 * After the synchronization is done, verify that all your existing users are flagged as synced and that they are in their respective Azure ***User Groups***. If some users are not flagged as synced, it means that they are not members of any Azure group that is part of the enterprise application in Azure.
 
-{% snippet icon.badgeCaution %}
+{% snippet, "badgeCaution" %}
 To avoid any downtime during this new setup, you need to complete the configuration in {{ en.DHUBB }}. Once the new values are saved, the Microsoft authentication will change the enterprise application and should be seamless.
 {% endsnippet %}
 
 ## Replace {{ en.DHUB }} Custom User Groups with Azure User Groups
 
-{% snippet icon.badgeNotice %}
+{% snippet, "badgeNotice" %}
 Note that this task can be done whenever you have the opportunity, a group at a time.
 {% endsnippet %}
 
@@ -24,6 +24,6 @@ If you have {{ en.DHUB }} ***Custom User Groups***, ensure that you have an Azur
 
 Once the Azure groups correspond to the custom groups, you can start to replace those custom groups with the Azure groups wherever you assign them in ***System Permissions***, ***{{ en.VLT_MAJ }} Permissions***, and ***Folder/Entry Permissions***.
 
-{% snippet icon.badgeHelp %}
+{% snippet, "badgeHelp" %}
 Contact our support team at [service@devolutions.net](mailto:service@devolutions.net) if you need help.
 {% endsnippet %}

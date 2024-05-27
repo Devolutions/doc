@@ -7,7 +7,7 @@ eleventyComputed:
 
 {{ fr.RDM }} prend en charge plusieurs types de sources de données. Décidez d'abord de la source de données que vous utiliserez.
 
-{% snippet icon.badgeNotice %}
+{% snippet, "badgeNotice" %}
 Lors de l'installation initiale, vous exécuterez à partir d'une source de données locale qui est une base de données SQLite.
 {% endsnippet %}
 

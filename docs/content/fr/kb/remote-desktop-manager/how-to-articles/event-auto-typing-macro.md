@@ -4,7 +4,7 @@ eleventyComputed:
 ---
 La ***Macro clavier*** s'exécute automatiquement lorsqu'une connexion a été établie.
 
-{% snippet icon.shieldWarning %}
+{% snippet, "shieldWarning" %}
 Cette fonctionnalité envoie simplement des frappes de clavier fournies par le .NET Framework, comme si quelqu’un se servait réellement de son clavier. Les frappes sont envoyées directement au système d’exploitation. Ces dernières sont ensuite prises en charge par l’application actuellement en focus, peu importe laquelle. Si une autre fenêtre fait l’objet de ce focus, alors les identifiants seront probablement dévoilés lors de leur saisie dans une zone de texte.
 
 Il est donc fortement déconseillé d’utiliser cette fonctionnalité dans un environnement où les utilisateurs ne doivent pas connaître les mots de passe.

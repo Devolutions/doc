@@ -5,7 +5,7 @@ eleventyComputed:
 ---
 The ***Typing Macro*** automatically executes once a connection has been established.
 
-{% snippet icon.shieldWarning %}
+{% snippet, "shieldWarning" %}
 This feature simply uses a basic mechanism of sending keystrokes provided by the .NET Framework, emulating someone using the keyboard. It sends the keystrokes to the operating system itself, and they are handled by whatever application has the focus at that time. If the focus is switched to another window, the credentials will most likely be revealed by being typed in a text area.
 
 Be advised that using this feature in an environment where passwords must be hidden from the user is highly discouraged.

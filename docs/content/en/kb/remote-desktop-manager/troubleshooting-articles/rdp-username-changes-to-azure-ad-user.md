@@ -12,6 +12,6 @@ The solution is to set a period "." as the domain for the RDP connection entry. 
 ![Set the domain](https://cdnweb.devolutions.net/docs/RDMW2013_2024_1.png)
 1. Save your changes.
 
-{% snippet icon.badgeHelp %}
+{% snippet, "badgeHelp" %}
 For more help, contact our support at [service@devolutions.net](mailto:service@devolutions.net).
 {% endsnippet %}

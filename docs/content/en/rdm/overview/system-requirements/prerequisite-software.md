@@ -4,7 +4,7 @@ eleventyComputed:
 ---
 Specific prerequisite software need to be installed on your computer prior to running {{ en.RDM }}.  
 
-{% snippet icon.badgeInfo %} 
+{% snippet, "badgeInfo" %} 
 These installations are managed automatically by our installers. The only situations in which a manual installation of the prerequisite software should be performed are when the zip archive is used for deployment or when there is no Internet connection. 
 {% endsnippet %}
  

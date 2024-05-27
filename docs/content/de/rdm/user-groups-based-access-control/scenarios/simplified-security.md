@@ -2,11 +2,11 @@
 eleventyComputed:
   title: Vereinfachte Sicherheit
 ---
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Diese Funktion ist nur in [Erweiterten Datenquellen (EN)](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/) verfügbar.
 {% endsnippet %}
 
-{% snippet icon.shieldCaution %}
+{% snippet, "shieldCaution" %}
 Das folgende Szenario ist für kleine und mittlere Umgebungen konzipiert und für größere Umgebungen nicht zu empfehlen. Für ein Szenario, das eher für große Umgebungen geeignet ist, konsultieren Sie bitte den Artikel [Erweiterte Sicherheit](/de/rdm/windows/user-groups-based-access-control/scenarios/advanced-security/).
 {% endsnippet %}
 
@@ -99,7 +99,7 @@ Wir möchten, dass der ServiceDesk auch die Anmeldeinformationen des ***Domain-A
 Der letzte Schritt für die untergeordneten Elemente des Ordners „Telemark“ besteht darin, die Berechtigung ***Anzeigen*** für den ServiceDesk und den HelpDesk auf den Ordner „Boston“ zu setzen und alle anderen Berechtigungen dieses Ordners auf ***Vererbt*** zu belassen. Dadurch wird den Consultants die Einsicht in den Ordner „Boston“ verweigert. Nun können die Consultants nur Einträge im Ordner „Montreal“ einsehen und öffnen.
 ![Telemark/Boston - Berechtigungen](https://cdnweb.devolutions.net/docs/de/rdm/windows/RDMWin6109.png)
 
-{% snippet icon.shieldCaution %}
+{% snippet, "shieldCaution" %}
 Jedes Mal, wenn ein neuer Ordner hinzugefügt wird, muss die Berechtigung ***Anzeigen*** für den ServiceDesk und den HelpDesk gesetzt werden, um den neuen Ordner und seinen Inhalt vor den Consultants zu verbergen.
 {% endsnippet %}
 

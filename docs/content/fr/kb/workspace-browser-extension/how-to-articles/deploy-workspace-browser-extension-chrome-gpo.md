@@ -2,7 +2,7 @@
 eleventyComputed:
   title: Déployer le {{ fr.WBEX }} dans Chrome à l'aide d'un GPO
 ---
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Pour les versions du {{ fr.WBEX }} antérieures à 2021.2.3.0 :
 
 Les paramètres déployés avec l'objet de stratégie de groupe (GPO) ne sont appliqués que lorsque l’extension est utilisée pour la première fois. Cela signifie que les paramètres ne seront pas appliqués et modifiés si vous changez les paramètres dans le GPO et que l’extension a déjà été utilisée au moins une fois par l’utilisateur.

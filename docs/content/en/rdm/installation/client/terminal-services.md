@@ -5,7 +5,7 @@ eleventyComputed:
 ---
 {{ en.RDM }} has an excellent support for running under a Remote Desktop Services environment. A master configuration file can be created to distribute settings for all new users of the system or even to update existing user's configuration.
 
-{% snippet icon.badgeNotice %}
+{% snippet, "badgeNotice" %}
 Please ensure that you have followed [Microsoft's recommendations](https://learn.microsoft.com/en-us/windows-server/administration/performance-tuning/role/remote-desktop/session-hosts) on how to set up an RDS environment. It will severally impact the performance if default Windows installations are performed.
 
 Each user must have a unique application data folder (roaming profiles or similar technologies). {{ en.RDM }} saves some user preferences on the local configuration file. The folder can be wiped out whenever the user logs out of the Windows Session, but it must be accessible for the duration of {{ en.RDM }} execution.
@@ -15,7 +15,7 @@ Each user must have a unique application data folder (roaming profiles or simila
 
 1. Install by following the procedure [for all users](/rdm/windows/installation/client/all-users/). This ensures that the Microsoft Installer Database does contain all of the needed information for all user profiles of the host.
 1. After installing {{ en.RDM }}, configure your preferences. We recommend going through all the configuration options to find the set of options that you wish to distribute. The data sources deserve special interest since it is much better when they are configured by an administrator. You may even take the opportunity to lock the data sources to protect against any modification by the users. Please refer to [Lock Data Source](/rdm/windows/data-sources/lock/) for more information.
-   {% snippet icon.shieldWarning %}
+   {% snippet, "shieldWarning" %}
    When using [advanced data sources](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/), for effective logging methods, proper session security and user-based features, it is critical that each user has their own account to authenticate against the data source.
 
    Redistributing a data source registration should follow one of the patterns below:

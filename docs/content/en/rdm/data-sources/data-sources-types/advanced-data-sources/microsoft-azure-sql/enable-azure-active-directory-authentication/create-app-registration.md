@@ -4,7 +4,7 @@ eleventyComputed:
   keywords:
   - Active Directory admin
 ---
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 This step is optional and not required if your {{ en.RDM }} version is 2022.1 and higher.
 {% endsnippet %}
 
@@ -20,11 +20,11 @@ To be able to use the Active Directory Interactive (with MFA Support) authentica
 1. Select the ***Supported account types***.
 ![!!RDMWin2231](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin2231.png)
 1. Configure the ***Redirect URI*** as indicated below and click ***Register***.
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 The ***Redirect URI*** setting MUST be configured ***Public client/native (mobile & desktop)***.
 {% endsnippet %}
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 In our example the ***Redirect URI*** is set to https<area>://mycompany.com, but we suggest you personalize it to the domain of your company home page. This will be necessary in the authentication step of [Configure {{ en.RDM }} Active Directory Interactive (with MFA)](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/microsoft-azure-sql/enable-azure-active-directory-authentication/configure-rdm-older-version-ad-interactive-mfa/).
 {% endsnippet %}
 

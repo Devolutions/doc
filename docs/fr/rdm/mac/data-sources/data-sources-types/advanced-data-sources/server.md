@@ -23,7 +23,7 @@ eleventyComputed:
 * Prends en charge l'authentification Windows et l'intégration de groupe Active Directory.
 * Optimisation de la mise en cache côté client et serveur.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 À l'heure actuelle, {{ fr.DVLS }} prend uniquement en charge SQL Server et Azure SQL en tant que base de données.
 {% endsnippet %}
 

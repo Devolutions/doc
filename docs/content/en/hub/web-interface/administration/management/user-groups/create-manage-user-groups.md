@@ -20,7 +20,7 @@ User management and permissions can be made easier with ***User Groups*** in {{ 
 ### Manage User Groups
 
 Managing and adding users to ***User Groups*** in {{ en.DHUBB }} can be done through multiple ways:
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 To manage ***{{ en.VLT }}s Permissions*** with ***User Groups***, look into [Create and manage {{ en.VLT }}s](/hub/web-interface/administration/management/vaults/create-manage-vaults/).
 {% endsnippet %}
 

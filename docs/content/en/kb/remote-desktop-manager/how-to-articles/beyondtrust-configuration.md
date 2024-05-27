@@ -20,6 +20,6 @@ In the ***Advanced*** section of the same BeyondTrust entry:
 4. Select the system you want to connect to using the ellipsis button next to the ***System*** field.
 ![System](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4945.png)
 
-{% snippet icon.badgeHelp %}
+{% snippet, "badgeHelp" %}
 The template section allows you to apply a template for the session you want to open. For more information on templates, please refer to [Creating templates](https://docs.devolutions.net/rdm/windows/commands/file/templates/creating-templates).
 {% endsnippet %}

@@ -9,7 +9,7 @@ You can run the uninstaller if it was installed with the default setup file, or 
 
 The application configuration files are saved in **%LocalAppData%\Devolutions\RemoteDesktopManager** or **%AppData%\Devolutions\RemoteDesktopManager** by default. If desired, it is possible to delete this folder for a complete uninstall.
 
-{% snippet icon.badgeInfo %} 
+{% snippet, "badgeInfo" %} 
 If you are using a local data source like [SQLite](/rdm/windows/data-sources/data-sources-types/sqlite/) or [XML](/rdm/windows/data-sources/data-sources-types/xml/), your data source may be saved in the configuration folder. Perform a backup of the data source prior to the deletion of the folder. 
 {% endsnippet %}
  
@@ -19,6 +19,6 @@ The CFG file is not deleted when {{ en.RDM }} is reinstalled or updated. This is
 
 To encrypt the content of a local data source, a master key must be set. It will not be possible for anyone who does not have access to the master key to view the data contained in the **connections.db** file.
 
-{% snippet icon.badgeHelp %} 
+{% snippet, "badgeHelp" %} 
 To configure a master key, please refer to [Manage Master Key](/rdm/windows/commands/file/change-master-key/).
 {% endsnippet %}

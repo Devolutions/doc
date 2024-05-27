@@ -6,7 +6,7 @@ In ***Reports – History – Deleted Entries***, manage the deleted entries fro
 
 Click the ***Export*** button to create a CSV report of the ***Deleted Entries***.
 
-{% snippet icon.badgeNotice %}
+{% snippet, "badgeNotice" %}
 If an entry is deleted from a ***{{ en.UVLT }}***, only the user of the ***{{ en.UVLT }}*** can restore and manage it in the ***Reports*** section.
 {% endsnippet %}
 

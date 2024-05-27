@@ -6,7 +6,7 @@ eleventyComputed:
 ---
 When you finish the installation of {{ en.DLAUNCHER }}, you are prompted to choose a data source between {{ en.DHUBB }} and {{ en.DVLS }}.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 ***Data Source Selection*** is also available in ***File – Data Sources*** of {{ en.DLAUNCHER }}.
 {% endsnippet %}
 

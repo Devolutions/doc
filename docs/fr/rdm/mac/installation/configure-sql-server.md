@@ -5,11 +5,11 @@ eleventyComputed:
 ### Microsoft SQL Server
 
 1. Installer SQL Server ou SQL Server Express (cette édition est gratuite).
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Les instances SQL Server nouvellement installées n'autorisent pas les connexions à distance. Veuillez suivre les instructions de SQL Server.
 {% endsnippet %}
 
-{% snippet icon.shieldNotice %}
+{% snippet, "shieldNotice" %}
 Pour plus de sécurité, vous pouvez activer le cryptage SSL pour communiquer avec votre instance de SQL Server.
 Veuillez suivre les instructions sur [Configurer le moteur de base de données SQL Server pour le chiffrement des connexions](https://learn.microsoft.com/fr-ca/sql/database-engine/configure-windows/configure-sql-server-encryption).
 {% endsnippet %}

@@ -13,7 +13,7 @@ To view the number of pending requests, you can look at the following ***Pending
 To accept the pending requests, scroll down to the ***Pending {{ en.VLT }} Access Requests*** section.
 Using the ***Messages*** button, you can view the ***{{ en.VLT_MAJ }} Access Request*** message of a specific request.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 If there is a {{ en.VLT }} owner for the requested {{ en.VLT }}, the administrator will not receive a ***Message***.
 {% endsnippet %}
 
@@ -21,7 +21,7 @@ Finally, clicking on the ***Approve*** and ***Deny*** buttons opens the ***{{ en
 
 ## Approve/Deny {{ en.VLT }} access requests
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Depending on the data source, administrators / {{ en.VLT }} owners may receive an email informing them of the {{ en.VLT }} access request:
 * With a {{ en.DHUBB }} data source, a {{ en.VLT }} access request email is sent to the administrator / {{ en.VLT }} owner to whom the request has been addressed.
 * With a {{ en.DVLS }} data source, all administrators / {{ en.VLT }} owners receive a {{ en.VLT }} access request email.
@@ -45,6 +45,6 @@ This view is divided into two sections:
 
 The button to send the response (***Approve request*** or ***Deny request***) will change, depending on what you selected earlier.
 
-{% snippet icon.badgeHelp %}
+{% snippet, "badgeHelp" %}
 To learn more about the end user experience in {{ en.DVLS }}, visit [Request {{ en.VLT }} access in {{ en.DVLS }}](/server/web-interface/vault-access/request-vault-access).
 {% endsnippet %}

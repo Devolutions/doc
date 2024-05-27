@@ -26,7 +26,7 @@ For example, it is possible to:
 
 Entries reiterated this way also have both folder paths indicated in their Folder field in their properties, the paths are separated by a semi-colon.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 There is no visual differences between the shortcut and the original entry. Therefore, you’ll need to delete all entries to completely remove said entry. You will be asked for confirmation when attempting to delete said shortcut.
 {% endsnippet %}
 
@@ -53,7 +53,7 @@ The ***Play List*** feature in {{ en.RDM }} is a lot like a music play list. It 
 | Local Specific Settings | Override properties of the selected entry with settings specific to the local machine. For more information, please consult [Specific Settings](/rdm/windows/commands/edit/setting-overrides/specific-settings/). |
 
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 A Specific Settings column can be added in the ***{{ en.NPANE }}***. Right-click on the column ***Name*** in the ***{{ en.NPANE }}*** and select ***Column Chooser***. Double-Click on ***Specific Settings*** to add the column. Now, if there is a specific setting applied to an entry, it will be displayed next to the entry name.
 ![{{ en.NPANE }} - Column Chooser](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin2252.png)
 {% endsnippet %}

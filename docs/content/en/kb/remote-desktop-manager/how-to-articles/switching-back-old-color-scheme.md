@@ -17,7 +17,7 @@ It is possible to change the color scheme in {{ en.RDM }}.
 1. Input 0, 103, 192 into ***Red***, ***Green*** and ***Blue*** respectively.
 ![0, 103, 192](https://cdnweb.devolutions.net/docs/docs_en_kb_KB0009.png)
 1. Click ***Ok*** and restart {{ en.RDM }} to apply the changes.
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 The color scheme can be reset by clicking on the ***X*** to the right of the ***Color*** dropdown menu (step 2).
 {% endsnippet %}
 

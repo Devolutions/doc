@@ -4,7 +4,7 @@ eleventyComputed:
   description: The {{ en.CIM }} allows you to download the package directly from {{ en.RDM }} or from our website.
 ---
 The ***{{ en.CIM }}*** allows you to download the package directly from {{ en.RDM }} or from our website.
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Please note that you must create a file in {{ en.RDM }} before creating the installer on the web portal.
 {% endsnippet %}
 

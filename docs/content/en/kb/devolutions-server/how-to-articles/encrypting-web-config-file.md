@@ -12,16 +12,16 @@ The **web.config** file stores the database connection strings, which contain th
 
 However, since encrypting the **web.config** file uses ***RsaProtectedConfigurationProvider*** from .NET Framework, additional permissions are required to the ***NetFrameworkConfigurationKey*** container used by RSA Provider.
 
-{% snippet icon.badgeCaution %}
+{% snippet, "badgeCaution" %}
 Omitting to do so will prevent the ***DevolutionsSchedulerService*** to start, and will also cause this prompt when enabling the ***Encypt web.config file*** option.
 ![!!KB4841](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4841.png)
 {% endsnippet %}
 
-{% snippet icon.shieldWarning %}
+{% snippet, "shieldWarning" %}
 Granting access to the ***NetFrameworkConfigurationKey*** container could be a security concern, therefore it is recommended to not grant this permission to ***Network Service*** or ***Local Service***.
 {% endsnippet %}
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 The **appsettings.json** file is encrypted at the same time.
 {% endsnippet %}
 
@@ -51,12 +51,12 @@ The **web.config** file store the database connection strings, which contain the
 
 However, since encrypting the **web.config** file uses ***RsaProtectedConfigurationProvider*** from .NET Framework, additional permissions are required to the ***NetFrameworkConfigurationKey*** container used by RSA Provider.
 
-{% snippet icon.badgeCaution %}
+{% snippet, "badgeCaution" %}
 Omitting to do so will prevent the ***DevolutionsSchedulerService*** to start, likely giving this error from Windows Services Console:
 ![!!KB4843](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4843.png)
 {% endsnippet %}
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 The **appsettings.json** file is encrypted at the same time.
 {% endsnippet %}
 

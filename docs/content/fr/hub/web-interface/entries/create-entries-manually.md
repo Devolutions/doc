@@ -23,6 +23,6 @@ Les sous entrées sont des entrées à part entière, indépendantes, situées s
 * Dans l'interface Web de {{ fr.DHUB }}, créez une entrée normale en suivant les instructions ci-dessus, puis glissez-déposez l'entrée sur une autre.
 * Dans {{ fr.RDM }} avec une source de données {{ fr.DHUB }}, voir [Créer une entrée (Windows)](/fr/rdm/windows/commands/edit/entries/creating-new-entry/) ou [Créer une entrée (macOS)](/fr/rdm/mac/commands/edit/entries/creating-new-entry/).
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Vous ne pouvez pas créer une sous entrée sous une autre sous entrée.
 {% endsnippet %}

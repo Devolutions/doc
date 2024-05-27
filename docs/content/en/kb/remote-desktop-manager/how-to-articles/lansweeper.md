@@ -8,7 +8,7 @@ For individuals currently using Lansweeper or considering its addition to their 
 ## Link Lansweeper to an entry's properties via the IT asset management tab
 The IT Asset Management feature can be used to link an asset manager (e.g., [BlueTally](/kb/remote-desktop-manager/how-to-articles/it-asset-management/), Lansweeper) through an entry's properties. An embedded tab will then display the main landing page for Lansweeper. You can also easily switch between your data in {{ en.RDM }} and Lansweeper.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Only the ***Session***, ***Remote Management***, ***Miscellaneous***, ***VPN***, ***Synchronizer*** and ***Template*** entry types support this feature for now. The ***IT Asset Management*** entries work differently from the feature.
 {% endsnippet %}
 
@@ -20,7 +20,7 @@ Only the ***Session***, ***Remote Management***, ***Miscellaneous***, ***VPN***,
 1. Click ***Update*** to save the changes and close the window.
 ![IT Asset Management](https://cdnweb.devolutions.net/docs/docs_en_kb_KB6165.png)
 1. In the ***Dashboard***, select the ***IT Asset Management*** tab.
-   {% snippet icon.badgeInfo %}
+   {% snippet, "badgeInfo" %}
    The tab will be named according to what was written in the ***IT asset management title field***. If the field is left empty ***Lansweeper*** will show (if this service was chosen), or show as ***IT Asset Management***.
    {% endsnippet %}
 
@@ -33,7 +33,7 @@ To import Lansweeper assets and create connections in {{ en.RDM }}, use the ***C
 ![File – Import – Session – Lansweeper](https://cdnweb.devolutions.net/docs/docs_en_kb_KB6175.png)
 You can also right click on the ***{{ en.NPANE }}*** – ***Import*** – ***Import Sessions From*** – ***Lansweeper***.
 1. In the ***Import From Lansweeper*** window, enter the ***identity code*** and the ***site***.
-   {% snippet icon.badgeInfo %}
+   {% snippet, "badgeInfo" %}
    * The identity code comes from authorizing a personal application on your Lansweeper site. Here is a link to their documentation on how to achieve that: [How to Authenticate with our API](https://docs.lansweeper.com/DOCS/API/AUTHENTICATE#personal-application).
    * Both the identity code and your direct credentials to Lansweeper can be saved in the ***My Account Settings***. These can be found in ***File*** – ***My Account Settings*** – ***Lansweeper***.
    {% endsnippet %}

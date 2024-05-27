@@ -4,7 +4,7 @@ eleventyComputed:
 ---
 Parfois, lorsqu'un problème survient lors de l'utilisation de {{ fr.RDM }}, le personnel de support peut vous demander d'activer le débogage et de renvoyer les informations. Voici deux procédures que vous pouvez suivre.
 
-{% snippet icon.badgeWarning %}
+{% snippet, "badgeWarning" %}
 Tout niveau de débogage autre que zéro ralentit l'application et écrit de nombreuses informations dans les journaux d'application. Dès que vous avez terminé les diagnostics, vous devez rétablir le niveau de débogage à zéro.
 {% endsnippet %}
 

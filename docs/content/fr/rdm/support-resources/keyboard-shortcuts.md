@@ -9,11 +9,11 @@ Voici les raccourcis clavier par défaut pour diverses commandes. Ceux-ci peuven
 
 Le bouton ***Désactiver tout*** vous permet de désactiver tous les raccourcis. Le bouton ***Réinitialiser par défaut*** permet de rétablir les valeurs par défaut des raccourcis.
 
-{% snippet icon.badgeCaution %}
+{% snippet, "badgeCaution" %}
 Les boutons ***Désactiver tout*** et ***Réinitialiser par défaut*** effacent vos raccourcis personnalisés. Utilisez ces options avec précaution afin de ne pas risquer la perte de vos raccourcis personnalisés.
 {% endsnippet %}
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Consultez [Keyboard shortcuts customization in {{ fr.RDMWIN }} (EN)](/kb/remote-desktop-manager/how-to-articles/keyboard-shortcuts-customization-rdm-windows/).
 {% endsnippet %}
 

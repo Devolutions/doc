@@ -12,11 +12,11 @@ Oft wird um eine vollständige Liste der Eigenschaften gebeten, aber es ist aus 
 1. Nehmen Sie die Änderungen, die mit PowerShell automatisiert werden sollen, manuell vor und speichern Sie den Eintrag.
 1. Speichern Sie die geänderte XML-Datei mithilfe von ***Zwischenablage – Kopieren*** in einer anderen Datei. Dies ist die ENDVERSION.
 1. Vergleichen Sie die beiden Dateien mit einem Datenvergleichs-Applikation. Die geänderten Felder und die zugewiesenen Werte zeigen an, welche Werte und Optionen im Skript erforderlich sind.  
-{% snippet icon.badgeHelp %}
+{% snippet, "badgeHelp" %}
 Weitere Informationen zu [{{ de.RDM }} Anmeldeinformationen](/kb/devolutions-powershell/remote-desktop-manager/xml-information/) GUIDs.
 {% endsnippet %}
 
-{% snippet icon.badgeHelp %}
+{% snippet, "badgeHelp" %}
 Weitere Informationen zu [{{ de.DVLS }} Anmeldeinformationen](/kb/devolutions-powershell/devolutions-server/xml-information/) GUIDs.
 {% endsnippet %}
 

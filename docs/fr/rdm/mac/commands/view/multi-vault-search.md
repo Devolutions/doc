@@ -11,13 +11,13 @@ La fonctionnalité ***Recherche multi-{{ fr.VLT }}s*** de {{ fr.RDMMAC }} permet
 
 Les critères suivants sont disponibles afin d'affiner votre recherche : ***Type de connexion***, ***Date de création***, ***Dossier***, ***Date de la dernière mise à jour***, ***Nom*** et ***Logiciel***.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Au moins un critère doit être utilisé pour filtrer vos résultats et un maximum de quatre critères peuvent être appliqués à une même recherche.
 {% endsnippet %}
 
 ![Critères de recherche](https://cdnweb.devolutions.net/docs/fr/rdm/mac/RDMMac0022.png)
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Avec une base de donnée ***Hub***, seulement le critère de recherche ***Nom*** peut être sélectionné.
 {% endsnippet %}
 

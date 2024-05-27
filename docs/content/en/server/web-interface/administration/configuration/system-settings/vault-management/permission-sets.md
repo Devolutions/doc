@@ -34,6 +34,6 @@ Create a new set that suits your specific needs:
 
 1. Save your changes.
 
-{% snippet icon.badgeHelp %}
+{% snippet, "badgeHelp" %}
 See [Batch Grant Access](/server/web-interface/administration/configuration/system-settings/vault-management/batch-grant-access/) to learn how to grant permissions sets to multiple users, user groups, and application users at once.
 {% endsnippet %}

@@ -4,7 +4,7 @@ eleventyComputed:
 ---
 To use Integrated Authentication (Windows Authentication) on macOS, you will need to setup a ***Kerberos ticket*** linking your current user to a Windows domain account. A summary of key steps are included below.
 
-{% snippet icon.badgeWarning %}
+{% snippet, "badgeWarning" %}
 This experimental feature has worked in our internal tests and is a workaround to the integrated security feature which does not work on macOS with SQL Server.
 
 That being said, the initial implementation of Kerberos was meant to help our community with using this authentication method. However, multiple changes have been made on the Kerberos side since the implementation, so it is possible that this method is now outdated.
@@ -18,7 +18,7 @@ Run on: Windows PC that is joined to your Active Directory Domain. Note that any
 
 ### Manual Discovery
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 **nltest.exe** is a console utility that you can run using the basic command interpreter or PowerShell.
 {% endsnippet %}
 
@@ -56,7 +56,7 @@ Write-Output "}"
 
 Edit the /etc/krb5.conf in an editor of your choice, note that you need to elevate your privileges (sudo or other). If you have obtained the result of the PowerShell script, simply copy the appropriate lines.  Follows the steps needed if you used the manual discovery.
 
-{% snippet icon.badgeCaution %}
+{% snippet, "badgeCaution" %}
 The domain must be in ALL CAPS
 {% endsnippet %}
 

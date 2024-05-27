@@ -3,15 +3,15 @@ eleventyComputed:
   title: Configuration SSH pour la conformité de {{ fr.RDM }} avec FIPS 140-2
 ---
 Il est nécessaire d’effectuer des changements de configuration bien précis dans les options de {{ fr.RDM }} pour s’assurer que le client SSH de {{ fr.RDM }} soit conforme avec l’annexe A de la norme FIPS 140-2.
-{% snippet icon.shieldNotice %}
+{% snippet, "shieldNotice" %}
 Pour être en conformité, il vous faudra d’abord désactiver les algorithmes non conformes. Pour ce faire, assurez-vous que les cases qui ne sont PAS cochées dans les captures d’écran ci-dessous soient également désactivées dans la configuration de votre client.
 {% endsnippet %}
 
-{% snippet icon.shieldCaution %}
+{% snippet, "shieldCaution" %}
 L’utilisation de ces paramètres n’est conseillée que pour les environnements qui doivent être conformes à la norme FIPS 140-2. Il est recommandé d’utiliser les paramètres par défaut pour la plupart des utilisateurs {{ fr.RDM }} et d’activer des suites de chiffrement supplémentaires selon les besoins de leurs serveurs.
 {% endsnippet %}
 
-{% snippet icon.badgeHelp %}
+{% snippet, "badgeHelp" %}
 Ces valeurs proviennent de la documentation de Microsoft concernant la norme [FIPS 140-2 annexe A](https://docs.microsoft.com/fr-ca/cpp/linux/set-up-fips-compliant-secure-remote-linux-development?view=msvc-160).
 {% endsnippet %}
 

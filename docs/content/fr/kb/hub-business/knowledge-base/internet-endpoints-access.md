@@ -7,7 +7,7 @@ eleventyComputed:
 ---
 Voici la liste des adresses que {{ fr.DHUB }} pourrait utiliser durant les activités normales.  
 
-{% snippet icon.badgeWarning %}
+{% snippet, "badgeWarning" %}
 Nous utilisons une approche de « meilleur effort » pour maintenir cette liste à jour, mais celle-ci ne remplace pas les meilleures pratiques de sécurité TI. Si la sécurité est primordiale, il serait préférable de bloquer d'abord tout accès à Internet, puis de mettre les adresses souhaitées sur une liste d'autorisation si nécessaire. 
 {% endsnippet %}
 

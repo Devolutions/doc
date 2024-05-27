@@ -8,7 +8,7 @@ L'onglet ***Paramètres*** vous permet de remplacer le format de l'écran, la pa
 
 ### Format de l'écran
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Substituer le format de l'écran est visible que pour les sessions RDP.
 {% endsnippet %}
 
@@ -68,7 +68,7 @@ Vous pouvez sélectionner le mode de calibrage d'écran entre :
 
 La ***Passerelle*** vous permet de personnaliser les identifiants de la passerelle RDP utilisée sur la session distante. Vous devez sélectionner les nouveaux identifiants à utiliser. Pour en savoir plus sur les options de remplacement des identifiants, veuillez suivre ce [lien](/fr/rdm/mac/commands/edit/setting-overrides/user-specific-settings/override-credentials/).
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 ***Substituer la passerelle*** est visible que pour les sessions RDP.
 {% endsnippet %}
 
@@ -78,7 +78,7 @@ La ***Passerelle*** vous permet de personnaliser les identifiants de la passerel
 
 Substituer les disques durs vous permet de personnaliser les disques durs RDP qui sont partagés avec la connexion de bureau à distance.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Substituer les disques durs est visible que pour les sessions RDP.
 {% endsnippet %}
 

@@ -5,7 +5,7 @@ eleventyComputed:
 {{ en.RDM }} 's current installation package does require to install with elevated privileges, as well as making the application available to all users of the computer where you are installing. That being said, feedback has shown that it does complete successfully across a wide spectrum of our community's environments. Follow this procedure to reduce deployment issues in the future.
 
 ## Procedure
-{% snippet icon.badgeWarning %}
+{% snippet, "badgeWarning" %}
 This procedure registers all file types associations, this mean that rdp files will from now on be opened with {{ en.RDM }}. If you wish to avoid this, install manually using the Custom mode, and choose every option but that rdp association.
 {% endsnippet %}
 

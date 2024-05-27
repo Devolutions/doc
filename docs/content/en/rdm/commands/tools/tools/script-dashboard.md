@@ -11,7 +11,7 @@ The ***Script dashboard*** is useful for centralizing scripts and running them w
 1. Select ***Tools – Script Dashboard*** in the ribbon of {{ en.RDM }}.
 ![Script Dashboard](https://webdevolutions.blob.core.windows.net/docs/RDMW2014_2024_1.png)
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 The ***Script Dashboard*** feature is also available as an entry. Create a new entry in {{ en.RDM }} and select ***Script Dashboard*** under ***Session – Other***.
 {% endsnippet %}
 

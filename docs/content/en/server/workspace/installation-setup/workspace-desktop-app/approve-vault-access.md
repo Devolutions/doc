@@ -15,7 +15,7 @@ In {{ en.DVLS }}, [users can request access to a public {{ en.VLT }}](/server/we
 
 ![Temporary access requests](https://cdnweb.devolutions.net/docs/DVLS6016_2024_1.png)
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 If there is a {{ en.VLT }} owner for the requested {{ en.VLT }}, the administrator will not receive a ***Message***.
 {% endsnippet %}
 

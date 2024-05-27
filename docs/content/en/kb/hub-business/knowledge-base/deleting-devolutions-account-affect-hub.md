@@ -8,7 +8,7 @@ Deleting {{ en.DA }}s can be done quickly via the {{ en.DPORTAL }} profile page.
 
 ![!!CLOUD4000_2024_1](https://cdnweb.devolutions.net/docs/CLOUD4000_2024_1.png)
 
-{% snippet icon.badgeWarning %}
+{% snippet, "badgeWarning" %}
 
 THIS CANNOT BE UNDONE!
 

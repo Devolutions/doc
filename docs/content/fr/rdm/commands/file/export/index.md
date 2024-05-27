@@ -4,11 +4,11 @@ eleventyComputed:
 ---
 Utiliser ***Fichier - Exporter*** pour exporter les {{ fr.VLT }}s à partir de {{ fr.RDM }}.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 La fonction d'exportation n'est active que si les ***Privilèges*** d'importation et d'exportation ont été activés dans le compte de ***Gestion des utilisateurs***.
 {% endsnippet %}
 
-{% snippet icon.badgeNotice %}
+{% snippet, "badgeNotice" %}
 Les formats appropriés pour réimporter les {{ fr.VLT }}s dans {{ fr.RDM }} sont les formats .rdm et .rdx.
 {% endsnippet %}
 
@@ -16,7 +16,7 @@ Les formats appropriés pour réimporter les {{ fr.VLT }}s dans {{ fr.RDM }} son
 
 ![Fichier - Exporter](https://cdnweb.devolutions.net/docs/fr/rdm/windows/clip10502.png)
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Lorsque vous utilisez une [Source de données avancée](/fr/rdm/windows/data-sources/data-sources-types/advanced-data-sources/), les capacités d'exportation peuvent être désactivées via des politiques de sécurité au niveau de la source de données (personne ne peut exporter) ou au niveau de l'utilisateur (certains utilisateurs ne peuvent pas exporter).
 {% endsnippet %}
 
@@ -24,11 +24,11 @@ Lorsque vous utilisez une [Source de données avancée](/fr/rdm/windows/data-sou
 
 Exporter le {{ fr.VLT }} dans un fichier .rdm qui peut être importé dans n'importe quelle source de données {{ fr.RDM }}. Vous pouvez également inclure les identifiants dans ce format d'exportation et sécuriser votre fichier avec une clé maîtresse.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Par défaut, les identifiants ne sont PAS inclus. Il est essentiel de cocher l'option ***Inclure identifiants*** afin que les données exportées les incluent.
 {% endsnippet %}
 
-{% snippet icon.badgeWarning %}
+{% snippet, "badgeWarning" %}
 La spécification d'une ***Clé maîtresse*** cryptera tout le contenu du fichier .rdm pour protéger son contenu. Il est fortement recommandé comme mesure de sauvegarde, mais la clé est absolument nécessaire pour le décryptage. Conservez-la également dans un périphérique de stockage séparé.
 {% endsnippet %}
 
@@ -46,7 +46,7 @@ Exporter une simple liste d'hôtes en format .csv. Vous serez invité à voir si
 
 Exporter le {{ fr.VLT }} à l'aide du fichier au format .csv. Pour des raisons de sécurité, le fichier .csv sera contenu dans un fichier zip chiffré par mot de passe. Ce type de sécurité peut être piraté à l'aide d'attaques par force brute, il ne doit être utilisé que lorsque le fichier zip est sous votre contrôle exclusif.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Veuillez noter que les colonnes csv varient en fonction des types d'entrées exportés. Cela en fait le mauvais format si jamais vous souhaitez réimporter les données dans {{ fr.RDM }}. Utilisez-le uniquement pour migrer vers un autre système.
 {% endsnippet %}
 
@@ -68,6 +68,6 @@ Exporter toutes les pièces jointes ou toutes les entrées de document liées à
 
 Exporter ***Mes Identifiants Personnels*** dans un fichier .rdm et cryptez-les avec une clé maîtresse.
 
-{% snippet icon.badgeWarning %}
+{% snippet, "badgeWarning" %}
 Une ***Clé maîtresse*** cryptera le fichier .rdm pour protéger son contenu. La clé est absolument nécessaire pour le décryptage.
 {% endsnippet %}

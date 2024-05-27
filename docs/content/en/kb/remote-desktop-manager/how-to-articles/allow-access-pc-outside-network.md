@@ -2,7 +2,7 @@
 eleventyComputed:
   title: Allow access to your PC from outside your PC's network
 ---
-{% snippet icon.shieldWarning %}
+{% snippet, "shieldWarning" %}
 Please be advised, before proceeding, that we consider this solution not secure and that this might breach some security protocol in your organization.
 {% endsnippet %}
 
@@ -21,7 +21,7 @@ Before you map the port, you will need the following:
 * Your public IP address (the router's IP). There are many ways to find this - you can search (in Bing or Google) for "my IP" or view the Wi-Fi network properties (for Windows 10).
 * Port number being mapped. In most cases this is 3389 - that is the default port used by Remote Desktop connections.
 * Admin access to your router.
-{% snippet icon.shieldWarning %}
+{% snippet, "shieldWarning" %}
 You are opening your PC up to the internet - make sure you have a strong password set for your PC.
 {% endsnippet %}
 

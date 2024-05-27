@@ -36,7 +36,7 @@ in {{ en.DHUB }}.
 
 This table shows the entry types that can be created depending on your user interface profile.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Note that this only applies to the creation of new entries and does not affect existing entries.
 {% endsnippet %}
 

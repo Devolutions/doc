@@ -8,7 +8,7 @@ For your convenience, we have added formatting buttons with fonts, styles and in
 
 ![!!ServerOp4028](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp4028.png)
 
-{% snippet icon.badgeNotice %}
+{% snippet, "badgeNotice" %}
 Click the ***View*** or ***Split Vertically*** buttons to review the format of the document.
 {% endsnippet %}
 

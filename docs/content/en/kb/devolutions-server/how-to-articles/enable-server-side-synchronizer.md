@@ -2,11 +2,11 @@
 eleventyComputed:
   title: Enable the server-side synchronizer
 ---
-{% snippet icon.badgeCaution %}
+{% snippet, "badgeCaution" %}
 The {{ en.DVLS }} Scheduler must be installed and running to have this feature enabled.
 {% endsnippet %}
 
-{% snippet icon.badgeNotice %}
+{% snippet, "badgeNotice" %}
 Only Active Directory and VMWare synchronizer entry types are supported by this feature.
 {% endsnippet %}
 

@@ -13,7 +13,7 @@ You can request access to a public {{ en.VLT }} in {{ en.RDM }}. Follow the step
 ![Request {{ en.VLT }} Access tab](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin2154.png)
 1. Select the {{ en.VLT }} you want to access, then click on ***Send Access Request***.
 ![Send Access Request](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin2155.png)
-   {% snippet icon.badgeInfo %}
+   {% snippet, "badgeInfo" %}
    If you are using a {{ en.DHUBB }} data source, select from the list an administrator / {{ en.VLT }} owner to send the request to. For other data source types, the request is sent to all administrators and {{ en.VLT }} owners.
    {% endsnippet %}
 

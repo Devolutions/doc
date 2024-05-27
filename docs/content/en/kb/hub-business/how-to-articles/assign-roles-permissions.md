@@ -14,7 +14,7 @@ For a specific vault, go to the ***Administration*** section located under ***Sy
 
 ![Roles & Permissions – {{ en.VLT }} level](https://cdnweb.devolutions.net/docs/HUBB4001_2024_1.png)
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 {{ en.VLT_MAJ }} permissions and roles can also be accessed via the ellipsis button in the {{ en.VLT }} selector.
 {% endsnippet %}
 

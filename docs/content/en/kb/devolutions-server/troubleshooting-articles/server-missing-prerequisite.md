@@ -17,6 +17,6 @@ This error is due to the absence of the IIS ASP.NET Core Module (ANCM) and/or th
 1. Click on ***Install Prerequisites***.
 ![Install Prerequisites](https://cdnweb.devolutions.net/docs/docs_en_kb_KB8104.png)
 
-{% snippet icon.badgeCaution %}
+{% snippet, "badgeCaution" %}
 If running the PowerShell script from the {{ en.DVLSCONSOLE }} is blocked due to restrictions on the system, the script is located in the ***Scripts*** folder of the {{ en.DVLSCONSOLE }} installation folder.
 {% endsnippet %}

@@ -9,7 +9,7 @@ eleventyComputed:
 Suivez ces étapes pour connecter {{ fr.DHUBB }} au {{ fr.WBEX }}.
 
 1. Cliquer sur le {{ fr.WBEX }} dans la barre d'outils de votre navigateur.
-{% snippet icon.badgeNotice %}
+{% snippet, "badgeNotice" %}
 Un accès à {{ fr.DHUBB }} est requis pour continuer.
 {% endsnippet %}
 

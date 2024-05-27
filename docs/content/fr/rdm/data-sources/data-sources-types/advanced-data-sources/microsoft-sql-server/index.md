@@ -37,19 +37,19 @@ Nous prenons également en charge les fonctionnalités suivantes :
 * Journaux complets des connexions et prise en charge des pièces jointes
 * La source de données prend en charge une actualisation automatique à votre intervalle préféré
 
-{% snippet icon.badgeWarning %}
+{% snippet, "badgeWarning" %}
 Une stratégie de sauvegarde de base de données appropriée doit être mise en œuvre pour minimiser les pertes de données possibles.
 {% endsnippet %}
 
-{% snippet icon.badgeWarning %}
+{% snippet, "badgeWarning" %}
 Selon le « Recovery Model » de la base de données sous-jacente, certaines opérations de maintenance peuvent devoir être planifiées pour s'exécuter régulièrement afin de maintenir l'intégrité de la base de données. Veuillez consulter [Recovery Model](/fr/rdm/windows/data-sources/data-sources-types/advanced-data-sources/microsoft-sql-server/recovery-model/).
 {% endsnippet %}
 
-{% snippet icon.shieldWarning %}
+{% snippet, "shieldWarning" %}
 Utilisant la ***Connexion de base de données*** ou la ***Sécurité intégrée*** est intrinsèquement moins sûr, car cela signifie que l'utilisateur peut se connecter directement à la base de données en utilisant n'importe lequel outil disponible. Nous avons une sécurité au niveau des tables et des colonnes, mais les organisations soucieuses de la sécurité considéreront cela comme inacceptable. Il est recommandé d'utiliser notre modèle de connexion personnalisé.
 {% endsnippet %}
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 La création d'utilisateurs de base de données comme mentionné dans cet [article](https://learn.microsoft.com/fr-fr/sql/relational-databases/databases/contained-databases?view=sql-server-ver15#benefit-of-contained-database-users-with-always-on) est la méthode prise en charge avec le groupe de disponibilité SQL Always On.
 {% endsnippet %}
 

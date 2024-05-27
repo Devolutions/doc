@@ -2,7 +2,7 @@
 eleventyComputed:
   title: Invite users in {{ en.DHUBB }}
 ---
-{% snippet icon.badgeInfo %} 
+{% snippet, "badgeInfo" %} 
 Inviting a user and the end user invitation experience in {{ en.DHUBB }} are different with single sign-on (SSO). Please refer to our related topics below if you are using SSO:  
 
 * [End User Invitation Experience for SSO in {{ en.DHUBB }}](/hub/getting-started/get-started-sso-hub-business/invite-users-SSO-hub-business/end-user-experience/) 

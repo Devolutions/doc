@@ -6,12 +6,12 @@ eleventyComputed:
 Il est possible pour {{ fr.RDM }} d’afficher plusieurs écrans à distance lors d’une session RDP.
 
 Vous devez cependant posséder autant de moniteurs que le bureau à distance auquel vous souhaitez vous connecter. Si, par exemple, vous ne disposez que d’un seul moniteur localement, vous ne verrez que l’écran principal du bureau à distance.
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Pour voir une application qui ne s’affiche pas automatiquement sur le moniteur, nous avons déniché cette [discussion](https://superuser.com/questions/53585/how-to-move-windows-that-open-up-offscreen) dans laquelle il est conseillé d’utiliser la combinaison <kbd>Windows</kbd>+<kbd>Maj</kbd>+<kbd>Gauche</kbd>/<kbd>Droite</kbd>. Pour de nombreuses applications, il est possible d’effectuer un clic droit sur leur icône dans la barre des tâches et de sélectionner l’option ***Déplacer sur l’écran actuel***.
 {% endsnippet %}
 
 1. Dans les ***Propriétés*** d’une entrée RDP, définir l’ ***Affichage*** à ***Externe***.
-{% snippet icon.badgeCaution %}
+{% snippet, "badgeCaution" %}
 L’affichage sur plusieurs écrans n’est disponible que pour le mode d’affichage ***Externe***.
 {% endsnippet %}
 
@@ -25,7 +25,7 @@ Veuillez utiliser la commande mstsc /l pour connaître vos paramètres d’écra
 Une fois l’option Utiliser plusieurs écrans pour la session à distance activée, vous pourrez choisir entre Tout et Sélectionné.
 
 Si vous choisissez ***Sélectionné*** dans le menu déroulant, vous pourrez alors utiliser une espace ou une virgule pour identifier les écrans. L’hôte distant sera affiché sur le moniteur que vous saisissez dans ce champ.
-{% snippet icon.badgeCaution %}
+{% snippet, "badgeCaution" %}
 L’affichage de l’hôte distant s’affichera et s’étendra qu’à partir du premier écran local sélectionné.
 {% endsnippet %}
 

@@ -13,6 +13,6 @@ The user can be manually unlocked by going to the user ***Properties*** – ***S
 Alternatively, the following query can be used:
 
 ALTER LOGIN [SQLID] WITH PASSWORD = '****' UNLOCK  
-{% snippet icon.badgeHelp %}
+{% snippet, "badgeHelp" %}
 To learn more, read the Microsoft [SQL documentation](https://learn.microsoft.com/en-us/sql/sql-server/?view=sql-server-ver16).
 {% endsnippet %}

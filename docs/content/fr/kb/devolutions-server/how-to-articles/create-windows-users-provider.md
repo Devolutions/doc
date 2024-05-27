@@ -2,7 +2,7 @@
 eleventyComputed:
   title: Create Windows users provider
 ---
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 The [Scheduler service](/kb/devolutions-server/knowledge-base/scheduler-service-general-information/) must be installed and running to use this feature.
 {% endsnippet %}
 

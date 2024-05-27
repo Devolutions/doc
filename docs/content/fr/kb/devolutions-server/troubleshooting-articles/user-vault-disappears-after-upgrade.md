@@ -26,11 +26,11 @@ In most cases, this is caused by the migration process causing a ***Validation C
 Usually, this issue is organization wide, and is caused by a ***Security Provider*** still present on the data source. This is available in {{ en.DVLS }} 2021.1.10 and higher or the 2020.3.19 LTS version.
 
 1. In the {{ en.DVLSCONSOLE }} click on ***Tools – Remove Security Provider***.
-{% snippet icon.shieldWarning %}
+{% snippet, "shieldWarning" %}
 Removing the ***Security Provider*** will leave your database unencrypted.
 {% endsnippet %}
 
 2. Once it’s completed, click on ***Tools – Regenerate*** and store the file and the password in a safe location.
-{% snippet icon.badgeCaution %}
+{% snippet, "badgeCaution" %}
 Regenerating the ***Encryption Keys*** will re-encrypt the database.
 {% endsnippet %}

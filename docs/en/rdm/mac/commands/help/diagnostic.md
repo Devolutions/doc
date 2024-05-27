@@ -24,7 +24,7 @@ The Sessions tab contains information regarding your RDP, ARD and VNC sessions h
 
 ### Data Source
 The Data Source tab contains information regarding your Data Source, including the number of entries it contains, the size of your data source, the number of custom images and the offline state.
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Too many custom images could dramatically increase the size of the data source and cause load time issue.
 {% endsnippet %}
 

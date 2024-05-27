@@ -2,7 +2,7 @@
 eleventyComputed:
   title: Create your {{ en.DHUBB }}
 ---
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Start your free {{ en.DHUBB }} [trial](https://password.devolutions.net/business/sign-up) today!
 {% endsnippet %}
 
@@ -10,7 +10,7 @@ Start your free {{ en.DHUBB }} [trial](https://password.devolutions.net/business
 1. Click ***{{ en.DHUBB }}*** in the left menu.
 1. Fill in your ***Company name*** in the free 30-day trial section.
 1. Choose a ***{{ en.DHUB }} site*** name.
-{% snippet icon.badgeCaution %}
+{% snippet, "badgeCaution" %}
 The ***{{ en.DHUB }} site*** name becomes your website address and cannot be edited after the deployment of your hub.
 {% endsnippet %}
 
@@ -20,7 +20,7 @@ The ***{{ en.DHUB }} site*** name becomes your website address and cannot be edi
 
 Once the deployment is ready, you will receive an email with your {{ en.DHUBB }} website address.
 
-{% snippet icon.badgeHelp %}
+{% snippet, "badgeHelp" %}
 If you are a {{ en.RDM }} Team Edition user, you can connect your {{ en.DHUBB }} as a data source in ***File – Data sources – Add a new data source***. Learn more about [integrating {{ en.DHUBB }} in {{ en.RDM }}](/kb/remote-desktop-manager/how-to-articles/integrate-hub-business-rdm/).
 {% endsnippet %}
 
@@ -28,7 +28,7 @@ If you are a {{ en.RDM }} Team Edition user, you can connect your {{ en.DHUBB }}
 1. Download your ***Emergency Kit***.
 ![Emergency Kit](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub4170.png)
 
-{% snippet icon.badgeCaution %}
+{% snippet, "badgeCaution" %}
 The ***Emergency Kit*** contains your emergency key that will be required in case you lose or reset your {{ en.DA }} password. Remember to keep it in a safe place.
 {% endsnippet %}
 

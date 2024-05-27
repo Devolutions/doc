@@ -4,7 +4,7 @@ eleventyComputed:
 ---
 With a valid {{ en.RDM }} license, you get prompt with the error message ***No Team License Found*** in version 2022.3.X linked with a {{ en.DHUBB }} data source.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 To learn more about this major improvement, read our latest Devolutions blog [{{ en.RDM }} Free and Enterprise are now unified](https://blog.devolutions.net/2022/10/news-remote-desktop-manager-is-changing-for-the-better/).
 {% endsnippet %}
 
@@ -12,7 +12,7 @@ To learn more about this major improvement, read our latest Devolutions blog [{{
 
 Save the {{ en.RDM }} product license in {{ en.DHUB }} and assign it to users.
 
-{% snippet icon.badgeCaution %}
+{% snippet, "badgeCaution" %}
 Only ***Administrators*** and users with permissions in the ***System Permissions*** section will have access to register a license in {{ en.DHUBB }}.
 {% endsnippet %}
 

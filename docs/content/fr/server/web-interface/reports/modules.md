@@ -4,7 +4,7 @@ eleventyComputed:
 ---
 La section ***Accès Privilégiés*** fournit aux administrateurs un rapport sur la ***Rotation des mots de passe***.
 
-{% snippet icon.badgeNotice %}
+{% snippet, "badgeNotice" %}
 Ce rapport est uniquement disponible pour les utilisateurs de la solution Gestion des accès privilégiés (PAM).
 {% endsnippet %}
 

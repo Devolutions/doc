@@ -16,6 +16,6 @@ Bitte kontaktieren Sie uns unter [service@devolutions.net](mailto:service@devolu
 1. {{ de.DVLS }} kann mehrere Konten verwenden, um für die verschiedenen Komponenten die Verbindung zur Datenbank herzustellen. Diese Konten können Domänen- (integrierte Sicherheit) oder SQL-Konten sein. Der Artikel [Kontoauswahl vor der Einrichtung](/de/kb/devolutions-server/knowledge-base/pre-deployment-account-survey/) enthält weiterführende Informationen darüber.
 1. Folgen Sie den Schritten in [Eine {{ de.DVLS }}-Instanz erstellen.](/de/server/getting-started/installation/create-server-instance/). 
 
-{% snippet icon.shieldInfo %}
+{% snippet, "shieldInfo" %}
 Stellen Sie sicher, dass die Schlüssel zur Verschlüsselung am Ende des Installationsprozesses exportiert und an einem sicheren Ort gespeichert werden. 
 {% endsnippet %}

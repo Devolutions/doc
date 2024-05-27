@@ -6,7 +6,7 @@ Tasks can be exported in different types of files for printing or for reviewing.
 
 ## Export tasks
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Before exporting tasks, you can perform a [Search](/rdm/mac/commands/view/task-list/search/) to filter out the task list.
 {% endsnippet %}
 

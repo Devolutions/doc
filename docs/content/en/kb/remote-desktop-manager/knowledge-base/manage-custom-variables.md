@@ -13,6 +13,6 @@ Alternatively, custom variables can be managed in ***Administration*** – ***{{
 
 ![{{ en.VLT_MAJ }}-specific custom variables](https://cdnweb.devolutions.net/docs/RDMW4009_2024_1.png)
 
-{% snippet icon.badgeHelp %}
+{% snippet, "badgeHelp" %}
 Custom variables will also appear in the ***Custom Variables*** subsection located under ***General*** in the ***Entry Variables*** window of the entry ***Properties***, as shown in [Access and manage variables](https://docs.devolutions.net/kb/remote-desktop-manager/knowledge-base/access-manage-rdm-variables/). 
 {% endsnippet %}

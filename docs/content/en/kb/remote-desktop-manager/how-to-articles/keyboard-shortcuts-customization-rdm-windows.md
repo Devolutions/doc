@@ -4,7 +4,7 @@ eleventyComputed:
 ---
 In {{ en.RDMWIN }}, you can [customize individual shortcuts](#modify-shortcuts) and [create shortcut macros](#create-shortcut-macros). These options are found in ***File – Settings – User Interface – Keyboard***.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 For a list of default values for shortcuts, visit [Keyboard Shortcuts](/rdm/windows/support-resources/keyboard-shortcuts/).
 {% endsnippet %}
 
@@ -17,7 +17,7 @@ For a list of default values for shortcuts, visit [Keyboard Shortcuts](/rdm/wind
 1. To change the ***Shortcut***, click on the shortcut to make a drop-down list appear. Select the key combination from the list.
 ![Shortcut Key Combination Costumization](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2097.png)
 1. Click ***OK*** to save your changes.
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 If you change your mind, you can use the ***Reset Default*** button to cancel all saved and unsaved changed. You can also use the ***Disable All*** button to change the ***Mode*** and ***Shortcut*** of all actions to ***None***.
 {% endsnippet %}
 
@@ -31,6 +31,6 @@ You can create custom ***Macros*** and pair them with ***Shortcut*** key combina
 ![Macro Selection](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2100.png)
 1. Click ***OK*** to save your changes.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 To delete one or more ***Shortcut Macros***, check the box next to them, then click on the ***Delete*** button. Click ***Yes*** when asked to confirm.
 {% endsnippet %}

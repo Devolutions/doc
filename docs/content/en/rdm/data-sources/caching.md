@@ -5,11 +5,11 @@ eleventyComputed:
 ---
 The caching mode will determine how the client will refresh the content of the data source when changes are detected. On large data sources, caching is essential as it increases performance significantly.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 This feature is only available when using an [Advanced Data Source](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/).
 {% endsnippet %}
 
-{% snippet icon.badgeNotice %}
+{% snippet, "badgeNotice" %}
 If the cache is outdated, press <kbd>Ctrl</kbd>+<kbd>F5</kbd> to refresh the local cache. This will force the application to retrieve the entire content of the data source to recreate the cache.
 {% endsnippet %}
 
@@ -38,10 +38,10 @@ If using a version of {{ en.RDM }} prior to 11.2, the default engine will be the
 
 If using version 11.2 or newer of {{ en.RDM }} the default cache engine will be the Microsoft Compound Document Format (MCDF) files.
 
-{% snippet icon.shieldNotice %}
+{% snippet, "shieldNotice" %}
 You can enhance the security of the offline file by setting the Enhanced security in ***File – Settings – Security – Offline Security.***
 {% endsnippet %}
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Depending on the configuration of the Caching mode & the [Offline mode](/rdm/windows/data-sources/offline-mode/) the offline file may still exist since the file servers as a dual purpose caching & offline line support.
 {% endsnippet %}

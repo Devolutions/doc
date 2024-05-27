@@ -2,7 +2,7 @@
 eleventyComputed:
   title: LastPass two-factor authentication
 ---
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 The integration of credentials from password managers is only available in the Team version of {{ en.RDM }}.
 {% endsnippet %}
 

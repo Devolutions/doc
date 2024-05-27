@@ -6,7 +6,7 @@ eleventyComputed:
 Follow these steps to connect {{ en.DVLS }} to the the {{ en.WBEX }}:
 
 1. Click on the {{ en.WBEX }} at the top right corner of your browser.
-{% snippet icon.badgeNotice %}
+{% snippet, "badgeNotice" %}
 A {{ en.DVLS }} access is required to continue.
 {% endsnippet %}
 

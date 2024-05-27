@@ -6,7 +6,7 @@ eleventyComputed:
 
 ## Paramètres
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Avant de commencer la configuration, assurez-vous d'avoir installé l'[{{ fr.WAPP }}](https://devolutions.net/fr/workspace/) ou Google Authenticator sur votre appareil mobile.
 {% endsnippet %}
 

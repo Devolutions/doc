@@ -11,15 +11,15 @@ eleventyComputed:
 
 Cela peut être comparé au Remote Desktop Gateway de Microsoft et, dans une certaine mesure, à de la redirection de port SSH.
 
-{% snippet icon.badgeNotice %}
+{% snippet, "badgeNotice" %}
 Le ***Jump*** est fait à partir de l'{{ fr.RDMA }}. L'Agent DOIT ÊTRE DÉMARRÉ dans une session Windows, sur l'hôte distant, ou configuré de façon à démarrer automatiquement lors de l'ouverture de la session. Nous n'offrons pas cette fonctionnalité en tant que service à ce stade-ci.
 {% endsnippet %}
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 La fonctionnalité {{ fr.RDMJ }} ne vous permet pas de contourner la nécessité d'attribuer une licence appropriée à votre hôte distant pour autoriser plus de deux connexions RDP à la fois. Il n'y a pas d'autre moyen que d'installer un hôte distant de bureau à distance sur le serveur et d'acheter des LAC RDS (par utilisateur) pour la connexion à distance. Pour plus d'informations, veuillez consulter ce lien Microsoft : [Activer le serveur de licences des Services Bureau à distance](https://learn.microsoft.com/fr-fr/windows-server/remote/remote-desktop-services/rds-activate-license-server).
 {% endsnippet %}
 
-{% snippet icon.badgeHelp %}
+{% snippet, "badgeHelp" %}
 {{ fr.RDM }} doit être installé sur l'***Hôte Jump*** afin que l’Agent puisse exécuter des commandes. L’application n’a pas à se connecter à une source de données, car {{ fr.RDM }} ne fait que servir d'enveloppe pour que l’Agent puisse exécuter des commandes.
 {% endsnippet %}
 
@@ -54,7 +54,7 @@ Ces limitations rendent impossible l'utilisation simultanée de plusieurs client
 
 1. Créer une entrée ***RDP*** pour l'***Hôte Jump***.
 1. Remplir l'entrée avec un ***Nom***, un ***Hôte*** et les ***Identifiants***.
-{% snippet icon.badgeCaution %}
+{% snippet, "badgeCaution" %}
 Pour que les ***Jumps*** fonctionnent, vous devez fournir les identifiants via la session de l'***Hôte Jump***. Si les sessions RDP vous demandent les identifiants après le démarrage, le ***Jump*** échouera.
 {% endsnippet %}
 
@@ -66,19 +66,19 @@ Pour que les ***Jumps*** fonctionnent, vous devez fournir les identifiants via l
 1. Lancer la session d'***Hôte Jump***.
 1. Installer {{ fr.RDM }} sur le ***Hôte Jump***.
 
-{% snippet icon.badgeNotice %}
+{% snippet, "badgeNotice" %}
 L'***Hôte Jump*** agit comme un relais entre les systèmes locaux et distants, permettant ainsi d'utiliser la licence {{ fr.RDM }} qui a été utilisée sur le poste de travail local pour enregistrer l'application sur l'***Hôte Jump***.
 
 Installer {{ fr.RDM }} sur l'***Hôte Jump***, effectuer votre premier jump et {{ fr.RDM }} sera automatiquement déverrouillé/enregistrer via la communication/connexion.
 {% endsnippet %}
 
-{% snippet icon.badgeNotice %}
+{% snippet, "badgeNotice" %}
 Il n'est pas nécessaire de créer une source de données sur le ***Hôte Jump***. {{ fr.RDM }} s'ouvrira pour la première fois avec une ***Source de données locale SQLite*** par défaut. Cela est suffisant, car l'application sur le ***Hôte Jump*** agit uniquement comme intermédiaire entre les hôtes locaux et distants.
 {% endsnippet %}
 
 
 7. Confirmer que l'{{ fr.RDMA }} est démarré et réglé sur ***Démarrage automatique***.
-{% snippet icon.badgeCaution %}
+{% snippet, "badgeCaution" %}
 Le ***Démarrage automatique*** doit être seulement activé pour {{ fr.RDMA }} ou {{ fr.RDM }}, pas pour les deux. Dans le cas où {{ fr.RDM }} est réglé sur ***Démarrage automatique***, assurez-vous de supprimer les raccourcis des emplacements suivants :
 
 * Exécuter une commande : shell:startup
@@ -99,7 +99,7 @@ Le ***Démarrage automatique*** doit être seulement activé pour {{ fr.RDMA }} 
     * Masquer le ***Ruban*** dans l'onglet ***Affichage***.
         * Pour afficher à nouveau le ***Ruban***, cliquer sur l'icône {{ fr.RDM }} dans le coin supérieur gauche.
 
-{% snippet icon.badgeNotice %}
+{% snippet, "badgeNotice" %}
 Pour réinitialiser la mise en page, dans l'onglet ***Fenêtre***, cliquer sur ***Réinitialisation de la mise en page***.
 {% endsnippet %}
 

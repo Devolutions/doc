@@ -5,11 +5,11 @@ eleventyComputed:
 ---
 Delinea Secret Server single sign-on (SSO) is supported in {{ en.RDM }}.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Consult our [Secret Server entry configuration guide](https://docs.devolutions.net/kb/remote-desktop-manager/how-to-articles/secret-server-entry-configuration/) to learn how to configure an entry to use ***Secret Server*** credentials.
 {% endsnippet %}
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 SSO mode is available for both cloud and self-hosted (on-prem) instances. If SSO is selected but not supported, {{ en.RDM }}  automatically defaults to OAuth authentication and users must manually enter their username and password.
 {% endsnippet %}
 

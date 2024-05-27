@@ -7,15 +7,15 @@ Cette rubrique s'applique aux installations avec des sources de données qui uti
 
 Certaines versions de {{ fr.RDM }} doivent modifier la structure de la base de données. Celles-ci sont effectuées automatiquement pour vous, mais il est préférable d'effectuer une sauvegarde de votre source de données au préalable. De plus, si vous êtes dans un environnement d'équipe, vous devez être le seul utilisateur connecté à la base de données pendant la mise à niveau. 
 
-{% snippet icon.badgeWarning %} 
+{% snippet, "badgeWarning" %} 
 L'utilisateur effectuant la mise à jour doit disposer de privilèges administratifs sur la base de données sous-jacente (SYSDBA or DB_OWNER). 
 {% endsnippet %}
  
-{% snippet icon.badgeWarning %} 
+{% snippet, "badgeWarning" %} 
 Effectuer une sauvegarde de la base de données et assurez-vous que vous pouvez effectuer rapidement une restauration si nécessaire. 
 {% endsnippet %}
  
-{% snippet icon.badgeWarning %} 
+{% snippet, "badgeWarning" %} 
 Si votre organisation autorise un cache hors ligne en lecture/écriture, assurez-vous que tous vos utilisateurs ont fusionné leurs modifications hors ligne. 
 {% endsnippet %}
  

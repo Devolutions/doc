@@ -4,13 +4,13 @@ eleventyComputed:
   order: 30
   description: Le module de gestion des accès privilégiés (PAM) pour {{ fr.DHUBB }} s'occupe des comptes privilégiés Azure AD. Il est spécialement conçu pour répondre aux besoins des PME, offrant des fonctionnalités de qualité entreprise pour apporter un niveau de protection habituellement réservé aux grandes organisations, tout en étant robuste, facile à déployer et abordable.
 ---
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Le module de ***gestion des accès privilégiés (PAM)*** dans {{ fr.DHUBB }} est actuellement en développement bêta. Veuillez contacter notre [département des ventes](mailto:sales@devolutions.net) pour de plus amples informations.
 {% endsnippet %}  
 
 Le module de ***gestion des accès privilégiés (PAM)*** pour {{ fr.DHUBB }} s'occupe des comptes privilégiés Azure AD. Il est spécialement conçu pour répondre aux besoins des PME, offrant des fonctionnalités de qualité entreprise pour apporter un niveau de protection habituellement réservé aux grandes organisations, tout en étant robuste, facile à déployer et abordable.  
 
-{% snippet icon.badgeHelp %}
+{% snippet, "badgeHelp" %}
 Une licence est nécessaire pour activer le module de gestion des accès privilégiés. Veuillez contacter notre [département des ventes](mailto:sales@devolutions.net) pour plus d'informations sur la licence.
 {% endsnippet %}  
 

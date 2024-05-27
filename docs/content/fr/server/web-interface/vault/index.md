@@ -7,7 +7,7 @@ Les ***{{ fr.VLT }}s*** permettent aux utilisateurs de [Créer des entrées](/fr
 
 Nous recommandons d'utiliser des {{ fr.VLT }}s pour améliorer l'organisation et la sécurité. Les ***{{ fr.VLT }}s*** aident également a la performance car ils limitent le nombre d'entrées qui se chargent en même temps.
 
-{% snippet icon.badgeHelp %}
+{% snippet, "badgeHelp" %}
 Pour accéder à la gestion des {{ fr.VLT }} s, naviguer vers [Administration – {{ fr.VLT_MAJ }}s](/fr/server/web-interface/administration/security-management/vaults/).
 {% endsnippet %}
 

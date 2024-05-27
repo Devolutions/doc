@@ -14,11 +14,11 @@ Cette clé de chiffrement est éprouvée et sécuritaire. AES/Rijndael, standard
 
 ## Conseils 
 
-{% snippet icon.shieldWarning %} 
+{% snippet, "shieldWarning" %} 
 Le chiffrement des données en transit est offert nativement par nos services infonuagiques. Lorsque vous décidez d'utiliser une solution déployée sur site, le chiffrement des données en transit doit être implémenté à l'aide des outils de la technologie que vous avez choisie. La plupart des clients inquiets à propos de la sécurité ont choisi des [Sources de données avancées](/fr/rdm/windows/data-sources/data-sources-types/advanced-data-sources/). Suivez également les instructions spécifiques à la solution sélectionnée. 
 {% endsnippet %}
  
-{% snippet icon.shieldWarning %} 
+{% snippet, "shieldWarning" %} 
 La clé de chiffrement, étant intégrée dans l'application, est alors la même pour toutes les copies du logiciel en circulation. Il est donc fortement recommandé de suivre les indications ci-bas et d'ajouter un [Fournisseur de sécurité](/fr/rdm/windows/commands/administration/settings/security-providers/) pour chiffrer non seulement les mots de passe, mais également toutes les données dans la source de données. Ainsi, vos données au repos seront protégées grâce à une clé exclusivement gérée par vous. 
 {% endsnippet %}
  

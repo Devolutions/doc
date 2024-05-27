@@ -4,14 +4,14 @@ eleventyComputed:
 ---
 Entries deleted attachments can be restored and managed in the entry ***View Deleted Attachments*** section of the ***Attachments***.
 
-{% snippet icon.badgeWarning %}
+{% snippet, "badgeWarning" %}
 Deleting from the ***View Deleted Attachments*** section is irreversible.
 {% endsnippet %}
 
 ### Restore an Attachment
 
 1. Click on the entry that the attachment was deleted from.
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 To view all deleted attachments, run the ***Activity Logs*** report with the filter ***Message***: ***Attachment deleted***.
 {% endsnippet %}
 

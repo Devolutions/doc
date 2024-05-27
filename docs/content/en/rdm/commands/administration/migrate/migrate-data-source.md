@@ -3,11 +3,11 @@ eleventyComputed:
   title: Migrate data source
   description: Migrate a data source in {{ en.RDM }}
 ---
-{% snippet icon.badgeCaution %}
+{% snippet, "badgeCaution" %}
 All your data will be wiped from your destination data source.
 {% endsnippet %}
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 The supported data sources are:
 * ***SQL Server*** to ***SQL Server***
 * ***MySQL*** to ***SQL Server*** ({{ en.RDM }} 2023.2 and prior)

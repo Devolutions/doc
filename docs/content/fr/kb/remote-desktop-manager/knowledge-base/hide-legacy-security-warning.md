@@ -3,7 +3,7 @@ eleventyComputed:
   title: Masquer la boîte d'avertissement de la suppression de l'ancienne sécurité dans {{ fr.RDM }}
   description: Comment masquer l'avertissement de la suppression de l'ancienne sécurité dans {{ fr.RDM }}
 ---
-{% snippet icon.badgeWarning %}
+{% snippet, "badgeWarning" %}
 L'ancienne sécurité a été dépréciée et sera complètement supprimée à partir de la version 2023.3 de {{ fr.RDM }}. Voir [Désactiver l'ancienne sécurité dans {{ fr.RDM }}](/fr/kb/remote-desktop-manager/how-to-articles/migrate-legacy-security-permissions/).
 {% endsnippet %}  
 

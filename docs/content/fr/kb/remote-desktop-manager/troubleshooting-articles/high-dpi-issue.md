@@ -21,7 +21,7 @@ Plusieurs méthodes permettent de remédier à ces problèmes.
 ![Résolution de l'écran](https://cdnweb.devolutions.net/docs/fr/kb/KB2027.png)
 
 Si vous ne pouvez pas voir ce paramètre en raison de problèmes d'affichage, vous pouvez ajouter la ligne directement dans vos fichiers de configuration.
-{% snippet icon.badgeHelp %}
+{% snippet, "badgeHelp" %}
 Pour localiser votre fichier de configuration, reportez-vous à [Localisation du fichier de configuration](/fr/kb/remote-desktop-manager/knowledge-base/locating-configuration-file/).
 {% endsnippet %}
 
@@ -36,7 +36,7 @@ Pour localiser votre fichier de configuration, reportez-vous à [Localisation du
 ![Modifier les paramètres de résolution élevée](https://cdnweb.devolutions.net/docs/fr/kb/KB2028.png)
 1. Sous ***Remplacement de mise à l'échelle PPP élevée***, cocher ***Remplacer le comportement de mise à l'échelle PPP élevée*** puis cliquer sur ***OK***.
 ![Remplacer le comportement de mise à l'échelle PPP élevée](https://cdnweb.devolutions.net/docs/fr/kb/KB2029.png)
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Lors de l'application de ce changement, vous devez vous déconnecter puis vous reconnecter avec votre utilisateur pour que les changements prennent effet.
 {% endsnippet %}
 

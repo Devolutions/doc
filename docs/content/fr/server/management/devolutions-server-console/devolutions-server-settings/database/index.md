@@ -90,7 +90,7 @@ Afficher la version actuelle de la base de données.
 
 ### Identifiants
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Prendre note que les paramètres de sécurité intégrée ou des identifiants affectent la manière dont {{ fr.DVLS }} communique avec la base de données SQL. Ces options n'ont aucun impact sur la manière dont les utilisateurs s'authentifieront sur l'instance de {{ fr.DVLS }}.
 {% endsnippet %}
 

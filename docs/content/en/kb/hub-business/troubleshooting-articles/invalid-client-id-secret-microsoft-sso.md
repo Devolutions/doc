@@ -24,7 +24,7 @@ This most likely means that your client secret is expired in the Microsoft Azure
 ![Enterprise applications](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2320.png)
 If it is indeed expired, this is most likely the cause of your connection issue. You need to create a new client secret and change it in your {{ en.DHUBB }} SSO configuration by following the next steps.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 If the client secret is not expired, the issue may come from your client ID. Verify that it matches the one in your SSO configuration then try logging in again.
 {% endsnippet %}
 
@@ -38,12 +38,12 @@ If the client secret is not expired, the issue may come from your client ID. Ver
 1. Copy the ***Value*** of this new client secret by clicking on the ***Copy to clipboard*** icon next to it.
 ![Copy the client secret value](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub2153.png)
 
-   {% snippet icon.badgeInfo %}
+   {% snippet, "badgeInfo" %}
    The expired client secret can be deleted without any issue since it is expired and cannot be used anymore.
    {% endsnippet %}
 
 1. Log in to {{ en.DHUBB }} using your {{ en.DA }}.
-   {% snippet icon.badgeHelp %}
+   {% snippet, "badgeHelp" %}
    If you have enabled the ***Force SSO on all users*** option in your configuration, you will not be able to log in using your {{ en.DA }}. In this case, [contact our support team](mailto:service@devolutions.net) to request the disabling of this option.
    {% endsnippet %}
 1. Once logged in, go to ***Administration – Authentication – Single Sign-On (SSO)***, then select your Microsoft SSO configuration.
@@ -57,6 +57,6 @@ If the client secret is not expired, the issue may come from your client ID. Ver
 
 You and your users should now be able to sign in to the hub using Microsoft SSO.
 
-{% snippet icon.badgeHelp %}
+{% snippet, "badgeHelp" %}
 If you still encounter issues, [contact our support team](mailto:service@devolutions.net).
 {% endsnippet %}

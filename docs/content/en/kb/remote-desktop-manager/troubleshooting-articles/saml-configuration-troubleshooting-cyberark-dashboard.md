@@ -3,14 +3,14 @@ eleventyComputed:
   title: SAML troubleshooting for CyberArk dashboard
   description: When connecting to your ***CyberArk Dashboard*** entry configured with SAML authentication, you may encounter an issue where your safe selector is empty. We recommend updating {{ en.RDM }} to at least version 2023.2.18 as improvements have been implemented in this version for the SAML authentication mode.
 ---
-{% snippet icon.badgeCaution %}
+{% snippet, "badgeCaution" %}
 SAML authentication for CyberArk Privilege Cloud requires {{ en.RDM }} 2023.2.18.0 or later.
 {% endsnippet %}
 
 When connecting to your ***CyberArk Dashboard*** entry configured with SAML authentication, you may encounter an issue where your safe selector is empty. We recommend updating {{ en.RDM }} to at least version 2023.2.18 as improvements have been implemented in this version for the SAML authentication mode. Follow the steps below:
 1. [Download and install](https://devolutions.net/remote-desktop-manager) {{ en.RDM }} or update it to version 2023.2.18 or later.
 
-{% snippet icon.badgeNotice %}
+{% snippet, "badgeNotice" %}
 If you are using a shared data source, we recommend to use a [portable version of {{ en.RDM }}](/rdm/windows/installation/client/portable-usb/) on a local data source to test.
 {% endsnippet %}
 

@@ -22,7 +22,7 @@ Dans le ***{{ fr.NPANE }}***, faites un clic droit à l'endroit où vous souhait
 ### Par glisser-déposer
 
 Vous pouvez également créer une session en glissant-déposant un fichier RDP dans le ***{{ fr.NPANE }}***. Ce faisant, {{ fr.RDM }} vous demandera s'il faut importer le contenu et créer une nouvelle session, ou créer une session liée au fichier RDP. Il est également possible de faire glisser le raccourci de bureau LogMeIn pour créer une session LogMeIn.
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Il est possible que le glisser-déposer ne fonctionne pas en raison de vos paramètres de sécurité. Ceux-ci peuvent empêcher les applications exécutées dans des contextes différents d'interagir. Par exemple, si {{ fr.RDM }} s'exécute dans un contexte élevé (mode administrateur) et qu'Internet Explorer s'exécute en mode par défaut, Windows ne vous permettra pas de faire glisser un lien URL dans l'application.
 {% endsnippet %}
 
@@ -32,7 +32,7 @@ Vous pouvez également importer des entrées en utilisant l'[Assistant d'importa
 
 ## Créer une sous entrée
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Depuis la version 2022.3 de {{ fr.RDMMAC }}, les sous entrées ont remplacé les sous connexions. Elles sont différentes dans la mesure où les sous connexions étaient stockées en XML dans leur entrée parente, ce qui n'est pas le cas des sous entrées. Celles-ci sont beaucoup plus polyvalentes.
 
 La migration des sous connexions préexistantes vers les nouvelles sous entrées est automatique lors de la mise à jour de {{ fr.RDM }} de la version 2022.2 ou antérieure vers la version 2022.3 ou ultérieure.
@@ -42,7 +42,7 @@ Les sous entrées sont des entrées à part entière, indépendantes, situées s
 
 Elles se trouvent sous l'entrée parent ou dans l'onglet ***Sous entrées*** du [***Tableau de bord***](/fr/rdm/windows/user-interface/content-area/dashboards/) de l'entrée parent.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Pour créer des sous entrées, assurez-vous que l'option ***Autoriser les sous entrées*** est activée dans la liste d'options dans ***Fichier - Options - Avancé***.
 
 Pour voir les sous entrées dans le ***{{ fr.NPANE }}***, assurez-vous que l'option ***Charger les sous entrées dans l'arborescence*** est activée dans la liste d'options dans ***Fichier - Options - Interface utilisateur - Arborescence***.
@@ -52,7 +52,7 @@ Pour voir les sous entrées dans le ***{{ fr.NPANE }}***, assurez-vous que l'opt
 
 Dans le ***{{ fr.NPANE }}***, sélectionnez l'entrée sous laquelle vous souhaitez placer une sous entrée. Dans le ***Ruban***, allez dans ***Modifier*** et cliquez sur ***Nouvelle entrée***. Comme vous avez précédemment sélectionné l'entrée parente, vous serez invité à choisir entre la création d'une sous entrée ou d'une entrée. Sélectionnez ***Nouvelle sous entrée***. Ensuite, personnalisez vos paramètres dans la fenêtre des propriétés de l'entrée.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Vous ne pouvez pas créer une sous entrée sous une autre sous entrée.
 {% endsnippet %}
 
@@ -63,7 +63,7 @@ Vous ne pouvez pas créer une sous entrée sous une autre sous entrée.
 
 Dans le ***{{ fr.NPANE }}***, faites un clic droit sur l'entrée sous laquelle vous souhaitez placer une sous entrée et sélectionnez ***Ajouter*** dans le menu. Pour initialiser une nouvelle session, vous pouvez spécifier le type de session ou un modèle. Vous serez invité à choisir entre la création d'une sous entrée ou d'une entrée. Sélectionnez ***Nouvelle sous entrée***. Ensuite, personnalisez vos paramètres dans la fenêtre des propriétés de l'entrée.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Vous ne pouvez pas créer une sous entrée sous une autre sous entrée.
 {% endsnippet %}
 

@@ -25,7 +25,7 @@ Les ***{{ fr.VLT }}s*** permettent de partager des entrées avec des utilisateur
 1. Aller dans ***Administration - {{ fr.VLT_MAJ }}s***.
 1. Cliquer sur le crayon ***Modifier*** à côté du {{ fr.VLT }}.
 1. Dans la section de l'onglet ***Modifier***, cliquer sur le menu déroulant à côté de chaque ***Permissions*** prédéfinie pour attribuer des utilisateurs et des groupes d'utilisateurs ou sélectionner et configurer un rôle personnalisé pour votre organisation.
-{% snippet icon.badgeNotice %}
+{% snippet, "badgeNotice" %}
 Cliquez sur le bouton ***Afficher la définition des rôles*** pour choisir dans la liste. Vous pouvez également consulter [Rôles et permissions](/fr/hub/web-interface/hub-overview/administration/configuration-security/system-permissions/roles-permissions/).
 {% endsnippet %}
 

@@ -7,7 +7,7 @@ La ***Connexion rapide*** vous permet d'ouvrir une session ad hoc en spécifiant
 
 ## Paramètres
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Notez que la barre d'outils ***Connexion rapide*** vous laisse spécifier uniquement un hôte, un ordinateur et un type de session. Pour avoir accès aux autres options disponibles dans la version fenêtrée, il faut utiliser l'icône ***Connexion rapide*** qui se trouve dans la section ***Affichage*** de l'onglet ***Affichage***.
 {% endsnippet %}
 

@@ -6,7 +6,7 @@ eleventyComputed:
 ---
 {{ en.RDMMAC }} supports multiple types of data source. First decide which data source you are going to use.
 
-{% snippet icon.badgeNotice %}
+{% snippet, "badgeNotice" %}
 Upon initial installation, you are running from a local data source which is an SQLite database.
 {% endsnippet %}
 

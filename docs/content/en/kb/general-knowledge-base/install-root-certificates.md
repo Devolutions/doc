@@ -10,7 +10,7 @@ Here are various procedures to install root certificates:
 
 ## Windows
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Firefox does not trust the same certificates as Windows and a setting must be applied to enable this.  
 
 Please consult [Mozilla's Knowledge Base article](https://support.mozilla.org/en-US/kb/setting-certificate-authorities-firefox).
@@ -29,7 +29,7 @@ Please consult [Mozilla's Knowledge Base article](https://support.mozilla.org/en
 
 ## Linux (ubuntu, debian)
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Firefox does not trust the same certificates as Windows and a setting must be applied to enable this.  
 
 Please consult [Mozilla's Knowledge Base article](https://support.mozilla.org/en-US/kb/setting-certificate-authorities-firefox).

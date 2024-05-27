@@ -4,11 +4,11 @@ eleventyComputed:
   order: 30
   status: Topic available in German language
 ---
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Si vous venez tout juste de recevoir vos clés de licence, veuillez d'abord consulter la section [Introduction](/fr/server/getting-started/).
 {% endsnippet %}
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Pour plus d'informations à propos de chaque fonctionnalité dans l'assistant de déploiement, veuillez consulter les sections respectives dans le chapitre [Paramètres du serveur](/fr/server/management/devolutions-server-console/devolutions-server-settings/general/).
 {% endsnippet %}
 
@@ -19,7 +19,7 @@ Plusieurs instances de {{ fr.DVLS }} peuvent être installées sur le même serv
 1. Installer la ***{{ fr.DVLSCONSOLE }}*** sur le serveur Web. Elle est téléchargeable sur la [page de téléchargement](https://server.devolutions.net/fr/home/download).
 1. Exécuter la ***{{ fr.DVLSCONSOLE }}*** avec des privilèges élevés (Exécuter en tant qu'administrateur). Cliquer avec le bouton droit sur l'icône de l'application, puis sélectionner Exécuter en tant qu'administrateur.
 
-{% snippet icon.shieldWarning %}
+{% snippet, "shieldWarning" %}
 Toutes les opérations effectuées via la ***{{ fr.DVLSCONSOLE }}*** seront faites avec l'identifiant qui a lancé la ***{{ fr.DVLSCONSOLE }}***. Si vous devez utiliser un autre identifiant pour lancer la ***{{ fr.DVLSCONSOLE }}***, vous devez quitter la session Windows et vous reconnecter avec l'identifiant en question. La commande RunAs n'offre pas la possibilité de démarrer une application en tant qu'administrateur. La commande Exécuter en tant qu'autre utilisateur fonctionne seulement si le compte utilisé est membre du groupe d'administrateurs local de la machine.
 {% endsnippet %}
 
@@ -44,7 +44,7 @@ Pour utiliser l'authentification unique pour se connecter à la base de données
 ![Sélectionner un fichier d'installation](https://cdnweb.devolutions.net/docs/fr/server/ServerOp4017.png)
 1. Sous ***Général***, sélectionner le ***Site Web*** et le ***Nom de l'application Web***. Sous ***Destination de l'installation***, choisir le dossier de destination ou l'instance sera situé. Le processus d'exécution des sites Web a reçu les autorisations appropriées sous **C:\inetpub\wwwroot**. Nous vous recommandons de créer un nouveau dossier en dessous et de créer l'instance {{ fr.DVLS }} dans ce dossier. Sous ***Pool d'applications***, choisir le ***Nom***.
 
-{% snippet icon.badgeCaution %}
+{% snippet, "badgeCaution" %}
 Nous vous déconseillons de définir le dossier d'installation sur **C:\Program Files** ou **C:\Program Files (x86)**. {{ fr.DVLS }} est une application Web et cela peut entraîner un comportement indésirable et des problèmes, car IIS ne dispose pas des autorisations suffisantes pour exécuter les applications Web qui se trouvent sous ces dossiers.
 {% endsnippet %}
 
@@ -53,7 +53,7 @@ Nous vous déconseillons de définir le dossier d'installation sur **C:\Program 
 10. Sous ***Identifiants d'administration***, remplir les informations pour créer un compte administrateur {{ fr.DVLS }}. Tous les champs sont requis.
 ![Créer un administrateur](https://cdnweb.devolutions.net/docs/fr/server/ServerOp4018.png)
 1. Sous ***Sauvegarde***, sélectionner le dossier de destination et le nom de fichier du fichier de clés de chiffrement {{ fr.DVLS }}. Et définir un mot de passe pour protéger ce fichier.
-{% snippet icon.shieldNotice %}
+{% snippet, "shieldNotice" %}
 Nous vous recommandons de protéger les clés de chiffrement dans un {{ fr.VLT }} pour éviter toute perte de données si {{ fr.DVLS }} doit être restauré.
 {% endsnippet %}
 
@@ -76,7 +76,7 @@ Une fois l'installation terminée, un récapitulatif indique si {{ fr.DVLS }} a 
 Pour tester l'installation du serveur, accédez à l'URL de l'instance (par exemple : http<area>://<Machine_Name>/<InstanceName>) avec n'importe quel navigateur Web ou cliquer sur le bouton ***Accéder au site Web*** dans la {{ fr.DVLSCONSOLE }}.
 ![{{ fr.DVLSCONSOLE }}](https://cdnweb.devolutions.net/docs/fr/server/ServerOp8060.png)
 
-{% snippet icon.badgeNotice %}
+{% snippet, "badgeNotice" %}
 Dans certaines situations, la page Web peut ne pas se charger correctement. Assurez-vous que le groupe local IIS IUSRS a tous les droits de lecture nécessaire sur le fichier **encryption.config** localisé dans le sous-dossier App_Data du dossier de l'application Web de {{ fr.DVLS }} (i.e., **C:\inetpub\wwwroot\dvls\App_Data**). Si un problème survient durant ou suivant l'installation, contactez-nous à [service@devolutions.net](mailto:service@devolutions.net).
 {% endsnippet %}
 

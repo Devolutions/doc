@@ -10,13 +10,13 @@ The ***Multi {{ en.VLT }} search*** feature of {{ en.RDM }} allows you to search
 
 The following criteria are available to refine your search: ***Connection type***, ***Creation date***, ***Description***, ***Folder***, ***Last update date*** and ***Name***.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 At least one criterion must be used to filter your results, and a maximum of four criteria can be applied at once.
 {% endsnippet %}
 
 ![Multi {{ en.VLT }} Search Criteria](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin2009.png)
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 In ***Hub*** databases, only the ***Name*** criterion is available.
 {% endsnippet %}
 

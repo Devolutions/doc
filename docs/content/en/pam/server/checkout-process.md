@@ -3,7 +3,7 @@ eleventyComputed:
   title: Checkout process
   description: Use the PAM checkout process and the PAM checkout with a custom time frame.
 ---
-{% snippet icon.badgeNotice %}
+{% snippet, "badgeNotice" %}
 A license is required to enable the Privileged Access Management (PAM) module. Please contact our [sales department](mailto:sales@devolutions.net) for more information about the license.
 {% endsnippet %}
 
@@ -18,19 +18,19 @@ This topic will cover both the [PAM checkout process](#checkout) and the [PAM ch
 ![Check Out](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp0036.png)
 1. Select whom you want to send the request to.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Selecting ***All Approvers*** speeds up the process by allowing the first available approver to confirm the request.
 {% endsnippet %}
 
 5. Set the desired time of the ***Check-out Request*** by either selecting from the ***Access duration*** dropdown or by manually setting a custom time with the ***Hours*** and ***minutes*** fields.
-   {% snippet icon.badgeInfo %}
+   {% snippet, "badgeInfo" %}
    The minimum checkout time is 10 minutes.
    {% endsnippet %}
 1. Click the ***Request Check Out*** button to confirm and close this dialog box.
 ![Check-out Request](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp6112.png)
 
 ## Checkout with custom time
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Making a ***Checkout*** request in advance is only available in PAM {{ en.VLT }}s.
 {% endsnippet %}
 

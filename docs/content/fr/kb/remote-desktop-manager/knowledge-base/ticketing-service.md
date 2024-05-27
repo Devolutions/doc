@@ -6,13 +6,13 @@ eleventyComputed:
   - ticketing
   - API token
 ---
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 This feature is only available in {{ en.RDM }} with an advanced data source like {{ en.DVLS }}.
 {% endsnippet %}
 
 The ***Ticketing Service*** feature helps you distribute information to all users of the ticketing system that is used inside {{ en.RDM }}. The purpose of this integration is to be able to create tickets into your ticketing system directly from {{ en.RDM }}.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 As of now, the Jira ticketing system is the only one supported.
 {% endsnippet %}
 

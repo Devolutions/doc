@@ -6,7 +6,7 @@ The {{ en.UVLT }} is a user centric {{ en.VLT }} for entries of any type. It all
 
 To create a new entry in your {{ en.UVLT }}, simply click on {{ en.UVLT }} in your ***{{ en.NPANE }}*** and create your new entry directly from there.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 The {{ en.UVLT }} is only available for all [Advanced Data Sources](/rdm/mac/data-sources/data-sources-types/advanced-data-sources/).
 {% endsnippet %}
 

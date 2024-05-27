@@ -65,7 +65,7 @@ Select ***MFA*** in the ***Target*** drop-down menu.
     * ***MFA Skipped***: MFA is not enforced.
     * ***MFA Optional per User***: MFA is enforced on an individual basis. The administrator chooses who uses MFA and what product or technology they use. Choose this option if not all users are set up for multi-factor authentication.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 When MFA usage is set to ***MFA Optional per User***, the MFA method must be configured in ***Administration – Users*** for each user. Edit or add a user, then go to the ***Multi-factor*** section to configure it. You can also set an MFA type on the user if they are using a product different than the default method. See [Multi-factor (Edit User)](/server/web-interface/administration/security-management/users/edit-user-two-factor/).
 {% endsnippet %}
 
@@ -75,7 +75,7 @@ When MFA usage is set to ***MFA Optional per User***, the MFA method must be con
 ![Send reset email to & Specific email](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp2064.png)
 1. Check the boxes next to the supported authenticators that you want to enable. You can choose as many as necessary.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 The currently supported multi-factor authenticators are Authenticator (TOTP), Yubikey, Email, [SMS](/server/web-interface/administration/configuration/server-settings/security/two-factor/sms/), Duo, and Radius. You must configure them separately using the instructions next to them. Emails need to be configured beforehand in {{ en.DVLS }} for the ***Email*** and ***SMS*** (without Twilio) MFAs.
 {% endsnippet %}
 

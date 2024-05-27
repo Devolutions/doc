@@ -11,13 +11,13 @@ The ***Multi {{ en.VLT }} Search*** feature of {{ en.RDMMAC }} allows you to sea
 ### Criteria Types
 
 The following criteria are available to refine your search: ***Connection type***, ***Creation date***, ***Folder***, ***Last update date***, ***Name*** and ***Software***.
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 At least one criterion must be used to filter your results, and a maximum of four criteria can be applied at once.
 {% endsnippet %}
 
 ![Multi {{ en.VLT }} Search Criteria](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_RDMMac0029.png)
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 In ***Hub*** databases, only the ***Name*** criterion is available.
 {% endsnippet %}
 

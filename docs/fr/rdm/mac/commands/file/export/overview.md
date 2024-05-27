@@ -9,11 +9,11 @@ Utiliser ***Fichier - Exporter*** pour exporter des entrées à partir de {{ fr.
 * Exporter l'entrée en fichier Remote Desktop (.rdp)
 * Exportation spéciale (Toutes les entrées .csv, .html, .xml et toutes les sélections .csv, .html, .xml)
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 La fonction d'exportation n'est active que si la [Permission](/fr/rdm/mac/commands/administration/user-management/permissions/) d'importation a été activée dans le compte d'utilisateur
 {% endsnippet %}
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Le seul format approprié pour réimporter les entrées dans {{ fr.RDM }} est le format .rdm.
 {% endsnippet %}
 
@@ -21,7 +21,7 @@ Le seul format approprié pour réimporter les entrées dans {{ fr.RDM }} est le
 
 ![Fichier - Exporter](https://cdnweb.devolutions.net/docs/fr/rdm/mac/clip4028.png)
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Lorsque vous utilisez une [Source de données avancée](/fr/rdm/mac/data-sources/data-sources-types/advanced-data-sources/), les capacités d'exportation peuvent être désactivées via des politiques de sécurité au niveau de la source de données (personne ne peut exporter) ou au niveau de l'utilisateur (certains utilisateurs ne peuvent pas exporter).
 {% endsnippet %}
 
@@ -31,7 +31,7 @@ Lorsque vous utilisez une [Source de données avancée](/fr/rdm/mac/data-sources
 
 Exporter toutes les entrées dans un fichier .rdm qui peut être importé dans n'importe quelle source de données {{ fr.RDM }}. Vous pouvez également inclure les identifiants dans ce format d'exportation et sécuriser votre fichier avec une clé maîtresse.
 
-{% snippet icon.badgeWarning %}
+{% snippet, "badgeWarning" %}
 Par défaut, les identifiants ne sont PAS inclus. Il est essentiel de cocher l'option Inclure identifiants afin que les données exportées les incluent.
 {% endsnippet %}
 
@@ -49,7 +49,7 @@ Exporter l'entrée sélectionnée dans un fichier .rdp pour l'utiliser facilemen
 
 Exporter les entrées à l'aide du fichier au format .csv. Pour des raisons de sécurité, le fichier .csv sera contenu dans un fichier zip chiffré par mot de passe. Ce type de sécurité peut être piraté à l'aide d'attaques par force brute, il ne doit être utilisé que lorsque le fichier zip est sous votre contrôle exclusif.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Veuillez noter que les colonnes csv varient en fonction des types d'entrées exportés. Cela en fait le mauvais format si jamais vous souhaitez réimporter les données dans {{ fr.RDM }}. Utilisez-le uniquement pour migrer vers un autre système.
 {% endsnippet %}
 

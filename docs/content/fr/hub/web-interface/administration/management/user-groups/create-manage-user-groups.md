@@ -20,7 +20,7 @@ La gestion des utilisateurs et des permissions peuvent être simplifiées avec l
 ### Gérer les groupes d'utilisateurs
 
 La gestion et l'ajout d'utilisateurs aux ***Groupes d'utilisateurs*** dans {{ fr.DHUBB }} peuvent être effectués de plusieurs manières :
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Pour gérer les ***Permissions*** des ***{{ fr.VLT }}s*** avec des ***Groupes d'utilisateurs***, consulter [Créer et gérer des {{ fr.VLT }}s](/fr/hub/web-interface/hub-overview/administration/management/vaults/create-manage-vaults/).
 {% endsnippet %}
 

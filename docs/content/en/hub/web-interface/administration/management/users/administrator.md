@@ -8,7 +8,7 @@ eleventyComputed:
 1. Click on the ***Edit*** pencil icon next to the user.
 1. In the ***User*** section, check ***Is administrator***.
 1. Click ***Update*** to save.
-{% snippet icon.badgeCaution %}
+{% snippet, "badgeCaution" %}
 A restart of {{ en.RDM }} may be needed to activate the administrator rights.
 {% endsnippet %}
 

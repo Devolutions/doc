@@ -6,11 +6,11 @@ eleventyComputed:
 ---
 The ***Reports*** section provides the administrators with tools to perform [Audit](/hub/web-interface/reports/audit/), view [Logs](/hub/web-interface/reports/logs/), and manage deleted entries [History](/hub/web-interface/reports/history/) of the {{ en.VLT }}s.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Non-admin users will have a limited access to the ***Reports*** section.
 {% endsnippet %}
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Web-based reports from [{{ en.DVLS }}](/server/overview/what-is-server/) and [{{ en.DHUB }}](/hub/overview/what-is-hub/) are available in {{ en.RDM }}.
 {% endsnippet %}
 

@@ -17,7 +17,7 @@ Utiliser le bouton ***Nouvelle source de données*** pour créer une configurati
 
 Utiliser les boutons respectivement pour modifier, dupliquer ou supprimer la configuration de la source de données sélectionnée.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Seule la configuration sera supprimée, mais le fichier ou la base de données réelle sera toujours disponible.
 {% endsnippet %}
 

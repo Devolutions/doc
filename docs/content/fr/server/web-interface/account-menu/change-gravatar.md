@@ -4,7 +4,7 @@ eleventyComputed:
 ---
 L'avatar de l'utilisateur par défaut dans {{ fr.DVLS }} correspond aux initiales de l'utilisateur.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 L'utilisation d'un avatar, autre que les initiales, est seulement disponible lorsque l'option est activée dans ***Administration – Paramètres Serveur – Fonctionnalités – Activer Gravatar***.
 {% endsnippet %}
 

@@ -15,6 +15,6 @@ eleventyComputed:
 | User default {{ en.VLT }} | Defines the default {{ en.VLT }}(s) for users. Select them from a {{ en.VLT }} list. |
 | Disable {{ en.UVLT }}     | Defines if the {{ en.UVLT }} is disabled or not by default when creating a new user. |
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Other options can be enabled/disabled depending on the data source type.
 {% endsnippet %}

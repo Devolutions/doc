@@ -3,7 +3,7 @@ eleventyComputed:
   title: Utiliser le {{ fr.WBEX }}
   order: 50
 ---
-{% snippet icon.badgeNotice %} 
+{% snippet, "badgeNotice" %} 
 Cette rubrique suppose que vous avez préalablement [installé le {{ fr.WBEX }}](/server/workspace-browser-extension/installation/) dans votre navigateur et qu'il est [connecté à {{ fr.DVLS }}](/fr/server/workspace-browser-extension/first-login-workspace-browser-extension/). 
 {% endsnippet %}
  

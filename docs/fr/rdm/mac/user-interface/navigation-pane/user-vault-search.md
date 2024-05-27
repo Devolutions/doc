@@ -12,6 +12,6 @@ La recherche dans le ***{{ fr.UVLT }}*** permet de lier une entrée d'identifian
 ![!!RDMMac4036](https://cdnweb.devolutions.net/docs/fr/rdm/mac/RdmMac4036.png)
 1. Ouvrir la session comme vous le feriez normalement. Une fois les identifiants trouvés, ils seront automatiquement utilisés pour ouvrir la session à distance.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Le {{ fr.UVLT }} est lié à l'utilisateur de la base de données. Un autre utilisateur ne pourra jamais voir vos identifiants du {{ fr.UVLT }}.
 {% endsnippet %}

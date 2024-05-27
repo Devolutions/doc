@@ -64,7 +64,7 @@ The following guide provides steps to create an Azure AD user PAM provider for {
 
 **In the Azure Portal**
 
-   {% snippet icon.badgeCaution %}
+   {% snippet, "badgeCaution" %}
    Assigning API permissions as described in steps 20 to 26 is only useful if you want to perform Azure accounts discovery (scan). If this is not the case, to avoid assigning unnecessary permissions to the application, skip to <a href="#Step27">step 27</a>.
    {% endsnippet %}
 
@@ -80,7 +80,7 @@ The following guide provides steps to create an Azure AD user PAM provider for {
 
    ![Select API permissions](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2143.png)
 
-   {% snippet icon.badgeInfo %}
+   {% snippet, "badgeInfo" %}
    Use the filter bar above the permissions list to find the ones you are looking for.
    {% endsnippet %}
 

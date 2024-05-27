@@ -23,7 +23,7 @@ You can also import entries in ***File – Import***. Learn more in [Import](/rd
 
 ## Create a sub entry
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Since {{ en.RDM }} version 2022.3, sub entries have replaced sub connections. They are different in that sub connections were stored as XML in their parent entry, which is not the case with sub entries, making them much more versatile.
 
 The migration of preexisting sub connections to the new sub entries is automatic when updating from {{ en.RDM }} version 2022.2 or prior to version 2022.3 or later.
@@ -33,7 +33,7 @@ Sub entries are full-fledged, independant entries located bewlow a "parent" entr
 
 They can be found under the parent entry or in the ***Sub Entries*** tab of the parent entry [***Dashboard***](/rdm/mac/user-interface/content-area/dashboard/).
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 You cannot create a sub entry under another sub entry.
 {% endsnippet %}
 
@@ -41,7 +41,7 @@ You cannot create a sub entry under another sub entry.
 
 In the ***{{ en.NPANE }}***, select the entry under which you wish to place a sub entry. In the ***Ribbon***, go to ***Edit*** and click on ***New Entry***. Since you have previously selected the parent entry, you will be prompted to choose either to create a sub entry or an entry. Select ***New Sub Entry***. Then, customize your settings in the entry properties window.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 You cannot create a sub entry under another sub entry.
 {% endsnippet %}
 
@@ -52,7 +52,7 @@ You cannot create a sub entry under another sub entry.
 
 In the ***{{ en.NPANE }}***, right-click the entry under which you wish to place a sub entry and select ***Add*** from the menu. To initialize a new session, you can specify either the type of session or a template. You will be prompted to choose either to create a sub entry or an entry. Select ***New Sub Entry***. Then, customize your settings in the entry properties window.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 You cannot create a sub entry under another sub entry.
 {% endsnippet %}
 

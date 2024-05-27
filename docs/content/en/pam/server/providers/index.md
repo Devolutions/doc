@@ -38,7 +38,7 @@ Multiple providers can be created and can reach different domains as long as the
 
 The Azure AD user provider allows {{ en.DHUBB }} to store the Azure AD application information to be used for Azure AD automatic password rotation.
 
-{% snippet icon.badgeHelp %}
+{% snippet, "badgeHelp" %}
 See [Create an Azure AD PAM provider](/kb/hub-business/how-to-articles/create-azure-ad-pam-provider/) for more information on its configuration.
 {% endsnippet %}
 

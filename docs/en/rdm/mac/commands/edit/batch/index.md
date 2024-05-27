@@ -61,7 +61,7 @@ Edit Sessions (General Settings) allows you to change common sessions settings s
 * Advanced Settings tab
 
 ### Edit Sessions (Session Type Settings)
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Edit Sessions Session Type Settings is only available for specific session types like RDP.
 {% endsnippet %}
 

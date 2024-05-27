@@ -10,7 +10,7 @@ With {{ en.RDM }}, it is possible to send credentials through a typing macro usi
 ![!!KB4835](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4835.png)
 1. In the left menu, navigate to the ***Security – Security Settings*** section.
 1. Under ***Password***, check the ***Allow password in variable*** option box. This option needs to be checked so that the typing macro can send the password to the remote session.
-{% snippet icon.badgeCaution %}
+{% snippet, "badgeCaution" %}
 If the option is greyed out, you need to activate ***Allow password variables for all entries*** and ***Allow password variable in macros*** in ***Administration – System Settings – Password Policy***.
 
 Also, if you are using the ***Linked ({{ en.VLT }})*** credential mode in your entry, you will need to enable the ***Allow password in variable*** option in the linked credential entry as well.

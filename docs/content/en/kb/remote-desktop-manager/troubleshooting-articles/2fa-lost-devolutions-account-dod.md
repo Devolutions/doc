@@ -5,7 +5,7 @@ eleventyComputed:
 This solution applies if you have set a 2FA on your {{ en.DA }} or {{ en.DOD }} and are lockout.
 ## Solution
 1. Find your ***Recovery codes*** file that was saved at creation of your 2FA.  
-{% snippet icon.badgeCaution %}
+{% snippet, "badgeCaution" %}
 This [step](/cloud/sign-in-security/two-step-verification/#recovery-codes) was mandatory for security reasons at creation.
 {% endsnippet %}  
 

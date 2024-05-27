@@ -4,7 +4,7 @@ eleventyComputed:
 ---
 Import previously exported ***Entry Templates*** in the web interface of {{ en.DVLS }}.
 
-{% snippet icon.badgeCaution %}
+{% snippet, "badgeCaution" %}
 The import format can only be ***Import (.Rdm)***, ***KeePass (.Xml)*** or ***Google Password (.Csv)*** files.
 {% endsnippet %}
 

@@ -9,7 +9,7 @@ Créer des entrées manuellement et enregistrer vos données dans {{ fr.DVLS }}.
 
 1. Sélectionner le {{ fr.VLT }} / {{ fr.UVLT }} et le dossier dans lequel vous souhaitez créer la nouvelle entrée.
 1. Cliquer sur le bouton ***Plus*** situé dans le ***{{ fr.NPANE }}***.
-   {% snippet icon.badgeInfo %}
+   {% snippet, "badgeInfo" %}
    En survolant le bouton ***Plus***, des raccourcis pour les types d'entrée les plus courants s'affichent.
    {% endsnippet %}
 

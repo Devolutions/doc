@@ -4,11 +4,11 @@ eleventyComputed:
 ---
 There are many different types of credentials and they are used by a multitude of users. On Windows systems, having multiple user accounts enables the ability to launch {{ en.RDM }} under a different set of credentials while we are already logged on using main credentials. This allows for using Integrated security to connect to an [Advanced Data Source](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/).
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 These solutions require the "Secondary Log-on" service to be running.
 {% endsnippet %}
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 If the other account belongs to a domain different than the one from your workstation, solution A must be used.
 {% endsnippet %}
 

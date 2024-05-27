@@ -4,7 +4,7 @@ eleventyComputed:
 ---
 Cette section s'adresse aux équipes qui utilisent l'édition Team et ses fonctionnalités. 
 
-{% snippet icon.shieldWarning %} 
+{% snippet, "shieldWarning" %} 
 Lorsque vous choisissez une source de données qui n'est pas déployée sur site, il est important de penser à la protection des données au repos et en transit. Nous vous recommandons fortement de chiffrer vos données stockées dans des fichiers à l’aide d’une clé maîtresse ou d'utiliser un [Fournisseur de sécurité](/fr/rdm/windows/commands/administration/settings/security-providers/) pour les [Sources de données avancées](/fr/rdm/windows/data-sources/data-sources-types/advanced-data-sources/). Ainsi, vous serez la seule personne qui peut voir les données. 
 {% endsnippet %}
  

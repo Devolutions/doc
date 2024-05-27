@@ -4,15 +4,15 @@ eleventyComputed:
 ---
 Vous pouvez rechercher des pages de documentation liées aux entrées. La ***Recherche dans la documentation*** fournit un aperçu des pages de documentation, du titre de la page et des détails d'entrée associés. L'outil cherche dans le {{ fr.VLT }} actuel.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 La ***Recherche dans la documentation*** est disponible avec les sources de données {{ fr.DVLS }} et SQL.
 {% endsnippet %}
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 La fonctionnalité ***Documentation*** est chiffrée uniquement pour la source de données {{ fr.DVLS }}. Si vous utilisez des sources de données comme SQL Server ou Azure SQL, cette fonctionnalité n'est pas chiffrée.
 {% endsnippet %}
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 La fonctionnalité ***Documentation*** est disponnible hors-ligne depuis la version 2022.3.14.
 {% endsnippet %}
 

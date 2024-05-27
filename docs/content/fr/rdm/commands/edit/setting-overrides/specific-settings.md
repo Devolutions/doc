@@ -8,15 +8,15 @@ Les ***Paramètres spécifiques*** sont utilisés pour remplacer les propriété
 * ***Paramètres spécifiques de l'usager*** remplacent les propriétés d'une entrée pour un seul usager.
 * ***Paramètres spécifiques locaux*** remplacent les propriétés d'une entrée pour tous les utilisateurs d'un périphérique spécifique.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Cette fonctionnalité est disponible seulement lors de l'utilisation d'une [Source de données avancée](/fr/rdm/windows/data-sources/data-sources-types/advanced-data-sources/). Un paramètre sur la source de données permet l'utilisation des Paramètres spécifiques. Contacter votre administrateur si le menu est grisé.
 {% endsnippet %}
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Si les Paramètres spécifiques de l'usager et les Paramètres spécifiques locaux sont définis sur la même entrée, les Paramètres spécifiques locaux ont la priorité.
 {% endsnippet %}
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Vous pouvez également y accéder en utilisant le clic droit sur une entrée et en allant dans ***Modifier - Paramètres spécifiques de l'usager/locaux***.
 {% endsnippet %}
 
@@ -32,7 +32,7 @@ Une icône indicatrice s'affiche dans le tableau de bord lorsqu'une entrée qui 
 Dans la majorité des cas, la modification des Paramètres spécifiques affiche la boîte de dialogue suivante :
 ![Paramètres spécifiques locaux](https://cdnweb.devolutions.net/docs/fr/rdm/windows/clip10216.png)
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Les Paramètres spécifiques sont sensibles au contexte et plusieurs paramètres peuvent ne pas être disponibles pour certains types d'entrées.
 {% endsnippet %}
 

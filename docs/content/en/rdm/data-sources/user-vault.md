@@ -4,7 +4,7 @@ eleventyComputed:
   status: Topic available in German language
 ---
 The ***{{ en.UVLT }}*** is a user centric {{ en.VLT }} for entries of any type. It allows each user to create entries that only them can access.
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 The {{ en.UVLT }} is available for all [Advanced Data Sources](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/).
 {% endsnippet %}
 

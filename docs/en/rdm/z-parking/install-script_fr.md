@@ -8,14 +8,14 @@ Les instructions suivantes expliquent comment installer un {{ fr.DGW }} à l'aid
 
 ## Étapes de l'installation avec un script
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 L'installation du script nécessite l'utilisation de PowerShell 7.
 {% endsnippet %}
 
 1. Se connecter avec un compte administrateur {{ fr.DHUBB }}.
 1. Accéder à l'onglet ***Administration*** sur la gauche.
 ![Onglet Administration](https://cdnweb.devolutions.net/docs/fr/hub/DGW0020.png)
-{% snippet icon.badgeCaution %}
+{% snippet, "badgeCaution" %}
 Un ***Utilisateur d'application*** est nécessaire pour continuer. S'il n'a pas encore été créé, la page d'aide [Gestion des utilisateurs d'application](/fr/hub/web-interface/administration/management/application-users/manage-application-users/) est disponible.
 {% endsnippet %}
 
@@ -52,6 +52,6 @@ Un ***Utilisateur d'application*** est nécessaire pour continuer. S'il n'a pas 
 1. Un rectangle affichera les informations pour chaque {{ fr.DGW }} de votre hub.
 ![Connexion réussie](https://cdnweb.devolutions.net/docs/fr/hub/DGW0033.png)
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Visiter [Configuration dans {{ fr.RDM }}](/fr/hub/dgw/rdm-configuration/) pour en savoir plus sur la liaison entre {{ fr.RDM }} et {{ fr.DGW }}.
 {% endsnippet %}

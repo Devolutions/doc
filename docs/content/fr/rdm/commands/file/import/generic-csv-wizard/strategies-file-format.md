@@ -13,7 +13,7 @@ Les deux méthodes d'importation à partir de CSV vous permettent de choisir un 
 
 Si vous avez besoin d'un contrôle plus précis, vous pouvez spécifier le modèle à utiliser dans une colonne ***Modèle*** du fichier CSV, mais, comme vous pouvez spécifier le type d'entrée dans le fichier CSV, cela pourrait ne pas être nécessaire.
 
-{% snippet icon.badgeNotice %}
+{% snippet, "badgeNotice" %}
 Dans ***Fichier – Importer***, nous vous recommandons d'utiliser d'abord l'option ***Assistant d'importation de Csv générique***. Vous pouvez modifier au besoin l'***Instruction du format en-tête***.
 ![Assistant d'importation de CSV](https://cdnweb.devolutions.net/docs/fr/rdm/windows/RdmWin4042.png)
 {% endsnippet %}
@@ -21,7 +21,7 @@ Dans ***Fichier – Importer***, nous vous recommandons d'utiliser d'abord l'opt
 
 ## Contenu du fichier
 
-{% snippet icon.badgeCaution %}
+{% snippet, "badgeCaution" %}
 Certaines validations sur les paramètres d'entrée ne se trouvent pas dans la couche de gestion, mais plutôt dans les boîtes de dialogue de propriétés. Cela signifie que l'utilisation du processus d'importation peut entraîner des entrées non valides qui déclencheront des erreurs. Veuillez valider soigneusement les entrées résultantes.
 {% endsnippet %}
 
@@ -29,18 +29,18 @@ Dans le fichier CSV, les champs ***Host*** et ***Name*** sont obligatoires. Si a
 
 Nous ne pouvons pas fournir la liste de tous les champs pris en charge pour tous les types d'entrées, car {{ fr.RDM }} utilise une architecture ouverte et n'est donc pas au courant de tous les champs des types d'entrées fournis par notre gestionnaire de modules. Une bonne méthode pour découvrir la structure du champ consiste à créer une entrée du type souhaité, faire un clic droit sur l'entrée et sélectionner ***Presse-papiers – Copier***, puis coller le contenu dans votre éditeur préféré. Vous verrez la structure et les noms des champs.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Les valeurs par défaut des champs ne sont pas sérialisées. Cela signifie qu'elles sont simplement exclues de la structure sérialisée.
 {% endsnippet %}
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 La mise en œuvre du support pour tous les domaines a un coût. Le processus d'importation prend du temps en raison de tous les accès dynamiques aux champs qui ont lieu. Une importation initiale massive d'entrées doit être séparée en lots de tailles gérables. Veuillez effectuer des essais et régler le nombre d'entrées pour obtenir des performances acceptables.
 {% endsnippet %}
 
 
 Toutes nos entrées partagent un ensemble de champs de base; les autres sont liées à la technologie spécifique avec laquelle elles sont interfacées (RDP, SSH, etc.). Certains champs sont regroupés dans des structures, comme l'onglet Informations. Cela signifie que ces champs sont accessibles uniquement lorsque vous fournissez le nom de la structure en tant que préfixe, par exemple, « MetaInformation\OS » ou « MetaInformation\PurchaseDate ».
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Notez que le contenu du fichier CSV peut contenir nos variables : elles seront résolues lors de l'enregistrement. Par exemple, vous pouvez utiliser la variable $HOST$ dans des champs tels que Description, URL, Putty\CustomSessionName, etc. Elle sera remplacée par la valeur correspondante.
 {% endsnippet %}
 

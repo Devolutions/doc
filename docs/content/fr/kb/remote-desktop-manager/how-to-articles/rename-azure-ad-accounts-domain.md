@@ -7,7 +7,7 @@ If you are using {{ en.RDM }} with the Azure AD integration and change your Azur
 
 You can use the SQL script below to rename your users to the correct domain.
 
-{% snippet icon.badgeNotice %}
+{% snippet, "badgeNotice" %}
 First make sure you have a backup of your SQL database since you will need to perform modifications on it.
 {% endsnippet %}
 

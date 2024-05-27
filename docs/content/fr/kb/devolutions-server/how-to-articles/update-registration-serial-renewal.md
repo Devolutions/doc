@@ -4,7 +4,7 @@ eleventyComputed:
 ---
 {{ en.DVLS }} is licensed as a yearly subscription which must be kept up-to-date. A new license key is provided when you renew. The new license key needs to be entered in the {{ en.DVLSCONSOLE }}.
 
-{% snippet icon.badgeNotice %}
+{% snippet, "badgeNotice" %}
 Your data is always available even if the subscription has expired. You simply need to connect directly to that database using a SQL Server data source.
 {% endsnippet %}
 

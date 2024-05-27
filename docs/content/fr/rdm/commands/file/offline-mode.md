@@ -6,7 +6,7 @@ Basculez le [Mode hors-ligne](/fr/rdm/windows/data-sources/offline-mode/) de la 
 
 Utiliser le mode hors-ligne pour vous connecter à une copie locale de la source de données lorsque la base de données distante n'est pas disponible. Ceci est utile lorsque vous travaillez à partir d'un emplacement distant et que le réseau est inaccessible ou en cas de problème de connectivité.
 
-{% snippet icon.shieldCaution %}
+{% snippet, "shieldCaution" %}
 Il y a des considérations de sécurité à prendre en compte lors de l'activation du mode hors-ligne.
 {% endsnippet %}
 

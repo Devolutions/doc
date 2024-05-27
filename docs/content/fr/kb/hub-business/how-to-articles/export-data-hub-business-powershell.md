@@ -6,7 +6,7 @@ Dans {{ fr.DHUBB }}, vous pouvez exporter vos données au format Json ou Csv à 
 ![Exporter avec Powershell](https://cdnweb.devolutions.net/docs/fr/kb/KB2076.png)
 ## Étapes
 Avant d'exporter vos données, si ce n'est pas déjà fait, [créez un utilisateur d'application](/hub/web-interface/administration/management/application-users/manage-application-users/) et assignez-lui le rôle de ***Gestionnaire*** du {{ fr.VLT }} souhaité.
-{% snippet icon.badgeCaution %}
+{% snippet, "badgeCaution" %}
 Conservez la ***Clé secrète d'application*** et la ***Clé de l'application*** de votre utilisateur d'application nouvellement créé ou récupérez-les si votre utilisateur a déjà été configuré, car elles seront requises aux étapes suivantes.
 {% endsnippet %}
 

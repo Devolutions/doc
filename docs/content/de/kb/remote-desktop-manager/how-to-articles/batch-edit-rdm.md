@@ -9,13 +9,13 @@ Im {{ de.RDM }} können Sie mit der Funktion ***[Stapelverarbeitung](/de/rdm/win
 ## Eintrag / Ordnerauswahl
 Die zu bearbeitenden Einträge und Ordner können mit den folgenden Methoden ausgewählt werden.
 
-{% snippet icon.badgeNotice %}
+{% snippet, "badgeNotice" %}
 In der Praxis empfiehlt es sich, die ***[Erweiterte Suche](#erweiterte-suche)*** oder die ***[Multi {{ de.VLT }} Suche](#multi-tresor-suche)*** zu verwenden, da die manuelle Auswahl im ***Navigationsbereich*** zeitaufwändiger ist und das Risiko birgt, einige Einträge / Ordner zu übersehen. Die manuelle Auswahl macht nur Sinn, wenn Sie nur wenige ausgewählte Einträge bearbeiten möchten.
 
 Unabhängig von der verwendeten Methode ist es empfehlenswert, für jede Stapelverarbeitung nur eine Eintragsart auszuwählen.
 {% endsnippet %}
 
-{% snippet icon.badgeCaution %}
+{% snippet, "badgeCaution" %}
 Um die Informationen von Ordnern zu bearbeiten, MÜSSEN Sie die ***[Erweiterte Suche](#erweiterte-suche)*** oder die ***[Multi {{ de.VLT }} Suche](#multi-tresor-suche)*** verwenden, um die Ordner auszuwählen. Wenn Sie die Ordner manuell im ***Navigationsbereich*** auswählen, werden die Informationen in den untergeordneten Einträgen bearbeitet, NICHT die Informationen in den Ordnern selbst.
 {% endsnippet %}
 
@@ -33,7 +33,7 @@ Mit der Funktion ***[Erweiterte Suche](/rdm/windows/commands/view/panels/search/
 ![Erweiterte Suche](https://cdnweb.devolutions.net/docs/de/kb/KB2108.png)
 1. Gehen Sie im {{ de.RDM }} zu ***Ansicht – Suche – Erweiterte Suche*** oder drücken Sie die Taste F11.
 1. Wählen und bestimmen Sie auf der Registerkarte ***Suchen*** im Fenster ***Erweiterte Suche*** die Kriterien, nach denen Ihre Suche gefiltert werden soll. Auf der Registerkarte ***Einstellungen*** sind weitere Suchparameter verfügbar. Wenn Sie fertig sind, klicken Sie bitte auf ***Suche***.
-   {% snippet icon.badgeInfo %}
+   {% snippet, "badgeInfo" %}
    Um Ihre Suche nach Ordnertyp zu filtern, müssen Sie die Funktion ***Erweiterte Suche*** verwenden, da diese Funktion in der ***Multi {{ de.VLT }} Suche*** nicht verfügbar ist. Suchen Sie nach ***Verbindungstyp*** und wählen Sie in der Drop-Down-Liste daneben den Ordnertyp aus.
    {% endsnippet %}
 1. Wählen Sie die Einträge / Ordner aus, die Sie bearbeiten möchten. Um alle auszuwählen, klicken Sie auf eine beliebige Stelle im Ergebnisfeld und verwenden Sie die Tastenkombination <kbd>Strg</kbd>+<kbd>A</kbd>.
@@ -47,7 +47,7 @@ Mit der Funktion [***Multi {{ de.VLT }} Suche***](/rdm/windows/commands/view/pan
 
 1. Gehen Sie im {{ de.RDM }} zu ***Ansicht – Suche – Multi {{ de.VLT }} Suche*** oder drücken Sie die Taste F12.
 1. Wählen und bestimmen Sie die Kriterien zum Filtern Ihrer Suche, klicken Sie dann auf ***Suche***.
-   {% snippet icon.badgeInfo %}
+   {% snippet, "badgeInfo" %}
    Um Ihre Suche nach Ordnertyp zu filtern, müssen Sie die Funktion ***[Erweiterte Suche](#erweiterte-suche)*** verwenden.
    {% endsnippet %}
 1. Wählen Sie die Einträge / Ordner aus, die Sie bearbeiten möchten. Um alle auszuwählen, klicken Sie auf eine beliebige Stelle im Ergebnisfeld und verwenden Sie die Tastenkombination <kbd>Strg</kbd>+<kbd>A</kbd>.
@@ -62,7 +62,7 @@ Mit der Funktion ***Stapelverarbeitung*** können Sie folgende Aktionen durchfü
 * Alle gespeicherten Anmeldeinformationen / Passwörter zurücksetzen
 * Einträge bearbeiten (Allgemeine Einstellungen / Sitzungstyp Einstellungen / Sicherheitsgruppen (Veraltet) / Assets/ Benutzerspezifische Einstellungen / Lokale Einstellungen)
 
-{% snippet icon.badgeWarning %}
+{% snippet, "badgeWarning" %}
 Sicherheitsgruppen gelten als veraltet und werden ab Version 2023.3 von {{ de.RDM }} vollständig entfernt. Siehe [Migration von Sicherheitsgruppen zu Gruppen](/de/kb/remote-desktop-manager/how-to-articles/migration-security-groups-user-groups/).
 {% endsnippet %}
 
@@ -73,7 +73,7 @@ Wenn die Optionen der ***Stapelverarbeitung*** Ihren Anforderungen entsprechen, 
 1. Wählen Sie aus der Liste eine der Optionen zur Bearbeitung aus, um ein Fenster zu öffnen. Beachten Sie, dass nur die Optionen verfügbar sind, die für Ihre Eintragstypen relevant sind.
 ![Optionen der Stapelverarbeitung](https://cdnweb.devolutions.net/docs/de/kb/KB2103.png)
 1. Bearbeiten Sie in dem Fenster die Informationen und Parameter Ihrer Wahl und speichern Sie dann.
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Jede Bearbeitungsoption zeigt unterschiedliche Informationen und Parameter an, die bearbeitet werden können. Eine Vorschau der einzelnen Optionen finden Sie unter [Stapelverarbeitung](/de/rdm/windows/commands/edit/batch/batch-edit/).
 {% endsnippet %}
 

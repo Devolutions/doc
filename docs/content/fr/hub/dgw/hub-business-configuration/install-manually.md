@@ -8,7 +8,7 @@ Les instructions suivantes expliquent comment installer manuellement {{ fr.DGW }
 
 ## Étapes de l'installation manuelle
 
-{% snippet icon.badgeCaution %}
+{% snippet, "badgeCaution" %}
 Cette méthode ne fonctionne que pour Windows.
 {% endsnippet %}
 
@@ -25,7 +25,7 @@ Cette méthode ne fonctionne que pour Windows.
 ![L'installateur](https://cdnweb.devolutions.net/docs/fr/hub/DGW0035.png)
 1. <a name="7"></a> Cliquer sur ***Générer la clé publique de Gateway et la télécharger***. Cette clé est unique pour le compte {{ fr.DHUBB }} et ne peut être générée qu'une seule fois. Si elle a déjà été générée, la clé peut être téléchargée à nouveau, si nécessaire.
 ![Clé publique de Gateway](https://cdnweb.devolutions.net/docs/fr/hub/DGW0036.png)
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Le programme d'installation doit être exécuté sur le serveur hébergeant {{ fr.DGW }}.
 {% endsnippet %}
 
@@ -63,6 +63,6 @@ Le programme d'installation doit être exécuté sur le serveur hébergeant {{ f
 1. Un rectangle affichera les informations pour chaque {{ fr.DGW }} de votre hub.
 ![Connexion réussie](https://cdnweb.devolutions.net/docs/fr/hub/DGW0033.png)
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Visiter [Configuration dans {{ fr.RDM }} ](/fr/hub/dgw/rdm-configuration/) pour en savoir plus sur la liaison entre {{ fr.RDM }} et {{ fr.DGW }}.
 {% endsnippet %}

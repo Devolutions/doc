@@ -27,11 +27,11 @@ La [Sauvegarde en ligne](/fr/cloud/rdm-online-services/online-backup/) vous perm
 5. Cliquer sur ***Fichier - Copie de sauvegarde - Voir l'historique*** pour vérifier que la sauvegarde en ligne a été configurée correctement.
 ![Voir l'historique](https://cdnweb.devolutions.net/docs/fr/rdm/mac/2015-05-25_13-12-31.png)
 
-{% snippet icon.shieldCaution %}
+{% snippet, "shieldCaution" %}
 Vous devez effectuer cette opération pour toutes vos sources de données SQLite ou XML afin d'être entièrement sécurisé.
 {% endsnippet %}
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 La sauvegarde automatique est exécutée en arrière-plan toutes les 30 secondes après toute modification du contenu de la source de données.
 {% endsnippet %}
 

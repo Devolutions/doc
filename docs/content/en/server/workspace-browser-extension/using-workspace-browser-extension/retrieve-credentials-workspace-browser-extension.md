@@ -2,7 +2,7 @@
 eleventyComputed:
   title: Retrieve credentials with the {{ en.WBEX }}
 ---
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 You need website entries in {{ en.DVLS }} to be able to retrieve their credentials. If that is not the case, start by [adding a website entry with the {{ en.WBEX }}](/server/workspace-browser-extension/using-workspace-browser-extension/add-website-entry-workspace-browser-extension/).
 {% endsnippet %}
 
@@ -16,7 +16,7 @@ After the [installation](/server/workspace-browser-extension/installation/) of t
 1. Click on ***General*** in the ***Configuration*** section.
 ![Settings – Configuration – General](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp2016.png)
 1. In the ***General*** tab, the ***Show icon in fields*** setting should be enabled by default. If not, check the box next to the option to enable it.
-   {% snippet icon.badgeNotice %}
+   {% snippet, "badgeNotice" %}
    With this option enabled, a {{ en.WBEX }} icon is displayed in every credential fields on the websites you visit. This makes it easier to select the correct entry from which to retrieve your credentials, especially when more than one is available.
    {% endsnippet %}
 
@@ -29,7 +29,7 @@ After the [installation](/server/workspace-browser-extension/installation/) of t
     * ***Automatically retrieve credentials on page load*** (enabled by default): Allows the {{ en.WBEX }} to automatically search for available credentials when loading a web page.
     * ***Automatically fill in credentials on load*** (disabled by default): Credentials fields are automatically filled in when loading a web page. This only works if you only have one set of credentials for a given website.
 ![Actions – Automatically retrieve and fill in credentials on load](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp2019.png)
-   {% snippet icon.badgeInfo %}
+   {% snippet, "badgeInfo" %}
    If the ***Automatically submit the form after filling*** setting is enabled, the credentials are automatically submitted when the fields are filled. Enabling it is optional as it is not a best practice.
    {% endsnippet %}
 7. Click ***Save***.
@@ -37,7 +37,7 @@ After the [installation](/server/workspace-browser-extension/installation/) of t
 You can now continue to the next section to learn how to retrieve your website entry credentials.
 
 ## Retrieving Credentials
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 This section is based on the {{ en.WBEX }} configuration steps from the [previous section](#settings). We highly recommend that you follow them before going forward, as some features may differ between your experience and what is shown below.
 {% endsnippet %}
 
@@ -59,7 +59,7 @@ Depending on the options you have enabled/disabled, you may need to retrieve you
 1. Go to the login page of the website you want to access. This page will be different for each website; this section will use the Atlassian website as an example.
 1. Click on the {{ en.WBEX }} in your browser. Website entries that are linked to this website will appear.
 1. Click on the website entry that contains the credentials for this website. If multiple entries are available, you can use the ***Filter*** bar to find the one you need.
-   {% snippet icon.badgeInfo %}
+   {% snippet, "badgeInfo" %}
    If needed, you can also use the icons that appear when hovering over the entry to copy your username, copy your password, or get an overview of the entry.
    {% endsnippet %}
 

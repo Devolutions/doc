@@ -12,7 +12,7 @@ L'intégration de ***Secret Server*** est assez simple dans {{ fr.RDM }}. Suivre
   <li>Dans {{ fr.RDM }}, créer une nouvelle entrée <b><i>Secret Server</i></b>.</li>
   <li>Dans l'onglet <b><i>Général</i></b> entrer l'<b><i>URL</i></b> que vous utilisez pour vous connecter à l'instance de <b><i>Secret Server</i></b>.</li>
 
-{% snippet icon.badgeNotice %}
+{% snippet, "badgeNotice" %}
 Il s'agira soit de https<area>://server, soit de https<area>://server/SecretServer.
 {% endsnippet %}
 
@@ -28,11 +28,11 @@ Il s'agira soit de https<area>://server, soit de https<area>://server/SecretServ
 ![Mon compte Secret Server](https://cdnweb.devolutions.net/docs/fr/kb/KB4059.png)
 
   <li>L'authentification à deux facteurs (2FA) est prise en charge par l'entrée <b><i>Secret Server</i></b>.
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 SAML n'est pas encore pris en charge, mais il devrait l'être dans la version 2023.1 de {{ fr.RDM }}.
 {% endsnippet %}
 
-{% snippet icon.badgeCaution %}
+{% snippet, "badgeCaution" %}
 Il y a une limitation avec le Rest API, vous ne pouvez pas avoir le 2FA avec Windows Authentication.
 {% endsnippet %}
     <ol>
@@ -50,7 +50,7 @@ Il y a une limitation avec le Rest API, vous ne pouvez pas avoir le 2FA avec Win
 ![Identifiants – Sélectionner dans la liste](https://cdnweb.devolutions.net/docs/fr/kb/KB4062.png)
 
 De cette façon, vous avez une seule entrée de ***Secret Server*** pour toutes les connexions.
-{% snippet icon.badgeNotice %}
+{% snippet, "badgeNotice" %}
 Vous pouvez également, si vous le préférez, sélectionner les identifiants que vous souhaitez directement sous l'onglet ***Choisir les identifiants*** dans l'entrée ***Secret Server***.
 {% endsnippet %}
  </ol>

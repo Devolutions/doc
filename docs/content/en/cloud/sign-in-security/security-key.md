@@ -35,7 +35,7 @@ The next time you connect to the {{ en.DA }}, hover your NFC security key to aut
 The security key has been removed.
 ## Windows Hello
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Windows Hello must be activated and configured on your computer for the window to open.
 {% endsnippet %}
 

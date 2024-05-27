@@ -4,7 +4,7 @@ eleventyComputed:
 ---
 Utiliser l'option ***Fichier - Importer*** pour importer des entrées dans {{ fr.RDM }}. Vous pouvez importer plusieurs types d'entrées à partir d'une multitude de sources. Nous prenons en charge les formats d'importation natifs à partir de nombreux outils populaires sur le marché et si nous ne prenons pas en charge le format natif ou le tiers, nous avons des assistants disponibles pour importer à partir d'un fichier csv.
 
-{% snippet icon.badgeNotice %}
+{% snippet, "badgeNotice" %}
 La fonction d'importation est active que si la [Permissions du système](/fr/rdm/mac/commands/administration/user-management/permissions/) d'importation a été activée dans le {{ fr.VLT }}.
 {% endsnippet %}
 

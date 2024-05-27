@@ -5,17 +5,17 @@ eleventyComputed:
 ---
 The following steps show how to configure KeePass with {{ en.RDM }}, as well as different ways it can be used as a plugin.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 The integration of credentials from password managers is only available in the Team version of {{ en.RDM }}.
 {% endsnippet %}
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Only the latest version of KeePass is compatible with the {{ en.RDM }} plugins.
 {% endsnippet %}
 
 ## Steps
 1. Install the latest [KeePass 2](https://keepass.info/download.html) version.
-{% snippet icon.badgeCaution %}
+{% snippet, "badgeCaution" %}
 The installation folder for KeePass should use the default path (e.g., **C:\Program Files\KeePass Password Safe 2**). This will ensure that the {{ en.RDM }} integration works properly.
 {% endsnippet %}
 
@@ -35,12 +35,12 @@ The installation folder for KeePass should use the default path (e.g., **C:\Prog
 1. Select the ***KeePass*** entry, which is under ***Credential Management*** – ***Password Management***.
 1. Select ***Plugin*** from the ***Mode*** dropdown.
 ![Plugin Mode](https://cdnweb.devolutions.net/docs/docs_en_kb_KB0038.png)
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 It is possible to set the database path by checking the ***Set database path manually*** option.
 {% endsnippet %}
 
 13. Under the ***Entry*** tab, select the ***Default (specific UUID)*** option in the dropdown.
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 It is also possible to use either of these options:
 * ***Always Prompt with list*** ensures that every time the entry is accessed, it will display the entire database, making it possible to select an entry from the list instead of using a fixed KeePass credential entry.
 
@@ -57,6 +57,6 @@ It is also possible to use either of these options:
 1. Click ***OK*** to save the changes and close the entry options window.
 
 ## Troubleshooting
-{% snippet icon.badgeHelp %}
+{% snippet, "badgeHelp" %}
 Learn more about [KeePass Troubleshooting](/kb/remote-desktop-manager/troubleshooting-articles/keepass/).
 {% endsnippet %}

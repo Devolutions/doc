@@ -8,7 +8,7 @@ Après l'achat d'une licence de {{ fr.DVLS }} édition Team, un courriel vous es
 
 La procédure d'installation est disponible dans la section [Installation de {{ fr.DVLS }}](/fr/server/installation/).
 
-{% snippet icon.badgeCaution %}
+{% snippet, "badgeCaution" %}
 Veuillez vérifier vos courriels indésirables si vous ne voyez pas un courriel dans votre boîte de réception.
 {% endsnippet %}
 

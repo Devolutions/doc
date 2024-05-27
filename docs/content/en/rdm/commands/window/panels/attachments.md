@@ -8,11 +8,11 @@ Files are attached to an entry and are stored directly in the database.
 To enable the attachment pane, navigate to ***Window – Layout*** in the ribbon, then select ***Attachments***.
 ![Attachments Button](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin6212.png)
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 This feature is only available when using an [Advanced Data Source](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/).
 {% endsnippet %}
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 The files in attachments are available in offline mode.
 {% endsnippet %}
 

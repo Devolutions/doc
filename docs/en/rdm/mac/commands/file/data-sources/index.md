@@ -17,7 +17,7 @@ Use the button plus to create a new data source configuration.
 
 Use buttons plus and cog wheel to delete or edit a data source configuration.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Only the configuration will be deleted, the actual file or database will still be available.
 {% endsnippet %}
 
@@ -37,7 +37,7 @@ Use the Unlock button to unlock a data source locked with a password.
 
 Use the Import or Export buttons to import/export a data source configuration (RDD file).
 
-{% snippet icon.badgeCaution %}
+{% snippet, "badgeCaution" %}
 The RDD file does not include the content of the data source; only the configuration is exported. Use the entry's export functionality to back up or copy the content of the database.
 {% endsnippet %}
 

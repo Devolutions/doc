@@ -5,7 +5,7 @@ eleventyComputed:
 Website, credit card, contact, and secure note entries can be created with the {{ en.WBEX }} in {{ en.DHUBP }}. To add a website entry, continue to the next section. For all other types of entries, go to [Add another type of entry](#add-another-type-of-entry) instead.
 
 ## Add a Website entry
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 This section explains how to create an entry with your existing website credentials. If you have not yet created an account for the website, follow the instructions in [Create an account for a website in {{ en.DHUBP }} with the {{ en.WBEX }}](/hub/workspace-browser-extension/using-workspace-browser-extension/using-workspace-browser-extension-with-hub-personal/create-account-website-hub-personal/) instead.
 {% endsnippet %}
 
@@ -62,7 +62,7 @@ The process is the same for all entry types, but the information to be filled in
 1. The {{ en.WBEX }} ***New Entry*** tab will open in your browser. As an example, the image below represents the tab for a credit card entry which differs slightly from the tabs for other types of entries.
 ![New Entry – Credit Card (General Tab)](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub2075.png)
 1. Fill in your entry information. The only mandatory information is the ***Name***; all other information is optional, so you can enter only the information that is useful to you. We recommend that you also specify the ***Folder*** in which your entry will be saved for easy access.
-   {% snippet icon.badgeInfo %}
+   {% snippet, "badgeInfo" %}
    For a ***Secure Note*** entry, you can specify a ***Type*** of text for your note. Unless you know how to use ***Markdown*** (a markup language for formatting text), select ***Plain text***.
    {% endsnippet %}
 1. Click ***Add***.

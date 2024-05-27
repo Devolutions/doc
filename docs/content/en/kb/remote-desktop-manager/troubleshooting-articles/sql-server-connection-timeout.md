@@ -30,13 +30,13 @@ If you continue to experience connection timeout issues, the root cause might be
 1. In the ***Advanced*** tab, click on ***More settings***.
 1. Search for the MultiSubnetFailover setting and set its value to ***True***.
 
-   {% snippet icon.badgeNotice %}
+   {% snippet, "badgeNotice" %}
    It is recommended to use either ***Failover Partner*** and ***MultiSubnetFailover***, not both simultaneously. Ensure the ***Failover Partner*** value is cleared.
    {% endsnippet %}
 
 1. Click ***OK*** then save your changes.
 
-{% snippet icon.badgeHelp %}
+{% snippet, "badgeHelp" %}
 See this Microsoft article for more information: [Timeout occurs when you connect to an Always On listener in multi-subnet environment](https://learn.microsoft.com/en-us/troubleshoot/sql/database-engine/availability-groups/listener-connection-times-out).
 {% endsnippet %}
 

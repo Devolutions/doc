@@ -6,7 +6,7 @@ eleventyComputed:
 ---
 {% youtube '5XwhadoYKKc' %}
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 The ***Temporary Access*** feature is also available in {{ en.RDM }} with {{ en.DHUBB }}. You can view and approve temporary access requests in {{ en.RDM }} even if the request was made in {{ en.DHUBB }}. Visit [Approve temporary access to an entry in {{ en.RDM }}](/rdm/windows/user-interface/content-area/temporary-access/approve-temporary-access/) to learn more.
 {% endsnippet %}
 
@@ -23,7 +23,7 @@ Note that you can also see all temporary access pending requests from a selected
 
 ## Approve/Deny temporary access requests
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 The duration of ***Temporary Access*** begins when the request is approved.
 {% endsnippet %}
 
@@ -42,6 +42,6 @@ Finally, you can ***Approve*** or ***Deny*** the temporary access request by cli
 After the approbation, for any reason, you may revoke the user's temporary access by clicking on ***View Details*** again, then ***Revoke***. Be sure you want to do this first, since to regain access to the entry, they will need to make another request. Otherwise, their access will end within the set time frame.
 ![Revoke temporary access](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub6024.png)
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 To learn more about the end user experience in {{ en.DHUBB }}, visit [Request temporary access to an entry in {{ en.DHUBB }}](/hub/web-interface/temporary-access/request-temporary-access/).
 {% endsnippet %}

@@ -20,6 +20,6 @@ Migrating 2e3d219b-48a3-432a-b214-f11b8ddaa32e (b3409164-078b-4013-b4f6-9a4663d3
 
 If {{ en.DGW }} is configured to use a non-default location, the `-RecordingsPath` can be used to override the default destination path. You can also perform the migration on one machine to manually copy the files over to the {{ en.DGW }} recordings path on a different machine.
 
-{% snippet icon.badgeHelp %}
+{% snippet, "badgeHelp" %}
 A [sample legacy.zip file](https://github.com/Devolutions/devolutions-gateway/blob/master/tools/legacy-recording/legacy.zip) containing legacy recordings is available for reference and testing this script.
 {% endsnippet %}

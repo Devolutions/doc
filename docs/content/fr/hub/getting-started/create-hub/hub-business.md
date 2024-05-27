@@ -2,7 +2,7 @@
 eleventyComputed:
   title: Créer votre {{ fr.DHUBB }}
 ---
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Commencer votre [essai gratuit](https://devolutions.net/fr/password-hub/business/sign-up/) {{ fr.DHUBB }} dès aujourd'hui.
 {% endsnippet %}
 
@@ -10,7 +10,7 @@ Commencer votre [essai gratuit](https://devolutions.net/fr/password-hub/business
 1. Cliquer sur ***{{ fr.DHUBB }}*** dans le menu de gauche.
 1. Remplir le ***Nom de l'entreprise*** dans la section d'essai gratuit de 30 jours.
 1. Choisir un nom de ***Site du {{ fr.DHUBB }}***.
-{% snippet icon.badgeCaution %}
+{% snippet, "badgeCaution" %}
 Le nom du ***site {{ fr.DHUBB }}*** devient l'adresse de votre site Web et ne peut pas être modifié après le déploiement de votre {{ fr.DHUB }}.
 {% endsnippet %}
 
@@ -20,7 +20,7 @@ Le nom du ***site {{ fr.DHUBB }}*** devient l'adresse de votre site Web et ne pe
 
 Une fois le déploiement prêt, vous recevrez un courriel contenant l'adresse Web de votre {{ fr.DHUBB }}.
 
-{% snippet icon.badgeHelp %}
+{% snippet, "badgeHelp" %}
 Si vous êtes un utilisateur de {{ fr.RDM }} Édition Team, vous pouvez connecter votre {{ fr.DHUBB }} comme une source de données dans ***Fichier – Sources de données – Ajouter une nouvelle source de données***. Apprenez-en plus sur [comment intégrer {{ fr.DHUBB }} dans {{ fr.RDM }}](/fr/kb/remote-desktop-manager/how-to-articles/integrate-hub-business-rdm/).
 {% endsnippet %}
 
@@ -28,7 +28,7 @@ Si vous êtes un utilisateur de {{ fr.RDM }} Édition Team, vous pouvez connecte
 1. Télécharger votre ***Kit d'urgence***.
 ![Kit d'urgence](https://cdnweb.devolutions.net/docs/fr/hub/Hub4143.png)
 
-{% snippet icon.badgeCaution %}
+{% snippet, "badgeCaution" %}
 Le ***Kit d'urgence*** contient votre clé d'urgence qui vous sera demandée en cas de perte ou de réinitialisation de votre mot de passe {{ fr.DA }}. N'oubliez pas de le conserver en lieu sûr.
 {% endsnippet %}
 

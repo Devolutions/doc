@@ -4,12 +4,12 @@ eleventyComputed:
   description: In {{ en.RDM }} the access to your objects can be secured and managed using the User Groups Based Access Control.
   status: Topic available in German language
 ---
-{% snippet icon.badgeWarning %}
+{% snippet, "badgeWarning" %}
 Security groups and legacy security have been deprecated and will be completely removed starting with version 2023.3 of {{ en.RDM }}.
 {% endsnippet %}  
 
 In {{ en.RDM }}, the access to your objects can be secured and managed using the ***User Groups Based Access Control***. This type of security gives you a more granular control over your security.  
-{% snippet icon.badgeHelp %}
+{% snippet, "badgeHelp" %}
 For more information, please refer to [User Groups Based Access Control](/rdm/windows/user-groups-based-access-control/).
 {% endsnippet %}  
 
@@ -19,7 +19,7 @@ For more information, please refer to [User Groups Based Access Control](/rdm/wi
 1. Create and apply the groups.
 1. Click on the ***Security Groups (Legacy)*** button in the ***Management*** section.
 1. Delete every security group by selecting each one and clicking on ***Delete Security Group***.  
-{% snippet icon.badgeCaution %}
+{% snippet, "badgeCaution" %}
 To manage your user's permissions, we recommend you switch from ***Security Groups*** (deprecated) to [***Permissions***](/rdm/windows/user-groups-based-access-control/permissions/). Once the migration is done, [disable legacy security](/kb/remote-desktop-manager/how-to-articles/migrate-legacy-security-permissions/).
 {% endsnippet %}  
 

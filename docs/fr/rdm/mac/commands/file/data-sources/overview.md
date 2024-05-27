@@ -17,7 +17,7 @@ Utiliser le bouton plus pour créer une nouvelle configuration de source de donn
 
 Utiliser les boutons moins et écrous pour supprimer ou modifier une configuration de source de données.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Seule la configuration sera supprimée, le fichier ou la base de données réelle sera toujours disponible.
 {% endsnippet %}
 

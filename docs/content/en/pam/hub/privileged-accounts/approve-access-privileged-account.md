@@ -4,7 +4,7 @@ eleventyComputed:
   order: 20
   description: The Check-out feature allows users to request temporary access to a privileged account entry in a PAM {{ en.VLT }}. The approver must then approve or deny the request.
 ---
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 The following topic focuses on approving a check-out request from the {{ en.DHUBB }} web interface. Note that this functionality is also available in {{ en.RDM }} with {{ en.DHUBB }}, either by accessing the privileged account entry in the PAM {{ en.VLT }}, or by connecting to a linked remote session.
 
 You can also view and approve check-out requests in {{ en.RDM }} even if the request was made in {{ en.DHUBB }}.
@@ -28,7 +28,7 @@ Note that you can also see all pending check-out requests from a selected {{ en.
 
 ## Approve/Deny check-out requests
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 The duration of the access begins when the request is approved.
 {% endsnippet %}
 
@@ -46,7 +46,7 @@ Finally, you can ***Approve*** or ***Deny*** the check-out request by clicking o
 
 Once the request is approved, the user can proceed to view/copy the password account (per their assigned permission).
 
-{% snippet icon.badgeNotice %}
+{% snippet, "badgeNotice" %}
 Make sure to give the right permissions to your users so they can use the privileged accounts they requested access to.
 
 We recommend the ***Privileged operator*** role, as it contains the minimum permissions required to be able to use and access privileged account entries, namely ***View {{ en.VLT }}***, ***Connect (Execute)***, ***View password***, and ***View sensitive***. The difference between the ***Privileged operator*** and ***Operator*** roles is that the latter does not include the ***View password*** permission, which is necessary to be able to use the privileged accounts.
@@ -64,7 +64,7 @@ You can force a check-in of the entry to end the user's access by either:
 
 When you check in the entry, the privileged account password automatically resets and the old password is rendered useless. Be sure you want to do this first, since to regain access to the entry, they will need to make another request. Otherwise, their access will end within the set time frame.
 
-{% snippet icon.badgeHelp %}
+{% snippet, "badgeHelp" %}
 To learn more about the end user experience in {{ en.DHUBB }}, visit [Request access to a privileged account](/pam/hub/privileged-accounts/request-access-privileged-account/).
 
 For ways to monitor privileged account activity, take a look at the [Privileged access reports](/pam/hub/privileged-access-reports/index/).

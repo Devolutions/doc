@@ -17,7 +17,7 @@ Under ***File – Settings – Types – Terminal***, interactive authentication
 ### Solution
 Change the value to ***False*** if Interactive authentication in terminal is not required.
 ### Alternative Solution
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Adding lines in SSH server may break the authentication process. Never perform this without a backup.
 {% endsnippet %}
 

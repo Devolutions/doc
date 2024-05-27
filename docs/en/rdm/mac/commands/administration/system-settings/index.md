@@ -6,7 +6,7 @@ Data Source Settings are available from ***Administration - Data Source Settings
 
 Data source settings allows you to control many global aspects of the data source, such as Offline Mode, password policies and version management. properties. You can define general policies applicable for the whole data source.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 This features requires an [Advanced Data Source](/rdm/mac/data-sources/data-sources-types/advanced-data-sources/).
 {% endsnippet %}
 

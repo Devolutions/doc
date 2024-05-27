@@ -5,11 +5,11 @@ eleventyComputed:
 ---
 We can search documentation pages linked to entries. ***Documentation Search*** provides a preview of the documentation pages, page title, and related entry details. The tool searches the current repository.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 ***Documentation Search*** is available with {{ en.DVLS }} and SQL Server data sources.
 {% endsnippet %}
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 The ***Documentation*** feature is encrypted only for the {{ en.DVLS }} data source. If you are using data sources such as SQL Server or Azure SQL, the feature is not encrypted.
 {% endsnippet %}
 

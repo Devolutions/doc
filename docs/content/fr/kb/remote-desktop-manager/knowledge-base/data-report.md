@@ -18,6 +18,6 @@ Specify the parameters by setting the name, type and default value of all parame
 ### Query
 ![!!KB4547](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4547.png)
 Enter the query in the Query tab, which features an SQL syntax-highlighted text box with line numbers.
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Ensure that your DBA sets the proper user groups, and that each specific user(s) has access to it.
 {% endsnippet %}

@@ -4,7 +4,7 @@ eleventyComputed:
 ---
 Manage the ***User Subscriptions*** to entries notification settings.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 An email is required to be saved in your [Account](/server/web-interface/account-menu/edit-account/) for this feature to be available.
 {% endsnippet %}
 

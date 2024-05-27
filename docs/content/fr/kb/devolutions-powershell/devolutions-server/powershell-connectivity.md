@@ -9,7 +9,7 @@ The following methods describe how to connect to {{ en.DVLS }} using PowerShell.
 
 ## Method 1: Using {{ en.RDM }} Cmdlets  
 
-{% snippet icon.badgeNotice %}
+{% snippet, "badgeNotice" %}
 This new data source created with PowerShell will only exist in the user context it was created.
 {% endsnippet %}  
 

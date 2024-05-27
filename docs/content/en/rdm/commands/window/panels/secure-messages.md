@@ -13,14 +13,14 @@ Send and receive secure messages with users, within the same datasource, directl
 ![Send Message](https://cdnweb.devolutions.net/docs/RDMW0017_2024_1.png)
 1. Click ***Send in-app***.  
 ![Send in-app](https://cdnweb.devolutions.net/docs/RDMW0018_2024_1.png)
-   {% snippet icon.badgeInfo %}
+   {% snippet, "badgeInfo" %}
    Learn more about the other [option](/rdm/send/).
    {% endsnippet %}
 1. To select recipients click ***Add Recipients***.
 1. Select a recipient from the list and click ***OK***.  
 ![Recipients list](https://cdnweb.devolutions.net/docs/RDMW0019_2024_1.png)
 1. Write the ***Subject*** and ***Message***.
-   {% snippet icon.badgeInfo %}
+   {% snippet, "badgeInfo" %}
    It is possible to ***Hide*** the message or ***Add Attachment*** with the rightmost buttons. Also, the message can be automatically deleted after some time. To do so, click the ***Expires after*** checkbox and select a date.
    {% endsnippet %}
 1. Click ***Send***.  

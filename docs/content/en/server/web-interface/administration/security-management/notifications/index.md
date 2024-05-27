@@ -3,7 +3,7 @@ eleventyComputed:
   title: Notifications
   order: 40
 ---
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 The [Email](/server/web-interface/administration/configuration/server-settings/general/email/) feature must be enabled and properly configured to get the ***Notifications*** working.
 {% endsnippet %}
 

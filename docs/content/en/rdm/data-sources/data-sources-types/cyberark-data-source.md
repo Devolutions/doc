@@ -46,7 +46,7 @@ On the first connection to CyberArk, {{ en.RDM }} will:
 
 * Create an account (***DataSourceSettings***)
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Note: This assumes you have the rights to perform the steps above.
 {% endsnippet %}
 
@@ -114,7 +114,7 @@ If you have connected using an Administrator account to your CyberArk data sourc
 
 Here, you have the option to add, edit, or remove a CyberArk Integration license which is required for a CyberArk data source in {{ en.RDM}} free or team edition.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 This license is stored within the ***CyberArk safe (RDM_Settings)*** created from the data source initialization step.
 {% endsnippet %}
 

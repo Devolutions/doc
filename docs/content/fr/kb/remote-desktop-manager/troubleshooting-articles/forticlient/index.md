@@ -2,7 +2,7 @@
 eleventyComputed:
   title: Forticlient
 ---
-{% snippet icon.badgeWarning %}
+{% snippet, "badgeWarning" %}
 Fortinet removed the feature to inject credentials in FortiClient 5.4 and above. However, they still left the feature with FortiSSL
 {% endsnippet %}  
 
@@ -13,7 +13,7 @@ Company terminology:
 * Forticlient and FortiSSL are VPN of Fortinet
 ## Solution
 The CLI for FortiSSL is not included anymore with the download of FortiClient. You need to [download the tools](https://support.fortinet.com/login/UserLogin.aspx) related to the current version of FortiClient.  
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 You need to have a support plan with Fortinet to download the tools. If you do not have a support plan, try to contact Fortinet directly and ask them to send you the file.
 {% endsnippet %}  
 

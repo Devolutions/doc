@@ -8,7 +8,7 @@ The ***Active Directory Dashboard*** entry provides a centralized and efficient 
 
 It is possible to modify the Active Directory groups and add a user to it by using the ***AD dashboard*** (console). To do this, you must first restrict access to the folder that contains the administrative tools.  
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 The steps in the video are the same as those described above.
 {% endsnippet %}
 
@@ -28,7 +28,7 @@ The steps in the video are the same as those described above.
 1. Check ***Prompt for comment on open***.
 1. Select ***Open comment is required*** and ***ticket number is required***.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 By enabling the [***Logs***](/rdm/commands/window/panels/logs) functionality, users will have to comment and create a ticket number to explain why they are performing an action on the entry. This type of behavior can be applied to almost every entry in {{ en.RDM }}.
 {% endsnippet %}
 

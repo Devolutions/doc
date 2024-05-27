@@ -4,7 +4,7 @@ eleventyComputed:
 ---
 Override Credentials allows you to specify other credentials than the one stored in an entry. You can choose from multiple sources according to your security practices and policies.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 The Override credentials is available for all type of entries.
 {% endsnippet %}
 

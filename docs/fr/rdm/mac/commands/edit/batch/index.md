@@ -120,7 +120,7 @@ Effacer tous les mots de passe existants pour les sessions sélectionnées.
 
 ### Modifier les entrées (paramètres du type de session)
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 ***Modifier les entrées (paramètres du type de session)*** est disponible que pour des types de sessions spécifiques comme RDP.
 {% endsnippet %}
 

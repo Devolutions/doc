@@ -4,7 +4,7 @@ eleventyComputed:
   description: This topic will cover how to create a Recovery Kit.
 ---
 The ***Recovery Kit*** is very useful if your {{ en.DVLS }} has to be restored or with a new instance. It is possible to [***Generate***](#generate) a local backup or use Azure Key Vault to store the backup. If a backup is already created with Azure Key Vault you can [***Download***](#download) it.
-{% snippet icon.badgeHelp %}
+{% snippet, "badgeHelp" %}
 To learn more about creating and managing an Azure Key Vault account, please consult the [documentation](https://learn.microsoft.com/en-us/azure/key-vault/) on their official website.
 {% endsnippet %}
 
@@ -23,11 +23,11 @@ To learn more about creating and managing an Azure Key Vault account, please con
         * ***Client secret***: An application secret from your Azure AD
 ![Azure Key Vault](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp0039.png)
 4. Verify the ***Response File*** section.
-   {% snippet icon.badgeInfo %}
+   {% snippet, "badgeInfo" %}
    Checking the ***Include sensitive data*** option will include passwords for the database credentials only if it is an SQL database, otherwise no passwords can be saved.
    {% endsnippet %}
 1. Enter the ***Password***, then enter the same one in the ***Confirm Password*** field.
-   {% snippet icon.badgeCaution %}
+   {% snippet, "badgeCaution" %}
    If this password is lost, it will be impossible to use the backup.
    {% endsnippet %}
 1. Click ***OK*** to save this configuration and create the backup.
@@ -40,7 +40,7 @@ To learn more about creating and managing an Azure Key Vault account, please con
 ![Download](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp0041.png)
 1. The ***Filename*** field serves to choose the destination folder where the ***Azure Key Vault*** backup will be saved as well as naming said backup file.
 ![Recovery Kit - Download](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp0042.png)
-   {% snippet icon.badgeInfo %}
+   {% snippet, "badgeInfo" %}
    Clicking the ellipsis button in the ***Filename*** field opens a Save As dialog.
    {% endsnippet %}
 1. Enter the correct information in the Azure Key Vault section;

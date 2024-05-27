@@ -7,7 +7,7 @@ Follow these steps to invite and manage users in your organization.
 ### Invite users
 
 1. Connect to your [{{ en.DA }}](https://portal.devolutions.com/).
-{% snippet icon.badgeCaution %}
+{% snippet, "badgeCaution" %}
 You must be the owner or an administrator of the organization to manage and invite users.
 {% endsnippet %}
 
@@ -31,7 +31,7 @@ As an administrator, you can review and edit the ***Pending invitations***. Once
 
 You will be able to edit the ***Groups*** they belong too, ***Transfer the ownership*** of the organization to another user, set this user as an ***Administrator*** or ***Remove users*** from the organization.
 
-{% snippet icon.badgeCaution %}
+{% snippet, "badgeCaution" %}
 Only the account ***Owner*** can change the ownership of the organization to another user.
 {% endsnippet %}
 

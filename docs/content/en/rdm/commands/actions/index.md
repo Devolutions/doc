@@ -55,7 +55,7 @@ This tab contains multiple type of commands and keystrokes combinations to affec
 * [VNC](/rdm/windows/commands/actions/commands/vnc/)
 * [Telnet](/rdm/windows/commands/actions/commands/telnet/)
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Session add-ons may add custom command in this section, they will not be documented in these topics but rather in the add-on documentation.
 {% endsnippet %}
 

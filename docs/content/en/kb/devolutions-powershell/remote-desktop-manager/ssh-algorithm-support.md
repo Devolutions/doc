@@ -9,7 +9,7 @@ eleventyComputed:
 In versions 2020.3.13.0 and later of {{ en.RDM }}, an error message can appear when opening a Secure Shell (SSH) connection: "An unexpected error has occurred: Error code SSH_FAIL_NO_MATCH (-3006) Unable to find a matching algorithm with the SSH server".
 
 ## Local Solution for one entry
-{% snippet icon.shieldCaution %}
+{% snippet, "shieldCaution" %}
 {{ en.RDM }} now has a selection of algorithms for the SSH session type. Please note that the **unsecured** ones are not enabled by default. We therefore recommend that you check the algorithms directly on your server for security purposes. Otherwise, you can follow the steps below to resolve this issue.
 {% endsnippet %}
 
@@ -18,13 +18,13 @@ In versions 2020.3.13.0 and later of {{ en.RDM }}, an error message can appear w
 ![Custom Algorithm support](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4653.png)
 1. Click on the button that appeared to the right of the ***Algorithm support*** setting.
 1. In the new ***SSH*** window, select the missing algorithms from the list.
-   {% snippet icon.badgeCaution %}
+   {% snippet, "badgeCaution" %}
    Make sure to go through the algorithms in **all tabs** before proceeding.
    {% endsnippet %}
 
    ![Missing Algorithms Selection](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2074.png)
 5. Click ***OK*** in the ***SSH*** window, then ***OK*** again in the window of the entry properties.
-   {% snippet icon.badgeInfo %}
+   {% snippet, "badgeInfo" %}
    You may have to restart {{ en.RDM }} for the solution to take effect.
    {% endsnippet %}
 1. Test your connection. If you are still unable to connect after enabling the algorithms, return to the ***Advanced*** tab in your entry properties and check the ***Skip environment variable setup*** box and click ***OK***.
@@ -32,11 +32,11 @@ In versions 2020.3.13.0 and later of {{ en.RDM }}, an error message can appear w
 
 ## Global Solution for all entries
 It is also possible to globally reactivate all the algorithms in {{ en.RDM }} via the ***File*** – ***Settings*** – ***Types*** – ***Terminal*** – ***Algorithm Support*** menu. Just select the missing algorithms, then click ***OK***.
-{% snippet icon.badgeCaution %}
+{% snippet, "badgeCaution" %}
 Make sure to go through the algorithms in **all tabs**.
 {% endsnippet %}
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 You may have to restart {{ en.RDM }} for the solution to take effect.
 {% endsnippet %}
 

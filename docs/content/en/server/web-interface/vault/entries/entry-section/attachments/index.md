@@ -11,7 +11,7 @@ Manage, view and download files ***Attachments*** stored directly in {{ en.DVLS 
 1. Click ***Add***.
 1. Drag and drop or click to upload the ***File***.
 1. Name the attachment with a ***Title***.
-{% snippet icon.badgeNotice %}
+{% snippet, "badgeNotice" %}
 By default the ***Title*** will be the attach file name.
 {% endsnippet %}
 

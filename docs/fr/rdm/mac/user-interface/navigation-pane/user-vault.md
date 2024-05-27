@@ -6,7 +6,7 @@ Le ***{{ fr.UVLT }}*** est un {{ fr.VLT }} personnalisé pour l'utilisateur pour
 
 Pour créer une nouvelle entrée dans votre {{ fr.UVLT }}, cliquer sur {{ fr.UVLT }} dans votre ***{{ fr.NPANE }}*** et créer votre nouvelle entrée directement à partir de là.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Le {{ fr.UVLT }} est uniquement disponible pour les sources de données suivantes : [SQL Server](/fr/rdm/mac/data-sources/data-sources-types/advanced-data-sources/microsoft-sql-server/) et [{{ fr.DVLS }}](/fr/rdm/mac/data-sources/data-sources-types/advanced-data-sources/server/).
 {% endsnippet %}
 

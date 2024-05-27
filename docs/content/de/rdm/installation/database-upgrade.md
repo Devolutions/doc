@@ -6,15 +6,15 @@ Dieser Artikel bezieht sich auf Installationen, die eine Datenbank als Datenquel
 
 Bei einigen {{ de.RDM }} Versionen muss die Struktur der Datenbank geändert werden. Diese Änderungen werden automatisch durchgeführt, aber es ist ratsam, vorher eine Sicherung Ihrer Datenquelle zu erstellen. Wenn Sie im Team arbeiten, dürfen keine weiteren Benutzer während der Aktualisierung mit der Datenbank verbunden sein.  
 
-{% snippet icon.badgeWarning %} 
+{% snippet, "badgeWarning" %} 
 Der Benutzer, der die Aktualisierung durchführt, muss über administrative Rechte für die Datenbank verfügen. (SYSDBA oder DB_OWNER). 
 {% endsnippet %}
  
-{% snippet icon.badgeWarning %} 
+{% snippet, "badgeWarning" %} 
 Erstellen Sie eine Sicherung der Datenbank und stellen Sie sicher, dass Sie diese bei Bedarf schnell wiederherstellen können. 
 {% endsnippet %}
  
-{% snippet icon.badgeWarning %} 
+{% snippet, "badgeWarning" %} 
 Wenn Lese-/Schreibzugriff für den Offline-Cache konfiguriert ist, stellen Sie sicher, dass alle Benutzer ihre Offline Änderungen synchronisiert haben. 
 {% endsnippet %}
  

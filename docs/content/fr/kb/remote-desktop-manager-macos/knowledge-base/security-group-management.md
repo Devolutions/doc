@@ -2,7 +2,7 @@
 eleventyComputed:
   title: Groupes de sécurité (ancien)
 ---
-{% snippet icon.badgeWarning %}
+{% snippet, "badgeWarning" %}
 La sécurité ancienne et les groupes de sécurité ont été dépréciés et seront complètement supprimés à partir de la version 2023.3 de {{ fr.RDM }}. Voir [Migration des groupes de sécurité (ancien) vers les groupes d'utilisateurs](/fr/kb/remote-desktop-manager/how-to-articles/migration-security-groups-user-groups/).
 {% endsnippet %}
 
@@ -15,11 +15,11 @@ Les groupes de sécurité sont utilisés pour classer les sessions et restreindr
 Chaque entrée du <i><b>{{ fr.NPANE }}</b></i> peut être assignée à un seul groupe de sécurité. Les meilleures pratiques exigent que vous affectiez des groupes de sécurité à des dossiers de manière à ce que toutes les entrées qu'ils contiennent héritent du même groupe de sécurité.
 ![Administration - Groupes de sécurité (Ancien)](https://cdnweb.devolutions.net/docs/fr/rdm/mac/clip4124.png)
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Cette fonctionnalité nécessite une [Source de données avancées](/rdm/mac/data-sources/data-sources-types/advanced-data-sources/).
 {% endsnippet %}
 
-{% snippet icon.shieldWarning %}
+{% snippet, "shieldWarning" %}
 ***Toutes les sessions sans groupes de sécurité sont considérées comme publiques, ce qui signifie que toute personne ayant accès à la source de données pourra voir toutes vos entrées.***
 {% endsnippet %}
 

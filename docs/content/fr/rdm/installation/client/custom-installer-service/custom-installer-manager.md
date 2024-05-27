@@ -2,15 +2,15 @@
 eleventyComputed:
   title: "{{ fr.CIM }}"
 ---
-{% snippet icon.badgeNotice %}
+{% snippet, "badgeNotice" %}
 Pour des raisons de stabilité, dans les grandes bases d'installation, la dernière version officielle n'est pas disponible pour le {{ fr.CIS }} pendant une période indéterminée, le temps que nous nous assurions qu'aucun problème majeur n'est présent. Nous vous recommandons d'utiliser cette période avec votre organisation pour effectuer des tests d'intégration sur quelques postes de travail avant de mettre à niveau l'ensemble de votre équipe.
 {% endsnippet %}
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Veuillez vous assurer d'avoir lu et compris le contenu du [{{ fr.CIS }}](/fr/rdm/windows/installation/client/custom-installer-service/) avant de vous abonner au service.
 {% endsnippet %}
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Vous pouvez stocker et créer jusqu'à six paquets de fichiers de configuration d'***{{ fr.CI }}*** dans votre {{ fr.DA }}.
 {% endsnippet %}
 

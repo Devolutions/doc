@@ -3,7 +3,7 @@ eleventyComputed:
   title: Web browser Firefox executable path
 ---
 Launching Firefox in embedded mode prompts for an executable path in {{ en.RDM }}.
-{% snippet icon.badgeCaution %}
+{% snippet, "badgeCaution" %}
 The Firefox web browser is deprecated in embedded mode.
 {% endsnippet %}
 

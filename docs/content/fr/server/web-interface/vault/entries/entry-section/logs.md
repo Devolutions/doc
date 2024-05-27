@@ -8,7 +8,7 @@ Consulter les ***Journaux*** et ***Insérer des commentaires d'enregistrements**
 
 ### Insérer un commentaire d'enregistrement
 
-{% snippet icon.badgeCaution %}
+{% snippet, "badgeCaution" %}
 Les ***Commentaires d'enregistrement*** pour les entrées dans l'interface Web {{ fr.DVLS }} ne peuvent être que visualisés. Ils ne peuvent pas être supprimés ni modifiés une fois enregistrés. D'autres options, comme l'édition des notes, sont disponibles dans {{ fr.RDM }}.
 {% endsnippet %}
 
@@ -19,7 +19,7 @@ Les ***Commentaires d'enregistrement*** pour les entrées dans l'interface Web {
 1. Facultatif : Ajouter un numéro de ***Ticket***.
 1. Facultatif : Pour sélectionner une ***Date de fin***, cocher la case ***Fin*** et sélectionner une date de fin pour le journal.
 1. Insérer un ***Message*** pour le journal.
-{% snippet icon.badgeCaution %}
+{% snippet, "badgeCaution" %}
 Seul le texte du ***Message*** sera exporté et affiché en mode aperçu pour les entrées.
 {% endsnippet %}
 

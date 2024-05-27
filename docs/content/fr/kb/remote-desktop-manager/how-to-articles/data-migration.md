@@ -3,13 +3,13 @@ eleventyComputed:
   title: Data migration
   description: Here are the steps to follow when copying data from one data source to another. The migration is an export of your original data source followed by an import in the new destination data source.
 ---
-{% snippet icon.badgeCaution %}
+{% snippet, "badgeCaution" %}
 For security, usability, and efficiency reasons, multiple data sources are tagged as deprecated in {{ en.RDM }}. Read more about it in [Deprecated Data Sources](/kb/remote-desktop-manager/knowledge-base/deprecated-data-sources/).
 {% endsnippet %}
 
 Here are the steps to follow when copying data from one data source to another. The migration is an export of your original data source followed by an import in the new destination data source.
 
-{% snippet icon.badgeCaution %}
+{% snippet, "badgeCaution" %}
 If you are using a self-managed RDBMS (SQL Server, MySQL, MariaDB), you can use their management tools to move the database to another server. Please follow their respective documentation on how to successfully transfer not only that data, but also the user accounts.
 
 SQL Server: [MSDN Article on how to move databases](https://support.microsoft.com/en-us/help/314546/how-to-move-databases-between-computers-that-are-running-sql-server)
@@ -26,7 +26,7 @@ MariaDB: [MySQLDump](https://mariadb.com/kb/en/mariadb/mysqldump/)
 <a name="export"></a>
 
 1. Select the data source you wish to export.
-{% snippet icon.badgeCaution %}
+{% snippet, "badgeCaution" %}
 If you have multiple {{ en.VLT }}s, you will need to export each {{ en.VLT }} separately or use the ***Export all {{ en.VLT }}s (.rdx)*** in the ***Administration*** tab.
 {% endsnippet %}
 
@@ -37,7 +37,7 @@ If you have multiple {{ en.VLT }}s, you will need to export each {{ en.VLT }} se
    * It is important to ***Include credentials*** at this step. If you choose not to, all your entries will be imported without any credentials.
    * If you have documents and attachments saved in your data, we highly recommend you check the option to include them in the export.
    * Choose to ***Encrypt with master key*** as an added security layer.
-{% snippet icon.badgeWarning %}
+{% snippet, "badgeWarning" %}
 Ensure that you do not forget the ***Master Key*** as you will not be able to decrypt the data without it.
 {% endsnippet %}
 

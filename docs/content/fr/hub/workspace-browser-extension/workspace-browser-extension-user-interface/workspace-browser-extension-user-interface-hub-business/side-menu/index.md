@@ -13,7 +13,7 @@ Dans tous les onglets, à l'exception de l'onglet ***Générateur de mots de pas
 ### Onglet Correspondant
 
 L'extension s'ouvre sur l'onglet ***Correspondant***. C'est là que vous verrez la liste des identifiants disponibles pour le site Web particulier sur lequel vous vous trouvez.
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Pour connaître les méthodes de récupération de vos identifiants, consultez [Récupérer des identifiants de {{ fr.DHUBB }} avec le {{ fr.WBEX }}](/fr/hub/workspace-browser-extension/using-workspace-browser-extension/using-workspace-browser-extension-with-hub-business/retrieve-credentials-hub-business/).
 {% endsnippet %}
 
@@ -21,13 +21,13 @@ Pour connaître les méthodes de récupération de vos identifiants, consultez [
 En haut, vous pouvez utiliser la barre de ***Recherche*** pour filtrer tous vos identifiants, pas seulement celles applicables au site Web. Vous pouvez également utiliser le bouton ***Actualiser*** situé à côté pour mettre à jour les résultats de la recherche.
 
 En bas, le bouton ***Ajouter un site Web*** ouvre un nouvel onglet de navigateur qui vous permet d'ajouter manuellement une entrée de site Web dans {{ fr.DHUBB }} par le biais du {{ fr.WBEX }}.
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Pour obtenir une liste complète des champs disponibles dans la fenêtre ***Ajouter un site Web***, consultez [Ajouter un site Web](/fr/hub/workspace-browser-extension/workspace-browser-extension-user-interface/workspace-browser-extension-user-interface-hub-business/side-menu/add-website/). Vous pouvez également consulter notre guide étape par étape pour [ajouter une entrée de site Web](/fr/hub/workspace-browser-extension/using-workspace-browser-extension/using-workspace-browser-extension-with-hub-business/add-entry-hub-business-workspace-browser-extension/).
 {% endsnippet %}
 
 ### Onglet {{ fr.VLT_MAJ }}s
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Lorsque vous accédez à l'onglet ***{{ fr.VLT_MAJ }}s*** pour la première fois, vous devez sélectionner les {{ fr.VLT }}s de {{ fr.DHUBB }} que vous souhaitez synchroniser avec le {{ fr.WBEX }}. Pour en savoir plus, consultez [Première connexion avec le {{ fr.WBEX }}](/fr/hub/workspace-browser-extension/first-login-workspace-browser-extension/hub-business/).
 {% endsnippet %}
 
@@ -59,7 +59,7 @@ Dans la section déroulante ***Général***, vous pouvez sélectionner les types
 ![Section Général](https://cdnweb.devolutions.net/docs/fr/hub/Hub2078.png)
 Dans la section déroulante ***Avancé***, vous êtes en mesure de personnaliser davantage votre mot de passe en saisissant les caractères que vous souhaitez inclure dans votre mot de passe, suivis du nombre minimum de fois où ils doivent apparaître. Dans le second champ, vous pouvez également saisir les caractères que vous voulez exclure de votre mot de passe.
 ![Section Avancé](https://cdnweb.devolutions.net/docs/fr/hub/Hub2079.png)
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Pour apprendre à utiliser le ***Générateur de mots de passe*** lors de la création d'un compte sur un site Web, consultez [Créer un compte de site Web dans {{ fr.DHUBB }} avec le {{ fr.WBEX }}](/fr/hub/workspace-browser-extension/using-workspace-browser-extension/using-workspace-browser-extension-with-hub-business/create-account-website-hub-business/).
 {% endsnippet %}
 

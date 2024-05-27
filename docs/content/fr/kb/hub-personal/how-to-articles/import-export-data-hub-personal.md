@@ -25,7 +25,7 @@ Go to the section that corresponds to your needs:
 1. Click ***Next***.
 1. Select which entry to import in your {{ en.DHUBP }}.
 ![Entry Selection](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2087.png)
-{% snippet icon.shieldCaution %}
+{% snippet, "shieldCaution" %}
 The ***Change ID*** box at the bottom left of the window is checked by default, meaning your entry IDs will be changed upon import. For security purposes, it is recommended to leave it checked.
 {% endsnippet %}
 
@@ -37,7 +37,7 @@ Your data has been imported to the destination folder you previously specified.
 
 1. In ***Tools – Export***, select the file ***Export type*** in the drop-down list.
 ![!!KB2088](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2088.png)
-{% snippet icon.shieldCaution %}
+{% snippet, "shieldCaution" %}
 The ***Obfuscate sensitive values*** box is checked by default, meaning your sensitive information will be harder to decypher. For security purposes, it is recommended to leave it checked.
 {% endsnippet %}
 

@@ -172,7 +172,7 @@ Annuler la création d'une nouvelle entrée de site Web et effacer toute les mod
 	</tr>
 </table>
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Consultez notre guide étape par étape pour [ajouter une entrée de site Web avec le {{ fr.WBEX }}](/fr/server/workspace-browser-extension/using-workspace-browser-extension/add-website-entry-workspace-browser-extension/).
 {% endsnippet %}
 

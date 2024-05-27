@@ -5,7 +5,7 @@ eleventyComputed:
 Les ***Journaux d'activité*** offrent une solution robuste de journalisation. Grâce à cette fonctionnalité, il est possible de surveiller une session ouverte pour tous les utilisateurs qui utilisent des [Sources de données avancées](DataSources_Advanced). Le journal est disponible pour des sessions spécifiques dans le menu contextuel ***Affichage – Journaux d'activité***, dans les propriétés de la session (volet ***Journaux d'activité***) et dans le ***Tableau de bord***.
 ![Bouton Journaux d'activité](https://cdnweb.devolutions.net/docs/fr/rdm/windows/RDMWin2021.png)
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 En fonction des permissions dont dispose chaque utilisateur, il se peut qu'il ne puisse accéder qu'aux [***Journaux des connexions locales***](/fr/rdm/windows/commands/view/logs/).
 {% endsnippet %}
 

@@ -4,7 +4,7 @@ eleventyComputed:
 ---
 {% youtube 'FObiAXJrBXI' %}
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 The administrator can [Invite Users to log in with single sign-on (SSO)](/hub/getting-started/get-started-sso-hub-business/invite-users-SSO-hub-business/), which is a way to identify a user with a single identifier, to {{ en.DHUBB }}. The end user invitation experience is different with SSO, as the email the user receives asks them to use the “Sign in with Microsoft“ option to log in. If this is the case, please refer to [End User Invitation Experience for SSO](/hub/getting-started/get-started-sso-hub-business/invite-users-SSO-hub-business/end-user-experience/).
 {% endsnippet %}
 
@@ -66,7 +66,7 @@ The {{ en.WBEX }} is our web browser password plugin. It is the preferred client
 1. Click on the ***Add*** button located in the ***{{ en.NPANE }}***.
 ![Add Button](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub2008.png)
 1. Select the type of entry you wish to create. You can search by categories with the side menu or apply a filter with the search bar. Click on ***Continue*** when your entry type is selected.
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 To learn more about entry types, visit [Entry Type](/hub/web-interface/entries/entry-type/).
 {% endsnippet %}
 

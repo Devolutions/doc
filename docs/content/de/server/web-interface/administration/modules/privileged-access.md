@@ -2,7 +2,7 @@
 eleventyComputed:
   title: Privilegierter Zugriff
 ---
-{% snippet icon.badgeNotice %}
+{% snippet, "badgeNotice" %}
 Für die Aktivierung des Moduls Verwaltung privilegierter Zugriffe (PAM) ist nun eine Lizenz erforderlich. Für weitere Informationen zur Lizenz kontaktieren Sie bitte unsere [Vertriebsabteilung](mailto:sales@devolutions.net).
 {% endsnippet %}
 

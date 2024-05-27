@@ -5,11 +5,11 @@ eleventyComputed:
 {% youtube 'QoJ_7Uj9ajc' %}
 
 {{ fr.DOD }} est un service gratuit de stockage de fichiers infonuagique sans aucune limitation et parfait pour les utilisateurs autonomes. Vous pouvez stocker et synchroniser vos entrées en ligne et accéder à vos sessions de n'importe où.
-{% snippet icon.shieldWarning %}
+{% snippet, "shieldWarning" %}
 Bien que ce soit un service infonuagique, vous DEVEZ utiliser notre service de [Sauvegarde en ligne](/fr/cloud/rdm-online-services/online-backup/) pour conserver l’historique de vos données. Puisque Devolutions offre déjà un service de sauvegarde gratuit, {{ fr.DOD }} ne conserve qu’une seule version du contenu. Ce faisant, il est primordial d’activer la fonctionnalité de sauvegarde. La sauvegarde permet de garder plusieurs versions de votre fichier. Par conséquent, ce service offre la meilleure solution.
 {% endsnippet %}
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Le {{ fr.DOD }} est seulement pour des utilisateurs uniques et il n'est pas possible de partager des fichiers.
 {% endsnippet %}
 
@@ -19,7 +19,7 @@ Le {{ fr.DOD }} est seulement pour des utilisateurs uniques et il n'est pas poss
 ![!!clip4017](https://cdnweb.devolutions.net/docs/fr/cloud/clip4017.png)
 2. Entrer les identifiants du {{ fr.DA }} ou modifier le ***Mode de connexion*** pour utiliser le [Mot de passe d'application](/fr/cloud/sign-in-security/application-passwords/).
 ![!!clip4018](https://cdnweb.devolutions.net/docs/fr/cloud/clip4018.png)
-{% snippet icon.badgeNotice %}
+{% snippet, "badgeNotice" %}
 Consulter [Onlive Drive](/fr/rdm/windows/data-sources/data-sources-types/online-drive/) pour plus d'informations sur les paramètres de configuration.
 {% endsnippet %}
 

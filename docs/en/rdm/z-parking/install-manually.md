@@ -8,7 +8,7 @@ The following instructions explain how to manually install {{ en.DGW }} through 
 
 ## Steps for Manual Install
 
-{% snippet icon.badgeCaution %}
+{% snippet, "badgeCaution" %}
 This method only works for Windows.
 {% endsnippet %}
 
@@ -25,7 +25,7 @@ This method only works for Windows.
 ![Installer](https://cdnweb.devolutions.net/docs/docs_en_hub_DGW0027.png)
 1. Click on ***Generate Gateway Public Key and download***. This key is unique to the {{ en.DHUBB }} account and can only be generated once. If already generated, the key can be downloaded again, if necessary.
 ![Gateway Public Key](https://cdnweb.devolutions.net/docs/docs_en_hub_DGW0028.png)
-   {% snippet icon.badgeInfo %}
+   {% snippet, "badgeInfo" %}
    The installer should be run on the server hosting {{ en.DGW }}.
    {% endsnippet %}
 1. Click ***Next***.
@@ -61,6 +61,6 @@ This method only works for Windows.
 ![Add Button](https://cdnweb.devolutions.net/docs/docs_en_hub_DGW0039.png)
 1. A rectangle will show the information for every {{ en.DGW }} Hub link(s).
 ![Successful Link](https://cdnweb.devolutions.net/docs/docs_en_hub_DGW0040.png)
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Visit [{{ en.RDM }} Configuration](/dgw/hub/rdm-configuration/) to learn more about linking {{ en.RDM }} and {{ en.DGW }}.
 {% endsnippet %}

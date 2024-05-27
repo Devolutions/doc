@@ -16,11 +16,11 @@ We are often asked for a full list of property names and it is hard to provide f
 1. Manually perform the modification to the entry that should be automated using PowerShell, save the entry.
 1. Using ***Clipboard – Copy***, save the modified XML to another file. This is the AFTER.
 1. Compare the two files with a difference tool, the fields that have changed and the values that have been assigned will indicate what the script should do.  
-{% snippet icon.badgeHelp %}
+{% snippet, "badgeHelp" %}
 Learn more about [{{ en.RDM }} credential properties GUIDs](/kb/devolutions-powershell/remote-desktop-manager/xml-information/).
 {% endsnippet %}
 
-{% snippet icon.badgeHelp %}
+{% snippet, "badgeHelp" %}
 Learn more about [{{ en.DVLS }} credential properties GUIDs](/kb/devolutions-powershell/devolutions-server/xml-information/).
 {% endsnippet %}
 

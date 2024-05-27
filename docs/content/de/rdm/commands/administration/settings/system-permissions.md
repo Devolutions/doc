@@ -4,7 +4,7 @@ eleventyComputed:
 ---
 Die ***Systemberechtigungen*** ermöglichen es, Benutzern einige administrative Rechte zu gewähren, ohne diese zu Administratoren zu konfigurieren. Die ***Standardeinstellung*** erbt die für den Benutzer oder die Gruppe konfigurierten Berechtigungen.
 
-{% snippet icon.badgeHelp %}
+{% snippet, "badgeHelp" %}
 Diese Funktion ist nur für [Erweiterten Datenquellen](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/) verfügbar.
 
 Weitere Informationen über Berechtigungen finden Sie unter [Vereinfachte Sicherheit](/rdm/windows/user-groups-based-access-control/scenarios/simplified-security/) oder [Erweiterte Sicherheit](/rdm/windows/user-groups-based-access-control/scenarios/advanced-security/).

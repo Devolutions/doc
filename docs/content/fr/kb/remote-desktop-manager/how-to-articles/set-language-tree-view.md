@@ -9,13 +9,13 @@ eleventyComputed:
   - région
 ---
 Dans {{ fr.RDM }}, il est possible de spécifier une langue et un emplacement/type pour l'arborescence du ***{{ fr.NPANE }}***. Ceci peut être particulièrement utile pour les langues qui utilisent des caractères autres que l'alphabet A-Z.
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Notez que le système sur lequel {{ fr.RDM }} est installé doit supporter la langue spécifique pour qu'elle fonctionne dans {{ fr.RDM }}.
 {% endsnippet %}
 
 1. Dans {{ fr.RDM }}, accéder à ***Fichier – Options – Interface utilisateur – Arborescence***.
 2. Dans le champ ***Culture de l'arborescence***, spécifier une étiquette de langue (« Language tag »).
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Une liste d'étiquettes est disponible sur ce [site Web de Microsoft (EN)](https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-lcid/a9eac961-e77d-41a6-90a5-ce1a8b0cdb9c), dans un tableau sous la colonne ***Language tag***.
 
 Ces étiquettes sont généralement composées de lettres minuscules représentant la langue (p. ex., *fr* pour français) suivies de lettres majuscules représentant l'emplacement ou le type (p. ex., *CA* pour Canada), séparées par un trait d'union. Par exemple, *fr-CA* est l'étiquette pour le français canadien.

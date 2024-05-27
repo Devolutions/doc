@@ -7,15 +7,15 @@ La gestion des utilisateurs est disponible dans le menu ***Administration - Util
 
 {{ fr.RDM }} permet une gestion avancée des droits d'utilisateur vous permettant de contrôler la façon dont une session est utilisée par chaque utilisateur. Noter que certains contrôles de visibilité dépendent de la source de données active. Il n'existe actuellement aucun moyen d'hériter des droits de sécurité d'un groupe, car ils doivent être attribués individuellement à chaque utilisateur. Si vous utilisez le [{{ fr.DVLS }}](/fr/server/overview/what-is-server/), vous pourrez alors utiliser la sécurité intégrée avec Active Directory.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Cette fonctionnalité nécessite une [Source de données avancées](/fr/rdm/mac/data-sources/data-sources-types/advanced-data-sources/).
 {% endsnippet %}
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Pour créer des utilisateurs et attribuer des droits, vous devez être administrateur non seulement de {{ fr.RDM }}, mais également de la base de données sous-jacente.
 {% endsnippet %}
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Toutes les [Sources de données avancées](/fr/rdm/mac/data-sources/data-sources-types/advanced-data-sources/) ne prennent pas en charge l'utilisation de la sécurité intégrée. Pour en savoir plus, veuillez consulter [Sécurité intégrée](/fr/rdm/mac/commands/administration/user-management/integrated-security/).
 {% endsnippet %}
 
@@ -27,7 +27,7 @@ Toutes les [Sources de données avancées](/fr/rdm/mac/data-sources/data-sources
 Pour créer un nouvel utilisateur, cliquez sur le plus. Vous pouvez créer un utilisateur en utilisant la sécurité par défaut (en spécifiant le mot de passe) ou la [Sécurité intégrée](/fr/rdm/mac/commands/administration/user-management/integrated-security/). Consulter [Permissions](/fr/rdm/mac/commands/administration/user-management/permissions/) pour plus d'informations sur les droits qui peuvent être ajoutése à un utilisateur. Vous pouvez attribuer différentes options de sécurité à l'utilisateur, telles que lui permettre d'utiliser le mode ***Hors connexion***.
 ![Gestion des usagers et de la sécurité](https://cdnweb.devolutions.net/docs/fr/rdm/mac/clip0292.png)
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Toutes les [Sources de données avancées](/fr/rdm/mac/data-sources/data-sources-types/advanced-data-sources/) ne prennent pas en charge l'utilisation de la sécurité intégrée. Pour en savoir plus, veuillez consulter [Sécurité intégrée](/fr/rdm/mac/commands/administration/user-management/integrated-security/).
 {% endsnippet %}
 

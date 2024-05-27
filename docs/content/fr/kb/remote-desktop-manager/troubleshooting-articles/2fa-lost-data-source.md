@@ -4,13 +4,13 @@ eleventyComputed:
 ---
 The user lost their phone that contains the 2FA for their data source.
 ## Solution  
-{% snippet icon.badgeCaution %}
+{% snippet, "badgeCaution" %}
 This will not work for a lost Master Password on Local Datasource.
 {% endsnippet %}  
-{% snippet icon.badgeCaution %}
+{% snippet, "badgeCaution" %}
 Please refer to [Lost the 2FA set on {{ en.DVLS }}](/kb/remote-desktop-manager/troubleshooting-articles/2fa-server-lost/) if you are a {{ en.DVLS }} user who lost their 2FA.
 {% endsnippet %}  
-{% snippet icon.badgeCaution %}
+{% snippet, "badgeCaution" %}
 Please refer to [2FA set and lost on {{ en.DA }} or ({{ en.DOD }})](/kb/remote-desktop-manager/troubleshooting-articles/2fa-lost-devolutions-account-dod/) if you are a {{ en.DOD }} or {{ en.DA }} user who lost their 2FA.
 {% endsnippet %}  
 
@@ -18,7 +18,7 @@ Please refer to [2FA set and lost on {{ en.DA }} or ({{ en.DOD }})](/kb/remote-d
 1. Find these two files and delete them:
     * RemoteDesktopManager.stv
     * RemoteDesktopManager.enc  
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 If the application was installed by default, you can locate the file:
 
 For the Team Edition: **%localappdata%\Devolutions\RemoteDesktopManager**  

@@ -4,7 +4,7 @@ eleventyComputed:
 ---
 The ***Password Generator*** allows to create random passwords that are difficult to interpret or predict, due to a mix of uppercase and lowercase letters, numbers and punctuation symbols.
 
-{% snippet icon.badgeHelp %}
+{% snippet, "badgeHelp" %}
 You can create and force a [***Password Templates***](/server/web-interface/administration/templates/password-templates/) to follow your organization secure policies.
 {% endsnippet %}
 
@@ -16,12 +16,12 @@ You can create and force a [***Password Templates***](/server/web-interface/admi
 1. Next to the ***Password*** field, click the three-dots menu to access the ***Password generator*** tool.
 1. Customize all the criteria you want your password to have, then click ***Generate***.
 1. In the proposed list, choose and click on a password.
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 At the bottom of the list, you can review the strength and phonetics of the selected password.
 {% endsnippet %}
 
 1. Click on ***Select*** to close and autofill the ***Password*** entry field.
-{% snippet icon.badgeNotice %}
+{% snippet, "badgeNotice" %}
 You can also create a ***Password template*** from your ***Password Generator*** settings. Just customize the settings and click on ***Add template*** next to the ***Template*** drop-down list.
 {% endsnippet %}
 

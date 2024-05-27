@@ -12,13 +12,13 @@ eleventyComputed:
 ---
 {{ fr.RDM }} a un excellent support pour s'exécuter dans un environnement de Terminal Server. Un fichier de configuration principal peut être créé pour distribuer les paramètres pour tous les nouveaux utilisateurs du système ou même pour mettre à jour la configuration de l'utilisateur existant.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Veuillez vous assurer que vous avez suivi la recommandation de Microsoft sur la façon de configurer un environnement RDS. Cela affectera gravement les performances si des installations Windows par défaut sont effectuées.
 
 [https://learn.microsoft.com/fr-fr/windows-server/administration/performance-tuning/role/remote-desktop/session-hosts](https://learn.microsoft.com/fr-fr/windows-server/administration/performance-tuning/role/remote-desktop/session-hosts)
 {% endsnippet %}
 
-{% snippet icon.badgeNotice %}
+{% snippet, "badgeNotice" %}
 Chaque utilisateur doit disposer d'un dossier de données d'application unique (profils itinérants ou technologies similaires). {{ fr.RDM }} enregistre certaines préférences d'utilisateur dans le fichier de configuration local. Le dossier peut être effacé chaque fois que l'utilisateur se déconnecte de la session Windows, mais il doit être accessible pendant la durée de l'exécution de {{ fr.RDM }}.
 {% endsnippet %}
 
@@ -26,7 +26,7 @@ Chaque utilisateur doit disposer d'un dossier de données d'application unique (
 
 1. Installer en suivant la procédure [Pour tous les utilisateurs](/fr/rdm/windows/installation/client/all-users/). Cela garantit que la base de données Microsoft Installer contient toutes les informations nécessaires pour tous les profils utilisateur de l'hôte.
 1. Après avoir installé {{ fr.RDM }}, configurez vos préférences. Nous vous recommandons de parcourir toutes les options de configuration pour trouver l'ensemble d'options que vous souhaitez distribuer. Les sources de données méritent un intérêt particulier, car elles sont bien meilleures lorsqu'elles sont configurées par un administrateur. Vous pouvez même en profiter pour verrouiller les sources de données afin de vous protéger contre toute modification par les utilisateurs. Veuillez consulter [Verrouillage de la source de données](/fr/rdm/windows/data-sources/lock/) pour plus d'informations.
-{% snippet icon.shieldWarning %}
+{% snippet, "shieldWarning" %}
 
 Lorsque vous utilisez des [Sources de données avancées](/fr/rdm/windows/data-sources/data-sources-types/advanced-data-sources/), pour des méthodes de journalisation efficaces, une sécurité de session appropriée et des fonctionnalités basées sur l'utilisateur, il est CRITIQUE que chaque utilisateur dispose de son propre compte pour s'authentifier auprès de la source de données.
 
@@ -37,7 +37,7 @@ La redistribution d'un enregistrement de source de données doit suivre l'un des
 * Vous utilisez des variables d'environnement pour le nom d'utilisateur et vous exigez le mot de passe. (Nous recommandons : USERDOMAIN%\%USERNAME% or %USERDNSDOMAIN%\%USERNAME%)
 {% endsnippet %}
 
-{% snippet icon.shieldCaution %}
+{% snippet, "shieldCaution" %}
 Ne cochez pas les options pour inclure les ***identifiants du {{ fr.DA }}*** ainsi que toute source de données contenant des identifiants tout en activant également l'option ***Inclure les identifiants de la source de données***.
 {% endsnippet %}
 
@@ -56,15 +56,15 @@ Chaque fois qu'un nouvel utilisateur crée un profil sur le système, {{ fr.RDM 
 
 ### Utilisateurs existants
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Une politique de groupe existe pour forcer les nouvelles configurations à être acceptées automatiquement. Consultez la page [Apply Policies (EN)](/kb/remote-desktop-manager/how-to-articles/group-policies/) pour connaître le fonctionnement et le paramètre Force the loading of the default.cfg file.
 {% endsnippet %}
 
-{% snippet icon.badgeCaution %}
+{% snippet, "badgeCaution" %}
 Si l'utilisateur choisit d'ignorer le nouveau fichier de configuration lorsqu'il est présenté avec la boîte de dialogue ci-dessous, il ne lui sera pas proposé avec le choix jusqu'à la date/heure du fichier **default.cfg** ait changé.
 {% endsnippet %}
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Si la principale  préoccupation est le déploiement d'une nouvelle clé de licence et que vous utilisez des [Sources de données avancées](/fr/rdm/windows/data-sources/data-sources-types/advanced-data-sources/), vous devriez plutôt utiliser Licences dans Administration.
 {% endsnippet %}
 

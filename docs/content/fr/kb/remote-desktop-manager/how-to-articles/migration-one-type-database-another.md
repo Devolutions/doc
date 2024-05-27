@@ -3,7 +3,7 @@ eleventyComputed:
   title: Migrate from one type of database to another
   description: In {{ en.RDM }}, your organization is currently using a database to store data, but would like to switch to a different one. This topic explains how to move the database and/or the data.
 ---
-{% snippet icon.badgeCaution %}
+{% snippet, "badgeCaution" %}
 For security, usability, and efficiency reasons, multiple data sources are tagged as deprecated in {{ en.RDM }}. Read more about it in [Deprecated data sources](/kb/remote-desktop-manager/knowledge-base/deprecated-data-sources/).
 {% endsnippet %}  
 

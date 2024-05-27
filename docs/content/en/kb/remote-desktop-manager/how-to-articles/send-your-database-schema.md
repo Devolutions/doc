@@ -4,11 +4,11 @@ eleventyComputed:
 ---
 Sometimes the support staff will ask for the database schema.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 This feature is only available for data sources that are backed by a database management system like Azure SQL and SQL Server.
 {% endsnippet %}
 
-{% snippet icon.badgeCaution %}
+{% snippet, "badgeCaution" %}
 If you are unable to send your schema to the support staff following the procedure below, please use this workaround. Go to ***File – Data sources - Edit - Upgrade*** then hold the <kbd>Ctrl</kbd> key and click on ***Email schema to support*** You will then be able to save it locally by pasting it in a text file.
 {% endsnippet %}
 

@@ -17,11 +17,11 @@ eleventyComputed:
 
 Le {{ fr.CIS }} reproduit la configuration à partir d'une instance de {{ fr.RDM }}. Cette configuration est utilisée pour créer un fichier d'installation (*.rdi) qui sera utilisé pour créer le paquet d'installation destiné à la distribution. La configuration peut contenir les sources de données, les informations d'identifiants, les modèles de base de données et plus encore. Il est recommandé d'utiliser une installation type de {{ fr.RDM }} pour créer le paquet d'installation.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Vous devez créer un fichier d'installation à l'aide de {{ fr.RDM }} avant de créer l'installateur. Cette procédure est décrite dans [Générateur de fichier de configuration](/fr/rdm/windows/installation/client/custom-installer-service/installer-file-generator/).
 {% endsnippet %}
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Vous pouvez stocker et créer jusqu'à six paquets de fichiers de configuration d'***{{ fr.CI }}*** dans votre {{ fr.DA }}.
 {% endsnippet %}
 

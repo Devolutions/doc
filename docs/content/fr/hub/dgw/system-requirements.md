@@ -42,7 +42,7 @@ Adaptateur réseau (1 Go)
 	</tr>
 </table>
 
-{% snippet icon.badgeInfo %} 
+{% snippet, "badgeInfo" %} 
 Une instance de {{ fr.DGW }} peut gérer jusqu'à 75 sessions simultanées en conservant de bonnes performances. 
 {% endsnippet %}
  

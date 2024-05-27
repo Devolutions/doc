@@ -16,7 +16,7 @@ You will have to select between three option:
 * ***Online (Free)***: Select this option if you intend to access your data source anywhere from many devices. You will then be guided to configure a [{{ en.DHUBP }}](/rdm/mac/data-sources/data-sources-types/hub-personal/) data source, which is a highly-secure, flexible and easy-to-use cloud-based password management solution.
 * [***Team (Subscription)***](/rdm/mac/installation/onboarding/#team-subscription): Select this option if you want all your team members to be able to securely access the data source. You will then have a choice between different [advanced data sources](/rdm/mac/data-sources/data-sources-types/advanced-data-sources/).
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Skipping the creation of your data source will end the Onboarding process.
 {% endsnippet %}
 
@@ -34,7 +34,7 @@ Select the data source you are going to use:
 
 ![Manage your entries](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_RDMMac2086.png)
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 If you selected a data source configuration file (.rdd), this step is skipped.
 {% endsnippet %}
 
@@ -46,7 +46,7 @@ If you decide to import entries, you must first have exported and saved a file i
 * ***Royal TS (.rts, .rtsx, .rtsz)***
 * ***RDCMan (.rdg)***
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 You can always import files later.
 {% endsnippet %}
 
@@ -59,7 +59,7 @@ User interface profiles allow users to have a tailored experience in {{ en.RDM }
 * ***Business user***: This profile is specifically designed for users who do not require access to view remote connection entries, administrative options, or advanced properties. Our interfaces have been streamlined to minimize options that are primarily intended for IT professionals, allowing business users to focus on their daily tasks without unnecessary complexities.
 * ***Choose later***: You can set a profile later in the [***Account***](/rdm/mac/user-interface/navigation-pane/account/) tab of the ***{{ en.NPANE }}***. In the meantime, you will be assigned the default profile.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 For a detailed overview of both profiles, see [User interface profiles](/rdm/mac/user-interface/customization/usage-profiles/).
 {% endsnippet %}
 

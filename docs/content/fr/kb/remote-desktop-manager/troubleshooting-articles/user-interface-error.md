@@ -21,7 +21,7 @@ The main form layout is broken.
 ### Solution
 Use the ***Reset Layout*** option to revert back to the default UI layout in the ***Window*** tab.
 ![!!KB4095](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4095.png)
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 The reset layout might not resolve all the issues. Close the application and delete the layout files (*.lyt) in **%LocalAppData%\Devolutions\RemoteDesktopManager** to completely restore the layout.
 {% endsnippet %}
 

@@ -8,7 +8,7 @@ The General tab allows you to override the Display mode and the credentials.
 
 ### Display
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 The Display override is only available for Sessions entry type.
 {% endsnippet %}
 

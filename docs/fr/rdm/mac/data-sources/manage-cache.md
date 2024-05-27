@@ -4,17 +4,17 @@ eleventyComputed:
 ---
 Cette option vous permet de gérer votre cache qui décide de la manière dont le client rechargera les entrées lorsque des modifications seront détectées. Sur les grandes sources de données, la mise en cache est indispensable et augmentera considérablement les performances.
 
-{% snippet icon.badgeNotice %}
+{% snippet, "badgeNotice" %}
 Cette fonctionnalité est disponible que lorsque le moteur hors ligne est configuré pour utiliser SQLite. Nous supprimons progressivement ce moteur en raison de plusieurs problèmes signalés par les clients.
 {% endsnippet %}
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Les options de gestion de la cache doivent être utilisées que sur demande de notre équipe d'assistance en cas de problème de cache.
 {% endsnippet %}
 
 ## Paramètres
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 L'option ***Gérer la cache*** sera disponible que lors de l'utilisation d'un cache SQLite.
 {% endsnippet %}
 

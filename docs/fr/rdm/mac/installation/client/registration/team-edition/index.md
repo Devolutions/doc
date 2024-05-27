@@ -5,11 +5,11 @@ eleventyComputed:
 ---
 Si vous utilisez une [Source de données avancée](/fr/rdm/mac/data-sources/data-sources-types/advanced-data-sources/), vous n'avez pas besoin d'enregistrer une licence pour {{ fr.RDMMAC }}, parce qu'elle est stockée et récupérée directement sur la source de donnée. Lorsque vous lancez l'application pour la première fois, [ajoutez la source de données](/fr/rdm/mac/data-sources/create-new-data-source/) contenant la clé.
 
-{% snippet icon.badgeCaution %}
+{% snippet, "badgeCaution" %}
 Le menu de licence {{ fr.RDMMAC }} est disponible pour SQLite, mais pas pour les sources de données individuelles.
 {% endsnippet %}
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Il est possible de [demander un essai](/fr/rdm/mac/installation/client/registration/trial-request/) pour essayer {{ fr.RDMMAC }} ÉditionTeam pendant 30 jours. Si vous décidez de ne pas enregistrer l'application avec une clé de licence Édition Team à la fin de la période de 30 jours, vos données ne seront ni modifiées, ni effacées et vous y aurez accès pleinement une fois que vous aurez fourni une clé de licence.
 {% endsnippet %}
 
@@ -27,7 +27,7 @@ Il est possible de [demander un essai](/fr/rdm/mac/installation/client/registrat
 1. Cliquer ***Assigné à*** dans le menu de gauche.
 1. Cliquer ***Assigner tout*** ou sélectionner dans la colonne ***Assignée*** qui doit avoir un accès à {{ fr.RDM }}.
 
-{% snippet icon.badgeNotice %}
+{% snippet, "badgeNotice" %}
 Cette étape attribuera automatiquement la licence aux utilisateurs sélectionnés, éliminant ainsi le besoin d'interagir avec chaque utilisateur.
 {% endsnippet %}
 

@@ -9,6 +9,6 @@ To do so, go to an entry/folder ***Properties*** – ***User Interface*** – **
 
 ![Sort priority](https://cdnweb.devolutions.net/docs/RDMW4056_2024_1.png)
 
-{% snippet icon.badgeNotice %}
+{% snippet, "badgeNotice" %}
 Regularly review and adjust entry/folder sort priority to maintain an optimal workflow, and fully leverage {{ en.RDM }}'s customization capabilities.
 {% endsnippet %}

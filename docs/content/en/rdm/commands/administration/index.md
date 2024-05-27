@@ -5,7 +5,7 @@ eleventyComputed:
 ---
 The ***Administration*** tab allows to manage settings and users of a data source, view reports such as the activity logs, and much more. This tab is only available to administrators of the data source.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Most features contained in the ***Administration*** tab are only available when using an [Advanced Data Source](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/).
 {% endsnippet %}
 

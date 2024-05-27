@@ -8,7 +8,7 @@ Enregistrer votre licence {{ fr.DLAUNCHER }}.
 
 Pour enregistrer une licence ***{{ fr.DLAUNCHER }}*** dans {{ fr.DHUBB }}, vous devez ajouter une ***Licence de produit*** et l'assigner aux utilisateurs.
 
-{% snippet icon.badgeCaution %}
+{% snippet, "badgeCaution" %}
 Seuls les ***Administrateurs*** et les utilisateurs disposant de permissions dans la section ***Permissions du système*** auront accès pour enregistrer une licence dans {{ fr.DHUBB }}.
 {% endsnippet %}
 

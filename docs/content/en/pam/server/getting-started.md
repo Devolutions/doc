@@ -29,7 +29,7 @@ In ***Administration – Privileged Access – Providers***, add a provider. The
 When adding the provider, make sure to enable the ***Add PAM {{ en.VLT }}*** and ***Add Scan Configuration*** options under ***Actions***.
 ![PAM provider configuration](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp2110.png)
 
-{% snippet icon.badgeHelp %}
+{% snippet, "badgeHelp" %}
 For more information, please refer to [Providers](/pam/server/providers/).
 {% endsnippet %}
 

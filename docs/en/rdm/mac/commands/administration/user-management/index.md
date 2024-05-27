@@ -8,15 +8,15 @@ User Management is available from ***Administration – Users*** and allows you 
 
 {{ en.RDMMAC }} allows for advanced user right management allowing you to control how a session is employed by each user. Note that some visibility control will depend on the active data source. There is currently no way to inherit security rights from a group as they must be assigned individually for each user. If using the [{{ en.DVLS }}](/server/overview/what-is-server/) you will then be able to use Integrated Security with Active Directory.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 This feature requires an [Advanced Data Source](/rdm/mac/data-sources/data-sources-types/advanced-data-sources/).
 {% endsnippet %}
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 To create users and assign rights, you must be administrator of not only {{ en.RDMMAC }}, but also of the underlying database.
 {% endsnippet %}
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Not all [Advanced Data Sources](/rdm/mac/data-sources/data-sources-types/advanced-data-sources/) support the use of Integrated Security. To learn more please see [Integrated Security](/rdm/mac/commands/administration/user-management/integrated-security/).
 {% endsnippet %}
 
@@ -26,7 +26,7 @@ Not all [Advanced Data Sources](/rdm/mac/data-sources/data-sources-types/advance
 To create a new user click on the add button. You can create a user using default security (specifying the password) or [Integrated Security](/rdm/mac/commands/administration/user-management/integrated-security/). Consult [Permissions](/rdm/mac/commands/administration/user-management/permissions/) for more information on the rights that can be added to a user. You can assign different security options to the user such as allow the user to use the Offline mode.
 ![User and Security Management](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10133.png)
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Not all [Advanced Data Sources](/rdm/mac/data-sources/data-sources-types/advanced-data-sources/) support the use of [Integrated Security](/rdm/mac/commands/administration/user-management/integrated-security/). If using the [{{ en.DVLS }}](/server/overview/what-is-server/) you will then be able to use Integrated Security with Active Directory.To learn more please see [Integrated Security](/rdm/mac/commands/administration/user-management/integrated-security/).
 {% endsnippet %}
 

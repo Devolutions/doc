@@ -12,14 +12,14 @@ Bei beiden Methoden zum Importieren von CSV kann eine Vorlage für neu erstellte
 
 Wenn Sie eine spezifischere Konfiguration wünschen, können Sie die zu verwendende Vorlage in der ***Template***-Spalte der CSV-Datei festlegen. Da Sie jedoch die Art des Eintrags für jeden Eintrag individuell in der CSV-Datei festlegen (**ConnectionType**) können, ist dies vielleicht nicht erforderlich.
 
-{% snippet icon.badgeNotice %}
+{% snippet, "badgeNotice" %}
 Unter ***Datei – Importieren*** empfehlen wir Ihnen, zunächst die Option ***Allgemeiner CSV-Import Assistent...*** zu verwenden. Bei Bedarf können Sie das ***Format*** ändern.
 ![Allgemeiner CSV-Import Assistent](https://cdnweb.devolutions.net/docs/de/rdm/windows/RdmWin4044.png)
 {% endsnippet %}
 
 ## Dateiinhalt
 
-{% snippet icon.badgeCaution %}
+{% snippet, "badgeCaution" %}
 Einige Überprüfungen von Eintragseinstellungen werden nicht während des Imports durchgeführt, sondern bei Aufruf der Eigenschaftsdialogen der Sitzung(en) nach dem Import. Daher kann der Gebrauch des Importprozesses zu ungültigen Einträgen führen, die Fehler auslösen können. Bitte validieren Sie die betreffenden Einträge sorgfältig.
 {% endsnippet %}
 
@@ -27,17 +27,17 @@ In der CSV-Datei sind die Felder ***Host*** und ***Name*** obligatorisch. Wenn k
 
 Wir können keine Liste aller unterstützten Felder für alle Eintragstypen bereitstellen, da {{ de.RDM }} eine offene Architektur verwendet und daher nicht alle Felder für die Eintragstypen kennt, die zusätzlich von Add-Ons bereitgestellt werden. Eine gute Methode, die Feldstruktur herauszufinden, besteht darin, einen Eintrag des gewünschten Typs zu erstellen, mit der rechten Maustaste darauf zu klicken, ***Zwischenablage – Kopieren*** auszuwählen und den Inhalt in einem Texteditor einzufügen. Hier können Sie anschließend die Struktur und die Feldnamen finden.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Standardwerte für Felder werden nicht serialisiert, d. h. diese werden aus der serialisierten Struktur weggelassen.
 {% endsnippet %}
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Die Unterstützung aller Felder hat seinen Preis. Der Importprozess ist zeitaufwändig, da der Zugriff auf alle Felder dynamisch erfolgt. Ein massiver Erstimport von Einträgen sollte in Stapel von überschaubarer Größe aufgeteilt werden. Bitte führen Sie Versuche durch und stimmen Sie die Anzahl der Einträge ab, um eine akzeptable Leistung zu erreichen.
 {% endsnippet %}
 
 Alle unsere Einträge haben eine Reihe von Feldern gemeinsam; der Rest hängt von der jeweiligen Technologie ab, mit der die Schnittstelle genutzt wird (RDP, SSH usw.). Einige Felder sind in Strukturen gruppiert, wie z. B. die Registerkarte Informationen. Auf diese Felder kann nur zugegriffen werden, wenn der Name der Struktur als Präfix angegeben wird, z. B. "MetaInformation\OS" oder "MetaInformation\PurchaseDate".
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Beachten Sie, dass die CSV-Datei unsere Variablen enthalten kann: Diese werden beim Speichern aufgelöst. Sie können zum Beispiel die Variable $HOST$ in Feldern wie ***Beschreibung***, ***URL***, ***Putty\CustomSessionName*** usw. verwenden. Diese wird dann durch den entsprechenden Wert ersetzt.
 {% endsnippet %}
 

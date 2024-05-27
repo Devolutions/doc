@@ -36,14 +36,14 @@ Download the [{{ en.DLOCALIZER }}](https://devolutions.net/localizer) translatio
 1. To start, select a ***Resource*** line in the bottom list and click ***Translate***. The original text will appear in the ***Original*** box.
 ![Resource Line Selection](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin2133.png)
 
-   {% snippet icon.badgeCaution %}
+   {% snippet, "badgeCaution" %}
    When translating text, you may encounter the ampersand character ("&") used in a way other than its usual meaning of "and". This is not an error: the ampersand causes the character immediately to the right of it to be underlined when displayed. Please double check before translating.
 
    For example, "P&roperties" will be displayed as "P r operties" with an underlined "r".
    {% endsnippet %}
 
 1. Type the translated text in the right box.
-   {% snippet icon.badgeInfo %}
+   {% snippet, "badgeInfo" %}
    A ***Bing*** button is available to assist you in translating your text. The Bing API limits the number of calls per hour. If it fails, try again in an hour or so.
    {% endsnippet %}
 

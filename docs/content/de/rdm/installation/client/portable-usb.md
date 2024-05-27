@@ -3,23 +3,23 @@ title: Portable Anwendung (USB)
 ---
 {{ de.RDM }} kann als portable Anwendung (ohne Installation) verwendet werden. Im Folgenden sind die Schritte aufgeführt, die gewährleisten, dass das Programm ordnungsgemäß funktioniert:
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Mittels der portablen Version können Sie mehrere Versionen von {{ de.RDM }} ausführen und verschiedene Konfigurationen verwenden.
 {% endsnippet %}
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Um eine einzelne portable Version Anwendung zu konfigurieren, folgen Sie bitte den Anweisungen in diesem Artikel:  [Portable Version von {{ de.RDM }}](/de/kb/remote-desktop-manager/how-to-articles/portable-rdm-installation/).
 {% endsnippet %}
 
-{% snippet icon.badgeWarning %}
+{% snippet, "badgeWarning" %}
 Dieses Verfahren ist nicht empfehlenswert, wenn {{ de.RDM }} von mehreren Benutzern über eine Netzwerkfreigabe ausgeführt wird. Dies würde die Identifizierung einzelner Benutzer verhindern und zu Konflikten mit den Benutzereinstellungen führen.
 {% endsnippet %}
 
-{% snippet icon.badgeNotice %}
+{% snippet, "badgeNotice" %}
 {{ de.RDM }} speichert den Offline Cache standardmäßig in Ihrem Windows-Profil. Wenn Sie eine erweiterte Datenquelle verwenden und den Offline Modus verwenden möchten, aktivieren Sie bitte in ***Datei - Optionen - Erweitert*** die Option ***Anwendungsverzeichnis für den Offline Cache verwenden***, damit dieser im Anwendungsverzeichnis gespeichert wird.
 {% endsnippet %}
 
-{% snippet icon.badgeNotice %}
+{% snippet, "badgeNotice" %}
 Die folgenden Schritte gewährleisten echte Mobilität und einfache Wartung. Es kann leicht an Ihre Wünsche angepasst werden.
 {% endsnippet %}
 

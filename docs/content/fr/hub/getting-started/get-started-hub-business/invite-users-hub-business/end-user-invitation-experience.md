@@ -2,7 +2,7 @@
 eleventyComputed:
   title: Expérience d'invitation de l'utilisateur final dans {{ fr.DHUBB }}
 ---
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 L'administrateur peut [inviter des utilisateurs à se connecter avec l'identification unique (SSO)](/fr/hub/getting-started/get-started-sso-hub-business/invite-users-SSO-hub-business/), qui est un moyen d'identifier un utilisateur en utilisant un seul identifiant, à {{ fr.DHUBB }}. L'expérience d'invitation de l'utilisateur final est différente avec le SSO, car le courriel que l'utilisateur reçoit lui demande de se connecter avec Microsoft. Si tel est le cas, veuillez vous référer à [Expérience d'invitation de l'utilisateur final pour SSO](/fr/hub/getting-started/get-started-sso-hub-business/invite-users-SSO-hub-business/end-user-experience/).
 {% endsnippet %}
 
@@ -62,7 +62,7 @@ Le {{ fr.WBEX }} est notre extension de navigateur Web pour les mots de passe. I
 1. Cliquer sur le bouton ***Ajouter*** situé dans le ***{{ fr.NPANE }}***.
 ![Bouton Ajouter](https://cdnweb.devolutions.net/docs/fr/hub/Hub2003.png)
 1. Sélectionner le type d'entrée que vous voulez créer. Vous pouvez effectuer une recherche par catégories avec le menu latéral ou appliquer un filtre avec la barre de recherche. Cliquer sur ***Continuer*** lorsque votre type d'entrée est sélectionné.
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Pour en apprendre davantage sur les types d'entrées, visitez [Type d'entrée](/fr/hub/web-interface/entries/entry-type/).
 {% endsnippet %}
 

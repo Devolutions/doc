@@ -10,7 +10,7 @@ eleventyComputed:
 ---
 ## First connection to {{ en.DHUB }}
 
-{% snippet icon.badgeNotice %}
+{% snippet, "badgeNotice" %}
 A Private Key is mandatory in case you access your {{ en.DHUB }} from a new device or a private browsing session.
 {% endsnippet %}
 
@@ -74,7 +74,7 @@ If you encounter problems using this method to authenticate or if you lost your 
 
 ![Regenerate or Delete a QR Code](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2194.png)
 
-{% snippet icon.badgeCaution %}
+{% snippet, "badgeCaution" %}
 Generating a new QR code makes your old code unusable. We therefore recommend that you delete the old code after generating the new one.
 {% endsnippet %}
 

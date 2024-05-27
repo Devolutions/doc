@@ -3,11 +3,11 @@ eleventyComputed:
   title: "{{ de.DVLS }}-Instanz erstellen"
   order: 30
 ---
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Wenn Sie kürzlich Ihren Lizenzschlüssel erhalten haben, lesen Sie bitte den Abschnitt [Erste Schritte](/server/getting-started/).
 {% endsnippet %}
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Weitere Informationen zu den Funktionen des Bereitstellungsassistenten finden Sie im jeweiligen Abschnitt unter [Server Einstellungen](/server/management/devolutions-server-console/devolutions-server-settings/general/).
 {% endsnippet %}
 
@@ -16,7 +16,7 @@ Auf einem Server können mehrere {{ de.DVLS }}-Instanzen gehostet werden. Jede I
 ## Anleitung
 1. Installieren Sie die {{ de.DVLSCONSOLE }} auf dem Webserver. Diese kann auf unserer [Download](https://devolutions.net/de/server/home/download/)-Seite heruntergeladen werden.
 1. Führen Sie die {{ de.DVLSCONSOLE }} mit erhöhten Rechten aus. (Rechtsklick => ***Als Administrator ausführen***)
-   {% snippet icon.shieldWarning %}
+   {% snippet, "shieldWarning" %}
    Alle über die {{ de.DVLSCONSOLE }} ausgeführten Operationen werden mit den Anmeldeinformationen durchgeführt, die zum Starten der {{ de.DVLSCONSOLE }} verwendet werden. Wenn Sie andere Anmeldedaten verwenden müssen, müssen Sie eine neue Windows-Sitzung starten. Der Befehl ***Ausführen als*** bietet nicht die Option, einen Prozess mit erhöhten Rechten zu starten. Die Option ***Als anderer Benutzer ausführen*** funktioniert nur, wenn das Konto ein Mitglied der lokalen Administratorengruppe ist.
    {% endsnippet %}
 
@@ -48,7 +48,7 @@ Auf einem Server können mehrere {{ de.DVLS }}-Instanzen gehostet werden. Jede I
 1. Wählen Sie unter ***Installationsquelle*** entweder ***Version herunterladen*** (neueste Version) oder ***Aus ZIP-Datei installieren***, die auf der [Download](https://devolutions.net/de/server/home/download/)-Seite zur Verfügung steht.
 ![Installationsdatei auswählen](https://cdnweb.devolutions.net/docs/de/server/ServerOp8053.png)
 1. Wählen Sie unter ***Allgemein*** die Website, den Namen der Web-Anwendung und die [Zugriffs-URI](/kb/devolutions-server/knowledge-base/access-uri/) aus, die erforderlich ist, um die Website von {{ de.DVLS }} zu erreichen. Legen Sie unter ***Installationsziel*** den Installationsordner fest, in dem die Dateien der Instanz gespeichert werden sollen. Der Prozess zum Ausführen von Websites hat die richtigen Berechtigungen unter **C:\inetpub\wwwroot** erhalten. Wir empfehlen, einen neuen Unterordner anzulegen und die {{ de.DVLS }}-Instanz in diesem Ordner zu erstellen.Unter ***Anwendungspool*** legen Sie den Namen des Anwendungspools fest.
-   {% snippet icon.badgeCaution %}
+   {% snippet, "badgeCaution" %}
    Wir empfehlen nicht, den Installationsordner auf **C:\Programme** oder **C:\Programme (x86)** zu speichern. {{ de.DVLS }} ist eine Webanwendung und dies könnte zu unerwünschtem Verhalten und Problemen führen, da IIS nicht genügend Berechtigungen hat, um Webanwendungen auszuführen, die sich in diesen Ordnern befinden. Wenn Sie den Ordner für Webanwendungen an einem anderen als dem voreingestellten Ordner **C:\inetpub\wwwroot** einrichten möchten, benötigt die **IIS_IUSRS** Lese- und Ausführungsrechte für die gesamte Ordnerstruktur der Webanwendung von {{ de.DVLS }}.
    {% endsnippet %}
 
@@ -60,7 +60,7 @@ Auf einem Server können mehrere {{ de.DVLS }}-Instanzen gehostet werden. Jede I
 1. Wenn Sie sich entscheiden, den Scheduler nicht zu installieren, erhalten Sie folgende Warnmeldung:
 ![Scheduler Warnung](https://cdnweb.devolutions.net/docs/de/server/ServerOp8056.png)
 1. Wählen Sie unter Wiederherstellungsset den Zielordner und den Dateinamen für die Datei des{{ de.DVLS }} Wiederherstellungssets aus. Legen Sie ein Passwort zum Schutz der Verschlüsselungsschlüssel fest. Wenn die Option **Vertrauliche Daten einbeziehen** aktiviert ist, werden die SQL-Authentifizierungsinformationen in das Wiederherstellungsset aufgenommen.
-   {% snippet icon.shieldNotice %}
+   {% snippet, "shieldNotice" %}
    Wir empfehlen, die Datei des Wiederherstellungssets an einem sicheren Ort aufzubewahren, um Datenverlust zu vermeiden, falls {{ de.DVLS }} wiederhergestellt werden muss.
    {% endsnippet %}
 
@@ -75,7 +75,7 @@ Sobald die Installation abgeschlossen ist, zeigt die Zusammenfassung an, ob {{ d
 Um die Installation des Servers zu testen, navigieren Sie bitte mit einem beliebigen Webbrowser zu Ihrer in Schritt 6 erstellten Zugriffs-URI (z.B.: https://<Machine_Name>/<InstanceName>) oder mittels **Website öffnen** in der {{ de.DVLSCONSOLE}}.
 ![{{ de.DVLSCONSOLE }}](https://cdnweb.devolutions.net/docs/de/server/ServerOp8060.png)
 
-{% snippet icon.badgeNotice %}
+{% snippet, "badgeNotice" %}
 Es kann vorkommen, dass die Website nicht richtig geladen werden kann. Stellen Sie sicher, dass die lokale **IIS_IUSRS**-Gruppe Lesezugriff auf die Datei **encryption.config** hat, die sich im Unterordner App_Data im Webanwendungsordner von {{ de.DVLS }} befindet (z. B. **C:\inetpub\wwwroot\dvls\App_Data**). Sollte das Problem weiterhin bestehen, kontaktieren Sie uns bitte unter [service@devolutions.net](mailto:service@devolutions.net)
 {% endsnippet %}
 

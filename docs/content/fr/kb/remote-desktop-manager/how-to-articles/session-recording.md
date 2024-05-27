@@ -6,12 +6,12 @@ eleventyComputed:
   - Enregistrement
 ---
 L'enregistrement de la session permet d'enregistrer les actions d'un utilisateur pendant qu'une session à distance de {{ fr.RDM }} est ouverte sur son poste. Un fichier vidéo d’une image par seconde est créé en format webm.
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 L'enregistrement de la session est disponible pour {{ fr.RDM }} version 2019.1.3.0 et ultérieure.
 {% endsnippet %}
 
 Vous pouvez configurer l'enregistrement de la session au niveau d’un {{ fr.VLT }}, d'un fichier ou d’une entrée et ils peuvent être définis comme optionnels ou obligatoires.
-{% snippet icon.badgeCaution %}
+{% snippet, "badgeCaution" %}
 L'enregistrement de la session est seulement disponible en mode intégré.
 {% endsnippet %}
 
@@ -40,7 +40,7 @@ L'enregistrement de la session est seulement disponible en mode intégré.
 * ***Jamais*** : L'enregistrement de la session est désactivé.
 * ***Racine (Par défaut)*** : Renvoie au {{ fr.VLT }}. Équivaux au mode ***Jamais*** pour les {{ fr.VLT }}s.
 4. Choisir la méthode d'***Enregistrement***.
-{% snippet icon.badgeNotice %}
+{% snippet, "badgeNotice" %}
 Certaines options sont seulement disponibles avec une source de données {{ fr.DVLS }}.
 {% endsnippet %}
 
@@ -49,7 +49,7 @@ Certaines options sont seulement disponibles avec une source de données {{ fr.D
 * ***À distance*** : Les enregistrements de sessions seront gérés par le ***Serveur d'enregistrement***. Toutes les options suivantes ne seront plus disponibles.
 * ***Racine (Par défaut)*** : Renvoie à la racine.
 5. Choisir la ***Destination*** du fichier.
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Le fichier s'enregistre localement par défaut, et non dans la base de données.
 Il est conseillé de choisir une extension de fichier personnalisé. Par exemple sur un réseau partagé.
 {% endsnippet %}

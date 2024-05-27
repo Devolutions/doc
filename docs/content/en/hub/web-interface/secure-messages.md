@@ -13,13 +13,13 @@ Send and receive ***Secure Messages*** with users from your hub. Click the ***Me
 ![New message](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub0014.png)
 1. Select ***Send In-app***.  
 ![Send In-app](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub0007.png)
-   {% snippet icon.badgeInfo %}
+   {% snippet, "badgeInfo" %}
    Learn more about the other [two options](/hub/send/).
    {% endsnippet %}
 1. To select the recipient, click the dropdown arrow and select from the list or type in the desired name(s).  
 ![Dropdown arrow](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub0016.png)
 1. Fill in the ***Subject*** and add a ***Secure Message***.
-   {% snippet icon.badgeInfo %}
+   {% snippet, "badgeInfo" %}
    The message can be automatically deleted after some time. To do so, click the ***Expires after*** checkbox and select a date.
    {% endsnippet %}
 1. Click ***Send*** to forward the message.  
@@ -36,7 +36,7 @@ You can send a copy of one of your entries to other users with secure messages.
 1. Enter the name of the recipient.
 1. Fill in the ***Subject*** and add a ***Secure Message***.  
 ![Message window](https://cdnweb.devolutions.net/docs/HUBB0002_2024_1.png)
-   {% snippet icon.badgeInfo %}
+   {% snippet, "badgeInfo" %}
    The message can be automatically deleted after some time. To do so, click the ***Expires after*** checkbox and select a date.
    {% endsnippet %}
 1. Click ***Send*** to forward the message.

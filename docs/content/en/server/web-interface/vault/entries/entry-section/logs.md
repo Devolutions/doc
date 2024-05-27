@@ -5,7 +5,7 @@ eleventyComputed:
 Consult ***Logs*** and ***Insert log comments*** specific to entries about user interaction. To view the ***General***, ***Details*** and ***Comments*** of a specific log, click the ***Log Entry*** button and click the ***Export*** button to generate a CSV file.
 ![!!ServerOp4003](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp4003.png)
 ### Insert an entry log comment
-{% snippet icon.badgeCaution %}
+{% snippet, "badgeCaution" %}
 ***Log Comments*** for entries in the {{ en.DVLS }} web interface can only be viewed. They cannot be deleted nor edited once saved. More options, like notes editing, are available in {{ en.RDM }}.
 {% endsnippet %}
 
@@ -16,7 +16,7 @@ Consult ***Logs*** and ***Insert log comments*** specific to entries about user 
 1. Optional: Add a ***Ticket*** number.
 1. Optional: To select an ***End Date***, check the ***End*** box and select an end date to the log.
 1. Insert a ***Message*** for the log.
-{% snippet icon.badgeCaution %}
+{% snippet, "badgeCaution" %}
 Only the ***Message*** text will be exported and showed in preview mode for entries.
 {% endsnippet %}
 

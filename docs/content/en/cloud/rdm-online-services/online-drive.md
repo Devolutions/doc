@@ -2,7 +2,7 @@
 eleventyComputed:
   title: "{{ en.DOD }}"
 ---
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 ***{{ en.DOD }}*** will be removed from {{ en.DPORTAL }}. You can still [access the URL](https://docs.devolutions.net/kb/general-knowledge-base/rdm-online-services-removed-devolutions-portal/) if needed
 {% endsnippet %}
 
@@ -10,11 +10,11 @@ eleventyComputed:
 
 The ***{{ en.DOD }}*** is a free cloud file storage service with no limitations and perfect for standalone users. You can store and synchronize your entries online and access your sessions from anywhere.
 
-{% snippet icon.shieldWarning %}
+{% snippet, "shieldWarning" %}
 Even though this is a cloud service, you MUST use our [{{ en.OBACK }}](/cloud/rdm-online-services/online-backup/) service to keep history of your data. Since Devolutions offers a free backup service, we do not maintain multiple versions of the {{ en.DOD }} content. This makes it critical that you enable the backup feature. This service will keep multiple versions of your file and is the best option.
 {% endsnippet %}
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 The {{ en.DOD }} is for single users only, and it cannot share files.
 {% endsnippet %}
 
@@ -24,7 +24,7 @@ The {{ en.DOD }} is for single users only, and it cannot share files.
 ![!!clip4017](https://cdnweb.devolutions.net/docs/docs_en_cloud_clip4017.png)
 1. Enter your {{ en.DA }} credentials, or change the ***Connection mode*** to use the [Application password](/cloud/sign-in-security/application-passwords/).
 ![!!Cloud4056](https://cdnweb.devolutions.net/docs/docs_en_cloud_Cloud4056.png)
-{% snippet icon.badgeNotice %}
+{% snippet, "badgeNotice" %}
 Consult [{{ en.DOD }} Settings](/rdm/windows/data-sources/data-sources-types/online-drive/) for more information on the configuration settings.
 {% endsnippet %}
 

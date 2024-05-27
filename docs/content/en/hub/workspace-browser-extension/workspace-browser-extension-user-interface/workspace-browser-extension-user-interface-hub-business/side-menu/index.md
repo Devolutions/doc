@@ -13,7 +13,7 @@ In all tabs except the ***Password Generator*** tab, when hovering over an entry
 ### Matching tab
 The extension opens on the ***Matching*** tab. This is where you will see the list of credentials available for the particular website you are on.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 For methods of retrieving your credentials, visit [Retrieve credentials from {{ en.DHUBB}} with the {{ en.WBEX }}](/hub/workspace-browser-extension/using-workspace-browser-extension/using-workspace-browser-extension-with-hub-business/retrieve-credentials-hub-business/).
 {% endsnippet %}
 
@@ -23,13 +23,13 @@ At the top, you can use the ***Search*** bar to filter through all your credenti
 
 At the bottom, the ***Add Website*** button opens a new browser tab that allows you to manually add a website entry in {{ en.DHUBB }} through the {{ en.WBEX }}.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 For a complete list of the available fields in the ***Add Website*** window, visit [Add Website](/hub/workspace-browser-extension/workspace-browser-extension-user-interface/workspace-browser-extension-user-interface-hub-business/side-menu/add-website/). You can also consult our step-by-step guide on [how to add a website entry](/hub/workspace-browser-extension/using-workspace-browser-extension/using-workspace-browser-extension-with-hub-business/add-entry-hub-business-workspace-browser-extension/).
 {% endsnippet %}
 
 ### {{ en.VLT_MAJ }}s tab
 
-{% snippet icon.badgeHelp %}
+{% snippet, "badgeHelp" %}
 When accessing the ***{{ en.VLT_MAJ }}s*** tab for the first time, you need to select the {{ en.DHUBB }} {{ en.VLT }}s you want to synchronize with the {{ en.WBEX }}. Learn more about it in [First login with the {{ en.WBEX }}](/hub/workspace-browser-extension/first-login-workspace-browser-extension/hub-business/).
 {% endsnippet %}
 
@@ -66,7 +66,7 @@ In the ***General*** drop-down section, you are able to select the types of char
 In the ***Advanced*** drop-down section, you are able to further customize your password by entering characters you want included in your password, followed by the minimum number of times they must appear. In the second field, you can also enter characters you want excluded from your password.
 ![Advanced Section](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub2115.png)
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 To learn how to use the ***Password Generator*** when creating an account on a website, visit [Create an account for a website in {{ en.DHUBB }} with the {{ en.WBEX }}](/hub/workspace-browser-extension/using-workspace-browser-extension/using-workspace-browser-extension-with-hub-business/create-account-website-hub-business/).
 {% endsnippet %}
 

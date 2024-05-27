@@ -7,7 +7,7 @@ eleventyComputed:
 
 It is possible to export and import entries from one type of data source to another. There are many ways of exporting entries with {{ en.RDM }}.
 
-{% snippet icon.badgeCaution %}
+{% snippet, "badgeCaution" %}
 If you have users who override entry properties with ***User Specific Settings***, they will be required to export and import their ***User Specific Settings List***. See [Export and Import User Specific Settings](/kb/remote-desktop-manager/how-to-articles/export-import-user-specific-settings/).
 {% endsnippet %}
 
@@ -15,7 +15,7 @@ The first method is done directly in [{{ en.RDM }}](#exportimport-through-remote
 
 ## Export/Import Through {{ en.RDM }}
 1. In {{ en.RDM }}, select your data source in the ***{{ en.NPANE }}***.
-   {% snippet icon.badgeNotice %}
+   {% snippet, "badgeNotice" %}
    To export the entire {{ en.VLT }}, go to ***File*** – ***Export*** – ***Export {{ en.VLT }} (.rdm)*** and skip to step 4.
    {% endsnippet %}
 
@@ -23,10 +23,10 @@ The first method is done directly in [{{ en.RDM }}](#exportimport-through-remote
 1. Right-click on the selection. In the contextual menu, select ***Export*** – ***Export Selection (.rdm)***.
 ![Export Selection (.rdm)](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4998.png)
 1. In the ***Export Entries*** window, check the options that you want to enable. For a typical migration, check the ***Include credentials, Include attachments and documents***, and ***Encrypt with master key*** options.
-   {% snippet icon.badgeInfo %}
+   {% snippet, "badgeInfo" %}
    By default, credentials are **not** included. It is critical to check the ***Include credentials*** option for the exported data to include them.
    {% endsnippet %}
-   {% snippet icon.shieldWarning %}
+   {% snippet, "shieldWarning" %}
    Specifying a master key will encrypt the entire content of the **.rdm** file to protect it. It is highly recommended as a backup measure, but the key is absolutely necessary for decryption. Store it in a separate storage device for added security.
    {% endsnippet %}
 
@@ -36,7 +36,7 @@ The first method is done directly in [{{ en.RDM }}](#exportimport-through-remote
 1. In the ***{{ en.NPANE }}***, select the data source and {{ en.VLT }} in which to import the entries.
 1. Right-click on the folder and select ***Import*** – ***Import (.rdm)***.
 ![Import (.rdm)](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4999.png)
-   {% snippet icon.badgeNotice %}
+   {% snippet, "badgeNotice" %}
    You can import the entire {{ en.VLT }} in ***File*** – ***Import*** – ***Import (.rdm)***.
    {% endsnippet %}
 
@@ -45,7 +45,7 @@ The first method is done directly in [{{ en.RDM }}](#exportimport-through-remote
 ![Location of Imported Entries](https://cdnweb.devolutions.net/docs/docs_en_kb_KB5000.png)
 1. Click ***OK***.
 1. In the next dialog, you will be presented with a list of all the entries that are in the data file. You can select specific entries you wish to import or ***Select All*** to import all your entries.
-   {% snippet icon.badgeCaution %}
+   {% snippet, "badgeCaution" %}
    If you have users who override entry properties with ***User Specific Settings***, uncheck ***Change ID***.
    {% endsnippet %}
 

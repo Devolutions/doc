@@ -2,7 +2,7 @@
 eleventyComputed:
   title: Module
 ---
-{% snippet icon.badgeHelp %}
+{% snippet, "badgeHelp" %}
 Um diese Berechtigungen zu konfigurieren, müssen Sie zunächst sicherstellen, dass diese in {{ de.DVLS }} unter ***Administration*** – ***Module*** aktiviert sind. Weiter Informationen zu [Gateway](/server/web-interface/administration/modules/gateway/) und [Privilegierte Zugriffsverwaltung](/server/web-interface/administration/modules/privileged-access/).
 {% endsnippet %}
 

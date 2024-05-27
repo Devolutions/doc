@@ -4,7 +4,7 @@ eleventyComputed:
   order: 30
   description: Les approbateurs peuvent accorder un accès temporaire sans requête à un utilisateur même si ce dernier dispose déjà d'un accès.
 ---
-{% snippet icon.badgeInfo %} 
+{% snippet, "badgeInfo" %} 
 Pour apprendre comment approuver ou refuser une demande, consultez [Approuver un accès temporaire à une entrée dans {{ fr.DHUBB }}](http://localhost:8080/fr/hub/web-interface/hub-overview/temporary-access/approve-temporary-access/).
 {% endsnippet %}
 

@@ -24,19 +24,19 @@ The following features are also supported:
 * Supports full entry logs and attachments.
 * Supports {{ en.VLT }} s to organize thousands of entries.
 
-{% snippet icon.badgeWarning %}
+{% snippet, "badgeWarning" %}
 A proper database backup strategy should be implemented to prevent possible data loss.
 {% endsnippet %}
 
-{% snippet icon.badgeWarning %}
+{% snippet, "badgeWarning" %}
 Depending on the Recovery Model of the underlying database, some maintenance operations may have to be scheduled to run regularly to maintain the health of the database. Please consult [Recovery Model](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/microsoft-sql-server/recovery-model/).
 {% endsnippet %}
 
-{% snippet icon.shieldWarning %}
+{% snippet, "shieldWarning" %}
 Using either Database Login or Integrated Security is inherently less secure because it means that the end user can connect directly to the database using any tool available. We do have table and column level security, but security conscious organizations will consider this unacceptable. It is recommended to use our Custom login model.
 {% endsnippet %}
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Creating Contained Database Users as mentioned in Microsoft's [Contained Databases](https://learn.microsoft.com/en-us/sql/relational-databases/databases/contained-databases) is the supported method with SQL Always On availability group.
 {% endsnippet %}
 

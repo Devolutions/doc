@@ -9,7 +9,7 @@ The snippet's content is treated as Markdown.
 Here is the content of my snippet in Markdown.
 {% endsnippet %}
 
-{% snippet icon.badgeCaution %}
+{% snippet, "badgeCaution" %}
 Here is the content of my snippet in Markdown.
 {% endsnippet %}
 ```

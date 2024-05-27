@@ -5,11 +5,11 @@ eleventyComputed:
 ---
 The ***Entry History*** deletes the history attached to your entry, you can find the history by right clicking on your entry and selecting ***View – Entry History***.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 This feature requires an [advanced data source](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/).
 {% endsnippet %}
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 You must be an administrator of the data source to perform this action.
 {% endsnippet %}
 
@@ -20,7 +20,7 @@ You must be an administrator of the data source to perform this action.
 1. Select from which {{ en.VLT }} the ***Entry History*** will be deleted.
 1. Click ***OK***.
 ![Clean up deleted history](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin0005.png)
-   {% snippet icon.badgeWarning %}
+   {% snippet, "badgeWarning" %}
    There will be no backup of the ***Entry History***. We strongly recommend to do a [backup](/rdm/windows/commands/file/backup/) before proceeding.
    {% endsnippet %}
 

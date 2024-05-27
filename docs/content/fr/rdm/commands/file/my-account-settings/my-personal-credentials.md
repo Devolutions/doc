@@ -8,7 +8,7 @@ Il est généralement utilisé pour conserver les informations d'identification 
 
 Cela vous permet de centraliser une information d'identifiant spécial pour remplacer ou émuler celles de votre session Windows. Lorsqu'un changement de mot de passe est nécessaire, il vous suffit de le modifier une fois dans ***Mes identifiants personnels***.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Si vous souhaitez modifier le type d'identifiant, accéder à **%LOCALAPPDATA%** (par défaut) ou **%APPDATA%** (services Terminal Server) \ Devolutions \ RemoteDesktopManager et supprimer le fichier **Credentials.rdt** pour le réinitialiser.
 {% endsnippet %}
 

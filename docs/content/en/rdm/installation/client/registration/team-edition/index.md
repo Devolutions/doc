@@ -6,7 +6,7 @@ eleventyComputed:
 ---
 When using an [Advanced Data Source](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/), there is no need to register {{ en.RDM }} since the license serial is stored in the data source and retrieved directly from it. When launching the application for the first time, simply [add the data source](/rdm/windows/data-sources/create-new-data-source/) containing the serial.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 The license menu to register {{ en.RDM }} is available for SQLite and {{ en.DHUBP }}, but not for other individual data sources.
 
 It is possible to [request a trial](/rdm/windows/installation/client/registration/trial-request/) to try {{ en.RDM }} Team for 30 days. If you decide not to register the application with a Team Edition license serial at the end of the 30-day period, your data will not be altered or erased, and you will have full access to it once you provide a license serial.
@@ -17,7 +17,7 @@ It is possible to [request a trial](/rdm/windows/installation/client/registratio
 1. Click ***Add License***.
 ![Add License Button](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin2236.png)
 1. Enter the license serial in the ***License*** field or import the license file using the ***Import*** button.
-   {% snippet icon.badgeInfo %}
+   {% snippet, "badgeInfo" %}
    Importing the license using the **.lic** file is most uselful when offline. See the next section about offline registration for more information.
    {% endsnippet %}
 

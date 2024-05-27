@@ -5,15 +5,15 @@ eleventyComputed:
 ---
 Encryption keys are used to encrypt data entries (connections, {{ en.UVLT }}, documentation, and attachments). They are generated and stored in the **encryption.config** file on the server only. To encrypt the data stored in the database, we use our [open-source cryptography library](https://github.com/Devolutions/devolutions-crypto).
 
-{% snippet icon.shieldNotice %}
+{% snippet, "shieldNotice" %}
 We recommend to do a backup of the SQL database before any operation that could modify the information it contains (***Import*** or ***Regenerate***). During this operation, all users must be in offline mode or disconnected from the {{ en.DVLS }} data source to avoid data loss.
 {% endsnippet %}
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 The **encryption.config** file cannot be moved to another system, as it is encrypted with the data protection application programming interface (DPAPI), which prevents the file from being read outside of the system where it has been encrypted. You must export the file then import it to the other system.
 {% endsnippet %}
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Encryption keys must be the same as each {{ en.DVLS }} instance of your High Availability/Load Balancing Topology that are using the same SQL database or for a migration operation.
 {% endsnippet %}
 
@@ -23,7 +23,7 @@ Encryption keys must be the same as each {{ en.DVLS }} instance of your High Ava
 1. In the ***Tools*** tab, click on ***Export***.
 ![Tools – Export](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2252.png)
 1. Enter a destination ***Filename*** and path, then set a password to protect the file.
-   {% snippet icon.shieldCaution %}
+   {% snippet, "shieldCaution" %}
    We strongly recommend storing the encryption keys file in a secure storage outside of {{ en.DVLS }} such as {{ en.DHUBB }}, Azure Key Vault, or AWS Key Management Service.
    {% endsnippet %}
 
@@ -45,7 +45,7 @@ Once the operation is completed, the new encryption keys have been applied on th
 
 ## Regenerate the encryption keys
 
-{% snippet icon.badgeCaution %}
+{% snippet, "badgeCaution" %}
 The ***Regenerate*** operation will alter and re-encrypt the inner data of the {{ en.DVLS }} SQL database. This operation must be treated with the utmost care.
 {% endsnippet %}
 
@@ -60,7 +60,7 @@ There may be scenarios where you need to regenerate the encryption keys, such as
 ![Tools – Regenerate](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2258.png)
 
 1. Enter a destination ***Filename*** and path, then set a password to protect the file.
-   {% snippet icon.shieldCaution %}
+   {% snippet, "shieldCaution" %}
    We strongly recommend storing the encryption keys file in a secure storage outside of {{ en.DVLS }} such as {{ en.DHUBB }}, Azure Key Vault, or AWS Key Management Service.
    {% endsnippet %}
 

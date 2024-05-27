@@ -7,7 +7,7 @@ By deleting a folder, you are able to clear the web browser cache in the applica
 
 1. Close your {{ en.RDM }} application.
 1. In the application folder, locate the ***EO.WebBrowser.Cache*** and ***WebView2.Cache*** folders. Depending on your {{ en.RDM }} version, you may only have one of those folders.
-   {% snippet icon.badgeInfo %}
+   {% snippet, "badgeInfo" %}
    If you do not find either of those folders, the folder where the configuration files are stored may have been changed using an **override.cfg** file. See [Configuration file location](/rdm/windows/installation/client/configuration-file-location/#override-the-default-path) for more information.
    {% endsnippet %}
 1. Rename or delete the folder(s). The best practice is to rename the folders, as in this case you do not lose any data.

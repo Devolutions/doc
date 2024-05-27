@@ -20,7 +20,7 @@ You receive an error when trying to connect to {{ en.RDM }} with your {{ en.DA }
 1. When you get the error:
     * In the Network section, export the trace report with the ***Export HAR*** button (arrow down button).
     * In the Console section, right click on the error line and ***Save as***.
-   {% snippet icon.shieldWarning %}
+   {% snippet, "shieldWarning" %}
    Keep in mind that HAR files contain sensitive data, including content of the pages you downloaded while recording and your cookies. This allows anyone with the HAR file to impersonate your account and all the information that you submitted while recording (personal details, passwords, credit card numbers, etc.).
 Protect your session data by [sanitizing your HAR files](https://har-sanitizer.pages.dev/) before sharing.
    {% endsnippet %}

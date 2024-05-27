@@ -7,18 +7,18 @@ eleventyComputed:
 1. Manage and assign the user's licenses in ***Administration – Licenses***.
 ![Administration – Licenses](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip3417.png)
 1. Select the license and click the ***Assign Licenses*** icon.
-{% snippet icon.badgeNotice %}
+{% snippet, "badgeNotice" %}
 If you have more than one license, our [Sales team](mailto:sales@devolutions.net?subject=Co-terminate%20all%20my%20RDM%20licenses) can provide a co-terminated renewal to facilitate your license management.
 {% endsnippet %}
 
 ![User and Security Management](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin6032.png)
 
 3. In the ***Assigned*** column, check next to each user you need to grant a license or use the global action buttons to assign to all or missing.
-{% snippet icon.badgeNotice %}
+{% snippet, "badgeNotice" %}
 This step will automatically assign the license to the selected users, removing the need to interact with each user.
 {% endsnippet %}
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Automatically assigning licenses to users does not work with a Hub data source since you'll be redirected to the Web interface after clicking ***Licenses***. This feature is also not available in the Hub web interface.
 {% endsnippet %}
 

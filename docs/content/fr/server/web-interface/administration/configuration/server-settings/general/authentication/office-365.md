@@ -2,7 +2,7 @@
 eleventyComputed:
   title: Office365
 ---
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Un abonnement Microsoft Azure Active Directory est requis pour configurer l'authentification Office365 dans {{ fr.DVLS }}. Vous devez créer trois nouvelles inscriptions d'applications dans Microsoft Azure Active Directory avant de terminer les paramètres d'authentification.
 {% endsnippet %}
 

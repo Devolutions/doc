@@ -25,7 +25,7 @@ L'onglet ***Sessions*** contient des informations concernant vos sessions RDP, A
 
 L'onglet ***Source de données*** contient des informations concernant votre source de données, notamment le nombre d'entrées qu'elle contient, la taille de votre source de données, le nombre d'images personnalisées et l'état hors ligne.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Trop d'images personnalisées pourraient considérablement augmenter la taille de la source de données et provoquer un problème de temps de chargement.
 {% endsnippet %}
 

@@ -8,7 +8,7 @@ eleventyComputed:
 ---
 Here are the steps to configure Okta with {{ en.DHUBB }} for SSO authentication.
 
-{% snippet icon.badgeCaution %}
+{% snippet, "badgeCaution" %}
 An [Okta account](https://www.okta.com/) with the appropriate rights is required.
 {% endsnippet %}
 
@@ -20,7 +20,7 @@ An [Okta account](https://www.okta.com/) with the appropriate rights is required
 ![Administration – Authentication – Domain – Add domain](https://cdnweb.devolutions.net/docs/HUBB2000_2024_1.png)
 1. Fill in your domain, then click on the checkmark to start the verification process.
 ![Domain](https://cdnweb.devolutions.net/docs/HUBB2001_2024_1.png)
-   {% snippet icon.shieldInfo %} 
+   {% snippet, "shieldInfo" %} 
    For security purposes, only emails that end with your domain name will be allowed to log in to {{ en.DHUB }} using Okta authentication. For example, if your employees' emails are in the format "bob@windjammer.co", your domain is "windjammer.co".
    {% endsnippet %}
 1. To have multiple domains, click ***Add Domain*** once again, fill in your other domain, then click on the checkmark. Repeat this process for every domain you wish to add.
@@ -29,7 +29,7 @@ An [Okta account](https://www.okta.com/) with the appropriate rights is required
 ![Host name and TXT value](https://cdnweb.devolutions.net/docs/HUBB2003_2024_1.png)
 
    We recommend that you verify that your configuration is adequate through DNS querying tools such as [MXToolBox](https://mxtoolbox.com/SuperTool.aspx) or [whatsmydns.net](https://www.whatsmydns.net/). The example below uses MXToolBox's TXT Lookup tool. The first part of the Domain Name must match the ***Host name*** in {{ en.DHUB }} and the Record must match the ***TXT value*** in {{ en.DHUB }} as well.
-   {% snippet icon.badgeCaution %}
+   {% snippet, "badgeCaution" %}
    DNS TXT Records can take a while to propagate.
    {% endsnippet %}
 
@@ -37,7 +37,7 @@ An [Okta account](https://www.okta.com/) with the appropriate rights is required
 1. Await domain verification. Upon successful verification, a checkmark within a green circle will display next to the domain. You may proceed to configure Single Sign-On (SSO) during the verification process; however, user provisioning will become accessible only after the domain has been verified.
 ![Verified domain](https://cdnweb.devolutions.net/docs/HUBB2004_2024_1.png)
 
-   {% snippet icon.badgeCaution %}
+   {% snippet, "badgeCaution" %}
    This validation lasts for 48 hours and does not restart automatically after that period. If you do not configure your TXT record within those 48 hours, your validation status will be ***Expired***. If that happens, you can click on ***Retry***.
 
    If you experience any issues while trying to verify your domain, visit our [Domain validation troubleshooting](/kb/hub-business/troubleshooting-articles/domain-validation-troubleshooting/) guide.
@@ -52,7 +52,7 @@ An [Okta account](https://www.okta.com/) with the appropriate rights is required
 1. ***Name*** your SSO configuration. This name will only appear in your {{ en.DHUB }} SSO settings menu. The default name is "Okta".
 ![Configuration name](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub2334.png)
 
-   {% snippet icon.badgeCaution %}
+   {% snippet, "badgeCaution" %}
    Do not close this setup page, as the following steps will show you where to find the information to enter in its fields.
    {% endsnippet %}
 
@@ -69,7 +69,7 @@ An [Okta account](https://www.okta.com/) with the appropriate rights is required
 1. Under ***General Settings***, enter an ***App integration name***.
    ![App integration name](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub2249.png)
 
-   {% snippet icon.badgeNotice %}
+   {% snippet, "badgeNotice" %}
    The app name does not need to match the one in {{ en.DHUB }}. We recommend including either "Devolutions" or "Hub" in the name.
    {% endsnippet %}
 
@@ -98,7 +98,7 @@ An [Okta account](https://www.okta.com/) with the appropriate rights is required
 
 1. Under ***Assignments***, select the ***Controlled access*** option that best suits your needs. This choice is left to your discretion.
 
-   {% snippet icon.badgeCaution %}
+   {% snippet, "badgeCaution" %}
    If you choose to ***Allow everyone in your organization to access***, do **not** check the ***Enable immediate access with Federation Broker Mode*** option, as doing so would prevent you from enabling SCIM provisioning in the future. If you choose to ***Limit access to selected groups*** or ***Skip group assignment for now***, you must manually assign to this app the users you wish to authorize to connect to your {{ en.DHUBB }} via Okta.
    {% endsnippet %}
 
@@ -118,7 +118,7 @@ An [Okta account](https://www.okta.com/) with the appropriate rights is required
 18. Back in Okta, copy the ***Client secret*** by clicking on the ***Copy to clipboard*** icon next to it.
 ![Copy the Client secret](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub2256.png)
 
-   {% snippet icon.badgeCaution %}
+   {% snippet, "badgeCaution" %}
    Do not close this setup page, as the following steps will require you to make further changes in it.
    {% endsnippet %}
 
@@ -128,7 +128,7 @@ An [Okta account](https://www.okta.com/) with the appropriate rights is required
 ![Client secret Key](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub2338.png)
 1. In ***Discovery URL***, enter the URL you use to access Okta, without the "-admin" part.
 
-   {% snippet icon.badgeCaution %}
+   {% snippet, "badgeCaution" %}
    Do not test the connection just yet, as a few additional steps are required in Okta.
    {% endsnippet %}
 
@@ -148,7 +148,7 @@ An [Okta account](https://www.okta.com/) with the appropriate rights is required
 
 25. Test the configuration in {{ en.DHUB }}. A new window should open to connect you to {{ en.DHUB }} through Okta. You will get a success message when connected.
 
-   {% snippet icon.badgeCaution %}
+   {% snippet, "badgeCaution" %}
    If the popup page does not appear, see [Devolutions login page does not open in the browser](/kb/general-knowledge-base/devolutions-login-page-does-not-open-browser/).
    {% endsnippet %}
 
@@ -164,6 +164,6 @@ Synchronize your users and user groups from your providers to the hub.
 
 ### Settings
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 This feature will be available soon!
 {% endsnippet %}

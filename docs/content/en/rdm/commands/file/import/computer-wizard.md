@@ -2,7 +2,7 @@
 eleventyComputed:
   title: Import computer wizard
 ---
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 This feature is only available when using an [Advanced Data Source](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/).
 {% endsnippet %}
 

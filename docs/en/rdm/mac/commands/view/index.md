@@ -33,6 +33,6 @@ This section only appears when using an individual type data source.
 |--------------------------------------------------|-------------|
 | [Local Connection Logs](/rdm/mac/commands/view/local-connection-logs/) | Open a window to access your local logs. |
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Although they are windowed by default, all those panes can be dragged and docked anywhere within {{ en.RDMMAC }}.
 {% endsnippet %}

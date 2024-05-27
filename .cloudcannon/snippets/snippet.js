@@ -17,7 +17,7 @@ module.exports = {
       ]
     },
     definitions: {
-      shortcode_name: "snippet2",
+      shortcode_name: "snippet",
       content_key: "content",
       positional_args: [
         {

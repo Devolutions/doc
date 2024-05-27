@@ -17,10 +17,10 @@ The [{{ en.OBACK }}](/cloud/getting-started/devolutions-cloud-services/) allows 
 1. The backup logo will display a green arrow meaning your backup is now enabled.
 ![{{ en.OBACK }} Activated](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip10075.png)
 
-{% snippet icon.badgeCaution %}
+{% snippet, "badgeCaution" %}
 You must perform this for all your [{{ en.DOD }}](/rdm/windows/data-sources/data-sources-types/online-drive/), [SQLite](/rdm/windows/data-sources/data-sources-types/sqlite/) or [XML](/rdm/windows/data-sources/data-sources-types/xml/) data sources to be fully protected!
 {% endsnippet %}
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 The automatic backup is executed in the background 30 seconds after any modification is made to the data source content.
 {% endsnippet %}

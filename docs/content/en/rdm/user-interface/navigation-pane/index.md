@@ -18,7 +18,7 @@ The ***{{ en.NPANE }}*** is one of the main components of the {{ en.RDM }} user 
 Choose the columns to display in the tree view. Right-clicking on the column name in the ***{{ en.NPANE }}*** and select ***Column Chooser***.
 ![{{ en.NPANE }} - Column Chooser](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip11201.png)
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Additional tree view settings and information are available in ***File – Settings – Tree View***.
 {% endsnippet %}
 

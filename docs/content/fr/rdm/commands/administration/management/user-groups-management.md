@@ -6,7 +6,7 @@ eleventyComputed:
 
 Les ***Groupes d'utilisateurs*** dans {{ fr.RDM }} sont principalement utilisés pour réduire le temps de gestion des utilisateurs. La gestion des autorisations accordées aux groupes d'utilisateurs est assez similaire aux notions correspondantes pour les utilisateurs, mais au lieu d'un seul utilisateur, elles s'appliquent à tous les utilisateurs auxquels vous avez attribué le groupe d'utilisateurs.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Cette fonctionnalité est uniquement disponible avec une source de données avancées.
 {% endsnippet %}
 
@@ -14,7 +14,7 @@ Cette fonctionnalité est uniquement disponible avec une source de données avan
 
 Les groupes d'utilisateurs dans {{ fr.DVLS }} sont en fait des liens vers des groupes Active Directory. En tirant parti de l'intégration d'Active Directory, vous pouvez facilement définir des droits d'accès pour tous les utilisateurs de domaine de votre organisation. Une fois qu'un utilisateur du domaine se connecte à la source de données {{ fr.DVLS }}, son compte d'utilisateur est créé si nécessaire et les droits des utilisateurs sont contrôlés par les groupes définis.
 
-{% snippet icon.shieldWarning %}
+{% snippet, "shieldWarning" %}
 Veuillez noter que les autorisations de groupe non sécurisées (celles situées au-dessus de la grille) sont ignorées. Vous devez les définir individuellement pour chaque utilisateur.
 {% endsnippet %}
 

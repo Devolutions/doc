@@ -5,15 +5,15 @@ eleventyComputed:
 The Administration - View deleted option allows you to view the deleted entries as well as restoring them.
 ![Administration - View Deleted](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10447.png)
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 This feature is only available when using an [Advanced Data Source](/rdm/mac/data-sources/data-sources-types/advanced-data-sources/).
 {% endsnippet %}
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Administrators can permanently delete some or all deleted entries.
 {% endsnippet %}
 
-{% snippet icon.shieldWarning %}
+{% snippet, "shieldWarning" %}
 Deleted entries can be restored as long as they haven been permanently deleted and as long as the Security Provider has not been changed since the deleted action.
 {% endsnippet %}
 

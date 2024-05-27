@@ -11,7 +11,7 @@ When creating users, make sure that their user type are set to ***User***.
 
 ![!!User creation](https://cdnweb.devolutions.net/docs/RDMW4028_2024_1.png)
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 User types of existing users can be consulted at any time in ***Administration*** – ***Users***, under the ***User Type*** column.
 {% endsnippet %}
 

@@ -6,7 +6,7 @@ Dans ***Rapports – Historique – Entrées supprimées***, gérer toutes les e
 
 Cliquer sur le bouton ***Exporter*** pour créer un rapport CSV des entrées supprimées.
 
-{% snippet icon.badgeNotice %}
+{% snippet, "badgeNotice" %}
 Si une entrée est supprimée d'un ***{{ fr.UVLT }}***, seul l'utilisateur du ***{{ fr.UVLT }}*** peut la restaurer et la gérer dans la section ***Rapports***.
 {% endsnippet %}
 

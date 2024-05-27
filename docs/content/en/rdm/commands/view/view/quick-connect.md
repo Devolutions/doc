@@ -7,7 +7,7 @@ eleventyComputed:
 
 ## Settings
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Note that the ***Quick Connect*** toolbar only lets you specify a host, a computer, and a session type.To have access to the other options available in the windowed version, you have to use the ***Quick Connect*** icon in the ***View*** section of the ***View*** tab.
 {% endsnippet %}
 

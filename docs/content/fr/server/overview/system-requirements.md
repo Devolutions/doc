@@ -3,11 +3,11 @@ eleventyComputed:
   title: Configuration requise
   status: Topic available in German language
 ---
-{% snippet icon.badgeInfo %} 
+{% snippet, "badgeInfo" %} 
 {{ fr.DVLS }} nécessite Microsoft .NET Core 6.0 pour fonctionner. De plus, .NET Framework 4.8 est nécessaire pour installer la {{ fr.DVLSCONSOLE }}. Veuillez adapter votre environnement selon la version utilisée. 
 {% endsnippet %}
  
-{% snippet icon.badgeInfo %} 
+{% snippet, "badgeInfo" %} 
 {{ fr.DVLS }} valide que les niveaux fonctionnels du domaine et de la forêt ont le minimum requis Windows Server 2016. Cela est essentiel lors de l'utilisation de l'authentification d'Active Directory. 
 {% endsnippet %}
 

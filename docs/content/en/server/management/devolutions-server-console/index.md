@@ -5,7 +5,7 @@ eleventyComputed:
 ---
 Because {{ en.DVLS }} is in fact a web application, the management interface is provided by the {{ en.DVLSCONSOLE }}, which you can download from our [download page](https://devolutions.net/server/home/download).
 
-{% snippet icon.badgeHelp %}
+{% snippet, "badgeHelp" %}
 Consult the list of [web server prerequisites](/server/getting-started/installation/installing-web-server-prerequisites/) for the {{ en.DVLSCONSOLE }}.
 {% endsnippet %}
 
@@ -15,7 +15,7 @@ The {{ en.DVLSCONSOLE }} manages the IIS metabase. It must be started with eleva
 
 ## Settings
 
-{% snippet icon.badgeHelp %}
+{% snippet, "badgeHelp" %}
 Some features can only be managed from the web interface. Please see [Server settings](/server/web-interface/administration/configuration/server-settings/) for more information.
 {% endsnippet %}
 

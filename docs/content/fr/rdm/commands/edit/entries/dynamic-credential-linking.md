@@ -6,7 +6,7 @@ La connexion dynamique des identifiants crée une entrée d'identifiant unique p
 
 ## Gestionnaires d'identifiants
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Les entrées d'identifiants suivantes ne sont sont prises en charge qu'avec {{ fr.RDM }} Team.
 {% endsnippet %}
 
@@ -34,7 +34,7 @@ Voici la liste de tous les gestionnaires d'identifiants implémentés qui prenne
 * TeamPass
 * True Key
 * Zoho Vault
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Une connexion d'identifiant dynamique peut également être appliquée à un dossier ou à un type d'entrée VPN si vous le souhaitez.
 {% endsnippet %}
 

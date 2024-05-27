@@ -21,7 +21,7 @@ The following file types are currently supported for global and custom images:
 1. In the ***Entry Image Settings***, enter the ***Name*** and virtual ***Folder*** of the image.
 ![Entry image settings](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin6165.png)
 
-   {% snippet icon.badgeInfo %}
+   {% snippet, "badgeInfo" %}
    You can add a subfolder by adding a backslash "\" in the ***Folder*** field. Clicking on a virtual folder will not display the contents of its subfolder, since it is possible to have an image only in a virtual folder.
    {% endsnippet %}
 1. Click ***OK*** to close the window.

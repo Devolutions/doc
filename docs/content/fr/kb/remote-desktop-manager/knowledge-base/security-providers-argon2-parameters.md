@@ -14,7 +14,7 @@ Supposons qu'un acteur malveillant obtienne l'accès à un ordinateur inscrit au
 
 Ce qu'un attaquant peut faire, c'est essayer de récupérer le mot de passe par force brute, en essayant plusieurs mots de passe et en faisant correspondre le résultat avec la clé jusqu'à ce qu'il trouve une correspondance. En ralentissant le calcul du hachage d'une marge qui n'est pas perceptible pour les utilisateurs légitimes, il est beaucoup plus difficile pour un attaquant de récupérer le mot de passe par force brute.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Cette dérivation n'est effectuée qu'une seule fois lors de l'inscription d'une instance {{ fr.RDM }} au ***Fournisseur de sécurité***, donc mettre des valeurs plus élevées ici n'affectera pas les performances des opérations quotidiennes régulières.
 {% endsnippet %}
 
@@ -32,7 +32,7 @@ Les paramètres par défaut sont suffisants pour empêcher la plupart des attaqu
     * Si vous vous arrêtez pour ne pas que le calcul soit plus lent, sauter l'étape 4.
     * Si vous vous arrêtez pour ne pas utiliser plus de RAM, mais que vous souhaitez que le calcul soit plus long, continuer à l'étape 4.
 4. Augmenter le paramètre ***Itérations*** autant que souhaité avant qu'il ne devienne trop lent.
-{% snippet icon.badgeHelp %}
+{% snippet, "badgeHelp" %}
 Pour plus d'informations, référez-vous aux ressources suivantes (EN) :
 
 * [Argon2: the memory-hard function for password hashing and other applications](https://www.password-hashing.net/argon2-specs.pdf)

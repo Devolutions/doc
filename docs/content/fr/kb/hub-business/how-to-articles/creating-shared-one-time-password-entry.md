@@ -19,7 +19,7 @@ Add a layer of security to your {{ en.DA }} by setting up a shared one-time pass
 ![!!KB2052](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2052.png)
 1. Your OTP should appear on your screen.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 This password is only valid for 30 seconds. After this time, another code will appear, rendering the first one useless. You can copy the password to your clipboard by tapping the copy icon next to the remaining time.
 {% endsnippet %}
 

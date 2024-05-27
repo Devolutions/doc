@@ -17,20 +17,20 @@ Credential ***Source*** is used to link entries to OTP account credential inform
 ### Current session's credentials
 The ***Current session's credentials*** options will use the OTP credentials setup in the entry ***Common - General - Credentials*** section. Credentials options available with OTP are [***My personal credentials***](/rdm/commands/file/my-account-settings/my-personal-credentials/), ***My privileged account*** and ***Embedded*** (this mode is deprecated and not recommended). 
 
-{% snippet icon.badgeCaution %}
+{% snippet, "badgeCaution" %}
 In a team environment, we recommend using the [Linked ({{ en.VLT }})](#linked-vault) option instead with a ***One Time Password (OTP)*** credential entry.
 {% endsnippet %}
 
 ![Current session's credentials](https://cdnweb.devolutions.net/docs/RDMW6006_2023_2.png)
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 For the Copy OTP option to appear in the contextual (right-click) menu of an entry, an OTP must be configured and set in the ***Properties*** of the entry, in ***Connection – One Time Password***.
 {% endsnippet %}
 
 ### Inherited
 The ***Inherited*** option will climb up the navigation tree until it has access to a set of OTP credentials in a parent folder in the ***Connection - One Time Password*** section.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 ***For the Source*** inheritance to work, the ***Connection - One Time Password - Source*** needs to be set to ***Inherited*** for every parent folder until it reaches the desired configuration.
 {% endsnippet %}
 
@@ -57,7 +57,7 @@ One Time Password ***Usage*** is an option to affix the OTP code. Here is the li
 * ***Prepend to the password***: Affix the OTP before the password.
 * ***Specific to session***: If selected, the OTP will, if it applies, be used in a manner specific to the session being launched (not all sessions support OTP).
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 The following sessions are supported by OTP: OpenVPN, SophosVPN, FTP, SFTP, SCP, SSH Tunnel, Telnet, Portforward, and SSH Shell. Please note that the ***OTP prompt string*** setting must be configured for all sessions to run, with the exception of OpenVPN and SophosVPN.
 {% endsnippet %}
 

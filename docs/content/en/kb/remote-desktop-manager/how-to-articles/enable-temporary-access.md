@@ -4,7 +4,7 @@ eleventyComputed:
 ---
 With the ***Temporary Access*** feature, you can provide a designated user with temporary access to an entry during a designated time frame. This is much more secure than changing the user’s access rights and then changing them back once the task is done.
 
-{% snippet icon.badgeCaution %}
+{% snippet, "badgeCaution" %}
 These settings are only available for the {{ en.DVLS }}, Microsoft SQL Server, and Microsoft Azure SQL advanced data sources.
 {% endsnippet %}
 
@@ -17,7 +17,7 @@ These settings are only available for the {{ en.DVLS }}, Microsoft SQL Server, a
 
 1. Set the ***Mode*** to ***Allowed***.
 1. Optional: Change the ***Authorizers*** to ***Custom*** to add users to the authorizers list.
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 By default, only administrators can authorize temporary access requests.
 {% endsnippet %}
 
@@ -35,12 +35,12 @@ By default, only administrators can authorize temporary access requests.
 ![Properties – Security Settings – Temporary Access](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4858.png)
 
 3. Select a ***Mode***.
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 By default, the ***Mode*** is set to inherit the settings from the ***Root***. You can choose to inherit from another folder, allow, or even deny the temporary access of this entry or folder.
 {% endsnippet %}
 
 4.  Select ***Authorizers***.
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 By default, ***Authorizers*** are set to inherit the settings from the ***Root***. You can choose to inherit from another folder, allow authorization by administrators only, or customize and add users to the list of this entry or folder.
 {% endsnippet %}
 

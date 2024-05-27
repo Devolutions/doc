@@ -13,7 +13,7 @@ If you are using Android 7 or an earlier version, follow these instructions from
 1. Navigate to ***Settings – Security – Install from SD card*** and add the certificate that you downloaded in the previous step to the System store.
 1. Navigate back to [valid-isrgrootx1.letsencrypt.org](https://valid-isrgrootx1.letsencrypt.org/). The page should now load correctly.
 
-{% snippet icon.badgeHelp %}
+{% snippet, "badgeHelp" %}
 Further information can be found on the following Let's Encrypt pages:
 * [Upcoming Let’s Encrypt certificate chain change and impact for Cloudflare customers](https://blog.cloudflare.com/upcoming-lets-encrypt-certificate-chain-change-and-impact-for-cloudflare-customers)
 * [Shortening the Let's Encrypt Chain of Trust](https://letsencrypt.org/2023/07/10/cross-sign-expiration.html)

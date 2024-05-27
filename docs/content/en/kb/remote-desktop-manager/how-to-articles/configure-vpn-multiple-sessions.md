@@ -79,7 +79,7 @@ Follow the steps below to change the time {{ en.RDM }} waits for the VPN to open
 1. From the left menu, under the ***Connection*** section, click on ***VPN/SSH/Gateway***.
 1. Go to the ***Advanced*** tab.
 1. In the ***After Execute Wait*** section, enter the time in seconds, then click ***OK***.
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 The ***-1*** sec value is the default time (5 seconds). You can change the default time for all VPN entries in ***File – Settings – Types – VPN – VPN default pause***.
 {% endsnippet %}
 

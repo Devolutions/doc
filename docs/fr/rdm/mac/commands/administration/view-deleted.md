@@ -5,15 +5,15 @@ eleventyComputed:
 L'option ***Administration - Entrées supprimées*** vous permet d'afficher les entrées supprimées ainsi que de les restaurer.
 ![Administration - Entrées supprimées](https://cdnweb.devolutions.net/docs/fr/rdm/mac/clip4208.png)
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Cette fonctionnalité nécessite une [Source de données avancées](/fr/rdm/mac/data-sources/data-sources-types/advanced-data-sources/).
 {% endsnippet %}
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Les administrateurs peuvent supprimer définitivement certaines ou toutes les entrées supprimées.
 {% endsnippet %}
 
-{% snippet icon.shieldWarning %}
+{% snippet, "shieldWarning" %}
 Les entrées supprimées peuvent être restaurées tant qu'elles n'ont pas été définitivement supprimées et tant que le fournisseur de sécurité n'a pas été modifié depuis l'action supprimée.
 {% endsnippet %}
 

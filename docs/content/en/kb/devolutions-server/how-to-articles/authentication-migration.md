@@ -8,7 +8,7 @@ These instructions explain how to migrate the user accounts and user groups from
 * ***Administration*** – ***Users***
 * ***Administration*** – ***User Groups***
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 To migrate users and user groups to the same Identity provider (for example: Active Directory to another Active Directory), the information under ***Administration*** – ***Server Settings*** – ***Authentication*** must be changed to the new domain before using the Authentication Migration Tool.
 {% endsnippet %}
 

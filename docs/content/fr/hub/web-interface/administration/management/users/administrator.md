@@ -7,7 +7,7 @@ Les ***Administrateurs*** peuvent autoriser des utilisateurs spécifiques à dev
 2. Cliquer sur ***Modifier*** à côté de l'utilisateur.
 3. Dans la section ***Utilisateur***, cocher ***Administrateur***.
 4. Cliquer ***Mettre à jour*** pour enregistrer.
-{% snippet icon.badgeCaution %}
+{% snippet, "badgeCaution" %}
 Un redémarrage de {{ fr.RDM }} peut être nécessaire pour activer le droit d'administrateur.
 {% endsnippet %}
 

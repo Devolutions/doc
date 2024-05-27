@@ -8,7 +8,7 @@ Create a ***Task List*** to keep track of work that needs to be done by the team
 
 You can perform a search to filter out the list of displayed tasks. You can search by ***Due Date***, ***Status***, or ***Username***.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 This feature is only available for the following data sources: [{{ en.DVLS }}](/rdm/mac/data-sources/data-sources-types/advanced-data-sources/server/), [Azure SQL](/rdm/mac/data-sources/data-sources-types/advanced-data-sources/microsoft-azure-sql/), [SQL Server](/rdm/mac/data-sources/data-sources-types/advanced-data-sources/microsoft-sql-server/), and [SQLite](/rdm/mac/data-sources/data-sources-types/sqlite/).
 {% endsnippet %}
 

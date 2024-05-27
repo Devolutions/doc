@@ -55,7 +55,7 @@ The following guide provides steps to create an Azure AD user PAM provider for {
 1. Test the connection to see if it works, then click ***Save***. The ***Scan Configuration*** window will appear: keep it open as it will be filled in a later step.
 
 #### In the Azure Portal
-{% snippet icon.badgeCaution %}
+{% snippet, "badgeCaution" %}
 Assigning API permissions as described in steps 20 to 26 is only useful if you want to perform Azure accounts discovery (scan). If this is not the case, to avoid assigning unnecessary permissions to the application, skip to step 27.
 {% endsnippet %}
 
@@ -69,7 +69,7 @@ Assigning API permissions as described in steps 20 to 26 is only useful if you w
     * ***User.Read.All***
    ![Select API permissions](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2143.png)
 
-   {% snippet icon.badgeInfo %}
+   {% snippet, "badgeInfo" %}
    Use the filter bar above the permissions list to find the ones you are looking for.
    {% endsnippet %}
 

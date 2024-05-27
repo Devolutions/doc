@@ -4,7 +4,7 @@ eleventyComputed:
 ---
 It is possible to use ConnectWise (ScreenConnect) in {{ en.RDM }}, however a ConnectWise (ScreenConnect) extension needs to be installed prior to the utilization. After the extension installation, you can configure ConnectWise (ScreenConnect) 5 in {{ en.RDM }}
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 The {{ en.RDM }} extension needs to be installed on your ConnectWise (ScreenConnect) server.
 {% endsnippet %}
 
@@ -18,7 +18,7 @@ The {{ en.RDM }} extension needs to be installed on your ConnectWise (ScreenConn
 ![!!KB4509](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4509.png)
 1. Now that the extension is installed, you can create your ScreenConnect session.
 1. Fill in all the information needed and enter the name of your server in the ***Host*** field.
-{% snippet icon.badgeNotice %}
+{% snippet, "badgeNotice" %}
 The host format must be similar to this: https://something.screenconnect.com
 {% endsnippet %}
 

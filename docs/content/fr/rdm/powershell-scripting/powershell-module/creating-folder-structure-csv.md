@@ -2,7 +2,7 @@
 eleventyComputed:
   title: Création de structure dossiers à partir d'un fichier CSV
 ---
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Veuillez noter que le fichier CSV doit être encodé en UTF-8 pour prendre en charge les caractères spéciaux.
 {% endsnippet %}
 

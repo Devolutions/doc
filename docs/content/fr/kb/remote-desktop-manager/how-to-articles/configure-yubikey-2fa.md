@@ -6,13 +6,13 @@ eleventyComputed:
 
 {{ en.RDM }} allows you to configure a Yubikey to provide an additional security layer when the application starts.
 
-{% snippet icon.badgeCaution %}
+{% snippet, "badgeCaution" %}
 {{ en.RDM }} only support the Yubico OTP at this time.
 {% endsnippet %}
 
 ## Settings
 
-{% snippet icon.shieldWarning %}
+{% snippet, "shieldWarning" %}
 Before starting the configuration, make sure you have a [Yubikey](https://www.yubico.com/) in your possession.
 {% endsnippet %}
 

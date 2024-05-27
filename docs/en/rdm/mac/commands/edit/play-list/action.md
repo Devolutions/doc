@@ -42,7 +42,7 @@ The {{ en.UVLT }} Play list is saved inside your {{ en.UVLT }} which is a user c
 1. You will notice that all your preselected entries from your ***{{ en.NPANE }}*** are already selected in the Play list Editor. Provide a name and a short description for your Play list and click ***OK***.
 ![Play list Editor](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10365.png)
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 The wait time is used to set the delay between opening different entries.
 {% endsnippet %}
 

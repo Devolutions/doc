@@ -3,15 +3,15 @@ eleventyComputed:
   title: "{{ fr.CI }}"
 ---
 Le ***{{ fr.CIM }}*** permettra de générer et de télécharger des paquets d'installation personnalisés pour {{ fr.RDMWIN }}.
-{% snippet icon.shieldWarning %}
+{% snippet, "shieldWarning" %}
 Le ***{{ fr.CIM }}*** téléverse un fichier de configuration vers nos services en ligne. Vous ne devez pas utiliser ce service à des fins de redistribution de mots de passe de vos sources de données.
 {% endsnippet %}
 
-{% snippet icon.badgeNotice %}
+{% snippet, "badgeNotice" %}
 Pour des raisons de stabilité, dans les grandes bases d'installation, la dernière version officielle n'est pas disponible pour le {{ fr.CIS }} pendant une période indéterminée, le temps que nous nous assurions qu'aucun problème majeur n'est présent. Nous vous recommandons d'utiliser cette période avec votre organisation pour effectuer des tests d'intégration sur quelques postes de travail avant de mettre à niveau l'ensemble de votre équipe.
 {% endsnippet %}
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Vous pouvez stocker et créer jusqu'à six paquets de fichiers de configuration d'***{{ fr.CI }}*** dans votre {{ fr.DA }}.
 {% endsnippet %}
 

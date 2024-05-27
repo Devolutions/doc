@@ -7,7 +7,7 @@ eleventyComputed:
 
 The ***Security Provider*** allows for encrypting the data source content. To access the security provider, navigate to ***Administration – Security Provider***. 
 
-{% snippet icon.badgeInfo %} 
+{% snippet, "badgeInfo" %} 
 This feature requires an [Advanced Data Source](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/). 
 {% endsnippet %}
  
@@ -19,7 +19,7 @@ If the ***Read permission*** is not correctly set, {{ en.RDM }} will generate th
  
 By using a security provider, you ensure that nobody can read entries configuration data, even when people have a direct access to the database(s) or a backup. Shared data sources should always be secured with a security provider. 
  
-{% snippet icon.shieldCaution %} 
+{% snippet, "shieldCaution" %} 
 Prior to applying a new or changing an existing security provider, make sure that every users are disconnected from the data source. If you are changing an existing Shared Passphrase or Certificate, please note that users will get back access to the data source when they enter the new Shared Passphrase or Certificate on their computer. 
 {% endsnippet %}
  
@@ -27,7 +27,7 @@ Prior to applying a new or changing an existing security provider, make sure tha
 
 Please note that changing a security provider on a data source with a great number of entries is a lengthy operation. 
  
-{% snippet icon.badgeCaution %} 
+{% snippet, "badgeCaution" %} 
 Applying a new security provider does process the whole database, therefore we advise you to create a backup prior to this operation. 
 {% endsnippet %}
 
@@ -48,7 +48,7 @@ Applying a new security provider does process the whole database, therefore we a
 
 ## Shared Passphrase 
 
-{% snippet icon.shieldWarning %} 
+{% snippet, "shieldWarning" %} 
 If the passphrase is lost, nothing that can be done to recover the data. When using a passphrase, always copy it to a secure location. 
 {% endsnippet %}
  

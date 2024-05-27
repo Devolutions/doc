@@ -4,7 +4,7 @@ eleventyComputed:
 ---
 ***Substituer les identifiants*** vous permet de spécifier d'autres identifiants que celles stockées dans une entrée. Vous pouvez choisir parmi plusieurs sources en fonction de vos pratiques et politiques de sécurité.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 ***Substituer les identifiants*** est disponible pour tous les types d'entrées.
 {% endsnippet %}
 

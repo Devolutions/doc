@@ -4,7 +4,7 @@ eleventyComputed:
   order: 10
 ---
 Lorsque l'installation sera terminée, {{ fr.DLAUNCHER }} vous invitera à choisir une source Web entre {{ fr.DHUB }} et {{ fr.DVLS }}.
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 La ***Sélection de la Source de données*** est disponible dans ***Paramètres – Source de données*** de {{ fr.DLAUNCHER }}.
 {% endsnippet %}
 

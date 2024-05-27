@@ -8,7 +8,7 @@ eleventyComputed:
 
 {{ en.RDM }} stores the offline cache in your Windows profile by default. If you are using an advanced data source and plan to use the offline mode, go to ***File – Settings – Advanced*** and enable ***Use application directory for offline cache*** to have the offline cache stored in the application folder instead.
 
-{% snippet icon.badgeWarning %}
+{% snippet, "badgeWarning" %}
 This procedure is not recommended for running {{ en.RDM }} from a network share shared by multiple users. This would prevent identifying individual users and there would be conflicts with user preferences.
 {% endsnippet %}
 

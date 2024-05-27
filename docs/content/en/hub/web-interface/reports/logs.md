@@ -19,7 +19,7 @@ The ***User Activity*** displays information about the activity of specific user
 
 ### Administration Logs
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 This section is only available for administrators.
 {% endsnippet %}
 

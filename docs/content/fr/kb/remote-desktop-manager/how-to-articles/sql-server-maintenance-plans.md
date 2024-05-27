@@ -8,7 +8,7 @@ If maintenance is not performed regularly, the database files will grow and grow
 
 We are NOT a DBA shop. Asking the question "What is the best maintenance plan I can implement?" to seasoned DBAs will invariably result in an answer similar to "It depends".
 
-{% snippet icon.shieldWarning %}
+{% snippet, "shieldWarning" %}
 These "pointers" are provided as is and we cannot be held responsible if they do not meet your requirements. You must consult a qualified database administrator to confirm your needs and how to meet them.
 {% endsnippet %}
 
@@ -30,6 +30,6 @@ Also, a backup strategy involves actually going through the recovery process reg
 
 If you look at our first ever sysadminotaur, (at [http://blog.devolutions.net/2012/08/sysadminotaur.html](http://blog.devolutions.net/2012/08/sysadminotaur.html)) you can guess that we have heard of bad backup plans before...
 
-{% snippet icon.shieldWarning %}
+{% snippet, "shieldWarning" %}
 Backup plans must be monitored and Recovery plans must be enacted to confirm they actually work!
 {% endsnippet %}

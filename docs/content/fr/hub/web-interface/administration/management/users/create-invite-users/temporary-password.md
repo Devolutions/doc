@@ -4,7 +4,7 @@ eleventyComputed:
 ---
 Un ***Mot de passe temporaire*** est créé automatiquement pour les nouveaux utilisateurs qui sont invités dans {{ fr.DHUBB }} et qui n'ont pas de {{ fr.DA }}.
 
-{% snippet icon.badgeNotice %}
+{% snippet, "badgeNotice" %}
 Vous pouvez prédéfinir leur paramètre dans ***Administration - Paramètres du système - Général***. Pour avoir un aperçu sur le sujet, consulter [Général](/fr/hub/web-interface/hub-overview/administration/configuration-security/system-settings/general/).
 {% endsnippet %}
 
@@ -15,7 +15,7 @@ Vous pouvez prédéfinir leur paramètre dans ***Administration - Paramètres du
 ### Invité avec un {{ fr.DA }} existant
 
 Dans le processus d'invitation, lorsqu'un {{ fr.DA }} est trouvé pour l'utilisateur, il liera automatiquement le compte à {{ fr.DHUBB }}.
-{% snippet icon.badgeNotice %}
+{% snippet, "badgeNotice" %}
 Dans ce cas, le ***Mot de passe temporaire*** n'est pas utilisé, car le compte existe déjà.
 {% endsnippet %}
 

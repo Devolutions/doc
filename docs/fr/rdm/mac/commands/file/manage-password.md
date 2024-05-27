@@ -13,7 +13,7 @@ Il est généralement recommandé d'appliquer une clé maitresse à vos sources 
 
 L'utilisation d'une fonction de clé maitresse empêchera les utilisateurs non autorisés de voir/accéder facilement aux sessions stockées dans votre source de données.
 
-{% snippet icon.badgeCaution %}
+{% snippet, "badgeCaution" %}
 Si jamais vous perdez votre clé maitresse, il nous sera impossible de récupérer vos données. Veuillez vous assurer que vous vous en souvenez ou que vous la sauvegardez dans un endroit sûr.
 {% endsnippet %}
 

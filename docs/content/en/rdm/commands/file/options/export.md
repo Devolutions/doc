@@ -7,7 +7,7 @@ Use ***File*** – ***Settings*** – ***Export Settings*** to control the setti
 
 ![Export Settings location](https://cdnweb.devolutions.net/docs/RDMW4064_2024_1.png)
 
-{% snippet icon.shieldWarning %}
+{% snippet, "shieldWarning" %}
 Sharing the exported file with a colleague would effectively give that person whatever credentials contained in the data source definitions.
 
 Devolutions does not recommend sharing any credential to a team data source.
@@ -19,7 +19,7 @@ Devolutions does not recommend sharing any credential to a team data source.
 
 ### General
 
-{% snippet icon.shieldWarning %}
+{% snippet, "shieldWarning" %}
 The local templates may contain credentials. Do not share the exported file.
 {% endsnippet %}
 
@@ -35,7 +35,7 @@ The local templates may contain credentials. Do not share the exported file.
 
 ### Data Sources
 
-{% snippet icon.shieldWarning %}
+{% snippet, "shieldWarning" %}
 The selected data source configurations are exported with the username/password currently configured. When creating a file to quickly set up new employees, make sure not to give away credentials by mistake. Using the [{{ en.CIS }}](/rdm/windows/installation/client/custom-installer-service/) is recommended for this case.
 {% endsnippet %}
 

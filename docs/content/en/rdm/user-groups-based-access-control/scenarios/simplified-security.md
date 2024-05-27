@@ -3,11 +3,11 @@ eleventyComputed:
   title: Simplified Security
   status: Topic available in German language
 ---
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 This feature is only available when using an [Advanced Data Source](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/).
 {% endsnippet %}
 
-{% snippet icon.shieldCaution %}
+{% snippet, "shieldCaution" %}
 While the following scenario is relevant for small to medium enterprises, it is not recommended for a larger business. For a scenario more suited for large enterprises, please consult the [Advanced Security](/rdm/windows/user-groups-based-access-control/scenarios/advanced-security/) scenario.
 {% endsnippet %}
 
@@ -99,7 +99,7 @@ We want the ServiceDesk to be able to use the Domain Admin credential entry as w
 The last step for the Telemark child items is to set the ***View*** permission to the ServiceDesk and the HelpDesk on the Boston folder and leave every other permission of this folder to ***Inherited***. This denies the Consultants to view the Boston folder. Now, the Consultants will be able to view and open entries only in the Montreal folder.
 ![Telemark/Boston - Permissions](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin6109.png)
 
-{% snippet icon.shieldCaution %}
+{% snippet, "shieldCaution" %}
 Every time a new folder is added, the ***View*** permission must be set for ServiceDesk and HelpDesk to hide the new folder and its content from the Consultants.
 {% endsnippet %}
 

@@ -5,7 +5,7 @@ eleventyComputed:
 ---
 Here is a schema compatibility board explaining which version of {{ en.RDM }} should be used with {{ en.DVLS }} and other database.  
 
-{% snippet icon.badgeCaution %}
+{% snippet, "badgeCaution" %}
 The first two version numbers must match (202X.X) for {{ en.RDM }} and {{ en.DVLS }} to work together properly.
 {% endsnippet %}
 

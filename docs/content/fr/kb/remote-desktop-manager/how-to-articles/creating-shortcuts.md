@@ -22,7 +22,7 @@ One way to create a shortcut is by using the menu ***Edit – Create Shortcut***
 
 Choose the destination folder for the shortcut. {{ en.RDM }} will automatically refresh and display the new shortcut in the list.
 
-{% snippet icon.shieldWarning %}
+{% snippet, "shieldWarning" %}
 There is no visual difference between the shortcut and the original entry. Therefore, you will need to delete all entries to completely remove them.
 {% endsnippet %}
 

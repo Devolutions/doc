@@ -5,7 +5,7 @@ eleventyComputed:
 ---
 The ***Authentication*** section allows you to configure how your users will log into your hub.
 
-{% snippet icon.badgeHelp %}
+{% snippet, "badgeHelp" %}
 For complete instructions on how to configure Single Sign-on (SSO) with your Hub, see [Get started with SSO in {{ en.DHUBB }}](/hub/getting-started/get-started-sso-hub-business/).
 {% endsnippet %}
 
@@ -20,13 +20,13 @@ In the ***General*** section, you can enable login settings for your users.
 | Enforce number matching push notifications via {{ en.WAPPS }} | Enables 2FA number matching for all users of this hub with our {{ en.WAPPS }}.                       |
 | Inactivity Logout Time                                        | Disconnects users after a set inactivity time value, ranging from 5 minutes to 4 hours (unless Off). |
 
-{% snippet icon.badgeCaution %}
+{% snippet, "badgeCaution" %}
 The ***Enforce 2-step verification on {{ en.DA }}*** and ***Enforce number matching push notifications via {{ en.WAPPS }}*** settings do not apply to users that log in with Single Sign-on (SSO).
 {% endsnippet %}
 
 ## Domain
 
-{% snippet icon.badgeHelp %}
+{% snippet, "badgeHelp" %}
 For the full domain verification and SSO setup instructions, visit [Get started with SSO in {{ en.DHUBB }}](/hub/getting-started/get-started-sso-hub-business/).
 {% endsnippet %}
 
@@ -44,7 +44,7 @@ You know that your domain has been successfully verified when its status changes
 
 ## Single Sign-On (SSO)
 
-{% snippet icon.badgeHelp %}
+{% snippet, "badgeHelp" %}
 For the full SSO setup instructions, visit [Get started with SSO in {{ en.DHUB }}](/hub/getting-started/get-started-sso-hub-business/).
 {% endsnippet %}
 
@@ -57,7 +57,7 @@ You then have to enter some information as seen below.
 
 By default, SSO will be enabled once you complete its configuration. You can also ***Force SSO on all users***.
 
-{% snippet icon.badgeWarning %}
+{% snippet, "badgeWarning" %}
 If you enable ***Force SSO on all users***, users will not have access to {{ en.DHUBB }} in case of misconfiguration or downtime of your SSO provider. We strongly recommend that you inform all existing users in your {{ en.DHUBB }} of this new authentication method prior to activating it.
 {% endsnippet %}
 
@@ -69,7 +69,7 @@ After having configured and saved your SSO settings, it is still possible to edi
 
 ## Provisioning
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 User and user group provisioning is currently only available with Microsoft Azure AD.
 {% endsnippet %}
 

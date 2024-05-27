@@ -11,7 +11,7 @@ You can create Local or Shared play List in {{ en.RDM }}. There are several meth
 * Create Play List depending on entries state and selection.
 * Edit an existing Play List.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 You can also use the context menu to create and edit your Play List. When your entries are selected, right-click in the ***{{ en.NPANE }}*** and select ***Play List – Add Selection to Existing Play List***.
 {% endsnippet %}
 
@@ -69,6 +69,6 @@ And there you have it, your ***Play List*** is ready for use.
 1. Select the ***Play List*** you wish to modify and click ***Edit***.
 ![Play List Management](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip10259.png)
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 If the ***Play List*** is shared or saved in your {{ en.UVLT }}, you can also right-click the entry and click ***Properties*** to access it.
 {% endsnippet %}

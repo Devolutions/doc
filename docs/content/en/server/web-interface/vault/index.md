@@ -8,7 +8,7 @@ The ***{{ en.VLT }}s*** allow the users to [Create Entries](/server/web-interfac
 
 We recommend using {{ en.VLT }}s for improved organization and security. {{ en.VLT_MAJ }} s also help performance as they limit the number of entries that load at once.
 
-{% snippet icon.badgeHelp %}
+{% snippet, "badgeHelp" %}
 To access the {{ en.VLT }}s management, navigate to [Administration – {{ en.VLT_MAJ }}s](/server/web-interface/administration/security-management/vaults/).
 {% endsnippet %}
 

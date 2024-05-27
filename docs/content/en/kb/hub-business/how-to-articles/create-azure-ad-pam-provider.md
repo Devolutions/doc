@@ -31,7 +31,7 @@ The following guide provides steps to create an Azure AD user PAM provider for {
 1. Enter the ***Tenant ID*** and ***Client ID*** that you previously located in the ***Overview*** page of the enterprise application in your Azure Portal.
 ![Tenant ID and Client ID](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2297.png)
 
-   {% snippet icon.badgeInfo %}
+   {% snippet, "badgeInfo" %}
    Do not close the provider settings window as you still need to enter the ***Secret key***. Follow the steps below to create a client secret.
    {% endsnippet %}
 
@@ -83,7 +83,7 @@ Your new provider has now been added to the list of ***Providers***.
 
 1. Go back to Microsoft Entra ID, then go to ***Roles and administrators*** in the left menu.
 
-   {% snippet icon.badgeCaution %}
+   {% snippet, "badgeCaution" %}
    Make sure to go back to the main overview of Microsoft Entra ID. If you go to ***Roles and administrators*** while in the overview of your app registration or enterprise application, for example, you will only have access to administrative roles that are available for that section.
    {% endsnippet %}
 
@@ -103,6 +103,6 @@ Your new provider has now been added to the list of ***Providers***.
    ![Enter justification and Assign](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2312.png)
    Your application has now been added to the list.
 
-   {% snippet icon.badgeInfo %}
+   {% snippet, "badgeInfo" %}
    If the accounts managed by the PAM module are members of any administrator roles or groups, remember to complete the above steps with the ***Privileged Authentication Administrator*** role as well.
    {% endsnippet %}

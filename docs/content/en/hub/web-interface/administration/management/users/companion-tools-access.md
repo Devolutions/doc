@@ -4,7 +4,7 @@ eleventyComputed:
 ---
 As an administrator to your {{ en.DHUBB }}, you can disable or enable the use of {{ en.CTOOLS }} for specific users that are not administrators.  
 
-{% snippet icon.badgeNotice %} 
+{% snippet, "badgeNotice" %} 
 To reduce the number of inquiries from your users, we recommend that you inform them before changing their access to {{ en.DHUB }} via their {{ en.CTOOLS }}, especially if you disable their access. 
 {% endsnippet %}
  

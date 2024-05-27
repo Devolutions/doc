@@ -4,11 +4,11 @@ eleventyComputed:
   description:
 ---
 Every field from the ***Password Depot*** entry is described below.
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 To learn more about creating and managing a Password Depot account, please consult the documentation on their official website.
 {% endsnippet %}
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 The integration of credentials from password managers is only available in the Team version of {{ en.RDM }}.
 {% endsnippet %}
 

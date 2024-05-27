@@ -4,24 +4,24 @@ eleventyComputed:
 ---
 The security provider is available from ***Administration – Security Provider***. The security provider is responsible for encrypting the data in the database.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 This features requires an [Advanced Data Source](/rdm/mac/data-sources/data-sources-types/advanced-data-sources/).
 {% endsnippet %}
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Regardless of the security provider you have selected, the passwords that are stored in the data store are ALWAYS encrypted using AES 256 bit encryption.
 {% endsnippet %}
 
-{% snippet icon.shieldNotice %}
+{% snippet, "shieldNotice" %}
 By using a Security Provider, you ensure that nobody can read your entry configuration data, even when people have a direct access to your database(s) or a backup. You should always use this when you use a data source that is not local.
 {% endsnippet %}
 
 ## Settings
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Please note that changing a security provider on a data source with a great number of entries is a lengthy operation.
 {% endsnippet %}
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Applying a new security provider does process the whole database, therefore we advise you to create a backup prior to this operation.
 {% endsnippet %}
 
@@ -39,7 +39,7 @@ Applying a new security provider does process the whole database, therefore we a
 | Certificate       | See below for more details.                                      |
 
 ## Shared Passphrase
-{% snippet icon.badgeWarning %}
+{% snippet, "badgeWarning" %}
 If the passphrase is lost, there is nothing that can be done to recover the data.  Always copy it to a secure location when putting it in place.
 {% endsnippet %}
 

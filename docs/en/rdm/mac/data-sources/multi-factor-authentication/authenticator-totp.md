@@ -6,7 +6,7 @@ eleventyComputed:
 
 ## Settings
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Before you start the configuration, make sure you have installed the [{{ en.WMAPP }}](https://devolutions.net/workspace/) or Google Authenticator on a supported device.
 {% endsnippet %}
 

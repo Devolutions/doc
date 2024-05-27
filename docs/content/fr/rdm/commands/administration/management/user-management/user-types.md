@@ -56,7 +56,7 @@ Lorsque vous définissez un utilisateur comme ***Utilisateur accès restreint***
 
 Une fois les droits accordés, ils peuvent être limités avec le [Contrôle d'accès basé sur les groupes d'utilisateurs](/fr/rdm/windows/user-groups-based-access-control/) ou les groupes de sécurité (anciens).
 
-{% snippet icon.badgeWarning %}
+{% snippet, "badgeWarning" %}
 La sécurité ancienne et les groupes de sécurité ont été dépréciés et seront complètement supprimés à partir de la version 2023.3 de {{ fr.RDM }}. Voir [Migration des groupes de sécurité (ancien) vers les groupes d'utilisateurs](/fr/kb/remote-desktop-manager/how-to-articles/migration-security-groups-user-groups/).
 {% endsnippet %}
 

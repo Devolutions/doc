@@ -9,11 +9,11 @@ eleventyComputed:
 ---
 Activez les notifications automatiques par courriel des demandes d'accès temporaire avec {{ fr.RDM }}. Lorsqu'elles sont activées, une demande d'accès temporaire enverra une notification par courriel à l'autorisateur. L'utilisateur qui a initié la demande recevra un courriel de confirmation avec la décision de l'autorisateur.
 
-{% snippet icon.badgeCaution %}
+{% snippet, "badgeCaution" %}
 Cette fonctionnalité ne fonctionnera qu'en combinaison avec un courriel [{{ fr.DA }}](/fr/cloud/devolutions-account/create-devolutions-account).
 {% endsnippet %}
 
-{% snippet icon.badgeCaution %}
+{% snippet, "badgeCaution" %}
 Cette notification est uniquement disponible pour les sources de données avancées Microsoft SQL Server et Microsoft Azure SQL.
 {% endsnippet %}
 

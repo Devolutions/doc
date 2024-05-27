@@ -1,7 +1,11 @@
 module.exports = {
   source: ".",
   _snippets_imports: {
-    eleventy_liquid: true
+    eleventy_liquid: {
+      exclude: [
+        "eleventy_liquid_raw"
+      ]
+    }
   },
   _snippets: {
     ...require("./.cloudcannon/snippets/snippet")

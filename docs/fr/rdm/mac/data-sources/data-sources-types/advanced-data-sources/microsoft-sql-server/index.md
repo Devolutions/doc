@@ -37,23 +37,23 @@ Voir [Configurer SQL Server](/fr/rdm/mac/data-sources/data-sources-types/advance
 * Journaux complets des connexions et prise en charge des pièces jointes
 * La source de données prend en charge une actualisation automatique à votre intervalle préféré
 
-{% snippet icon.badgeWarning %}
+{% snippet, "badgeWarning" %}
 Une stratégie de sauvegarde de base de données appropriée doit être mise en œuvre pour minimiser les pertes de données possibles.
 {% endsnippet %}
 
-{% snippet icon.badgeWarning %}
+{% snippet, "badgeWarning" %}
 Active directory dans une source de données SQL Server n'est plus pris en charge dans {{ fr.RDMMAC }}.
 {% endsnippet %}
 
-{% snippet icon.badgeWarning %}
+{% snippet, "badgeWarning" %}
 Selon le “Recovery Model“ de la base de données sous-jacente, certaines opérations de maintenance peuvent devoir être planifiées pour s'exécuter régulièrement afin de maintenir l'intégrité de la base de données. Veuillez consulter [Recovery Model](/fr/rdm/mac/data-sources/data-sources-types/advanced-data-sources/microsoft-sql-server/recovery-model/).
 {% endsnippet %}
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 La création d'utilisateurs de base de données comme mentionné dans cet [article](https://docs.microsoft.com/en-us/sql/relational-databases/databases/contained-databases?view=sql-server-ver15#benefit-of-contained-database-users-with-always-on) (anglais) est la méthode prise en charge avec le groupe de disponibilité SQL Always On.
 {% endsnippet %}
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Pour configurer une source de données Serveur SQL, veuillez lire la [Configurer SQL Server](/fr/rdm/mac/data-sources/data-sources-types/advanced-data-sources/microsoft-sql-server/configure-sql-server/).
 {% endsnippet %}
 

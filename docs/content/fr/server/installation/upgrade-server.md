@@ -6,7 +6,7 @@ eleventyComputed:
 ---
 Il est fortement recommandé de déployer une nouvelle instance de {{ fr.DVLS }} dans un [environnement de test](/kb/devolutions-server/how-to-articles/create-server-staging-instance/) afin de vérifier sa stabilité avant de déployer une nouvelle version dans votre environnement de production. Si vous ne possédez pas un tel environnement de test, alors nous recommandons un déploiement limité pour garantir une implémentation graduelle satisfaisante avant d'avoir un impact sur l'entièreté de votre organisation.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Veuillez installer la {{ fr.DVLSCONSOLE }} selon la version souhaité disponible sur la [page de téléchargement](https://devolutions.net/fr/server/home/download/) avant de mettre à jour l'instance Web de {{ fr.DVLS }}.
 
 Les étapes suivantes s'adressent à une installation simple ou la [topologie](/fr/server/overview/topologies/) de base. Si votre environnement diffère de ces topologies, veuillez [nous contacter](mailto:service@devolutions.net) et nous vous guiderons sur la mise à niveau de votre {{ fr.DVLS }}.
@@ -48,7 +48,7 @@ Vous trouverez ci-dessous une liste de recommandations et d'étapes à suivre av
 
 ### Phase finale
 
-{% snippet icon.shieldNotice %}
+{% snippet, "shieldNotice" %}
 * Le dossier de sauvegarde contient des informations sur la configuration de l'instance {{ fr.DVLS }} avant la mise à niveau. Après une mise à niveau réussie, vous devez vous assurer que le contenu est soit déplacé vers un endroit sûr, soit supprimé.
 * Notre service d'assistance reçoit de plus en plus de demandes d'assistance urgentes en raison d'un administrateur non autorisé qui a mis à niveau sa propre copie de {{ fr.RDM }} et introduit une mise à jour de schéma pour une nouvelle fonctionnalité. Cela peut empêcher d'autres utilisateurs d'utiliser le système. Nous vous recommandons vivement de définir les versions Maximale et Minimale autorisées à se connecter à votre instance.
 * Si vous avez sélectionné l'option Sécurité intégrée pour la communication vers la base de données dans l'onglet ***Base de données***, veuillez vous assurer que les comptes configurés dans le pool d'application IIS et le planificateur possèdent les droits requis sur la base de données suite à la mise à jour.

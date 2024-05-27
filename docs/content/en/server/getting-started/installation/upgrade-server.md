@@ -6,7 +6,7 @@ eleventyComputed:
 ---
 It is highly recommended as a best practice to first deploy the new version of {{ en.DVLS }} to a [staging instance](/kb/devolutions-server/how-to-articles/create-server-staging-instance/) and verify its stability before deploying it to your whole organization. If you do not have a staging instance, we recommend a limited roll-out to ensure the workflow is supported to your satisfaction prior to impacting your whole team.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Install the proper version of {{ en.DVLSCONSOLE }} before upgrading the {{ en.DVLS }} web application. It is available on the [Download page](https://devolutions.net/server/home/download/).
 
 The following steps are intended to be achieved on a single server or a basic [topology](/server/overview/topologies/). If your environment differs from these topologies, please [contact us](mailto:service@devolutions.net) and we will guide you with your {{ en.DVLS }} upgrade.
@@ -44,7 +44,7 @@ The following is a list of recommendations and steps to follow before proceeding
 1. Select the upgrade source. You can either use the latest latest or stable release that is available online or specify the path to a ZIP file that you have downloaded yourself. Use this for beta releases or for earlier versions.
 ![Select Update Source File](https://cdnweb.devolutions.net/docs/DVLSCONSOLE2001_2024_1.png)
 1. Click ***Next***.
-   {% snippet icon.badgeWarning %}
+   {% snippet, "badgeWarning" %}
    If you upgrade from version 2021.2.14 or older to version 2022.1 or higher, you will have to provide the [access URI](/kb/devolutions-server/knowledge-base/access-uri/) to reach the {{ en.DVLS }} web page.
    {% endsnippet %}
 1. Review the summary and click ***Update*** if you are satisfied.
@@ -55,7 +55,7 @@ The process will now begin. After completion, a message will appear to inform yo
 
 ### Final phase
 
-{% snippet icon.shieldNotice %}
+{% snippet, "shieldNotice" %}
 * The ***Backup Folder*** contains information about the configuration of the {{ en.DVLS }} instance prior to the upgrade. After a successful upgrade, you must ensure the content is either moved to a safe place, or deleted.
 * Our support department gets more and more urgent requests for assistance because of a rogue admin upgrading his own copy of {{ en.RDM }} and introducing a schema update for some new feature. This may prevent other users from using the system. We strongly recommend setting both the Maximal and Minimal versions allowed to connect to your instance.
 * If you have elected to use the Integrated Security for connecting to the database in the [Database](/server/management/devolutions-server-console/devolutions-server-settings/database/) tab, ensure that the IIS Application Pool Identity and Scheduler accounts have enough privileges on the database.

@@ -5,7 +5,7 @@ eleventyComputed:
 {% youtube 'DFsRwLKWX7M' %}
 
 The application's configuration can be exported to replicate the configuration in other {{ en.RDM }} instances.
-{% snippet icon.shieldWarning %}
+{% snippet, "shieldWarning" %}
 The data source configurations you select will be exported with the credentials as they are currently configured. If you are creating a file to set up a new employee, you must be careful not to give away your credentials.
 
 Using the [{{ en.CIS }}](/rdm/windows/installation/client/custom-installer-service/) is recommended for this case.

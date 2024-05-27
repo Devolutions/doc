@@ -5,7 +5,7 @@ eleventyComputed:
 ---
 The {{ en.WBEX }} assists you in creating a new account when you register on a website. It gives you the ability to create a secure password and save your new credentials.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 If you already have an account for the website, learn how to [Add a Website Entry with the {{ en.WBEX }}](/server/workspace-browser-extension/using-workspace-browser-extension/add-website-entry-workspace-browser-extension/) instead.
 {% endsnippet %}
 

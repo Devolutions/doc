@@ -9,7 +9,7 @@ eleventyComputed:
 
 Please consult our [website](https://devolutions.net/password-hub/) for more information on this service.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Start your [free {{ en.DHUBB }} trial](https://devolutions.net/password-hub/business/sign-up) today!
 {% endsnippet %}
 

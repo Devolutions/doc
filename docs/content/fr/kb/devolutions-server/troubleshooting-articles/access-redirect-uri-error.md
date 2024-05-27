@@ -7,7 +7,7 @@ The following error is displayed when you try to login on the {{ en.DVLS }} web 
 
 ## Solution
 
-{% snippet icon.badgeNotice %}
+{% snippet, "badgeNotice" %}
 The Access URI is case sensitive and must respect the certificate host name.
 {% endsnippet %}
 

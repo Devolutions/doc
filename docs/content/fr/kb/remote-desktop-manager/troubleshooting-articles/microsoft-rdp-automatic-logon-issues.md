@@ -10,7 +10,7 @@ This issue may be caused by a bad authentication negotiation because in some cas
 
 Check the ***Activate network level authentication NLA (SingleSignOn)*** in the ***Connection*** tab of your session.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 You might also have to check the ***Public mode*** option in the ***Advanced*** tab to make it work.
 {% endsnippet %}
 
@@ -26,7 +26,7 @@ We have discovered that enabling the ***Public mode*** option in the ***Advanced
 
 RDM allows for advanced credential management. Depending on your choice of: ***Custom***, ***Linked ({{ en.VLT }})***, ***Embedded*** or ***Inherited*** ensure the credentials are properly entered.
 
-{% snippet icon.badgeCaution %}
+{% snippet, "badgeCaution" %}
 Ensure that ***Always ask password*** is not checked.
 {% endsnippet %}
 

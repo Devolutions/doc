@@ -6,11 +6,11 @@ eleventyComputed:
 
 The ***Reports*** section automatically generates reports detailing {{ en.RDM }} usage related to ***entries***, ***expired assets***, ***passwords***, ***security***, and ***users***. You have the option to export your generated report, as well as executing and exporting reports through a command line.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 The logs feature requires an [Advanced Data Source](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/).
 {% endsnippet %}
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Web-based reports from [{{ en.DVLS }}](/server/overview/what-is-server/) and [{{ en.DHUB }}](/hub/overview/what-is-hub/) are available in {{ en.RDM }}.
 {% endsnippet %}
 

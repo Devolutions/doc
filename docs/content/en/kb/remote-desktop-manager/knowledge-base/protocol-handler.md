@@ -5,7 +5,7 @@ eleventyComputed:
 ---
 A ***Protocol handler*** has been implemented in {{ en.RDM }} to be able to launch a session directly from HTML content. This can be very useful to call {{ en.RDM }} from a Configuration Management Database (CMDB) or even a Document Management System (DMS).
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Internet Explorer and Mozilla Firefox execute the URL by clicking on it or by pressing <kbd>Enter</kbd>. However, with some other web browsers such as Google Chrome, executing the URL normally results in a web search. These browsers may require to do <kbd>Ctrl</kbd>+click or <kbd>Ctrl</kbd>+<kbd>Enter</kbd> to execute the URL.
 {% endsnippet %}
 
@@ -17,7 +17,7 @@ There are two ways to use the handler:
 ## Parameters
 Here are the parameters used to build a protocol handler URL for advanced scenarios. ***DataSource*** and ***Session IDs*** are enough to open a connection.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 The ***DataSource*** parameter overrides the data source which the application connects to at startup. This applies even if the user is prompted for a data source to connect to..
 {% endsnippet %}
 

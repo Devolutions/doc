@@ -5,7 +5,7 @@ eleventyComputed:
 ---
 Follow these instructions to enable failed request tracing in IIS:
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 The following steps apply to Windows Server 2016 and later.
 {% endsnippet %}
 

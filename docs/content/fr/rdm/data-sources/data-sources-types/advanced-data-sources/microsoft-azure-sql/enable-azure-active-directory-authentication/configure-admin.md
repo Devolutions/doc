@@ -4,11 +4,11 @@ eleventyComputed:
 ---
 Pour activer l'authentification SQL Server Azure Active Directory, vous devez d'abord configurer l'administrateur Azure Active Directory du serveur.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 La propagation de cette modification peut prendre quelques minutes. Vous pouvez rencontrer un délai avant de pouvoir vous connecter à ce compte d'Active Directory.
 {% endsnippet %}
 
-{% snippet icon.badgeNotice %}
+{% snippet, "badgeNotice" %}
 Vous pouvez utiliser un compte Microsoft Azure existant si vous en avez déjà créé un. Il n'est pas nécessaire d'en créer un autre pour effectuer les étapes suivantes.
 {% endsnippet %}
 

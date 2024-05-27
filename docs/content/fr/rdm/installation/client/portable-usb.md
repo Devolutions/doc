@@ -5,23 +5,23 @@ eleventyComputed:
 ---
 {{ fr.RDM }} peut être utilisé comme une application portable. Voici les étapes nécessaires pour garantir son bon fonctionnement :
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Le mode d'installation portable vous permet d'exécuter plusieurs versions de {{ fr.RDM }}, en utilisant diverses clés de licence et configurations.
 {% endsnippet %}
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Pour installer une seule application portable de {{ fr.RDM }}, suivre [Installation de {{ fr.RDM }} portable](/kb/remote-desktop-manager/how-to-articles/portable-rdm-installation/).
 {% endsnippet %}
 
-{% snippet icon.badgeWarning %}
+{% snippet, "badgeWarning" %}
 Cette procédure n'est pas recommandée pour exécuter {{ fr.RDM }} à partir d'un réseau partagé par plusieurs utilisateurs. Cela empêcherait d'identifier les utilisateurs individuels et il y aurait des conflits avec les préférences des utilisateurs.
 {% endsnippet %}
 
-{% snippet icon.badgeNotice %}
+{% snippet, "badgeNotice" %}
 {{ fr.RDM }} stocke le cache hors ligne dans votre profil Windows par défaut. Si vous utilisez une source de données avancée et prévoyez d'utiliser le mode hors ligne, aller dans ***Fichier – Options – Avancé*** et activer l'option ***Utiliser le dossier d'application pour la cache hors ligne*** pour que la mise en cache hors ligne soit stockée dans le dossier de l'application.
 {% endsnippet %}
 
-{% snippet icon.badgeNotice %}
+{% snippet, "badgeNotice" %}
 Les étapes suivantes garantissent une véritable portabilité et une facilité de maintenance. Il peut facilement être adapté à votre convenance.
 {% endsnippet %}
 

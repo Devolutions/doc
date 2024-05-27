@@ -6,7 +6,7 @@ eleventyComputed:
 ---
 {% youtube 'En3pmonz1f8' %}
 
-{% snippet icon.badgeNotice %}
+{% snippet, "badgeNotice" %}
 This video includes information pertaining to both requesters and approvers. A user wanting to request temporary access to an entry may find this visual aid useful, but watching the video is not essential since all the steps are described in this topic.
 
 To learn how to approve or deny a request, visit [Approve temporary access to an entry in {{ en.RDM }}](/rdm/windows/user-interface/content-area/temporary-access/approve-temporary-access/).
@@ -16,7 +16,7 @@ The ***Temporary Access*** feature allows users to request a temporary elevation
 
 ## Request temporary access
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 The duration of ***Temporary Access*** begins when the request is approved.
 {% endsnippet %}
 

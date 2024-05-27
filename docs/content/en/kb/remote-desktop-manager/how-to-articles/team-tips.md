@@ -26,7 +26,7 @@ But wait – before you go live, why not have us create a [{{ en.CI }}](/rdm/win
 Here is a familiar scenario: your team has been using {{ en.RDM }} for months or even years, and all is well. Then along comes a new version full of cool new features, and you think that everyone in your company should upgrade. This window below depicts the different options at your disposal to control client versions.
 ![Version management](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin6164.png)
 
-{% snippet icon.badgeHelp %}
+{% snippet, "badgeHelp" %}
 See [Licenses](/rdm/windows/commands/administration/management/licenses/) and [Version management](/rdm/commands/administration/settings/system-settings/application-specific/version-management/) for more information.
 {% endsnippet %}
 

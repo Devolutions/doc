@@ -4,7 +4,7 @@ eleventyComputed:
   order: 20
   description: A {{ en.DVLS }} instance is a web application. This allows for exposing its services on the Internet or an Intranet.
 ---
-{% snippet icon.badgeInfo %} 
+{% snippet, "badgeInfo" %} 
 If you have just received your license serials, please refer to [Getting started](/server/getting-started/). 
 {% endsnippet %}
 
@@ -25,7 +25,7 @@ Key points to consider:
 
 Please refer to [Installing web server prerequisites](/server/getting-started/installation/installing-web-server-prerequisites/). 
 
-{% snippet icon.badgeCaution %} 
+{% snippet, "badgeCaution" %} 
 After you have installed the prerequisites, test the IIS installation by navigating to http<area>://localhost. Do not proceed further if you do not see the IIS welcome screen. There are issues that must be resolved. 
 {% endsnippet %}
  

@@ -5,7 +5,7 @@ eleventyComputed:
 ***Activity Logs*** provide a robust logging solution. With this feature, it is possible to monitor an open session for all users using [Advanced Data Sources](/rdm/mac/data-sources/data-sources-types/advanced-data-sources/). The log is available in the ***View*** tab.
 ![Activity Logs Button](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_RDMMac0040.png)
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Depending on the permissions each user has, they may only be able to access ***Local Connection Logs***.
 {% endsnippet %}
 

@@ -3,7 +3,7 @@ eleventyComputed:
   title: Using the {{ en.WBEX }}
   order: 50
 ---
-{% snippet icon.badgeNotice %} 
+{% snippet, "badgeNotice" %} 
 This topic assumes that you have previously [installed the {{ en.WBEX }}](/hub/workspace-browser-extension/installation/) in your browser and that it is connected to [{{ en.DHUBB }}](/hub/workspace-browser-extension/first-login-workspace-browser-extension/hub-business/) or [{{ en.DHUBP }}](/hub/workspace-browser-extension/first-login-workspace-browser-extension/hub-personal/). 
 {% endsnippet %}
  

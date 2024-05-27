@@ -21,7 +21,7 @@ An administrator must enable backup codes as an alternate MFA method:
 ![Configure the Number of Backup Codes](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp7018.png)
 1. Click the ***Save*** icon of the ***Multi-factor*** section to save your changes.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 If your ***MFA usage*** is set to ***MFA Optional per User***, you must configure MFA for each user before they can generate backup codes. See [Multi-factor (Edit User)](/server/web-interface/administration/security-management/users/edit-user-two-factor/) for more details.
 {% endsnippet %}
 

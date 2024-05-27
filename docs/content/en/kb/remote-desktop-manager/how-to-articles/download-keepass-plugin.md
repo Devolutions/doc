@@ -12,19 +12,19 @@ You need the KeePass Plug-in to send the credential to {{ en.RDM }} (RDM).
 
 ![KeePass plug-in is not installed](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4021.png)
 
-{% snippet icon.badgeCaution %}
+{% snippet, "badgeCaution" %}
 KeePass 1.X is not supported.
 {% endsnippet %}
 
 1. Due to the changes made in {{ en.RDM }} with add-on, you will need to download the KeePass plugin manually using this link: [KeePass Plugin](https://cdn.devolutions.net/download/Devolutions.RemoteDesktopManager.KeePassPlugin.2.1.2.0.zip).
 1. When the download is finished, copy the .dll files in the KeePass installation folder (you can locate your KeePass installation folder with the help of the KeePass Help Center).
-{% snippet icon.badgeCaution %}
+{% snippet, "badgeCaution" %}
 The KeePass application must be running and the database must be opened.
 {% endsnippet %}
 
 3. In {{ en.RDM }} create a KeePass entry and validate that the KeePass plug-in is now installed.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 The KeePass entry is only supported with {{ en.RDM }} Team.
 {% endsnippet %}
 

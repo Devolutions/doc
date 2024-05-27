@@ -17,7 +17,7 @@ Here are some of its main features:
 
 {% youtube 'drRLA7U8YsQ' %}
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 A license is required to enable the PAM module. Please contact our [sales department](mailto:sales@devolutions.net) for more information about the license.
 {% endsnippet %}
 

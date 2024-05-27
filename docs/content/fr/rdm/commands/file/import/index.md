@@ -9,7 +9,7 @@ Accédez à ***Fichier – Importer*** pour importer des entrées dans {{ fr.RDM
 
 Nous prenons en charge les formats d'importation natifs de nombreux outils populaires sur le marché. Au cas où nous ne prendrions pas en charge le format natif ou le tiers, nous disposons d'assistants pour importer à partir d'un fichier CSV.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 La fonction d'importation n'est active que si les ***Privilèges*** d'importation ont été activés dans le compte d'utilisateur. Voir [Permissions du système](/fr/rdm/windows/commands/administration/settings/system-permissions/).
 {% endsnippet %}
 

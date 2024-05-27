@@ -10,11 +10,11 @@ Il s'agit d'un service de stockage de fichiers en ligne dédiée à un seul type
 
 Veuillez consulter [{{ fr.DOD }}](/fr/cloud/rdm-online-services/online-drive/) pour plus d'informations sur ce service.
 
-{% snippet icon.shieldWarning %}
+{% snippet, "shieldWarning" %}
 Étant donné que ce service est hébergé dans le cloud, nous vous recommandons fortement de crypter davantage vos données en appliquant une clé maîtresse. Cela garantira que le fichier sera illisible par personne d'autre que vous.
 {% endsnippet %}
 
-{% snippet icon.badgeWarning %}
+{% snippet, "badgeWarning" %}
 Bien que ce soit un service Cloud, vous DEVEZ utiliser notre service de sauvegarde en ligne pour conserver l’historique de vos données. Puisque Devolutions offre déjà un service de sauvegarde gratuit, {{ fr.DOD }} ne conserve qu’une seule version du contenu. Ce faisant, il est primordial d’activer la fonctionnalité de sauvegarde. La sauvegarde permet de garder plusieurs versions de votre fichier. Par conséquent, ce service offre la meilleure solution.
 {% endsnippet %}
 

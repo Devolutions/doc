@@ -5,7 +5,7 @@ eleventyComputed:
 ---
 Microsoft Azure Bastion is a comprehensive, fully managed service providing both Remote Desktop Protocol (RDP) and Secure Shell Protocol (SSH) access to Azure virtual machines (VMs) without their public IP exposure. An hourly billed service, Azure Bastion is tied to a specific Azure Virtual Network, allowing access to all VMs contained within.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Azure Bastion is compatible with the latest versions (2023.1.x and later) of {{ en.RDM }}.
 {% endsnippet %}  
 
@@ -26,11 +26,11 @@ Before creating entries in {{ en.RDM }}, some steps are required for provisionin
 
    ![Bastion – Deploy Bastion](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2275.png)
 
-   {% snippet icon.badgeInfo %}
+   {% snippet, "badgeInfo" %}
    If there is no existing subnet with enough space, then Bastion only shows the ***Configure manually*** button and prompts for the subnet creation. In the image below, subnet `172.16.2.0/24` was provided, and the ***Deploy Bastion*** button becomes enabled once the subnet is added.
    {% endsnippet %}  
 
-   {% snippet icon.badgeInfo %}
+   {% snippet, "badgeInfo" %}
    This is a multi-step process, which can take 10 minutes or more to complete. 
    * Creates a subnet named `AzureBastionSubnet`.
    * Creates a resource for Azure Bastion - `{Existing Virtual Network}-bastion`.
@@ -56,7 +56,7 @@ Before creating entries in {{ en.RDM }}, some steps are required for provisionin
 
 1. Select the ***Standard*** tier and enable the ***Native client support*** (disabled by default).
 
-   {% snippet icon.badgeInfo %}
+   {% snippet, "badgeInfo" %}
    By default, Azure Bastion provisions the ***Basic*** tier, which does not allow for Native Client Support, which {{ en.RDM }} relies on.
    {% endsnippet %}  
 
@@ -64,7 +64,7 @@ Before creating entries in {{ en.RDM }}, some steps are required for provisionin
 
 1. Save the configuration and allow time to complete the upgrade and feature changes.
 
-   {% snippet icon.badgeCaution %}
+   {% snippet, "badgeCaution" %}
    Once you have upgraded, you can no longer downgrade. Therefore, make sure you intend to do so, and be aware of the associated price increase.
    {% endsnippet %}  
 
@@ -72,7 +72,7 @@ Before creating entries in {{ en.RDM }}, some steps are required for provisionin
 
 With Azure Bastion now configured, you can now configure {{ en.RDM }} to connect to VMs behind Azure Bastion. 
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 The steps below show the creation of an external Azure Bastion VPN entry that is then linked to a RDP/SSH session entry. This is useful if you plan to use the Azure Bastion entry with multiple session entries. 
 
 However, if you plan on using only one session entry with it, you can set up the Azure Bastion configuration directly in that session's properties, under the ***VPN/SSH/Gateway*** section in the left menu. Still, you should follow the steps below, as the configuration and information to provide remains the same.
@@ -141,7 +141,7 @@ However, if you plan on using only one session entry with it, you can set up the
 
 1. Enter the VM ***Username*** and ***Password*** to log in to the VM itself.
 
-   {% snippet icon.badgeInfo %}
+   {% snippet, "badgeInfo" %}
    This VM is not yet domain-joined, so the domain field is left empty.
    {% endsnippet %}  
 
@@ -175,6 +175,6 @@ However, if you plan on using only one session entry with it, you can set up the
 
 Your connection should now be open.
 
-{% snippet icon.badgeWarning %}
+{% snippet, "badgeWarning" %}
 You may encounter this error message within {{ en.RDM }}: ***The Azure Bastion does not support native client connections (SKU: Basic Native Client: False)***. It means that you have not upgraded to the correct tier.
 {% endsnippet %}  

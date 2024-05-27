@@ -20,7 +20,7 @@ There are multiple methods on how to solve these issues.
 ![Display scaling](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4994.png)
 
 If you cannot see the setting because of display issues, you can add the line in your config files directly.
-{% snippet icon.badgeHelp %}
+{% snippet, "badgeHelp" %}
 To locate your config file refer to [Configuration File Location](/kb/remote-desktop-manager/knowledge-base/locating-configuration-file/).
 {% endsnippet %}
 
@@ -35,7 +35,7 @@ To locate your config file refer to [Configuration File Location](/kb/remote-des
 ![Change high DPI settings](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4995.png)
 1. In ***High DPI scaling override*** section, check ***Override high DPI scaling behavior*** and click OK.
 ![High DPI scaling override](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4996.png)
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 When applying this change, you must log off and log back in with your user for changes to take effect.
 {% endsnippet %}
 

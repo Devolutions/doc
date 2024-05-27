@@ -3,11 +3,11 @@ eleventyComputed:
   title: Erweiterte Sicherheit
   status: Topic available in German language
 ---
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Diese Funktion ist nur in [Erweiterten Datenquellen (EN)](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/) verfügbar.
 {% endsnippet %}
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Das folgende Szenario ist für größere Umgebungen konzipiert. Für ein Szenario, das eher für kleinere Umgebungen geeignet ist, konsultieren Sie bitte den Artikel [Vereinfachte Sicherheit](/de/rdm/windows/user-groups-based-access-control/scenarios/simplified-security/).
 {% endsnippet %}
 
@@ -131,7 +131,7 @@ Der letzte Schritt für die untergeordneten Elemente des Ordners „Telemark“ 
 * ***Vertrauliche Informationen anzeigen: Vererbt***; Niemand vom {{ de.VLT }} geerbt. Nur Administratoren können vertrauliche Informationen einsehen.
 
 
-{% snippet icon.shieldCaution %}
+{% snippet, "shieldCaution" %}
 Jedes Mal, wenn ein neuer Ordner als Unterordner des Ordners „Telemark“ hinzugefügt wird, muss die Berechtigung ***Anzeigen*** für den ServiceDesk und/oder den HelpDesk gesetzt werden, um den neuen Ordner und seinen Inhalt vor den Consultants zu verbergen.
 {% endsnippet %}
 

@@ -27,7 +27,7 @@ Otherwise, you can manually install {{ en.RDMLINUX }} using the following steps:
 
 You can now start {{ en.RDM }} using the remotedesktopmanager terminal command.  
 
-{% snippet icon.badgeCaution %}
+{% snippet, "badgeCaution" %}
 Known issues: On platform running non-gnome desktop environment, the splash screen might prevent entering your serial when launching {{ en.RDM }} for the first time.  
 
 As a workaround, press the ***Cancel*** button to close the dialog, that should make the splash screen disappear. You can then use the ***Help*** menu tab to access the registration form again.

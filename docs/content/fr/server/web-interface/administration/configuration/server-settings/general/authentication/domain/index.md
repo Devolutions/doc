@@ -83,7 +83,7 @@ Personnalisé : Définir une valeur de port spécifique.
 
 ### Multi Domaine (Désactivé)
 
-{% snippet icon.badgeCaution %}
+{% snippet, "badgeCaution" %}
 La fonction ***Multi Domaine*** nécessite la licence {{ fr.DVLS }} Édition Platinum. Actuellement, il ne fonctionne qu'avec des domaines approuvés appartenant à la même forêt AD.
 {% endsnippet %}
 

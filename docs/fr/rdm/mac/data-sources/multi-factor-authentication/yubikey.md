@@ -4,13 +4,13 @@ eleventyComputed:
 ---
 {{ fr.RDMMAC }} vous permet de configurer un Yubikey pour fournir une couche de sécurité supplémentaire lors de l'ouverture d'une source de données.
 
-{% snippet icon.badgeCaution %}
+{% snippet, "badgeCaution" %}
 Pour l'instant, {{ fr.RDMMAC }} ne prend en charge que Yubico OTP.
 {% endsnippet %}
 
 ## Paramètres
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Avant de commencer la configuration, assurez-vous d'avoir un ***Yubikey*** en votre possession.
 {% endsnippet %}
 

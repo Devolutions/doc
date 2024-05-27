@@ -27,19 +27,19 @@ Start by entering a ***Name*** for your PAM {{ en.VLT }} (mandatory) and a ***De
 * ***Private***: A private PAM {{ en.VLT }} is not visible to users that do not have access to it. Thus, {{ en.VLT }} access requests cannot be performed. You can only access it by invitation.
 * ***Public***: A public {{ en.VLT }} is visible to all users of the data source, even to those who do not have access to it. A user can request access to the public {{ en.VLT }}.
 
-{% snippet icon.badgeHelp %}
+{% snippet, "badgeHelp" %}
 For more information on {{ en.VLT }} access and visibility, visit [{{ en.VLT_MAJ }} access in {{ en.DHUBB }}](/hub/web-interface/vault-access/).
 {% endsnippet %}
 
 In the ***Password Settings***, choose whether to use the provider's password template or select a custom one.
 
-{% snippet icon.badgeCaution %}
+{% snippet, "badgeCaution" %}
 If you use a custom template, make sure it follows the provider's password policies.
 {% endsnippet %}
 
 Under ***Permissions***, you can see an overview of your roles and permissions and edit them.
 
-{% snippet icon.badgeNotice %}
+{% snippet, "badgeNotice" %}
 Make sure to give the right permissions to your users so they can use the privileged accounts you will later be adding to the PAM {{ en.VLT }}.
 
 We recommend the ***Privileged operator*** role, as it contains the minimum permissions required to be able to use and access privileged account entries, namely ***View {{ en.VLT }}***, ***Connect (Execute)***, ***View password***, and ***View sensitive***. The difference between the ***Privileged operator*** and ***Operator*** roles is that the latter does not include the ***View password*** permission, which is necessary to be able to use the privileged accounts.
@@ -55,6 +55,6 @@ You can access all your {{ en.VLT }}s via the {{ en.VLT }} selector in the ***{{
 
 ![{{ en.VLT_MAJ }} selector](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub2292.png)
 
-{% snippet icon.badgeHelp %}
+{% snippet, "badgeHelp" %}
 The next step is to add privileged accounts to your new PAM {{ en.VLT }}. Visit [Privileged accounts](/pam/privileged-accounts/index/) for more information.
 {% endsnippet %}

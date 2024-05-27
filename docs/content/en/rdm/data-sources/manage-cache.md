@@ -5,17 +5,17 @@ eleventyComputed:
 ---
 This option allows you to manage your cache which decides how the client will re-load entries when changes are detected. On large data sources caching is a must and will increase performance significantly.
 
-{% snippet icon.badgeNotice %}
+{% snippet, "badgeNotice" %}
 This feature is only available when the offline engine is set to use SQLite. We are phasing out this engine because of multiple issues reported by customers. We recommend you use MCDFv2.
 {% endsnippet %}
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 The Manage Cache options should usually only be used upon request from our Support Team when experiencing cache issue.
 {% endsnippet %}
 
 ## Settings
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 The Manage Cache options will only be available when using an SQLite cache.
 {% endsnippet %}
 

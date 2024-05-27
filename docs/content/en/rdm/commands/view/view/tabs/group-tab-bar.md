@@ -10,11 +10,11 @@ But when you reach a certain number of running sessions, it may become difficult
 To enable the ***Tab Group Bar***, navigate to ***View – Tabs*** in the ribbon, then select ***Tab Group Bar***.
 ![Tab Group Bar Button](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin6211.png)
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 The ***Tab Group Bar*** will only appear if a session that is part of a ***Tab group*** (other than the ***All*** tab) is active. To make it show at all times, check the ***Always show Tab Group Bar*** box in ***File – Settings – User Interface – Advanced***.
 {% endsnippet %}
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 The ***Tab Groups*** feature in the ***View*** section lets you see a tree view of the various tab groups. For more information, visit [***View***](/rdm/windows/commands/view/view/).
 {% endsnippet %}
 

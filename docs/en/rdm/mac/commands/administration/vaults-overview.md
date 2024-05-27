@@ -5,7 +5,7 @@ eleventyComputed:
 ---
 {{ en.VLT_MAJ }}s are containers that organize your folders and entries. They help divide your ***Advanced Data Sources*** into multiple compartments. {{ en.VLT_MAJ }}s improve the security and user experience of {{ en.RDM }}, as well as its performance by limiting the amount of entries that load at once.
 
-{% snippet icon.badgeHelp %}
+{% snippet, "badgeHelp" %}
 To learn about the different {{ en.VLT }} types and ways to access them, visit [{{ en.VLT_MAJ }}s](/rdm/mac/commands/view/vault/).
 {% endsnippet %}
  
@@ -21,13 +21,13 @@ Here is what is covered below:
 
 Follow the steps below to learn how to create a new {{ en.VLT }}.
 
-{% snippet icon.shieldNotice %} 
+{% snippet, "shieldNotice" %} 
 For security and performance reasons, we recommend creating a different {{ en.VLT }} for each customer and/or department, depending on how you use {{ en.RDM }}. 
 {% endsnippet %}
  
 1. In the ***Ribbon***, go to ***Administration – {{ en.VLT_MAJ }}s***.  
 
-{% snippet icon.badgeHelp %} 
+{% snippet, "badgeHelp" %} 
 If you are using a {{ en.DVLS }} or {{ en.DHUBB }} data source, {{ en.VLT }} management is done in their respective web interfaces. For more information, consult either [{{ en.DVLS }} {{ en.VLT }}s](/server/web-interface/administration/security-management/vaults/) or [{{ en.DHUB }} {{ en.VLT }}s](/hub/web-interface/administration/management/vaults/). 
 {% endsnippet %}
  
@@ -37,11 +37,11 @@ If you are using a {{ en.DVLS }} or {{ en.DHUBB }} data source, {{ en.VLT }} man
 The ***Visibility*** setting determines if this specific {{ en.VLT }} is visible to all users (public) or only to users that have access to the {{ en.VLT }} (private). It is set on the default setting, which can be modified in ***Administration – System Settings – {{ en.VLT_MAJ }} Management – {{ en.VLT_MAJ }}***.  
 The {{ en.VLT }} can be created as soon as a ***Name*** has been specified, but other options are available. They are presented in the next step. 
 
-{% snippet icon.badgeInfo %} 
+{% snippet, "badgeInfo" %} 
 To use an existing {{ en.VLT }} template, select it from the ***Template*** drop-down list. Unlike other settings, this one cannot be configured later since it changes how the {{ en.VLT }} is created. Learn about [***Templates***](/rdm/mac/commands/file/templates/) before deciding. 
 {% endsnippet %}
  
-{% snippet icon.badgeInfo %} 
+{% snippet, "badgeInfo" %} 
 The ***Allow offline*** option is enabled by default. If it is disabled, the new {{ en.VLT }} will not be able to be used in offline mode. This setting can still be modified after the creation of the {{ en.VLT }} by going back to ***Administration – {{ en.VLT_MAJ }}s***, selecting the {{ en.VLT }} to modify and clicking on ***Edit***. 
 {% endsnippet %}
 
@@ -77,19 +77,19 @@ Follow the steps below to assign ***Users*** and ***Roles*** to a {{ en.VLT }}.
 
 1. In the ***Ribbon***, go to ***Administration – {{ en.VLT_MAJ }}s***.  
 
-{% snippet icon.badgeInfo %} 
+{% snippet, "badgeInfo" %} 
 If you are using a {{ en.DVLS }} or {{ en.DHUBB }} data source, {{ en.VLT }} management is done in their respective web interfaces. For more information, consult either [{{ en.DVLS }} {{ en.VLT }}s](/server/web-interface/administration/security-management/vaults/) or [{{ en.DHUB }} {{ en.VLT }}s](/hub/web-interface/administration/management/vaults/). 
 {% endsnippet %}
 
 2. In the ***User and Security Management*** window, select the ***{{ en.VLT_MAJ }}s*** tab, then click on ***Assign Users*** or ***Assign User Groups***.  
 1. In the ***{{ en.VLT_MAJ }} Assignment*** window, choose which ***Users*** or ***User Groups*** will have access to the {{ en.VLT }} by checking/unchecking the box next to them. 
-{% snippet icon.shieldInfo %} 
+{% snippet, "shieldInfo" %} 
 For security reasons, administrators always have access. 
 {% endsnippet %}
 
 4. Click ***OK*** when done.
 
-{% snippet icon.shieldCaution %} 
+{% snippet, "shieldCaution" %} 
 Keep in mind that even if you assign a role/user to a {{ en.VLT }}, the permissions that are set in the ***{{ en.VLT_MAJ }} settings*** can change what users can see or do in the {{ en.VLT }}. 
 {% endsnippet %}
  

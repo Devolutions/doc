@@ -16,11 +16,11 @@ If the {{ en.DVLSCONSOLE }} version is older than the web application version, p
 
 Then, install again the {{ en.DVLS }} web application over the current installation with the Upgrade Server button in the Actions pane. This will properly install all required files and update the SQL database to the appropriate version.
 
-{% snippet icon.badgeNotice %}
+{% snippet, "badgeNotice" %}
 We strongly recommend following the instructions in [Upgrading {{ en.DVLS }}](/server/getting-started/installation/upgrade-server/) to perform the upgrade.
 {% endsnippet %}
 
-{% snippet icon.badgeNotice %}
+{% snippet, "badgeNotice" %}
 We offer free remote session to assist you during the upgrade process of your {{ en.DVLS }} instance. For more help, please send an email to [service@devolutions.net](mailto:service@devolutions.net) to book a session with our support team. Premium Support owners can schedule off-hours session to limit the impact of the upgrade.
 {% endsnippet %}
 

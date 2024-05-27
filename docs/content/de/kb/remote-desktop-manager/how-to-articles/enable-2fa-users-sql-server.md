@@ -5,11 +5,11 @@ eleventyComputed:
 ---
 Obwohl es nicht möglich ist, ohne {{ de.DVLS }} die Konfiguration einer MFA auf Benutzerebene zu erzwingen, wurden in {{ de.RDM }} einige Optionen hinzugefügt, die Ihren Anforderungen entsprechen könnten.
 
-{% snippet icon.badgeCaution %}
+{% snippet, "badgeCaution" %}
 Diese Funktionen stehen nur bei Verwendung einer [Erweiterten Datenquelle](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/) zur Verfügung.
 {% endsnippet %}
 
-{% snippet icon.badgeCaution %}
+{% snippet, "badgeCaution" %}
 Es ist nicht möglich die MFA für Benutzer zu provisionieren. Nach der Aktivierung muss jeder Benutzer sie manuell unter ***Datei – Meine Konto Einstellungen*** konfigurieren. Weitere Informationen zur Konfiguration, finden Sie unter [Multifaktor-Authentifizierung](/rdm/windows/data-sources/multi-factor-authentication/).
 {% endsnippet %}
 
@@ -53,6 +53,6 @@ Weiters stehen GPOs zur Verfügung, mithilfe dessen Sie Optionen per Active Dire
 
 **%Root%\SOFTWARE\Policies\Devolutions\RemoteDesktopManager\ForceApplicationMFA**
 
-{% snippet icon.badgeHelp %}
+{% snippet, "badgeHelp" %}
 Weitere Informationen zur Konfiguration finden Sie unter [Richtlinien](/kb/remote-desktop-manager/how-to-articles/group-policies/).
 {% endsnippet %}

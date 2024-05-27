@@ -12,7 +12,7 @@ Here is how to configure the autofill feature on {{ en.RDMANDROID }}.
 1. Toggle the switch on and select {{ en.RDM }} from the list of autofill services.
 1. Press ***OK*** so it will be trusted.
 1. Enable the ***Accessibility Service*** to extend this autofill feature to some popular browsers.  
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 You will need to restart your browser for this to take effect.
 {% endsnippet %}
 

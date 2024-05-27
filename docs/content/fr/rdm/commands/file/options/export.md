@@ -4,7 +4,7 @@ eleventyComputed:
 ---
 Utiliser ***Fichier - Options - Eporter les options*** pour contrôler les options à l'exportation à partir de votre configuration de l'application. Utilisez-le pour transférer les paramètres vers une autre machine.
 
-{% snippet icon.shieldWarning %}
+{% snippet, "shieldWarning" %}
 Le partage du fichier exporté avec un collègue donnerait effectivement à cette personne tout les identifiants que vous avez définies dans vos définitions de source de données.
 
 Devolutions ne recommande pas de partager des identifiants dans une source de données d'équipe.
@@ -53,7 +53,7 @@ Clé de licence
 
 ### Divers
 
-{% snippet icon.shieldWarning %}
+{% snippet, "shieldWarning" %}
 Les modèles locaux peuvent contenir des identifiants, assurez-vous de ne pas partager le fichier exporté.
 {% endsnippet %}
 
@@ -110,7 +110,7 @@ Inclus vos identifiants de source de données.
 
 ### Source de données
 
-{% snippet icon.shieldWarning %}
+{% snippet, "shieldWarning" %}
 Les configurations de source de données que vous sélectionnez seront exportées avec le nom d'utilisateur/mot de passe tel qu'ils sont actuellement configurés. Si vous créez un fichier pour configurer rapidement de nouveaux employés, vous devez faire attention à ne pas divulguer vos identifiants. L'utilisation du [{{ fr.CIS }}](/fr/rdm/windows/installation/client/custom-installer-service/) est recommandée dans ce cas.
 {% endsnippet %}
 

@@ -9,13 +9,13 @@ In {{ en.RDM }}, you can edit the properties of multiple entries or folders at o
 ## Entry/Folder selection
 Entries and folders to be edited can be selected using the methods below. Choose the one that best suits your needs.
 
-{% snippet icon.badgeNotice %}
+{% snippet, "badgeNotice" %}
 Best practice suggests using the ***[Advanced Search](#advanced)*** or ***[Multi {{ en.VLT }} Search](#multi)*** methods, as selecting them manually in the ***{{ en.NPANE }}*** is more time consuming and carries the risk of forgetting some entries/folders. This last method can only be recommended if you have only a few selected entries to edit.
 
 Regardless of the method used, it is recommended that only one entry type be selected for each batch edit action.
 {% endsnippet %}
 
-{% snippet icon.badgeCaution %}
+{% snippet, "badgeCaution" %}
 To edit the information of folders, you MUST go through the ***[Advanced Search](#advanced)*** or ***[Multi {{ en.VLT }} Search](#multi)*** methods to select the folders. If you select the folders manually in the ***{{ en.NPANE }}***, you will be editing the information in the child entries of the folders, NOT the information in the folders themselves.
 {% endsnippet %}
 
@@ -33,7 +33,7 @@ The ***[Advanced Search](/rdm/windows/commands/view/panels/search/advanced/)*** 
 ![Advanced Search](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2108.png)
 1. In {{ en.RDM }}, go to ***View – Search – Advanced Search*** or press the F11 key shortcut.
 1. In the ***Search*** tab of the ***Advanced Search*** window, select and specify criteria to filter your search. Other search parameters are also available in the ***Settings*** tab. When done, click ***Search***.
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 To filter your search by folder type, you must use the ***Advanced Search*** feature as it is not available in ***Multi {{ en.VLT }} Search***. Search by ***Connection type*** and select the folder type in the drop-down list next to it.
 {% endsnippet %}
 
@@ -48,7 +48,7 @@ The [***Multi {{ en.VLT }} Search***](/rdm/windows/commands/view/panels/search/m
 
 1. In {{ en.RDM }}, go to ***View – Search – Multi {{ en.VLT }} Search*** or press the F12 key shortcut.
 1. Select and specify criteria to filter your search, then click ***Search***.
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 To filter your search by folder type, you must use the ***[Advanced Search](#advanced)*** feature.
 {% endsnippet %}
 
@@ -64,7 +64,7 @@ The ***Batch Edit*** feature allows you to perform the following actions:
 * Reset All Saved Credentials/Passwords
 * Edit Entries (General Settings / Session Type Settings / Security Group Legacy / Asset / User Specific Settings / Local Specific Settings)
 
-{% snippet icon.badgeWarning %}
+{% snippet, "badgeWarning" %}
 Legacy security and security groups have been deprecated and will be completely removed starting with version 2023.3 of {{ en.RDM }}. See [Migrate from security groups to user groups](/kb/remote-desktop-manager/how-to-articles/migration-security-groups-user-groups/).
 {% endsnippet %}
 
@@ -75,7 +75,7 @@ Continue to the following section if the ***Batch Edit*** options cover your nee
 1. Select one of the editing options from the list for a window to pop up. Note that only options that are relevant to your entry types will be available.
 ![Batch Edit Options](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2103.png)
 1. In the window, edit the information and parameters of your choice, than save.
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Each editing option displays different information and parameters that can be edited. For a preview of each of them, see [Batch Edit](/rdm/windows/commands/edit/batch/batch-edit/).
 {% endsnippet %}
 

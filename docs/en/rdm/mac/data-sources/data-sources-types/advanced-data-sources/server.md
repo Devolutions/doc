@@ -14,7 +14,7 @@ eleventyComputed:
 * Client and server side caching optimization.
 * Requires the {{ en.RDMMAC }} Team Edition client installed for management.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 {{ en.DVLS }} supports only SQL Server as a data store at this time.
 {% endsnippet %}
 

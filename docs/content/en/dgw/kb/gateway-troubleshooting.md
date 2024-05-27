@@ -8,7 +8,7 @@ It is possible to check if a particular gateway is alive and healthy.
 
 1. Open a web browser.
 1. In the address bar type `https://<gateway.url>:<external port>/jet/health`.
-   {% snippet icon.badgeInfo %}
+   {% snippet, "badgeInfo" %}
    Depending on the setup, it could also be `http`.
    {% endsnippet %}
 1. Press <kbd>Enter</kbd>.  

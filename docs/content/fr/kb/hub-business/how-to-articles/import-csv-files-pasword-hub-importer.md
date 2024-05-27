@@ -2,18 +2,18 @@
 eleventyComputed:
   title: Import CSV files in {{ en.DHUBB }} with {{ en.DHUBI }}
 ---
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 This topic assumes that your CSV files are ready to be imported. For tips and recommendations on how to prepare your CSV files for importation, visit [CSV files import strategies and format with {{ en.DHUBI }}](/kb/hub-business/knowledge-base/csv-files-import-strategies-format-hub-importer/).
 {% endsnippet %}
 
 {{ en.DHUBI }} is our essential {{ en.CTOOL }} designed to import files into your {{ en.DHUB }}. Follow the steps below to learn how to import CSV files in {{ en.DHUBB }}.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 If you do not have {{ en.DHUBI }}, [download and install it](https://devolutions.net/password-hub-importer) first. Then, after launching the application, select your ***{{ en.DHUBB }} Host*** and log in with your {{ en.DA }}.
 {% endsnippet %}
 
 1. Once logged in, select the ***CSV*** format in the ***Import Type*** menu. Then, click on the ellipsis button next to the ***Source*** field to open the ***Import Csv Wizard***.
-{% snippet icon.badgeCaution %}
+{% snippet, "badgeCaution" %}
 In the event that you need to import the ***Specific Settings***, leave the ***Change ID*** box unchecked in the Import Settings section next to the ellipsis button.
 {% endsnippet %}
 

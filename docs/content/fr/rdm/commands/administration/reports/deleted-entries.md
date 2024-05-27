@@ -3,11 +3,11 @@ eleventyComputed:
   title: Entrées supprimées
 ---
 L'option ***Administration – Entrées supprimées*** vous permet d'afficher les entrées supprimées ainsi que de les restaurer.
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Cette fonctionnalité nécessite une [Source de données avancées](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/).
 {% endsnippet %}
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Les administrateurs peuvent supprimer définitivement certaines ou toutes les entrées supprimées.
 {% endsnippet %}
 
@@ -53,7 +53,7 @@ Supprimer définitivement toutes les entrées supprimées.
 	</tr>
 </table>
 
-{% snippet icon.badgeNotice %}
+{% snippet, "badgeNotice" %}
 Les entrées supprimées peuvent être restaurées tant qu'elles n'ont pas été définitivement supprimées et tant que le fournisseur de sécurité n'a pas été modifié depuis l'action supprimée.
 {% endsnippet %}
 

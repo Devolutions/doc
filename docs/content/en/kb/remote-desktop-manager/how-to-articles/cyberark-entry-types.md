@@ -34,7 +34,7 @@ PSM Alternate Shell (also internally known as the Ad-Hoc connection method, diff
 The CyberArk PVWA credential, CyberArk Dashboard connection, and CyberArk PSM Connection all offer several authentication methods. These authentication methods are to ***authenticate to PVWA*** (i.e., if you navigated to the web interface and chose the authentication method), not the target endpoint. Below is how the authentication modes map to the authentication credentials.
 
 ## CyberArk Dashboard (Connection)
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 The ***My Account Settings PVWA*** option is the setting located in ***File*** – ***My Account Settings*** – ***CyberArk PVWA***. ***AAM ({{ en.UVLT }} search)*** is to find a stored AAM entry within an Advanced Data Source {{ en.UVLT }}.
 {% endsnippet %}
 
@@ -45,7 +45,7 @@ The ***My Account Settings PVWA*** option is the setting located in ***File*** �
 * ***SAML:*** None
 
 ## CyberArk PVWA (Credential)
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 The AAM option offers a drop-down to choose an existing credential.
 {% endsnippet %}
 
@@ -56,7 +56,7 @@ The AAM option offers a drop-down to choose an existing credential.
 * ***SAML***: None
 
 ## CyberArk PSM Server (Connection)
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 The AAM option offers a drop-down to choose an existing credential.
 {% endsnippet %}
 

@@ -4,11 +4,11 @@ eleventyComputed:
 ---
 {{ en.RDM }} version 2021.1 and higher allows to tunnel a local webcam through an RDP session.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 The webcam redirection option will redirect all of your connected webcams. Eventually we will add a way to specify which specific webcam you want to share by entering its deviceID (for external sessions only).
 {% endsnippet %}
 
-{% snippet icon.badgeCaution %}
+{% snippet, "badgeCaution" %}
 We have made a fix, in version 2021.1.18 and higher, that prevented some webcams to be redirected. We suspect the issue was caused by the RemoteFX redirection, which is not supported by all webcams. Unfortunately, RemoteFX seems to be required for ActiveX (which we use for embedded sessions), so this fix will only apply to external sessions.
 {% endsnippet %}
 

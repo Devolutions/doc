@@ -4,7 +4,7 @@ eleventyComputed:
 ---
 Le mode ***Lecture/Écriture*** hors ligne permet à l'utilisateur d'ajouter, de modifier et de supprimer des entrées lorsque la source de données est hors ligne. Ces modifications sont enregistrées localement et synchronisées avec la source de données une fois qu'elle est de nouveau en ligne.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Certaines fonctionnalités ne sont pas disponibles hors ligne et vous ne pourrez peut-être pas effectuer toutes les actions. Notez que le ***{{ fr.UVLT }}*** est toujours disponible en mode hors ligne.
 {% endsnippet %}
 

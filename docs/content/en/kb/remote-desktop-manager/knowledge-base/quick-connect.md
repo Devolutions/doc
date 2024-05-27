@@ -6,7 +6,7 @@ Via the quick connect toolbar, you can open an ad-hoc session by specifying the 
 ## Settings
 The control is composed of multiple sub controls.
 ![!!KB4446](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4446.png)
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Listing network discoverable devices is a lengthy operation.
 {% endsnippet %}
 

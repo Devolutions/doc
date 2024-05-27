@@ -38,7 +38,7 @@ Please note that for the Wake-on-LAN feature to work:
 
 ### After Connect – Macro
 ![After Connect](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4620.png)
-{% snippet icon.shieldWarning %}
+{% snippet, "shieldWarning" %}
 This feature simply uses a basic mechanism of sending keystrokes provided by the .NET Framework, emulating someone using the keyboard. It sends the keystrokes to the operating system itself, and they are handled by WHATEVER application has the focus at that time. If the focus is switched to another window, the credentials will most likely be revealed by being typed in a text area.
 
 Be advised that using this feature in an environment where passwords must be hidden from the user is highly discouraged.

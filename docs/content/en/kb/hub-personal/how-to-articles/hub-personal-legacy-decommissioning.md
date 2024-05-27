@@ -7,7 +7,7 @@ The teams for {{ en.DHUBP }} and Business are merging as part of Devolutions’ 
 
 The migration process is initiated by [signing in to your {{ en.DHUBP }}](https://hub.devolutions.net) via the web interface. Should you access your Hub through {{ en.RDM }}, you will receive a warning message. By accepting to migrate, you will then be redirected to the web interface, which offers the same steps as if you had accessed it directly via the web. Follow the on-screen prompts to guide you seamlessly through the data upgrade and transition.
 
-{% snippet icon.badgeWarning %}
+{% snippet, "badgeWarning" %}
 {{ en.DHUBP }} legacy will be completely phased out by August 5, 2024. Failure to migrate by the deadline will result in permanent data loss.
 {% endsnippet %}
 
@@ -33,7 +33,7 @@ While {{ en.DHUBP }} is designed to automatically transition from the legacy sys
 
 The migration is complete, and you can now access your {{ en.DHUBP }} entries through the new data source.
 
-{% snippet icon.badgeHelp %}
+{% snippet, "badgeHelp" %}
 If you still encounter issues or for any questions regarding this migration, please [contact our support team](mailto:service@devolutions.net).
 {% endsnippet %}
 

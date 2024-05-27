@@ -4,11 +4,11 @@ eleventyComputed:
   order: 40
   status: Topic available in German language
 ---
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 L'installation de {{ fr.DVLS }} est compatible avec Windows Server 2016, 2019 et 2022.
 {% endsnippet %}
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 En tant qu'application Web, {{ fr.DVLS }} nécessite le gestionnaire IIS, le [module de réécriture d'URL](https://api.devolutions.net/redirection/3cb42413-5dfd-4b1b-bd20-4e5968274ed0), l'[Application Request Routing](https://api.devolutions.net/redirection/52ba9ac0-fb5f-44c1-9521-972caf763b1a), [ASP.Net 6.0](https://api.devolutions.net/redirection/2f1f6a33-20c5-4d84-947b-90ff3cdd7492) et des rôles Web spécifiques sur la machine sur laquelle il sera hébergé.
 {% endsnippet %}
 
@@ -16,7 +16,7 @@ Il est possible d'installer ces prérequis, le gestionnaire IIS et le module de 
 
 ![Assistant Ajout de rôles et de fonctionnalités](https://cdnweb.devolutions.net/docs/fr/server/clip10313.png)
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 L'installation des prérequis à partir de la {{ fr.DVLSCONSOLE }} ou du script PowerShell nécessite un accès internet pour télécharger le [module de réécriture d'URL](https://api.devolutions.net/redirection/3cb42413-5dfd-4b1b-bd20-4e5968274ed0), l'[Application Request Routing](https://api.devolutions.net/redirection/52ba9ac0-fb5f-44c1-9521-972caf763b1a) et [ASP.Net 6.0](https://api.devolutions.net/redirection/2f1f6a33-20c5-4d84-947b-90ff3cdd7492).
 {% endsnippet %}
 
@@ -31,7 +31,7 @@ Voici les deux méthodes disponibles pour installer les prérequis :
 
     1. Cliquer sur le bouton ***Installer les pré-requis*** pour exécuter le script PowerShell.
 
-   {% snippet icon.badgeInfo %}
+   {% snippet, "badgeInfo" %}
    Cette fenêtre apparaitra seulement si un prérequis est manquant lors d'une nouvelle installation ou d'une mise à jour.
    {% endsnippet %}
 

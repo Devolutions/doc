@@ -7,7 +7,7 @@ Suivre ces étapes pour inviter et gérer des utilisateurs dans votre organisati
 ### Inviter des utilisateurs
 
 1. Connectez-vous à votre [{{ fr.DA }}](https://portal.devolutions.com/).
-{% snippet icon.badgeCaution %}
+{% snippet, "badgeCaution" %}
 Vous devez être le propriétaire ou un administrateur de l'organisation pour gérer et inviter des utilisateurs.
 {% endsnippet %}
 
@@ -30,7 +30,7 @@ En tant qu'administrateur, vous pouvez consulter et modifier les ***Invitations 
 
 Vous pourrez également modifier les ***Groupes*** auxquels ils appartiennent, transférer la propriété de l'organisation à un autre utilisateur, définir cet utilisateur comme un administrateur ou retirer des utilisateurs de l'organisation.
 
-{% snippet icon.badgeCaution %}
+{% snippet, "badgeCaution" %}
 Seul le ***Propriétaire*** du compte peut transférer la propriété de l'organisation à un autre utilisateur.
 {% endsnippet %}
 

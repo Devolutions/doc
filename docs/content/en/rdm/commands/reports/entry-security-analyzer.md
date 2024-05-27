@@ -3,7 +3,7 @@ eleventyComputed:
   title: Entry security analyzer
   description: The Entry Security Analyzer follows a set of rules to determine the strength of the password with a score from 0 to 100. There are two categories of rules.
 ---
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 The information in this topic is how the "Legacy" mode of password analysis works. The mode can be changed in the System Settings for ZXCVBN. The "Legacy" mode is not the default mode.
 {% endsnippet %}
 

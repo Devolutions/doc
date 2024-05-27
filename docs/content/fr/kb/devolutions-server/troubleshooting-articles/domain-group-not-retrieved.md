@@ -22,7 +22,7 @@ This topic will cover both <a href="#teams%2Fenterprise">Teams/Enterprise</a> li
 ![Strategy](https://cdnweb.devolutions.net/docs/docs_en_kb_KB0014.png)
 1. Click on ***Get Diagnostic***.
 ![Get Diagnostic Button](https://cdnweb.devolutions.net/docs/docs_en_kb_KB0015.png)
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 If this fails, instead use ***Directory entry token group (Legacy)*** or ***Recursively*** in the ***Strategy*** dropdown.
 {% endsnippet %}
 
@@ -47,7 +47,7 @@ If this fails, instead use ***Directory entry token group (Legacy)*** or ***Recu
 ![Strategy](https://cdnweb.devolutions.net/docs/docs_en_kb_KB0014.png)
 1. Click on ***Get Diagnostic***.
 ![Get Diagnostic Button](https://cdnweb.devolutions.net/docs/docs_en_kb_KB0015.png)
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 If this fails, instead use ***Directory entry token group (Legacy)*** or ***Recursively*** in the ***Strategy*** dropdown.
 {% endsnippet %}
 

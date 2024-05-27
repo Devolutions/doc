@@ -4,11 +4,11 @@ eleventyComputed:
 ---
 Le mode de la cache déterminera comment le client rechargera les entrées lorsque des modifications seront détectées. Sur les grandes sources de données, la mise en cache est indispensable et augmentera considérablement les performances.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Cette fonctionnalité n'est disponible que lors de l'utilisation d'une [source de données avancée](/fr/rdm/mac/data-sources/data-sources-types/advanced-data-sources/).
 {% endsnippet %}
 
-{% snippet icon.badgeNotice %}
+{% snippet, "badgeNotice" %}
 Si vous pensez que le cache est obsolète, appuyez sur <kbd>Ctrl</kbd>+<kbd>F5</kbd> pour actualiser le cache local. Cela forcera la lecture de la base de données pour recréer le cache.
 {% endsnippet %}
 
@@ -61,11 +61,11 @@ Vous pouvez ensuite ouvrir le dossier com.devolutions.remotedesktopmanager et s�
 
 Le fichier est une base de données SQLite chiffrée à l'aide d'un hachage de clé calculée non portable.
 
-{% snippet icon.shieldNotice %}
+{% snippet, "shieldNotice" %}
 Vous pouvez améliorer la sécurité du fichier hors ligne en définissant la sécurité renforcée dans les paramètres [Sécurité](/fr/rdm/mac/commands/file/preferences/security/).
 {% endsnippet %}
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Selon la configuration du mode de la cache et du mode hors ligne, le fichier Offline.db peut toujours exister, car le fichier a une mise en cache à double usage et une prise en charge de ligne hors ligne.
 {% endsnippet %}
 

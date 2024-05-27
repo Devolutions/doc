@@ -3,7 +3,7 @@ eleventyComputed:
   title: Exporter et importer des entrées
 ---
 Vous pouvez exporter et importer des entrées d'un type de source de données à un autre. Il existe plusieurs façons d'exporter des entrées avec {{ fr.RDM }}.
-{% snippet icon.badgeCaution %}
+{% snippet, "badgeCaution" %}
 Si vous avez des utilisateurs qui remplacent les propriétés des entrées avec les ***Paramètres spécifiques de l'utilisateur***, ceux-ci devront exporter et importer leur ***Liste des paramètres spécifiques de l'utilisateur***. Consultez [Exporter et importer des paramètres spécifiques de l'utilisateur](/fr/kb/remote-desktop-manager/how-to-articles/export-import-user-specific-settings/).
 {% endsnippet %}
 
@@ -12,7 +12,7 @@ La première méthode est effectuée directement <a href="#Exportation/Importati
 ## Exportation/Importation via {{ fr.RDM }}
 
 1. Dans {{ fr.RDM }}, sélectionner la source de données contenant les éléments à exporter dans le ***{{ fr.NPANE }}***.
-{% snippet icon.badgeNotice %}
+{% snippet, "badgeNotice" %}
 Pour exporter l'ensemble du {{ fr.VLT }}, cliquer sur ***Fichier – Exporter – Exporter le {{ fr.VLT }} (.rdm)***, puis passer à l'<a href="#etape4">étape 4</a>.
 {% endsnippet %}
 
@@ -20,11 +20,11 @@ Pour exporter l'ensemble du {{ fr.VLT }}, cliquer sur ***Fichier – Exporter �
 1. Faire un clic droit sur votre sélection. Dans le menu contextuel, sélectionner ***Exporter – Exporter la sélection (.rdm)***.
 ![Exporter la sélection (.rdm)](https://cdnweb.devolutions.net/docs/fr/kb/KB2006.png)
 1. <a name="etape4"></a>Dans la fenêtre ***Exporter les entrées***, cocher les options qui doivent être activées. Pour une migration typique, cocher les options ***Inclure identifiants***, ***Inclure les pièces jointes et documents*** et ***Chiffrer avec la clé maîtresse***.
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Par défaut, les identifiants **ne** sont **pas** inclus. Il est crucial de cocher l'option ***Inclure identifiants*** afin que les données exportées les contiennent.
 {% endsnippet %}
 
-{% snippet icon.shieldWarning %}
+{% snippet, "shieldWarning" %}
 La saisie d’une clé maîtresse permet de chiffrer tout le contenu du fichier **.rdm** afin de le protéger. Elle est fortement recommandée comme mesure de sauvegarde de vos données, mais la clé est requise pour le déchiffrement. Il faudra la conserver sur un périphérique de stockage indépendant pour des raisons de sécurité.
 {% endsnippet %}
 
@@ -35,7 +35,7 @@ La saisie d’une clé maîtresse permet de chiffrer tout le contenu du fichier 
 1. Dans le ***{{ fr.NPANE }}***, sélectionner la source de données et le {{ fr.VLT }} dans lesquels importer les entrées.
 1. Faire un clic droit sur la sélection et sélectionner ***Importer – Importer (.rdm)***.
 ![Importer (.rdm)](https://cdnweb.devolutions.net/docs/fr/kb/KB2008.png)
-{% snippet icon.badgeNotice %}
+{% snippet, "badgeNotice" %}
 Il est possible d'importer tout le {{ fr.VLT }} à partir de ***Fichier – Importer – Importer (.rdm)***.
 {% endsnippet %}
 
@@ -44,7 +44,7 @@ Il est possible d'importer tout le {{ fr.VLT }} à partir de ***Fichier – Impo
 ![Emplacement des entrées importées](https://cdnweb.devolutions.net/docs/fr/kb/KB2009.png)
 1. Cliquer sur ***OK***.
 1. Dans la boîte de dialogue suivante sera affichée une liste de toutes les entrées du fichier de données. Sélectionner des entrées précises à importer ou cliquer sur ***Sélectionner tout*** pour importer toutes les entrées.
-{% snippet icon.badgeCaution %}
+{% snippet, "badgeCaution" %}
 Si des utilisateurs remplacent les propriétés des entrées par des ***Paramètres spécifiques de l'utilisateur***, décocher la case ***Changer ID***.
 {% endsnippet %}
 

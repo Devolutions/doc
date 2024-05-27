@@ -7,7 +7,7 @@ Les équipes de {{ fr.DHUBP }} et Business fusionnent dans le cadre de l'initiat
 
 Le processus de migration est enclenché en [se connectant à votre {{ fr.DHUBP }}](https://hub.devolutions.net) via l'interface Web. Si vous accédez à votre Hub via {{ fr.RDM }}, vous recevrez un message d'avertissement. En acceptant de migrer, vous serez ensuite redirigé vers l'interface Web, qui offre les mêmes étapes que si vous y aviez accédé directement via le Web. Suivez les invites à l'écran pour vous guider sans problème à travers la mise à niveau des données et la transition.
 
-{% snippet icon.badgeWarning %}
+{% snippet, "badgeWarning" %}
 L'ancienne version de {{ fr.DHUBP }} sera complètement éliminée d'ici le 5 août 2024. Ne pas migrer avant la date limite entraînera une perte de données permanente.
 {% endsnippet %}
 
@@ -33,7 +33,7 @@ Bien que {{ fr.DHUBP }} soit conçu pour passer automatiquement de l'ancien syst
 
 La migration est complète, et vous pouvez maintenant accéder à vos entrées {{ fr.DHUBP }} via la nouvelle source de données.
 
-{% snippet icon.badgeHelp %}
+{% snippet, "badgeHelp" %}
 Si vous rencontrez encore des problèmes ou pour toute question concernant cette migration, veuillez [contacter notre équipe de support](mailto:service@devolutions.net).
 {% endsnippet %}
 

@@ -6,7 +6,7 @@ eleventyComputed:
 ---
 We will take you through a step by step guide to configure and test a {{ en.RDM }} deployment against an SQL Server data source using Integrated Security.
 
-{% snippet icon.shieldWarning %}
+{% snippet, "shieldWarning" %}
 Any user (domain, local machine or SQL user) that has a server role of ***sysadmin*** is automatically an administrator of {{ en.RDM }}
 {% endsnippet %}
 
@@ -23,7 +23,7 @@ Select the ***Microsoft SQL Server*** data source and click ***OK***.
 * Specify the ***Name, Server*** and ***Database***.
 * Authenticate with a user that is part of the ***sysadmin*** role.
 ![!!KB4589](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4589.png)
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 If the logged-on Windows User is not part of the SQL Server ***sysadmin*** role and you have configured the server to use SQL Server and Windows Authentication Mode, then use a SQL Server user (SA for example) that has the appropriate user groups assigned. You can then add yourself as a {{ en.RDM }} user later and change the data source to use Integrated security.
 {% endsnippet %}
 
@@ -45,7 +45,7 @@ Check the ***Integrated security (Active Directory)*** box and click the ellipsi
 
 Select the ***User type*** Grant the ***Add***, ***Edit***, and ***Delete*** rights (optional, restricted user only). For more information on user types and rights, please consult [User Management](/rdm/windows/commands/administration/management/user-management/).
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Keep the ***Create SQL Server Login and User*** box checked. This will in effect cause {{ en.RDM }} to map a new login to the domain account and link it to a user.
 
 You can uncheck this in the case where your DBA has created your login already on the SQL Server.

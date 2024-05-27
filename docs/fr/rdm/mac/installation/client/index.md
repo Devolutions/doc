@@ -16,6 +16,6 @@ Selon le support téléchargé, exécutez le programme d'installation ou extraye
 
 Par défaut, une source de données locale a déjà été créée en utilisant le format SQLite. Vous pouvez ajouter autant de sources de données que nécessaire. Veuillez consulter [Sources de données](/fr/rdm/mac/data-sources/) pour plus d'informations. 
 
-{% snippet icon.badgeInfo %} 
+{% snippet, "badgeInfo" %} 
 Pour utiliser une source de données SQL Server / Azure SQL, veuillez lire [Configurer le serveur SQL](/fr/rdm/mac/installation/configure-sql-server/). 
 {% endsnippet %}

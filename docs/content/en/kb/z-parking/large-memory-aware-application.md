@@ -4,7 +4,7 @@ eleventyComputed:
 ---
 {{ en.RDM }} 64 bit version allow the application to use as much memory as is available, in the meantime, we have modified {{ en.RDM }} to allow it to access more memory, but this must be paired with a modification to your operating system.  
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 You can perform this only if you have more than 2 GB of RAM.
 {% endsnippet %}
 
@@ -26,7 +26,7 @@ You can perform this only if you have more than 2 GB of RAM.
 
 ### WINDOWS VISTA, WINDOWS 7, SERVER 2008  
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 The memory parameter can be any value between 2048 (2 GB) and 3072 (3 GB). If you have 3GB of RAM you must reserve some for your system. If you have 3 GB of RAM, allocate 2560 Mb, for 4 GB systems use 3072.
 {% endsnippet %}  
 

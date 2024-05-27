@@ -21,6 +21,6 @@ Force the reinstallation of the program by deleting a registry key:
 1. Install the latest bootstrapper version. Consult [Download Microsoft Edge Chromium](/kb/remote-desktop-manager/knowledge-base/download-microsoft-edge-chromium/) to make sure you are downloading the version compatible with {{ en.RDM }}.
 1. Once downloaded and installed, restart {{ en.RDM }} for the installation to take effect.
 
-{% snippet icon.badgeHelp %}
+{% snippet, "badgeHelp" %}
 If you still encounter issues with the Microsoft Edge WebView2 Runtime installation with {{ en.RDM }}, contact our support team at [service@devolutions.net](mailto:service@devolutions.net).
 {% endsnippet %}

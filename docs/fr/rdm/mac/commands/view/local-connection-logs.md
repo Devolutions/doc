@@ -5,7 +5,7 @@ eleventyComputed:
 Lorsque vous utilisez {{ fr.RDMMAC }} avec une source de données sans base de données ou si vous ne possédez pas les autorisations correctes, les ***Journaux d'activité***, qui se trouvent normalement dans l'onglet ***Affichage***, ne sont pas disponibles. Dans cette situation, les ***Journaux de connexion locales*** apparaissent à la place dans l'onglet ***Affichage***.
 ![Bouton Journaux des connexions locales](https://cdnweb.devolutions.net/docs/fr/rdm/mac/RDMMac0014.png)
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Les ***Journaux des connexions locales*** remplacent les ***Journaux d'activité*** si vous ne disposez pas des permissions suffisantes pour les consulter.
 {% endsnippet %}
 

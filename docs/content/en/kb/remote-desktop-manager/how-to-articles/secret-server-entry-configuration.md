@@ -3,7 +3,7 @@ eleventyComputed:
   title: Secret server entry configuration
   description: Follow this step-by-step to configure your entries to use Secret Server credentials in {{ en.RDM }}.
 ---
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 This feature is only available in the Team edition of {{ en.RDM }}.
 {% endsnippet %}
 
@@ -17,7 +17,7 @@ Credentials information setup:
 
 3. If you are the only one using this entry, you can enter your credentials information directly under the ***General*** tab. In a shared team, select ***Use "My Account Settings"*** under the ***General*** tab. After the entry configuration is completed, each user will need to go in ***File*** – ***My Account Settings*** – ***Secret Server*** to enter their information.
 ![My Secret Server Account](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4027.png)
-   {% snippet icon.badgeCaution %}
+   {% snippet, "badgeCaution" %}
    Two Factor Authentication (2FA) is supported with the ***Secret Server*** entry.  
    There is a limitation with the Rest API: you cannot have 2FA with Windows Authentication.
    {% endsnippet %}

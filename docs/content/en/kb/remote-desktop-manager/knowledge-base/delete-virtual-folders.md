@@ -8,7 +8,7 @@ Deleting virtual folders can be done by manually editing each virtual folder, sa
 
 ## PowerShell method
 
-{% snippet icon.badgeWarning %}
+{% snippet, "badgeWarning" %}
 Before proceeding with the PowerShell method, please take note of the following:
 * This method deletes all virtual folders in the data source {{ en.VLT }}s.
 * Delete duplicate folders before running the PowerShell script from the new entry.

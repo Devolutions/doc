@@ -7,7 +7,7 @@ eleventyComputed:
   - Legacy Security
   - Permissions
 ---
-{% snippet icon.badgeWarning %}
+{% snippet, "badgeWarning" %}
 Legacy security and security groups have been deprecated and will be completely removed starting with version 2023.3 of {{ en.RDM }}.
 
 Before disabling legacy security, it is advised to configure the ***User Groups***. See [Migrate from security groups to user groups](/kb/remote-desktop-manager/how-to-articles/migration-security-groups-user-groups/).

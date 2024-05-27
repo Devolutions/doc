@@ -3,7 +3,7 @@ eleventyComputed:
   title: Chocolatey Console
   description: The Chocolatey Console is available in the Tools – More Tools – Chocolatey Console menu. It allows you to install all the supported applications from Chocolatey directly from {{ en.RDM }}.
 ---
-{% snippet icon.badgeCaution %}
+{% snippet, "badgeCaution" %}
 [Chocolatey](https://chocolatey.org/) needs to be installed on your computer to use the Chocolatey Console.
 {% endsnippet %}
 

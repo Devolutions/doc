@@ -6,15 +6,15 @@ eleventyComputed:
   - Bitwarden
 ---
 In {{ en.RDM }} there are the [***Credential Management***](#credential-management) and [***Synchronizer***](#synchronizer) entry types for Bitwarden, this topic will explain how each one works.
-{% snippet icon.badgeCaution %}
+{% snippet, "badgeCaution" %}
 Email ***Authentication mode*** is now deprecated for ***Bitwarden*** entries and unavailable from 2023.2 onwards.
 {% endsnippet %}
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 The integration of credentials from password managers is only available in the Team version of {{ en.RDM }}.
 {% endsnippet %}
 
-{% snippet icon.badgeHelp %}
+{% snippet, "badgeHelp" %}
 To learn more about creating and managing a Bitwarden account, please consult the [documentation](https://bitwarden.com/help/) on their official website.
 {% endsnippet %}
 

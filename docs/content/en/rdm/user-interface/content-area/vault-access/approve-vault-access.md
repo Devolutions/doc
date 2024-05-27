@@ -21,7 +21,7 @@ Finally, clicking on the ***Approve*** and ***Deny*** buttons opens the ***{{ en
 
 ## Approve/Deny {{ en.VLT }} access requests
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Depending on the data source, administrators / {{ en.VLT }} owners may receive an email informing them of the {{ en.VLT }} access request:
 * With a {{ en.DHUBB }} data source, a {{ en.VLT }} access request email is sent to the administrator / {{ en.VLT }} owner to whom the request has been addressed.
 * With a {{ en.DVLS }} data source, all administrators / {{ en.VLT }} owners receive a {{ en.VLT }} access request email.
@@ -45,6 +45,6 @@ This view is divided into two sections:
 
 Clicking on ***Send response*** will approve or deny the request, depending on what you selected earlier. A confirmation window will pop up which you can make disappear by clicking on ***OK***.
 
-{% snippet icon.badgeHelp %}
+{% snippet, "badgeHelp" %}
 To learn more about the end user experience in {{ en.RDM }}, visit [Request {{ en.VLT }} access in {{ en.RDM }}](/rdm/windows/user-interface/content-area/vault-access-rdm/request-vault-access).
 {% endsnippet %}

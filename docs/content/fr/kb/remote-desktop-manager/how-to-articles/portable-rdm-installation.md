@@ -19,7 +19,7 @@ To do so, you will need to do the following:
 
 ## Relocate the {{ en.RDM }} portable version
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 The following steps are built around the fact that you are using the default SQLite data source created by {{ en.RDM }}. If this is not your case, jump to step 4.
 {% endsnippet %}
 

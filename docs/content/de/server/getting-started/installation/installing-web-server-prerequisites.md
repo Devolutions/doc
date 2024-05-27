@@ -36,7 +36,7 @@ Nachfolgend beide Methoden zur Installation der Voraussetzungen:
     1. Zur Registerkarte ***Unterstützung*** wechseln und ***IIS-Diagnose*** auswählen.
 ![!!ServerOp8162](https://cdnweb.devolutions.net/docs/de/server/ServerOp8162.png)
     1. ***Voraussetzungen installieren*** auswählen, um das PowerShell-Skript auszuführen.
-   {% snippet icon.badgeInfo %}
+   {% snippet, "badgeInfo" %}
    Dieses Fenster wird nur angezeigt, wenn bei einer Neuinstallation oder einer Aktualisierung eine Voraussetzung fehlt.
    {% endsnippet %}
 

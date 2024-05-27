@@ -10,7 +10,7 @@ eleventyComputed:
 
 The {{ en.CIS }} replicates the configuration from a {{ en.RDM }} instance. This configuration is used to create an installer file (*.rdi), which will be used to create the installation package intended for distribution. The configuration can contain data sources, credentials, database templates, and more. It is best practice to have a {{ en.RDM }} installation used specifically to create the installation package.
 
-{% snippet icon.shieldWarning %}
+{% snippet, "shieldWarning" %}
 The ***No Internet connection*** option in {{ en.RDM }} (***File*** – ***Option*** – ***Tools*** – ***Advanced***) must be disabled for {{ en.CI }} to work.
 {% endsnippet %}
 

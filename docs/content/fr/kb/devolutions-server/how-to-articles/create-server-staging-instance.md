@@ -22,12 +22,12 @@ Les étapes suivantes décrivent comment créer une instance de test hébergée 
 
 ## Déplacer {{ fr.DVLS }} sur un autre serveur
 
-{% snippet icon.badgeNotice %}
+{% snippet, "badgeNotice" %}
 Les instructions ci-haut servent aussi à déplacer l'instance {{ fr.DVLS }} sur un autre serveur.
 {% endsnippet %}
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Il est possible de déconnecter l'ancienne machine de votre domaine et de renommer la nouvelle pour avoir exactement le même nom de machine. Dans ce cas, il n'est pas nécessaire de mettre à jour l'URI d'accès et la source de données {{ fr.DVLS }} dans {{ fr.RDM }}
 {% endsnippet %}
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Si vous prévoyez de migrer la base de données SQL sur un nouveau serveur, cela pourrait être effectué une fois la migration {{ fr.DVLS }} terminée. Une fois fait, mettez à jour la configuration de la base de données à partir de la {{ fr.DVLSCONSOLE }}.
 {% endsnippet %}

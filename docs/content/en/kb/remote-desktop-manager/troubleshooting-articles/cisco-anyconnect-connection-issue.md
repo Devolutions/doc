@@ -10,7 +10,7 @@ Make sure that the Add-on is enabled by going under ***Tools – Add-on Manager 
 
 ### The vpn does not start
 1. Make sure that the installation path of your Cisco AnyConnect VPN Client is valid by going under ***File – Settings – Paths – Configure Installation Path – Applications – VPN***, select ***Cisco AnyConnect VPN Client*** and use the ellipsis button to choose the correct installation path.
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 This step only applies if you are not using the default installation path **C:\Program Files (x86)\Cisco\Cisco Anyconnect VPN Client**.
 {% endsnippet %}
 

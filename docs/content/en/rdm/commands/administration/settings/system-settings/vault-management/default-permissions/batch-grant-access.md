@@ -26,7 +26,7 @@ The window is divided in two sections: the [permission settings](#permissions) a
 ### Permissions
 In the permission settings, you can select the permissions to grant. You can either grant indivudual ***Permissions*** or previously created (or default) ***Permission Sets***.
 
-{% snippet icon.badgeHelp %}
+{% snippet, "badgeHelp" %}
 Permission sets are created and configured in ***Administration – System Settings – {{ en.VLT_MAJ }} Management – Permission Sets***. For more information, see [Permission Sets](/rdm/windows/commands/administration/settings/system-settings/vault-management/permission-sets/).
 {% endsnippet %}
 

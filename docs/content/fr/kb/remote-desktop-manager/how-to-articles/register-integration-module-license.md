@@ -7,7 +7,7 @@ In {{ en.RDM }} 2021.2 and higher, we have removed the minimum requirement to a 
 * [Licensing with {{ en.DVLS }} data source](#server)
 * [Licensing with all other data sources](#all)
 
-{% snippet icon.shieldWarning %}
+{% snippet, "shieldWarning" %}
 This feature is only available for some specific data sources, namely: {{ en.DVLS }}, SQLite, Microsoft SQL Server and Azure SQL.
 {% endsnippet %}
 

@@ -9,7 +9,7 @@ eleventyComputed:
 
 Specify a scan range, then, once the scan is completed, select the sessions you wish to import (by default, all sessions are selected) and click ***OK*** to import the sessions in your data source.
 
-{% snippet icon.badgeCaution %}
+{% snippet, "badgeCaution" %}
 If you wish to review every session one by one as they are imported, you can check the ***Edit imported entry*** option. However, this is not recommend for a large number of sessions.
 {% endsnippet %}
 

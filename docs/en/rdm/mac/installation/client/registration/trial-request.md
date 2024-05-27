@@ -7,7 +7,7 @@ eleventyComputed:
 ---
 If you are not ready to buy {{ en.RDMMAC }}, you can use the [Free Edition](/rdm/mac/installation/client/registration/free-edition/) or follow the steps below to request a free 30-day trial to use the Team Edition.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 If you decide not to register by the end of the trial, your data will not be altered or erased, and you will have full access to it once you provide a license key.
 {% endsnippet %}
 

@@ -71,7 +71,7 @@ Vous aurez la possibilité de sauvegarder votre clé privée sous différents fo
 </table>
 
 Si vous n'avez pas spécifié de phrase secrète, vous devrez confirmer que vous ne souhaitez pas utiliser de phrase secrète.
-{% snippet icon.badgeCaution %}
+{% snippet, "badgeCaution" %}
 Si vous utilisez le [Gestionnaire de l'agent des clés](/fr/rdm/windows/commands/tools/tools/key-agent-manager/), vous devez choisir le format de fichier Putty (.ppk) ou le format de fichier OpenSSH (.pri). La clé privée PKCS n'est pas un format de fichier pris en charge pour le gestionnaire de l'agent des clés.
 {% endsnippet %}
 

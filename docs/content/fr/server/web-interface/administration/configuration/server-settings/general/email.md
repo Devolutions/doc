@@ -14,7 +14,7 @@ Après avoir sélectionné le ***Type d'authentification***, vous aurez accès �
 
 ![Type d'authentification basique](https://cdnweb.devolutions.net/docs/fr/server/ServerOp2044.png)
 
-{% snippet icon.badgeHelp %}
+{% snippet, "badgeHelp" %}
 Visitez [Configurer un courriel SMTP](/fr/kb/devolutions-server/how-to-articles/configure-smtp-server/configure-smtp-email), qui est spécifique au ***Type d'authentification basique***, pour obtenir les étapes de la configuration d'un SMTP dans {{ fr.DVLS }}.
 {% endsnippet %}
 
@@ -87,7 +87,7 @@ Adresse courriel de l'expéditeur.
 
 ![Type d'authentification Azure](https://cdnweb.devolutions.net/docs/fr/server/ServerOp2045.png)
 
-{% snippet icon.badgeHelp %}
+{% snippet, "badgeHelp" %}
 Visitez [Configurer un courriel SMTP avec Azure](/fr/kb/devolutions-server/how-to-articles/configure-smtp-server/configure-smtp-email-azure), qui est spécifique au ***Type d'authentification Azure***, pour obtenir les étapes de la configuration d'un SMTP avec Azure dans {{ fr.DVLS }}.
 {% endsnippet %}
 

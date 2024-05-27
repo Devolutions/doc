@@ -4,7 +4,7 @@ eleventyComputed:
   order: 10
   description: The Temporary Access feature allows users to request a temporary elevation of their permissions to execute for a specific entry. The approver must then approve or deny the request.
 ---
-{% snippet icon.badgeNotice %}
+{% snippet, "badgeNotice" %}
 To learn how to approve or deny a request, visit [Approve temporary access to an entry in {{ en.RDM }}](/rdm/mac/user-interface/content-area/temporary-access/approve-temporary-access/).
 {% endsnippet %}
 
@@ -12,7 +12,7 @@ The ***Temporary Access*** feature allows users to request a temporary elevation
 
 ## Request temporary access
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 The duration of ***Temporary Access*** begins when the request is approved.
 {% endsnippet %}
 

@@ -56,7 +56,7 @@ Par exemple, il est possible de :
 
 Les entrées réitérées de cette manière ont également les deux chemins de dossier indiqués dans leur champ Dossier dans leurs propriétés, les chemins sont séparés par un point-virgule.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Il n'y a aucune différence visuelle entre le raccourci et l'entrée d'origine. Par conséquent, vous devrez supprimer toutes les entrées pour supprimer complètement ladite entrée. Une confirmation vous sera demandée lors de la tentative de suppression dudit raccourci.
 {% endsnippet %}
 
@@ -142,7 +142,7 @@ Remplacez les propriétés de l'entrée sélectionnée par des paramètres spéc
 	</tr>
 </table>
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Une colonne ***Paramètres spécifiques*** peut être ajoutée dans le ***{{ fr.NPANE }}***. Faire un clic droit sur la colonne ***Nom*** dans le ***{{ fr.NPANE }}*** et choisir Sélecteur de colonnes. Double-cliquer sur ***Paramètres spécifiques*** pour ajouter la colonne. Maintenant, si un paramètre spécifique est appliqué à une entrée, il s'affiche à côté du nom de l'entrée.
 ![{{ fr.NPANE }} - Sélecteur de colonnes](https://cdnweb.devolutions.net/docs/fr/rdm/windows/SpecificSettingsColumnChooser.png)
 {% endsnippet %}

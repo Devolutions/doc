@@ -4,7 +4,7 @@ eleventyComputed:
 ---
 La Sécurité intégrée est le nom que Microsoft donne à la technologie qui utilise les identifiants de votre session en cours d'exécution et les transmet automatiquement aux ressources distantes pour l'authentification.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Cette fonctionnalité nécessite une source de données [SQL Server](/fr/rdm/windows/data-sources/data-sources-types/advanced-data-sources/microsoft-sql-server/) ou [{{ fr.DVLS }}](/fr/rdm/windows/data-sources/data-sources-types/advanced-data-sources/server/).
 {% endsnippet %}
 
@@ -14,7 +14,7 @@ Dans la fenêtre ***Gestion des utilisateurs*** lors de l'activation de la case 
 ![Sécurité intégrée](https://cdnweb.devolutions.net/docs/fr/rdm/windows/clip10291.png)
 Lorsque l'option est activée, un bouton de sélection apparaît ou est activé. Cliquer sur ce bouton pour afficher la boîte de dialogue ***Sélectionnez Utilisateur***.
 ![Choisir un utilisateur](https://cdnweb.devolutions.net/docs/fr/rdm/windows/clip10294.png)
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Assurez-vous que le domaine approprié est affiché dans le champ ***À partir de cet emplacement***. Parfois, l'emplacement par défaut est l'ordinateur local. Cliquer sur le bouton ***Emplacements*** pour rechercher le domaine et le remplacer.
 {% endsnippet %}
 

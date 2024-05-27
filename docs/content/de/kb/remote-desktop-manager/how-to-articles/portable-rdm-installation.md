@@ -16,7 +16,7 @@ Dazu führen Sie bitte folgende Schritte durch:
 
 ## Installierte {{ de.RDM }} Version mit portabler Version ersetzen 
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Die folgenden Schritte gelten für den Fall, dass Sie die Standard SQLite-Datenquelle verwenden, die bei der Erstinstallation erstellt wurde. Sollte dies nicht der Fall sein, gehen Sie bitte zu Schritt 4..
 {% endsnippet %}
 

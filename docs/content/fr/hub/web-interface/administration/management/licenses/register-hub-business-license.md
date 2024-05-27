@@ -7,7 +7,7 @@ Enregistrer votre nouvelle licence dans {{ fr.DHUBB }} en suivant les étapes se
 * [Ma licence est toujours active](#ma-licence-est-toujours-active)
 * [Ma licence est expirée](#ma-licence-est-expirée)
 
-{% snippet icon.badgeCaution %}
+{% snippet, "badgeCaution" %}
 Seuls les ***Administrateurs*** et les utilisateurs disposant des permissions dans la section ***Permissions du système*** auront accès à l’enregistrement d’une licence dans {{ fr.DHUBB }}.
 {% endsnippet %}
 
@@ -25,7 +25,7 @@ Seuls les ***Administrateurs*** et les utilisateurs disposant des permissions da
 
 1. Se connecter à {{ fr.DHUBB }}.
 1. Un message vous refusant l’accès s'affichera.
-{% snippet icon.badgeCaution %}
+{% snippet, "badgeCaution" %}
 Seuls les ***Administrateurs*** et les utilisateurs disposant des ***Permissions système*** pour ***Gérer les licences des produits*** recevront ce message.
 {% endsnippet %}
 

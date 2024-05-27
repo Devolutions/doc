@@ -5,7 +5,7 @@ eleventyComputed:
 ---
 Customize the default size and colors of the remote desktop window in RDP sessions. In the ***General*** section of your RDP entry properties, go to the ***Display*** settings. You are then presented with settings related to the way the session is displayed by default in the entry window.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Most of the display properties require you to close the RDP entry completely, then reopen it to take effect.
 {% endsnippet %}
 

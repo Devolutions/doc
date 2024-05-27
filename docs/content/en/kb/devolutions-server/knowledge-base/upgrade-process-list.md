@@ -7,7 +7,7 @@ Please visit the [Upgrading {{ en.DVLS }}](/server/getting-started/installation/
 
 {{ en.DVLS }} upgrades are not overly complicated, but certain steps must be planned carefully. Please [contact our support team](mailto:service@devolutions.net) to book a session where we will help out.
 
-{% snippet icon.badgeNotice %}
+{% snippet, "badgeNotice" %}
 {{ en.DVLS }} is used by teams, this means that other users must be taken into account before starting with the upgrade.
 
 Confirm that all minimum requirements are installed and dependencies reach the supported versions according to the [System Requirements](/server/overview/system-requirements/) page.

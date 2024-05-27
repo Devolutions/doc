@@ -2,7 +2,7 @@
 eleventyComputed:
   title: Migration from Domain Authentication to Microsoft Authentication
 ---
-{% snippet icon.badgeCaution %}
+{% snippet, "badgeCaution" %}
 We strongly recommend to be careful with this migration as it affects all user accounts authentication method. To avoid any problems, our recommendation would be to test it in a staging environment.  
 
 Before deploying this migration in your production environment, we recommend to have a working backup of the SQL database and the Encryption Keys if you need to restore your {{ en.DVLS }} instance.

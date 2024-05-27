@@ -4,7 +4,7 @@ eleventyComputed:
   order: 30
   description: Les approbateurs peuvent accorder un accès temporaire sans demande à un utilisateur et même si ce dernier dispose déjà d'un accès.
 ---
-{% snippet icon.badgeNotice %} 
+{% snippet, "badgeNotice" %} 
 Pour apprendre comment approuver ou refuser une demande, visitez [Approuver un accès temporaire à une entrée dans {{ fr.RDM }}](/fr/rdm/mac/user-interface/content-area/temporary-access/approve-temporary-access/). 
 {% endsnippet %}
 

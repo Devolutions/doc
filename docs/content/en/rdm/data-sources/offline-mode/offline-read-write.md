@@ -4,7 +4,7 @@ eleventyComputed:
 ---
 The ***Read/Write*** offline mode allows the user to add, edit and delete entries while the data source is offline. Those changes are saved locally and synchronized with the data source once it is back online.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Some functionalities are not available while offline and you may not be able to perform all actions. Note that the [{{ en.UVLT }}](/rdm/windows/data-sources/user-vault/) is still available in offline mode.
 {% endsnippet %}
 

@@ -11,7 +11,7 @@ A Play list can be set to be launched when {{ en.RDMMAC }} is opened.
 To define a default Play list, click ***Edit – Play list – Play list Management***. Then select your Play list in the Default at startup drop-down.
 ![Default at startup](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10124.png)
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 If you check the Confirmation at startup box a confirmation window will be displayed before opening your Play list. You can then enable or disable sessions manually or you can cancel the process completely.
 {% endsnippet %}
 

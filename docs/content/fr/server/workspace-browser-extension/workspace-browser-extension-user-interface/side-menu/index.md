@@ -14,7 +14,7 @@ Dans tous les onglets, à l'exception de l'onglet ***Générateur de mots de pas
 
 L'extension s'ouvre sur l'onglet ***Correspondant***. C'est là que vous verrez la liste des identifiants disponibles pour le site Web particulier sur lequel vous vous trouvez.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Pour connaître les méthodes de récupération de vos identifiants, consultez [Récupérer des identifiants avec le {{ fr.WBEX }}](/fr/server/workspace-browser-extension/using-workspace-browser-extension/retrieve-credentials-workspace-browser-extension/).
 {% endsnippet %}
 
@@ -24,13 +24,13 @@ En haut, vous pouvez utiliser la barre de ***Recherche*** pour filtrer tous vos 
 
 En bas, le bouton ***Ajouter un site Web*** ouvre un nouvel onglet de navigateur qui vous permet d'ajouter manuellement une entrée de site Web dans {{ fr.DVLS }} par le biais du {{ fr.WBEX }}.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Pour obtenir une liste complète des champs disponibles dans la fenêtre ***Ajouter un site Web***, consultez [Ajouter un site Web](/fr/server/workspace-browser-extension/workspace-browser-extension-user-interface/side-menu/add-website/). Vous pouvez également consulter notre guide étape par étape pour [ajouter une entrée de site Web](/fr/server/workspace-browser-extension/using-workspace-browser-extension/add-website-entry-workspace-browser-extension/).
 {% endsnippet %}
 
 ### Onglet Toutes les entrées
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Lorsque vous accédez à l'onglet ***Toutes les entrées*** pour la première fois, vous devez sélectionner les {{ fr.VLT }}s {{ fr.DVLS }} que vous souhaitez synchroniser avec le {{ fr.WBEX }}. Pour en savoir plus, consultez [Première connexion avec le {{ fr.WBEX }}](/fr/server/workspace-browser-extension/first-login-workspace-browser-extension/).
 {% endsnippet %}
 
@@ -77,7 +77,7 @@ Dans la section déroulante ***Général***, vous pouvez sélectionner les types
 Dans la section déroulante ***Avancé***, vous êtes en mesure de personnaliser davantage votre mot de passe en saisissant les caractères que vous souhaitez inclure dans votre mot de passe, suivis du nombre minimum de fois où ils doivent apparaître. Dans le second champ, vous pouvez également saisir les caractères que vous voulez exclure de votre mot de passe.
 ![Section Avancé](https://cdnweb.devolutions.net/docs/fr/server/ServerOp2018.png)
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Pour apprendre à utiliser le ***Générateur de mots de passe*** lors de la création d'un compte sur un site Web, consultez [Créer un compte de site Web avec le {{ fr.WBEX }}](/fr/server/workspace-browser-extension/using-workspace-browser-extension/create-account-website-workspace-browser-extension/).
 {% endsnippet %}
 

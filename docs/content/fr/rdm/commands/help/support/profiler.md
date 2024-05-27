@@ -4,18 +4,18 @@ eleventyComputed:
 ---
 {{ fr.RDM }} dispose d'un profileur intégré pour diagnostiquer les problèmes de connectivité avec une source de données.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 L'affichage de la fenêtre Profileur peut ralentir les opérations sur la source de données. Procéder avec prudence.
 {% endsnippet %}
 
-{% snippet icon.badgeNotice %}
+{% snippet, "badgeNotice" %}
 Pour diagnostiquer les problèmes de démarrage, vous pouvez activer le profileur à partir de la ligne de commande.
 {% endsnippet %}
 
 ## Procédure
 
 1. Une fois le profileur ouvert, actualiser la source de données.
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Maintenir la touche <kbd>Ctrl</kbd> enfoncée lors de l'actualisation devrait forcer un rechargement complet de la source de données, recréant le cache hors ligne.
 {% endsnippet %}
 

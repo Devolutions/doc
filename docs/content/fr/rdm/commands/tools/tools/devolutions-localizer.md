@@ -6,7 +6,7 @@ eleventyComputed:
 
 Téléchargez l'outil de traduction [{{ fr.DLOCALIZER }}](https://devolutions.net/fr/localizer) pour commencer!
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Un [{{ fr.DA }}](/fr/cloud/devolutions-account/create-devolutions-account/) gratuit est nécessaire pour se connecter à l'outil {{ fr.DLOCALIZER }}.
 {% endsnippet %}
 
@@ -30,7 +30,7 @@ Un [{{ fr.DA }}](/fr/cloud/devolutions-account/create-devolutions-account/) grat
 5. Pour commencer, sélectionner un ligne de ***Ressource*** dans la liste inférieure et cliquer sur ***Translate***. Le texte original apparaîtra dans le champ ***Original***.
 ![Sélection d'une ligne de Ressource](https://cdnweb.devolutions.net/docs/fr/rdm/windows/RDMWin2066.png)
 
-{% snippet icon.badgeCaution %}
+{% snippet, "badgeCaution" %}
 En traduisant du texte, il est possible de rencontrer l'esperluette (« & ») utilisée d'une manière différente de sa signification habituelle « et ». Il ne s'agit pas d'une erreur : l'esperluette entraîne le soulignement du caractère situé immédiatement à sa droite lors de son affichage. Veuillez en faire la vérification avant de traduire.
 
 Par exemple, « P&ropriétés » sera affiché comme « P r opriétés » avec un « r » souligné.
@@ -38,7 +38,7 @@ Par exemple, « P&ropriétés » sera affiché comme « P r opriétés » av
 
 
 6. Saisir la traduction du texte dans le champ de droite.
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Un bouton ***Bing*** est disponible pour vous aider à traduire votre texte.
 {% endsnippet %}
 

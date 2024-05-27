@@ -4,11 +4,11 @@ eleventyComputed:
 ---
 1. Install SQL Server or SQL Server Express.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Newly installed SQL Server instances do not allow remote connections. Please follow the directions in [SQL Server](/rdm/mac/data-sources/data-sources-types/advanced-data-sources/microsoft-sql-server/).
 {% endsnippet %}
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 For added security, you can enable SSL Encryption to communicate with your instance of SQL Server. However, due to a framework limitation, this is not compatible with our iOS and Android versions of {{ en.RDMMAC }}. Please follow directions on [Configure SQL Server Database Engine for encrypting connections](https://learn.microsoft.com/en-US/sql/database-engine/configure-windows/configure-sql-server-encryption).
 {% endsnippet %}
 
@@ -24,7 +24,7 @@ For added security, you can enable SSL Encryption to communicate with your insta
 1. Select the Upgrade tab and click the Create Database button. If the database is already created on the SQL Server, press the Update Database button to create the appropriate tables in the database.
 ![SQL Server – Upgrade tab](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip6043.png)
 1. Once the database is created, create a {{ en.RDM }} administrator account via the [Administration – Users](/rdm/mac/commands/administration/user-management/) menu.
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 If the database is created using a system administrator (example: SA), we recommend to keep this user only for the database creation and the [database upgrade](/rdm/mac/installation/database-upgrade/). A {{ en.RDM }} administrator account must be created first. Then, regular users are created with this administrator account.
 {% endsnippet %}
 

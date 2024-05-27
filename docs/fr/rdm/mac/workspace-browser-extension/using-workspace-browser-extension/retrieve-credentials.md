@@ -2,7 +2,7 @@
 eleventyComputed:
   title: Récupérer des identifiants avec le {{ fr.WBEX }}
 ---
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Vous avez besoin d'entrées de site Web dans {{ fr.RDMMAC }} pour pouvoir récupérer leurs identifiants. Si ce n'est pas le cas, commencez par [Ajouter une entrée de site Web avec le {{ fr.WBEX }}](/fr/rdm/mac/workspace-browser-extension/using-workspace-browser-extension/add-website-entry-with-workspace-browser-extension/).
 {% endsnippet %}
 
@@ -18,7 +18,7 @@ Après l'[installation](fr/rdm/mac/workspace-browser-extension/installation/) du
 1. Cliquer sur ***Général*** dans la section ***Configuration***.
 ![Paramètres – Configuration – Général](https://cdnweb.devolutions.net/docs/fr/rdm/mac/RDMMac2035.png)
 1. Dans l'onglet ***Général***, le paramètre ***Afficher l'icône dans les champs*** est activé par défaut. S'il n'est pas activé, cocher la case à côté de l'option.
-{% snippet icon.badgeNotice %}
+{% snippet, "badgeNotice" %}
 Avec cette option activée, une icône du {{ fr.WBEX }} sera affichée dans chaque champ d'identifiants des sites Web que vous visitez. Il est ainsi plus facle de sélectionner l'entrée correcte à partir de laquelle récupérer vos identifiants, en particulier lorsque plusieurs entrées sont disponibles.
 {% endsnippet %}
 
@@ -31,7 +31,7 @@ Avec cette option activée, une icône du {{ fr.WBEX }} sera affichée dans chaq
 * ***Retrouver les identifiants automatiquement lors du chargement de la page*** (activé par défaut) : Permet au {{ fr.WBEX }} de rechercher automatiquement les identifiants disponibles lors du chargement d'une page Web.
 * ***Remplir automatiquement les champs d'identifiants lors du chargement*** (désactivé par défaut) : Les champs d'identifiants sont automatiquement remplis lors du chargement d'une page Web. Cela ne fonctionne que s'il n'y a qu'une seule entrée d'identifiants pour un site Web donné.
 ![Actions – Retrouver et remplir automatiquement les identifiants lors du chargement](https://cdnweb.devolutions.net/docs/fr/rdm/mac/RDMMac2038.png)
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Si l'option ***Soumettre automatiquement le formulaire après la saisie*** est activée, les identifiants seront automatiquement soumis lorsque les champs sont remplis. Son activation est facultative, car il ne s'agit pas d'une pratique recommandée.
 {% endsnippet %}
 
@@ -41,7 +41,7 @@ Vous pouvez maintenant continuer à la prochaine section pour apprendre comment 
 
 ## Récupération des identifiants
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Cette section est basée sur les étapes de configuration du {{ fr.WBEX }} qui se trouvent dans la [section précédente](#paramètres). Nous vous recommandons fortement de les suivre avant de poursuivre, puisque certaines fonctionnalités pourraient différer entre votre expérience et ce qui est indiqué ci-dessous.
 {% endsnippet %}
 

@@ -7,12 +7,12 @@ eleventyComputed:
   - Linked
 ---
 The ***Linked Account*** feature allows users to associate another account under the same user. This feature is particularly beneficial when a user needs to manage different accounts simultaneously. For instance, a user may have an account with the email address "bob@windjammer.co" and another account with the email address "_bob@windjammer.co", which serves as an elevated or privileged account.
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Both users need to be created before linking them together.
 {% endsnippet %}
 
 The primary purpose of ***Linked Account*** is to enhance user convenience and streamline account management.
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Only one license is needed for each ***Linked Account*** pair.
 {% endsnippet %}
 
@@ -28,9 +28,9 @@ Only one license is needed for each ***Linked Account*** pair.
 1. Click ***OK*** to save the changes and close the window, then click ***Close***.
 
 The accounts are now linked. It is possible to check which accounts are linked by going back to the ***User and Security Management*** window, which is under the ***Users*** button, and scrolling until the ***Linked Account*** column.
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 There is no primary or secondary account functionality with this feature; meaning the order in which they are linked does not matter and each can be unlinked to then be linked to a different account without issue.
 {% endsnippet %}
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 To switch between both linked accounts, it is recommended to have a corresponding data source using each credential.
 {% endsnippet %}

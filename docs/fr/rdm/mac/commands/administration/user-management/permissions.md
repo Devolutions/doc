@@ -55,13 +55,13 @@ Permets à l'utilisateur de supprimer des entrées dans un dossier pour ce group
 	</tr>
 </table>
 
-{% snippet icon.shieldWarning %}
+{% snippet, "shieldWarning" %}
 Pour une sécurité plus élevée, il est recommandé de définir des groupes de sécurité sur tous les dossiers de niveau {{ fr.VLT }}. Cela garantit qu'il n'y a pas de dossiers publics et que vous avez un bon contrôle sur l'activité de votre système.
 {% endsnippet %}
 
 Tous les groupes de sécurité sont répertoriés dans la grille et vous pouvez attribuer des permissions à l'aide des colonnes correspondantes.
 
-{% snippet icon.shieldWarning %}
+{% snippet, "shieldWarning" %}
 L'octroi de la permission ***Afficher*** autorise également le droit de lancer/ouvrir les entrées de ce groupe.
 {% endsnippet %}
 

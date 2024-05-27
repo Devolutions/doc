@@ -4,7 +4,7 @@ eleventyComputed:
 ---
 ***{{ en.VLT_MAJ }} Templates*** are available in {{ en.RDM }} 2022.1.11 and higher with advanced data sources. For lower versions of {{ en.RDM }} follow the [workaround](#vault-template-workaround-for-remote-desktop-manager-version-lower-than-2022.1.11).
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 This feature is not available with the {{ en.DVLS }} data source.
 {% endsnippet %}
 

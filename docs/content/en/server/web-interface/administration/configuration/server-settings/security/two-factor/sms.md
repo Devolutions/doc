@@ -12,7 +12,7 @@ Multi-factor authentication (MFA) via SMS requires the user to enter a code they
 To enable this MFA method for your users, go to ***Administration – Server Settings – Multi-factor*** and check the ***SMS*** MFA option. A ***Configure*** button will appear next to the option.
 ![Administration – Server Settings – Multi-factor – Supported MFA – SMS](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp2068.png)
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 See [Multi-factor](/server/web-interface/administration/configuration/server-settings/security/two-factor/) for more information on MFA configuration.
 {% endsnippet %}
 

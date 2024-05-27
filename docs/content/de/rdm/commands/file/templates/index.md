@@ -16,7 +16,7 @@ Es ist möglich, Vorlagen lokal und in der Datenbank zu erstellen.
 * Lokale Vorlagen werden in der Konfigurationsdatei des {{ de.RDM }}s gespeichert. Sie sind nur für den aktuellen Benutzer des lokalen Rechners verfügbar.
 * Datenbankvorlagen werden in der Datenbank gespeichert. Sie sind für alle Benutzer der Datenquelle verfügbar.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Standardmäßig können Benutzer keine Vorlagen erstellen oder verwalten. Um Benutzern das Erstellen und Verwalten von Vorlagen zu ermöglichen, müssen im Bereich ***Administration – System Berechtigungen - Vorlagen*** die entsprechenden Berechtigungen konfiguriert werden.
 {% endsnippet %}
 

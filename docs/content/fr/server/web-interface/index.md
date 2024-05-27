@@ -11,7 +11,7 @@ L'interface Web de {{ fr.DVLS }} offre une interface simplifiée permettant aux 
 
 1. Ouvrir un navigateur Web et accéder à l'URL de l'instance {{ fr.DVLS }}.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Si l'instance a été créée avec l'URL par défaut, elle serait disponible sous https://<ServerName>/dvls.
 {% endsnippet %}
 
@@ -24,7 +24,7 @@ Si l'instance a été créée avec l'URL par défaut, elle serait disponible sou
 ## Menu
 
 Le ***Menu*** permet à l'utilisateur de naviguer dans les différentes sections.
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Il peut être seulement développé ou réduit, pour masquer les sections, qu'en cliquant sur l'icône du menu dans le coin supérieur gauche lorsque l'affichage de la fenêtre de l'interface Web est plus petit.
 {% endsnippet %}
 

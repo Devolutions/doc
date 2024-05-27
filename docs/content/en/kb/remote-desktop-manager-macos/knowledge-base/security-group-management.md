@@ -3,7 +3,7 @@ eleventyComputed:
   title: Security group management (Legacy)
   description: Security groups are used to protect sessions from a subset of system users.
 ---
-{% snippet icon.badgeWarning %}
+{% snippet, "badgeWarning" %}
 Legacy security and security groups have been deprecated and will be completely removed starting with version 2023.3 of {{ en.RDM }}. See [Migrate from security groups to user groups](/kb/remote-desktop-manager/how-to-articles/migration-security-groups-user-groups/).
 {% endsnippet %}
 
@@ -18,7 +18,7 @@ Each entry in the ***{{ en.NPANE }}*** can be assigned to a single security grou
 Security groups are used to protect sessions from a subset of system users. Assign sessions to security groups then control who has access and how much control they have on each security group.
 ![Administration – Security Groups](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10392.png)
 
-{% snippet icon.shieldWarning %}
+{% snippet, "shieldWarning" %}
 All sessions without security groups are considered public, meaning anyone with access to the Data Source will be able to see all your entries.
 {% endsnippet %}
 

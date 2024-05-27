@@ -9,7 +9,7 @@ eleventyComputed:
 
 The ***Temporary Access*** feature allows users to request a temporary elevation of their permissions for a specific entry. The approver must then approve or deny the request.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 When using {{ en.DVLS }}, Microsoft SQL Server or Microsoft Azure SQL data sources, you must first [Enable temporary access](/kb/remote-desktop-manager/how-to-articles/enable-temporary-access/) in {{ en.RDM }}.
 {% endsnippet %}
 
@@ -34,7 +34,7 @@ Finally, clicking on ***Approve request*** or ***Deny request*** opens the ***Te
 
 ## Approve/Deny temporary access requests
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 The duration of ***Temporary Access*** begins when the request is approved.
 {% endsnippet %}
 
@@ -60,6 +60,6 @@ After the approbation, for any reason, you may revoke the user's temporary acces
 
 ![Temporary Access Response](https://cdnweb.devolutions.net/docs/DVLS6066_2024_1.png)
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 To learn more about the end user experience in {{ en.DVLS }}, visit [Request temporary access to an entry in {{ en.DVLS }}](/server/web-interface/temporary-access/request-temporary-access/).
 {% endsnippet %}

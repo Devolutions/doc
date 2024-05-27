@@ -28,7 +28,7 @@ L'option ***Demander*** ouvre une liste d'identifiants OTP disponibles à chaque
 
 L'option ***Hérité*** remontera dans l'arborescence de navigation jusqu'à ce qu'elle ait accès à un identifiants OTP dans un dossier parent de la section ***Connexion - Mot de passe à usage unique***.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Pour que l'héritage de la ***Source*** fonctionne, le paramètre ***Connexion - Mot de passe à usage unique - Source*** doit être défini sur ***Hérité*** pour chaque dossier parent jusqu'à ce qu'elle atteigne la configuration souhaitée.
 {% endsnippet %}
 
@@ -38,7 +38,7 @@ Pour que l'héritage de la ***Source*** fonctionne, le paramètre ***Connexion -
 
 ***Les identifiants de la session en cours*** utiliseront les identifiants OTP définis dans la section de l'entrée ***Commun - Général - Identifiants***. Les options d'identifiants disponibles avec OTP sont [***Mes identifiants personnels***](/fr/rdm/windows/commands/file/my-account-settings/my-personal-credentials/), ***Mon compte privilégié*** et ***Intégré*** (ce mode est obsolète et non recommandé).
 
-{% snippet icon.badgeCaution %}
+{% snippet, "badgeCaution" %}
 Dans un environnement d'équipe, nous vous recommandons d'utiliser plutôt l'option <a href="#coffre">Lié ({{ fr.VLT }})</a> avec une entrée d'identifiant par ***Mot de passe à usage unique (OTP)***.
 {% endsnippet %}
 

@@ -4,7 +4,7 @@ eleventyComputed:
 ---
 With a PAM Provider account, {{ en.DVLS }} allows to rotate account passwords. In Active Directory, having a domain administrator account as the provider can be a bit overkill for password rotation. The following article described the steps to create an Active Directory account that will be used as a PAM Provider and have the ability to rotate passwords in Active Directory.
 
-{% snippet icon.shieldInfo %}
+{% snippet, "shieldInfo" %}
 To manage domain administrator accounts as privileged accounts in the PAM module, the PAM AD provider must be part of the domain administrator groups. Then no need to follow these instructions.
 {% endsnippet %}
 
@@ -39,6 +39,6 @@ To manage domain administrator accounts as privileged accounts in the PAM module
 10. Then click on the Finish button to complete the Delegation Control.
 ![!!KB8031](https://cdnweb.devolutions.net/docs/docs_en_kb_KB8031.png)
 
-{% snippet icon.shieldInfo %}
+{% snippet, "shieldInfo" %}
 The password rotation feature will use the default built-in {{ en.DVLS }} password rules. To level-up the password rules to respect your domain password rules, create a password template in ***Administration - System Settings - Password Template*** Then set it as the default password template in ***Administration - System Settings Password Management - Password Template***.
 {% endsnippet %}

@@ -26,7 +26,7 @@ First, you must issue PKs for each of your users and deploy them to their workst
 
 As always with {{ en.RDM }}, you can mix and match approaches depending on your own requirements.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 An application name other than ***AIMWebService*** must be specified in the ***application name*** field.
 {% endsnippet %}
 

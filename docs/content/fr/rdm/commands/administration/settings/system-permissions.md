@@ -5,7 +5,7 @@ eleventyComputed:
 ---
 Les ***Permissions du système*** permettent d'accorder certaines autorisations administratives aux utilisateurs standard sans en faire des administrateurs. Le paramètre ***Par défaut*** hérite des permissions de l'utilisateur ou du groupe d'utilisateurs.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Cette fonctionnalité nécessite une [Source de données avancées](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/).
 {% endsnippet %}
 
@@ -168,7 +168,7 @@ Autoriser les utilisateurs/groupes d'utilisateurs à utiliser les outils de gest
 
 ### Administration
 
-{% snippet icon.badgeHelp %}
+{% snippet, "badgeHelp" %}
 La valeur ***Par défaut*** dans ***Gestion*** est équivalente à ***Jamais***.
 {% endsnippet %}
 

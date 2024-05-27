@@ -21,7 +21,7 @@ Autorisez ou interdisez les connexions à distance à votre ordinateur.
 
 Vous permet de modifier le port RDP local.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 {{ fr.RDM }} doit être exécuté en tant qu'administrateur pour modifier les paramètres de Bureau à distance.
 {% endsnippet %}
 
@@ -31,7 +31,7 @@ Vous permet de modifier le port RDP local.
 
 Vous devez activer RemoteApp pour pouvoir créer un nouveau paramètre RemoteApp.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 {{ fr.RDM }} doit être exécuté en tant qu'administrateur pour modifier les paramètres de RemoteApp.
 {% endsnippet %}
 

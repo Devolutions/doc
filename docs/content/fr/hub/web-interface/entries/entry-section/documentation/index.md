@@ -10,7 +10,7 @@ La fonction ***Documentation*** permet de stocker des informations concernant le
 1. Cliquer ***Ajouter***.
 1. Nommer le document avec un ***Titre***.
 1. Entrer le texte suivant les normes du langage [Markdown](/fr/hub/web-interface/hub-overview/entries/entry-section/documentation/quick-guide-markdown/).
-{% snippet icon.badgeNotice %}
+{% snippet, "badgeNotice" %}
 Cliquer sur les boutons ***Aperçu*** ou ***Fractionner verticalement*** pour revoir l'apparence du document.
 {% endsnippet %}
 

@@ -7,7 +7,7 @@ eleventyComputed:
 Follow these steps to connect {{ en.RDM }} to the {{ en.WBEX }}. You will be prompted to pair the two applications.
 
 1. Click on the {{ en.WBEX }} at the top right corner of your browser.
-   {% snippet icon.badgeCaution %}
+   {% snippet, "badgeCaution" %}
    {{ en.RDM }} must be installed and running to continue.
    {% endsnippet %}
 
@@ -17,7 +17,7 @@ Follow these steps to connect {{ en.RDM }} to the {{ en.WBEX }}. You will be pro
 ![Association with {{ en.RDM }}](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_Dwl4057.png)
 
 1. Click on ***Associate with {{ en.RDM }}***.
-   {% snippet icon.badgeInfo %}
+   {% snippet, "badgeInfo" %}
    A pop-up window will appear in {{ en.RDM }} to confirm that the request was really sent by you.
    {% endsnippet %}
 
@@ -25,6 +25,6 @@ Follow these steps to connect {{ en.RDM }} to the {{ en.WBEX }}. You will be pro
 ![Association Request](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_Dwl4058.png)
 1. If you click on the icon in your web browser, you can validate that the {{ en.WBEX }} is now paired to your {{ en.RDM }}.
 ![Successful Association of {{ en.RDM }} to the {{ en.WBEX }}](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_Dwl4059.png)
-   {% snippet icon.badgeInfo %}
+   {% snippet, "badgeInfo" %}
    Note that, while {{ en.RDM }} can handle multiple associations (e.g., multiple browsers), the {{ en.WBEX }} can only be paired to a single instance of {{ en.RDM }} at any time.
    {% endsnippet %}

@@ -10,7 +10,7 @@ Follow these steps to connect {{ en.DHUBB }} to the {{ en.WBEX }}:
 
 1. Click on the {{ en.WBEX }} icon in your browser's toolbar.
 
-{% snippet icon.badgeNotice %}
+{% snippet, "badgeNotice" %}
 A {{ en.DHUBB }} access is required to continue.
 {% endsnippet %}
 

@@ -2,7 +2,7 @@
 eleventyComputed:
   title: Créer une inscription d'application Azure Active Directory
 ---
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Cette étape est facultative et non obligatoire si votre version de {{ fr.RDM }} est 2022.1 ou supérieure.
 {% endsnippet %}
 
@@ -18,11 +18,11 @@ Pour pouvoir utiliser la méthode d'authentification Active Directory Interactiv
 1. Sélectionner les types de comptes pris en charge.
 ![!!RdmWin4109](https://cdnweb.devolutions.net/docs/fr/rdm/windows/RdmWin4109.png)
 1. Configurer le l'URI de redirection comme indiquée ci-dessous.
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Le ***Redirect URI*** DOIT être configuré avec ***Public client/native (mobile & desktop)***.
 {% endsnippet %}
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Dans notre exemple, l'URI de redirection est défini sur https<area>://mycompany.com, mais nous vous suggérons de le personnaliser en fonction du domaine de la page d'accueil de votre entreprise. Cela sera nécessaire dans l'étape d'authentification du sujet [Configurer {{ fr.RDM }} Active Directory Interactive (avec MFA)](/fr/rdm/windows/data-sources/data-sources-types/advanced-data-sources/microsoft-azure-sql/enable-azure-active-directory-authentication/configure-rdm-ad-interactive-mfa/).
 {% endsnippet %}
 

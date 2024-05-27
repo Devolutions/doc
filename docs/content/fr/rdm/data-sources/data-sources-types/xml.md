@@ -18,11 +18,11 @@ eleventyComputed:
 
 * Il est possible de configurer un intervalle d'actualisation automatique.
 * La [Sauvegarde en ligne](/fr/cloud/rdm-online-services/online-backup/) est disponible pour cette source de données.
-{% snippet icon.badgeCaution %}
+{% snippet, "badgeCaution" %}
 Il n'y a pas de gestion des conflits pour le fichier de configuration. Si vous partagez avec d'autres utilisateurs, vous pouvez obtenir des conflits de mise à jour et rencontrer des problèmes. Ce type de source de données est destiné à un seul utilisateur utilisant plusieurs ordinateurs, et non plusieurs utilisateurs.
 {% endsnippet %}
 
-{% snippet icon.shieldNotice %}
+{% snippet, "shieldNotice" %}
 Tous les mots de passe sont cryptés par défaut. Vous pouvez spécifier un mot de passe personnalisé (clé maîtresse) pour crypter entièrement le contenu du fichier.
 Il est impossible de récupérer les données si la clé maîtresse est perdue. Assurez-vous de mémoriser ou de sauvegarder la clé principale dans un endroit sûr.
 {% endsnippet %}

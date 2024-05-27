@@ -3,7 +3,7 @@ eleventyComputed:
   title: Utiliser le {{ fr.WBEX }}
   order: 60
 ---
-{% snippet icon.badgeNotice %} 
+{% snippet, "badgeNotice" %} 
 Cette rubrique suppose que vous avez préalablement [installé le {{ fr.WBEX }}](/fr/rdm/mac/workspace-browser-extension/installation/) dans votre navigateur et qu'il est [connecté à {{ fr.RDMMAC }}](/fr/rdm/mac/workspace-browser-extension/first-login-workspace-browser-extension/). 
 {% endsnippet %}
  

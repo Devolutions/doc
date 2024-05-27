@@ -6,7 +6,7 @@ eleventyComputed:
 This is the definitive guide to create secure certificates, for both servers and clients, using OpenSSL.
 
 ## Procedure
-{% snippet icon.badgeHelp %}
+{% snippet, "badgeHelp" %}
 On Windows, it is recommended to use Chocolatey to install OpenSSL and its dependencies. The command line is simply `choco install openssl`.
 {% endsnippet %}
 
@@ -29,12 +29,12 @@ On Windows, it is recommended to use Chocolatey to install OpenSSL and its depen
    Email Address []:security@acme.com
    ```
 1. [Install the certificate](/kb/general-knowledge-base/install-root-certificates/).
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Note that the certificate must be installed on the server and on all of the clients to validate the legitimacy of issued certificates. Some browsers also have particularities which are described in the topic.
 {% endsnippet %}
 
 ### Server certificate
-{% snippet icon.shieldCaution %}
+{% snippet, "shieldCaution" %}
 These steps are usually performed on each server or device for which you intend to request a certificate. Install OpenSSL if it is not present. The alternative is to securely deploy the private key to the destination server at the same time as the certificate. It is recommended to use this last approach only if you must adhere to scripted deployments to follow CloudOps/DevOps practices.
 {% endsnippet %}
 

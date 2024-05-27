@@ -4,11 +4,11 @@ eleventyComputed:
 ---
 L'***Historique de l'entrée*** vous permet d'afficher les détails concernant les différentes versions de vos sessions et vous donne également la possibilité d'effectuer des comparaisons entre différentes versions.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Cette fonctionnalité nécessite une source de données avancée.
 {% endsnippet %}
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Vous devez être un administrateur de la source de données pour effectuer cette action.
 {% endsnippet %}
 

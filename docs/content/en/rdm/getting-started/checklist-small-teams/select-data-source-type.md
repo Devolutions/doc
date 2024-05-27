@@ -9,7 +9,7 @@ This topic is for small teams of at most 15 users that use the functionality off
 To help you select a data source type, here is a set of concerns and the list of SQL data sources that can serve in such
 a a context.
 
-{% snippet icon.shieldWarning %}
+{% snippet, "shieldWarning" %}
 When choosing any type of data source that is not on-premises, you must consider the security of the data at rest and in
 transit. We strongly recommend that you further encrypt your data using a master key for file-based solutions or
 a [security provider](/rdm/commands/administration/security/security-providers/)

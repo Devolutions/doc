@@ -603,6 +603,6 @@ Annuler la création de la nouvelle entrée de site Web et effacer toutes les mo
 	</tr>
 </table>
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Vous pouvez suivre notre guide étape par étape expliquant [comment ajouter une entrée de site Web](/fr/hub/workspace-browser-extension/using-workspace-browser-extension/using-workspace-browser-extension-with-hub-business/add-entry-hub-business-workspace-browser-extension/) dans {{ fr.DHUBB }} avec le {{ fr.WBEX }}.
 {% endsnippet %}

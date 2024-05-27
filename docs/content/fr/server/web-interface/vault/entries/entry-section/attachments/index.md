@@ -11,7 +11,7 @@ Gérer, afficher et télécharger des fichiers ***Pièces jointes*** stockés di
 1. Cliquer ***Ajouter***.
 1. Glisser-déposer ou cliquer pour téléverser le ***Fichier***.
 1. Nommer la pièce jointe avec un ***Titre***.
-{% snippet icon.badgeNotice %}
+{% snippet, "badgeNotice" %}
 Par défaut, le ***Titre*** sera le nom du fichier joint.
 {% endsnippet %}
 

@@ -6,7 +6,7 @@ Des entrées de site Web, de carte de crédit, de contact et de note sécurisé 
 
 ## Ajouter une entrée de site Web
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Cette section explique comment créer une entrée à partir de vos identifiants de site Web existants. Si vous n'avez pas encore créé de compte pour le site Web, consultez plutôt [Créer un compte de site Web avec le {{ fr.WBEX }}](/fr/hub/workspace-browser-extension/using-workspace-browser-extension/using-workspace-browser-extension-with-hub-personal/create-account-website-hub-personal/).
 {% endsnippet %}
 
@@ -67,7 +67,7 @@ Le processus est le même pour tous les types d'entrées, mais les informations 
 ![Nouvelle entrée - Carte de crédit (onglet Général)](https://cdnweb.devolutions.net/docs/fr/hub/Hub2116.png)
 1. Remplir les informations relatives à votre entrée. La seule information obligatoire est le ***Nom***; toutes les autres informations sont facultatives, vous pouvez donc saisir uniquement les informations qui vous sont utiles. Nous vous recommandons d'indiquer également le ***Dossier*** dans lequel votre entrée sera sauvegardée pour un accès facile.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Pour une entrée de ***Note sécurisée***, vous pouvez spécifier un ***Type*** de texte pour votre note. À moins que vous ne sachiez utiliser ***Markdown*** (un langage de balisage pour le formatage du texte), sélectionnez ***Texte brut***.
 {% endsnippet %}
 

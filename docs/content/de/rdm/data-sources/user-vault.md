@@ -4,7 +4,7 @@ eleventyComputed:
 ---
 Der {{ de.UVLT }} ist ein benutzerspezifischer {{ de.VLT }} für Einträge aller Art. Dieser erlaubt es Benutzer, Einträge zu erstellen, auf die nur der jeweilige Benutzer Zugriff hat.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Der {{ de.UVLT }} ist für alle [Erweiterten Datenquellen](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/) verfügbar.
 {% endsnippet %}
 

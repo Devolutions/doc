@@ -5,7 +5,7 @@ eleventyComputed:
 {% youtube '9FrSyzRvw30' %}
 
 In {{ en.RDM }} you can manage two or more active SSH session with ***Broadcast actions*** to send commands on all the sessions at the same time.
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 An upgraded database, by an administrator, might be required.
 {% endsnippet %}
 

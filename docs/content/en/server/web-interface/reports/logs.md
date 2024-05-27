@@ -25,7 +25,7 @@ The ***Administration Logs*** keeps track of administrative level activities, su
 ### Deleted Entries
 The ***Deleted Entries*** lists every entry deleted in the data source, including the folder it originated from, when and whom deleted it. Refine your search by {{ en.VLT }} with the filter and click ***Resurrect Entry*** to recover the entry in its original {{ en.VLT }} and folder.
 
-{% snippet icon.badgeWarning %}
+{% snippet, "badgeWarning" %}
 Once you confirm to delete an entry from the ***Deleted Entries*** lists, it will be deleted completely from the {{ en.DVLS }} data.
 {% endsnippet %}
 

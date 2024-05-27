@@ -21,7 +21,7 @@ Allow or disallow the remote connections to your computer.
 
 Allows you to modify the local RDP port.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 {{ en.RDM }} must be run as an administrator to modify the Remote Desktop settings.
 {% endsnippet %}
 
@@ -31,7 +31,7 @@ Allows you to modify the local RDP port.
 
 You must ***Enable RemoteApp*** to be able to create a New RemoteApp Setting.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 {{ en.RDM }} must be run as an administrator to modify the RemoteApp settings.
 {% endsnippet %}
 

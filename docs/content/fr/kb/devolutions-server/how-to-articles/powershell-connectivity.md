@@ -8,7 +8,7 @@ eleventyComputed:
 Les méthodes suivantes décrivent comment se connecter à {{ fr.DVLS }} à l'aide de PowerShell.
 
 ## Méthode 1 : Utilisation de cmdlets {{ fr.RDM }}
-{% snippet icon.badgeNotice %}
+{% snippet, "badgeNotice" %}
 Cette nouvelle source de données créée avec PowerShell n'existera que dans le contexte de l'utilisateur qui l'a créée.
 {% endsnippet %}  
 

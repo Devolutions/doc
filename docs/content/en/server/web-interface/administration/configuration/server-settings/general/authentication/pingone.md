@@ -32,7 +32,7 @@ The following are the required configuration settings in PingOne.
 
 Here are the required configuration settings for the application used to authenticate a user to our system using their PingOne identity. The required configuration settings are located in the ***Overview tab***. 
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 The basic URL for the worker application is ***api.pingone.[com, ca, eu, asia]/v1***. Note that the URL depends on where PingOne is deployed.
 {% endsnippet %}
 

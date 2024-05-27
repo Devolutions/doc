@@ -7,7 +7,7 @@ eleventyComputed:
 ---
 Si vous n'êtes pas prêt à acheter {{ fr.RDMMAC }}, vous pouvez utiliser l'[Édition Free](/fr/rdm/mac/installation/client/registration/free-edition/) ou suivre les étapes suivantes pour obtenir un essai gratuit de 30 jours de l'Édition Team.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Si vous décidez de ne pas l'enregistrer avant la fin de la période d'essai, vos données ne seront pas altérées ni effacées. Vous aurez de nouveau accès à vos données une fois que la licence sera enregistrée.
 {% endsnippet %}
 

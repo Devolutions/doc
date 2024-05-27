@@ -3,7 +3,7 @@ eleventyComputed:
   title: User is unable to create templates
 ---
 Users cannot create templates, the "+" plus icon is greyed out.
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 By default, standard users cannot create or manage templates. To allow users to create or manage templates, permissions must be granted to users.
 {% endsnippet %}
 

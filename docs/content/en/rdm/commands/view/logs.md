@@ -6,7 +6,7 @@ eleventyComputed:
 When using {{ en.RDM }} locally with an individual type data source, the [***Activity Logs***](/rdm/windows/commands/view/view/activity-logs/), normally found in the ***View*** section of the ***View*** tab, are not available. In this situation, the ***Logs*** section appears in the ***View*** tab.
 ![Local Connection Logs Button](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin2046.png)
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 The ***Local Connection Logs*** replace the [***Activity Logs***](/rdm/windows/commands/view/view/activity-logs/) if you do not have the sufficient permissions to view them.
 {% endsnippet %}
 

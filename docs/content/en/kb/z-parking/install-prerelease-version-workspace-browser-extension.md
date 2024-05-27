@@ -7,7 +7,7 @@ When a new {{ en.WBEX }} version is about to come out, a prerelease version migh
 
 This page contains instructions for installing a prerelease version of the {{ en.WBEX }} on [Chrome](#chrome), [Firefox](#firefox), [Opera](#opera), and [Safari](#safari) browsers.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 X.X.X.X is the version number (e.g., 2023.2.1.0).
 {% endsnippet %}
 
@@ -34,7 +34,7 @@ You are now ready to go!
 
 You are now ready to go!
 
-{% snippet icon.badgeCaution %}
+{% snippet, "badgeCaution" %}
 When closing Firefox, the temporary add-on will be automatically removed and you will need to add it again the next time you open Firefox.
 {% endsnippet %}
 
@@ -49,7 +49,7 @@ You are now ready to go!
 
 ## Safari
 
-{% snippet icon.badgeCaution %}
+{% snippet, "badgeCaution" %}
 Safari version 16 or later is required.
 {% endsnippet %}
 
@@ -65,7 +65,7 @@ Safari version 16 or later is required.
     1. Check the ***Show features for web developers*** box.
     1. Select the ***Develop*** tab.
     1. Check the ***Allow Unsigned Extensions*** box.
-   {% snippet icon.badgeCaution %}
+   {% snippet, "badgeCaution" %}
    The ***Allow Unsigned Extensions*** setting resets when you quit Safari; set it again the next time you launch Safari.
    {% endsnippet %}  
 
@@ -85,7 +85,7 @@ Safari version 16 or later is required.
 
 You are now ready to go!
 
-{% snippet icon.badgeHelp %}
+{% snippet, "badgeHelp" %}
 Source: [Running your Safari web extension - Configure Safari in macOS to run unsigned extensions](https://developer.apple.com/documentation/safariservices/safari_web_extensions/running_your_safari_web_extension#3744467)
 {% endsnippet %}
 
@@ -100,7 +100,7 @@ Source: [Running your Safari web extension - Configure Safari in macOS to run un
     1. Check the ***Show Develop menu in menu bar*** box.
     1. In the menu bar, go to the ***Develop*** tab.
     1. Click on ***Allow Unsigned Extensions***.
-   {% snippet icon.badgeCaution %}
+   {% snippet, "badgeCaution" %}
    The ***Allow Unsigned Extensions*** setting resets when you quit Safari; set it again the next time you launch Safari.
    {% endsnippet %}  
 
@@ -113,6 +113,6 @@ Source: [Running your Safari web extension - Configure Safari in macOS to run un
 
 You are now ready to go!
 
-{% snippet icon.badgeHelp %}
+{% snippet, "badgeHelp" %}
 Source: [Running your Safari web extension - Configure Safari in macOS to run unsigned extensions](https://developer.apple.com/documentation/safariservices/safari_web_extensions/running_your_safari_web_extension#3744467)
 {% endsnippet %}

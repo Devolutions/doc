@@ -23,26 +23,26 @@ We strongly suggest you clean up your database prior to the move.
 1. Select the ***Source*** of your ***server type*** and the ***Target*** of your ***server type*** from the drop-down menu and leave the ***Migration scope*** to ***Schema and data***. Click ***Create***.
 ![!!KB4728](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4728.png)
 1. Enter the local ***Server name*** and choose an ***Authentication type***.
-   {% snippet icon.badgeInfo %}
+   {% snippet, "badgeInfo" %}
    Make sure you have sufficient rights and permission to perform this action.
    {% endsnippet %}
 1. Click ***Connect***.
 1. Choose your database in the selection loaded and click ***Next***.
 ![!!KB4729](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4729.png)
 1. Enter the target ***Server name*** and choose an ***Authentication type***.
-   {% snippet icon.badgeInfo %}
+   {% snippet, "badgeInfo" %}
    Make sure you have sufficient rights and permission to perform this action.
    {% endsnippet %}
 1. Click ***Connect***.
 1. Choose your database in the selection loaded and click ***Next***.
-   {% snippet icon.badgeCaution %}
+   {% snippet, "badgeCaution" %}
    Your new database must have already been [created](https://docs.microsoft.com/en-us/azure/azure-sql/database/single-database-create-quickstart) to appear in this list.
    {% endsnippet %}
 
    ![!!KB4730](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4730.png)
 
 1. Validate if you have issues by scrolling down the schema objects list on the left. You can click on an item for more detail on the specific issue and if a fix is available.
-   {% snippet icon.badgeCaution %}
+   {% snippet, "badgeCaution" %}
    The user accounts with the error Windows users can be converted to external users in Azure SQL Database needs to be deselected from the list for the migration to work.
 
    Those specific users will need to [export](/kb/remote-desktop-manager/how-to-articles/export-import-entries/) their ***{{ en.UVLT }}*** and configuration prior to the migration. Failing to do so will loose the data saved under those sections: ***My account settings***, ***User specific settings***, and any entry made in their ***{{ en.UVLT }}***.
@@ -54,7 +54,7 @@ We strongly suggest you clean up your database prior to the move.
 ![!!KB4731](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4731.png)
 1. Once the script has been generated, validate if there are any issues, then click ***Deploy schema***.
 ![!!KB4732](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4732.png)
-   {% snippet icon.badgeInfo %}
+   {% snippet, "badgeInfo" %}
    This may take some time to execute depending on how many connection history you have in your database.
    {% endsnippet %}
 
@@ -78,7 +78,7 @@ We strongly suggest you clean up your database prior to the move.
 1. You are now ready to create the new data source in [{{ en.RDM }}](#connect-to-remote-desktop-manager) or update the [{{ en.DVLSCONSOLE }}](#connect-to-devolutions-server).
 
 ### Solution 3
-{% snippet icon.badgeCaution %}
+{% snippet, "badgeCaution" %}
 This solution is not supported for a local to local migration. Here is the error message from SSMS when trying to:
 
 You cannot use this Wizard to move databases between local instances of SQL Server. Supported operations include deploying a local instance of SQL Server to Microsoft Azure SQL Database, from Microsoft Azure SQL Database to a local instance of SQL Server, or from one Microsoft Azure SQL Database to another Microsoft Azure SQL Database.
@@ -94,7 +94,7 @@ You cannot use this Wizard to move databases between local instances of SQL Serv
 1. On first connect, you may receive the following error message. If so, click on ***Fix It***.
 ![!!KB4646](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4646.png)
 
-   {% snippet icon.badgeInfo %}
+   {% snippet, "badgeInfo" %}
    This may take some time to execute depending on how many connection history you have in your database.
    {% endsnippet %}
 

@@ -14,6 +14,6 @@ If you contact our support, it is possible that they ask you for application log
 ![Logs](https://cdnweb.devolutions.net/docs/docs_en_kb_KB0135.png)
 1. Tap ***Send application logs***.
 ![Send application logs](https://cdnweb.devolutions.net/docs/docs_en_kb_KB0136.png)
-   {% snippet icon.badgeInfo %}
+   {% snippet, "badgeInfo" %}
    If a case is already open with our support department, it is greatly appreciated to add the case number in the subject of the email containing the logs.
    {% endsnippet %}

@@ -6,7 +6,7 @@ eleventyComputed:
 ***Activity Logs*** provide a robust logging solution. With this feature, it is possible to monitor an open session for all users using [Advanced Data Sources](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/).
 ![Activity Logs](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin2259.png)
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Depending on the permissions each user has, they may only be able to access [***Local Connection Logs***](/rdm/windows/commands/view/logs/).
 {% endsnippet %}
 

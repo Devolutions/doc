@@ -2,10 +2,10 @@
 eleventyComputed:
   title: Web traffic
 ---
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Do not use this without a specific request from Devolution's support personnel.
 {% endsnippet %}  
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 The trace file must NOT have a path specified, this requires that {{ en.RDM }} be installed in a folder other than Program Files. (Running with elevated privileges does not circumvent the UAC.)
 {% endsnippet %}  
 

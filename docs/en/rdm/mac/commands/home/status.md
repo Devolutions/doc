@@ -18,7 +18,7 @@ The Status allows you to change the status of a session.
 | Warning  | This status allows the session to be used, but displays a message to the user before it is opened. |
 | Expired  | An expired session cannot be opened. It can be set manually or automatically if the session expiration date is set in his property. |
 
-{% snippet icon.shieldCaution %}
+{% snippet, "shieldCaution" %}
 If using the Locked option, the session will be locked for other users only but the holder of the lock can still use it.
 {% endsnippet %}
 

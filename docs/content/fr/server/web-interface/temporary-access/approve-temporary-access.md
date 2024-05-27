@@ -4,7 +4,7 @@ eleventyComputed:
   order: 20
   description: La fonction d'Accès temporaire permet aux utilisateurs de demander une élévation temporaire de leurs permissions pour une entrée spécifique. L'approbateur doit alors approuver ou refuser la demande. 
 ---
-{% snippet icon.badgeInfo %} 
+{% snippet, "badgeInfo" %} 
 Lorsque vous utilisez une source de données {{ fr.DVLS }}, Microsoft SQL Server ou Microsoft Azure SQL, vous devez d'abord  [ Activer l'accès temporaire dans {{ fr.RDM }}](/fr/kb/remote-desktop-manager/how-to-articles/enable-temporary-access/). 
 {% endsnippet %}
 
@@ -31,7 +31,7 @@ Enfin, en cliquant sur ***Approuver*** ou ***Refuser***, vous ouvrez la fenêtre
 
 ## Approuver/refuser les demandes d'accès temporaire 
 
-{% snippet icon.badgeInfo %} 
+{% snippet, "badgeInfo" %} 
 La durée de l'***Accès temporaire*** commence lorsque la demande est approuvée.
 {% endsnippet %}
 
@@ -51,6 +51,6 @@ Cette vue est divisée en deux sections :
 
 Cliquer sur ***Approuver*** ou ***Refuser*** permet d'approuver ou de refuser la demande, en fonction de ce que vous avez sélectionné précédemment. Une fenêtre de confirmation s'affiche, que vous pouvez faire disparaître en cliquant sur ***OK***.
 
-{% snippet icon.badgeInfo %} 
+{% snippet, "badgeInfo" %} 
 Pour en apprendre davantage sur l'expérience de l'utilisateur final dans {{ fr.DVLS }}, consultez [Demander un accès temporaire à une entrée dans {{ fr.DVLS }}](/fr/server/web-interface/temporary-access/request-temporary-access/). 
 {% endsnippet %}

@@ -5,7 +5,7 @@ eleventyComputed:
 Voici le guide définitif pour créer des certificats sécurisés, à la fois pour les serveurs et les clients, en utilisant OpenSSL.
 
 ## Procédure
-{% snippet icon.badgeHelp %}
+{% snippet, "badgeHelp" %}
 Sous Windows, nous recommandons d'utiliser Chocolatey pour installer OpenSSL et ses dépendances. La ligne de commande est simplement `choco install openssl`.
 {% endsnippet %}
 
@@ -28,12 +28,12 @@ Common Name (e.g. server FQDN or YOUR name) []:acme.com
 Email Address []:security@acme.com
 ```
 1. [Installer le certificat](/fr/kb/general-knowledge-base/install-root-certificates/).
-{% snippet icon.badgeHelp %}
+{% snippet, "badgeHelp" %}
 Notez que le certificat doit être installé sur le serveur et sur tous les clients pour valider la légitimité des certificats émis. Certains navigateurs ont également des particularités qui sont décrites dans la rubrique.
 {% endsnippet %}
 
 ### Certificat de serveur
-{% snippet icon.shieldCaution %}
+{% snippet, "shieldCaution" %}
 Ces étapes sont généralement effectuées sur chaque serveur ou appareil pour lequel vous avez l'intention de demander un certificat. Installez OpenSSL s'il n'est pas présent. L'alternative consiste à déployer de manière sécurisée la clé privée sur le serveur de destination en même temps que le certificat. Nous vous recommandons d'utiliser cette dernière approche uniquement si vous devez adhérer à des déploiements scriptés pour suivre les pratiques CloudOps/DevOps.
 {% endsnippet %}
 

@@ -29,11 +29,11 @@ Telnet, Terminal Services, VMware, VNC, SCP, X Windows et bien d'autres!
 
 {{ fr.RDM }} est aussi disponible sur plusieurs plateformes listées ci-dessous.
 
-{% snippet icon.badgeNotice %}
+{% snippet, "badgeNotice" %}
 En achetant une licence Team, vous obtenez le droit d’utiliser TOUTES les applications clientes.
 {% endsnippet %}
 
-{% snippet icon.badgeCaution %}
+{% snippet, "badgeCaution" %}
 Vous devez utiliser une application de bureau pour créer une source de données de type Équipe. Cela explique la gratuité
 des applications mobiles. Elles permettent d'utiliser les sources de données comme pour une utilisation individuelle de
 l'édition Free, mais elles ne permettent pas de gérer une source de données de type Équipe.

@@ -13,7 +13,7 @@ Let’s say a malicious actor gets access to a computer enrolled in the provider
 
 What an attacker can do is try to recover the password by brute force, trying several passwords and matching the result with the key until they find a match. Making the hash slower to compute by a margin that is not noticeable to the legitimate users makes it a lot harder for an attacker to brute force the password back.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 This derivation is only done once when enrolling an {{ en.RDM }} instance to the ***Security Provider***, so putting higher values here will not affect performance of regular everyday operations.
 {% endsnippet %}
 
@@ -31,7 +31,7 @@ The defaults settings are good enough to prevent most brute force attacks. Howev
     * If you stop because you do not want to make it slower, you can skip step 4.
     * If you stop because you do not want to use more RAM, but you are willing to make the computation longer, continue to step 4.
 4. Raise the ***Iterations*** parameter as high as desired before it becomes too slow.
-{% snippet icon.badgeHelp %}
+{% snippet, "badgeHelp" %}
 For more information, refer to the following resources:
 
 * [Argon2: the memory-hard function for password hashing and other applications](https://www.password-hashing.net/argon2-specs.pdf)

@@ -8,7 +8,7 @@ The ***Emergency Kit*** contains a key that will be required in case you lose or
 
 1. Go to your {{ en.DA }}.
 1. Click ***Forgot Password*** to receive an access code via email.
-{% snippet icon.badgeCaution %}
+{% snippet, "badgeCaution" %}
 Make sure that you have your ***Emergency Kit*** at hand before clicking on ***Next***.
 {% endsnippet %}
 

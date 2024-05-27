@@ -2,7 +2,7 @@
 eleventyComputed:
   title: Backup restore
 ---
-{% snippet icon.badgeCaution %}
+{% snippet, "badgeCaution" %}
 Before being able to restore a backup, you MUST create an empty data source and define the backup name before being able to use it. You need to create a new SQLite, XML, or {{ en.DOD }} data source in ***File – Data Sources***.
 {% endsnippet %}
 

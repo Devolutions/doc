@@ -20,7 +20,7 @@ Le module {{ fr.PS }} est un moyen d'accéder, de créer, de mettre à jour et d
 
 ### Connexion à votre {{ fr.DHUBB }}
 
-{% snippet icon.badgeHelp %}
+{% snippet, "badgeHelp" %}
 Pour obtenir la liste complète des commandes disponibles, consultez [Commandes PowerShell](/fr/hub/powershell-module/powershell-commands/).
 {% endsnippet %}
 
@@ -30,7 +30,7 @@ Pour obtenir la liste complète des commandes disponibles, consultez [Commandes 
 
 ![Commande Install-Module](https://cdnweb.devolutions.net/docs/fr/hub/Hub2015.png)
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 D'autres options d'installation se trouvent dans la [PowerShell Gallery](https://www.powershellgallery.com/packages/devolutions.powershell/).
 {% endsnippet %}
 
@@ -43,7 +43,7 @@ D'autres options d'installation se trouvent dans la [PowerShell Gallery](https:/
 ### Exemple de commande et utilisation
 
 1. Avec la commande `Get-HubVault`, vous pouvez obtenir des {{ fr.VLT }}s que l'utilisateur d'application peut afficher et modifier.
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Si vous avez défini les permissions de l'utilisateur d'application sur plusieurs {{ fr.VLT }}s, vous verrez un groupe de {{ fr.VLT }}s.
 {% endsnippet %}
 
@@ -51,7 +51,7 @@ Si vous avez défini les permissions de l'utilisateur d'application sur plusieur
 
 2. Avec ces informations de {{ fr.VLT }}, vous pouvez obtenir toutes les entrées avec la commande `Get-HubEntry` et l'ID du {{ fr.VLT }}.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Si vous avez plus d'une entrée, vous verrez un groupe d'entrées.
 {% endsnippet %}
 

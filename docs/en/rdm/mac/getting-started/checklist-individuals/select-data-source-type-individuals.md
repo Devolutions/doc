@@ -10,7 +10,7 @@ security.
 To help you select a data source, here is a set of concerns and the list of data sources that can serve in such a
 context. If you have multiple concerns, create the intersection of all sets to isolate a list of choices.
 
-{% snippet icon.shieldWarning %}
+{% snippet, "shieldWarning" %}
 When choosing any data source type that is not on-premises, you must consider the security of the data at rest and in
 transit. We strongly recommend that you further encrypt your data using a master key for file-based solutions or
 a [security provider](/rdm/mac/commands/administration/security-provider/)

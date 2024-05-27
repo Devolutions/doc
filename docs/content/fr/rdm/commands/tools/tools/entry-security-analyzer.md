@@ -2,7 +2,7 @@
 eleventyComputed:
   title: Analyseur de sécurité d'entrées
 ---
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Les informations de cette rubrique décrivent le fonctionnement du mode « Legacy » d'analyse de mot de passe. Le mode peut être modifié dans les ***Paramètres Système*** pour ZXCVBN. Le mode « Legacy » n'est pas le mode par défaut.
 {% endsnippet %}
 

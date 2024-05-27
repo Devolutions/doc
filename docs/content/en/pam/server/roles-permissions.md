@@ -3,7 +3,7 @@ eleventyComputed:
   title: Roles and permissions (PAM)
   description: In {{ en.DVLS }}, the concept of Roles is unique to PAM.
 ---
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 In {{ en.DVLS }}, the concept of ***Roles*** is unique to PAM. Outside of PAM users, every permission you can give or withhold from a user is very granular.
 {% endsnippet %}
 

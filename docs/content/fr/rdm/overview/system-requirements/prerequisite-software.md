@@ -4,7 +4,7 @@ eleventyComputed:
 ---
 Des logiciels prérequis spécifiques doivent être installés sur votre ordinateur avant d'exécuter {{ fr.RDM }}. 
 
-{% snippet icon.badgeInfo %} 
+{% snippet, "badgeInfo" %} 
 Ces installations sont gérées automatiquement par nos installateurs. Les seules situations dans lesquelles il faudrait procéder à une installation manuelle d'un logiciel prérequis sont lorsque l'archive zip est utilisée pour le déploiement ou s'il n'y a pas de connexion Internet. 
 {% endsnippet %}
  

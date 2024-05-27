@@ -67,7 +67,7 @@ Sample of a JSON response file for creating a new {{ en.DVLS }} instance.
 ### Emergency procedure
 This procedure is useful in case of an Azure Directory outage.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Please note that you should replace `dvls` (after ...`\wwwroot\`) with your own custom domain.
 {% endsnippet %}
 

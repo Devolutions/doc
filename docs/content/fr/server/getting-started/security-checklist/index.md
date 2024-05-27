@@ -4,7 +4,7 @@ eleventyComputed:
 ---
 Pour atteindre le plus haut niveau de sécurité, vous devez suivre les recommandations suivantes.  
 
-{% snippet icon.shieldWarning %} 
+{% snippet, "shieldWarning" %} 
 Ces recommandations sont valides seulement si l'instance de {{ fr.DVLS }} est hébergé EXCLUSIVEMENT sur votre intranet. Vous devez impliquer une personne spécialisée dans la sécurité d'Internet afin d'héberger sécuritairement toute application sur Internet. Vous devez protéger le site Web contre les attaques par Déni de service (DoS) en utilisant un appareil ou un module de sécurité externe à {{ fr.DVLS }}. 
 {% endsnippet %}
  

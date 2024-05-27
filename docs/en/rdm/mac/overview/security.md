@@ -8,17 +8,17 @@ All passwords stored in the application database are encrypted using a strong en
 
 Our application uses the XChaCha20Poly1305 encryption algorithm to protect sensitive data in the database. Consult [Devolutions cryptographic library](https://github.com/Devolutions/devolutions-crypto) for more details.
 
-{% snippet icon.shieldInfo %}
+{% snippet, "shieldInfo" %}
 The local RDM data is encrypted using Advanced Encryption Standard (AES) for computers running in FIPS mode.
 {% endsnippet %}
 
 ## Tips 
 
-{% snippet icon.shieldWarning %} 
+{% snippet, "shieldWarning" %} 
 Encryption of data while in transit is offered natively by our cloud services. Whenever you decide to use an on-premises solution, implementing encryption of data in transit must be implemented by using the tools involving your chosen technologies. Most customers that have security concerns already choose one of the supported [Advanced Data Sources](/rdm/mac/data-sources/data-sources-types/advanced-data-sources/), follow instructions specific to the chosen solution. 
 {% endsnippet %}
  
-{% snippet icon.shieldWarning %} 
+{% snippet, "shieldWarning" %} 
 The encryption is built-in the application and is therefore the same for all copies of the software in circulation. It is imperative that you follow our recommended steps and apply a [Security Provider](/rdm/mac/commands/administration/security-provider/) to encrypt not only the passwords, but also all of the connection data that is stored in the data source. This will give you protection over your data at rest, using a key under your exclusive control. 
 {% endsnippet %}
  

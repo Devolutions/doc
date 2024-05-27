@@ -12,6 +12,6 @@ The {{ en.UVLT }} Search allows to link a {{ en.UVLT }} credential entry to a se
 ![RDP Session - {{ en.UVLT_MAJ }} search](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip6006.png)
 1. Open the session as you would normally proceed. Once the credential is found it will automatically be used to open the remote session.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 The {{ en.UVLT }} is linked to the database user. Another user will never be able to see your {{ en.UVLT }} credentials.
 {% endsnippet %}

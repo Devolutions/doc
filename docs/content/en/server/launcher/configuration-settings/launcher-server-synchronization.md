@@ -6,7 +6,7 @@ eleventyComputed:
 ---
 {{ en.DLAUNCHER }} and {{ en.DVLS }} must be configured together to work. Launch connections can be set for all users in ***{{ en.DVLS }} Server Settings*** or individually in ***Account preferences***.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 You need to at least log in once to {{ en.DLAUNCHER }} for the companion tool to launch your sessions from {{ en.DVLS }}.
 {% endsnippet %}
 

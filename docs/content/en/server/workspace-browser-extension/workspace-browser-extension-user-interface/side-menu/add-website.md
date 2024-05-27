@@ -29,6 +29,6 @@ See the table below to learn about each field/setting from this view.
 | Save                                 | Save the settings of your new website entry and create the entry.                     |
 | Cancel                               | Cancel the creation of a new website entry and clear all unsaved changes to settings. |
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Follow our step-by-step guide on how to [add a website entry with the {{ en.WBEX }}](/server/workspace-browser-extension/using-workspace-browser-extension/add-website-entry-workspace-browser-extension/).
 {% endsnippet %}

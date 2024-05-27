@@ -17,7 +17,7 @@ Vous pouvez choisir de créer un modèle ***Local*** ou un modèle ***Partagé**
 * Les modèles locaux sont enregistrés sur l'ordinateur local et ne sont pas disponibles pour les autres utilisateurs.
 * Les modèles partagés sont enregistrés dans la base de données et peuvent être utilisés par tous les utilisateurs.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Par défaut, les utilisateurs standard ne peuvent pas créer ou gérer de modèles. Pour permettre aux utilisateurs de créer ou de gérer des modèles, la permission doit être accordée aux utilisateurs en allant dans la section ***Administration - Modèles*** des [Permissions du système](/fr/rdm/windows/commands/administration/settings/system-permissions/).
 {% endsnippet %}
 

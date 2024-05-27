@@ -14,7 +14,7 @@ The following topic contains the procedure to configure Azure and {{ en.DVLS }} 
 1. Click on the ***Copy to clipboard*** button beside the ***Tenant ID*** property.
 ![Copy the Tenant ID](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4401.png)
 1. Paste this value in the ***Tenant ID*** field of the {{ en.DVLS }} ***Microsoft Authentication*** configuration page.
-   {% snippet icon.badgeInfo %}
+   {% snippet, "badgeInfo" %}
    The ***Use specific client ID for users and user groups cache*** option should only be check to support configurations when migrating from an older {{ en.DVLS }} version.
    {% endsnippet %}
 
@@ -63,7 +63,7 @@ The following topic contains the procedure to configure Azure and {{ en.DVLS }} 
 1. Confirm the removal by clicking ***Yes, remove*** since this permission is not required for the sync application.
 
 1. If the ***Status*** of the ***User.Read.All*** and ***Group.Read.All*** permissions is ***Not granted***, an administrator must grant consent.
-   {% snippet icon.shieldCaution %}
+   {% snippet, "shieldCaution" %}
    It may be possible that the newly added permissions require an Azure administrator to consent. If the account used to create the application is already an administrator in Azure, click on ***Grant admin consent for &lt;your organization&gt;***.
    {% endsnippet %}
 
@@ -72,7 +72,7 @@ The following topic contains the procedure to configure Azure and {{ en.DVLS }} 
 ![Save your configuration](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4981.png)
 
 You should now be able to use the ***Microsoft*** button on the web interface.
-{% snippet icon.badgeCaution %}
+{% snippet, "badgeCaution" %}
 After activating the Microsoft authentication, it may take a while for the cache to load before being able to import users and user groups. If the issue persists, please consult [Unable to import Azure AD users or groups](/kb/devolutions-server/troubleshooting-articles/unable-import-azure-ad-users-groups/) for troubleshooting.
 {% endsnippet %}
 

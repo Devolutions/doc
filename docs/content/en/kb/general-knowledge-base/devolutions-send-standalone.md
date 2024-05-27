@@ -10,7 +10,7 @@ eleventyComputed:
 [{{ en.DSEND_STANDALONE }}](https://devolutions.net/devolutions-send/) features a secure method to generate a link to share secrets instead of using insecure email to send sensitive data.
 
 ## Features
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 The in-app version of {{ en.DSEND }} is currently under development and will be progressively deployed in {{ en.RDM }}, {{ en.DVLS }}, and {{ en.DHUB }}. More information will come in the future.
 {% endsnippet %}
 
@@ -33,13 +33,13 @@ Despite sharing the same underlying architecture, slight differences exist betwe
 
 ## How to receive a {{ en.DSEND_STANDALONE }} secret
 1. Click on the received encrypted link.
-   {% snippet icon.badgeCaution %}
+   {% snippet, "badgeCaution" %}
    A {{ en.DSEND_STANDALONE }} secret will always start with `https://send.devolutions.com/receive/`.
    {% endsnippet %}
 1. Enter the ***Passphrase*** the sender provided (if necessary) and click on ***Decrypt***.
 ![Decrypt button](https://cdnweb.devolutions.net/docs/docs_en_kb_KB0187.png)
 1. Click on ***Unmask text***.
-   {% snippet icon.shieldCaution %}
+   {% snippet, "shieldCaution" %}
    Make certain to be in a private setting before reading this message if it contains sensitive information.
    {% endsnippet %}
 

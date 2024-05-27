@@ -2,7 +2,7 @@
 eleventyComputed:
   title: Access URI
 ---
-{% snippet icon.badgeCaution %}
+{% snippet, "badgeCaution" %}
 This issue is related to upgrading from a version prior to 2022.1 to 2022.2.
 {% endsnippet %}
 
@@ -13,11 +13,11 @@ During the upgrade process or the installation process of {{ en.DVLS }}, we must
 1. In the {{ en.DVLSCONSOLE }}, go to ***Server - Edit - IIS***.
 1. Enter the ***Access URI*** in the text field following the format provided in the Scenarios.
 
-{% snippet icon.badgeNotice %}
+{% snippet, "badgeNotice" %}
 The Access URI is case sensitive and must respect the certificate host name. Ensure that there is no '/' at the end of the URL.
 {% endsnippet %}
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 There can be more than one Access URI. Click the ellipsis button to add or manage additional ***Access URI***.
 {% endsnippet %}
 

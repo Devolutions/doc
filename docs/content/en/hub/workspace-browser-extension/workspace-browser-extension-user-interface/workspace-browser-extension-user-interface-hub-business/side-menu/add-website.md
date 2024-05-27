@@ -110,6 +110,6 @@ These are the buttons at the bottom of the ***New Entry – Website*** window th
 | Add | Save the settings of your new website entry and create the entry. |
 | Cancel | Cancel the creation of a new website entry and clear all unsaved changes to settings. |
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Follow our step-by-step guide explaining how to [add a website entry](/hub/workspace-browser-extension/using-workspace-browser-extension/using-workspace-browser-extension-with-hub-business/add-entry-hub-business-workspace-browser-extension/) in {{ en.DHUBB }} with the {{ en.WBEX }}.
 {% endsnippet %}

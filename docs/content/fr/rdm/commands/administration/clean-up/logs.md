@@ -5,11 +5,11 @@ eleventyComputed:
 ---
 ***Nettoyer les journaux d'activité*** suppriment les journaux d'activité de votre source de données. Vous avez également la possibilité de nettoyer les ***Journaux d'administration*** et de configurer une sauvegarde si vous le souhaitez.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Cette fonctionnalité nécessite une [Source de données avancées](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/)
 {% endsnippet %}
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Vous devez être administrateur de la source de données pour effectuer cette action.
 {% endsnippet %}
 
@@ -17,7 +17,7 @@ Vous devez être administrateur de la source de données pour effectuer cette ac
 
 1. Vous devez confirmer votre choix avant de supprimer définitivement vos journaux de source de données.
 ![Nettoyer les journaux d'activité](https://cdnweb.devolutions.net/docs/fr/rdm/windows/clip10342.png)
-{% snippet icon.shieldWarning %}
+{% snippet, "shieldWarning" %}
 Une sauvegarde de votre journal sera créée sous forme de fichier XML bien qu'il soit alors impossible d'importer ce fichier dans {{ fr.RDM }}.
 {% endsnippet %}
 

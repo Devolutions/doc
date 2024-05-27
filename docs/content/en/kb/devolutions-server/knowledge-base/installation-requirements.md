@@ -17,6 +17,6 @@ Please contact us at [service@devolutions.net](mailto:service@devolutions.net) t
 1. Devolutions could be using several accounts to connect to the database for the different components.These accounts can be Domain service accounts (Integrated Security) or SQL Accounts, read more about accounts in this article about [Pre-Deployment Account Survey](/kb/devolutions-server/knowledge-base/pre-deployment-account-survey/).
 1. Follow the steps in [Create {{ en.DVLS }} Instance](/server/getting-started/installation/create-server-instance/).
 
-{% snippet icon.shieldInfo %}
+{% snippet, "shieldInfo" %}
 Ensure that the encryption keys will be exported and saved in a safe place at the end of the installation process.
 {% endsnippet %}

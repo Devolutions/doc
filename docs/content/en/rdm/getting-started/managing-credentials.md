@@ -5,7 +5,7 @@ eleventyComputed:
 ---
 Depending on your organization's security policies, there are multiple ways of handling credentials. We can manage a wide range of scenarios; the most popular are listed below. It is critical to understand that these are the credentials used to connect to remote hosts, not the ones you use to launch {{ en.RDM }}. 
 
-{% snippet icon.badgeInfo %} 
+{% snippet, "badgeInfo" %} 
 Most of these selections do not exist in the Free edition of {{ en.RDM }} as they depend on features offered by an [Advanced Data Source](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/). 
 {% endsnippet %}
  

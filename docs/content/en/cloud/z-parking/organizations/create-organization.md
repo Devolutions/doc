@@ -12,11 +12,11 @@ You can create and manage ***Organizations*** for your team in your {{ en.DA }}.
 ![!!Cloud4062](https://cdnweb.devolutions.net/docs/docs_en_cloud_Cloud4062.png)
 1. Enter the ***Organization name*** and click ***Submit***.
 
-{% snippet icon.badgeCaution %}
+{% snippet, "badgeCaution" %}
 Organization names are unique, no two can be named the same.
 {% endsnippet %}
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 You can enter an ***Image URL***, it is optional, the option is found in the ***Settings***.
 {% endsnippet %}
 

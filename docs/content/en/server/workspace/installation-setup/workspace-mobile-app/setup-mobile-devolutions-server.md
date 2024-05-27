@@ -13,7 +13,7 @@ Follow the steps below to perform the initial configuration of your {{ en.WMAPP 
 1. After the installation is complete, in the ***{{ en.WS }} Setup*** window, check ***{{ en.DVLS }}***, then tap on ***Start Setup***.
 ![{{ en.DVLS }} setup](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp2076.png)
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 During the setup, you can always tap on ***Skip This Step*** to configure that specific setting later.
 {% endsnippet %}
 

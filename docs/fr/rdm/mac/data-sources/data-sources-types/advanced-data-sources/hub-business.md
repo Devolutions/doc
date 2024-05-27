@@ -6,7 +6,7 @@ eleventyComputed:
 
 Veuillez consulter notre site [Web](https://devolutions.net/password-hub/fr) pour plus d'informations sur ce service.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Pour commencer dès aujourd'hui votre essai gratuit de {{ fr.DHUBB }}, [cliquez ici](https://devolutions.net/password-hub/fr/business/sign-up).
 {% endsnippet %}
 

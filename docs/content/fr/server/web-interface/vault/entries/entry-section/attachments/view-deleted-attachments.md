@@ -4,14 +4,14 @@ eleventyComputed:
 ---
 Les pièces jointes supprimées peuvent être restaurées et gérées dans l'entrée ***Afficher les pièces jointes supprimées*** de la section ***Pièces jointes***.
 
-{% snippet icon.badgeWarning %}
+{% snippet, "badgeWarning" %}
 La suppression à partir de la section ***Afficher les pièces jointes supprimées*** est irréversible.
 {% endsnippet %}
 
 ### Restaurer une pièce jointe
 
 1. Cliquer sur l'entrée dont la pièce jointe a été supprimée.
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Pour afficher toutes les pièces jointes supprimées, exécuter le rapport ***Journaux d'activité*** avec le filtre ***Message : Pièce jointe supprimée***.
 {% endsnippet %}
 

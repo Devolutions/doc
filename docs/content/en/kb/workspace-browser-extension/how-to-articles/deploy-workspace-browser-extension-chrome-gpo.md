@@ -3,7 +3,7 @@ eleventyComputed:
   title: Deploy the {{ en.WBEX }} in Google Chrome or Edge using GPOs
   description: The settings deployed with the group policy object (GPO) are only enforced when the extension is used for the first time.
 ---
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Important note for {{ en.WBEX }} **versions prior to 2021.2.3.0**.
 
 The settings deployed with the group policy object (GPO) are only enforced when the extension is used for the first time. This means that the settings will not be enforced and changed if you modify the settings in the GPO and the extension has already been used by a user at least once.
@@ -20,7 +20,7 @@ The settings deployed with the group policy object (GPO) are only enforced when 
 1. Set the ***Action*** parameter to Replace to modify the existing rule or to create it if it does not exist.
 1. Set the ***Hive*** parameter to **HKEY_LOCAL_MACHINE** or **HKEY_CURRENT_USER** according to your needs.
 1. Enter **SOFTWARE\Policies\Google\Chrome\3rdparty\extensions\neimonjjffhehnojilepgfejkneaidmo\policy** in the ***Key Path*** text field.
-   {% snippet icon.badgeInfo %}
+   {% snippet, "badgeInfo" %}
    Enter **\SOFTWARE\Policies\Microsoft\Edge\3rdparty\extensions\ddloeodolhdfbohkokiflfbacbfpjahp\policy** in the ***Key Path*** text field if you are using Microsoft Edge.
    {% endsnippet %}
 

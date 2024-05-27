@@ -9,7 +9,7 @@ eleventyComputed:
 ## Propagation by script
 The following sections describe the properties of the ***Propagation*** by script feature within the Privileged Access Management solution. The [Steps](#steps-with-template) section explains how to set up this feature by using a Devolutions template, but it is also possible to [Create a template](#create-a-powershell-template).
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 This method covers all PAM account providers.
 {% endsnippet %}
 
@@ -45,13 +45,13 @@ This method covers all PAM account providers.
 ![+ button](https://cdnweb.devolutions.net/docs/docs_en_kb_KB0105.png)
 1. Select the configuration to link to that account, and click ***Confirm***.
 ![Confirm button](https://cdnweb.devolutions.net/docs/docs_en_kb_KB0106.png)
-   {% snippet icon.badgeInfo %}
+   {% snippet, "badgeInfo" %}
    It is possible to select multiple configurations.
    {% endsnippet %}
 
 1. Click ***OK*** to save the changes and close the window.
 ![OK button](https://cdnweb.devolutions.net/docs/docs_en_kb_KB0107.png)
-   {% snippet icon.badgeInfo %}
+   {% snippet, "badgeInfo" %}
    To test if the link is successful, click on ***More*** and then ***Reset Password***. If working correctly, the newly created file will appear on the remote machine. If not, it is recommended to check the logs of the account.
    {% endsnippet %}
 
@@ -64,7 +64,7 @@ This method covers all PAM account providers.
 1. Click on ***Add***.
 ![Add](https://cdnweb.devolutions.net/docs/docs_en_kb_KB0112.png)
 1. In the General tab, add a ***Name*** for this template.
-   {% snippet icon.badgeInfo %}
+   {% snippet, "badgeInfo" %}
    It is possible to add a ***Description***. The icon can also be changed by clicking on it.
    {% endsnippet %}
 
@@ -75,20 +75,20 @@ This method covers all PAM account providers.
 1. In the ***Script*** tab, the previous variables appear as well as the ***NewPassword*** variable. This new variable will contain the new password for the account on script execution.
 1. Click on ***Generate base script***.
 ![Generate base script](https://cdnweb.devolutions.net/docs/docs_en_kb_KB0115.png)
-   {% snippet icon.badgeInfo %}
+   {% snippet, "badgeInfo" %}
    Click on ***Edit*** to modify or add to the script.
    {% endsnippet %}
 
 1. Click ***Save*** to save this configuration and close the window.
-   {% snippet icon.badgeInfo %}
+   {% snippet, "badgeInfo" %}
    Learn more about custom scripts for this feature by visiting our [public GitHub](https://github.com/Devolutions/PAM-Providers/blob/master/Propagation-Scripts/Create-A-Template.md).
    {% endsnippet %}
 
 ## Active Directory specific propagation
-{% snippet icon.badgeNotice %}
+{% snippet, "badgeNotice" %}
 The WinRM must be properly configured as described in [WinRM and Trusted Hosts List](/kb/devolutions-server/how-to-articles/winrm-trustedhostslist/) article.
 {% endsnippet %}
-{% snippet icon.badgeCaution %}
+{% snippet, "badgeCaution" %}
 This ***Password Propagation*** feature is only available for Domain accounts.
 {% endsnippet %}
 

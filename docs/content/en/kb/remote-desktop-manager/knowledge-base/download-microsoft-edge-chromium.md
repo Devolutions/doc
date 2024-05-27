@@ -22,6 +22,6 @@ Download the [Microsoft Edge WebView2 Runtime](https://developer.microsoft.com/e
 
 Once downloaded and installed, restart {{ en.RDM }} for the installation to take effect.
 
-{% snippet icon.badgeHelp %}
+{% snippet, "badgeHelp" %}
 If you get an error message indicating that installation has failed due to an existing installation on the current system, you need to force reinstallation of the program by deleting a registry key. Follow the steps in [Microsoft Edge WebView2 Runtime installation troubleshooting](/kb/remote-desktop-manager/troubleshooting-articles/microsoft-edge-webview2-runtime-installation-troubleshooting).
 {% endsnippet %}

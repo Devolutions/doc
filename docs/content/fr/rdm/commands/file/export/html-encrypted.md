@@ -4,7 +4,7 @@ eleventyComputed:
 ---
 Le format d'exportation spéciale HTML cryptée a été conçu pour des exportations d'entrées simples et sécurisées. Il permet une exportation HTML des informations d'entrée tout en utilisant le cryptage symétrique (AES-256) pour crypter les informations sensibles telles que les mots de passe. Le fichier est un fichier HTML autonome, portable qui ne nécessite aucun fichier de script ou d'installation externe. Tant que vous avez un navigateur Web avec JavaScript activé, vous pouvez accéder à vos données cryptées.
 
-{% snippet icon.shieldNotice %}
+{% snippet, "shieldNotice" %}
 Avec un document crypté sécurisé, vous pouvez envoyer librement les informations par courriel ou tout autre protocole sans compromettre les données sensibles. Utiliser l'exportation comme moyen de partage ou comme sauvegarde d'informations sensibles.
 {% endsnippet %}
 
@@ -12,7 +12,7 @@ Avec un document crypté sécurisé, vous pouvez envoyer librement les informati
 
 Sélectionner les entrées à exporter ou exporter le {{ fr.VLT }}. Cliquer avec le bouton droit et sélectionner ***Exporter - Exportation spéciale - Exporter la sélection (.html)*** ou utiliser ***Fichier - Exporter - Exporter le {{ fr.VLT }} (.html)***. Vous serez invité à saisir un mot de passe pour la clé de cryptage symétrique. Sélectionner le nom de fichier du nouveau document. Une fois l'exportation terminée, le fichier s'ouvrira dans votre navigateur par défaut.
 
-{% snippet icon.badgeWarning %}
+{% snippet, "badgeWarning" %}
 Assurez-vous de ne pas oublier le mot de passe, car vous ne pourrez pas décrypter les données sans lui.
 {% endsnippet %}
 

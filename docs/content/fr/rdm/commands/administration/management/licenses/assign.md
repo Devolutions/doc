@@ -7,18 +7,18 @@ Les licences {{ fr.RDM }} sont stockées dans une [Source de données avancée](
 1. Gérer et attribuer les licences aux l'utilisateurs sous ***Administration – Licences***.
 ![Administration – Licences](https://cdnweb.devolutions.net/docs/fr/rdm/windows/clip3417.png)
 1. Sélectionner la licence et cliquer sur l'icône ***Assigner une licence***.
-{% snippet icon.badgeNotice %}
+{% snippet, "badgeNotice" %}
 Si vous possédez plusieurs licences, notre équipe des [Ventes](mailto:sales@devolutions.net?subject=Co-terminate%20all%20my%20RDM%20licenses) peut vous proposer un renouvellement conjoint pour faciliter la gestion de vos licences.
 {% endsnippet %}
 
 ![Gestion des usagers et de la sécurité](https://cdnweb.devolutions.net/docs/fr/rdm/windows/RdmWin4102.png)
 
 3. Dans la colonne ***Assignée***, cocher à côté de chaque utilisateur pour lequel vous souhaitez accorder une licence ou utiliser les boutons d'action globaux pour assigner à tous ou manquant.
-{% snippet icon.badgeNotice %}
+{% snippet, "badgeNotice" %}
 Cette étape attribuera automatiquement la licence aux utilisateurs sélectionnés, supprimant ainsi le besoin d'interagir avec chaque utilisateur.
 {% endsnippet %}
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 L'attribution automatique de licences aux utilisateurs ne fonctionne pas avec une source de données Hub puisque vous serez redirigé vers l'interface Web après avoir cliqué sur ***Licences***. Cette fonctionnalité n'est pas disponible dans l'interface Web de Hub.
 {% endsnippet %}
 

@@ -8,7 +8,7 @@ eleventyComputed:
 
 ## Settings
 
-{% snippet icon.badgeNotice %}
+{% snippet, "badgeNotice" %}
 Before you start the configuration, make sure you have installed the [{{ en.WMAPP  }}](https://devolutions.net/authenticator).
 {% endsnippet %}
 
@@ -18,6 +18,6 @@ Before you start the configuration, make sure you have installed the [{{ en.WMAP
 ![!!KB4513](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4513.png)
 1. Click ***Validate***, then ***OK***.
 1. Relaunch {{ en.RDM }} to be prompted for the {{ en.WS }} code.
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 {{ en.WS }} generates a new validation code every 30 seconds.
 {% endsnippet %}

@@ -5,11 +5,11 @@ eleventyComputed:
 ---
 The ***Documentation*** feature allows to store information regarding entries.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 This feature is also available with {{ en.DVLS }} and SQL Server data sources.
 {% endsnippet %}
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 The ***Documentation*** feature is encrypted only for {{ en.DVLS }}, {{ en.DHUBB }} and {{ en.DHUBP }} data sources. If you are using data sources like SQL Server or Azure SQL, the ***Documentation*** feature is not encrypted.
 {% endsnippet %}
 

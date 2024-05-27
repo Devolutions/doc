@@ -6,7 +6,7 @@ There are many different types of credentials and they are used by a multitude o
 
 The problem is solved by using the Windows ***Run As*** command.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 The ***Run As*** command requires that the ***Secondary Logon*** service is running.
 {% endsnippet %}
 

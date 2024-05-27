@@ -25,7 +25,7 @@ Das Szenario ist bekannt: Ihr Team arbeitet seit Monaten oder sogar Jahren mit {
 
 Wir haben diese Optionen extrem einfach gehalten. Öffnen Sie einfach ***Administration - System Einstellungen - Versionsverwaltung***.
 
-{% snippet icon.badgeHelp %}
+{% snippet, "badgeHelp" %}
 Weitere Informationen zur Lizenz- sowie Versionsverwaltung finden Sie unter [Lizenzen](/rdm/windows/commands/administration/management/licenses/) und [Versionsverwaltung](/de/rdm/windows/commands/administration/settings/system-settings/application/version-management/) respectively.
 {% endsnippet %}
 

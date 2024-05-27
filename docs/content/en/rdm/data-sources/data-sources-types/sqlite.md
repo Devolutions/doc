@@ -10,15 +10,15 @@ eleventyComputed:
 * Full connection log and attachments support.
 * The [{{ en.OBACK }} Service](/cloud/rdm-online-services/online-backup/) is available for this data source.
 
-{% snippet icon.shieldInfo %}
+{% snippet, "shieldInfo" %}
 All passwords are encrypted by default by {{ en.RDM }}. You can specify a custom password to fully encrypt the content of the SQLite database.
 {% endsnippet %}
 
-{% snippet icon.shieldWarning %}
+{% snippet, "shieldWarning" %}
 Password recovery is not possible, the data will be unrecoverable if you cannot authenticate. Please ensure you backup the password in a safe place.
 {% endsnippet %}
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 SQLite supports an unlimited number of simultaneous readers, but will only allow one writer at any instant in time. For this reason {{ en.RDM }} does not support sharing a SQLite data source between several users by storing it on a network drive. If you want to share your data and work in a team environment with your colleagues, please use one of the [Advanced Data Sources](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/). Please consult [SQLite.org](https://www.sqlite.org/whentouse.html) for more information.
 {% endsnippet %}
 

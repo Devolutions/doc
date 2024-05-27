@@ -8,11 +8,11 @@ eleventyComputed:
 ---
 Cette rubrique concerne toutes les commandes et les arguments pour gérer PSHubContext. 
 
-{% snippet icon.badgeInfo %} 
+{% snippet, "badgeInfo" %} 
 Vous devrez avoir installé le [module {{ fr.PS }}](/fr/hub/powershell-module/) pour utiliser ces commandes. 
 {% endsnippet %}
  
-{% snippet icon.shieldCaution %} 
+{% snippet, "shieldCaution" %} 
 Des permissions appropriées sont également nécessaires pour exécuter certaines de ces commandes. Veuillez vous référer à [Utilisateurs d'application](/fr/hub/web-interface/administration/management/application-users/). 
 {% endsnippet %}
  
@@ -25,7 +25,7 @@ Dans cet objet, vous avez ce qui suit :
 * Clé secrète d'application : Clé secrète d'application donnée après la création de l'utilisateur d'application  
 * Clé de l'application : Clé de l'application donnée après la création de l'utilisateur d'application  
 
-{% snippet icon.badgeInfo %} 
+{% snippet, "badgeInfo" %} 
 * Pour vérifier toutes les commandes disponibles :  
 `Get-Command-Module <ModuleName>`  
 * Pour vérifier tous les arguments et paramètres potentiels pour une commande :  

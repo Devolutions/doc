@@ -8,7 +8,7 @@ eleventyComputed:
 ## Settings
 ![Administration – Users](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp6082.png)
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 ***User Specific Settings*** are shared between {{ en.RDM }}, {{ en.DVLS }} and {{ en.DHUB }}.
 {% endsnippet %}
 

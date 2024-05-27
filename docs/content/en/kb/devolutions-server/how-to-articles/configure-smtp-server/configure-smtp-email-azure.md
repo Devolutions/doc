@@ -17,7 +17,7 @@ You can now configure the SMTP email in {{ en.DVLS }}.
 3. In the ***Administrator Email*** field, enter the recipient email address that will receive the errors.
 1. In the ***Client ID*** field, enter the ID of the application. In the Azure portal, this information is called ***Application (client) ID*** and can be found in the ***Overview*** of your app.
 1. In the ***Tenant ID*** field, enter the ID of the tenant that can be found in the ***Overview*** of your application.
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Please note that emails can only be sent to accounts of the same tenant; they cannot be sent externally.
 {% endsnippet %}
 

@@ -4,7 +4,7 @@ eleventyComputed:
 ---
 It is possible to import data source configuration files for {{ en.RDMANDROID }}.
 
-{% snippet icon.badgeCaution %}
+{% snippet, "badgeCaution" %}
 The RDD file does not include the content of the data source; only the configuration is exported. Use the entry's export functionality to back up or copy the content of the database.
 {% endsnippet %}
 

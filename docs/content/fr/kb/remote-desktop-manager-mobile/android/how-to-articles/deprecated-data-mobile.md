@@ -5,7 +5,7 @@ eleventyComputed:
 ---
 A ***deprecated data source*** refers to a data source that is no longer recommended or officially supported. Follow this quick step-by-step guide to easily show deprecated data source types in {{ en.RDMANDROID }}.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Both the Windows and Mac versions of mobile {{ en.RDM }} are covered in this step-by-step guide.
 {% endsnippet %}  
 

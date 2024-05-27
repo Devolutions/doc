@@ -9,7 +9,7 @@ eleventyComputed:
 
 ## Paramètres
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Avant de commencer la configuration, assurez-vous d'avoir créé un compte Duo et d'avoir également installé l'application Duo sur un appareil compatible.
 {% endsnippet %}
 

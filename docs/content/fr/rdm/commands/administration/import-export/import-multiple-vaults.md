@@ -4,7 +4,7 @@ eleventyComputed:
 ---
 La fonction ***Importer plusieurs {{ fr.VLT }}s (.rdx)*** permet d'importer un ou plusieurs {{ fr.VLT }}s à la fois. Découvrir comment dans [Export and import {{ en.VLT }}s (EN)](/kb/remote-desktop-manager/how-to-articles/export-import-vaults/).
 
-{% snippet icon.badgeCaution %}
+{% snippet, "badgeCaution" %}
 Les {{ fr.VLT }}s que vous désirez importer doivent d'abord avoir été exportés avec la fonction ***Exporter tous les {{ fr.VLT }}s (.rdx)***, puisqu'ils doivent être au format .rdx.
 {% endsnippet %}
 

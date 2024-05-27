@@ -4,7 +4,7 @@ eleventyComputed:
 ---
 In {{ en.RDMMAC }}, you can [customize individual shortcuts](#modify-shortcuts) and [specify key combinations to be ignored](#ignore-key-combinations) by embedded sessions. These options are found in ***File – Preferences – User Interface – Shortcuts***.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 For a list of default values for shortcuts, visit [Keyboard shortcuts](/rdm/mac/support-resources/keyboard-shortcuts/).
 {% endsnippet %}
 
@@ -16,12 +16,12 @@ For a list of default values for shortcuts, visit [Keyboard shortcuts](/rdm/mac/
 1. To the right of the drop-down list, specify your unique new key combination for the shortcut by selecting/deselecting the <kbd>Shift</kbd>, <kbd>Ctrl</kbd>, <kbd>Alt</kbd>, and <kbd>Cmd</kbd> buttons and by entering a key from your keyboard. For example, the image below represents the ***About*** function being assigned the <kbd>Shift</kbd>+<kbd>Cmd</kbd>+<kbd>A</kbd> shortcut.
 ![Shortcut Customization Example](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2094.png)
 1. Repeat the steps above for each new shortcut.
-   {% snippet icon.badgeInfo %}
+   {% snippet, "badgeInfo" %}
    If you change your mind, you can use the ***Reset*** button to cancel all your unsaved changes.
    {% endsnippet %}
 1. When done, click ***Save***.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 After saving, you can use the ***Restore Defaults*** button to return all shortcuts to their default values. This will undo any saved changes you have made.
 {% endsnippet %}
 

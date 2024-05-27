@@ -7,11 +7,11 @@ eleventyComputed:
 
 ## Usage
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 La {{ fr.DVLSCONSOLE }} est désormais proposée en tant qu'application autonome. Elle est maintenant disponible sur la [page de téléchargement](https://server.devolutions.net/fr/home/download).
 {% endsnippet %}
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Depuis {{ fr.DVLS }} 2019.x, de nombreuses fonctionnalités peuvent seulement être gérées à partir de l'interface Web. Veuillez consulter [Administration - Paramètres Serveur](/fr/server/web-interface/administration/configuration/server-settings/).
 {% endsnippet %}
 

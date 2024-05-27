@@ -10,15 +10,15 @@ In your ***{{ en.NPANE }}***, select the entry you wish to override and then do 
 
 ## Settings
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 This feature is only available when using an [Advanced Data Source](/rdm/mac/data-sources/data-sources-types/advanced-data-sources/). A setting on the data source allows usage of User Specific Settings. Contact your administrator if the menu is grayed out.
 {% endsnippet %}
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 ***User Specific Settings*** are shared between {{ en.RDM }}, {{ en.DVLS }} and {{ en.DHUB }}.
 {% endsnippet %}
 
-{% snippet icon.badgeCaution %}
+{% snippet, "badgeCaution" %}
 If both User Specific Settings and Local Machine Specific Settings are defined on the same entry, Local Machine Specific Settings have priority.
 {% endsnippet %}
 

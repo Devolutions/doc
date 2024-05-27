@@ -8,11 +8,11 @@ Le ***Mode hors-ligne*** se connecte à une copie locale de la source de donnée
 
 Le mode hors-ligne en lecture/écriture ajoute aux utilisateurs la possibilité de manipuler les entrées lorsqu'ils sont déconnectés de la source de données. Ceci est utile pour le personnel hors site ou lorsque vous travaillez dans des environnements disposant d'une disponibilité réseau sporadique.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Cette fonctionnalité n'est pas disponible pour toutes les sources de données, veuillez consulter la rubrique d'aide de la source de données pour savoir si elle prend en charge le mode hors-ligne.
 {% endsnippet %}
 
-{% snippet icon.badgeNotice %}
+{% snippet, "badgeNotice" %}
 Le cache hors ligne est d'abord chiffré à l'aide de notre propre clé privée mélangée à certaines informations provenant de l'ordinateur local. Cela rend impossible la lecture d'une copie sur une autre machine. Par défaut, il est également chiffré avec le chiffrement Windows NTFS, auquel cas aucune clé n'est enregistrée nulle part.
 {% endsnippet %}
 
@@ -47,7 +47,7 @@ Dans ***Fichier – Informations sur la source de données***, le ***Mode hors l
 
 Le mode de mise en cache doit être défini sur ***En mémoire*** ou ***Fichier*** pour activer le mode hors ligne.
 
-{% snippet icon.badgeCaution %}
+{% snippet, "badgeCaution" %}
 Cette étape ne peut pas être modifiée à distance une fois que vous avez exporté vos paramètres de source de données. Vous devriez prendre un moment et réfléchir aux besoins de votre source de données et sélectionner ce qui est approprié avant de passer à l'exportation.
 {% endsnippet %}
 
@@ -88,7 +88,7 @@ Utilise le cache hors ligne uniquement pour les modifications récentes. Le cach
 	</tr>
 </table>
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Certaines fonctions de {{ fr.RDM }} ne sont pas disponibles lorsque vous êtes hors ligne. Même avec le mode d'accès lecture/écriture, il se peut que vous ne puissiez pas effectuer toutes les actions, telles que l'ajout de pièces jointes ou la gestion des utilisateurs, car ces fonctionnalités ne sont pas mises en cache localement. En revanche, le [{{ fr.UVLT }}](/fr/rdm/windows/data-sources/user-vault/) est toujours disponible en mode hors ligne.
 {% endsnippet %}
 
@@ -282,6 +282,6 @@ Lecture/Écriture
 	</tr>
 </table>
 
-{% snippet icon.badgeNotice %}
+{% snippet, "badgeNotice" %}
 Pour connaître le mode hors ligne en vigueur lorsque vous êtes connecté, voir [Informations sur ma source de données](/fr/rdm/windows/commands/file/my-data-source-information/).
 {% endsnippet %}

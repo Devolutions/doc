@@ -10,7 +10,7 @@ In the ***General*** section, you are able to choose an ***Authentication type**
 After having selected the ***Authentication type***, you will get access to other fields to fill in. The information to provide depends on the authentication type.
 
 ## Basic SMTP Configuration
-{% snippet icon.badgeHelp %}
+{% snippet, "badgeHelp" %}
 See [Configure an SMTP Email](/kb/devolutions-server/how-to-articles/configure-smtp-server/configure-smtp-email), which is specific to the ***Basic Authentication type***, for steps on how to configure an SMTP in {{ en.DVLS }}.
 {% endsnippet %}
 
@@ -29,7 +29,7 @@ See [Configure an SMTP Email](/kb/devolutions-server/how-to-articles/configure-s
 ## Azure SMTP Configuration
 ![Azure Authentication type](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp2060.png)
 
-{% snippet icon.badgeHelp %}
+{% snippet, "badgeHelp" %}
 See [Configure an SMTP Email With Azure](/kb/devolutions-server/how-to-articles/configure-smtp-server/configure-smtp-email-azure), which is specific to the ***Azure Authentication type***, for steps on how to configure an SMTP with Azure in {{ en.DVLS }}.
 {% endsnippet %}
 

@@ -5,7 +5,7 @@ eleventyComputed:
 ---
 Le {{ fr.WBEX }} vous aide à créer un nouveau compte lorsque vous vous inscrivez sur un site Web. Il vous donne la possibilité de créer un mot de passe sécurisé et d'enregistrer vos nouveaux identifiants.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Si vous avez déjà un compte pour le site Web, apprenez plutôt comment [Ajouter une entrée de site Web avec le {{ fr.WBEX }}](/fr/rdm/windows/workspace-browser-extension/using-workspace-browser-extension/add-website-entry-workspace-browser-extension/).
 {% endsnippet %}
 

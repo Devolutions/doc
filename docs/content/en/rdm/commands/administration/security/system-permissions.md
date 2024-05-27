@@ -5,7 +5,7 @@ eleventyComputed:
 ---
 The ***System Permissions*** allows to grant some administrative permissions to standard users without making them administrators. The ***Default*** setting inherits the permission set on the user or user groups.
 
-{% snippet icon.badgeHelp %}
+{% snippet, "badgeHelp" %}
 This feature is only available when using an [Advanced Data Source](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/).
 
 For more information about permissions, consult [Simplified Security](/rdm/windows/user-groups-based-access-control/scenarios/simplified-security/) or [Advanced Security](/rdm/windows/user-groups-based-access-control/scenarios/advanced-security/).

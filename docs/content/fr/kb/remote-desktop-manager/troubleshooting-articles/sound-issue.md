@@ -11,7 +11,7 @@ A computer policy setting in Windows needs to be changed.
 1. Enable ***Let Windows apps make phone calls***.
 1. Set it to ***User is in control*** and save.
 
-{% snippet icon.badgeCaution %}
+{% snippet, "badgeCaution" %}
 The ***Force Allow*** setting will not work.
 {% endsnippet %}
 

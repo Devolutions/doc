@@ -9,15 +9,15 @@ eleventyComputed:
 * ***User Specific Settings*** override an entry's properties for a single user.
 * ***Local Specific Settings*** override an entry's properties for all users of a specific device.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 This feature is only available when using an [Advanced Data Source](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/). A setting on the data source allows usage of ***Specific Settings***. Contact your administrator if the menu is grayed out.
 {% endsnippet %}
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 ***User Specific Settings*** are shared between {{ en.RDM }}, {{ en.DVLS }} and {{ en.DHUB }}.
 {% endsnippet %}
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 If both ***User Specific Settings*** and ***Local Specific Settings*** are defined on the same entry, Local Specific Settings have the priority.
 {% endsnippet %}
 
@@ -38,6 +38,6 @@ An indicator icon is displayed in the dashboard when an entry with ***Specific S
 
 In the majority of cases, editing the ***Specific Settings*** displays the following dialog:
 ![User Specific Settings](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin6168.png)
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 ***Specific settings*** are context sensitive, and several settings might not be available for some entry types.
 {% endsnippet %}

@@ -4,11 +4,11 @@ eleventyComputed:
 ---
 Go offline connects to a local copy of the data source when the data source is not available. It can be used when a user is working from a disconnected network or when there is any kind of connectivity issues with the data source.
 
-{% snippet icon.shieldinfo %}
+{% snippet, "shieldinfo" %}
 There are settings in both the data source and the user account that may prevent you from using the Offline Mode. Ask you administrator if the menu is not visible.
 {% endsnippet %}
 
-{% snippet icon.shieldCaution %}
+{% snippet, "shieldCaution" %}
 There are security considerations to take into account when enabling the Offline Mode.
 {% endsnippet %}
 

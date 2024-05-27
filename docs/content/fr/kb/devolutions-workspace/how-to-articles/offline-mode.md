@@ -5,11 +5,11 @@ eleventyComputed:
 ---
 The {{ en.WAPPS }} (desktop and mobile) are available in offline mode (read-only).
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Administrators must enable offline mode for advanced data sources in {{ en.DVLS }} and {{ en.DHUB }} before users can activate it.
 {% endsnippet %}  
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 {{ en.VLT }}s must be loaded at ***least once*** to be accessible offline.
 {% endsnippet %}  
 

@@ -6,7 +6,7 @@ Unfortunately, there is no {{ en.CI }} in the {{ en.RDMMAC }} version as we do h
 
 The solution would be to copy the **.cfg** file and manually distribute it to the right folder.
 
-{% snippet icon.badgeCaution %}
+{% snippet, "badgeCaution" %}
 This data source configuration includes the username and password of the desktop you are copying from.
 {% endsnippet %}
 

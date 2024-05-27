@@ -5,7 +5,7 @@ eleventyComputed:
 ---
 The {{ en.WBEX }} allows to autofill a one time password (OTP) request with a ***Website*** session entry and a ***Website (Legacy)*** information entry from {{ en.RDM }}.
 
-{% snippet icon.badgeNotice %}
+{% snippet, "badgeNotice" %}
 For this topic, we will be using Google Chrome to inspect the field.
 {% endsnippet %}
 
@@ -21,7 +21,7 @@ For this topic, we will be using Google Chrome to inspect the field.
       ![!!KB4821](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4821.png)
    - a ***Website (Legacy)*** information session entry in the ***More Settings - One time password***..
       ![!!KB4820](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4820.png)
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 If your ***Credentials*** are set to ***Linked ({{ en.VLT }})***, you also need to configure and set the ***One Time Password (OTP)*** link in the ***General*** tab section.
 {% endsnippet %}
 

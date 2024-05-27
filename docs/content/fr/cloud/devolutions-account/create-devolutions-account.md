@@ -8,14 +8,14 @@ Créer votre {{ fr.DA }} gratuit.
 1. Cliquer sur ***Créer un compte***.
 ![{{ fr.DA }} - Créer un compte](https://cdnweb.devolutions.net/docs/fr/cloud/Cloud4015.png)
 1. Remplir les champs obligatoires du formulaire et cliquer ***Créer mon compte***.
-{% snippet icon.badgeCaution %}
+{% snippet, "badgeCaution" %}
 En cliquant sur ***Créer mon compte***, vous confirmez que vous avez lu et accepté nos [Conditions d'utilisation](https://devolutions.net/fr/legal/online-services-terms) et notre [Politique relative à la vie privée](https://devolutions.net/fr/legal).
 {% endsnippet %}
 
 ![{{ fr.DA }} - Créer un compte gratuit](https://cdnweb.devolutions.net/docs/fr/cloud/cloud4016.png)
 
 4. Un courriel contenant un lien d'activation sera envoyé à votre adresse courriel.
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 
 Si vous n'avez pas reçu le courriel dans votre boîte de réception, veuillez d'abord vérifier dans votre dossier ***Indésirable/Pourriel***.
 

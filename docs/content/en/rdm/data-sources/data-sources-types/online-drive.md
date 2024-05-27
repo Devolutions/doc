@@ -11,11 +11,11 @@ It is an online file storage service dedicated to a single file type, {{ en.RDM 
 
 Please consult [{{ en.DOD }}](/cloud/rdm-online-services/online-drive/) for information on this service.
 
-{% snippet icon.shieldWarning %}
+{% snippet, "shieldWarning" %}
 Since this service is hosted in the cloud, we strongly recommend that you further encrypt your data by applying a Master key. This will ensure that the file will be unreadable by no one but you.
 {% endsnippet %}
 
-{% snippet icon.badgeWarning %}
+{% snippet, "badgeWarning" %}
 Even though this is a cloud service, you MUST use our [{{ en.OBACK }}](/cloud/rdm-online-services/online-backup/) service to keep history of your data. Devolutions offers a free backup service, and we do not maintain multiple versions of the {{ en.DOD }} content. This makes it critical that you enable the backup feature. This service will keep multiple versions of your file and is the best option.
 {% endsnippet %}
 

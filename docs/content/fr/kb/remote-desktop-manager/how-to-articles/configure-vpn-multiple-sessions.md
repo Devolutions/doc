@@ -124,7 +124,7 @@ Le VPN demande de fermer le VPN lorsque la session est fermée.
 
 6. Créer un ***Groupe VPN*** pour que le VPN ne se ferme que lorsque la dernière session du ***Groupe VPN*** est fermée.
 	1. Cliquer sur le signe « plus » pour ajouter un nouveau ***Groupe VPN***, puis entrer un nom de groupe. Cliquer sur ***OK*** lorsque le nom est entré.
-{% snippet icon.badgeHelp %}
+{% snippet, "badgeHelp" %}
 Regarder cette [vidéo YouTube](https://youtu.be/5jKREtc63ks) (EN) pour une démonstration de l'option de ***Groupe VPN***.
 {% endsnippet %}
 
@@ -162,7 +162,7 @@ Voici les étapes pour modifier le temps que {{ fr.RDM }} attend pour que le VPN
 1. Dans le menu de gauche, sous la section ***Connexion***, cliquer sur ***VPN/SSH/Passerelle***.
 1. Cliquer sur l’onglet ***Avancé***.
 1. Dans la section ***Délai d’attente après exécution***, entrer le temps en secondes, puis cliquer sur ***OK***.
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 La valeur -1 sec est le temps par défaut (5 secondes). Vous pouvez modifier le temps par défaut pour toutes les entrées VPN dans ***Fichier - Options - Types - VPN - Pause VPN par défaut***.
 {% endsnippet %}
 

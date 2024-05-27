@@ -23,7 +23,7 @@ Vous pouvez également importer des entrées dans ***Fichier – Importer***. Po
 
 ## Créer une sous entrée
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Depuis la version 2022.3 de {{ fr.RDMMAC }}, les sous entrées ont remplacé les sous connexions. Elles sont différentes dans la mesure où les sous connexions étaient stockées en XML dans leur entrée parente, ce qui n'est pas le cas des sous entrées. Celles-ci sont beaucoup plus polyvalentes.
 
 La migration des sous connexions préexistantes vers les nouvelles sous entrées est automatique lors de la mise à jour de {{ fr.RDM }} de la version 2022.2 ou antérieure vers la version 2022.3 ou ultérieure.
@@ -37,7 +37,7 @@ Elles se trouvent sous l'entrée parent ou dans l'onglet ***Sous entrées*** du 
 
 Dans le ***{{ fr.NPANE }}***, sélectionnez l'entrée sous laquelle vous souhaitez placer une sous entrée. Dans le ***Ruban***, allez dans ***Modifier*** et cliquez sur ***Nouvelle entrée***. Comme vous avez précédemment sélectionné l'entrée parente, vous serez invité à choisir entre la création d'une sous entrée ou d'une entrée. Sélectionnez ***Nouvelle sous entrée***. Ensuite, personnalisez vos paramètres dans la fenêtre des propriétés de l'entrée.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Vous ne pouvez pas créer une sous entrée sous une autre sous entrée.
 {% endsnippet %}
 
@@ -48,7 +48,7 @@ Vous ne pouvez pas créer une sous entrée sous une autre sous entrée.
 
 Dans le ***{{ fr.NPANE }}***, faites un clic droit sur l'entrée sous laquelle vous souhaitez placer une sous entrée et sélectionnez ***Ajouter*** dans le menu. Pour initialiser une nouvelle session, vous pouvez spécifier le type de session ou un modèle. Vous serez invité à choisir entre la création d'une sous entrée ou d'une entrée. Sélectionnez ***Nouvelle sous entrée***. Ensuite, personnalisez vos paramètres dans la fenêtre des propriétés de l'entrée.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Vous ne pouvez pas créer une sous entrée sous une autre sous entrée.
 {% endsnippet %}
 

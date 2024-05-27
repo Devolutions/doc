@@ -3,7 +3,7 @@ eleventyComputed:
   title: Configure domain single sign-on (SSO)
   description: The machine hosting {{ en.DVLS }} must be joined to the configured domain for domain single sign-on (SSO) to work.
 ---
-{% snippet icon.badgeCaution %}
+{% snippet, "badgeCaution" %}
 The machine hosting {{ en.DVLS }} must be joined to the [configured domain](/server/web-interface/administration/configuration/server-settings/general/authentication/domain/) for domain single sign-on (SSO) to work.
 {% endsnippet %}
 

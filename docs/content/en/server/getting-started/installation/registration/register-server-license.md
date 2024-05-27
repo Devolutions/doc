@@ -10,7 +10,7 @@ Register your {{ en.DVLS }} license in the {{ en.DVLS }} web interface.
 1. ***Edit*** your current {{ en.DVLS }} license.
 ![Edit your license](https://cdnweb.devolutions.net/docs/DVLS2017_2024_1.png)
 1. Enter the new license or import the license file, then click ***Save license***.
-   {% snippet icon.badgeInfo %}
+   {% snippet, "badgeInfo" %}
    Importing the license using the **.lic** file is most uselful when offline. See the next section about offline registration for more information.
    {% endsnippet %}
 

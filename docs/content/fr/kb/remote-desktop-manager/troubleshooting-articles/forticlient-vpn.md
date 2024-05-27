@@ -4,7 +4,7 @@ eleventyComputed:
 ---
 Here is a workaround to use a VPN in combination with FortiClient.
 1. Retrieve the Fortinet tools from Fortinet ex: FortiClientTools_7.0.2.0090.
-{% snippet icon.badgeNotice %}
+{% snippet, "badgeNotice" %}
 You must keep your FortiClient installed.
 {% endsnippet %}
 
@@ -18,6 +18,6 @@ You must keep your FortiClient installed.
 ![!!KB4974](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4974.png)
 1. Configure your tunnel and click ***OK***.
 1. Launch the connection for your RDP entry.
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 On the first connection it will ask for the path of the FortiClient tools you have saved on your computer.
 {% endsnippet %}

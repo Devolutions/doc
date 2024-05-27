@@ -4,7 +4,7 @@ eleventyComputed:
 ---
 The ***Data Source Information*** window displays various information related to the current data source, such as the current user and security access.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 The ***My Data Source Information*** view can be different depending on the [Data Source Type](/rdm/windows/data-sources/data-sources-types/). This topic uses an SQL Server data source.
 {% endsnippet %}
 
@@ -46,7 +46,7 @@ The General tab displays information about the current user and data source conf
 
 The ***User Groups*** tab displays the user groups that the user is a member of and the rights related to those user groups.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 This feature is only available with an SQL Server/Azure SQL and a {{ en.DVLS }} (DVLS) data source.
 {% endsnippet %}
 

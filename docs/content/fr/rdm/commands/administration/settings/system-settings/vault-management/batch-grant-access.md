@@ -33,7 +33,7 @@ La fenêtre est divisée en deux sections : les <a href="#permissions">paramètr
 
 Dans les paramètres des permissions, vous pouvez sélectionner les permissions à accorder. Vous pouvez afficher soit les ***Permissions*** ou les ***Ensembles de permissions*** créés précédemment (ou ceux créés par défaut).
 
-{% snippet icon.badgeHelp %}
+{% snippet, "badgeHelp" %}
 Les ensembles de permissions sont créés et configurés dans ***Administration – Paramètres du système – Gestion des {{ fr.VLT }}s – Ensembles de permissions***. Pour davantage d'information, voir [Ensembles de permissions](/fr/rdm/windows/commands/administration/settings/system-settings/vault-management/permission-sets).
 {% endsnippet %}
 

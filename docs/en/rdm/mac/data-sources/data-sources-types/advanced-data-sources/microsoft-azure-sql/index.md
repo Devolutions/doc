@@ -22,15 +22,15 @@ Microsoft Azure SQL offers different service tier in its purchase model for DTUS
 * Supports [Offline mode](/rdm/mac/commands/file/go-offline/) for when the server or network is unavailable.
 * Supports entry logs and attachments.
 
-{% snippet icon.badgeHelp %}
+{% snippet, "badgeHelp" %}
 Get more information on [Microsoft Azure SQL](https://azure.microsoft.com/en-us/services/sql-database/).
 {% endsnippet %}
 
-{% snippet icon.badgeWarning %}
+{% snippet, "badgeWarning" %}
 A proper database backup strategy should be implemented to prevent possible data loss.
 {% endsnippet %}
 
- {% snippet icon.badgeCaution %}
+ {% snippet, "badgeCaution" %}
 AD Azure is not supported in {{ en.RDMMAC }}. This feature is not yet implemented.
 {% endsnippet %}
 

@@ -12,6 +12,6 @@ When updating {{ en.DVLS }} to version 2024.1 or later, the web UI displays ***H
 1. Download the [ASP.Net Core Module 8.0.x hosting bundle](https://dotnet.microsoft.com/en-us/download/dotnet/8.0).
 1. Install it on the server where {{ en.DVLS }} is hosted.
 
-{% snippet icon.badgeHelp %}
+{% snippet, "badgeHelp" %}
 Please contact our support technicians at [service@devolutions.net](mailto:service@devolutions.net) if this solution does not solve your problem.
 {% endsnippet %}

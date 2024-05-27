@@ -6,11 +6,11 @@ eleventyComputed:
 ---
 While it is still not possible to force the configuration of multi-factor authentication (MFA) at the user level without {{ en.DVLS }}, a few options have been added in {{ en.RDM }} that could suit your needs.
 
-{% snippet icon.badgeCaution %}
+{% snippet, "badgeCaution" %}
 These features are only available when using an [advanced data sources](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/).
 {% endsnippet %}
 
-{% snippet icon.badgeCaution %}
+{% snippet, "badgeCaution" %}
 You cannot configure MFA for users. Once activated, each user will need to configure it manually in ***File – My Account Settings***. For more information about the configuration, consult [Multi-factor authentication](/rdm/windows/data-sources/multi-factor-authentication/).
 {% endsnippet %}
 
@@ -49,6 +49,6 @@ We also have GPOs that could help you achieve your goal. An example is the ***Fo
 
 %Root%\SOFTWARE\Policies\Devolutions\RemoteDesktopManager\ForceApplicationMFA
 
-{% snippet icon.badgeHelp %}
+{% snippet, "badgeHelp" %}
 For more information about the configuration, consult [Apply policies](/kb/remote-desktop-manager/how-to-articles/group-policies/).
 {% endsnippet %}

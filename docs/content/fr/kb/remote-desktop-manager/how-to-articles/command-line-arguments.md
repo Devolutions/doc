@@ -3,7 +3,7 @@ eleventyComputed:
   title: Arguments de ligne de commande
 ---
 {{ fr.RDM }} peut être lancé avec une ligne de commande.
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Certaines fonctionnalités ne sont disponibles que dans l'Édition Team. {{ fr.RDM }} comprend également un gestionnaire de protocoles Web.
 {% endsnippet %}
 

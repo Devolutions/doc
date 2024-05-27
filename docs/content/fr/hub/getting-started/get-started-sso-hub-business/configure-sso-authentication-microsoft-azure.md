@@ -5,7 +5,7 @@ eleventyComputed:
 ---
 Voici les étapes pour configurer Azure avec {{ fr.DHUBB }} pour l'authentification SSO et le provisionnement des utilisateurs.
 
-{% snippet icon.badgeCaution %}
+{% snippet, "badgeCaution" %}
 Un [compte Azure AD](https://azure.microsoft.com/fr-fr/) avec les droits appropriés est requis.
 {% endsnippet %}
 
@@ -20,7 +20,7 @@ Un [compte Azure AD](https://azure.microsoft.com/fr-fr/) avec les droits appropr
 Un fenêtre de configuration s'ouvrira.
 ![Configurer l'authentification unique (SSO)](https://cdnweb.devolutions.net/docs/fr/hub/Hub2147.png)
 
-{% snippet icon.badgeCaution %}
+{% snippet, "badgeCaution" %}
 Ne pas fermer cette fenêtre de configuration, car les étapes suivantes indiqueront où trouver les informations à saisir dans ces champs.
 {% endsnippet %}
 
@@ -34,7 +34,7 @@ Ne pas fermer cette fenêtre de configuration, car les étapes suivantes indique
 1. Cliquer sur ***Créer votre propre application***.
 ![Créer votre propre application](https://cdnweb.devolutions.net/docs/fr/hub/Hub2024.png)
 1. Saisir le nom de la nouvelle application, puis cliquer sur ***Créer***.
-{% snippet icon.badgeNotice %}
+{% snippet, "badgeNotice" %}
 Il est suggéré d'inclure soit « Devolutions » ou « Hub » dans le nom.
 {% endsnippet %}
 
@@ -87,7 +87,7 @@ Il est suggéré d'inclure soit « Devolutions » ou « Hub » dans le nom.
 21. Sélectionner ***Certificats & secrets*** dans le menu latéral gauche, puis, dans l'onglet ***Secrets client***, cliquer sur ***Nouveau secret client***.
 ![Certificats & secrets – Secrets client – Nouveau secret client](https://cdnweb.devolutions.net/docs/fr/hub/Hub2035.png)
 1. Dans la fenêtre ***Ajouter un secret client***, saisir une ***Description*** (le nom de l'application d'entreprise, par exemple) et sélectionner une ***Date d'expiration*** pour ce secret client, conformément à vos meilleures pratiques de sécurité interne.
-{% snippet icon.badgeCaution %}
+{% snippet, "badgeCaution" %}
 Il est à noter que lorsque le secret client expire, personne ne pourra se connecter au hub associé. Il faudra alors créer un nouveau secret client. Il est recommandé de se fixer un rappel de tâche avant la date d'expiration.
 {% endsnippet %}
 
@@ -117,7 +117,7 @@ Il est à noter que lorsque le secret client expire, personne ne pourra se conne
 ![Champs d'application de l'utilisateur](https://cdnweb.devolutions.net/docs/fr/hub/Hub2152.png)
 1. Tester la connexion pour s'assurer que la configuration est correcte. Une fenêtre contextuelle vous invitera à saisir vos identifiants de connexion.
 
-   {% snippet icon.badgeCaution %}
+   {% snippet, "badgeCaution" %}
    Si la fenêtre contextuelle ne s'affiche pas, il est possible que votre navigateur ou une extension de navigateur bloque son ouverture. Il vous faudra modifier vos paramètres de navigateur et/ou d'extension. Si cela ne fonctionne toujours pas, désactiver/supprimer l'extension ou changer de navigateur pourrait également régler le problème.
    {% endsnippet %}
 
@@ -133,7 +133,7 @@ Pour synchroniser vos utilisateurs et groupes d'utilisateurs de vos fournisseurs
 1. Accéder à ***Administration – Authentification***.
 2. Dans ***Approvisionnement***, cliquer sur ***Générer le jeton SCIM***.
 ![Administration – Authentification – Approvisionnement – Générer le jeton SCIM](https://cdnweb.devolutions.net/docs/fr/hub/Hub2153.png)
-{% snippet icon.badgeCaution %}
+{% snippet, "badgeCaution" %}
 Notez que ce jeton SCIM expirera dans les 365 jours suivant sa génération. À son expiration, le provisionnement cessera de fonctionner. Vous devrez alors régénérer un nouveau jeton SCIM. Nous vous recommandons de vous fixer une tâche de rappel avant la date d'expiration.
 {% endsnippet %}
 
@@ -163,11 +163,11 @@ Notez que ce jeton SCIM expirera dans les 365 jours suivant sa génération. À 
 
 Dans cette section, vous pourrez ajouter vos utilisateurs et groupes d'utilisateurs à votre application d'entreprise.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Vous devez avoir une licence Azure Entreprise pour pouvoir synchroniser des groupes d'utilisateurs.
 {% endsnippet %}
 
-{% snippet icon.badgeCaution %}
+{% snippet, "badgeCaution" %}
 Les groupes imbriqués ne sont pas supportés, ce qui signifie que le provisionnement d'Azure ne synchronisera pas les utilisateurs membres de groupes imbriqués.
 {% endsnippet %}
 
@@ -200,7 +200,7 @@ Dans ***Administration – Groupes d'utilisateurs***, les groupes d'utilisateurs
 Dans ***Administration – Utilisateurs***, tous les utilisateurs du groupe d'utilisateurs Azure qui font déjà partie du {{ fr.DHUB }} seront marqués comme synchronisés avec l'icône ***Est synchronisée*** à côté de leur nom. Tous les nouveaux utilisateurs faisant partie du groupe d'utilisateurs Azure synchronisé qui ne font pas partie du {{ fr.DHUB }} seront suggérés comme de [nouvelles invitations](/fr/hub/getting-started/get-started-sso-hub-business/invite-users-SSO-hub-business/) dans ***Invitations nécessaires***.
 ![Invitations nécessaires et Utilisateurs synchronisés](https://cdnweb.devolutions.net/docs/fr/hub/Hub2057.png)
 
-{% snippet icon.badgeNotice %}
+{% snippet, "badgeNotice" %}
 Tous les utilisateurs qui avaient déjà un {{ fr.DA }} verront les deux options de connexion : la méthode {{ fr.DA }} et la méthode Microsoft.
 {% endsnippet %}
 

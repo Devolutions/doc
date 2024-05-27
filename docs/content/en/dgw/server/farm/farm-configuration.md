@@ -13,19 +13,19 @@ This topic will cover how to configure a {{ en.DGW }} farm through the web inter
 ![Gateway Farm](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp0032.png)
 1. In the ***General*** tab, provide a name and description for the farm. You can also choose to set this farm as the default.
 
-   {% snippet icon.badgeInfo %}
+   {% snippet, "badgeInfo" %}
    Only one default setting is allowed at a time, whether it is a gateway or a farm. If a farm is created and set as default while another gateway is the default, the farm becomes the new default. The same applies if a default gateway is moved into a farm, the farm becomes the new default.
    {% endsnippet %}
 
 5. In the ***Members*** tab, click ***Select Farm Members*** to open a dialogue for selecting the gateways to include in the farm.
 
-   {% snippet icon.badgeInfo %}
+   {% snippet, "badgeInfo" %}
    A gateway can belong to only one farm at a time. If it is included in a new farm, it will be moved from the current farm.
    {% endsnippet %}
 
 6. In the ***Security*** tab, configure who can use the farm and in which {{ en.VLT }} it can be used. Permissions and rights are the same as those for a regular gateway.
 
-   {% snippet icon.badgeInfo %}
+   {% snippet, "badgeInfo" %}
    If gateways within the farm have specific restrictions or permissions, they will be overridden by the farm's settings. A warning message in the ***Security*** tab of a gateway within a farm informs the user that modifying restrictions/permissions here will not have an impact as long as it remains in the farm.
    {% endsnippet %}
 
@@ -56,7 +56,7 @@ Gateway1 probability = 100/600 = 16.66%
 Gateway2 probability = 200/600 = 33.33%
 Gateway3 probability = 300/600 = 50%
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 The actual weight values do not matter, only their ratios. So, 1-2-3 is equivalent to 1000-2000-3000.
 {% endsnippet %}
 
@@ -72,7 +72,7 @@ In this example, since Gateway2 is unavailable, it is not considered for session
 Gateway1 probability = 25%
 Gateway3 probability = 75%
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 These are probabilities, not certainties. For example, with 4 sessions, Gateway1 might receive 2 or 3 sessions, despite the 25% probability. Over time, probabilities tend to balance out according to the law of large numbers.
 {% endsnippet %}
 

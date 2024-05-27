@@ -4,7 +4,7 @@ eleventyComputed:
 ---
 Les ***Informations sur la source de données*** affichent diverses informations liées à la source de données actuelle, telles que l'utilisateur actuel et l'accès de sécurité.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 La vue ***Informations de la source de données*** peut être différente selon le [Types de sources de données](/fr/rdm/windows/data-sources/data-sources-types/). Cette rubrique utilise une source de données SQL Server.
 {% endsnippet %}
 
@@ -151,7 +151,7 @@ Indique si l'utilisateur peut ajouter des entrées à la racine de la source de 
 
 L'onglet ***Groupes d'utilisateurs*** affiche les groupes d'utilisateurs dont l'utilisateur est membre et les droits associés à ces groupes d'utilisateurs.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Cette fonctionnalité est uniquement disponible avec une source de données [SQL Server/Azure SQL](/fr/rdm/windows/data-sources/data-sources-types/advanced-data-sources/microsoft-sql-server/) et [{{ fr.DVLS }} (DVLS)](/fr/rdm/windows/data-sources/data-sources-types/advanced-data-sources/server/).
 {% endsnippet %}
 

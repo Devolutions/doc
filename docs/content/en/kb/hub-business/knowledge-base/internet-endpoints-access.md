@@ -7,7 +7,7 @@ eleventyComputed:
 ---
 This is the list of addresses that are accessed by {{ en.DHUB }} during normal operation.
 
-{% snippet icon.badgeWarning %}
+{% snippet, "badgeWarning" %}
 We use a "best effort" approach to maintain this list, but it **does not replace proper IT security practices**. If security is paramount, it would be better to first block all internet access, then allowlist desired addresses as needed.
 {% endsnippet %}
 

@@ -10,7 +10,7 @@ In the ***Users*** section, you can enable the offline mode for specific users. 
 1. In the ***User*** section, check ***Allow offline***.
 1. Click ***Update*** to save.
 
-{% snippet icon.badgeCaution %}
+{% snippet, "badgeCaution" %}
 A restart of {{ en.RDM }} may be needed to activate the offline mode.
 {% endsnippet %}
 

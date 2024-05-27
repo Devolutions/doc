@@ -5,7 +5,7 @@ eleventyComputed:
 ---
 Here are all the possible errors in {{ en.DHUBB }} with the corresponding number.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Access-denied-errors in {{ en.DHUBB }} are listed [here](/kb/hub-business/troubleshooting-articles/access-denied-errors/).
 {% endsnippet %}
 

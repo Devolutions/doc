@@ -12,7 +12,7 @@ It is typically used to hold the Windows credentials for your running sessions b
 
 This allows you to centralize one special credential to replace or emulate the ones for your Windows session. When a password change is needed you simply need to change it once in ***My Personal Credentials***.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 If you want to change the credential type, go in **%LOCALAPPDATA%** (Default) or **%APPDATA%** (Remote Desktop Services)
 **\Devolutions\RemoteDesktopManager** and delete the **Credentials.rdt** file to reset it.
 {% endsnippet %}

@@ -11,7 +11,7 @@ Voici différentes procédures pour installer les certificats racine :
 ## Windows 
 <a name="windows"></a>
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Firefox ne fait pas confiance aux mêmes certificats que Windows et un paramètre doit être appliqué afin de l'activer.  
 
 Veuillez consulter la [base de connaissances de Mozilla](https://support.mozilla.org/en-US/kb/setting-certificate-authorities-firefox) (EN). 
@@ -31,7 +31,7 @@ Veuillez consulter la [base de connaissances de Mozilla](https://support.mozilla
 ## Linux (Ubuntu, Debian) 
 <a name="linux"></a>
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Firefox et Chrome utilisent leurs propres magasins de confiance de certificats.  
 
 Veuillez consulter la même [base de connaissances de Mozilla](https://support.mozilla.org/en-US/kb/setting-certificate-authorities-firefox) (EN). 

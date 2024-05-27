@@ -6,20 +6,20 @@ eleventyComputed:
   - SSH Tunnel
 ---
 The ***{{ en.DGW }} Tunnel*** can fulfill similar needs to SSH port forwarding/SSH tunneling, but it requires nothing other than {{ en.DGW }} itself. It is useful when using connections that do not have built-in support in {{ en.RDM }} through the {{ en.DGW }}. The entry can be found under ***New Entry*** – ***Session*** – ***Remote Connections***.
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 {{ en.DGW }} needs to be set up in the {{ en.RDM }} data source and then configured through [inheritance](/kb/remote-desktop-manager/knowledge-base/inheritance/) or on the connection itself. The option is under ***Properties*** – ***Connection*** – ***VPN/SSH/Gateway*** – ***VPN/SSH/Gateway*** – ***General***.
 {% endsnippet %}
 
 ![{{ en.DGW }} Tunnel](https://cdnweb.devolutions.net/docs/docs_en_kb_KB0116.png)
 ## Listeners
-{% snippet icon.badgeWarning %}
+{% snippet, "badgeWarning" %}
 If the ***Listener*** is set to 0.0.0.0, it will accept connections from any source within the network. Due to the difficulty in tracking accountability, it is recommended ***NOT*** to do this for multiple security reasons.
 {% endsnippet %}
 
 * ***TCP Forward***: It is the equivalent to port forwarding.
 
 * ***HTTP*** and ***SOCKS5*** proxies: These listeners are set up as proxies which makes it possible to use a browser other than Google Chrome. This also means they use a dynamic destination.
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Dynamic ports can be used with all three listener types. If the value is 0, it will automatically find an available port.
 {% endsnippet %}
 
@@ -49,6 +49,6 @@ You can add your proxy endpoint along with the port specified or the one that wa
 curl -x socks5h://127.0.0.1:65535 windjammer.net
 ```
 
-{% snippet icon.badgeCaution %}
+{% snippet, "badgeCaution" %}
 If you have set your target filters using hostnames, it is important to ensure that your application does not resolve the hostname before sending it to the tunnel; otherwise, the traffic will be denied. Applications typically have settings to enable or disable this behavior. For example, in the web browser Firefox, you need to enable the ***Proxy DNS when using SOCKS v5*** option in the proxy configuration panel for this scenario to function correctly.
 {% endsnippet %}

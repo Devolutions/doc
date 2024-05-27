@@ -10,23 +10,23 @@ If you need finer control, you can specify the template to use in a ***Template*
 
 ## Columns
 
-{% snippet icon.badgeCaution %}
+{% snippet, "badgeCaution" %}
 Some validations on entry settings are not in the business layer but rather in the property dialogs. This means that using the import process can result in invalid entries that trigger errors. Please validate the resulting entries carefully.
 {% endsnippet %}
  
 In the CSV file, the ***Host*** and the ***Name*** fields are mandatory. If no template is specified, the RDP type will be used as a fallback type.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Default values for fields are NOT serialized, meaning that they are simply left out of the serialized structure.
 {% endsnippet %}
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Implementing support for all fields comes at a cost. The import process is time consuming because of all the dynamic field access that takes place. A massive initial import of entries should be separated in batches of manageable sizes. Please perform trials and tune the number of entries to achieve acceptable performance.
 {% endsnippet %}
 
 All of our entries share a basic set of fields; the rest is tied to the specific technology being interfaced with (RDP, SSH, etc). Some fields are grouped in structures like the Information Tab, for instance. Those fields are accessible only when providing the structure name as a prefix, for example: "MetaInformation\OS" or "MetaInformation\PurchaseDate".
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Note that the CSV file can contain our variables: they will be resolved upon saving. For instance, you could use the $HOST$ variable in fields like ***Description***, ***URL***, ***Putty\CustomSessionName***... It will be replaced by the corresponding value. 
 {% endsnippet %}
  

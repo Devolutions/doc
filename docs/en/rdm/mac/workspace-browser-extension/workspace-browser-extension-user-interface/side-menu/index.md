@@ -10,7 +10,7 @@ When using the {{ en.WBEX }} with {{ en.RDMMAC }}, the available tabs are the [*
 
 The extension opens on the ***Matching*** tab. This is where you will see the list of credentials available for the particular website you are on.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 For methods of retrieving your credentials, visit [Retrieve credentials with the {{ en.WBEX }}](/rdm/mac/workspace-browser-extension/using-workspace-browser-extension/retrieve-credentials/).
 {% endsnippet %}
 
@@ -20,7 +20,7 @@ At the top, you can use the ***Filter*** bar to search through all your credenti
 
 At the bottom, the ***Add Website*** button opens a new browser tab that allows you to manually add a website entry in {{ en.RDMMAC }} through the {{ en.WBEX }}.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 For a complete list of the available fields in the ***Add Website*** window, visit [Add Website](/rdm/mac/workspace-browser-extension/workspace-browser-extension-user-interface/side-menu/add-website/). You can also find a step-by-step guide on [how to add a website entry](/rdm/mac/workspace-browser-extension/using-workspace-browser-extension/add-website-entry-with-workspace-browser-extension/).
 {% endsnippet %}
 
@@ -37,7 +37,7 @@ In the ***General*** drop-down section, you are able to select the types of char
 In the ***Advanced*** drop-down section, you are able to further customize your password by entering characters you want included in your password, followed by the minimum number of times they must appear. In the second field, you can also enter characters you want excluded from your password.
 ![Advanced Section](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_RDMMac2043.png)
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 To learn how to use the ***Password Generator*** when creating an account on a website, visit [Create an account for a website with the {{ en.WBEX }}](/rdm/mac/workspace-browser-extension/using-workspace-browser-extension/create-account-website/).
 {% endsnippet %}
 

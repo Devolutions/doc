@@ -14,7 +14,7 @@ In all tabs except the ***Password Generator*** tab, when hovering over an entry
 
 The extension opens on the ***Matching*** tab. This is where you will see the list of credentials available for the particular website you are on.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 For methods of retrieving your credentials, visit [Retrieve credentials from {{ en.DHUBP }} with the {{ en.WBEX }}](/hub/workspace-browser-extension/using-workspace-browser-extension/using-workspace-browser-extension-with-hub-personal/retrieve-credentials-hub-personal/).
 {% endsnippet %}
 
@@ -24,7 +24,7 @@ At the top, you can use the ***Search*** bar to filter through all your credenti
 
 At the bottom, the ***New Entry*** button gives you access to entry types that, when selected, open a new browser tab that allows you to manually add an entry in {{ en.DHUBP }} through the {{ en.WBEX }}.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 For a complete list of the available entries and fields in the ***New Entry*** window, visit [New Entry](/hub/workspace-browser-extension/workspace-browser-extension-user-interface/workspace-browser-extension-user-interface-hub-personal/side-menu/new-entry/). You can also consult our step-by-step guide on [how to add an entry](/hub/workspace-browser-extension/using-workspace-browser-extension/using-workspace-browser-extension-with-hub-personal/add-entry-hub-personal-workspace-browser-extension/).
 {% endsnippet %}
 
@@ -56,7 +56,7 @@ At the bottom, you can click on the ***Clear Recent Entries*** button to erase a
 
 In the ***Trash*** tab, you can select entries or entire folders to delete.
 
-{% snippet icon.badgeCaution %}
+{% snippet, "badgeCaution" %}
 Note that if you delete entries or folders, they will be deleted from your {{ en.DHUBP }} and not just from the {{ en.WBEX }} view.
 {% endsnippet %}
 
@@ -79,7 +79,7 @@ In the ***General*** drop-down section, you are able to select the types of char
 In the ***Advanced*** drop-down section, you are able to further customize your password by entering characters you want included in your password, followed by the minimum number of times they must appear. In the second field, you can also enter characters you want excluded from your password.
 ![Advanced Section](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub2115.png)
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 To learn how to use the ***Password Generator*** when creating an account on a website, visit [Create an account for a website in {{ en.DHUBP }} with the {{ en.WBEX }}](/hub/workspace-browser-extension/using-workspace-browser-extension/using-workspace-browser-extension-with-hub-personal/create-account-website-hub-personal/).
 {% endsnippet %}
 

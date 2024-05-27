@@ -9,7 +9,7 @@ The ***Quick Access Toolbar*** found at the top of the application is composed o
 * Quick Connect control.
 * Lock command.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 ***Quick Access Toolbar*** buttons are flagged locally on the current machine by the current user. These local buttons are saved in a file named **RemoteDesktopManager.qtb**. By default, this file is located in **%localappdata%\Devolutions\RemoteDesktopManager**.
 {% endsnippet %}
 

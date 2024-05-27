@@ -10,7 +10,7 @@ The Authentication section allows the administrator to select which authenticati
 ## Settings
 
 ### Authentication Modes
-{% snippet icon.badgeCaution %}
+{% snippet, "badgeCaution" %}
 The machine hosting {{ en.DVLS }} must be joined to the configured domain for Windows Authentication to work.
 {% endsnippet %}
 

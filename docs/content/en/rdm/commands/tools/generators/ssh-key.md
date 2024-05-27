@@ -28,7 +28,7 @@ The ***SSH Key generator*** is located under ***Tools*** in the ribbon of {{ en.
 | Save Private Key | You will have the option of saving your Private Key in different formats, choose between: <ul><li>PKCS #8 Private Key (*.pri) </li><li> PuTTY Private Key (*.ppk)</li><li> OpenSSH Private Key (*.pri)</li></ul>  |
 
 If you did not specify a passphrase you will have to confirm that you do not wish to use a passphrase. 
-{% snippet icon.badgeCaution %} 
+{% snippet, "badgeCaution" %} 
 When using the [SSH Key Agent Manager](/rdm/windows/commands/tools/tools/key-agent-manager/) you must select the PuTTY Private Key (.ppk) file format or the OpenSSH Private Key (.pri) file format. The PKCS Private Key is not a supported file format for the SSH Key Agent Manager. 
 {% endsnippet %}
  

@@ -13,7 +13,7 @@ You can configure a MMC snap-in console to run on any of your servers. The snap-
 1. Under the ***General*** tab, in the ***Run*** field, type *dhcpmgmt.msc /ComputerName $HOST$* ($HOST$ is the variable that will be replaced by the server name or IP address).
 ![Run](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4529.png)
 1. Under the ***Advanced*** tab, enable ***Run as Administrator***.
-   {% snippet icon.shieldInfo %}
+   {% snippet, "shieldInfo" %}
    If you are running a Windows 64-bit edition, enable ***Run in 64-bit mode*** as well.
    {% endsnippet %}
 1. Click ***Add*** to save your entry.

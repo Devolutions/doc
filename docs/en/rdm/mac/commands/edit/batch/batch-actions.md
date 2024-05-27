@@ -4,7 +4,7 @@ eleventyComputed:
 ---
 Use the Edit – Batch Edit – Batch Actions to change the settings of multiple sessions in one operation. It can be used for a batch action command on a group of sessions.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Batch Actions are only applied to entries currently selected in your ***{{ en.NPANE }}***.
 {% endsnippet %}
 
@@ -21,7 +21,7 @@ Batch Actions are only applied to entries currently selected in your ***{{ en.NP
 | Detect Mac Addresses | It will scan all of your sessions in your current database to detect if there is any mac addresses.  |
 
 ### Web
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 These options will only work for ***Website*** session entries, NOT for ***Website (Legacy)*** data entries.
 {% endsnippet %}
 

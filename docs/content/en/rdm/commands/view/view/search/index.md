@@ -10,7 +10,7 @@ When using the ***Search*** function, a tree view is also displayed, showing exa
 
 It is also possible to do a ***Quick Search***, which allows you to search through the database without displaying the tree view. The results are therefore more concise.
 
-{% snippet icon.badgeNotice %}
+{% snippet, "badgeNotice" %}
 Pro tip: Use the following shortcuts while selecting an entry for an even quicker search
 
 * Press Enter to navigate to the entry

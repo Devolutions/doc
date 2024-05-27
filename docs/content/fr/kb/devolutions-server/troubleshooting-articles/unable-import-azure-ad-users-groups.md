@@ -3,7 +3,7 @@ eleventyComputed:
   title: Impossible d'importer des utilisateurs ou des groupes d'Azure AD
 ---
 Il est possible que le cache d'Azure AD stocké dans {{ fr.DVLS }} ne soit pas correctement chargé. Voici les étapes à suivre pour résoudre ce problème.
-{% snippet icon.badgeCaution %}
+{% snippet, "badgeCaution" %}
 Si vous venez d'activer l'option d'Authentification Microsoft, le chargement du cache peut prendre un certain temps (environ une heure) avant de permettre d'importer des utilisateurs et des groupes d'utilisateurs.
 {% endsnippet %}
 
@@ -15,7 +15,7 @@ Si vous venez d'activer l'option d'Authentification Microsoft, le chargement du 
 1. Aller dans ***Administration – Réinitialiser le cache du serveur*** et réinitialiser le cache d'***Authentification de Microsoft***.
 ![!!KB4054](https://cdnweb.devolutions.net/docs/fr/kb/KB4054.png)
 1. Dans ***Rapports – Journaux de la source de données***, surveiller les journaux jusqu'à ce que vous obteniez l'entrée de journal de fin de mise à jour du cache d'Azure.
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Le processus peut prendre un certain temps en fonction du nombre de groupes, d'utilisateurs et de leurs relations dans Azure AD.
 {% endsnippet %}
 

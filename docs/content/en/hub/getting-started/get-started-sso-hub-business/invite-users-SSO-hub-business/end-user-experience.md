@@ -17,7 +17,7 @@ Users that are invited to join {{ en.DHUBB }} receive this email from their admi
 1. Log in using the ***Sign in with Microsoft*** button.
 ![Sign in with Microsoft](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub4147.png)
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 New users accessing {{ en.DHUBB }} through Azure AD sign in will go through this configuration if they do not have a {{ en.DA }}. Since you do not want the user to define a password for this account, you need to have a way to store the ***Private Key***. It is usually kept with the password account. This special and unique key for each user is needed when the user changes device or browser. On a daily basis, the device and browser recognize the current user, but not a new one.
 
 This is why the user needs to store this ***Private Key*** on the ***{{ en.WMAPP }}*** . It will be much more convenient for the user to do a push notification to accept the new device or browser.

@@ -10,11 +10,11 @@ eleventyComputed:
 * It is possible to configure an auto refresh interval.
 * The [{{ en.OBACK }}](/cloud/rdm-online-services/online-backup/) is available for this data source.
 
-{% snippet icon.badgeCaution %}
+{% snippet, "badgeCaution" %}
 Although it can be shared between multiple locations, there is no conflict management for the configuration. If you share with other users you may get update conflicts or otherwise run into issues. This data source type is meant for a single user using multiple computers, not multiple users.
 {% endsnippet %}
 
-{% snippet icon.shieldNotice %}
+{% snippet, "shieldNotice" %}
 All passwords are encrypted by default. You can specify a custom password (master key) to fully encrypt the content of the file. It is impossible to recover the data if the master key is lost. Please make sure to remember or backup the master key in a safe place.
 {% endsnippet %}
 

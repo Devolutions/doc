@@ -19,12 +19,12 @@ The options directly above the grid are for public folders, meaning any folder t
 | Delete | Allows the user to delete entries in groups/folders for that user group. Will also grant the Delete privilege for public groups. Also controls the visibility of the Delete column in the Groups grid. The Delete privilege need to be check if the user need to delete sessions in the {{ en.UVLT }}. |
 
 
-{% snippet icon.shieldWarning %}
+{% snippet, "shieldWarning" %}
 For higher security, its a best practice to set user groups on all the {{ en.VLT }} level folders. This ensures there are no public folders and that you have good control over the activity in your system.
 {% endsnippet %}
 
 All user groups are listed in the grid, and you can assign permissions using the corresponding columns.
 
-{% snippet icon.shieldWarning %}
+{% snippet, "shieldWarning" %}
 Granting the View permission does allow the right to also launch/open the sessions of that group.
 {% endsnippet %}

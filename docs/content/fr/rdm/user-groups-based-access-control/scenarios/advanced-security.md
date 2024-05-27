@@ -2,11 +2,11 @@
 eleventyComputed:
   title: Sécurité avancée
 ---
-{% snippet icon.badgeInfo %} 
+{% snippet, "badgeInfo" %} 
 Cette fonctionnalité n'est disponible que lors de l'utilisation d'une [Source de données avancée](/fr/rdm/windows/data-sources/data-sources-types/advanced-data-sources/). 
 {% endsnippet %}
  
-{% snippet icon.badgeInfo %} 
+{% snippet, "badgeInfo" %} 
 Le scénario suivant est conçu pour les grandes entreprises. Pour un scénario plus adapté aux petites entreprises, veuillez consulter notre scénario de [Sécurité simplifiée](/fr/rdm/windows/user-groups-based-access-control/scenarios/simplified-security/). 
 {% endsnippet %}
  
@@ -21,7 +21,7 @@ L'arborescence suivante représente les entrées auxquelles les utilisateurs ont
 
 Voici un exemple de configuration utilisateur. Pour créer des utilisateurs, accéder à ***Administration - Utilisateurs - Ajouter un utilisateur***. 
 
-{% snippet icon.badgeNotice %} 
+{% snippet, "badgeNotice" %} 
 Dans ce scénario, toutes les options de la section ***Privilèges*** de la ***Gestion des usagers*** sont définies sur ***Aucune***. 
 {% endsnippet %}
  
@@ -135,7 +135,7 @@ La dernière étape pour les éléments enfants Telemark consiste à définir la
 * ***Afficher le mot de passe : Hérité***; Jamais hérité du {{ fr.VLT }}. Seul l'administrateur peut le mot de passe des entrées. 
 * ***Afficher les informations sensibles : Hérité***; Jamais hérité du {{ fr.VLT }}. Seul l'administrateur peut afficher les informations sensibles des entrées. 
 
-{% snippet icon.shieldCaution %} 
+{% snippet, "shieldCaution" %} 
 Chaque fois qu'un nouveau dossier est ajouté, la permission ***Affichage*** doit être définie pour ServiceDesk et HelpDesk pour masquer le nouveau dossier et son contenu aux consultants. 
 {% endsnippet %}
  

@@ -8,7 +8,7 @@ The ***Account*** tab gives you access to settings for customizing your {{ en.RD
 
 ## Settings
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Changes made under the ***Settings*** section are applied to your {{ en.RDM }} application. This means that even if you change account or data source, the settings will still be in effect.
 {% endsnippet %}
 
@@ -18,7 +18,7 @@ Next, you can also change the [style of the main header (top menu)](/rdm/mac/use
 
 ## User interface profile
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 User interface profile changes are applied to your account in the current data source. This means that if you change your user interface profile in a {{ en.DHUB }} or {{ en.DVLS }} data source in {{ en.RDM }}, the change will also be made in the web interface of that data source, and vice versa.
 {% endsnippet %}
 
@@ -27,7 +27,7 @@ User interface profile changes are applied to your account in the current data s
 * ***IT professional***: A comprehensive interface with full-fledged capabilities and all remote connection features.
 * ***Business user***: A streamlined interface for managing sensitive information, such as passwords.
 
-{% snippet icon.badgeHelp %}
+{% snippet, "badgeHelp" %}
 For a more detailed overview of the profiles, see [User interface profiles](/rdm/mac/user-interface/customization/usage-profiles/).
 {% endsnippet %}
 

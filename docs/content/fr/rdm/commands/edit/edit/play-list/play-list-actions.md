@@ -8,7 +8,7 @@ Vous pouvez créer une Liste d'exécution locale ou partagée dans {{ fr.RDM }}.
 * Créer une Liste d'exécution en fonction de l'état et de la sélection des entrées
 * Modifier une Liste d'exécution existante
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Vous pouvez également utiliser le menu contextuel pour créer et modifier votre ***Liste d'exécution***. Lorsque vos entrées sont sélectionnées, cliquer avec le bouton droit dans le ***{{ fr.NPANE }}*** et sélectionner ***Liste d'exécution - Nouveau*** ou ***Ajouter à la liste d'exécution***.
 {% endsnippet %}
 
@@ -153,6 +153,6 @@ Aucune sélection prédéterminée ne sera prise en compte, créez votre Liste d
 1. Sélectionner la liste d'exécution que vous souhaitez modifier et cliquer sur ***Modifier***.
 ![Gestionnaire de listes d'exécution](https://cdnweb.devolutions.net/docs/fr/rdm/windows/clip10259.png)
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Si la liste d'exécution est partagée ou enregistrée dans votre {{ fr.UVLT }}, vous pouvez également cliquer avec le bouton droit sur l'entrée et cliquer sur Propriétés pour y accéder.
 {% endsnippet %}

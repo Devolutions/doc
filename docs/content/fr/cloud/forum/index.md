@@ -7,7 +7,7 @@ Le [{{ fr.DFORUM }}](https://forum.devolutions.net/) est le meilleur moyen d’o
 
 Visitez les différentes sections et contribuez à la connaissance de notre communauté.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Un [{{ fr.DA }}](/fr/cloud/devolutions-account/) gratuit est nécessaire pour se connecter et interagir sur le {{ fr.DFORUM }}.
 {% endsnippet %}
 

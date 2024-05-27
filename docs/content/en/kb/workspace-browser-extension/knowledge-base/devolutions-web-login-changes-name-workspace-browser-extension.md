@@ -9,6 +9,6 @@ While this change may come as a surprise, we want to assure you that it will not
 
 We understand that some of you may be concerned about the transition process. Please know that this is a work in progress. Some users may not see changes right away, as updates make their way to web browser extension stores. We are also currently updating our products, websites, and documentation to reflect this change. Once the changes are live, users can expect to see new names and logos for the {{ en.WAPPS }} and browser extension. However, for the time being, the old and new names will coexist. There is no need for you to take any action.  
 
-{% snippet icon.badgeHelp %}
+{% snippet, "badgeHelp" %}
 Also read our related Devolutions Blog article: [Meet the NEW Devolutions Workspace Browser Extension!](https://blog.devolutions.net/2023/11/meet-the-new-devolutions-workspace-browser-extension/).  
 {% endsnippet %}

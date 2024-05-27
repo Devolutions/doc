@@ -3,7 +3,7 @@ eleventyComputed:
   title: Use Windows certificate store for {{ en.DGW }}
   description: It is possible to use the Windows certificate store as a TLS certificate source. Instead of using a file, store and manage your certificates with Windows.
 ---
-{% snippet icon.badgeCaution %}
+{% snippet, "badgeCaution" %}
 If your clients fail to connect with {{ en.DGW }}, ensure the certificate contains the entire chain. This certificate chain includes any intermediate certificates. For example: Root Certificate Authority – Secure Certificate Authority – Purchased XYZ Certificate.
 {% endsnippet %}
 
@@ -11,7 +11,7 @@ It is possible to use the Windows certificate store as a TLS certificate source.
 
 With the new functionality, a [few additional parameters](https://github.com/Devolutions/devolutions-gateway#configuration) are available to configure the source of the certificate.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 If you have a previously defined `TlsCertificateFile` and/or `TlsPrivateKeyFile` configuration, removal is unnecessary as `TlsCertificateSource` tells {{ en.DGW }} where to search for the certificate.
 {% endsnippet %}
 
@@ -33,7 +33,7 @@ First, import your certificate into the Windows certificate store. Windows suppo
 * Microsoft Serialized certificate Store - *.sst
 * PKCS #7 Certificates - *.spc, *.p7b
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 If using the `External` method via `TlsCertificateSource`, then {{ en.DGW }} only supports bundling the public and private key in a PFX (PKCS#12) file. Otherwise, you will need to define the `TlsPrivateKeyFile` parameter as well.
 {% endsnippet %}
 
@@ -52,7 +52,7 @@ The ***X.509 Certificate*** entry can be used to import said certificate and exp
 ![Ellipsis button](https://cdnweb.devolutions.net/docs/docs_en_kb_KB0166.png)
 1. Click on ***Open***.
 ![KEY file](https://cdnweb.devolutions.net/docs/docs_en_kb_KB0181.png)
-   {% snippet icon.badgeInfo %}
+   {% snippet, "badgeInfo" %}
    The ***Private key*** must be in the `.key` extension.
    {% endsnippet %}
 1. Click ***Finish***.

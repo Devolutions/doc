@@ -3,7 +3,7 @@ eleventyComputed:
   title: Password policy
   description: Accessing passwords stored in your data source by querying the underlying database is not possible because of the encryption we apply on the passwords.
 ---
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 This feature is only available with an [advanced data source](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/).
 {% endsnippet %}
 

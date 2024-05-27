@@ -13,7 +13,7 @@ Follow the steps below to perform the initial configuration of your {{ en.WDAPP 
 1. After the installation is complete, in the ***{{ en.WS }} Setup*** window, check ***{{ en.DHUBP }}***, then click on ***Start Setup***.
 ![{{ en.DHUBP }} setup](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub2207.png)
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 During the setup, you can always click on ***Skip This Step*** to configure that specific setting later.
 {% endsnippet %}
 

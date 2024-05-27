@@ -7,7 +7,7 @@ eleventyComputed:
 ---
 These are the lists of addresses that are accessed by {{ en.DVLS }} and the {{ en.DVLSCONSOLE }} during normal operation, as well as the setting(s) to disable/prevent this access.
 
-{% snippet icon.badgeWarning %}
+{% snippet, "badgeWarning" %}
 We use a "best effort" approach to maintain this list, but it **does not replace proper IT security practices**. If security is paramount, it would be better to first block all internet access, then allowlist desired addresses as needed.
 {% endsnippet %}
 

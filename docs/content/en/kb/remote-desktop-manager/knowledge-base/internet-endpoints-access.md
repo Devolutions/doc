@@ -7,11 +7,11 @@ eleventyComputed:
 ---
 This is the list of addresses that are accessed by {{ en.RDM }} during normal operation, as well as the setting(s) to disable/prevent this access.  
 
-{% snippet icon.badgeWarning %}
+{% snippet, "badgeWarning" %}
 {{ en.RDM }} is a tool that integrates more than 150 technologies. This list ONLY contains endpoints accessed by the core product itself. We use a "best effort" approach to maintain this list, but it **does not replace proper IT security practices**. If security is paramount, it would be better to first block all internet access, then allowlist desired addresses as needed.
 {% endsnippet %}  
 
-{% snippet icon.shieldNotice %}
+{% snippet, "shieldNotice" %}
 As part of a standard visit to a website using the HTTPS protocol, the certificate used by the remote site is validated using industry best practices. A certificate contains multiple URLs which are accessed to perform validation. The URLs vary not only for each site, but also in time whenever they are renewed. Read [Certificate validation](/kb/remote-desktop-manager/knowledge-base/certificate-validation) for further information.
 {% endsnippet %}
 

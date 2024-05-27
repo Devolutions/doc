@@ -5,7 +5,7 @@ eleventyComputed:
   - Rôle
 ---
 Les Identifiants avancés sont utilisés pour permettre à {{ fr.DVLS }} de communiquer avec la base de données SQL.
-{% snippet icon.badgeCaution %}
+{% snippet, "badgeCaution" %}
 Seuls les comptes de connexion SQL peuvent être utilisés.
 {% endsnippet %}
 

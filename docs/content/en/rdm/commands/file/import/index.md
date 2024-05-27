@@ -9,7 +9,7 @@ Go to ***File – Import*** to import entries in {{ en.RDM }}. You can import en
 
 We support native import formats from many popular tools on the market. In case we do not support the native format or the third party, we have wizards to import from a CSV file.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 The import feature is only active if the import ***Privileges*** have been enabled inside the user account. See [System permissions](/rdm/commands/administration/security/system-permissions/).
 {% endsnippet %}
 

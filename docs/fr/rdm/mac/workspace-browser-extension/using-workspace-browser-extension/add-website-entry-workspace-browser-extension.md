@@ -2,7 +2,7 @@
 eleventyComputed:
   title: Ajouter une entrée de site Web avec le {{ fr.WBEX }}
 ---
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Cette rubrique explique comment créer une entrée à partir de vos identifiants de site Web existants. Si vous n'avez pas encore créé de compte pour le site Web, consultez plutôt [Créer un compte de site Web avec le {{ fr.WBEX }}](/fr/rdm/mac/workspace-browser-extension/using-workspace-browser-extension/create-account-website/).
 {% endsnippet %}
 

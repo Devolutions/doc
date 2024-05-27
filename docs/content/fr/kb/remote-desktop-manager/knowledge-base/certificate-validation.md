@@ -5,7 +5,7 @@ eleventyComputed:
 When {{ en.RDM }} connects to a URL using the HTTPS protocol, it will validate the certificate using industry best practices. The first hurdle is to validate that your device trusts the authority that issued the certificate, called the Root Certification Authority (CA). Each certificate is typically a hierarchy of intermediate CAs under a root, each one usually under the jurisdiction of a different legal entity. The end result is that each level adds their own validation steps.
 
 For certain organizations with a mature InfoSeq practice, other departments have final authority on all network communications, we have created options to disable certain validations, but this should be done as a last resort action.  Please look at the <a href="#certificate-security-related-options">Certificate Security options</a> section below:
-{% snippet icon.badgeCaution %}
+{% snippet, "badgeCaution" %}
 Often times, users will focus on {{ en.RDM }} as the most likely source of the error, but since we use basicnet features to perform the validation, a bug is unlikely. Ultimately, if running the certificate validation using tools that are offered with your operating system indicate an error {{ en.RDM }} will also indicate one. To quickly identify if this is the case, export the certificate by:
 1. Choosing ***View Certificate*** in the Certificate validation error dialog
 1. Export it as described in <a href="#systemdialog">System Dialog</a>
@@ -17,7 +17,7 @@ If the validation is successful, contact us to open a ticket. If it is not succe
 {{ en.RDM }} indicates a certificate validation error by displaying the following dialog:
 ![Certificate error dialog](https://cdnweb.devolutions.net/docs/docs_en_kb_KB0126.png)
 
-{% snippet icon.shieldCaution %}
+{% snippet, "shieldCaution" %}
 Before ignoring the error or adding the certificate to the exception list, always perform a perfunctory validation of the certificate by using the ***View Certificate*** action, verify the ***Issued To*** and ***Issued By*** fields to determine if they seem correct for your organization.
 {% endsnippet %}
 
@@ -108,7 +108,7 @@ The resulting output from the tools mentioned above can be used to obtain more i
 
 Navigate to ***File*** – ***Settings*** – ***Security*** – ***Certificate security*** to manage options related to certificates.
 ![Certificate security options](https://cdnweb.devolutions.net/docs/docs_en_kb_KB0129.png)
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 The ***Reset Known Certificates*** option only appears if you have selected ***Continue and Remember*** on one or more certificate.
 {% endsnippet %}
 

@@ -12,12 +12,12 @@ Voici les étapes pour créer et attribuer des ***Utilisateurs d'application*** 
 ![Nom de l'utilisateur d'application](https://cdnweb.devolutions.net/docs/fr/hub/Hub2052.png)
 1. Copier la ***Clé secrète d'application*** et la ***Clé de l'application*** ou télécharger le fichier PDF fourni pour l'enregistrer dans un endroit sécuritaire.
 ![Nom de l'utilisateur d'application](https://cdnweb.devolutions.net/docs/fr/hub/Hub2053.png)
-{% snippet icon.badgeCaution %}
+{% snippet, "badgeCaution" %}
 Conservez sécuritairement les informations nouvellement créées de l'***Utilisateur d'application***.
 {% endsnippet %}
 
 4. ***Fermer*** la fenêtre.
-{% snippet icon.shieldCaution %}
+{% snippet, "shieldCaution" %}
 Par défaut, un ***Utilisateur d'application*** nouvellement créé n'a aucune permission. Consultez la section suivante pour lui en assigner.
 {% endsnippet %}
 

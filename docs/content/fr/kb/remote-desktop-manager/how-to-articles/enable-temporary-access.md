@@ -8,7 +8,7 @@ eleventyComputed:
 ---
 Grâce à la fonction d'***Accès temporaire***, vous pouvez donner à un utilisateur désigné un accès temporaire à une entrée pendant une durée déterminée. Cette méthode est beaucoup plus sécuritaire que de modifier les droits d'accès de l'utilisateur, puis de les modifier à nouveau une fois la tâche accomplie.
 
-{% snippet icon.badgeCaution %}
+{% snippet, "badgeCaution" %}
 Ces paramètres sont uniquement disponibles pour les sources de données avancées {{ fr.DVLS }}, Microsoft SQL Server et Microsoft Azure SQL.
 {% endsnippet %}
 
@@ -22,7 +22,7 @@ Par défaut, l'***Accès temporaire*** est défini à ***Refusé*** dans {{ fr.R
 2. Définir le ***Mode*** à ***Autorisé***.
 1. Facultatif : Définir les ***Autorisateurs*** à ***Personnalisé*** pour ajouter des utilisateurs à la liste des autorisateurs.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Par défaut, seuls les administrateurs peuvent autoriser les demandes d'accès temporaire.
 {% endsnippet %}
 
@@ -40,13 +40,13 @@ L'***Accès temporaire*** peut également être défini de manière granulaire s
 
 3. Sélectionner le ***Mode***.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Par défaut, le ***Mode*** est configuré pour hériter des paramètres de la ***Racine***. Vous pouvez choisir d'hériter d'un autre dossier, d'autoriser ou même de refuser l'accès temporaire à cette entrée.
 {% endsnippet %}
 
 4. Sélectionner le ***Autorisateurs***.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Par défaut, les ***Autorisateurs*** sont configurés pour hériter des paramètres de la ***Racine***. Vous pouvez choisir d'hériter d'un autre dossier, de permettre l'autorisation par les administrateurs uniquement ou de personnaliser et d'ajouter des utilisateurs à la liste de cette entrée.
 {% endsnippet %}
 

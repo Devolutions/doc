@@ -4,7 +4,7 @@ eleventyComputed:
   description: This topic covers multiple ways to configure and use the {{ en.DVLS }} PAM feature in {{ en.RDM }}
 ---
 This topic covers multiple ways to configure and use the {{ en.DVLS }} PAM feature in {{ en.RDM }}.
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Another alternative would be to use the [PAM dashboard](/rdm/windows/commands/view/panels/pam-dashboard/) and launch sessions from it.
 {% endsnippet %}
 
@@ -22,6 +22,6 @@ If every user has a privileged account they want to use, here are the steps:
 1. Select the ***DVLS Privileged Account*** option under ***Privileged Access Management***.
 ![DVLS Privileged Account](https://cdnweb.devolutions.net/docs/docs_en_kb_KB0054.png)
 1. Input the {{ en.DVLS }} URL, ***Username*** and select the PAM account.
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 It is also possible to check the ***Always prompt with list option*** to select which account to login with every time.
 {% endsnippet %}

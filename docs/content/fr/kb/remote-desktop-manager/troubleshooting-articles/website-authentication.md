@@ -12,11 +12,11 @@ Quelques étapes sont nécessaires afin d’envoyer correctement les noms d’ut
 1. Saisir les identifiants dans l'onglet ***Général*** de l'entrée ***Site Web***.
 ![!!KB2045](https://cdnweb.devolutions.net/docs/fr/kb/KB2045.png)
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Le {{ fr.WBEX }} est activé par défaut. Il est possible de le désactiver à partir du même onglet en sélectionnant ***Désactivée*** dans le menu déroulant ***{{ fr.WBEX_MAJ }}***.
 {% endsnippet %}
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Le [***Type de correspondance***](/fr/kb/workspace-browser-extension/how-to-articles/urls-comparing-types/) sert à déterminer si le {{ fr.WBEX }} doit considérer l'entrée valide pour la saisie automatique.
 {% endsnippet %}
 

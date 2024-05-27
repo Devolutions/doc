@@ -4,11 +4,11 @@ eleventyComputed:
 ---
 Le mode de la cache déterminera comment le client rechargera les entrées lorsque des modifications seront détectées. Sur les grandes sources de données, la mise en cache est indispensable et augmentera considérablement les performances.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Cette fonctionnalité n'est disponible que lors de l'utilisation d'une [source de données avancée](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/).
 {% endsnippet %}
 
-{% snippet icon.badgeNotice %}
+{% snippet, "badgeNotice" %}
 Si vous pensez que le cache est obsolète, appuyez sur <kbd>Ctrl</kbd>+<kbd>F5</kbd> pour actualiser le cache local. Cela forcera la lecture de la base de données pour recréer le cache.
 {% endsnippet %}
 
@@ -66,11 +66,11 @@ Si vous utilisez une version de {{ fr.RDM }} antérieure à 11.2, le moteur par 
 
 Si vous utilisez la version 11.2 ou une version plus récente de {{ fr.RDM }}, le moteur de cache par défaut sera les fichiers ***Microsoft Compound Document Format (MCDF)***.
 
-{% snippet icon.shieldNotice %}
+{% snippet, "shieldNotice" %}
 Vous pouvez améliorer la sécurité du fichier hors ligne en définissant la sécurité renforcée dans ***Fichier – Options – Sécurité – Sécurité hors connexion***.
 {% endsnippet %}
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Selon la configuration du ***Mode de la cache*** et du mode hors ligne, le fichier Offline.db peut toujours exister, car le fichier a une mise en cache à double usage et une prise en charge hors ligne.
 {% endsnippet %}
 

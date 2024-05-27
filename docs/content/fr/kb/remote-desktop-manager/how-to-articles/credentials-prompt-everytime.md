@@ -6,7 +6,7 @@ eleventyComputed:
   - credentials
 ---
 This topic describes how to get prompted for credentials on every connection to a {{ en.DHUBP }} data source through {{ en.RDM }}.
-{% snippet icon.badgeHelp %}
+{% snippet, "badgeHelp" %}
 Learn more about [creating your {{ en.DHUBP }}](https://docs.devolutions.net/hub/getting-started/create-hub/hub-personal/).
 {% endsnippet %}
 

@@ -11,7 +11,7 @@ You can request access to a public {{ en.VLT }} in {{ en.DHUBB }}. Follow the st
 ![More](https://cdnweb.devolutions.net/docs/HUBB6007_2024_1.png)
 1. Choose the {{ en.VLT }} you want to access, then click on ***Request Access***.
 ![Request Access](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub0003.png)
-   {% snippet icon.badgeInfo %}
+   {% snippet, "badgeInfo" %}
    When requesting access to a {{ en.VLT }} with {{ en.DHUBB }}, an approver must be picked from the list. Only administrators or a {{ en.VLT }} owner are eligible.
    {% endsnippet %}
 

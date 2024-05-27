@@ -26,11 +26,11 @@ Telnet, Remote Desktop Services, VMware, VNC, SCP, X Windows, and more!
 
 {{ en.RDM }} is also offered on multiple platforms, as seen below.
 
-{% snippet icon.badgeNotice %}
+{% snippet, "badgeNotice" %}
 Purchasing a Team license grants the right to use {{ en.RDM }} on ALL available platforms.
 {% endsnippet %}
 
-{% snippet icon.badgeCaution %}
+{% snippet, "badgeCaution" %}
 You must use a desktop application to create a team data source. This explains why the mobile applications are free.
 They do allow for simple usage by an individual much like the Free Edition, but they can only use, not manage, a Team
 data source.

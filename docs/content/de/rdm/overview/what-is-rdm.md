@@ -30,11 +30,11 @@ TeamViewer, Telnet, Remote Desktop Services, VMware, VNC, SCP, X Windows und vie
 
 Wie unten angeführt, ist {{ de.RDM }} auf mehreren Plattformen verfügbar.
 
-{% snippet icon.badgeNotice %}
+{% snippet, "badgeNotice" %}
 Die Team-Lizenz berechtigt die Verwendung von {{ de.RDM }} auf allen verfügbaren Plattformen.
 {% endsnippet %}
 
-{% snippet icon.badgeCaution %}
+{% snippet, "badgeCaution" %}
 Um eine Team-Datenquelle zu erstellen ist eine Desktop-Version erforderlich. Dies erklärt, warum die mobilen Anwendungen
 kostenlos sind. Auf mobilen Geräten können Team-Datenquelle verwendet- jedoch nicht verwaltet werden.
 {% endsnippet %}

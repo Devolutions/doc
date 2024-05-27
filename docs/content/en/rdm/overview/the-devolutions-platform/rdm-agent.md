@@ -2,7 +2,7 @@
 eleventyComputed:
   title: What is {{ en.RDMA }}?
 ---
-{% snippet icon.badgeCaution %}
+{% snippet, "badgeCaution" %}
 Please note that if your Windows profile is corrupted, {{ en.RDMA }} and {{ en.RDMJ }} might not work.
 {% endsnippet %}
 
@@ -19,7 +19,7 @@ It is also used by [{{ en.RDMJ }}](/rdm/windows/overview/the-devolutions-platfor
 ## Installation
 Installing {{ en.RDMA }} on a remote host can be achieved in 4 different ways:
 
-{% snippet icon.badgeNotice %}
+{% snippet, "badgeNotice" %}
 The {{ en.RDMA }} must be configured to automatically start when a Windows session is established. Method 1 below performs that automatically, but in other cases, you must configure this manually using Windows features (startup folder or Run registry key). Please consult the documentation of your operating system for details.
 {% endsnippet %}
 

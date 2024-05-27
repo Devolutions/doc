@@ -19,15 +19,15 @@ La source de données SQLite de {{ fr.RDM }} est idéale pour un seul utilisateu
 * Prise en charge complète des journaux d'activité et des pièces jointes.
 * Le service de [Sauvegarde en ligne](/fr/cloud/rdm-online-services/online-backup/) est disponible pour cette source de données
 
-{% snippet icon.shieldCaution %}
+{% snippet, "shieldCaution" %}
 Tous les mots de passe sont cryptés par défaut par {{ fr.RDM }}. Vous pouvez spécifier un mot de passe personnalisé pour crypter entièrement le contenu de la base de données SQLite.
 {% endsnippet %}
 
-{% snippet icon.shieldWarning %}
+{% snippet, "shieldWarning" %}
 La récupération du mot de passe SQLite n'est pas possible, les données seront irrécupérables si vous ne pouvez pas vous authentifier. Veuillez vous assurer de sauvegarder le mot de passe dans un endroit sûr.
 {% endsnippet %}
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 SQLite prend en charge un nombre illimité de lecteurs simultanés, mais n'autorise qu'un seul écrivain à tout instant. Pour cette raison, {{ fr.RDM }} ne prend pas en charge le partage d'une source de données SQLite entre plusieurs utilisateurs en la stockant sur un lecteur réseau. Si vous souhaitez partager vos données et travailler en équipe avec vos collègues, veuillez utiliser l'une des [Sources de données avancées](/rdm/mac/data-sources/data-sources-types/advanced-data-sources/). Veuillez consulter le site de SQLite pour plus d'informations.
 {% endsnippet %}
 
@@ -37,7 +37,7 @@ SQLite prend en charge un nombre illimité de lecteurs simultanés, mais n'autor
 
 ![SQLite - Général](https://cdnweb.devolutions.net/docs/fr/rdm/mac/clip0335.png)
 
-{% snippet icon.badgeWarning %}
+{% snippet, "badgeWarning" %}
 La récupération du mot de passe SQLite n'est pas possible, les données seront irrécupérables si vous ne pouvez pas vous authentifier. Veuillez vous assurer de sauvegarder le mot de passe dans un endroit sûr.
 {% endsnippet %}
 

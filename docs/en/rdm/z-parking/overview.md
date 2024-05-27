@@ -17,7 +17,7 @@ Use the button plus to create a new data source configuration.
 
 Use buttons plus and cog wheel to delete or edit a data source configuration.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Only the configuration will be deleted, the actual file or database will still be available.
 {% endsnippet %}
 

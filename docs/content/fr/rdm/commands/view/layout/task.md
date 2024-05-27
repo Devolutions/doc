@@ -4,7 +4,7 @@ eleventyComputed:
 ---
 La fonctionnalité ***Tâche*** est similaire à ***Liste des tâches***, mais elle ne s'applique qu'à l'entrée sélectionnée. Les tâches sont disponibles dans le menu contextuel ***Affichage – Disposition – Tâche***.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Cette fonctionnalité n'est disponible que pour les sources de données suivantes : [{{ fr.DVLS }}](/fr/rdm/windows/data-sources/data-sources-types/advanced-data-sources/server/), [Azure SQL](/fr/rdm/windows/data-sources/data-sources-types/advanced-data-sources/microsoft-azure-sql/), [SQL Server](/fr/rdm/windows/data-sources/data-sources-types/advanced-data-sources/microsoft-sql-server/) et [SQLite](/fr/rdm/windows/data-sources/data-sources-types/sqlite/).
 {% endsnippet %}
 

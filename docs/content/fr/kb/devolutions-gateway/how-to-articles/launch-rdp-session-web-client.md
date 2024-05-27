@@ -5,11 +5,11 @@ eleventyComputed:
 ---
 Since version 2023.1.3.0 of {{ en.DVLS }}, it is possible to launch RDP connections directly from the browser.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Based on [IronRDP](https://github.com/Devolutions/IronRDP) (Rust implementation of the RDP protocol) and its web assembly component, the web client, passing through a {{ en.DGW }}, ensures a secure communication using the protocol directly. No conversion of packages or images takes place, which ensures very good performance.
 {% endsnippet %}
 
-{% snippet icon.badgeCaution %}
+{% snippet, "badgeCaution" %}
 This feature is still under development. Thus, it is only possible to see a preview of the RDP session for the moment: you cannot interact with it. The clipboard is not supported and it is not yet possible to send files to the server. Rest assured that this is a temporary situation and that we are working towards a fully functional web RDP client. Learn about the <a href="#currently-supported-features">currently supported features</a>.
 {% endsnippet %}
 
@@ -30,7 +30,7 @@ To use this feature, certain requirements must be met, namely:
 
 Follow the steps below to properly configure your RDP session to launch it in a browser:
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 The steps below assume that you already have an RDP session entry. If you have not yet created it and want to learn how, see [Create entries manually](/server/web-interface/vault/entries/create-entries-manually/).
 {% endsnippet %}
 
@@ -43,7 +43,7 @@ The steps below assume that you already have an RDP session entry. If you have n
 ![VPN/SSH/Gateway – Settings – {{ en.DGW }}](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2222.png)
 1. In the ***Session Recording*** section, make sure the ***Mode*** is **not** set to ***Required***.
 ![Session Recording – Mode](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2223.png)
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 At the moment, the web client does not support session recording. However, we are working on adding this feature in a future version.
 {% endsnippet %}
 
@@ -59,7 +59,7 @@ A new browser tab should open and your session should start.
 
 ![RDP Session Opened in a Web Client](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2224.png)
 
-{% snippet icon.badgeHelp %}
+{% snippet, "badgeHelp" %}
 If the connection does not work, check the <a href="#requirements">Requirements</a> again or visit [RDP Web Client Not Showing](/dgw/kb/rdp-web-client-not-showing/).
 {% endsnippet %}
 

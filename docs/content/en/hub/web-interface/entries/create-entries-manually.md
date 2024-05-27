@@ -23,6 +23,6 @@ Sub entries are full-fledged, independant entries located bewlow a "parent" entr
 * In the {{ en.DHUB }} web interface, create a regular entry by following the instructions above, then drag and drop the entry onto another.
 * In {{ en.RDM }} with a {{ en.DHUB }} data source, see [Create an entry (Windows)](/rdm/windows/commands/edit/entries/creating-new-entry/) or [Create an entry (macOS)](/rdm/mac/commands/edit/entries/creating-new-entry/).
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 You cannot create a sub entry under another sub entry.
 {% endsnippet %}

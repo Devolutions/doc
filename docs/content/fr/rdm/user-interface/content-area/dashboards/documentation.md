@@ -6,15 +6,15 @@ La fonction ***Documentation*** permet de stocker des informations sur les resso
 
 La documentation est écrite à l'aide de [Markdown](https://fr.wikipedia.org/wiki/Markdown), une syntaxe de formatage de texte brut.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Cette fonctionnalité est disponible avec les sources de données {{ fr.DVLS }} et SQL Server.
 {% endsnippet %}
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 La fonctionnalité ***Documentation*** est chiffrée uniquement pour la source de données {{ fr.DVLS }}. Si vous utilisez des sources de données telles que SQL Server ou Azure SQL, la fonctionnalité de documentation n'est pas chiffrée.
 {% endsnippet %}
 
-{% snippet icon.badgeCaution %}
+{% snippet, "badgeCaution" %}
 La fonctionnalité d'utilisation de la ***Documentation*** en mode hors ligne est disponible pour les documents stockés dans la base de données.
 
 Activer ***Synchroniser le document en mode hors ligne*** dans les ***Paramètres de sécurité***. Cette propriété est définie pour être héritée par défaut.

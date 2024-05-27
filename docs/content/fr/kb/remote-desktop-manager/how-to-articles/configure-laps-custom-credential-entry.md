@@ -5,7 +5,7 @@ eleventyComputed:
 ---
 The following guide describes how to add a PowerShell script in a custom credentials entry to connect on a remote machine using [Windows LAPS](https://learn.microsoft.com/en-us/windows-server/identity/laps/laps-overview) (formerly Microsoft Laps).
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Windows LAPS is required and must be properly configured in your environment to use this solution.
 {% endsnippet %}
 
@@ -17,7 +17,7 @@ Windows LAPS is required and must be properly configured in your environment to 
 ![Set the drop-down menu to PowerShell](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2335.png)
 1. Add the following PowerShell script in the ***Command*** box.
 
-   {% snippet icon.badgeInfo %}
+   {% snippet, "badgeInfo" %}
    Please note that the script uses the $HOST$ variable for the `-ComputerName` switch of the `Get-LapsADPassword` cmdlet and use the $PARAMETER1$ variable for the username (see step 3 below).
    {% endsnippet %}
 

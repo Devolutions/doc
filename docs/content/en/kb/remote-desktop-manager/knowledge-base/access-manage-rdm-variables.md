@@ -14,13 +14,13 @@ The availability of variables varies from one entry/folder to another, as it dep
 
 ![Custom variables](https://cdnweb.devolutions.net/docs/RDMW4007_2024_1.png)
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Normally, the $PARENT_NAME$ variable only works for sub-entries and folders. In 2023.1, however, it also resolves with the parent folder name of a “standard” entry that is not a sub-entry as long as they are not directly in root.
 {% endsnippet %}
 
 ## Variable uses
 As a general rule, variables can be used in any field of the entry/folder, though only variables with an ***X*** in the ***Supported in Name*** column can be used in the ***Name*** field. 
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Some IP variables can cause performance issues or fail to return IP addresses in certain situations. It is recommended to [use this workaround](/kb/remote-desktop-manager/knowledge-base/ip-variables/) instead.
 {% endsnippet %}

@@ -9,7 +9,7 @@ When [configuring single sign-on (SSO)](/hub/getting-started/get-started-sso-hub
 
 Make sure that the domain you are entering is the one currently in use for your {{ en.DA }} and SSO tenants. It is crucial that the domain you are attempting to validate matches the one associated with your account.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Tip: If your domain ends in **.loc**, it is likely not the correct one for this purpose.
 {% endsnippet %}
 

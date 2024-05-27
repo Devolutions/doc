@@ -10,7 +10,7 @@ eleventyComputed:
 ---
 Here are the steps to configure Azure with {{ en.DHUBB }} for Single Sign-on (SSO) authentication and user provisioning.
 
-{% snippet icon.badgeCaution %}
+{% snippet, "badgeCaution" %}
 An [Azure AD account](https://azure.microsoft.com/) with the appropriate rights is required.
 {% endsnippet %}
 
@@ -28,7 +28,7 @@ An [Azure AD account](https://azure.microsoft.com/) with the appropriate rights 
 ![Host name and TXT value](https://cdnweb.devolutions.net/docs/HUBB2003_2024_1.png)
 
    We recommend that you verify that your configuration is adequate through DNS querying tools such as [MXToolBox](https://mxtoolbox.com/SuperTool.aspx) or [whatsmydns.net](https://www.whatsmydns.net/). The example below uses MXToolBox's TXT Lookup tool. The first part of the Domain Name must match the ***Host name*** in {{ en.DHUB }} and the Record must match the ***TXT value*** in {{ en.DHUB }} as well.
-   {% snippet icon.badgeCaution %}
+   {% snippet, "badgeCaution" %}
    DNS TXT Records can take a while to propagate.
    {% endsnippet %}
 
@@ -36,7 +36,7 @@ An [Azure AD account](https://azure.microsoft.com/) with the appropriate rights 
 1. Await domain verification. Upon successful verification, a checkmark within a green circle will display next to the domain. You may proceed to configure Single Sign-On (SSO) during the verification process; however, user provisioning will become accessible only after the domain has been verified.
 ![Verified domain](https://cdnweb.devolutions.net/docs/HUBB2004_2024_1.png)
 
-   {% snippet icon.badgeCaution %}
+   {% snippet, "badgeCaution" %}
    This validation lasts for 48 hours and does not restart automatically after that period. If you do not configure your TXT record within those 48 hours, your validation status will be ***Expired***. If that happens, you can click on ***Retry***.
 
    If you experience any issues while trying to verify your domain, visit our [Domain validation troubleshooting](/kb/hub-business/troubleshooting-articles/domain-validation-troubleshooting/) guide.
@@ -50,7 +50,7 @@ An [Azure AD account](https://azure.microsoft.com/) with the appropriate rights 
 1. ***Name*** your SSO configuration. This name will only appear in your {{ en.DHUB }} SSO settings menu. The default name is "Microsoft".
 ![Configuration Name](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub2219.png)
 
-   {% snippet icon.badgeCaution %}
+   {% snippet, "badgeCaution" %}
    Do not close this setup page, as the following steps will show you where to find the information to enter in its fields.
    {% endsnippet %}
 
@@ -65,7 +65,7 @@ An [Azure AD account](https://azure.microsoft.com/) with the appropriate rights 
 ![Create your own application](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub2138.png)
 1. Enter the name of this new application, then click on ***Create***.
 
-   {% snippet icon.badgeNotice %}
+   {% snippet, "badgeNotice" %}
    We recommend including either "Devolutions" or "Hub" in the name.
    {% endsnippet %}
 
@@ -118,7 +118,7 @@ An [Azure AD account](https://azure.microsoft.com/) with the appropriate rights 
 21. Back in the Azure Portal, select ***Certificates & secrets*** in the left side menu, then, in the ***Client secrets*** tab, click on ***New client secret***.
 ![Certificates & secrets – Client secrets – New client secret](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub2151.png)
 1. In the ***Add a client secret*** window, enter a ***Description*** (for example, the name of your Enterprise app) and select an expiration date for this client secret, as per your best internal security practices.
-   {% snippet icon.badgeCaution %}
+   {% snippet, "badgeCaution" %}
    Note that when the client secret expires, no one will be able to connect to the associated hub. You will then need to create a new client secret. We recommend that you set yourself a task reminder before the expiration date.
    {% endsnippet %}
 
@@ -147,7 +147,7 @@ An [Azure AD account](https://azure.microsoft.com/) with the appropriate rights 
 
 1. Click on ***Test Configuration*** to make sure it is correct. You will be prompted by a popup window to enter your login credentials.
 
-   {% snippet icon.badgeCaution %}
+   {% snippet, "badgeCaution" %}
    If the popup page does not appear, see [Devolutions login page does not open in the browser](/kb/general-knowledge-base/devolutions-login-page-does-not-open-browser/).
    {% endsnippet %}
 
@@ -163,7 +163,7 @@ The domain verification must be completed to be able to configure provisioning.
 
 To synchronize your users and user groups from your providers to the hub, first add your users and groups to your enterprise application. You need to have an Azure Enterprise license to be able to synchronize user groups.
 
-{% snippet icon.badgeCaution %}
+{% snippet, "badgeCaution" %}
 Nested groups are not supported, meaning that Azure provisioning will not synchronize the users member of the nested group.
 {% endsnippet %}
 
@@ -219,7 +219,7 @@ Now that your users and groups have been added, continue with the provisioning c
 You can now see an overview of your provisioning synchronization. Next to the ***Tenant URL***, you have the options to ***Regenerate a SCIM Token*** or ***Delete the SCIM Provisioning***.
 ![Provisioning synchronization overview](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub2231.png)
 
-{% snippet icon.badgeCaution %}
+{% snippet, "badgeCaution" %}
 The ***Secret Token*** will expire 365 days after its generation. When it does, the provisioning will stop working. You will then need to regenerate a new token in the ***Provisioning synchronization overview*** page seen above. We recommend that you set yourself a task reminder before the expiration date.
 {% endsnippet %}
 
@@ -233,7 +233,7 @@ In ***Administration – User Groups***, the Azure user groups will be added. Th
 In ***Administration – Users***, all users in the Azure user group who are already part of your {{ en.DHUB }} will be flagged as synced with the ***Is sync*** icon next to their name. All new users part of the synchronized Azure user group who are not part of the {{ en.DHUB }} will be suggested as [new invitations](/hub/getting-started/get-started-sso-hub-business/invite-users-SSO-hub-business/) in ***Invitations required***.
 ![Invitations required & synced users](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub2175.png)
 
-{% snippet icon.badgeNotice %}
+{% snippet, "badgeNotice" %}
 All users who already had a {{ en.DA }} will see both login options: the {{ en.DA }} method and the Microsoft method.
 {% endsnippet %}
 

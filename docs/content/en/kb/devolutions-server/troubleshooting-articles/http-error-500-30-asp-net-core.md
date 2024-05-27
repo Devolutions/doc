@@ -14,6 +14,6 @@ If ***Enable 32-Bit Applications*** is already set to false, ensure that the ser
 
 Make sure that the APS.Net Core Hostin Bundle installed on the server where {{ en.DVLS }} is hosted is the [latest version](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-aspnetcore-6.0.25-windows-hosting-bundle-installer).
 
-{% snippet icon.badgeHelp %}
+{% snippet, "badgeHelp" %}
 Please contact our support technicians at [service@devolutions.net](mailto:service@devolutions.net) if this solution does not solve your problem.
 {% endsnippet %}

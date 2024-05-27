@@ -4,7 +4,7 @@ eleventyComputed:
 ---
 Les {{ fr.VLT }}s sont des répertoires qui organisent vos dossiers et vos entrées. Ils permettent de diviser vos ***Sources de données avancées*** en plusieurs compartiments. Les {{ fr.VLT }}s améliorent la sécurité et l'expérience utilisateur de {{ fr.RDM }} en plus de sa performance en limitant la quantité d'entrées qui chargent en même temps.
 
-{% snippet icon.badgeHelp %}
+{% snippet, "badgeHelp" %}
 Pour en savoir plus sur les différents types de {{ fr.VLT }}s et les moyens d'accéder à ces {{ fr.VLT }}s, consultez [{{ fr.VLT_MAJ }}s](/fr/rdm/windows/commands/view/panels/vault/).
 {% endsnippet %}
 
@@ -19,14 +19,14 @@ Cette rubrique traite des sujets suivants :
 ### Créer un {{ fr.VLT }}
 
 Suivez les étapes ci-dessous pour créer un nouveau {{ fr.VLT }}.
-{% snippet icon.shieldNotice %}
+{% snippet, "shieldNotice" %}
 Pour des raisons de sécurité et de performance, nous recommandons de créer un {{ fr.VLT }} différent pour chaque client et/ou département, dépendamment de votre utilisation de {{ fr.RDM }}.
 {% endsnippet %}
 
 1. Dans le ***Ruban***, accéder à ***Administration – Gestion – {{ fr.VLT_MAJ }}s***.
 ![Administration – Gestion – {{ fr.VLT_MAJ }}s](https://cdnweb.devolutions.net/docs/fr/rdm/windows/RdmWin4087.png)
 
-{% snippet icon.badgeHelp %}
+{% snippet, "badgeHelp" %}
 Si vous utilisez une source de données {{ fr.DVLS }} ou {{ fr.DHUBB }}, la gestion des {{ fr.VLT }}s est effectuée dans leurs interfaces Web respectives. Pour davantage d'informations, consultez [{{ fr.DVLS }}](/fr/server/web-interface/administration/security-management/vaults/) ou [{{ fr.DHUB }}](/fr/hub/web-interface/administration/management/vaults/) qui traient des {{ fr.VLT }}s.
 {% endsnippet %}
 
@@ -34,11 +34,11 @@ Si vous utilisez une source de données {{ fr.DVLS }} ou {{ fr.DHUBB }}, la gest
 2. Dans la fenêtre ***Gestion des usagers et de la sécurité***, sélectionner l'onglet ***{{ fr.VLT_MAJ }}s***, puis cliquer sur ***Ajouter un {{ fr.VLT }}***.
 ![Ajouter un {{ fr.VLT }}](https://cdnweb.devolutions.net/docs/fr/rdm/windows/RdmWin4088.png)
 1. Dans l'onglet ***Général***, un ***ID*** sera automatiquement généré. Saisir un ***Nom*** (obligatoire) et une ***Description*** (facultatif) pour votre nouveau {{ fr.VLT }}. La création du {{ fr.VLT }} peut être effectuée aussitôt que le ***Nom*** est spécifié, mais il existe tout de même d'autres options. Elles sont présentées à la prochaine étape.
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Pour utiliser un modèle de {{ fr.VLT }} existant, vous pouvez le sélectionner dans la liste déroulante ***Modèle***. Contrairement aux autres paramètres, celui-ci ne peut pas être configuré ultérieurement car il modifie la façon dont le {{ fr.VLT }} est créé. Renseignez-vous sur les ***Modèles*** avant de prendre une décision.
 {% endsnippet %}
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 L'option ***Autoriser le mode hors-ligne*** est activée par défaut. Si vous la désactivez, le nouveau {{ fr.VLT }} ne pourra pas être utilisé en [mode hors-ligne](/fr/rdm/windows/data-sources/offline-mode/). Ce paramètre peut être modifié après la création du {{ fr.VLT }} en allant dans ***Administration – Gestion – {{ fr.VLT_MAJ }}s***, puis en sélectionnant le {{ fr.VLT }} à modifier et en cliquant sur ***Modifier les paramètres du {{ fr.VLT }}***.
 {% endsnippet %}
 
@@ -46,7 +46,7 @@ L'option ***Autoriser le mode hors-ligne*** est activée par défaut. Si vous la
 
 4. Facultatif : Des options d'***Utilisateurs et groupes d'utilisateurs*** ainsi que de ***Sécurité*** sont disponibles dans les autres onglets du menu de gauche. Ils sont à configurer selon vos besoins maintenant ou plus tard en allant dans ***Administration – Gestion – {{ fr.VLT_MAJ }}s***, puis en sélectionnant le {{ fr.VLT }} à modifier et en cliquant sur ***Modifier les paramètres du {{ fr.VLT }}***.
     1. ***Utilisateurs et groupes d'utilisateurs*** : Sélectionner quels utilisateurs et groupes d'utilisateurs auront accès à ce {{ fr.VLT }} en les cochant/décochant.
-{% snippet icon.shieldInfo %}
+{% snippet, "shieldInfo" %}
 Pour des raisons de sécurité, les administrateurs ont toujours accès aux {{ fr.VLT }}s.
 {% endsnippet %}
 
@@ -88,14 +88,14 @@ Suivez les étapes ci-dessous pour affecter des ***Utilisateurs*** et des ***Rô
 
 1. Dans le ***Ruban***, aller dans ***Administration – Gestion – {{ fr.VLT_MAJ }}s***.
 ![Administration – Gestion – {{ fr.VLT_MAJ }}s](https://cdnweb.devolutions.net/docs/fr/rdm/windows/RdmWin4087.png)
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Si vous utilisez une source de données {{ fr.DVLS }} ou {{ fr.DHUBB }}, la gestion des {{ fr.VLT }}s est effectuée dans leurs interfaces Web respectives. Pour davantage d'informations, consultez [{{ fr.DVLS }}](/fr/server/web-interface/administration/security-management/vaults/) ou [{{ fr.DHUB }}](/fr/hub/web-interface/administration/management/vaults/) qui traitent des {{ fr.VLT }}s.
 {% endsnippet %}
 
 2. Dans la fenêtre ***Gestion des usagers et de la sécurité***, sélectionner l'onglet ***{{ fr.VLT_MAJ }}s***, puis cliquer sur ***Affecter des utilisateurs et rôles***.
 ![Gestion des usagers et de la sécurité – {{ fr.VLT_MAJ }}s – Affecter des utilisateurs et rôles](https://cdnweb.devolutions.net/docs/fr/rdm/windows/RdmWin4094.png)
 1. Dans la fenêtre ***Assignation d'un {{ fr.VLT }}***, choisir quels ***Utilisateurs*** et ***Groupes d'utilisateurs*** auront accès au {{ fr.VLT }} en cochant la case à côté.
-{% snippet icon.shieldInfo %}
+{% snippet, "shieldInfo" %}
 Pour des raisons de sécurité, les administrateurs ont toujours accès aux {{ fr.VLT }}s.
 {% endsnippet %}
 
@@ -103,7 +103,7 @@ Pour des raisons de sécurité, les administrateurs ont toujours accès aux {{ f
 
 4. Cliquer sur ***Enregistrer*** lorsque terminé.
 
-{% snippet icon.shieldCaution %}
+{% snippet, "shieldCaution" %}
 Il faut garder à l'esprit que même si vous attribuez un rôle/utilisateur à un {{ fr.VLT }}, les permissions définies dans les ***Paramètres du {{ fr.VLT }}*** peuvent modifier ce que les utilisateurs peuvent voir ou faire dans le {{ fr.VLT }}.
 {% endsnippet %}
 

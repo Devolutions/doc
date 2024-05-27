@@ -17,7 +17,7 @@ There are two methods for configuring the failed request tracing:
 | appcmd.exe set config "Default Web Site" -section:system.webServer/tracing/traceFailedRequests /+"[path='*'].traceAreas.[provider='WWW Server',areas='Rewrite',verbosity='Verbose']" |
 | appcmd.exe set config "Default Web Site" -section:system.webServer/tracing/traceFailedRequests /[path='*'].failureDefinitions.statusCodes:"400-599" |
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Note that the steps above only apply to IIS 7.0 or later, and that the commands work best when cmd.exe is run as an administrator.
 {% endsnippet %}
 

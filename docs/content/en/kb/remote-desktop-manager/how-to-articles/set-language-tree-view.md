@@ -10,7 +10,7 @@ eleventyComputed:
 ---
 In {{ en.RDM }}, you can specify a language (and a location) for the tree view in the ***{{ en.NPANE }}***. This is especially useful for languages that use characters other than or in addition to the A-Z alphabet.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Note that the system on which {{ en.RDM }} is installed must support the specific language for it to work in {{ en.RDM }}.
 {% endsnippet %}
 
@@ -18,7 +18,7 @@ Note that the system on which {{ en.RDM }} is installed must support the specifi
 1. In the ***Tree view culture*** field, specify a ***Language tag***.
    ![Tree view culture field](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2110.png)
 
-   {% snippet icon.badgeInfo %}
+   {% snippet, "badgeInfo" %}
    A list of tags is available on [this Microsoft page](https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-lcid/a9eac961-e77d-41a6-90a5-ce1a8b0cdb9c), in a table under the ***Language tag*** column. Tags are generally composed of lowercase letters representing the language (e.g., *en* for English) followed by uppercase letters representing the location or type (e.g., *US* for the United States), separated by a hyphen. For example, *en-US* is the tag for English in the United States. Other tag formats also exist.
    {% endsnippet %}
 

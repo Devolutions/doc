@@ -41,7 +41,7 @@ La ***Liste d'exécution*** du {{ fr.UVLT }} est enregistrée dans votre {{ fr.U
 1. Vous remarquerez que toutes vos entrées présélectionnées dans le ***{{ fr.NPANE }}*** sont déjà sélectionnées dans l'éditeur de liste d'exécution. Nommer et écrire une description à votre liste d'exécution et cliquer sur ***OK***.
 ![Éditeur de liste d'exécution](https://cdnweb.devolutions.net/docs/fr/rdm/mac/clip4093.png)
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Le temps d'attente est utilisé pour définir le délai entre l'ouverture des différentes entrées.
 {% endsnippet %}
 

@@ -4,11 +4,11 @@ eleventyComputed:
 ---
 {{ en.RDM }} has a built-in profiler to diagnose connectivity issues with a data source.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Displaying the Profiler window might slow down the operations on the data source. Proceed with care.
 {% endsnippet %}
 
-{% snippet icon.badgeNotice %}
+{% snippet, "badgeNotice" %}
 To diagnose startup issues, you can enable the profiler from the command line as described in [Command Line Arguments](/kb/remote-desktop-manager/how-to-articles/command-line-arguments/#usage-remotedesktopmanagerexe-parameters).
 {% endsnippet %}
 
@@ -16,7 +16,7 @@ To diagnose startup issues, you can enable the profiler from the command line as
 
 1. Once the Profiler is opened, refresh the data source.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Holding the <kbd>Ctrl</kbd> key while performing the refresh should force a full reload of the data source, recreating the offline cache.
 {% endsnippet %}
 

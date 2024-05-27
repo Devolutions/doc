@@ -20,7 +20,7 @@ Une façon de créer un raccourci est de faire un clic droit sur l'entrée chois
 Une autre façon de créer un raccourci consiste à utiliser le menu ***Modifier - Créer un raccourci***.
 ![Ruban Modifier - Créer un raccourci](https://cdnweb.devolutions.net/docs/fr/rdm/mac/clip4053.png)
 
-{% snippet icon.badgeHelp %}
+{% snippet, "badgeHelp" %}
 Il n'y a aucune différence visuelle entre le raccourci et l'entrée d'origine. Par conséquent, vous devrez supprimer toutes les entrées pour les supprimer complètement.
 {% endsnippet %}
 

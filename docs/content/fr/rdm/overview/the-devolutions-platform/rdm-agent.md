@@ -3,7 +3,7 @@ eleventyComputed:
   title: Agent {{ fr.RDM }}
   description: L'{{ fr.RDMA }} exécute des commandes sur des hôtes distants, mais sa principale utilité réside dans sa capacité à envoyer des commandes à plusieurs hôtes simultanément. Puisque {{ fr.RDM }} utilise un canal de communication sécurisé RDP pour communiquer avec l'{{ fr.RDMA }}, alors l'{{ fr.RDMA }} n’est compatible qu’avec des hôtes Windows.
 ---
-{% snippet icon.badgeCaution %}
+{% snippet, "badgeCaution" %}
 Veuillez noter que si votre profil Windows est corrompu, l'{{ fr.RDMA }} et {{ fr.RDMJ }} pourraient ne pas fonctionner correctement.
 {% endsnippet %}
 
@@ -21,7 +21,7 @@ Il est aussi utilisé par [{{ fr.RDMJ }}](/fr/rdm/windows/overview/the-devolutio
 
 L’installation d’ {{ fr.RDMA }} sur un hôte distant peut s’effectuer de quatre (4) façons différentes :
 
-{% snippet icon.badgeNotice %}
+{% snippet, "badgeNotice" %}
 L’ {{ fr.RDMA }} doit être configuré pour un lancement automatique au démarrage de la session d'utilisateur Windows. La première méthode, décrite ci-dessous, permet de le configurer automatiquement. Dans certains cas, une configuration manuelle pourrait être requise en utilisant le dossier de démarrage ou une clé de registre Windows. Pour plus d'informations, veuillez consulter la documentation de votre système d'exploitation à ce sujet.
 {% endsnippet %}
 

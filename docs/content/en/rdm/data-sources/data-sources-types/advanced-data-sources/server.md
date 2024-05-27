@@ -13,7 +13,7 @@ eleventyComputed:
 * Support Windows authentication and Active Directory group integration.
 * Optimized client and server side caching.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 {{ en.DVLS }} supports Microsoft SQL Server and Microsoft Azure SQL as a data store.
 {% endsnippet %}
 

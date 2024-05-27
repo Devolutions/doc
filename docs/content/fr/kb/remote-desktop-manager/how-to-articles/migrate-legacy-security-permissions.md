@@ -7,7 +7,7 @@ eleventyComputed:
   - Legacy Security
   - Permissions
 ---
-{% snippet icon.badgeWarning %}
+{% snippet, "badgeWarning" %}
 La sécurité ancienne et les groupes de sécurité ont été dépréciés et seront complètement supprimés à partir de la version 2023.3 de {{ fr.RDM }}.
 
 Avant de migrer de l'ancienne sécurité, il est conseillé de configurer les ***Groupes d'utilisateurs*** au préalable. Voir [Migration des groupes de sécurité (anciens) vers les groupes d'utilisateurs](/fr/kb/remote-desktop-manager/how-to-articles/migration-security-groups-user-groups/).

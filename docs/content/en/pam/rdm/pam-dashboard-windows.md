@@ -4,11 +4,11 @@ eleventyComputed:
   description: In the PAM Dashboard, for every privileged account, it is possible to connect to the account, copy the password, and manage the checkout/check-in process.
   order: 10
 ---
-{% snippet icon.badgeNotice %}
+{% snippet, "badgeNotice" %}
 A license is now required to enable the Privileged Access Management (PAM) module. Please contact our [sales department](mailto:sales@devolutions.net) for more information about the license.
 {% endsnippet %}
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 The ***PAM Dashboard*** is only available with [{{ en.DVLS }}](https://devolutions.net/server).
 {% endsnippet %}
 
@@ -30,7 +30,7 @@ If there are multiple accounts in the folder, you can use the filter bar to disp
 
 It is possible to make a ***Check Out*** request for a certain time slot while in a PAM {{ en.VLT }}. This feature is very useful for planned maintenance outside of normal work hours, when approvers are not available.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Making a ***Check Out*** request in advance is only available in PAM {{ en.VLT }}s.
 {% endsnippet %}
 

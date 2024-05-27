@@ -7,7 +7,7 @@ eleventyComputed:
 ---
 * Pour optimiser l'efficacité du stockage, le système utilise des valeurs par défaut pour la plupart des champs. Par conséquent, si un champ conserve sa valeur par défaut, il sera omis du contenu affiché. Il est donc important de faire attention aux champs nouvellement ajoutés qui apparaissent dans le contenu mis à jour.
 * Les identifiants font l'objet d'un processus de traitement distinct qui implique l'utilisation de GUID lors de la référence à d'autres entrées. Toutefois, lorsqu'ils utilisent d'autres mécanismes, ils sont associés à des GUID well-known prédéfinis et statiques.  
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Il existe des [GUID supplémentaires](/fr/kb/devolutions-powershell/devolutions-server/xml-information/) qui sont exclusifs à {{ fr.DVLS }} lorsque le module PAM est activé.
 {% endsnippet %}
 
@@ -23,7 +23,7 @@ Il existe des [GUID supplémentaires](/fr/kb/devolutions-powershell/devolutions-
 | Mon {{ fr.UVLT }}, associé à PersonalConnectionID                         | "245A4245-48E7-4DF5-9C4C-11861D8E1F81" |
 | Recherche de {{ fr.UVLT }}, associée à CredentialPrivateVaultsearchString | "88E4BE76-4C5B-4694-AA9C-D53B7E0FE0DC" |
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Exemple de script pour {{ fr.RDM }} :
 ```
 $session.CredentialConnectionID = "1310CF82-6FAB-4B7A-9EEA-3E2E451CA2CF"

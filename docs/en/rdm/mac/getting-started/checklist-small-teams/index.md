@@ -8,7 +8,7 @@ Here is a checklist designed to help IT administrators install and configure {{ 
 
 First [download](https://devolutions.net/remote-desktop-manager/home/download/) and install {{ en.RDMMAC }} before proceeding.  
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 The video presented below shows how to set up {{ en.RDM }} for Windows. However, it can still be of help in setting up your {{ en.RDMMAC }}.
 {% endsnippet %}
 

@@ -7,7 +7,7 @@ Session recording provides a record of what a user did while a remote connection
 
 You can configure session recording at the {{ en.VLT }}, folder or entry level and they can be optional or required.
 
-{% snippet icon.badgeCaution %}
+{% snippet, "badgeCaution" %}
 Session recording is only available in embedded mode.
 {% endsnippet %}
 
@@ -39,7 +39,7 @@ Session recording is only available in embedded mode.
 * ***Never***: Session recording is turned off.
 * ***Root (Default)***: Refers to {{ en.VLT }}. Default on {{ en.VLT }} means ***Never***.
 4. Choose the ***Recording*** method.
-{% snippet icon.badgeNotice %}
+{% snippet, "badgeNotice" %}
 Some options are only available with a {{ en.DVLS }} data source.
 {% endsnippet %}
 
@@ -48,7 +48,7 @@ Some options are only available with a {{ en.DVLS }} data source.
 * ***Remote***: The recording sessions will be managed by the ***Recording Server***. All following options will no longer be available.
 * ***Root (Default)***: Refers to root.
 5. Choose the file ***Destination***.
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 By default, the file saves locally, not in the database.
 We recommend choosing a custom file extension, for example on a shared network.
 {% endsnippet %}

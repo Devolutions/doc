@@ -12,6 +12,6 @@ PAM Usage Policies are useful to set which entry types and applications your use
 1. Modify the desired applications or entry types policies.
 1. Click ***Save***.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Ensure that privileged accounts function correctly and are disabled appropriately based on your choice. Also, ensure that connections saved with PAM credentials are blocked at runtime before disabling a specific connection type.
 {% endsnippet %}

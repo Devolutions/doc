@@ -10,7 +10,7 @@ eleventyComputed:
 ---
 Suivez ces étapes pour envoyer un rapport de traçage à notre équipe de soutien technique pour l'interface Web de {{ fr.DVLS }}.
 
-{% snippet icon.shieldWarning %}
+{% snippet, "shieldWarning" %}
 Les fichiers HAR contiennent des données sensibles, notamment le contenu des pages que vous avez téléchargées pendant l'enregistrement et vos témoins. Cela permet à toute personne possédant le fichier HAR d'usurper l'identité de votre compte et de toutes les informations que vous avez soumises lors de l'enregistrement (données personnelles, mots de passe, numéros de carte de crédit, etc.).
 Protégez les données de votre session en [épurant vos fichiers HAR](https://har-sanitizer.pages.dev/) avant de les partager.
 {% endsnippet %}

@@ -8,6 +8,6 @@ The workaround is to create a credential folder at the root of your {{ en.VLT }}
 
 If needed an [Advanced search](/rdm/windows/commands/view/panels/search/advanced/) can be done to locate the credentials entries.  
 
-{% snippet icon.badgeCaution %}
+{% snippet, "badgeCaution" %}
 If you are using the inherited feature, you will need to edit your folder structure accordingly.
 {% endsnippet %}

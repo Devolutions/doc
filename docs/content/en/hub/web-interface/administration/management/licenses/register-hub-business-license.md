@@ -7,7 +7,7 @@ Register your new license in {{ en.DHUBB }} by following the steps that best rep
 * [My current license is still active](#my-current-license-is-still-active)
 * [My current license is expired](#my-current-license-is-expired)
 
-{% snippet icon.badgeCaution %}
+{% snippet, "badgeCaution" %}
 Only ***Administrators*** and users with permissions in the ***System Permissions*** section will have access to register a license in {{ en.DHUBB }}.
 {% endsnippet %}
 
@@ -25,7 +25,7 @@ Only ***Administrators*** and users with permissions in the ***System Permission
 
 1. Connect to your {{ en.DHUBB }}.
 1. An access denied message will show.
-{% snippet icon.badgeCaution %}
+{% snippet, "badgeCaution" %}
 Only ***Administrators*** and users with the ***System Permissions*** to ***Manage product licenses*** will get this message.
 {% endsnippet %}
 

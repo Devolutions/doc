@@ -6,11 +6,11 @@ Voici les raccourcis clavier par défaut pour diverses commandes. Ceux-ci peuven
 
 Le bouton ***Réinitialiser*** annule toute modification de personnalisation des raccourcis qui n'a pas encore été enregistrée. Le bouton ***Restaurer tout par défaut*** ramène tous les raccourcis à leurs valeurs par défaut.
 
-{% snippet icon.badgeCaution %}
+{% snippet, "badgeCaution" %}
 Les boutons ***Réinitialiser*** et ***Restaurer tout par défaut*** effacent vos raccourcis personnalisés, bien que ***Réinitialiser*** n'efface que les modifications non sauvegardées. Utilisez ces options avec précaution afin de ne pas risquer la perte de vos raccourcis personnalisés.
 {% endsnippet %}
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Consultez [Keyboard shortcuts customization in {{ fr.RDMMAC }} (EN)](/kb/remote-desktop-manager-macos/how-to-articles/keyboard-shortcuts-customization-rdm-mac/) pour la personnalisation de vos raccourcis.
 {% endsnippet %}
 

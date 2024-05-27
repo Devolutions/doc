@@ -15,7 +15,7 @@ To make these steps simpler, we will name the domain account VaultDBRunner, plea
 1. In the ***Advanced Settings***, edit the ***Identity*** setting to get the VaultDBRunner account.
 ![!!KB4340](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4340.png)
 
-{% snippet icon.badgeCaution %}
+{% snippet, "badgeCaution" %}
 In some cases the UPN format must be used for the username (username@domain.xyz) instead of the NETBIOS format (domain\username).
 {% endsnippet %}
 

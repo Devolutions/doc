@@ -10,7 +10,7 @@ First of all, you will need to install the Sysinternals tools from Microsoft, be
 
 Then, download the *.msi or the *.exe of the application you wish to install and save the file on a shared drive that is accessible from the remote computer.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Options exist to copy files remotely, please refer to PSExec documentation for further details.
 {% endsnippet %}
 
@@ -23,7 +23,7 @@ C:\Tools\Sysinternals\psexec.exe \\$HOST$ -i -u $TOOL_DOMAIN$\$TOOL_USERNAME$ -p
 k "msiexec /i \\SRV-DEPLOY\msi\Setup.RemoteDesktopManager.10.9.0.0.msi /quiet /passive /norestart"
 ```
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 The full path to the *.msi must be entered. A shared network is recommended in this case.
 {% endsnippet %}
 

@@ -4,7 +4,7 @@ eleventyComputed:
 ---
 {{ fr.RDM }} dispose d'un profileur intégré pour diagnostiquer les problèmes de connectivité avec une source de données.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Trop d'images personnalisées pourraient considérablement augmenter la taille de la source de données et provoquer un problème de temps de chargement.
 {% endsnippet %}
 
@@ -13,7 +13,7 @@ Trop d'images personnalisées pourraient considérablement augmenter la taille d
 1. Sélectionner ***Aide - Profileur***.
 ![Aide - Profileur](https://cdnweb.devolutions.net/docs/fr/rdm/mac/clip4233.png)
 1. Déplacer la fenêtre sur le côté afin d'afficher la fenêtre principale de {{ fr.RDM }} et actualiser la source de données en utilisant le bouton ***Actualiser*** ou en utilisant ***Fichier - Actualiser***.
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Maintenir la touche <kbd>Ctrl</kbd> pendant l'exécution de l'actualisation forcera un rechargement complet de la source de données, ignorant ainsi le cache.
 {% endsnippet %}
 

@@ -4,7 +4,7 @@ eleventyComputed:
   description: Create scheduled reports to run automatically and manage who receives the data from your {{ en.DVLS }} and when.
 ---
 Create ***scheduled reports*** to run automatically and manage who receives the data from your {{ en.DVLS }} and when.
-{% snippet icon.badgeCaution %}
+{% snippet, "badgeCaution" %}
 For this feature to work, it is mandatory to enable the [***Scheduler service***](/kb/devolutions-server/knowledge-base/scheduler-service-general-information/) in the {{ en.DVLSCONSOLE }} ***Companions*** tab.
 {% endsnippet %}
 
@@ -13,7 +13,7 @@ For this feature to work, it is mandatory to enable the [***Scheduler service***
 1. Click on the ***Add*** button.
 ![Add a scheduled report](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp4077.png)
 1. Select a report type in the ***General*** drop-down menu.
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Available options upon report selection will differ from one to another.
 {% endsnippet %}
 
@@ -30,7 +30,7 @@ Available options upon report selection will differ from one to another.
 | Do not send when the report is empty | The report will not be sent to the recipients if the report contains no data.                |
 
 4. Add filtering and set the recurrence of the report.
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Available filter options upon report selection will differ from one to another.
 {% endsnippet %}
 

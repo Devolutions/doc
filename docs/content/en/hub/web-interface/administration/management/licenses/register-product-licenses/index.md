@@ -4,7 +4,7 @@ eleventyComputed:
 ---
 Register Devolutions ***Product Licenses*** in {{ en.DHUBB }}.
 
-{% snippet icon.badgeCaution %}
+{% snippet, "badgeCaution" %}
 Only ***Administrators*** and users with permissions in the ***System Permissions*** section will have access to register a license in {{ en.DHUBB }}.
 {% endsnippet %}
 

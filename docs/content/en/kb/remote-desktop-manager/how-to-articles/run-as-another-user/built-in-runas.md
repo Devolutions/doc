@@ -2,7 +2,7 @@
 eleventyComputed:
   title: Built-in RunAs
 ---
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 This article describes the built in method of using ***Run As*** For sessions types that do not yet support the built in method you can follow the manual steps outlined in [Run as another user](/kb/remote-desktop-manager/how-to-articles/run-as-another-user/).
 {% endsnippet %}
 

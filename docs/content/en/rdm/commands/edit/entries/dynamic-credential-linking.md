@@ -7,7 +7,7 @@ Dynamic credential linking creates a single credential entry for a supported cre
 
 ## Supported credential managers
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 The following credential entries are only supported with {{ en.RDM }} Team.
 {% endsnippet %}
 
@@ -35,7 +35,7 @@ Here is the list of all implemented credential managers that support dynamic cre
 * True Key
 * Zoho Vault
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 A dynamic credential link can also be applied to a Folder or a VPN entry type if desired.
 {% endsnippet %}
 

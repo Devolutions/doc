@@ -179,7 +179,7 @@ Lorsque vous activez la touche Windows, il enverra la fonction à votre hôte au
 
 Cet onglet contient plusieurs types de commandes et combinaisons de touches pour affecter la session en cours dans une variété d'instances. En tant que telles, ces commandes dépendent de l'entrée actuellement sélectionnée (et ouverte).
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Les modules complémentaires de session peuvent ajouter une commande personnalisée dans cette section, ils ne seront pas documentés dans ces rubriques, mais plutôt dans la documentation du module complémentaire.
 {% endsnippet %}
 
