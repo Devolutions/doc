@@ -1,0 +1,14 @@
+{
+    "_schema": "doc",
+    "isTopic": true,
+    "icon": "https://cdnweb.devolutions.net/images/projects/devolutions-powershell/logos/devolutions-powershell-icon-shadow.svg",
+    "logo": "https://cdnweb.devolutions.net/images/projects/devolutions-powershell/logos/devolutions-powershell-color-shadow.svg",
+    "url": "/powershell/overview/what-is-powershell/",
+    "formattedName": "Devolutions PowerShell",
+    "sidebars": [
+      {
+        "autogenerate": { "directory": "powershell" }
+      }
+    ]
+  }
+  

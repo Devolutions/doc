@@ -7,5 +7,6 @@
     "cloud": "Devolutions Cloud",
     "dgw": "Devolutions Gateway",
     "pam": "Privileged access management",
-    "workspace": "Devolutions Workspace"
+    "workspace": "Devolutions Workspace",
+    "powershell": "Devolutions PowerShell"
 }

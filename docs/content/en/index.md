@@ -67,6 +67,18 @@ cards:
         url: /workspace/workspace-apps/workspace-mobile/installation/
       - name: Workspace browser extention installation
         url: /workspace/workspace-browser-extension/installation/
+  - name: powershell
+    links:
+      - name: What is Devolutions PowerShell?
+        url: /powershell/overview/what-is-powershell/
+      - name: Remote Desktop Manager PowerShell
+        url: /powershell/rdm-powershell/
+      - name: Devolutions Server PowerShell
+        url: /powershell/dvls-powershell/
+      - name: Devolutions Hub PowerShell
+        url: /powershell/hub-powershell/
+      - name: Devolutions Gateway PowerShell
+        url: /powershell/gateway-powershell/
   - name: kb
     links:
       - name: Devolutions Knowledge Base
@@ -83,6 +95,4 @@ cards:
         url: /kb/hub-business/
       - name: Devolutions Hub Personal
         url: /kb/hub-personal/
-      - name: Devolutions PowerShell Modules
-        url: /kb/devolutions-powershell/
 ---
