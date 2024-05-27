@@ -25,6 +25,9 @@ eleventyComputed:
 1. Input the ***External URL*** and click ***Next***.  
 ![Access URI](https://cdnweb.devolutions.net/docs/HUBB0014_2024_1.png)
 1. Change the ***Authentication*** from ***None*** to ***Custom***.
+   {% snippet icon.badgeCaution %}
+   If a ***Default User*** is not created, the site will be accessible anonymously.
+   {% endsnippet %}
 1. Input the credentials for the ***Default User*** and click ***Next***.  
 ![Default User](https://cdnweb.devolutions.net/docs/DGW0008_2024_1.png)
 1. This screen shows a summary of the current paths/settings. It is possible to go ***Back*** and modify them. If the settings are correct, click ***Next***.  
