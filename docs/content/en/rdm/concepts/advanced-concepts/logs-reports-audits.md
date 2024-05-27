@@ -14,5 +14,5 @@ Perform ***audits***, a systematic examination of activities, configurations, or
 * [Reports](/rdm/commands/reports/)
 
 ### See also
-* [Create a Custom Field Report](/kb/devolutions-powershell/remote-desktop-manager/create-custom-field-report/)
+* [Create a Custom Field Report](/powershell/rdm-powershell/create-custom-field-report/)
 * [Report export](/rdm/commands/reports/export/)

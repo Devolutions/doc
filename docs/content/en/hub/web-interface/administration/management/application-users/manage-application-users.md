@@ -22,4 +22,4 @@ Depending on the actions that this application identity needs to perform, you ne
 * [Assign system permissions to the application identity](/hub/web-interface/administration/configuration-security/system-permissions/)
 * [Assign {{ en.VLT }} permissions to the application identity](/hub/web-interface/administration/management/vaults/create-manage-vaults/)
 
-When permissions have been assigned, you are ready to access {{ en.DHUB }} with the [{{ en.PS }} module](/hub/powershell-module/) and your application identity.
+When permissions have been assigned, you are ready to access {{ en.DHUB }} with the [{{ en.PS }} module](/powershell/hub-powershell/powershell-module/) and your application identity.

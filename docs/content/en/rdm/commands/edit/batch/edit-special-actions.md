@@ -17,7 +17,7 @@ Available special actions depend on the type of entry selected.
 | | |
 |------------------------------------------------|------------------------------------------------|
 | Change color | Changes entries icon color, provided they are part of {{ en.RDM }} default icon set. |
-| [Custom PowerShell Command](/rdm/powershell-scripting/custom-powershell-commands/) | Allows executing a custom powershell command to perform many different operations. |
+| [Custom PowerShell Command](/powershell/rdm-powershell/powershell-scripting/custom-powershell-commands/) | Allows executing a custom powershell command to perform many different operations. |
 | Detect MAC Addresses | Detects the MAC address of the selected machine entries and fills the appropriate field in the asset section. |
 | Load from System Information | Fills the asset section of the entry. |
 | Move Selection To New Folder | Moves the selected entries to another folder. |

@@ -34,8 +34,8 @@ It is structured around our various products, as well as a few sub-categories.
 
 &nbsp; &nbsp;[{{ en.DHUBP }}](/kb/hub-personal/)
 
-&nbsp; &nbsp;[{{ en.PS }}](/kb/devolutions-powershell/)
+&nbsp; &nbsp;[{{ en.DPS }}](/powershell/overview/what-is-powershell/)
 
-&nbsp; &nbsp;[{{ en.WBEX }}](/kb/workspace-browser-extension/)
+&nbsp; &nbsp;[{{ en.WBEX }}](/workspace/kb/)
 
-&nbsp; &nbsp;[{{ en.WAPPS}}](/kb/devolutions-workspace/)
+&nbsp; &nbsp;[{{ en.WAPPS}}](/workspace/workspace-apps/)

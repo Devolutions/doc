@@ -17,7 +17,7 @@ The {{ en.PS }} module is a way to access, create, update, and remove elements i
 
 ## Connecting to Your {{ en.DHUBB }}
 {% snippet icon.badgeHelp %}
-For the full list of available commands, see [PowerShell commands](/hub/powershell-module/powershell-commands/). Other installation options can be found in the [PowerShell Gallery](https://www.powershellgallery.com/packages/devolutions.powershell/).
+For the full list of available commands, see [PowerShell commands](/powershell/hub-powershell/powershell-commands/). Other installation options can be found in the [PowerShell Gallery](https://www.powershellgallery.com/packages/devolutions.powershell/).
 {% endsnippet %}
 
 1. Once PowerShell 7.2 or later is installed, open a PowerShell terminal and install the {{ en.PS }} module with the following command:

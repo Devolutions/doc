@@ -11,7 +11,7 @@ To optimize storage efficiency, the system employs default values for most field
 Credentials are subject to a distinct handling process that involves the utilization of GUIDs when referencing other entries. However, when employing alternative mechanisms, they are associated with predefined, static well-known GUIDs.  
 
 {% snippet icon.badgeInfo %}
-There are [additional GUIDs](/kb/devolutions-powershell/remote-desktop-manager/xml-information/) used in {{ en.RDM }}.
+There are [additional GUIDs](/powershell/rdm-powershell/xml-information/) used in {{ en.RDM }}.
 {% endsnippet %}
 
 | Setting               | Well-known GUID                               |

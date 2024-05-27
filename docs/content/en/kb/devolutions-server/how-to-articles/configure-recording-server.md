@@ -14,7 +14,7 @@ A [gateway](/dgw/server/server-configuration/) first needs to be installed befor
 1. Click on ***Enable {{ en.DGW }} recording***.
 ![Enable {{ en.DGW }} recording](https://cdnweb.devolutions.net/docs/docs_en_kb_KB0130.png)
    {% snippet icon.badgeHelp %}
-   It is possible to [migrate legacy session recording files](/kb/devolutions-powershell/devolutions-gateway/recording-server-migration-tool).
+   It is possible to [migrate legacy session recording files](/powershell/gateway-powershell/recording-server-migration-tool/).
    {% endsnippet %}
 
 1. Disable the ***Enable legacy recording server*** option.
