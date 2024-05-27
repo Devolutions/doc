@@ -24,8 +24,11 @@ The steps below assume that you already have an RDP session entry. If you have n
 1. Click ***VPN/tunnel/gateway***.
 1. Select ***{{ en.DGW }}*** under ***Type***.
 1. Click ***Always connect***. 
-1. Click ***Update*** to save. 
 ![VPN/tunnel/gateway](https://cdnweb.devolutions.net/docs/HUBB6006_2023_3.png)
+1. Go to ***Settings ({{ en.DGW }})***.
+1. Select the {{ en.DGW }} to use for this connection, then click on ***Check Health*** to make sure the Gateway is functional. Its version must be 2023.1 or later.
+![Settings ({{ en.DGW }})](https://cdnweb.devolutions.net/docs/HUBB6008_2023_3.png)
+1. Click ***Update*** to save. 
 
 ## Launching the RDP connection
 Once all the conditions are met, you can press the ***Open in Web Client (Preview)*** button to launch the RDP connection from the web client.
