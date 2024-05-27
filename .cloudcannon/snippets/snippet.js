@@ -59,6 +59,23 @@ module.exports = {
               {
                 key: "preview.icon_color"
               }
+            ],
+            image: [
+              {
+                template: "/.cloudcannon/previews/snippet/{key|slugify}.svg",
+              },
+              {
+                template: "/.cloudcannon/previews/snippet/{preview.imageKey|slugify}.svg",
+              },
+              {
+                template: "/.cloudcannon/previews/snippet/{imageKey|slugify}.svg",
+              },
+              {
+                key: "preview.image",
+              },
+              {
+                key: "image",
+              }
             ]
           }
         }
