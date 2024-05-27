@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: "{{ en.DVLS }}" PowerShell
+  title: "{{ en.DVLS }} PowerShell"
   order: 20
 ---
 ![!!{{ en.DPS }} Logo](https://cdnweb.devolutions.net/images/projects/devolutions-powershell/logos/devolutions-powershell-color-shadow.svg)
