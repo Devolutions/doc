@@ -23,6 +23,7 @@ module.exports = {
     DOD: 'Devolutions Online Drive',
     DODB: 'Devolutions Online Database',
     DPORTAL: 'Devolutions Portal',
+    DPS: 'Devolutions PowerShell',
     DSEND: 'Devolutions Send',
     DSEND_INAPP: 'Devolutions Send In-App',
     DSEND_STANDALONE: 'Devolutions Send Standalone',

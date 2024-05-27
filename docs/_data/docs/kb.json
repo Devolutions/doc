@@ -1836,65 +1836,6 @@
           ]
         },
         {
-          "url": "/kb/devolutions-powershell/",
-          "items": [
-            {
-              "label": "Remote Desktop Manager PowerShell",
-              "items": [
-                {
-                  "url": "/kb/devolutions-powershell/remote-desktop-manager/specify-working-folder/"
-                },
-                {
-                  "url": "/kb/devolutions-powershell/remote-desktop-manager/change-default-powershell-version/"
-                },
-                {
-                  "url": "/kb/devolutions-powershell/remote-desktop-manager/create-custom-field-report/"
-                },
-                {
-                  "url": "/kb/devolutions-powershell/remote-desktop-manager/rdm-powershell-core-module/"
-                },
-                {
-                  "url": "/kb/devolutions-powershell/remote-desktop-manager/xml-information/"
-                },
-                {
-                  "url": "/kb/devolutions-powershell/remote-desktop-manager/powercli-advanced-troubleshooting/"
-                },
-                {
-                  "url": "/kb/devolutions-powershell/remote-desktop-manager/rdm-mac-enable-integrated-authentication-kerberos/"
-                },
-                {
-                  "url": "/kb/devolutions-powershell/remote-desktop-manager/ssh-algorithm-support/"
-                }
-              ]
-            },
-            {
-              "label": "Devolutions Server PowerShell",
-              "items": [
-                {
-                  "url": "/kb/devolutions-powershell/devolutions-server/xml-information/"
-                },
-                {
-                  "url": "/kb/devolutions-powershell/devolutions-server/powershell-connectivity/"
-                },
-                {
-                  "url": "/kb/devolutions-powershell/devolutions-server/run-as-anyidentity/"
-                }
-              ]
-            },
-            {
-              "label": "Devolutions Gateway PowerShell",
-              "items": [
-                {
-                  "url": "/kb/devolutions-powershell/devolutions-gateway/recording-server-migration-tool/"
-                },
-                {
-                  "url": "/kb/devolutions-powershell/devolutions-gateway/powershell-updater/"
-                }
-              ]
-            }
-          ]
-        },
-        {
           "label": "generalKnowledgeBase",
           "items": [
             {
