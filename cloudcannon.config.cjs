@@ -1,6 +1,6 @@
 module.exports = {
   source: ".",
-  _snippets_import: {
+  _snippets_imports: {
     eleventy_liquid: true
   },
   _snippets: {
