@@ -1,7 +1,7 @@
 ---
 eleventyComputed:
-  title: Launch an RDP session in the web interface of {{ en.DHUBB }}
-  description: A RDP connection can be launched via the web interface of {{ en.DHUBB }} using {{ en.DGW }}. 
+  title: Launch an RDP session in {{ en.DHUBB }}
+  description: A RDP connection can be launched in {{ en.DHUBB }} using {{ en.DGW }}. 
 ---
 A RDP connection can be launched via the web interface of {{ en.DHUBB }} using {{ en.DGW }}. The RDP entry is available under ***New entry – RDP (Microsoft Remote Desktop)***.
 
