@@ -11,20 +11,7 @@ module.exports = {
     ...require("./.cloudcannon/snippets/snippet")
   },
   collections_config: {
-    topics: {
-      name: "Topics",
-      path: "docs/content/en",
-      schemas: {
-        default: {
-          path: ".cloudcannon/schemas/topic.md"
-        }
-      },
-      _enabled_editors: [
-        "content",
-        "visual"
-      ],
-      output: true,
-    },
+    ...require("./.cloudcannon/collections/topics"),
     data: {
       path: "docs/_data",
       filter: {
@@ -42,6 +29,14 @@ module.exports = {
       }
     }
   },
+  collections_groups: [
+    {
+      heading: "Topics",
+      collections: [
+        "topicsEn"
+      ]
+    }
+  ],
   collections_config_override: true,
   data_config: {
     locale: true,

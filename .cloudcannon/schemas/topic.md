@@ -2,5 +2,6 @@
 eleventyComputed:
   title:
   description:
-preview:
+  status:
+  keywords:
 ---
