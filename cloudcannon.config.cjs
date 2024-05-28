@@ -13,6 +13,7 @@ module.exports = {
   collections_config: {
     ...require("./.cloudcannon/collections/english"),
     ...require("./.cloudcannon/collections/french"),
+    ...require("./.cloudcannon/collections/german"),
     data: {
       path: "docs/_data",
       filter: {
