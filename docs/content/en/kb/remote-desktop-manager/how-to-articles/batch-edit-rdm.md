@@ -90,7 +90,7 @@ Your entries/folders have now been modified.
 1. With your entries still selected, go to ***Edit – Batch – Edit (Special Actions)*** in the ribbon. Alternatively, you can right-click your entry selection and select ***Edit – Edit (Special Actions)***.
 1. In the ***General*** section, select ***Custom PowerShell Command***, then click ***OK***.
 ![Special Action Selection](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2106.png)
-1. In the box, using the information that you copied in step 3, write your custom PowerShell script. You can use one of these [samples](/rdm/windows/powershell-scripting/custom-powershell-commands/batch-actions-samples/).
+1. In the box, using the information that you copied in step 3, write your custom PowerShell script. You can use one of these [samples](/powershell/rdm-powershell/powershell-scripting/custom-powershell-commands/batch-actions-samples/).
 1. Click ***OK***.
 
 Your entries/folders have now been modified.
