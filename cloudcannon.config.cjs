@@ -37,7 +37,7 @@ module.exports = {
       collections: [
         "english",
         "french",
-        "deutsch"
+        "german"
       ]
     }
   ],
