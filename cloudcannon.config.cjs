@@ -31,12 +31,13 @@ module.exports = {
       }
     }
   },
-  collections_groups: [
+  collection_groups: [
     {
       heading: "Topics",
       collections: [
         "english",
-        "french"
+        "french",
+        "deutsch"
       ]
     }
   ],
