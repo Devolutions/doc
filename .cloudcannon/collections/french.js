@@ -1,7 +1,7 @@
 module.exports = {
-  topicsEn: {
-    name: "English",
-    path: "docs/content/en",
+  french: {
+    name: "Français",
+    path: "docs/content/fr",
     schemas: {
       default: {
         path: ".cloudcannon/schemas/topic.md"
