@@ -4,11 +4,10 @@
     "icon": "https://cdnweb.devolutions.net/images/projects/devolutions-pam/devolutions-pam-white-shadow.svg",
     "logo": "https://cdnweb.devolutions.net/images/projects/devolutions-pam/devolutions-pam-color-shadow.svg",
     "url": "/pam/overview/what-is-pam/",
-    "formattedName": "Privileged access management",
+    "formattedName": "Devolutions PAM",
     "sidebars": [
       {
         "autogenerate": { "directory": "pam" }
       }
     ]
   }
-  

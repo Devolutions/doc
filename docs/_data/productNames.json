@@ -1,12 +1,11 @@
 {   
     "rdm/windows": "Remote Desktop Manager (Windows)",
     "rdm/mac": "Remote Desktop Manager (macOS)",
-    "kb": "Devolutions Knowledge Base",
     "server": "Devolutions Server",
     "hub": "Devolutions Hub",
     "cloud": "Devolutions Cloud",
     "dgw": "Devolutions Gateway",
-    "pam": "Privileged access management",
+    "pam": "Devolutions PAM",
     "workspace": "Devolutions Workspace",
     "powershell": "Devolutions PowerShell"
 }

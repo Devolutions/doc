@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: "{{ en.DSEND }} through the {{ en.WAPPS }}"
+  title: "{{ en.DSEND }}"
   description: "{{ en.DSEND }} can be used with {{ en.HUBB }} and {{ en.DVLS }} through the {{ en.WAPPS }}."
   order: 40
 ---

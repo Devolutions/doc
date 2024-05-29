@@ -1,7 +1,7 @@
 ---
 eleventyComputed:
   title: "{{ en.DLAUNCHER }}"
-  order: 60
+  order: 80
 ---
 ![!!{{ en.DLAUNCHER }} logo](https://cdnweb.devolutions.net/images/projects/launcher/logos/launcher-color-shadow.svg)
 

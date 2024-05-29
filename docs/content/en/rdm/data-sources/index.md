@@ -2,7 +2,7 @@
 eleventyComputed:
   title: Data sources
   description: The data sources are at the heart of {{ en.RDM }}. They are the container that holds entries.
-  order: 40
+  order: 60
 ---
 The data sources are at the heart of {{ en.RDM }}. They are the container that holds entries.
 

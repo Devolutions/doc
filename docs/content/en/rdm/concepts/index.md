@@ -2,7 +2,7 @@
 eleventyComputed:
   title: Concepts
   description: Mastering the concepts underpinning {{ en.RDM }} saves time for both users and administrators.
-  order: 25
+  order: 40
 ---
 ![!!Concepts](https://cdnweb.devolutions.net/docs/MARKETING_sysadminotaur-104-final.apk.png)
 

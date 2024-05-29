@@ -2,7 +2,7 @@
 eleventyComputed:
   title: "{{ en.DPS }}"
   description: The {{ en.PS }} module provides administrators with a suite of of cmdlets for managing {{ en.RDM }} through PowerShell.
-  order: 80
+  order: 100
 ---
 ![!!{{ en.DPS }} Logo](https://cdnweb.devolutions.net/images/projects/devolutions-powershell/logos/devolutions-powershell-color-shadow.svg)
 

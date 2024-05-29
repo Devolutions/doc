@@ -22,13 +22,6 @@
     "formattedName": "<b>Remote Desktop</b> Manager",
     "os": "apple"
   },
-  "kb": {
-    "isTopic": true,
-    "icon": "https://cdnweb.devolutions.net/images/projects/knowledge-base/logos/knowledge-base-icon-shadow.svg",
-    "logo": "https://cdnweb.devolutions.net/images/projects/knowledge-base/logos/knowledge-base-color-shadow.svg",
-    "url": "/kb/devolutions-customer-success/",
-    "formattedName": "<b>Devolutions</b> Knowledge Base"
-  },
   "server": {
     "isTopic": true,
     "icon": "https://cdnweb.devolutions.net/images/projects/server/logos/server-icon-shadow.svg",
@@ -43,13 +36,6 @@
     "url": "/hub/overview/what-is-hub/",
     "formattedName": "<b>Devolutions</b> Hub"
   },
-  "cloud": {
-    "isTopic": true,
-    "icon": "https://cdnweb.devolutions.net/images/projects/cloud/logos/cloud-icon-shadow.svg",
-    "logo": "https://cdnweb.devolutions.net/images/projects/cloud/logos/cloud-color-shadow.svg",
-    "url": "/cloud/getting-started/devolutions-cloud-services/",
-    "formattedName": "<b>Devolutions</b> Cloud Services"
-  },
   "dgw": {
     "isTopic": true,
     "icon": "https://cdnweb.devolutions.net/images/projects/gateway/logos/gateway-icon.svg",
@@ -62,7 +48,7 @@
     "icon": "https://cdnweb.devolutions.net/images/projects/devolutions-pam/devolutions-pam-white-shadow.svg",
     "logo": "https://cdnweb.devolutions.net/images/projects/devolutions-pam/devolutions-pam-color-shadow.svg",
     "url": "/pam/overview/what-is-pam/",
-    "formattedName": "Privileged access management"
+    "formattedName": "Devolutions PAM"
   },
   "workspace": {
     "isTopic": true,
@@ -77,5 +63,12 @@
     "logo": "https://cdnweb.devolutions.net/images/projects/devolutions-powershell/logos/devolutions-powershell-color-shadow.svg",
     "url": "/powershell/overview/what-is-powershell/",
     "formattedName": "Devolutions PowerShell"
+  },
+  "cloud": {
+    "isTopic": true,
+    "icon": "https://cdnweb.devolutions.net/images/projects/cloud/logos/cloud-icon-shadow.svg",
+    "logo": "https://cdnweb.devolutions.net/images/projects/cloud/logos/cloud-color-shadow.svg",
+    "url": "/cloud/overview/what-is-cloud/",
+    "formattedName": "<b>Devolutions</b> Cloud"
   }
 }

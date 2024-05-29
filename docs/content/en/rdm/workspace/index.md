@@ -2,6 +2,7 @@
 eleventyComputed:
   title: "{{ en.DWS }}"
   description: "{{ en.WS }} simplifies and streamlines access and management in our solutions."
+  order: 110
 ---
 ![!!{{ en.WS }} logo](https://cdnweb.devolutions.net/images/projects/workspace/logos/workspace-color-shadow.svg)
 

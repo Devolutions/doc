@@ -1,6 +1,7 @@
 ---
 eleventyComputed:
   title: "{{ en.DHUBB }}"
+  order: 50
 ---
 ***{{ en.DHUBB }}*** is a highly-secure, flexible and easy-to-use cloud based password management solution for businesses who need to share passwords and credentials within their organization.
 

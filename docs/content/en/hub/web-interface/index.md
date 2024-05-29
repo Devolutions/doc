@@ -1,7 +1,7 @@
 ---
 eleventyComputed:
   title: Web interface
-  order: 20
+  order: 30
 ---
 Navigate and explore the menus through the different sections of {{ en.DHUBB }} and manage your data.
 ![Web interface](https://cdnweb.devolutions.net/docs/HUBB6005_2024_1.png)

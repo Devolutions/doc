@@ -2,7 +2,7 @@
 eleventyComputed:
   title: "{{ en.DSEND }}"
   description: "{{ en.DSEND }} features a secure method to generate a link to share secrets instead of using insecure email to send sensitive data."
-  order: 75
+  order: 100
 ---
 {% youtube 'hClqb2jvGj0?si=fy1j76dooxGFho4g&amp;start=189' %}
 

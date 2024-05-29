@@ -2,7 +2,7 @@
 eleventyComputed:
   title: Getting started
   description: After completing your purchase of {{ en.DVLS }} Enterprise Edition, you will receive an email with three license serials.
-  order: 10
+  order: 20
 ---
 
 After receiving your [free edition](/server/getting-started/installation/registration/register-free-server-license/) or completing your purchase of an [edition of {{ en.DVLS }}](/server/getting-started/installation/registration/register-server-license/), you will receive an email containing the licenses according to your edition. Each license serial allows for running a {{ en.DVLS }} instance.

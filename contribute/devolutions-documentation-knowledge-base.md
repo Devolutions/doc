@@ -12,7 +12,7 @@ Our comprehensive documentation is thoughtfully organized, with dedicated sectio
 * [Remote Desktop Manager macOS](https://docs.devolutions.net/rdm/mac/overview/what-is-rdm/)  
 * [Devolutions Server](https://docs.devolutions.net/server/overview/what-is-server/)  
 * [Devolutions Hub](https://docs.devolutions.net/hub/overview/what-is-hub/)  
-* [Devolutions Cloud](https://docs.devolutions.net/cloud/getting-started/devolutions-cloud-services/)  
+* [Devolutions Cloud](https://docs.devolutions.net/cloud/overview/what-is-cloud/)  
 
 [***Knowledge Base***](https://docs.devolutions.net/kb/devolutions-customer-success/) articles give solutions to common roadblocks and help using best practices.  
 They are divided in sub-sections:

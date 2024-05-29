@@ -1,5 +1,5 @@
 ---
 eleventyComputed:
   title: Commands
-  order: 50
+  order: 70
 ---

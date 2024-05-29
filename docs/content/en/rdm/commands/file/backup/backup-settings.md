@@ -2,11 +2,11 @@
 eleventyComputed:
   title: Backup settings
 ---
-The [{{ en.OBACK }}](/cloud/getting-started/devolutions-cloud-services/) allows you to backup your [{{ en.DOD }}](/rdm/windows/data-sources/data-sources-types/online-drive/), [SQLite](/rdm/windows/data-sources/data-sources-types/sqlite/), or [XML](/rdm/windows/data-sources/data-sources-types/xml/) data sources in a safe online storage. The backup option is available through ***File – Backup*** menu.
+The [{{ en.OBACK }}](/cloud/overview/what-is-cloud/) allows you to backup your [{{ en.DOD }}](/rdm/windows/data-sources/data-sources-types/online-drive/), [SQLite](/rdm/windows/data-sources/data-sources-types/sqlite/), or [XML](/rdm/windows/data-sources/data-sources-types/xml/) data sources in a safe online storage. The backup option is available through ***File – Backup*** menu.
 
 ## Settings
 
-1. Click on ***File – Backup*** to sign in with your [{{ en.DA }}](/cloud/getting-started/devolutions-cloud-services/).
+1. Click on ***File – Backup*** to sign in with your [{{ en.DA }}](/cloud/overview/what-is-cloud/).
 1. Click on View Subscription.
 ![{{ en.OBACK }} - View Subscription](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip10074.png)
 1. Click on the ellipsis to enter your ***Backup name***.

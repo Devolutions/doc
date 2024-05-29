@@ -31,9 +31,9 @@ cards:
     links:
       - name: What is Devolutions Hub?
         url: /hub/overview/what-is-hub/
-      - name: Getting started with Hub Business
+      - name: Getting started
         url: /hub/getting-started/get-started-hub-business/
-      - name: Getting started with SSO in Hub Business
+      - name: Getting started with SSO
         url: /hub/getting-started/get-started-sso-hub-business/
       - name: Devolutions Account
         url: /cloud/devolutions-account/
@@ -45,11 +45,11 @@ cards:
         url: /dgw/server/system-requirements/
       - name: Devolutions Hub
         url: /dgw/hub/system-requirements/
-      - name: Knowledge Base
-        url: /dgw/kb/
+      - name: Devolutions Gateway Standalone
+        url: /dgw/standalone/
   - name: pam
     links:
-      - name: What is Privileged access management?
+      - name: What is Devolutions PAM?
         url: /pam/overview/what-is-pam/
       - name: Remote Desktop Manager
         url: /pam/rdm/
@@ -61,38 +61,22 @@ cards:
     links:
       - name: What is Devolutions Workspace?
         url: /workspace/overview/what-is-workspace/
-      - name: Workspace desktop app installation
+      - name: Desktop app installation
         url: /workspace/workspace-apps/workspace-desktop/installation/
-      - name: Workspace mobile app installation
+      - name: Mobile app installation
         url: /workspace/workspace-apps/workspace-mobile/installation/
-      - name: Workspace browser extention installation
+      - name: Browser extention installation
         url: /workspace/workspace-browser-extension/installation/
   - name: powershell
     links:
       - name: What is Devolutions PowerShell?
         url: /powershell/overview/what-is-powershell/
-      - name: Remote Desktop Manager PowerShell
+      - name: Remote Desktop Manager
         url: /powershell/rdm-powershell/
-      - name: Devolutions Server PowerShell
-        url: /powershell/dvls-powershell/
-      - name: Devolutions Hub PowerShell
-        url: /powershell/hub-powershell/
-      - name: Devolutions Gateway PowerShell
-        url: /powershell/gateway-powershell/
-  - name: kb
-    links:
-      - name: Devolutions Knowledge Base
-        url: /kb/devolutions-customer-success/
-      - name: Remote Desktop Manager (Windows)
-        url: /kb/remote-desktop-manager/
-      - name: Remote Desktop Manager (macOS)
-        url: /kb/remote-desktop-manager-macos/
-      - name: Remote Desktop Manager (mobile)
-        url: /kb/remote-desktop-manager-mobile/
       - name: Devolutions Server
-        url: /kb/devolutions-server/
-      - name: Devolutions Hub Business
-        url: /kb/hub-business/
-      - name: Devolutions Hub Personal
-        url: /kb/hub-personal/
+        url: /powershell/dvls-powershell/
+      - name: Devolutions Hub
+        url: /powershell/hub-powershell/
+      - name: Devolutions Gateway
+        url: /powershell/gateway-powershell/
 ---

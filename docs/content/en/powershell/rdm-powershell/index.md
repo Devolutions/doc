@@ -1,7 +1,7 @@
 ---
 eleventyComputed:
   title: "{{ en.RDM }} PowerShell"
-  order: 10
+  order: 20
 ---
 ![!!{{ en.DPS }} Logo](https://cdnweb.devolutions.net/images/projects/devolutions-powershell/logos/devolutions-powershell-color-shadow.svg)
 

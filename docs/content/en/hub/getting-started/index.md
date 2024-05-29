@@ -1,5 +1,5 @@
 ---
 eleventyComputed:
   title: Getting started
-  order: 10
+  order: 20
 ---

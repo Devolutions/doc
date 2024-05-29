@@ -1,14 +1,14 @@
 ---
 eleventyComputed:
-  title: "{{ en.DCS }}"
+  title: "{{ en.DC }}"
 ---
-![!!{{ en.DCS }} logo]({{ locale.en.projects.cloud.logo }})
+![!!{{ en.DC }} logo]({{ locale.en.projects.cloud.logo }})
 
-{{ en.DCS }} is the central location for all Devolutions online services. It is comprised of multiple services as summarized below.
+The {{ en.DCS }} are the central location for all Devolutions online services. They are comprised of multiple services as summarized below.
 
 The common feature between all of these services is that they only require the possession of a free {{ en.DA }} to be accessed.
 
-## Online Services
+## Online services
 
 | {width=90} |     |
 | ---------- | --- |
@@ -19,7 +19,7 @@ The common feature between all of these services is that they only require the p
 | ![!!{{ en.DHUBP }}](https://cdnweb.devolutions.net/images/projects/password-hub-personal/logos/password-hub-personal-icon-shadow.svg) | {{ en.DHUBP }} is a free, secure and cloud-based password manager for individual users who want to secure personal passwords.<br/><br/>For more information, please consult [{{ en.DHUBP }}](/cloud/hub-personal/). |
 | ![!!{{ en.RDMOS }}](https://cdnweb.devolutions.net/images/projects/online-services/logos/online-services-icon-shadow.svg) | {{ en.RDMOS }} is your link to tools like {{ en.RDMWIN }} {{ en.CI }}, {{ en.OBACK }} and {{ en.DOD }}.<br/><br/>For more information, please consult [{{ en.RDMOS }}](/cloud/rdm-online-services/). |
 
-## {{ en.DCS }} Menu
+## {{ en.DCS }} menu
 
 Access all the {{ en.DCS }} through the menu icon.
 
