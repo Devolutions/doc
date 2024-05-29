@@ -45,11 +45,7 @@ module.exports = {
           values: "data.snippets",
           value_key: "key",
           preview: {
-            text: [
-              {
-                key: "label"
-              }
-            ],
+            text: false,
             icon: [
               {
                 key: "preview.icon"
