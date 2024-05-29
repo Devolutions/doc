@@ -1,4 +1,5 @@
 ---
+layout: layouts/markdown.liquid
 eleventyComputed:
   title: Change an account email
 ---
