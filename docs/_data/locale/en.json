@@ -64,6 +64,13 @@
       "logo": "https://cdnweb.devolutions.net/images/projects/cloud/logos/cloud-color-shadow.svg",
       "url": "/cloud/getting-started/devolutions-cloud-services/",
       "formattedName": "<b>Devolutions</b> Cloud Services"
+    },
+    "workspace": {
+      "isTopic": true,
+      "icon": "https://cdnweb.devolutions.net/images/projects/workspace/logos/workspace-icon-shadow.svg",
+      "logo": "https://cdnweb.devolutions.net/images/projects/workspace/logos/workspace-color-shadow.svg",
+      "url": "/workspace/overview/what-is-workspace/",
+      "formattedName": "Devolutions Workspace"
     }
   },
   "placeholderSearch": "Search all Resources",
