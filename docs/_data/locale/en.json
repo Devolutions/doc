@@ -71,6 +71,13 @@
       "logo": "https://cdnweb.devolutions.net/images/projects/workspace/logos/workspace-color-shadow.svg",
       "url": "/workspace/overview/what-is-workspace/",
       "formattedName": "Devolutions Workspace"
+    },
+    "powershell": {
+      "isTopic": true,
+      "icon": "https://cdnweb.devolutions.net/images/projects/devolutions-powershell/logos/devolutions-powershell-icon-shadow.svg",
+      "logo": "https://cdnweb.devolutions.net/images/projects/devolutions-powershell/logos/devolutions-powershell-color-shadow.svg",
+      "url": "/powershell/overview/what-is-powershell/",
+      "formattedName": "Devolutions PowerShell"
     }
   },
   "placeholderSearch": "Search all Resources",
