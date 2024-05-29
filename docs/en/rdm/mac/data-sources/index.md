@@ -2,7 +2,7 @@
 eleventyComputed:
   title: Data sources
   description: The data source is at the heart of {{ en.RDMMAC }}, it is the container that holds all of your entries.
-  order: 40
+  order: 50
 ---
 The data source is at the heart of {{ en.RDMMAC }}, it is the container that holds all of your entries.
 
