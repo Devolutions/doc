@@ -19,7 +19,12 @@ module.exports = {
         default: {
           path: ".cloudcannon/schemas/topic.md"
         }
-      }
+      },
+      _enabled_editors: [
+        "content",
+        "visual"
+      ],
+      output: true
     },
     data: {
       path: "docs/_data",
