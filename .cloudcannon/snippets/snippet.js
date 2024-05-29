@@ -5,8 +5,9 @@ module.exports = {
     preview: {
       text: [
         {
-          template: "Snippet - {label}"
-        }
+          template: "Snippet - {snippet_type.label}"
+        },
+        "Snippet"
       ],
       subtext: [
         {
