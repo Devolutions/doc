@@ -1,5 +1,5 @@
 ---
 eleventyComputed:
-  title: Support & resources
+  title: Support and resources
   order: 100
 ---
