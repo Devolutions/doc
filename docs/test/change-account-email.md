@@ -1,6 +1,5 @@
 ---
-_schema: default
-layout: layouts/markdown.liquid
+layout: layouts/test.liquid
 eleventyComputed:
   title: Change an account email
 ---
