@@ -3,7 +3,11 @@ module.exports = {
     template: "eleventy_liquid_paired_shortcode_positional_args",
     inline: true,
     preview: {
-      text: "Snippet",
+      text: [
+        {
+          template: "Snippet - {label}"
+        }
+      ],
       subtext: [
         {
           key: "content"
