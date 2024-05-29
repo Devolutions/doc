@@ -1,39 +1,14 @@
 ---
-_schema: default
 eleventyComputed:
   title: Create your {{ en.DA }}
 ---
-Create your free **Devolu**tio*ns Accou*nt by following the steps below.
-
-<table><tbody><tr><th><p>Table</p></th><th><p></p></th><th><p></p></th><th><p></p></th><th><p></p></th></tr><tr><th><p></p></th><td><p>Test<br />test<br />Test{% snippet, "badgeInfo" %}{% endsnippet %}</p></td><td><ol><li><p>fds</p></li></ol><p></p><p></p></td><td><p></p></td><td><p></p></td></tr><tr><th><p></p></th><td><p></p></td><td><p></p></td><td><p></p></td><td><p></p></td></tr><tr><th><p></p></th><td><p></p></td><td><p></p></td><td><p></p></td><td><p></p></td></tr></tbody></table>
-
-Create your free {{ locale.en.label.devolutionsAccount }} by following the steps below.
-
-{{ locale.en.label.devolutionsAccount }}
-
-{% snippet, "badgeInfo" %}Testd sdswfsdf{% endsnippet %}
-
-```d
-dfsdfsfddfsdsfs
-fdsfsd
-```
-
-{% snippet %}By clicking on Create Account, you confirm that you have read and accepted our Terms of Use and Privacy Policy.{% endsnippet %}
-
-{% snippet, "badgeCaution" %}
-By clicking on ***Create Account***, you confirm that you have read and accepted our [Terms of Use](https://devolutions.net/legal/online-services-terms) and [Privacy Policy](https://devolutions.net/legal).
-{% endsnippet %}
-
-1. Lorem Ipusm
-   {% snippet, "badgeCaution" %}
-   By clicking on ***Create Account***, you confirm that you have read and accepted our [Terms of Use](https://devolutions.net/legal/online-services-terms) and [Privacy Policy](https://devolutions.net/legal).
-   {% endsnippet %}
+Create your free {{ en.DA }} by following the steps below.
 
 ## Creation
 
 1. Go to your [account login](https://portal.devolutions.com/).
 2. Click on ***Create your account*** to start the process. ![Create your account](https://cdnweb.devolutions.net/docs/docs_en_cloud_Cloud4014.png)
-3. Fill in the fields with your information, then click ***Create Account***. {% snippet, "badgeCaution" %} By clicking on ***Create Account***, you confirm that you have read and accepted our [Terms of Use](https://devolutions.net/legal/online-services-terms) and [Privacy Policy](https://devolutions.net/legal). {% endsnippet %} {% snippet, "badgeCaution" %}By clicking on ***Create Account***, you confirm that you have read and accepted our [Terms of Use](https://devolutions.net/legal/online-services-terms/) and [Privacy Policy](https://devolutions.net/legal/).{% endsnippet" %}
+3. Fill in the fields with your information, then click ***Create Account***. {% snippet, "badgeCaution" %} By clicking on ***Create Account***, you confirm that you have read and accepted our [Terms of Use](https://devolutions.net/legal/online-services-terms/) and [Privacy Policy](https://devolutions.net/legal/). {% endsnippet %}
 
    ![Account information](https://cdnweb.devolutions.net/docs/docs_en_cloud_Cloud4015.png)
 
