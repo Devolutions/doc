@@ -23,6 +23,7 @@ To use this feature, certain requirements must be met, namely:
     * a gateway type VPN configured.
     * no mandatory session recording.
 * Have the ***View password*** permission if you are the one to use the session.
+    * When using IronRDP, a call is generated to the tool, and the password can be seen when the developer tools are enabled.
 * Have a {{ en.RDM }} or {{ en.DLAUNCHER }} license assigned to the user that wants to use the connection.
 
 ### RDP Session Configuration
