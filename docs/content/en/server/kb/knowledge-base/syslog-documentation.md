@@ -1,0 +1,229 @@
+---
+eleventyComputed:
+  title: Syslog documentation
+  description: The following information describes the message type and the subtype of records sent from {{ en.DVLS }} to a syslog server.
+---
+The following information describes the message type and the subtype of records sent from {{ en.DVLS }} to a syslog server.
+
+## Message type
+
+Unknown = 0  
+Info = 1  
+Warning = 2  
+Error = 3  
+OpenConnection = 4  
+AddConnection = 5  
+EditConnection = 6  
+DeleteConnection = 7  
+OpenVPN = 8  
+CloseVPN = 9  
+CredentialsSentToPlugin = 10  
+Comment = 11  
+ExportedConnection = 12  
+UserAdded = 13  
+UserDeleted = 14  
+UserEdited = 0xF  
+SecurityGroupAdded = 0x10  
+SecurityGroupDeleted = 17  
+SecurityGroupEdited = 18  
+RoleAdded = 19  
+RoleDeleted = 20  
+RoleEdited = 21  
+MacroScriptTool = 22  
+ExportedDocuments = 23  
+KeyAgentKeyUsed = 24  
+ReportOpened = 25  
+RepositoryAdded = 26  
+RepositoryDeleted = 27  
+RepositoryEdited = 28  
+AttachmentAdded = 29  
+AttachmentDeleted = 30  
+AttachmentEdited = 0x1F  
+AttachmentDocumentUpdated = 0x20  
+AttachmentOpened = 33  
+ActivityLogCleared = 34  
+DeletedEntryCleared = 35  
+EntryHistoryCleared = 36  
+DataSourcePermissionChanged = 37  
+ServerPropertiesViewed = 38  
+ServerPropertiesEdited = 39  
+ServerUpdated = 40  
+DocumentUpdated = 41  
+PasswordViewed = 43  
+PasswordChanged = 44  
+ConnectionStringViewed = 45  
+PasswordHistoryCleared = 46  
+ConnectionViewed = 47  
+ShortcutAdded = 48  
+ShortcutDeleted = 49  
+PasswordTemplateAdded = 50  
+PasswordTemplateEdited = 51  
+PasswordTemplateDeleted = 52  
+ResetPassword = 53  
+Checkout = 54  
+Checkin = 55  
+PermissionChanged = 56  
+Validation = 57  
+PamPasswordViewed = 58  
+PamCredentialAdded = 59  
+PamCredentialEdited = 60  
+PamCredentialDeleted = 61  
+TypingMacroExecuted = 62  
+TerminalScriptExecuted = 0x3F  
+ConnectionCopied = 0x40  
+ConnectionHistoryVersionReset = 65  
+AccessDenied = 66  
+PamCertificateViewed = 67  
+PamTagAdded = 68  
+PamTagRead = 69  
+PamTagEdited = 70  
+PamTagDeleted = 71  
+PamTagDeleteAssociatedTags = 72  
+PamTagDeleteUnusedTags = 73  
+PamResetPasswordScheduleAdded = 74  
+PamResetPasswordScheduleRead = 75  
+PamResetPasswordScheduleEdited = 76  
+PamResetPasswordScheduleDeleted = 77  
+PamPasswordUpdated = 78  
+PamFolderAdded = 79  
+PamFolderRead = 80  
+PamFolderEdited = 81  
+PamFolderDeleted = 82  
+PamCredentialRead = 83  
+PamCheckoutAdded = 84  
+PamCheckoutRead = 85  
+PamCheckoutEdited = 86  
+PamCheckoutDeleted = 87  
+PamCheckoutStatusChanged = 88  
+PamCheckoutAborted = 89  
+PamCheckoutExpired = 90  
+UserResetPassword = 91  
+PamPasswordHistoryViewed = 92  
+LicenseAdded = 93  
+LicenseDeleted = 94  
+LicenseEdited = 95  
+PamCheckoutEnded = 96  
+PamCheckoutApproved = 97  
+PamCheckoutDenied = 98  
+PamCheckoutActive = 99  
+SessionRecordingViewed = 100  
+UsernameViewed = 101  
+DomainViewed = 102  
+UserLicenseAssigned = 103  
+UserLicenseUnassigned = 104  
+PamCredentialSync = 105  
+PamPasswordReset = 106  
+PamPasswordBrokering = 107  
+RecordingInterrupted = 108  
+ExportedAllConnections = 109  
+PamFolderExported = 110  
+VaultMasterPasswordChanged = 111  
+OneTimePasswordViewed = 112  
+PamCheckoutCancelled = 113  
+PamCheckoutForcedCheckin = 114  
+UserLocked = 115  
+TemporaryAccessRequestSent = 116  
+TemporaryAccessRequestApproved = 117  
+TemporaryAccessRequestCancelled = 118  
+TemporaryAccessRequestDenied = 119  
+AddTemplate = 120  
+EditTemplate = 121  
+DeleteTemplate = 122  
+PamCheckoutPolicyAdded = 123  
+PamCheckoutPolicyEdited = 124  
+PamCheckoutPolicyDeleted = 125  
+SensitiveDataViewed = 126  
+PamOtpTemplateAdded = 0x7F  
+PamOtpTemplateEdited = 0x80  
+PamOtpTemplateDeleted = 129  
+PamPasswordPropagation = 130  
+EntryResurrectionFailed = 131  
+ExportedDocumentation = 132  
+EditedUserSpecificSettings = 133  
+RemovedUserSpecificSettings = 134  
+EmergencyCodeLogin = 135  
+PamVaultAdded = 136  
+PamVaultEdited = 137  
+PamVaultDeleted = 138  
+PamVaultExported = 139  
+UserResetMFA = 140  
+
+## MessageSub type
+
+PasswordAnalyzer = 2501  
+AdministrationLogs = 2502  
+ConnectedUserList = 2503  
+ConnectionExpiredEntry = 2504  
+DeletedEntries = 2505  
+LastUsageLog = 2506  
+SharedConnectionLog = 2507  
+LoginHistory = 2508  
+LoginAttempt = 2509  
+ServerLogs = 2510  
+OpenedConnections = 2511  
+CopiedPasswordToClipboard = 4301  
+RequestedForWebEdit = 4302  
+DontHaveRight = 6600  
+UserIsNotFoundOrIncorrectPassword = 6601  
+InvalidAttachmentId = 6602  
+CantAccessAnotherUsersRoamingSetting = 6603  
+DatabaseUsersAreNotAllowed = 6604  
+DomainUsersAreNotAllowed = 6605  
+CustomUsersAreNotAllowed = 6606  
+LocalMachineUsersAreNotAllowed = 6607  
+NotAllowedToSaveUser = 6608  
+CannotDeleteEntry = 6609  
+InvalidRepositoryId = 6610  
+CannotSaveRole = 6611  
+NotAllowedToChangePassword = 6612  
+NotAllowedToSaveRole = 6613  
+IncorrectUserType = 6614  
+NotAllowedToManageAttachments = 6615  
+NotAllowedToAddInFolder = 6616  
+NotAllowedToSaveEntry = 6617  
+NotAllowedToDeleteEntry = 6618  
+NotAllowedToCheckin = 6619  
+NotAllowedToGetTwoFactorInformation = 6620  
+NotAllowedToViewAttachment = 6621  
+NotTheUsersPrivateVault = 6622  
+NotAllowedToDeleteEntryHistory = 6623  
+LicenseDoesNotAllowEntryInteraction = 6624  
+MustBeAnAdministrator = 6625  
+NotAllowedToViewEntry = 6626  
+EntryNotFound = 6627  
+NoAllowedToViewEntryHistory = 6628  
+NotAllowedToCheckoutEntry = 6629  
+NotAllowedToGetCheckoutInformation = 6630  
+NotAllowedToGetCheckoutsForUser = 6631  
+NotAllowedToManageHandbooks = 6632  
+NotAllowedToGetHandbookPages = 6633  
+NotAllowedToViewLogs = 6634  
+NotAllowedToViewPasswordHistory = 6635  
+UserSpecificSettingsNotAllowed = 6636  
+InvalidConnectionId = 6637  
+NotAllowedToViewDeletedEntries = 6638  
+NotAllowedToViewTemplates = 6639  
+NotAllowedToCopyToClipboard = 6640  
+NotAllowedToViewPassword = 6641  
+NotAllowedToManageUsers = 6642  
+NotAllowedToResetPassword = 6643  
+OnlyRecipientCanDeleteAttachement = 6644  
+InvalidAccessToken = 6645  
+CantReleaseAnotherUsersLock = 6646  
+UserDoesNotHaveAccessToVault = 6647  
+OnlyRecipientCanSaveSecureAttachment = 6648  
+OnlyRecipientCanReadSecureMessage = 6649  
+TwoFactorNotConfigured = 6650  
+
+## Samples of syslog records
+#### Deleting an RDP entry
+Jul 26 13:51:41 10.3.1.4 Devolutions[Server] PersonalConnection - [5] Entry deleted - MessageType: 7, MessageSubType: , UserName: DOMAIN\banderson, MachineName: COMPUTER123, ConnectionName: Server ABC, ConnectionTypeName: RDP (Microsoft Remote Desktop), ConnectionID: da3886a2-e653-4f56-8000-e55e5dc3313a, ConnectionHostName: , ConnectionUserName: , StartDateTime: 7/26/2022 1:51:45 PM, StartDateTimeUTC: , EndDateTime: , EndDateTimeUTC: , GroupName: Training\Operationnels, Comment: , LoggedUserName: banderson<area>@windjammer.co, Prompt: , TickerNumber: , SecurityGroup: , Cost: , UserInfoID: 04b48fd6-3490-4457-874d-d919a0518cf4, SupportClose: False, CloseMode: , OpenMode: , ClientApplication: RDM, ClientVersion: 2022.2.14.0 , IsEmbedded: , RepositoryID: 22a24c36-837b-4baf-8859-9497902a6de0, PamCredentialID:  [ClientIP: 123.123.123.123]
+#### Creating an RDP entry
+Jul 26 13:51:37 10.3.1.4 Devolutions[Server] PersonalConnection - [5] Entry created - MessageType: 5, MessageSubType: , UserName: DOMAIN\banderson, MachineName: COMPUTER123, ConnectionName: Server ABC, ConnectionTypeName: RDP (Microsoft Remote Desktop), ConnectionID: da3886a2-e653-4f56-8000-e55e5dc3313a, ConnectionHostName: , ConnectionUserName: , StartDateTime: 7/26/2022 1:51:41 PM, StartDateTimeUTC: , EndDateTime: , EndDateTimeUTC: , GroupName: Training\Operationnels, Comment: , LoggedUserName: banderson<area>@windjammer.co, Prompt: , TickerNumber: , SecurityGroup: , Cost: , UserInfoID: 04b48fd6-3490-4457-874d-d919a0518cf4, SupportClose: False, CloseMode: , OpenMode: , ClientApplication: RDM, ClientVersion: 2022.2.14.0 , IsEmbedded: , RepositoryID: 22a24c36-837b-4baf-8859-9497902a6de0, PamCredentialID:  [ClientIP: 123.123.123.123]
+#### Opening an RDP entry and a VPN connection
+Jul 26 13:47:24 10.3.1.4 Devolutions[Server] PersonalConnection - [5] Opened session - MessageType: 4, MessageSubType: , UserName: DOMAIN\banderson, MachineName: COMPUTER123, ConnectionName: Windjammer23, ConnectionTypeName: RDP (Microsoft Remote Desktop), ConnectionID: 2c3c8c8e-70ed-494f-9680-3b24d7fb0b25, ConnectionHostName: , ConnectionUserName: bob, StartDateTime: 7/26/2022 1:47:28 PM, StartDateTimeUTC: , EndDateTime: , EndDateTimeUTC: , GroupName: Common\Linux (Windjammer23), Comment: , LoggedUserName: banderson<area>@windjammer.co, Prompt: , TickerNumber: , SecurityGroup: , Cost: , UserInfoID: 04b48fd6-3490-4457-874d-d919a0518cf4, SupportClose: True, CloseMode: , OpenMode: 0, ClientApplication: RDM, ClientVersion: 2022.2.14.0 , IsEmbedded: True, RepositoryID: df6637ca-d40a-4251-aa33-0620383153e0, PamCredentialID:  [ClientIP: 123.123.123.123]  
+
+Jul 26 13:47:21 10.3.1.4 Devolutions[Server] PersonalConnection - [5] VPN opened - MessageType: 8, MessageSubType: , UserName: DOMAIN\banderson, MachineName: COMPUTER123, ConnectionName: Windjammer23, ConnectionTypeName: RDP (Microsoft Remote Desktop), ConnectionID: 2c3c8c8e-70ed-494f-9680-3b24d7fb0b25, ConnectionHostName: , ConnectionUserName: bob, StartDateTime: 7/26/2022 1:47:25 PM, StartDateTimeUTC: , EndDateTime: , EndDateTimeUTC: , GroupName: Common\Linux (Windjammer23), Comment: , LoggedUserName: banderson<area>@windjammer.co, Prompt: , TickerNumber: , SecurityGroup: , Cost: , UserInfoID: 04b48fd6-3490-4457-874d-d919a0518cf4, SupportClose: , CloseMode: , OpenMode: , ClientApplication: RDM, ClientVersion: 2022.2.14.0 , IsEmbedded: , RepositoryID: df6637ca-d40a-4251-aa33-0620383153e0, PamCredentialID:  [ClientIP: 123.123.123.123]
+
+#### Connection refused to resource
+Jul 26 13:46:19 10.3.1.4 Devolutions[Server] PersonalConnection - [5] Access denied - Not allowed to view entry - MessageType: 66, MessageSubType: 6626, UserName: banderson<area>@windjammer.co, MachineName: 123.123.123.123, ConnectionName: , ConnectionTypeName: , ConnectionID: , ConnectionHostName: , ConnectionUserName: , StartDateTime: 7/26/2022 1:46:19 PM, StartDateTimeUTC: , EndDateTime: , EndDateTimeUTC: , GroupName: , Comment: , LoggedUserName: banderson<area>@windjammer.co, Prompt: , TickerNumber: , SecurityGroup: , Cost: , UserInfoID: 04b48fd6-3490-4457-874d-d919a0518cf4, SupportClose: , CloseMode: , OpenMode: , ClientApplication: Web, ClientVersion: 2022.2.6.0 , IsEmbedded: , RepositoryID: , PamCredentialID:  [ClientIP: 123.123.123.123]
