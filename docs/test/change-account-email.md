@@ -1,30 +1,25 @@
 ---
+_schema: default
 layout: layouts/markdown.liquid
 eleventyComputed:
   title: Change an account email
 ---
-{% snippet, "shieldWarning" %}
-For security reasons, we are no longer performing change email requests for the {{ en.DA }}.
-{% endsnippet %}
+## 1. Lorem Ipsum
 
-To change your {{ en.DA }} email, you would need to [Create a new account](/cloud/devolutions-account/create-devolutions-account/) and transfer the data that you would like to keep. Here is a list of some of the most common data that might need to be transferred:
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris tristique sit amet ante ac bibendum. Morbi rutrum tellus faucibus eros aliquet, non tincidunt felis gravida. Nulla erat lacus, bibendum non ante nec, cursus tincidunt risus. Integer tincidunt ipsum vitae urna pellentesque, nec malesuada risus gravida. Curabitur varius urna ante, vitae rutrum sapien varius in. Nulla feugiat massa risus, eget pulvinar mauris varius vel. Suspendisse efficitur, ipsum sit amet tempus elementum, lectus eros tincidunt est, aliquet bibendum metus mi vel risus. Duis quis turpis ultrices, convallis risus at, euismod lectus. In faucibus condimentum enim eget pellentesque. Donec fringilla et metus eu vehicula. Etiam sem arcu, pellentesque eget auctor vitae, congue in odio. Donec et nulla ac leo varius auctor.
 
-* [Serials](/cloud/portal/serials/): Manually add your Devolutions products serials you have previously purchased to your new account.
-* [Invoices](/cloud/portal/invoices/): If some invoices need to be associated with the new account, contact our [sales department](mailto:sales@devolutions.net).
-* [{{ en.DHUBP }}](/cloud/hub-personal/): Import and export your {{ en.DHUBP }} data source entries [with {{ en.RDM }}](/kb/remote-desktop-manager/how-to-articles/export-import-entries/) or in Json format directly [from {{ en.DHUBP }}](/hub/web-interface/tools/import-export/) in ***Tools – Export***.
-* [{{ en.DHUBB }}](/cloud/hub-business/): If you are the owner of a {{ en.DHUBB }}, switch the [Ownership](/hub/web-interface/administration/management/users/hub-ownership/) to another administrator, then request an invitation with the new account.
-* [{{ en.OBACK }}](/cloud/rdm-online-services/online-backup/): The backups are stored and linked to each {{ en.DA }}. For this reason, you will not have access under the new {{ en.DA }}.
+## 2. Lorem Ipsum
 
-{% snippet, "badgeInfo" %}
-If you have any concerns or questions, contact us at [service@devolutions.net](mailto:service@devolutions.net).
-{% endsnippet %}
+Duis sollicitudin magna mollis, cursus nisl a, viverra leo. Sed sit amet nibh a lectus vestibulum tristique. Phasellus vitae placerat ligula. Ut non pretium libero. Suspendisse eu purus scelerisque, molestie purus eget, finibus risus. Proin hendrerit, arcu non ornare lacinia, risus ante ullamcorper magna, at malesuada ex felis pharetra eros. Integer ornare arcu eget turpis tempor, non convallis orci dictum. Integer felis libero, bibendum vitae pretium eget, varius at metus. Fusce odio odio, sodales quis massa id, dapibus egestas metus.
 
-To delete the old account (if necessary), click ***Delete Account***.
+## 3. Lorem Ipsum
 
-{% snippet, "badgeWarning" %}
-THIS ACTION CANNOT BE UNDONE!
+Nam dapibus iaculis velit a scelerisque. Pellentesque maximus ex eget ante convallis venenatis. Vivamus commodo metus metus, vel accumsan dui dictum ut. Quisque at tellus a sem dictum auctor eget sed mauris. Etiam at elit felis. Maecenas consequat nisl augue, at aliquam nisi maximus eget. Duis fermentum ex lacus, sit amet scelerisque nisi interdum vitae.
 
-Once you have deleted an account, the data and the account information is deleted permanently.
-{% endsnippet %}
+## 4. Lorem Ipsum
 
-![!!Cloud4002](https://cdnweb.devolutions.net/docs/docs_en_cloud_Cloud4002.png)
+Curabitur venenatis felis eleifend orci pretium, pellentesque vehicula diam pharetra. Nam sollicitudin interdum blandit. Aliquam ac est lorem. Vestibulum malesuada vestibulum neque, sit amet mattis justo sollicitudin eget. Vestibulum egestas lacus nec elit interdum, vitae malesuada augue sollicitudin. Nam suscipit erat felis, id vehicula orci pulvinar et. Fusce pellentesque molestie suscipit. Sed ante nunc, maximus in euismod et, convallis nec dolor. Nulla a mi venenatis, sodales sapien ut, ultricies lectus. Ut in semper nunc, nec tincidunt libero. Maecenas pulvinar at odio id accumsan. Proin ut lobortis sapien, non blandit mauris. Nullam eu lectus gravida, vehicula velit ut, malesuada augue.
+
+## 5. Lorem Ipsum
+
+Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin vitae velit odio. Curabitur in condimentum arcu, ac luctus urna. Aenean a ante consectetur, scelerisque nisi ac, ullamcorper tellus. Cras mollis varius augue. Donec feugiat ipsum est, a scelerisque metus tristique imperdiet. Nullam in risus at quam rhoncus tempus in eget magna. Phasellus semper a lorem sit amet ultricies. Phasellus vitae ipsum pellentesque, auctor felis eget, dapibus dolor. Aenean in urna mauris. Ut id bibendum nisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Pellentesque elementum, nibh non feugiat molestie, nisl augue commodo elit, vitae commodo nibh nunc quis magna. Aenean iaculis sagittis dolor non mattis. Aenean efficitur egestas ullamcorper. Curabitur vitae lobortis augue.
