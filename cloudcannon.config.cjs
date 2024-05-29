@@ -12,6 +12,15 @@ module.exports = {
   },
   collections_config: {
     ...require("./.cloudcannon/collections/topics"),
+    test: {
+      name: "Test",
+      path: "docs/test",
+      schemas: {
+        default: {
+          path: ".cloudcannon/schemas/topic.md"
+        }
+      }
+    },
     data: {
       path: "docs/_data",
       filter: {
@@ -35,7 +44,14 @@ module.exports = {
       collections: [
         "topicEn",
         "topicFr",
-        "topicDe"
+        "topicDe",
+        "test"
+      ]
+    },
+    {
+      heading: "Data",
+      collections: [
+        "data"
       ]
     }
   ],
