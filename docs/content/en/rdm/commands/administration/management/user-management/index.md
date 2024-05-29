@@ -55,13 +55,13 @@ Select user groups to assign to the user.
 |-----------------------------------|-----------------------------------------------------------------------------------------------|
 | User Groups  | Check the ***Is Member*** box to assign user groups to the user. Consult [User Groups Management](/rdm/windows/commands/administration/management/user-groups-management/) for more information.                                                                                      |
 | {{ en.VLT }}s | Select which repositories the user has access to. For more information, please consult {{ en.VLT }}s.  ![User Management - {{ en.VLT }}s](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip3624.png)                                                                      |
-| Application Access | The application access section allows you to restrict access to {{ en.RDM }} or the [{{ en.WBEX }}](/rdm/windows/workspace-browser-extension/overview/).   ![User Management - Application Access](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip3625.png)                      |
+| Application Access | The application access section allows you to restrict access to {{ en.RDM }} or the [{{ en.WBEX }}](/workspace/workspace-browser-extension/).   ![User Management - Application Access](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip3625.png)                      |
 
 
 | OPTION                            | DESCRIPTION
 |-----------------------------------|-----------------------------------------------------------------------------------------------|
 | {{ en.RDM }} | Select if the user can access the data source from {{ en.RDM }}.                                                   |
-| [{{ en.WBEX }}](/rdm/windows/workspace-browser-extension/overview/) | Select if the user can access the data source from the {{ en.WBEX }}. |
+| [{{ en.WBEX }}](/workspace/workspace-browser-extension/) | Select if the user can access the data source from the {{ en.WBEX }}. |
 
 ### Settings
 

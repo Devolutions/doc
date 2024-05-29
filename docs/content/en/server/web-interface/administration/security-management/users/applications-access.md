@@ -10,7 +10,7 @@ Allow or deny the user access to different applications and {{ en.CTOOLS }}:
 | Option                                                         | Description                                                    |
 |----------------------------------------------------------------|----------------------------------------------------------------|
 | {{ en.RDM }}                                                   | Allow user to access {{ en.DVLS }} through {{ en.RDM }}.       |
-| [{{ en.WBEX }}](/server/workspace-browser-extension/overview/) | Allow user to auto fill username and passwords on websites with the {{ en.WBEX }}. |
+| [{{ en.WBEX }}](/workspace/workspace-browser-extension/) | Allow user to auto fill username and passwords on websites with the {{ en.WBEX }}. |
 | {{ en.DLAUNCHER }}                                             | Allow user to open remote connections with {{ en.DLAUNCHER }}. |
 | Web                                                            | Allow user to use {{ en.DVLS }} web interface.                 |
 | Cli                                                            | Allow user to use the Cli.                                     |

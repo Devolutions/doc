@@ -10,7 +10,7 @@ eleventyComputed:
 * [Logs](/rdm/windows/commands/view/layout/logs/)  
 * [Activity Logs](/rdm/windows/commands/view/view/activity-logs/)  
 * [{{ en.RDMA }} - Quick Scripts/Tools](/rdm/windows/commands/tools/tools/more-tools/rdm-agent/#quick-script-scriptstools)
-* [PowerShell scripting](/rdm/windows/powershell-scripting/)  
+* [PowerShell scripting](/powershell/rdm-powershell/powershell-scripting/)  
 
 ### See also  
 * [All Roads Lead to PowerShell](https://blog.devolutions.net/2023/09/all-roads-lead-to-powershell/)

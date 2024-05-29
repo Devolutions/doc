@@ -16,7 +16,7 @@ As a web application, {{ en.DVLS }} requires the following:
 * [Microsoft .NET 8.0](https://dotnet.microsoft.com/en-us/download/dotnet/8.0) hosting bundle
 * Specific web server roles on the host machine
 
-These prerequisites can be installed from the {{ en.DVLSCONSOLE }} or trought an existing PowerShell script provided with the {{ en.DVLSCONSOLE }}.
+These prerequisites can be installed from the {{ en.DVLSCONSOLE }} or through an existing PowerShell script provided with the {{ en.DVLSCONSOLE }}.
 
 Installing prerequisites from [{{ en.DVLSCONSOLE }}](/server/management/devolutions-server-console/) or from the PowerShell script requires internet access to download the following:
 * [URL Rewrite module](https://api.devolutions.net/redirection/3cb42413-5dfd-4b1b-bd20-4e5968274ed0)
@@ -26,6 +26,13 @@ Installing prerequisites from [{{ en.DVLSCONSOLE }}](/server/management/devoluti
 * [Microsoft Edge WebView2](https://developer.microsoft.com/en-us/microsoft-edge/webview2/consumer/) ({{ en.DVLSCONSOLE }})
 
 ![Web server roles needed for {{ en.DVLS }}](https://cdnweb.devolutions.net/docs/INTERFACE2033.png)
+
+## {{ en.DVLSCONSOLE }} method
+1. Open the [{{ en.DVLSCONSOLE }}](/server/management/devolutions-server-console/).
+1. Go in the ***Support*** tab and click on ***IIS Diagnostic***.
+![!!ServerOp8162](https://cdnweb.devolutions.net/docs/DVLSCONSOLE2006_2024_1.png)
+1. Click on ***Install Prerequisites*** to run the PowerShell script. The window below only appears if a prerequisite is missing during a new installation or an update.
+![IIS features diagnostic](https://cdnweb.devolutions.net/docs/DVLSCONSOLE2005_2024_1.png)
 
 ## PowerShell method
 1. Run Windows PowerShell with elevated privileges.
@@ -38,10 +45,3 @@ Installing prerequisites from [{{ en.DVLSCONSOLE }}](/server/management/devoluti
     * IIS [Microsoft .NET 8.0](https://dotnet.microsoft.com/en-us/download/dotnet/8.0) Core Module hosting bundle.
 
    ![Windows PowerShell script](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp4020.png)
-
-## {{ en.DVLSCONSOLE }} method
-1. Open the [{{ en.DVLSCONSOLE }}](/server/management/devolutions-server-console/).
-1. Go in the ***Support*** tab and click on ***IIS Diagnostic***.
-![!!ServerOp8162](https://cdnweb.devolutions.net/docs/DVLSCONSOLE2006_2024_1.png)
-1. Click on ***Install Prerequisites*** to run the PowerShell script. The window below only appears if a prerequisite is missing during a new installation or an update.
-![IIS features diagnostic](https://cdnweb.devolutions.net/docs/DVLSCONSOLE2005_2024_1.png)

@@ -9,4 +9,4 @@ Custom fields offer flexibility for personalization when default fields do not m
 * [Copy buttons for Custom Fields](/kb/remote-desktop-manager/how-to-articles/copy-buttons-custom-fields/)
 
 ### See also  
-* [Create a Custom Field Report](/kb/devolutions-powershell/remote-desktop-manager/create-custom-field-report/)
+* [Create a Custom Field Report](/powershell/rdm-powershell/create-custom-field-report/)

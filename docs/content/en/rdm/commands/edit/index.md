@@ -62,7 +62,7 @@ A Specific Settings column can be added in the ***{{ en.NPANE }}***. Right-click
 
 | OPTION     | DESCRIPTION                                                                 |
 |------------|-----------------------------------------------------------------------------|
-| Edit (Special Actions) | Perform special actions on the selected entries, such as change the type, run a script, and more. For more information, please consult the [Batch Actions Samples](/rdm/windows/powershell-scripting/custom-powershell-commands/batch-actions-samples/).                                                                   |
+| Edit (Special Actions) | Perform special actions on the selected entries, such as change the type, run a script, and more. For more information, please consult the [Batch Actions Samples](/powershell/rdm-powershell/powershell-scripting/custom-powershell-commands/batch-actions-samples/).                                                                   |
 | Batch Edit           | Perform an action on multiple entries at once. This is particularly useful for doing mass modifications of entries (such as changing the display mode after modifying the workspace or their credential entries when changing your passwords). Multiple entries must be selected for this feature to be visible. For more information, please consult [Batch Edit](/rdm/windows/commands/edit/batch/batch-edit/). |
 | Move to {{ en.VLT }} | Transfer the selected entries to another {{ en.VLT }} in the database.|
 

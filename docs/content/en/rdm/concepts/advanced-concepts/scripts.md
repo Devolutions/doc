@@ -6,7 +6,7 @@ eleventyComputed:
 With {{ en.RDM }}, automate processes through scripts written in ***PowerShell, AutoHotKey, AutoIt, VBScript***, and others. Save scripts in individual {{ en.VLT }}s or store in the ***System Vault*** to share across multiple vaults. Run scripts locally or remotely on one or many different systems.
 
 ### Related topics  
-* [PowerShell scripting](/rdm/windows/powershell-scripting/)  
+* [PowerShell scripting](/powershell/rdm-powershell/powershell-scripting/)  
 * [Tools](/rdm/windows/commands/tools/#tools)  
 
 ### See also  

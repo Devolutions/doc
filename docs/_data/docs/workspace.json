@@ -1,0 +1,14 @@
+{
+    "_schema": "doc",
+    "isTopic": true,
+    "icon": "https://cdnweb.devolutions.net/images/projects/workspace/logos/workspace-icon-shadow.svg",
+    "logo": "https://cdnweb.devolutions.net/images/projects/workspace/logos/workspace-color-shadow.svg",
+    "url": "/workspace/overview/what-is-workspace/",
+    "formattedName": "Devolutions Workspace",
+    "sidebars": [
+      {
+        "autogenerate": { "directory": "workspace" }
+      }
+    ]
+  }
+  

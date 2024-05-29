@@ -15,6 +15,6 @@ Der {{ de.UVLT }} ist für alle [Erweiterten Datenquellen](/rdm/windows/data-sou
 Anmeldeinformationen im {{ de.UVLT }} könne auf zwei Arten verwendet werden:
 
 1. Aus einer Sitzung mit der ***Nach Namen suchen ({{ de.UVLT }})***.
-1. Verwendung von [***Benutzerspezifische Einstellungen***](/de/rdm/windows/commands/edit/setting-overrides/specific-settings/).
+1. Verwendung von [***Benutzerspezifische Einstellungen***](/de/rdm/commands/edit/setting-overrides/).
 
 Diese Einschränkung ergibt sich daraus, dass der {{ de.UVLT }} im Benutzerbereich der Datenbank gespeichert wird. Daher können diese nur direkt aus dem {{ de.UVLT }} oder über die benutzerspezifischen Einstellungen verwendet werden.
