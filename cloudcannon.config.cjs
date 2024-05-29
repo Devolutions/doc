@@ -11,9 +11,7 @@ module.exports = {
     ...require("./.cloudcannon/snippets/snippet")
   },
   collections_config: {
-    ...require("./.cloudcannon/collections/english"),
-    ...require("./.cloudcannon/collections/french"),
-    ...require("./.cloudcannon/collections/german"),
+    ...require("./.cloudcannon/collections/topics"),
     data: {
       path: "docs/_data",
       filter: {
@@ -35,9 +33,9 @@ module.exports = {
     {
       heading: "Topics",
       collections: [
-        "english",
-        "french",
-        "german"
+        "topicEn",
+        "topicFr",
+        "topicDe"
       ]
     }
   ],
