@@ -24,7 +24,7 @@ The installation process will automatically attempt to install .NET 4.0 if it is
    ```powershell
    Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
    ```
-1. After the command completes, verify the installation by running the `choco` command. Is Chocolatey is installed correctly, you should see the Chocolatey version.
+1. After the command completes, verify the installation by running the `choco` command. If Chocolatey is installed correctly, you should see the Chocolatey version.
 
 ## Install {{ en.RDM }} with Chocolatey
 1. Open PowerShell as an administrator. To do so, you can press <kbd>Windows</kbd>+<kbd>X</kbd> and select ***Terminal (Admin)***.
