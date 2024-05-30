@@ -1,5 +1,5 @@
 module.exports = {
-  source: ".",
+  // source: ".",
   _snippets_imports: {
     eleventy_liquid: {
       exclude: [
@@ -14,7 +14,7 @@ module.exports = {
     ...require("./.cloudcannon/collections/topics"),
     test: {
       name: "Test",
-      path: "docs/test",
+      path: "test",
       schemas: {
         default: {
           path: ".cloudcannon/schemas/test.md"
