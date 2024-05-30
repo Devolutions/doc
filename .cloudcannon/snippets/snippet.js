@@ -14,7 +14,13 @@ module.exports = {
           key: "content"
         }
       ],
-      icon: "text_snippet",
+      icon: [
+        { template: `{"error"|if=snippet_type==badgeCaution}` },
+        "text_snippet"
+      ],
+      icon_color: [
+        { template: `{"#f5af23"|if=snippet_type==badgeCaution}` },
+      ],
       image: [
         {
           template: "/.cloudcannon/previews/snippet/{snippet_type|slugify}.svg"
