@@ -6,9 +6,9 @@ eleventyComputed:
 One of the notably time-consuming activities in {{ en.RDM }} involves populating [{{ en.VLT }}s](/rdm/windows/concepts/basic-concepts/vaults/) with the assets you intend to access. ***Synchronizers*** offer a solution by enabling the direct [import](/rdm/windows/concepts/basic-concepts/import-export/) of information and sessions from a provider in the correct format. Automate {{ en.VLT }} upkeep and synchronization of external sources along with preserving [inheritance](/rdm/windows/concepts/intermediate-concepts/inheritance/) of objects.
 
 ### Related topics  
-* [Configure a Bitwarden entry in {{ en.RDM }}](/kb/remote-desktop-manager/how-to-articles/configure-bitwarden-entry/#synchronizer)  
-* [Configure a Lansweeper entry in {{ en.RDM }}](/kb/remote-desktop-manager/how-to-articles/lansweeper/)
+* [Configure a Bitwarden entry in {{ en.RDM }}](/rdm/kb/rdm-windows/how-to-articles/configure-bitwarden-entry/#synchronizer)  
+* [Configure a Lansweeper entry in {{ en.RDM }}](/rdm/kb/rdm-windows/how-to-articles/lansweeper/)
 * [Embedded sessions](/rdm/windows/user-interface/content-area/embedded-sessions/)  
 
 ### See also  
-* [CyberArk PSM integration scenarios - Synchronization (Using the {{ en.RDM }} Synchronizer entry)](/kb/remote-desktop-manager/how-to-articles/cyberark-psm-integration-scenarios/#synchronization-using-the-remote-desktop-manager-synchronizer-entry)
+* [CyberArk PSM integration scenarios - Synchronization (Using the {{ en.RDM }} Synchronizer entry)](/rdm/kb/rdm-windows/how-to-articles/cyberark-psm-integration-scenarios/#synchronization-using-the-remote-desktop-manager-synchronizer-entry)

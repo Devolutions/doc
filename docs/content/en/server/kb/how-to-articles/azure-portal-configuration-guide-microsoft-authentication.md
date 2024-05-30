@@ -71,7 +71,7 @@ Configure Azure and {{ en.DVLS }} properly to use Microsoft authentication by fo
 
 You should now be able to use the ***Microsoft*** button on the web interface.
 {% snippet, "badgeCaution" %}
-After activating the Microsoft authentication, it may take a while for the cache to load before being able to import users and user groups. If the issue persists, please consult [Unable to import Azure AD users or groups](/kb/devolutions-server/troubleshooting-articles/unable-import-azure-ad-users-groups/) for troubleshooting.
+After activating the Microsoft authentication, it may take a while for the cache to load before being able to import users and user groups. If the issue persists, please consult [Unable to import Azure AD users or groups](/server/kb/troubleshooting-articles/unable-import-azure-ad-users-groups/) for troubleshooting.
 {% endsnippet %}
 
 ![Microsoft authentication method](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4980.png)

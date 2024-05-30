@@ -4,7 +4,7 @@ eleventyComputed:
   description: It is highly recommended as a best practice to first deploy the new version of {{ en.DVLS }} to a staging instance and verify its stability before deploying it to your whole organization.
   order: 50
 ---
-It is highly recommended as a best practice to first deploy the new version of {{ en.DVLS }} to a [staging instance](/kb/devolutions-server/how-to-articles/create-server-staging-instance/) and verify its stability before deploying it to your whole organization. If you do not have a staging instance, we recommend a limited roll-out to ensure the workflow is supported to your satisfaction prior to impacting your whole team.
+It is highly recommended as a best practice to first deploy the new version of {{ en.DVLS }} to a [staging instance](/server/kb/how-to-articles/create-server-staging-instance/) and verify its stability before deploying it to your whole organization. If you do not have a staging instance, we recommend a limited roll-out to ensure the workflow is supported to your satisfaction prior to impacting your whole team.
 
 {% snippet, "badgeInfo" %}
 Install the proper version of {{ en.DVLSCONSOLE }} before upgrading the {{ en.DVLS }} web application. It is available on the [Download page](https://devolutions.net/server/home/download/).
@@ -14,7 +14,7 @@ The following steps are intended to be achieved on a single server or a basic [t
 
 ## Workflow
 The following is a list of recommendations and steps to follow before proceeding with the upgrade:
-* We highly recommend to test the upgrade process in a [staging/test environment](/kb/devolutions-server/how-to-articles/create-server-staging-instance/) before upgrading your production instance.
+* We highly recommend to test the upgrade process in a [staging/test environment](/server/kb/how-to-articles/create-server-staging-instance/) before upgrading your production instance.
 * The upgrade steps will be performed with the {{ en.DVLSCONSOLE }}. You will need to upgrade your copy to the latest version that is matched with the target version of {{ en.DVLS }} that you are preparing to install. Please follow the steps carefully.
 * If you have elected to use Integrated Security for connecting to the database, you must perform the upgrade using a Windows user account that has full rights on the database. Ensure that the IIS Application Pool Identity and Scheduler accounts have enough privileges on the database. After an upgrading to a new version, new permissions are possibly required. Please contact us about the new permissions list.
 * If you have set the [security provider](/rdm/commands/administration/security/security-providers/) on your current {{ en.DVLS }}, specific operations will need to be done before the upgrade. Please [contact us](mailto:service@devolutions.net) for further details.
@@ -45,7 +45,7 @@ The following is a list of recommendations and steps to follow before proceeding
 ![Select Update Source File](https://cdnweb.devolutions.net/docs/DVLSCONSOLE2001_2024_1.png)
 1. Click ***Next***.
    {% snippet, "badgeWarning" %}
-   If you upgrade from version 2021.2.14 or older to version 2022.1 or higher, you will have to provide the [access URI](/kb/devolutions-server/knowledge-base/access-uri/) to reach the {{ en.DVLS }} web page.
+   If you upgrade from version 2021.2.14 or older to version 2022.1 or higher, you will have to provide the [access URI](/server/kb/knowledge-base/access-uri/) to reach the {{ en.DVLS }} web page.
    {% endsnippet %}
 1. Review the summary and click ***Update*** if you are satisfied.
 ![Summary](https://cdnweb.devolutions.net/docs/DVLSCONSOLE2002_2024_1.png)

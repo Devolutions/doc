@@ -86,7 +86,7 @@ This method covers all PAM account providers.
 
 ## Active Directory specific propagation
 {% snippet, "badgeNotice" %}
-The WinRM must be properly configured as described in [WinRM and Trusted Hosts List](/kb/devolutions-server/how-to-articles/winrm-trustedhostslist/) article.
+The WinRM must be properly configured as described in [WinRM and Trusted Hosts List](/server/kb/how-to-articles/winrm-trustedhostslist/) article.
 {% endsnippet %}
 {% snippet, "badgeCaution" %}
 This ***Password Propagation*** feature is only available for Domain accounts.

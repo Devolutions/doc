@@ -13,4 +13,4 @@ SecurityTokenInvalidIssuerException - IDX10205: Issuer validation failed. Issuer
 ```
 
 ## Solution
-The problem may result from an invalid Access URI string with an extra '/' at the end of the URL. Ensure to set it properly according to this article [Access URI](/kb/devolutions-server/knowledge-base/access-uri/).
+The problem may result from an invalid Access URI string with an extra '/' at the end of the URL. Ensure to set it properly according to this article [Access URI](/server/kb/knowledge-base/access-uri/).

@@ -33,5 +33,5 @@ We recommend you follow these steps to ensure data security:
 * If using the offline mode, add your own password for an additional layer of protection to the local cache. Go to ***File – Settings – Security***. 
 * Require a password to launch the application and even require two-factor authentication. Go to ***File – Settings – Security***. 
 * If your data source supports it, choose not to save password in the data source, which will prompt for the credentials on the first connection. 
-* Use our [Group policies](/kb/remote-desktop-manager/how-to-articles/group-policies/) to set up the system. 
+* Use our [Group policies](/rdm/kb/rdm-windows/how-to-articles/group-policies/) to set up the system. 
 

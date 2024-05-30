@@ -6,7 +6,7 @@ eleventyComputed:
 Permissions allow granular control over who can view, modify, or delete data or perform functions within {{ en.RDM }}. ***Role-based access control (RBAC)*** simplifies this process by grouping users into pre-defined roles, each with associated permissions. Assign permissions to objects such as the root of the [{{ en.VLT }}](/rdm/windows/concepts/basic-concepts/vaults/), [folders](/rdm/windows/concepts/basic-concepts/folders/), or individual entries. Permissions can also be applied at the system level and to a PAM vault.
 
 ### Related topics  
-* [Inheritance](/kb/remote-desktop-manager/knowledge-base/inheritance/)
+* [Inheritance](/rdm/kb/rdm-windows/knowledge-base/inheritance/)
 * [Permissions](/rdm/commands/administration/settings/system-settings/vault-management/default-permissions/batch-grant-access/#permissions)
 * [RBAC](/rdm/windows/commands/administration/management/user-management/#user-groups)
 * [Roles](/rdm/windows/commands/administration/management/user-management/#user-groups)

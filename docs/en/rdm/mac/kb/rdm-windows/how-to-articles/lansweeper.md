@@ -6,7 +6,7 @@ eleventyComputed:
 For individuals currently using Lansweeper or considering its addition to their IT toolbox, the integration in {{ en.RDM }} offers substantial benefits. It allows users to seamlessly view all Lansweeper assets within {{ en.RDM }}. Furthermore, this integration facilitates the automatic synchronization and generation of entries for Lansweeper assets, significantly improving the efficiency and effectiveness of IT management processes.
 
 ## Link Lansweeper to an entry's properties via the IT asset management tab
-The IT Asset Management feature can be used to link an asset manager (e.g., [BlueTally](/kb/remote-desktop-manager/how-to-articles/it-asset-management/), Lansweeper) through an entry's properties. An embedded tab will then display the main landing page for Lansweeper. You can also easily switch between your data in {{ en.RDM }} and Lansweeper.
+The IT Asset Management feature can be used to link an asset manager (e.g., [BlueTally](/rdm/mac/kb/rdm-windows/how-to-articles/it-asset-management/), Lansweeper) through an entry's properties. An embedded tab will then display the main landing page for Lansweeper. You can also easily switch between your data in {{ en.RDM }} and Lansweeper.
 
 {% snippet, "badgeInfo" %}
 Only the ***Session***, ***Remote Management***, ***Miscellaneous***, ***VPN***, ***Synchronizer*** and ***Template*** entry types support this feature for now. The ***IT Asset Management*** entries work differently from the feature.

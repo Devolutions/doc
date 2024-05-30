@@ -12,7 +12,7 @@ This is the list of addresses that are accessed by {{ en.RDM }} during normal op
 {% endsnippet %}  
 
 {% snippet, "shieldNotice" %}
-As part of a standard visit to a website using the HTTPS protocol, the certificate used by the remote site is validated using industry best practices. A certificate contains multiple URLs which are accessed to perform validation. The URLs vary not only for each site, but also in time whenever they are renewed. Read [Certificate validation](/kb/remote-desktop-manager/knowledge-base/certificate-validation) for further information.
+As part of a standard visit to a website using the HTTPS protocol, the certificate used by the remote site is validated using industry best practices. A certificate contains multiple URLs which are accessed to perform validation. The URLs vary not only for each site, but also in time whenever they are renewed. Read [Certificate validation](/rdm/kb/rdm-windows/knowledge-base/certificate-validation) for further information.
 {% endsnippet %}
 
 ## Endpoints list

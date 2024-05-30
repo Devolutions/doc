@@ -7,7 +7,7 @@ eleventyComputed:
 ---
 In some cases, the Devolutions team will need your configuration file to help reproduce a particular issue.
 {% snippet, "shieldWarning" %}
-Note that if you are storing passwords to your datasource(s) and/or your {{ en.DA }}, our support team will we able to decrypt them. If you want to send a sanitized version of your configuration, please consult [Sending a sanitized copy of your configuration file](/kb/remote-desktop-manager/how-to-articles/send-sanitized-configuration-file/).
+Note that if you are storing passwords to your datasource(s) and/or your {{ en.DA }}, our support team will we able to decrypt them. If you want to send a sanitized version of your configuration, please consult [Sending a sanitized copy of your configuration file](/rdm/mac/kb/rdm-windows/how-to-articles/send-sanitized-configuration-file/).
 {% endsnippet %}
 
 ## Finding and sending your Configuration file
@@ -24,4 +24,4 @@ Note that this example assumes that {{ en.RDM }} was installed with the default 
 ![Run window](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2028.png)
 1. In the folder, locate the **RemoteDesktopManager.cfg** file.
 ![RemoteDesktopManager.cfg file](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2029.png)
-1. Please send us the file securely by following the instructions in [Securely send a file to our team](/kb/devolutions-customer-success/securely-send-file/).
+1. Please send us the file securely by following the instructions in [Securely send a file to our team](/rdm/kb/general-knowledge/securely-send-file/).

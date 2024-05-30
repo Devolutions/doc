@@ -40,7 +40,7 @@ An [Okta account](https://www.okta.com/) with the appropriate rights is required
    {% snippet, "badgeCaution" %}
    This validation lasts for 48 hours and does not restart automatically after that period. If you do not configure your TXT record within those 48 hours, your validation status will be ***Expired***. If that happens, you can click on ***Retry***.
 
-   If you experience any issues while trying to verify your domain, visit our [Domain validation troubleshooting](/kb/hub-business/troubleshooting-articles/domain-validation-troubleshooting/) guide.
+   If you experience any issues while trying to verify your domain, visit our [Domain validation troubleshooting](/hub/kb/hub-business/troubleshooting-articles/domain-validation-troubleshooting/) guide.
    {% endsnippet %}
 
 
@@ -149,7 +149,7 @@ An [Okta account](https://www.okta.com/) with the appropriate rights is required
 25. Test the configuration in {{ en.DHUB }}. A new window should open to connect you to {{ en.DHUB }} through Okta. You will get a success message when connected.
 
    {% snippet, "badgeCaution" %}
-   If the popup page does not appear, see [Devolutions login page does not open in the browser](/kb/general-knowledge-base/devolutions-login-page-does-not-open-browser/).
+   If the popup page does not appear, see [Devolutions login page does not open in the browser](/hub/kb/general-knowledge/devolutions-login-page-does-not-open-browser/).
    {% endsnippet %}
 
 26. Click ***Save*** in the ***Summary*** of your Okta SSO configuration.

@@ -23,8 +23,8 @@ You have two options when it comes to ***Run As***:
 
 ### Built-in Run As
 
-In {{ en.RDM }}, some sessions/tools types support the ***Run As*** functionality. For a complete list and configuration information, see [Built-In Run As](/kb/remote-desktop-manager/how-to-articles/run-as-another-user/built-in-runas/).
+In {{ en.RDM }}, some sessions/tools types support the ***Run As*** functionality. For a complete list and configuration information, see [Built-In Run As](/rdm/mac/kb/rdm-windows/how-to-articles/run-as-another-user/built-in-runas/).
 
 ### Manual Run As
 
-Your session type is not supported and need help to manually configure Run As? See [Manual Run As](/kb/remote-desktop-manager/how-to-articles/run-as-another-user/manual-runas/).
+Your session type is not supported and need help to manually configure Run As? See [Manual Run As](/rdm/mac/kb/rdm-windows/how-to-articles/run-as-another-user/manual-runas/).

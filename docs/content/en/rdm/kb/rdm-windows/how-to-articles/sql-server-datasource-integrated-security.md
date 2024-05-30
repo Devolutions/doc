@@ -63,6 +63,6 @@ To configure the data source on other workstations, three methods are available:
 
 ## Test the configuration
 
-If you have a second set of domain credentials, you could use this trick to test locally. [Running {{ en.RDM }} as Another User](/kb/remote-desktop-manager/how-to-articles/running-rdm-as-another-user/)
+If you have a second set of domain credentials, you could use this trick to test locally. [Running {{ en.RDM }} as Another User](/rdm/kb/rdm-windows/how-to-articles/running-rdm-as-another-user/)
 
 Now in your {{ en.RDM }} with admin rights, create a few user groups (Admin, Production, Staging) and assign them users.

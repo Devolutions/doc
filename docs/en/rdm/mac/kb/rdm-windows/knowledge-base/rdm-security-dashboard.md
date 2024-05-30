@@ -51,7 +51,7 @@ In ***File – Settings – Security – Application Security (local)***, choose
 HTTPS is used to protect the communication between the client and the server hosting the data source. Traffic over HTTP is unencrypted and is susceptible to be intercepted and tampered by a malicious third party.
 
 #### Mitigation
-Configure a TLS certificate on the server and set the data source URL to start with **https://**. See [Configure SSL](/kb/devolutions-server/how-to-articles/configure-ssl/).
+Configure a TLS certificate on the server and set the data source URL to start with **https://**. See [Configure SSL](/server/kb/how-to-articles/configure-ssl/).
 
 ---
 
@@ -59,7 +59,7 @@ Configure a TLS certificate on the server and set the data source URL to start w
 Legacy security has been deprecated and will be completely removed starting with version 2023.3 of {{ en.RDM }}.
 
 #### Mitigation
-In ***Administration – System Settings – {{ en.VLT_MAJ }} Management – Security Settings – Security***, disable ***Use legacy security***. See [Disable legacy security in {{ en.RDM }}](/kb/remote-desktop-manager/how-to-articles/migrate-legacy-security-permissions/).
+In ***Administration – System Settings – {{ en.VLT_MAJ }} Management – Security Settings – Security***, disable ***Use legacy security***. See [Disable legacy security in {{ en.RDM }}](/rdm/mac/kb/rdm-windows/how-to-articles/migrate-legacy-security-permissions/).
 
 ---
 

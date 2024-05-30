@@ -9,7 +9,7 @@ Displaying the Profiler window might slow down the operations on the data source
 {% endsnippet %}
 
 {% snippet, "badgeNotice" %}
-To diagnose startup issues, you can enable the profiler from the command line as described in [Command Line Arguments](/kb/remote-desktop-manager/how-to-articles/command-line-arguments/#usage-remotedesktopmanagerexe-parameters).
+To diagnose startup issues, you can enable the profiler from the command line as described in [Command Line Arguments](/rdm/kb/rdm-windows/how-to-articles/command-line-arguments/#usage-remotedesktopmanagerexe-parameters).
 {% endsnippet %}
 
 ## Procedure
@@ -28,5 +28,5 @@ Holding the <kbd>Ctrl</kbd> key while performing the refresh should force a full
 
 ### Debug only
 
-To learn more about the ***Debug only*** tab, please see [Debugging](/kb/remote-desktop-manager/troubleshooting-articles/debugging/).
+To learn more about the ***Debug only*** tab, please see [Debugging](/rdm/kb/rdm-windows/troubleshooting-articles/debugging/).
 ![Debug only](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip10443.png)

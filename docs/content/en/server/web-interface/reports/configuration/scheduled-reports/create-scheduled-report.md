@@ -5,7 +5,7 @@ eleventyComputed:
 ---
 Create ***scheduled reports*** to run automatically and manage who receives the data from your {{ en.DVLS }} and when.
 {% snippet, "badgeCaution" %}
-For this feature to work, it is mandatory to enable the [***Scheduler service***](/kb/devolutions-server/knowledge-base/scheduler-service-general-information/) in the {{ en.DVLSCONSOLE }} ***Companions*** tab.
+For this feature to work, it is mandatory to enable the [***Scheduler service***](/server/kb/knowledge-base/scheduler-service-general-information/) in the {{ en.DVLSCONSOLE }} ***Companions*** tab.
 {% endsnippet %}
 
 ### Create a scheduled report

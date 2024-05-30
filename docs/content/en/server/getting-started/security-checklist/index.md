@@ -22,4 +22,4 @@ These recommendations are valid ONLY if the {{ en.DVLS }} instance is hosted on 
 ## Web Server 
 
 * Configure the application pool to use domain credentials. This account will be added to the SQL Server as a login and be granted only the permissions that are needed (VaultDBRunner). 
-* Serve content through SSL (https). See [Configure SSL](/kb/devolutions-server/how-to-articles/configure-ssl/). 
+* Serve content through SSL (https). See [Configure SSL](/server/kb/how-to-articles/configure-ssl/). 

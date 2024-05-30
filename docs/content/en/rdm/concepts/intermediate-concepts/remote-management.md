@@ -8,5 +8,5 @@ eleventyComputed:
 It is an integral feature of {{ en.RDM }}. Many dashboard entries are available, including Active Directory, VMware, and Hyper-V. Useful remote tools such as the Remote Task Manager, Remote Printer, and Remote Registry are also supported.
 
 ### Related topics
-* [WOL](/kb/remote-desktop-manager/knowledge-base/wake-on-lan/)
-* [VMWare](/kb/remote-desktop-manager/troubleshooting-articles/vmware/)
+* [WOL](/rdm/kb/rdm-windows/knowledge-base/wake-on-lan/)
+* [VMWare](/rdm/kb/rdm-windows/troubleshooting-articles/vmware/)

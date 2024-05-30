@@ -8,7 +8,7 @@ The purpose of the ***CyberArk Dashboard*** entry is to provide {{ en.RDM }} use
 Another design principle of the dashboard is that its main usage model is to go through the CyberArk Privileged Session Manager (PSM) to reach assets. This means that {{ en.RDM }} does NOT need to read the password for the account to be used. Less secure models are available to support older scenarios that some of our customers are still using.
 
 {% snippet, "badgeHelp" %}
-Learn more about the [CyberArk MFA delimiter option](/kb/remote-desktop-manager/knowledge-base/mfa-delimiter-cyberark/).
+Learn more about the [CyberArk MFA delimiter option](/rdm/kb/rdm-windows/knowledge-base/mfa-delimiter-cyberark/).
 {% endsnippet %}
 
 ## Configuration
@@ -34,7 +34,7 @@ Learn more about the [CyberArk MFA delimiter option](/kb/remote-desktop-manager/
 
 6. Select the ***Authentication mode*** used to connect to the CyberArk instance (***CyberArk***, ***Windows***, ***LDAP***, ***RADIUS***, or ***SAML***).
    {% snippet, "badgeNotice" %}
-   SAML authentication is supported with CyberArk since version 2022.3.25 of {{ en.RDM }}, but important improvements and bug fixes have been implemented in ulterior versions. We recommend to at least update to the 2023.1 version of {{ en.RDM }} if your current version is older. One of the improvements in version 2023.1 is that you no longer have to provide the ***IdP sign-in URL*** when configuring your SAML authentication. If you have trouble with your SAML authentication, consult [SAML Configuration and Troubleshooting](/kb/remote-desktop-manager/troubleshooting-articles/saml-configuration-troubleshooting-cyberark-dashboard/).
+   SAML authentication is supported with CyberArk since version 2022.3.25 of {{ en.RDM }}, but important improvements and bug fixes have been implemented in ulterior versions. We recommend to at least update to the 2023.1 version of {{ en.RDM }} if your current version is older. One of the improvements in version 2023.1 is that you no longer have to provide the ***IdP sign-in URL*** when configuring your SAML authentication. If you have trouble with your SAML authentication, consult [SAML Configuration and Troubleshooting](/rdm/kb/rdm-windows/troubleshooting-articles/saml-configuration-troubleshooting-cyberark-dashboard/).
 
    SAML authentication for CyberArk Privilege Cloud requires {{ en.RDM }} 2023.2.17 or newer.
 

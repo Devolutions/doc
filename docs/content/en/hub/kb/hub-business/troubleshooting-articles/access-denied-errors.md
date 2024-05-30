@@ -6,7 +6,7 @@ eleventyComputed:
 In {{ en.DHUB }}, many situations can trigger an ***Access denied*** error. Here are the most common messages and their solutions.
 
 {% snippet, "badgeInfo" %}
-All other types of {{ en.DHUB }} errors are listed [here](/kb/hub-business/troubleshooting-articles/errors-list/).
+All other types of {{ en.DHUB }} errors are listed [here](/hub/kb/hub-business/troubleshooting-articles/errors-list/).
 {% endsnippet %}
 
 ## Activate your Two-Step Verification on your account.

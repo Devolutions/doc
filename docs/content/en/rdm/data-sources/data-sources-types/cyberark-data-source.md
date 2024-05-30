@@ -154,6 +154,6 @@ Here, set a message to be displayed on open of the {{ en.RDM}} CyberArk data sou
 
 ## Troubleshooting 
 
-[Click here](/kb/remote-desktop-manager/troubleshooting-articles/cyberark-data-source-issues/) for troubleshooting steps regarding CyberArk data source issues, or contact our [support team](mailto:service@devolutions.net).
+[Click here](/rdm/kb/rdm-windows/troubleshooting-articles/cyberark-data-source-issues/) for troubleshooting steps regarding CyberArk data source issues, or contact our [support team](mailto:service@devolutions.net).
 
 

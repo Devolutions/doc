@@ -12,7 +12,7 @@ eleventyComputed:
 
 Your information is stored in entries of different types which are organized into {{ en.VLT }}s. Entries are managed directly from the web interface and no client application is required.
 
-Security is at the core of {{ en.DHUB }} since it is hosted by [Microsoft Azure](/kb/hub-business/knowledge-base/hosting-region-password-hub/), a highly trusted cloud services provider, and encrypted with the strongest encryption standard: AES-256.
+Security is at the core of {{ en.DHUB }} since it is hosted by [Microsoft Azure](/hub/kb/hub-business/knowledge-base/hosting-region-password-hub/), a highly trusted cloud services provider, and encrypted with the strongest encryption standard: AES-256.
 
 {{ en.DHUB }} possesses powerful user management features, reports, and accessibility options. Users can be assigned roles and permissions and can also be members of user groups with predefined roles and permissions, streamlining the onboarding process.
 

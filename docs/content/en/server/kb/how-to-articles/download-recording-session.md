@@ -6,7 +6,7 @@ eleventyComputed:
 It is possible to download {{ en.DVLS }} WebM recordings using [{{ en.RDM }}](#remote-desktop-manager). However the [{{ en.DVLS }}](#devolutions-server-web-interface) web interface only lets you view the recording.
 
 {% snippet, "badgeHelp" %}
-Make certain the [***Recording Server***](/kb/devolutions-server/how-to-articles/configure-recording-server/) is already configured correctly. The topic also has the complete list of recording types that are supported with the ***Recording Server***.
+Make certain the [***Recording Server***](/server/kb/how-to-articles/configure-recording-server/) is already configured correctly. The topic also has the complete list of recording types that are supported with the ***Recording Server***.
 {% endsnippet %}
 
 ## {{ en.RDM }}

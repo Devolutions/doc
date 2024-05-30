@@ -5,7 +5,7 @@ eleventyComputed:
 ---
 Hours: Monday to Friday 7:30 a.m. to 6:00 p.m. EST
 
-Knowledge Base: Find helpful information and procedures regarding our [products](/kb/devolutions-server/).
+Knowledge base: Find helpful information and procedures regarding our [products](/server/kb/).
 
 Email: [service@devolutions.net](mailto:service@devolutions.net)
 

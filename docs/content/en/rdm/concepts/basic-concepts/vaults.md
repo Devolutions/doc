@@ -7,7 +7,7 @@ Organize your [folders](/rdm/windows/concepts/basic-concepts/folders/) and entri
 
 ### Related topics  
 * [{{ en.VLT_MAJ }}s overview](/rdm/windows/commands/administration/management/vaults-overview/)  
-* [Batch edit in {{ en.RDM }}](/kb/remote-desktop-manager/how-to-articles/batch-edit-rdm/#entryfolder-selection)  
+* [Batch edit in {{ en.RDM }}](/rdm/kb/rdm-windows/how-to-articles/batch-edit-rdm/#entryfolder-selection)  
 * [{{ en.UVLT_MAJ }}](/rdm/windows/data-sources/user-vault/)  
 * [Change Master Key](/rdm/windows/commands/file/change-master-key/)  
 

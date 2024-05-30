@@ -45,7 +45,7 @@ We strongly suggest you clean up your database prior to the move.
    {% snippet, "badgeCaution" %}
    The user accounts with the error Windows users can be converted to external users in Azure SQL Database needs to be deselected from the list for the migration to work.
 
-   Those specific users will need to [export](/kb/remote-desktop-manager/how-to-articles/export-import-entries/) their ***{{ en.UVLT }}*** and configuration prior to the migration. Failing to do so will loose the data saved under those sections: ***My account settings***, ***User specific settings***, and any entry made in their ***{{ en.UVLT }}***.
+   Those specific users will need to [export](/rdm/mac/kb/rdm-windows/how-to-articles/export-import-entries/) their ***{{ en.UVLT }}*** and configuration prior to the migration. Failing to do so will loose the data saved under those sections: ***My account settings***, ***User specific settings***, and any entry made in their ***{{ en.UVLT }}***.
 
    After exporting the user data, you will need to create a new user in your list and reimport the data.
    {% endsnippet %}

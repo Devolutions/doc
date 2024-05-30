@@ -9,6 +9,6 @@ Core to {{ en.RDM }} is entry reusability. Define a single host to launch multip
 
 * [Connections](/rdm/windows/user-interface/content-area/embedded-sessions/)
 * [Entry credentials options](/rdm/windows/commands/edit/entries/entry-credentials-options/)
-* [Inheritance](/kb/remote-desktop-manager/knowledge-base/inheritance/)  
+* [Inheritance](/rdm/kb/rdm-windows/knowledge-base/inheritance/)  
 * [Managing credentials](/rdm/windows/getting-started/managing-credentials/)  
 * [Templates](/rdm/windows/commands/file/templates/)

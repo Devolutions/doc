@@ -58,5 +58,5 @@ It is also possible to use either of these options:
 
 ## Troubleshooting
 {% snippet, "badgeHelp" %}
-Learn more about [KeePass Troubleshooting](/kb/remote-desktop-manager/troubleshooting-articles/keepass/).
+Learn more about [KeePass Troubleshooting](/rdm/mac/kb/rdm-windows/troubleshooting-articles/keepass/).
 {% endsnippet %}

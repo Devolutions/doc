@@ -126,7 +126,7 @@ You can then run the synchronizer every time a new version of the CSV file is pr
 ## Dynamic utilization
 
 ### Quick Connect
-Via the ***Quick Connect*** toolbar, you can open an ad-hoc session by specifying the host and session type. Read more about the [Quick Connect](/kb/remote-desktop-manager/knowledge-base/quick-connect/) function.
+Via the ***Quick Connect*** toolbar, you can open an ad-hoc session by specifying the host and session type. Read more about the [Quick Connect](/rdm/kb/rdm-windows/knowledge-base/quick-connect/) function.
 
 A Cyberark PSM Connection template is required beforehand.
 1. Go to ***File – Templates – Templates***, and add a new template.
@@ -146,7 +146,7 @@ Once a template has been created, it will be showing up in the ***Quick connect*
 You can then type in the ***Host*** of the target endpoint, and launch the session.
 
 ## Host
-Take a look at this [link](/kb/remote-desktop-manager/how-to-articles/multiple-types-connections/host-with-templates/) to implement using a host for PSM Integration.
+Take a look at this [link](/rdm/kb/rdm-windows/how-to-articles/multiple-types-connections/host-with-templates/) to implement using a host for PSM Integration.
 
 Steps are very similar to the ***Quick connect***, the creation of the template is the exact same, except that the ***Host*** field will remain empty.
 

@@ -11,7 +11,7 @@ The ***Temporary Access*** feature allows users to request a temporary elevation
 If a ***Temporary access*** request was made in {{ en.RDM }} from a {{ en.DHUB }} database, the authorization process must be performed in {{ en.DHUB }}. See [Approve temporary access to an entry in {{ en.DHUBB }}](/hub/web-interface/temporary-access/approve-temporary-access/).
 
 {% snippet, "badgeInfo" %}
-When using {{ en.DVLS }}, Microsoft SQL Server or Microsoft Azure SQL data sources, you must first [Enable temporary access](/kb/remote-desktop-manager/how-to-articles/enable-temporary-access/) in {{ en.RDM }}.
+When using {{ en.DVLS }}, Microsoft SQL Server or Microsoft Azure SQL data sources, you must first [Enable temporary access](/rdm/kb/rdm-windows/how-to-articles/enable-temporary-access/) in {{ en.RDM }}.
 {% endsnippet %}
 
 ## View temporary access requests

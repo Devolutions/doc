@@ -6,7 +6,7 @@ eleventyComputed:
 {{ en.RDM }} events give you the flexibility to automatically run operations such as [macros](/rdm/windows/concepts/advanced-concepts/macros/), [scripts](/rdm/windows/concepts/advanced-concepts/scripts/), and tools with the ***Before Open***, ***After Open***, ***Before Close***, and ***After Close events***.
 
 ### Related topics  
-* [Entry types events settings](/kb/remote-desktop-manager/how-to-articles/entry-types-events-settings/)  
+* [Entry types events settings](/rdm/kb/rdm-windows/how-to-articles/entry-types-events-settings/)  
 * [Logs](/rdm/windows/commands/view/layout/logs/)  
 * [Activity Logs](/rdm/windows/commands/view/view/activity-logs/)  
 * [{{ en.RDMA }} - Quick Scripts/Tools](/rdm/windows/commands/tools/tools/more-tools/rdm-agent/#quick-script-scriptstools)

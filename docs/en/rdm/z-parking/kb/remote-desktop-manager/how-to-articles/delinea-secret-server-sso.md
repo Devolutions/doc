@@ -6,7 +6,7 @@ eleventyComputed:
 Delinea Secret Server single sign-on (SSO) is supported in {{ en.RDM }}.
 
 {% snippet, "badgeInfo" %}
-Consult our [Secret Server entry configuration guide](https://docs.devolutions.net/kb/remote-desktop-manager/how-to-articles/secret-server-entry-configuration/) to learn how to configure an entry to use ***Secret Server*** credentials.
+Consult our [Secret Server entry configuration guide](/rdm/kb/rdm-windows/how-to-articles/secret-server-entry-configuration/) to learn how to configure an entry to use ***Secret Server*** credentials.
 {% endsnippet %}
 
 {% snippet, "badgeInfo" %}

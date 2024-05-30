@@ -18,5 +18,5 @@ Once you have deleted an account, you will not be able to revert that action.
 ![!!Cloud4040](https://cdnweb.devolutions.net/docs/CLOUD4000_2024_1.png)
 
 {% snippet, "badgeInfo" %}
-Read [How deleting Devolutions Accounts affects Hub](https://docs.devolutions.net/kb/hub-business/knowledge-base/deleting-devolutions-account-affect-hub/) for more information on that topic.
+Read [How deleting {{ en.DA }}s affects Hub](/hub/kb/hub-business/knowledge-base/deleting-devolutions-account-affect-hub/) for more information on that topic.
 {% endsnippet %}

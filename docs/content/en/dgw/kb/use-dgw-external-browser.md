@@ -27,7 +27,7 @@ It is possible to use {{ en.DGW }} with an external browser, but at the moment t
 This section will showcase multiple solutions by using PowerShell.
 
 ### Batch edit using PowerShell
-It is possible to [batch edit](/kb/remote-desktop-manager/how-to-articles/batch-edit-rdm) the entries with a custom PowerShell command to make all of them use a different path (can be the temp or any place users are allowed to use it):
+It is possible to [batch edit](/rdm/kb/rdm-windows/how-to-articles/batch-edit-rdm) the entries with a custom PowerShell command to make all of them use a different path (can be the temp or any place users are allowed to use it):
 
 ```powershell
 $connection.Web.UseUserDataPath = $true;
@@ -36,7 +36,7 @@ $RDM.Save();
 ```
 
 ### Temporary edit with Before Open
-It is also possible to [temporarily use the properties](/kb/remote-desktop-manager/how-to-articles/execute-powershell-connection) 'Web.UseUserDataPath' set to true and 'Web.UserDataPath' set the path to the temp or any place users are allowed to use it that can be dynamic with a Before Open Event (using PowerShell Script).
+It is also possible to [temporarily use the properties](/rdm/kb/rdm-windows/how-to-articles/execute-powershell-connection) 'Web.UseUserDataPath' set to true and 'Web.UserDataPath' set the path to the temp or any place users are allowed to use it that can be dynamic with a Before Open Event (using PowerShell Script).
 
 ```powershell
 connection.Web.UseUserDataPath = $true

@@ -17,5 +17,5 @@ When opening ***Quick Connect*** via the ***View*** tab, a window appears where 
 Clicking on the first button next to the ***Host*** field opens yet another window where you will be able to select a computer to connect to in a list.
 ![Host Window](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_RDMMac0038.png)
 
-Clicking on the second button next to the ***Host*** field shows a menu where you can select your session type. It is also possible to create a ***Template*** and establish connection with it. See [Quick Connect](/kb/remote-desktop-manager/knowledge-base/quick-connect/) to learn more about this option. You can also learn how to [create a template](/rdm/mac/commands/file/templates/creating-templates/).
+Clicking on the second button next to the ***Host*** field shows a menu where you can select your session type. It is also possible to create a ***Template*** and establish connection with it. See [Quick Connect](/rdm/mac/kb/rdm-windows/knowledge-base/quick-connect/) to learn more about this option. You can also learn how to [create a template](/rdm/mac/commands/file/templates/creating-templates/).
 ![Quick Connect Dropdown Menu](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_RDMMac0039.png)

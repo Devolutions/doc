@@ -11,7 +11,7 @@ The ***MFA delimiter*** option exists in {{ en.RDM }} to mirror the one that alr
 
 The ***MFA delimiter*** field is only available for the [***CyberArk Dashboard***](#cyberark-dashboard) entry and the [***CyberArk PVWA (Credentials)***](#cyberark-pvwa-credentials) entry.
 
-Learn more about [CyberArk entries configuration](/kb/remote-desktop-manager/how-to-articles/cyberark-dashboard-configuration/).
+Learn more about [CyberArk entries configuration](/rdm/mac/kb/rdm-windows/how-to-articles/cyberark-dashboard-configuration/).
 {% endsnippet %}
 
 Here is an example of how it works:

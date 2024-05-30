@@ -11,7 +11,7 @@ The following steps describe how to create a test instance hosted on the same ma
 
 1. Perform a full backup of the production database.
 1. Restore the database under a new name.
-1. [Export the encryption keys](/kb/devolutions-server/how-to-articles/manage-encryption-keys/) from the production {{ en.DVLS }} instance (if this step has not already been performed).
+1. [Export the encryption keys](/server/kb/how-to-articles/manage-encryption-keys/) from the production {{ en.DVLS }} instance (if this step has not already been performed).
 1. [Create a new instance](/server/getting-started/installation/create-server-instance/) in the {{ en.DVLSCONSOLE }}. We recommend creating the test instance at the same version as the production instance.
 1. In the database step, enter the information related to the database copy created in step 2.
 1. Provide, once prompted for it, the encryption key file exported in step 3.
@@ -29,4 +29,4 @@ It is possible to disconnect the old machine from your domain and rename the new
 
 If you plan to migrate the SQL database on a new server, this could be completed once the {{ en.DVLS }} migration is completed. Once done, update the database configuration from the {{ en.DVLSCONSOLE }}.
 
-If you plan to move the {{ en.DVLS }} to a new identity provider, you can also use the [authentication migration tool](/kb/devolutions-server/how-to-articles/authentication-migration/) to migrate you users and user groups to the new identity provider.
+If you plan to move the {{ en.DVLS }} to a new identity provider, you can also use the [authentication migration tool](/server/kb/how-to-articles/authentication-migration/) to migrate you users and user groups to the new identity provider.

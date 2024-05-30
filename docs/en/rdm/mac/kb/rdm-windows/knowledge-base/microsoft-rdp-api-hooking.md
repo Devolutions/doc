@@ -14,7 +14,7 @@ Restart {{ en.RDM }} to apply the change.
 {% snippet, "badgeInfo" %}
 Since {{ en.RDM }} 2022.3.23, a policy, EnableRDPHooking, has been added that overrides the ***Enable API hooking*** setting. If it is not configured (no registry key), the value from the {{ en.RDM }} option will be used. A value of "0" indicates that RDP hooking is disabled, while a value different than "0" indicates that RDP hooking is enabled. This enables the administrator to force either setting or allow the local configuration to be effective.
 
-See all policies including this one in [Apply policies](/kb/remote-desktop-manager/how-to-articles/group-policies/).
+See all policies including this one in [Apply policies](/rdm/mac/kb/rdm-windows/how-to-articles/group-policies/).
 {% endsnippet %}
 
 The Microsoft RDP API hooking module will be loaded on the first Microsoft RDP connection. In the unlikely event that you notice instability with API hooking enabled, disable it and then contact the [support team](mailto:service@devolutions.net) to report the issue.

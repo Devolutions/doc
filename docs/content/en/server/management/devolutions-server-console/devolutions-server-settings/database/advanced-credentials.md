@@ -11,7 +11,7 @@ The ***Advanced Credentials*** are used to allow {{ en.DVLS }} to communicate wi
 Only SQL login accounts can be manually configured. With the ***Authentication type*** set to ***Windows Authentication*** the accounts are automatically pulled from the ***Scheduler Service*** and the IIS Application Pool Identity.
 {% endsnippet %}
 
-For further information about these accounts, please see [Pre-deployment account survey](/kb/devolutions-server/knowledge-base/pre-deployment-account-survey/).
+For further information about these accounts, please see [Pre-deployment account survey](/server/kb/knowledge-base/pre-deployment-account-survey/).
 
 ![Advanced credentials dialog](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp8168.png)
 

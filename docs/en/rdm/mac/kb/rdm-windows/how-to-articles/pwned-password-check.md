@@ -39,5 +39,5 @@ Here is how it works:
 ![Password generator](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2327.png)
 
 {% snippet, "badgeHelp" %}
-{{ en.RDM }} also has a [Entry Security Analyzer](/rdm/windows/commands/tools/tools/entry-security-analyzer/) that provides feedback on all your passwords. A rating is included on the entry. It uses Zxcvbn to assess passwords. You can also create a report of all your passwords by using the ***Entry Security Analyzer*** in the ***Tools*** tab. Learn more about this in [Password strength rating](/kb/remote-desktop-manager/).
+{{ en.RDM }} also has a [Entry Security Analyzer](/rdm/windows/commands/tools/tools/entry-security-analyzer/) that provides feedback on all your passwords. A rating is included on the entry. It uses Zxcvbn to assess passwords. You can also create a report of all your passwords by using the ***Entry Security Analyzer*** in the ***Tools*** tab. Learn more about this in [Password strength rating](/rdm/mac/kb/rdm-windows/).
 {% endsnippet %}

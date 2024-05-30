@@ -11,7 +11,7 @@ To change your {{ en.DA }} email, you would need to [Create a new account](/clou
 
 * [Serials](/cloud/portal/serials/): Manually add your Devolutions products serials you have previously purchased to your new account.
 * [Invoices](/cloud/portal/invoices/): If some invoices need to be associated with the new account, contact our [sales department](mailto:sales@devolutions.net).
-* [{{ en.DHUBP }}](/cloud/hub-personal/): Import and export your {{ en.DHUBP }} data source entries [with {{ en.RDM }}](/kb/remote-desktop-manager/how-to-articles/export-import-entries/) or in Json format directly [from {{ en.DHUBP }}](/hub/web-interface/tools/import-export/) in ***Tools – Export***.
+* [{{ en.DHUBP }}](/cloud/hub-personal/): Import and export your {{ en.DHUBP }} data source entries [with {{ en.RDM }}](/rdm/kb/rdm-windows/how-to-articles/export-import-entries/) or in Json format directly [from {{ en.DHUBP }}](/hub/web-interface/tools/import-export/) in ***Tools – Export***.
 * [{{ en.DHUBB }}](/cloud/hub-business/): If you are the owner of a {{ en.DHUBB }}, switch the [Ownership](/hub/web-interface/administration/management/users/hub-ownership/) to another administrator, then request an invitation with the new account.
 * [{{ en.OBACK }}](/cloud/rdm-online-services/online-backup/): The backups are stored and linked to each {{ en.DA }}. For this reason, you will not have access under the new {{ en.DA }}.
 

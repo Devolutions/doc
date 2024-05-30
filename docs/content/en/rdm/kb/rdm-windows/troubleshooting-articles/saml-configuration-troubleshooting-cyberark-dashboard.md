@@ -15,7 +15,7 @@ If you are using a shared data source, we recommend to use a [portable version o
 {% endsnippet %}
 
 2. In {{ en.RDM }}, create your ***CyberArk Dashboard*** entry. Make sure to created it from version 2023.2.18 or later and **not** from the previous version.
-1. Enter the necessary information. See [CyberArk Dashboard Configuration and Use](/kb/remote-desktop-manager/how-to-articles/cyberark-dashboard-configuration/) for more information.
+1. Enter the necessary information. See [CyberArk Dashboard Configuration and Use](/rdm/kb/rdm-windows/how-to-articles/cyberark-dashboard-configuration/) for more information.
 
 ![CyberArk Dashboard SAML Configuration](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2167.png)
 

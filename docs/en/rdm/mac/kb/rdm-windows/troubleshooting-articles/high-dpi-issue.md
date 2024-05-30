@@ -21,7 +21,7 @@ There are multiple methods on how to solve these issues.
 
 If you cannot see the setting because of display issues, you can add the line in your config files directly.
 {% snippet, "badgeHelp" %}
-To locate your config file refer to [Configuration File Location](/kb/remote-desktop-manager/knowledge-base/locating-configuration-file/).
+To locate your config file refer to [Configuration File Location](/rdm/mac/kb/rdm-windows/knowledge-base/locating-configuration-file/).
 {% endsnippet %}
 
 2. Once you have found the right folder, open **RemoteDesktopManager.cfg** with your preferred text editor.

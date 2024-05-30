@@ -50,5 +50,5 @@ We also have GPOs that could help you achieve your goal. An example is the ***Fo
 %Root%\SOFTWARE\Policies\Devolutions\RemoteDesktopManager\ForceApplicationMFA
 
 {% snippet, "badgeHelp" %}
-For more information about the configuration, consult [Apply policies](/kb/remote-desktop-manager/how-to-articles/group-policies/).
+For more information about the configuration, consult [Apply policies](/rdm/kb/rdm-windows/how-to-articles/group-policies/).
 {% endsnippet %}

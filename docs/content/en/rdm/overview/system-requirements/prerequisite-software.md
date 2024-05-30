@@ -12,4 +12,4 @@ These installations are managed automatically by our installers. The only situat
 
 The following package must be installed prior to proceeding with the {{ en.RDM }} installation:
 * [Microsoft .NET 8.0](https://dotnet.microsoft.com/en-us/download/dotnet/8.0)
-* [Microsoft Edge WebView2 Runtime](/kb/remote-desktop-manager/knowledge-base/download-microsoft-edge-chromium/)
+* [Microsoft Edge WebView2 Runtime](/rdm/kb/rdm-windows/knowledge-base/download-microsoft-edge-chromium/)

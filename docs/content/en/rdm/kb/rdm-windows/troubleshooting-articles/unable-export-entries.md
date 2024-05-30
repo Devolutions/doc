@@ -8,7 +8,7 @@ Unable to export entries in {{ en.RDM }} with administrator rights or receiving 
 
 Validate all the following settings and policies for the export to work.
 
-1. Validate that these policies are unchecked in ***Help - Diagnostic - Policy*** If they are checked, see [Apply policies](/kb/remote-desktop-manager/how-to-articles/group-policies/) to manage them.
+1. Validate that these policies are unchecked in ***Help - Diagnostic - Policy*** If they are checked, see [Apply policies](/rdm/kb/rdm-windows/how-to-articles/group-policies/) to manage them.
 
 * ***Disable the reveal password***
 * ***Remove possibility to see passwords entirely***

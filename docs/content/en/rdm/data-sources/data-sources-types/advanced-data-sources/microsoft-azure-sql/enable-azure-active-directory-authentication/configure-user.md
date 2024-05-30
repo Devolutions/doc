@@ -11,7 +11,7 @@ Follow the steps below to configure an Azure AD user in {{ en.RDM }}.
 ![Administration – Users – Add User](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin2151.png)
 1. In the ***Authentication type*** drop-down list, select ***Microsoft***.
    {% snippet, "badgeCaution" %}
-   If ***Microsoft*** is not available in the ***Authentication type*** drop-down list, verify that all steps in [Enable SQL Azure with Azure Active Directory with MFA](/kb/remote-desktop-manager/how-to-articles/enable-sql-azure-ad-mfa/) have been completed.
+   If ***Microsoft*** is not available in the ***Authentication type*** drop-down list, verify that all steps in [Enable SQL Azure with Azure Active Directory with MFA](/rdm/kb/rdm-windows/how-to-articles/enable-sql-azure-ad-mfa/) have been completed.
    {% endsnippet %}
 
    ![Microsoft Authentication type](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip11580.png)

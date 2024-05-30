@@ -12,4 +12,4 @@ To see the types of information you can import, go to ***File – Import***.
 
 Watch this video for step-by-step instructions: [Import credentials from KeePass](https://youtu.be/0Oq4gLkF88A).  
 
-Read [how to import credentials](/kb/remote-desktop-manager/how-to-articles/import-credentials-keepass/).
+Read [how to import credentials](/rdm/kb/rdm-windows/how-to-articles/import-credentials-keepass/).

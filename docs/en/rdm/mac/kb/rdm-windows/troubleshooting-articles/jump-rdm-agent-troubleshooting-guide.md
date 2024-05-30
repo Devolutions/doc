@@ -66,5 +66,5 @@ If you perform a full test, here is what should happen in chronological order af
     * Auto-starting {{ en.RDM }} may cause the jump to timeout.
 
    We therefore recommend that you let {{ en.RDMA }} start {{ en.RDM }} on the first jump.
-* If {{ en.RDM }} is slow to start on the jump host, especially if it is running on TS or similar environments. See [Startup Performance](/kb/remote-desktop-manager/troubleshooting-articles/startup-performance/) for a few quick solutions to improve {{ en.RDM }} startup times. You can also uncheck the ***Show Splash screen*** setting in ***File – Settings – Application – Application Startup*** to disable the splash screen.
+* If {{ en.RDM }} is slow to start on the jump host, especially if it is running on TS or similar environments. See [Startup Performance](/rdm/mac/kb/rdm-windows/troubleshooting-articles/startup-performance/) for a few quick solutions to improve {{ en.RDM }} startup times. You can also uncheck the ***Show Splash screen*** setting in ***File – Settings – Application – Application Startup*** to disable the splash screen.
 * The client {{ en.RDM }} will favor direct communication with {{ en.RDM }} if it is already connected, and will only fall back to {{ en.RDMA }} if it is not available. This is by design and has the advantage of being slightly faster at starting sessions.

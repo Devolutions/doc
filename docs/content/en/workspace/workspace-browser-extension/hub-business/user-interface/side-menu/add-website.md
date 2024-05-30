@@ -80,7 +80,7 @@ The tables below list all fields/settings available in the ***New Entry – Webs
 | QR Code - Application | Enter your OTP ***QR Code***. <br> <br> This field is only available if ***Custom*** is selected in the ***Source*** drop-down list. |
 | Time step | Set the duration of validity of each password (in seconds). This value must be set to at least 15 seconds. <br> <br> This field is only available if ***Custom*** is selected in the ***Source*** drop-down list. |
 | Code size | Select the size of the code, between ***6 Digits*** or ***8 Digits***. <br> <br> This drop-down list is only available if ***Custom*** is selected in the ***Source*** drop-down list. |
-| Hash algorithm | Select the secure hash algorithm (SHA) between ***SHA-1***, ***SHA-256***, or ***SHA-512***. <br> <br> This drop-down list is only available if ***Custom*** is selected in the ***Source*** drop-down list. <br> <br> To learn about secure hash algorithm, visit [SHA-256](/kb/general-knowledge-base/what-is-sha-256/). |
+| Hash algorithm | Select the secure hash algorithm (SHA) between ***SHA-1***, ***SHA-256***, or ***SHA-512***. <br> <br> This drop-down list is only available if ***Custom*** is selected in the ***Source*** drop-down list. <br> <br> To learn about secure hash algorithm, visit [SHA-256](/workspace/kb/general-knowledge/what-is-sha-256/). |
 
 ### Custom Fields
 

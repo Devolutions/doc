@@ -12,7 +12,7 @@ Both the ***Disable All*** and ***Reset Default*** buttons will erase your custo
 {% endsnippet %}
 
 {% snippet, "badgeInfo" %}
-Visit [Keyboard shortcuts customization in {{ en.RDMWIN }}](/kb/remote-desktop-manager/how-to-articles/keyboard-shortcuts-customization-rdm-windows/).
+Visit [Keyboard shortcuts customization in {{ en.RDMWIN }}](/rdm/kb/rdm-windows/how-to-articles/keyboard-shortcuts-customization-rdm-windows/).
 {% endsnippet %}
 
 ![Keyboard shortcuts](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin2101.png)

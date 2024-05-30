@@ -5,7 +5,7 @@ eleventyComputed:
 ---
 {% youtube 'JmoEOMkp-QY?si=sWqF3B-EZat2QxMd' %}
 
-{{ en.DVLSCONSOLE }} includes a ***Migrate SQL Data Source*** wizard to ease transitions from Microsoft SQL Server (MSSQL), including Azure, to {{ en.DVLS }}. When operating an {{ en.RDM }} SQL advanced data source, the recommendation is to use a security provider for additional encryption of data. {{ en.DVLS }} does not support security providers, but has equivalent protection via [encryption keys](/kb/devolutions-server/how-to-articles/manage-encryption-keys/) stored on the IIS web host for {{ en.DVLS }}.
+{{ en.DVLSCONSOLE }} includes a ***Migrate SQL Data Source*** wizard to ease transitions from Microsoft SQL Server (MSSQL), including Azure, to {{ en.DVLS }}. When operating an {{ en.RDM }} SQL advanced data source, the recommendation is to use a security provider for additional encryption of data. {{ en.DVLS }} does not support security providers, but has equivalent protection via [encryption keys](/server/kb/how-to-articles/manage-encryption-keys/) stored on the IIS web host for {{ en.DVLS }}.
 
 ## Removing the Security Provider
 You must remove the {{ en.RDM }} ***Security Provider***, before running the migration wizard, or an error message will prompt you to do so.

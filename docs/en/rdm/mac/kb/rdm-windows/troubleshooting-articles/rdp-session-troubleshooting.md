@@ -28,4 +28,4 @@ Microsoft RDP API hooking makes it possible to log internal events and options t
 ![Set Log level to Debug](https://cdnweb.devolutions.net/docs/RDMW2027_2024_1.png)
 1. Click ***Save***.
 1. Restart your {{ en.RDM }} application to apply the changes.
-1. Send the log file of your RDP session under **%LocalAppData%\MsRdpEx** to our support team: [Securely send a file to our team](/kb/devolutions-customer-success/securely-send-file/).
+1. Send the log file of your RDP session under **%LocalAppData%\MsRdpEx** to our support team: [Securely send a file to our team](/rdm/kb/general-knowledge/securely-send-file/).

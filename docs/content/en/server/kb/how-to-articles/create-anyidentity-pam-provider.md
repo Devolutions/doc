@@ -6,7 +6,7 @@ eleventyComputed:
 To create an {{ en.ANYID }} PAM Provider, you first need to create a provider template or import an existing one. There already exists [templates](#import-an-anyidentity-template) for a few providers.
 
 {% snippet, "badgeCaution" %}
-The [WinRM](/kb/devolutions-server/how-to-articles/winrm-trustedhostslist/) needs to be enabled for this to work.
+The [WinRM](/server/kb/how-to-articles/winrm-trustedhostslist/) needs to be enabled for this to work.
 {% endsnippet %}
 
 ## Create an {{ en.ANYID }} Template

@@ -1,6 +1,6 @@
 ## Devolutions Documentation and Knowledge Base
 
-Devolutions takes great pride in presenting its [Documentation](https://docs.devolutions.net/) and [Knowledge Base](https://docs.devolutions.net/kb/devolutions-customer-success/), designed exclusively for our community of over 800,000 users!  
+Devolutions takes great pride in presenting its [Documentation and knowledge base](https://docs.devolutions.net/), designed exclusively for our community of over 800,000 users!  
 
 ### Topic types
 
@@ -14,7 +14,7 @@ Our comprehensive documentation is thoughtfully organized, with dedicated sectio
 * [Devolutions Hub](https://docs.devolutions.net/hub/overview/what-is-hub/)  
 * [Devolutions Cloud](https://docs.devolutions.net/cloud/overview/what-is-cloud/)  
 
-[***Knowledge Base***](https://docs.devolutions.net/kb/devolutions-customer-success/) articles give solutions to common roadblocks and help using best practices.  
+***Knowledge base*** articles give solutions to common roadblocks and help using best practices.  
 They are divided in sub-sections:
 * ***How-to articles***: Step-by-step guides that provide guidance for advanced configuration.
 * ***Troubleshooting articles***: Help on resolving issues, providing workarounds, and troubleshooting tips.
@@ -22,5 +22,5 @@ They are divided in sub-sections:
 
 ### General information 
 
-* [Ticketing system](https://docs.devolutions.net/kb/devolutions-customer-success/ticketing-system/)  
-* [Securely send a file to our team](https://docs.devolutions.net/kb/devolutions-customer-success/securely-send-file/)  
+* [Ticketing system](https://docs.devolutions.net/rdm/kb/general-knowledge/ticketing-system/)  
+* [Securely send a file to our team](https://docs.devolutions.net/rdm/kb/general-knowledge/securely-send-file/)  

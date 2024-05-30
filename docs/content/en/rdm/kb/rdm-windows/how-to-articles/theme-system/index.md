@@ -28,4 +28,4 @@ The file name is standardized as: {EntryType}{Size}.png
 
 For instance, for the ***Folder*** type, the image names are: GroupFolderLarge.png and GroupFolderSmall.png Another example is for RDP sessions, their name is RDPConfigured, resulting in SessionRDPConfiguredLarge.png and SessionRDPConfiguredSmall.png.  
 
-Please consult [Image List](/kb/remote-desktop-manager/how-to-articles/theme-system/image-list/) to see a list of most images.
+Please consult [Image List](/rdm/kb/rdm-windows/how-to-articles/theme-system/image-list/) to see a list of most images.

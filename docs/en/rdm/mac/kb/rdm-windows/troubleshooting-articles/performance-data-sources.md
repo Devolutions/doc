@@ -10,7 +10,7 @@ This category affects all data source refreshes
 1. Whenever you use Refresh: Depending on your cache settings, we typically just get the changes that occurred since your last refresh.
 1. Whenever you use the Tree View.  
 
-SQL Server has certain particularities that, if the default configuration is used, will cause performance degradation as time goes by. Please consult [SQL Server Performance](/kb/remote-desktop-manager/troubleshooting-articles/sql-server-performance-troubleshooting/).
+SQL Server has certain particularities that, if the default configuration is used, will cause performance degradation as time goes by. Please consult [SQL Server Performance](/rdm/mac/kb/rdm-windows/troubleshooting-articles/sql-server-performance-troubleshooting/).
 ## Problem 1
 Heavy usage of custom images.
 ### Solution

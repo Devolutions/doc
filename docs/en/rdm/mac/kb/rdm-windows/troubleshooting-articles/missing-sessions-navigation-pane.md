@@ -12,4 +12,4 @@ The ***Name*** column is missing.
 Click on ***Window - Reset Layout*** to bring back the ***Name*** column.
 ![!!KB4086](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4086.png)
 ## Solution 3
-Refresh the local cache. Please consult [Caching](/kb/remote-desktop-manager/troubleshooting-articles/caching/) for more information.
+Refresh the local cache. Please consult [Caching](/rdm/mac/kb/rdm-windows/troubleshooting-articles/caching/) for more information.

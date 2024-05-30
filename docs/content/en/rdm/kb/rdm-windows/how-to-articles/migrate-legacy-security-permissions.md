@@ -10,7 +10,7 @@ eleventyComputed:
 {% snippet, "badgeWarning" %}
 Legacy security and security groups have been deprecated and will be completely removed starting with version 2023.3 of {{ en.RDM }}.
 
-Before disabling legacy security, it is advised to configure the ***User Groups***. See [Migrate from security groups to user groups](/kb/remote-desktop-manager/how-to-articles/migration-security-groups-user-groups/).
+Before disabling legacy security, it is advised to configure the ***User Groups***. See [Migrate from security groups to user groups](/rdm/kb/rdm-windows/how-to-articles/migration-security-groups-user-groups/).
 {% endsnippet %}
 
 Follow the steps below to disable ***Legacy Security*** in {{ en.RDM }}.

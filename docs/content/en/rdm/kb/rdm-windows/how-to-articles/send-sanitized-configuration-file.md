@@ -21,4 +21,4 @@ This topic describes how to send a copy of your {{ en.RDM }} configuration file 
 ![Uncheck all data sources](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2333.png)
 1. Click on ***Export***.
 1. Give the file a meaningful name (if you have a support ticket number, use it as the file name), then click ***Save***.
-1. Send the file to our support team by following the instructions in [Securely send a file to our team](/kb/devolutions-customer-success/securely-send-file/).
+1. Send the file to our support team by following the instructions in [Securely send a file to our team](/rdm/kb/general-knowledge/securely-send-file/).

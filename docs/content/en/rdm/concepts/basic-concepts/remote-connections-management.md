@@ -18,7 +18,7 @@ eleventyComputed:
 * [SSH](/rdm/windows/commands/edit/entries/creating-new-entry/#create-an-entry)  
 * [Telnet](/rdm/windows/commands/actions/commands/telnet/)
 * [Terminal Server](/rdm/windows/installation/client/terminal-services/)
-* [WOL](/kb/remote-desktop-manager/knowledge-base/wake-on-lan/)
+* [WOL](/rdm/kb/rdm-windows/knowledge-base/wake-on-lan/)
 * [Website](/rdm/windows/workspace-browser-extension/workspace-browser-extension-user-interface/side-menu/add-website/)
 
 

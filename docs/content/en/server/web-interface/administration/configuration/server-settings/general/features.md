@@ -3,7 +3,7 @@ eleventyComputed:
   title: Features
   description: The Features section allows administrators to configure the web interface features.
 ---
-The ***Features*** section allows administrators to configure the web interface features. Enabling or disbling these features allows or denies access to [remote endpoints](/kb/devolutions-server/knowledge-base/internet-endpoints-server/). When enabled, {{ en.DVLS }} will alert the external party for the service in question.
+The ***Features*** section allows administrators to configure the web interface features. Enabling or disbling these features allows or denies access to [remote endpoints](/server/kb/knowledge-base/internet-endpoints-server/). When enabled, {{ en.DVLS }} will alert the external party for the service in question.
 ![Administration – Server settings – Features](https://cdnweb.devolutions.net/docs/DVLS2019_2024_1.png)
 
 ## Settings

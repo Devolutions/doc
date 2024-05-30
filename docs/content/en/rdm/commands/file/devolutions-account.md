@@ -21,7 +21,7 @@ In ***File – {{ en.DA }}*** create and connect your {{ en.RDM }} to your {{ en
 |--------------------------|------------------------------------|
 | Automatically sign-in at startup | Automatically sign in to your {{ en.DA }} at the startup of the application.                                |
 | Keep me signed-in                | Keep a token in memory to remain signed into your {{ en.DA }}.                                              |
-| Use application password         | Use the [Application password](/kb/remote-desktop-manager/how-to-articles/application-passwords-setup/) to connect to your {{ en.DA }}. |
+| Use application password         | Use the [Application password](/rdm/kb/rdm-windows/how-to-articles/application-passwords-setup/) to connect to your {{ en.DA }}. |
 
 
 ### Tools

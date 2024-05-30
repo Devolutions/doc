@@ -65,7 +65,7 @@ The ***Batch Edit*** feature allows you to perform the following actions:
 * Edit Entries (General Settings / Session Type Settings / Security Group Legacy / Asset / User Specific Settings / Local Specific Settings)
 
 {% snippet, "badgeWarning" %}
-Legacy security and security groups have been deprecated and will be completely removed starting with version 2023.3 of {{ en.RDM }}. See [Migrate from security groups to user groups](/kb/remote-desktop-manager/how-to-articles/migration-security-groups-user-groups/).
+Legacy security and security groups have been deprecated and will be completely removed starting with version 2023.3 of {{ en.RDM }}. See [Migrate from security groups to user groups](/rdm/mac/kb/rdm-windows/how-to-articles/migration-security-groups-user-groups/).
 {% endsnippet %}
 
 Continue to the following section if the ***Batch Edit*** options cover your needs. If not, you can go to [Edit (Special Actions)](#editspecialactions) to use a custom PowerShell command in ***Edit (Special Actions)***.

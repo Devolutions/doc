@@ -28,8 +28,8 @@ Even though this is a cloud service, you MUST use our {{ en.OBACK }} service to 
 | Name                                | Enter the name of the data source. |
 | Create an account for free          | Create a new {{ en.DA }}. |
 | Username                            | Enter your {{ en.DA }} username. |
-| Connection mode                     | Choose the Default or [Application password](/kb/remote-desktop-manager/how-to-articles/application-passwords-setup/) method. |
-| Application password                | Enter your [Application password](/kb/remote-desktop-manager/how-to-articles/application-passwords-setup/).        |
+| Connection mode                     | Choose the Default or [Application password](/rdm/mac/kb/rdm-windows/how-to-articles/application-passwords-setup/) method. |
+| Application password                | Enter your [Application password](/rdm/mac/kb/rdm-windows/how-to-articles/application-passwords-setup/).        |
 | Always ask for password (default only) | Prompts for the password every time a connection to the {{ en.DOD }} is attempted. |
 | Filename                            | Indicate the filename used to store the data on the {{ en.DOD }}. |
 | Master key                          | Contains a master key to access the data source. |

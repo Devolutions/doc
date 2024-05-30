@@ -7,7 +7,7 @@ eleventyComputed:
 
 * [Delete a {{ en.VLT }}](#delete-a-vault)
 * [Restore a deleted {{ en.VLT }}](#restore-a-deleted-vault)
-* [Restore a {{ en.UVLT }}](/kb/hub-business/how-to-articles/restore-user-vault/)
+* [Restore a {{ en.UVLT }}](/hub/kb/hub-business/how-to-articles/restore-user-vault/)
 
 ### Delete a {{ en.VLT }}
 

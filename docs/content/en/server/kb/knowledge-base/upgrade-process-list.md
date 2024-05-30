@@ -20,7 +20,7 @@ This bullet list describes each steps a support technician will follow to assist
 1. Make sure everyone is in offline mode in {{ en.RDM }} if properly configured or disconnected from the {{ en.DVLS }} web interface.
 1. Modify the Maximal version in the Administration - System Settings if configured.
 1. Confirm to stop the instance with the Go Offline button on the {{ en.DVLSCONSOLE }} If more than one {{ en.DVLS }} instance (High Availability or Load Balancing), switch all instances to Offline mode before the upgrade.
-1. For version older than 2020.1.x, check if a Passphrase Security Provider is set on the {{ en.DVLS }} instance. If so, follow the [Remove Security Provider](/kb/devolutions-server/how-to-articles/remove-security-provider/) steps after the upgrade. This could be completed in another support session or the customer can do it by itself.
+1. For version older than 2020.1.x, check if a Passphrase Security Provider is set on the {{ en.DVLS }} instance. If so, follow the [Remove Security Provider](/server/kb/how-to-articles/remove-security-provider/) steps after the upgrade. This could be completed in another support session or the customer can do it by itself.
 1. Confirm for 2FA settings.
 1. Confirm for Integrated Security enabled or disabled in Database tab.
     1. If so, confirm that the connected user on the Windows machine has enough permissions to do database upgrades. {type="a"}
@@ -35,5 +35,5 @@ This bullet list describes each steps a support technician will follow to assist
 1. Test connectivity from {{ en.RDM }} to the {{ en.DVLS }} data source.
 1. If required, update {{ en.DGW }}.
 1. Make sure that the encryption keys will be exported and put in a safe place for security measure. These encryption keys are required for disaster recovery.
-    1. [Export the Encryption Keys](/kb/devolutions-server/how-to-articles/manage-encryption-keys/#export-the-encryption-keys) {type="a"}
+    1. [Export the Encryption Keys](/server/kb/how-to-articles/manage-encryption-keys/#export-the-encryption-keys) {type="a"}
 1. Ensure that the {{ en.RDM }} and the {{ en.DVLS }} licenses match.

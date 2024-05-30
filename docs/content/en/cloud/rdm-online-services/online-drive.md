@@ -3,7 +3,7 @@ eleventyComputed:
   title: "{{ en.DOD }}"
 ---
 {% snippet, "badgeInfo" %}
-***{{ en.DOD }}*** will be removed from {{ en.DPORTAL }}. You can still [access the URL](https://docs.devolutions.net/kb/general-knowledge-base/rdm-online-services-removed-devolutions-portal/) if needed
+***{{ en.DOD }}*** will be removed from {{ en.DPORTAL }}. You can still [access the URL](/rdm/kb/general-knowledge/rdm-online-services-removed-devolutions-portal/) if needed
 {% endsnippet %}
 
 {% youtube 'R3VYxnOdjoE' %}

@@ -18,7 +18,7 @@ Force the reinstallation of the program by deleting a registry key:
 ![Export the registry key](https://cdnweb.devolutions.net/docs/INTERFACE2028.png)
 1. Save the registry key file in a location you will remember, for example in **C:\Program Files (x86)\Microsoft\EdgeWebView2**.
 1. Right-click the key in the Registry Editor and select ***Delete***.
-1. Install the latest bootstrapper version. Consult [Download Microsoft Edge Chromium](/kb/remote-desktop-manager/knowledge-base/download-microsoft-edge-chromium/) to make sure you are downloading the version compatible with {{ en.RDM }}.
+1. Install the latest bootstrapper version. Consult [Download Microsoft Edge Chromium](/rdm/kb/rdm-windows/knowledge-base/download-microsoft-edge-chromium/) to make sure you are downloading the version compatible with {{ en.RDM }}.
 1. Once downloaded and installed, restart {{ en.RDM }} for the installation to take effect.
 
 {% snippet, "badgeHelp" %}

@@ -12,7 +12,7 @@ Some organizations use X.509 certificates as as alternative to authenticating wi
 ![Add a x.509 Certificate entry](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2362.png)  
 1. Click ***OK***.
 1. Choose the ***Name*** and ***Folder***.
-1. Under ***General***, select [***Stored in database***](https://docs.devolutions.net/kb/remote-desktop-manager/knowledge-base/configure-x509-certificate-credential-entry-type/#stored-in-database) or [***Link to certificate store***](https://docs.devolutions.net/kb/remote-desktop-manager/knowledge-base/configure-x509-certificate-credential-entry-type/#link-to-certificate-store) in the ***Certificate data mode*** drop-down menu.
+1. Under ***General***, select [***Stored in database***](/rdm/kb/rdm-windows/knowledge-base/configure-x509-certificate-credential-entry-type/#stored-in-database) or [***Link to certificate store***](/rdm/kb/rdm-windows/knowledge-base/configure-x509-certificate-credential-entry-type/#link-to-certificate-store) in the ***Certificate data mode*** drop-down menu.
 ![Stored in database and Link to certificate store](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2344.png)  
 
 ## Stored in database

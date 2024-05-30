@@ -31,7 +31,7 @@ The configuration contains two steps: the first one is the general configuration
 2. From there, go to ***VPN/SSH/Gateway*** for the ***Secure Gateway Configuration***.
     1. Select ***Open*** and ***Close*** options, based on the company requirement.
 {type="a"}
-    1. ***VPN Group*** can be configured as explained in [Configure VPN for multiple sessions](/kb/remote-desktop-manager/how-to-articles/configure-vpn-multiple-sessions/). We Strongly recommend configuring VPN Group if many RDP/Web Browser session uses the same Secure Gateway.
+    1. ***VPN Group*** can be configured as explained in [Configure VPN for multiple sessions](/rdm/mac/kb/rdm-windows/how-to-articles/configure-vpn-multiple-sessions/). We Strongly recommend configuring VPN Group if many RDP/Web Browser session uses the same Secure Gateway.
     1. For ***Type*** select ***Existing – SSH***.
 ![!!KB4225](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4225.png)
 1. Under the ***Settings*** tab, select the SSH Secure Gateway entry and check ***Use over secure gateway***.

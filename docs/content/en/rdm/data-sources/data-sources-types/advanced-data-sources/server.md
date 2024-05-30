@@ -37,7 +37,7 @@ Export the data source, then import the file in client workstations as described
 |------------------------------|-------------|
 | Name                         | Enter a name for the data source. |
 | Host                         | Enter the URL of the {{ en.DVLS }} instance. <br> Example: http://<hostname or IP address>/<instance name> |
-| Use domain single sign-on (SSO) | Use domain single sign-on (SSO) [if previously configured](https://docs.devolutions.net/kb/devolutions-server/how-to-articles/configure-windows-authentication/) in the {{ en.DVLS }} instance. |
+| Use domain single sign-on (SSO) | Use domain single sign-on (SSO) [if previously configured](/server/kb/how-to-articles/configure-windows-authentication/) in the {{ en.DVLS }} instance. |
 | Username                     | Enter the username to connect to the data source. |
 | Always ask username          | Always ask for the username when connecting to the data source. |
 | Test Connection              | Test the connection with {{ en.DVLS }} to validate the credentials. |

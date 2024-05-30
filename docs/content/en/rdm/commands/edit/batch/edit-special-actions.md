@@ -27,7 +27,7 @@ Available special actions depend on the type of entry selected.
 | | |
 |----------|------------|
 | Assign Favicon | Assigns the relevant favicon(s) to the selected website entries. |
-| [Convert Website (legacy) to Website](/kb/remote-desktop-manager/how-to-articles/convert-website-legacy-to-website/) | Converts a deprecated website (legacy) entry into a Website entry. |
+| [Convert Website (legacy) to Website](/rdm/kb/rdm-windows/how-to-articles/convert-website-legacy-to-website/) | Converts a deprecated website (legacy) entry into a Website entry. |
 | Discover HTML Autofill | Attempts to fill the HTML login information fields of the selected entries. |
 | Set Default HTML Autofill | Fills in the Username ID and Password ID fields of the selected entries with their default values. |
 
@@ -56,5 +56,5 @@ Available special actions depend on the type of entry selected.
 | | | 
 |----------|--------------|
 | Change Type | Converts the selected entries types to a different one. | 
-| [Convert with Template](/kb/remote-desktop-manager/how-to-articles/convert-with-templates/) | Converts the selected entries according to a chosen template. Also gives to option to choose which of the entry's information to retain. |
+| [Convert with Template](/rdm/kb/rdm-windows/how-to-articles/convert-with-templates/) | Converts the selected entries according to a chosen template. Also gives to option to choose which of the entry's information to retain. |
 

@@ -36,7 +36,7 @@ The following guide explains how to move the {{ en.DVLS }} web application on th
 1. Start the Default Web Site and the {{ en.DVLS }} application pool.
 1. Browse to the web site and it should load the {{ en.DVLS }} login page like the following screen capture.  
 ![{{ en.DVLS }} login page](https://cdnweb.devolutions.net/docs/CLOUD6000_2024_1.png)  
-1. Update the [Access URI](https://docs.devolutions.net/kb/devolutions-server/knowledge-base/access-uri/) with the new {{ en.DVLS }} URL to reach its web page.
+1. Update the [Access URI](/server/kb/knowledge-base/access-uri/) with the new {{ en.DVLS }} URL to reach its web page.
 1. If required, update the URIs with the new {{ en.DVLS }} URL in the Azure App Registration for the Microsoft Authentication.
 1. Finally, install the ***Scheduler***.  
 ![Install the Scheduler](https://cdnweb.devolutions.net/docs/DVLSCONSOLE6001_2024_1.png)

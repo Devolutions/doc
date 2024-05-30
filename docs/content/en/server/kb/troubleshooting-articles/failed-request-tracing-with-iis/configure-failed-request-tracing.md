@@ -4,8 +4,8 @@ eleventyComputed:
   description: There are two methods for configuring the failed request tracing, using either the appcmd.exe command or the IISManager app.
 ---
 There are two methods for configuring the failed request tracing:
-* [Using the appcmd.exe command](/kb/devolutions-server/troubleshooting-articles/failed-request-tracing-with-iis/configure-failed-request-tracing/#using-the-appcmdexe-command)
-* [Via the IISManager app](/kb/devolutions-server/troubleshooting-articles/failed-request-tracing-with-iis/configure-failed-request-tracing/#via-the-iismanager-app)
+* [Using the appcmd.exe command](/server/kb/troubleshooting-articles/failed-request-tracing-with-iis/configure-failed-request-tracing/#using-the-appcmdexe-command)
+* [Via the IISManager app](/server/kb/troubleshooting-articles/failed-request-tracing-with-iis/configure-failed-request-tracing/#via-the-iismanager-app)
 
 ## Using the [appcmd.exe command](https://docs.microsoft.com/en-us/iis/get-started/getting-started-with-iis/getting-started-with-appcmdexe)
 | |

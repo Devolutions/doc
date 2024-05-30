@@ -5,7 +5,7 @@ eleventyComputed:
   order: 110
 ---
 {% snippet, "badgeInfo" %}
-These sections will be removed from {{ en.DPORTAL }}. You can still [access the URL](https://docs.devolutions.net/kb/general-knowledge-base/rdm-online-services-removed-devolutions-portal/) if needed
+These sections will be removed from {{ en.DPORTAL }}. You can still [access the URL](/rdm/kb/general-knowledge/rdm-online-services-removed-devolutions-portal/) if needed
 {% endsnippet %} 
 
 From {{ en.RDMOS }}, you can consult and manage your ***{{ en.DOD }}*** and your ***{{ en.OBACK }}*** files:

@@ -6,7 +6,7 @@ eleventyComputed:
 Here are all the possible errors in {{ en.DHUBB }} with the corresponding number.
 
 {% snippet, "badgeInfo" %}
-Access-denied-errors in {{ en.DHUBB }} are listed [here](/kb/hub-business/troubleshooting-articles/access-denied-errors/).
+Access-denied-errors in {{ en.DHUBB }} are listed [here](/hub/kb/hub-business/troubleshooting-articles/access-denied-errors/).
 {% endsnippet %}
 
 ## Forbidden - 403
@@ -17,7 +17,7 @@ Access-denied-errors in {{ en.DHUBB }} are listed [here](/kb/hub-business/troubl
 | 2    | TwoFactorRequired                           | Connection attempt to {{ en.DHUBB }} without 2FA.                                    |
 | 3    | SetupRequired                               | A new {{ en.DHUBB }} must be [created](/hub/getting-started/create-hub/hub-business/). This can only be done by the owner. A normal user will be blocked. |
 | 4    | SetupNotRequired                            | Trying to set up a {{ en.DHUBB }} when it is already set up.                         |
-| 5    | EmergencyResetDenied                        | Normal user is denied for [emergency reset](/kb/general-knowledge-base/emergency-kit/). The emergency reset of the {{ en.DHUB }} can only be performed by its owner. |
+| 5    | EmergencyResetDenied                        | Normal user is denied for [emergency reset](/hub/kb/general-knowledge/emergency-kit/). The emergency reset of the {{ en.DHUB }} can only be performed by its owner. |
 | 6    | HubDisabled                                 | {{ en.DHUBB }} is disabled.                                                          |
 | 7    | IPForbidden                                 | The host IP is forbidden/blocked by IP filtering, Tor traffic blocking, or application user restricted IP. Administrators can enable or disable Tor traffic by clicking on ***System Settings*** –  ***Block Tor traffic***. |
 | 8    | AccessDenied                                | Access denied. This is the most commonly used default reason for blocking or denying an action when no specific reason is given/requested. |

@@ -5,7 +5,7 @@ eleventyComputed:
 It is possible to export and import multiple {{ en.VLT }}s from one type of advanced data source to another.
 
 {% snippet, "badgeCaution" %}
-If you have ***Users*** and they are overriding entries properties with ***User Specific Settings***, they will be required to export and import their ***User Specific Settings List***. See [Export and import User Specific Settings](/kb/remote-desktop-manager/how-to-articles/export-import-user-specific-settings/).
+If you have ***Users*** and they are overriding entries properties with ***User Specific Settings***, they will be required to export and import their ***User Specific Settings List***. See [Export and import User Specific Settings](/rdm/mac/kb/rdm-windows/how-to-articles/export-import-user-specific-settings/).
 {% endsnippet %}
 
 {% snippet, "badgeCaution" %}

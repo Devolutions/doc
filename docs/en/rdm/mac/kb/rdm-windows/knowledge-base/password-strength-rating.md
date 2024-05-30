@@ -23,5 +23,5 @@ Consult the table below to identify the corresponding strength label for each nu
 | Perfect                      | Anything else (cannot be achieved) |
 
 {% snippet, "badgeHelp" %}
-Learn more about [Compromised (pwned) password check](/kb/remote-desktop-manager/how-to-articles/pwned-password-check/).
+Learn more about [Compromised (pwned) password check](/rdm/mac/kb/rdm-windows/how-to-articles/pwned-password-check/).
 {% endsnippet %}

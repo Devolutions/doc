@@ -28,6 +28,6 @@ By default, LDAP communications between client and server applications are not e
 
 Follow the instructions for your operating system to establish LDAPS. It will involve deploying certificates generated using your of Certification Authority (CA).
 
-LDAP by default uses port 389. Even when you enable LDAPS, it may use plain LDAP therefore it needs to be disabled, please consult [Enforcing usage of LDAPS](/kb/devolutions-server/how-to-articles/enforcing-usage-ldaps/).
+LDAP by default uses port 389. Even when you enable LDAPS, it may use plain LDAP therefore it needs to be disabled, please consult [Enforcing usage of LDAPS](/server/kb/how-to-articles/enforcing-usage-ldaps/).
 
 LDAPS by default uses port 636 for typical domains, but will use port 3269 when communicating with a Global Catalog Server (basically when you have a Forest). Your domain administrator should be able to provide you with details of your domain infrastructure, especially if custom ports were used. You can also use **ldp.exe** to perform connectivity tests.

@@ -6,7 +6,7 @@ eleventyComputed:
 Enable recordings of sessions performed by {{ en.RDM }} users for a wide range of session types. With [audit](/rdm/windows/concepts/advanced-concepts/logs-reports-audits/) reports, ensure that sessions are opened by only allowed users.
 
 ### Related topics
-* [Session recording](/kb/remote-desktop-manager/how-to-articles/session-recording/)
+* [Session recording](/rdm/kb/rdm-windows/how-to-articles/session-recording/)
 
 ### See also
 * [{{ en.DGW }} recording path](/dgw/kb/recording-path/)

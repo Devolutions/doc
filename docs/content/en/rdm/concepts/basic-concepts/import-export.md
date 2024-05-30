@@ -6,7 +6,7 @@ eleventyComputed:
 Importing/exporting entries (such as sessions, logins, contacts, and credentials) reduces the time needed to set up your [{{ en.VLT }}s](/rdm/windows/concepts/basic-concepts/vaults/), thus allowing you to move quickly from another solution to {{ en.RDM }}. To manage your [data source](/rdm/windows/concepts/basic-concepts/data-sources), you can also export an entire {{ en.VLT }} and its content, as well as a data source configuration, then re-import them in a new data source or {{ en.RDM }} instance.
 
 ### Related topics  
-* [Export and import entries](/kb/remote-desktop-manager/how-to-articles/export-import-entries/)  
+* [Export and import entries](/rdm/kb/rdm-windows/how-to-articles/export-import-entries/)  
 * [Export](/rdm/windows/commands/file/export/)  
 * [Import](/rdm/windows/commands/file/import/)  
 * [Import and export a data source](/rdm/windows/data-sources/import-export/)

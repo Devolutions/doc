@@ -23,7 +23,7 @@ Web-based reports from [{{ en.DVLS }}](/server/overview/what-is-server/) and [{{
 | Data Source Logs     | Opens the ***Data Source Logs***. |
 | Entry Security Analyzer | Opens the [***Entry Security Analyzer***](/rdm/windows/commands/reports/entry-security-analyzer/), which evaluates the strength of entries stored in the data source. |
 | Password Analyzer    | Opens the ***Password Analyzer***, evaluating the strength of passwords stored in the data source. |
-| Security Dashboard   | Opens the [***Security Dashboard***](/kb/remote-desktop-manager/knowledge-base/rdm-security-dashboard/), a tool to offer guidance on how to improve the security of the {{ en.RDM }} platform and also tips on reducing the workload for administrators. |
+| Security Dashboard   | Opens the [***Security Dashboard***](/rdm/kb/rdm-windows/knowledge-base/rdm-security-dashboard/), a tool to offer guidance on how to improve the security of the {{ en.RDM }} platform and also tips on reducing the workload for administrators. |
 | More Reports         | Opens the ***Reports*** window. |
 
 

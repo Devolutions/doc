@@ -20,7 +20,7 @@ For more information, please refer to [User Groups Based Access Control](/rdm/wi
 1. Click on the ***Security Groups (Legacy)*** button in the ***Management*** section.
 1. Delete every security group by selecting each one and clicking on ***Delete Security Group***.  
 {% snippet, "badgeCaution" %}
-To manage your user's permissions, we recommend you switch from ***Security Groups*** (deprecated) to [***Permissions***](/rdm/windows/user-groups-based-access-control/permissions/). Once the migration is done, [disable legacy security](/kb/remote-desktop-manager/how-to-articles/migrate-legacy-security-permissions/).
+To manage your user's permissions, we recommend you switch from ***Security Groups*** (deprecated) to [***Permissions***](/rdm/windows/user-groups-based-access-control/permissions/). Once the migration is done, [disable legacy security](/rdm/mac/kb/rdm-windows/how-to-articles/migrate-legacy-security-permissions/).
 {% endsnippet %}  
 
 We also have two scenarios to get you started with this type of security:  

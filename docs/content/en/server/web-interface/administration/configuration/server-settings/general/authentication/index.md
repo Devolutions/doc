@@ -22,7 +22,7 @@ The machine hosting {{ en.DVLS }} must be joined to the configured domain for Wi
 | Authenticate with PingOne user       | PingOne is used to authenticate the user.    |
 | Authenticate with {{ en.DVLS }} user | The {{ en.DVLS }} is used to authenticate the user. You must create the initial user through the {{ en.DVLSCONSOLE }}. |
 | Primary authentication method        | By selecting a primary authentication method, users who do not already have a personalized choice of authentication type for the login page will be automatically directed to the chosen method. |
-| Domain single sign-on (SSO)       | [Domain single sign-on (SSO)](/kb/devolutions-server/how-to-articles/configure-windows-authentication/) requires further configuration on your IIS server. |
+| Domain single sign-on (SSO)       | [Domain single sign-on (SSO)](/server/kb/how-to-articles/configure-windows-authentication/) requires further configuration on your IIS server. |
 | Enable Emergency Code authentication | The application will send an email that contains an emergency code to authenticate if any of the above authentication methods are not working. The [Email](/server/web-interface/administration/configuration/server-settings/general/email/) setting is required for this option to work. |
 
 ### Configuration

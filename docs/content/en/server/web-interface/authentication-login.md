@@ -16,7 +16,7 @@ If the instance has been created with the default URL, it would be available at 
 
 2. Choose your authentication method between Microsoft, Domain, Okta or {{ en.DVLS }} user.
 {% snippet, "badgeHelp" %}
-The [Emergency Login](/kb/devolutions-server/how-to-articles/enable-emergency-login-code-authentication/) is a feature that needs to be enabled to allow an emergency access login for administrators even if providers are down (Azure or AD).
+The [Emergency Login](/server/kb/how-to-articles/enable-emergency-login-code-authentication/) is a feature that needs to be enabled to allow an emergency access login for administrators even if providers are down (Azure or AD).
 {% endsnippet %}
 
 ![!!ServerOp4088](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp4088.png)

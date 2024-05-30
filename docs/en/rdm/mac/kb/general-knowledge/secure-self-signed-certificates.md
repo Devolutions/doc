@@ -28,7 +28,7 @@ On Windows, it is recommended to use Chocolatey to install OpenSSL and its depen
    Common Name (e.g. server FQDN or your name) []:acme.com
    Email Address []:security@acme.com
    ```
-1. [Install the certificate](/kb/general-knowledge-base/install-root-certificates/).
+1. [Install the certificate](/rdm/kb/general-knowledge/install-root-certificates/).
 {% snippet, "badgeInfo" %}
 Note that the certificate must be installed on the server and on all of the clients to validate the legitimacy of issued certificates. Some browsers also have particularities which are described in the topic.
 {% endsnippet %}

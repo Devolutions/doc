@@ -14,7 +14,7 @@ Please contact us at [service@devolutions.net](mailto:service@devolutions.net) t
 1. IIS Manager already installed on the server where {{ en.DVLS }} will be hosted. For supported IIS Manager versions, please see [System Requirements](/server/overview/system-requirements/).
 1. {{ en.DVLSCONSOLE }} that can be downloaded [via our website](https://server.devolutions.net/home/download).
 1. [{{ en.DVLS }} Prerequisites](/server/getting-started/installation/installing-web-server-prerequisites/) already installed.
-1. Devolutions could be using several accounts to connect to the database for the different components.These accounts can be Domain service accounts (Integrated Security) or SQL Accounts, read more about accounts in this article about [Pre-Deployment Account Survey](/kb/devolutions-server/knowledge-base/pre-deployment-account-survey/).
+1. Devolutions could be using several accounts to connect to the database for the different components.These accounts can be Domain service accounts (Integrated Security) or SQL Accounts, read more about accounts in this article about [Pre-Deployment Account Survey](/server/kb/knowledge-base/pre-deployment-account-survey/).
 1. Follow the steps in [Create {{ en.DVLS }} Instance](/server/getting-started/installation/create-server-instance/).
 
 {% snippet, "shieldInfo" %}

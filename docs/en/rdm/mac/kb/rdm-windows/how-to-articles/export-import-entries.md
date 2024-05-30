@@ -8,7 +8,7 @@ eleventyComputed:
 It is possible to export and import entries from one type of data source to another. There are many ways of exporting entries with {{ en.RDM }}.
 
 {% snippet, "badgeCaution" %}
-If you have users who override entry properties with ***User Specific Settings***, they will be required to export and import their ***User Specific Settings List***. See [Export and Import User Specific Settings](/kb/remote-desktop-manager/how-to-articles/export-import-user-specific-settings/).
+If you have users who override entry properties with ***User Specific Settings***, they will be required to export and import their ***User Specific Settings List***. See [Export and Import User Specific Settings](/rdm/mac/kb/rdm-windows/how-to-articles/export-import-user-specific-settings/).
 {% endsnippet %}
 
 The first method is done directly in [{{ en.RDM }}](#exportimport-through-remote-desktop-manager), while the second one uses a [PowerShell script](#exportimport-using-powershell).

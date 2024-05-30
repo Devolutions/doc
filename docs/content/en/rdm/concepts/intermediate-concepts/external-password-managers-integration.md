@@ -9,6 +9,6 @@ This is especially valuable when dealing with large numbers of credentials in a 
 
 ### Related topics  
 
-* [1Password](/kb/remote-desktop-manager/how-to-articles/configure-1password-integrated-mode/)
-* [KeePass](/kb/remote-desktop-manager/how-to-articles/configure-keepass-rdm/)  
-* [Keeper](/kb/remote-desktop-manager/how-to-articles/keeper-credential-entry-settings/)  
+* [1Password](/rdm/kb/rdm-windows/how-to-articles/configure-1password-integrated-mode/)
+* [KeePass](/rdm/kb/rdm-windows/how-to-articles/configure-keepass-rdm/)  
+* [Keeper](/rdm/kb/rdm-windows/how-to-articles/keeper-credential-entry-settings/)  

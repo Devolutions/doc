@@ -5,7 +5,7 @@ eleventyComputed:
   - Roles
 ---
 {% snippet, "badgeInfo" %}
-Microsoft Azure Active Directory subscription is required to configure Office365 authentication in {{ en.DVLS }}. One new app registration is required in Microsoft Azure Active Directory before completing the authentication settings. For more information about the app registrations, see [Azure portal configuration guide for Microsoft Authentication](/kb/devolutions-server/how-to-articles/azure-portal-configuration-guide-microsoft-authentication/).
+Microsoft Azure Active Directory subscription is required to configure Office365 authentication in {{ en.DVLS }}. One new app registration is required in Microsoft Azure Active Directory before completing the authentication settings. For more information about the app registrations, see [Azure portal configuration guide for Microsoft Authentication](/server/kb/how-to-articles/azure-portal-configuration-guide-microsoft-authentication/).
 {% endsnippet %}
 
 The ***Microsoft Authentication*** tab allows {{ en.DVLS }} to authenticate users using Office365 authentication. The ***Display name***, ***Tenant ID***, ***Client ID*** and ***Secret value*** fields are mandatory.

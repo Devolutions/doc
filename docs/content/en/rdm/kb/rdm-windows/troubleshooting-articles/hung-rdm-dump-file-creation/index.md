@@ -6,7 +6,7 @@ eleventyComputed:
 {% snippet, "shieldWarning" %}
 When sending a dump file, it is crucial that you exercise caution and ensure that the steps are followed correctly. Deviating from these instructions and sending a full dump file without the guidance of a Devolutions support specialist may result in unintended outcomes, including exposure of all the sensitive and personal data it contains.
 
-Please read and understand our [Security disclaimer for sending a dump file](/kb/remote-desktop-manager/troubleshooting-articles/hung-rdm-dump-file-creation/security-disclaimer-sending-dump-file/) before proceeding.
+Please read and understand our [Security disclaimer for sending a dump file](/rdm/kb/rdm-windows/troubleshooting-articles/hung-rdm-dump-file-creation/security-disclaimer-sending-dump-file/) before proceeding.
 {% endsnippet %}
 
 {% snippet, "badgeInfo" %}

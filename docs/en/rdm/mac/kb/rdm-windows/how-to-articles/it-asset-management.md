@@ -3,7 +3,7 @@ eleventyComputed:
   title: Use BlueTally in {{ en.RDM }}
   description: How to use BlueTally in {{ en.RDM }}.
 ---
-The IT Asset Management feature can be used to link an asset manager (e.g., BlueTally, [Lansweeper](/kb/remote-desktop-manager/how-to-articles/lansweeper/)) through an entry's properties.
+The IT Asset Management feature can be used to link an asset manager (e.g., BlueTally, [Lansweeper](/rdm/mac/kb/rdm-windows/how-to-articles/lansweeper/)) through an entry's properties.
 {% snippet, "badgeInfo" %}
 Only the ***Session***, ***Remote Management***, ***Miscellaneous***, ***VPN***, ***Synchronizer*** and ***Template*** entry types support this feature for now. The ***IT Asset Management*** entries work differently from the feature.
 {% endsnippet %}

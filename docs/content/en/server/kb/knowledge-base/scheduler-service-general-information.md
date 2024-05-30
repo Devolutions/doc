@@ -37,7 +37,7 @@ The ***Scheduler*** is a Windows Service. It is installed from the {{ en.DVLSCON
 This service requires access to the {{ en.DVLS }} database and to specific locations on the file system. Depending on whether {{ en.DVLS }} is configured to use Integrated Security or SQL accounts, different settings must be applied.
 
 {% snippet, "badgeHelp" %}
-Refer to the ***VaultDBSchedulerService*** account in [Pre-Deployment Account Survey](/kb/devolutions-server/knowledge-base/pre-deployment-account-survey/).
+Refer to the ***VaultDBSchedulerService*** account in [Pre-Deployment Account Survey](/server/kb/knowledge-base/pre-deployment-account-survey/).
 {% endsnippet %}
 
 ### When using Integrated Security
@@ -46,7 +46,7 @@ Refer to the ***VaultDBSchedulerService*** account in [Pre-Deployment Account Su
 * The AD service account also requires a ***Read*** permission for the ***NetFrameworkConfigurationKey*** container from theNET’s RsaProtectedConfigurationProvider.
 
 {% snippet, "badgeHelp" %}
-Refer to [Encrypting the web.config File](/kb/devolutions-server/how-to-articles/encrypting-web-config-file/).
+Refer to [Encrypting the web.config File](/server/kb/how-to-articles/encrypting-web-config-file/).
 {% endsnippet %}
 
 ### When using SQL Accounts
@@ -54,7 +54,7 @@ Refer to [Encrypting the web.config File](/kb/devolutions-server/how-to-articles
 * The service runs by default with Network Service. This account cannot decrypt a **web.config** file by default, and it is not recommended to do so without proper knowledge.
 
 {% snippet, "badgeHelp" %}
-Refer to [Encrypting the web.config File](/kb/devolutions-server/how-to-articles/encrypting-web-config-file/).
+Refer to [Encrypting the web.config File](/server/kb/how-to-articles/encrypting-web-config-file/).
 {% endsnippet %}
 
 ## Enable Scheduler Logging
