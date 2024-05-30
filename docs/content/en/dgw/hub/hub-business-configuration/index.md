@@ -48,7 +48,7 @@ As the installer is an MSI file, this method only works on Windows.
 1. Change the ***Ports*** to the desired value and click ***Next***.
 ![Listeners](https://cdnweb.devolutions.net/docs/HUBB0013_2024_1.png)
    {% snippet, "badgeInfo" %}
-   HTTP(S) and TCP default ports are 7171 and 8181, respectively, but can be changed. Additionally, if a reverse proxy is not used, the ***HTTP Listener*** should have the same port as the ***Access URI***.
+   HTTP(S) and TCP default ports are 7171 and 8181, respectively, but can be changed.
    {% endsnippet %}
 1. Input the {{ en.DHUBB }} access URI and click ***Next***.
 ![Access URI](https://cdnweb.devolutions.net/docs/HUBB0014_2024_1.png)
