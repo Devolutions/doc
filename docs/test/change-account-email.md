@@ -1,7 +1,6 @@
 ---
 layout: layouts/test.liquid
-eleventyComputed:
-  title: Change an account email
+title: Change an account email
 ---
 ## 1. Lorem Ipsum
 

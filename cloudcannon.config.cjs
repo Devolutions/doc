@@ -17,7 +17,7 @@ module.exports = {
       path: "docs/test",
       schemas: {
         default: {
-          path: ".cloudcannon/schemas/topic.md"
+          path: ".cloudcannon/schemas/test.md"
         }
       },
       _enabled_editors: [
