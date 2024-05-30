@@ -44,7 +44,7 @@ module.exports = function (config) {
     }
   });
 
-  config.amendLibrary('md', markdown);
+  // config.amendLibrary('md', markdown);
 
   config.addJavaScriptFunction('algoliaInitIndex', async function (name, data, settings) {
     if (process.env.ALGOLIA_ADMIN_KEY && process.env.ALGOLIA_APP_ID) {
