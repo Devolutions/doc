@@ -16,10 +16,12 @@ module.exports = {
       ],
       icon: [
         { template: `{"error"|if=snippet_type==badgeCaution}` },
+        { template: `{"help"|if=snippet_type==badgeHelp}` },
         "text_snippet"
       ],
       icon_color: [
         { template: `{"#f5af23"|if=snippet_type==badgeCaution}` },
+        { template: `{"#0068c3"|if=snippet_type==badgeHelp}` },
       ],
       image: [
         {
