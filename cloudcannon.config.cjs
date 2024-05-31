@@ -1,5 +1,4 @@
 module.exports = {
-  // source: ".",
   _snippets_imports: {
     eleventy_liquid: {
       exclude: [
@@ -17,7 +16,7 @@ module.exports = {
       path: "test",
       schemas: {
         default: {
-          path: ".cloudcannon/schemas/test.md"
+          path: ".cloudcannon/schemas/topic.md"
         }
       },
       _enabled_editors: [
@@ -127,7 +126,7 @@ module.exports = {
       type: "image",
       options: {
         paths: {
-          uploads: ".cloudcannon/previews"
+          uploads: "../.cloudcannon/previews"
         },
         accepts_mime_types: [
           "image/svg+xml"

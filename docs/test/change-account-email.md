@@ -1,5 +1,5 @@
 ---
-layout: layouts/test.liquid
+layout: layouts/markdown.liquid
 title: Change an account email
 ---
 ## 1. Lorem Ipsum
