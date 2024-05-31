@@ -20,11 +20,16 @@ eleventyComputed:
 1. Change the ***Ports*** to the desired value and click ***Next***.  
 ![Listeners](https://cdnweb.devolutions.net/docs/HUBB0013_2024_1.png)
    {% snippet icon.badgeInfo %}
-   HTTP(S) and TCP default ports are 7171 and 8181, respectively, but can be changed. Additionally, if a reverse proxy is not used, the ***HTTP Listener*** should have the same port as the ***Access URI***.
+   HTTP(S) and TCP default ports are 7171 and 8181, respectively, but can be changed.
    {% endsnippet %}
 1. Input the ***External URL*** and click ***Next***.  
 ![Access URI](https://cdnweb.devolutions.net/docs/HUBB0014_2024_1.png)
-1. Change the ***Authentication*** from ***None*** to ***Custom***.
+* If a self-signed certificate or the ngrok option were **not** chosen, you will be presented with the screen to import the SSL certificate. The ***Certificate Source*** can be ***External*** (two files) or ***System*** (the [Windows certificate store](/dgw/kb/use-windows-certificate-store/)).
+    * ***External***: The required formats are shown in the dialog window.
+    * ***System***: The location and method (i.e. ***Search By Thumbprint***) must be chosen.
+![External Certificate](https://cdnweb.devolutions.net/docs/HUBB0015_2024_1.png)
+![System Certificate](https://cdnweb.devolutions.net/docs/DGW0010_2024_1.png)
+8. Change the ***Authentication*** from ***None*** to ***Custom***.
    {% snippet icon.shieldCaution %}
    If a ***Default User*** is not created, the {{ en.DGW_STANDALONE }} web page will be accessible anonymously.
    {% endsnippet %}
