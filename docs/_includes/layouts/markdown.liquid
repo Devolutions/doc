@@ -56,7 +56,11 @@ layout: 'layouts/base.liquid'
     </div>
 
     <main class="[grid-area:md] max-w-[1076px] mx-auto w-full">
-      {{- content | gTab -}}
+      {% comment %}{{- content | gTab -}}{% endcomment %}
+
+      <div class="prose markdown">
+        {{ content }}
+      </div>
 
       <a class="flex items-center mt-4 p-1.5 w-fit border border-black font-semibold hover:bg-neutral-200" aria-label="Send feedback about this page" data-bi-name="create-issue-on-github" href="https://github.com/Devolutions/doc/issues/new?template=feedback.yml&title={{- '[Feedback]: ' | encodeURIComponent -}}&feedback={{- feedbackBody | encodeURIComponent -}}" target="_blank">
         {{- icons.github -}}
