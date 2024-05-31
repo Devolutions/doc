@@ -3,7 +3,6 @@ eleventyComputed:
   title: Créer une sauvegarde d'entrée Authentificateur avec {{ fr.DHUBP }}
   description: Pour activer la sauvegarde Cloud, sélectionner Authentificateur sous Espaces Actifs.
 ---
-
 Les paramètres de sauvegarde Cloud sont disponibles pour sauvegarder toutes les entrées en utilisant une ***sauvegarde d'entrée Authentificateur*** avec {{ fr.DHUBP }}.
 1. Ouvrir {{ fr.WMAPP }}.
 1. Pour activer ***la sauvegarde Cloud***, sélectionner ***Authentificateur*** sous ***Espaces Actifs***.

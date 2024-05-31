@@ -1,7 +1,7 @@
-```yaml
+---
 eleventyComputed:
   title: Raccourcis clavier
-```
+---
 Voici la liste des raccourcis clavier disponibles pour le {{ fr.WBEX }} :
 
 ### Ctrl+Shift+Z

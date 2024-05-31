@@ -25,5 +25,3 @@ Le rapport ***Permission***
 Le rapport ***Accès Utilisateur***
 
 ![!!ServerOp4091](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp4091.png)
-
-

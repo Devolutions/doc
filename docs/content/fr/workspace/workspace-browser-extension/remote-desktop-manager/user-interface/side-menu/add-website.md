@@ -1,4 +1,3 @@
-```yaml
 ---
 eleventyComputed:
   title: Ajouter un site Web
@@ -26,4 +25,3 @@ Consultez le tableau ci-dessous pour en savoir plus sur chaque champ/paramètre 
 {% snippet, "badgeInfo" %}
 Suivez notre guide étape par étape sur comment [ajouter une entrée de site Web avec le {{ fr.WBEX }}](/workspace/workspace-browser-extension/remote-desktop-manager/using-workspace-browser-extension/add-website-entry-workspace-browser-extension/).
 {% endsnippet %}
-```

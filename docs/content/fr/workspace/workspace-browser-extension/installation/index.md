@@ -1,4 +1,3 @@
-```
 ---
 eleventyComputed:
   title: Installation
@@ -12,4 +11,3 @@ Cliquer sur l'un des liens de navigateur ci-dessous pour commencer l'installatio
 * [Firefox](firefox/)
 * [Edge](edge/)
 * [Opera](opera/)
-```

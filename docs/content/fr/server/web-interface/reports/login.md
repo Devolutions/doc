@@ -22,5 +22,3 @@ L'***Historique des connexions*** affiche les informations de chaque utilisateur
 Ce rapport affiche les informations de la dernière connexion à la {{ fr.DVLS }} pour chaque utilisateur.
 
 ![!!ServerOp4059](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp4059.png)
-
-

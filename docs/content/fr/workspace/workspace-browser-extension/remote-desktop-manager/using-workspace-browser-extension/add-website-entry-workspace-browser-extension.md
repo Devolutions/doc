@@ -1,7 +1,7 @@
-```yaml
+---
 eleventyComputed:
   title: Ajouter une entrée de site Web avec le {{ fr.WBEX }}
-```
+---
 {% snippet, "badgeInfo" %}
 Ce sujet explique comment créer une entrée avec vos identifiants de site Web existants. Si vous n'avez pas encore créé de compte pour le site Web, voir [Créer un compte pour un site Web avec le {{ fr.WBEX }}](/workspace/workspace-browser-extension/remote-desktop-manager/using-workspace-browser-extension/create-account-website/) à la place.
 {% endsnippet %}

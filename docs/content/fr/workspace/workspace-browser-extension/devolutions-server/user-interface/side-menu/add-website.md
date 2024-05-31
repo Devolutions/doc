@@ -1,7 +1,7 @@
-```yaml
+---
 eleventyComputed:
   title: Ajouter un site Web
-```
+---
 Le bouton ***Ajouter un site Web*** est uniquement disponible lorsqu'on se trouve dans l'onglet [Correspondance](/workspace/workspace-browser-extension/devolutions-server/user-interface/side-menu/#matching-tab), qui est l'onglet sélectionné lors de l'ouverture de l'extension, ou lors de la navigation à travers les {{ fr.VLTS }} de l'onglet [Toutes les entrées](/workspace/workspace-browser-extension/devolutions-server/user-interface/side-menu/#all-entries-tab). Il ouvre un nouvel onglet dans votre navigateur qui vous permet d'ajouter une entrée de site Web dans {{ fr.DVLS }} via le {{ fr.WBEX }}.
 
 Lorsque {{ fr.DVLS }} est utilisé comme source de données, la configuration de l'entrée se fait dans l'onglet Général.

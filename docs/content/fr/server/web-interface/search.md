@@ -1,4 +1,3 @@
-```yaml
 ---
 eleventyComputed:
   title: Recherche
@@ -38,4 +37,3 @@ Le champ à côté vous permet de choisir parmi : ***Contient***, ***Commence pa
 
 Cliquer sur une entrée puis sur le bouton ***Sélectionner*** vous amènera à ce {{ fr.VLT }} et affichera l'entrée spécifique.
 ![Bouton Sélectionner](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp0059.png)
-```

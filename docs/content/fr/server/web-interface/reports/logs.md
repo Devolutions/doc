@@ -1,4 +1,3 @@
-```
 ---
 eleventyComputed:
   title: Journaux
@@ -43,5 +42,3 @@ Depuis la liste, vous pouvez également déplacer les entrées affichées vers u
 L'***Analytique du Comportement Utilisateur*** vous permet de suivre le comportement des utilisateurs. Détecter plusieurs tentatives de connexion échouées et des connexions depuis un pays ou un lieu qui s'écarte des modèles établis. Voir quand l'accès d'urgence est utilisé et quand les demandes de connexion sont faites via le navigateur Tor.
 
 ![Analytique du Comportement Utilisateur](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp6085.png)
-
-```

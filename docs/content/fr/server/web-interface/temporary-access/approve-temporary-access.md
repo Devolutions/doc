@@ -1,12 +1,9 @@
-```yaml
 ---
 eleventyComputed:
   title: Approuver un accès temporaire à une entrée dans {{ fr.DVLS }}
   order: 20
   description: La fonctionnalité d'accès temporaire permet aux utilisateurs de demander une élévation temporaire de leurs permissions pour une entrée spécifique. L'approbateur doit ensuite approuver ou refuser la demande.
 ---
-```
-
 ![Allowed temporay access](https://cdnweb.devolutions.net/docs/RDMW6020_2024_1.png)
 
 La fonctionnalité ***Accès Temporaire*** permet aux utilisateurs de demander une élévation temporaire de leurs permissions pour une entrée spécifique. L'approbateur doit ensuite approuver ou refuser la demande.

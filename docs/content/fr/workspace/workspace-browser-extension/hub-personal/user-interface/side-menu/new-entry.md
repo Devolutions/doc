@@ -1,7 +1,7 @@
-```yaml
+---
 eleventyComputed:
   title: Nouvelle entrée
-```
+---
 Le bouton ***Nouvelle Entrée*** n'est disponible que lorsque vous êtes dans l'onglet [***Correspondance***](/workspace/workspace-browser-extension/hub-personal/user-interface/side-menu/#matching-tab), qui est l'onglet sélectionné lors de l'ouverture de l'extension, ou lorsque vous parcourez les entrées de l'onglet [***Toutes les Entrées***](/workspace/workspace-browser-extension/hub-personal/user-interface/side-menu/#all-entries-tab). Vous pouvez choisir de créer une nouvelle entrée de type ***Site Web***, ***Carte de Crédit***, ***Contact***, ou ***Note Sécurisée***.
 ![Sélection du Type de Nouvelle Entrée](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub2134.png)
 

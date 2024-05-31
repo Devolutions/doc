@@ -1,4 +1,3 @@
-```yaml
 ---
 eleventyComputed:
   title: Opera
@@ -16,4 +15,3 @@ Suivre les étapes ci-dessous pour compléter l'installation du {{ fr.WBEX }} da
 ![Épingler le {{ fr.WBEX }}](https://cdnweb.devolutions.net/docs/INTERFACE2024.png)
 
 Il est maintenant possible d'accéder à l'extension en cliquant sur le bouton {{ fr.WBEX }} dans le coin supérieur droit de votre navigateur web Opera.
-```

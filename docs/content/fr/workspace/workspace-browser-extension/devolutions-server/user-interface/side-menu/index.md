@@ -1,7 +1,7 @@
-```yaml
+---
 eleventyComputed:
   title: Menu latéral
-```
+---
 En utilisant les onglets du ***Menu latéral***, vous pouvez accéder à diverses fonctionnalités de {{ fr.WBEX }}. Chaque onglet affichera une vue différente dans la ***Zone de contenu***.
 
 Lors de l'utilisation de {{ fr.WBEX }} avec {{ fr.DVLS }}, les onglets disponibles sont l'onglet ***Correspondant***, l'onglet ***Toutes les entrées***, l'onglet ***Favoris***, l'onglet ***Récent*** et l'onglet ***Générateur de mot de passe***.

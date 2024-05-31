@@ -1,9 +1,9 @@
-```yaml
+---
 eleventyComputed:
   title: Octroyer un accès temporaire à une entrée dans {{ fr.DVLS }}
   order: 30
   description: Les approbateurs peuvent octroyer un accès temporaire sans demande à un utilisateur, même si celui-ci a déjà accès.
-```
+---
 {% snippet, "badgeNotice" %}
 Pour apprendre à approuver ou refuser une demande, visiter [Approuver un accès temporaire à une entrée dans {{ fr.DVLS }}](/server/web-interface/temporary-access/approve-temporary-access/).
 {% endsnippet %}

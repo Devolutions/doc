@@ -1,4 +1,3 @@
-```yaml
 ---
 eleventyComputed:
   title: Créer des entrées manuellement
@@ -22,4 +21,3 @@ Créer des entrées manuellement et sauvegarder vos données dans {{ fr.DVLS }}.
 Les sous-entrées sont des entrées à part entière, indépendantes, situées sous une entrée "parent" dans l'arborescence. Elles se réfèrent à leur parent avec un ID. Elles sont compatibles avec les pièces jointes, la documentation, l'historique complet, etc.
 
 Il n'est pas possible de créer des sous-entrées via l'interface web de {{ fr.DVLS }}. Vous devez utiliser {{ fr.RDM }} avec une source de données {{ fr.DVLS }}. Voir [Créer une entrée (Windows)](/rdm/windows/commands/edit/entries/creating-new-entry/) ou [Créer une entrée (macOS)](/rdm/mac/commands/edit/entries/creating-new-entry/).
-```

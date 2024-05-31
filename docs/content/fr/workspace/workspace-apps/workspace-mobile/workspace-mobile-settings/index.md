@@ -1,11 +1,9 @@
-```
 ---
 eleventyComputed:
   title: "{{ fr.WMAPP }} paramètres"
   description: "{{ fr.WMAPP }} paramètres"
   order: 20
 ---
-
 ![Paramètres de l'espace de travail](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp6103.png)
 
 ## Paramètres Généraux
@@ -62,4 +60,3 @@ eleventyComputed:
 | OPTION                                             | DESCRIPTION |
 |----------------------------------------------------|-------------|
 | Version de l'application                           | Sélectionner pour voir la **Version de l'application**. |
-```

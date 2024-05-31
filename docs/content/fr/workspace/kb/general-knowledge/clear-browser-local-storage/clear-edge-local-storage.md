@@ -1,4 +1,4 @@
-```yaml
+---
 eleventyComputed:
   title: Effacer le stockage local de Microsoft Edge
   description: Suivre les étapes pour effacer votre stockage local dans le navigateur Microsoft Edge.
@@ -6,7 +6,7 @@ eleventyComputed:
   - Stockage local
   - Navigateur
   - Microsoft Edge
-```
+---
 Voici les étapes pour effacer votre stockage local dans le navigateur Microsoft Edge :
 
 1. Ouvrir une page du navigateur Microsoft Edge.

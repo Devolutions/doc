@@ -1,7 +1,7 @@
-```yaml
+---
 eleventyComputed:
   title: Dissocier une extension de navigateur (macOS)
-```
+---
 Dans l'éventualité où vous souhaitez refuser l'accès à {{ fr.RDMMAC }} depuis une extension de navigateur précédemment associée, vous devez la supprimer de {{ fr.RDM }}.
 
 1. Dans {{ fr.RDM }}, aller à ***Fichier – Préférences – Extensions de navigateur***.

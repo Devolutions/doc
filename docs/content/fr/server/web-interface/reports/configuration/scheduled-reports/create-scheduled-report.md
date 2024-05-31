@@ -1,4 +1,3 @@
-```
 ---
 eleventyComputed:
   title: Créer des rapports planifiés
@@ -52,4 +51,3 @@ Les options de filtre disponibles après la sélection du rapport varieront d'un
 | Fin                   | Définir quand le rapport planifié se terminera.<br><ul><li>Fin par : Définir cette option et la date pour arrêter le rapport à un moment spécifique.</li><li>Fin après : Définir cette option pour exécuter ce rapport un nombre spécifique de fois.</li><li>Pas de date de fin : Définir cette option pour exécuter le rapport indéfiniment.</li></ul> |
 
 5. Cliquer sur ***Enregistrer***.
-```

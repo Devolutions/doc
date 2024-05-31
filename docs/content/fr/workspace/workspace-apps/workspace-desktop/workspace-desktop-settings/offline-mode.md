@@ -1,8 +1,8 @@
-```yaml
+---
 eleventyComputed:
   title: Mode hors ligne
   description: Activer le mode hors ligne pour le {{ fr.WDAPP }} et le {{ fr.WMAPP }}.
-```
+---
 Les {{ fr.WAPPS }} (bureau et mobile) sont disponibles en mode hors ligne (lecture seule).
 
 {% snippet, "badgeInfo" %}

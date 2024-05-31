@@ -1,7 +1,7 @@
-```yaml
+---
 eleventyComputed:
   title: "{{ fr.NPANE }}"
-```
+---
 Le ***{{ fr.NPANE }}*** affiche les entrées disponibles pour l'utilisateur pour le {{ fr.VLT }} sélectionné.
 
 ![{{ fr.NPANE }}](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp8024.png)

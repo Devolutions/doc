@@ -1,8 +1,8 @@
-```yaml
+---
 eleventyComputed:
   title: Utiliser le {{ fr.WBEX }} avec {{ fr.DHUBB }}
   order: 30
-```
+---
 {% snippet icon.badgeNotice %} 
 Ce sujet suppose que vous avez précédemment [installé le {{ fr.WBEX }}](/workspace/workspace-browser-extension/installation/) dans votre navigateur et qu'il est connecté à [{{ fr.DHUBB }}](/workspace/workspace-browser-extension/hub-business/first-login/). 
 {% endsnippet %}

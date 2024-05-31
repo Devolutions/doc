@@ -1,4 +1,3 @@
-```
 ---
 eleventyComputed:
   title: "{{ fr.WDAPP }} installation avec {{ fr.DHUBP }}"
@@ -46,4 +45,3 @@ Suivre les étapes ci-dessous pour ajouter un {{ fr.DHUBP }} supplémentaire dan
 
 Votre compte {{ fr.DHUBP }} est maintenant disponible dans {{ fr.WDAPP }}.
 ![Votre compte {{ fr.DHUBP }} est maintenant connecté](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub6101.png)
-```

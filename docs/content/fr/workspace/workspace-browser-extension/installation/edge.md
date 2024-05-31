@@ -1,4 +1,3 @@
-```
 ---
 eleventyComputed:
   title: Edge
@@ -16,4 +15,3 @@ Suivre les étapes ci-dessous pour compléter l'installation de l'{{ fr.WBEX }} 
 ![Épingler l'{{ fr.WBEX }}](https://cdnweb.devolutions.net/docs/INTERFACE2020.png)
 
 Il est maintenant possible d'accéder à l'extension en cliquant sur le bouton {{ fr.WBEX }} dans le coin supérieur droit de votre navigateur web Microsoft Edge.
-```

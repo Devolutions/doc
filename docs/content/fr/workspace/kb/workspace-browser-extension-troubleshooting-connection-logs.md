@@ -1,4 +1,3 @@
-```
 ---
 eleventyComputed:
   title: "{{ fr.WBEX }} résolution des problèmes de journaux de connexion"
@@ -17,4 +16,3 @@ Lorsqu'un problème survient avec le {{ fr.WBEX }}, le personnel de support peut
 ![!!KB4789](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4789.png)
 1. Dans l'onglet ***Réseau***, l'un des éléments de la liste devrait être en rouge, c'est l'événement où {{ fr.RDM }} a échoué à récupérer les identifiants. Cliquer dessus.
 1. Prendre une capture d'écran du message complet affiché et l'envoyer à [service@devolutions.net](mailto:service@devolutions.net).
-```

@@ -3,7 +3,6 @@ eleventyComputed:
   title: Profils de l'interface utilisateur
   description: Les profils de l'interface utilisateur permettent aux utilisateurs d'avoir une expérience sur mesure dans {{ fr.DVLS }} et d'autres produits Devolutions en fonction de leurs tâches et rôles.
 ---
-
 ***Les profils de l'interface utilisateur*** permettent aux utilisateurs d'avoir une expérience sur mesure dans {{ fr.DVLS }} et d'autres produits Devolutions
 en fonction de leurs tâches et rôles. Il existe deux profils différents :
 

@@ -1,4 +1,3 @@
-```
 ---
 eleventyComputed:
   title: Base de connaissances
@@ -8,4 +7,3 @@ eleventyComputed:
 ![!!{{ fr.DKB }} Logo](https://cdnweb.devolutions.net/images/projects/knowledge-base/logos/knowledge-base-color-shadow.svg)
 
 Vous pouvez consulter divers sujets plus approfondis sur {{ fr.WBEX }} dans cette section.
-```

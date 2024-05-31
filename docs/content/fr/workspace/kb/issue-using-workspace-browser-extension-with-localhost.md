@@ -1,4 +1,3 @@
-```
 ---
 eleventyComputed:
   title: Problème d'utilisation du {{ fr.WBEX }} avec localhost avec HTTPS
@@ -10,4 +9,3 @@ Le {{ fr.WBEX }} ne fonctionnera probablement jamais avec HTTPS pour plusieurs r
 3. Vous devrez cocher le drapeau ***Autoriser les certificats invalides pour les ressources chargées depuis localhost*** dans Chrome, ce qui n'est pas recommandé à chrome://flags/#allow-insecure-localhost
 
 La seule solution de contournement est donc d'utiliser la messagerie native : [{{ fr.WBEX }} via Messagerie Native](/workspace/kb/workspace-browser-extension-via-native-messaging/)
-```

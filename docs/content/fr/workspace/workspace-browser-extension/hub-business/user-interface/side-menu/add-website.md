@@ -1,7 +1,7 @@
-```yaml
+---
 eleventyComputed:
   title: Ajouter un site Web
-```
+---
 Le bouton ***Ajouter un site Web*** est uniquement disponible lorsque vous êtes dans l'onglet [***Correspondance***](/workspace/workspace-browser-extension/hub-business/user-interface/side-menu/#matching-tab), qui est l'onglet sélectionné lors de l'ouverture de l'extension, ou lors de la navigation à travers les {{ fr.VLT }}s et les entrées des onglets [***{{ fr.VLT_MAJ }}s***](/workspace/workspace-browser-extension/hub-business/user-interface/side-menu/#vaults-tab) ou [***{{ fr.UVLT_MAJ }}***](/workspace/workspace-browser-extension/hub-business/user-interface/side-menu/#user-vault-tab). Il ouvre un nouvel onglet dans votre navigateur qui vous permet d'ajouter une entrée de site Web dans {{ fr.DHUBB }} via le {{ fr.WBEX }}.
 
 Lorsque {{ fr.DHUBB }} est utilisé comme source de données, la configuration de base de l'entrée se fait dans l'onglet ***Général***, mais d'autres paramètres sont également disponibles dans d'autres onglets. Ci-dessous un exemple des paramètres de l'onglet ***Général*** lors de la création d'une entrée de site Web.

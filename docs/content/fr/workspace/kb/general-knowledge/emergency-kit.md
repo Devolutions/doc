@@ -3,7 +3,6 @@ eleventyComputed:
   title: Utiliser le Kit d'Urgence
   description: Le Kit d'Urgence restaure le lien entre votre {{ fr.DA }} et votre {{ fr.DHUB }}.
 ---
-
 Le ***Kit d'Urgence*** contient une clé qui sera requise en cas de perte ou de réinitialisation de votre mot de passe Devolutions Account. Si vous oubliez votre mot de passe, la clé d'urgence est le seul moyen de récupérer l'accès. La clé restaure le lien entre votre {{ fr.DA }} et votre {{ fr.DHUB }} ([{{ fr.DHUBB }}](/hub/getting-started/create-hub/hub-personal/) et [{{ fr.DHUBP }}](/hub/getting-started/create-hub/hub-business/)).
 
 1. Aller à votre {{ fr.DA }}.

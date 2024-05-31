@@ -1,4 +1,3 @@
-```yaml
 ---
 eleventyComputed:
   title: Récupérer des identifiants depuis {{ fr.DHUBP }} avec le {{ fr.WBEX }}
@@ -68,4 +67,3 @@ Selon les options que vous avez activées/désactivées, vous devrez peut-être 
 
 4. Vos identifiants seront transférés aux champs d'identifiants du site Web. Suivre le reste du processus de connexion du site Web jusqu'à ce que vous vous connectiez avec succès à votre compte.
 ![Transfert des identifiants dans les champs correspondants](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub2091.png)
-```

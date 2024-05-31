@@ -1,4 +1,3 @@
-```yaml
 ---
 eleventyComputed:
   title: Menu latéral
@@ -46,4 +45,3 @@ Pour apprendre à utiliser le ***Générateur de mot de passe*** lors de la cré
 
 L'onglet ***À propos*** contient des liens et informations utiles, notamment un lien vers notre [{{ fr.RDM }} {{ fr.DFORUM }}](https://forum.devolutions.net/product/rdm-windows), un lien vers notre [documentation {{ fr.RDM }} (Aide en ligne)](/rdm/windows/overview/what-is-rdm/), et la version actuelle de {{ fr.WBEX }}.
 ![Onglet À propos](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin2129.png)
-```

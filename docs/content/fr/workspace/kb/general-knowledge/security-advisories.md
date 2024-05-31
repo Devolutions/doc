@@ -1,7 +1,7 @@
-```yaml
+---
 eleventyComputed:
   title: Avis de sécurité
-```
+---
 ***Avis de sécurité*** pour tous nos produits sont disponibles pour consultation sur notre [site Web Devolutions](https://devolutions.net/security/advisories). Il s'agit d'une liste pour informer nos utilisateurs qu'une vulnérabilité de sécurité dans nos produits a été trouvée. Elle inclura des mesures de remédiation et des solutions de contournement, le score de niveau de gravité du [Common Vulnerability Scoring System](https://www.first.org/cvss/) (CVSS), et le numéro [Common Vulnerabilities and Exposures](https://cve.mitre.org/index.html) (CVE). [S'abonner](https://devolutions.net/security/advisories) pour recevoir nos derniers avis de sécurité par courriel.
 
 ## CVSS

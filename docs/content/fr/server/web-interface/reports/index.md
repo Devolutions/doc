@@ -1,9 +1,9 @@
-```yaml
+---
 eleventyComputed:
   title: Rapports
   description: La plupart des rapports disponibles peuvent être personnalisés. Filtrer et trier les données, définir un intervalle de temps et même exporter les rapports dans un fichier .CSV.
   order: 40
-```
+---
 La section ***Rapports*** fournit aux administrateurs des outils pour réaliser des audits sur les [Connexions](/server/web-interface/reports/login/), les [Entrées](/server/web-interface/reports/entries/), les [Journaux](/server/web-interface/reports/logs/), les [Modules](/server/web-interface/reports/modules/), et la [Configuration](/server/web-interface/reports/configuration/).
 
 {% snippet, "badgeInfo" %}

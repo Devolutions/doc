@@ -1,7 +1,7 @@
-```yaml
+---
 eleventyComputed:
   title: Guide rapide de Markdown
-```
+---
 Markdown est un langage de balisage léger utilisé pour la ***Documentation*** dans les entrées.
 
 Pour votre commodité, nous avons ajouté des boutons de formatage avec des polices, des styles et des insertions. Pour utiliser, cliquer sur un bouton de formatage et insérer vos données.

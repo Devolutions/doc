@@ -1,7 +1,7 @@
-```yaml
+---
 eleventyComputed:
   title: Dissocier une extension de navigateur (Windows)
-```
+---
 Dans l'éventualité où vous souhaitez refuser l'accès à {{ fr.RDMWIN }} depuis une extension de navigateur précédemment appariée, vous devez la supprimer de {{ fr.RDM }}.
 
 1. Dans {{ fr.RDM }}, aller à ***Fichier – Paramètres – Extensions de Navigateur***.

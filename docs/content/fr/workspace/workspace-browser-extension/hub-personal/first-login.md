@@ -1,8 +1,8 @@
-```yaml
+---
 eleventyComputed:
   title: Première connexion à {{ fr.DHUBP }} avec le {{ fr.WBEX }}
   order: 10
-```
+---
 ### Première Connexion avec le {{ fr.WBEX }}
 
 Suivre ces étapes pour connecter {{ fr.DHUBP }} au {{ fr.WBEX }} :

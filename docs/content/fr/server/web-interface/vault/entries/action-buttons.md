@@ -2,7 +2,6 @@
 eleventyComputed:
   title: Boutons d'action
 ---
-
 L'affichage des ***Boutons d'Action*** pour les entrées variera en fonction du type d'entrée sélectionné et de vos paramètres {{ fr.DVLS }}.
 
 ![Boutons d'Action d'Entrée](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp8025.png)

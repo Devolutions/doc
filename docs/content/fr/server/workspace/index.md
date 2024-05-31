@@ -1,11 +1,9 @@
-```yaml
 ---
 eleventyComputed:
   title: "{{ fr.DWS }}"
   description: "{{ fr.WS }} simplifie et rationalise l'accès et la gestion dans nos solutions."
   order: 80
 ---
-```
 ![!!{{ fr.WS }} logo](https://cdnweb.devolutions.net/images/projects/workspace/logos/workspace-color-shadow.svg)
 
 Les [{{ fr.WAPPS }}](https://devolutions.net/workspace/) sont des applications mobiles et de bureau qui rassemblent Authenticator, {{ fr.DHUBB }}, {{ fr.DHUBP }}, et {{ fr.DVLS }} en un seul emplacement centralisé, basé sur le nuage. {{ fr.WS }} simplifie et rationalise l'accès et la gestion dans nos solutions. C'est l'outil parfait pour ceux qui utilisent nos solutions. Les {{ fr.WAPPS }} sont disponibles pour les appareils iOS et Android ainsi que pour Windows et macOS.

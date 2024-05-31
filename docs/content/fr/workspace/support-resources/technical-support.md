@@ -1,7 +1,7 @@
-```yaml
+---
 eleventyComputed:
   title: Support technique
-```
+---
 Heures : Lundi au Vendredi de 7h30 à 18h00 HAE
 
 Langue : Anglais-Français-Deutsch

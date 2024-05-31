@@ -1,4 +1,3 @@
-```yaml
 ---
 eleventyComputed:
   title: Générer des certificats auto-signés pour serveur et client avec OpenSSL
@@ -70,4 +69,3 @@ Le générer en utilisant la ligne de commande suivante, où le server.csr a ét
 `openssl x509 -req -in server.csr -CA ca.crt -CAkey ca.key -CAcreateserial -out server.crt -days 1000 -sha256`
 
 Cela résulte en la génération du certificat dans le fichier server.crt. Vous devez le déployer sur le serveur où vous avez généré la CSR.
-```

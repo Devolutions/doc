@@ -1,4 +1,4 @@
-```yaml
+---
 eleventyComputed:
   title: Effacer le stockage local de Safari
   description: Suivre les étapes pour effacer votre stockage local dans le navigateur Safari.
@@ -6,7 +6,7 @@ eleventyComputed:
   - Stockage local
   - Navigateur
   - Safari
-```
+---
 Voici les étapes pour effacer votre stockage local dans le navigateur Safari :
 
 1. Ouvrir une page du navigateur Safari.

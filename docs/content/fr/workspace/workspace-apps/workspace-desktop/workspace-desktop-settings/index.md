@@ -4,7 +4,6 @@ eleventyComputed:
   description: "Paramètres de {{ fr.WDAPP }}"
   order: 20
 ---
-
 Les paramètres de {{ fr.WS }} se trouvent dans ***Fichier – Paramètres de {{ fr.WS }}***.
 
 ![Paramètres de l'espace de travail](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp6094.png)

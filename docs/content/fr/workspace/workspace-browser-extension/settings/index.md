@@ -1,9 +1,9 @@
-```yaml
+---
 eleventyComputed:
   title: Paramètres
   order: 20
   status: Sujet disponible en langue allemande
-```
+---
 Les paramètres de {{ fr.WBEX }} peuvent être accédés via le bouton ***Paramètres*** dans la fenêtre de l'extension de navigateur, quel que soit l'application Devolutions que vous utilisez avec le {{ fr.WBEX }}.
 ![{{ fr.WBEX }} Bouton Paramètres](https://cdnweb.devolutions.net/docs/docs_en_dwl_Dwl2000.png)
 

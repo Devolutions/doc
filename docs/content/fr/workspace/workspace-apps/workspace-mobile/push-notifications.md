@@ -3,7 +3,6 @@ eleventyComputed:
   title: Notifications Push
   description: Votre {{ fr.WMAPP}} doit être connecté à {{ fr.DVLS }} pour recevoir des notifications sur votre appareil mobile. 
 ---
-
 Votre {{ fr.WMAPP}} doit être [connecté à {{ fr.DVLS }}](/server/workspace/installation-setup/workspace-mobile-app/setup-mobile-devolutions-server/) pour recevoir des notifications sur votre appareil mobile. Une fois connecté, suivre les étapes ci-dessous pour activer les notifications push.
 1. Ouvrir l'interface web de {{ fr.DVLS }}.
 1. Sélectionner votre profil en bas à gauche de l'arbre de navigation.  
