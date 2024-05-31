@@ -1,9 +1,8 @@
 ---
 eleventyComputed:
   title: Convert an entry with template groups 
-  description: '{{ en.RDM }} allows you to convert an entry with template groups and add preset sub connections to the converted main entry.'
+  description: "{{ en.RDM }} allows you to convert an entry with template groups and add preset sub connections to the converted main entry."
 ---
-
 {{ en.RDM }} allows you to convert an entry with [template groups](/rdm/windows/commands/file/templates/creating-templates/)  and add preset sub connections to the converted main entry.
 
 1. Open {{ en.RDM }}.

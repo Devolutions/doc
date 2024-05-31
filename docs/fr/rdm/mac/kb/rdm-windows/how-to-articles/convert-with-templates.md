@@ -1,9 +1,8 @@
 ---
 eleventyComputed:
   title: Convertir une entrée avec des groupes de modèles
-  description: '{{ fr.RDM }} permet de convertir une entrée avec des groupes de modèles et d'ajouter des sous-connexions prédéfinies à l'entrée principale convertie.'
+  description: "{{ fr.RDM }} permet de convertir une entrée avec des groupes de modèles et d'ajouter des sous-connexions prédéfinies à l'entrée principale convertie."
 ---
-
 {{ fr.RDM }} permet de convertir une entrée avec des [groupes de modèles](/rdm/windows/commands/file/templates/creating-templates/) et d'ajouter des sous-connexions prédéfinies à l'entrée principale convertie.
 
 1. Ouvrir {{ fr.RDM }}.
