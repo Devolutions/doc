@@ -1,0 +1,6 @@
+```
+---
+eleventyComputed:
+  title: "{{ fr.WDAPP }}"
+---
+```

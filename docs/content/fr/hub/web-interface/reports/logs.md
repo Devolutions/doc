@@ -1,26 +1,27 @@
 ---
 eleventyComputed:
   title: Journaux
+  description: La section Journaux fournit des outils pour effectuer un Rapport de Journaux d'Activité, consulter l'Activité Utilisateur et les Journaux d'Administration.
 ---
-La section ***Journaux*** fournit des outils pour effectuer le ***Rapport des journaux d'activités***, afficher les ***Journaux d'administration*** et ***Activité de l'utilisateur***.
+La section ***Journaux*** fournit des outils pour effectuer un ***Rapport de Journaux d'Activité***, consulter l'***Activité Utilisateur*** et les ***Journaux d'Administration***.
 
-Vous pouvez affiner votre recherche avec les filtres de chaque rapport et cliquer sur le bouton ***Exporter*** de chaque section pour créer un rapport CSV.
+Utiliser le bouton ***Exporter*** de chaque section pour créer un rapport CSV.
 
-### Rapport des journaux d'activités
+### Rapport de Journaux d'Activité
 
-Le ***Rapport des journaux d'activités*** affichera les actions spécifiques du {{ fr.VLT }} sur l'activité de tous vos utilisateurs.
-![!!Hub4110](https://cdnweb.devolutions.net/docs/fr/hub/Hub4110.png)
+Le ***Rapport de Journaux d'Activité*** affiche des actions spécifiques {{ fr.VLT }} sur l'activité de tous vos utilisateurs.
+![Rapport de Journaux d'Activité](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub6081.png)
 
-### Activité de l'utilisateur
+### Activité Utilisateur
 
-L'***Activité de l'utilisateur*** affichera des informations sur l'activité spécifique aux utilisateurs.
-![!!Hub4111](https://cdnweb.devolutions.net/docs/fr/hub/Hub4111.png)
+L'***Activité Utilisateur*** affiche des informations sur l'activité d'utilisateurs spécifiques ou de tous les utilisateurs.
+![Activité Utilisateur](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub4133.png)
 
-### Journaux d'administration
+### Journaux d'Administration
 
 {% snippet, "badgeInfo" %}
 Cette section est uniquement disponible pour les administrateurs.
 {% endsnippet %}
 
-Les ***Journaux d'administration*** gardent une trace des activités de niveau d'administratif, telles que les ajouts, modifications ou suppressions des {{ fr.VLT }}s et des utilisateurs, les tentatives et les succès de connexion des utilisateurs et même les changements de licence.
-![!!Hub4112](https://cdnweb.devolutions.net/docs/fr/hub/Hub4112.png)
+Les ***Journaux d'Administration*** gardent une trace des activités de niveau administratif telles que l'ajout, la modification ou la suppression de {{ fr.VLT }}s ainsi que des utilisateurs, des tentatives de connexion des utilisateurs, des succès et même des changements de licence.
+![Journaux d'Administration](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub4025.png)

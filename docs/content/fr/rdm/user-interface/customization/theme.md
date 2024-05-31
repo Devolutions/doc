@@ -1,53 +1,23 @@
 ---
 eleventyComputed:
   title: Thème
+  description: Le thème de {{ fr.RDM }} peut être modifié pour mieux s'adapter à vos préférences. Il modifie la couleur et la nuance de l'interface utilisateur.
 ---
-Le thème de {{ fr.RDM }} peut être modifié pour mieux correspondre à vos préférences. Il modifie la couleur et l'ombrage de l'interface utilisateur.
+Le thème de {{ fr.RDM }} peut être modifié pour mieux s'adapter à vos préférences. Il modifie la couleur et la nuance de l'interface utilisateur.
 
-Ce paramètre ***Thème*** est disponible dans ***Fichier – Options – Interface utilisateur***. Le thème ***Clair*** est défini par défaut, mais vous pouvez sélectionner le thème ***Sombre*** si vous préférez. Le thème sera automatiquement appliqué une fois que vous aurez cliqué sur ***OK***.
-![Fichier – Options – Interface utilisateur – Thème](https://cdnweb.devolutions.net/docs/fr/rdm/windows/clip11341.png)
+Ce paramètre ***Thème*** est disponible dans ***Fichier – Paramètres – Interface utilisateur***. Le thème ***Clair*** est défini par défaut, mais vous pouvez sélectionner le thème ***Sombre*** à la place si vous préférez. Le thème sera automatiquement appliqué une fois que vous cliquerez sur ***OK***.
+![Fichier – Paramètres – Interface utilisateur – Thème](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip11341.png)
 
-<table>
-	<tr>
-		<th>
+| OPTION | DESCRIPTION |
+|--------|-------------|
+| Défaut - Clair | Utiliser le thème par défaut, qui est le thème ***Clair***. |
+| Clair | Utiliser un thème clair avec des tons de blanc, gris clair et bleu.     |
+| Sombre | Utiliser un thème sombre avec des tons de noir, gris foncé et bleu.        |
 
-OPTION
-		</th>
-		<th>
-DESCRIPTION
-		</th>
-	</tr>
-	<tr>
-		<td>
-Par défaut - Clair
-		</td>
-		<td>
-Utilise le thème par défaut, qui est le thème ***Clair***.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Clair
-		</td>
-		<td>
-Utilise un thème clair avec des tons de blanc, de gris clair et de bleu.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Sombre
-		</td>
-		<td>
-Utilise un thème sombre avec des tons de noir, de gris foncé et de bleu.
-		</td>
-	</tr>
-</table>
 
-Un autre moyen plus rapide d'accéder à ce paramètre est disponible dans l'onglet ***Compte*** du ***{{ fr.NPANE }}***.
-![Compte – Paramètres – Thème](https://cdnweb.devolutions.net/docs/fr/rdm/windows/RDMWin2069.png)
+Une autre manière plus rapide d'accéder à ce paramètre est également disponible dans l'onglet ***Compte*** du ***{{ fr.NPANE }}***.
+![Compte – Paramètres – Thème](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin2137.png)
 
-Pour comparer les thèmes, voici deux exemples de la même vue dans {{ fr.RDM }} : la première utilisant le thème ***Clair*** et la seconde le thème ***Sombre***.
-![Aperçu du thème clair](https://cdnweb.devolutions.net/docs/fr/rdm/windows/RDMWin2070.png)
-
-![Aperçu du thème sombre](https://cdnweb.devolutions.net/docs/fr/rdm/windows/RDMWin2071.png)
-
+Pour comparer les deux thèmes, voici deux exemples de la même vue dans {{ fr.RDM }} : le premier utilisant le thème ***Clair*** et le second le thème ***Sombre***.
+![Aperçu du Thème Clair](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin2135.png)
+![Aperçu du Thème Sombre](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin2136.png)

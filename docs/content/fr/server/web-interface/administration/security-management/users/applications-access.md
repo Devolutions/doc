@@ -1,98 +1,24 @@
 ---
 eleventyComputed:
-  title: Accès à l'application
+  title: Accès aux applications
+  description: Autoriser ou refuser l'accès de l'utilisateur à différentes applications et {{ fr.CTOOLS }}.
 ---
-Autoriser ou refuser à l'utilisateur l'accès à différentes applications et outils associés :
-![Modifier l'utilisateur - Accès à l'application](https://cdnweb.devolutions.net/docs/fr/server/ServerOp7008.png)
+Autoriser ou refuser l'accès de l'utilisateur à différentes applications et {{ fr.CTOOLS }} :  
+![Modifier Utilisateur – Applications](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp6098.png)
 
-### Accès
+## Modifier utilisateur
+| Option                                                         | Description                                                    |
+|----------------------------------------------------------------|----------------------------------------------------------------|
+| {{ fr.RDM }}                                                   | Autoriser l'utilisateur à accéder à {{ fr.DVLS }} via {{ fr.RDM }}.       |
+| [{{ fr.WBEX }}](/workspace/workspace-browser-extension/) | Autoriser l'utilisateur à remplir automatiquement les noms d'utilisateur et mots de passe sur les sites Web avec le {{ fr.WBEX }}. |
+| {{ fr.DLAUNCHER }}                                             | Autoriser l'utilisateur à ouvrir des connexions à distance avec {{ fr.DLAUNCHER }}. |
+| Web                                                            | Autoriser l'utilisateur à utiliser l'interface Web de {{ fr.DVLS }}.                 |
+| Cli                                                            | Autoriser l'utilisateur à utiliser le Cli.                                     |
+| Scripting                                                      | Autoriser l'utilisateur à se connecter via le [module {{ fr.PS }}](https://www.powershellgallery.com/packages/Devolutions.PowerShell/). |
+| {{ fr.WS }}                                                    | Autoriser les utilisateurs à utiliser le {{ fr.WMAPP }}.                         |
 
-<table>
-	<tr>
-		<th>
-Option
-		</th>
-		<th>
-Description
-		</th>
-	</tr>
-	<tr>
-		<td>
-{{ fr.RDM }}
-		</td>
-		<td>
-Autoriser l'utilisateur à accéder au {{ fr.DVLS }} via {{ fr.RDM }}.
-		</td>
-	</tr>
-	<tr>
-		<td>
-
-[{{ fr.WBEX_MAJ }}](/fr/server/workspace-browser-extension/overview/)
-		</td>
-		<td>
-Permettre à l'utilisateur de remplir automatiquement le nom d'utilisateur et les mots de passe sur les sites Web avec le {{ fr.WBEX }}.
-		</td>
-	</tr>
-	<tr>
-		<td>
-{{ fr.DLAUNCHER }}
-		</td>
-		<td>
-Autoriser l'utilisateur à ouvrir des connexions à distance avec {{ fr.DLAUNCHER }}.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Web
-		</td>
-		<td>
-Autoriser l'utilisateur à utiliser l'interface Web de {{ fr.DVLS }}.
-		</td>
-	</tr>
-	<tr>
-		<td>
-CLI
-		</td>
-		<td>
-Autoriser l'utilisateur à utiliser le CLI.
-		</td>
-	</tr>
-</table>
-
-### Accès selon une période définie
-
-<table>
-	<tr>
-		<th>
-
-Option
-		</th>
-		<th>
-Description
-		</th>
-	</tr>
-	<tr>
-		<td>
-Jours
-		</td>
-		<td>
-Autoriser l'utilisateur d'accéder à l'instance selon les choix suivants :
-
-* ***N'importe quel jour***
-* ***Jours de semaine***
-* ***Jours de fin de semaine***
-* ***Personnalisé***
-		</td>
-	</tr>
-	<tr>
-		<td>
-Temps
-		</td>
-		<td>
-Permettre à l'utilisateur d'accéder à l'instance selon les choix suivants :
-
-* ***À tout moment***
-* ***Personnalisé***
-		</td>
-	</tr>
-</table>
+### Accès basé sur le temps
+| Option | Description                                                                                                                 |
+|--------|-----------------------------------------------------------------------------------------------------------------------------|
+| Jours   | Autoriser l'accès à l'instance selon l'une de ces valeurs :<br><ul><li>***N'importe quel jour***</li><li>***Jours de semaine***</li><li>***Week-ends***</li><li>***Personnalisé***</li></ul> |
+| Heure   | Autoriser l'accès à l'instance selon les possibilités données :<br><ul><li>***À tout moment***</li><li>***Personnalisé***</li></ul> |

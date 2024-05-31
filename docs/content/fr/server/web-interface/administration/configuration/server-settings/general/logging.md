@@ -1,152 +1,39 @@
 ---
 eleventyComputed:
   title: Journalisation
+  description: La section Journalisation permet à l'administrateur de configurer les fonctionnalités de journalisation.
+  keywords:
+  - journalisation
 ---
 La section ***Journalisation*** permet à l'administrateur de configurer les fonctionnalités de journalisation.
-![Administration - Paramètres de {{ fr.DVLS }} - Journalisation](https://cdnweb.devolutions.net/docs/fr/server/ServerOp8040.png)
+![Administration – Paramètres du serveur – Journalisation](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp8040.png)
 
 ## Paramètres
 
 ### Général
+| Option                | Description                                                                                                         |
+|-----------------------|---------------------------------------------------------------------------------------------------------------------|
+| Journaliser les informations de débogage | Activer les journaux de l'instance {{ fr.DVLS }}. Lorsqu'activé, cela augmentera le niveau de débogage et fournira plus d'entrées de journal. |
+| Langue              | Choisir la langue des journaux.                                                                                    |
+| Chemin du journal du planificateur    | Définir le chemin de destination du fichier journal. Nous recommandons de définir ce chemin en dehors du dossier de l'application web {{ fr.DVLS }}. |
 
-<table>
-	<tr>
-		<th>
-Option
-		</th>
-		<th>
-Description
-		</th>
-	</tr>
-	<tr>
-		<td>
-Log de débogage
-		</td>
-		<td>
-Activer les journaux de l'instance {{ fr.DVLS }}. Lorsqu'elle est activée, cela augmentera le niveau de débogage et fournira plus d'entrées de journal.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Langue
-		</td>
-		<td>
-Choisir la langue des journaux.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Chemin du journal du planificateur
-		</td>
-		<td>
-Définir le chemin de destination du fichier journal.
-		</td>
-	</tr>
-</table>
+### Serveur Syslog
+| Option               | Description                                                                    |
+|----------------------|--------------------------------------------------------------------------------|
+| Journaliser vers le serveur Syslog | Envoyer les journaux à un serveur Syslog.                                              |
+| Hôte                 | Entrer votre hôte de serveur Syslog pour se connecter.                                      |
+| Port                 | Entrer votre port de serveur Syslog pour se connecter.                                      |
+| Protocole             | Sélectionner votre mode de protocole préféré entre : <ul><li>TCP</li><li>UDP</li></ul> |
 
-### Serveur syslog
 
-<table>
-	<tr>
-		<th>
-
-Option
-		</th>
-		<th>
-Description
-		</th>
-	</tr>
-	<tr>
-		<td>
-Connectez-vous au serveur Syslog
-		</td>
-		<td>
-Envoyer les journaux à un serveur Syslog.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Hôte
-		</td>
-		<td>
-Entrer l'hôte de votre serveur Syslog pour vous connecter.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Port
-		</td>
-		<td>
-Entrer le port de votre serveur Syslog pour vous connecter.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Protocole
-		</td>
-		<td>
-Sélectionner votre mode de protocole préféré entre :
-
-* TCP
-* UDP
-		</td>
-	</tr>
-</table>
-
-### Journal d'événements Windows
-
-<table>
-	<tr>
-		<th>
-Option
-		</th>
-		<th>
-Description
-		</th>
-	</tr>
-	<tr>
-		<td>
-Journal d'événements
-		</td>
-		<td>
-Envoyer les journaux au journal des événements de Windows.
-		</td>
-	</tr>
-</table>
+### Journal des événements Windows
+| Option    | Description                         |
+|-----------|-------------------------------------|
+| Journal des événements | Envoyer les journaux au journal des événements Windows. |
 
 ### Intégration Slack
-
-<table>
-	<tr>
-		<th>
-Option
-		</th>
-		<th>
-Description
-		</th>
-	</tr>
-	<tr>
-		<td>
-Publier les journaux d'activité sur Slack
-		</td>
-		<td>
-Publier les journaux dans un canal Slack.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Jeton d'accès Bot OAuth
-		</td>
-		<td>
-Jeton d'accès d'authentification Slack.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Nom de la chaîne Slack
-		</td>
-		<td>
-Nom du canal Slack où les journaux seront publiés.
-		</td>
-	</tr>
-</table>
+| Option                      | Description                                              |
+|-----------------------------|----------------------------------------------------------|
+| Poster les journaux d'activité sur Slack | Poster les journaux dans un canal Slack.                        |
+| Jeton d'accès OAuth du bot      | Jeton d'accès pour l'authentification Slack.                       |
+| Nom du canal Slack          | Nom du canal Slack où les journaux seront postés. |

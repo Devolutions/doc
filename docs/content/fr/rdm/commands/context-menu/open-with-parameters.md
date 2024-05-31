@@ -1,90 +1,20 @@
 ---
 eleventyComputed:
   title: Ouvrir avec des paramètres
+  description: Le menu Ouvrir avec des paramètres présente toutes les options disponibles pour ouvrir une session.
 ---
-Le menu ***Ouvrir avec des paramètres*** contient toutes les options disponibles pour ouvrir une session.
-![Open with Parameters](https://cdnweb.devolutions.net/docs/fr/rdm/windows/clip10056.png)
+Le menu ***Ouvrir avec des paramètres*** présente toutes les options disponibles pour ouvrir une session.
+![Ouvrir avec des paramètres](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip10056.png)
 
-<table>
-	<tr>
-		<th>
-
-OPTION
-		</th>
-		<th>
-DESCRIPTION
-		</th>
-	</tr>
-	<tr>
-		<td>
-Ouvrir (externe)
-		</td>
-		<td>
-Ouvrir une session en tant que processus externe, sans lien direct avec {{ fr.RDM }}.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Ouvrir (intégrée / à onglet)
-		</td>
-		<td>
-Ouvrir la session dans le tableau de bord {{ fr.RDM }} et affichez les onglets en haut de la fenêtre.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Ouvrir via Jump...
-		</td>
-		<td>
-Ouvrir la session via un hôte [Jump](/fr/rdm/windows/overview/the-devolutions-platform/rdm-jump/).
-		</td>
-	</tr>
-	<tr>
-		<td>
-Ouvrir (plein écran)
-		</td>
-		<td>
-Ouvrir la session avec le mode d'affichage plein écran.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Ouvrir console / mode admin
-		</td>
-		<td>
-Se connecter à la session de console d'un serveur à l'aide de {{ fr.RDM }} en mode Administration.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Ouvrir (Sélectionner des identifiants)...
-		</td>
-		<td>
-Vous ouvre avec la liste des identifiants liés à votre source de données pour vous permettre de choisir celui nécessaire pour ouvrir votre session.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Ouvrir sans console / mode admin (demander les identifiants)
-		</td>
-		<td>
-Vous ouvre votre session normalement et vous demande vos identifiants pour vous connecter.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Ouvrir les dossiers partagés
-		</td>
-		<td>
-Ouvrir les dossiers partagés de l'ordinateur distant.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Ouvrir à partir d'un modèle...
-		</td>
-		<td>
-Ouvrir à partir d'un modèle que vous avez déjà créé.
-		</td>
-	</tr>
-</table>
+| OPTION            | DESCRIPTION                                                           |
+|-------------------|-----------------------------------------------------------------------|
+| Ouvrir (Externe)                  | Ouvrir une session en tant que processus externe, sans lien direct avec {{ fr.RDM }}. |
+| Ouvrir (Intégré/Onglet)           | Ouvrir la session à l'intérieur du tableau de bord de {{ fr.RDM }} et afficher des onglets en haut de la fenêtre.  |
+| Ouvrir via Jump...                 | Ouvrir la session via un hôte [Jump](/rdm/windows/overview/the-devolutions-platform/rdm-jump/). |
+| Ouvrir (Plein Écran)               | Ouvrir la session en mode d'affichage plein écran.  |
+| Ouvrir en Mode Console/Admin       | Se connecter à la session console d'un serveur en utilisant le Bureau à distance pour l'administration. |
+| Ouvrir (Sélectionner les Identifiants)...     | Vous invite avec la liste des identifiants liés à votre Source de Données pour vous permettre de choisir celui nécessaire pour ouvrir votre session. |
+| Ouvrir en Mode No Console/Admin <br> (Demander les Identifiants) | Ouvrir votre session normalement et vous demander vos identifiants pour la connexion. |
+| Ouvrir Dossiers Partagés               | Ouvrir les dossiers partagés de l'ordinateur distant.   |
+| Ouvrir avec un Modèle...          | Ouvrir à partir d'un modèle que vous avez déjà créé.  |
+| VPN                              | Sélectionner entre :<ul><li>Ouvrir (Sans VPN)</li> <li>Ouvrir VPN Seulement</li> <li>Fermer VPN Seulement</li></ul>  |

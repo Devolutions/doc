@@ -1,4 +1,4 @@
 ---
 eleventyComputed:
-  title: Liste d'exécution
+  title: Liste de lecture
 ---

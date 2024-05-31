@@ -1,28 +1,33 @@
 ---
 eleventyComputed:
-  title: Paramètres de l'usager
+  title: Paramètres Spécifiques Utilisateur
+  description: Les Paramètres Spécifiques sont utilisés pour remplacer les propriétés d'une entrée.
 ---
-Permets le remplacement des paramètres de session pour un utilisateur. Plusieurs paramètres peuvent être remplacés, tels que le nom d'utilisateur, le mot de passe ou l'affichage.
+Permet de remplacer les paramètres de session pour un utilisateur. Plusieurs paramètres peuvent être remplacés, tels que le nom d'utilisateur, le mot de passe ou l'affichage.
 
-Dans le volet navigation, sélectionner l'entrée que vous souhaitez remplacer, puis faites un clic droit ***Modifier - Paramètres spécifiques de l'usager*** ou dans le ruban, sélectionner ***Modifier - Paramètres spécifiques de l'usager***.
-![Modifier - Paramètres de l'usager](https://cdnweb.devolutions.net/docs/fr/rdm/mac/clip4000.png)
+Dans votre ***{{ fr.NPANE }}***, sélectionner l'entrée que vous souhaitez remplacer puis faire un clic droit Éditer - Éditer l'Entrée (Paramètres Spécifiques Utilisateur) ou dans le Ruban simplement sélectionner Éditer - Éditer l'Entrée (Paramètres Spécifiques Utilisateur).
+![Éditer - Éditer l'Entrée (Paramètres Spécifiques Utilisateur)](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_RDMMac6056.png)
 
 ## Paramètres
 
 {% snippet, "badgeInfo" %}
-Cette fonctionnalité n'est disponible que lors de l'utilisation d'une [Source de données avancée](/fr/rdm/mac/data-sources/data-sources-types/advanced-data-sources/). Un paramètre sur la source de données permet l'utilisation des paramètres spécifiques à la machine locale. Contacter votre administrateur si le menu est grisé.
+Cette fonctionnalité est uniquement disponible lors de l'utilisation d'une [Source de Données Avancée](/rdm/mac/data-sources/data-sources-types/advanced-data-sources/). Un paramètre sur la source de données permet l'utilisation des Paramètres Spécifiques Utilisateur. Contacter votre administrateur si le menu est grisé.
+{% endsnippet %}
+
+{% snippet, "badgeInfo" %}
+Les ***Paramètres Spécifiques Utilisateur*** sont partagés entre {{ fr.RDM }}, {{ fr.DVLS }} et {{ fr.DHUB }}.
 {% endsnippet %}
 
 {% snippet, "badgeCaution" %}
-Si les ***Paramètres spécifiques de l'usager et locaux*** sont définis sur la même entrée, les ***Paramètres spécifiques locaux*** sont prioritaires.
+Si les Paramètres Spécifiques Utilisateur et les Paramètres Spécifiques Machine Locale sont définis sur la même entrée, les Paramètres Spécifiques Machine Locale ont la priorité.
 {% endsnippet %}
 
-![Paramètres spécifiques de l'usager](https://cdnweb.devolutions.net/docs/fr/rdm/mac/clip5057.png)
+![Paramètres Spécifiques Utilisateur](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_RDMMac6057.png)
 
 Veuillez consulter chaque onglet pour plus d'informations :
 
-* [Substituer identifiants](/fr/rdm/mac/commands/edit/setting-overrides/user-specific-settings/override-credentials/)
-* [Général](/fr/rdm/mac/commands/edit/setting-overrides/user-specific-settings/general/)
-* [Paramètres](/fr/rdm/mac/commands/edit/setting-overrides/user-specific-settings/settings/)
-* [Avancée](/fr/rdm/mac/commands/edit/setting-overrides/user-specific-settings/more/)
-* [VPN](/fr/rdm/mac/commands/edit/setting-overrides/user-specific-settings/vpn/)
+* [Remplacer les Identifiants](/rdm/mac/commands/edit/setting-overrides/user-specific-settings/override-credentials/)
+* [Général](/rdm/mac/commands/edit/setting-overrides/user-specific-settings/general/)
+* [Paramètres](/rdm/mac/commands/edit/setting-overrides/user-specific-settings/settings/)
+* [Plus](/rdm/mac/commands/edit/setting-overrides/user-specific-settings/more/)
+* [VPN](/rdm/mac/commands/edit/setting-overrides/user-specific-settings/vpn/)

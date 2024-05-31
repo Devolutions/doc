@@ -2,15 +2,15 @@
 eleventyComputed:
   title: Importer des sessions
 ---
-Utiliser ***Fichier - Importer - Importer les sessions de*** pour importer des sessions dans {{ fr.RDM }}.
+Utiliser le menu Fichier - Importer - Importer des sessions depuis pour importer des sessions dans {{ fr.RDMMAC }}.
 
 ## Paramètres
 
-![Importer les sessions de](https://cdnweb.devolutions.net/docs/fr/rdm/mac/clip4027.png)
+![Importer des sessions depuis](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10314.png)
 
-### Importer les Sessions de
+### Importer des sessions depuis
 
-Vous pouvez importer vos sessions à partir d'une application existante ou d'un format de fichier existant. Certaines applications chiffrent les données, ce qui rend impossible l'analyse du contenu, vous devez donc utiliser un format d'exportation en texte brut. Veuillez noter que toutes les entrées seront importées dans le dossier actuel. Pour certaines applications, il peut être impossible d'extraire le mot de passe.
+Vous pouvez importer vos sessions à partir d'une application existante ou d'un format de fichier existant. Certaines applications chiffrent les données, ce qui rend impossible l'analyse du contenu, par conséquent, vous devez utiliser un format d'exportation en texte clair. Veuillez noter que toutes les entrées seront importées dans le dossier courant. Pour certaines applications, il pourrait être impossible d'extraire le mot de passe.
 
 Vous pouvez importer des sessions à partir des applications suivantes :
 
@@ -19,4 +19,3 @@ Vous pouvez importer des sessions à partir des applications suivantes :
 * Remote Desktop Connection Manager (.rdg)
 * Configuration RDP (.rdp)
 * visionApp Remote Desktop (.vrd, .vre, .vrb, .rde, .csv)
-

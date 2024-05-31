@@ -1,86 +1,15 @@
 ---
 eleventyComputed:
   title: La plateforme Devolutions
+  description: Notre plateforme offre plusieurs produits pour aider à gérer tous les aspects d'une infrastructure informatique.
 ---
-Notre plateforme offre plusieurs produits facilitant la gestion de tous les aspects d'une infrastructure TI. 
+Notre plateforme offre plusieurs produits pour aider à gérer tous les aspects d'une infrastructure informatique.
 
-<table>
-	<tr>
-		<th>
-
-APPLICATIONS 
-		</th>
-		<th>
-DESCRIPTION 
-		</th>
-		<th>
-INSTALLATION 
-		</th>
-	</tr>
-	<tr>
-		<td>
-{{ fr.RDM }} (RDM) 
-		</td>
-		<td>
-Application qui gère les technologies de connexion à distance, des mots de passe privilégiés, les documents et le partage d'information. 
-		</td>
-		<td>
-Windows, macOS, Linux, iOS, Android 
-		</td>
-	</tr>
-	<tr>
-		<td>
-[{{ fr.RDMA }}](/fr/rdm/windows/overview/the-devolutions-platform/rdm-agent/) 
-		</td>
-		<td>
-{{ fr.RDMA }} peut exécuter des commandes sur des hôtes à distances, et même envoyer des commandes à plusieurs hôtes en même temps. Puisque {{ fr.RDM }} utilise un canal de communication sécurisé RDP pour communiquer avec l'{{ fr.RDMA }}, il peut seulement fonctionner avec des hôtes Windows. 
-		</td>
-		<td>
-Windows 
-		</td>
-	</tr>
-	<tr>
-		<td>
-[{{ fr.RDMJ }}](/fr/rdm/windows/overview/the-devolutions-platform/rdm-jump/) 
-		</td>
-		<td>
-{{ fr.RDMJ }} se connecte à un hôte distant, souvent nommé Jump Box, Service Host, ou Bastion Server, qui, à son tour, se connecte à d'autres hôtes. {{ fr.RDMJ }} est en fait une RDP dans une RDP. 
-		</td>
-		<td>
-Windows 
-		</td>
-	</tr>
-	<tr>
-		<td>
-[{{ fr.DVLS }} (DVLS)](/fr/server/overview/what-is-server/) 
-		</td>
-		<td>
-{{ fr.DVLS }} est une solution de gestion de mots de passe et de comptes partagés, qui inclut des composants de gestion d'accès privilégiés. Facile à déployer et à implanter, elle comprend toutes les fonctionnalités de base d’une solution PAM. {{ fr.DVLS }} est conçue pour répondre aux exigences toujours croissantes en matière de sécurité des PME tout en restant abordable. 
-		</td>
-		<td>
-Windows 
-		</td>
-	</tr>
-	<tr>
-		<td>
-[{{ fr.DHUBB }}](/fr/hub/overview/what-is-hub/) 
-		</td>
-		<td>
-{{ fr.DHUBB }} est une solution infonuagique de gestion sécuritaire de mots de passe conçue pour les équipes. Grâce à son interface Web conviviale, vous pourrez stocker et gérer des informations confidentielles, dont les mots de passe de l’entreprise, en toute tranquillité d’esprit. 
-		</td>
-		<td>
-Windows, macOS 
-		</td>
-	</tr>
-	<tr>
-		<td>
-[{{ fr.WBEX_MAJ }}](/fr/rdm/windows/workspace-browser-extension/overview/) 
-		</td>
-		<td>
-Le {{ fr.WBEX }} est gratuit à utiliser avec {{ fr.RDM }}, {{ fr.DVLS }} ou {{ fr.DHUB }}. Il permet aux utilisateurs d’injecter sécuritairement les mots de passe stockés dans leurs {{ fr.VLT }}s afin de se connecter à leurs sites Web. 
-		</td>
-		<td>
-Windows, macOS 
-		</td>
-	</tr>
-</table>
+| APPLICATIONS | DESCRIPTION | INSTALLATION |
+|--------------|-------------|--------------|
+| {{ fr.RDM }} (RDM) | Application utilisée pour gérer et centraliser les technologies d'accès à distance, les mots de passe privilégiés, les documents et les informations partagées. | Windows, macOS, Linux, iOS, Android |
+| [{{ fr.RDMA }}](/rdm/windows/overview/the-devolutions-platform/rdm-agent/) | Le {{ fr.RDMA }} peut exécuter des commandes sur des hôtes distants, mais ce qui est vraiment utile, c'est qu'il peut envoyer des commandes à plusieurs hôtes en même temps. Puisque {{ fr.RDM }} utilise un canal RDP sécurisé pour communiquer avec le {{ fr.RDMA }}, il ne peut opérer que contre des hôtes basés sur Windows. | Windows |
+| [{{ fr.RDMJ }}](/rdm/windows/overview/the-devolutions-platform/rdm-jump/)  | {{ fr.RDMJ }} se connecte à un hôte distant, souvent appelé une Jump Box, un Service Host ou un Bastion Server, qui à son tour se connecte à d'autres hôtes. {{ fr.RDMJ }} est en fait un RDP dans un RDP. | Windows |
+| [{{ fr.DVLS }} (DVLS)](/server/overview/what-is-server/) | {{ fr.DVLS }} est une solution complète de gestion partagée de comptes et de mots de passe avec des composants d'accès privilégié en option. Elle se déploie rapidement, s'implémente facilement et offre les fonctionnalités essentielles d'une solution PAM complète. {{ fr.DVLS }} est conçue pour répondre aux exigences de sécurité toujours croissantes des PME, tout en restant très abordable. | Windows             |
+| [{{ fr.DHUBB }}](/hub/overview/what-is-hub/) | {{ fr.DHUBB }} est un gestionnaire de mots de passe sécurisé et basé sur le cloud pour les équipes. Il permet à votre organisation de {{ fr.VLT }} et de gérer facilement et en toute sécurité les mots de passe des utilisateurs professionnels, ainsi que d'autres informations sensibles, via une interface web conviviale qui peut être rapidement, facilement et en toute sécurité accessible via n'importe quel navigateur. | Windows, macOS                                         |
+| [{{ fr.WBEX }}](/workspace/workspace-browser-extension/)        | L'{{ fr.WBEX }} est une extension de navigateur gratuite utilisée en conjonction avec {{ fr.RDM }}, {{ fr.DVLS }}, et {{ fr.DHUB }}, qui permet aux utilisateurs d'injecter en toute sécurité des mots de passe dans des sites Web en utilisant les identifiants stockés dans leurs {{ fr.VLT }}s. | Windows, macOS |

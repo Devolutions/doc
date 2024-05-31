@@ -1,24 +1,24 @@
 ---
 eleventyComputed:
-  title: Enregistrement de licence {{ fr.DLAUNCHER }}
+  title: "Paramètres de licence d'enregistrement {{ fr.DLAUNCHER }}"
 ---
-Enregistrer votre licence {{ fr.DLAUNCHER }}.
+Enregistrer et attribuer votre clé de licence {{ fr.DLAUNCHER }}.
 
-### Enregistrement de la licence {{ fr.DLAUNCHER }} pour {{ fr.DHUBB }}
+### Licence {{ fr.DHUBB }} {{ fr.DLAUNCHER }}
 
-Pour enregistrer une licence ***{{ fr.DLAUNCHER }}*** dans {{ fr.DHUBB }}, vous devez ajouter une ***Licence de produit*** et l'assigner aux utilisateurs.
+Pour enregistrer une licence ***{{ fr.DLAUNCHER }}*** dans {{ fr.DHUBB }}, ajouter une ***Licences de Produit*** et l'attribuer aux utilisateurs.
 
 {% snippet, "badgeCaution" %}
-Seuls les ***Administrateurs*** et les utilisateurs disposant de permissions dans la section ***Permissions du système*** auront accès pour enregistrer une licence dans {{ fr.DHUBB }}.
+Seuls les ***Administrateurs*** et les utilisateurs avec des permissions dans la section ***Permissions Système*** auront accès à l'enregistrement d'une licence dans {{ fr.DHUBB }}.
 {% endsnippet %}
 
-1. Aller dans ***Administration – Licences***.
-1. Cliquer le bouton ***Ajouter***.
-![!!Hub4008](https://cdnweb.devolutions.net/docs/fr/hub/Hub4008.png)
-1. Coller la ***Licence*** et cliquer ***Ajouter***.
-![!!Hub4009](https://cdnweb.devolutions.net/docs/fr/hub/Hub4009.png)
-1. Cliquer sur le bouton ***Modifier*** à côté de la licence de produit ***{{ fr.DLAUNCHER }}***.
-![!!Hub4010](https://cdnweb.devolutions.net/docs/fr/hub/Hub4010.png)
-1. Cliquer ***Assigné à*** et gérer l'accès aux licences de vos utilisateurs.
-![!!Hub4011](https://cdnweb.devolutions.net/docs/fr/hub/Hub4011.png)
-1. Cliquer ***Mettre à jour*** pour enregistrer.
+1. Aller à ***Administration - Licences***.
+1. Cliquer sur le bouton ***Ajouter***.
+![!!Hub4007](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub4007.png)
+1. Coller la ***Licence*** et cliquer sur ***Ajouter***.
+![!!Hub4008](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub4008.png)
+1. Cliquer sur le bouton ***Modifier*** à côté de la licence du produit ***{{ fr.DLAUNCHER }}***.
+![!!Hub4010](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub4010.png)
+1. Cliquer sur ***Attribué À*** et gérer l'accès à la licence de vos utilisateurs.
+![!!Hub4011](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub4011.png)
+1. Cliquer sur ***Mettre à jour*** pour sauvegarder.

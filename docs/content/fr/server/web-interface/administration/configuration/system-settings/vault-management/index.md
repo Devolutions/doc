@@ -1,76 +1,25 @@
 ---
 eleventyComputed:
-  title: Gestion des {{ fr.VLT }}s
-  description: La section Gestion des {{ fr.VLT }}s vous permet de définir des permissions par défaut et de créer des ensembles de permissions, ainsi que de forcer la location d'enregistrement des Paramètres de mon compte.
+  title: "Gestion du {{ fr.VLT_MAJ }}"
+  description: La section Gestion du {{ fr.VLT }} vous permet de définir les permissions par défaut et de créer de nouveaux ensembles de permissions, ainsi que de forcer l'emplacement de sauvegarde des Paramètres de Mon Compte.
 ---
-La section ***Gestion des {{ fr.VLT }}s*** vous permet de définir des permissions par défaut et de créer des ensembles de permissions, ainsi que de forcer la location d'enregistrement des ***Paramètres de mon compte***.
+La section ***Gestion du {{ fr.VLT_MAJ }}*** vous permet de définir les permissions par défaut et de créer de nouveaux ensembles de permissions, ainsi que de forcer l'emplacement de sauvegarde des ***Paramètres de Mon Compte***.
+![Administration – Paramètres Système – Gestion du {{ fr.VLT_MAJ }}](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp2069.png)
 
-![Administration – Paramètres du système – Gestion des {{ fr.VLT }}s](https://cdnweb.devolutions.net/docs/fr/server/ServerOp2046.png)
+## Gestion du coffre
 
-## Permissions par défaut
-<table>
-	<tr>
-		<th>
-Option
-		</th>
-		<th>
-Description
-		</th>
-	</tr>
-	<tr>
-		<td>
-Autorisation
-		</td>
-		<td>
-Définit toutes les permissions par défaut dans les différents onglets à <b><i>Par défaut</i></b>, <b><i>Personnalisé</i></b> ou <b><i>Jamais</i></b>.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Accorder l'accès
-		</td>
-		<td>
-Permet l'accès à la fonctionnalité <b><i>Accorder l'accès en lot</i></b> après avoir sélectionné <b><i>Personnalisé</i></b> dans la liste déroulante <b><i>Autorisation</i></b>. Cela vous permet de définir des permissions ou des ensembles de permissions à plusieurs utilisateurs, groupes d'utilisateurs et/ou utilisateurs d'application en même temps.
-		</td>
-	</tr>
-</table>
+### Permissions par défaut
+| Option       | Description                                                                                           |
+|--------------|-------------------------------------------------------------------------------------------------------|
+| Permission   | Définir toutes les permissions par défaut dans les différents onglets comme ***Par défaut***, ***Personnalisé***, ou ***Interdit***. |
+| Octroyer l'accès | Obtenir l'accès à la fonctionnalité ***Octroi d'accès en lot*** lors de la sélection de ***Personnalisé*** dans la liste déroulante ***Permission***. Cela vous permet de définir des permissions et des ensembles de permissions pour plusieurs utilisateurs, groupes d'utilisateurs et/ou utilisateurs d'applications à la fois. |
 
-## Paramètres de mon compte
-<table>
-	<tr>
-		<th>
-Option
-		</th>
-		<th>
-Description
-		</th>
-	</tr>
-	<tr>
-		<td>
-Forcer la location d'enregistrement
-		</td>
-		<td>
-Permet de choisir de forcer ou non les <b><i>Paramètres de mon compte</i></b> à être sauvegardés dans la base de données ou localement.
-		</td>
-	</tr>
-</table>
+### Paramètres de mon compte
+| Option               | Description                                                                              |
+|----------------------|------------------------------------------------------------------------------------------|
+| Emplacement de sauvegarde forcé | Choisir de forcer ou non les ***Paramètres de Mon Compte*** à être sauvegardés dans la base de données ou localement. |
 
-## Ensemble de permissions
-<table>
-	<tr>
-		<th>
-Option
-		</th>
-		<th>
-Description
-		</th>
-	</tr>
-	<tr>
-		<td>
-Ajouter « + »
-		</td>
-		<td>
-Permet de créer une liste personnalisée de permissions qui peut être appliqués aux permissions d'une entrée, d'un dossier ou d'un {{ fr.VLT }} en passant par la fonctionnalité <b><i>Accorder l'accès en lot</i></b>. Certains ensembles de permissions existent déjà par défaut.
-		</td>
-	</tr>
-</table>
+### Ensembles de permissions
+| Option  | Description |
+|---------|-------------|
+| Ajouter "+" | Créer une liste personnalisée de permissions qui peut être appliquée aux permissions d'une entrée/dossier/coffre via la fonctionnalité ***Octroi d'accès en lot***. Certains ensembles de permissions existent déjà par défaut. |

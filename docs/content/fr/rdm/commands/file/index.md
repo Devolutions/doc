@@ -1,88 +1,85 @@
 ---
 eleventyComputed:
   title: Fichier
+  description: Le menu ***Fichier*** contient de nombreuses actions concernant l'application et la source de données. Ce menu est contextuel et dépend de la source de données connectée.
 ---
-Le menu ***Fichier*** contient de nombreuses actions concernant l'application et la source de données. Ce menu est contextuel et dépend de la source de données connectée.
-![Fichier](https://cdnweb.devolutions.net/docs/fr/rdm/windows/clip10025.png)
+Le menu ***Fichier*** contient de nombreuses actions concernant l'application et la source de données. Ce menu est contextuel et dépend de la source de données connectée.  
+![Fichier](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin6238.png) 
 
-### Mettre hors-ligne
+### Passer en mode Hors ligne/En ligne 
 
-Basculer le mode hors ligne de la source de données.
+Basculer le mode hors ligne de la source de données.  
 
-Pour plus d'informations, veuillez consulter [Mettre Hors-ligne](/fr/rdm/windows/data-sources/offline-mode/).
+Pour plus d'informations, veuillez consulter [Mode Hors ligne](/rdm/windows/data-sources/offline-mode/). 
 
-### Verrouiller l'application
+### Verrouiller l'application 
 
-Verrouiller et minimiser l'application.
+Verrouiller et minimiser l'application.  
 
-L'utilisateur est invité à entrer le mot de passe de la source de données lorsque l'application est restaurée (si la configuration l'exige).
+L'utilisateur est invité à saisir le mot de passe de la source de données lorsque l'application est restaurée (si requis par la configuration). 
 
-### Informations sur la source de données
+### Mes informations de source de données 
 
-Affiche les informations de configuration relatives à la source de données actuelle.
+Afficher les informations de configuration relatives à la source de données actuelle.  
 
-Pour plus d'informations, veuillez consulter [Informations sur la source de données](/fr/rdm/windows/commands/file/my-data-source-information/).
+Pour plus d'informations, veuillez consulter [Mes informations de source de données](/rdm/windows/commands/file/my-data-source-information/). 
 
-### {{ fr.DA }}
+### {{ fr.DA }} 
 
-Connectez-vous à un {{ fr.DA }} et créer une installation personnalisée pour {{ fr.RDM }}.
+Se connecter à un {{ fr.DA }}, créer {{ fr.CI }} pour {{ fr.RDM }}, gérer les clés de licence, et plus encore.  
 
-Pour plus d'informations, veuillez consulter [{{ fr.DA }}](/fr/rdm/windows/commands/file/devolutions-account/).
+Pour plus d'informations, veuillez consulter [{{ fr.DA }}](/rdm/windows/commands/file/devolutions-account/). 
 
-### Actualiser
+### Actualiser 
 
-Actualiser la source de données et récupérer les données les plus récentes.
+Actualiser la source de données et récupérer les données les plus récentes.  
 
-Pour plus d'informations, veuillez consulter [Actualiser](/fr/rdm/windows/commands/file/refresh/).
+Pour plus d'informations, veuillez consulter [Actualiser](/rdm/windows/commands/file/refresh/). 
 
-### Déconnecter la source de données
+### Sources de données 
 
-Déconnecter la source de données actuelle.
+Ouvrir l'écran de configuration des sources de données.  
 
-### Sources de données
+Pour plus d'informations, veuillez consulter [Sources de données](/rdm/windows/commands/file/data-sources/). 
 
-Ouvrir l'écran de configuration de la source de données.
+### Services en arrière-plan 
 
-Pour plus d'informations, veuillez consulter [Sources de données](/fr/rdm/windows/commands/file/data-sources/).
+Voir et exécuter les synchronisateurs.  
 
-### Services en arrière plan
+Pour plus d'informations, veuillez consulter [Services en arrière-plan](/rdm/windows/commands/file/background-services/). 
 
-Afficher et exécuter les synchroniseurs.
+### Paramètres de mon compte 
 
-Pour plus d'informations, veuillez consulter [Services en arrière plan](/fr/rdm/windows/commands/file/background-services/).
+Voir les informations concernant l'utilisateur actuel et éditer les informations d'identification personnelles.  
 
-### Paramètres de mon compte
+Pour plus d'informations, veuillez consulter [Paramètres de mon compte](/rdm/windows/commands/file/my-account-settings/). 
 
-Afficher des informations sur l'utilisateur actuel et modifier les identifiants personnels.
+### Changer la clé principale 
 
-Pour plus d'informations, veuillez consulter [Paramètres de mon compte](/fr/rdm/windows/commands/file/my-account-settings/).
+Invite à changer la clé principale actuelle  
 
-### Modifier le mot de passe
+Pour plus d'informations, veuillez consulter [Changer la clé principale](/rdm/windows/commands/file/change-master-key/). 
 
-Invite à modifier le mot de passe principal.
+### Importer 
 
-Pour plus d'informations, veuillez consulter [Modifier le mot de passe](/fr/rdm/windows/commands/file/change-master-key/).
+Importer des entrées dans la source de données.  
 
-### Importer
+Pour plus d'informations, veuillez consulter [Importer](/rdm/windows/commands/file/import/). 
 
-Importer des entrées dans la source de données.
+### Exporter 
 
-Pour plus d'informations, veuillez consulter [Importer](/fr/rdm/windows/commands/file/import/).
+Exporter des entrées de la source de données. 
 
-### Exporter
+Pour plus d'informations, veuillez consulter [Exporter](/rdm/windows/commands/file/export/). 
 
-Exporter les entrées de la source de données.
+### Options 
 
-Pour plus d'informations, veuillez consulter [Exporter](/fr/rdm/windows/commands/file/export/).
+Éditer les options de l'application.  
 
-### Modèles
+Pour plus d'informations, veuillez consulter [Options](/rdm/windows/commands/file/options/). 
 
-Modifier les modèles et les paramètres par défaut des entrées.
+### Modèles 
 
-Pour plus d'informations, veuillez consulter [Modèles](/fr/rdm/windows/commands/file/templates/).
+Éditer les modèles et les paramètres par défaut pour les entrées.  
 
-### Options
-
-Modifier les options de l'application.
-
-Pour plus d'informations, veuillez consulter [Options](/fr/rdm/windows/commands/file/options/).
+Pour plus d'informations, veuillez consulter [Modèles](/rdm/windows/commands/file/templates/). 

@@ -1,113 +1,33 @@
 ---
 eleventyComputed:
   title: "{{ fr.DA }}"
+  description: Dans Fichier – {{ fr.DA }}, créer et connecter votre {{ fr.RDM }} à votre {{ fr.DA }}. Le {{ fr.DA }} est gratuit pour les clients et inclut l'accès au {{ fr.CIM }}.
 ---
-Dans ***Fichier - {{ fr.DA }}*** vous pouvez créer et connecter {{ fr.RDM }} à votre {{ fr.DA }}. Le {{ fr.DA }} est gratuit pour les clients et comprend l'accès au ***{{ fr.CIM }}***.
-
-## Paramètres
-
-![{{ fr.DA }}](https://cdnweb.devolutions.net/docs/fr/rdm/windows/clip10026.png)
+Dans ***Fichier – {{ fr.DA }}***, créer et connecter votre {{ fr.RDM }} à votre {{ fr.DA }}. Le {{ fr.DA }} est gratuit pour les clients et inclut l'accès au ***{{ fr.CIM }}***.
+![{{ fr.DA }}](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip10026.png)
 
 ### {{ fr.DA }}
 
-<table>
-	<tr>
-		<th>
-OPTION
-		</th>
-		<th>
-DESCRIPTION
-		</th>
-	</tr>
-	<tr>
-		<td>
-Connexion ou Déconnection
-		</td>
-		<td>
-Connectez ou déconnectez-vous avec votre {{ fr.DA }}.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Créer un {{ fr.DA }}
-		</td>
-		<td>
-Créer un nouveau {{ fr.DA }}.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Modifier mon {{ fr.DA }}
-		</td>
-		<td>
-Modifier votre {{ fr.DA }}.
-		</td>
-	</tr>
-</table>
+| OPTION                   | DESCRIPTION                        |
+|--------------------------|------------------------------------|
+| Se connecter ou se déconnecter      | Se connecter ou se déconnecter avec votre {{ fr.DA }}. |
+| Créer un nouveau {{ fr.DA }} | Créer un nouveau {{ fr.DA }}.          |
+| Modifier {{ fr.DA }}         | Modifier votre {{ fr.DA }}.             |
+
 
 ### Paramètres
 
-<table>
-	<tr>
-		<th>
-OPTION
-		</th>
-		<th>
-DESCRIPTION
-		</th>
-	</tr>
-	<tr>
-		<td>
-Vous connecter automatiquement au démarrage
-		</td>
-		<td>
-Connectez-vous automatiquement à votre compte {{ fr.DA }} au démarrage de l'application.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Gardez-moi connecté
-		</td>
-		<td>
-Garder un jeton en mémoire pour rester connecté à votre {{ fr.DA }}.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Utiliser un mot de passe de l'application
-		</td>
-		<td>
-Utiliser le mot de passe de l'application pour vous connecter à votre {{ fr.DA }}.
-		</td>
-	</tr>
-</table>
+| OPTION                   | DESCRIPTION                        |
+|--------------------------|------------------------------------|
+| Connexion automatique au démarrage | Se connecter automatiquement à votre {{ fr.DA }} au démarrage de l'application.                                |
+| Me garder connecté                | Garder un jeton en mémoire pour rester connecté à votre {{ fr.DA }}.                                              |
+| Utiliser le mot de passe d'application         | Utiliser le [Mot de passe d'application](/rdm/kb/rdm-windows/how-to-articles/application-passwords-setup/) pour se connecter à votre {{ fr.DA }}. |
+
 
 ### Outils
 
-<table>
-	<tr>
-		<th>
 
-OPTION
-		</th>
-		<th>
-DESCRIPTION
-		</th>
-	</tr>
-	<tr>
-		<td>
-Générateur de fichier de configuration
-		</td>
-		<td>
-Créer un fichier d'installation {{ fr.RDM }} (.rdi). Consulter [Générateur de fichiers d'installation](/fr/rdm/windows/installation/client/custom-installer-service/installer-file-generator/).
-		</td>
-	</tr>
-	<tr>
-		<td>
-{{ fr.CIM }}
-		</td>
-		<td>
-Consulter [{{ fr.CIS }}](/fr/rdm/windows/installation/client/custom-installer-service/).
-		</td>
-	</tr>
-</table>
+| OPTION                   | DESCRIPTION                        |
+|--------------------------|------------------------------------|
+| Générateur de fichier d'installation | Créer un fichier d'installation {{ fr.RDM }} (.rdi). Consulter [Générateur de fichier d'installation](/rdm/windows/installation/client/custom-installer-service/installer-file-generator/). |
+| {{ fr.CIM }}           | Consulter [{{ fr.CIM }}](/rdm/windows/installation/client/custom-installer-service/).                                    |

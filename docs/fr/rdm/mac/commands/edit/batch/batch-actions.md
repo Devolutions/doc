@@ -1,113 +1,43 @@
 ---
 eleventyComputed:
-  title: Modifier (Actions spéciales)
+  title: Actions par lot
 ---
-Utiliser les options ***Modifier - Modifier (Actions spéciales)*** pour modifier les paramètres de plusieurs entrées en une seule opération. Il peut être utilisé pour une commande d'action par lots sur un groupe d'entrée.
+Utiliser Éditer – Édition par lot – Actions par lot pour changer les paramètres de plusieurs sessions en une seule opération. Cela peut être utilisé pour une commande d'action par lot sur un groupe de sessions.
 
 {% snippet, "badgeInfo" %}
-Les modifications par lots sont appliquées qu'aux entrées actuellement sélectionnées dans votre ***{{ fr.NPANE }}***.
+Les Actions par lot sont uniquement appliquées aux entrées actuellement sélectionnées dans votre ***{{ fr.NPANE }}***.
 {% endsnippet %}
 
-![Modifier - Modifier (Actions spéciales)](https://cdnweb.devolutions.net/docs/fr/rdm/mac/clip4074.png)
+![Édition par lot - Actions par lot](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10350.png)
 
 ## Paramètres
 
 ### Général
+![Action par lot - Général](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10351.png)
 
-![Modifier - Général](https://cdnweb.devolutions.net/docs/fr/rdm/mac/clip4076.png)
-
-<table>
-	<tr>
-		<td>
-Option
-		</td>
-		<td>
-Description
-		</td>
-	</tr>
-	<tr>
-		<td>
-AppleScript personnalisé
-		</td>
-		<td>
-Exécuter une commande AppleScript personnalisée sur plusieurs entrées sélectionnées simultanément pour mettre à jour les propriétés.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Détecter Adresses Mac
-		</td>
-		<td>
-Analysera toutes vos entrées dans votre base de données actuelle pour détecter s'il y a des adresses Mac
-		</td>
-	</tr>
-</table>
+| OPTION               | DESCRIPTION                                                                                          |
+|----------------------|------------------------------------------------------------------------------------------------------|
+| Script AppleScript personnalisé   | Exécuter une commande Applescript personnalisée sur plusieurs sessions sélectionnées en même temps pour mettre à jour les propriétés. |
+| Détecter les adresses Mac | Il analysera toutes vos sessions dans votre base de données actuelle pour détecter s'il y a des adresses mac.  |
 
 ### Web
-
 {% snippet, "badgeInfo" %}
-Ces options ne fonctionnent qu'avec l'entrée de session ***Site Web***, PAS avec l'entrée d'informations ***Site Web (Ancien)***.
+Ces options fonctionneront uniquement pour les entrées de session ***Site Web***, PAS pour les entrées de données ***Site Web (Ancien)***.
 {% endsnippet %}
 
-![Modifier - Web](https://cdnweb.devolutions.net/docs/fr/rdm/mac/clip0249.png)
+![Action par lot – Web](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10102.png)
 
-<table>
-	<tr>
-		<td>
+| OPTION                    | DESCRIPTION |
+|---------------------------|-------------|
+| Découvrir le remplissage automatique HTML    | Une fois que vous avez sélectionné vos entrées de session ***Site Web*** et exécuté l'action par lot, cela remplira automatiquement les informations de connexion HTML. |
+| Définir le remplissage automatique HTML par défaut | Une fois que vous avez sélectionné vos entrées de session ***Site Web*** et exécuté l'action par lot, cela remplira automatiquement les champs ID d'utilisateur et ID de mot de passe avec les valeurs par défaut. |
 
-Option
-		</td>
-		<td>
-Description
-		</td>
-	</tr>
-	<tr>
-		<td>
-Remplissage contrôles HTML par découverte
-		</td>
-		<td>
-Une fois que vous avez sélectionné vos entrées de ***Site Web*** et exécuté l'action par lots, il remplira automatiquement les informations de connexion HTML.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Définir remplissage contrôle HTML par défaut
-		</td>
-		<td>
-Une fois que vous avez sélectionné vos entrées de ***Site Web*** et exécuté l'action par lots, il remplira automatiquement les champs ID de l'utilisateur et ID du mot de passe avec les valeurs par défaut.
-		</td>
-	</tr>
-</table>
+![Paramètres de contrôle ID HTML de site Web](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10352.png)
 
-![Session Site Web - ID du contrôle HTML](https://cdnweb.devolutions.net/docs/fr/rdm/mac/clip4077.png)
+### SSH
+![Action par lot - Web](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10103.png)
 
-### Convert to
-
-![Modifier - ConvertTo](https://cdnweb.devolutions.net/docs/fr/rdm/mac/clip0250.png)
-
-<table>
-	<tr>
-		<td>
-Option
-		</td>
-		<td>
-Description
-		</td>
-	</tr>
-	<tr>
-		<td>
-Convertir Putty/Rebex Session en SSH/Telnet/PortForward Session
-		</td>
-		<td>
-Convertira automatiquement vos sessions Putty/Rebex sélectionnées en sessions SSH/Telnet/PortForward.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Convertir session SSH/Telnet/PortForward  Putty/Rebex
-		</td>
-		<td>
-Convertira automatiquement vos sessions SSH/Telnet/PortForward sélectionnées en sessions Putty/Rebex.
-		</td>
-	</tr>
-</table>
+| OPTION                                                        | DESCRIPTION |
+|---------------------------------------------------------------|-------------|
+| Convertir la session Putty/Rebex en session SSH/Telnet/PortForward | Cela convertira automatiquement vos sessions Putty/Rebex sélectionnées en sessions SSH/Telnet/PortForward. |
+| Convertir la session SSH/Telnet/PortForward en session Putty/Rebex | Cela convertira automatiquement vos sessions SSH/Telnet/PortForward sélectionnées en sessions Putty/Rebex. |

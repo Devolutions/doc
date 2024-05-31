@@ -1,20 +1,18 @@
 ---
 eleventyComputed:
-  title: Modifier la clé maitresse
+  title: Gérer le mot de passe
 ---
-Vous pouvez appliquer une clé maitresse pour crypter les fichiers de données de la source de données suivante :
+Vous pouvez appliquer une Clé Maîtresse pour chiffrer les fichiers de données des sources de données suivantes :
 
-* [XML](/fr/rdm/mac/data-sources/data-sources-types/xml/)
-* [Dropbox](/fr/rdm/mac/data-sources/data-sources-types/dropbox/)
+* [XML](DataSource_Xml)
+* [Dropbox](DataSource_Dropbox)
 
-![Clé maitresse](https://cdnweb.devolutions.net/docs/fr/rdm/mac/clip0243.png)
+![Clé Maîtresse](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10099.png)
 
-Il est généralement recommandé d'appliquer une clé maitresse à vos sources de données XML ou Dropbox, car cela ajoute une autre couche de sécurité protégeant vos sessions distantes.
+Il est généralement recommandé d'appliquer une Clé Maîtresse à vos sources de données XML ou Dropbox car cela ajoute une couche supplémentaire de sécurité protégeant vos Sessions à Distance.
 
-L'utilisation d'une fonction de clé maitresse empêchera les utilisateurs non autorisés de voir/accéder facilement aux sessions stockées dans votre source de données.
+L'utilisation de la fonction Clé Maîtresse empêchera les utilisateurs non autorisés de pouvoir facilement voir/accéder aux Sessions stockées dans votre Source de Données.
 
 {% snippet, "badgeCaution" %}
-Si jamais vous perdez votre clé maitresse, il nous sera impossible de récupérer vos données. Veuillez vous assurer que vous vous en souvenez ou que vous la sauvegardez dans un endroit sûr.
+Si vous perdez jamais votre clé maîtresse, il nous sera impossible de récupérer vos données. Veuillez vous assurer de vous souvenir ou de sauvegarder votre clé maîtresse dans un endroit sûr.
 {% endsnippet %}
-
-

@@ -1,23 +1,23 @@
 ---
 eleventyComputed:
-  title: Style
+  title: Style de l'interface utilisateur
 ---
-{{ fr.RDM }} prend en charge différents styles d'Interface utilisateur (parfois appelés thèmes). Ceux-ci influencent grandement l'aspect visuel de l'Interface utilisateur ainsi que son mode de fonctionnement.
+{{ fr.RDMMAC }} prend en charge différents styles d'interface utilisateur (parfois connus sous le nom de skins). Ces derniers influencent grandement l'aspect visuel de l'interface utilisateur ainsi que son mode de fonctionnement. Deux styles existent actuellement :
 
 * Ruban
 * Classique
 
 ## Configuration
 
-Pour sélectionner le style d'***Interface utilisateur***, vous devez aller dans ***Fichier - Préférences - Interface utilisateur***.
-![Préférences - Interface utilisateur](https://cdnweb.devolutions.net/docs/fr/rdm/mac/clip4319.png)
+Pour sélectionner le style d'interface utilisateur, vous devez aller dans ***Fichier - Préférences - Interface utilisateur***.
+![Interface utilisateur - Options](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip6001.png)
 
 ### Ruban
 
-Les icônes et le texte facilitent l'exploration des fonctionnalités avec le style ***Ruban***.
-![Écran principal {{ fr.RDM }} - Style ruban](https://cdnweb.devolutions.net/docs/fr/rdm/mac/clip4320.png)
+Le ruban est le style par défaut de {{ fr.RDMMAC }} qui propose un contrôle avancé appelé ruban. Les icônes et le texte facilitent l'apprentissage des fonctionnalités existantes.
+![Écran principal de RDM - Style Ruban](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10550.png)
 
 ### Classique
 
-Style classique de version précédente, il contient un menu standard pour invoquer des commandes.
-![Écran principal {{ fr.RDM }} - Style classique](https://cdnweb.devolutions.net/docs/fr/rdm/mac/clip4321.png)
+Classique est le style de la génération précédente de {{ fr.RDMMAC }}, il comporte un menu standard pour invoquer les commandes.
+![Menu principal de RDM - Style Classique](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10551.png)

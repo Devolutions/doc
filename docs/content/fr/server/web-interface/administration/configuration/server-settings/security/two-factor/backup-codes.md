@@ -1,26 +1,33 @@
 ---
 eleventyComputed:
-  title: Code de sauvegarde
+  title: Codes de secours
+  description: Les codes de secours sont des codes de validation qui fournissent aux utilisateurs un accès unique à {{ fr.DVLS }} lorsqu'ils n'ont pas accès à leur produit ou appareil d'authentification à deux facteurs (A2F) habituel. Ils doivent être générés au préalable et conservés en lieu sûr en cas d'urgence.
+  keywords:
+  - code de secours
 ---
-Les codes de sauvegarde sont des codes de validation qui fournissent aux utilisateurs un accès unique à {{ fr.DVLS }} lorsqu'ils n'ont pas accès à leur produit ou appareil à deux facteurs d'authentification habituelle. Ceux-ci doivent être générés avant et être gardés en sécurité en cas d'urgence.
+Les codes de secours sont des codes de validation qui fournissent aux utilisateurs un accès unique à {{ fr.DVLS }} lorsqu'ils n'ont pas accès à leur produit ou appareil d'authentification multifacteur (AMF) habituel. Ils doivent être générés au préalable et conservés en lieu sûr en cas d'urgence.
 
-L'administrateur doit activer l'option et les utilisateurs peuvent ensuite générer leurs codes de sauvegarde.
+Un administrateur doit d'abord activer l'option, après quoi les utilisateurs peuvent générer leurs codes de secours.
 
 ## Paramètres
 
-### Administrateur - Activer les codes de sauvegarde
+### Activer les Codes de Secours (Administrateur)
 
-Un administrateur doit activer les codes de sauvegarde comme méthode alternative d'authentification à deux facteurs. Pour activer l'option, accédez à ***Administration – Paramètres du serveur de mot de passe – Deux facteurs***.
-![Administration - Paramètres de {{ fr.DVLS }} - Deux facteurs](https://cdnweb.devolutions.net/docs/fr/server/ServerOp7017.png)
-Cliquer sur ***Configurer*** pour définir le nombre de codes de sauvegarde qu'un utilisateur peut générer.
-![Nombre de codes de sauvegarde](https://cdnweb.devolutions.net/docs/fr/server/ServerOp7018.png)
+Un administrateur doit activer les codes de secours comme méthode AMF alternative :
 
-### Utilisateur – Générer des codes de sauvegarde
+1. Dans ***Administration – Paramètres du Serveur – Authentification Multifacteur***, cocher la case ***Codes de secours***, puis cliquer sur ***Configurer*** à côté de l'option.
+![Activer les Codes de Secours comme une Méthode AMF Alternative](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp7017.png)
+1. Définir le ***Nombre de codes de secours*** qu'un utilisateur peut générer, puis cliquer sur ***Enregistrer***.
+![Configurer le Nombre de Codes de Secours](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp7018.png)
+1. Cliquer sur l'icône ***Enregistrer*** de la section ***Authentification Multifacteur*** pour sauvegarder vos modifications.
 
-1. Pour générer vos codes de sauvegarde, cliquer sur votre avatar dans le coin supérieur droit.
-![Avatar de l'utilisateur](https://cdnweb.devolutions.net/docs/fr/server/ServerOp7019.png)
-1. Cliquer sur ***Modifier votre compte***.
-![Modifier votre compte](https://cdnweb.devolutions.net/docs/fr/server/ServerOp8018.png)
-1. Cliquer sur ***Alternate 2FA***, puis (a) cliquer sur ***Generate backup codes***. Une liste de codes de sauvegarde s'affiche (b). L'utilisateur peut copier et coller les codes et les enregistrer ailleurs.
-![Alternate 2FA - Generate Backup Codes](https://cdnweb.devolutions.net/docs/fr/server/ServerOp7021.png)
+{% snippet, "badgeInfo" %}
+Si votre ***Utilisation AMF*** est réglée sur ***AMF Optionnel par Utilisateur***, vous devez configurer l'AMF pour chaque utilisateur avant qu'ils puissent générer des codes de secours. Voir [Authentification Multifacteur (Modifier Utilisateur)](/server/web-interface/administration/security-management/users/edit-user-two-factor/) pour plus de détails.
+{% endsnippet %}
 
+### Générer des Codes de Secours (Utilisateur)
+
+1. Pour générer des codes de secours, cliquer sur votre avatar dans le menu latéral de {{ fr.DVLS }}, puis cliquer sur ***Modifier votre Compte***.
+![Modifier votre Compte](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp7020.png)
+1. Aller à ***AMF Alternatif*** et cliquer sur ***Générer des codes de secours***. Une liste de codes de secours sera affichée. L'utilisateur peut copier et coller les codes et les stocker quelque part en sécurité en cas d'urgence.
+![AMF Alternatif – Générer des codes de secours](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp7021.png)

@@ -1,5 +1,5 @@
 ---
 eleventyComputed:
-  title: Copie de sauvegarde
+  title: Sauvegarde
   order: 50
 ---

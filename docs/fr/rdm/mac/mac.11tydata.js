@@ -1,3 +1,4 @@
+```javascript
 module.exports = function() {
   return {
     layout: 'layouts/markdown.njk',
@@ -5,3 +6,4 @@ module.exports = function() {
     tree: 'rdm/mac'
   }
 }
+```

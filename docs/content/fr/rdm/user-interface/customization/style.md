@@ -2,25 +2,24 @@
 eleventyComputed:
   title: Style
 ---
-{{ fr.RDM }} prend en charge différents styles d'Interface utilisateur (parfois appelés thèmes). Ceux-ci influencent grandement l'aspect visuel de l'Interface utilisateur ainsi que son mode de fonctionnement.
+{{ fr.RDM }} prend en charge différents styles d'***Interface Utilisateur*** (parfois connus sous le nom de skins). Ces derniers influencent grandement l'aspect visuel de l'***Interface Utilisateur*** ainsi que son mode de fonctionnement. Trois styles existent actuellement :
 
-* [Ruban](#ruban)
+* [Ribbon](#ribbon)
 * [Menu](#menu)
 
 ## Configuration
 
-Pour sélectionner le style d'Interface utilisateur, vous devez aller dans ***Fichier – Options – Interface utilisateur*** et modifier l ***'En-tête principal***.
-![Options - Interface utilisateur](https://cdnweb.devolutions.net/docs/fr/rdm/windows/clip11406.png)
+Pour sélectionner le style d'***Interface Utilisateur***, aller dans ***Fichier – Paramètres – Interface Utilisateur*** et modifier le ***Main header***.
+![Options - Interface Utilisateur](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip11406.png)
 
 ## Styles existants
 
-### Ruban
+### Ribbon
 
-Les icônes et le texte facilitent l'exploration des fonctionnalités avec le style ***Ruban***.
-![Interface utilisateur Ruban](https://cdnweb.devolutions.net/docs/fr/rdm/windows/clip11407.png)
+Le dernier style arbore un ruban. Les icônes et le texte facilitent l'exploration des fonctionnalités.
+![Interface Utilisateur Ribbon](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip11407.png)
 
 ### Menu
 
-Style de version précédente, il contient un menu standard pour invoquer des commandes.
-![Interface utilisateur Menu](https://cdnweb.devolutions.net/docs/fr/rdm/windows/clip11404.png)
-
+Style de la génération précédente, il contient un menu standard pour invoquer les commandes.
+![Interface Utilisateur par défaut](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip11404.png)

@@ -1,21 +1,18 @@
 ---
 eleventyComputed:
-  title: Application client
+  title: Client
+  description: "{{ fr.RDMMAC }} peut être téléchargé sous forme de fichier .dmg via notre site Web Devolutions."
 ---
-{{ fr.RDMMAC }} peut être téléchargé en tant que fichier .dmg via notre [site Web Devolutions](https://devolutions.net/fr/remote-desktop-manager/home/download).  
+{{ fr.RDMMAC }} peut être téléchargé sous forme de fichier .dmg via notre [site Web Devolutions](https://devolutions.net/remote-desktop-manager/home/download).
 
-## Installation 
+## Installation
 
-Selon le support téléchargé, exécutez le programme d'installation ou extrayez les fichiers de l'archive dans n'importe quel dossier et lancez l'exécutable. 
+Selon le média téléchargé, exécuter le programme d'installation ou extraire les fichiers de l'archive dans n'importe quel dossier, puis lancer l'exécutable.
 
-## Licence 
+## Licence
 
-{{ fr.RDM }} Édition Team est livré avec un essai de 30 jours. Si vous possédez une clé de licence de l'Édition Team, veuillez suivre les instructions pour l'enregistrement de l'[Édition Team](/fr/rdm/mac/installation/client/registration/team-edition/). Pour enregistrer l'édition gratuite, reportez-vous à [Édition Free](/fr/rdm/mac/installation/client/registration/trial-request/). 
+{{ fr.RDMMAC }} Édition Équipe vient avec un essai de 30 jours. Si vous possédez une licence achetée de l'Édition Équipe, veuillez suivre les instructions dans [Édition Équipe](/rdm/mac/installation/client/registration/team-edition/). Pour enregistrer l'Édition Gratuite, veuillez vous référer à [Édition Gratuite](/rdm/mac/installation/client/registration/trial-request/).
 
-## Source de données 
+## Source de données
 
-Par défaut, une source de données locale a déjà été créée en utilisant le format SQLite. Vous pouvez ajouter autant de sources de données que nécessaire. Veuillez consulter [Sources de données](/fr/rdm/mac/data-sources/) pour plus d'informations. 
-
-{% snippet, "badgeInfo" %} 
-Pour utiliser une source de données SQL Server / Azure SQL, veuillez lire [Configurer le serveur SQL](/fr/rdm/mac/installation/configure-sql-server/). 
-{% endsnippet %}
+Par défaut, une source de données locale a déjà été créée en utilisant le format SQLite. Vous pouvez ajouter autant de sources de données que nécessaire. Veuillez voir [Sources de données](rdm/mac/data-sources/) pour plus d'informations. Pour utiliser une source de données SQL Server, veuillez lire [Configurer SQL Server](/rdm/mac/installation/configure-sql-server/).

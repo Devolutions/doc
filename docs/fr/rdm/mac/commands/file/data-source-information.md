@@ -1,44 +1,49 @@
 ---
 eleventyComputed:
-  title: Informations sur la source de données
+  title: Informations sur ma source de données
 ---
-Utiliser ***Fichier - Informations sur la source de données*** pour afficher les détails des informations sur la source de données comme le nom d'utilisateur actuel et l'accès de sécurité. L'écran ***Informations sur la source de données*** vous donnera également les informations de configuration de la source de données telles que la version de la base de données et le mode hors ligne.
+Utiliser le Fichier - Mes Informations sur la Source de Données pour afficher les détails des informations de la source de données comme le nom d'utilisateur actuel et l'accès à la sécurité. L'écran Mes Informations sur la Source de Données vous donnera également les informations de configuration de la source de données telles que la version de la base de données et le mode Hors ligne effectif.
 
 {% snippet, "badgeInfo" %}
-L'affichage des ***Informations sur la source de données*** peut être différent selon les [Types de sources de données](/fr/rdm/mac/data-sources/data-sources-types/).
+L'affichage de Mes Informations sur la Source de Données peut être différent selon les [Types de Sources de Données](/rdm/mac/data-sources/data-sources-types/).
 {% endsnippet %}
-
 
 ## Paramètres
 
 ### Général
 
-![Informations de la source de données - Général](https://cdnweb.devolutions.net/docs/fr/rdm/mac/clip4017.png)
+![Informations sur Ma Source de Données - Onglet Général](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10305.png)
 
-L'onglet ***Général*** affiche des informations sur la source de données telles que :
+L'onglet Général affiche des informations sur la source de données telles que :
 
-* Utilisateur
+* Nom d'utilisateur
 * Description
-* Administrateur
-* Autoriser le mode déconnecté
-* Permettre de glisser-déposer
+* Est administrateur
+* Autoriser le mode hors ligne
+* Autoriser la révélation du mot de passe
+* Autoriser le glisser-déposer
 
-### Entrées
+### Sessions
 
-![Informations de la source de données - Entrées](https://cdnweb.devolutions.net/docs/fr/rdm/mac/clip4018.png)
+![Informations sur Ma Source de Données - Sessions](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10306.png)
 
-L'onglet ***Entrées*** affichera les droits d'utilisateur sur les sessions tels que :
+L'onglet Sessions affichera les droits de l'utilisateur sur les sessions telles que :
 
-* Ajouter des entrées
-* Modifier des entrées
-* Supprimer les entrées
-* Afficher détails de la session
-* Afficher la section d'informations
-* Importer des entrées
-* Exporter des entrées
-* Permettre l'ajout d'entrées dans le dossier racine
+* Ajouter des sessions
+* Modifier des sessions
+* Supprimer des sessions
+* Voir les détails de la session
+* Voir les informations de la session
+* Importer des sessions
+* Exporter des sessions
+* Autoriser l'ajout d'entrée dans le dossier racine
 
-### Rôles
-L'onglet ***Rôles*** affiche les rôles dont l'utilisateur est membre et les droits associés à ces rôles.
-![Informations de la source de données - Rôles](https://cdnweb.devolutions.net/docs/fr/rdm/mac/clip4020.png)
+### Groupes
 
+L'onglet Groupes affiche quels droits l'utilisateur a dans quels groupes d'utilisateurs.
+![Informations sur Ma Source de Données - Groupes](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10307.png)
+
+### Groupes d'utilisateurs
+
+L'onglet Rôles affiche les rôles dont l'utilisateur est membre et les droits liés à ces rôles.
+![Informations sur la Source de Données - Rôles](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10308.png)

@@ -2,23 +2,8 @@
 eleventyComputed:
   title: Spécifique à l'application
 ---
-![Administration – Paramètres du système – Spécifique à l'application](https://cdnweb.devolutions.net/docs/fr/server/ServerOp2043.png)
+![Administration – Paramètres du système – Spécifique à l'application](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp2058.png)
 
-<table>
-	<tr>
-		<th>
-Option
-		</th>
-		<th>
-Description
-		</th>
-	</tr>
-	<tr>
-		<td>
-Activer la synchronisation lancée par les non administrateurs
-		</td>
-		<td>
-Permet aux utilisateurs qui ne sont pas des administrateurs d'activer la synchronisation.
-		</td>
-	</tr>
-</table>
+| Option                                       | Description                                                               |
+|----------------------------------------------|---------------------------------------------------------------------------|
+| Activer la synchronisation par les non-administrateurs | Permettre aux utilisateurs qui ne sont pas administrateurs d'activer la synchronisation. |

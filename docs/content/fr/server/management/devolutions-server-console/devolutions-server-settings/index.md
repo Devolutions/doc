@@ -1,4 +1,4 @@
 ---
 eleventyComputed:
-  title: Paramètres de {{ fr.DVLS }}
+  title: "{{ fr.DVLS }} paramètres"
 ---

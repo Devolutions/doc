@@ -1,8 +1,8 @@
 ---
 eleventyComputed:
-  title: Changer le mot de passe
+  title: Changer de mot de passe
+  description: Vous pouvez modifier votre mot de passe {{ fr.DA }} dans la section Changer de mot de passe.
 ---
-Vous pouvez modifier le mot de passe de votre {{ fr.DA }} dans la section ***Changer le mot de passe***. Par sécurité, vous pouvez choisir de déconnecter tous les autres appareils associés à votre {{ fr.DA }} après la mise à jour du mot de passe.
+Vous pouvez modifier votre mot de passe {{ fr.DA }} dans la section ***Changer de mot de passe***. Comme mesure de sécurité, vous pouvez choisir de déconnecter tous les autres appareils associés à votre {{ fr.DA }} après la mise à jour du mot de passe.
 
-![!!Cloud4055](https://cdnweb.devolutions.net/docs/fr/cloud/Cloud4055.png)
-
+![!!Cloud4043](https://cdnweb.devolutions.net/docs/docs_en_cloud_Cloud4043.png)

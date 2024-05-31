@@ -1,20 +1,20 @@
 ---
 eleventyComputed:
-  title: Source de données avancées
+  title: Source de données avancée
 ---
-Les ***Sources de données avancées*** s'exécutent généralement sur un système de gestion avancé, soit un système de gestion de base de données ou nos propres {{ fr.DCS }}.  
+***Les Sources de Données Avancées*** sont des sources de données hautement configurables, typiquement exécutées sur un système de gestion avancé, tel qu'un système de gestion de base de données ou nos propres services en ligne.
 
-Elles augmentent considérablement l'ensemble des fonctions de gestion disponibles pour les administrateurs, telles que :  
+Elles augmentent considérablement l'ensemble des fonctionnalités de gestion disponibles pour les administrateurs, telles que :
 
-* Téléchargement de documents et pièces jointes des entrées 
-* Audit et journalisation 
-* Sécurité avancée avec la [Gestion des utilisateurs](/fr/rdm/windows/commands/administration/management/user-management/) 
-* [Mode hors ligne](/fr/rdm/windows/data-sources/offline-mode/) 
-* [Authentification 2 facteurs](/fr/rdm/windows/data-sources/multi-factor-authentication/) 
+* Téléverser des documents et joindre des entrées.
+* Auditer et enregistrer.
+* Sécurité avancée avec [Gestion des utilisateurs](/rdm/windows/commands/administration/management/user-management/).
+* [Mode hors ligne](/rdm/windows/data-sources/offline-mode/).
+* [Authentification à deux facteurs](/rdm/windows/data-sources/multi-factor-authentication/).
 
-Actuellement, les sources de données avancées sont les suivantes : 
+Actuellement, les ***Sources de Données Avancées*** sont :
 
-* [{{ fr.DHUBB }}](/fr/rdm/windows/data-sources/data-sources-types/advanced-data-sources/hub-business/) 
-* [{{ fr.DVLS }}](/fr/rdm/windows/data-sources/data-sources-types/advanced-data-sources/server/) 
-* [Microsoft Azure SQL](/fr/rdm/windows/data-sources/data-sources-types/advanced-data-sources/microsoft-azure-sql/) 
-* [Microsoft SQL Server (MSSQL)](/fr/rdm/windows/data-sources/data-sources-types/advanced-data-sources/microsoft-sql-server/) 
+* [{{ fr.DHUBB }}](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/hub-business/).
+* [{{ fr.DVLS }}](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/server/).
+* [Microsoft Azure SQL](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/microsoft-azure-sql/).
+* [Microsoft SQL Server (MSSQL)](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/microsoft-sql-server/).

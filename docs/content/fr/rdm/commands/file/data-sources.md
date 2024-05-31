@@ -1,74 +1,48 @@
 ---
 eleventyComputed:
   title: Sources de données
+  description: Utiliser Fichier – Sources de données pour gérer les sources de données. {{ fr.RDM }} prend en charge plusieurs types de source de données. La plupart sont disponibles uniquement avec une édition Team de {{ fr.RDM }}.
 ---
-Utiliser ***Fichier – Sources de données*** pour gérer les sources de données. {{ fr.RDM }} prend en charge plusieurs types de sources de données. La plupart sont disponibles uniquement avec l'Édition Team de {{ fr.RDM }}.
+Utiliser ***Fichier – Sources de données*** pour gérer les sources de données. {{ fr.RDM }} prend en charge plusieurs types de source de données. La plupart sont disponibles uniquement avec une édition Team de {{ fr.RDM }}.
 
-Consulter [Types de sources de données](/fr/rdm/windows/data-sources/data-sources-types/) pour plus d'informations sur tous les types de sources de données pris en charge.
-![Sources de données](https://cdnweb.devolutions.net/docs/fr/rdm/windows/clip10080.png)
+Veuillez vous référer à [Types de Sources de Données](/rdm/windows/data-sources/data-sources-types/) pour plus d'informations sur tous les types de sources de données pris en charge.
+![Source de Données](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip11314.png)
 
 ## Paramètres
 
 ### Ajouter une nouvelle source de données
 
-Utiliser le bouton ***Nouvelle source de données*** pour créer une configuration de source de données.
+Utiliser le bouton ***Ajouter*** pour créer une configuration de source de données.
 
 ### Modifier/Dupliquer/Supprimer la source de données
 
-Utiliser les boutons respectivement pour modifier, dupliquer ou supprimer la configuration de la source de données sélectionnée.
-
+Utiliser les boutons pour respectivement modifier, dupliquer ou supprimer la configuration de source de données sélectionnée.
 {% snippet, "badgeInfo" %}
-Seule la configuration sera supprimée, mais le fichier ou la base de données réelle sera toujours disponible.
+Seule la configuration sera supprimée mais le fichier ou la base de données réelle restera disponible.
 {% endsnippet %}
 
+### Importer/Exporter la configuration de source de données
 
-### Importer/Exporter la configuration de la source de données
+Utiliser les boutons pour respectivement importer ou exporter la configuration de source de données sélectionnée. La configuration est exportée en tant que fichier ***.RDD***.
 
-Utiliser les boutons Importer/Exporter respectivement pour importer ou exporter la configuration de la source de données sélectionnée. La configuration est exportée sous forme de fichier ***.RDD***.
+{% snippet, "badgeCaution" %}
+Le fichier RDD n'inclut pas le contenu de la source de données ; seule la configuration est exportée. Utiliser la fonctionnalité d'exportation de l'entrée pour sauvegarder ou copier le contenu de la base de données.
+{% endsnippet %}
 
 ### Verrouiller la source de données
 
-Utiliser le bouton verrouillage pour verrouiller la source de données avec un mot de passe pour empêcher toute modification à une configuration de source de données. Ceci est utile lorsque vous disposez d'informations d'identification sensibles que vous souhaitez protéger des autres utilisateurs.
+Utiliser le bouton ***verrouiller*** pour verrouiller la source de données avec un mot de passe afin d'empêcher toute modification de la configuration de la source de données. Cela est utile lorsque vous avez des informations d'identification sensibles que vous souhaitez protéger des autres utilisateurs.
 
 ### Déverrouiller la source de données
 
-Utiliser le bouton déverrouillage pour déverrouiller une source de données verrouillée par un mot de passe.
+Utiliser le bouton ***déverrouiller*** pour déverrouiller une source de données verrouillée avec un mot de passe.
 
 ### Au démarrage
 
-Choisir la source de données à laquelle vous connectez au démarrage de l'application.
+Choisir quelle source de données connecter lorsque l'application démarre.
 
-<table>
-	<tr>
-		<th>
-OPTION
-		</th>
-		<th>
-DESCRIPTION
-		</th>
-	</tr>
-	<tr>
-		<td>
-Utiliser la source de données par défaut
-		</td>
-		<td>
-Définir la source de données que vous souhaitez toujours ouvrir au démarrage.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Dernière source de données utilisée
-		</td>
-		<td>
-Ouvrir avec la dernière source de données utilisée.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Demander la source de données
-		</td>
-		<td>
-A message box will open on startup for the data source selection. Une boîte de dialogue s'ouvrira au démarrage pour la sélection de la source de données.
-		</td>
-	</tr>
-</table>
+| OPTION                | DESCRIPTION                                                    |
+|-----------------------|----------------------------------------------------------------|
+| Utiliser la source de données par défaut | Définir la source de données que vous souhaitez toujours ouvrir au démarrage. |
+| Dernière source de données utilisée | Ouvrir avec la dernière source de données utilisée.                           |
+| Demander la source de données | Une boîte de message s'ouvrira au démarrage pour la sélection de la source de données. |

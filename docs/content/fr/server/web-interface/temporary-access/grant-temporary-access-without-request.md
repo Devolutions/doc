@@ -1,27 +1,25 @@
----
+```yaml
 eleventyComputed:
-  title: Accorder un accès temporaire à une entrée dans {{ fr.DVLS }}
+  title: Octroyer un accès temporaire à une entrée dans {{ fr.DVLS }}
   order: 30
-  description:  Les approbateurs peuvent accorder un accès temporaire sans demande à un utilisateur et même si ce dernier dispose déjà d'un accès.
----
-{% snippet, "badgeNotice" %} 
-Pour apprendre comment approuver et refuser une demande, consultez [Approuver un accès temporaire à une entrée dans {{ fr.DVLS }}](/fr/server/web-interface/temporary-access/approve-temporary-access/). 
+  description: Les approbateurs peuvent octroyer un accès temporaire sans demande à un utilisateur, même si celui-ci a déjà accès.
+```
+{% snippet, "badgeNotice" %}
+Pour apprendre à approuver ou refuser une demande, visiter [Approuver un accès temporaire à une entrée dans {{ fr.DVLS }}](/server/web-interface/temporary-access/approve-temporary-access/).
 {% endsnippet %}
 
-La fonction d'***Accès temporaire*** permet aux utilisateurs de demander une élévation temporaire de leurs permissions pour une entrée spécifique. Les approbateurs peuvent accorder un ***accès temporaire*** sans demande à un utilisateur et même si ce dernier dispose déjà d'un accès.
+La fonctionnalité ***Accès Temporaire*** permet aux utilisateurs de demander une élévation temporaire de leurs permissions pour une entrée spécifique. Les approbateurs peuvent octroyer un ***Accès Temporaire*** sans demande de la part d'un utilisateur et même si l'utilisateur a déjà accès.
 
-## Accorder un accès temporaire
+## Octroyer un accès temporaire
 
-1. Dans le ***Tableau de bord*** de {{ fr.DVLS }}, sélectionnez l'entrée à laquelle vous souhaitez accorder l'accès.  
-1. Cliquer sur ***Plus*** – ***Accorder un accès temporaire***.  
-![Accorder un accès temporaire](https://cdnweb.devolutions.net/docs/fr/server/ServerOp6019.png)  
-1. Choisir l'***Utilisateur*** et la ***Durée de l'accès*** dans la fenêtre ***Accorder un accès temporaire***.  
-![Fenêtre Accorder un accès temporaire](https://cdnweb.devolutions.net/docs/fr/server/ServerOp6011.png)  
+1. Dans le ***{{ fr.NPANE }}*** de {{ fr.DVLS }}, sélectionner l'entrée à laquelle octroyer l'accès.
+1. Cliquer sur ***Plus***, puis sélectionner ***Octroyer un Accès Temporaire***.
+![Octroyer un Accès Temporaire](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp6027.png)
+1. Choisir ***Utilisateur*** et ***Durée d'accès*** dans la fenêtre ***Octroyer un Accès Temporaire***.
+![Fenêtre Octroyer un Accès Temporaire](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp6030.png)
 
-Vous pouvez consulter les ***Dépendances de l'entrée***, comme que les identifiants et les VPN liés. À noter que les ***entrées liées*** doivent se trouver dans le même {{ fr.VLT }}. Les identifiants PAM liés à des {{ fr.VLT }}s courants ne sont pas pris en compte.
- 
- 3. Cliquer sur ***Définir une période de temps personnalisée*** si vous avez besoin d'accorder l'accès pour une durée déterminée et écrivez un court ***Message*** à l'utilisateur expliquant pourquoi vous accordez l'accès.  
+   Il est possible de voir les ***Dépendances de l'Entrée*** telles que les identifiants liés et les VPNs. Notez que les entrées liées doivent être dans le même {{ fr.VLT }}. Les identifiants avec PAM liés aux {{ fr.VLT }}s réguliers ne sont pas inclus.
+=
+1. Cliquer sur ***Définir une plage horaire personnalisée*** si vous avez besoin d'octroyer l'accès pour une période de temps spécifique et écrire un court ***Message*** à l'utilisateur expliquant pourquoi vous octroyez l'accès.
+1. Cliquer ***Octroyer l'Accès*** pour fermer la fenêtre.
 
- 1. Cliquer sur ***Accorder l'accès*** pour fermer la fenêtre. 
-
-L'***accès temporaire*** a été accordé.

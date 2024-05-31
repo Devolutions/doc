@@ -2,17 +2,17 @@
 eleventyComputed:
   title: Sessions intégrées
 ---
-Le mode d'affichage ***Intégré (à onglets)*** vous permet d'ouvrir plusieurs sessions sous forme d'onglets avec {{ fr.RDM }}, similaires aux onglets de votre navigateur internet standard. Les sessions Intégrées sont l'un des 3 modes d'affichage disponibles, les 2 autres étant ***Externe*** et ***Désancré***.
-![Paramètres d'affichage](https://cdnweb.devolutions.net/docs/fr/rdm/windows/clip11186.png)
+{% youtube 'FtSlp_TVAxE?si=cwD9PHKbAUouLdXZ&amp;start=759' %}
 
-### Affichage divisé des fenêtres
+Le mode d'affichage ***Intégré (à onglets)*** permet d'ouvrir plusieurs sessions sous forme d'onglets dans {{ fr.RDM }}, semblable aux onglets de votre navigateur web standard. Les ***sessions intégrées*** sont l'un des modes d'affichage disponibles, les autres étant ***Externe*** et ***Détaché***.
+![Paramètres du Mode d'Affichage](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip11186.png)
 
-Dans une session intégrée de {{ fr.RDM }}, vous pouvez afficher simultanément plusieurs fenêtres à onglets. Comme illustré ci-dessous, sélectionner et maintenir enfoncé un onglet et faites-le glisser vers le centre de l'écran pour accéder au contrôle directionnel à quatre côtés. Viser la commande directionnelle pour ancrer l'onglet en haut, en bas, à gauche ou à droite de l'onglet adjacent.
-![Affichage divisé des fenêtres](https://cdnweb.devolutions.net/docs/fr/rdm/windows/clip11187.png)
+### Fenêtres partagées
 
-Vous trouverez ci-dessous un exemple de fenêtre divisée côte à côte.
-![Fenêtre divisée côte à côte](https://cdnweb.devolutions.net/docs/fr/rdm/windows/clip11188.png)
+Dans une session intégrée de {{ fr.RDM }}, il est possible d'afficher plusieurs fenêtres à onglets simultanément. Comme illustré ci-dessous, sélectionner et maintenir un onglet puis le glisser vers le centre de l'écran pour accéder au contrôle directionnel à quatre côtés. Diriger le contrôle directionnel pour ancrer l'onglet en haut, en bas, à gauche ou à droite de l'onglet adjacent.
+![Fenêtre Partagée - Glisser et Déposer](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip11187.png)
 
-Vous trouverez ci-dessous un exemple de fenêtre fractionnée de haut en bas.
-![Fenêtre divisée haut en bas](https://cdnweb.devolutions.net/docs/fr/rdm/windows/clip11189.png)
-
+Ci-dessous, un exemple de fenêtre partagée côte à côte.
+![Fenêtre Partagée - Côte à Côte](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip11188.png)
+Ci-dessous, un exemple de fenêtre partagée de haut en bas.
+![!!clip11189](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip11189.png)

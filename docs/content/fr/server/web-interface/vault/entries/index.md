@@ -1,10 +1,10 @@
 ---
 eleventyComputed:
-  title: Entrée
+  title: Entrées
   order: 10
 ---
-Chaque élément que vous voyez dans vos ***{{ fr.VLT }}s*** et ***{{ fr.UVLT }}*** est une entrée. Il existe plusieurs [Type d'entrées](/fr/server/web-interface/vault/entries/entry-type/) qui peuvent être créées directement dans l'interface Web de {{ fr.DVLS }}.
+Chaque élément que vous voyez dans votre ***{{ fr.VLT }}*** et ***{{ fr.UVLT }}*** est une ***Entrée***. Il existe de nombreux [types d'entrées](/server/web-interface/vault/entries/entry-type/) qui peuvent être créés directement dans l'interface web de {{ fr.DVLS }}.
 
-Gérer, importer, organiser et enregistrer toutes vos données avec des ***Entrées*** et des ***Dossiers*** dans votre {{ fr.DVLS }}.
+Gérer, importer, organiser et sauvegarder toutes vos données avec les ***Entrées*** et ***Dossiers*** dans votre {{ fr.DVLS }}.
 
-![!!ServerOp4088](https://cdnweb.devolutions.net/docs/fr/server/ServerOp4088.png)
+![!!ServerOp4025](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp4025.png)

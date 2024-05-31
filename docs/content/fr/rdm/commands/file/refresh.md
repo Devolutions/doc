@@ -1,16 +1,16 @@
 ---
 eleventyComputed:
-  title: Actualiser
+  title: Rafraîchir
 ---
-L'actualisation de la source de données permet de mettre à jour son contenu. Les sources de données sont généralement actualisées automatiquement après une période définie.
+Rafraîchir la source de données permet de mettre à jour son contenu. Les sources de données sont généralement rafraîchies automatiquement après une période définie.
 
-Pour actualiser la source de données, utiliser ***Fichier - Actualiser***. Effectuer une actualisation pour vous assurer que la source de données est à jour.
+Pour rafraîchir la source de données, utiliser ***Fichier – Rafraîchir***. Effectuer un rafraîchissement pour s'assurer que la source de données est à jour.
 
-## Actualisation simple
+### Rafraîchissement simple
 
-Une actualisation simple met à jour la source de données pour récupérer uniquement le contenu modifié. Utiliser ***Fichier - Actualiser*** ou le bouton ***Actualiser*** dans la barre de connexion rapide.
-![Rafraîchir la source de données](https://cdnweb.devolutions.net/docs/fr/rdm/windows/clip11279.png)
+Un rafraîchissement simple met à jour la source de données pour récupérer uniquement le contenu modifié. Utiliser le ***Fichier – Rafraîchir*** mentionné ci-dessus ou le bouton de rafraîchissement dans la ***Barre d'Accès Rapide***.
+![Rafraîchir la Source de Données](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip11279.png)
 
-## Actualisation de la cache locale
+### Rafraîchissement du cache local
 
-Une actualisation de la cache locale réinitialise le cache local de la source de données. Tout le contenu est récupéré de la base de données et le fichier de la cache local est recréé. Cliquer sur le bouton d'actualisation tout en maintenant la touche <kbd>Ctrl</kbd> enfoncée ou utiliser la combinaison des touches <kbd>Ctrl</kbd>+<kbd>F5</kbd>. Une actualisation de la cache locale peut également aider en cas de problèmes de [cache](/fr/rdm/windows/data-sources/caching/).
+Un rafraîchissement du cache local réinitialise le cache local de la source de données. Tout le contenu est récupéré de la base de données et le fichier de cache local est recréé. Cliquer sur le bouton de rafraîchissement tout en maintenant la touche <kbd>Ctrl</kbd> enfoncée ou utiliser la combinaison de touches <kbd>Ctrl</kbd>+<kbd>F5</kbd>. Un rafraîchissement du cache local peut également aider en cas de problèmes de [Cache](/rdm/windows/data-sources/caching/).

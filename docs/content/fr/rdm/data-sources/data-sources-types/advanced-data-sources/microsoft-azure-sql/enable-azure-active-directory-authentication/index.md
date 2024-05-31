@@ -1,4 +1,4 @@
 ---
 eleventyComputed:
-  title: Activer l'authentification d'Azure Active Directory
+  title: Activer l'authentification Azure Active Directory
 ---

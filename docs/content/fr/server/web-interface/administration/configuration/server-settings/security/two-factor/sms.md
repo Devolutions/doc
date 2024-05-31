@@ -1,45 +1,32 @@
 ---
 eleventyComputed:
-  title: Texto
+  title: SMS
+  description: L'authentification à deux facteurs (A2F) via SMS exige de l'utilisateur de saisir un code qu'il reçoit sur son téléphone mobile comme second composant pour accéder à la source de données.
+  keywords:
+  - SMS
+  - A2F
+  - authentification à deux facteurs
 ---
-Le texto d'authentification à deux facteurs demandera à l'utilisateur de saisir un code qu'il a reçu sur son téléphone mobile comme deuxième composant pour accéder à la source de données.
+L'authentification à deux facteurs (A2F) via SMS exige de l'utilisateur de saisir un code qu'il reçoit sur son téléphone mobile comme second composant pour accéder à la source de données.
 
-Il existe deux configurations possibles. Pour utiliser la version gratuite, ne remplissez pas les paramètres Twilio.
+Pour activer cette méthode A2F pour vos utilisateurs, aller à ***Administration – Paramètres du Serveur – Multi-facteurs*** et cocher l'option ***SMS*** A2F. Un bouton ***Configurer*** apparaîtra à côté de l'option.
+![Administration – Paramètres du Serveur – Multi-facteurs – A2F Supportés – SMS](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp2068.png)
 
-L'autre configuration disponible est de configurer Twilio. Veuillez remplir les champs appropriés avec les informations de votre abonnement Twilio.
-![Paramètres Twilio](https://cdnweb.devolutions.net/docs/fr/server/ServerOp8136.png)
+{% snippet, "badgeInfo" %}
+Voir [Authentification à deux facteurs](/server/web-interface/administration/configuration/server-settings/security/two-factor/) pour plus d'informations sur la configuration de l'A2F.
+{% endsnippet %}
 
-<table>
-	<tr>
-		<th>
-Option
-		</th>
-		<th>
-Description
-		</th>
-	</tr>
-	<tr>
-		<td>
-SID du compte
-		</td>
-		<td>
-Compte SID de votre compte Twilio.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Jeton d'authentification
-		</td>
-		<td>
-Jeton d'autorisation de votre compte Twilio.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Téléphone
-		</td>
-		<td>
-Numéro de téléphone.
-		</td>
-	</tr>
-</table>
+Il existe deux configurations possibles : la [version gratuite](#version-gratuite), utilisant un opérateur configuré dans les paramètres email de votre serveur, et la [version configurée avec Twilio](#configurée-avec-twilio).
+
+## Version gratuite
+La version gratuite utilise un opérateur configuré dans les paramètres email de votre serveur. Ne pas remplir les champs des paramètres Twilio. Seulement cocher la case ***SMS*** comme décrit ci-dessus, sauvegarder vos changements, et [configurer vos paramètres email](/server/kb/how-to-articles/configure-smtp-server/configure-smtp-email/).
+
+## Configurée avec Twilio
+Pour configurer la méthode SMS avec Twilio, vous devez avoir un abonnement Twilio. Dans ***Configurer***, cocher l'option ***Utiliser Twilio au lieu d'un opérateur pour envoyer des SMS***, puis remplir les champs avec les informations de votre abonnement Twilio.
+![Configuration SMS](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp8136.png)
+
+| Option      | Description                                  |
+|-------------|----------------------------------------------|
+| Account SID | SID du compte de votre compte Twilio        |
+| Auth token  | Jeton d'autorisation de votre compte Twilio  |
+| Téléphone   | Numéro de téléphone                          |

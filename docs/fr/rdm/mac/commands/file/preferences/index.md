@@ -2,14 +2,14 @@
 eleventyComputed:
   title: Préférences
 ---
-Plusieurs options sont disponibles pour gérer et personnaliser votre {{ fr.RDM }} dans le menu ***Fichier - Préférences***.
-![Fichier - Préférences](https://cdnweb.devolutions.net/docs/fr/rdm/mac/clip4030.png)
+Il existe plusieurs options disponibles pour gérer et personnaliser votre {{ fr.RDMMAC }} dans le menu ***Fichier - Préférences***.
+![Fichier - Préférences](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_RDMMac2113.png)
 
-Consulter les rubriques suivantes pour plus d'informations :
+Veuillez consulter les sujets suivants pour plus d'informations sur chaque onglet :
 
-* [Général](/fr/rdm/mac/commands/file/preferences/general/)
-* [Interface utilisateur](/fr/rdm/mac/commands/file/preferences/user-interface/)
-* [Types](/fr/rdm/mac/commands/file/preferences/types/)
-* [Sécurité](/fr/rdm/mac/commands/file/preferences/security/)
-* [Outils](/fr/rdm/mac/commands/file/preferences/tools/)
-* [Avancée](/fr/rdm/mac/commands/file/preferences/advanced-options/)
+* [Général](/rdm/mac/commands/file/preferences/general/)
+* [Interface Utilisateur](/rdm/mac/commands/file/preferences/user-interface/)
+* [Types](/rdm/mac/commands/file/preferences/types/)
+* [Sécurité](/rdm/mac/commands/file/preferences/security/)
+* [Outils](/rdm/mac/commands/file/preferences/tools/)
+* [Avancé](/rdm/mac/commands/file/preferences/advanced-options/)

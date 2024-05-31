@@ -2,10 +2,10 @@
 eleventyComputed:
   title: Accueil
 ---
-L'onglet du ruban ***Accueil*** vous permet d'appliquer une action sur la session actuellement sélectionnée. Le ruban affiche l'onglet suivant lorsque la session est intégrée.
-![Accueil](https://cdnweb.devolutions.net/docs/fr/rdm/windows/clip10672.png)
+L'onglet ***Accueil*** du ruban permet d'appliquer une action sur la session actuellement sélectionnée. Le ruban affichera l'onglet suivant lorsque la session est intégrée.
+![Ribbon - Home](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip10672.png)
 
 * Se connecter
 * Macros
-* Presse-papiers : Configurer le dans ***Fichier - Options - Application***.
+* Presse-papiers : Configuration dans ***Fichier – Paramètres***
 * Divers

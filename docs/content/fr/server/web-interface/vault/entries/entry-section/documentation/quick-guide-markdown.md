@@ -1,26 +1,27 @@
----
+```yaml
 eleventyComputed:
   title: Guide rapide de Markdown
----
-Le Markdown est un langage de balisage léger utilisé pour la ***Documentation*** dans les entrées.
+```
+Markdown est un langage de balisage léger utilisé pour la ***Documentation*** dans les entrées.
 
-Pour votre commodité, nous avons ajouté des boutons de formatage avec des polices, des styles et des insertions. Pour les utiliser, cliquer sur un bouton de formatage et insérer vos données.
-![!!ServerOp4092](https://cdnweb.devolutions.net/docs/fr/server/ServerOp4092.png)
+Pour votre commodité, nous avons ajouté des boutons de formatage avec des polices, des styles et des insertions. Pour utiliser, cliquer sur un bouton de formatage et insérer vos données.
+
+![!!ServerOp4028](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp4028.png)
+
 {% snippet, "badgeNotice" %}
-Cliquer sur les boutons ***Affichage*** ou ***Fractionner verticalement*** pour revoir l'apparence du document.
+Cliquer sur les boutons ***Voir*** ou ***Diviser Verticalement*** pour réviser le format du document.
 {% endsnippet %}
 
-### En-têtes manuels en markdown
+### Titres Markdown Manuels
 
-Il existe deux façons de créer des titres avec Markdown.
+Il existe deux manières de créer des titres manuels avec Markdown.
 
-Les premier et deuxième niveaux peuvent être créés en ajoutant au texte des signes égaux (=) et des traits d'union (-) en sous-jacent.
+Le premier et le deuxième niveau peuvent être créés en "soulignant" le texte avec des signes égaux (=) et des tirets (-).
 
-Titre de premier niveau
+Titres de premier niveau
 
 `==================`
 
-Titre de deuxième niveau
+Titres de deuxième niveau
 
 `-------------------`
-

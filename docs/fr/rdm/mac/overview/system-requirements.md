@@ -1,14 +1,13 @@
 ---
 eleventyComputed:
-  title: Configuration du système
+  title: Exigences système
 ---
-{{ fr.RDMMAC }} requiert la configuration suivante avant l'installation. 
+{{ fr.RDMMAC }} nécessite ce qui suit avant l'installation.
 
-## Configuration minimale 
+## Exigences minimales
 
-* Système d'exploitation : macOS Catalina (10.15) 
-* Processeur : 1 GHz 
-* Mémoire vive (RAM) : 4 Go 
-* Résolution d'écran : 1440 x 900 px 
-* Espace de disque dur : 1,5 Go 
-
+* Système d'exploitation : macOS Catalina (10.15)
+* Processeur : 1 GHz
+* RAM : 4 Go
+* Résolution d'écran : 1440 x 900 px
+* Espace disque dur : 1,5 Go

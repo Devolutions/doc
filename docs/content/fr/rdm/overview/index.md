@@ -1,5 +1,5 @@
 ---
 eleventyComputed:
-  title: Survol
-  order: 0
+  title: Vue d'ensemble
+  order: 10
 ---

@@ -1,174 +1,38 @@
 ---
 eleventyComputed:
-  title: Affichage
+  title: Vue
+  description: L'onglet Vue est utilisé pour contrôler différentes fonctionnalités concernant les panneaux, vues, journaux et la mise en page de {{ fr.RDMMAC }}.
 ---
-L'onglet ***Affichage*** est utilisé pour contrôler différentes fonctionnalités concernant les panneaux, l'affichage, les journaux et la disposition de {{ fr.RDMMAC }}.
-![Onglet Affichage](https://cdnweb.devolutions.net/docs/fr/rdm/mac/clip4079.png)
+L'onglet Vue est utilisé pour contrôler différentes fonctionnalités concernant les panneaux, vues, journaux et la mise en page de {{ fr.RDMMAC }}.
+![Onglet Vue](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10354.png)
 
-### Sujets
+### Rubriques
 
-<table>
-	<tr>
-		<th>
-OPTION
-		</th>
-		<th>
-DESCRIPTION
-		</th>
-	</tr>
-	<tr>
-		<td>
+| OPTION                          | DESCRIPTION |
+|---------------------------------|-------------|
+| [{{ fr.VLT_MAJ }}](/rdm/mac/commands/view/vaults/) | Accéder au mode d'affichage du ***{{ fr.NPANE }}*** pour le {{ fr.VLT }} courant. |
+| [{{ fr.UVLT_MAJ }}](/rdm/mac/commands/view/vaults/) | Afficher votre ***{{ fr.UVLT }}*** dans le ***{{ fr.NPANE }}***. |
+| [Sessions Ouvertes](/rdm/mac/commands/view/opened-sessions/) | Afficher les sessions actuellement ouvertes dans le ***{{ fr.NPANE }}***. |
+| [Favoris](/rdm/mac/user-interface/navigation-pane/favorite-entries/) | Afficher vos entrées et dossiers favoris dans le ***{{ fr.NPANE }}***. |
+| [Récents](/rdm/mac/user-interface/navigation-pane/most-recently-used-entries/) | Afficher vos entrées les plus récemment utilisées dans le ***{{ fr.NPANE }}***. |
+| [Tableau de Bord PAM](/rdm/mac/commands/view/pam-dashboard/) | Se connecter à un compte privilégié, copier son mot de passe et gérer son processus de réservation/restitution à travers un tableau de bord de gestion des accès privilégiés. |
+| [Liste des Tâches](/rdm/mac/commands/view/task-list/) | Afficher une liste de vos tâches actuelles. |
+| [Recherche Avancée](/rdm/mac/commands/view/advanced-search/) | Rechercher des éléments dans votre base de données/source de données en utilisant des critères spécifiques. |
+| [Recherche Multi {{ fr.VLT }}](/rdm/mac/commands/view/multi-vault-search/) | Rechercher des éléments à travers plusieurs {{ fr.VLT }}s dans votre base de données en utilisant des critères spécifiques. |
+| [Connexion Rapide](/rdm/mac/commands/view/quick-connect/) | Lancer une session de ***Connexion Rapide***. |
+| [Journaux d'Activité](/rdm/mac/commands/view/activity-logs/) | Ouvrir les ***Journaux d'Activité***. |
+| [Liste des Identifiants](/rdm/mac/commands/view/credential-list/) | Ouvrir une fenêtre pour voir les entrées d'identifiants dans la base de données. |
+| [Téléchargements](/rdm/mac/commands/view/downloads/) | Ouvrir une fenêtre pour voir les fichiers téléchargés à travers une entrée de navigateur. |
+| [Message](/rdm/mac/commands/view/message/) | Ouvrir une fenêtre pour accéder à vos messages. |
+| [Navigation](/rdm/mac/user-interface/navigation-pane/) | Basculer le ***{{ fr.NPANE }}***. |
+| [Tableau de Bord](/rdm/mac/user-interface/content-area/dashboard/) | Basculer le ***Tableau de Bord***. |
 
-[{{ fr.VLT_MAJ }}](/fr/rdm/mac/commands/view/vaults/)
-		</td>
-		<td>
-Accéder au mode d'affichage du ***{{ fr.NPANE }}*** pour le {{ fr.VLT }} actuel.
-		</td>
-	</tr>
-	<tr>
-		<td>
-[Mon {{ fr.UVLT }}](/fr/rdm/mac/commands/view/vaults/)
-		</td>
-		<td>
-Afficher votre ***{{ fr.UVLT }}*** dans le ***{{ fr.NPANE }}***.
-		</td>
-	</tr>
-	<tr>
-		<td>
-[Sessions Ouvertes](/fr/rdm/mac/commands/view/opened-sessions/)
-		</td>
-		<td>
-Afficher les sessions actuellement ouvertes dans le ***{{ fr.NPANE }}***.
-		</td>
-	</tr>
-	<tr>
-		<td>
-[Favoris](/fr/rdm/mac/user-interface/navigation-pane/favorite-entries/)
-		</td>
-		<td>
-Afficher vos entrées favorites dans le ***{{ fr.NPANE }}***.
-		</td>
-	</tr>
-	<tr>
-		<td>
-[Récent](/fr/rdm/mac/user-interface/navigation-pane/most-recently-used-entries/)
-		</td>
-		<td>
-Afficher vos entrées les plus récemment utilisées dans le ***{{ fr.NPANE }}***.
-		</td>
-	</tr>
-	<tr>
-		<td>
-[Tableau de bord PAM](/fr/rdm/mac/commands/view/pam-dashboard/)
-		</td>
-		<td>
-Se connecter à un compte privilégié, copier son mot de passe et gérer son processus de réservation/restitution par un tableau de bord de gestion des accès privilégiés.
-		</td>
-	</tr>
-	<tr>
-		<td>
-[Liste des tâches](/fr/rdm/mac/commands/view/task-list/)
-		</td>
-		<td>
-Afficher une liste de vos tâches actuelles.
-		</td>
-	</tr>
-	<tr>
-		<td>
-[Recherche avancée](/fr/rdm/mac/commands/view/advanced-search/)
-		</td>
-		<td>
-Recherchez des éléments dans votre base de données/source de données en utilisant des critères spécifiques.
-		</td>
-	</tr>
-	<tr>
-		<td>
-[Recherche multi-{{ fr.VLT }}s](/fr/rdm/mac/commands/view/multi-vault-search/)
-		</td>
-		<td>
-Recherchez des articles dans plusieurs {{ fr.VLT }}s de votre base de données en utilisant des critères spécifiques.
-		</td>
-	</tr>
-	<tr>
-		<td>
-[Connexions rapide](/fr/rdm/mac/commands/view/quick-connect/)
-		</td>
-		<td>
-Lancer une session de ***Connexion rapide***.
-		</td>
-	</tr>
-	<tr>
-		<td>
-[Journaux d'activité](/fr/rdm/mac/commands/view/activity-logs/)
-		</td>
-		<td>
-Ouvrir les ***Journaux d'activité***.
-		</td>
-	</tr>
-	<tr>
-		<td>
-[Liste des identifiants](/fr/rdm/mac/commands/view/credential-list/)
-		</td>
-		<td>
-Ouvrir une fenêtre qui affiche toutes les entrées des identifiants.
-		</td>
-	</tr>
-	<tr>
-		<td>
-[Téléchargements](/fr/rdm/mac/commands/view/downloads/)
-		</td>
-		<td>
-Ouvre une fenêtre pour visualiser les fichiers téléchargés par l'intermédiaire d'une entrée de navigateur Web.
-		</td>
-	</tr>
-	<tr>
-		<td>
-[Message](/fr/rdm/mac/commands/view/message/)
-		</td>
-		<td>
-Ouvrir une fenêtre pour accéder à vos messages.
-		</td>
-	</tr>
-	<tr>
-		<td>
-[Navigation](/fr/rdm/mac/user-interface/navigation-pane/)
-		</td>
-		<td>
-Basculer le ***{{ fr.NPANE }}***.
-		</td>
-	</tr>
-	<tr>
-		<td>
-[Tableau de bord](/fr/rdm/mac/user-interface/content-area/dashboard/)
-		</td>
-		<td>
-Basculer le ***Tableau de bord***.
-		</td>
-	</tr>
-</table>
+Cette section apparaît uniquement lors de l'utilisation d'une source de données de type individuel.
 
-Cette section n'apparaît que lorsque vous utilisez une source de données de type individuel.
-
-<table>
-	<tr>
-		<th>
-OPTION
-		</th>
-		<th>
-DESCRIPTION
-		</th>
-	</tr>
-	<tr>
-		<td>
-
-[Local Connection Logs](/fr/rdm/mac/commands/view/local-connection-logs/)
-		</td>
-		<td>
-Ouvrir une fenêtre pour accéder à vos journaux locaux.
-		</td>
-	</tr>
-</table>
+| OPTION                                           | DESCRIPTION |
+|--------------------------------------------------|-------------|
+| [Journaux de Connexion Locaux](/rdm/mac/commands/view/local-connection-logs/) | Ouvrir une fenêtre pour accéder à vos journaux locaux. |
 
 {% snippet, "badgeInfo" %}
-Bien qu'ils soient affichés par défaut dans une fenêtre, tous ces volets peuvent être glissés et ancrés n'importe où dans {{ fr.RDMMAC }}.
+Bien qu'ils soient fenêtrés par défaut, tous ces panneaux peuvent être glissés et ancrés n'importe où dans {{ fr.RDMMAC }}.
 {% endsnippet %}

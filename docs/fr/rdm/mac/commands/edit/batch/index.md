@@ -1,137 +1,72 @@
 ---
 eleventyComputed:
-  title: Modifier le lot
+  title: Modification par lot
 ---
-Utiliser l'option ***Modifier - Modifier le lot*** dans le menu contextuel ou le ruban pour modifier les paramètres de plusieurs sessions en une seule opération. Il peut être utilisé par exemple pour supprimer ou mettre à jour tous les identifiants d'un groupe de sessions.
-![Modifier - Modifier le lot](https://cdnweb.devolutions.net/docs/fr/rdm/mac/clip4068.png)
+Utiliser l'option Modifier – Modification par lot ou l'option Modification par lot dans le menu contextuel pour changer les paramètres de plusieurs sessions en une seule opération. Cela peut être utilisé, par exemple, pour supprimer ou mettre à jour toutes les informations d'identification d'un groupe de sessions.
+![Modification par lot](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10346.png)
 
-Vous pouvez également modifier :
+Vous pourriez également changer :
+* Nom d'Hôte
+* Informations d'Identification
+* Mots de Passe
+* Paramètres Généraux
+* Paramètres de Type de Session
+* Paramètres Spécifiques à l'Utilisateur
+* Groupe d'Utilisateurs
 
-* Nom d'hôte
-* Identifiants
-* Mots de passe
-* Paramètres généraux
-* Paramètres du type de session
-* Paramètres spécifiques de l'utilisateur
-* Paramètres spécifiques locaux
+## Recherche Avancée
+Sélectionner plusieurs entrées en utilisant Command et clic de souris. Pour une méthode avec un peu plus de puissance, utiliser notre dialogue de [Recherche Avancée](/rdm/mac/commands/view/advanced-search/), accessible depuis ***Affichage – Recherche Avancée***. La Recherche Avancée vous permet de sélectionner plusieurs critères à la fois.
+![Recherche Avancée](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10605.png)
 
-## Recherche avancée
-
-Vous pouvez sélectionner plusieurs entrées dans le ***{{ fr.NPANE }}***. Pour une méthode avec un peu plus de puissance, utiliser notre boîte de dialogue [Recheche avancée](/fr/rdm/mac/commands/view/advanced-search/), accessible depuis ***Affichage - Recherche avancée***. La recherche avancée vous permet de sélectionner plusieurs critères à la fois.
-![Recherche avancée](https://cdnweb.devolutions.net/docs/fr/rdm/mac/clip5068.png)
-
-Après avoir modifié vos critères pour obtenir les résultats souhaités, appuyer sur ***Sélectionner dans le {{ fr.NPANE }}***, puis sur ***Modifier - Modier par lot***.
+Après avoir ajusté vos critères pour obtenir les résultats souhaités, appuyer sur Sélectionner dans ***{{ fr.NPANE }}*** puis ***Action - Modification par lot***.
 
 ## Paramètres
+### Changer le Nom d'Hôte Enregistré
+![Changer le Nom d'Hôte Enregistré](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10031.png)
 
-### Modifier le nom d'hôte enregistré
+Vous pouvez changer plusieurs noms d'hôte en même temps.
 
-![Changer vos noms d'hôtes](https://cdnweb.devolutions.net/docs/fr/rdm/mac/clip0094.png)
+### Changer les Informations d'Identification Enregistrées
+Vous pouvez changer les informations d'identification configurées pour plusieurs sessions en une seule opération.
+![Changer les informations d'identification enregistrées](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10606.png)
 
-Vous pouvez modifier plusieurs noms d'hôte en même temps.
+| OPTION                      | DESCRIPTION                                                                                          |
+|-----------------------------|------------------------------------------------------------------------------------------------------|
+| Utiliser des informations d'identification spécifiées | Utiliser un nom d'utilisateur, mot de passe et domaine spécifiques.                                                        |
+| Utiliser le dépôt d'informations d'identification   | Utiliser une entrée d'informations d'identification liée qui peut être des informations d'identification externes comme KeePass. Utile pour partager ou réutiliser des informations d'identification parmi les entrées. |
+| Utiliser hérité               | Utiliser les informations d'identification de son entrée parente ou groupe.                                                    |
+| Utiliser mes informations d'identification personnelles | Permet d'utiliser un ensemble d'informations d'identification pour remplacer ou émuler celles de votre session Windows.   |
+| Utiliser la recherche {{ fr.UVLT }}    | Utiliser les informations d'identification stockées dans votre [{{ fr.UVLT }}](/rdm/mac/user-interface/navigation-pane/user-vault/). |
+| Aucune                        | Ne pas utiliser d'informations d'identification.                                                                          |
 
-### Modifier les identifiants sauvegardés
+### Réinitialiser Toutes les Informations d'Identification Enregistrées
+Effacer toutes les informations d'identification existantes pour les sessions sélectionnées.
 
-Vous pouvez modifier les identifiants configurés pour plusieurs sessions dans un lot.
-![Modifier vos identifiants](https://cdnweb.devolutions.net/docs/fr/rdm/mac/clip5069.png)
-
-<table>
-	<tr>
-		<td>
-Option
-		</td>
-		<td>
-Description
-		</td>
-	</tr>
-	<tr>
-		<td>
-Utiliser des identifiants spécifiques
-		</td>
-		<td>
-Utiliser un nom d'utilisateur, un mot de passe et un domaine spécifiques.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Utiliser le dépôt d'identifiants
-		</td>
-		<td>
-Utiliser une entrée d'identifiants qui peut être liés avec des identifiants externes comme KeePass. Ceci est très utile pour partager ou réutiliser les identifiants existants entre les entrées.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Utilisation héritée
-		</td>
-		<td>
-Utiliser les identifiants de son entrée ou groupe parent.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Utiliser mes identifiants personnels
-		</td>
-		<td>
-Cela vous permet d'utiliser un seul ensemble d'identifiants pour remplacer ou émuler celles de votre session Windows.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Utiliser la recherche dans le {{ fr.UVLT }}
-		</td>
-		<td>
-Utiliser les identifiants stockés dans votre {{ fr.UVLT }}.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Aucun
-		</td>
-		<td>
-N'utiliser pas d'identifiants.
-		</td>
-	</tr>
-</table>
-
-### Réinitialiser tous les identifiants sauvegardés
-
-Effacer tous les identifiants existants pour les sessions sélectionnées.
-
-### Réinitialiser tous les mots de passe sauvegardés
-
+### Réinitialiser Tous les Mots de Passe Enregistrés
 Effacer tous les mots de passe existants pour les sessions sélectionnées.
 
-### Modifier les entrées (paramètres généraux)
+### Modifier les Sessions (Paramètres Généraux)
+![Modification par lot – Paramètres Généraux](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10348.png)
 
-![Modifier les entrées (paramètres généraux)](https://cdnweb.devolutions.net/docs/fr/rdm/mac/clip4070.png)
-
-***Modifier les entrées (paramètres généraux)*** vous permet de modifier simultanément les paramètres des sessions courantes. La session peut être de n'importe quel type, car un ensemble commun d'options est partagé entre les sessions. Les paramètres généraux communs suivants peuvent être modifiés :
-
-* Dossier
+Modifier les Sessions (Paramètres Généraux) permet de changer simultanément les paramètres communs des sessions. La session peut être de n'importe quel type, car un ensemble commun d'options est partagé entre les sessions. Les paramètres généraux communs suivants peuvent être changés :
+* Groupe/Dossier
 * Affichage
+* Autoriser l'affichage des informations d'identification (tout le monde)
 * Image
 * Description
-* Tags
+* Mots-clés/Tags
 * VPN
 * Événements
 * Journaux
-* Avancée
+* Onglet Paramètres Avancés
 
-### Modifier les entrées (paramètres du type de session)
-
+### Modifier les Sessions (Paramètres de Type de Session)
 {% snippet, "badgeInfo" %}
-***Modifier les entrées (paramètres du type de session)*** est disponible que pour des types de sessions spécifiques comme RDP.
-{% endsnippet %}
+Modifier les Sessions Paramètres de Type de Session est uniquement disponible pour des types de session spécifiques comme RDP.
+{% ENDSNIPPET %}
 
-![Modifier les entrées (paramètres du type de session)](https://cdnweb.devolutions.net/docs/fr/rdm/mac/clip4069.png)
+![Modification par lot – Type de Session](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10347.png)
 
-### Modifier les entrées (paramètres spécifiques de l'utilisateur)
-
-Les ***Paramètres spécifiques à l'utilisateur*** peuvent être modifiés dans un lot s'ils sont pris en charge par le type de session.
-![Modifier les entrées (paramètres spécifiques de l'utilisateur)](https://cdnweb.devolutions.net/docs/fr/rdm/mac/clip4073.png)
-
-### Modifier les entrées (groupe de sécurité)
-
-Utiliser l'option ***Modifier les entrées (groupe de sécurité)*** pour appliquer un nouveau groupe de sécurité sur plusieurs sessions.
-![Modifier les entrées (groupe de sécurité)](https://cdnweb.devolutions.net/docs/fr/rdm/mac/clip0100.png)
+### Modifier les Sessions (Paramètres Spécifiques à l'Utilisateur)
+Les Paramètres Spécifiques à l'Utilisateur peuvent être modifiés en lot s'ils sont pris en charge par le type de session.
+![Modification par lot - Paramètres Spécifiques à l'Utilisateur](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10349.png)

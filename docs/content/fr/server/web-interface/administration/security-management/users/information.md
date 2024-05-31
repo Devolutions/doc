@@ -2,5 +2,6 @@
 eleventyComputed:
   title: Informations
 ---
-La section ***Informations*** comprend des informations facultatives.
-![Modifier l'utilisateur - Informations](https://cdnweb.devolutions.net/docs/fr/server/ServerOp7006.png)
+La section ***Informations*** est destinée aux informations facultatives.
+
+![Modifier Utilisateur - Informations](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp7006.png)

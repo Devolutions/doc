@@ -1,11 +1,13 @@
 ---
 eleventyComputed:
-  title: Utilisateurs d'application
+  title: Identités d'applications
+  description: Les identités d'applications sont créées pour être utilisées pour se connecter avec des applications comme le module {{ fr.PS }}.
 ---
-Les ***Utilisateurs d'application*** sont créés pour être utilisés pour se connecter à des applications tels que le module PowerShell.  Dans ***Administration - Utilisateurs d'application***, vous pouvez créer, gérer et supprimer des utilisateurs de l'application.
+***Identités d'applications*** sont créées pour être utilisées pour se connecter avec des applications comme le module {{ fr.PS }}. Créer, gérer et supprimer les dans ***Administration – Identités d'applications***.
 
-### Conditions préalables
-
+Les identités d'applications nécessitent ce qui suit :
 * Un accès à {{ fr.DHUBB }} avec un {{ fr.DA }} valide.
-* Un utilisateur disposant de permissions suffisantes pour ajouter des ***Utilisateurs d'application***.
-![!!Hub4051](https://cdnweb.devolutions.net/docs/fr/hub/Hub4051.png)
+* Un utilisateur avec les permissions nécessaires pour ajouter des identités d'applications.
+![Administration – Identités d'applications](https://cdnweb.devolutions.net/docs/HUBB2356_2024_1.png)
+
+Pour des instructions étape par étape sur la création d'une identité d'application et des informations sur les permissions, veuillez vous référer à [Gérer les identités d'applications](/hub/web-interface/administration/management/application-users/manage-application-users/).

@@ -1,23 +1,22 @@
 ---
 eleventyComputed:
-  title: Soutien technique
+  title: Support technique
 ---
-Heures : lundi au vendredi de 7 h 30 à 18 h HAE
+Horaires : Lundi au Vendredi de 7h30 à 18h00 EST
 
-Base de connaissances : Trouver des informations et des procédures utiles concernant nos [produits](/fr/kb/hub-business/).
+Base de connaissances : Trouver des informations utiles et des procédures concernant nos [produits](/hub/kb/).
 
-Courriel : [service@devolutions.net](mailto:service@devolutions.net)
+Email : [service@devolutions.net](mailto:service@devolutions.net)
 
 Forum : [https://forum.devolutions.net/](https://forum.devolutions.net/)
 
-Langue : English-Français-Deutsch
+Langue : Anglais-Français-Allemand
 
 Téléphone : +1 844 463.0419
 
-## Plans de soutien Prioritaire et Premium
+## Plans de support Étendu et Premium
+Les abonnés à un plan de support payant ont reçu un ID de plan. Vous devriez envoyer votre ID de plan dans vos tickets.
 
-Les abonnés d’un plan de soutien payant ont reçu un numéro d’identification de plan (plan ID). Vous devrez envoyer vos requêtes d’assistance avec votre numéro d’identification (plan ID).
+Veuillez consulter notre [Politique de Support](https://cdn.devolutions.net/documents/legal/eula/support-level-addendum-en.pdf) pour plus d'informations.
 
-Consulter notre [Politique de soutien](https://cdnweb.devolutions.net/documents/legal/eula/support-level-addendum-fr.pdf) pour plus d’informations.
-
-![!!Support4001](https://cdnweb.devolutions.net/docs/fr/hub/Support4001.png)
+![!!Support4001](https://cdnweb.devolutions.net/docs/docs_en_hub_Support4001.png)

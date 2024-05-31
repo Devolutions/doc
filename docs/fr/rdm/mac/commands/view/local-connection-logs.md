@@ -1,53 +1,22 @@
 ---
 eleventyComputed:
-  title: Journaux des connexions locales
+  title: Journaux de connexion locaux
+  description: Lors de l'utilisation de {{ fr.RDMMAC }} avec une source de données sans base de données ou si vous ne possédez pas les permissions correctes, les Journaux d'activité, normalement trouvés dans l'onglet Affichage, ne sont pas disponibles.
 ---
-Lorsque vous utilisez {{ fr.RDMMAC }} avec une source de données sans base de données ou si vous ne possédez pas les autorisations correctes, les ***Journaux d'activité***, qui se trouvent normalement dans l'onglet ***Affichage***, ne sont pas disponibles. Dans cette situation, les ***Journaux de connexion locales*** apparaissent à la place dans l'onglet ***Affichage***.
-![Bouton Journaux des connexions locales](https://cdnweb.devolutions.net/docs/fr/rdm/mac/RDMMac0014.png)
+Lors de l'utilisation de {{ fr.RDMMAC }} avec une source de données sans base de données ou si vous ne possédez pas les permissions correctes, les ***Journaux d'activité***, normalement trouvés dans l'onglet ***Affichage***, ne sont pas disponibles. Dans cette situation, les ***Journaux de connexion locaux*** apparaissent dans l'onglet ***Affichage*** à la place.
+![Journaux de connexion locaux](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_RDMMac0024.png)
 
 {% snippet, "badgeInfo" %}
-Les ***Journaux des connexions locales*** remplacent les ***Journaux d'activité*** si vous ne disposez pas des permissions suffisantes pour les consulter.
+Les ***Journaux de connexion locaux*** remplacent les ***Journaux d'activité*** si vous n'avez pas les permissions suffisantes pour les voir.
 {% endsnippet %}
 
-### Journaux des connexions locales
+### Journaux de connexion locaux
+Dans la section ***Affichage***, vous trouverez la fonctionnalité ***Journaux de connexion locaux***, qui est utile si vous souhaitez toujours accéder à vos journaux locaux. Cliquer dessus ouvre une fenêtre contenant tous vos journaux locaux dans l'ordre chronologique (du plus ancien au plus récent). Vous pouvez faire défiler la liste pour trouver les journaux que vous recherchez.
+Les boutons en bas de la fenêtre vous donnent plus d'options.
+![Fenêtre des journaux de connexion locaux](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_RDMMac0035.png)
 
-Dans la section ***Journaux***, vous trouverez la fonction ***Journaux des connexions locales***, qui est utile si vous souhaitez accéder à vos journaux locaux. En cliquant dessus, vous ouvrez une fenêtre contenant tous vos journaux locaux par ordre chronologique (du plus ancien au plus récent). Vous pouvez faire défiler la liste pour trouver les journaux que vous recherchez.
-![Journaux des connexions locales](https://cdnweb.devolutions.net/docs/fr/rdm/mac/RDMMac0015.png)
-
-Les boutons au bas de la fenêtre vous offrent des options supplémentaires.
-
-<table>
-	<tr>
-		<th>
-OPTION
-		</th>
-		<th>
-DESCRIPTION
-		</th>
-	</tr>
-	<tr>
-		<td>
-Ouvrir
-		</td>
-		<td>
-Ouvre le dossier local de votre ordinateur où sont stockés les journaux.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Effacer le journal
-		</td>
-		<td>
-
-Efface les journaux de la fenêtre ***Journaux des connexions locales***. Les journaux ne sont pas effacés du dossier.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Copier
-		</td>
-		<td>
-Copie les journaux dans votre presse-papiers tels qu'ils apparaissent dans la fenêtre ***Journaux des connexions locales***.
-		</td>
-	</tr>
-</table>
+| OPTION    | DESCRIPTION |
+|-----------|-------------|
+| Ouvrir      | Ouvrir le dossier local sur votre ordinateur où les journaux sont stockés. |
+| Effacer le journal | Effacer les journaux de la fenêtre ***Journaux de connexion locaux***. Les journaux ne sont pas effacés du dossier. |
+| Copier      | Copier les journaux dans votre presse-papiers tels qu'ils apparaissent dans la fenêtre ***Journaux de connexion locaux***. |

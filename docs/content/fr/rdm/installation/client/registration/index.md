@@ -1,16 +1,16 @@
 ---
 eleventyComputed:
-  title: Enregistrement
+  title: Inscription
   order: 10
 ---
-### {{ fr.RDM }} édition Team 
+## {{ fr.RDM }} Édition Équipe
 
-Veuillez vous référer à [Édition Team](/fr/rdm/windows/installation/client/registration/team-edition/) pour enregistrer correctement votre version. Si vous décidez de ne pas vous inscrire à la fin de la période d'essai de 30 jours, vos données ne seront ni modifiées, ni effacées et vous y aurez pleinement accès dès que vous aurez fourni une clé de licence valide. 
+Veuillez vous référer à [Édition Équipe](/rdm/windows/installation/client/registration/team-edition/) pour enregistrer correctement votre version. Si vous décidez de ne pas vous inscrire à la fin de l'essai de 30 jours, vos données ne seront ni modifiées ni effacées et vous aurez un accès complet à celles-ci une fois que vous fournirez une clé de licence valide.
 
-### Demander une version d'essai 
+## Demander un Essai
 
-Il est possible de demander une période de [30 jours pour essayer](https://devolutions.net/remote-desktop-manager/fr/trial) {{ fr.RDM }} Édition Team avec toutes ses fonctionnalités. Pour plus d'informations, veuillez consulter [Demande d'essai](/fr/rdm/windows/installation/client/registration/trial-request/). 
+Il est possible de demander un [essai de 30 jours](https://devolutions.net/remote-desktop-manager/trial) pour essayer {{ fr.RDM }} Édition Équipe avec toutes ses fonctionnalités. Pour plus d'informations, veuillez consulter [Demande d'Essai](/rdm/windows/installation/client/registration/trial-request/).
 
-### {{ fr.RDM }} Édition Free 
+## {{ fr.RDM }} Édition Gratuite
 
-{{ fr.RDM }} Édition Free est semblable à l'édition Team. L'inscription est gratuite. Veuillez consulter [Édition Free](/fr/rdm/windows/installation/client/registration/free-edition/) pour plus d'informations.
+{{ fr.RDM }} Édition Gratuite est similaire à l'Édition Équipe. L'inscription est gratuite. Veuillez vous référer à [Édition Gratuite](/rdm/windows/installation/client/registration/free-edition/) pour plus d'informations.

@@ -1,137 +1,135 @@
 ---
 eleventyComputed:
-  title: Survol des {{ fr.VLT }}s
+  title: "{{ fr.VLT_MAJ }}s aperçu"
+  description: "{{ fr.VLT_MAJ }}s sont des conteneurs qui organisent vos dossiers et entrées. Ils aident à diviser vos Sources de Données Avancées en plusieurs compartiments."
 ---
-Les {{ fr.VLT }}s sont des répertoires qui organisent vos dossiers et vos entrées. Ils permettent de diviser vos ***Sources de données avancées*** en plusieurs compartiments. Les {{ fr.VLT }}s améliorent la sécurité et l'expérience utilisateur de {{ fr.RDM }} en plus de sa performance en limitant la quantité d'entrées qui chargent en même temps.
+{{ fr.VLT_MAJ }}s sont des conteneurs qui organisent vos dossiers et entrées. Ils aident à diviser vos ***Sources de Données Avancées*** en plusieurs compartiments. {{ fr.VLT_MAJ }}s améliorent la sécurité et l'expérience utilisateur de {{ fr.RDM }}, ainsi que sa performance en limitant la quantité d'entrées qui se chargent en une fois.
 
 {% snippet, "badgeHelp" %}
-Pour en savoir plus sur les différents types de {{ fr.VLT }}s et les moyens d'accéder à ces {{ fr.VLT }}s, consultez [{{ fr.VLT_MAJ }}s](/fr/rdm/windows/commands/view/panels/vault/).
+Pour apprendre sur les différents types de {{ fr.VLT }} et les moyens d'y accéder, visiter [{{ fr.VLT_MAJ }}s](/rdm/windows/commands/view/panels/vault/).
 {% endsnippet %}
 
-Cette rubrique traite des sujets suivants :
+Ce sujet couvre les éléments suivants :
 
-* [La création d'un {{ fr.VLT }}](#créer-un-coffre)
-* [La navigation entre les {{ fr.VLT }}s](#naviguer-entre-les-coffres)
-* [Le déplacement d'entrées vers différents {{ fr.VLT }}s](#déplacer-des-entrées-vers-différents-coffres)
-* [L'accès des utilisateurs et groupes d'utilisateurs à un {{ fr.VLT }}](#donner-à-des-utilisateurs-et-groupes-d'utilisateurs-accès-à-un-coffre)
-* [La création et l'utilisation de raccourcis de {{ fr.VLT }}s](#créer-et-utiliser-des-raccourcis-de-coffres)
+* [Créer un {{ fr.VLT }}](#create-a-vault)
+* [Naviguer entre les {{ fr.VLT }}s](#navigate-between-vaults)
+* [Déplacer des entrées vers un différent {{ fr.VLT }}](#move-entries-to-a-different-vault)
+* [Donner aux utilisateurs et groupes d'utilisateurs l'accès à un {{ fr.VLT }}](#give-users-and-user-groups-access-to-a-vault)
+* [Créer et utiliser des raccourcis de {{ fr.VLT }}](#create-and-use-vault-shortcuts)
 
-### Créer un {{ fr.VLT }}
+## Créer un {{ fr.VLT }}
 
-Suivez les étapes ci-dessous pour créer un nouveau {{ fr.VLT }}.
+Suivre les étapes ci-dessous pour apprendre comment créer un nouveau {{ fr.VLT }}.
+
 {% snippet, "shieldNotice" %}
-Pour des raisons de sécurité et de performance, nous recommandons de créer un {{ fr.VLT }} différent pour chaque client et/ou département, dépendamment de votre utilisation de {{ fr.RDM }}.
+Pour des raisons de sécurité et de performance, nous recommandons de créer un différent {{ fr.VLT }} pour chaque client et/ou département, selon comment vous utilisez {{ fr.RDM }}.
 {% endsnippet %}
 
-1. Dans le ***Ruban***, accéder à ***Administration – Gestion – {{ fr.VLT_MAJ }}s***.
-![Administration – Gestion – {{ fr.VLT_MAJ }}s](https://cdnweb.devolutions.net/docs/fr/rdm/windows/RdmWin4087.png)
-
+1. Dans le ***Ribbon***, aller à ***Administration – Gestion – {{ fr.VLT_MAJ }}s***.
+![Administration – Gestion – {{ fr.VLT_MAJ }}s](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip11300.png)
 {% snippet, "badgeHelp" %}
-Si vous utilisez une source de données {{ fr.DVLS }} ou {{ fr.DHUBB }}, la gestion des {{ fr.VLT }}s est effectuée dans leurs interfaces Web respectives. Pour davantage d'informations, consultez [{{ fr.DVLS }}](/fr/server/web-interface/administration/security-management/vaults/) ou [{{ fr.DHUB }}](/fr/hub/web-interface/administration/management/vaults/) qui traient des {{ fr.VLT }}s.
+Si vous utilisez une source de données {{ fr.DVLS }} ou {{ fr.DHUBB }}, la gestion des {{ fr.VLT }}s est effectuée dans leurs interfaces web respectives. Pour plus d'informations, consulter soit [{{ fr.DVLS }} {{ fr.VLT }}s](/server/web-interface/administration/security-management/vaults/) ou [{{ fr.DHUB }} {{ fr.VLT }}s](/hub/web-interface/administration/management/vaults/).
 {% endsnippet %}
 
-
-2. Dans la fenêtre ***Gestion des usagers et de la sécurité***, sélectionner l'onglet ***{{ fr.VLT_MAJ }}s***, puis cliquer sur ***Ajouter un {{ fr.VLT }}***.
-![Ajouter un {{ fr.VLT }}](https://cdnweb.devolutions.net/docs/fr/rdm/windows/RdmWin4088.png)
-1. Dans l'onglet ***Général***, un ***ID*** sera automatiquement généré. Saisir un ***Nom*** (obligatoire) et une ***Description*** (facultatif) pour votre nouveau {{ fr.VLT }}. La création du {{ fr.VLT }} peut être effectuée aussitôt que le ***Nom*** est spécifié, mais il existe tout de même d'autres options. Elles sont présentées à la prochaine étape.
-{% snippet, "badgeInfo" %}
-Pour utiliser un modèle de {{ fr.VLT }} existant, vous pouvez le sélectionner dans la liste déroulante ***Modèle***. Contrairement aux autres paramètres, celui-ci ne peut pas être configuré ultérieurement car il modifie la façon dont le {{ fr.VLT }} est créé. Renseignez-vous sur les ***Modèles*** avant de prendre une décision.
-{% endsnippet %}
+2. Dans la fenêtre ***Gestion des Utilisateurs et de la Sécurité***, sélectionner l'onglet ***{{ fr.VLT_MAJ }}s***, puis cliquer sur ***Ajouter {{ fr.VLT }}***.
+![Ajouter {{ fr.VLT }}](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip10739.png)
+1. Dans l'onglet ***Général***, un ***ID*** est généré automatiquement. Entrer un ***Nom*** (obligatoire) et une ***Description*** (optionnelle) pour votre nouveau {{ fr.VLT }}.
+La configuration ***Visibilité*** détermine si ce {{ fr.VLT }} spécifique est visible pour tous les utilisateurs (public) ou seulement pour les utilisateurs qui ont accès au {{ fr.VLT }} (privé). Elle est réglée sur le paramètre par défaut, qui peut être modifié dans ***Administration – Paramètres Système – Gestion des {{ fr.VLT_MAJ }}s – {{ fr.VLT_MAJ }}***.
+Le {{ fr.VLT }} peut être créé dès qu'un ***Nom*** a été spécifié, mais d'autres options sont disponibles. Elles sont présentées à l'étape suivante.
 
 {% snippet, "badgeInfo" %}
-L'option ***Autoriser le mode hors-ligne*** est activée par défaut. Si vous la désactivez, le nouveau {{ fr.VLT }} ne pourra pas être utilisé en [mode hors-ligne](/fr/rdm/windows/data-sources/offline-mode/). Ce paramètre peut être modifié après la création du {{ fr.VLT }} en allant dans ***Administration – Gestion – {{ fr.VLT_MAJ }}s***, puis en sélectionnant le {{ fr.VLT }} à modifier et en cliquant sur ***Modifier les paramètres du {{ fr.VLT }}***.
+Pour utiliser un modèle de {{ fr.VLT }} existant, le sélectionner dans la liste déroulante ***Modèle***. Contrairement aux autres paramètres, celui-ci ne peut pas être configuré ultérieurement puisqu'il change la manière dont le {{ fr.VLT }} est créé. Apprendre sur [***Modèles***](/rdm/windows/commands/file/templates/) avant de décider.
 {% endsnippet %}
 
-![Gestion du {{ fr.VLT }} – Général](https://cdnweb.devolutions.net/docs/fr/rdm/windows/RdmWin4089.png)
-
-4. Facultatif : Des options d'***Utilisateurs et groupes d'utilisateurs*** ainsi que de ***Sécurité*** sont disponibles dans les autres onglets du menu de gauche. Ils sont à configurer selon vos besoins maintenant ou plus tard en allant dans ***Administration – Gestion – {{ fr.VLT_MAJ }}s***, puis en sélectionnant le {{ fr.VLT }} à modifier et en cliquant sur ***Modifier les paramètres du {{ fr.VLT }}***.
-    1. ***Utilisateurs et groupes d'utilisateurs*** : Sélectionner quels utilisateurs et groupes d'utilisateurs auront accès à ce {{ fr.VLT }} en les cochant/décochant.
-{% snippet, "shieldInfo" %}
-Pour des raisons de sécurité, les administrateurs ont toujours accès aux {{ fr.VLT }}s.
+{% snippet, "badgeInfo" %}
+L'option ***Permettre hors ligne*** est activée par défaut. Si elle est désactivée, le nouveau {{ fr.VLT }} ne pourra pas être utilisé en [mode Hors ligne](/rdm/windows/data-sources/offline-mode/). Ce paramètre peut encore être modifié après la création du {{ fr.VLT }} en retournant à ***Administration – Gestion – {{ fr.VLT_MAJ }}s***, en sélectionnant le {{ fr.VLT }} à modifier et en cliquant sur ***Modifier les Paramètres du {{ fr.VLT }}***.
 {% endsnippet %}
 
-    ![Gestion du {{ fr.VLT }} – Utilisateurs et groupes d'utilisateurs](https://cdnweb.devolutions.net/docs/fr/rdm/windows/RDMWin2074.png)
+![Gestion des {{ fr.VLT_MAJ }}s – Général](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin2161.png)
 
-    2. ***Sécurité*** : Spécifier un ***Mot de passe maître*** pour l'accès au {{ fr.VLT }} et indiquer si l'ancien mot de passe doit être demandé lors du chargement.
-    ![Gestion du {{ fr.VLT }} – Sécurité](https://cdnweb.devolutions.net/docs/fr/rdm/windows/RDMWin2075.png)
+4. Optionnel : Les options ***Utilisateurs et Groupes d'Utilisateurs***, ***Sécurité***, et ***Propriétaires du {{ fr.VLT_MAJ }}*** sont disponibles dans les autres onglets du menu de gauche. Les configurer selon vos besoins maintenant, ou le faire plus tard en retournant à ***Administration – Gestion – {{ fr.VLT_MAJ }}s***, en sélectionnant le {{ fr.VLT }} à modifier et en cliquant sur ***Modifier les Paramètres du {{ fr.VLT }}***.
+    * ***Utilisateurs et Groupes d'Utilisateurs*** : Choisir quels ***Utilisateurs*** et ***Groupes d'Utilisateurs*** auront accès au {{ fr.VLT }} en les cochant/décochant. Pour des raisons de sécurité, les administrateurs ont toujours accès.
+    * ***Sécurité*** : Spécifier un ***Mot de passe maître*** pour l'accès au {{ fr.VLT }} et indiquer si l'ancien mot de passe doit être demandé lors de la réécriture du mot de passe.
+    * ***Propriétaires du {{ fr.VLT_MAJ }}*** : Sélectionner des groupes d'utilisateurs ou des utilisateurs pour être propriétaires de ce {{ fr.VLT }}, signifiant qu'ils peuvent gérer ce {{ fr.VLT }} spécifique sans avoir accès à l'administration de la source de données.
 
-5. Cliquer sur ***OK***.
-1. Le nouveau {{ fr.VLT }} apparaîtra dans la fenêtre ***Gestion des usagers et de la sécurité***. Elle peut être fermée pour accéder au {{ fr.VLT }} à partir du ***{{ fr.NPANE }}***.
-![Création réussie du nouveau {{ fr.VLT }}](https://cdnweb.devolutions.net/docs/fr/rdm/windows/RDMWin2076.png)
+5. Cliquer sur ***OK*** lorsque terminé.
+1. Le nouveau {{ fr.VLT }} apparaîtra dans la fenêtre ***Gestion des Utilisateurs et de la Sécurité***. Vous pouvez ***Fermer*** cette vue pour accéder au {{ fr.VLT }} depuis le ***{{ fr.NPANE }}***.
+![Nouveau {{ fr.VLT }} Créé avec Succès](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin2138.png)
 
 ### Naviguer entre les {{ fr.VLT }}s
 
-Dans le ***{{ fr.NPANE }}***, vous pouvez utiliser le sélecteur de {{ fr.VLT }}s pour vous déplacer entre les {{ fr.VLT }}s.
-![Sélecteur de {{ fr.VLT }} dans le {{ fr.NPANE }}](https://cdnweb.devolutions.net/docs/fr/rdm/windows/RdmWin4090.png)
+Dans le ***{{ fr.NPANE }}***, vous pouvez utiliser le sélecteur de {{ fr.VLT }} pour vous déplacer entre les {{ fr.VLT }}s.
+![{{ fr.NPANE }} Sélecteur de {{ fr.VLT }}](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip3602.png)
+Vous pouvez changer l'emplacement du sélecteur de {{ fr.VLT }} dans ***Fichier – Paramètres – Interface Utilisateur – {{ fr.VLT_MAJ }}s – Emplacement du {{ fr.VLT_MAJ }}***. Par défaut, le sélecteur est en bas du ***{{ fr.NPANE }}***.
+![Fichier – Paramètres – Interface Utilisateur – {{ fr.VLT_MAJ }}s – Emplacement du {{ fr.VLT_MAJ }}](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin2141.png)
 
-Vous pouvez modifier l'emplacement du sélecteur de {{ fr.VLT }}s dans ***Fichier – Options – Interface utilisateur – {{ fr.VLT_MAJ }}s – Emplacement du {{ fr.VLT }}***. Par défaut, le sélecteur se trouve au bas du ***{{ fr.NPANE }}***.
-![Fichier – Options – Interface utilisateur – {{ fr.VLT_MAJ }}s – Emplacement du {{ fr.VLT }}](https://cdnweb.devolutions.net/docs/fr/rdm/windows/RDMWin2077.png)
+### Déplacer des entrées vers un différent {{ fr.VLT }}
 
-### Déplacer des entrées vers différents {{ fr.VLT }}s
+1. Dans le ***{{ fr.NPANE }}***, aller au {{ fr.VLT }} dont vous voulez transférer des entrées.
+1. Dans le ***Ribbon***, aller à ***Modifier – Lot – Déplacer vers {{ fr.VLT }}***.
+![Modifier – Lot – Déplacer vers {{ fr.VLT }}](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip7030.png)
+1. Sélectionner le {{ fr.VLT }} vers lequel vous voulez déplacer des entrées, puis cliquer sur ***Suivant***.
+![Sélection du {{ fr.VLT }} de Destination](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip7031.png)
+1. Choisir les entrées que vous voulez transférer vers le nouveau {{ fr.VLT }} en cochant les cases à côté d'elles, puis cliquer sur ***Transférer***.
+![Sélection des Entrées à Transférer](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip7032.png)
+1. Un message vous informera que le transfert a été réussi. Cliquer sur ***Terminer*** pour fermer cette vue.
 
-1. Dans le ***{{ fr.NPANE }}***, aller dans le {{ fr.VLT }} duquel vous souhaitez transférer des entrées.
-1. Dans le ***Ruban***, aller dans ***Modifier – Lot – Déplacer vers le {{ fr.VLT }}***.
-![Modifier – Lot – Déplacer vers le {{ fr.VLT }}](https://cdnweb.devolutions.net/docs/fr/rdm/windows/RdmWin4091.png)
-1. Sélectionner le {{ fr.VLT }} vers lequel vous souhaitez déplacer les entrées, puis cliquer sur ***Suivant***.
-![Sélection du {{ fr.VLT }} de destination](https://cdnweb.devolutions.net/docs/fr/rdm/windows/RdmWin4092.png)
-1. Choisir les entrées que vous souhaitez transférer vers le nouveau {{ fr.VLT }} en les cochant, puis cliquer sur ***Transférer***.
-![Sélection des entrées à transférer](https://cdnweb.devolutions.net/docs/fr/rdm/windows/RdmWin4093.png)
-1. Un message vous avisera du transfert réussi. Cliquer sur ***Terminer*** pour fermer la fenêtre.
+Vos entrées sélectionnées peuvent maintenant être trouvées dans le {{ fr.VLT }} de destination.
 
-Vos entrées sélectionnées se retrouvent maintenant dans le {{ fr.VLT }} de destination.
+### Donner aux utilisateurs et groupes d'utilisateurs l'accès à un {{ fr.VLT }}
 
-### Donner à des utilisateurs et groupes d'utilisateurs accès à un {{ fr.VLT }}
+{% youtube 'FtSlp_TVAxE?si=Oc1kacUIjt7bJptK&amp;start=1040' %}
 
-Les {{ fr.VLT }}s simplifient la gestion des utilisateurs puisque les groupes Azure Directory (AD) définissent qui a accès à un {{ fr.VLT }}. On appelle ces groupes AD des ***Groupes d'utilisateurs*** dans {{ fr.RDM }}. En général, la plupart des groupes a accès à quelques {{ fr.VLT }}s, tandis que certains autres groupes n'ont accès qu'à un seul {{ fr.VLT }}. En limitant l'accès aux {{ fr.VLT }}s, on réduit la nécessité de définir des autorisations sur les dossiers de niveau inférieur.
+{{ fr.VLT_MAJ }}s simplifient la gestion des utilisateurs car les groupes Active Directory (AD) définissent qui a accès à un {{ fr.VLT }}. Ces groupes AD sont connus sous le nom de ***Groupes d'Utilisateurs*** dans {{ fr.RDM }}. En général, la plupart des groupes ont accès à quelques {{ fr.VLT }}s, tandis que certains groupes n'auront accès qu'à un seul {{ fr.VLT }}. Limiter l'accès aux {{ fr.VLT }}s minimise le besoin de définir des permissions sur les dossiers de niveau inférieur.
 
-Suivez les étapes ci-dessous pour affecter des ***Utilisateurs*** et des ***Rôles*** à des {{ fr.VLT }}s.
+Suivre les étapes ci-dessous pour assigner ***Utilisateurs*** et ***Rôles*** à un {{ fr.VLT }}.
 
-1. Dans le ***Ruban***, aller dans ***Administration – Gestion – {{ fr.VLT_MAJ }}s***.
-![Administration – Gestion – {{ fr.VLT_MAJ }}s](https://cdnweb.devolutions.net/docs/fr/rdm/windows/RdmWin4087.png)
-{% snippet, "badgeInfo" %}
-Si vous utilisez une source de données {{ fr.DVLS }} ou {{ fr.DHUBB }}, la gestion des {{ fr.VLT }}s est effectuée dans leurs interfaces Web respectives. Pour davantage d'informations, consultez [{{ fr.DVLS }}](/fr/server/web-interface/administration/security-management/vaults/) ou [{{ fr.DHUB }}](/fr/hub/web-interface/administration/management/vaults/) qui traitent des {{ fr.VLT }}s.
-{% endsnippet %}
+1. Dans le ***Ribbon***, aller à ***Administration – Gestion – {{ fr.VLT_MAJ }}s***.
+   ![Administration – Gestion – {{ fr.VLT_MAJ }}s](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip11300.png)
+   {% snippet, "badgeInfo" %}
+   Si vous utilisez une source de données {{ fr.DVLS }} ou {{ fr.DHUBB }}, la gestion des {{ fr.VLT }}s est effectuée dans leurs interfaces web respectives. Pour plus d'informations, consulter soit [{{ fr.DVLS }} {{ fr.VLT }}s](/server/web-interface/administration/security-management/vaults/) ou [{{ fr.DHUB }} {{ fr.VLT }}s](/hub/web-interface/administration/management/vaults/).
+   {% endsnippet %}
 
-2. Dans la fenêtre ***Gestion des usagers et de la sécurité***, sélectionner l'onglet ***{{ fr.VLT_MAJ }}s***, puis cliquer sur ***Affecter des utilisateurs et rôles***.
-![Gestion des usagers et de la sécurité – {{ fr.VLT_MAJ }}s – Affecter des utilisateurs et rôles](https://cdnweb.devolutions.net/docs/fr/rdm/windows/RdmWin4094.png)
-1. Dans la fenêtre ***Assignation d'un {{ fr.VLT }}***, choisir quels ***Utilisateurs*** et ***Groupes d'utilisateurs*** auront accès au {{ fr.VLT }} en cochant la case à côté.
-{% snippet, "shieldInfo" %}
-Pour des raisons de sécurité, les administrateurs ont toujours accès aux {{ fr.VLT }}s.
-{% endsnippet %}
+1. Dans la fenêtre ***Gestion des Utilisateurs et de la Sécurité***, sélectionner l'onglet ***{{ fr.VLT_MAJ }}s***, puis cliquer sur ***Assigner Utilisateurs et Rôles***.
+   ![Gestion des Utilisateurs et de la Sécurité – {{ fr.VLT_MAJ }}s – Assigner Utilisateurs et Rôles](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip7033.png)
+1. Dans la fenêtre ***Assignation de {{ fr.VLT_MAJ }}***, choisir quels ***Utilisateurs*** et ***Groupes d'Utilisateurs*** auront accès au {{ fr.VLT }} en cochant/décochant la case à côté d'eux.
+   {% snippet, "shieldInfo" %}
+   Pour des raisons de sécurité, les administrateurs ont toujours accès.
+   {% endsnippet %}
 
-![Assignation d'un {{ fr.VLT }}](https://cdnweb.devolutions.net/docs/fr/rdm/windows/RdmWin4095.png)
+   ![Assignation de {{ fr.VLT_MAJ }}](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip7034.png)
 
-4. Cliquer sur ***Enregistrer*** lorsque terminé.
+4. Cliquer sur ***Sauvegarder*** lorsque terminé.
 
-{% snippet, "shieldCaution" %}
-Il faut garder à l'esprit que même si vous attribuez un rôle/utilisateur à un {{ fr.VLT }}, les permissions définies dans les ***Paramètres du {{ fr.VLT }}*** peuvent modifier ce que les utilisateurs peuvent voir ou faire dans le {{ fr.VLT }}.
-{% endsnippet %}
+   {% snippet, "shieldCaution" %}
+   Gardez à l'esprit que même si vous assignez un rôle/utilisateur à un {{ fr.VLT }}, les permissions qui sont définies dans les ***Paramètres du {{ fr.VLT_MAJ }}*** peuvent changer ce que les utilisateurs peuvent voir ou faire dans le {{ fr.VLT }}.
+   {% endsnippet %}
 
-### Créer et utiliser des raccourcis de {{ fr.VLT }}s
+### Créer et utiliser des raccourcis de {{ fr.VLT }}
 
-Pour naviguer entre les {{ fr.VLT }}s, vous pouvez utiliser le menu déroulant du sélecteur de {{ fr.VLT }}s ou des raccourcis de {{ fr.VLT }}s. Ces raccourcis sont un type d'entrée de session appelé ***{{ fr.VLT_MAJ }} (Raccourci)***.
+Pour naviguer entre les {{ fr.VLT }}s, vous pouvez utiliser le menu déroulant du sélecteur de {{ fr.VLT }} ou des raccourcis de {{ fr.VLT }}. Ces raccourcis sont un type d'entrée de session appelé ***{{ fr.VLT_MAJ }} (Raccourci)***.
 
-Si vous avez accès à plusieurs {{ fr.VLT }}s, vous pouvez créer des raccourcis de {{ fr.VLT }}s pour naviguer entre les {{ fr.VLT }}s. Voici quelques recommandations pour rendre votre expérience avec {{ fr.RDM }} plus fluide et sécuritaire si vous décidez d'utiliser ces raccourcis :
+Si vous avez accès à plusieurs {{ fr.VLT }}s, vous pouvez créer des raccourcis de {{ fr.VLT }} pour naviguer entre eux. Voici des recommandations pour rendre votre expérience {{ fr.RDM }} plus fluide et sécurisée si vous décidez d'utiliser ces raccourcis :
 
-* Centraliser tous les raccourcis de {{ fr.VLT }}s à l'intérieur d'un même {{ fr.VLT }} principal (par défaut).
-* Dans chaque {{ fr.VLT }}, ajouter une entrée de ***{{ fr.VLT_MAJ }} (Raccourci)*** qui renvoie l'utilisateur au {{ fr.VLT }} principal.
-* Retirez la liste déroulante des sources de données lorsque vous utilisez les raccourcis de {{ fr.VLT }}s. Pour ce faire, accédez à ***Fichier – Options – Interface utilisateur – Sources de données*** et sélectionner ***Non visible*** dans la liste déroulante ***Emplacement de source de données***. Ensuite, le sélecteur de {{ fr.VLT }} peut être [déplacé au-dessus du {{ fr.NPANE }}](#déplacer-des-entrées-vers-différents-coffres) pour un meilleur accès.
+* Centraliser toutes vos entrées de raccourcis de {{ fr.VLT }} dans un principal {{ fr.VLT }} (par défaut).
+* Dans chaque {{ fr.VLT }}, ajouter une entrée ***{{ fr.VLT_MAJ }} (Raccourci)*** qui retourne l'utilisateur au {{ fr.VLT }} principal.
+* Retirer la liste déroulante de la source de données lors de l'utilisation de raccourcis de {{ fr.VLT }}. Pour ce faire, naviguer à ***Fichier – Paramètres – Interface Utilisateur – Sources de Données*** et sélectionner ***Non visible*** dans la liste déroulante ***Emplacement de la source de données***. Ensuite, le sélecteur de {{ fr.VLT }} peut être [déplacé au-dessus du {{ fr.NPANE }}](#move-entries-to-a-different-vault) pour un accès plus facile.
 
-Suivez les étapes ci-dessous pour créer une entrée ***{{ fr.VLT_MAJ }} (Raccourci)***.
+Suivre les étapes ci-dessous pour créer une entrée ***{{ fr.VLT_MAJ }} (Raccourci)***.
 
-1. Dans le ***{{ fr.NPANE }}***, aller sur la source de données et le {{ fr.VLT }} dans lesquels le raccourci sera créé.
-1. Dans le ***Ruban***, aller dans ***Modifier – Ajouter – Nouvelle entrée***.
-![Edit – Add – New Entry](https://cdnweb.devolutions.net/docs/fr/rdm/windows/RDMWin2073.png)
+1. Dans le ***{{ fr.NPANE }}***, aller à la source de données et au {{ fr.VLT }} dans lequel vous voulez créer votre raccourci.
+1. Dans le ***Ribbon***, aller à ***Modifier – Ajouter – Nouvelle Entrée***.
+![Modifier – Ajouter – Nouvelle Entrée](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin2142.png)
 1. Dans l'onglet ***Divers***, sélectionner l'entrée de session ***{{ fr.VLT_MAJ }} (Raccourci)***, puis cliquer sur ***OK***.
-![Divers – {{ fr.VLT_MAJ }} (Raccourci)](https://cdnweb.devolutions.net/docs/fr/rdm/windows/RdmWin4098.png)
-1. Dans le champ ***Nom***, saisir un nom pour le {{ fr.VLT }} vers lequel le raccourci pointera, puis sélectionner dans la liste déroulante le ***Dossier*** dans lequel le raccourci sera créé.
-![Nom et Dossier](https://cdnweb.devolutions.net/docs/fr/rdm/windows/RDMWin2079.png)
-1. Utiliser le bouton des points de suspension situé à côté du champ ***ID du {{ fr.VLT }}*** pour trouver le {{ fr.VLT }}. Dans la fenêtre ***Sélectionner un {{ fr.VLT }}***, la barre de ***Recherche*** peut être utile pour le trouver.
-![Sélectionner un {{ fr.VLT }}](https://cdnweb.devolutions.net/docs/fr/rdm/windows/RDMWin2078.png)
-1. Saisir un chemin de ***Dossier*** dans le champ correspondant pour créer un raccourci vers un dossier ou sous-dossier spécifique. Pour ce faire, suivre les directives suivantes :
-    * Le champ ***Dossier*** est sensible à la casse. Cela signifie que, par exemple, écrire le nom de dossier « clients » (« c » minuscule) ne redirigera pas vers le dossier « Clients » (« C » majuscule) et vice-versa.
-    * Pour spécifier un sous-dossier, saisir tout le chemin qui y mène, en séparant chaque dossier par une barre oblique inverse (« \ »). Commencer par écrire le nom du premier dossier parent, puis nommer chaque dossier suivant dans la chaîne, et terminer par le dernier dossier. Par exemple, dans l'image ci-dessous, le dossier parent est « Clients » et le dossier de destination est « Windjammer ». Le dossier « Montréal » est le seul dossier situé entre les deux.
-![Chemin du dossier](https://cdnweb.devolutions.net/docs/fr/rdm/windows/RDMWin2080.png)
+![Divers – {{ fr.VLT_MAJ }} (Raccourci)](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip7037.png)
+1. Dans le champ ***Nom***, entrer le nom du {{ fr.VLT }} pour lequel vous créez un raccourci, puis sélectionner le ***Dossier*** dans lequel créer votre raccourci dans la liste déroulante correspondante.
+![Nom et Dossier](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin2143.png)
+1. Utiliser le bouton ellipsis à côté du champ ***ID du {{ fr.VLT_MAJ }}*** pour trouver le {{ fr.VLT }}. Dans la fenêtre ***Sélectionner {{ fr.VLT }}***, vous pouvez utiliser le champ ***Recherche*** pour vous aider à le trouver.
+![Sélectionner {{ fr.VLT }}](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip7039.png)
+1. Entrer un chemin de ***Dossier*** dans le champ correspondant pour créer un raccourci vers un dossier ou sous-dossier spécifique. Pour ce faire, suivre ces directives :
+    * Le champ ***Dossier*** est sensible à la casse. Cela signifie que, par exemple, écrire le nom du dossier "clients" (c minuscule) ne redirigera pas vers le dossier "Clients" (C majuscule) et vice versa.
+    * Pour spécifier un sous-dossier, écrire le chemin complet qui y mène, en séparant chaque dossier par une barre oblique inversée ("\"). Commencer par écrire le nom du premier dossier parent, puis nommer chaque dossier subséquent dans le chemin, et terminer avec le dernier dossier. Par exemple, dans la capture d'écran ci-dessous, le dossier parent est "Clients" et le dossier de destination est "Windjammer". Le dossier "Montreal" est le seul dossier entre eux.
+    ![Chemin de Dossier](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin2144.png)
 7. Cliquer sur ***OK***.
 
-Votre raccourci est maintenant créé et prêt à l'utilisation.
+Votre raccourci a maintenant été créé et est prêt à être utilisé.

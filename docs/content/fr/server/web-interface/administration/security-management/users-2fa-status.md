@@ -1,8 +1,9 @@
 ---
 eleventyComputed:
-  title: Statut de réinitialisation des utilisateurs 2FA
+  title: Statut de réinitialisation A2F des utilisateurs
 ---
-La section ***État de réinitialisation des utilisateurs 2FA*** affiche les comptes d'utilisateurs qui ont demandé une réinitialisation 2FA. Pour accéder à la liste des utilisateurs qui demandent une réinitialisation 2FA, accéder à ***Administration – État de réinitialisation des utilisateurs 2FA***.
+La section ***Statut de réinitialisation A2F des utilisateurs*** affiche les comptes utilisateurs ayant demandé une réinitialisation d'A2F. Pour accéder à la liste des utilisateurs demandant une réinitialisation d'A2F, naviguer vers ***Administration – Statut de réinitialisation A2F des utilisateurs***.
 
-![Administration - État de réinitialisation des utilisateurs 2FA](https://cdnweb.devolutions.net/docs/fr/server/ServerOp8037.png)
-![Réinitialiser l'authentification à 2 facteurs](https://cdnweb.devolutions.net/docs/fr/server/ServerOp8074.png)
+![Administration - Statut de réinitialisation A2F des utilisateurs](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp8037.png)
+
+![Opération de réinitialisation A2F de l'utilisateur](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp8038.png)

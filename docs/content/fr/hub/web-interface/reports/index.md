@@ -1,11 +1,16 @@
 ---
 eleventyComputed:
   title: Rapports
+  description: La section Rapports fournit aux administrateurs des outils pour effectuer l'Audit, consulter les Journaux, et gérer l'Historique des entrées supprimées des {{ fr.VLT }}s.
 ---
-La section ***Rapports*** fournit aux administrateurs des outils pour effectuer des [***Audits***](/fr/hub/web-interface/hub-overview/reports/audit/), visualiser les [***Journaux***](/fr/hub/web-interface/hub-overview/reports/logs/) et gérer les [***Entrées supprimées***](/fr/hub/web-interface/hub-overview/reports/history/) des {{ fr.VLT }}s.
+La section ***Rapports*** fournit aux administrateurs des outils pour effectuer l'[Audit](/hub/web-interface/reports/audit/), consulter les [Journaux](/hub/web-interface/reports/logs/), et gérer l'Historique des entrées supprimées des {{ fr.VLT }}s.
 
 {% snippet, "badgeInfo" %}
-Les utilisateurs, qui ne sont pas administrateurs, auront un accès limité à la section ***Rapports***.
+Les utilisateurs non-administrateurs auront un accès limité à la section ***Rapports***.
 {% endsnippet %}
 
-![!!Hub4020](https://cdnweb.devolutions.net/docs/fr/hub/Hub4020.png)
+{% snippet, "badgeInfo" %}
+Les rapports basés sur le Web de [{{ fr.DVLS }}](/server/overview/what-is-server/) et [{{ fr.DHUB }}](/hub/overview/what-is-hub/) sont disponibles dans {{ fr.RDM }}.
+{% endsnippet %}
+
+![Rapports](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub6082.png)

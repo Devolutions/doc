@@ -1,73 +1,71 @@
 ---
 eleventyComputed:
-  title: Exporter
+  title: Export
+  description: La fonction d'exportation est active uniquement si les privilèges d'Importation et d'Exportation ont été activés dans le compte de Gestion des Utilisateurs.
 ---
-Utiliser ***Fichier - Exporter*** pour exporter les {{ fr.VLT }}s à partir de {{ fr.RDM }}.
+Utiliser ***Fichier – Exporter*** pour exporter les {{ fr.VLT }}s de {{ fr.RDM }}.
 
 {% snippet, "badgeInfo" %}
-La fonction d'exportation n'est active que si les ***Privilèges*** d'importation et d'exportation ont été activés dans le compte de ***Gestion des utilisateurs***.
+La fonction d'exportation est active uniquement si les privilèges d'***Importation*** et d'***Exportation*** ont été activés dans le compte de ***Gestion des Utilisateurs***.
 {% endsnippet %}
 
 {% snippet, "badgeNotice" %}
-Les formats appropriés pour réimporter les {{ fr.VLT }}s dans {{ fr.RDM }} sont les formats .rdm et .rdx.
+Les seuls formats appropriés pour réimporter les {{ fr.VLT }}s dans {{ fr.RDM }} sont les formats .rdm et .rdx.
 {% endsnippet %}
 
 ## Paramètres
 
-![Fichier - Exporter](https://cdnweb.devolutions.net/docs/fr/rdm/windows/clip10502.png)
+![Fichier - Exporter](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin6239.png)
 
 {% snippet, "badgeInfo" %}
-Lorsque vous utilisez une [Source de données avancée](/fr/rdm/windows/data-sources/data-sources-types/advanced-data-sources/), les capacités d'exportation peuvent être désactivées via des politiques de sécurité au niveau de la source de données (personne ne peut exporter) ou au niveau de l'utilisateur (certains utilisateurs ne peuvent pas exporter).
+Lors de l'utilisation d'une [Source de Données Avancée](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/), les capacités d'exportation peuvent être désactivées via des politiques de sécurité au niveau de la source de données (personne ne peut exporter) ou au niveau d'un utilisateur (certains utilisateurs ne peuvent pas exporter).
 {% endsnippet %}
 
-### Exporter le {{ fr.VLT }} (.RDM)
+### Exporter {{ fr.VLT }} (.rdm)
 
-Exporter le {{ fr.VLT }} dans un fichier .rdm qui peut être importé dans n'importe quelle source de données {{ fr.RDM }}. Vous pouvez également inclure les identifiants dans ce format d'exportation et sécuriser votre fichier avec une clé maîtresse.
+Exporter un {{ fr.VLT }} dans un fichier .rdm qui peut être importé dans n'importe quelle source de données {{ fr.RDM }}. Vous pouvez également inclure les identifiants dans ce format d'exportation et sécuriser votre fichier avec une clé maîtresse.
 
 {% snippet, "badgeInfo" %}
-Par défaut, les identifiants ne sont PAS inclus. Il est essentiel de cocher l'option ***Inclure identifiants*** afin que les données exportées les incluent.
+Par défaut, les identifiants NE sont PAS inclus. Il est crucial de cocher l'option ***Identifiants*** pour que les données exportées incluent les identifiants.
 {% endsnippet %}
 
 {% snippet, "badgeWarning" %}
-La spécification d'une ***Clé maîtresse*** cryptera tout le contenu du fichier .rdm pour protéger son contenu. Il est fortement recommandé comme mesure de sauvegarde, mais la clé est absolument nécessaire pour le décryptage. Conservez-la également dans un périphérique de stockage séparé.
+Spécifier une ***Clé maîtresse*** chiffrera l'intégralité du contenu du fichier .rdm pour protéger son contenu. Cela est fortement recommandé comme mesure de sauvegarde, mais la clé est absolument nécessaire pour le déchiffrement. Conservez-la également sur un dispositif de stockage séparé pour la sauvegarde.
 {% endsnippet %}
 
-![!!clip10103](https://cdnweb.devolutions.net/docs/fr/rdm/windows/clip10103.png)
+![!!clip10103](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip10103.png)
 
-### Exporter le {{ fr.VLT }} (.json)
+### Exporter {{ fr.VLT }} (.json)
 
-Exporter un {{ fr.VLT }} dans un format de fichier .json. Vous pouvez également inclure des identifiants dans ce format d'exportation et sécuriser votre fichier avec une clé maîtresse.
+Exporter un {{ fr.VLT }} dans un format de fichier .json. Vous pouvez également inclure les identifiants dans ce format d'exportation et sécuriser votre fichier avec une clé maîtresse.
 
-### Exporter la liste de tous les hôtes (.csv)
+### Exporter Toute la Liste des Hôtes (.csv)
 
-Exporter une simple liste d'hôtes en format .csv. Vous serez invité à voir si vous souhaitez que l'exportation soit un peu plus détaillée et inclure les informations suivantes : hôte, description, nom d'affichage, groupe, groupe d'utilisateur.
+Exporter une simple liste d'hôtes au format .csv. Il vous sera demandé si vous souhaitez que l'exportation soit légèrement plus détaillée et inclue les informations suivantes : Hôte, Description, Nom Affiché, Groupe, Groupes d'Utilisateurs.
 
-### Exporter le {{ fr.VLT }} (.csv)
+### Exporter {{ fr.VLT }} (.csv)
 
-Exporter le {{ fr.VLT }} à l'aide du fichier au format .csv. Pour des raisons de sécurité, le fichier .csv sera contenu dans un fichier zip chiffré par mot de passe. Ce type de sécurité peut être piraté à l'aide d'attaques par force brute, il ne doit être utilisé que lorsque le fichier zip est sous votre contrôle exclusif.
-
+Exporter le {{ fr.VLT }} en utilisant le fichier au format .csv. Pour des raisons de sécurité, le fichier .csv sera contenu dans un fichier zip chiffré par mot de passe. Ce type de sécurité peut être piraté en utilisant des attaques par force brute, il devrait être utilisé uniquement lorsque le fichier zip est sous votre contrôle exclusif.
 {% snippet, "badgeInfo" %}
-Veuillez noter que les colonnes csv varient en fonction des types d'entrées exportés. Cela en fait le mauvais format si jamais vous souhaitez réimporter les données dans {{ fr.RDM }}. Utilisez-le uniquement pour migrer vers un autre système.
+Veuillez noter que les colonnes csv varieront en fonction des types d'entrées exportées. Cela en fait le mauvais format si jamais vous souhaitez réimporter les données dans {{ fr.RDM }}. Utilisez cela uniquement pour migrer vers un autre système.
 {% endsnippet %}
 
-### Exporter le {{ fr.VLT }} (.html)
+### Exporter {{ fr.VLT }} (.html)
 
-Exporter le {{ fr.VLT }} avec l'AES-256 pour crypter le fichier autonome HTML. Voir [HTML crypté](/fr/rdm/windows/commands/file/export/html-encrypted/) pour plus d'information.
+Exporter le {{ fr.VLT }} avec un AES-256 pour chiffrer le fichier html autonome. Voir [Exporter Html Chiffré](/rdm/windows/commands/file/export/html-encrypted/) pour plus d'informations.
 
-### Exporter le {{ fr.VLT }} (.xml)
+### Exporter {{ fr.VLT }} (.xml)
 
-Parce qu'il a semé la confusion dans notre base d'utilisateurs, ce format d'exportation a été converti pour effectuer exactement la même exportation que ***Exporter le {{ fr.VLT }}*** mais définit l'extension de fichier en .xml à la place.
+Comme cela a créé de la confusion parmi notre base d'utilisateurs, ce format d'exportation a été converti pour effectuer exactement le même export que l'***Exporter {{ fr.VLT }}*** mais définit l'extension de fichier en .xml à la place.
 
-### Exporter tous les Documents
+### Exporter Tous les Documents
 
-![!!clip10044](https://cdnweb.devolutions.net/docs/fr/rdm/windows/clip10044.png)
+Exporter toutes les pièces jointes ou toutes les entrées de documents qui sont liées à votre source de données.
+![Exporter Documents](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip10044.png)
 
-Exporter toutes les pièces jointes ou toutes les entrées de document liées à votre source de données.
+### Exporter "mes identifiants personnels" (.rdm)
 
-### Exporter « mes identifiants personnels » (.rdm)
-
-Exporter ***Mes Identifiants Personnels*** dans un fichier .rdm et cryptez-les avec une clé maîtresse.
-
+Exporter vos ***Mes Identifiants Personnels*** dans un fichier .rdm et chiffrer avec une ***Clé maîtresse***.
 {% snippet, "badgeWarning" %}
-Une ***Clé maîtresse*** cryptera le fichier .rdm pour protéger son contenu. La clé est absolument nécessaire pour le décryptage.
+Une ***Clé maîtresse*** chiffrera le fichier .rdm pour protéger son contenu. La clé est absolument nécessaire pour le déchiffrement.
 {% endsnippet %}

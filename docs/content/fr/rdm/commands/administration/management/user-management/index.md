@@ -1,224 +1,77 @@
 ---
 eleventyComputed:
-  title: Utilisateurs
+  title: Gestion des utilisateurs
+  description: La Gestion des Utilisateurs permet de créer et gérer les utilisateurs et leurs privilèges. Vous pouvez définir les privilèges par défaut sur le type d'utilisateur dans les Paramètres de Source de Données (Paramètres Système).
 ---
-{% youtube 'd2tiGsk3M2g' %}
+{% youtube 'VXlN3PrDwiU' %}
 
-La gestion des utilisateurs est disponible dans le menu ***Administration - Utilisateurs***. La gestion des utilisateurs vous permet de créer, gérer et attribuer des droits à un utilisateur.
-
-{{ fr.RDM }} permet une gestion avancée des droits d'utilisateur vous permettant de contrôler la façon dont une session est utilisée par chaque utilisateur. Noter que certains contrôles de visibilité dépendent de la source de données active.
+La ***Gestion des Utilisateurs*** permet de créer et gérer les utilisateurs et leurs privilèges. Définir les privilèges par défaut sur le type d'utilisateur dans les ***Paramètres de Source de Données (Paramètres Système)***. {{ fr.RDM }} offre une gestion avancée des droits des utilisateurs qui permet de restreindre l'accès aux entrées. Veuillez noter que la disponibilité de certaines fonctionnalités dépend de la source de données active.
 
 {% snippet, "badgeInfo" %}
-Cette fonctionnalité nécessite une [Source de données avancées](/fr/rdm/windows/data-sources/data-sources-types/advanced-data-sources/).
+Cette fonctionnalité nécessite une [Source de Données Avancée](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/).
 {% endsnippet %}
 
 {% snippet, "badgeInfo" %}
-Toutes les [Source de données avancées](/fr/rdm/windows/data-sources/data-sources-types/advanced-data-sources/) ne prennent pas en charge l'utilisation de la sécurité intégrée. Pour en savoir plus, veuillez consulter [Sécurité intégrée](/fr/rdm/windows/commands/administration/management/user-management/integrated-security/).
+Un utilisateur peut être créé en utilisant la sécurité par défaut (spécifier le mot de passe) ou [Sécurité Intégrée](/rdm/windows/commands/administration/management/user-management/integrated-security/). Toutes les [Sources de Données Avancées](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/) ne prennent pas en charge l'utilisation de [Sécurité Intégrée](/rdm/windows/commands/administration/management/user-management/integrated-security/).
 {% endsnippet %}
 
 {% snippet, "badgeNotice" %}
-Pour créer des utilisateurs et attribuer des droits, vous devez être administrateur non seulement de {{ fr.RDM }}, mais également de la base de données sous-jacente..
+Pour créer des utilisateurs et attribuer des droits, vous devez être administrateur non seulement de {{ fr.RDM }}, mais aussi de la base de données sous-jacente.
 {% endsnippet %}
 
-## Gérer les utilisateurs
+## Gérer les Utilisateurs
 
-Pour créer, modifier, supprimer, renommer ou gérer les utilisateurs dans leur ensemble, utiliser les boutons de la barre d'outils.
-![Gestion des usagers et de la sécurité](https://cdnweb.devolutions.net/docs/fr/rdm/windows/clip10726.png)
+Pour créer, éditer, supprimer, renommer ou gérer globalement les utilisateurs, utiliser simplement les boutons dans la barre d'outils.
+![Gestion des Utilisateurs et de la Sécurité - Barre d'outils](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip10726.png)
 
-## Paramètres de gestion des utilisateurs
+## Paramètres de Gestion des Utilisateurs
 
 ### Général
 
-![Gestion des utilisateurs - Général](https://cdnweb.devolutions.net/docs/fr/rdm/windows/clip11296.png)
+![Gestion des Utilisateurs - Général](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip11296.png)
 
-<table>
-	<tr>
-		<th>
+| OPTION                            | DESCRIPTION  |
+|-----------------------------------|------------------------------------------------------------------------------------------- |
+| Type d'authentification               | <ul><li>Sélectionner le type d'authentification de l'utilisateur : Personnalisé (Devolutions) : créer un utilisateur spécifique à {{ fr.RDM }} sans créer de connexion SQL.</li><li>Base de données (SQL Server) : s'authentifier en utilisant la connexion SQL de votre serveur SQL. </li></ul> |
+| Nom d'utilisateur                          | Entrer le nom d'utilisateur pour l'utilisateur. Lors de l'utilisation de [Sécurité Intégrée](/rdm/windows/commands/administration/management/user-management/integrated-security/) l'utilisateur doit être sélectionné depuis l'annuaire.        |           |      Sécurité intégrée (Active Directory) | Spécifier d'utiliser Active Directory pour s'authentifier à la source de données. S'applique uniquement à SQL Server et {{ fr.DVLS }}, selon leur configuration. Pour plus d'informations, consulter [Sécurité Intégrée](/rdm/windows/commands/administration/management/user-management/integrated-security/).              |                 |
+| Mot de passe                          | Entrer le mot de passe de l'utilisateur. Ce champ est désactivé lors de l'utilisation de [Sécurité Intégrée](/rdm/windows/commands/administration/management/user-management/integrated-security/).        |        |
+| Type d'utilisateur                         | Sélectionner le type d'utilisateur à créer, choisir entre : <ul><li>***Administrateur :*** Accorder tous les droits administratifs à l'utilisateur. </li><li> ***Utilisateur en lecture seule :*** Accorder uniquement l'accès en lecture à l'utilisateur. </li> <li>***Utilisateur restreint :*** Sélectionner quels droits accorder à l'utilisateur. </li> <li>***Utilisateur :*** Accorder tous les droits de base à l'utilisateur (Ajouter, Éditer, Supprimer).</li> </ul> <br> Pour plus d'informations, consulter [Types d'Utilisateurs](/rdm/windows/commands/administration/management/user-management/user-types/).                       |
+| Type de licence utilisateur                 | Sélectionner le type de licence de l'utilisateur. Choisir entre : <ul><li> ***Par défaut*** </li> <li>***Gestion de Connexion***</li> <li> ***Gestion de Mot de Passe***                    |       |       |
+| Profil d'interface utilisateur                     | Sélectionner le [profil d'interface utilisateur](/rdm/windows/user-interface/customization/usage-profiles/). Choisir entre : <br> <ul><li>***Par défaut***</li> <li>***Professionnel de l'informatique***</li><li>***Utilisateur d'affaires***</li></ul> <br> Noter que le profil d'interface utilisateur ne peut être défini qu'à la création d'un utilisateur. Une fois l'utilisateur créé, vous ne pouvez pas éditer ce paramètre.                              |
+| Prénom                        | Entrer le prénom de l'utilisateur.       |
+| Nom                         | Entrer le nom de famille de l'utilisateur. |
+| Courriel                             | Insérer l'adresse courriel de l'utilisateur.         |
+### Information
 
-OPTION
-		</th>
-		<th>
-DESCRIPTION
-		</th>
-	</tr>
-	<tr>
-		<td>
-Type d'authentification
-		</td>
-		<td>
-Sélectionner le type d'authentification de l'utilisateur :
+La section ***Information*** permet de stocker des informations concernant les utilisateurs, telles que leur nom, adresse, et plus. La section Information est divisée en trois sous-sections : ***Détails, Adresse, Téléphone***.
+![Gestion des Utilisateurs - Information - Détails](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip10728.png)
 
-* Personnalisé (Devolutions) : Créer un utilisateur spécifique à {{ fr.RDM }} sans créer de connexion SQL.
-* Base de données : A uthentifiez-vous à l'aide de la connexion de votre base de données.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Nom d'utilisateur
-		</td>
-		<td>
-Saisir le nom de l'utilisateur. Lorsque vous utilisez la [Sécurité intégrée](/fr/rdm/windows/commands/administration/management/user-management/integrated-security/), l'utilisateur doit être sélectionné dans le répertoire.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Type d'utilisateur
-		</td>
-		<td>
-Sélectionner le type d'utilisateur à créer, choisir entre :
+### Groupes d'Utilisateurs
 
-* ***Administrateur :*** Accorder tous les droits administratifs à l'utilisateur.
-* ***Utilisateur lecture seulement :*** Accorder uniquement l'accès en lecture seul à l'utilisateur.
-* ***Utilisateur accès restreint :*** Sélectionner les droits à accorder à l'utilisateur.
-* ***Utilisateur :*** Accorder tous les droits de base à l'utilisateur (Ajouter, Modifier, Supprimer).
+Sélectionner les groupes d'utilisateurs à assigner à l'utilisateur.
+![Gestion des Utilisateurs - Groupes d'Utilisateurs](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip11297.png)
 
-Pour plus d'informations, veuillez consulter [Types d'utilisateurs](/fr/rdm/windows/commands/administration/management/user-management/user-types/).
-		</td>
-	</tr>
-	<tr>
-		<td>
-Type de licence utilisateur
-		</td>
-		<td>
-Sélectionner le type de licence de l'utilisateur. Choisir entre :
+| OPTION                            | DESCRIPTION
+|-----------------------------------|-----------------------------------------------------------------------------------------------|
+| Groupes d'Utilisateurs  | Cocher la case ***Est Membre*** pour assigner des groupes d'utilisateurs à l'utilisateur. Consulter [Gestion des Groupes d'Utilisateurs](/rdm/windows/commands/administration/management/user-groups-management/) pour plus d'informations.                                                                                      |
+| {{ fr.VLT }}s | Sélectionner quels dépôts l'utilisateur a accès. Pour plus d'informations, consulter {{ fr.VLT }}s.  ![Gestion des Utilisateurs - {{ fr.VLT }}s](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip3624.png)                                                                      |
+| Accès Application | La section accès application permet de restreindre l'accès à {{ fr.RDM }} ou au [{{ fr.WBEX }}](/workspace/workspace-browser-extension/).   ![Gestion des Utilisateurs - Accès Application](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip3625.png)                      |
 
-* ***Par défaut***
-* ***Gestion de connexions***
-* ***Gestion des mots de passe***
-		</td>
-	</tr>
-	<tr>
-		<td>
-Nom complet
-		</td>
-		<td>
-Saisir le prénom et le nom de l'utilisateur.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Courriel
-		</td>
-		<td>
-Insérer l'adresse courriel de l'utilisateur.
-		</td>
-	</tr>
-</table>
 
-### Entrée de données
-
-Saisir toutes les informations nécessaires concernant votre nouvel utilisateur. La section est divisée en trois sous-sections : ***Détails, Adresse*** et ***Téléphone***.
-![Gestion des utilisateurs - Entrée de données - Détails](https://cdnweb.devolutions.net/docs/fr/rdm/windows/clip10728.png)
-
-### Groupes d'utilisateurs
-
-Sélectionner les ***Groupes d'utilisateurs*** à attribuer à l'utilisateur.
-![Gestion des utilisateurs - Groupes d'utilisateurs](https://cdnweb.devolutions.net/docs/fr/rdm/windows/clip11297.png)
-
-<table>
-	<tr>
-		<th>
-
-OPTION
-		</th>
-		<th>
-DESCRIPTION
-		</th>
-	</tr>
-	<tr>
-		<td>
-Groupes d'utilisateurs
-		</td>
-		<td>
-Cochez la case ***Est membre*** pour attribuer le groupes d'utilisateurs à l'utilisateur. Consultez [Groupes d'utilisateurs](/fr/rdm/windows/commands/administration/management/user-groups-management/) pour plus d'informations.
-		</td>
-	</tr>
-</table>
-
-### {{ fr.VLT_MAJ }}s
-
-Sélectionner les ***{{ fr.VLT }}s*** auxquels l'utilisateur a accès.
-![Gestion des utilisateurs - {{ fr.VLT_MAJ }}s](https://cdnweb.devolutions.net/docs/fr/rdm/windows/clip3624.png)
-
-### Accès à l'application
-
-La section d'***Accès aux applications*** permet de restreindre l'accès à {{ fr.RDM }} ou au [{{ fr.WBEX }}](/fr/rdm/windows/workspace-browser-extension/overview/).
-![Gestion des utilisateurs - Accès à l'application](https://cdnweb.devolutions.net/docs/fr/rdm/windows/clip3625.png)
-
-<table>
-	<tr>
-		<th>
-
-OPTION
-		</th>
-		<th>
-DESCRIPTION
-		</th>
-	</tr>
-	<tr>
-		<td>
-{{ fr.RDM }}
-		</td>
-		<td>
-Sélectionner si l'utilisateur peut accéder à la source de données à partir de {{ fr.RDM }}.
-		</td>
-	</tr>
-	<tr>
-		<td>
-[{{ fr.WBEX_MAJ }}](/fr/rdm/windows/workspace-browser-extension/overview/)
-		</td>
-		<td>
-Sélectionner si l'utilisateur peut accéder au formulaire de source de données du {{ fr.WBEX }}.
-		</td>
-	</tr>
-</table>
+| OPTION                            | DESCRIPTION
+|-----------------------------------|-----------------------------------------------------------------------------------------------|
+| {{ fr.RDM }} | Sélectionner si l'utilisateur peut accéder à la source de données depuis {{ fr.RDM }}.                                                   |
+| [{{ fr.WBEX }}](/workspace/workspace-browser-extension/) | Sélectionner si l'utilisateur peut accéder à la source de données depuis le {{ fr.WBEX }}. |
 
 ### Paramètres
 
-![Gestion des utilisateurs - Paramètres](https://cdnweb.devolutions.net/docs/fr/rdm/windows/clip11304.png)
+![Gestion des Utilisateurs - Paramètres](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip11304.png)
 
-Autoriser l'utilisateur à activer le mode Hors connexion sur les sources de données. Cela dépend également de la source de données configurée pour l'autoriser. Vous pouvez choisir entre :
+Permettre à l'utilisateur d'activer le [Mode Hors Ligne](/rdm/windows/data-sources/offline-mode/) sur les sources de données. Cela dépend également de la configuration de la source de données pour le permettre. Voir les modes disponibles ci-dessous :
 
-<table>
-	<tr>
-		<th>
-
-OPTION
-		</th>
-		<th>
-DESCRIPTION
-		</th>
-	</tr>
-	<tr>
-		<td>
-Désactivé
-		</td>
-		<td>
-Aucun cache hors ligne autorisé pour cet utilisateur.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Cache seulement
-		</td>
-		<td>
-Permets d'enregistrer un cache de la source de données, mais pas le mode hors ligne.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Lecture seule
-		</td>
-		<td>
-Un cache en lecture seule est autorisé pour les [Sources de données avancées](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/).
-		</td>
-	</tr>
-	<tr>
-		<td>
-Lecture/écriture
-		</td>
-		<td>
-Un cache avancé, avec synchronisation des modifications, est autorisé pour les [Sources de données avancées](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/).
-		</td>
-	</tr>
-</table>
+| OPTION                            | DESCRIPTION
+|-----------------------------------|------------------------------------------------------------------------------------------- |
+| Désactivé    | Aucun cache hors ligne autorisé pour l'utilisateur.                                                                           |
+| Cache seulement  | Permet de sauvegarder un cache de la source de données mais pas le mode hors ligne.                                                                                                                            |
+| Lecture seule   | Un cache en lecture seule. L'utilisateur ne pourra pas éditer les données dans la source de données. Ce mode est autorisé pour les [Sources de Données Avancées](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/) uniquement.                                                                                 |
+| Lecture/Écriture  | Un cache avancé, avec synchronisation des changements. Ce mode est autorisé pour les [Sources de Données Avancées](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/) uniquement.                                                                                                    |

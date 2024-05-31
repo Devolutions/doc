@@ -2,19 +2,13 @@
 eleventyComputed:
   title: Rapports planifiés
   order: 10
-  description: Les ***Rapports planifiés*** génèrent un rapport et l'envoient par courriel aux utilisateurs sélectionnés. Il peut s'agir d'un rapport à la demande ou d'un rapport récurrent basé sur un calendrier (quotidien, hebdomadaire, mensuel, annuel).
-  keywords:
-  - rapport
-  - planifié
-  - planification
-  - calendrier
 ---
-Les ***Rapports planifiés*** génèrent un rapport et l'envoient par courriel aux utilisateurs sélectionnés. Il peut s'agir d'un rapport à la demande ou d'un rapport récurrent basé sur un calendrier (quotidien, hebdomadaire, mensuel, annuel).
+Les ***Rapports Planifiés*** vont générer un rapport et l'envoyer par courriel à tout compte d'utilisateur sélectionné. Il peut s'agir d'un rapport à la demande ou d'un rapport récurrent basé sur un calendrier (quotidien, hebdomadaire, mensuel, annuel).
 
-Grâce à cette fonction, vous pouvez définir des dates, des filtres et divers paramètres personnalisés pour programmer des rapports récurrents sur une période donnée.
+Avec cette fonctionnalité, vous pouvez définir des dates, des filtres et divers paramètres personnalisés pour planifier des rapports récurrents sur toute période souhaitée.
 
 {% snippet, "badgeCaution" %}
-Pour que cette fonctionnalité soit opérationnelle, il est obligatoire d'activer le ***Service de planification*** dans l'onglet ***Compagnons*** de la {{ fr.DVLSCONSOLE }}.
+Pour que cette fonctionnalité fonctionne, il est obligatoire d'activer le [***Service Planificateur***](/server/kb/knowledge-base/scheduler-service-general-information/) dans l'onglet ***Companions*** du {{ fr.DVLSCONSOLE }}.
 {% endsnippet %}
 
-![Rapports – Rapports planifiés](https://cdnweb.devolutions.net/docs/fr/server/ServerOp4079.png)
+![Rapports - Rapports Planifiés](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp8133.png)

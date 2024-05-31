@@ -1,34 +1,27 @@
 ---
 eleventyComputed:
-  title: Édition Team
+  title: Édition d'équipe
   order: 10
+  description: Lors de l'utilisation d'une source de données avancée, il n'est pas nécessaire d'enregistrer {{ fr.RDMMAC }} puisque la clé de licence est stockée dans la source de données et récupérée directement à partir de celle-ci.
 ---
-Si vous utilisez une [Source de données avancée](/fr/rdm/mac/data-sources/data-sources-types/advanced-data-sources/), vous n'avez pas besoin d'enregistrer une licence pour {{ fr.RDMMAC }}, parce qu'elle est stockée et récupérée directement sur la source de donnée. Lorsque vous lancez l'application pour la première fois, [ajoutez la source de données](/fr/rdm/mac/data-sources/create-new-data-source/) contenant la clé.
-
-{% snippet, "badgeCaution" %}
-Le menu de licence {{ fr.RDMMAC }} est disponible pour SQLite, mais pas pour les sources de données individuelles.
-{% endsnippet %}
+Lors de l'utilisation d'une [source de données avancée](/rdm/mac/data-sources/data-sources-types/advanced-data-sources/), il n'est pas nécessaire d'enregistrer {{ fr.RDMMAC }} puisque la clé de licence est stockée dans la source de données et récupérée directement à partir de celle-ci. Lors du lancement de l'application pour la première fois, simplement [ajouter la source de données](/workspace/workspace-browser-extension/remote-desktop-manager/using-workspace-browser-extension/create-account-website/) contenant la série. Le menu de licence pour enregistrer {{ fr.RDMMAC }} est disponible pour SQLite, mais pas pour d'autres sources de données individuelles.
 
 {% snippet, "badgeInfo" %}
-Il est possible de [demander un essai](/fr/rdm/mac/installation/client/registration/trial-request/) pour essayer {{ fr.RDMMAC }} ÉditionTeam pendant 30 jours. Si vous décidez de ne pas enregistrer l'application avec une clé de licence Édition Team à la fin de la période de 30 jours, vos données ne seront ni modifiées, ni effacées et vous y aurez accès pleinement une fois que vous aurez fourni une clé de licence.
+Il est possible de [demander un essai](/rdm/mac/installation/client/registration/trial-request/) pour essayer {{ fr.RDM }} Team pendant 30 jours. Si vous décidez de ne pas enregistrer l'application avec une clé de licence Édition d'équipe à la fin de la période de 30 jours, vos données ne seront ni altérées ni effacées, et vous aurez un accès complet à celles-ci une fois que vous fournirez une clé de licence.
 {% endsnippet %}
 
-1. Pour ajouter une clé de licence dans la source de donnée, accéder à ***Administration – Licences***.
-![Administration – Licences](https://cdnweb.devolutions.net/docs/fr/rdm/mac/RDMMac0000.png)
-1. Cliquer sur le bouton Ajouter une licence.
-![Bouton Ajouter une licence](https://cdnweb.devolutions.net/docs/fr/rdm/mac/RDMMac0001.png)
-1. Saisir la ***Licence*** dans le champ approprié.
-![Champ Licence](https://cdnweb.devolutions.net/docs/fr/rdm/mac/RDMMac0003.png)
-1. Facultatif : Cocher la case ***Assignation automatique*** pour fournir automatiquement une clé de licence {{ fr.RDM }} à tous les utilisateurs nouvellement créés.
-![Paramètre Assignation automatique](https://cdnweb.devolutions.net/docs/fr/rdm/mac/RDMMac0004.png)
-1. Cliquer ***OK***.
-1. Cliquer sur le bouton ***Modifier*** dans la fenêtre de ***Gestion des usagers et de la sécurité***.
-![Bouton Modifier](https://cdnweb.devolutions.net/docs/fr/rdm/mac/RDMMac0002.png)
-1. Cliquer ***Assigné à*** dans le menu de gauche.
-1. Cliquer ***Assigner tout*** ou sélectionner dans la colonne ***Assignée*** qui doit avoir un accès à {{ fr.RDM }}.
-
-{% snippet, "badgeNotice" %}
-Cette étape attribuera automatiquement la licence aux utilisateurs sélectionnés, éliminant ainsi le besoin d'interagir avec chaque utilisateur.
-{% endsnippet %}
-
-9. Cliquer ***OK*** et fermer la fenêtre de ***Gestion des usagers et de la sécurité***.
+- Ajouter une clé de licence à la source de données, naviguer vers ***Administration – Licences***.
+![Administration – Licences](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_RDMMac0000.png)
+- Cliquer ***Ajouter Licence***.
+![Add License Button](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_RDMMac0001.png)
+- Entrer la clé de licence dans le champ ***Licence***.
+![License Field](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_RDMMac0002.png)
+- Optionnel : Cocher la case ***Auto assigner*** pour fournir automatiquement la série {{ fr.RDMMAC }} à tous les nouveaux utilisateurs créés.
+![Auto Assign Setting](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_RDMMac0003.png)
+- Cliquer ***OK***.
+- Cliquer le bouton ***Modifier*** dans la ***Gestion des utilisateurs et de la sécurité***.
+![Edit Button](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_RDMMac0004.png)
+- Cliquer ***Assigné à*** dans le menu de gauche.
+- Cliquer ***Assigner à tous*** ou sélectionner dans la colonne ***Assigné*** qui devrait avoir un accès à la série {{ fr.RDMMAC }}. Cette étape assignera automatiquement la licence aux utilisateurs sélectionnés, supprimant le besoin d'interagir avec chaque utilisateur.
+![Assigned To Tab](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_RDMMac0005.png)
+- Cliquer ***OK*** et ***Fermer*** la fenêtre de ***Gestion des utilisateurs et de la sécurité***.

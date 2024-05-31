@@ -1,42 +1,38 @@
 ---
 eleventyComputed:
-  title: Configuration du système
+  title: Configuration requise
 ---
-## {{ fr.RDM }} nécessite cette configuration avant l'installation. 
+{{ fr.RDM }} nécessite ce qui suit avant l'installation :
 
-## Configuration minimale 
+## Configuration minimale pour Windows
 
-**Windows Desktop** 
+### Bureau Windows
 
-* Windows 11 
-    * Version 21H2 
-* Windows 10 
-    * Versions 20H2, 21H1 et 21H2 
+* Windows 11
+    * Version 21H2
+* Windows 10
+    * Version 20H2, 21H1 et 21H2
 
-**Windows Server** 
+### Serveur Windows
 
-* Windows Server 2022 
-* Windows Server 
-    * Version 20H2 
-* Windows Server 2019 
-* Version 1809 
-* 2016 
-    * Version 1607 
-* 2012 R2 
-* 2012 
+* Windows Server 2022
+* Windows Server
+    * Version 20H2
+* Windows Server 2019
+* 2016
+    * Version 1607
 
-Microsoft .NET Framework 4.8  
-Processeur : 1 GHz ou plus puissant  
-Mémoire vive : 4 Go  
-Résolution d'écran : 1024 x 768  
-Espace de disque dur : 500 Mo  
-Système d'exploitation : 64 bits  
-[Microsoft Edge WebView2 Runtime](/kb/remote-desktop-manager/knowledge-base/download-microsoft-edge-chromium/) 
+Microsoft .NET 8.0
+Processeur de 1 GHz ou plus rapide
+4 Go de RAM
+Résolution d'écran de 1024 x 768
+Espace disque dur de 500+ Mo
+Système d'exploitation 64 bits
 
-## Prise en charge des Terminal Services et des clients légers 
+## Support des services Bureau à distance et des clients légers
 
-{{ fr.RDM }} peut être installé sur des [Terminal Services](/fr/rdm/windows/installation/client/terminal-services/) et sur des clients légers. 
+{{ fr.RDM }} peut être installé sur les [Services Bureau à distance](/rdm/installation/client/terminal-services/) et les clients légers.
 
-## Déploiement manuel/portable 
+## Déploiement manuel/portable
 
-Le déploiement manuel, à partir d'un fichier zip, est documenté dans la section [Portable (USB)](/fr/rdm/windows/installation/client/portable-usb/). Les prérequis devront être installés manuellement. Veuillez consulter la section [Logiciel prérequis](/fr/rdm/windows/overview/system-requirements/prerequisite-software/) pour plus d'information. 
+Déployer manuellement en utilisant notre fichier zip est documenté comme étant un déploiement [Portable (USB)](/rdm/installation/client/portable-usb/). Dans ce cas, les prérequis devront également être gérés manuellement. Veuillez consulter [Logiciels prérequis](/rdm/overview/system-requirements/prerequisite-software/) pour plus de détails.

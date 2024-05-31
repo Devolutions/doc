@@ -1,32 +1,35 @@
 ---
 eleventyComputed:
   title: Sources de données
-  order: 40
+  description: La source de données est au cœur de {{ fr.RDMMAC }}, c'est le conteneur qui détient toutes vos entrées.
+  order: 50
 ---
-Les sources de données sont au cœur de {{ fr.RDM }}, c'est les conteneurs qui contiennent toutes vos entrées.
-
-Une source de données peut être un fichier ou une base de données; vous pouvez définir plusieurs sources de données comme indiqué ci-dessous. Ils doivent être configurés sur tous les postes de travail.
-![Sources de données](https://cdnweb.devolutions.net/docs/fr/rdm/mac/clip0176.png)
+La source de données est au cœur de {{ fr.RDMMAC }}, c'est le conteneur qui détient toutes vos entrées.
 
 ## Paramètres
 
-### Sources de données multiples
+La source de données peut être un fichier ou une base de données et vous utiliser plusieurs sources de données en même temps, comme vu ci-dessous. Elles doivent être configurées sur tous les postes de travail.
+![Sources de données](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip6016.png)
 
-Vous pouvez configurer plusieurs sources de données dans l'application. Ces sources de données peuvent être de différents types, mais il n'y en a qu'une seule active à la fois.
+### Créer une nouvelle Source de Données
 
-Vous pouvez passer d'une source de données à une autre via la zone de liste déroulante des sources de données ou dans ***Fichier - Sources de données***.
-![Choisir une source de données](https://cdnweb.devolutions.net/docs/fr/rdm/mac/clip0312.png)
+Consulter [Créer une nouvelle source de données](/rdm/mac/data-sources/create-new-data-source/) pour plus d'informations.
 
-### Utiliser la source de données par défaut
+### Sources de Données Multiples
 
-Vous pouvez attribuer une source de données par défaut au démarrage. Elle sera par défaut automatiquement ouverte au démarrage de {{ fr.RDM }}.
-![Utiliser la source de données par défaut](https://cdnweb.devolutions.net/docs/fr/rdm/mac/clip0177.png)
+Vous pouvez configurer plusieurs sources de données au sein de l'application. Ces sources de données peuvent être de types mixtes mais il n'y en a qu'une active à la fois. Il est possible de passer d'une source de données à une autre via la boîte combinée de source de données.
+![Choisissez votre source de données actuelle](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10137.png)
 
-### Dernière source de données utilisée
+### Ouvrir la Source de Données au Démarrage
 
-Au lieu de sélectionner une source de données par défaut, vous pouvez sélectionner l'option ***Dernière source de données utilisée*** et la dernière source de données que vous avez utilisée s'ouvrira automatiquement au démarrage. Il s'agit du paramètre par défaut pour les nouvelles installations.
-![Dernière source de données utilisée](https://cdnweb.devolutions.net/docs/fr/rdm/mac/clip0179.png)
+Vous pouvez assigner une source de données à ouvrir automatiquement lorsque {{ fr.RDMMAC }} démarre.
 
-### Paramètres des Sources de données
+| OPTION                    | DESCRIPTION |
+|---------------------------|-------------|
+| Utiliser la source de données par défaut | Définir la source de données que vous souhaitez toujours ouvrir au démarrage. |
+| Dernière source de données utilisée     | Ouvrir avec la dernière source de données utilisée. |
+| Demander la source de données    | Une boîte de message s'ouvrira au démarrage pour la sélection de la source de données. |
 
-Les [Sources de données avancées](/fr/rdm/mac/data-sources/data-sources-types/advanced-data-sources/) peuvent contenir des paramètres spécialisés ou des stratégies globales. Ces paramètres sont enregistrés directement dans la base de données.
+### Paramètres de la Source de Données
+
+Les [Sources de Données Avancées](/rdm/mac/data-sources/data-sources-types/advanced-data-sources/) peuvent contenir des paramètres spécifiques ou des politiques globales. Ces paramètres sont sauvegardés directement dans la base de données.

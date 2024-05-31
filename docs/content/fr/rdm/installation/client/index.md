@@ -1,30 +1,26 @@
 ---
 eleventyComputed:
-  title: Application client
+  title: Client
+  description: "{{ fr.RDM }} peut être téléchargé sous forme de fichiers d'installation ou en tant que fichier compressé binaire (.zip) via notre site Web Devolutions ou depuis le Microsoft Store."
 ---
-{{ fr.RDM }} peut être téléchargé sous forme de fichiers d'installation ou de fichier compressé binaire (.zip) via notre [site Web Devolutions](https://devolutions.net/fr/remote-desktop-manager/home/download). Il peut également être téléchargé depuis le [Microsoft Store](https://apps.microsoft.com/store/detail/devolutions-remote-desktop-manager/XPFCXHF337W98S).  
+{{ fr.RDM }} peut être téléchargé sous forme de fichiers d'installation ou en tant que fichier compressé binaire (.zip) via notre [site Web Devolutions](https://devolutions.net/remote-desktop-manager/home/download). Il peut également être téléchargé depuis le [Microsoft Store](https://apps.microsoft.com/store/detail/devolutions-remote-desktop-manager/XPFCXHF337W98S).
 
-## Installation 
+## Installation
 
-Selon le support téléchargé, exécutez le programme d'installation ou extrayez les fichiers de l'archive dans n'importe quel dossier et lancez l'exécutable. Si vous souhaitez utiliser un appareil portable ou exécuter plusieurs copies indépendantes de l'application, veuillez consulter [Portable (USB)](/fr/rdm/windows/installation/client/portable-usb/). 
+Selon le support téléchargé, exécuter l'installation ou extraire les fichiers de l'archive dans n'importe quel dossier et lancer l'exécutable. Pour utiliser un dispositif portable ou exécuter plusieurs copies indépendantes de l'application, consulter [Portable (USB)](/rdm/windows/installation/client/portable-usb/).
 
-## Licence 
+## Licence
 
-{{ fr.RDM }} Édition Team comprend un essai de 30 jours. Si vous possédez une licence achetée de l'Édition Team, veuillez suivre les instructions à la section [Enregistrement Édition Team](/fr/rdm/windows/installation/client/registration/team-edition/). Pour enregistrer l'Édition Free, reportez-vous à la section [Enregistrement Édition Free](/fr/rdm/windows/installation/client/registration/free-edition/). 
+{{ fr.RDM }} Édition Équipe vient avec un essai de 30 jours. Si vous possédez une licence achetée de l'Édition Équipe, suivre les instructions dans [Édition Équipe](/rdm/windows/installation/client/registration/team-edition/). Pour enregistrer l'Édition Gratuite, se référer à [Édition Gratuite](/rdm/windows/installation/client/registration/free-edition/).
 
-## Data Source 
+## Source de données
 
-Par défaut, une source de données locale est créée à l'aide du format SQLite. Vous pouvez ajouter autant de sources de données que nécessaire. Veuillez consulter [Sources de données](/fr/rdm/windows/data-sources/) pour plus d'informations. 
+Par défaut, une source de données locale est créée en utilisant le format SQLite. Ajouter autant de sources de données que nécessaire. Consulter [Sources de données](/rdm/windows/data-sources/) pour plus d'informations. Pour utiliser une source de données SQL Server ou Azure SQL, se référer à [Configurer SQL Server](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/microsoft-sql-server/configure/) ou [Configurer Azure SQL](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/microsoft-azure-sql/configure/).
 
-{% snippet, "badgeInfo" %} 
-Pour utiliser une source de données SQL Server ou Azure SQL, consultez [Configurer SQL Server](/fr/rdm/windows/data-sources/data-sources-types/advanced-data-sources/microsoft-sql-server/configure-sql-server/) ou [Configurer Azure SQL](/fr/rdm/windows/data-sources/data-sources-types/advanced-data-sources/microsoft-azure-sql/configure/). 
-{% endsnippet %}
- 
+## Applications externes
 
-## Applications externes 
+Configurer votre chemin d'installation pour toutes les applications externes que vous avez l'intention d'utiliser telles que RealVNC, Putty, Filezilla, etc. Définir les chemins dans ***Fichier – Paramètres – Application – Chemins***
 
-Configurer votre chemin d'installation pour toutes les applications externes que vous avez l'intention d'utiliser telles que RealVNC, Putty, Filezilla, etc. Définissez les chemins dans ***Fichier – Options – Chemin***. 
+## Services de terminal / Services Bureau à distance
 
-## Terminal Services / Services Bureau à distance 
-
-Veuillez consulter [Terminal Services / Services Bureau à distance](/fr/rdm/windows/installation/client/terminal-services/).
+Consulter [Services de terminal / Services Bureau à distance](/rdm/windows/installation/client/terminal-services/).

@@ -1,243 +1,93 @@
 ---
 eleventyComputed:
-  title: Agent {{ fr.RDM }}
+  title: "{{ fr.RDMA }}"
+  description: Le {{ fr.RDMA }} est un outil très puissant qui permet d'exécuter des commandes sur plusieurs machines.
 ---
-L'{{ fr.RDMA }} est un outil très puissant qui permet d'exécuter des commandes sur plusieurs machines.
-![Outils - Plus d'outils - {{ fr.RDMA }}](https://cdnweb.devolutions.net/docs/fr/rdm/windows/clip11234.png)
+Le ***{{ fr.RDMA }}*** est un outil très puissant qui permet d'exécuter des commandes sur plusieurs machines.
+![Plus d'outils – {{ fr.RDMA }}](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip11234.png)
 
 ## Paramètres
 
-Pour lancer un script via l'{{ fr.RDMA }}, vous devez d'abord ouvrir une connexion RDP sur toutes les machines sur lesquelles vous souhaitez exécuter le script. Une fois ouverte, sélectionner toutes les sessions ouvertes dans le ***{{ fr.NPANE }}***, cliquer dessus avec le bouton droit et sélectionner ***Exécuter le script par Agent***.
+Pour lancer un script via le ***{{ fr.RDMA }}***, vous devez d'abord ouvrir une connexion RDP avec toutes les machines sur lesquelles vous souhaitez exécuter le script. Une fois ouvertes, sélectionnez toutes les sessions ouvertes dans le [{{ fr.NPANE }}](/rdm/windows/user-interface/navigation-pane/), cliquez droit dessus et sélectionnez Exécuter le script via l'Agent.
 
 {% snippet, "badgeInfo" %}
-L'exécution du script via l'Agent a besoin seulement de l'{{ fr.RDMA }} que lorsque le script est exécuté à partir de l'onglet Quick Script. {{ fr.RDM }} doit être entièrement installé sur l'ordinateur distant lorsque le script est exécuté à partir de l'onglet Outils/Scripts/Macros.
+Exécuter le script via l'Agent nécessite uniquement le {{ fr.RDMA }} lorsque le script est exécuté depuis l'onglet Script rapide. {{ fr.RDM }} doit être entièrement installé sur l'ordinateur distant lorsque le script est exécuté depuis l'onglet Scripts/Outils.
 {% endsnippet %}
 
-![Exécuter le script par Agent](https://cdnweb.devolutions.net/docs/fr/rdm/windows/clip11244.png)
+![Exécuter le Script Via l'Agent](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip11244.png)
 
-### Quick Script - Message
+### Script Rapide – Message
 
-![Quick Script - Message](https://cdnweb.devolutions.net/docs/fr/rdm/windows/ExecuteScriptMessage.png)
+![Script Rapide – Message](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin2199.png)
 
-<table>
-	<tr>
-		<th>
-OPTION
-		</th>
-		<th>
-DESCRIPTION
-		</th>
-	</tr>
-		<td>
-Message
-		</td>
-		<td>
-Envoyer un message à toutes les cibles.
-		</td>
-	</tr>
-</table>
+| OPTION  | DESCRIPTION                     |
+|---------|---------------------------------|
+| Message | Envoyer un message à toutes les cibles.  |
 
-### Quick Script - Ligne de Commande (cmd.exe)
 
-![Quick Script - Ligne de Commande](https://cdnweb.devolutions.net/docs/fr/rdm/windows/clip10407.png)
+### Script Rapide – Ligne de Commande (cmd.exe)
 
-<table>
-	<tr>
-		<th>
-OPTION
-		</th>
-		<th>
-DESCRIPTION
-		</th>
-	</tr>
-		<td>
-Exécuter
-		</td>
-		<td>
-Indique la ligne de commande que vous souhaitez exécuter.
-		</td>
-	</tr>
-		<td>
-Changer le chemin par défaut
-		</td>
-		<td>
-Changer le chemin par défaut lorsque vous vous connectez à la session.
-		</td>
-	</tr>
-		<td>
-Exécuter en tant qu'administrateur
-		</td>
-		<td>
-Élève le processus à exécuter en tant qu'administrateur.
-		</td>
-	</tr>
-		<td>
-Garder ouvert
-		</td>
-		<td>
-Garde la fenêtre ouverte après l'exécution de la ligne de commande.
-		</td>
-	</tr>
-</table>
+![Script Rapide – Ligne de Commande](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip10407.png)
 
-### Quick Script - PowerShell
+| OPTION                    | DESCRIPTION                                               |
+|---------------------------|-----------------------------------------------------------|
+| Exécuter                  | Indiquer la ligne de commande que vous souhaitez exécuter.       |
+| Utiliser le répertoire de travail par défaut | Utiliser le répertoire de travail par défaut lors de la connexion à la session. |
+| Exécuter en tant qu'Administrateur | Élève le processus pour s'exécuter en tant qu'administrateur.          |
+| Garder ouvert             | Garder la fenêtre ouverte après l'exécution de la ligne de commande.      |
 
-![Quick Script - PowerShell](https://cdnweb.devolutions.net/docs/fr/rdm/windows/clip10408.png)
 
-<table>
-	<tr>
-		<th>
-OPTION
-		</th>
-		<th>
-DESCRIPTION
-		</th>
-	</tr>
-		<td>
-Commande
-		</td>
-		<td>
-Indique la commande PowerShell que vous souhaitez exécuter.
-		</td>
-	</tr>
-		<td>
-Nom du fichier
-		</td>
-		<td>
-Sélectionner un fichier PowerShell sur le réseau ou sur l'ordinateur.
-		</td>
-	</tr>
-		<td>
-Arguments
-		</td>
-		<td>
-Arguments ajoutés à la commande.
-		</td>
-	</tr>
-		<td>
-Exécuter en tant qu'administrateur
-		</td>
-		<td>
-Élève le processus à exécuter en tant qu'administrateur.
-		</td>
-	</tr>
-		<td>
-Aucun profil
-		</td>
-		<td>
-Ne charge pas le profil Windows PowerShell.
-		</td>
-	</tr>
-		<td>
-Ne pas fermer
-		</td>
-		<td>
-Ne se ferme pas après l'exécution des commandes de démarrage.
-		</td>
-	</tr>
-</table>
+### Script Rapide - PowerShell
 
-### Quick Script - exécuter
+![Script Rapide – PowerShell](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip10408.png)
 
-![Quick Script - Exécuter](https://cdnweb.devolutions.net/docs/fr/rdm/windows/clip10409.png)
+| OPTION             | DESCRIPTION                                            |
+|--------------------|--------------------------------------------------------|
+| Commande           | Indiquer la commande PowerShell que vous souhaitez exécuter. |
+| Nom de fichier     | Sélectionner un fichier PowerShell sur le réseau ou sur l'ordinateur. |
+| Arguments          | Arguments qui sont ajoutés à la Commande.            |
+| Exécuter en tant qu'Administrateur | Élève le processus pour s'exécuter en tant qu'administrateur.     |
+| Pas de Profil      | Ne charge pas le profil Windows PowerShell.          |
+| Pas de sortie      | Ne sort pas après avoir exécuté les commandes de démarrage.          |
 
-<table>
-	<tr>
-		<th>
-OPTION
-		</th>
-		<th>
-DESCRIPTION
-		</th>
-	</tr>
-		<td>
-Exécuter
-		</td>
-		<td>
-Sélectionner le programme ou le fichier que vous souhaitez exécuter.
-		</td>
-	</tr>
-		<td>
-Arguments
-		</td>
-		<td>
-Arguments ajoutés à la commande.
-		</td>
-	</tr>
-		<td>
-Changer le chemin par défaut
-		</td>
-		<td>
-Changer le chemin par défaut lorsque vous vous connectez à la session.
-		</td>
-	</tr>
-		<td>
-Exécuter en tant qu'administrateur
-		</td>
-		<td>
-Élève le processus à exécuter en tant qu'administrateur.
-		</td>
-	</tr>
-</table>
 
-### Quick Script - Scripts/outils
+### Script Rapide - Exécuter
 
-![Quick Script - Scripts/Outils](https://cdnweb.devolutions.net/docs/fr/rdm/windows/clip10410.png)
+![Script Rapide – Exécuter](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip10409.png)
 
-<table>
-	<tr>
-		<th>
-OPTION
-		</th>
-		<th>
-DESCRIPTION
-		</th>
-	</tr>
-		<td>
-Scripts/Outils
-		</td>
-		<td>
-Sélectionner un script ou un outil de session que vous avez déjà créé dans {{ fr.RDM }}.
-		</td>
-	</tr>
-</table>
+| OPTION                    | DESCRIPTION                                               |
+|---------------------------|-----------------------------------------------------------|
+| Exécuter                  | Sélectionner le programme ou le fichier que vous souhaitez exécuter.      |
+| Arguments                 | Arguments qui sont ajoutés à la Commande.               |
+| Utiliser le répertoire de travail par défaut | Utiliser le répertoire de travail par défaut lors de la connexion à la session. |
+| Exécuter en tant qu'Administrateur | Élève le processus pour s'exécuter en tant qu'administrateur.          |
 
-### Liste des Macros/Scripts/Outils
 
-![Scripts/Outils](https://cdnweb.devolutions.net/docs/fr/rdm/windows/clip10411.png)
+### Script Rapide - Scripts/Outils
 
-Rechercher un script ou un outil que vous souhaitez exécuter via l'{{ fr.RDMA }}.
+![Script Rapide – Scripts/Outils](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip10410.png)
+
+| OPTION       | DESCRIPTION                                                     |
+|--------------|-----------------------------------------------------------------|
+| Scripts/Outils| Sélectionner un script ou une session d'outil que vous avez déjà créé dans {{ fr.RDM }}. |
+
+
+### Scripts/Outils
+
+![Scripts/Outils](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip10411.png)
+
+Rechercher un script ou un outil que vous souhaitez exécuter via le {{ fr.RDMA }}.
 
 ### Paramètres
 
-![Avancée](https://cdnweb.devolutions.net/docs/fr/rdm/windows/clip10412.png)
+![Avancé](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip10412.png)
 
-<table>
-	<tr>
-		<th>
-OPTION
-		</th>
-		<th>
-DESCRIPTION
-		</th>
-	</tr>
-		<td>
-Ouvrir toutes les connexions
-		</td>
-		<td>
-Lorsque plusieurs sessions sont sélectionnées pour exécuter le script via l'Agent, cela ouvrira toutes les connexions sélectionnées.
-		</td>
-	</tr>
-		<td>
-Délai
-		</td>
-		<td>
-Entrer le délai entre l'ouverture de chaque session sélectionnée.
-		</td>
-	</tr>
-</table>
+| OPTION               | DESCRIPTION                                                                                       |
+|----------------------|---------------------------------------------------------------------------------------------------|
+| Ouvrir toutes les connexions | Lorsque plusieurs sessions sont sélectionnées pour ***Exécuter le Script Via l'Agent***, cela ouvrira toutes les connexions sélectionnées. |
+| Délai                | Entrer le délai entre l'ouverture de chaque session sélectionnée.                                       |
 
-### État de l'Agent
+### Statut de l'Agent
 
-Ouvrir une session RDP, cliquer avec le bouton droit sur cette session unique et sélectionner ***État de l'Agent***. L'État de l'agent vous montrera que {{ fr.RDM }} est installé sur l'ordinateur distant ou non, que l'{{ fr.RDMA }} est actif ou non et combien de sessions {{ fr.RDMJ }} sont ouvertes.
-![État de l'Agent](https://cdnweb.devolutions.net/docs/fr/rdm/windows/clip10413.png)
+Ouvrir une session RDP, cliquer droit sur cette session unique et sélectionner Statut de l'Agent. Le Statut de l'Agent vous montrera si {{ fr.RDM }} est installé sur l'ordinateur distant ou non, si le {{ fr.RDMA }} est actif ou non et combien de sessions {{ fr.RDM }} Jump sont ouvertes.
+![Statut de l'Agent](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip10413.png)

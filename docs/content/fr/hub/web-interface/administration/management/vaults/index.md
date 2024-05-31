@@ -2,9 +2,9 @@
 eleventyComputed:
   title: "{{ fr.VLT_MAJ }}s"
 ---
-Les ***{{ fr.VLT }}s*** sont des répertoires pour vos entrées, vos identifiants, vos informations sensibles, vos sessions et plus encore.  
+***{{ fr.VLT_MAJ }}s*** sont des conteneurs pour vos entrées, vos identifiants, informations sensibles, sessions, et plus encore.
 
-Vous commencerez par deux :  
+Vous commencerez avec deux :
 
-* Un ***{{ fr.VLT }} par défaut*** principal créé pour partager les entrées avec les membres de l'équipe auxquels vous accordez l'accès. Vous pouvez ajouter et partager plus de {{ fr.VLT }}s dans ***Administration – {{ fr.VLT_MAJ }}s***.  
-* Un ***{{ fr.UVLT }}***, qui est un {{ fr.VLT }} personnalisé pour l'utilisateur, sera utilisé pour emmagasiner des informations telles que les identifiants de compte personnel. Le ***{{ fr.UVLT }}*** empêche les utilisateurs d'utiliser un outil non sécurisé pour gérer leurs mots de passe personnels au travail. Le ***{{ fr.UVLT }}*** peut être désactivé dans ***Administration – Paramètres du système***.
+* Un principal ***{{ fr.VLT }} par défaut*** créé pour partager des entrées aux membres de l'équipe à qui vous accordez l'accès. Vous pouvez ajouter et partager plus de {{ fr.VLT }}s dans ***Administration – {{ fr.VLT_MAJ }}s***.
+* Un ***{{ fr.VLT_UTIL }}***, qui est centré sur l'utilisateur et est utilisé pour stocker des informations telles que les identifiants de compte personnel. Le ***{{ fr.VLT_UTIL }}*** empêche les utilisateurs d'utiliser un outil non sécurisé pour gérer leurs mots de passe personnels au travail. Le ***{{ fr.VLT_UTIL }}*** peut être désactivé dans ***Administration – Paramètres Système***.

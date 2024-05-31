@@ -1,44 +1,27 @@
 ---
 eleventyComputed:
-  title: Affichage
+  title: Vue
+  description: La section Vue dans l'onglet Vue vous permet d'accéder à différentes listes et informations ainsi que de vous connecter rapidement à un hôte.
 ---
-La section ***Affichage*** de l'onglet ***Affichage*** permet d'accéder à différentes listes et informations ainsi que de se connecter rapidement à un hôte.
-![Section Affichage](https://cdnweb.devolutions.net/docs/fr/rdm/windows/RDMWin2016.png)
+La section ***Vue*** dans l'onglet ***Vue*** vous permet d'accéder à différentes listes et informations ainsi que de vous connecter rapidement à un hôte.
+![Section Vue](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin6203.png)
 
-### Connexion rapide
+## Recherche
 
-La fonction ***Connexion rapide*** vous permet d'ouvrir une session ad-hoc en spécifiant l'hôte et le type de session. Pour en savoir davantage, consultez [***Connexion rapide***](/fr/rdm/windows/commands/view/view/quick-connect/).
+La [***Recherche***](/rdm/windows/commands/view/view/search/) vous permet de rechercher des dossiers et des entrées dans la base de données dans laquelle vous vous trouvez actuellement.
+![Fonction Recherche](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin2207.png)
 
-### Journaux d'activité
+Pour des informations sur d'autres méthodes de recherche, consultez nos sujets connexes :
 
-La fonction ***Journaux d'activité*** ouvre un onglet contenant des information à propos de l'activité des utilisateurs dans la source de données sélectionnée. Pour en savoir davantage, consultez [***Journaux d'activité***](/fr/rdm/windows/commands/view/view/activity-logs/).
+* [***Recherche Multi {{ fr.VLT }}***](/rdm/windows/commands/view/view/search/multi-vault/)
+* [***Recherche Avancée***](/rdm/windows/commands/view/panels/search/advanced/)
+* [***Recherche dans la Documentation***](/rdm/windows/commands/view/view/search/documentation/)
 
-### Listes
+## Connexion Rapide
 
-Plusieurs types de listes sont disponibles dans la section ***Affichage*** : ***Liste des identifiants***, ***Liste des Macros/Scripts/Outils***, ***Liste des synchronisateurs*** et ***Liste des VPN***. Ces options ouvrent une fenêtre montrant l'arborescence de toutes les entrées du type d'entrée spécifique dans la base de données. Les listes peuvent être filtrées avec la barre de recherche. Cliquer avec le bouton de droite sur un élément affiche le même menu et les mêmes options que dans le ***{{ fr.NPANE }}***.
-![Liste des identifiants](https://cdnweb.devolutions.net/docs/fr/rdm/windows/RDMWin2017.png)
+La fonctionnalité ***Connexion Rapide*** vous permet d'ouvrir une session ad-hoc en spécifiant l'hôte et le type de session. Pour plus d'informations, visitez [***Connexion Rapide***](/rdm/windows/commands/view/view/quick-connect/).
 
-### Groupes d'onglets
+## Listes
 
-La fonction ***Groupe d'onglets*** ouvre une fenêtre ancrée montrant l'arborescence de divers groupes d'onglets. Il est possible de sélectionner plusieurs onglets à la fois avec <kbd>Maj</kbd>+clic ou tous les onglets avec le raccourci <kbd>Ctrl</kbd>+<kbd>A</kbd>. Cliquer avec le bouton de droite sur un ou plusieurs onglets affiche plus d'options.
-
-Les autres ***Groupes d'onglets*** n'apparaissent que si une session faisant partie d'un groupe d'onglets (autre que l'onglet ***Tout***) est active.
-![Groupe d'onglets](https://cdnweb.devolutions.net/docs/fr/rdm/windows/RDMWin2018.png)
-
-Bien qu'il soit ancré par défaut, le volet ***Groupes d'onglets*** peut être fenêtré, glissé et ancré n'importe où dans {{ fr.RDM }}.
-
-Pour apprendre comment créer un groupe d'onglets, visitez [***Barre d'onglets groupés***](/fr/rdm/windows/commands/view/layout/grouped-tab-bar/).
-
-### Notification
-
-La fonction ***Notification*** ouvre une fenêtre montrant diverses notifications (des entrées ou tâches expirées ou près d'être expirées, par exemple). Cliquer avec le bouton de droite sur une notification affiche plus d'options. Si un double clic est fait sur une notification de « licence expirée », une page de navigateur s'ouvrira pour vous renvoyer à votre compte {{ fr.DVLS }}. Les notifications peuvent être triées ou recherchées par ***Texte***, ***Source***, ***Dossier***, ***Niveau***, ***Type***, ***Date***, ***Heure*** ou ***Jours***.
-![Notifications](https://cdnweb.devolutions.net/docs/fr/rdm/windows/RDMWin2019.png)
-
-Bien qu'il soit fenêtré par défaut, le volet ***Notification*** peut être glissé et ancré n'importe où dans {{ fr.RDM }}.
-
-### Message
-
-La fonction ***Message*** ouvre une fenêtre qui vous permet d'accéder à vos messages. Vous pouvez double-cliquer sur un message pour l'ouvrir. Les messages peuvent être triés et recherchés par ***Vu***, ***De***, ***Sujet***, ***Dossier***, ***Date*** et ***Date d'expiration***.
-![Messages](https://cdnweb.devolutions.net/docs/fr/rdm/windows/RDMWin2020.png)
-
-Bien qu'il soit fenêtré par défaut, le volet ***Message*** peut être glissé et ancré n'importe où dans {{ fr.RDM }}.
+Plusieurs types de listes sont disponibles dans la section ***Vue*** : ***Liste des Identifiants***, ***Liste des Contacts***, ***Liste des Documents***, ***Liste des Synchronisateurs***, et ***Liste des VPN***. Ces options ouvrent une fenêtre affichant une vue arborescente de toutes les entrées du type d'entrée spécifique dans la base de données. Les listes peuvent être filtrées à l'aide de la barre de recherche. Un clic droit sur un élément affiche le même menu et les mêmes options que dans le ***{{ fr.NPANE }}***.
+![Liste des Identifiants](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin2016.png)

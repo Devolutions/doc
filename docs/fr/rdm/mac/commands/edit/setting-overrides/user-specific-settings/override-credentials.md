@@ -1,68 +1,23 @@
 ---
 eleventyComputed:
-  title: Substituer identifiants
+  title: Remplacer les identifiants
 ---
-***Substituer les identifiants*** vous permet de spécifier d'autres identifiants que celles stockées dans une entrée. Vous pouvez choisir parmi plusieurs sources en fonction de vos pratiques et politiques de sécurité.
+Remplacer les identifiants vous permet de spécifier d'autres identifiants que ceux stockés dans une entrée. Vous pouvez choisir parmi plusieurs sources selon vos pratiques et politiques de sécurité.
 
 {% snippet, "badgeInfo" %}
-***Substituer les identifiants*** est disponible pour tous les types d'entrées.
+La fonction de remplacement des identifiants est disponible pour tous les types d'entrées.
 {% endsnippet %}
 
-
 ### Général
+Il suffit de cocher Remplacer les identifiants et de sélectionner votre identifiant pour commencer à remplacer vos identifiants. Pour arrêter de remplacer les identifiants, décochez l'option Remplacer les identifiants.
+![Paramètres spécifiques à l'utilisateur - Remplacer les identifiants](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10338.png)
 
-Cocher ***Substituer identifiants*** et sélectionner vos identifiants pour commencer à les remplacer. Pour arrêter de substituer les identifiants, décocher l'option.
-![Paramètres spécifiques de l'usager - Substituer identifiants](https://cdnweb.devolutions.net/docs/fr/rdm/mac/clip4059.png)
+Les choix suivants sont proposés en fonction du type d'entrée remplacée, ainsi que de l'emplacement de cette entrée.
 
-Les choix suivants sont proposés en fonction du type d'entrée remplacé, ainsi que de l'emplacement de cette entrée.
-
-<table>
-	<tr>
-		<td>
-Option
-		</td>
-		<td>
-Description
-		</td>
-	</tr>
-	<tr>
-		<td>
-Par défaut
-		</td>
-		<td>
-Utiliser un nom d'utilisateur, un domaine et un mot de passe spécifiques.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Dépôt d'identifiants
-		</td>
-		<td>
-Utiliser une entrée d'identifiants existante.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Intégré
-		</td>
-		<td>
-Utiliser une entrée d'identifiants intégrée.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Mes identifiants personnels
-		</td>
-		<td>
-Utiliser les identifiants stockés dans Mes identifiants personnels.
-		</td>
-	</tr>
-	<tr>
-		<td>
-{{ fr.UVLT_MAJ }}
-		</td>
-		<td>
-Utiliser une entrée d'identifiant du {{ fr.UVLT }}.
-		</td>
-	</tr>
-</table>
+| OPTION                             | DESCRIPTION                                                                                  |
+|------------------------------------|----------------------------------------------------------------------------------------------|
+| Personnalisé                       | Utiliser un nom d'utilisateur, Domaine et Mot de passe spécifiques.                          |
+| Entrée d'identifiants existante    | Utiliser une entrée d'identifiants existante.                                                |
+| Entrée d'identifiants intégrée      | Utiliser une entrée d'identifiants intégrée.                                                 |
+| Mes identifiants personnels        | Utiliser les identifiants stockés dans Mes Identifiants Personnels                           |
+| Entrée d'identifiants {{ fr.UVLT_MAJ }} | Utiliser une entrée d'identifiants [{{ fr.UVLT }}](/rdm/mac/user-interface/navigation-pane/user-vault/). |

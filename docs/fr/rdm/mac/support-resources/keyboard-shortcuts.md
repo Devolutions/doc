@@ -1,454 +1,92 @@
 ---
 eleventyComputed:
   title: Raccourcis clavier
+  description: Voici les raccourcis clavier par défaut pour diverses commandes.
 ---
-Voici les raccourcis clavier par défaut pour diverses commandes. Ceux-ci peuvent être modifiés dans ***Fichier – Préférences – Interface utilisateur – Raccourcis***.
+Voici les raccourcis clavier par défaut pour diverses commandes. Ces derniers peuvent être modifiés dans ***Fichier – Préférences – Interface utilisateur – Raccourcis***.
 
-Le bouton ***Réinitialiser*** annule toute modification de personnalisation des raccourcis qui n'a pas encore été enregistrée. Le bouton ***Restaurer tout par défaut*** ramène tous les raccourcis à leurs valeurs par défaut.
+Le bouton ***Réinitialiser*** annule toutes les modifications de raccourci personnalisées qui n'ont pas encore été enregistrées. Le bouton ***Restaurer les valeurs par défaut*** remet tous les raccourcis à leurs valeurs par défaut.
 
 {% snippet, "badgeCaution" %}
-Les boutons ***Réinitialiser*** et ***Restaurer tout par défaut*** effacent vos raccourcis personnalisés, bien que ***Réinitialiser*** n'efface que les modifications non sauvegardées. Utilisez ces options avec précaution afin de ne pas risquer la perte de vos raccourcis personnalisés.
+Les boutons ***Réinitialiser*** et ***Restaurer les valeurs par défaut*** effacent vos raccourcis personnalisés, bien que ***Réinitialiser*** efface uniquement les modifications non enregistrées. Utilisez ces options avec soin pour ne pas risquer de perdre vos raccourcis personnalisés.
 {% endsnippet %}
 
 {% snippet, "badgeInfo" %}
-Consultez [Keyboard shortcuts customization in {{ fr.RDMMAC }} (EN)](/kb/remote-desktop-manager-macos/how-to-articles/keyboard-shortcuts-customization-rdm-mac/) pour la personnalisation de vos raccourcis.
+Visiter [Personnalisation des raccourcis clavier dans {{ fr.RDMMAC }}](/rdm/mac/kb/rdm-macos/how-to-articles/keyboard-shortcuts-customization-rdm-mac/).
 {% endsnippet %}
 
-![Raccourcis clavier](https://cdnweb.devolutions.net/docs/fr/rdm/mac/RDMMac2009.png)
+![Raccourcis clavier](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_RDMMac2025.png)
 
 ## Raccourcis par défaut
 
 ### {{ fr.RDM }}
 
-<table>
-	<tr>
-		<th>
-ACTION
-		</th>
-		<th>
-RACCOURCI
-		</th>
-	</tr>
-	<tr>
-		<td>
-Préférences
-		</td>
-		<td>
-<kbd>Cmd</kbd>+<kbd>,</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Masquer {{ fr.RDM }}
-		</td>
-		<td>
-<kbd>Cmd</kbd>+<kbd>H</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Masquer les autres
-		</td>
-		<td>
-<kbd>Alt</kbd>+<kbd>Cmd</kbd>+<kbd>H</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Quitter
-		</td>
-		<td>
-<kbd>Cmd</kbd>+<kbd>Q</kbd>
-		</td>
-	</tr>
-</table>
+| NOM                | RACCOURCI                                   |
+|--------------------|---------------------------------------------|
+| Préférences        | <kbd>Cmd</kbd>+<kbd>,</kbd>                 |
+| Masquer {{ fr.RDM }} | <kbd>Cmd</kbd>+<kbd>H</kbd>               |
+| Masquer les autres | <kbd>Alt</kbd>+<kbd>Cmd</kbd>+<kbd>H</kbd> |
+| Quitter            | <kbd>Cmd</kbd>+<kbd>Q</kbd>                 |
 
 ### Fichier
+| NOM                 | RACCOURCI                                     |
+|---------------------|-----------------------------------------------|
+| Actualiser          | <kbd>Cmd</kbd>+<kbd>R</kbd>                   |
+| Actualisation forcée | <kbd>Shift</kbd>+<kbd>Cmd</kbd>+<kbd>R</kbd> |
+| Changer de source de données | <kbd>Shift</kbd>+<kbd>Cmd</kbd>+<kbd>D</kbd> |
 
-<table>
-	<tr>
-		<th>
-ACTION
-		</th>
-		<th>
-RACCOURCI
-		</th>
-	</tr>
-	<tr>
-		<td>
-Actualiser
-		</td>
-		<td>
-<kbd>Cmd</kbd>+<kbd>R</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Forcer l'actualisation
-		</td>
-		<td>
-<kbd>Maj</kbd>+<kbd>Cmd</kbd>+<kbd>R</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Changer source de données
-		</td>
-		<td>
-<kbd>Maj</kbd>+<kbd>Cmd</kbd>+<kbd>D</kbd>
-		</td>
-	</tr>
-</table>
-
-### Modifier
-
-<table>
-	<tr>
-		<th>
-ACTION
-		</th>
-		<th>
-RACCOURCI
-		</th>
-	</tr>
-	<tr>
-		<td>
-Annuler
-		</td>
-		<td>
-<kbd>Cmd</kbd>+<kbd>Z</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Répéter
-		</td>
-		<td>
-<kbd>Maj</kbd>+<kbd>Cmd</kbd>+<kbd>Z</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Couper
-		</td>
-		<td>
-<kbd>Cmd</kbd>+<kbd>X</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Copier (MnuCopy)
-		</td>
-		<td>
-<kbd>Cmd</kbd>+<kbd>C</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Coller (MnuPaste)
-		</td>
-		<td>
-<kbd>Cmd</kbd>+<kbd>V</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Déplacer
-		</td>
-		<td>
-<kbd>Alt</kbd>+<kbd>Cmd</kbd>+<kbd>V</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Coller et correspondre au style
-		</td>
-		<td>
-<kbd>Alt</kbd>+<kbd>Maj</kbd>+<kbd>Cmd</kbd>+<kbd>V</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Supprimer (MnuDelete)
-		</td>
-		<td>
-<kbd>Cmd</kbd>+<kbd>Retour arrière</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Sélectionner tout
-		</td>
-		<td>
-<kbd>Cmd</kbd>+<kbd>A</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Recherche rapide
-		</td>
-		<td>
-<kbd>Alt</kbd>+<kbd>Cmd</kbd>+<kbd>F</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Trouver dans la source de données
-		</td>
-		<td>
-<kbd>Maj</kbd>+<kbd>Cmd</kbd>+<kbd>F</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Rechercher
-		</td>
-		<td>
-<kbd>Cmd</kbd>+<kbd>F</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Orthographe
-		</td>
-		<td>
-<kbd>Cmd</kbd>+<kbd>:</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Vérifier l'orthographe
-		</td>
-		<td>
-<kbd>Cmd</kbd>+<kbd>;</kbd>
-		</td>
-	</tr>
-</table>
+### Édition
+| NOM                    | RACCOURCI                                                     |
+|------------------------|--------------------------------------------------------------|
+| Annuler                | <kbd>Cmd</kbd>+<kbd>Z</kbd>                                  |
+| Rétablir               | <kbd>Shift</kbd>+<kbd>Cmd</kbd>+<kbd>Z</kbd>                 |
+| Couper                 | <kbd>Cmd</kbd>+<kbd>X</kbd>                                  |
+| Copier (MnuCopy)       | <kbd>Cmd</kbd>+<kbd>C</kbd>                                  |
+| Coller (MnuPaste)      | <kbd>Cmd</kbd>+<kbd>V</kbd>                                  |
+| Déplacer               | <kbd>Alt</kbd>+<kbd>Cmd</kbd>+<kbd>V</kbd>                   |
+| Coller avec mise en forme | <kbd>Alt</kbd>+<kbd>Shift</kbd>+<kbd>Cmd</kbd>+<kbd>V</kbd> |
+| Supprimer (MnuDelete)  | <kbd>Cmd</kbd>+<kbd>Backspace</kbd>                          |
+| Tout sélectionner      | <kbd>Cmd</kbd>+<kbd>A</kbd>                                  |
+| Recherche rapide       | <kbd>Alt</kbd>+<kbd>Cmd</kbd>+<kbd>F</kbd>                   |
+| Rechercher dans la source de données | <kbd>Shift</kbd>+<kbd>Cmd</kbd>+<kbd>F</kbd>   |
+| Rechercher             | <kbd>Cmd</kbd>+<kbd>F</kbd>                                  |
+| Orthographe            | <kbd>Cmd</kbd>+<kbd>:</kbd>                                  |
+| Vérifier l'orthographe | <kbd>Cmd</kbd>+<kbd>;</kbd>                                  |
 
 ### Affichage
-
-<table>
-	<tr>
-		<th>
-ACTION
-		</th>
-		<th>
-RACCOURCI
-		</th>
-	</tr>
-	<tr>
-		<td>
-Afficher la barre d'outils
-		</td>
-		<td>
-<kbd>Alt</kbd>+<kbd>Cmd</kbd>+<kbd>T</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Masquer la navigation
-		</td>
-		<td>
-<kbd>Cmd</kbd>+<kbd>N</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Taille réelle
-		</td>
-		<td>
-<kbd>Cmd</kbd>+<kbd>0</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Zoom avant
-		</td>
-		<td>
-<kbd>Cmd</kbd>+<kbd>+</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Zoom arrière
-		</td>
-		<td>
-<kbd>Cmd</kbd>+<kbd>-</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Entrer dans le mode plein écran
-		</td>
-		<td>
-<kbd>Ctrl</kbd>+<kbd>Cmd</kbd>+<kbd>F</kbd>
-		</td>
-	</tr>
-</table>
+| NOM                | RACCOURCI                                     |
+|--------------------|----------------------------------------------|
+| Afficher la barre d'outils | <kbd>Alt</kbd>+<kbd>Cmd</kbd>+<kbd>T</kbd> |
+| Masquer la navigation | <kbd>Cmd</kbd>+<kbd>N</kbd>                |
+| Taille réelle      | <kbd>Cmd</kbd>+<kbd>0</kbd>                  |
+| Zoom avant         | <kbd>Cmd</kbd>+<kbd>+</kbd>                  |
+| Zoom arrière       | <kbd>Cmd</kbd>+<kbd>-</kbd>                  |
+| Plein écran        | <kbd>Ctrl</kbd>+<kbd>Cmd</kbd>+<kbd>F</kbd>  |
 
 ### Entrée
-
-<table>
-	<tr>
-		<th>
-ACTION
-		</th>
-		<th>
-RACCOURCI
-		</th>
-	</tr>
-	<tr>
-		<td>
-Ouvrir session
-		</td>
-		<td>
-<kbd>Entrée</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Supprimer (MnuDeleteConnection)
-		</td>
-		<td>
-<kbd>Cmd</kbd>+<kbd>Retour arrière</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Modifier l'entrée
-		</td>
-		<td>
-<kbd>Maj</kbd>+<kbd>Cmd</kbd>+<kbd>E</kbd>
-		</td>
-	</tr>
-</table>
+| NOM                           | RACCOURCI                                     |
+|-------------------------------|-----------------------------------------------|
+| Ouvrir une session            | <kbd>Enter</kbd>                              |
+| Supprimer (MnuDeleteConnection) | <kbd>Cmd</kbd>+<kbd>Backspace</kbd>         |
+| Modifier l'entrée             | <kbd>Shift</kbd>+<kbd>Cmd</kbd>+<kbd>E</kbd> |
 
 ### Fenêtre
-
-<table>
-	<tr>
-		<th>
-ACTION
-		</th>
-		<th>
-RACCOURCI
-		</th>
-	</tr>
-	<tr>
-		<td>
-Réduire
-		</td>
-		<td>
-<kbd>Cmd</kbd>+<kbd>M</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Sélectionnez l'onglet suivant
-		</td>
-		<td>
-<kbd>Maj</kbd>+<kbd>Cmd</kbd>+<kbd>Droite</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Sélectionnez l'onglet précédent
-		</td>
-		<td>
-<kbd>Maj</kbd>+<kbd>Cmd</kbd>+<kbd>Gauche</kbd>
-	</td>
-	</tr>
-	<tr>
-		<td>
-Aller au signet 1
-		</td>
-		<td>
-<kbd>Ctrl</kbd>+<kbd>Cmd</kbd>+<kbd>1</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Aller au signet 2
-		</td>
-		<td>
-<kbd>Ctrl</kbd>+<kbd>Cmd</kbd>+<kbd>2</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Aller au signet 3
-		</td>
-		<td>
-<kbd>Ctrl</kbd>+<kbd>Cmd</kbd>+<kbd>3</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Aller au signet 4
-		</td>
-		<td>
-<kbd>Ctrl</kbd>+<kbd>Cmd</kbd>+<kbd>4</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Aller au signet 5
-		</td>
-		<td>
-<kbd>Ctrl</kbd>+<kbd>Cmd</kbd>+<kbd>5</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Aller au signet 6
-		</td>
-		<td>
-<kbd>Ctrl</kbd>+<kbd>Cmd</kbd>+<kbd>6</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Aller au signet 7
-		</td>
-		<td>
-<kbd>Ctrl</kbd>+<kbd>Cmd</kbd>+<kbd>7</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Aller au signet 8
-		</td>
-		<td>
-<kbd>Ctrl</kbd>+<kbd>Cmd</kbd>+<kbd>8</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Aller au signet 9
-		</td>
-		<td>
-<kbd>Ctrl</kbd>+<kbd>Cmd</kbd>+<kbd>9</kbd>
-		</td>
-	</tr>
-</table>
+| NOM                  | RACCOURCI                                          |
+|----------------------|---------------------------------------------------|
+| Réduire              | <kbd>Cmd</kbd>+<kbd>M</kbd>                       |
+| Sélectionner l'onglet suivant | <kbd>Shift</kbd>+<kbd>Cmd</kbd>+<kbd>Right</kbd> |
+| Sélectionner l'onglet précédent | <kbd>Shift</kbd>+<kbd>Cmd</kbd>+<kbd>Left</kbd>  |
+| Aller au signet 1    | <kbd>Ctrl</kbd>+<kbd>Cmd</kbd>+<kbd>1</kbd>       |
+| Aller au signet 2    | <kbd>Ctrl</kbd>+<kbd>Cmd</kbd>+<kbd>2</kbd>       |
+| Aller au signet 3    | <kbd>Ctrl</kbd>+<kbd>Cmd</kbd>+<kbd>3</kbd>       |
+| Aller au signet 4    | <kbd>Ctrl</kbd>+<kbd>Cmd</kbd>+<kbd>4</kbd>       |
+| Aller au signet 5    | <kbd>Ctrl</kbd>+<kbd>Cmd</kbd>+<kbd>5</kbd>       |
+| Aller au signet 6    | <kbd>Ctrl</kbd>+<kbd>Cmd</kbd>+<kbd>6</kbd>       |
+| Aller au signet 7    | <kbd>Ctrl</kbd>+<kbd>Cmd</kbd>+<kbd>7</kbd>       |
+| Aller au signet 8    | <kbd>Ctrl</kbd>+<kbd>Cmd</kbd>+<kbd>8</kbd>       |
+| Aller au signet 9    | <kbd>Ctrl</kbd>+<kbd>Cmd</kbd>+<kbd>9</kbd>       |
 
 ### Aide
-
-<table>
-	<tr>
-		<th>
-ACTION
-		</th>
-		<th>
-RACCOURCI
-		</th>
-	</tr>
-	<tr>
-		<td>
-Aide en ligne
-		</td>
-		<td>
-<kbd>Cmd</kbd>+<kbd>?</kbd>
-		</td>
-	</tr>
-</table>
+| NOM            | RACCOURCI                        |
+|----------------|----------------------------------|
+| Aide en ligne  | <kbd>Cmd</kbd>+<kbd>?</kbd>      |

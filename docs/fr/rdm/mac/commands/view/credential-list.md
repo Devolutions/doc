@@ -2,8 +2,8 @@
 eleventyComputed:
   title: Liste des identifiants
 ---
-La fonctionnalité ***Liste des identifiants*** se trouve dans l'onglet ***Affichage***.
-![Bouton Liste des identifiants](https://cdnweb.devolutions.net/docs/fr/rdm/mac/RDMMac0008.png)
+La fonctionnalité ***Liste des identifiants*** peut être trouvée dans l'onglet ***Affichage***.
+![Liste des identifiants](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_RDMMac0026.png)
 
-Cette option ouvre une fenêtre montrant l'arborescence de toutes les entrées du type d'entrée spécifique dans la base de données. Les listes peuvent être filtrées avec la barre de recherche.
-![Fenêtre Liste des identifiants](https://cdnweb.devolutions.net/docs/fr/rdm/mac/RDMMac0009.png)
+Cette fonctionnalité ouvre une fenêtre montrant une vue arborescente de toutes les entrées de type d'entrée d'identifiants dans la base de données. Les listes peuvent être filtrées en utilisant la barre de recherche.
+![Fenêtre Liste des identifiants](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_RDMMac0034.png)

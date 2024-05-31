@@ -1,54 +1,25 @@
 ---
 eleventyComputed:
   title: "{{ fr.CIM }}"
+  description: Dans {{ fr.RDM }}, cliquer sur Fichier – {{ fr.DA }} – Se connecter pour se connecter à votre {{ fr.DA }} si vous n'êtes pas déjà connecté.
 ---
 {% snippet, "badgeNotice" %}
-Pour des raisons de stabilité, dans les grandes bases d'installation, la dernière version officielle n'est pas disponible pour le {{ fr.CIS }} pendant une période indéterminée, le temps que nous nous assurions qu'aucun problème majeur n'est présent. Nous vous recommandons d'utiliser cette période avec votre organisation pour effectuer des tests d'intégration sur quelques postes de travail avant de mettre à niveau l'ensemble de votre équipe.
-{% endsnippet %}
-
-{% snippet, "badgeInfo" %}
-Veuillez vous assurer d'avoir lu et compris le contenu du [{{ fr.CIS }}](/fr/rdm/windows/installation/client/custom-installer-service/) avant de vous abonner au service.
-{% endsnippet %}
-
-{% snippet, "badgeInfo" %}
-Vous pouvez stocker et créer jusqu'à six paquets de fichiers de configuration d'***{{ fr.CI }}*** dans votre {{ fr.DA }}.
+Pour des raisons de stabilité, la dernière version de {{ fr.RDM }} est mise à disposition avec un petit délai pour les installateurs personnalisés afin de s'assurer qu'aucun problème majeur n'est présent. Nous recommandons d'utiliser ce temps avec votre organisation pour effectuer des tests d'intégration sur quelques postes de travail avant de mettre à niveau toute votre équipe.
 {% endsnippet %}
 
 ## Créer un paquet d'installation
 
-1. Dans {{ fr.RDM }}, cliquer sur ***Fichier – {{ fr.DA }} – Connectez-vous*** pour vous connecter à votre {{ fr.DA }}.
-![Connextion au {{ fr.DA }}](https://cdnweb.devolutions.net/docs/fr/rdm/windows/RdmWin4015.png)
-1. Sous ***Outils***, cliquer sur ***{{ fr.CIM }}*** pour créer un nouvel {{ fr.CI }} avec des paramètres spécifiques.
-![Fichier – {{ fr.DA }} – {{ fr.CIM }}](https://cdnweb.devolutions.net/docs/fr/rdm/windows/clip11247.png)
-1. Cliquer sur ***Nouveau kit***.
-![{{ fr.CIM }} – Nouveau kit](https://cdnweb.devolutions.net/docs/fr/rdm/windows/clip11251.png)
-1. Sélectionner la ***Version*** de l'application dans la liste déroulante. Un ***Nom*** sera automatiquement généré pour votre paquet. Il peut être modifié. Il est aussi possible d'ajouter une courte ***Description*** de votre paquet, mais cela reste optionnel.
-![Création d'un paquet d'installation](https://cdnweb.devolutions.net/docs/fr/rdm/windows/clip11252.png)
-1. S'il n'y a pas de fichier d'installateur {{ fr.RDM }} (.rdi), laisser l'option ***Créer une configuration juste pour ce kit*** activée. Si un fichier a déjà été créé, activer plutôt l'option ***Utiliser un fichier « Remote Desktop Installer » (rdi) existant*** et sélectionner le fichier sur votre ordinateur en utilisant le bouton des points de suspension.
-1. Cliquer sur ***Créer***. Aller directement à l'étape 9 si l'option ***Utiliser un fichier « Remote Desktop Installer » (rdi) existant*** a été choisie à l'étape précédente.
-1. La fenêtre ***{{ fr.CIM }}*** s'affichera pour créer un nouveau fichier de configuration. Voir notre guide de [Sélection des options](/fr/rdm/windows/installation/client/custom-installer-service/installer-file-generator/option-selection/) pour plus d'informations sur les différentes options disponibles.
-![Générateur de fichier d'installateur](https://cdnweb.devolutions.net/docs/fr/rdm/windows/clip11253.png)
-1. Lorsque la sélection est terminée, cliquer sur ***Générer*** pour créer le fichier.
-1. Une fois le paquet d'installation créé, la demande est soumise à notre service en ligne. Une fenêtre de dialogue de confirmation apparaît en cas de succès.
-![Nouveau package créé avec succès](https://cdnweb.devolutions.net/docs/fr/rdm/windows/clip10477.png)
-1. Le ***{{ fr.CIM }}*** affiche une icône de sablier indiquant que le paquet est en cours de traitement. Une fois le paquet généré avec succès, le ***{{ fr.CIM }}*** affiche une coche verte. Il est à noter que ce processus peut prendre un certain temps.
-
-## Télécharger un paquet d'installation
-
-Une fois terminé, vous recevrez un courriel de confirmation :
-![Courriel de confirmation – Demande traitée](https://cdnweb.devolutions.net/docs/fr/rdm/windows/clip11254.png)
-
-À partir d'ici, il existe deux façons de télécharger le paquet :vous pouvez le télécharger directement depuis le ***{{ fr.CIM }}*** ou vous connecter au {{ fr.DA }} avec lequel vous avez créé l'installateur.
-
-### Télécharger avec le {{ fr.CIM }}
-
-Dans le ***{{ fr.CIM }}***, cliquer sur ***Télécharger MSI*** et sauvegarder le fichier sur l'ordinateur.
-![{{ fr.CIM }} – Télécharger MSI](https://cdnweb.devolutions.net/docs/fr/rdm/windows/clip11257.png)
-
-### Télécharger depuis les {{ fr.RDMOS }}
-
-Vous pouvez cliquer sur le bouton  dans le courriel de confirmation pour accéder directement à votre liste d'***Installateurs personnalisés*** dans {{ fr.RDMOS }}. Vous devrez vous connecter avec les informations d'identification de votre {{ fr.DA }}. Vous pouvez aussi y aller manuellement à partir du bouton ***Autres apps*** dans le {{ fr.DPORTAL }} avec lequel vous avez créé l'{{ fr.CI }}.
-
-À partir de là, il vous faudra cliquer sur ***.msi*** à côté de votre paquet et sauvegarder le fichier sur votre ordinateur.
-![{{ fr.RDMOS }} – {{ fr.CI }}](https://cdnweb.devolutions.net/docs/fr/rdm/windows/clip11258.png)
-
+1. Dans {{ fr.RDM }}, cliquer sur ***Fichier – {{ fr.DA }} – Se connecter*** pour se connecter à votre {{ fr.DA }} si vous n'êtes pas déjà connecté.
+![{{ fr.DA }} se connecter](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin2211.png)
+1. Sous ***Outils***, cliquer sur ***{{ fr.CIM }}*** pour créer un nouveau {{ fr.CI }} avec des paramètres spécifiques.
+![Fichier – {{ fr.DA }} – {{ fr.CIM }}](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip11247.png)
+1. Cliquer sur ***Nouveau Paquet***.
+![{{ fr.CIM }} – Nouveau paquet](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip11251.png)
+1. Sélectionner la ***Version*** de l'application dans la liste déroulante. Un ***Nom*** pour votre paquet sera généré automatiquement, que vous pouvez changer si vous le souhaitez. Vous pouvez également écrire une brève ***Description*** de votre paquet, mais cela est facultatif.
+![Création de paquet d'installation](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip11252.png)
+1. Si vous n'avez pas de fichier d'installation {{ fr.RDM }} (.rdi), laisser l'option ***Créer une configuration juste pour ce paquet*** activée. Si vous en avez déjà créé un, activer l'option ***Utiliser un fichier d'installateur de Bureau à Distance existant (rdi)*** à la place et sélectionner votre fichier sur votre ordinateur en utilisant le bouton d'ellipse.
+1. Cliquer sur ***Créer***. Passer à l'étape 9 si vous avez sélectionné ***Utiliser un fichier d'installateur de Bureau à Distance existant (rdi)*** à l'étape précédente.
+1. Si vous devez créer un nouveau fichier de configuration, la fenêtre ***Générateur de fichier d'installation*** s'ouvrira. Voir notre guide [Sélection d'Option](/rdm/windows/installation/client/custom-installer-service/installer-file-generator/option-selection/) pour plus d'informations sur les différentes options à choisir.
+![Générateur de fichier d'installation](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip11249.png)
+1. Cliquer sur ***Générer*** pour créer le fichier une fois votre sélection terminée.
+1. Lorsqu'on vous y invite, sauvegarder le fichier de paquet d'installation localement sur votre ordinateur.

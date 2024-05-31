@@ -1,3 +1,4 @@
 ---
-title: Migrate
+eleventyComputed:
+  title: Migrate
 ---

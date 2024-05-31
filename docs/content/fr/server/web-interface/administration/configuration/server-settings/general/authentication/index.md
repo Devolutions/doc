@@ -1,85 +1,35 @@
 ---
 eleventyComputed:
   title: Authentification
+  description: La section Authentification permet à l'administrateur de sélectionner les types d'authentification qui seront utilisés pour se connecter sur {{ fr.DVLS }}.
   order: 10
 ---
-La section ***Authentification*** permet à l'administrateur de sélectionner les types d'authentification à utiliser.
-
-![Administration - Paramètres de {{ fr.DVLS }} - Authentification](https://cdnweb.devolutions.net/docs/fr/server/PSSettingsAuthentication.png)
+La section Authentification permet à l'administrateur de sélectionner les types d'authentification qui seront utilisés pour se connecter sur {{ fr.DVLS }}.
+![Administration – Paramètres du serveur – Authentification](https://cdnweb.devolutions.net/docs/DVLS6006_2024_1.png)
 
 ## Paramètres
 
 ### Modes d'authentification
+{% snippet, "badgeCaution" %}
+La machine hébergeant {{ fr.DVLS }} doit être jointe au domaine configuré pour que l'authentification Windows fonctionne.
+{% endsnippet %}
 
-<table>
-	<tr>
-		<th>
-Option
-		</th>
-		<th>
-Description
-		</th>
-	</tr>
-	<tr>
-		<td>
-S'authentifier avec l'usager du domaine
-		</td>
-		<td>
-Le domaine est utilisé pour authentifier l'utilisateur.
-		</td>
-	</tr>
-	<tr>
-		<td>
-S'authentifier avec le compte utilisateur d'Office 365
-		</td>
-		<td>
-AzureAD est utilisé pour authentifier l'utilisateur.
-		</td>
-	</tr>
-	<tr>
-		<td>
-S'authentifier avec l'authentification {{ fr.DVLS }}
-		</td>
-		<td>
-{{ fr.DVLS }} est utilisé pour authentifier l'utilisateur. Vous devez créer l'utilisateur initial via la {{ fr.DVLSCONSOLE }}.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Authentification Windows
-		</td>
-		<td>
-L'application utilisera l'utilisateur actuellement authentifié Windows pour s'authentifier auprès de l'instance {{ fr.DVLS }}.
-		</td>
-	</tr>
-</table>
+| Option                               | Description                                  |
+|--------------------------------------|----------------------------------------------|
+| S'authentifier avec un utilisateur de domaine        | Le domaine est utilisé pour authentifier l'utilisateur. |
+| S'authentifier avec un utilisateur Microsoft     | AzureAD est utilisé pour authentifier l'utilisateur.    |
+| S'authentifier avec un utilisateur Okta          | Okta est utilisé pour authentifier l'utilisateur.       |
+| S'authentifier avec un utilisateur PingOne       | PingOne est utilisé pour authentifier l'utilisateur.    |
+| S'authentifier avec un utilisateur {{ fr.DVLS }} | Le {{ fr.DVLS }} est utilisé pour authentifier l'utilisateur. Vous devez créer l'utilisateur initial via la {{ fr.DVLSCONSOLE }}. |
+| Méthode d'authentification principale        | En sélectionnant une méthode d'authentification principale, les utilisateurs qui n'ont pas déjà un choix personnalisé de type d'authentification pour la page de connexion seront automatiquement dirigés vers la méthode choisie. |
+| Authentification unique de domaine (SSO)       | [L'authentification unique de domaine (SSO)](/server/kb/how-to-articles/configure-windows-authentication/) nécessite une configuration supplémentaire sur votre serveur IIS. |
+| Activer l'authentification par code d'urgence | L'application enverra un courriel contenant un code d'urgence pour authentifier si aucune des méthodes d'authentification ci-dessus ne fonctionne. Le paramètre [Courriel](/server/web-interface/administration/configuration/server-settings/general/email/) est requis pour cette option. |
 
 ### Configuration
-
-<table>
-	<tr>
-		<th>
-Option
-		</th>
-		<th>
-Description
-		</th>
-	</tr>
-	<tr>
-		<td>
-Domaine
-		</td>
-		<td>
-
-Configurer le type de [Domaine](/fr/server/web-interface/administration/configuration/server-settings/general/authentication/domain/).
-		</td>
-	</tr>
-	<tr>
-		<td>
-Office365
-		</td>
-		<td>
-Configurer le type [Office365](/fr/server/web-interface/administration/configuration/server-settings/general/authentication/office-365/).
-		</td>
-	</tr>
-</table>
+| Option                   | Description              |
+|--------------------------|--------------------------|
+| Domaine                   | Configurer le type [Domaine](/server/web-interface/administration/configuration/server-settings/general/authentication/domain/). |
+| Authentification Microsoft                | Configurer le type [Office365](/server/web-interface/administration/configuration/server-settings/general/authentication/office-365/). |
+| Authentification Okta                     | Configurer le type Okta. |
+| Authentification PingOne                  | Configurer le type [PingOne](/server/web-interface/administration/configuration/server-settings/general/authentication/pingone/). |
+| Migration d'authentification | Migrer la méthode d'authentification du compte utilisateur existant vers une autre méthode d'authentification ou un autre domaine dans Active Directory ou Azure Active Directory. |

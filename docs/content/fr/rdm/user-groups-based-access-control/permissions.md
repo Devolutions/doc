@@ -1,61 +1,20 @@
 ---
 eleventyComputed:
   title: Permissions
+  status: Sujet traduit en allemand
 ---
-{% youtube 'nCaBVVyY0Vs' %}  
+{% youtube 'FQACxCIj_GU' %}
 
-Le tableau de bord des permissions, qui est seulement disponible dans une [source de données avancée](/fr/rdm/windows/data-sources/data-sources-types/advanced-data-sources/), se trouve dans la section ***Permissions*** des propriétés de toutes les entrées.  
+La fenêtre ***Permissions***, qui est uniquement disponible dans une [source de données avancée](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/), peut être trouvée dans chaque propriété d'entrée dans la section ***Sécurité*** – ***Permission*** (ou ***Sécurité*** – ***Permissions héritées*** pour la racine {{ fr.VLT }}).
 
-Le système de contrôle d'accès basé sur les groupes d'utilisateurs permet d'attribuer granulairement les permissions. Voici un aperçu de la fenêtre des ***Permissions***.  
-![Permissions](https://cdnweb.devolutions.net/docs/fr/rdm/windows/RDMWin6014.png) 
+Le système de permission basé sur les groupes d'utilisateurs peut offrir un contrôle très précis de la sécurité. Voici un aperçu de la fenêtre de permission :
+![Panneau de permission](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin6083.png)
 
-<table>
-	<tr>
-		<th>
+| OPTION              | DESCRIPTION                                                                                                                |
+|---------------------|----------------------------------------------------------------------------------------------------------------------------|
+| Permission          | Définit le mode de permission. Sélectionner entre : <br> <ul><li>***Hérité (Par défaut)*** : Hérite des permissions des groupes parents.</li><li>***Personnalisé*** : Vous permet de spécifier une valeur personnalisée pour chacune des permissions.</li><li>***Autorisé*** : Accorde toutes les permissions ci-dessous à tout le monde.</li><li>***Interdit*** : N'accorde la permission à personne sauf aux administrateurs.</li></ul>                                                                                                           |
+| Octroyer l'accès    | Permet [d'octroyer l'accès par lot](/rdm/commands/administration/settings/system-settings/vault-management/default-permissions/batch-grant-access/) à une entrée spécifique ou à des entrées.              |
+| Valeurs héritées    | Indique ce qui est hérité des groupes parents.                                                                            |
+| Sélectionner les groupes d'utilisateurs  | Vous permet de sélectionner les utilisateurs / groupes d'utilisateurs à qui accorder la permission. Disponible uniquement si la permission est définie sur ***Personnalisé***. |
 
-OPTION 
-		</th>
-		<th>
-DESCRIPTION 
-		</th>
-	</tr>
-	<tr>
-		<td>
-Permissions 
-		</td>
-		<td>
-Définir le mode d'***Autorisation***. Choisir entre :  
-
-* ***Hérité*** : héritera des permissions des dossiers parents. 
-* ***Personnalisé*** : permet de spécifier une valeur personnalisée pour chacune des permissions. 
-* ***Tout le monde*** : tout le monde se verra accorder toutes les permissions. 
-* ***Jamais*** : personne, sauf les administrateurs, n'aura la permission. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Accorder l'accès 
-		</td>
-		<td>
-Permets l'[accès en lot](/fr/rdm/windows/commands/administration/settings/system-settings/vault-management/batch-grant-access) et la modification en lot à une ou plusieurs entrées spécifiques. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Hérité 
-		</td>
-		<td>
-Indique ce qui est hérité des dossiers parents. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Sélectionner les groupes d'utilisateurs ou les utilisateurs 
-		</td>
-		<td>
-Permets la sélection des groupes d'utilisateurs ou des utilisateurs pour appliquer les permissions. Disponible seulement si l'autorisation est définie à ***Personnalisé***. 
-		</td>
-	</tr>
-</table>
-
-![Accorder l'accès en lot](https://cdnweb.devolutions.net/docs/fr/rdm/windows/RDMWin6015.png) 
+![Octroi d'accès par lot](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin6082.png)

@@ -1,287 +1,93 @@
 ---
 eleventyComputed:
-  title: Mettre hors-ligne
+  title: Mode hors ligne
+  description: Le mode hors ligne se connecte à une copie locale de la source de données lorsque vous n'êtes pas connecté à la source de données.
 ---
 {% youtube 'W7jK8g4WbNQ' %}
 
-Le ***Mode hors-ligne*** se connecte à une copie locale de la source de données lorsque la source de données n'est pas disponible. Cela peut être utilisé lorsqu'un utilisateur travaille à partir d'un réseau déconnecté ou lorsqu'il existe des problèmes de connectivité avec la source de données.
+Le ***Mode hors ligne*** se connecte à une copie locale de la source de données lorsque vous n'êtes pas connecté à la source de données. Cela est utile lorsque vous travaillez depuis un emplacement distant et que le réseau est inaccessible ou en cas de problème de connectivité quelconque.
 
-Le mode hors-ligne en lecture/écriture ajoute aux utilisateurs la possibilité de manipuler les entrées lorsqu'ils sont déconnectés de la source de données. Ceci est utile pour le personnel hors site ou lorsque vous travaillez dans des environnements disposant d'une disponibilité réseau sporadique.
+Le mode hors ligne en lecture/écriture ajoute aux utilisateurs la possibilité de manipuler des entrées tout en étant déconnecté de la source de données. Cela est utile pour le personnel hors site ou lors du travail dans des environnements ayant une disponibilité réseau sporadique.
 
 {% snippet, "badgeInfo" %}
-Cette fonctionnalité n'est pas disponible pour toutes les sources de données, veuillez consulter la rubrique d'aide de la source de données pour savoir si elle prend en charge le mode hors-ligne.
+Cette fonctionnalité n'est pas disponible pour toutes les sources de données, veuillez consulter le sujet d'aide de la source de données respective pour savoir si elle prend en charge le mode hors ligne.
 {% endsnippet %}
 
 {% snippet, "badgeNotice" %}
-Le cache hors ligne est d'abord chiffré à l'aide de notre propre clé privée mélangée à certaines informations provenant de l'ordinateur local. Cela rend impossible la lecture d'une copie sur une autre machine. Par défaut, il est également chiffré avec le chiffrement Windows NTFS, auquel cas aucune clé n'est enregistrée nulle part.
+Le cache hors ligne est d'abord chiffré en utilisant notre propre clé privée mélangée à certaines informations prises de l'ordinateur local. Cela rend impossible la lecture d'une copie sur une autre machine. Par défaut, il est également chiffré avec le chiffrement NTFS de Windows, auquel cas aucune clé n'est sauvegardée nulle part.
 {% endsnippet %}
 
+Pour une sécurité accrue, les fichiers hors ligne sont configurés pour expirer après un délai. L'expiration par défaut est réglée sur 7 jours mais peut être modifiée via les [Paramètres système](/rdm/commands/administration/settings/system-settings/application-specific/offline/).
 
-Pour plus de sécurité, les fichiers hors connexion sont définis pour expirer après un certain délai. L'expiration par défaut est fixée à 7 jours, mais peut être modifiée via les [Paramètres du système](/fr/rdm/windows/commands/administration/settings/system-settings/application/offline/).
+{{ fr.RDM }} demandera le mode hors ligne lorsque l'application ne pourra pas atteindre la source de données, mais le mode hors ligne peut être basculé manuellement avec ***Fichier – Passer en mode hors ligne***.
 
-{{ fr.RDM }} demandera le mode hors-ligne lorsque l'application ne parvient pas à atteindre la source de données.
+Plusieurs fonctionnalités ne sont pas disponibles en mode hors ligne, telles que :
 
-Vous pouvez activer manuellement le mode hors-ligne dans le menu ***Fichier – Mettre hors ligne***. Lorsque la connexion est de nouveau en ligne, utiliser le menu ***Fichier – Aller en ligne*** ou l'icône ***Actualiser*** pour vous reconnecter à la source de données.
-
-Certaines options ne seront pas disponibles en mode hors ligne :
-
-* Pièces jointes et journaux.
-* [Gestion des usagers](/fr/rdm/windows/commands/administration/management/user-management/) (Ajouter/Modifier/Supprimer des utilisateurs).
+* Les pièces jointes et les journaux.
+* [Gestion des utilisateurs](/rdm/windows/commands/administration/management/user-management/) (Ajouter/Modifier/Supprimer des utilisateurs).
 
 ## Disponibilité
 
 La disponibilité du mode hors ligne repose sur plusieurs paramètres :
 
-* Le mode de la cache hors ligne de la source de données doit être activé dans ***Fichier – Source de données – Avancé – Mode de la cache – Intelligente*** (cette étape doit être effectuée avant d'exporter votre source de données vers d'autres).
-* Le compte de l'utilisateur doit être activé dans ***Administration – Utilisateurs – Modifier – Paramètres – Mode hors connexion***.
-* Les stratégies de groupe d'utilisateurs (seulement pour la data source {{ fr.DVLS }}) dans ***Administration – Groupe d'utilisateurs – Modifier – Paramètres – Mode hors connexion***.
-* Les paramètres de la source de données dans ***Administration – Paramètres du système – Hors connexion – Mode Hors connexion*** et ***Expiration***.
-* Pour chaque {{ fr.VLT }} dans ***Administration – Paramètres du {{ fr.VLT }} – Paramètres de sécurité – Autoriser le mode hors ligne***.
+* Le cache hors ligne de la source de données dans ***Fichier – Sources de données – Avancé – Mode de mise en cache*** doit être réglé sur ***Fichier*** ou ***En mémoire***. Cette étape doit être effectuée avant d'exporter votre source de données vers d'autres ordinateurs.
+* Le compte de l'utilisateur doit être activé dans ***Administration – Utilisateurs – Modifier – Paramètres – Mode hors ligne***.
+* Les politiques de groupes d'utilisateurs (uniquement pour la source de données {{ fr.DVLS }}) dans ***Administration – Groupes d'utilisateurs – Modifier – Paramètres – Mode hors ligne***.
+* Les ***Paramètres système*** de la source de données dans ***Administration – Paramètres système – Cache/Hors ligne – Mode hors ligne*** et ***Expiration***.
+* Pour chaque {{ fr.VLT }}, ***Administration – Paramètres de {{ fr.VLT_MAJ }} – Paramètres de sécurité – Autoriser hors ligne***.
 
-Le paramètre le plus bas (en termes de sécurité) prévaut sur les autres, ce qui peut vous empêcher d'utiliser le mode hors ligne. Si le bouton ***Mettre hors-ligne*** n'est pas disponible, veuillez consulter votre administrateur.
+Le paramètre le plus bas (en termes de sécurité) prévaut sur les autres, ce qui peut vous empêcher d'utiliser le mode hors ligne. Si le bouton ***Passer en mode hors ligne*** n'est pas disponible, veuillez consulter votre administrateur.
 
-Dans ***Fichier – Informations sur la source de données***, le ***Mode hors ligne*** affiche la taille du fichier hors ligne ainsi que le mode effectif (désactivé, en lecture seule ou accessible en écriture).
-![Fichier – Informations de la source de données – Mode hors ligne](https://cdnweb.devolutions.net/docs/fr/rdm/windows/clip11278.png)
+L'[Information sur la source de données](/rdm/windows/commands/file/my-data-source-information/) affiche la taille du fichier de cache hors ligne ainsi que les modes effectifs (désactivé, lecture seule ou lecture/écriture).
+![Fichier – Mon information sur la source de données – Mode hors ligne](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip11278.png)
 
-### Mode de la cache
+### Mode de mise en cache
 
-Le mode de mise en cache doit être défini sur ***En mémoire*** ou ***Fichier*** pour activer le mode hors ligne.
-
+Le mode de mise en cache doit être réglé sur ***En mémoire*** ou ***Fichier*** pour activer le mode hors ligne.
 {% snippet, "badgeCaution" %}
-Cette étape ne peut pas être modifiée à distance une fois que vous avez exporté vos paramètres de source de données. Vous devriez prendre un moment et réfléchir aux besoins de votre source de données et sélectionner ce qui est approprié avant de passer à l'exportation.
+Cette étape ne peut pas être modifiée à distance une fois que vous avez exporté les paramètres de votre source de données. Vous devriez prendre un moment et réfléchir aux besoins de votre source de données et sélectionner ce qui convient avant de passer à l'exportation.
 {% endsnippet %}
 
-![Mode de la cache](https://cdnweb.devolutions.net/docs/fr/rdm/windows/clip3581.png)
+![Mode de mise en cache](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip3581.png)
 
-<table>
-	<tr>
-		<th>
-OPTION
-		</th>
-		<th>
-DESCRIPTION
-		</th>
-	</tr>
-	<tr>
-		<td>
-Désactivé
-		</td>
-		<td>
-Empêche l'utilisation du cache hors ligne.
-		</td>
-	</tr>
-	<tr>
-		<td>
-En mémoire
-		</td>
-		<td>
-Utilise le cache hors ligne uniquement pour les modifications récentes, mais l'empêche d'écrire sur le disque (uniquement en mémoire).
-		</td>
-	</tr>
-	<tr>
-		<td>
-Fichier
-		</td>
-		<td>
-Utilise le cache hors ligne uniquement pour les modifications récentes. Le cache écrira sur le disque.
-		</td>
-	</tr>
-</table>
+| OPTION    | DESCRIPTION |
+|-----------|-------------|
+| Désactivé  | Empêche l'utilisation d'un cache hors ligne.                                                                |
+| En mémoire | Utilise le cache hors ligne uniquement pour les changements récents, mais empêche son écriture sur le disque (uniquement en mémoire). |
+| Fichier      | Utilise le cache hors ligne uniquement pour les changements récents. Le cache écrira sur le disque.                         |
+
 
 {% snippet, "badgeInfo" %}
-Certaines fonctions de {{ fr.RDM }} ne sont pas disponibles lorsque vous êtes hors ligne. Même avec le mode d'accès lecture/écriture, il se peut que vous ne puissiez pas effectuer toutes les actions, telles que l'ajout de pièces jointes ou la gestion des utilisateurs, car ces fonctionnalités ne sont pas mises en cache localement. En revanche, le [{{ fr.UVLT }}](/fr/rdm/windows/data-sources/user-vault/) est toujours disponible en mode hors ligne.
+Certaines fonctionnalités de {{ fr.RDM }} sont indisponibles en mode hors ligne. Même avec le mode d'accès en lecture/écriture, vous ne pourrez peut-être pas effectuer toutes les actions, telles que l'ajout de pièces jointes ou la gestion des utilisateurs, puisque ces fonctionnalités ne sont pas mises en cache localement. D'autre part, le [{{ fr.UVLT }}](/rdm/windows/data-sources/user-vault/) est toujours disponible en mode hors ligne.
 {% endsnippet %}
 
-### Accorder/refuser le mode Hors-ligne
+### Autoriser/refuser le mode hors ligne
+| OPTION                                       | DESCRIPTION |
+|----------------------------------------------|-------------|
+| Désactivé                                     | Empêche l'utilisation d'un cache hors ligne. |
+| Lecture seule                                    | Permet de visualiser et d'utiliser les entrées uniquement. Le contenu de la source de données ne peut pas être modifié. |
+| [Lecture/Écriture](/rdm/windows/data-sources/offline-mode/offline-read-write/) | Permet de visualiser, d'utiliser et de modifier les entrées. Les conflits causés par les modifications hors ligne sont gérés lors du retour en ligne.                                                 |
 
-<table>
-	<tr>
-		<th>
+Au-delà des politiques de groupe, le ***Mode hors ligne*** est contrôlé à plusieurs niveaux :
 
-OPTION
-		</th>
-		<th>
-DESCRIPTION
-		</th>
-	</tr>
-	<tr>
-		<td>
-Désactivé
-		</td>
-		<td>
-Empêche l'utilisation d'un cache hors ligne.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Lecture seule
-		</td>
-		<td>
-Autorise l'affichage et l'utilisation des entrées uniquement. Le contenu de la source de données ne peut pas être modifié.
-		</td>
-	</tr>
-	<tr>
-		<td>
-[Lecture/Écriture](/fr/rdm/windows/data-sources/offline-mode/offline-read-write/)
-		</td>
-		<td>
-Permets d'afficher, d'utiliser et de modifier des entrées. Les conflits causés par des modifications hors ligne sont gérés lors de la remise en ligne.
-		</td>
-	</tr>
-</table>
+* Permissions utilisateur
+* Paramètres système
+* Paramètres de {{ fr.VLT_MAJ }}
 
-Au-delà des stratégies de groupe, le mode hors-ligne est contrôlé à ces niveaux :
+Un utilisateur doit se voir accorder Lecture/Écriture à tous les niveaux pour permettre les privilèges de lecture/écriture.
 
-* Permissions des utilisateurs
-* Paramètres du système
-* Paramètres du {{ fr.VLT }}
-
-Un utilisateur doit être autorisé en lecture/écriture aux trois niveaux pour accorder ces privilèges.
-
-<table>
-	<tr>
-		<th>
-
-PERMISSIONS DES UTILISATEURS
-		</th>
-		<th>
-PARAMÈTRES DU SYSTÈME
-		</th>
-		<th>
-PARAMÈTRES DU {{ fr.VLT }}
-		</th>
-		<th>
-ACCÈS
-		</th>
-	</tr>
-	<tr>
-		<td>
-Désactivé ou lecture seule ou lecture/écriture
-		</td>
-		<td>
-Désactivé ou lecture seule ou lecture/écriture
-		</td>
-		<td>
-Autoriser le hors-ligne est désactivé
-		</td>
-		<td>
-Désactivé
-		</td>
-	</tr>
-	<tr>
-		<td>
-Désactivé ou lecture seule ou lecture/écriture
-		</td>
-		<td>
-Désactivé ou lecture seule ou lecture/écriture
-		</td>
-		<td>
-Autoriser le hors-ligne activé
-		</td>
-		<td>
-Désactivé
-		</td>
-	</tr>
-	<tr>
-		<td>
-Désactivé ou lecture seule ou lecture/écriture
-		</td>
-		<td>
-Désactivé
-		</td>
-		<td>
-Autoriser le hors-ligne activé
-		</td>
-		<td>
-Désactivé
-		</td>
-	</tr>
-	<tr>
-		<td>
-Désactivé
-		</td>
-		<td>
-Désactivé ou lecture seule ou lecture/écriture
-		</td>
-		<td>
-Autoriser le hors-ligne activé
-		</td>
-		<td>
-Désactivé
-		</td>
-	</tr>
-	<tr>
-		<td>
-Lecture seule ou lecture/écriture
-		</td>
-		<td>
-Lecture seule ou lecture/écriture
-		</td>
-		<td>
-Autoriser le hors-ligne est désactivé
-		</td>
-		<td>
-Désactivé
-		</td>
-	</tr>
-	<tr>
-		<td>
-Lecture seule ou lecture/écriture
-		</td>
-		<td>
-Lecture seule ou lecture/écriture
-		</td>
-		<td>
-Autoriser le hors-ligne activé
-		</td>
-		<td>
-Lecture seule
-		</td>
-	</tr>
-	<tr>
-		<td>
-Lecture seule ou lecture/écriture
-		</td>
-		<td>
-Lecture seule
-		</td>
-		<td>
-Autoriser le hors-ligne activé
-		</td>
-		<td>
-Lecture seule
-		</td>
-	</tr>
-	<tr>
-		<td>
-Lecture seule
-		</td>
-		<td>
-Lecture seule ou lecture/écriture
-		</td>
-		<td>
-Autoriser le hors-ligne activé
-		</td>
-		<td>
-Lecture seule
-		</td>
-	</tr>
-	<tr>
-		<td>
-Lecture/Écriture
-		</td>
-		<td>
-Lecture/Écriture
-		</td>
-		<td>
-Autoriser le hors-ligne activé
-		</td>
-		<td>
-Lecture/Écriture
-		</td>
-	</tr>
-</table>
+| PERMISSIONS UTILISATEUR                 | PARAMÈTRES SYSTÈME                 | PARAMÈTRES DE {{ fr.VLT_MAJ }}      | ACCÈS EFFECTIF  |
+|----------------------------------|---------------------------------|--------------------------------|-------------------|
+| Désactivé ou Lecture seule ou Lecture/écriture | Désactivé ou Lecture seule ou Lecture/écriture | Autoriser hors ligne désactivé  | Désactivé          |
+| Désactivé ou Lecture seule ou Lecture/écriture | Désactivé ou Lecture seule ou Lecture/écriture | Autoriser hors ligne activé   | Désactivé          |
+| Désactivé ou Lecture seule ou Lecture/écriture | Désactivé                     | Autoriser hors ligne activé       | Désactivé             |
+| Désactivé                         | Désactivé ou Lecture seule ou Lecture/écriture | Autoriser hors ligne activé      | Désactivé          |
+| Lecture seule ou Lecture/écriture          | Lecture seule ou Lecture/écriture          | Autoriser hors ligne désactivé        | Désactivé          |
+| Lecture seule ou Lecture/écriture          | Lecture seule ou Lecture/écriture          | Autoriser hors ligne activé         | Lecture seule         |
+| Lecture seule ou Lecture/écriture          | Lecture seule                        | Autoriser hors ligne activé         | Lecture seule         |
+| Lecture seule                        | Lecture seule ou Lecture/écriture          | Autoriser hors ligne activé         | Lecture seule         |
+| Lecture/écriture                       | Lecture/écriture                       | Autoriser hors ligne activé         | Lecture/écriture        |
 
 {% snippet, "badgeNotice" %}
-Pour connaître le mode hors ligne en vigueur lorsque vous êtes connecté, voir [Informations sur ma source de données](/fr/rdm/windows/commands/file/my-data-source-information/).
+Pour savoir quel mode hors ligne est en vigueur lorsque vous êtes connecté, consultez [Mon information sur la source de données](/rdm/windows/commands/file/my-data-source-information/).
 {% endsnippet %}

@@ -1,25 +1,24 @@
 ---
 eleventyComputed:
-  title: Afficher les pièces jointes supprimées
+  title: Voir les pièces jointes supprimées
 ---
-Les pièces jointes supprimées peuvent être restaurées et gérées dans l'entrée ***Afficher les pièces jointes supprimées*** de la section ***Pièces jointes***.
+Les pièces jointes supprimées peuvent être restaurées et gérées dans la section ***Voir les pièces jointes supprimées*** de l'***Attachments***.
 
 {% snippet, "badgeWarning" %}
-La suppression à partir de la section ***Afficher les pièces jointes supprimées*** est irréversible.
+Supprimer depuis la section ***Voir les pièces jointes supprimées*** est irréversible.
 {% endsnippet %}
 
 ### Restaurer une pièce jointe
 
-1. Cliquer sur l'entrée dont la pièce jointe a été supprimée.
+1. Cliquer sur l'entrée de laquelle la pièce jointe a été supprimée.
 {% snippet, "badgeInfo" %}
-Pour afficher toutes les pièces jointes supprimées, exécuter le rapport ***Journaux d'activité*** avec le filtre ***Message : Pièce jointe supprimée***.
+Pour voir toutes les pièces jointes supprimées, exécuter le rapport ***Journaux d'activité*** avec le filtre ***Message*** : ***Pièce jointe supprimée***.
 {% endsnippet %}
 
-2. Cliquer ***Pièces jointes***.
-![!!ServerOp4094](https://cdnweb.devolutions.net/docs/fr/server/ServerOp4094.png)
-1. Cliquer ***Afficher les pièces jointes supprimées***.
-![!!ServerOp4095](https://cdnweb.devolutions.net/docs/fr/server/ServerOp4095.png)
+2. Cliquer ***Attachments***.
+![!!ServerOp4075](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp4075.png)
+1. Cliquer ***Voir les pièces jointes supprimées***.
+![!!ServerOp4076](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp4076.png)
 1. Sélectionner la pièce jointe dans la liste.
-![!!ServerOp4096](https://cdnweb.devolutions.net/docs/fr/server/ServerOp4096.png)
-1. Cliquer ***Restaurer***.
-
+![!!ServerOp4074](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp4074.png)
+1. Cliquer ***Resurrect***.

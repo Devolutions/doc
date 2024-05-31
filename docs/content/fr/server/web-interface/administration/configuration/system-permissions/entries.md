@@ -1,49 +1,16 @@
 ---
 eleventyComputed:
   title: Entrées
-  status: Topic available in German language
+  status: Sujet disponible en langue allemande
 ---
-![Administration - Permissions du système - Entrées](https://cdnweb.devolutions.net/docs/fr/server/clip8052.png)
+![Administration – Permissions Système](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp0060.png)
 
-<table>
-	<tr>
-		<th>
-Option
-		</th>
-		<th>
-Description
-		</th>
-	</tr>
-	<tr>
-		<td>
-Importer
-		</td>
-		<td>
-Restreindre le privilège d'importation à certains utilisateurs.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Exporter
-		</td>
-		<td>
-Restreindre le privilège d'exportation à certains utilisateurs.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Ajouter à la racine
-		</td>
-		<td>
-Limiter la création d'entrées a la racine à certains utilisateurs.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Paramètres du {{ fr.VLT }}
-		</td>
-		<td>
-Restreindre l'accès aux propriétés du {{ fr.VLT }} à certains utilisateurs.
-		</td>
-	</tr>
-</table>
+Les permissions administratives concernant la section ***Entrées*** sont décrites ci-dessous.
+
+| Option                    | Description                                                |
+|---------------------------|------------------------------------------------------------|
+| Importer                    | Restreindre le privilège d'importation à certains utilisateurs.            |
+| Exporter                    | Restreindre le privilège d'exportation à certains utilisateurs.            |
+| Ajouter à la racine               | Restreindre la création d'entrées à la racine à certains utilisateurs.        |
+| Paramètres de {{ fr.VLT_MAJ }} | Restreindre l'accès aux paramètres de {{ fr.VLT }} à certains utilisateurs. |
+| Enregistrement de session         | Restreindre l'accès à la fonctionnalité d'enregistrement de session.          |

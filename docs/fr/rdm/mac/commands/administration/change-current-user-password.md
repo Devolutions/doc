@@ -1,7 +1,8 @@
 ---
 eleventyComputed:
-  title: Modifier le mot de passe
+  title: Changer le mot de passe de l'utilisateur actuel
 ---
-Vous pouvez modifier le mot de passe de l'utilisateur actuel de la source de données dans ***Administration - Modifier le mot de passe***.
-![Administration - Modifier le mot de passe](https://cdnweb.devolutions.net/docs/fr/rdm/mac/clip4211.png)
-![Modifier votre mot de passe](https://cdnweb.devolutions.net/docs/fr/rdm/mac/clip0307.png)
+Vous pouvez changer le mot de passe de l'utilisateur actuel de la source de données dans ***Administration - Changer le mot de passe de l'utilisateur actuel***.
+![Administration – Changer le mot de passe de l'utilisateur actuel](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10450.png)
+
+![Changer votre mot de passe](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10135.png)

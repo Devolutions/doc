@@ -2,121 +2,30 @@
 eleventyComputed:
   title: Recherche avancée
 ---
-La fonction de ***Recherche avancée*** vous permet de rechercher des entrées et des dossiers en fonction de plusieurs critères dans un {{ fr.VLT }} à la fois. Pour effectuer des recherches dans plusieurs {{ fr.VLT }}s simultanément, veuillez vous référer à [***Recherche multi-{{ fr.VLT }}s***](/fr/rdm/mac/commands/view/multi-vault-search/).
-![Recherche avancée](https://cdnweb.devolutions.net/docs/fr/rdm/mac/RDMMac0025.png)
+La Recherche Avancée vous permet de chercher des entrées et des dossiers basés sur de multiples critères dans un seul {{ fr.VLT }} à la fois. Pour chercher dans plusieurs {{ fr.VLT }}s simultanément, veuillez vous référer à [Recherche Multi {{ fr.VLT }}](/rdm/mac/commands/view/multi-vault-search/).
+![Recherche Avancée](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_RDMMac0027.png)
 
-Il est possible de sélectionner plusieurs entrées à la fois avec <kbd>Maj</kbd>+clic ou toutes les entrées avec le raccourci <kbd>Cmd</kbd>+<kbd>A</kbd>. Un clic droit sur une ou plusieurs entrées affiche le même menu et les mêmes options que le ***{{ fr.NPANE }}***.
-![Fenêtre de recherche](https://cdnweb.devolutions.net/docs/fr/rdm/mac/RDMMac0026.png)
+Il est possible de sélectionner plusieurs entrées à la fois avec un clic <kbd>Shift</kbd> ou toutes avec le raccourci <kbd>Cmd</kbd>+<kbd>A</kbd>. Cliquer avec le bouton droit sur une ou plusieurs entrées affiche le même menu et les options que dans le ***{{ fr.NPANE }}***.
+![Fenêtre de Recherche Avancée](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10358.png)
 
-### Search tab
+### Onglet de recherche
 
-<table>
-	<tr>
-		<th>
-OPTION
-		</th>
-		<th>
-DESCRIPTION
-		</th>
-	</tr>
-	<tr>
-		<td>
-Critère
-		</td>
-		<td>
+| OPTION              | DESCRIPTION |
+|---------------------|-------------|
+| Critères            | Vous pouvez sélectionner plusieurs critères différents à la fois pour affiner votre recherche :<ul><li>Type de connexion</li> Référence de contact<li> Date de création</li> <li>Champ personnalisé</li><li>Description</li><li>Domaine</li><li> Dossier</li><li>Hôte</li><li> Est favori</li><li> Étiquettes</li><li> Date de dernière mise à jour</li><li> Nom</li><li> OS</li><li> Force du mot de passe</li><li> Numéro de série</li><li> Rôle du serveur</li><li> Statut</li><li> Nom d'utilisateur</li><li> URL</li><li> Version</li><li> IP</li><li> MAC</li><li> Logiciel |
+| Charger                | Charger les recherches qui ont été précédemment sauvegardées. |
+| Sauvegarder                | Sauvegarder votre recherche localement pour la réutiliser. |
+| Sauvegarder sous             | Sauvegarder une recherche précédemment sauvegardée mais sous un nom différent. |
+| Exporter              | Exporter les entrées de votre résultat de recherche en tant que fichier CSV, HTML, XLS ou XML. Les informations sensibles seront chiffrées en utilisant AES. |
+| Rechercher              | Une fois que vous avez sélectionné vos critères de recherche, cliquez sur Rechercher pour afficher les résultats de la recherche. |
+| Réinitialiser               | Réinitialiser tous vos champs pour procéder à une nouvelle recherche. |
+| Sélectionner dans ***{{ fr.NPANE }}*** | Sélectionner votre résultat de recherche dans votre ***{{ fr.NPANE }}***. Cette option peut être utilisée en combinaison avec une Édition par Lot. |
 
-Vous pouvez choisir entre plusieurs différents critères pour affiner votre recherche :
+Il y aura une liste déroulante à côté de certains champs de critères (ex : Nom) pour vous donner plus d'options de recherche :
 
-* Type de connexion
-* Référence au contact
-* Date de création
-* Champs personnalisé
-* Description
-* Domaine
-* Dossier
-* Hôte
-* Favoris
-* Étiquettes
-* Date de la dernière mise à jour
-* Nom
-* OS
-* Force du mot de passe
-* Groupe de sécurité (ancien système)*
-* Numéro de série
-* Rôle du serveur
-* Statut
-* Nom d'utilisateur
-* URL
-* Version
-* IP
-* MAC
-* Logiciel
-
-		</td>
-	</tr>
-	<tr>
-		<td>
-Charger
-		</td>
-		<td>
-Charger les recherches précédemment enregistrées.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Enregistrer
-		</td>
-		<td>
-Enregistrer votre recherche localement pour la réutiliser.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Enregistrer en tant que
-		</td>
-		<td>
-Enregistrer une recherche précédemment enregistrée, mais sous un autre nom.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Exporter
-		</td>
-		<td>
-Exporter les entrées de votre résultat de recherche sous forme de fichier CSV, HTML, XLS ou XML. Les informations sensibles seront cryptées à l'aide d'AES.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Recherche
-		</td>
-		<td>
-Une fois que vous avez sélectionné vos critères de recherche, cliquer sur ***Recherche*** pour afficher les résultats de la recherche.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Réinitialiser
-		</td>
-		<td>
-Réinitialiser tous vos champs pour procéder à une nouvelle recherche.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Sélectionner dans le ***{{ fr.NPANE }}***
-		</td>
-		<td>
-Sélectionner votre résultat de recherche dans votre ***{{ fr.NPANE }}***. Cette option peut être utilisée en combinaison avec une modification par lot.
-		</td>
-	</tr>
-</table>
-
-Il y aura une liste déroulante à côté de certains champs des critères (ex : Nom) pour vous donner des options de recherche supplémentaires :
-
-* ***Contient*** - tout nom qui comprend les caractères que vous avez saisis, n'importe où dans le nom du champ.
-* ***Commençant par*** - tout nom commençant par les caractères que vous avez saisis.
-* ***Finissant par*** - tout nom se terminant par les caractères que vous avez saisis.
-* ***Expression exacte*** - trouvera des noms qui correspondent à chaque caractère que vous avez entré, exactement comme il a été entré.
-* ***Ne contient pas*** - tout nom qui ne contient pas les caractères que vous avez saisis.
-* ***Expression régulière*** (regex) - toute chaîne de caractères spécifiant, selon une syntaxe précise, un ensemble de chaînes de caractères possibles.
+* ***Contient*** - tout nom incluant les caractères que vous avez saisis.
+* ***Commence par*** - tout nom commençant par les caractères que vous avez saisis.
+* ***Se termine par*** - tout nom se terminant par les caractères que vous avez saisis.
+* ***Expression exacte*** - tout nom correspondant exactement à chaque caractère que vous avez saisi.
+* ***Ne contient pas*** - tout nom qui n'inclut pas les caractères que vous avez saisis.
+* ***Expression régulière*** (regex) - toute séquence de caractères spécifiant un motif de recherche.

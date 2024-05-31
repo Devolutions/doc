@@ -2,9 +2,9 @@
 eleventyComputed:
   title: "{{ fr.NPANE }}"
 ---
-Le ***{{ fr.NPANE }}*** affiche les entrées auxquelles les utilisateurs ont accès depuis le {{ fr.VLT }} sélectionné.
+Le ***{{ fr.NPANE }}*** affiche les entrées auxquelles les utilisateurs ont accès depuis le {{ fr.VLT }} actuellement sélectionné.
 
-Raffiner vos recherches des entrées avec le ***Filtre*** ou les ***Étiquettes*** dans le ***Paramètres d'affichage***.
+Rechercher les entrées avec l'option ***Filtrer*** ou avec le filtre de nom de ***Tag*** dans les ***Paramètres d'affichage***.
 
 Pour créer des entrées, cliquer sur le bouton ***Ajouter***.
-![!!Hub4113](https://cdnweb.devolutions.net/docs/fr/hub/Hub4113.png)
+![!!Hub4107](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub4107.png)

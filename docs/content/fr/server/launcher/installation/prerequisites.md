@@ -2,17 +2,33 @@
 eleventyComputed:
   title: Prérequis
   order: 10
+  description: "{{ fr.DLAUNCHER }} nécessite les éléments suivants avant l'installation."
 ---
-## {{ fr.DLAUNCHER }} configuration minimale 
-{{ fr.DVLS }} 2019.1.X.X ou plus récent  
+{{ fr.DLAUNCHER }} nécessite les éléments suivants avant l'installation.
 
-La plupart des navigateurs Web sont compatibles ainsi qu'Internet Explorer 11 ou plus récent. 
+## {{ fr.DLAUNCHER }} exigences minimales  
 
-## {{ fr.DLAUNCHER }} configuration minimale par plateforme 
-### Windows 
+{{ fr.DVLS }} 2019.1.X.X ou ultérieur.
 
-* Windows 8 ou plus récent 
-* Microsoft .NET Framework 4.8 
-* Puissance de processeur : 1 GHz ou plus rapide 
-* Mémoire vive : 2 Go 
-* Espace de disque dur : 100 Mo 
+### Bureau Windows
+
+* Windows 11 
+    * Version 21H2 
+* Windows 10 
+    * Version 20H2, 21H1 et 21H2 
+
+### Serveur Windows
+
+* Windows Server 2022 
+* Windows Server 
+    * Version 20H2 
+* Windows Server 2019 
+* 2016 
+    * Version 1607 
+
+Microsoft .NET 8.0  
+Processeur de 1 GHz ou plus rapide  
+4 Go de RAM  
+Résolution d'écran de 1024 x 768  
+500+ Mo d'espace disque dur  
+Système d'exploitation 64 bits  

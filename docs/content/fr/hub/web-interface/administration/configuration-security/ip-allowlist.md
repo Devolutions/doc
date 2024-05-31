@@ -1,9 +1,8 @@
 ---
 eleventyComputed:
-  title: Liste d'autorisations d'adresses IP
+  title: Liste blanche d'IP
 ---
-La section ***Liste d'autorisations d'adresses IP*** permet à un administrateur d'enregistrer et de gérer les adresses IP autorisées. Elles peuvent être répertoriées sous forme de plage ou individuellement.
+La section ***Liste blanche d'IP*** permet à un administrateur de sauvegarder et de gérer les adresses IP autorisées. Elles peuvent être listées sous forme de plage ou individuellement.
 
-Créer une liste CSV en cliquant sur le bouton ***Exporter***.
-![!!Hub4120](https://cdnweb.devolutions.net/docs/fr/hub/Hub4120.png)
-
+Créer une liste au format CSV en cliquant sur le bouton ***Exporter***.
+![!!Hub4167](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub4167.png)

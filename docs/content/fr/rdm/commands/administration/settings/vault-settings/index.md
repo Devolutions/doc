@@ -1,4 +1,4 @@
 ---
 eleventyComputed:
-  title: Paramètres du {{ fr.VLT }}
+  title: "{{ fr.VLT_MAJ }} paramètres"
 ---

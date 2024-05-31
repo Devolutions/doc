@@ -1,56 +1,60 @@
 ---
 eleventyComputed:
   title: Créer une entrée
-  description: Après l'installation de {{ fr.RDMMAC }}, il vous faut configurer vos entrées. Il existe plusieurs types d'entrées; vous devez savoir quel tiers ou quelle technologie vous utiliserez pour choisir le(s) type(s) d'entrée(s) approprié(s) que vous envisagez de configurer.
+  description: Lorsque vous commencez avec {{ fr.RDMMAC }}, vous devez configurer vos entrées. Il existe de nombreux types d'entrées ; vous devez savoir quelle tierce partie ou technologie vous utiliserez pour choisir le(s) type(s) d'entrée approprié(s) que vous prévoyez de configurer.
 ---
-Après l'installation de {{ fr.RDMMAC }}, il vous faut configurer vos entrées. Il existe plusieurs types d'entrées; vous devez savoir quel tiers ou quelle technologie vous utiliserez pour choisir le(s) type(s) d'entrée(s) approprié(s) que vous envisagez de configurer.
+Lorsque vous commencez avec {{ fr.RDMMAC }}, vous devez d'abord configurer vos entrées. Il existe de nombreux types d'entrées ; vous devez savoir quelle tierce partie ou technologie vous utiliserez pour choisir le(s) type(s) d'entrée approprié(s) que vous prévoyez de configurer.
 
 ## Créer une entrée
 
-### À partir du Ruban
+### Depuis le Ruban
 
-Dans le ***{{ fr.NPANE }}***, sélectionnez l'endroit où vous souhaitez que l'entrée soit située. Dans le ***Ruban***, allez dans ***Modifier*** et cliquez sur ***Nouvelle entrée***. Vous serez invité à personnaliser vos paramètres dans la fenêtre des propriétés de l'entrée.
-![Ajouter une entrée à partir du Ruban](https://cdnweb.devolutions.net/docs/fr/rdm/mac/RDMMac2054.png)
+Dans le ***{{ fr.NPANE }}***, sélectionner où vous souhaitez que l'entrée soit située. Dans le ***Ruban***, aller à ***Modifier*** et cliquer sur ***Nouvelle Entrée***. Vous serez invité à personnaliser vos paramètres dans la fenêtre des propriétés de l'entrée.
+![Ajouter une entrée depuis le Ruban](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_RDMMac2092.png)
 
-### À partir du menu contextuel
+### Depuis le menu contextuel
 
-Dans le ***{{ fr.NPANE }}***, faites un clic droit à l'endroit où vous souhaitez que l'entrée soit située et sélectionnez ***Ajouter*** dans le menu. Pour initialiser une nouvelle session, vous pouvez spécifier le type de session ou un modèle. Vous serez invité à personnaliser vos paramètres dans la fenêtre des propriétés de l'entrée.
-![Ajouter une entrée à partir du menu contextuel](https://cdnweb.devolutions.net/docs/fr/rdm/mac/RDMMac2055.png)
+Dans le ***{{ fr.NPANE }}***, faire un clic droit où vous souhaitez que l'entrée soit située et sélectionner ***Ajouter*** depuis le menu. Pour initialiser une nouvelle session, vous pouvez spécifier soit le type de session soit un modèle. Vous serez invité à personnaliser vos paramètres dans la fenêtre des propriétés de l'entrée.
+![Ajouter une entrée depuis le menu contextuel](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_RDMMac2093.png)
 
 ### En important une configuration
 
-Vous pouvez également importer des entrées dans ***Fichier – Importer***. Pour en savoir plus, consultez [Importer](/fr/rdm/mac/commands/file/import/sessions/).
+Vous pouvez également importer des entrées dans ***Fichier – Importer***. En savoir plus dans [Importer](/rdm/mac/commands/file/import/sessions/).
 
-## Créer une sous entrée
-
-{% snippet, "badgeInfo" %}
-Depuis la version 2022.3 de {{ fr.RDMMAC }}, les sous entrées ont remplacé les sous connexions. Elles sont différentes dans la mesure où les sous connexions étaient stockées en XML dans leur entrée parente, ce qui n'est pas le cas des sous entrées. Celles-ci sont beaucoup plus polyvalentes.
-
-La migration des sous connexions préexistantes vers les nouvelles sous entrées est automatique lors de la mise à jour de {{ fr.RDM }} de la version 2022.2 ou antérieure vers la version 2022.3 ou ultérieure.
-{% endsnippet %}
-
-Les sous entrées sont des entrées à part entière, indépendantes, situées sous une entrée « parent » dans l'arborescence. Elles se réfèrent à leur parent par un ID. Elles sont compatibles avec les pièces jointes, la documentation, l'historique complet, etc.
-
-Elles se trouvent sous l'entrée parent ou dans l'onglet ***Sous entrées*** du [***Tableau de bord***](/fr/rdm/mac/user-interface/content-area/dashboard/) de l'entrée parent.
-
-### À partir du Ruban
-
-Dans le ***{{ fr.NPANE }}***, sélectionnez l'entrée sous laquelle vous souhaitez placer une sous entrée. Dans le ***Ruban***, allez dans ***Modifier*** et cliquez sur ***Nouvelle entrée***. Comme vous avez précédemment sélectionné l'entrée parente, vous serez invité à choisir entre la création d'une sous entrée ou d'une entrée. Sélectionnez ***Nouvelle sous entrée***. Ensuite, personnalisez vos paramètres dans la fenêtre des propriétés de l'entrée.
+## Créer une sous-entrée
 
 {% snippet, "badgeInfo" %}
-Vous ne pouvez pas créer une sous entrée sous une autre sous entrée.
+Depuis la version {{ fr.RDM }} 2022.3, les sous-entrées ont remplacé les sous-connexions. Elles sont différentes en ce que les sous-connexions étaient stockées en XML dans leur entrée parente, ce qui n'est pas le cas avec les sous-entrées, les rendant beaucoup plus polyvalentes.
+
+La migration des sous-connexions préexistantes vers les nouvelles sous-entrées est automatique lors de la mise à jour de la version {{ fr.RDM }} 2022.2 ou antérieure vers la version 2022.3 ou ultérieure.
 {% endsnippet %}
 
-![Ajouter une sous entrée à partir du Ruban](https://cdnweb.devolutions.net/docs/fr/rdm/mac/RDMMac2054.png)
-![Invitation à créer une nouvelle sous entrée](https://cdnweb.devolutions.net/docs/fr/rdm/mac/RDMMac2057.png)
+Les sous-entrées sont des entrées à part entière, indépendantes situées sous une entrée "parente" dans la vue en arborescence. Elles se réfèrent à leur parent avec un ID. Elles sont compatibles avec les pièces jointes, la documentation, l'historique complet, etc.
 
-### À partir du menu contextuel
-
-Dans le ***{{ fr.NPANE }}***, faites un clic droit sur l'entrée sous laquelle vous souhaitez placer une sous entrée et sélectionnez ***Ajouter*** dans le menu. Pour initialiser une nouvelle session, vous pouvez spécifier le type de session ou un modèle. Vous serez invité à choisir entre la création d'une sous entrée ou d'une entrée. Sélectionnez ***Nouvelle sous entrée***. Ensuite, personnalisez vos paramètres dans la fenêtre des propriétés de l'entrée.
+Elles peuvent être trouvées sous l'entrée parente ou dans l'onglet ***Sous-Entrées*** du [***Tableau de bord***](/rdm/mac/user-interface/content-area/dashboard/) de l'entrée parente.
 
 {% snippet, "badgeInfo" %}
-Vous ne pouvez pas créer une sous entrée sous une autre sous entrée.
+Vous ne pouvez pas créer une sous-entrée sous une autre sous-entrée.
 {% endsnippet %}
 
-![Ajouter une sous entrée à partir du menu contextuel](https://cdnweb.devolutions.net/docs/fr/rdm/mac/RDMMac2056.png)
-![Invitation à créer une nouvelle sous entrée](https://cdnweb.devolutions.net/docs/fr/rdm/mac/RDMMac2057.png)
+### Depuis le Ruban
+
+Dans le ***{{ fr.NPANE }}***, sélectionner l'entrée sous laquelle vous souhaitez placer une sous-entrée. Dans le ***Ruban***, aller à ***Modifier*** et cliquer sur ***Nouvelle Entrée***. Puisque vous avez précédemment sélectionné l'entrée parente, vous serez invité à choisir soit de créer une sous-entrée soit une entrée. Sélectionner ***Nouvelle Sous-Entrée***. Ensuite, personnaliser vos paramètres dans la fenêtre des propriétés de l'entrée.
+
+{% snippet, "badgeInfo" %}
+Vous ne pouvez pas créer une sous-entrée sous une autre sous-entrée.
+{% endsnippet %}
+
+![Ajouter une sous-entrée depuis le Ruban](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_RDMMac2092.png)
+![Invite Nouvelle Sous-Entrée](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_RDMMac2096.png)
+
+### Depuis le menu contextuel
+
+Dans le ***{{ fr.NPANE }}***, faire un clic droit sur l'entrée sous laquelle vous souhaitez placer une sous-entrée et sélectionner ***Ajouter*** depuis le menu. Pour initialiser une nouvelle session, vous pouvez spécifier soit le type de session soit un modèle. Vous serez invité à choisir soit de créer une sous-entrée soit une entrée. Sélectionner ***Nouvelle Sous-Entrée***. Ensuite, personnaliser vos paramètres dans la fenêtre des propriétés de l'entrée.
+
+{% snippet, "badgeInfo" %}
+Vous ne pouvez pas créer une sous-entrée sous une autre sous-entrée.
+{% endsnippet %}
+
+![Ajouter une sous-entrée depuis le menu contextuel](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_RDMMac2095.png)
+![Invite Nouvelle Sous-Entrée](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_RDMMac2096.png)

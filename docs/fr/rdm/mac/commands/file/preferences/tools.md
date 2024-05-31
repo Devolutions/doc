@@ -2,121 +2,22 @@
 eleventyComputed:
   title: Outils
 ---
-Utiliser ***Fichier - Préférences - Outils*** pour configurer le délai avant l'expiration de l'outil.
+Utiliser Fichier – Préférences – Outils pour configurer le délai avant le dépassement de temps de l'outil.
 
 ## Paramètres
-
-![Préférences - Outils](https://cdnweb.devolutions.net/docs/fr/rdm/mac/clip4202.png)
+![Préférences – Outils](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10441.png)
 
 ### Outils
-
-<table>
-	<tr>
-		<td>
-Option
-		</td>
-		<td>
-Description
-		</td>
-	</tr>
-	<tr>
-		<td>
-Services de recherche timeout
-		</td>
-		<td>
-Indique l'heure à laquelle le service Bonjour recherchera avant l'expiration du service.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Timeout du ping
-		</td>
-		<td>
-Indique le délai avant l'expiration du service ping.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Port (WOL)
-		</td>
-		<td>
-Indique le délai avant l'expiration du service Wake on LAN.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Fermer les messages automatiquement
-		</td>
-		<td>
-Indique le délai avant la fermeture automatique de la fenêtre de message.
-		</td>
-	</tr>
-</table>
+| OPTION                       | DESCRIPTION                                                                        |
+|------------------------------|------------------------------------------------------------------------------------|
+| Délai de recherche de services| Indiquer le temps que le service Bonjour recherchera avant le dépassement de temps du service. |
+| Délai de ping                | Indiquer le temps avant le dépassement de temps du service de ping.                |
+| Port WOL                     | Indiquer le temps avant le dépassement de temps du service Wake on LAN.            |
+| Fermeture automatique des messages | Indiquer le temps avant la fermeture automatique de la fenêtre de message.        |
 
 ### Gestion à distance
-
-<table>
-	<tr>
-		<td>
-Option
-		</td>
-		<td>
-Description
-		</td>
-	</tr>
-	<tr>
-		<td>
-Journal d'évènement
-		</td>
-		<td>
-
-Sélectionner le journal des événements préféré à ouvrir par défaut lors du lancement de l'événement sur un ordinateur distant :
-
-* Tout
-* Application
-* Sécurité
-* Système
-* Réplication DFS
-* Service d'annuaire
-* Serveur DNS
-* Évènements matériel
-* Internet Explorer
-* Service de gestion de clés
-* Windows PowerShell
-		</td>
-	</tr>
-	<tr>
-		<td>
-Type d'évènement
-		</td>
-		<td>
-Sélectionner le type d'événement préféré à ouvrir par défaut lors du lancement de l'événement sur un ordinateur distant :
-
-* Tous
-* Erreur
-* Avertissement
-* Information
-* Succès de l'Audit de sécurité
-* Échec de l'Audit de sécurité
-		</td>
-	</tr>
-	<tr>
-		<td>
-Plage horaire
-		</td>
-		<td>
-Définir la plage horaire pour l'événement distant :
-
-* Semaine dernière
-* Aujourd'hui
-* Hier
-* Mois dernier
-* Mois courant
-* 7 derniers jours
-* 30 derniers jours
-* 31 derniers jours
-* 60 derniers jours
-* 90 derniers jours
-		</td>
-	</tr>
-</table>
+| OPTION     | DESCRIPTION |
+|------------|-------------|
+| Journal d'événements | Sélectionner le journal d'événements préféré à ouvrir par défaut lors du lancement de l'événement à distance sur un ordinateur distant :<ul><li>Tous</li><li>Application</li><li>Sécurité</li><li>Système</li><li>Réplication DFS</li><li>Service d'annuaire</li><li>Serveur DNS</li><li>Événements matériels</li><li>Internet Explorer</li><li>Service de gestion de clés</li><li>Windows PowerShell</li></ul> |
+| Type d'événement | Sélectionner le type d'événement préféré à ouvrir par défaut lors du lancement de l'événement à distance sur un ordinateur distant :<ul><li>Tous</li><li>Erreur</li><li>Avertissement</li><li>Information</li><li>Audit de sécurité réussi</li><li>Échec de l'audit de sécurité</li></ul> |
+| Plage de temps | Définir la plage de temps pour l'Événement à distance :<ul><li>La semaine dernière</li><li>Aujourd'hui</li><li>Hier</li><li>Le mois dernier</li><li>Mois en cours</li><li>Les 7 derniers jours</li><li>Les 30 derniers jours</li><li>Les 31 derniers jours</li><li>Les 60 derniers jours</li><li>Les 90 derniers jours</li></ul> |

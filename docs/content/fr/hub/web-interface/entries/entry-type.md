@@ -4,9 +4,9 @@ eleventyComputed:
 ---
 Choisir le ***Type d'entrée*** le mieux adapté pour créer et gérer chaque entrée dans {{ fr.DHUB }}.
 
-* Les entrées de type ***Général*** sont destinées au stockage des documents et d'informations sur les sites Web. C'est à cet emplacement que se trouve l'entrée ***Dossier*** pour vous aider à gérer le ***{{ fr.NPANE }}***.
-* Les entrées de type ***Session*** varient en termes de fonctionnalités et d'utilisations. Elles sont principalement utilisées pour lancer des sessions telles que ***RDP***, ***SSH*** et le ***Navigateur Web***. Elles peuvent être lancées avec {{ fr.DLAUNCHER }} ou en combinaison avec {{ fr.RDM }}.
-* Les entrées d'***Informations*** sont utilisées pour stocker des informations sensibles, telles que ***Code d'alarme***, ***Carte de crédit***, ***Adhésion*** et plus encore.
-* L'***Entrée d'identifiant*** permet de stocker les identifiants que vous souhaitez lier à plusieurs entrées ou de créer une ***Liste de mot de passe*** et un ***Mot de passe à usage unique***.
-* Le type ***Modèle*** est l'emplacement où se retrouvent vos entrées personnalisées.
-![!!Hub4154](https://cdnweb.devolutions.net/docs/fr/hub/Hub4154.png)
+* Les entrées ***Général*** sont destinées à stocker des documents et des informations de sites Web. C'est ici que se trouve l'entrée ***Dossier*** pour vous aider à gérer votre ***{{ fr.NPANE }}***.
+* Les entrées de type ***Session*** varient en fonctionnalités et utilisations. Elles sont principalement utilisées pour lancer des sessions telles que ***RDP***, ***SSH*** et ***Navigateur Web***. Elles peuvent être lancées avec le {{ fr.DLAUNCHER }} ou en combinaison avec {{ fr.RDM }}.
+* Les entrées ***Information*** sont utilisées pour stocker des informations sensibles telles que ***Code d'Alarme***, ***Carte de Crédit***, ***Adhésion***, et plus encore.
+* L'***Entrée d'Identifiants*** est destinée à stocker les identifiants que vous souhaitez lier à plusieurs entrées ou créer une ***Liste de Mots de Passe*** et ***Mot de Passe à Usage Unique***.
+* Les entrées de type ***Modèle*** est l'endroit où se trouvent vos entrées de modèle personnalisées.
+![!!Hub4118](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub4118.png)

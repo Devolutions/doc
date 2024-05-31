@@ -1,22 +1,23 @@
 ---
 eleventyComputed:
   title: Téléchargement et installation
+  description: Suivre ces étapes pour télécharger et installer {{ fr.DLAUNCHER }}.
   order: 20
 ---
-Suivre les étapes ci-dessous pour compléter l'installation {{ fr.DLAUNCHER }}.
+Suivre ces étapes pour télécharger et installer {{ fr.DLAUNCHER }} :
 
-1. Télécharger [{{ fr.DLAUNCHER }}](https://devolutions.net/fr/launcher/download) ou rechercher dans les {{ fr.CTOOLS }} dans la section ***Produits*** du site Web de [Devolutions](https://devolutions.net/fr).
-![!!ServerOp4001](https://cdnweb.devolutions.net/docs/fr/server/ServerOp4001.png)
+1. Télécharger [{{ fr.DLAUNCHER }}](https://devolutions.net/launcher/download) ou chercher les {{ fr.CTOOLS }} dans la section des produits de notre site [Devolutions](https://devolutions.net/).
+![Télécharger {{ fr.DLAUNCHER }}](https://cdnweb.devolutions.net/docs/DVLS6000_2023_3.png)
 1. Lancer le fichier exécutable.
-1. Cliquer sur ***Suivant*** dans la page d'accueil.
-![!!ServerOp4053](https://cdnweb.devolutions.net/docs/fr/server/ServerOp4053.png)
+1. Cliquer sur ***Suivant*** sur la page de bienvenue.
+![Cliquer Suivant](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp4032.png)
 1. Choisir le type d'installation.
-![!!ServerOp4054](https://cdnweb.devolutions.net/docs/fr/server/ServerOp4054.png)
-1. Configurer les raccourcis pour {{ fr.DLAUNCHER }}.
-![!!ServerOp4055](https://cdnweb.devolutions.net/docs/fr/server/ServerOp4055.png)
-1. Accepter les termes de la convention de licence et cliquer sur ***Suivant***.
-![!!ServerOp4056](https://cdnweb.devolutions.net/docs/fr/server/ServerOp4056.png)
-1. Cliquer ***Installer***.
-![!!ServerOp4057](https://cdnweb.devolutions.net/docs/fr/server/ServerOp4057.png)
+![Type d'installation](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp4033.png)
+1. Sélectionner les raccourcis pour {{ fr.DLAUNCHER }}.
+![Sélectionner les raccourcis](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp4034.png)
+1. Accepter les termes du contrat de licence du logiciel et cliquer sur ***Suivant***.
+![Contrat de licence du logiciel](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp4035.png)
+1. Cliquer sur ***Installer***.
+![Cliquer Installer](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp4036.png)
 1. Cliquer sur ***Terminer*** pour compléter l'installation.
-![!!ServerOp4058](https://cdnweb.devolutions.net/docs/fr/server/ServerOp4058.png)
+![Cliquer Terminer](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp4037.png)

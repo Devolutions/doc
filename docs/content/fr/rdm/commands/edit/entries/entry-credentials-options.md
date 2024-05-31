@@ -1,82 +1,20 @@
 ---
 eleventyComputed:
-  title: Options d'identifiants
+  title: Options des identifiants d'entrée
+  description: Plusieurs options sont disponibles pour utiliser des identifiants dans les entrées {{ fr.RDM }}.
 ---
-Plusieurs options sont disponibles pour les ***Identifiants*** dans les entrées {{ fr.RDM }}.
-![Identifiants](https://cdnweb.devolutions.net/docs/fr/rdm/windows/RdmWin4041.png)
+{% youtube 'FtSlp_TVAxE?si=VU395_g6MZ75HHvm&amp;start=636' %}
 
-<table>
-	<tr>
-		<th>
-OPTION
-		</th>
-		<th>
-DESCRIPTION
-		</th>
+Plusieurs options sont disponibles pour utiliser des ***identifiants*** dans les entrées {{ fr.RDM }}.
+![Identifiants](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin2225.png)
 
-	</tr>
-	<tr>
-		<td>
-Personnalisé
-		</td>
-		<td>
-Cette option permet de saisir des identifiants personnalisés dans la section ***Général*** de l'entrée
-		</td>
-	</tr>
-	<tr>
-		<td>
-Lié ({{ fr.VLT }})
-		</td>
-		<td>
-Lier l'entrée pour utiliser une entrée d'***Identifiants*** existante dans le même {{ fr.VLT }}.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Hérité
-		</td>
-		<td>
-Les identifiants utilisés par cette entrée seront hérités et définis en grimpant dans l'arborescence de navigation jusqu'à ce qu'elle ait accès à un ensemble d'identifiants dans un dossier parent
-		</td>
-	</tr>
-	<tr>
-		<td>
-Mes identifiants personnels
-		</td>
-		<td>
-Utiliser les identifiants définis dans la fonctionnalité [Mes identifiants personnels](/fr/rdm/windows/commands/file/my-account-settings/my-personal-credentials/). Cela permet de centraliser une information d'identification pour remplacer ou émuler celles d'une session Windows
-		</td>
-	</tr>
-	<tr>
-		<td>
-Aucun
-		</td>
-		<td>
-Aucun identifiant ne pourra être enregistré ou lié à cette entrée
-		</td>
-	</tr>
-	<tr>
-		<td>
-Rechercher par nom ({{ fr.UVLT }})
-		</td>
-		<td>
-Recherche le nom spécifié dans le ***{{ fr.UVLT }}***. Si la case est laissée vide, lors du lancement, une liste d'identifiant s'ouvre avec toutes les entrées d'identifiants disponibles dans le ***{{ fr.UVLT }}***.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Compte privilégié
-		</td>
-		<td>
-Utilise un compte privilégié préexistant provenant de la même source de données
-		</td>
-	</tr>
-	<tr>
-		<td>
-Mon compte privilégié
-		</td>
-		<td>
-Utilise la combinaison nom d'utilisateur/mot de passe choisie. Doit d'abord être configuré dans ***Fichier*** – ***Paramètres de mon compte*** – ***Mes paramètres par défaut*** – ***Mon compte privilégié***.
-		</td>
-	</tr>
-</table>
+| OPTION                      | DESCRIPTION                                                            |
+|-----------------------------|------------------------------------------------------------------------|
+| Personnalisé                | Cette option permet de saisir des identifiants personnalisés dans la section ***Général*** de l'entrée                                                                                                  |
+| Lié ({{ fr.VLT }})          | Lier une entrée pour utiliser une entrée ***Identifiant*** existante dans le même {{ fr.VLT }}                                                                                                 |
+| Hérité                      | Les identifiants utilisés par cette entrée seront hérités et définis en remontant l'arbre de navigation jusqu'à ce qu'il ait accès à un ensemble d'identifiants dans un dossier parent                                                                                     |
+| Mes identifiants personnels | Utilisera les identifiants définis dans la fonctionnalité [Mes identifiants personnels](/rdm/windows/commands/file/my-account-settings/my-personal-credentials/). Cela permet de centraliser un identifiant pour remplacer ou émuler ceux d'une session Windows               |
+| Aucun                       | Aucun identifiant ne sera autorisé à être sauvegardé ou lié à cette entrée                                                                                                  |
+| Trouver par nom ({{ fr.UVLT }}) | Cherchera dans le ***{{ fr.UVLT }}*** le nom spécifié. Si la case est laissée vide, lors du lancement, une ***Liste d'identifiants*** s'ouvrira avec toutes les entrées ***Identifiants*** disponibles depuis le ***{{ fr.UVLT }}***.                                        |
+| Compte privilégié           | Utilisera un compte privilégié préexistant de la même source de données                                                                                                 |
+| Mon compte privilégié       | Utilisera la combinaison nom d'utilisateur/mot de passe choisie. Doit d'abord être configuré dans ***Fichier*** – ***Paramètres de mon compte*** – ***Mes paramètres par défaut*** – ***Mon compte privilégié***.                                                                                            |

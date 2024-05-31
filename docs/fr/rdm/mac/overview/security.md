@@ -2,31 +2,32 @@
 eleventyComputed:
   title: Sécurité
 ---
-Tous les mots de passe sauvegardés dans la base de données de l'application sont chiffrés grâce à un puissant algorithme de chiffrement rendant le contenu illisible à un utilisateur qui tenterait d'accéder aux données directement dans la base de données. 
+Tous les mots de passe stockés dans la base de données de l'application sont chiffrés en utilisant un algorithme de chiffrement fort, de sorte que si un utilisateur tente d'accéder directement aux données dans la base de données, elles seront considérées comme illisibles.
 
-## Chiffrement approuvé par le Gouvernement fédéral des États-Unis 
+## Algorithme de chiffrement
 
-Notre application intègre l'algorithme Advanced Encryption Standard (AES) afin de protéger vos fichiers locaux et vos données confidentielles dans la base de données.  
+Notre application utilise l'algorithme de chiffrement XChaCha20Poly1305 pour protéger les données sensibles dans la base de données. Consulter [la bibliothèque cryptographique de Devolutions](https://github.com/Devolutions/devolutions-crypto) pour plus de détails.
 
-Cette clé de chiffrement est très sécuritaire. AES/Rijndael, standardisé au Gouvernement fédéral des États-Unis, est approuvé par la National Security Agency (NSA) pour les informations classées très secrètes. 
-
-## Conseils 
-
-{% snippet, "shieldWarning" %} 
-Le chiffrement des données en transit est offert nativement par nos services infonuagiques. Lorsque vous décidez d'utiliser une solution sur site, le chiffrement des données en transit doit être implémenté à l'aide des outils de la technologie que vous avez choisie. La plupart des clients inquiets à propos de la sécurité ont choisi des [Source de données avancée](/fr/rdm/mac/data-sources/data-sources-types/advanced-data-sources/). Suivez également les instructions spécifiques à la solution sélectionnée. 
+{% snippet, "shieldInfo" %}
+Les données locales RDM sont chiffrées en utilisant la norme de chiffrement avancé (AES) pour les ordinateurs fonctionnant en mode FIPS.
 {% endsnippet %}
- 
-{% snippet, "shieldWarning" %} 
-La clé de chiffrement, étant intégrée dans l'application, est alors la même pour toutes les copies du logiciel en circulation. Il est donc fortement recommandé de suivre les indications ci-bas et d'ajouter un [Fournisseur de sécurité](/fr/rdm/mac/commands/administration/security-provider/) pour chiffrer non seulement les mots de passe, mais également toutes les données dans la source de données. Ainsi, vos données au repos seront protégées grâce à une clé exclusivement gérée par vous. 
+
+## Conseils
+
+{% snippet, "shieldWarning" %}
+Le chiffrement des données en transit est offert nativement par nos services cloud. Lorsque vous décidez d'utiliser une solution locale, la mise en œuvre du chiffrement des données en transit doit être réalisée en utilisant les outils impliquant vos technologies choisies. La plupart des clients ayant des préoccupations de sécurité choisissent déjà l'une des [Sources de Données Avancées](/rdm/mac/data-sources/data-sources-types/advanced-data-sources/), suivent les instructions spécifiques à la solution choisie.
 {% endsnippet %}
- 
-Nous vous recommandons de suivre ces conseils pour sécuriser vos données :  
 
-* Utiliser une [Source de données avancée](/fr/rdm/mac/data-sources/data-sources-types/advanced-data-sources/) et accorder les accès aux utilisateurs en attribuant des permissions. 
-* Chiffrer toutes les communications avec la base de données. 
-* Utiliser les [Paramètres du système](/fr/rdm/mac/commands/administration/system-settings/) pour contrôler les réglages qui affectent la sécurité. 
-* Utiliser un [Fournisseur de sécurité](/fr/rdm/mac/commands/administration/security-provider/) pour chiffrer les entrées plutôt que de les protéger uniquement par un mot de passe. 
-* Ajouter votre mot de passe pour une protection additionnelle du cache local en mode hors-ligne. Accéder à ***Fichier – Préférences – Sécurité***. 
-* Demander un mot de passe pour lancer l'application et même exiger l'authentification à deux facteurs. Accéder à ***Fichier – Préférences – Sécurité***. 
-* Choisir de ne pas sauvegarder le mot de passe dans la source de données lorsque possible. Les informations d'identification seront alors demandées lors de la première connexion. 
+{% snippet, "shieldWarning" %}
+Le chiffrement est intégré dans l'application et est donc le même pour toutes les copies du logiciel en circulation. Il est impératif de suivre nos étapes recommandées et d'appliquer un [Fournisseur de Sécurité](/rdm/mac/commands/administration/security-provider/) pour chiffrer non seulement les mots de passe, mais aussi toutes les données de connexion qui sont stockées dans la source de données. Cela vous donnera une protection sur vos données au repos, en utilisant une clé sous votre contrôle exclusif.
+{% endsnippet %}
 
+Nous vous recommandons de suivre ces étapes pour garantir la sécurité :
+
+* Utiliser une [Source de Données Avancée](/rdm/mac/data-sources/data-sources-types/advanced-data-sources/) et octroyer l'accès utilisateur en attribuant des permissions.
+* Utiliser une communication chiffrée avec la base de données lorsque disponible.
+* Utiliser les [Paramètres de la Source de Données](/rdm/mac/commands/administration/system-settings/) pour contrôler de nombreux paramètres impactant la sécurité.
+* Utiliser le [Fournisseur de Sécurité](/rdm/mac/commands/administration/security-provider/) pour chiffrer complètement les entrées au lieu de juste le mot de passe.
+* Si vous utilisez le mode hors ligne, ajouter votre propre mot de passe pour une couche supplémentaire de protection au cache local. Aller à ***Fichier - Préférences - Sécurité***.
+* Exiger un mot de passe pour lancer l'application et même exiger une authentification à deux facteurs. Aller à ***Fichier - Préférences - Sécurité***.
+* Si votre source de données le permet, choisir de ne pas sauvegarder le mot de passe dans la source de données, ce qui demandera l'identification lors de la première connexion.

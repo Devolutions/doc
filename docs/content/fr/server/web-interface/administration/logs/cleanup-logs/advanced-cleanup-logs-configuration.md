@@ -2,141 +2,30 @@
 eleventyComputed:
   title: Configuration avancée
 ---
-La configuration avancée permet de sélectionner des paramètres d'archivage individuellement pour chacun des journaux de {{ fr.DVLS }}.
-![Effacer les journaux - Configuration avancée](https://cdnweb.devolutions.net/docs/fr/server/ServerOp8152.png)
+La configuration ***Avancée*** permet de définir des paramètres de nettoyage individuels pour tous les différents journaux de {{ fr.DVLS }}.
+![Administration – Journaux – Nettoyage des journaux](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp8161.png)
 
-### Journaux
-
-<table>
-	<tr>
-		<th>
-OPTION
-		</th>
-		<th>
-DESCRIPTION
-		</th>
-	</tr>
-	<tr>
-		<td>
-BACKUP LOGS
-		</td>
-		<td>
-
-Table contenant les journaux en lien avec la fonctionnalité du [Gestionnaire de sauvegardes](/fr/server/web-interface/administration/backup/backup-manager/)
-		</td>
-	</tr>
-	<tr>
-		<td>
-CONNECTION LOGS
-		</td>
-		<td>
-Table contenant toutes les opérations effectuées sur les entrées comme par exemple ouverture de session, visualiser un mot de passe, etc.
-		</td>
-	</tr>
-	<tr>
-		<td>
-LOGIN ATTEMPT
-		</td>
-		<td>
-Table contenant toutes les tentatives de connexions à {{ fr.DVLS }} ayant échouées.
-		</td>
-	</tr>
-	<tr>
-		<td>
-LOGIN HISTORY
-		</td>
-		<td>
-Table contenant toutes les connexions à {{ fr.DVLS }}.
-		</td>
-	</tr>
-	<tr>
-		<td>
-MESSAGE LOGS
-		</td>
-		<td>
-Tables contenant les journaux de la source de données {{ fr.DVLS }}.
-		</td>
-	</tr>
-	<tr>
-		<td>
-PAM LOGS
-		</td>
-		<td>
-Tables contenant les journaux de la fonctionnalité PAM de {{ fr.DVLS }}.
-		</td>
-	</tr>
-</table>
+## Journaux
+| Rapports           | Description                                                                                                      |
+|-------------------|------------------------------------------------------------------------------------------------------------------|
+| Journaux de sauvegarde       | Le Journaux de sauvegarde est lié au [Gestionnaire de sauvegarde](/server/web-interface/administration/backup/backup-manager/). |
+| Journaux de connexion   | Les Journaux de connexion se rapportent à toutes les opérations sur les entrées comme visualiser un mot de passe, ouvrir une entrée, etc.            |
+| Tentative de connexion     | La Tentative de connexion se rapporte à tous les logins infructueux à la source de données {{ fr.DVLS }}.                           |
+| Historique de connexion     | Les journaux d'Historique de connexion se rapportent à chaque utilisateur qui a été connecté au {{ fr.DVLS }}.                        |
+| Journaux de messages      | Les Journaux de messages se rapportent aux journaux de la source de données de {{ fr.DVLS }}.                                                   |
+| Journaux PAM          | Les Journaux PAM se rapportent à la fonctionnalité PAM de {{ fr.DVLS }}.                                                               |
+| Historique des infos utilisateur | Les journaux d'Historique des infos utilisateur se rapportent à l'historique de mise à jour des comptes d'utilisateurs.                                           |
 
 ### Général
-
-<table>
-	<tr>
-		<th>
-OPTION
-		</th>
-		<th>
-DESCRIPTION
-		</th>
-	</tr>
-	<tr>
-		<td>
-Utiliser la configuration personnalisée
-		</td>
-		<td>
-Permets de sélectionner des paramètres d'archivage et/ou suppression du journal sélectionné.
-		</td>
-	</tr>
-</table>
+| Option                   | Description                                                                              |
+|--------------------------|------------------------------------------------------------------------------------------|
+| Utiliser une configuration personnalisée | Activer pour permettre de définir des paramètres spécifiques d'archivage et de suppression pour le journal sélectionné. |
 
 ### Configuration
-
-<table>
-	<tr>
-		<th>
-OPTION
-		</th>
-		<th>
-DESCRIPTION
-		</th>
-	</tr>
-	<tr>
-		<td>
-Utiliser l'archivage.
-		</td>
-		<td>
-Utiliser l'option d'archivage des journaux.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Archiver les journaux plus ancien que
-		</td>
-		<td>
-Archiver les journaux dont la date de création est plus ancienne que l'élément sélectionné dans la liste.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Supprimer les journaux archivés plus anciens que
-		</td>
-		<td>
-Supprimer les archives dont la date de création est plus ancienne que l'élément sélectionné dans la liste.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Sauter l'archivage et supprimer de façon permanente
-		</td>
-		<td>
-Supprimer directement les journaux sans utiliser la fonctionnalité d'archivage.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Supprimer les journaux plus ancien que
-		</td>
-		<td>
-Supprimer les journaux directement dont la date de création est plus ancienne que l'élément sélectionné dans la liste.
-		</td>
-	</tr>
-</table>
+| Option                                | Description                                                            |
+|---------------------------------------|------------------------------------------------------------------------|
+| Utiliser l'archivage                         | Utiliser l'opération d'archive pour nettoyer les journaux.                           |
+| Archiver les journaux plus anciens que               | Archivera les journaux qui sont plus anciens que la valeur sélectionnée dans la liste déroulante.<ul><li>Personnalisé</li><li>Un mois</li><li>Trois mois</li><li>Six mois</li><li>Un an</li></ul> |
+| Supprimer les journaux archivés plus anciens que       | Supprimera tous les journaux archivés qui sont plus anciens que la valeur sélectionnée dans la liste déroulante.<ul><li>Trois mois</li><li>Six mois</li><li>Un an</li><li>Deux ans</li></ul> |
+| Ignorer l'archivage et supprimer définitivement | Si activé, n'archivera pas les journaux et les supprimera définitivement. |
+| Supprimer les journaux plus anciens que                | Supprimera définitivement tous les journaux plus anciens que la valeur sélectionnée dans la liste déroulante.<ul><li>Personnalisé</li><li>Un mois</li><li>Trois mois</li><li>Six mois</li><li>Un an</li><li>Deux ans</li></ul> |

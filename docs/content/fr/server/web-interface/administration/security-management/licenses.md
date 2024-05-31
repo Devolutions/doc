@@ -1,85 +1,34 @@
 ---
 eleventyComputed:
   title: Licences
+  description: Gérer l'enregistrement globalement pour tous vos utilisateurs peut être fait avec une clé de licence stockée dans Administration – Licences.
 ---
-La gestion globale de l'enregistrement pour tous vos utilisateurs peut être effectuée avec une licence stockée dans {{ fr.DVLS }} via la section Licences.
-![Licences](https://cdnweb.devolutions.net/docs/fr/server/ServerOp8061.png)
+Gérer l'enregistrement globalement pour tous vos utilisateurs peut être fait avec une clé de licence stockée dans ***Administration – Licences***.
+![Ajouter une licence](https://cdnweb.devolutions.net/docs/DVLS2009_2024_1.png)
 
-### Générale
+Voici les différents types de licences qui peuvent être ajoutés dans {{ fr.DVLS }} :
+* {{ fr.RDM }}
+* {{ fr.DLAUNCHER }}
+* module {{ fr.DGW }}
+* module de gestion des accès privilégiés (PAM)
+* Intégrations PAM tierces parties (CyberArk, Delinea Secret Server, BeyondTrust)
+* Licence d'accès client (CAL utilisateur)
 
-![Licences - Générale](https://cdnweb.devolutions.net/docs/fr/server/ServerOp8062.png)
+![Ajouter une licence – Général](https://cdnweb.devolutions.net/docs/DVLS2020_2024_1.png)
 
-<table>
-	<tr>
-		<th>
-Option
-		</th>
-		<th>
-Description
-		</th>
-	</tr>
-	<tr>
-		<td>
-Licence
-		</td>
-		<td>
-Licence à sauvegarder.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Assigner automatiquement les nouveaux utilisateurs
-		</td>
-		<td>
-Une licence sera automatiquement attribué à tout nouveau compte d'utilisateur.
-		</td>
-	</tr>
-</table>
+## Général
+| Option      | Description                                                                                      |
+|-------------|--------------------------------------------------------------------------------------------------|
+| Licence     | Entrer la licence à stocker.                                                                     |
+| Importer    | Importer la licence en utilisant un fichier **LIC**.                                             |
+| Auto assigner | Assigner automatiquement la clé de licence à chaque nouveau compte utilisateur (non disponible pour les licences PAM). |
 
-### Assigné à
+## Assigné à
+![Ajouter une licence – Assigné à](https://cdnweb.devolutions.net/docs/DVLS2021_2024_1.png)
 
-![!!ServerOp8063](https://cdnweb.devolutions.net/docs/fr/server/ServerOp8063.png)
-
-<table>
-	<tr>
-		<th>
-
-Option
-		</th>
-		<th>
-Description
-		</th>
-	</tr>
-	<tr>
-		<td>
-Filtre
-		</td>
-		<td>
-Filtre la liste selon la colonne ***Nom*** ou ***Description***.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Assigner tout
-		</td>
-		<td>
-Assigne une licence à chacun des utilisateurs.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Assigner une licence aux utilisateurs manquants
-		</td>
-		<td>
-Assigne une licence aux utilisateurs qui ne sont pas sélectionnés.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Supprimer tout
-		</td>
-		<td>
-Supprime la licence pour tous les utilisateurs.
-		</td>
-	</tr>
-</table>
+| Option         | Description                                                          |
+|----------------|----------------------------------------------------------------------|
+| Filtre         | Filtrer la liste basée sur la colonne ***Nom*** ou ***Description***.|
+| Assigner à tous     | Assigner la licence à tous les comptes.                                  |
+| Assigner manquant | Assigner la licence aux comptes qui ne sont pas déjà sélectionnés.        |
+| Tout effacer      | Retirer la licence de tous les comptes.                                |

@@ -4,46 +4,46 @@ eleventyComputed:
   order: 30
 ---
 {% snippet, "badgeInfo" %}
-Cette fonctionnalité est disponible pour les sources de données [{{ fr.DVLS }}](/fr/rdm/windows/data-sources/data-sources-types/advanced-data-sources/server/), [Microsoft Azure SQL](/fr/rdm/windows/data-sources/data-sources-types/advanced-data-sources/microsoft-azure-sql/), [Microsoft SQL Server](/fr/rdm/windows/data-sources/data-sources-types/advanced-data-sources/microsoft-sql-server/) et [SQLite](/fr/rdm/windows/data-sources/data-sources-types/sqlite/).
+Cette fonctionnalité est uniquement disponible pour les sources de données [{{ fr.DVLS }}](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/server/), [Microsoft Azure SQL](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/microsoft-azure-sql/), [Microsoft SQL Server](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/microsoft-sql-server/), et [SQLite](/rdm/windows/data-sources/data-sources-types/sqlite/).
 {% endsnippet %}
 
-L'authentification multifacteur (AMF) identifie les utilisateurs par au moins deux éléments différents : quelque chose que l'utilisateur connaît (souvent un mot de passe) et quelque chose que l'utilisateur possède (par exemple, un code de validation envoyé à un appareil mobile). Si l'un de ces éléments est manquant ou incorrect, l'identité de l'utilisateur n'est pas établie avec suffisamment de certitude et l'accès à la source de données restera alors bloqué.
+L'authentification multifacteur (AMF) identifie les utilisateurs par au moins deux composants différents : quelque chose que l'utilisateur connaît (souvent un mot de passe) et quelque chose que l'utilisateur possède (par exemple, un code de validation envoyé à un appareil mobile). Si l'un des composants est manquant ou fourni incorrectement, l'identité de l'utilisateur n'est pas établie avec une certitude suffisante et l'accès à la source de données restera bloqué.
 
-L'AMF est définie au niveau de la source de données excepté dans {{ fr.DVLS }}, où elle est [définie sur l'utilisateur](/fr/server/web-interface/administration/configuration/server-settings/security/two-factor/). {{ fr.RDM }} prend en charge [Authenticator (TOTP)](/fr/rdm/windows/data-sources/multi-factor-authentication/authenticator-totp/), [Yubikey](/fr/rdm/windows/data-sources/multi-factor-authentication/yubikey/) et [Duo](/fr/rdm/windows/data-sources/multi-factor-authentication/duo/).
+L'AMF est définie au niveau de la source de données, sauf dans {{ fr.DVLS }}, où elle est [définie pour l'utilisateur](/server/web-interface/administration/configuration/server-settings/security/two-factor/). {{ fr.RDM }} prend en charge [Authenticator (TOTP)](/rdm/windows/data-sources/multi-factor-authentication/authenticator-totp/), [Yubikey](/rdm/windows/data-sources/multi-factor-authentication/yubikey/), et [Duo](/rdm/windows/data-sources/multi-factor-authentication/duo/).
 
-Consultez la section qui correspond à votre type de source de données :
+Aller à la section correspondant à votre type de source de données :
 
-* [Azure SQL ou SQL Server](#configuration-de-lauthentification-multifacteur-sur-une-source-de-données-microsoft-azure-sql-ou-sql-server)
-* [SQLite](#configuration-de-lauthentification-multifacteur-sur-une-source-de-données-sqlite)
+* [Azure SQL ou SQL Server](#configure-multi-factor-authentication-on-a-microsoft-azure-sql-or-sql-server-sata-source)
+* [SQLite](#configure-multi-factor-authentication-on-a-sqlite-data-source)
 
-## Configuration de l'authentification multifacteur sur une source de données microsoft azure sql ou SQL Server
+### Configurer l'Authentification Multifacteur sur une Source de Données Microsoft Azure SQL ou SQL Server
 
-1. Dans {{ fr.RDM }}, accéder à la source de données pour laquelle l'AMF doit être configurée.
-1. Accéder à ***Fichier – Paramètres de mon compte***.
-1. Cliquer sur ***Source de données AMF***.
-![Fichier – Paramètres de mon compte – Source de données AMF](https://cdnweb.devolutions.net/docs/fr/rdm/windows/RDMWin2112.png)
-1. Dans la fenêtre ***Configuration de l'authentification multifacteur***, cliquer sur ***Modifier***.
-![Modifier la Configuration de l'authentification multifacteur](https://cdnweb.devolutions.net/docs/fr/rdm/windows/clip11098.png)
-1. Choisir votre ***Type*** d'AMF dans la liste déroulante.
-![Type d'authentification multifacteur](https://cdnweb.devolutions.net/docs/fr/rdm/windows/clip11099.png)
-1. Suivre l'un des liens ci-dessous en fonction du choix effectué à l'étape précédente.
-    * [Authenticator (TOTP)](/fr/rdm/windows/data-sources/multi-factor-authentication/authenticator-totp/)
-    * [Yubikey](/fr/rdm/windows/data-sources/multi-factor-authentication/yubikey/)
-    * [Duo](/fr/rdm/windows/data-sources/multi-factor-authentication/duo/)
-
-## Configuration de l'authentification multifacteur sur une source de données SQLite
-
-1. Dans {{ fr.RDM }}, accéder à la source de données pour laquelle l'AMF doit être configurée.
-1. Accéder à ***Fichier – Sources de données***.
-1. Cliquer sur le bouton ***Modifier la source de données***.
-![Fichier – Sources de données – Modifier la source de données](https://cdnweb.devolutions.net/docs/fr/rdm/windows/RDMWin2117.png)
-1. À côté du paramètre ***2 facteurs***, cliquer sur ***Aucun***.
-![!!RDMWin2118](https://cdnweb.devolutions.net/docs/fr/rdm/windows/RDMWin2118.png)
-1. Dans la fenêtre ***Configuration multifacteur***, cliquer sur ***Modifier***.
-![Modifier la Configuration de l'authentification multifacteur](https://cdnweb.devolutions.net/docs/fr/rdm/windows/clip11098.png)
-1. Sélectionner le ***Type*** d'AMF dans la liste déroulante.
-![Type d'authentification multifacteur](https://cdnweb.devolutions.net/docs/fr/rdm/windows/clip11099.png)
+1. Dans {{ fr.RDM }}, aller à la source de données pour laquelle vous souhaitez configurer l'AMF.
+1. Aller à ***Fichier – Paramètres de Mon Compte***.
+1. Cliquer sur ***Authentification Multifacteur de la Source de Données***.
+![Fichier – Paramètres de Mon Compte – Authentification Multifacteur de la Source de Données](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin2146.png)
+1. Dans la fenêtre ***Configuration Multifacteur***, cliquer sur ***Changer***.
+![Changer la Configuration Multifacteur](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip11098.png)
+1. Sélectionner votre ***Type*** d'AMF dans la liste déroulante.
+![Type d'Authentification Multifacteur](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip11099.png)
 1. Suivre l'un des liens ci-dessous en fonction du choix effectué à l'étape précédente :
-    * [Authenticator (TOTP)](/fr/rdm/windows/data-sources/multi-factor-authentication/authenticator-totp/)
-    * [Yubikey](/fr/rdm/windows/data-sources/multi-factor-authentication/yubikey/)
-    * [Duo](/fr/rdm/windows/data-sources/multi-factor-authentication/duo/)
+    * [Authenticator (TOTP)](/rdm/windows/data-sources/multi-factor-authentication/authenticator-totp/)
+    * [Yubikey](/rdm/windows/data-sources/multi-factor-authentication/yubikey/)
+    * [Duo](/rdm/windows/data-sources/multi-factor-authentication/duo/)
+
+### Configurer l'Authentification Multifacteur sur une Source de Données SQLite
+
+1. Dans {{ fr.RDM }}, aller à la source de données pour laquelle vous souhaitez configurer l'AMF.
+1. Aller à ***Fichier – Sources de Données***.
+1. Cliquer sur le bouton ***Modifier la Source de Données***.
+![Fichier – Sources de Données – Modifier la Source de Données](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin2149.png)
+1. À côté de l'option ***Multifacteur***, cliquer sur ***Aucun***.
+![Option Multifacteur](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin2150.png)
+1. Dans la fenêtre ***Configuration Multifacteur***, cliquer sur ***Changer***.
+![Changer la Configuration Multifacteur](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip11098.png)
+1. Sélectionner votre ***Type*** d'AMF dans la liste déroulante.
+![Type d'Authentification Multifacteur](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip11099.png)
+1. Suivre l'un des liens ci-dessous en fonction du choix effectué à l'étape précédente :
+    * [Authenticator (TOTP)](/rdm/windows/data-sources/multi-factor-authentication/authenticator-totp/)
+    * [Yubikey](/rdm/windows/data-sources/multi-factor-authentication/yubikey/)
+    * [Duo](/rdm/windows/data-sources/multi-factor-authentication/duo/)

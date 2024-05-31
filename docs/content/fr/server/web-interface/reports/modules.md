@@ -1,20 +1,29 @@
 ---
 eleventyComputed:
-  title: Accès privilégiés
+  title: Modules
 ---
-La section ***Accès Privilégiés*** fournit aux administrateurs un rapport sur la ***Rotation des mots de passe***.
-
+La section ***Modules*** fournit aux administrateurs les rapports ***Accès Privilégié – Rotation des Mots de Passe*** et ***Activités Récentes***. Pour les utilisateurs de ***{{ fr.DGW }}***, des rapports pour voir les ***Permissions*** et ***Accès Utilisateur*** sont disponibles.
 {% snippet, "badgeNotice" %}
-Ce rapport est uniquement disponible pour les utilisateurs de la solution Gestion des accès privilégiés (PAM).
+Les rapports ***Accès Privilégié*** sont uniquement disponibles pour les utilisateurs de la solution [Gestion des Accès Privilégiés (PAM)](/pam/server/).
 {% endsnippet %}
 
-![!!ServerOp4076](https://cdnweb.devolutions.net/docs/fr/server/ServerOp4076.png)
+![!!ServerOp4071](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp4071.png)
+## Accès Privilégié - Rotation des Mots de Passe
+Le rapport ***Rotation des Mots de Passe*** affiche les ***Comptes Privilégiés*** utilisateurs, avec une date et une heure, pour lesquels la dernière mise à jour du mot de passe a eu lieu. Cliquer sur ***Réinitialiser le Mot de Passe*** pour forcer un utilisateur à réinitialiser son mot de passe.
 
-### Rotation des mots de passe
+Vous pouvez affiner votre recherche avec les filtres et cliquer sur le bouton ***Exporter*** pour créer un rapport CSV à des fins d'audit.
 
-Le rapport ***Rotation des mots de passe*** affiche les utilisateurs de ***Comptes privilégiés***, avec une heure et une date, pour laquelle la dernière mise à jour du mot de passe a eu lieu. Cliquer sur ***Réinitialiser mot de passe*** pour forcer un utilisateur à réinitialiser son mot de passe.
+![!!ServerOp4072](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp4072.png)
+## Accès Privilégié - Activités Récentes
+Le rapport ***Activités Récentes***
 
-Vous pouvez affiner votre recherche à l'aide des filtres et cliquer sur le bouton ***Exporter*** pour créer un rapport CSV à des fins d'audit.
+![!!ServerOp4090](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp4090.png)
+## Permission {{ fr.DGW }}
+Le rapport ***Permission***
 
-![!!ServerOp4077](https://cdnweb.devolutions.net/docs/fr/server/ServerOp4077.png)
+## Accès Utilisateur {{ fr.DGW }}
+Le rapport ***Accès Utilisateur***
+
+![!!ServerOp4091](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp4091.png)
+
 

@@ -1,13 +1,13 @@
 ---
 eleventyComputed:
-  title: Permissions du système
+  title: Permissions système
+  description: Les permissions système sont utilisées pour fournir des droits administratifs à des utilisateurs spécifiques ou à des groupes d'utilisateurs.
 ---
-Les ***Permissions du système*** sont utilisées pour fournir des droits administratifs à des utilisateurs ou groupes d'utilisateurs spécifiques. Ils peuvent être ajoutés au niveau du ***Système*** ou des ***{{ fr.VLT }}s***.
-![Permissions du système](https://cdnweb.devolutions.net/docs/fr/hub/Hub4122.png)
+***Les permissions système*** sont utilisées pour fournir des droits administratifs à des utilisateurs spécifiques ou à des groupes d'utilisateurs. Elles peuvent être attribuées aux niveaux ***Système*** et ***{{ fr.VLT }}s*** dans ***Administration – Permissions système***.
+![Permissions système](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub3043.png)
+![Permissions des {{ fr.VLT_MAJ }}s](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub2137.png)
 
-![Permissions des {{ fr.VLT }}s](https://cdnweb.devolutions.net/docs/fr/hub/Hub2016.png)
+Pour définir les permissions pour les utilisateurs et/ou les groupes d'utilisateurs, utiliser le bouton ***Modifier*** en haut à droite.
 
-Pour définir les permissions des utilisateurs et/ou des groupes d'utilisateurs, utilisez le bouton ***Modifier*** en haut à droite.
-
-La liste des ***Rôles*** est définie avec des permissions par défaut, mais peut être personnalisée avec l'option ***Personnalisés***. Cliquez sur le bouton ***Afficher la définition des rôles*** pour choisir dans la liste. Vous pouvez également visiter [Rôles et permissions](/fr/hub/web-interface/hub-overview/administration/configuration-security/system-permissions/roles-permissions/).
-![Modification des permissions du système](https://cdnweb.devolutions.net/docs/fr/hub/Hub4123.png)
+La liste ***Rôles*** est définie avec des permissions par défaut, mais peut être personnalisée dans ***Personnalisés***. Cliquer sur le bouton ***Voir la définition des rôles*** pour choisir dans la liste. Vous pouvez également visiter [Rôles et permissions](/hub/web-interface/administration/configuration-security/system-permissions/roles-permissions/).
+![Modification des permissions système](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub4036.png)

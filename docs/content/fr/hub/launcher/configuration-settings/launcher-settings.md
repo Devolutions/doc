@@ -1,36 +1,39 @@
 ---
 eleventyComputed:
   title: "{{ fr.DLAUNCHER }} paramètres"
+  description: Dans la section Générale, vous pouvez personnaliser le thème de couleur et la langue de {{ fr.DLAUNCHER }}.
   order: 20
 ---
-### Général
+Voici listés tous les paramètres disponibles dans les menus de {{ fr.DLAUNCHER }}.
 
-Dans la section ***Général***, vous pouvez personnaliser la couleur du ***Thème*** et choisir la langue de {{ fr.DLAUNCHER }}. Vous devrez fermer l'application pour activer le paramètre.
-![!!Hub4013](https://cdnweb.devolutions.net/docs/fr/hub/Hub4013.png)
+### Fichiers
 
-### Sources de données
+| PARAMÈTRES | DESCRIPTION |
+|--------|-------------|
+| **Actualiser**         | Actualiser les {{ fr.VLT }}s dans la source de données.                                                                                                                                 |
+| **Sources de Données**    | Se connecter aux sources de données.                                                                                                                                                        |
+| **Paramètres de Mon Compte** | Ajouter un identifiant personnel à votre {{ fr.DLAUNCHER }}. Sélectionner parmi ***Mes Identifiants Personnels, Mon Compte Privilégié,*** ou ***Ma Clé SSH Personnelle***.     |
+| **Paramètres**        | Dans la section ***Interface Utilisateur***, vous pouvez personnaliser le thème de couleur ***Thème***, ***Langue***, et ***Mise à l'échelle de l'affichage*** de {{ fr.DLAUNCHER }}. Vous devrez fermer l'application pour activer les nouveaux paramètres. |
 
-Connecter à une source de données.
+### Affichage
 
-### Mes identifiants personnels
+| PARAMÈTRES   | DESCRIPTION |
+|------------|-------------|
+| **{{ fr.VLT_MAJ }}**     | Afficher le {{ fr.VLT }}.                                                                                                   |
+| **{{ fr.UVLT_MAJ }}**     | Afficher le {{ fr.UVLT }}.  
 
-Ajouter un identifiant personnel a votre {{ fr.DLAUNCHER }} à partir de la liste d'***Entrée d'identifiants***.
+### Fenêtre
 
-### Journaux
+Sélectionner comment vous voulez que la fenêtre soit affichée.
 
-L'information de la section ***Journaux*** est principalement destinée aux administrateurs et aux développeurs d'applications. Vous pouvez localiser le fichier journal en cliquant sur le bouton ***Ouvrir*** ou en suivant le lien fourni au bas de la fenêtre ***Journaux des connexions locales***.
-![!!Hub4014](https://cdnweb.devolutions.net/docs/fr/hub/Hub4014.png)
+### Aide
 
-### Diagnostic
-
-Dans cette section, vous pouvez accéder au ***Diagnostic du système*** de l'application et lancer le ***Profileur*** à des fins de débogage.
-
-Vous pouvez également valider les informations de la source de données et les politiques appliquées.
-
-### Vérifier les mises à jour
-
-Valider et télécharger les nouvelles versions de {{ fr.DLAUNCHER }}.
-
-### À propos
-
-Afficher la version installée et les informations de {{ fr.DLAUNCHER }}.
+| PARAMÈTRES | DESCRIPTION |
+|--------|-------------|
+| **Aide en Ligne**      | Consulter la documentation pour tous les produits Devolutions, les add-ons, et les outils connexes.                                                                                                   |
+| **Journaux d'Applications**| Les informations dans la section ***Journaux d'Applications*** sont principalement destinées aux administrateurs et aux développeurs d'applications. Vous pouvez rechercher dans le fichier journal en utilisant le ***Filtre*** dans l'onglet ***Liste***. Les rapports sont disponibles dans l'onglet ***Rapport*** et peuvent être sauvegardés ou envoyés à l'Équipe de Support Devolutions. |
+| **Diagnostics**      | Dans cette section, vous pouvez accéder au ***Diagnostic Système*** de l'application et lancer le ***Registre*** à des fins de débogage. Valider les informations de la source de données et les politiques appliquées. |
+| **Soumettre un Ticket de Support** | Envoyer un message à l'Équipe de Support Devolutions.                                                                                                                                     |
+| **Visiter notre forum**  | Obtenir les dernières nouvelles, signaler des bugs, et demander de nouvelles fonctionnalités en se connectant directement avec notre équipe d'ingénierie et le personnel de support.                                                      |
+| **Vérifier les Mises à Jour**| Valider et télécharger les nouvelles versions de {{ fr.DLAUNCHER }}.                                                                                                                           |
+| **À propos**            | Voir la version installée de {{ fr.DLAUNCHER }} et les informations.                                                                                                                       |

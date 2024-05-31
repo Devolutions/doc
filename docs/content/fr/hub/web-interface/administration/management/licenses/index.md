@@ -2,13 +2,13 @@
 eleventyComputed:
   title: Licences
 ---
-Dans la section ***Licences***, vous pourrez enregistrer votre licence {{ fr.DHUBB }} et toutes les autres licences de produits Devolutions liées à l'application.
+Dans la section ***Licences***, vous pourrez enregistrer votre licence {{ fr.DHUBB }} et toutes les autres licences des produits Devolutions liées à l'application.
 
-* [Enregistrer votre licence {{ fr.DHUBB }}](/fr/hub/web-interface/hub-overview/administration/management/licenses/register-hub-business-license/)
-* [Enregistrer des licences de produit](/fr/hub/web-interface/hub-overview/administration/management/licenses/register-product-licenses/)
+* [Enregistrer votre licence {{ fr.DHUBB }}](/hub/web-interface/administration/management/licenses/register-hub-business-license/)
+* [Enregistrer les licences des produits](/hub/web-interface/administration/management/licenses/register-product-licenses/)
 
 {% snippet, "badgeCaution" %}
-Seuls les ***Administrateurs*** et les utilisateurs disposant des permissions dans la section ***Permissions du système - Système - Gérer la licence*** auront accès à l'enregistrement d'une licence dans {{ fr.DHUBB }}.
+Seuls les ***Administrateurs*** et les utilisateurs avec des permissions dans la section ***Permissions Système – Système – Gérer la licence {{ fr.DHUB }}*** auront accès à l'enregistrement d'une licence dans {{ fr.DHUBB }}.
 {% endsnippet %}
 
-![!!Hub4124](https://cdnweb.devolutions.net/docs/fr/hub/Hub4124.png)
+![!!Hub4111](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub4111.png)

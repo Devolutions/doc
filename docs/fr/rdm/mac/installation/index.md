@@ -1,5 +1,5 @@
 ---
 eleventyComputed:
   title: Installation
-  order: 20
+  order: 30
 ---

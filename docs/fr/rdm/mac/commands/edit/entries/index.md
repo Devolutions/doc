@@ -2,52 +2,14 @@
 eleventyComputed:
   title: Ajouter des entrées
 ---
-Les options pour ajouter vous permettent de créer rapidement de nouvelles entrées, de les dupliquer, de créer des raccourcis ou d'enregistrer votre entrée en tant que modèle.
+Les options Ajouter permettent de créer rapidement de nouvelles entrées, de les dupliquer, de créer un raccourci ou de sauvegarder rapidement votre entrée en tant que modèle.
 
 ## Paramètres
+![Options Ajouter](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10333.png)
 
-![Ajouter des entrées](https://cdnweb.devolutions.net/docs/fr/rdm/mac/clip4049.png)
-
-<table>
-	<tr>
-		<td>
-Option
-		</td>
-		<td>
-Description
-		</td>
-	</tr>
-	<tr>
-		<td>
-Nouvelle entrée
-		</td>
-		<td>
-Créer une nouvelle entrée (session, dossier, entrée de données, identifiants, etc.)
-		</td>
-	</tr>
-	<tr>
-		<td>
-Dupliquer
-		</td>
-		<td>
-Créer un double de votre entrée.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Créer un raccourci
-		</td>
-		<td>
-
-Lier votre entrée à plusieurs dossiers. Voir [Créer un raccourci](/fr/rdm/mac/commands/edit/entries/shortcut/) pour plus d'informations.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Enregistrer comme modèle
-		</td>
-		<td>
-Enregistrer votre entrée sélectionnée en tant que [Modèles](/fr/rdm/mac/commands/file/templates/) local ou partagé.
-		</td>
-	</tr>
-</table>
+| OPTION           | DESCRIPTION                                                                                   |
+|------------------|-----------------------------------------------------------------------------------------------|
+| Nouvelle Entrée  | Créer une nouvelle entrée (session, groupe/dossier, entrée de données, informations d'identification, etc...). |
+| Dupliquer Entrée | Créer un duplicata de votre entrée.                                                           |
+| Créer Raccourci  | Lier votre entrée à plus d'un groupe. Voir [Raccourci/Entrées Liées](/rdm/mac/commands/edit/entries/shortcut/) pour plus d'informations. |
+| Enregistrer comme Modèle | Sauvegarder votre entrée sélectionnée en tant que modèle local ou partagé [modèle](/rdm/mac/commands/file/templates/). |

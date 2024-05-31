@@ -2,134 +2,40 @@
 eleventyComputed:
   title: Courriel
 ---
-Les courriels sont envoyés par notre moteur de notification et par certains de nos fournisseurs d'authentification multifacteur pour la messagerie sécurisée interne.
+Les courriels sont envoyés par notre moteur de notification et par certains de nos fournisseurs d'authentification à deux facteurs pour la messagerie sécurisée interne.
 
-Dans la section ***Géréral***, vous pouvez choisir un ***Type d'authentification*** entre ***Basique*** et ***Azure***. Vous pouvez également fournir le ***Courriel de l'administrateur*** qui est l'adresse courriel du destinaitaire qui recevra les erreurs.
+Dans la section ***Général***, vous pouvez choisir un ***type d'authentification*** entre ***Basique*** et ***Azure***. Vous pouvez également fournir l'***Email de l'Administrateur***, qui est l'adresse email du destinataire qui recevra les erreurs.
+![Administration – Paramètres du serveur – Courriel](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp8169.png)
 
-![Administration – Paramètres Serveur – Courriel](https://cdnweb.devolutions.net/docs/fr/server/ServerOp8013.png)
+Après avoir sélectionné le ***type d'authentification***, vous aurez accès à d'autres champs à remplir. Les informations à fournir dépendent du type d'authentification.
 
-Après avoir sélectionné le ***Type d'authentification***, vous aurez accès à davantage de champs à remplir. L'information à fournir dépend du type d'authentification.
-
-## Configuration SMTP basique
-
-![Type d'authentification basique](https://cdnweb.devolutions.net/docs/fr/server/ServerOp2044.png)
-
+## Configuration SMTP Basique
 {% snippet, "badgeHelp" %}
-Visitez [Configurer un courriel SMTP](/fr/kb/devolutions-server/how-to-articles/configure-smtp-server/configure-smtp-email), qui est spécifique au ***Type d'authentification basique***, pour obtenir les étapes de la configuration d'un SMTP dans {{ fr.DVLS }}.
+Voir [Configurer un courriel SMTP](/server/kb/how-to-articles/configure-smtp-server/configure-smtp-email), qui est spécifique au ***type d'authentification Basique***, pour les étapes sur comment configurer un SMTP dans {{ fr.DVLS }}.
 {% endsnippet %}
 
-<table>
-	<tr>
-		<th>
-Champ/Paramètre
-		</th>
-		<th>
-Description
-		</th>
-	</tr>
-	<tr>
-		<td>
-Hôte
-		</td>
-		<td>
-Nom ou adresse IP du serveur SMTP.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Port
-		</td>
-		<td>
-Port du serveur SMTP.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Nom d'utilisateur
-		</td>
-		<td>
-Nom d'utilisateur utilisé pour la connexion au serveur SMTP.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Mot de passe
-		</td>
-		<td>
-Mot de passe utilisé pour la connexion au serveur SMTP.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Sécurité des connexions
-		</td>
-		<td>
-Sécurité spécifique pour la connexion au serveur de messagerie.
+![Type d'authentification Basique](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp2059.png)
 
-* Aucun chiffrement
-* Automatique selon le numéro de port (par défaut)
-* Utiliser SSL ou TLS immédiatement (SMTPS)
-* Utiliser TSL immédiatement dès la connexion initiale
-* Utiliser TLS si pris en charge par le serveur dès la connexion initiale
-		</td>
-	</tr>
-	<tr>
-		<td>
-Envoyer un courriel en tant que
-		</td>
-		<td>
-Adresse courriel de l'expéditeur.
-		</td>
-	</tr>
-</table>
+| Champ/Paramètre       | Description                                                                 |
+|-----------------------|-----------------------------------------------------------------------------|
+| Hôte                  | Nom ou adresse IP du serveur SMTP.                                          |
+| Port                  | Port du serveur SMTP.                                                       |
+| Nom d'utilisateur     | Nom d'utilisateur utilisé pour se connecter au serveur SMTP.                |
+| Mot de passe          | Mot de passe utilisé pour se connecter au serveur SMTP.                     |
+| Sécurité de connexion | Sécurité spécifique pour la connexion au serveur de messagerie.<ul><li>Pas de chiffrement</li><li>Automatique basé sur le numéro de port (par défaut)</li><li>Utiliser SSL ou TLS immédiatement (SMTPS)</li><li>Utiliser TLS immédiatement après la connexion initiale</li><li>Utiliser TLS si le serveur le supporte après la connexion initiale</li></ul> |
+| Envoyer l'email comme | Adresse email de l'expéditeur.                                              |
 
-## Configuration SMTP avec Azure
 
-![Type d'authentification Azure](https://cdnweb.devolutions.net/docs/fr/server/ServerOp2045.png)
+## Configuration SMTP Azure
+![Type d'authentification Azure](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp2060.png)
 
 {% snippet, "badgeHelp" %}
-Visitez [Configurer un courriel SMTP avec Azure](/fr/kb/devolutions-server/how-to-articles/configure-smtp-server/configure-smtp-email-azure), qui est spécifique au ***Type d'authentification Azure***, pour obtenir les étapes de la configuration d'un SMTP avec Azure dans {{ fr.DVLS }}.
+Voir [Configurer un courriel SMTP avec Azure](/server/kb/how-to-articles/configure-smtp-server/configure-smtp-email-azure), qui est spécifique au ***type d'authentification Azure***, pour les étapes sur comment configurer un SMTP avec Azure dans {{ fr.DVLS }}.
 {% endsnippet %}
 
-<table>
-	<tr>
-		<th>
-Champ/Paramètre
-		</th>
-		<th>
-Description
-		</th>
-	</tr>
-	<tr>
-		<td>
-ID du client
-		</td>
-		<td>
-ID de l'application Azure.
-		</td>
-	</tr>
-	<tr>
-		<td>
-ID locataire
-		</td>
-		<td>
-ID du locataire Azure.
-		</td>
-	</tr>
-	<tr>
-		<td>
-ID de l'utilisateur
-		</td>
-		<td>
-ID de l'utilisateur figurant dans la section « De » du courriel.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Valeur secrète
-		</td>
-		<td>
-Secret client Azure.
-		</td>
-	</tr>
-</table>
+| Champ/Paramètre | Description                                                       |
+|-----------------|-------------------------------------------------------------------|
+| ID Client       | ID d'application Azure.                                           |
+| ID de locataire | ID de locataire Azure                                             |
+| ID d'utilisateur | ID de l'utilisateur qui est listé dans la section "De" du courriel. |
+| Valeur secrète  | Secret client Azure.                                              |

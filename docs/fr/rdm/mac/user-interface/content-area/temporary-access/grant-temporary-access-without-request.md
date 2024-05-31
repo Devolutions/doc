@@ -1,27 +1,27 @@
 ---
 eleventyComputed:
-  title: Accorder un accès temporaire à une entrée dans {{ fr.RDMMAC }}
+  title: Octroyer un accès temporaire à une entrée dans {{ fr.RDMMAC }}
   order: 30
-  description: Les approbateurs peuvent accorder un accès temporaire sans demande à un utilisateur et même si ce dernier dispose déjà d'un accès.
+  description: Les approbateurs peuvent octroyer un accès temporaire sans demande à un utilisateur, même si celui-ci dispose déjà d'un accès.
 ---
-{% snippet, "badgeNotice" %} 
-Pour apprendre comment approuver ou refuser une demande, visitez [Approuver un accès temporaire à une entrée dans {{ fr.RDM }}](/fr/rdm/mac/user-interface/content-area/temporary-access/approve-temporary-access/). 
+{% snippet, "badgeNotice" %}
+Pour apprendre à approuver ou refuser une demande, visiter [Approuver un accès temporaire à une entrée dans {{ fr.RDM }}](/rdm/mac/user-interface/content-area/temporary-access/approve-temporary-access/).
 {% endsnippet %}
 
-La fonction d'***Accès temporaire*** permet aux utilisateurs de demander une élévation temporaire de leurs permissions pour une entrée spécifique. Les approbateurs peuvent accorder un accès temporaire sans demande à un utilisateur et même si ce dernier dispose déjà d'un accès.
+La fonctionnalité ***Accès Temporaire*** permet aux utilisateurs de demander une élévation temporaire de leurs permissions pour une entrée spécifique. Les approbateurs peuvent octroyer un ***Accès Temporaire*** sans demande de la part d'un utilisateur et même si l'utilisateur dispose déjà d'un accès.
 
-## Accorder un accès temporaire
+## Octroyer un accès temporaire
 
-1. Dans le ***Tableau de bord*** de {{ fr.RDM }}, sélectionnez l'entrée à laquelle vous souhaitez accorder l'accès.  
-1. Cliquer sur ***Accorder un accès temporaire*** dans le ruban.  
-![Accorder un accès temporaire](https://cdnweb.devolutions.net/docs/fr/rdm/mac/RDMMac6010.png)  
-1. Choisir ***Utilisateur*** et ***Durée de l'accès*** dans la fenêtre ***Accorder un accès temporaire***.  
-![Accorder un accès temporaire](https://cdnweb.devolutions.net/docs/fr/rdm/mac/RDMMac6011.png)  
+1. Dans le ***{{ fr.NPANE }}*** de {{ fr.RDM }}, sélectionner l'entrée à laquelle octroyer l'accès.
+1. Cliquer sur ***Octroyer un Accès Temporaire*** dans le ruban.
+![Octroyer un Accès Temporaire](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_RDMMac6010.png)
+1. Choisir ***Utilisateur*** et ***Durée d'Accès*** dans la fenêtre ***Octroyer un Accès Temporaire***.
+![Fenêtre Octroyer un Accès Temporaire](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_RDMMac6011.png)
 
-Vous pouvez consulter les ***Dépendances de l'entrée***, comme que les identifiants et les VPN liés dans le menu à gauche.
- 
- 4. Cliquer sur ***Définir une période de temps personnalisée*** si vous avez besoin d'accorder l'accès pour une durée déterminée et écrivez un court ***Message*** à l'utilisateur expliquant pourquoi vous accordez l'accès.  
+   Il est possible de voir les ***Dépendances de l'Entrée*** telles que les identifiants liés et les VPN dans le menu déroulant de gauche.
 
- 1. Cliquer sur ***OK*** pour fermer la fenêtre.  
-![L'accès temporaire a été accordé](https://cdnweb.devolutions.net/docs/fr/rdm/mac/RDMMac6012.png)  
-L'***accès temporaire*** a été accordé.
+1. Cliquer sur ***Définir une plage horaire personnalisée*** si nécessaire pour octroyer l'accès pour une période spécifique et écrire un court ***Message*** à l'utilisateur expliquant pourquoi l'accès est octroyé.
+
+1. Cliquer sur ***Ok*** pour fermer la fenêtre.
+![L'accès temporaire a été octroyé](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_RDMMac6012.png)
+L'***Accès Temporaire*** a été octroyé.

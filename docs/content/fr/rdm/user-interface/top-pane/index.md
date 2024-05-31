@@ -2,13 +2,12 @@
 eleventyComputed:
   title: Volet supérieur
 ---
-Le ***Volet supérieur*** contient la [Barre de connexion rapide](/fr/rdm/windows/user-interface/top-pane/quick-access-toolbar/) et le ***Ruban/Menu***.
-![Volet supérieur](https://cdnweb.devolutions.net/docs/fr/rdm/windows/clip11408.png)
+Le Volet supérieur contient la [Barre d'outils Accès rapide](View_QuickAccessToolbar) et le Ruban/Menu.
+![{{ fr.RDM }} volet supérieur](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip11408.png)
 
-Il peut être masqué pour maximiser la zone de travail.
-![Masquer le Volet supérieur](https://cdnweb.devolutions.net/docs/fr/rdm/windows/RdmWin3001.png)
+Il peut être caché pour maximiser l'espace de travail.
+![Masquer complètement le volet supérieur](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin2208.png)
+![Masquer le ruban](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin2209.png)
 
-![Masquer le ruban](https://cdnweb.devolutions.net/docs/fr/rdm/windows/RdmWin3002.png)
-
-Si vous vous retrouvez confus par vos modifications et souhaitez le réinitialiser à sa mise en page d'origine, accédez à l'onglet ***Fenêtre*** et sélectionnez ***Réinitialisation de la mise en page***.
-![Réinitialisation de la mise en page](https://cdnweb.devolutions.net/docs/fr/rdm/windows/RdmWin3003.png)
+Si vous êtes confus à cause de vos paramètres modifiés et souhaitez réinitialiser la disposition à son agencement original, naviguez vers l'onglet Windows et sélectionnez ***Réinitialiser la disposition***.
+![Windows – Réinitialiser la disposition](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin2210.png)

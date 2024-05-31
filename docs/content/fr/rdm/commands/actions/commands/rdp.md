@@ -1,76 +1,20 @@
 ---
 eleventyComputed:
   title: RDP
+  description: Les commandes pour une session RDP vous permettent d'envoyer des commandes à distance à votre hôte.
 ---
-Les commandes d'une session RDP vous permettent d'envoyer des commandes à distance à votre hôte.
+Les commandes pour une session RDP vous permettent d'envoyer des commandes à distance à votre hôte.
 
 ## Paramètres
 
-![!!RdmWin4049](https://cdnweb.devolutions.net/docs/fr/rdm/windows/RdmWin4049.png)
+![Commandes RDP](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip10190.png)
 
-<table>
-	<tr>
-		<th>
-OPTION
-		</th>
-		<th>
-DESCRIPTION
-		</th>
-	</tr>
-	<tr>
-		<td>
-Voir seulement
-		</td>
-		<td>
-Empêche la session de recevoir des entrées du clavier ou de la souris. Cette fonctionnalité a été demandée pour permettre la surveillance tout en évitant les erreurs de manipulation. Utilisez-le pour avoir un accès en lecture seule au serveur distant.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Envoyer Ctrl+Alt+Suppr
-		</td>
-		<td>
-Envoie la combinaison de touches <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Suppr</kbd> à l'hôte.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Icônes
-		</td>
-		<td>
-Sur le serveur Windows 8 ou Windows 2012, affiche la barre des icônes (Rechercher, Partager, Démarrer, Périphériques et Barre des paramètres).
-		</td>
-	</tr>
-	<tr>
-		<td>
-Barre App
-		</td>
-		<td>
-Sur le serveur Windows 8 ou Windows 2012, affiche la barre d'applications pour afficher la navigation, les commandes et les outils.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Aligner
-		</td>
-		<td>
-Sur le serveur Windows 8 ou Windows 2012, vous permet d'exécuter deux applications côte à côte.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Écran de démarrage
-		</td>
-		<td>
-Ouvre le menu de démarrage sur l'ordinateur hôte.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Modifier l'App
-		</td>
-		<td>
-Sur serveur Windows 8 ou Windows 2012, bascule d'une application à une autre.
-		</td>
-	</tr>
-</table>
+| Option    | Description                                                                                                      |
+|-----------|------------------------------------------------------------------------------------------------------------------|
+| Vue Uniquement           | Empêcher la session de recevoir une entrée du clavier ou de la souris. Utilisez-le pour un accès en lecture seule au serveur distant. |
+| Envoyer Ctrl+Alt+Suppr | Envoyer la combinaison de touches <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Suppr</kbd> à l'hôte.                       |
+| Charms              | Afficher la barre des Charms (Recherche, Partage, Démarrer, Appareils et Paramètres).                                     |
+| Barre d'application             | Afficher la barre d'application pour montrer la navigation, les commandes et les outils.                                                  |
+| Snap                | Exécuter deux applications côte à côte.                                                                            |
+| Écran de démarrage        | Ouvrir le menu Démarrer sur l'ordinateur hôte.                                                                     |
+| Changement d'application          | Passer d'une application à une autre.                                                                       |

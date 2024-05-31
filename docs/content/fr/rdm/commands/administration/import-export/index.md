@@ -1,4 +1,4 @@
 ---
 eleventyComputed:
-  title: Importer/Exporter
+  title: Import/Export
 ---

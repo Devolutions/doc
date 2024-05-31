@@ -1,29 +1,28 @@
 ---
 eleventyComputed:
-  title: Groupes d'utilisateurs
+  title: Gestion des groupes d'utilisateurs
 ---
-{% youtube 'UkZrfkzw5eI' %}
+{% youtube 'rYYkfgdeY5E' %}
 
-Les ***Groupes d'utilisateurs*** dans {{ fr.RDM }} sont principalement utilisés pour réduire le temps de gestion des utilisateurs. La gestion des autorisations accordées aux groupes d'utilisateurs est assez similaire aux notions correspondantes pour les utilisateurs, mais au lieu d'un seul utilisateur, elles s'appliquent à tous les utilisateurs auxquels vous avez attribué le groupe d'utilisateurs.
+Gérer plusieurs utilisateurs en même temps en les regroupant avec les Groupes d'Utilisateurs dans {{ fr.RDM }}. La gestion des permissions accordées aux groupes d'utilisateurs est assez similaire aux notions correspondantes pour les utilisateurs, mais au lieu d'un seul utilisateur, elles s'appliquent à tous les utilisateurs auxquels vous avez assigné les groupes d'utilisateurs.
 
 {% snippet, "badgeInfo" %}
-Cette fonctionnalité est uniquement disponible avec une source de données avancées.
+Cette fonctionnalité est uniquement disponible avec une Source de Données Avancée.
 {% endsnippet %}
 
-### Groupes d'utilisateurs dans {{ fr.DVLS }}
+### Groupes d'Utilisateurs dans {{ fr.DVLS }}
 
-Les groupes d'utilisateurs dans {{ fr.DVLS }} sont en fait des liens vers des groupes Active Directory. En tirant parti de l'intégration d'Active Directory, vous pouvez facilement définir des droits d'accès pour tous les utilisateurs de domaine de votre organisation. Une fois qu'un utilisateur du domaine se connecte à la source de données {{ fr.DVLS }}, son compte d'utilisateur est créé si nécessaire et les droits des utilisateurs sont contrôlés par les groupes définis.
+Les Groupes d'Utilisateurs dans {{ fr.DVLS }} sont en fait des liens vers des groupes Active Directory. En tirant parti de l'intégration d'Active Directory, vous pouvez facilement définir les droits d'accès pour tous les utilisateurs du domaine de votre organisation. Une fois qu'un utilisateur du domaine se connecte à la source de données {{ fr.DVLS }}, son compte utilisateur sera créé si nécessaire et les droits des utilisateurs seront contrôlés par les groupes définis.
 
 {% snippet, "shieldWarning" %}
-Veuillez noter que les autorisations de groupe non sécurisées (celles situées au-dessus de la grille) sont ignorées. Vous devez les définir individuellement pour chaque utilisateur.
+Veuillez noter que les permissions de groupe non sécurisées (celles au-dessus de la grille) sont ignorées. Vous devez les définir pour chaque utilisateur individuellement.
 {% endsnippet %}
 
-Pour plus d'informations, consultez [Gestion des groupes d'utilisateurs](/fr/server/web-interface/administration/security-management/user-groups/).
+Pour plus d'informations, veuillez consulter [Gestion des Groupes d'Utilisateurs {{ fr.DVLS }}](/server/web-interface/administration/security-management/user-groups/).
 
-## Créer des groupes d'utilisateurs
+## Créer des Groupes d'Utilisateurs
 
-Les ***Groupes d'utilisateur*** dans {{ fr.RDM }} sont des ensembles d'autorisations que vous attribuez à un utilisateur. Vous pouvez attribuer plusieurs groupes d'utilisateurs à chaque utilisateur et le résultat final est l'union de toutes les autorisations.
+Les Groupes d'Utilisateurs dans {{ fr.RDM }} sont principalement utilisés pour regrouper des utilisateurs. Vous pouvez assigner plusieurs groupes d'utilisateurs à chaque utilisateur. Le résultat final est l'union de toutes les permissions données aux groupes d'utilisateurs.
 
-Pour créer un nouveau groupe d'utilisateurs aller dans ***Administration - Groupes d'utilisateurs*** et cliquer sur le signe plus ***Ajouter un groupe d'utilisateurs***. Dans le même menu, vous pouvez également modifier, affecter des utilisateurs, supprimer ou actualiser.
-![Gestion des usagers et de la sécurité - Groupes d'utilisateurs - Ajouter un groupe d'utilisateurs](https://cdnweb.devolutions.net/docs/fr/rdm/windows/clip11310.png)
-
+Pour créer des groupes d'utilisateurs, dans la fenêtre ***Gestion des Utilisateurs et de la Sécurité***, cliquez sur le bouton ***Ajouter un Groupe d'Utilisateurs*** dans la section ***Groupes d'Utilisateurs***. Depuis le même menu, vous pouvez également modifier, assigner des utilisateurs, supprimer ou actualiser.
+![Groupes d'Utilisateurs - Ajouter un Groupe d'Utilisateurs](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip11310.png)

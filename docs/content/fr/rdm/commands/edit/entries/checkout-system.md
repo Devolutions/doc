@@ -1,138 +1,55 @@
 ---
 eleventyComputed:
-  title: Mode réservation
+  title: Système de réservation
+  descrption: Le système de réservation verrouille une entrée pendant qu'elle est utilisée ou modifiée. Il empêche les utilisateurs d'utiliser ou d'éditer une entrée en même temps.
 ---
-Le ***Mode réservation*** verrouille une entrée pendant qu'elle est utilisée ou modifiée. Il empêche les utilisateurs d'utiliser ou de modifier une entrée en même temps.
+{% youtube '-QbEyscBx8s' %}
 
-Le ***Mode réservation*** peut être activé pour des entrées de type ***Sessions***, ***Documents***, ***Identifiants*** et d'***Informations***.
+Le ***système de réservation*** verrouille une entrée pendant qu'elle est utilisée ou modifiée. Il empêche les utilisateurs d'utiliser ou d'éditer une entrée en même temps.
 
-Vous pouvez définir le ***Mode réservation*** au niveau du {{ fr.VLT }}, du dossier ou de l'entrée.
+Le système de réservation peut être activé pour les entrées ***Sessions***, ***Documents***, ***Identifiants***, et ***Informations***.
+
+Définir le mode de réservation au niveau du {{ fr.VLT }}, du dossier ou de l'entrée.
 
 {% snippet, "badgeInfo" %}
-Cette fonctionnalité est seulement disponible avec une source de données telles que Microsoft SQL Server ou {{ fr.DVLS }}.
+Cette fonctionnalité est uniquement disponible lors de l'utilisation des sources de données [SQL Server](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/microsoft-sql-server/) ou [{{ fr.DVLS }}](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/server/).
 {% endsnippet %}
 
 {% snippet, "badgeInfo" %}
-Les administrateurs peuvent définir la ***Restitution automatique après*** un certain nombre de minutes dans ***Administration - Paramètres du système - {{ fr.VLT_MAJ }}***.
+Les administrateurs peuvent définir ***Retour automatique après*** un certain nombre de minutes dans ***Administration – Paramètres système – {{ fr.VLT_MAJ }}***.
 {% endsnippet %}
 
 {% snippet, "badgeInfo" %}
-Les administrateurs peuvent forcer la restitution des entrées qui sont réservées par d'autres utilisateurs. Cliquer avec le bouton droit sur l'entrée à restituer, cliquer sur ***Restitution***.
+Les administrateurs peuvent forcer le ***Retour*** des entrées qui sont ***Réservées*** par d'autres utilisateurs. Clic droit sur l'entrée réservée, cliquer sur ***Retour***.
 {% endsnippet %}
 
-### Les paramètres de sécurité
+### Paramètres de sécurité
 
-Pour accéder au ***Mode réservation***, modifier une entrée qui prend en charge la réservation et accéder à la section ***Paramètres de sécurité***.
-![!!RdmWin4052](https://cdnweb.devolutions.net/docs/fr/rdm/windows/RdmWin4052.png)
+Pour accéder aux paramètres de réservation, aller dans les ***Propriétés*** d'une entrée, d'un dossier ou du dossier racine. Naviguer vers la section ***Paramètres de sécurité***.
+![!!RDMWin2233](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin2233.png)
 
-### Réservation
+### Mode de réservation
 
-Le Mode réservation active ou désactive le système de réservation. Il décide également du fonctionnement du mode de réservation.
-![!!RdmWin4053](https://cdnweb.devolutions.net/docs/fr/rdm/windows/RdmWin4053.png)
+***Mode de réservation*** active ou désactive le système de réservation. Il décide également du fonctionnement du mode de réservation.
+![!!clip3519](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip3519.png)
 
-<table>
-	<tr>
-		<th>
-OPTION
-		</th>
-		<th>
-DESCRIPTION
-		</th>
-	</tr>
-	<tr>
-		<td>
-Racine
-		</td>
-		<td>
-Hérite du paramètre de mode de réservation du dossier racine.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Non disponible
-		</td>
-		<td>
-Désactive le système de réservation.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Automatique
-		</td>
-		<td>
-Réserve automatiquement une entrée lorsque l'entrée est ouverte et restitue automatiquement l'entrée lorsque l'entrée est fermée. L'utilisateur peut modifier les propriétés sans réserver l'entrée.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Manuel
-		</td>
-		<td>
-Les utilisateurs doivent réserver l'entrée manuellement avant d'ouvrir ou de modifier l'entrée. Aucune action ne peut être effectuée sans réservation de l'entrée.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Hérité
-		</td>
-		<td>
-Hérite du mode de réservation du dossier parent.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Optionnel
-		</td>
-		<td>
-Offre la possibilité de réserver une entrée manuellement ou d'utiliser (ouvrir et modifier) ​​l'entrée sans la réserver.
-		</td>
-	</tr>
-</table>
+| OPTION                      | DESCRIPTION                                                            |
+|-----------------------------|------------------------------------------------------------------------|
+| Racine          | Hérite du paramètre de mode de réservation du dossier racine.                             |
+| Non disponible | Désactive le système de réservation.                                                        |
+| Automatique     | Réserve une entrée automatiquement lorsque l'entrée est ouverte et retourne automatiquement l'entrée lorsqu'elle est fermée. Les utilisateurs peuvent modifier les propriétés sans réserver l'entrée.                                                                                |
+| Manuel        | Les utilisateurs doivent réserver l'entrée manuellement avant de l'ouvrir ou de la modifier. Aucune action ne peut être effectuée sans réserver l'entrée.                                                                                                 |
+| Hérité     | Hérite du mode de réservation du dossier parent.                                  |
+| Optionnel      | Offre l'option de réserver une entrée manuellement ou d'utiliser (ouvrir et modifier) l'entrée sans la réserver.                                                                                                   |
 
 ### Invite de réservation
 
-L'invite de réservation définit si un utilisateur doit saisir un commentaire lorsqu'il réserve l'entrée. Les administrateurs peuvent surveiller les commentaires via les journaux disponibles sur l'entrée ou les journaux d'activité.
-![!!RdmWin4054](https://cdnweb.devolutions.net/docs/fr/rdm/windows/RdmWin4054.png)
+***Invite de réservation*** définit si un utilisateur doit entrer un commentaire lorsqu'il réserve l'entrée. Les administrateurs peuvent surveiller les commentaires via les journaux disponibles sur l'entrée ou les ***Journaux d'activité***.
+![!!clip3522](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip3522.png)
 
-<table>
-	<tr>
-		<th>
-OPTION
-		</th>
-		<th>
-DESCRIPTION
-		</th>
-	</tr>
-	<tr>
-		<td>
-Racine
-		</td>
-		<td>
-Utilise le paramètre d'invitation de réservation à partir du dossier racine.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Oui
-		</td>
-		<td>
-Invite l'utilisateur à commenter lorsqu'il réserve une entrée.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Non
-		</td>
-		<td>
-Supprime l'invite de réservation.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Hérité
-		</td>
-		<td>
-Hérite le paramètre du dossier parent.
-		</td>
-	</tr>
-</table>
+| OPTION   | DESCRIPTION                                  |
+|----------|----------------------------------------------|
+| Racine     | Utilise le paramètre d'invite de réservation du dossier racine. |
+| Oui      | Invite l'utilisateur à commenter lorsqu'il réserve une entrée. |
+| Non       | Supprime l'invite à commenter.              |
+| Hérité | Hérite du paramètre d'un dossier parent.  |

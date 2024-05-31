@@ -1,7 +1,6 @@
 ---
 eleventyComputed:
-  title: Afficher les données brutes
+  title: Voir les données brutes
 ---
-Dans la section ***Afficher les données brutes***, passer en revue toutes les données brutes de l'entrée.
-![!!Hub4152](https://cdnweb.devolutions.net/docs/fr/hub/Hub4152.png)
-
+Dans la section ***Voir les Données Brutes***, passer en revue toutes les données brutes de l'entrée.
+![!!Hub4161](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub4161.png)

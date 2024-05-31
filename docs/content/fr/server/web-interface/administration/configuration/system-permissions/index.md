@@ -1,17 +1,15 @@
 ---
 eleventyComputed:
-  title: Permissions du système
+  title: Permissions système
   order: 30
-  status: Topic available in German language
+  status: Sujet disponible en langue allemande
 ---
-Les ***Permissions du système*** permettent d'accorder certaines permissions administratives aux utilisateurs standard sans en faire des administrateurs. Le paramètre par défaut hérite des permissions sur l'utilisateur ou le groupe d'utilsateur. Ceux-ci sont traités comme vous le feriez pour les permissions dans une entrée.
+Les ***Permissions système*** permettent d'octroyer certaines permissions administratives aux utilisateurs standards sans les rendre administrateurs. Le réglage ***Par défaut*** hérite des permissions définies sur l'utilisateur ou les groupes d'utilisateurs. Ces permissions sont gérées comme vous le feriez pour les permissions dans une entrée.
 
-![Administration – Permissions du système](https://cdnweb.devolutions.net/docs/fr/server/clip8052.png)
+## Permissions système
 
-## Permissions du système
-
-* [Entrées](/fr/server/web-interface/administration/configuration/system-permissions/entries/)
-* [Gestion](/fr/server/web-interface/administration/configuration/system-permissions/management/)
-* [Divers](/fr/server/web-interface/administration/configuration/system-permissions/miscellaneous/)
-* [Outils](/fr/server/web-interface/administration/configuration/system-permissions/tools/)
-* [Modules](/fr/server/web-interface/administration/configuration/system-permissions/modules/)
+* [Entrées](/server/web-interface/administration/configuration/system-permissions/entries/)
+* [Gestion](/server/web-interface/administration/configuration/system-permissions/management/)
+* [Divers](/server/web-interface/administration/configuration/system-permissions/miscellaneous/)
+* [Outils](/server/web-interface/administration/configuration/system-permissions/tools/)
+* [Modules](/server/web-interface/administration/configuration/system-permissions/modules/)

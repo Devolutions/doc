@@ -1,76 +1,78 @@
 ---
 eleventyComputed:
-  title: Actions
+  title: Action
 ---
-Vous pouvez créer une ***Liste d'exécution*** locale ou partagée dans {{ fr.RDM }}. Il existe plusieurs méthodes pour créer ou modifier une ***Liste d'exécution*** :
+Vous pouvez créer une liste de lecture Locale ou Partagée dans {{ fr.RDM }}. Il existe plusieurs méthodes pour créer ou éditer une Liste de lecture :
 
-* Créer en sélectionnant des entrées dans le ***{{ fr.NPANE }}***
-* Créer avec des sessions à onglets ouvertes
-* Créer sans sélection
-* Modifier une liste d'exécution existante
+* Créer une Liste de lecture en sélectionnant des entrées dans le ***{{ fr.NPANE }}***
+* Créer une Liste de lecture avec des Sessions à Onglets Ouvertes
+* Créer une Liste de lecture sans Sélection
+* Éditer une Liste de lecture existante
 
 ## Paramètres
 
-### Liste d'exécution locale
+### Liste de lecture Locale
 
-La liste d'exécution locale est enregistrée sur l'ordinateur local et n'est pas disponible pour les autres utilisateurs.
-![Gestionnaire de listes d'exécution - Local](https://cdnweb.devolutions.net/docs/fr/rdm/mac/clip4087.png)
+La Liste de lecture Locale est sauvegardée sur l'ordinateur local et n'est pas disponible pour les autres utilisateurs.
+![Gestion de la Liste de lecture – Liste de lecture Locale](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10360.png)
 
-### Liste d'exécution Partagée
+### Liste de lecture Partagée
 
-La ***Liste d'exécution partagée*** est enregistrée dans la base de données et peut être utilisée par tous les utilisateurs. La ***Liste d'exécution*** partagée peut être lancée à partir du ***{{ fr.NPANE }}*** ainsi que du menu ***Modifier - Liste d'exécution***.
-![Gestionnaire de listes d'exécution - Partagé](https://cdnweb.devolutions.net/docs/fr/rdm/mac/clip4088.png)
+La Liste de lecture Partagée est sauvegardée dans la base de données et peut être utilisée par tous les utilisateurs. La Liste de lecture Partagée peut être lancée depuis le ***{{ fr.NPANE }}*** ainsi que depuis le menu ***Affichage - Liste de lecture***.
 
-### Liste d'exécution {{ fr.UVLT }}
+![Gestion de la Liste de lecture – Liste de lecture Partagée](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10361.png)
 
-La ***Liste d'exécution*** du {{ fr.UVLT }} est enregistrée dans votre {{ fr.UVLT }} qui est un {{ fr.VLT }} centré sur l'utilisateur, il permet à chaque utilisateur de créer une ***Liste d'exécution*** à laquelle seuls eux peuvent accéder.
-![Gestionnaire de listes d'exécution - {{ fr.UVLT_MAJ }}](https://cdnweb.devolutions.net/docs/fr/rdm/mac/clip4089.png)
+### Liste de lecture {{ fr.UVLT_MAJ }}
+
+La Liste de lecture {{ fr.UVLT }} est sauvegardée à l'intérieur de votre {{ fr.UVLT }} qui est un dépôt centré sur l'utilisateur, cela permet à chaque utilisateur de créer une Liste de lecture à laquelle lui seul peut accéder.
+![Gestion de la Liste de lecture – Liste de lecture {{ fr.UVLT_MAJ }}](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10362.png)
 
 ## Actions
 
-### Créer une liste d'exécution en sélectionnant des entrées dans le ***{{ fr.NPANE }}***
+### Créer une Liste de lecture en sélectionnant des entrées dans le ***{{ fr.NPANE }}***.
 
-1. Sélectionner les entrées dans votre ***{{ fr.NPANE }}***.
-![{{ fr.NPANE }}](https://cdnweb.devolutions.net/docs/fr/rdm/mac/clip0269.png)
-1. Faire un clic droit dans le ***{{ fr.NPANE }}*** et sélectionner ***Liste d'exécution - Créer une liste d'exécution***.
-![Créer une liste d'exécution](https://cdnweb.devolutions.net/docs/fr/rdm/mac/clip4090.png)
-1. Choisir si vous souhaitez sauvegarder votre liste d'exécution localement, partagée ou dans votre {{ fr.UVLT }}.
-![Choisir la sauvegarde](https://cdnweb.devolutions.net/docs/fr/rdm/mac/clip4092.png)
-1. Cliquer ensuite sur ***Entrées sélectionnées dans le {{ fr.NPANE }}***.
-![Entrées sélectionnées dans le {{ fr.NPANE }}](https://cdnweb.devolutions.net/docs/fr/rdm/mac/clip0266.png)
-1. Vous remarquerez que toutes vos entrées présélectionnées dans le ***{{ fr.NPANE }}*** sont déjà sélectionnées dans l'éditeur de liste d'exécution. Nommer et écrire une description à votre liste d'exécution et cliquer sur ***OK***.
-![Éditeur de liste d'exécution](https://cdnweb.devolutions.net/docs/fr/rdm/mac/clip4093.png)
+1. Sélectionner les entrées pour votre Liste de lecture dans votre ***{{ fr.NPANE }}*** en utilisant <kbd>Cmd</kbd>+cliquer.
+![{{ fr.NPANE }}](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10111.png)
+1. Faire un clic droit dans votre ***{{ fr.NPANE }}*** et sélectionner ***Liste de lecture – Créer une Liste de lecture***.
+![Créer une Liste de lecture](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10363.png)
+1. Choisir si vous souhaitez sauvegarder votre Liste de lecture Localement, en Partagé ou dans votre {{ fr.UVLT }}.
+![Sauvegarder la Liste de lecture](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10364.png)
+1. Cliquer sur ***Entrées Sélectionnées*** dans le ***{{ fr.NPANE }}***.
+![Entrées Sélectionnées dans le ***{{ fr.NPANE }}***](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10108.png)
+1. Vous remarquerez que toutes vos entrées préalablement sélectionnées depuis votre ***{{ fr.NPANE }}*** sont déjà sélectionnées dans l'Éditeur de Liste de lecture. Fournir un nom et une courte description pour votre Liste de lecture et cliquer sur ***OK***.
+![Éditeur de Liste de lecture](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10365.png)
 
 {% snippet, "badgeInfo" %}
-Le temps d'attente est utilisé pour définir le délai entre l'ouverture des différentes entrées.
+Le temps d'attente est utilisé pour définir le délai entre l'ouverture de différentes entrées.
 {% endsnippet %}
 
-Vous pouvez également créer une nouvelle liste d'exécution en utilisant ***Modifier - Liste d'exécution***, puis en cliquant sur le signe plus.
-![Créer une nouvelle liste d'exécution](https://cdnweb.devolutions.net/docs/fr/rdm/mac/clip4095.png)
+Vous pourriez également créer une nouvelle Liste de lecture en utilisant Affichage - Liste de lecture puis en cliquant sur le plus pour créer une Nouvelle Liste de lecture.
+![Créer une Nouvelle Liste de lecture](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10366.png)
 
-### Créer une liste d'exécution avec des sessions à onglets ouvertes
+### Créer une Liste de lecture avec des Sessions à Onglets Ouvertes
 
-1. Ouvrir toutes les sessions que vous souhaitez ajouter à votre nouvelle liste d'exécution en mode intégré.
-1. Faire un clic droit dans le ***{{ fr.NPANE }}*** et sélectionner ***Liste d'exécution - Créer à partir de sessions ouvertes***.
-1. Choisir si vous souhaitez sauvegarder votre liste d'exécution localement, partagée ou dans votre {{ fr.UVLT }}.
-![Choisir la sauvegarde](https://cdnweb.devolutions.net/docs/fr/rdm/mac/clip4092.png)
-1. Vous remarquerez que toutes vos sessions ouvertes dans le ***{{ fr.NPANE }}*** sont déjà sélectionnées dans l'éditeur de liste d'exécution. Nommer et écrire une description à votre liste d'exécution et cliquer sur ***OK***.
-![Éditeur de liste d'exécution](https://cdnweb.devolutions.net/docs/fr/rdm/mac/clip4093.png)
+1. Ouvrir toutes les sessions que vous souhaitez ajouter à votre nouvelle Liste de lecture en mode Intégré.
+1. Faire un clic droit dans votre ***{{ fr.NPANE }}*** et sélectionner Liste de lecture – Créer à partir des Sessions Ouvertes.
+![Liste de lecture – Créer à partir des Sessions Ouvertes](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10367.png)
+1. Sélectionner si vous souhaitez sauvegarder votre Liste de lecture Localement, en Partagé ou dans votre {{ fr.UVLT }}.
+![Sauvegarder la Liste de lecture](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10364.png)
+1. Vous remarquerez que vos sessions ouvertes sont déjà préalablement sélectionnées dans votre Éditeur de Liste de lecture. Fournir un nom et une courte description à votre Liste de lecture et cliquer sur ***OK***.
+![Éditeur de Liste de lecture](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10368.png)
 
-### Créer une liste d'exécution sans sélection
+### Créer une Liste de lecture sans Sélection
 
-1. Cliquer ***Modifier - Liste d'exécution - Créer une liste d'exécution***.
-1. Choisir si vous souhaitez sauvegarder votre liste d'exécution localement, partagée ou dans votre {{ fr.UVLT }}.
-![Choisir la sauvegarde](https://cdnweb.devolutions.net/docs/fr/rdm/mac/clip4092.png)
-1. Cliquer ensuite sur ***Aucune sélection***.
-![Aucune sélection](https://cdnweb.devolutions.net/docs/fr/rdm/mac/clip0073.png)
-1. Choisir les entrées que vous souhaitez ajouter é votre lise d'exécution en cochant la case à côté du nom de l'entrée. Nommer et écrire une description à votre liste d'exécution et cliquer sur OK.
-![Éditeur de liste d'exécution](https://cdnweb.devolutions.net/docs/fr/rdm/mac/clip0074.png)
+1. Faire un clic droit dans votre ***{{ fr.NPANE }}*** et sélectionner ***Liste de lecture – Créer une Liste de lecture***.
+![Créer une Liste de lecture](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10363.png)
+1. Choisir si vous souhaitez sauvegarder votre Liste de lecture Localement, en Partagé ou dans votre {{ fr.UVLT }}.
+![Sauvegarder la Liste de lecture](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10364.png)
+1. Dans ***Entrée – Liste de lecture – Créer une Liste de lecture***, sélectionner l'option Sans Sélection.
+![Sans Sélection](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10024.png)
+1. Sélectionner les entrées que vous souhaitez ajouter à votre Liste de lecture en cochant la case à côté du nom de l'entrée. Fournir un nom et une courte description à votre Liste de lecture et cliquer sur OK.
+![Éditeur de Liste de lecture](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10025.png)
 
-### Modifier une liste d'exécution existante
+### Éditer une Liste de lecture existante
 
-1. Vous pouvez modifier une liste d'exécution dans ***Modifier - Liste d'exécution***.
-![Ruban Modifier - Liste d'exécution](https://cdnweb.devolutions.net/docs/fr/rdm/mac/clip4086.png)
-1. Sélectionner la liste d'exécution que vous souhaitez modifier, puis cliquer sur la molette pour modifier l'entrée.
-![Gestionnaire de listes d'exécution - Modifier](https://cdnweb.devolutions.net/docs/fr/rdm/mac/clip0272.png)
-
+1. Vous pouvez éditer une Liste de lecture dans ***Affichage – Liste de lecture***.
+![Affichage – Liste de lecture](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10369.png)
+1. Sélectionner la Liste de lecture que vous souhaitez modifier puis cliquer sur la roue pour éditer l'entrée.
+![Gestion de la Liste de lecture – Éditer](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10114.png)

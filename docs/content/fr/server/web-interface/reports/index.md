@@ -1,20 +1,24 @@
----
+```yaml
 eleventyComputed:
   title: Rapports
+  description: La plupart des rapports disponibles peuvent être personnalisés. Filtrer et trier les données, définir un intervalle de temps et même exporter les rapports dans un fichier .CSV.
   order: 40
----
-La section ***Rapports*** fournit aux administrateurs des outils pour effectuer des audits sur les  [***Connexions***](/fr/server/web-interface/reports/login/), les [***Entrées***](/fr/server/web-interface/reports/entries/), les [***Journaux***](/fr/server/web-interface/reports/logs/) et les [***Accès privilégiés***](/fr//server/web-interface/reports/modules/).
+```
+La section ***Rapports*** fournit aux administrateurs des outils pour réaliser des audits sur les [Connexions](/server/web-interface/reports/login/), les [Entrées](/server/web-interface/reports/entries/), les [Journaux](/server/web-interface/reports/logs/), les [Modules](/server/web-interface/reports/modules/), et la [Configuration](/server/web-interface/reports/configuration/).
 
-![Rapports](https://cdnweb.devolutions.net/docs/fr/server/ServerOp8027.png)
+{% snippet, "badgeInfo" %}
+Les rapports basés sur le Web de [{{ fr.DVLS }}](/server/overview/what-is-server/) et [{{ fr.DHUB }}](/hub/overview/what-is-hub/) sont disponibles dans {{ fr.RDM }}.
+{% endsnippet %}
 
-### Personnalisation du rapport
+![Rapports](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp6084.png)
 
-La plupart des rapports disponibles peuvent être personnalisés. Il est possible de filtrer et trier les données, de définir un interval de temps ou même d'exporter les rapports dans un fichier CSV.
+### Personnalisation des rapports
+La plupart des rapports disponibles peuvent être personnalisés. Filtrer et trier les données, définir un intervalle de temps et même exporter les rapports dans un fichier .CSV.
 
-Affiner votre recherche à l'aide des filtres et cliquer sur le bouton de tri pour trier les colonnes.
+Affiner votre recherche avec les boîtes de filtres et cliquer sur le bouton de tri pour trier les colonnes.
 
-![Filtrage et tri des rapports](https://cdnweb.devolutions.net/docs/fr/server/ServerOp8028.png)
+![Filtrage et Tri des Rapports](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp8028.png)
 
-Sélectionner un intervalle de temps prédéfini ou créer une ligne de temps personnalisée sur laquelle le rapport sera basé.
+Sélectionner un intervalle de temps prédéfini ou créer une chronologie personnalisée sur laquelle le rapport sera basé.
 
-![Bouton d'intervalle de temps](https://cdnweb.devolutions.net/docs/fr/server/clip10367.png)
+![Bouton d'intervalle de temps](https://cdnweb.devolutions.net/docs/docs_en_server_clip10367.png)

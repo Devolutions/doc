@@ -1,29 +1,29 @@
 ---
 eleventyComputed:
-  title: Créer et gérer des Groupes d'utilisateurs
+  title: Créer et gérer des groupes d'utilisateurs
 ---
-La gestion des utilisateurs et des permissions peuvent être simplifiées avec les ***Groupes d'utilisateurs*** dans {{ fr.DHUBB }}.
+La gestion des utilisateurs et des permissions peut être facilitée avec les ***Groupes d'Utilisateurs*** dans {{ fr.DHUBB }}.
 
-* [Créer des Groupes d'utilisateurs](#créer-des-groupes-dutilisateurs)
-* [Gérer les Groupes d'utilisateurs](#gérer-les-groupes-dutilisateurs)
+* [Créer des Groupes d'Utilisateurs](#creer-des-groupes-d-utilisateurscreer-des-groupes-d-utilisateurs)
+* [Gérer des Groupes d'Utilisateurs](#gerer-des-groupes-d-utilisateurs)
 
-### Créer des groupes d'utilisateurs
+### Créer des groupes d'Utilisateurs
 
-1. Aller dans ***Administration - Groupes d'utilisateurs***.
+1. Aller à ***Administration – Groupes d'Utilisateurs***.
 1. Cliquer ***Ajouter***.
-![!!Hub4158](https://cdnweb.devolutions.net/docs/fr/hub/Hub4158.png)
-1. Nommer le ***Groupe d'utilisateurs***.
+![!!Hub4172](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub4172.png)
+***Nommer*** votre ***Groupe d'Utilisateurs***.
 1. Sélectionner les ***Utilisateurs***.
-![!!Hub4159](https://cdnweb.devolutions.net/docs/fr/hub/Hub4159.png)
+![!!Hub4173](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub4173.png)
 1. Cliquer ***Ajouter***.
 
-### Gérer les groupes d'utilisateurs
+### Gérer des Groupes d'Utilisateurs
 
-La gestion et l'ajout d'utilisateurs aux ***Groupes d'utilisateurs*** dans {{ fr.DHUBB }} peuvent être effectués de plusieurs manières :
+La gestion et l'ajout d'utilisateurs aux ***Groupes d'Utilisateurs*** dans {{ fr.DHUBB }} peuvent être réalisés de plusieurs manières :
 {% snippet, "badgeInfo" %}
-Pour gérer les ***Permissions*** des ***{{ fr.VLT }}s*** avec des ***Groupes d'utilisateurs***, consulter [Créer et gérer des {{ fr.VLT }}s](/fr/hub/web-interface/hub-overview/administration/management/vaults/create-manage-vaults/).
+Pour gérer les ***Permissions des {{ fr.VLT }}s*** avec les ***Groupes d'Utilisateurs***, consulter [Créer et gérer des {{ fr.VLT }}s](/hub/web-interface/administration/management/vaults/create-manage-vaults/).
 {% endsnippet %}
 
-* Dans ***Administration - Groupes d'utilisateurs***, sélectionner le ***Groupe d'utilisateurs*** et cliquer sur le bouton ***Modifier***.
-* Dans ***Administration - Utilisateurs***, sélectionner l'***Utilisateur*** et cliquer sur le bouton ***Modifier***. Dans l'onglet ***Groupes d'utilisateurs***, gérer les groupes.
-* Dans le processus d'invitation, sélectionner les ***Groupes d'utilisateurs*** pour le nouvel utilisateur.
+* Dans ***Administration – Groupes d'Utilisateurs***, sélectionner les ***Groupes d'Utilisateurs*** et cliquer sur le bouton ***Modifier***.
+* Dans ***Administration – Utilisateurs***, sélectionner l'***Utilisateur*** et cliquer sur le bouton ***Modifier***. Dans l'onglet ***Groupes d'Utilisateurs***, gérer les groupes.
+* Lors du processus d'invitation, sélectionner les ***Groupes d'Utilisateurs*** pour le nouvel utilisateur.

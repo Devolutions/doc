@@ -1,21 +1,21 @@
 ---
 eleventyComputed:
-  title: Soutien technique
+  title: Support technique
 ---
-Heures : lundi au vendredi de 7 h 30 à 18 h HAE
+Heures : Lundi au Vendredi de 7h30 à 18h00 HAE
 
-Langue : English-Français-Deutsch
+Langue : Anglais-Français-Deutsch
 
-Courriel : [service@devolutions.net](mailto:service@devolutions.net)
+Email : [service@devolutions.net](mailto:service@devolutions.net)
 
-Forum :[https://forum.devolutions.net/](https://forum.devolutions.net/)
+Forum : [https://forum.devolutions.net/](https://forum.devolutions.net/)
 
 Téléphone : +1 844 463.0419
 
-## Plans de soutien Prioritaire et Premium
+## Plans de support Étendu et Premium
 
-Les abonnés d’un plan de soutien payant reçoivent une adresse courriel et un numéro d’identification de plan (plan ID). Vous devrez envoyer vos requêtes d’assistance à l’adresse courriel appropriée et inscrire votre numéro d’identification (plan ID) dans l’objet du courriel.
+Les abonnés à un plan de support payant reçoivent une adresse email et un ID de plan. Vous devez envoyer vos demandes de support à l'adresse email appropriée et fournir votre ID de plan dans la ligne d'objet.
 
-Consulter notre [Politique de soutien](https://devolutions.net/legal/software-license-agreements) pour plus d’informations.
+Veuillez consulter notre [Politique de Support](https://devolutions.net/legal/software-license-agreements) pour plus d'informations.
 
-![!!Support4001](https://cdnweb.devolutions.net/docs/fr/cloud/Support4001.png)
+![!!Support4001](https://cdnweb.devolutions.net/docs/docs_en_cloud_Support4001.png)

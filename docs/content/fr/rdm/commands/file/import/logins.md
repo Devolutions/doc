@@ -1,18 +1,19 @@
 ---
 eleventyComputed:
-  title: Importer des connexions
+  title: Importer des identifiants
+  description: Importer des identifiants depuis une source externe dans votre {{ fr.RDM }} {{ fr.UVLT }} via Fichier – Importer – Identifiant ou en cliquant avec le bouton droit dans le {{ fr.NPANE }} et en sélectionnant Importer – Importer des identifiants depuis.
 ---
-Vous pouvez accéder à ***Fichier – Importer – Connexions*** pour importer différentes connexions ou identifiants d'autres logiciels dans {{ fr.RDM }}.
+{% youtube 'FtSlp_TVAxE?si=O85mqPUZRZGAyTui&amp;start=521' %}
+Importer des identifiants depuis une source externe dans votre {{ fr.RDM }} {{ fr.UVLT }} via ***Fichier – Importer – Identifiant*** ou en cliquant avec le bouton droit dans le {{ fr.NPANE }} et en sélectionnant ***Importer – Importer des identifiants depuis***.
 
 {% snippet, "badgeInfo" %}
-La fonction d'importation n'est active que si le ***Privilège*** d'importation a été activé dans le compte d'utilisateur.
+La fonction d'importation est uniquement active si le ***Privilège*** d'importation a été activé dans le compte utilisateur.
 {% endsnippet %}
 
-Vous pouvez importer les identifiants à partir d'un large éventail de formats exportés par diverses solutions de gestion des mots de passe. Le contenu d'exportation ne doit pas être chiffré afin d'analyser le contenu.
+Importer les informations d'identification depuis un large éventail de formats exportés par diverses solutions de gestion de mots de passe. Le contenu exporté ne doit pas être chiffré pour pouvoir analyser le contenu.
 
 {% snippet, "badgeInfo" %}
-Toutes les entrées seront importées dans le dossier actuel.
+Toutes les entrées seront importées dans le dossier courant.
 {% endsnippet %}
 
-![Fichier – Importer – Connexions](https://cdnweb.devolutions.net/docs/fr/rdm/windows/clip10745.png)
-
+![Fichier – Importer – Identifiants](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip10745.png)

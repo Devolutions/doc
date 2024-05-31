@@ -1,39 +1,16 @@
 ---
 eleventyComputed:
-  title: Information sur le domaine
+  title: Informations sur le domaine
 ---
-Permet d'afficher l'information sur le groupe d'utilisateurs de type domaine.
-![Groupe d'utilisateurs - Information sur le domaine](https://cdnweb.devolutions.net/docs/fr/server/ServerOp8043.png)
+Fournir les informations sur le domaine du groupe d'utilisateurs.
+![!!ServerOp8013](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp8013.png)
 
-<table>
-	<tr>
-		<th>
-Option
-		</th>
-		<th>
-Description
-		</th>
-	</tr>
-	<tr>
-		<td>
-Domaine
-		</td>
-		<td>
-Nom de domaine du groupe d'utilisateurs.
-		</td>
-	</tr>
-	<tr>
-		<td>
-SID
-		</td>
-		<td>
-Identifiant de sécurité du groupe d'utilisateurs du domaine.
-		</td>
-	</tr>
-</table>
+## Informations sur le domaine
+| Option | Description                                      |
+|--------|--------------------------------------------------|
+| Domain | Nom de domaine du groupe d'utilisateurs.        |
+| SID    | Identificateur de sécurité du domaine du groupe d'utilisateurs. |
 
-### Chercher sur le domaine
-
-Affiche l'information détaillée du groupe d'utilisateurs de type domaine.
-![!!ServerOp8052](https://cdnweb.devolutions.net/docs/fr/server/ServerOp8052.png)
-
+### Trouver sur le domaine
+Afficher les informations détaillées sur le domaine du groupe d'utilisateurs.
+![Informations sur le domaine du groupe d'utilisateurs](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp8017.png)

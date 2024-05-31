@@ -1,61 +1,18 @@
 ---
 eleventyComputed:
-  title: Avancée
+  title: Avancé
   order: 20
 ---
-La section ***Avancée*** permet à l'administrateur de configurer le paramètre de la durée de vie du jeton ainsi que d'autres paramètres avancés ou la ***Personnalisations des Logos***.
-![Administration – Paramètres de {{ fr.DVLS }} – Avancée](https://cdnweb.devolutions.net/docs/fr/server/ServerOp8044.png)
+La section ***Avancé*** permet à l'administrateur de configurer le paramètre ***Durée de vie du jeton d'actualisation*** et certains autres paramètres spécifiques comme le [Labelling](/server/web-interface/administration/configuration/server-settings/general/advanced/white-labeling-customizations/).
+![Administration – Paramètres {{ fr.DVLS }} – Avancé](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp8044.png)
 
 ## Paramètres
 
-<table>
-	<tr>
-		<th>
-
-Option
-		</th>
-		<th>
-Description
-		</th>
-	</tr>
-	<tr>
-		<td>
-Actualiser la durée du jeton (minutes)
-		</td>
-		<td>
-C'est la durée du jeton. À l'expiration du jeton, l'utilisateur doit à nouveau s'authentifier sur l'instance {{ fr.DVLS }}. Sur modification de ce paramètre, l'instance {{ fr.DVLS }} doit être redémarrée avec le bouton ***Arrêter le serveur/Démarrer le serveur*** depuis la {{ fr.DVLSCONSOLE }}.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Déconnecter automatiquement les utilisateurs inactifs après (minutes)
-		</td>
-		<td>
-Saisir le délai de déconnexion de l'utilisateur du serveur s'il est inactif. Ce paramètre s'applique qu'aux sessions Web ou sessions depuis le [{{ fr.WBEX }}](/fr/server/workspace-browser-extension/overview/). Sur modification de ce paramètre, l'instance {{ fr.DVLS }} doit être redémarrée avec le bouton ***Arrêter le serveur/Démarrer le serveur*** depuis la {{ fr.DVLSCONSOLE }}.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Type de licence
-		</td>
-		<td>
-Sélectionner le type de licence. La valeur par défaut est la ***Gestion des connexions***.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Lancer une connexion avec
-		</td>
-		<td>
-Définit l'application qui ouvre les connexions à distance : {{ fr.RDM }} ou {{ fr.DLAUNCHER }}. La valeur par défaut fait référence à {{ fr.DLAUNCHER }}.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Logo du serveur (Grand)/Logo du serveur (Petit)
-		</td>
-		<td>
-Pour plus d'information voir [Personnalisations des Logos](/fr/server/web-interface/administration/configuration/server-settings/general/advanced/white-labeling-customizations/).
-		</td>
-	</tr>
-</table>
+### Fonctionnalités
+| Catégorie                                        | Description                                                |
+|-------------------------------------------------|------------------------------------------------------------|
+| Durée de vie du jeton d'actualisation (minutes)                | C'est la durée de vie du jeton. À l'expiration du jeton, l'utilisateur doit à nouveau s'authentifier sur l'instance {{ fr.DVLS }}. Lors de la mise à jour, le {{ fr.DVLS }} doit être redémarré en utilisant le bouton Arrêter le serveur/Démarrer le serveur sur le {{ fr.DVLSCONSOLE }}. |
+| Déconnexion automatique des utilisateurs inactifs après (minutes) | Entrer le délai pour que l'utilisateur soit déconnecté du serveur s'il est inactif. Cette valeur doit être inférieure au paramètre Durée de vie du jeton d'actualisation. Ce paramètre est appliqué sur l'interface web ou avec le [{{ fr.WBEX }}](/workspace/workspace-browser-extension/) Il n'a aucun effet sur {{ fr.RDM }}. Lors de la mise à jour, le {{ fr.DVLS }} doit être redémarré en utilisant le bouton Arrêter le serveur/Démarrer le serveur sur le {{ fr.DVLSCONSOLE }}. |
+| Type de licence utilisateur                               | Sélectionner le type de licence. Par défaut, il s'agit de la gestion de connexion. |
+| Lancer la connexion avec                          | Définit l'application qui ouvre les connexions à distance : {{ fr.RDM }} ou {{ fr.DLAUNCHER }}. Par défaut, il s'agit de {{ fr.DLAUNCHER }}. |
+| Logo du serveur Grand / Logo du serveur Petit           | Voir la page [Personnalisations de Marque Blanche](/server/web-interface/administration/configuration/server-settings/general/advanced/white-labeling-customizations/) pour plus d'informations. |

@@ -1,10 +1,10 @@
 ---
 eleventyComputed:
-  title: Options
+  title: Paramètres
 ---
-{% youtube 'WwkN_yxYwno' %}
+{% youtube '_U04qW_Q1r4' %}
 
-Plusieurs options sont disponibles pour gérer et personnaliser votre {{ fr.RDM }} dans le menu ***Fichier - Options***. La plupart de ces options sont liées aux modifications apportées à l'instance locale.
+Il existe plusieurs paramètres disponibles pour gérer et personnaliser votre {{ fr.RDM }} dans le menu ***Fichier – Paramètres***. La plupart de ces paramètres sont liés à des modifications de l'instance locale.
 
-Utiliser la barre ***Options de recherche*** pour rechercher une option spécifique.
-![Fichier - Options](https://cdnweb.devolutions.net/docs/fr/rdm/windows/clip11282.png)
+Utiliser le champ ***Rechercher une propriété*** en bas de la fenêtre pour trouver un paramètre spécifique.
+![Fichier – Paramètres](https://cdnweb.devolutions.net/docs/RDMW4005_2024_1.png)

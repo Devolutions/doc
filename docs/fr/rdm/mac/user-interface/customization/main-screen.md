@@ -2,12 +2,12 @@
 eleventyComputed:
   title: Écran principal
 ---
-Vous trouverez ci-dessous une illustration de l'écran principal de {{ fr.RDM }}.
-![Écran principal](https://cdnweb.devolutions.net/docs/fr/rdm/mac/clip4001.png)
+Ci-dessous se trouve une illustration de l'écran principal de {{ fr.RDMMAC }}.
+![Écran Principal](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10291.png)
 
-Reportez-vous aux rubriques suivantes pour plus de détails :
+Se référer aux sujets suivants pour des détails supplémentaires :
 
-* [Accès rapide](/fr/rdm/mac/user-interface/quick-access/)
-* [***{{ fr.NPANE }}***](/fr/rdm/mac/user-interface/navigation-pane/)
-* [Zone de contenu](/fr/rdm/mac/user-interface/content-area/)
-* [Bas de page](/fr/rdm/mac/user-interface/footer/)
+* [Accès Rapide](/rdm/mac/user-interface/quick-access/)
+* [{{ fr.NPANE }}](/rdm/mac/user-interface/navigation-pane/)
+* [Zone de Contenu](/rdm/mac/user-interface/content-area/)
+* [Pied de page](/rdm/mac/user-interface/footer/)

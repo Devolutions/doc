@@ -2,13 +2,13 @@
 eleventyComputed:
   title: "{{ fr.VLT_MAJ }}s"
 ---
-Les ***{{ fr.VLT }}s*** sont des emplacements pour vos entrées, vos informations d'identification, vos informations sensibles, vos sessions, et même plus.
-![{{ fr.VLT_MAJ }}s](https://cdnweb.devolutions.net/docs/fr/rdm/windows/RdmWin2003.png)
+***{{ fr.VLT_MAJ }}*** sont des conteneurs pour vos entrées, vos identifiants, informations sensibles, sessions, et plus encore.
+![{{ fr.VLT_MAJ }}s](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin2014.png)
 
 Vous commencerez avec deux {{ fr.VLT }}s :
 
-* Un ***{{ fr.VLT }}*** par défaut principal créé pour le partage des entrées aux membres de l'équipe à qui vous accordez l'accès. Vous pouvez ajouter et partager d'autres {{ fr.VLT }}s dans ***Administration – {{ fr.VLT_MAJ }}s***.
-* Un ***{{ fr.UVLT }}*** qui est centré sur l'utilisateur et utilisé pour stocker des informations telles que des informations d'identification de compte personnel. Le ***{{ fr.UVLT }}*** empêche les utilisateurs de se servir d'un outil non sécurisé pour gérer leurs mots de passe personnels au travail. Le ***{{ fr.UVLT }}*** peut être désactivé dans ***Administration – Paramètres du système – {{ fr.UVLT_MAJ }}***.
+* Un principal ***{{ fr.VLT }}*** par défaut créé pour partager des entrées aux membres de l'équipe à qui vous accordez l'accès. Ajouter et partager plus de {{ fr.VLT }}s dans ***Administration – {{ fr.VLT_MAJ }}s***.
+* Un ***{{ fr.VLT_U }}***, qui est centré sur l'utilisateur et est utilisé pour stocker des informations telles que les identifiants de compte personnel. Le ***{{ fr.VLT_U }}*** empêche les utilisateurs d'utiliser un outil non sécurisé pour gérer leurs mots de passe personnels au travail. Le ***{{ fr.VLT_U }}*** peut être désactivé dans ***Administration – Paramètres Système – {{ fr.VLT_U_MAJ }}***.
 
-Les deux types de {{ fr.VLT }}s sont aussi accessibles à partir des onglets du ***{{ fr.NPANE }}***.
-![Onglets {{ fr.VLT_MAJ }}s dans le {{ fr.NPANE }}](https://cdnweb.devolutions.net/docs/fr/rdm/windows/RDMWin2050.png)
+Les deux types de {{ fr.VLT }} peuvent également être trouvés dans le menu ***{{ fr.VNAV }}***.
+![Onglets {{ fr.VLT }} {{ fr.VNAV }}](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin2051.png)

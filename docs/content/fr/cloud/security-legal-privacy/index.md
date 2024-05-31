@@ -1,5 +1,6 @@
 ---
 eleventyComputed:
-  title: Securité, légal & vie privée
+  title: Sécurité, Légal & Confidentialité
+  order: 80
 ---
-Le bouton ***Sécurité, Légal et Vie privée*** vous redirigera vers la page de notre [site Web](https://devolutions.net/fr/legal) où se trouvent toutes nos conditions de services en ligne, nos conventions de licence d'utilisation et notre documentation sur la vie privée.
+Le bouton ***Sécurité, Légal & Confidentialité*** redirigera vers notre [page web](https://devolutions.net/legal/privacy) où se trouvent tous nos termes des services en ligne, l'accord de licence logicielle et la documentation sur la confidentialité.

@@ -1,10 +1,9 @@
 ---
 eleventyComputed:
-  title: Avancée
+  title: Plus
 ---
-Dans l'onglet ***Avancée*** vous pouvez cocher de garder l'onglet ouvert de votre session même lorsque vous vous déconnectez.
+L'option de remplacement depuis l'onglet Plus vous permet de garder la page de l'onglet de votre session ouverte même en vous déconnectant.
 
 ## Paramètres
 
-![Paramètres spécifiques de l'usager - Avancée](https://cdnweb.devolutions.net/docs/fr/rdm/mac/clip4065.png)
-
+![Paramètres spécifiques à l'utilisateur - Onglet Plus](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10343.png)

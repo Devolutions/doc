@@ -1,86 +1,48 @@
 ---
 eleventyComputed:
-  title: Recherche multi-{{ fr.VLT }}s
+  title: Recherche Multi {{ fr.VLT }} 
+  description: La fonctionnalité de Recherche Multi {{ fr.VLT }} de {{ fr.RDMMAC }} permet de rechercher des dossiers et des entrées dans tous les {{ fr.VLT }}s de la source de données sélectionnée en une seule fois.
 ---
-![Bouton Recherche multi-{{ fr.VLT }}s](https://cdnweb.devolutions.net/docs/fr/rdm/mac/RDMMac0020.png)
+![Bouton de Recherche Multi {{ fr.VLT }}](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_RDMMac0025.png)
 
-La fonctionnalité ***Recherche multi-{{ fr.VLT }}s*** de {{ fr.RDMMAC }} permet de rechercher des dossiers et des entrées dans tous les {{ fr.VLT }}s de la source de données sélectionnée à la fois.
-![Recherche multi-{{ fr.VLT }}s](https://cdnweb.devolutions.net/docs/fr/rdm/mac/RDMMac0021.png)
+La fonctionnalité de ***Recherche Multi {{ fr.VLT }}*** de {{ fr.RDMMAC }} permet de rechercher des dossiers et des entrées dans tous les {{ fr.VLT }}s de la source de données sélectionnée en une seule fois.
+![Fenêtre de Recherche Multi {{ fr.VLT }}](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_RDMMac0028.png)
 
-### Types de critères
+### Types de Critères
 
-Les critères suivants sont disponibles afin d'affiner votre recherche : ***Type de connexion***, ***Date de création***, ***Dossier***, ***Date de la dernière mise à jour***, ***Nom*** et ***Logiciel***.
-
+Les critères suivants sont disponibles pour affiner votre recherche : ***Type de connexion***, ***Date de création***, ***Dossier***, ***Date de dernière mise à jour***, ***Nom*** et ***Logiciel***.
 {% snippet, "badgeInfo" %}
-Au moins un critère doit être utilisé pour filtrer vos résultats et un maximum de quatre critères peuvent être appliqués à une même recherche.
+Au moins un critère doit être utilisé pour filtrer vos résultats, et un maximum de quatre critères peuvent être appliqués à la fois.
 {% endsnippet %}
 
-![Critères de recherche](https://cdnweb.devolutions.net/docs/fr/rdm/mac/RDMMac0022.png)
+![Critères de Recherche Multi {{ fr.VLT }}](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_RDMMac0029.png)
 
 {% snippet, "badgeInfo" %}
-Avec une base de donnée ***Hub***, seulement le critère de recherche ***Nom*** peut être sélectionné.
+Dans les bases de données ***Hub***, seul le critère ***Nom*** est disponible.
 {% endsnippet %}
 
-Des listes déroulantes apparaissent lors de la sélection de certains critères pour vous donner plus d'options de recherche.
-![Listes déroulantes pour Recherche multi-{{ fr.VLT }}s](https://cdnweb.devolutions.net/docs/fr/rdm/mac/RDMMac0023.png)
+Des listes déroulantes apparaîtront lors de la sélection de certains critères pour vous donner plus d'options de recherche.
+![Liste déroulante de Recherche Multi {{ fr.VLT }}](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_RDMMac0030.png)
 
-Vous trouverez ci-dessous une description de l'utilité de chacun de ces types de listes déroulantes.
+Ci-dessous, une description de ce à quoi chaque type de ces listes déroulantes est utilisé.
 
-<table>
-	<tr>
-		<th>
-CRITÈRE
-		</th>
-		<th>
-DESCRIPTION DES LISTES DÉROULANTES
-		</th>
-	</tr>
-	<tr>
-		<td>
-Type de connexion
-		</td>
-		<td>
-Sélectionner dans la liste le type de connexion des entrées que vous recherchez.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Date de création
-Date de la dernière mise à jour
-		</td>
-		<td>
-Sélectionner dans la liste la période, jusqu'à 90 jours auparavant, à laquelle les entrées/dossiers ont été créés ou mis à jour pour la dernière fois. Il existe également une option personnalisée dans la liste qui vous permet de spécifier des dates pour délimiter votre période. Cela peut être utile si vous souhaitez effectuer une recherche entre des dates spécifiques ou si les entrées ou dossiers ont été créés / mis à jour pour la dernière fois il y a plus de 90 jours.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Logiciel
-Dossier
-Nom
-		</td>
-		<td>
+| CRITÈRES                         | DESCRIPTION DE LA LISTE DÉROULANTE |
+|----------------------------------|------------------------------------|
+| Type de connexion                | Sélectionner dans la liste le type de connexion des entrées que vous recherchez. |
+| Date de création<br>Date de dernière mise à jour| Sélectionner dans la liste la période de temps, jusqu'à 90 jours auparavant, lorsque les entrées/dossiers ont été créés ou dernièrement mis à jour. Il y a aussi une option personnalisée dans la liste qui vous permet de spécifier des dates pour délimiter votre période de temps. Cela peut être utile si vous souhaitez rechercher entre des dates spécifiques ou si les entrées ou dossiers ont été créés / dernièrement mis à jour il y a plus de 90 jours.                       |
+| Logiciel<br>Dossier<br>Nom       | Rechercher en tapant une partie ou la totalité d'un mot dans le nom des entrées ou des dossiers ou dans leur description. De la liste, sélectionner l'option qui s'applique :<ul><li>Contient – tout nom qui inclut les caractères que vous avez entrés, n'importe où dans le nom du champ.</li><li>Commence par – tout nom commençant par les caractères que vous avez entrés.</li><li>Se termine par – tout nom se terminant par les caractères que vous avez entrés.</li><li>Expression exacte – tout nom correspondant exactement à chaque caractère que vous avez entré.</li><li>Ne contient pas – tout nom qui n'inclut pas les caractères que vous avez entrés.</li><li>Expression régulière (regex) – toute séquence de caractères spécifiant un motif de recherche.</li></ul> |
 
-Rechercher en tapant une partie ou la totalité d'un mot contenu dans le nom des entrées ou des dossiers ou dans leur description. Dans la liste, sélectionner l'option qui s'applique :
 
-* ***Contient*** - tout nom qui comprend les caractères que vous avez saisis, n'importe où dans le nom du champ.
-* ***Commençant par*** - tout nom commençant par les caractères que vous avez saisis.
-* ***Finissant par*** - tout nom se terminant par les caractères que vous avez saisis.
-* ***Expression exacte*** - trouvera des noms qui correspondent à chaque caractère que vous avez entré, exactement comme ils ont été entrés.
-* ***Ne contient pas*** - tout nom qui ne comprend pas les caractères que vous avez saisis.
-* ***Expression régulière*** (regex) - toute séquence de caractères spécifiant un modèle de recherche.
-		</td>
-	</tr>
-</table>
+### Affichage des Résultats
 
-### Affichage des résultats
+Les résultats sont affichés lorsque le bouton ***Rechercher*** est pressé. Une fois fait, le nom de toutes les entrées et le {{ fr.VLT }} dans lequel elles se trouvent sont montrés dans le champ des résultats.
+![Bouton Rechercher](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_RDMMac0031.png)
 
-Les résultats s'affichent après avoir appuyé sur le bouton ***Recherche***. Une fois effectué, le nom des entrées et dossiers et le {{ fr.VLT }} dans lequel ils se trouvent sont affichés dans le champ des résultats.
-![Bouton Recherche](https://cdnweb.devolutions.net/docs/fr/rdm/mac/RDMMac0024.png)
+Il est possible de sélectionner plusieurs entrées à la fois en cliquant avec <kbd>Shift</kbd> ou toutes avec le raccourci <kbd>Cmd</kbd>+<kbd>A</kbd>. Un clic droit sur une ou plusieurs entrées affiche le même menu et les mêmes options que dans le ***{{ fr.NPANE }}***.
 
-Il est possible de sélectionner plusieurs entrées à la fois avec <kbd>Maj</kbd>+clic ou toutes les entrées avec le raccourci <kbd>Cmd</kbd>+<kbd>A</kbd>. Un clic droit sur une ou plusieurs entrées affiche le même menu et les mêmes options que le ***{{ fr.NPANE }}***.
+### Autres fonctions
 
-### Autres fonctionnalités
+Le bouton ***Sélectionner dans {{ fr.NPANE }}***, lorsqu'il est pressé, vous amène directement à l'entrée ou au dossier sélectionné dans le {{ fr.VLT }} correspondant du ***{{ fr.NPANE }}***.
 
-Le bouton ***Sélectionner dans le {{ fr.NPANE }}***, lorsqu'il est utilisé, vous renvoie directement à l'entrée ou au dossier sélectionné dans le ***{{ fr.NPANE }}*** du {{ fr.VLT }} sélectionné.
+Le bouton ***Réinitialiser*** efface tous vos résultats et options de recherche, vous donnant une page vierge pour une nouvelle recherche.
 
-Le bouton ***Réinitialiser*** efface les résultats et options de recherche, ce qui vous permet de repartir à zéro pour une nouvelle recherche.
