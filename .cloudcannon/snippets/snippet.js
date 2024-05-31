@@ -14,15 +14,6 @@ module.exports = {
           key: "content"
         }
       ],
-      icon: [
-        { template: `{"error"|if=snippet_type==badgeCaution}` },
-        { template: `{"help"|if=snippet_type==badgeHelp}` },
-        "text_snippet"
-      ],
-      icon_color: [
-        { template: `{"#f5af23"|if=snippet_type==badgeCaution}` },
-        { template: `{"#0068c3"|if=snippet_type==badgeHelp}` },
-      ],
       image: [
         {
           template: "/../.cloudcannon/previews/snippet/{snippet_type|slugify}.svg"
@@ -71,13 +62,13 @@ module.exports = {
             ],
             image: [
               {
-                template: "/.cloudcannon/previews/snippet/{key|slugify}.svg",
+                template: "/../.cloudcannon/previews/snippet/{key|slugify}.svg",
               },
               {
-                template: "/.cloudcannon/previews/snippet/{preview.imageKey|slugify}.svg",
+                template: "/../.cloudcannon/previews/snippet/{preview.imageKey|slugify}.svg",
               },
               {
-                template: "/.cloudcannon/previews/snippet/{imageKey|slugify}.svg",
+                template: "/../.cloudcannon/previews/snippet/{imageKey|slugify}.svg",
               },
               {
                 key: "preview.image",
