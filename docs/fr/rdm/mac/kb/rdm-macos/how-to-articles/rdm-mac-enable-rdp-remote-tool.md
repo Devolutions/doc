@@ -4,7 +4,7 @@ eleventyComputed:
 ---
 {% snippet, "badgeInfo" %}
 Devolutions Proxy est obsolète, cette fonction fonctionnera avec {{ fr.DVLS }}.
-{% ENDSNIPPET %}
+{% endsnippet %}
 
 Il est possible d'obtenir l'accès aux outils à distance tels que les services de terminal, l'événement à distance ou le service à distance par exemple dans une session RDP dans {{ fr.RDMMAC }}.
 

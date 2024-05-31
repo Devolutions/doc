@@ -1,7 +1,7 @@
 ---
 eleventyComputed:
   title: ID client ou secret invalide avec l'authentification unique Microsoft
-  description: Lors de la tentative de connexion à votre {{ fr.DHUBB }} en utilisant l'authentification unique Microsoft (SSO), vous pouvez rencontrer le message d'erreur suivant : "L'ID client ou le secret fourni par votre organisation est invalide, veuillez contacter un administrateur de votre organisation."
+  description: Lors de la tentative de connexion à votre {{ fr.DHUBB }} en utilisant l'authentification unique Microsoft (SSO), vous pouvez rencontrer le message d'erreur "L'ID client ou le secret fourni par votre organisation est invalide, veuillez contacter un administrateur de votre organisation."
 ---
 Lors de la tentative de connexion à votre {{ fr.DHUBB }} en utilisant l'authentification unique Microsoft (SSO), vous pouvez rencontrer le message d'erreur suivant : "L'ID client ou le secret fourni par votre organisation est invalide, veuillez contacter un administrateur de votre organisation."
 

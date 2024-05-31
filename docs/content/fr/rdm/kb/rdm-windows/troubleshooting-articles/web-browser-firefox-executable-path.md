@@ -5,7 +5,7 @@ eleventyComputed:
 Lancer Firefox en mode intégré demande un chemin exécutable dans {{ fr.RDM }}.
 {% snippet, "badgeCaution" %}
 Le navigateur Web Firefox est déprécié en mode intégré.
-{% ENDSNIPPET %}
+{% endsnippet %}
 
 ## Solution
 1. Pour contourner ce problème, télécharger le [paquet Firefox intégré](https://cdn.devolutions.net/download/Firefox/FirefoxRunner2021.1.0.zip)

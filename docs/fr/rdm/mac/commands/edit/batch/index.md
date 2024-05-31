@@ -63,7 +63,7 @@ Modifier les Sessions (Paramètres Généraux) permet de changer simultanément 
 ### Modifier les Sessions (Paramètres de Type de Session)
 {% snippet, "badgeInfo" %}
 Modifier les Sessions Paramètres de Type de Session est uniquement disponible pour des types de session spécifiques comme RDP.
-{% ENDSNIPPET %}
+{% endsnippet %}
 
 ![Modification par lot – Type de Session](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10347.png)
 

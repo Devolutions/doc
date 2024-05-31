@@ -6,11 +6,11 @@ eleventyComputed:
 La fonction ***Nettoyer les journaux d'activité*** supprimera les ***Journaux d'activité*** de votre source de données. Vous avez également la possibilité de nettoyer les ***journaux d'administration*** et de configurer une sauvegarde si souhaité.
 {% snippet, "badgeInfo" %}
 Cette fonctionnalité nécessite une [Source de Données Avancée](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/).
-{% ENDSNIPPET %}
+{% endsnippet %}
 
 {% snippet, "badgeInfo" %}
 Vous devez être administrateur de la source de données pour effectuer cette action.
-{% ENDSNIPPET %}
+{% endsnippet %}
 
 ## Paramètres
 1. Aller à l'onglet ***Administration*** dans le ruban.
@@ -21,7 +21,7 @@ Vous devez être administrateur de la source de données pour effectuer cette ac
 ![Nettoyer les journaux d'activité](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin0007.png)
    {% snippet, "shieldWarning" %}
    Une sauvegarde de votre journal sera créée sous forme de fichier XML bien qu'il sera ensuite impossible d'importer ce fichier dans {{ fr.RDM }}.
-   {% ENDSNIPPET %}
+   {% endsnippet %}
 
 1. Cliquer sur ***OK***.
 ![Résultat de la suppression du journal de la source de données](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin0008.png)
