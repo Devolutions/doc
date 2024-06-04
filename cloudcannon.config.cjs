@@ -96,6 +96,12 @@ module.exports = {
     }
   },
   _inputs: {
+    trim_left: {
+      hidden: true
+    },
+    trim_right: {
+      hidden: true
+    },
     trim_top_left: {
       hidden: true
     },

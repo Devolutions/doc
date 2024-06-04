@@ -9,12 +9,12 @@ module.exports = {
           key: "id"
         }
       ],
-      icon: "smart_display"
-    //   image: [
-    //     {
-    //       template: "/../.cloudcannon/previews/snippet/{snippet_type|slugify}.svg"
-    //     }
-    //   ]
+      icon: "smart_display",
+      image: [
+        {
+          template: "https://i.ytimg.com/vi_webp/{id}/maxresdefault.webp"
+        }
+      ]
     },
     definitions: {
       shortcode_name: "youtube",
