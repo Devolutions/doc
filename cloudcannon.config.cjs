@@ -11,22 +11,8 @@ module.exports = {
   },
   collections_config: {
     ...require("./.cloudcannon/collections/topics"),
-    test: {
-      name: "Test",
-      path: "test",
-      schemas: {
-        default: {
-          path: ".cloudcannon/schemas/topic.md"
-        }
-      },
-      _enabled_editors: [
-        "content",
-        "visual"
-      ],
-      output: true
-    },
     data: {
-      path: "docs/_data",
+      path: "_data",
       filter: {
         exclude: [
           "snippets.json"
@@ -48,8 +34,7 @@ module.exports = {
       collections: [
         "topicEn",
         "topicFr",
-        "topicDe",
-        "test"
+        "topicDe"
       ]
     },
     {

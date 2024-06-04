@@ -15,8 +15,11 @@ require('dotenv').config();
 module.exports = function (config) {
   config.setQuietMode(true);
 
-  config.ignores.add("src/_11ty");
-  config.ignores.add("src/_cloudcannon");
+  config.ignores.add("docs/_11ty");
+
+  config.addPassthroughCopy({
+    'public': '.'
+  });
 
   config.addPlugin(eleventySass);
   config.addPlugin(eleventyFilter);
@@ -24,10 +27,6 @@ module.exports = function (config) {
   config.addPlugin(eleventyShortcodes)
   config.addPlugin(eleventyNavigationTree);
   config.addPlugin(eleventyColections);
-
-  config.addPassthroughCopy({
-    'src/_static': '.'
-  });
 
   config.addLiquidFilter("postcss", async function (code) {
     try {
@@ -44,7 +43,7 @@ module.exports = function (config) {
     }
   });
 
-  // config.amendLibrary('md', markdown);
+  config.amendLibrary('md', markdown);
 
   config.addJavaScriptFunction('algoliaInitIndex', async function (name, data, settings) {
     if (process.env.ALGOLIA_ADMIN_KEY && process.env.ALGOLIA_APP_ID) {
