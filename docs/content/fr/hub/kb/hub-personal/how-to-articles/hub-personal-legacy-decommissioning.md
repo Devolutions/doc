@@ -3,21 +3,23 @@ eleventyComputed:
   title: "{{ fr.DHUBP }} décommissionnement hérité"
   description: Si cette transition ne se fait pas automatiquement, vous devrez migrer vos données manuellement.
 ---
-Les équipes de {{ fr.DHUBP }} et Business fusionnent dans le cadre de l'initiative de Devolutions pour rationaliser nos opérations et nos processus de développement. À compter du 31 octobre 2024, {{ fr.DHUBP }} adoptera la même dorsale que {{ fr.DHUBB }}. Cette harmonisation standardise nos processus de mise à jour. Pour plus de détails sur les avantages de ces changements, veuillez lire notre article de blog : [Rationaliser {{ fr.DHUBP }}](https://blog.devolutions.net/2023/10/streamlining-devolutions-hub-personal/).
+Les équipes de {{ fr.DHUBP }} et Business fusionnent dans le cadre de l'initiative de Devolutions pour rationaliser nos opérations et nos processus de développement. À compter du 31 octobre 2024, {{ fr.DHUBP }} a adopté la même dorsale que {{ fr.DHUBB }}. Cette alignement standardise nos processus de mise à jour. Pour plus de détails sur les avantages de ces changements, veuillez lire notre article de blog : [Rationaliser {{ fr.DHUBP }}](https://blog.devolutions.net/2023/10/streamlining-devolutions-hub-personal/).
 
 Le processus de migration est initié en [se connectant à votre {{ fr.DHUBP }}](https://hub.devolutions.net) via l'interface web. Si vous accédez à votre Hub via {{ fr.RDM }}, vous recevrez un message d'avertissement. En acceptant de migrer, vous serez ensuite redirigé vers l'interface web, qui propose les mêmes étapes que si vous y aviez accédé directement via le web. Suivez les invites à l'écran pour vous guider sans encombre à travers la mise à niveau des données et la transition.
 
+Après la fin du processus, une nouvelle source de données pour votre {{ fr.DHUBP }} sera créée dans {{ fr.RDM }} pour que vous puissiez accéder au {{ fr.DHUBP }} nouvellement migré. L'ancienne source de données restera dans {{ fr.RDM }} avec une étiquette "(Obsolète)" au début de son nom et une petite icône d'avertissement superposée au logo du Hub.
+
 {% snippet, "badgeWarning" %}
-{{ fr.DHUBP }} hérité sera complètement éliminé d'ici le 5 août 2024. Ne pas migrer avant la date limite entraînera une perte de données permanente.
+L'héritage de {{ fr.DHUBP }} sera complètement éliminé d'ici le 5 août 2024. Ne pas migrer avant la date limite entraînera une perte de données permanente.
 {% endsnippet %}
 
 ## Dépannage des problèmes de migration
 
-Bien que {{ fr.DHUBP }} soit conçu pour passer automatiquement du système hérité à la nouvelle plateforme sans nécessiter votre intervention, il peut y avoir des cas où la migration ne se produit pas automatiquement. Si vous rencontrez ce problème, veuillez suivre ces étapes pour assurer une transition réussie :
+Bien que {{ fr.DHUBP }} soit conçu pour passer automatiquement du système hérité à la nouvelle plateforme sans nécessiter votre intervention, il peut y avoir des cas où le flux de travail est incomplet, signifiant que la nouvelle source de données mise à jour n'a pas été ajoutée comme prévu, même après avoir suivi le processus via {{ fr.RDM }}. Si vous rencontrez ce problème, veuillez suivre ces étapes :
 
-* Vérifier la connexion réussie et l'accès : Assurez-vous que vous vous êtes connecté avec succès à votre {{ fr.DHUBP }} et que vous avez accédé au Hub via le web. C'est le premier indicateur que les premières étapes vers la migration sont en place.
-* Vérifier l'achèvement de la migration : Dans {{ fr.RDM }}, vérifiez votre source de données {{ fr.DHUBP }} : le système hérité peut être identifié par une petite icône à côté du logo {{ fr.DHUBP }}. Si vous voyez cette icône, cela indique que la migration n'a pas été complétée automatiquement.
-* Processus de migration manuelle : Si la migration automatique n'a pas eu lieu, vous devrez migrer manuellement vos données via {{ fr.RDM }} comme expliqué dans la section suivante.
+* Vérifier la connexion et l'accès réussis : Assurez-vous que vous vous êtes connecté avec succès à votre {{ fr.DHUBP }} via le web et mis à jour. C'est l'étape initiale.
+* Vérifier l'achèvement : Dans {{ fr.RDM }}, ouvrez votre liste de sources de données. Vérifiez que l'ancienne source de données {{ fr.DHUBP }} est présente ; elle peut être identifiée par l'étiquette "(Obsolète)" au début de son nom et par une petite icône d'avertissement superposée au logo du Hub. Vous devriez également voir la nouvelle source de données {{ fr.DHUBP }} dans la liste.
+* Processus de migration manuelle : Le problème est que le processus n'a pas ajouté la nouvelle source de données {{ fr.DHUBP }}. Dans ce cas, vous devez l'ajouter manuellement comme expliqué dans la section suivante.
 
 ### Migration manuelle
 1. Mettre à jour vers la dernière version de {{ fr.RDM }} si applicable.

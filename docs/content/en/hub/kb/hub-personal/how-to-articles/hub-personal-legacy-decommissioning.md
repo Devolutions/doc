@@ -7,17 +7,19 @@ The teams for {{ en.DHUBP }} and Business are merging as part of Devolutions’ 
 
 The migration process is initiated by [signing in to your {{ en.DHUBP }}](https://hub.devolutions.net) via the web interface. Should you access your Hub through {{ en.RDM }}, you will receive a warning message. By accepting to migrate, you will then be redirected to the web interface, which offers the same steps as if you had accessed it directly via the web. Follow the on-screen prompts to guide you seamlessly through the data upgrade and transition.
 
+After the process is complete, a new data source for your {{ en.DHUBP }} will be created in {{ en.RDM }} for you to access the newly migrated {{ en.DHUBP }}. The old data source will remain in {{ en.RDM }} with a "(Deprecated)" tag at the beginning of its name and a small warning icon overlaying the Hub logo.
+
 {% snippet, "badgeWarning" %}
 {{ en.DHUBP }} legacy will be completely phased out by August 5, 2024. Failure to migrate by the deadline will result in permanent data loss.
 {% endsnippet %}
 
 ## Troubleshooting migration issues
 
-While {{ en.DHUBP }} is designed to automatically transition from the legacy system to the new platform without requiring your input, there may be instances where the migration does not occur automatically. If you encounter this issue, please follow these steps to ensure a successful transition:
+While {{ en.DHUBP }} is designed to automatically transition from the legacy system to the new platform without requiring your input, there may be instances where the workflow is incomplete, meaning that the new data source that was updated was not added as expected, even after following the process through {{ en.RDM }}. If you encounter this issue, please follow these steps:
 
-* Verify successful login and access: Ensure that you have successfully logged into your {{ en.DHUBP }} and accessed the Hub via the web. This is the first indication that the initial steps towards migration are in place.
-* Check for migration completion: Within {{ en.RDM }}, check your {{ en.DHUBP }} data source: the legacy system can be identified by a small icon next to the {{ en.DHUBP }} logo. If you see this icon, it indicates that the migration has not been completed automatically.
-* Manual migration process: If the automatic migration has not occurred, you will need to manually migration your data via {{ en.RDM }} as explained in the next section.
+* Verify successful login and access: Ensure that you have successfully logged into your {{ en.DHUBP }} via the web and updated. This is the initial step.
+* Check for completion: Within {{ en.RDM }}, open your data source list. Verify that the original {{ en.DHUBP }} legacy data source is present; it can be identified by the "(Deprecated)" tag at the beginning of its name and by a small warning icon overlaying the Hub logo. You should also see the new {{ en.DHUBP }} data source in the list.
+* Manual migration process: The issue is that the process did not add the new {{ en.DHUBP }} data source. In that case, you need to add it manually as explained in the next section.
 
 ### Manual migration
 1. Update to the latest version of {{ en.RDM }} if applicable.
