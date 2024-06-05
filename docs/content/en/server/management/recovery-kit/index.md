@@ -34,15 +34,15 @@ To learn more about creating and managing an Azure Key Vault account, please con
 1. Click ***Close*** once the generation is done.
 ![Close button](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp0040.png)
 
-## Download
+## Download 
 1. In the {{ en.DVLSCONSOLE }}, go to the ***Tools*** tab.
 1. Click on ***Download***.
 ![Download](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp0041.png)
 1. The ***Filename*** field serves to choose the destination folder where the ***Azure Key Vault*** backup will be saved as well as naming said backup file.
 ![Recovery Kit - Download](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp0042.png)
-   {% snippet, "badgeInfo" %}
-   Clicking the ellipsis button in the ***Filename*** field opens a Save As dialog.
-   {% endsnippet %}
+
+Clicking the ellipsis button in the ***Filename*** field opens a Save As dialog.
+
 1. Enter the correct information in the Azure Key Vault section;
     * ***URL***: The URL to your Azure Key Vault
     * ***Tenant ID***: The Tenant ID from your Azure AD
@@ -50,3 +50,7 @@ To learn more about creating and managing an Azure Key Vault account, please con
     * ***Client secret***: An application secret from your Azure AD
     * ***Secret name***: The name of the application secret
 5. Click ***OK*** to download the specific backup zip file.
+
+   {% snippet, "badgeInfo" %}
+  A recovery kit created with Azure Key Vault can be retrieved directly from Azure to install a new instance. 
+   {% endsnippet %}

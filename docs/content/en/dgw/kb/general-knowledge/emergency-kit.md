@@ -24,4 +24,4 @@ Make sure that you have your ***Emergency Kit*** at hand before clicking on ***N
 
 Note: The ***Emergency Kit*** can be reset and downloaded again by going to ***Administration*** – ***Emergency Kit*** – ***Reset Emergency Kit*** in your {{ en.DHUB }}.
 
-![{{ en.DHUB }} – Administration – Emergency Kit – Reset Emergency Kit](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub6085.png)
+![{{ en.DHUB }} – Administration – Emergency Kit – Reset Emergency Kit](https://cdnweb.devolutions.net/docs/HUBB6016_2024_1.png)
