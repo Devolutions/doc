@@ -15,6 +15,7 @@ This topic covers the following:
 * [Navigating between {{ en.VLT }}s](#navigate-between-vaults)
 * [Moving entries to a different {{ en.VLT }}](#move-entries-to-a-different-vault)
 * [Giving users and user groups access to a {{ en.VLT }}](#give-users-and-user-groups-access-to-a-vault)
+* [Regroup multiple {{ en.VLT }}](*)
 * [Creating and using {{ en.VLT }} shortcuts](#create-and-use-vault-shortcuts)
 
 ## Create a {{ en.VLT }}
@@ -104,6 +105,22 @@ Follow the steps below to assign ***Users*** and ***Roles*** to a {{ en.VLT }}.
    {% snippet, "shieldCaution" %}
    Keep in mind that even if you assign a role/user to a {{ en.VLT }}, the permissions that are set in the ***{{ en.VLT_MAJ }} Settings*** can change what users can see or do in the {{ en.VLT }}.
    {% endsnippet %}
+
+### Organize {{ en.VLT }}s with Business units
+
+{{ en.VLT_MAJ }}s can be organized into ***Business units***, improving efficiency and reducing search time. ***Business Units*** are only available for a SQL Server data source.
+
+1. Select ***Business units*** in the ribbon of {{ en.RDM }}.
+![Business units](https://cdnweb.devolutions.net/docs/RDMW6002_2024_2.png)
+1. Click ***Business units*** in the ***User and security management***.
+1. Select ***Add Business units*** to open the Business unit management window.
+1. Enter the information in the ***General*** section. 
+1. Go to {{ en.VLT }}s, and choose the {{ en.VLT }}s who will have access to the ***Business unit***.
+1. Click ***OK*** to save.
+1. The ***Business units*** are listed in the {{ en.VLT }} selector. 
+![Business units](https://cdnweb.devolutions.net/docs/RDMW6003_2024_2.png)
+
+***Business units*** are listed in [***Activity logs***](/rdm/commands/reports/activity-logs/). 
 
 ### Create and use {{ en.VLT }} shortcuts
 
