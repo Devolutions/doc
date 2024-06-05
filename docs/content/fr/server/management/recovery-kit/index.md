@@ -34,15 +34,15 @@ Pour en savoir plus sur la création et la gestion d'un compte Azure Key Vault, 
 1. Cliquer sur ***Fermer*** une fois la génération terminée.
 ![Bouton Fermer](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp0040.png)
 
-## Télécharger
+## Télécharger 
 1. Dans la {{ fr.DVLSCONSOLE }}, aller à l'onglet ***Outils***.
 1. Cliquer sur ***Télécharger***.
 ![Télécharger](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp0041.png)
 1. Le champ ***Nom de fichier*** sert à choisir le dossier de destination où la sauvegarde ***Azure Key Vault*** sera enregistrée ainsi qu'à nommer ledit fichier de sauvegarde.
 ![Kit de Récupération - Télécharger](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp0042.png)
-   {% snippet, "badgeInfo" %}
-   Cliquer sur le bouton des points de suspension dans le champ ***Nom de fichier*** ouvre une boîte de dialogue Enregistrer sous.
-   {% endsnippet %}
+
+Cliquer sur le bouton ellipsis dans le champ ***Nom de fichier*** ouvre une boîte de dialogue Enregistrer sous.
+
 1. Entrer les informations correctes dans la section Azure Key Vault;
     * ***URL*** : L'URL de votre Azure Key Vault
     * ***ID de locataire*** : L'ID de locataire de votre Azure AD
@@ -50,3 +50,8 @@ Pour en savoir plus sur la création et la gestion d'un compte Azure Key Vault, 
     * ***Secret client*** : Un secret d'application de votre Azure AD
     * ***Nom du secret*** : Le nom du secret d'application
 5. Cliquer sur ***OK*** pour télécharger le fichier zip de sauvegarde spécifique.
+
+   {% snippet, "badgeInfo" %}
+  Un kit de récupération créé avec Azure Key Vault peut être récupéré directement depuis Azure pour installer une nouvelle instance. 
+   {% endsnippet %}
+```
