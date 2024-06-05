@@ -99,11 +99,11 @@ The ***Jump Host*** is ready to use.
 ## Configure a session to use the Jump Host
 
 1. Create an ***RDP*** entry, on the local {{ en.RDM }} instance.
-1. Set the ***Jump Host*** by clicking on the ***RDM Jump settings*** button.
+1. In ***Properties*** – ***Connection*** – ***Jump***, set the ***Jump Host*** by clicking on the ***off*** button next to ***Connect using Jump***.
     * The ***Jump Host*** can be ***Inherited*** if it is defined in the parent folder.
 or
     * Choose a specific ***Session*** to point directly to the ***Jump Host*** entry.
-![!!RDMWin2235](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin2235.png)
+![!!RDMWin2235](https://cdnweb.devolutions.net/docs/RDMW4067_2024_1.png)
 1. Click ***OK*** twice.
 1. Launch the RDP session. The {{ en.RDMJ }} opens automatically and it looks like a session in a session.
 
