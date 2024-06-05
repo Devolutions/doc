@@ -1,387 +1,116 @@
 ---
 eleventyComputed:
   title: Microsoft SQL Server
-  description: "{{ fr.RDM }} utilise la puissance de SQL Server de Microsoft pour enregistrer et gérer toutes les sessions."
+  description: Avec la source de données Microsoft SQL Server, {{ fr.RDM }} utilise la puissance de Microsoft SQL Server pour sauvegarder et gérer les entrées.
 ---
-<table>
-	<tr>
-		<td>
+Avec la source de données Microsoft SQL Server, {{ fr.RDM }} utilise la puissance de Microsoft SQL Server pour sauvegarder et gérer les entrées.
 
-![!!logo-microsoft-sql](https://cdnweb.devolutions.net/docs/docs_common_logo-microsoft-sql.png)
-		</td>
-		<td>
-{{ fr.RDM }} utilise la puissance de SQL Server de Microsoft pour enregistrer et gérer toutes les sessions.
 
-SQL Server de Microsoft pris en charge :
+Microsoft SQL Server pris en charge :
 
-* 2019 sur Windows et Linux (toutes éditions)
-* 2017 sur Windows et Linux (toutes éditions)
-* 2016 Service Pack 2
-* 2014 Service Pack 3
-* 2012 Service Pack 4
+* Microsoft SQL Server 2016/[2017](https://www.microsoft.com/en-ca/sql-server/sql-server-2017-editions)/[2019](https://www.microsoft.com/en-us/sql-server/sql-server-2019)/[2022](https://www.microsoft.com/en-us/sql-server/sql-server-2022) (y compris les éditions Express)
 
-Nous prenons également en charge les fonctionnalités suivantes :
+Les fonctionnalités suivantes sont également prises en charge :
 
-* Groupe de disponibilité « Always on »
-* Regroupement
-* Expédition des journaux
-* Mise en miroir de bases de données
-		</td>
-	</tr>
-</table>
+* Groupe de disponibilité Always On
+* Clustering
+* Expédition de journaux
+* Miroir de base de données
 
 ## Points forts
 
-* Cette source de données permet la gestion des utilisateurs avec un modèle de sécurité supérieur
-* Le mode hors ligne peut être utilisé lorsque le serveur n'est pas disponible ou lorsque l'utilisateur est en déplacement
-* Journaux complets des connexions et prise en charge des pièces jointes
-* La source de données prend en charge une actualisation automatique à votre intervalle préféré
+* Prendre en charge la gestion des utilisateurs avec un modèle de sécurité supérieur.
+* Prendre en charge le [mode hors ligne](/rdm/windows/data-sources/offline-mode/) pour lorsque le serveur ou le réseau n'est pas disponible.
+* Prendre en charge les journaux d'entrées complets et les pièces jointes.
+* Prendre en charge les {{ fr.VLT }} pour organiser des milliers d'entrées.
 
 {% snippet, "badgeWarning" %}
-Une stratégie de sauvegarde de base de données appropriée doit être mise en œuvre pour minimiser les pertes de données possibles.
+Mettre en œuvre une stratégie de sauvegarde de base de données appropriée pour éviter une éventuelle perte de données.
 {% endsnippet %}
 
 {% snippet, "badgeWarning" %}
-Selon le « Recovery Model » de la base de données sous-jacente, certaines opérations de maintenance peuvent devoir être planifiées pour s'exécuter régulièrement afin de maintenir l'intégrité de la base de données. Veuillez consulter [Recovery Model](/fr/rdm/windows/data-sources/data-sources-types/advanced-data-sources/microsoft-sql-server/recovery-model/).
+Selon le modèle de récupération de la base de données sous-jacente, certaines opérations de maintenance peuvent devoir être planifiées régulièrement pour maintenir la santé de la base de données. Consulter [Modèle de récupération](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/microsoft-sql-server/recovery-model/).
 {% endsnippet %}
 
 {% snippet, "shieldWarning" %}
-Utilisant la ***Connexion de base de données*** ou la ***Sécurité intégrée*** est intrinsèquement moins sûr, car cela signifie que l'utilisateur peut se connecter directement à la base de données en utilisant n'importe lequel outil disponible. Nous avons une sécurité au niveau des tables et des colonnes, mais les organisations soucieuses de la sécurité considéreront cela comme inacceptable. Il est recommandé d'utiliser notre modèle de connexion personnalisé.
+Utiliser soit la connexion à la base de données soit la sécurité intégrée est intrinsèquement moins sécurisé car cela signifie que l'utilisateur final peut se connecter directement à la base de données en utilisant n'importe quel outil disponible. Nous avons une sécurité au niveau des tables et des colonnes, mais les organisations soucieuses de la sécurité considéreront cela comme inacceptable. Il est recommandé d'utiliser notre modèle de connexion personnalisé.
 {% endsnippet %}
 
 {% snippet, "badgeInfo" %}
-La création d'utilisateurs de base de données comme mentionné dans cet [article](https://learn.microsoft.com/fr-fr/sql/relational-databases/databases/contained-databases?view=sql-server-ver15#benefit-of-contained-database-users-with-always-on) est la méthode prise en charge avec le groupe de disponibilité SQL Always On.
+Créer des utilisateurs de base de données contenus comme mentionné dans les [Bases de données contenues](https://learn.microsoft.com/en-us/sql/relational-databases/databases/contained-databases) de Microsoft est la méthode prise en charge avec le groupe de disponibilité Always On de SQL.
 {% endsnippet %}
 
 ## Configuration
 
-Consulter [Configurer SQL Server](/fr/rdm/windows/data-sources/data-sources-types/advanced-data-sources/microsoft-sql-server/configure/) pour plus d'informations sur la configuration.
+Consulter [Configurer SQL Server](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/microsoft-sql-server/configure/) pour plus d'informations sur la configuration.
 
 ## Paramètres
 
 ### Général
 
-![Microsoft SQL Server – Général](https://cdnweb.devolutions.net/docs/fr/rdm/windows/clip11357.png)
+![Onglet Général de Microsoft SQL Server](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip11357.png)
 
-<table>
-	<tr>
-		<th>
-
-OPTION
-		</th>
-		<th>
-DESCRIPTION
-		</th>
-	</tr>
-	<tr>
-		<td>
-Nom
-		</td>
-		<td>
-Nom de la source de données.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Hôte
-		</td>
-		<td>
-Nom du serveur sur lequel la source de données sera stockée.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Mode de connexion
-		</td>
-		<td>
-Sélectionner votre mode de connexion. Choisir entre :
-
-* ***Connexion à la base de données***
-* ***Sécurité intégrée (Active Directory)***
-* ***Connexion personnalisée***
-		</td>
-	</tr>
-	<tr>
-		<td>
-Nom d'utilisateur
-		</td>
-		<td>
-Nom d'utilisateur pour se connecter à la source de données.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Mot de passe
-		</td>
-		<td>
-Mot de passe pour se connecter à la source de données.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Toujours demander le mot de passe
-		</td>
-		<td>
-Toujours demander le mot de passe lors de la connexion à la source de données.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Autoriser le changement de nom d'utilisateur
-		</td>
-		<td>
-Permets à l'utilisateur de changer le nom d'utilisateur (Uniquement avec Toujours demander le mot de passe d'activé).
-		</td>
-	</tr>
-	<tr>
-		<td>
-Base de données
-		</td>
-		<td>
-Nom de la base de données SQL Server.
-		</td>
-	</tr>
-	<tr>
-		<td>
-2 facteurs
-		</td>
-		<td>
-Activer l'[Authentification multifacteurs](/fr/rdm/windows/data-sources/multi-factor-authentication/) pour accéder à votre source de données.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Tester l'hôte
-		</td>
-		<td>
-Tester la connexion avec le serveur pour valider si les informations appropriées ont été fournies.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Tester base de données
-		</td>
-		<td>
-Tester la connexion avec la base de données pour valider si les informations appropriées ont été fournies.
-		</td>
-	</tr>
-</table>
+| OPTION | DESCRIPTION |
+|--------|-------------|
+| Nom | Entrer un nom pour la source de données. |
+| Hôte | Entrer le nom d'hôte du serveur ou l'adresse IP. |
+| Mode de connexion | Spécifier le mode d'authentification à utiliser. Sélectionner entre :<ul><li>***Connexion à la base de données***</li><li>***Sécurité intégrée (Active Directory)***<li>***Connexion personnalisée***</li></ul> |
+| Nom d'utilisateur | Entrer le nom d'utilisateur pour accéder à la base de données Azure SQL. |
+| Mot de passe | Entrer le mot de passe pour accéder à la base de données Azure SQL. |
+| Toujours demander le mot de passe | Demander le mot de passe lorsqu'un utilisateur se connecte à la source de données. |
+| Autoriser le changement de nom d'utilisateur | Permettre au nom d'utilisateur d'être modifié lors de la connexion à la source de données.<br>(Uniquement avec Toujours demander le mot de passe activé) |
+| Base de données | Entrer le nom de la base de données Azure SQL. |
+| Deux facteurs | Activer l'[Authentification Multifacteur](/rdm/windows/data-sources/multi-factor-authentication/). |
+| Tester le serveur | Tester la connexion avec le serveur pour valider si les informations appropriées ont été fournies. |
+| Tester la base de données | Tester la connexion avec la base de données pour valider si les informations appropriées ont été fournies. |
 
 ### Paramètres
 
-![Microsoft SQL Server – Paramètres](https://cdnweb.devolutions.net/docs/fr/rdm/windows/clip11358.png)
+![Onglet Paramètres de Microsoft SQL Server](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip11358.png)
 
-<table>
-	<tr>
-		<th>
-OPTION
-		</th>
-		<th>
-DESCRIPTION
-		</th>
-	</tr>
-	<tr>
-		<td>
-Fitre de racine
-		</td>
-		<td>
-Entrer le nom d'un dossier de niveau racine pour afficher uniquement les entrées contenues dans ce dossier.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Mode ping en ligne
-		</td>
-		<td>
-Indique le mode de ping préféré en ligne. Choisir entre :
-
-* Aucun
-* Ping
-* Scan du port
-		</td>
-	</tr>
-	<tr>
-		<td>
-Déconnexion Auto
-		</td>
-		<td>
-Si la méthode ping en ligne ne fonctionne pas, elle se mettra automatiquement hors ligne.
-		</td>
-	</tr>
-</table>
+| OPTION | DESCRIPTION |
+|--------|-------------|
+| Filtre racine          | Entrer le nom d'un dossier de niveau racine pour afficher uniquement les entrées contenues dans ce dossier.       |
+| Méthode de ping en ligne   | Indiquer la méthode de ping en ligne préférée. Sélectionner entre :<ul><li>Aucun</li><li>Ping</li><li>Scan de port</li></ul> |
+| Passer automatiquement en mode hors ligne      | Utiliser la source de données en mode hors ligne lorsque la méthode de ping ne répond pas.                        |
+| Désactiver le verrouillage         | Désactiver l'option de verrouillage direct de la source de données. Vous pouvez toujours verrouiller l'application mais vous ne serez pas invité à entrer le mot de passe de la source de données si cette option est désactivée. |
 
 ### {{ fr.UVLT_MAJ }}
 
-![Microsoft SQL Server – {{ fr.UVLT_MAJ }}](https://cdnweb.devolutions.net/docs/fr/rdm/windows/clip3413.png)
+![Onglet {{ fr.UVLT_MAJ }} de Microsoft SQL Server](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip3413.png)
 
-<table>
-	<tr>
-		<th>
-OPTION
-		</th>
-		<th>
-DESCRIPTION
-		</th>
-	</tr>
-	<tr>
-		<td>
-Type
-		</td>
-		<td>
-
-Sélectionner le type de [{{ fr.UVLT }}](/fr/rdm/windows/data-sources/data-sources-types/advanced-data-sources/user-vault/) à utiliser. Choisir entre :
-
-* ***Par défaut*** : utilise le {{ fr.UVLT }} par défaut, qui est stocké dans la base de données.
-* ***Aucun*** : désactive le {{ fr.UVLT }} pour tous les utilisateurs.
-* ***{{ fr.DOD }}*** : utilise un fichier {{ fr.DOD }} (*.dod) comme {{ fr.UVLT }}.
-		</td>
-	</tr>
-</table>
+| OPTION | DESCRIPTION |
+|--------|-------------|
+| Type | Sélectionner le type de [{{ fr.UVLT }}](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/user-vault/) à utiliser. Sélectionner entre :<ul><li>***Défaut*** : utiliser le {{ fr.UVLT }} par défaut, qui est stocké dans la base de données.</li><li>***Aucun*** : désactiver le {{ fr.UVLT }} pour tous les utilisateurs.<li> ***{{ fr.DOD }}*** : utiliser un fichier {{ fr.DOD }} (.dod) comme un {{ fr.UVLT }}.</li></ul> |
 
 ### Mise à niveau
 
-![Microsoft SQL Server – Mise à niveau](https://cdnweb.devolutions.net/docs/fr/rdm/windows/clip11360.png)
+![Onglet Mise à niveau de Microsoft SQL Server](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip11360.png)
 
-<table>
-	<tr>
-		<th>
-OPTION
-		</th>
-		<th>
-DESCRIPTION
-		</th>
-	</tr>
-	<tr>
-		<td>
-Tester l'hôte
-		</td>
-		<td>
-Tester la connexion avec le serveur pour valider si les informations appropriées ont été fournies.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Créer une base de données
-		</td>
-		<td>
-Créer la base de données SQL server.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Mettre à jour base de données
-		</td>
-		<td>
-Mettre à jour la base de données SQL server.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Tester base de données
-		</td>
-		<td>
-Tester la connexion avec la base de données pour valider si les informations appropriées ont été fournies.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Envoyer le schéma au soutien via courriel
-		</td>
-		<td>
-Envoyer votre schéma à l'équipe de support Devolutions.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Afficher les scripts de mises à jour
-		</td>
-		<td>
-Afficher le script de mise à jour.
-		</td>
-	</tr>
-</table>
+| OPTION | DESCRIPTION |
+|--------|-------------|
+| Tester le serveur     | Tester la connexion avec le serveur pour valider si les informations appropriées ont été fournies. |
+| Créer la base de données | Créer la base de données sur le serveur SQL.                                                   |
+| Mettre à jour la base de données | Mettre à jour la base de données sur le serveur SQL.                                                   |
+| Tester la base de données   | Tester la connexion avec la base de données pour valider si les informations appropriées ont été fournies. |
+| Envoyer le schéma par courriel au support | Envoyer votre schéma à notre équipe de support.                                            |
 
 ### VPN
 
-Ouvrir un VPN pour accéder à vos données avant de vous connecter à Microsoft SQL Server.
-![Microsoft SQL Server – VPN](https://cdnweb.devolutions.net/docs/fr/rdm/windows/SQLServVPN.png)
+Ouvrir un VPN pour accéder à vos données avant de vous connecter à votre serveur Microsoft SQL Server.
+![Onglet VPN de Microsoft SQL Server](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin2255.png)
 
 ### Avancé
 
-![Microsoft SQL Server – Avancé](https://cdnweb.devolutions.net/docs/fr/rdm/windows/clip11359.png)
+![Onglet Avancé de Microsoft SQL Server](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip11359.png)
 
-<table>
-	<tr>
-		<th>
-
-OPTION
-		</th>
-		<th>
-DESCRIPTION
-		</th>
-	</tr>
-	<tr>
-		<td>
-Mode de la cache
-		</td>
-		<td>
-Détermine comment les entrées seront rechargées dans la source de données. Voir [Mode de la cache](/fr/rdm/windows/data-sources/caching/) pour plus d'informations.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Délai de connexion
-		</td>
-		<td>
-Temps d'attente avant un délai de connexion.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Délai de commande
-		</td>
-		<td>
-Temps d'attente avant un délai de commande.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Actualisation automatique
-		</td>
-		<td>
-Définir l'intervalle d'actualisation automatique.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Demander le mode hors-ligne au démarrage
-		</td>
-		<td>
-Chaque fois que vous vous connecterez à votre source de données, vous serez invité à utiliser la source de données en mode hors ligne.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Autoriser mise à niveau de la base de donnés beta
-		</td>
-		<td>
-Autoriser la mise à niveau beta de la base de données (lors de l'utilisation d'une version beta de {{ fr.RDM }}).
-		</td>
-	</tr>
-	<tr>
-		<td>
-Gérer la cache
-		</td>
-		<td>
-Gérer votre cache sur votre ordinateur pour l'analyser, le vider, le réparer ou le supprimer. Cela peut être très utile lorsque vous rencontrez des problèmes hors ligne. Pour plus d'informations, veuillez suivre ce [lien](Datasource_ManageCache).
-		</td>
-	</tr>
-	<tr>
-		<td>
-Plus de paramètres
-		</td>
-		<td>
-Modifier directement les valeurs de chaîne de connexion.
-		</td>
-	</tr>
-</table>
+| OPTION | DESCRIPTION |
+|--------|-------------|
+| Mode de mise en cache | Détermine comment les entrées seront rechargées dans la source de données. Pour plus d'informations, consulter [Mise en cache](/rdm/windows/data-sources/caching/). |
+| Délai d'expiration de la connexion | Définir le délai de l'expiration de la connexion. |
+| Délai d'expiration de la commande | Définir le délai de l'expiration de la commande.       |
+| Actualisation automatique | Définir l'intervalle pour l'actualisation automatique.    |
+| Demander le mode hors ligne au démarrage | Demander à utiliser la source de données en mode hors ligne lorsque l'utilisateur se connecte à la source de données. |
+| Autoriser la mise à niveau de la base de données bêta | Autoriser la mise à niveau bêta de la base de données (lors de l'utilisation d'une version bêta de {{ fr.RDM }}).              |
+| Gérer le cache | Gérer le cache de la source de données. Sur les grandes sources de données, la mise en cache est indispensable et augmentera significativement les performances. Pour plus d'informations, consulter [Gérer le cache](/rdm/windows/data-sources/manage-cache/).                |
+| Plus de paramètres | Modifier directement les valeurs de la chaîne de connexion.   |

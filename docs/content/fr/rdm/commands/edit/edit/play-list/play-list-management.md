@@ -1,62 +1,19 @@
 ---
 eleventyComputed:
-  title: Gestionnaire de listes d'exécution
+  title: Gestion de la liste de lecture
+  description: D'abord, ouvrir votre Gestion de la liste de lecture dans Éditer – Liste de lecture – Gestion de la liste de lecture.
 ---
-### Utilisation d'une liste d'exécution
+### Utiliser une liste de lecture
 
-Tout d'abord, ouvrez votre Gestionnaire de listes d'exécution dans ***Modifier - Liste d'exécution - Gestionnaire de listes d'exécution***.
+D'abord, ouvrir votre Gestion de la liste de lecture dans ***Éditer – Liste de lecture – Gestion de la liste de lecture***.
 
-Il existe cinq méthodes pour utiliser votre liste d'exécution.
-![Mode par défaut](https://cdnweb.devolutions.net/docs/fr/rdm/windows/clip10260.png)
+Il y a cinq méthodes pour utiliser votre liste de lecture.
+![Mode par défaut](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip10260.png)
 
-<table>
-	<tr>
-		<th>
-
-OPTION
-		</th>
-		<th>
-DESCRIPTION
-		</th>
-	</tr>
-	<tr>
-		<td>
-Ouvrir
-		</td>
-		<td>
-Lancer la liste d'exécution sélectionnée.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Ouvrir en mode intégré
-		</td>
-		<td>
-Remplacer la sélection d'affichage des entrées dans les listes d'exécution et les lancer en mode intégré (certaines entrées peuvent ne pas le prendre en charge).
-		</td>
-	</tr>
-	<tr>
-		<td>
-Sélectionner dans le ***{{ fr.NPANE }}***
-		</td>
-		<td>
-Sélectionner toutes les entrées contenues dans la liste d'exécution dans le ***{{ fr.NPANE }}***.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Exécuter script contre
-		</td>
-		<td>
-Cela vous demandera de sélectionner la ***Macro de frappe*** (exclusivement) que vous souhaitez exécuter par rapport à votre liste d'exécution.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Lancer au démarrage
-		</td>
-		<td>
-Ici, vous pouvez sélectionner une liste d'exécution spécifique que vous souhaitez lancer au démarrage de l'application. Vous pouvez également revenir par défaut à ***Aucun*** ou ***Dernières connexions ouvertes***.
-		</td>
-	</tr>
-</table>
+| OPTION                      | DESCRIPTION                                                            |
+|-----------------------------|------------------------------------------------------------------------|
+| Ouvrir                    | Lancer la liste de lecture sélectionnée.                                             |
+| Ouvrir encastré           | Remplace la sélection d'affichage des entrées à l'intérieur des listes de lecture et les lance comme Encastré (certaines entrées peuvent ne pas supporter cela).                                                                                                 |
+| Sélectionner dans ***{{ fr.NPANE }}*** | Sélectionne toutes les entrées que la liste de lecture contient dans le ***{{ fr.NPANE }}***.                                                                                                   |
+| Exécuter le script contre... | Cela demandera de sélectionner le ***Typing Macro*** (exclusivement) que vous souhaitez exécuter contre votre liste de lecture.                                                                                                  |
+| Lancer au démarrage         | Ici, vous pouvez sélectionner une liste de lecture spécifique que vous aimeriez lancer chaque fois que l'application démarre. Vous pouvez également revenir par défaut à ***Aucun*** ou ***Dernières connexions ouvertes***.                                                                                 |

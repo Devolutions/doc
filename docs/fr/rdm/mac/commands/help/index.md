@@ -1,98 +1,20 @@
 ---
 eleventyComputed:
   title: Aide
+  description: L'onglet Aide contient des liens vers notre site Web et notre documentation Devolutions. Il inclut également tous les liens pour nous suivre sur différentes plateformes de médias sociaux.
 ---
-L'onglet ***Aide*** contient des liens vers notre site Web Devolutions et notre documentation. Il comprend également tous les liens pour nous suivre sur différentes plateformes de médias sociaux. Notre équipe d'assistance peut également vous demander d'effectuer certaines opérations que vous trouverez dans l'onglet ***Aide***.
-![Menu Aide](https://cdnweb.devolutions.net/docs/fr/rdm/mac/clip4225.png)
+L'onglet Aide contient des liens vers notre site Web et notre documentation Devolutions. Il inclut également tous les liens pour nous suivre sur différentes plateformes de médias sociaux. Notre équipe de support peut également vous demander d'effectuer certaines opérations que vous trouverez dans l'onglet Aide.
+![Ruban d'aide](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10462.png)
 
-<table>
-	<tr>
-		<td>
-Option
-		</td>
-		<td>
-Description
-		</td>
-	</tr>
-	<tr>
-		<td>
-Aide en ligne
-		</td>
-		<td>
-Vous redirige vers la documentation (Aide en ligne) de {{ fr.RDM }}.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Enregistrer le produit
-		</td>
-		<td>
-
-Entrer votre licence d'essai ou d'Édition Team pour enregistrer votre version de {{ fr.RDM }}. Pour plus d'informations, veuillez consulter [Édition Team](/fr/rdm/mac/installation/client/registration/team-edition/) ou [Demande d'essai](/fr/rdm/mac/installation/client/registration/trial-request/).
-		</td>
-	</tr>
-	<tr>
-		<td>
-Page d'accueil
-		</td>
-		<td>
-Vous redirige sur la page d'accueil de notre site Web Devolutions.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Journaux des applications
-		</td>
-		<td>
-Pour en savoir plus, consultez les [Journaux des applications](/fr/rdm/mac/commands/help/application-logs/).
-		</td>
-	</tr>
-	<tr>
-		<td>
-Diagnostic
-		</td>
-		<td>
-Pour en savoir plus, consultez [Diagnostic](/fr/rdm/mac/commands/help/diagnostic/).
-		</td>
-	</tr>
-	<tr>
-		<td>
-Profileur
-		</td>
-		<td>
-Pour en savoir plus, consultez le [Profileur](/fr/rdm/mac/commands/help/profiler/).
-		</td>
-	</tr>
-	<tr>
-		<td>
-Nous contacter
-		</td>
-		<td>
-Ouvre automatiquement un courriel avec notre adresse Support Devolutions prête à nous être envoyée.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Visitez notre forum
-		</td>
-		<td>
-Vous envoie directement sur notre Forum.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Vérifier les mises à jour
-		</td>
-		<td>
-Vérifie si la dernière version de {{ fr.RDM }} est installée sur votre ordinateur. Sinon, la dernière version peut être installée directement à partir de cette option.
-		</td>
-	</tr>
-	<tr>
-		<td>
-À propos
-		</td>
-		<td>
-Ouvre une fenêtre contenant plusieurs informations concernant {{ fr.RDM }}. Il affichera votre version de {{ fr.RDM }} et vos informations de licence (si vous êtes administrateur).
-		</td>
-	</tr>
-</table>
+| OPTION               | DESCRIPTION |
+|----------------------|-------------|
+| Aide en ligne        | Vous envoie directement à notre documentation {{ fr.RDMW }}. |
+| Enregistrer la version | Entrez votre licence d'Essai ou d'Équipe pour enregistrer votre version de {{ fr.RDM }}. |
+| Page d'accueil       | Vous envoie directement à la page d'accueil de notre site Web Devolutions. |
+| Voir le journal d'application | Pour en savoir plus, veuillez voir [Journaux d'application](/rdm/mac/commands/help/application-logs/). |
+| Diagnostic           | Pour en savoir plus, veuillez voir [Diagnostic](/rdm/mac/commands/help/diagnostic/). |
+| Profileur            | Pour en savoir plus, veuillez voir [Profileur](/rdm/mac/commands/help/profiler/). |
+| Nous contacter       | Ouvre automatiquement un courriel avec notre adresse de support Devolutions prête à être envoyée. |
+| Visiter notre forum  | Vous envoie directement à notre Forum. |
+| Vérifier les mises à jour | Vérifie si la dernière version de {{ fr.RDMMAC }} est installée sur votre ordinateur. Si ce n'est pas le cas, la dernière version peut être installée directement depuis cette option. |
+| À propos             | Ouvre une fenêtre contenant de multiples informations concernant {{ fr.RDM }}. Elle affichera votre version de {{ fr.RDM }} et vos informations de licence (si vous êtes administrateur). |

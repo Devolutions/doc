@@ -1,27 +1,27 @@
 ---
 eleventyComputed:
   title: Importer
-  status: Topic available in German language
+  status: Sujet disponible en langue allemande
 ---
-{% youtube 'PleP6xL3V7c' %}
+{% youtube 'ditrtJE1KlU' %}
 
-Accédez à ***Fichier – Importer*** pour importer des entrées dans {{ fr.RDM }}. Vous pouvez importer des types d'entrées à partir de plusieurs sources.
+Aller à ***Fichier – Importer*** pour importer des entrées dans {{ fr.RDM }}. Vous pouvez importer des types d'entrées à partir de plusieurs sources.
 
-Nous prenons en charge les formats d'importation natifs de nombreux outils populaires sur le marché. Au cas où nous ne prendrions pas en charge le format natif ou le tiers, nous disposons d'assistants pour importer à partir d'un fichier CSV.
+Nous prenons en charge les formats d'importation natifs de nombreux outils populaires sur le marché. Dans le cas où nous ne prenons pas en charge le format natif ou le tiers, nous avons des assistants pour importer à partir d'un fichier CSV.
 
 {% snippet, "badgeInfo" %}
-La fonction d'importation n'est active que si les ***Privilèges*** d'importation ont été activés dans le compte d'utilisateur. Voir [Permissions du système](/fr/rdm/windows/commands/administration/settings/system-permissions/).
+La fonction d'importation est uniquement active si les ***Privilèges*** d'importation ont été activés dans le compte utilisateur. Voir [Permissions système](/rdm/commands/administration/security/system-permissions/).
 {% endsnippet %}
 
-![Fichier – Importer](https://cdnweb.devolutions.net/docs/fr/rdm/windows/clip11281.png)
+![Fichier – Importer](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip11281.png)
 
-Consultez les rubriques suivantes pour obtenir plus d'informations sur chaque option :
+Voir les sujets suivants pour obtenir plus d'informations sur chaque option :
 
-* [Importer (.rdm)](/fr/rdm/windows/commands/file/import/rdm/)
-* [Importer (.json)](/fr/rdm/windows/commands/file/import/json/)
-* [Assistant d'importation pour l'ordinateur](/fr/rdm/windows/commands/file/import/computer-wizard/)
-* [Importer à partir d'une recherche réseau](/fr/rdm/windows/commands/file/import/network-scan/)
-* [Assistant d'importation de CSV générique](/fr/rdm/windows/commands/file/import/generic-csv-wizard/)
-* [Importer des sessions](/fr/rdm/windows/commands/file/import/sessions/)
-* [Importer des connexions](/fr/rdm/windows/commands/file/import/logins/)
-* [Importer des contacts](/fr/rdm/windows/commands/file/import/contacts/)
+* [Importer (.rdm)](/rdm/windows/commands/file/import/rdm/)
+* [Importer (.json)](/rdm/windows/commands/file/import/json/)
+* [Assistant d'Importation d'Ordinateur](/rdm/windows/commands/file/import/computer-wizard/)
+* [Importer avec Analyse Réseau](/rdm/windows/commands/file/import/network-scan/)
+* [Assistant d'Importation CSV Générique](/rdm/windows/commands/file/import/generic-csv-wizard/)
+* [Importer des Sessions](/rdm/windows/commands/file/import/sessions/)
+* [Importer des Connexions](/rdm/windows/commands/file/import/logins/)
+* [Importer des Contacts](/rdm/windows/commands/file/import/contacts/)

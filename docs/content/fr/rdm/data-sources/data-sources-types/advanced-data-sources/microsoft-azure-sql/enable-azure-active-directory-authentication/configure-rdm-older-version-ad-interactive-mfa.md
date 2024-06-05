@@ -1,88 +1,56 @@
 ---
 eleventyComputed:
-  title: Configurer une anciennce version d'Active Directory Interactive (avec MFA pris en charge) avec {{ fr.RDM }}
+  title: Configurer une version plus ancienne d'Active Directory Interactive (avec support A2F) avec {{ fr.RDM }}
+  description: Active Directory Interactive (avec support A2F) vous permet de vous authentifier sur votre source de données Microsoft Azure SQL en utilisant votre compte Office365 + A2F.
 ---
 {% snippet, "badgeInfo" %}
-Cette rubrique est pour les versions de {{ fr.RDM }} inférieures à 2022.1. Si vous utilisez une version plus récente, veuillez plutôt consulter [Configurer {{ fr.RDM }} Active Directory Interactive (avec MFA pris en charge)](/fr/rdm/windows/data-sources/data-sources-types/advanced-data-sources/microsoft-azure-sql/enable-azure-active-directory-authentication/configure-rdm-ad-interactive-mfa/).
+Ce sujet concerne les versions de {{ fr.RDM }} inférieures à 2022.1. Si vous utilisez la version 2022.1 ou ultérieure, veuillez suivre [Configurer {{ fr.RDM }} Active Directory Interactive (avec support A2F)](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/microsoft-azure-sql/enable-azure-active-directory-authentication/configure-rdm-ad-interactive-mfa/) à la place.
 {% endsnippet %}
 
-Active Directory Interactive (avec MFA pris en charge) vous permet de vous authentifier sur votre source de données Microsoft Azure SQL à l'aide de votre compte Office365 + MFA.
+Active Directory Interactive (avec support A2F) vous permet de vous authentifier sur votre source de données Microsoft Azure SQL en utilisant votre compte Office365 + A2F.
 
 {% snippet, "badgeCaution" %}
-Pour l'authentification Azure AD, télécharger et installer Microsoft Active Directory Authentication Library for Microsoft SQL Server sur chaque ordinateur client.
+Pour l'authentification Azure AD, télécharger et installer la bibliothèque d'authentification Microsoft Active Directory pour Microsoft SQL Server sur chaque ordinateur client.
 {% endsnippet %}
 
-{% snippet, "badgeInfo" %}
-Lors de la création d'utilisateurs Azure SQL Active Directory, vous devez être connecté avec un utilisateur Azure Active Directory. Sinon, il échouera et vous serez informé de l'erreur.
+{% snippet, "badgeWarning" %}
+Lors de la création d'utilisateurs SQL Active Directory, vous devez être connecté avec un utilisateur Azure Active Directory. Sinon, cela échouera et vous serez informé de l'erreur.
 {% endsnippet %}
 
-Utiliser les serveurs définis par l'admin Azure Active Directory pour créer votre premier utilisateur d'administrateur {{ fr.RDM }}. Une fois que vous avez créé, vous pouvez utiliser ce nouveau compte pour créer d'autres utilisateurs.
+Utiliser l'administrateur Azure Active Directory défini sur les serveurs pour créer votre premier utilisateur admin {{ fr.RDM }}. Une fois créé, vous pouvez utiliser ce nouveau compte pour créer d'autres utilisateurs.
 
 ## Paramètres
 
-![!!RdmWin4111](https://cdnweb.devolutions.net/docs/fr/rdm/windows/RdmWin4111.png)
+![!!RDMWin2234](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin2234.png)
 
-1. Sélectionner Active Directory Interactive (avec MFA pris en charge) dans le menu déroulant Mode de connexion.
-1. Vous pouvez spécifier la manière dont vous souhaitez que {{ fr.RDM }} interagisse avec Azure AD pendant l'authentification.
+1. Sélectionner ***Active Directory Interactive (avec support A2F)*** dans le menu déroulant ***Mode de connexion***.
+1. Vous pouvez spécifier comment vous souhaitez que {{ fr.RDM }} interagisse avec Azure AD pendant l'authentification.
 
-<table>
-	<tr>
-		<th>
-
-OPTION
-		</th>
-		<th>
-DESCRIPTION
-		</th>
-	</tr>
-	<tr>
-		<td>
-Par défaut
-		</td>
-		<td>
-C'est le mode par défaut.
-
-L'utilisateur sera invité à fournir des identifiants même s'il existe un jeton qui répond aux exigences déjà dans le cache.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Automatique
-
-(Partagé dans les versions antérieures)
-		</td>
-		<td>
-Azure AD invite l'utilisateur à fournir des identifiants uniquement lorsque cela est nécessaire. Si un jeton qui répond aux exigences est déjà mis en cache, l'utilisateur ne sera pas invité.
-		</td>
-	</tr>
-</table>
+| OPTION           | DESCRIPTION |
+|------------------|-------------|
+| Par défaut          | C'est le mode par défaut. <br> L'utilisateur sera invité à saisir ses identifiants même s'il existe déjà dans le cache un jeton répondant aux exigences. |
+| Automatique <br> (Partagé dans les versions antérieures) | Azure AD invitera l'utilisateur à saisir ses identifiants uniquement si nécessaire. Si un jeton répondant aux exigences est déjà en cache, l'utilisateur ne sera pas invité.   |
 
 {% snippet, "badgeCaution" %}
-En ce qui concerne les appareils joints à Azure AD (appareils enregistrés). Azure AD peut demander ou non une MFA. Ceci est entièrement contrôlé par Azure AD, il n'y a rien que nous puissions faire dans {{ fr.RDM }} pour forcer ou contourner le MFA autre que les options ***Par défaut*** ou ***Automatique*** mentionnées ci-dessus.
+Concernant les appareils joints à Azure AD (appareils enregistrés). Azure AD peut ou non demander l'A2F. Cela est entièrement contrôlé par Azure AD, il n'y a rien que nous puissions faire dans {{ fr.RDM }} pour forcer ou contourner l'A2F autre que les options ***Par défaut*** ou ***Automatique*** mentionnées ci-dessus.
 {% endsnippet %}
 
-
-3. Dans le champ ***Nom d'utilisateur***, coller le courriel d'***Active Directory admin*** que vous avez créé dans Microsoft Azure SQL databases.
-
+3. Dans le champ ***Nom d'utilisateur***, coller l'email de l'***administrateur Active Directory*** que vous avez créé dans les bases de données Microsoft Azure SQL.
 {% snippet, "badgeInfo" %}
-Lors de la première connexion, le nom d'utilisateur doit être l'administrateur Active Directory tel que défini dans la [Configuration de l'administrateur Active Directory](/fr/rdm/windows/data-sources/data-sources-types/advanced-data-sources/microsoft-azure-sql/enable-azure-active-directory-authentication/configure-admin/). Une fois que vous avez ajouté un autre utilisateur AD dans {{ fr.RDM }}, ils pourront se connecter.
+Lors de la première connexion, le nom d'utilisateur doit être l'administrateur Active Directory tel que défini dans [Configurer l'administrateur Active Directory](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/microsoft-azure-sql/enable-azure-active-directory-authentication/configure-admin/). Une fois que vous ajoutez un autre utilisateur AD dans {{ fr.RDM }}, ils pourront se connecter.
 {% endsnippet %}
 
 {% snippet, "badgeCaution" %}
-![!!RdmWin4032](https://cdnweb.devolutions.net/docs/fr/rdm/windows/RdmWin4032.png)
-
-Si vous obtenez ce message d'erreur : Unable to connect to the database! Login failed for user '<token-identified principal>' c'est parce que vous n'utilisez pas le courriel d'***Active Directory admin*** que vous avez créé dans Microsoft Azure SQL databases.
+![!!RDMWin2217](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin2217.png)
+Si vous recevez ce message d'erreur : Impossible de se connecter à la base de données ! Connexion échouée pour l'utilisateur '<token-identified principal>' c'est parce que vous n'utilisez pas l'email de l'***administrateur Active Directory*** que vous avez créé dans les bases de données Microsoft Azure SQL.
 {% endsnippet %}
 
-
-4. Cliquer sur ***Aucun*** pour définir les paramètres d'application Azure et entrer ***l'ID d'application*** à partir de l'inscription de l'application Azure Active Directory et l'adresse correspondante de l'URI.
-
+4. Cliquer sur ***Configurer*** pour définir les [Paramètres de l'application Azure](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/microsoft-azure-sql/enable-azure-active-directory-authentication/create-app-registration/) et entrer l'ID de l'application de l'enregistrement d'application Azure Active Directory et l'URI de redirection correspondant.
 {% snippet, "badgeCaution" %}
-Lorsque vous recevez cette erreur : ***AADSTS70001 - Application with Identifier was not found in the directory…***.
+Lorsque vous recevez cette erreur : ***AADSTS70001 - Application avec l'identifiant n'a pas été trouvée dans l'annuaire…***.
 
-Vérifier que votre ***ID d'application*** dans {{ fr.RDM }} est identique à l'***App Registration's Application (client) ID*** (étape 11 de [Créer une inscription d'application Azure Active Directory](/fr/rdm/windows/data-sources/data-sources-types/advanced-data-sources/microsoft-azure-sql/enable-azure-active-directory-authentication/create-app-registration/))
+Valider que votre ***ID d'application*** dans {{ fr.RDM }} est identique à l'***ID d'application (client) de l'enregistrement d'application*** (étape 11 de [Créer un enregistrement d'application Azure Active Directory](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/microsoft-azure-sql/enable-azure-active-directory-authentication/create-app-registration/)).
 {% endsnippet %}
 
-![Inscription d'application](https://cdnweb.devolutions.net/docs/fr/rdm/windows/clip5010.png)
-5. Configurer la base de données pour vous authentifier dans le champ ***Base de données***.
-
+![Enregistrement d'application](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip5010.png)
+5. Configurer la base de données pour s'authentifier dans le champ ***Base de données***.

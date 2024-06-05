@@ -1,467 +1,120 @@
 ---
 eleventyComputed:
-  title: Console de {{ fr.DVLS }}
-  description: Étant donné que {{ fr.DVLS }} est en fait une application Web, l'interface de gestion est fournie par la {{ fr.DVLSCONSOLE }}.
+  title: "{{ fr.DVLSCONSOLE }}"
+  description: "Parce que {{ fr.DVLS }} est en fait une application web, l'interface de gestion est fournie par la {{ fr.DVLSCONSOLE }}."
 ---
-Étant donné que {{ fr.DVLS }} est en fait une application Web, l'interface de gestion est fournie par la {{ fr.DVLSCONSOLE }}.
+Parce que {{ fr.DVLS }} est en fait une application web, l'interface de gestion est fournie par la {{ fr.DVLSCONSOLE }}, que vous pouvez télécharger depuis notre [page de téléchargement](https://devolutions.net/server/home/download).
 
-## Usage
-
-{% snippet, "badgeInfo" %}
-La {{ fr.DVLSCONSOLE }} est désormais proposée en tant qu'application autonome. Elle est maintenant disponible sur la [page de téléchargement](https://server.devolutions.net/fr/home/download).
+{% snippet, "badgeHelp" %}
+Consulter la liste des [prérequis du serveur web](/server/getting-started/installation/installing-web-server-prerequisites/) pour la {{ fr.DVLSCONSOLE }}.
 {% endsnippet %}
 
-{% snippet, "badgeInfo" %}
-Depuis {{ fr.DVLS }} 2019.x, de nombreuses fonctionnalités peuvent seulement être gérées à partir de l'interface Web. Veuillez consulter [Administration - Paramètres Serveur](/fr/server/web-interface/administration/configuration/server-settings/).
-{% endsnippet %}
+![{{ fr.DVLSCONSOLE }}](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp0043.png)
 
-La {{ fr.DVLSCONSOLE }} gère la métabase IIS, elle doit être démarrée avec des privilèges élevés lorsque la {{ fr.DVLSCONSOLE }} doit être utilisée. Des privilèges élevés sont accordés lorsque vous utilisez ***exécuter en tant qu'administrateur*** pour lancer l'application. Vous pouvez modifier le raccourci pour toujours démarrer de cette manière.
-
-## {{ fr.DVLSCONSOLE }}
-
-![{{ fr.DVLSCONSOLE }}](https://cdnweb.devolutions.net/docs/fr/server/ServerOp8005.png)
+La {{ fr.DVLSCONSOLE }} gère la metabase IIS. Elle doit être démarrée avec des privilèges élevés lorsqu'elle doit être utilisée. Des privilèges élevés sont accordés lorsque vous utilisez ***Exécuter en tant qu'administrateur*** pour lancer l'application. Vous pouvez modifier le raccourci pour toujours le démarrer de cette manière.
 
 ## Paramètres
 
-## Serveur
+{% snippet, "badgeHelp" %}
+Certaines fonctionnalités ne peuvent être gérées que depuis l'interface web. Veuillez voir [Paramètres du serveur](/server/web-interface/administration/configuration/server-settings/) pour plus d'informations.
+{% endsnippet %}
 
-![!!ServerOp4020](https://cdnweb.devolutions.net/docs/fr/server/ServerOp4020.png)
+### Serveur
 
-<table>
-	<tr>
-		<td>
-Option
-		</td>
-		<td>
-Description
-		</td>
-	</tr>
-	<tr>
-		<td>
-Actualiser
-		</td>
-		<td>
-Actualiser la liste des instances de {{ fr.DVLS }} dans la {{ fr.DVLSCONSOLE }}.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Nouveau
-		</td>
-		<td>
-Créer une nouvelle instance de {{ fr.DVLS }}.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Modifier
-		</td>
-		<td>
-Modifier les propriétés de l'instance {{ fr.DVLS }} sélectionnée.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Mettre à jour
-		</td>
-		<td>
-Mettre à jour l'instance {{ fr.DVLS }} sélectionnée.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Désinstaller
-		</td>
-		<td>
-Désinstaller l'instance {{ fr.DVLS }} sélectionnée.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Mot de passe
-		</td>
-		<td>
-Définir, Modifier ou Désactiver le mot de passe de l'instance {{ fr.DVLS }}.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Mettre hors-ligne
-		</td>
-		<td>
-Basculer l'instance {{ fr.DVLS }} sélectionnée en mode hors ligne/en ligne.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Arrêter le serveur / Démarrer le serveur
-		</td>
-		<td>
-Arrêter/Démarrer le {{ fr.DVLS }} IIS Application Pool.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Journaux
-		</td>
-		<td>
-Afficher les journaux de la source de données de l'instance de {{ fr.DVLS }} sélectionnée.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Accéder au site Web
-		</td>
-		<td>
-Ouvrir l'interface Web dans le navigateur par défaut.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Explorer
-		</td>
-		<td>
-Ouvrir l'explorateur de fichiers et pointer-le vers le dossier d'installation de l'instance {{ fr.DVLS }}.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Ouvrir le fichier de réponse
-		</td>
-		<td>
-Ouvrir le fichier de réponse pour rouler des commandes sur l'instance {{ fr.DVLS }}.
-		</td>
-	</tr>
-</table>
+![Serveur](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp0044.png)
 
-### Compagnons
+| Option                     | Description                                                                                                        |
+|----------------------------|--------------------------------------------------------------------------------------------------------------------|
+| Actualiser                 | Actualiser la liste des instances {{ fr.DVLS }} dans la {{ fr.DVLSCONSOLE }}.                                      |
+| Nouveau                    | [Créer une nouvelle instance {{ fr.DVLS }}](/server/getting-started/installation/create-server-instance/) ou migrer une source de données SQL. |
+| Modifier                   | Modifier les propriétés de l'instance {{ fr.DVLS }} sélectionnée.                                                  |
+| Mettre à jour              | Mettre à jour l'instance {{ fr.DVLS }} sélectionnée.                                                               |
+| Désinstaller               | Désinstaller l'instance {{ fr.DVLS }} sélectionnée.                                                                |
+| Mot de passe               | Définir, changer ou désactiver le mot de passe de l'instance {{ fr.DVLS }}.                                        |
+| Passer hors ligne          | Basculer l'instance {{ fr.DVLS }} sélectionnée en mode hors ligne/en ligne.                                        |
+| Arrêter le serveur / Démarrer le serveur | Arrêter/Démarrer le Pool d'applications IIS de {{ fr.DVLS }}.                                                    |
+| Journaux                   | Voir les journaux de la source de données de l'instance {{ fr.DVLS }} sélectionnée.                                |
+| Naviguer vers le site Web  | Ouvrir l'interface web dans le navigateur par défaut.                                                              |
+| Explorer                   | Ouvrir l'explorateur de fichiers et le pointer vers le dossier d'installation de l'instance {{ fr.DVLS }}.         |
+| Ouvrir le fichier de réponse | Ouvrir un fichier de réponse pour exécuter des commandes sur l'instance {{ fr.DVLS }}.                             |
 
-![!!ServerOp4021](https://cdnweb.devolutions.net/docs/fr/server/ServerOp4021.png)
+### Companions
 
-<table>
-	<tr>
-		<td>
-Service de planification
-		</td>
-		<td>
-Description
-		</td>
-	</tr>
-	<tr>
-		<td>
-Installer
-		</td>
-		<td>
-Installer le Service de planification.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Désinstaller
-		</td>
-		<td>
-Désinstaller le Service de planification.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Débuter/Arrêter
-		</td>
-		<td>
-Débuter ou Arrêter le Service de planification.
-		</td>
-    </tr>
-</table>
-  <br>
+![Companions](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp0045.png)
 
-<table>
-	<tr>
-		<td>
-Serveur d'enregistrement
-		</td>
-		<td>
-Description
-		</td>
-	</tr>
-	<tr>
-		<td>
-Installer
-		</td>
-		<td>
-Installer le Service d'enregistrement.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Mettre à jour
-		</td>
-		<td>
-Mettre à jour le Service d'enregistrement.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Désinstaller
-		</td>
-		<td>
-Désinstaller le Service d'enregistrement.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Explorer
-		</td>
-		<td>
-Parcourir le dossier dans lequel les fichiers d'enregistrement sont stockés.
-		</td>
-	</tr>
-</table>
-  <br>
+#### Service de planification
 
-<table>
-	<tr>
-		<td>
-{{ fr.DGW }}
-		</td>
-		<td>
-Description
-		</td>
-	</tr>
-	<tr>
-		<td>
-Installer
-		</td>
-		<td>
-Installer le {{ fr.DGW }}.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Modifier
-		</td>
-		<td>
-Modifier la configuration du {{ fr.DGW }}.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Mettre à jour
-		</td>
-		<td>
-Mettre à jour le {{ fr.DGW }}.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Désinstaller
-		</td>
-		<td>
-Désinstaller le {{ fr.DGW }}.
-		</td>
-	</tr>
-</table>
+| Option     | Description                          |
+|------------|--------------------------------------|
+| Installer  | Installer le service de planification.|
+| Désinstaller| Désinstaller le service de planification.|
+| Démarrer/Arrêter | Démarrer ou arrêter le service de planification.|
+
+#### Serveur d'enregistrement
+
+| Option    | Description                                             |
+|-----------|---------------------------------------------------------|
+| Installer | Installer le service d'enregistrement.                  |
+| Mettre à jour | Mettre à jour le service d'enregistrement.             |
+| Désinstaller | Désinstaller le service d'enregistrement.              |
+| Explorer  | Parcourir le dossier où les fichiers d'enregistrement sont stockés.|
+
+#### {{ fr.DGW }}
+
+| Option    | Description                                                    |
+|-----------|----------------------------------------------------------------|
+| Installer | [Installer le {{ fr.DGW }}](/dgw/server/server-configuration/).|
+| Modifier  | Modifier la configuration du {{ fr.DGW }}.                     |
+| Mettre à jour | Mettre à jour le {{ fr.DGW }}.                                 |
+| Désinstaller | Désinstaller le {{ fr.DGW }}.                                  |
 
 ### Outils
 
-![!!ServerOp4022](https://cdnweb.devolutions.net/docs/fr/server/ServerOp4022.png)
+![Outils](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp0046.png)
 
-<table>
-	<tr>
-		<td>
-Gestion des clés
-		</td>
-		<td>
-Description
-		</td>
-	</tr>
-	<tr>
-		<td>
-Importer
-		</td>
-		<td>
-Importer les clés de chiffrement.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Exporter
-		</td>
-		<td>
-Exporter les clés de chiffrement.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Régénérer
-		</td>
-		<td>
-Régénérer les clés de chiffrement.
-		</td>
-	</tr>
-</table>
-<br>
+#### Gestion des clés
 
-<table>
-	<tr>
-		<td>
-Base de données
-		</td>
-		<td>
-Description
-		</td>
-	</tr>
-	<tr>
-		<td>
-Régénérer les index
-		</td>
-		<td>
-Reconstruire les index des tables de la base de données SQL.
-		</td>
-	</tr>
-</table>
-<br>
+| Option     | Description                     |
+|------------|---------------------------------|
+| Importer   | Importer les clés de chiffrement.|
+| Exporter   | Exporter les clés de chiffrement.|
+| Régénérer  | Régénérer les clés de chiffrement.|
 
-<table>
-	<tr>
-		<td>
-Fournisseur de sécurité
-		</td>
-		<td>
-Description
-		</td>
-	</tr>
-	<tr>
-		<td>
-Supprimer le fournisseur de sécurité
-		</td>
-		<td>
-Supprimer le fournisseur de sécurité précédemment utilisé pour encrypter une partie des données contenues dans la base de données SQL.
-		</td>
-	</tr>
-</table>
+#### Base de données
+
+| Option          | Description                                 |
+|-----------------|---------------------------------------------|
+| Reconstruire les index | Reconstruire les index des tables de la base de données SQL.|
+
+#### Kit de récupération
+
+| Option   | Description                                                                                       |
+|----------|---------------------------------------------------------------------------------------------------|
+| Générer  | Générer un [kit de récupération](/server/management/recovery-kit/) local ou Azure Key Vault.      |
+| Télécharger | Télécharger un [kit de récupération](/server/management/recovery-kit/) Azure Key Vault précédemment généré.|
 
 ### Administration
 
-![!!ServerOp4023](https://cdnweb.devolutions.net/docs/fr/server/ServerOp4023.png)
+![Administration](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp0047.png)
 
-<table>
-		<td>
+| Option             | Description                                                                                                                                        |
+|--------------------|----------------------------------------------------------------------------------------------------------------------------------------------------|
+| Utilisateurs       | Ouvre la page de [gestion des utilisateurs](/server/web-interface/administration/security-management/users/) sur l'interface web de {{ fr.DVLS }}. |
+| Groupes d'utilisateurs | Ouvre la page de [gestion des groupes d'utilisateurs](/server/web-interface/administration/security-management/user-groups/) sur l'interface web de {{ fr.DVLS }}.|
+| {{ fr.VLT_MAJ }}s      | Ouvre la page de [gestion des {{ fr.VLT }}s](/server/web-interface/administration/security-management/vaults/) sur l'interface web de {{ fr.DVLS }}.|
+| Paramètres système | Ouvre la page des [paramètres système](/server/web-interface/administration/configuration/system-settings/) sur l'interface web de {{ fr.DVLS }}.    |
+| Permissions système| Ouvre la page des [permissions système](/server/web-interface/administration/configuration/system-permissions/) sur l'interface web de {{ fr.DVLS }}.|
+| Gestionnaire de sauvegarde | Ouvre la page du [gestionnaire de sauvegarde](/server/web-interface/administration/backup/backup-manager/) sur l'interface web de {{ fr.DVLS }}.    |
 
-Option
-		</td>
-		<td>
-Description
-		</td>
-	</tr>
-	<tr>
-		<td>
-Utilisateurs
-		</td>
-		<td>
-Ouvrir la page de [Gestion des Utilisateurs](/fr/server/web-interface/administration/security-management/users/) sur l'interface Web de {{ fr.DVLS }}.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Groupes d'utilisateurs
-		</td>
-		<td>
-Ouvrir la page de [Gestion des Groupes d'utilisateurs](/fr/server/web-interface/administration/security-management/user-groups/) sur l'interface Web de {{ fr.DVLS }}.
-		</td>
-	</tr>
-	<tr>
-		<td>
-{{ fr.VLT_MAJ }}s
-		</td>
-		<td>
-Ouvrir la page de [Gestion des {{ fr.VLT }}s](/fr/server/web-interface/administration/security-management/vaults/) sur l'interface Web de {{ fr.DVLS }}.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Paramètres du système
-		</td>
-		<td>
-Ouvrir la page des [Paramètres du système](/fr/server/web-interface/administration/configuration/system-settings/) sur l'interface Web de {{ fr.DVLS }}.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Permissions du système
-		</td>
-		<td>
-Ouvrir la page des [Permissions du système](/fr/server/web-interface/administration/configuration/system-permissions/) sur l'interface Web de {{ fr.DVLS }}.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Gestionnaire de copies de sauvegarde
-		</td>
-		<td>
-Ouvrir la page du [Gestionnaire de sauvegardes](/fr/server/web-interface/administration/backup/backup-manager/) sur l'interface Web de {{ fr.DVLS }}.
-		</td>
-	</tr>
-</table>
+### Support
 
-### Soutien
+![Support](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp0048.png)
 
-![!!ServerOp4024](https://cdnweb.devolutions.net/docs/fr/server/ServerOp4024.png)
-
-<table>
-	<tr>
-		<td>
-Option
-		</td>
-		<td>
-Description
-		</td>
-	</tr>
-	<tr>
-		<td>
-Journaux de l'application
-		</td>
-		<td>
-Ouvrir la boîte de dialogue des Journaux de l'application de la {{ fr.DVLSCONSOLE }}.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Ouvrir le dossier de copie d'installation
-		</td>
-		<td>
-Ouvrir le dossier de copie d'installation dans l'explorateur de fichiers Windows.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Enregistrer les informations du diagnostic
-		</td>
-		<td>
-Enregistrer le rapport de diagnostic dans un fichier texte.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Diagnostic d'IIS
-		</td>
-		<td>
-Exécuter le Diagnostic d'IIS.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Vérifier les mises à jour
-		</td>
-		<td>
-Vérifier les mises à jour disponibles pour la {{ fr.DVLSCONSOLE }}.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Options
-		</td>
-		<td>
-Régler les paramètres de la langue et les options de type de mise à jour.
-		</td>
-	</tr>
-</table>
+| Option                          | Description                                                       |
+|---------------------------------|-------------------------------------------------------------------|
+| Journaux d'application          | Ouvrir la boîte de dialogue des journaux d'application de la {{ fr.DVLSCONSOLE }}.|
+| Ouvrir le dossier de sauvegarde d'installation | Ouvrir le dossier de sauvegarde d'installation dans l'explorateur de fichiers Windows.|
+| Sauvegarder les informations de diagnostic | Sauvegarder le rapport de diagnostic dans un fichier texte.       |
+| Diagnostic IIS                  | Exécuter le diagnostic IIS.                                        |
+| Vérifier les mises à jour       | Vérifier les mises à jour disponibles pour la {{ fr.DVLSCONSOLE }}.|
+| Options                         | Paramètres de langue, thème et type de mise à jour.               |

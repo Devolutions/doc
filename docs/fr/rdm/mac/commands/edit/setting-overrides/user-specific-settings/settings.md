@@ -2,119 +2,45 @@
 eleventyComputed:
   title: Paramètres
 ---
-L'onglet ***Paramètres*** vous permet de remplacer le format de l'écran, la passerelle et vos disques durs.
+L'onglet Paramètres vous permet de remplacer la taille de l'écran, la passerelle et vos disques durs.
 
 ## Paramètres
 
-### Format de l'écran
-
+### Taille de l'écran
 {% snippet, "badgeInfo" %}
-Substituer le format de l'écran est visible que pour les sessions RDP.
+Remplacer la taille de l'écran est uniquement visible pour les sessions RDP.
 {% endsnippet %}
 
-Substituer le format de l'écran vous permet de personnaliser la taille de la fenêtre locale hébergeant la session distante.
-![Paramètres spécifiques de l'usager - Substituer le format de l'écran](https://cdnweb.devolutions.net/docs/fr/rdm/mac/clip4062.png)
+Remplacer la Taille de l'Écran vous permet de personnaliser la taille de la fenêtre locale hébergeant la session à distance.
+![Paramètres spécifiques de l'utilisateur - Remplacer la taille de l'écran](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10340.png)
 
-<table>
-	<tr>
-		<td>
-Option
-		</td>
-		<td>
-Description
-		</td>
-	</tr>
-	<tr>
-		<td>
-Taille du bureau à distance
-		</td>
-		<td>
-Indique la taille de fenêtre appropriée.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Largeur personnalisée
-		</td>
-		<td>
-Définir la largeur personnalisée de la fenêtre.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Hauteur personnalisée
-		</td>
-		<td>
-Définir la hauteur personnalisée de la fenêtre.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Mode de calibrage d'écran
-		</td>
-		<td>
-Vous pouvez sélectionner le mode de calibrage d'écran entre :
-
-* Barre de défilement
-* Résolution intelligente
-* Ajuster la fenêtre RPD (Smart sizing)
-* Résolution du serveur
-* Aucun
-		</td>
-	</tr>
-</table>
+| OPTION              | DESCRIPTION                             |
+|---------------------|-----------------------------------------|
+| Taille du bureau à distance | Indiquer la taille de fenêtre appropriée.        |
+| Largeur personnalisée        | Définir la largeur personnalisée de la fenêtre.  |
+| Hauteur personnalisée       | Définir la hauteur personnalisée de la fenêtre. |
+| Mode de dimensionnement de l'écran  | Vous pouvez sélectionner le mode de dimensionnement de l'écran entre :<ul><li>Barre de défilement</li><li>Reconnexion intelligente</li><li>Dimensionnement intelligent</li><li>Résolution du serveur</li><li>Aucun</li></ul> |
 
 ### Passerelle
-
-La ***Passerelle*** vous permet de personnaliser les identifiants de la passerelle RDP utilisée sur la session distante. Vous devez sélectionner les nouveaux identifiants à utiliser. Pour en savoir plus sur les options de remplacement des identifiants, veuillez suivre ce [lien](/fr/rdm/mac/commands/edit/setting-overrides/user-specific-settings/override-credentials/).
+Remplacer la passerelle vous permet de personnaliser les identifiants de la Passerelle RDP utilisés lors de la session à distance. Vous devez sélectionner les nouvelles informations d'identification à utiliser, pour en savoir plus sur les options de remplacement des identifiants, veuillez suivre ce [lien](UserSpecificSettings_Overridecredentials).
 
 {% snippet, "badgeInfo" %}
-***Substituer la passerelle*** est visible que pour les sessions RDP.
+Remplacer la passerelle est uniquement visible pour les sessions RDP.
 {% endsnippet %}
 
-![Paramètres spécifiques de l'usager - Substituer la passerelle](https://cdnweb.devolutions.net/docs/fr/rdm/mac/clip4063.png)
+![Paramètres spécifiques de l'utilisateur – Remplacer la passerelle](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10341.png)
 
 ### Disques durs
-
-Substituer les disques durs vous permet de personnaliser les disques durs RDP qui sont partagés avec la connexion de bureau à distance.
+Remplacer les disques durs vous permet de personnaliser les disques durs RDP qui sont partagés avec la connexion au bureau à distance.
 
 {% snippet, "badgeInfo" %}
-Substituer les disques durs est visible que pour les sessions RDP.
+Remplacer les disques durs est uniquement visible pour les sessions RDP.
 {% endsnippet %}
 
-![Paramètres spécifiques de l'usager - Substituer les disques durs](https://cdnweb.devolutions.net/docs/fr/rdm/mac/clip4064.png)
+![Paramètres spécifiques de l'utilisateur – Remplacer les disques durs](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10342.png)
 
-<table>
-	<tr>
-		<td>
-Option
-		</td>
-		<td>
-Description
-		</td>
-	</tr>
-	<tr>
-		<td>
-Rediriger tous les disques
-		</td>
-		<td>
-Partager tous vos disques durs dans la session à distance.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Rediriger le dossier d'accueil
-		</td>
-		<td>
-Partager vos dossiers personnels dans la session à distance.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Rediriger des dossiers spécifiques
-		</td>
-		<td>
-Partager un ou plusieurs disques durs spécifiques dans la session à distance.
-		</td>
-	</tr>
-</table>
+| OPTION                    | DESCRIPTION                                                                 |
+|---------------------------|-----------------------------------------------------------------------------|
+| Rediriger tous les disques durs  | Partager tous vos disques durs dans la session à distance.                        |
+| Rediriger le dossier personnel      | Partager vos dossiers personnels dans la session à distance.                              |
+| Rediriger des dossiers spécifiques | Partager un ou plusieurs disques durs spécifiques que vous souhaitez dans la session à distance. |

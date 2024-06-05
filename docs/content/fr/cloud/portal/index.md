@@ -1,14 +1,7 @@
 ---
 eleventyComputed:
   title: Portail
+  order: 40
 ---
-Dans la section [***Portail***](https://portal.devolutions.com/portal), vous pouvez gérer votre facturation et vos clés de licence des produits, y compris celle pour {{ fr.RDM }} Free et {{ fr.DVLS }} Free.
-
-![!!Cloud4043](https://cdnweb.devolutions.net/docs/fr/cloud/Cloud4043.png)
-
-* [Mes clés de licence](/fr/cloud/portal/serials/)
-* [Mes factures](/fr/cloud/portal/invoices/)
-* [Mes devis](/fr/cloud/portal/quotes/)
-* [Mon compte Affiliates](/fr/cloud/portal/affiliates-account/)
-* [{{ fr.DHUBB }}](/fr/cloud/hub-business/)
-* [{{ fr.DHUBP }}](/fr/cloud/hub-personal/)
+Dans la section [***Portail***](https://portal.devolutions.com/portal), consulter et gérer votre facturation et les numéros de série de vos produits, y compris le numéro de série pour {{ fr.RDM }} Gratuit et {{ fr.DVLS }} Gratuit.
+![!!Cloud4012](https://cdnweb.devolutions.net/docs/docs_en_cloud_Cloud4012.png)

@@ -2,60 +2,12 @@
 eleventyComputed:
   title: Général
 ---
-![Groupes d'utilisateurs - Général](https://cdnweb.devolutions.net/docs/fr/server/ServerOp8035.png)
+![Groupe d'utilisateurs – Général](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp8009.png)
 
-<table>
-	<tr>
-		<th>
-Option
-		</th>
-		<th>
-Description
-		</th>
-	</tr>
-	<tr>
-		<td>
-Type d'authentification
-		</td>
-		<td>
-
-Sélectionner le type d'authentification du groupe d'utilisateurs :
-
-* ***{{ fr.DVLS }}*** : Créer un groupe d'utilisateur dans {{ fr.DVLS }}.
-* ***Domaine*** : Groupe d'utilisateurs Active Directory.
-* ***Office 365*** : Groupe d'utilisateurs Office 365.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Domaine
-		</td>
-		<td>
-Domaine d'appartenance du groupe d'utilisateur.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Nom
-		</td>
-		<td>
-Nom du groupe d'utilisateurs.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Description
-		</td>
-		<td>
-Description du groupe d'utilisateurs.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Administrateur
-		</td>
-		<td>
-Accorde le privilège d'administrateur aux utilisateurs membres du groupe d'utilisateurs.
-		</td>
-	</tr>
-</table>
+## Groupes d'utilisateurs
+| Option             | Description                                                                |
+|--------------------|----------------------------------------------------------------------------|
+| Type d'authentification| Sélectionner le type d'authentification du groupe d'utilisateurs : <ul><li>{{ fr.DVLS }} : créer un groupe d'utilisateurs dans {{ fr.DVLS }}.</li><li>Domaine : groupe Active Directory.</li><li>Office365/Azure AD : groupe Azure AD.</li></ul> |
+| Domaine             | Nom du domaine où existe le groupe Active Directory.                 |
+| Nom               | Nom du groupe d'utilisateurs.                                                    |
+| Est administrateur   | Lorsqu'activé, octroie des droits d'administrateur aux membres du groupe d'utilisateurs. |

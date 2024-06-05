@@ -1,66 +1,29 @@
 ---
 eleventyComputed:
   title: Console Chocolatey
+  description: La Console Chocolatey est disponible dans le menu Outils – Plus d'Outils – Console Chocolatey. Elle vous permet d'installer toutes les applications prises en charge par Chocolatey directement depuis {{ fr.RDM }}.
 ---
 {% snippet, "badgeCaution" %}
-[Chocolatey](https://chocolatey.org/) doit être installé sur votre ordinateur pour utiliser la console Chocolatey.
+[Chocolatey](https://chocolatey.org/) doit être installé sur votre ordinateur pour utiliser la Console Chocolatey.
 {% endsnippet %}
 
-La Console Chocolatey est disponible dans le menu ***Outils - Plus d'outils - Console Chocolatey***. Il vous permet d'installer toutes les applications prises en charge de Chocolatey directement depuis {{ fr.RDM }}.
+La Console Chocolatey est disponible dans le menu Outils – Plus d'Outils – Console Chocolatey. Elle vous permet d'installer toutes les applications prises en charge par Chocolatey directement depuis {{ fr.RDM }}.
 
 ## Paramètres
 
-![Console Chocolatey](https://cdnweb.devolutions.net/docs/fr/rdm/windows/clip10371.png)
+![Console Chocolatey](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip10371.png)
 
-<table>
-	<tr>
-		<th>
-
-OPTION
-		</th>
-		<th>
-DESCRIPTION
-		</th>
-	</tr>
-	<tr>
-		<td>
-![!!clip10859](https://cdnweb.devolutions.net/docs/fr/rdm/windows/clip10859.png)
-		</td>
-		<td>
-Installer l'application sélectionnée.
-		</td>
-	</tr>
-	<tr>
-		<td>
-![!!clip10860](https://cdnweb.devolutions.net/docs/fr/rdm/windows/clip10860.png)
-		</td>
-		<td>
-Mettre à jour l'application sélectionnée.
-		</td>
-	</tr>
-	<tr>
-		<td>
-![!!clip10861](https://cdnweb.devolutions.net/docs/fr/rdm/windows/clip10861.png)
-		</td>
-		<td>
-Désinstaller l'application sélectionnée.
-		</td>
-	</tr>
-	<tr>
-		<td>
-![!!clip10862](https://cdnweb.devolutions.net/docs/fr/rdm/windows/clip10862.png)
-		</td>
-		<td>
-Actualiser la liste des détails Chocolatey.
-		</td>
-	</tr>
-</table>
+| OPTION       | DESCRIPTION                          |
+|--------------|--------------------------------------|
+| ![Icône Installer](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip10859.png) | Installer l'application sélectionnée.   |
+| ![Icône Mettre à jour](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip10860.png) | Mettre à jour l'application sélectionnée.     |
+| ![Icône Désinstaller](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip10861.png) | Désinstaller l'application sélectionnée.                                                                                                                     |
+| ![Icône Actualiser](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip10862.png) | Actualiser la liste des détails Chocolatey.|
 
 ## Utilisation
 
-Lors de l'installation, vous verrez la fenêtre suivante.
-![Installation Console Chocolatey](https://cdnweb.devolutions.net/docs/fr/rdm/windows/clip10372.png)
+Pendant l'installation, vous verrez la fenêtre suivante.
+![Fenêtre d'installation](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip10372.png)
 
-Une fois l'installation terminée, un crochet apparaît dans la colonne Installée (Installed).
-![Installation terminée](https://cdnweb.devolutions.net/docs/fr/rdm/windows/clip10405.png)
-
+Lorsque l'installation est terminée, vous verrez une coche dans la colonne ***Installé***.
+![Installation Complète](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip10405.png)

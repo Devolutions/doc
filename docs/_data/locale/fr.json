@@ -37,6 +37,13 @@
       "url": "/fr/kb/devolutions-customer-success/",
       "formattedName": "Base de connaissances de <b>Devolutions</b>"
     },
+    "pam": {
+      "isTopic": true,
+      "icon": "https://cdnweb.devolutions.net/images/projects/devolutions-pam/devolutions-pam-icon-shadow.svg",
+      "logo": "https://cdnweb.devolutions.net/images/projects/devolutions-pam/devolutions-pam-color-shadow.svg",
+      "url": "/fr/pam/overview/what-is-pam/",
+      "formattedName": "<b>Devolutions</b> PAM"
+    },
     "server": {
       "isTopic": true,
       "icon": "https://cdnweb.devolutions.net/images/projects/server/logos/server-icon-shadow.svg",
@@ -57,6 +64,20 @@
       "logo": "https://cdnweb.devolutions.net/images/projects/cloud/logos/cloud-color-shadow.svg",
       "url": "/fr/cloud/getting-started/devolutions-cloud-services/",
       "formattedName": "Services en ligne de <b>Devolutions</b>"
+    },
+    "workspace": {
+      "isTopic": true,
+      "icon": "https://cdnweb.devolutions.net/images/projects/workspace/logos/workspace-icon-shadow.svg",
+      "logo": "https://cdnweb.devolutions.net/images/projects/workspace/logos/workspace-color-shadow.svg",
+      "url": "/fr/workspace/overview/what-is-workspace/",
+      "formattedName": "Devolutions Workspace"
+    },
+    "powershell": {
+      "isTopic": true,
+      "icon": "https://cdnweb.devolutions.net/images/projects/devolutions-powershell/logos/devolutions-powershell-icon-shadow.svg",
+      "logo": "https://cdnweb.devolutions.net/images/projects/devolutions-powershell/logos/devolutions-powershell-color-shadow.svg",
+      "url": "/fr/powershell/overview/what-is-powershell/",
+      "formattedName": "Devolutions PowerShell"
     }
   },
   "placeholderSearch": "Rechercher dans toutes les ressources",

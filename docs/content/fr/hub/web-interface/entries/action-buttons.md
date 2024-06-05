@@ -2,158 +2,20 @@
 eleventyComputed:
   title: Boutons d'action
 ---
-L'affichage des ***Boutons d'action*** pour les entrées varie en fonction du type d'entrée sélectionné et de vos paramètres de {{ fr.DHUB }}.
-![Boutons d'action d'entrée](https://cdnweb.devolutions.net/docs/fr/hub/Hub2000.png)
+L'affichage des ***Boutons d'Action*** pour les entrées variera en fonction du type d'entrée sélectionné et de vos paramètres {{ fr.DHUB }}.
+![Boutons d'Action des Entrées](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub2076.png)
 
-<table>
-	<tr>
-		<th>
-Icon
-		</th>
-		<th>
-Option
-		</th>
-		<th>
-Description
-		</th>
-	</tr>
-	<tr>
-		<td>
-
-![!!entry-SampleView](https://cdnweb.devolutions.net/docs/fr/hub/Icons/entry-SampleView.png)
-		</td>
-		<td>
-Afficher mot de passe
-		</td>
-		<td>
-Afficher le champ du mot de passe de l'entrée sélectionnée.
-		</td>
-	</tr>
-	<tr>
-		<td>
-![!!entry-SampleKey1](https://cdnweb.devolutions.net/docs/fr/hub/Icons/entry-SampleKey1.png)
-		</td>
-		<td>
-Aller à
-		</td>
-		<td>
-Aller à l'endroit où les identifiants sont stockés ou d'où ils sont hérités.
-		</td>
-	</tr>
-	<tr>
-		<td>
-![!!copy-clipboard](https://cdnweb.devolutions.net/docs/fr/hub/Icons/copy-clipboard.png)
-		</td>
-		<td>
-Copier dans le presse-papiers
-		</td>
-		<td>
-Copier le champ de l'entrée sélectionnée (généralement le nom d'utilisateur ou le mot de passe).
-		</td>
-	</tr>
-	<tr>
-		<td>
-![!!password-history-bold](https://cdnweb.devolutions.net/docs/fr/hub/Icons/password-history-bold.png)
-		</td>
-		<td>
-Historique
-		</td>
-		<td>
-Afficher l'historique des changements de mot de passe dans cette entrée.
-		</td>
-	</tr>
-	<tr>
-		<td>
-![!!edit](https://cdnweb.devolutions.net/docs/fr/hub/Icons/edit.png)
-		</td>
-		<td>
-Modifier
-		</td>
-		<td>
-Modifier les propriétés de l'entrée sélectionnée
-		</td>
-	</tr>
-	<tr>
-		<td>
-![!!activate-launch](https://cdnweb.devolutions.net/docs/fr/hub/Icons/activate-launch.png)
-		</td>
-		<td>
-Ouvrir dans {{ fr.DLAUNCHER }}
-		</td>
-		<td>
-Lancer une session dans l'{{ fr.CTOOL }} {{ fr.DLAUNCHER }}.
-		</td>
-	</tr>
-	<tr>
-		<td>
-![!!logo-rdm](https://cdnweb.devolutions.net/docs/fr/hub/Icons/logo-rdm.png)
-		</td>
-		<td>
-Ouvrir dans {{ fr.RDM }}
-		</td>
-		<td>
-Lancer une session dans {{ fr.RDM }}.
-		</td>
-	</tr>
-	<tr>
-		<td>
-![!!earth](https://cdnweb.devolutions.net/docs/fr/hub/Icons/earth.png)
-		</td>
-		<td>
-Parcourir l'adresse URL
-		</td>
-		<td>
-Ouvrir l'URL du site Web spécifié dans un nouvel onglet.
-		</td>
-	</tr>
-	<tr>
-		<td>
-![!!more-vert](https://cdnweb.devolutions.net/docs/fr/hub/Icons/more-vert.png)
-		</td>
-		<td>
-Plus
-		</td>
-		<td>
-Afficher plus d'options pour l'entrée sélectionnée :
-
-* Copier
-* Déplacer
-* Envoyer
-* Supprimer
-* Demande d'accès temporaire
-		</td>
-	</tr>
-	<tr>
-		<td>
-![!!check-out](https://cdnweb.devolutions.net/docs/fr/hub/Icons/check-out.png)
-		</td>
-		<td>
-Réserver
-		</td>
-		<td>
-Réserver la session.
-		</td>
-	</tr>
-	<tr>
-		<td>
-![!!check-in](https://cdnweb.devolutions.net/docs/fr/hub/Icons/check-in.png)
-		</td>
-		<td>
-Restituer
-		</td>
-		<td>
-Restituer la session.
-		</td>
-	</tr>
-	<tr>
-		<td>
-![!!entry-SampleDownload](https://cdnweb.devolutions.net/docs/fr/hub/Icons/entry-SampleDownload.png) Télécharger
-		</td>
-		<td>
-Télécharger
-		</td>
-		<td>
-Télécharger une copie du fichier contenu dans l'entrée.
-		</td>
-	</tr>
-</table>
+| Icône | Option | Description |
+| --- | --- | --- |
+| ![!!Restituer](https://cdnweb.devolutions.net/docs/docs_en_hub_icons_check-in.png) | Restituer | Libérer la session de la réservation. |
+| ![!!Réserver](https://cdnweb.devolutions.net/docs/docs_en_hub_icons_check-out.png) | Réserver | Réserver la session. |
+| ![!!Copier dans le Presse-papiers](https://cdnweb.devolutions.net/docs/docs_en_hub_icons_copy-clipboard.png) | Copier dans le Presse-papiers | Copier le champ de l'entrée sélectionnée (généralement le nom d'utilisateur ou le mot de passe). |
+| ![!!Télécharger](https://cdnweb.devolutions.net/docs/docs_en_hub_icons_entry-SampleDownload.png) | Télécharger | Télécharger une copie du fichier contenu dans l'entrée. |
+| ![!!Modifier](https://cdnweb.devolutions.net/docs/docs_en_hub_icons_edit.png) | Modifier | Modifier les propriétés de l'entrée sélectionnée. |
+| ![!!Aller à](https://cdnweb.devolutions.net/docs/docs_en_hub_icons_entry-SampleKey1.png) | Aller à | Aller à l'endroit où les identifiants sont stockés/hérités. |
+| ![!!Historique](https://cdnweb.devolutions.net/docs/docs_en_hub_icons_password-history-bold.png) | Historique | Afficher l'historique des changements de mot de passe dans cette entrée. |
+| ![!!Plus](https://cdnweb.devolutions.net/docs/docs_en_hub_icons_more-vert.png) | Plus | Afficher plus d'options pour l'entrée sélectionnée : ***Copier***, ***Déplacer***, ***Envoyer***, ***Supprimer***, ***Demande d'Accès Temporaire*** |
+| ![!!Naviguer URL](https://cdnweb.devolutions.net/docs/docs_en_hub_icons_earth.png) | Naviguer URL | Ouvrir l'URL du site Web spécifié dans un nouvel onglet. |
+| ![!!Ouvrir dans {{ fr.DLAUNCHER }}](https://cdnweb.devolutions.net/docs/docs_en_hub_icons_activate-launch.png) | Ouvrir dans {{ fr.DLAUNCHER }} | Lancer une session dans le {{ fr.DLAUNCHER }}. |
+| ![!!Ouvrir dans {{ fr.RDM }}](https://cdnweb.devolutions.net/docs/docs_en_hub_icons_logo-rdm.png) | Ouvrir dans {{ fr.RDM }} | Lancer une session dans {{ fr.RDM }}. |
+| ![!!Révéler le mot de passe](https://cdnweb.devolutions.net/docs/docs_en_hub_icons_entry-SampleView.png) | Révéler le mot de passe | Afficher le champ de l'entrée sélectionnée. |

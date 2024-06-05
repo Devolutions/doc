@@ -2,8 +2,10 @@
 eleventyComputed:
   title: Menu du compte
   order: 20
+  description: Pour accéder au menu du compte de {{ fr.DVLS }}, cliquer sur les initiales ou le Gravatar.
 ---
-Pour accéder au ***Menu du compte*** de {{ fr.DVLS }}, cliquez sur les initiales ou le Gravatar. À partir de là, les utilisateurs peuvent afficher leurs [Informations de l'utilisateur](/fr/server/web-interface/account-menu/user-information/) ou gérer la configuration de leur [Compte](/fr/server/web-interface/account-menu/edit-account/), [Paramètres](/fr/server/web-interface/account-menu/settings/), [Gravatar](/fr/server/web-interface/account-menu/change-gravatar/) et [Mot de passe](/fr/server/web-interface/account-menu/change-password/). Le menu comprend également des liens rapides vers la [documentation (Aide en ligne) de {{ fr.DVLS }}](/fr/server/overview/what-is-server/), le [Forum](https://forum.devolutions.net/product/server) et pour [Soumettre un billet au soutien](/fr/server/web-interface/account-menu/submit-support-ticket/).
+Pour accéder au menu ***Compte*** de {{ fr.DVLS }}, cliquer sur les initiales ou le Gravatar. De là, les utilisateurs peuvent gérer leur [Compte](/server/web-interface/account-menu/edit-account/), [Gravatar](/server/web-interface/account-menu/change-gravatar/), [Préférences de notifications](/server/web-interface/account-menu/notifications-preferences), [Préférences](/server/web-interface/account-menu/settings/), ou consulter leurs [Informations utilisateur](/server/web-interface/account-menu/user-information/). Le menu inclut également des liens rapides vers le [Forum](https://forum.devolutions.net/product/server), la [documentation (Aide en ligne)](/server/), et une option pour [Soumettre un ticket de support](/server/web-interface/account-menu/submit-support-ticket/).
 
-Déconnectez-vous de {{ fr.DVLS }} à partir du ***Menu du compte***.
-![Menu du compte](https://cdnweb.devolutions.net/docs/fr/server/ServerOp8018.png)
+***Se déconnecter*** de {{ fr.DVLS }} depuis le menu ***Compte***.
+
+![Menu du compte](https://cdnweb.devolutions.net/docs/DVLS2000_2024_1.png)

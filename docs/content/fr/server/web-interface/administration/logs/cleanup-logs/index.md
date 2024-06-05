@@ -1,104 +1,18 @@
 ---
 eleventyComputed:
-  title: Effacer les journaux
+  title: Nettoyer les journaux
 ---
-La fonctionnalité ***Effacer les journaux*** permet d'archiver les journaux présents dans la base de données qui sont plus anciens qu'une période définie dans les paramètres sélectionnés. Aussi, ces archives peuvent aussi être supprimées s'ils sont plus anciens que la période limite sélectionnée dans les paramètres.
-![Administration - Effacer les journaux](https://cdnweb.devolutions.net/docs/fr/server/ServerOp8151.png)
+La fonctionnalité ***Nettoyer les journaux*** permettra d'archiver les journaux disponibles dans la base de données qui sont plus anciens que la période sélectionnée. Elle peut également supprimer ces journaux archivés en fonction de la limite de temps sélectionnée dans les paramètres.
+![Nettoyer les journaux](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp8160.png)
 
-<table>
-	<tr>
-		<th>
-
-Option
-		</th>
-		<th>
-Description
-		</th>
-	</tr>
-	<tr>
-		<td>
-Activer l'effacement automatique
-		</td>
-		<td>
-Active l'archivage et l'effacement automatique des journaux présents dans la base de données.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Effectuer à chaque jour à
-		</td>
-		<td>
-Heure d'exécution quotidienne de l'archivage et de l'effacement des journaux.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Utiliser l'archivage
-		</td>
-		<td>
-Lorsqu'activé, permet d'archiver les journaux dans la base de données avant de les supprimer définitivement selon les options sélectionnées.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Archiver les journaux plus anciens que
-		</td>
-		<td>
-Sélectionner la période à laquelle les journaux seront conservés dans les tables courantes de la base de données.Toutes les entrées de journaux ayant une date de création plus vieille que le paramètre sélectionné seront archivées.
-
-Choix possibles :
-
-* ***Un mois***
-* ***Trois mois***
-* ***Six mois***
-* ***Un an***
-* ***Deux ans***
-		</td>
-	</tr>
-	<tr>
-		<td>
-Supprimer les journaux archivés plus anciens que
-		</td>
-		<td>
-Sélectionner la période à laquelle les journaux archivés seront conservés dans les tables d'archives dans la base de données. Toutes les entrées archivées des journaux plus vieilles que le paramètre sélectionné seront supprimées définitivement des tables d'archives de la base de données.
-
-Choix possibles :
-
-* ***Trois mois***
-* ***Six mois***
-* ***Un an***
-* ***Deux ans***
-		</td>
-	</tr>
-	<tr>
-		<td>
-Sauter l'archivage et supprimer de façon permanente
-		</td>
-		<td>
-Activer cette option pour supprimer les journaux définitivement sans les archiver dans la base de données.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Supprimer les journaux plus anciens que
-		</td>
-		<td>
-Sélectionner la période à laquelle les journaux seront supprimés définitivement des tables d'archives de la base de données.
-
-Choix possibles :
-
-* ***Trois mois***
-* ***Six mois***
-* ***Un an***
-* ***Deux ans***
-		</td>
-	</tr>
-	<tr>
-		<td>
-Avancée
-		</td>
-		<td>
-[Configuration avancée](/fr/server/web-interface/administration/logs/cleanup-logs/advanced-cleanup-logs-configuration/) pour sélectionner les conditions d'archivages et de suppressions de chacun des journaux individuellement.
-		</td>
-	</tr>
-</table>
+## Nettoyer les journaux
+| Option                                | Description                                                                         |
+|---------------------------------------|-------------------------------------------------------------------------------------|
+| Activer le nettoyage automatique              | Activer la fonction de nettoyage automatique des journaux pour archiver et supprimer automatiquement les journaux. |
+| Exécuter tous les jours à                      | Définir l'heure à laquelle la fonction sera exécutée. |
+| Utiliser l'archivage                         | Si activé, la tâche archivera et supprimera les journaux en fonction de la période sélectionnée dans les deux listes déroulantes. |
+| Archiver les journaux plus anciens que               | Archivera les journaux qui sont plus anciens que la valeur sélectionnée dans la liste déroulante.<ul><li>Personnalisé</li><li>Un mois</li><li>Trois mois</li><li>Six mois</li><li>Un an</li></ul> |
+| Supprimer les journaux archivés plus anciens que       | Supprimera tous les journaux archivés qui sont plus anciens que la valeur sélectionnée dans la liste déroulante.<ul><li>Trois mois</li><li>Six mois</li><li>Un an</li><li>Deux ans</li></ul> |
+| Ignorer l'archivage et supprimer définitivement | Si activé, n'archivera pas les journaux et les supprimera définitivement.              |
+| Supprimer les journaux plus anciens que                | Supprimera définitivement tous les journaux plus anciens que la valeur sélectionnée dans la liste déroulante.<ul><li>Personnalisé</li><li>Un mois</li><li>Trois mois</li><li>Six mois</li><li>Un an</li><li>Deux ans</li></ul> |
+| Avancé                              | La configuration [Avancée](/server/web-interface/administration/logs/cleanup-logs/advanced-cleanup-logs-configuration/) est destinée à configurer l'archivage et la suppression des opérations sur chaque type de journaux. |

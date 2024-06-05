@@ -1,22 +1,14 @@
 ---
 eleventyComputed:
-  title: Configurer le serveur SQL
+  title: Configurer SQL Server
+  description: Installer SQL Server ou SQL Server Express (cette édition est gratuite). Pour une sécurité renforcée, vous pouvez activer le chiffrement SSL pour communiquer avec votre instance de SQL Server.
 ---
-### Microsoft SQL Server
+Installer SQL Server ou SQL Server Express (cette édition est gratuite). Pour une sécurité renforcée, activer le chiffrement SSL pour communiquer avec votre instance de SQL Server.
+Veuillez suivre les instructions sur [Configurer le moteur de base de données SQL Server pour le chiffrement des connexions](https://learn.microsoft.com/en-US/sql/database-engine/configure-windows/configure-sql-server-encryption).
 
-1. Installer SQL Server ou SQL Server Express (cette édition est gratuite).
-{% snippet, "badgeInfo" %}
-Les instances SQL Server nouvellement installées n'autorisent pas les connexions à distance. Veuillez suivre les instructions de SQL Server.
-{% endsnippet %}
-
-{% snippet, "shieldNotice" %}
-Pour plus de sécurité, vous pouvez activer le cryptage SSL pour communiquer avec votre instance de SQL Server.
-Veuillez suivre les instructions sur [Configurer le moteur de base de données SQL Server pour le chiffrement des connexions](https://learn.microsoft.com/fr-ca/sql/database-engine/configure-windows/configure-sql-server-encryption).
-{% endsnippet %}
-
-2. Pour créer une base de données vide, sélectionner ***Fichier - Sources de données - Ajouter***.
-![Ajouter une source de données](https://cdnweb.devolutions.net/docs/fr/rdm/mac/clip0227.png)
+1. Pour créer une base de données vide, sélectionner ***Fichier – Sources de données – Ajouter***.
+![!!clip10088](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10088.png)
 1. Choisir ***Microsoft SQL Server*** dans la liste.
-![Liste de source de données](https://cdnweb.devolutions.net/docs/fr/rdm/mac/clip0228.png)
-1. Configurer la connexion et exécuter un test à l'aide du bouton ***Tester Serveur***.
-![Configuration Microsoft SQL Server](https://cdnweb.devolutions.net/docs/fr/rdm/mac/clip0229.png)
+![!!clip10089](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10089.png)
+1. Configurer la connexion et effectuer un test en utilisant ***Test Server***.
+![Configuration de la source de données SQL Server](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip11017.png)

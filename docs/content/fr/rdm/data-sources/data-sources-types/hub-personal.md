@@ -1,51 +1,29 @@
 ---
 eleventyComputed:
   title: "{{ fr.DHUBP }}"
+  description: "{{ fr.DHUBP }} est destiné aux utilisateurs individuels qui souhaitent sécuriser leurs mots de passe personnels dans un {{ fr.VLT }} sécurisé gratuitement."
 ---
-{{ fr.DHUBP }} est pour les utilisateurs individuels qui souhaitent sécuriser gratuitement leurs mots de passe personnels dans un {{ fr.VLT }}.
+{{ fr.DHUBP }} est destiné aux utilisateurs individuels qui souhaitent sécuriser leurs mots de passe personnels dans un {{ fr.VLT }} sécurisé gratuitement.
 
-Veuillez consulter notre site [Web](https://devolutions.net/password-hub/fr/personal) pour plus d'informations sur ce service.
+Veuillez consulter notre [site Web](https://devolutions.net/password-hub/personal) pour plus d'informations sur ce service.
 
 ## Paramètres
 
 ### Général
 
-![!!RdmWin4038](https://cdnweb.devolutions.net/docs/fr/rdm/windows/RdmWin4038.png)
+![!!RDMWin2222](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin2222.png)
 
-<table>
-	<tr>
-		<th
-OPTION
-		</th>
-		<th>
-DESCRIPTION
-		</th>
-	</tr>
-	<tr>
-		<td>
-Nom
-		</td>
-		<td>
-Nom de la source de données.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Nom d'utilisateur
-		</td>
-		<td>
-L'adresse courriel de votre [{{ fr.DA }}](https://portal.devolutions.com/). Vous pouvez en créer un gratuitement, suivez le lien fourni dans la fenêtre.
-		</td>
-	</tr>
-</table>
+| OPTION   | DESCRIPTION |
+|----------|-------------|
+| Nom      | Nom de la source de données. |
+| Nom d'utilisateur | Votre adresse email [{{ fr.DA }}](https://portal.devolutions.com/). Vous pouvez en créer une gratuitement, suivez simplement le lien fourni. |
 
 ### VPN
 
 Ouvrir un ***VPN*** pour accéder à vos données avant de vous connecter à votre {{ fr.DHUB }}.
-![!!RdmWin4039](https://cdnweb.devolutions.net/docs/fr/rdm/windows/RdmWin4039.png)
+![!!RDMWin2223](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin2223.png)
 
-### Avancée
+### Avancé
 
-Il s'agit de l'adresse du serveur.
-![!!RdmWin4040](https://cdnweb.devolutions.net/docs/fr/rdm/windows/RdmWin4040.png)
-
+Ceci est l'adresse du ***Serveur***.
+![!!RDMWin2224](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin2224.png)

@@ -1,29 +1,29 @@
 ---
 eleventyComputed:
-  title: Modifier le courriel d'un compte
+  title: Changer l'email d'un compte
 ---
 {% snippet, "shieldWarning" %}
-Pour des raisons de sécurité, nous n'effectuons plus de changement de courriel de {{ fr.DA }}.
+Pour des raisons de sécurité, nous ne réalisons plus les demandes de changement d'email pour le {{ fr.DA }}.
 {% endsnippet %}
 
-Pour modifier votre courriel de {{ fr.DA }}, vous devez [Créer un nouveau compte](/fr/cloud/devolutions-account/create-devolutions-account/) et transférer les données que vous souhaitez conserver. Voici une liste de certaines des données les plus courantes qui pourraient devoir être transférées :
+Pour changer votre email {{ fr.DA }}, vous devrez [Créer un nouveau compte](/cloud/devolutions-account/create-devolutions-account/) et transférer les données que vous souhaitez conserver. Voici une liste de certaines des données les plus courantes qui pourraient nécessiter d'être transférées :
 
-* [Clés de licence](/fr/cloud/portal/serials/) : Ajouter manuellement les clés de licence des produits Devolutions que vous avez achetés précédemment à votre nouveau compte.
-* [Factures](/fr/cloud/portal/invoices/) : Si certaines factures doivent être associées au nouveau compte, contacter notre [service des ventes](mailto:sales@devolutions.net).
-* [{{ fr.DHUBP }}](/fr/cloud/hub-personal/) : Importer et exporter vos entrées de source de données {{ fr.DHUBP }} [avec {{ fr.RDM }}](/fr/kb/remote-desktop-manager/how-to-articles/export-import-entries/) ou au format Json directement [à partir de {{ fr.DHUBP }} (EN)](/hub/web-interface/tools/import-export/) dans ***Outils – Exporter***.
-* [{{ fr.DHUBB }}](/fr/cloud/hub-business/) : Si vous êtes le propriétaire d'un {{ fr.DHUBB }}, transférer la [Propriété](/fr/hub/web-interface/administration/management/users/hub-ownership/) à un autre administrateur puis demander une invitation avec le nouveau compte.
-* [Sauvegarde en ligne](/fr/cloud/rdm-online-services/online-backup/) : Les sauvegardes sont stockées et liées à chaque {{ fr.DA }}. Pour cette raison, vous n'y aurez pas accès sous le nouveau {{ fr.DA }}.
+* [Numéros de série](/cloud/portal/serials/) : Ajouter manuellement vos numéros de série des produits Devolutions que vous avez précédemment achetés à votre nouveau compte.
+* [Factures](/cloud/portal/invoices/) : Si certaines factures doivent être associées au nouveau compte, contactez notre [département des ventes](mailto:sales@devolutions.net).
+* [{{ fr.DHUBP }}](/cloud/hub-personal/) : Importer et exporter vos entrées de source de données {{ fr.DHUBP }} [avec {{ fr.RDM }}](/rdm/kb/rdm-windows/how-to-articles/export-import-entries/) ou au format Json directement [depuis {{ fr.DHUBP }}](/hub/web-interface/tools/import-export/) dans ***Outils – Exporter***.
+* [{{ fr.DHUBB }}](/cloud/hub-business/) : Si vous êtes le propriétaire d'un {{ fr.DHUBB }}, changez le [Propriétaire](/hub/web-interface/administration/management/users/hub-ownership/) pour un autre administrateur, puis demandez une invitation avec le nouveau compte.
+* [{{ fr.OBACK }}](/cloud/rdm-online-services/online-backup/) : Les sauvegardes sont stockées et liées à chaque {{ fr.DA }}. Pour cette raison, vous n'aurez pas accès sous le nouveau {{ fr.DA }}.
 
 {% snippet, "badgeInfo" %}
-Si vous avez des inquiétudes ou des questions, contactez-nous à [service@devolutions.net](mailto:service@devolutions.net).
+Si vous avez des préoccupations ou des questions, contactez-nous à [service@devolutions.net](mailto:service@devolutions.net).
 {% endsnippet %}
 
-Pour supprimer l'ancien compte (si nécessaire), cliquer sur ***Supprimer le compte***.
+Pour supprimer l'ancien compte (si nécessaire), cliquez sur ***Supprimer le compte***.
+
 {% snippet, "badgeWarning" %}
-CETTE ACTION NE PEUT PAS ÊTRE ANNULÉE!
+CETTE ACTION EST IRRÉVERSIBLE !
 
-Une fois que vous avez supprimé un compte, les données et les informations du compte sont supprimées définitivement.
+Une fois que vous avez supprimé un compte, les données et les informations du compte sont supprimées de manière permanente.
 {% endsnippet %}
 
-![!!Cloud4001](https://cdnweb.devolutions.net/docs/fr/cloud/Cloud4001.png)
-
+![!!Cloud4002](https://cdnweb.devolutions.net/docs/docs_en_cloud_Cloud4002.png)

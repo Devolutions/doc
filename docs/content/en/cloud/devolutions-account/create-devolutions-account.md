@@ -1,4 +1,5 @@
 ---
+_schema: default
 eleventyComputed:
   title: Create your {{ en.DA }}
 ---
@@ -12,9 +13,10 @@ Create your free {{ en.DA }} by following the steps below.
 
    ![Account information](https://cdnweb.devolutions.net/docs/docs_en_cloud_Cloud4015.png)
 
-4. Go to your email inbox and open the activation email that was sent to you. {% snippet, "badgeCaution" %} The activation link email might be in your spam/junk folder. For Gmail accounts, also check the ***Promotions*** folder.
+4. Go to your email inbox and open the activation email that was sent to you.
+   {% snippet, "badgeCaution" %} The activation link email might be in your spam/junk folder. For Gmail accounts, also check the ***Promotions*** folder.
 
-      It may take some time to receive it. If you do not receive the email, follow the [Forgotten password](#forgotten-password) steps below. {% endsnippet %}
+   It may take some time to receive it. If you do not receive the email, follow the [Forgotten password](#forgotten-password) steps below. {% endsnippet %}
 
    ![activation](https://cdnweb.devolutions.net/docs/docs_en_cloud_Cloud4023.png)
 

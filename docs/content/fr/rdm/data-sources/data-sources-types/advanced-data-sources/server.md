@@ -1,273 +1,82 @@
 ---
 eleventyComputed:
   title: "{{ fr.DVLS }}"
+  description: "{{ fr.DVLS }} permet de contrôler l'accès aux comptes privilégiés et de gérer les sessions via une solution sécurisée. Pour plus d'informations, consulter la page web de {{ fr.DVLS }}."
 ---
-<table>
-	<tr>
-		<td>
+{{ fr.DVLS }} (DVLS) permet de contrôler l'accès aux comptes privilégiés et de gérer les sessions via une solution sécurisée. Pour plus d'informations, consulter la [page web de {{ fr.DVLS }}](https://devolutions.net/server/).
 
-![!!logo-dvls](https://cdnweb.devolutions.net/docs/docs_common_logo-dvls.png)
-		</td>
-		<td>
-***{{ fr.DVLS }}*** est un {{ fr.VLT }} autohébergé pour stocker et partager vos connexions et identifiants à distance. Vous pouvez trouver plus d'informations sur la [page Web de {{ fr.DVLS }}](https://devolutions.net/server/fr).
-		</td>
-	</tr>
-</table>
+## Points forts
 
-### Points forts
-
-* Serveur de sécurité haut de gamme pour votre entreprise.
-* Partager vos sessions avec plusieurs utilisateurs ainsi que vos identifiants.
-* Installé sur place et peut être déployé en ligne.
-* Prends en charge l'authentification Windows et l'intégration de groupe Active Directory.
+* Serveur hautement sécurisé pour votre entreprise.
+* Partager la connexion et les identifiants avec plusieurs utilisateurs.
+* Installé localement ; peut être déployé en ligne.
+* Prend en charge l'authentification Windows et l'intégration de groupe Active Directory.
 * Optimisation de la mise en cache côté client et serveur.
 
 {% snippet, "badgeInfo" %}
-À l'heure actuelle, {{ fr.DVLS }} prend uniquement en charge SQL Server et Azure SQL en tant que base de données.
+{{ fr.DVLS }} prend en charge Microsoft SQL Server et Microsoft Azure SQL comme magasin de données.
 {% endsnippet %}
 
-Pour plus d'informations, veuillez consulter ces rubriques :
+Pour plus d'informations, veuillez consulter ces sujets :
 
-* [Installation de {{ fr.DVLS }}](/fr/server/installation/)
-* [Liste de vérification relative à la sécurité](/fr/server/getting-started/security-checklist/)
+* [Instructions d'installation de {{ fr.DVLS }}](/server/getting-started/installation/)
+* [Liste de vérification de sécurité de {{ fr.DVLS }}](/server/getting-started/security-checklist/)
 
-## Configurer la source de données du serveur sur toutes vos machines clientes.
+## Configurer la source de données du serveur sur les machines clientes
+Entrer le nom de la source de données et l'URL pour l'hôte. Assurez-vous d'utiliser le protocole correct si SSL est requis par le serveur (https).
 
-Entrer le nom de la source de données et l'URL du serveur. Assurez-vous d'utiliser le bon protocole si SSL est requis par le serveur (HTTPS).
+Exporter la source de données, puis importer le fichier dans les postes clients comme décrit dans [Importer/Exporter une source de données](https://docs.devolutions.net/rdm/data-sources/import-export/).
 
-Vous pouvez également exporter les informations sur la source de données, puis importer le fichier dans vos postes de travail clients, comme décrit dans [Importer/Exporter](/fr/rdm/windows/data-sources/data-sources-types/import-export/) la source de données.
-
-## Paramètres
+## Paramètres des sources de données
 
 ### Général
 
-![{{ fr.DVLS }} - Général](https://cdnweb.devolutions.net/docs/fr/rdm/windows/clip11355.png)
+![Source de données {{ fr.DVLS }} – Général](https://cdnweb.devolutions.net/docs/RDMW4057_2024_1.png)
 
-<table>
-	<tr>
-		<th>
-
-OPTION
-		</th>
-		<th>
-DESCRIPTION
-		</th>
-	</tr>
-	<tr>
-		<td>
-Nom
-		</td>
-		<td>
-Nom de la source de données.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Hôte
-		</td>
-		<td>
-Nom de l'hôte (URL) de {{ fr.DVLS }}.
-
-Exemple: `http://<hostname or IP address>/<instance name>`
-		</td>
-	</tr>
-	<tr>
-		<td>
-Utiliser l'authentification Windows
-		</td>
-		<td>
-Utiliser les mêmes identifiants que votre utilisateur Windows actuel.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Utiliser l'authentification Office365
-		</td>
-		<td>
-Utiliser les mêmes identifiants que votre utilisateur Office365 actuel. Choisir une option d'authentification :
-
-* ***Par défaut*** : Créer un nouveau jeton d'authentification à chaque fois et le conserve uniquement en mémoire.
-* ***Permanent*** : Prends le jeton enregistré, s'il n'existe pas, en crée un nouveau et l'enregistre.
-* ***Compte lié*** : Prends un jeton enregistré à partir de Windows (registre).
-		</td>
-	</tr>
-	<tr>
-		<td>
-Demander les identifiants
-		</td>
-		<td>
-Always ask for the username and password when connecting to the data source.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Nom d'utilisateur
-		</td>
-		<td>
-Nom d'utilisateur pour se connecter à la source de données.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Mot de passe
-		</td>
-		<td>
-Mot de passe pour se connecter à la source de données..
-		</td>
-	</tr>
-	<tr>
-		<td>
-Toujours demander le mot de passe
-		</td>
-		<td>
-Toujours demander le mot de passe lors de la connexion à la source de données.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Tester connexion
-		</td>
-		<td>
-Tester la connexion avec {{ fr.DVLS }} pour valider si les informations appropriées ont été fournies..
-		</td>
-	</tr>
-</table>
-
-### Paramètres
-
-![{{ fr.DVLS }} - Paramètres](https://cdnweb.devolutions.net/docs/fr/rdm/windows/clip11356.png)
-
-<table>
-	<tr>
-		<th>
-
-OPTION
-		</th>
-		<th>
-DESCRIPTION
-		</th>
-	</tr>
-	<tr>
-		<td>
-Mode d'accès outils à distances
-		</td>
-		<td>
-Sélectionner votre mode d'accès aux outils à distance entre :
-
-* Local
-* Via une source de données
-		</td>
-	</tr>
-	<tr>
-		<td>
-Gérer la cache
-		</td>
-		<td>
-Gérer votre cache sur votre ordinateur pour l'analyser, le vider, le réparer ou le supprimer. Cela peut être très utile lorsque vous rencontrez des problèmes hors ligne. Pour plus d'informations, veuillez suivre ce [lien](/fr/rdm/windows/data-sources/manage-cache/).
-		</td>
-	</tr>
-</table>
+| OPTION                       | DESCRIPTION |
+|------------------------------|-------------|
+| Nom                         | Entrer un nom pour la source de données. |
+| Hôte                         | Entrer l'URL de l'instance {{ fr.DVLS }}. <br> Exemple : http://<nom d'hôte ou adresse IP>/<nom de l'instance> |
+| Utiliser l'authentification unique (SSO) du domaine | Utiliser l'authentification unique (SSO) du domaine [si précédemment configurée](/server/kb/how-to-articles/configure-windows-authentication/) dans l'instance {{ fr.DVLS }}. |
+| Nom d'utilisateur                     | Entrer le nom d'utilisateur pour se connecter à la source de données. |
+| Toujours demander le nom d'utilisateur          | Toujours demander le nom d'utilisateur lors de la connexion à la source de données. |
+| Tester la connexion              | Tester la connexion avec {{ fr.DVLS }} pour valider les identifiants. |
 
 ### {{ fr.UVLT_MAJ }}
 
-![{{ fr.DVLS }} – {{ fr.UVLT_MAJ }}](https://cdnweb.devolutions.net/docs/fr/rdm/windows/clip3603.png)
+![{{ fr.DVLS }} – source de données {{ fr.UVLT_MAJ }}](https://cdnweb.devolutions.net/docs/RDMW4058_2024_1.png)
 
-<table>
-	<tr>
-		<th>
-
-OPTION
-		</th>
-		<th>
-DESCRIPTION
-		</th>
-	</tr>
-	<tr>
-		<td>
-Type
-		</td>
-		<td>
-Sélectionner le type de [{{ fr.UVLT }}](/fr/rdm/windows/data-sources/data-sources-types/advanced-data-sources/user-vault/) à utiliser. Choisir entre :
-
-* ***Par défaut*** : utilise le {{ fr.UVLT }} par défaut, qui est stocké dans la base de données.
-* ***Aucun*** : désactive le {{ fr.UVLT }} pour tous les utilisateurs.
-* ***{{ fr.DOD }}*** : utilise un fichier {{ fr.DOD }} (*.dod) comme {{ fr.UVLT }}.
-		</td>
-	</tr>
-</table>
+| OPTION | DESCRIPTION |
+|--------|-------------|
+| Type   | Sélectionner le type de [{{ fr.UVLT }}](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/user-vault/) à utiliser. Sélectionner entre : <ul><li>***Défaut*** : utiliser le {{ fr.UVLT }} par défaut, qui est stocké dans la base de données.</li><li>***Aucun*** : désactiver le {{ fr.UVLT }} pour tous les utilisateurs.</li><li>***{{ fr.DOD }}*** : utiliser un fichier {{ fr.DOD }} (*.dod) comme {{ fr.UVLT }}.</li></ul> |
 
 ### VPN
 
-Ouvrir un VPN pour accéder à vos données avant de vous connecter à votre {{ fr.DVLS }}.
-![{{ fr.DVLS }} - VPN](https://cdnweb.devolutions.net/docs/fr/rdm/windows/DPSVPN.png)
+Ouvrir un VPN pour accéder aux données avant de se connecter à {{ fr.DVLS }}.
+![{{ fr.DVLS }} – VPN](https://cdnweb.devolutions.net/docs/RDMW4059_2024_1.png)
+
+### PowerShell
+
+![{{ fr.DVLS }} – PowerShell](https://cdnweb.devolutions.net/docs/RDMW4060_2024_1.png)
+
+| OPTION | DESCRIPTION |
+|--------|-------------|
+| ID de locataire | Stocke l'ID de locataire de l'application pour que PowerShell puisse le récupérer. | 
+| Mot de passe | Stocke le mot de passe de l'application pour que PowerShell puisse le récupérer. | 
 
 ### Avancé
 
-![{{ fr.DVLS }} - Avancé](https://cdnweb.devolutions.net/docs/fr/rdm/windows/clip10815.png)
+![{{ fr.DVLS }} – Avancé](https://cdnweb.devolutions.net/docs/RDMW4061_2024_1.png)
 
-<table>
-	<tr>
-		<th>
-
-OPTION
-		</th>
-		<th>
-DESCRIPTION
-		</th>
-	</tr>
-	<tr>
-		<td>
-Mode de la cache
-		</td>
-		<td>
-Détermine comment les entrées seront rechargées dans la source de données. Voir [Mode de la cache](/fr/rdm/windows/data-sources/caching/) pour plus d'informations.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Mode ping en ligne
-		</td>
-		<td>
-Indique le mode de ping préféré en ligne. Choisir entre :
-
-* Aucun
-* Requête Web
-		</td>
-	</tr>
-	<tr>
-		<td>
-Fenêtre expiration de licence
-		</td>
-		<td>
-Déterminer comment l'application vous informe de l'expiration de la licence. Choisir entre :
-
-* Tous
-* Administrateur(s) seulement
-* Désactivé
-		</td>
-	</tr>
-	<tr>
-		<td>
-Actualisation automatique
-		</td>
-		<td>
-Définir l'intervalle d'actualisation automatique.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Demander le mode hors-ligne au démarrage
-		</td>
-		<td>
-Chaque fois que vous vous connecterez à votre source de données, vous serez invité à utiliser la source de données en mode hors ligne.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Déconnexion auto
-		</td>
-		<td>
-Utiliser la source de données en mode hors ligne lorsque la méthode ping ne répond pas.
-		</td>
-	</tr>
-</table>
+| OPTION                          | DESCRIPTION |
+|---------------------------------|-------------|
+| Mode de mise en cache                    | Détermine comment les entrées seront rechargées dans la source de données. Pour plus d'informations, veuillez consulter [Mise en cache](/rdm/windows/data-sources/caching/).                        |
+| Méthode de ping en ligne              | Indiquer la méthode de ping en ligne préférée. Sélectionner entre : <ul><li>Aucune</li><li>Requête Web</li></ul> |
+| Popup d'expiration de licence        | Déterminer comment l'application conseille de l'expiration de la licence. Sélectionner entre : <ul><li>Tous</li><li>Seulement les administrateur(s)</li><li>Désactivé</li></ul>                          |
+| Délai d'expiration de la connexion | Définir un délai d'expiration de la connexion pour l'instance {{ fr.DVLS }}.                                                     |
+| Auto rafraîchissement                    | Définir l'intervalle pour le rafraîchissement automatique.                                                           |
+| Mode d'authentification du certificat client | Déterminer comment les certificats clients doivent être authentifiés.                                     | 
+| Demander le mode hors ligne au démarrage | Demander à utiliser la source de données en mode hors ligne lors de la connexion à la source de données.              |
+| Passer automatiquement en mode hors ligne sur demande hors ligne | Utiliser la source de données en mode hors ligne lorsque la méthode de ping ne répond pas.                            |
+| Désactiver le verrouillage                    | Désactiver l'option de verrouiller directement la source de données. L'application peut toujours être verrouillée mais l'utilisateur n'est pas invité à saisir le mot de passe de la source de données lors du déverrouillage de l'application.                                                                                                  |
+| Gérer le cache | Effacer la sortie, analyser ou supprimer le contenu du cache de l'instance {{ fr.DVLS }}.                                   |

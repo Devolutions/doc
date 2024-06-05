@@ -1,25 +1,23 @@
 ---
 eleventyComputed:
-  title: Import (.json)
+  title: Importation (.json)
 ---
-{{ fr.RDM }} vous permet d'importer des entrées à partir de fichiers JSON stockés sur votre ordinateur. 
+{{ fr.RDM }} vous permet d'importer des entrées à partir de fichiers JSON stockés sur votre ordinateur.
 
-{% snippet, "badgeInfo" %} 
-Pour un survol sur le format de fichier JSON et l'impact des décisions prises dans cette entrée, consultez [Stratégies d'importation de JSON et format de fichier](/fr/rdm/windows/commands/file/import/json/strategies-file-format/). 
+{% snippet, "badgeInfo" %}
+Pour un aperçu du format de fichier JSON et de l'impact des décisions prises dans cette entrée, voir [Stratégies d'importation JSON et format de fichier](/rdm/windows/commands/file/import/json/strategies-file-format/).
 {% endsnippet %}
- 
 
-## Étapes 
+## Étapes
 
-1. Dans le ***{{ fr.NPANE }}***, sélectionner le ***{{ fr.VLT }}*** dans lequel importer les entrées. 
-1. Accéder à ***Fichier – Importer – Importer (.json)***. 
-1. Sélectionner le fichier JSON à importer, puis cliquer sur ***Ouvrir***. 
-1. Choisir d'***Importer à la racine***, d'***Importer dans le dossier en cours*** ou d'***Importer dans le dossier spécifique***. 
-1. Dans la boîte de dialogue suivante, une liste de toutes les entrées qui se trouvent dans le fichier de données sera affichée. Sélectionner des entrées spécifiques à importer ou ***Sélectionner tout*** pour importer toutes les entrées. 
-{% snippet, "badgeCaution" %} 
-Si des utilisateurs remplacent les propriétés de l'entrée avec des ***Paramètres spécifiques de l'utilisateur***, décocher la case ***Changer l'ID***. 
+1. Dans le ***{{ fr.NPANE }}***, sélectionner le {{ fr.VLT }} dans lequel importer les entrées.
+1. Aller à ***Fichier – Importer – Importation (.json)***.
+1. Sélectionner le fichier JSON à importer depuis votre ordinateur, puis cliquer sur ***Ouvrir***.
+1. Choisir d'***Importer dans la racine***, ***Importer dans le dossier actuel***, ou ***Importer dans un dossier spécifique***.
+1. Dans la boîte de dialogue suivante, une liste de toutes les entrées qui sont dans le fichier de données sera affichée. Sélectionner les entrées spécifiques que vous souhaitez importer ou ***Sélectionner tout*** pour importer toutes vos entrées.
+{% snippet, "badgeCaution" %}
+Si vous avez des utilisateurs qui remplacent les propriétés des entrées avec ***Paramètres Spécifiques à l'Utilisateur***, décocher ***Changer l'ID***.
 {% endsnippet %}
- 
-6. Cliquer sur ***OK***. 
 
-L'importation se poursuivra en utilisant les paramètres que vous avez choisis. 
+6. Cliquer sur ***OK***.
+L'importation se poursuivra en utilisant vos paramètres choisis.

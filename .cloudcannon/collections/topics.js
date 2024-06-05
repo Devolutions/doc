@@ -5,7 +5,7 @@ function topicConfig(name, code) {
 
   return {
     name: name,
-    path: `docs/content/${code}`,
+    path: `content/${code}`,
     schemas: {
       default: {
         path: ".cloudcannon/schemas/topic.md"

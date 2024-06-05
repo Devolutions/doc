@@ -2,6 +2,5 @@
 eleventyComputed:
   title: Permissions
 ---
-Les utilisateurs peuvent afficher leurs ***Permissions*** pour cette entrée et contacter leur administrateur si un droit n'est pas autorisé.
-![!!Hub4151](https://cdnweb.devolutions.net/docs/fr/hub/Hub4151.png)
-
+Les utilisateurs peuvent consulter leurs accès ***Permissions*** pour cette entrée et contacter leur administrateur si un droit n'est pas autorisé.
+![!!Hub4126](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub4126.png)

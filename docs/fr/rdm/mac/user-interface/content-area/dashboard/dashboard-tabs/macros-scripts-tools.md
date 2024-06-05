@@ -1,62 +1,26 @@
 ---
 eleventyComputed:
-  title: Outils/Scipts/Macros
+  title: Macros, scripts & tools
 ---
-Les outils de session sont disponibles dans les onglets du tableau de bord et dans le menu contextuel de la session ***Outils/Scipts/Macros***.
+Les outils de session sont disponibles dans les onglets du tableau de bord et dans le menu contextuel de la session Macros/Scripts/Outils.
 
 ## Paramètres
 
-![!!RDMMac4043](https://cdnweb.devolutions.net/docs/fr/rdm/mac/RdmMac4043.png)
+Il existe trois types d'outils :
 
-Ces outils sont implémentés directement dans {{ fr.RDM }} et sont disponibles sans aucune installation ni configuration particulière.
+* Outils intégrés
+* Outils de session complémentaires
+* Outils de script de session
+![Onglets du tableau de bord – Macros/Scripts/Outils](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip6060.png)
 
-<table>
-	<tr>
-		<th>
-Option
-		</th>
-		<th>
-Description
-		</th>
-	</tr>
-	<tr>
-		<td>
-Rapport d'inventaire
-		</td>
-		<td>
-Ouvre un rapport d'inventaire pour une machine distante.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Wake on Lan
-		</td>
-		<td>
-Envoie la commande de paquet pour le Wake-on-Lan.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Ping continu
-		</td>
-		<td>
-Ouvre la boîte de dialogue ping de l'hôte sélectionné et effectue un ping continu.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Ping
-		</td>
-		<td>
-Ouvre la boîte de dialogue ping de l'entrée sélectionnée et affiche le résultat.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Tracer route
-		</td>
-		<td>
-Affiche l'itinéraire et mesure les délais de transit des paquets sur un réseau.
-		</td>
-	</tr>
-</table>
+### Outils Intégrés
+
+Ces outils sont implémentés directement dans {{ fr.RDM }} et sont disponibles sans aucune installation ou configuration spéciale.
+
+| OPTION          | DESCRIPTION |
+|-----------------|-------------|
+| Rapport d'Inventaire| Ouvrir un Rapport d'Inventaire pour une machine distante. |
+| Wake On Lan     | Envoie la commande de paquet magique pour le Wake-on-Lan. |
+| Ping Continu    | Ouvre le dialogue de ping de l'hôte sélectionné et effectue un ping continu. |
+| Ping            | Ouvre le dialogue de ping de l'entrée sélectionnée et affiche le résultat. |
+| Trace Route     | Affiche la route et mesure les délais de transit des paquets à travers un réseau. |

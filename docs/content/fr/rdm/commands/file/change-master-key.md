@@ -1,21 +1,19 @@
 ---
 eleventyComputed:
-  title: Gérer mot de passe
+  title: Gérer la clé maîtresse
 ---
-Utiliser ***Fichier - Gérer mot de passe*** pour crypter la source de données.
+Utiliser ***Fichier – Gérer la Clé Maîtresse*** pour chiffrer la source de données.
 
-Le cryptage de la source de données empêche les utilisateurs non autorisés d'accéder à la source de données sans connaître le mot de passe. Il est fortement recommandé d'appliquer un mot de passe à la source de données si vous utilisez {{ fr.RDM }} dans un environnement portable (par exemple, une clé USB, un disque dur USB).
+La clé maîtresse empêche les utilisateurs non autorisés d'accéder à la source de données sans connaître la clé maîtresse. Il est fortement recommandé d'appliquer une clé maîtresse à la source de données si vous utilisez {{ fr.RDM }} dans un environnement portable (c.-à-d., Clé USB, Disque Dur USB).
 
-Un mot de passe sur la source de données peut être utilisé avec les sources de données suivantes :
+Une clé maîtresse peut être utilisée avec les sources de données suivantes :
 
 * {{ fr.DOD }}
 * Dropbox
 * Google Drive
-* SQLite
 * XML
-
 {% snippet, "badgeInfo" %}
-Depuis la version 14.0.4.0, l'utilisateur est automatiquement invité à ajouter un mot de passe lors de sa première connexion à l'une des sources de données mentionnées ci-dessus. Le mot de passe est complètement facultatif (mais fortement recommandée).
+Depuis la version 14.0.4.0, l'utilisateur est automatiquement invité à ajouter une clé maîtresse lors de la connexion à l'une des sources de données mentionnées ci-dessus pour la première fois. La clé maîtresse est complètement optionnelle (mais fortement recommandée).
 {% endsnippet %}
 
-![Changer le mot de passe](https://cdnweb.devolutions.net/docs/fr/rdm/windows/clip10079.png)
+![Changer la Clé Maîtresse](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip10079.png)

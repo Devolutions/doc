@@ -1,149 +1,41 @@
 ---
 eleventyComputed:
   title: Sécurité
+  description: Options de sécurité dans {{ fr.RDMMAC }}
 ---
-Utiliser ***Fichier - Préférences - Sécurité*** pour configurer la sécurité de l'application.
+***Utiliser Fichier*** – ***Préférences*** – ***Sécurité*** pour configurer la sécurité de l'application.
 
 ## Paramètres
+![Préférences - Sécurité](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_RDMMac6058.png)
 
-![Préférences - Sécurité](https://cdnweb.devolutions.net/docs/fr/rdm/mac/clip4201.png)
+### Sécurité de l'application (Locale)
+| OPTION                                           | DESCRIPTION                                                                         |
+|--------------------------------------------------|-------------------------------------------------------------------------------------|
+| Aucun mot de passe d'application                 | Aucun mot de passe ne sera demandé pour accéder à l'application.                    |
+| Utiliser un mot de passe d'application           | Définir un mot de passe spécifique pour accéder à l'application.                    |
+| Utiliser les identifiants de l'ordinateur comme mot de passe d'application | Nécessite le même identifiant que votre identifiant d'ordinateur pour accéder à l'application. |
 
-### Sécurité de l'application (local)
+### Authentification Multifacteur
+| OPTION                         | DESCRIPTION                                                                                |
+|--------------------------------|--------------------------------------------------------------------------------------------|
+| Exiger l'authentification Yubikey | Utiliser un dispositif Yubikey pour accéder à l'application lors de son démarrage ou lorsqu'elle est verrouillée. |
+| Exiger une validation TOTP      | Utiliser le {{ fr.WMAPP }} ou Google Authenticator sur votre dispositif pour accéder à l'application lors de son démarrage ou lorsqu'elle est verrouillée. |
+| Remplacer le nom de compte          | Si vous souhaitez utiliser un compte {{ fr.WS }} ou Google Authenticator différent de celui précédemment lié à votre compte {{ fr.RDM }}, vous pouvez remplacer le nom du compte mais vous devrez le reconfigurer. |
+| Exiger l'authentification Duo     | Cocher cette option pour s'authentifier dans votre application {{ fr.RDM }} en utilisant ***l'authentification Duo***. La configurer en utilisant le bouton Configurer ci-dessous cette option. Sélectionner l'***action automatique Duo*** en choisissant Aucune, Push, Téléphone ou SMS.  |
 
-<table>
-	<tr>
-		<td>
-Option
-		</td>
-		<td>
-Description
-		</td>
-	</tr>
-	<tr>
-		<td>
-Aucun mot de passe de l'application
-		</td>
-		<td>
-Aucun mot de passe ne sera demandé pour accéder à l'application.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Utiliser un mot de passe de l'application
-		</td>
-		<td>
-Définir un mot de passe spécifique pour accéder à l'application.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Utiliser les identifiants d'ordinateur comme mot de passe de l'appli
-		</td>
-		<td>
-Nécessite les mêmes identifiants que ceux de votre ordinateur pour accéder à l'application.
-		</td>
-	</tr>
-</table>
+### Verrouillage
+| OPTION                          | DESCRIPTION                                                 |
+|---------------------------------|-------------------------------------------------------------|
+| Verrouiller l'application lors de la minimisation | Cocher cette option pour verrouiller {{ fr.RDM }} après l'avoir minimisée. |
+| Verrouiller l'application lorsqu'elle est inactive      | Cocher cette option pour verrouiller {{ fr.RDM }} après qu'elle ait été inactive pendant un certain temps (définir cette période sous cette option). |
 
-### Authentification 2-factor
+### Sécurité Hors Ligne
+| OPTION            | DESCRIPTION                                  |
+|-------------------|----------------------------------------------|
+| Sécurité par défaut  | Sélectionner pour définir la sécurité sur ***Par défaut***. |
+| Sécurité renforcée | La ***Sécurité renforcée*** vous permet de configurer un mot de passe hors ligne. Le cache hors ligne sera alors chiffré. Le mot de passe est requis uniquement lors du passage au ***mode Hors ligne*** si l'option ***Demander pour l'accès hors ligne*** est activée. |
 
-<table>
-	<tr>
-		<td>
-Option
-		</td>
-		<td>
-Description
-		</td>
-	</tr>
-	<tr>
-		<td>
-Requiert l'authentification Yubikey
-		</td>
-		<td>
-Utiliser un appareil Yubikey pour accéder à l'application lorsqu'elle démarre ou lorsqu'elle est verrouillée.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Exiger Google Authenticator
-		</td>
-		<td>
-Utiliser un appareil Google Authenticator pour accéder à l'application lorsqu'elle démarre ou lorsqu'elle est verrouillée.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Substituer le nom de compte
-		</td>
-		<td>
-Si vous souhaitez utiliser un compte Google Authenticator différent de celui précédemment associé à votre compte {{ fr.RDM }}, vous pouvez substituer le nom du compte, mais vous devrez reconfigurer Google Authenticator.
-		</td>
-	</tr>
-</table>
-
-### Verrouiller
-
-<table>
-	<tr>
-		<td>
-Option
-		</td>
-		<td>
-Description
-		</td>
-	</tr>
-	<tr>
-		<td>
-Verrouiller l'application quand réduite
-		</td>
-		<td>
-Verrouiller l'application lorsqu'elle est réduite dans la barre des tâches.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Verrouiller l'application lorsqu'inactive
-		</td>
-		<td>
-Verrouiller automatiquement l'application lorsqu'elle n'est pas utilisée au bout d'un certain temps. La valeur est en minute.
-		</td>
-	</tr>
-</table>
-
-### Sécurité hors connexion
-
-<table>
-	<tr>
-		<td>
-Option
-		</td>
-		<td>
-Description
-		</td>
-	</tr>
-	<tr>
-		<td>
-Sécurité par défaut
-		</td>
-		<td>
-L'application utilise un fichier hors ligne chiffré avec un hachage de clé calculée non portable.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Sécurité renforcé
-		</td>
-		<td>
-L'application utilise un fichier hors ligne qui est chiffré avec un hachage de la clé calculée non portable avec un mot de passe spécifique à l'utilisateur. Ce mot de passe est enregistré en interne par défaut.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Invite pour l'accès hors ligne
-		</td>
-		<td>
-Cette case à cocher force l'utilisateur à entrer le mot de passe avant d'accéder aux données hors ligne.
-		</td>
-	</tr>
-</table>
+### Autres
+| OPTION             | DESCRIPTION                                                           |
+|--------------------|-----------------------------------------------------------------------|
+| Réinitialiser les Événements Connus | Sélectionner pour réinitialiser tous les ***événements connus*** configurés sur les entrées de session. |

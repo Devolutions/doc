@@ -1,150 +1,36 @@
 ---
 eleventyComputed:
-  title: Choisir le type de source de données – Équipes
+  title: Sélectionner un type de source de données – entreprises
+  description: Pour vous aider à sélectionner un type de source de données, voici un ensemble de préoccupations et la liste des sources de données qui peuvent servir dans un tel contexte.
 ---
-Cette section s'adresse aux équipes qui utilisent l'édition Team et ses fonctionnalités. 
+Ce sujet est destiné aux entreprises qui utilisent les fonctionnalités proposées par notre Édition Équipe.
 
-{% snippet, "shieldWarning" %} 
-Lorsque vous choisissez une source de données qui n'est pas déployée sur site, il est important de penser à la protection des données au repos et en transit. Nous vous recommandons fortement de chiffrer vos données stockées dans des fichiers à l’aide d’une clé maîtresse ou d'utiliser un [Fournisseur de sécurité](/fr/rdm/mac/commands/administration/security-provider/) pour les [Sources de données avancées](/fr/rdm/mac/data-sources/data-sources-types/advanced-data-sources/). Ainsi, vous serez la seule personne qui peut voir les données. 
+Pour vous aider à sélectionner un type de source de données, voici un ensemble de préoccupations et la liste des sources de données qui peuvent servir dans un tel contexte.
+
+{% snippet, "shieldWarning" %}
+Lors du choix de tout type de source de données qui n'est pas hébergé localement, vous devez prendre en compte la sécurité des données au repos et en transit. Nous vous recommandons fortement de chiffrer davantage vos données en utilisant une clé maîtresse pour les solutions basées sur des fichiers ou un [fournisseur de sécurité](/rdm/mac/commands/administration/security-provider/) pour les [sources de données avancées](/rdm/mac/data-sources/data-sources-types/advanced-data-sources/). Cela garantit que vous seul pouvez lire les données.
 {% endsnippet %}
- 
-Pour faciliter votre réflexion quant au choix d'une source de données, voici un tableau démontrant les différentes sources de données compatibles ainsi qu'une liste de critères déterminants selon le contexte. 
 
-<table>
-	<tr>
-		<th>
-CRITÈRE 
-		</th>
-		<th>
-{{ fr.DVLS }} 
-		</th>
-		<th>
-SQL 
-SERVER 
-		</th>
-		<th>
-SQL 
-AZURE 
-		</th>
-	</tr>
-	<tr>
-		<td>
-Base de données inaccessible aux utilisateurs finaux 
-		</td>
-		<td>
+| PRÉOCCUPATION                                   |     {{ fr.DVLS }}      |     {{ fr.DHUBB }}     |
+|-------------------------------------------------|:----------------------:|:----------------------:|
+| Données auto-hébergées                          | {{ icon.badgeNotice }} |                        |
+| Données hébergées dans le nuage                 |                        | {{ icon.badgeNotice }} |
+| Base de données non accessible aux utilisateurs finaux | {{ icon.badgeNotice }} | {{ icon.badgeNotice }} |
+| Chiffrement au repos et en transit              | {{ icon.badgeNotice }} | {{ icon.badgeNotice }} |
+| Connaissance zéro sur les données sensibles     |                        | {{ icon.badgeNotice }} |
+| Module de Gestion des Accès Privilégiés (PAM)   | {{ icon.badgeNotice }} |        *Note 1*        |
+| Comptes AD utilisés pour l'authentification     | {{ icon.badgeNotice }} |                        |
+| Appartenance à un groupe AD utilisée pour assigner des permissions | {{ icon.badgeNotice }} | {{ icon.badgeNotice }} |
+| Journaux d'activité                             | {{ icon.badgeNotice }} | {{ icon.badgeNotice }} |
+| Données accessibles globalement                 |        *Note 2*        | {{ icon.badgeNotice }} |
+| Connexions Juste-à-Temps (JAT) via {{ fr.DGW }} | {{ icon.badgeNotice }} | {{ icon.badgeNotice }} |
 
-{{ icon.badgeNotice }} 
-		</td>
-		<td>
-Notes 1 et 2 
-		</td>
-		<td>
-Note 1 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Comptes AD utilisés à des fins d’authentification 
-		</td>
-		<td>
-{{ icon.badgeNotice }} 
-		</td>
-		<td>
-{{ icon.badgeNotice }} 
-		</td>
-		<td>
+## Notes
 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Attribution des permissions selon l'appartenance à un groupe AD 
-		</td>
-		<td>
-{{ icon.badgeNotice }} 
-		</td>
-		<td>
+### Note 1
 
-		</td>
-		<td>
+Le module ***Gestion des Accès Privilégiés*** dans {{ fr.DHUBB }} est actuellement en développement bêta. Veuillez contacter notre [département des ventes](mailto:sales@devolutions.net) pour plus d'informations.
 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Stockage local des données 
-		</td>
-		<td>
-{{ icon.badgeNotice }} 
-		</td>
-		<td>
-{{ icon.badgeNotice }} 
-		</td>
-		<td>
+### Note 2
 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Journaux d’activités 
-		</td>
-		<td>
-{{ icon.badgeNotice }} 
-		</td>
-		<td>
-{{ icon.badgeNotice }} 
-		</td>
-		<td>
-{{ icon.badgeNotice }} 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Données accessibles à tous 
-		</td>
-		<td>
-Note 3 
-		</td>
-		<td>
-Note 4 
-		</td>
-		<td>
-{{ icon.badgeNotice }} 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Copie locale optionnelle des connexions 
-		</td>
-		<td>
-{{ icon.badgeNotice }} 
-		</td>
-		<td>
-{{ icon.badgeNotice }} 
-		</td>
-		<td>
-{{ icon.badgeNotice }} 
-		</td>
-	</tr>
-</table>
-
-## Notes 
-
-### Note 1 
-
-Les administrateurs peuvent créer des comptes aux utilisateurs sans divulguer les mots de passe. Une configuration verrouillée de la source de données est importée pour chaque utilisateur final. L'administrateur doit donc effectuer beaucoup d'opérations manuelles. 
-
-### Note 2 
-
-La sécurité intégrée est le nom d'une technologie de Microsoft qui permet d'avoir accès à une instance de SQL Server sans envoyer les identifiants, mais plutôt en utilisant le jeton fourni par l'authentification à l'ordinateur Windows. Cette option n'est pas disponible dans {{ fr.RDMMAC }}. Cela permet aux utilisateurs de se connecter directement à la base de données à l'aide d'autres outils. Cette technologie ne devrait pas être utilisée si vous ne devez pas donner un accès direct à la base de données.  
-
-Notre source de données SQL Server offre une troisième option d'authentification : le type le type ***Personnalisé (Custom Devolutions)***. Cette option permet d'utiliser une identité empruntée à un autre utilisateur sans connaître le mot de passe. Veuillez consulter la section concernant la gestion des utilisateurs pour plus d'informations. 
-
-### Note 3 
-
-N'exposez pas votre {{ fr.DVLS }} sur Internet sans une forme de protection contre les attaques par déni de service distribué (DDoS). Utilisez des mots de passe complexes et des noms d'utilisateurs difficiles à deviner à partir d'informations publiques. 
-
-### Note 4 
-
-Si vous choisissez d'exposer votre base de données sur Internet, assurez-vous de chiffrer les communications avec SSL/TLS  et de protéger la base de données contre les attaques par déni de service distribué (DDoS). Les fournisseurs de services infonuagiques comme Azure mettent de l'avant la protection contre ces types d'attaques. La configuration du pare-feu préconisée est de tout bloquer par défaut pour ensuite ajouter des exceptions et des règles. Il faut également ouvrir le nombre minimal de ports requis, ajouter les numéros de ces ports à la liste des exceptions et filtrer toutes les futures requêtes en fonction de leur origine. 
-
+Vous ne devriez pas exposer une instance {{ fr.DVLS }} à Internet sans être capable de la protéger contre les attaques DDoS. Des mots de passe forts doivent être utilisés, ainsi que des noms de compte obscurs qui ne sont pas facilement déduits par l'exploration de données sociales.  

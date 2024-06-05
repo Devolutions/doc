@@ -3,82 +3,21 @@ eleventyComputed:
   title: Général
   order: 10
 ---
-La section ***Général*** permet à l'administrateur de modifier le nom ou la description de l'instance {{ fr.DVLS }}.
-![Adminsitration - Paramètres de {{ fr.DVLS }} - Général](https://cdnweb.devolutions.net/docs/fr/server/ServerOp8041.png)
+La section Générale permet à l'Administrateur de modifier le nom ou la description de l'instance {{ fr.DVLS }}.
+![Administration – Paramètres {{ fr.DVLS }} – Général](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp8041.png)
 
 ## Paramètres
 
 ### Général
-
-<table>
-	<tr>
-		<th>
-
-Option
-		</th>
-		<th>
-Description
-		</th>
-	</tr>
-	<tr>
-		<td>
-Nom
-		</td>
-		<td>
-Entrer le nom de votre serveur, il sera affiché dans la zone ***Contenu***.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Description
-		</td>
-		<td>
-Saisir une brève description ou des informations supplémentaires.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Nom DNS
-		</td>
-		<td>
-Nom du serveur DNS.
-		</td>
-	</tr>
-</table>
+| Option      | Description                                                               |
+|-------------|---------------------------------------------------------------------------|
+| Nom         | Entrer le nom pour votre serveur, il sera affiché dans la zone de contenu.|
+| Description | Entrer une courte description ou des informations supplémentaires.        |
+| Nom DNS     | Nom du serveur DNS.                                                       |
 
 ### Série
-
-<table>
-	<tr>
-		<th>
-Option
-		</th>
-		<th>
-Description
-		</th>
-	</tr>
-	<tr>
-		<td>
-Serveur
-		</td>
-		<td>
-Insérer votre numéro de série.
-		</td>
-	</tr>
-	<tr>
-		<td>
-LAC utilisateur
-		</td>
-		<td>
-Insérer vos clés de licence d'accès client.
-		</td>
-	</tr>
-	<tr>
-		<td>
-{{ fr.DLAUNCHER }} LAC
-		</td>
-		<td>
-Insérer vos clés de licence {{ fr.DLAUNCHER }}.
-		</td>
-	</tr>
-</table>
+| Option                 | Description                                           |
+|------------------------|-------------------------------------------------------|
+| Série                  | Insérer votre numéro d'enregistrement série {{ fr.DVLS }}. |
+| CAL Utilisateur        | Insérer vos clés de Licence d'Accès Client.           |
+| CAL {{ fr.DLAUNCHER }} | Insérer vos clés de Licence {{ fr.DLAUNCHER }}.       |

@@ -2,36 +2,36 @@
 eleventyComputed:
   title: Enregistrer votre licence {{ fr.DHUBB }}
 ---
-Enregistrer votre nouvelle licence dans {{ fr.DHUBB }} en suivant les étapes selon votre situation actuelle :
+Enregistrer votre nouvelle licence dans {{ fr.DHUBB }} en suivant les étapes qui représentent le mieux votre situation actuelle :
 
-* [Ma licence est toujours active](#ma-licence-est-toujours-active)
-* [Ma licence est expirée](#ma-licence-est-expirée)
+* [Ma licence actuelle est toujours active](#ma-licence-actuelle-est-toujours-active)
+* [Ma licence actuelle est expirée](#ma-licence-actuelle-est-expirée)
 
 {% snippet, "badgeCaution" %}
-Seuls les ***Administrateurs*** et les utilisateurs disposant des permissions dans la section ***Permissions du système*** auront accès à l’enregistrement d’une licence dans {{ fr.DHUBB }}.
+Seuls les ***Administrateurs*** et les utilisateurs avec des permissions dans la section ***Permissions Système*** auront accès à l'enregistrement d'une licence dans {{ fr.DHUBB }}.
 {% endsnippet %}
 
-### Ma licence est toujours active
+### Ma licence actuelle est toujours active
 
-1. Se connecter à {{ fr.DHUBB }}.
-1. Aller dans ***Administration - Licences***.
-1. Cliquer sur le bouton ***Modifier***.
-![!!Hub4091](https://cdnweb.devolutions.net/docs/fr/hub/Hub4091.png)
+1. Se connecter à votre {{ fr.DHUBB }}.
+1. Aller à ***Administration – Licences***.
+1. Cliquer sur le bouton d'édition.
+![!!Hub4094](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub4094.png)
 1. Coller votre nouvelle licence {{ fr.DHUBB }}.
-1. Cliquer ***Enregistrer***.
-![!!Hub4092](https://cdnweb.devolutions.net/docs/fr/hub/Hub4092.png)
+1. Cliquer sur ***Enregistrer***.
+![!!Hub4096](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub4096.png)
 
-### Ma licence est expirée
+### Ma licence actuelle est expirée
 
-1. Se connecter à {{ fr.DHUBB }}.
-1. Un message vous refusant l’accès s'affichera.
+1. Se connecter à votre {{ fr.DHUBB }}.
+1. Un message d'accès refusé s'affichera.
 {% snippet, "badgeCaution" %}
-Seuls les ***Administrateurs*** et les utilisateurs disposant des ***Permissions système*** pour ***Gérer les licences des produits*** recevront ce message.
+Seuls les ***Administrateurs*** et les utilisateurs avec les ***Permissions Système*** pour ***Gérer les licences de produit*** recevront ce message.
 {% endsnippet %}
 
-![!!Hub4093](https://cdnweb.devolutions.net/docs/fr/hub/Hub4093.png)
+![!!Hub4095](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub4095.png)
 
 3. Coller votre nouvelle licence {{ fr.DHUBB }}.
-1. Cliquer ***Enregistrer***.
+1. Cliquer sur le cadenas pour enregistrer.
 
 Vous serez automatiquement connecté à votre hub.

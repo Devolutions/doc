@@ -2,6 +2,5 @@
 eleventyComputed:
   title: Historique
 ---
-Afficher l'***Historique*** de modification de l'entrée et restaurer une version précédente.
-![!!Hub4150](https://cdnweb.devolutions.net/docs/fr/hub/Hub4150.png)
-
+Consulter l'historique de modification de l'***entrée*** et restaurer les versions précédentes de l'entrée.
+![!!Hub4125](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub4125.png)

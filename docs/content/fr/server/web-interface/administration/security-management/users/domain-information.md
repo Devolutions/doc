@@ -1,38 +1,16 @@
 ---
 eleventyComputed:
-  title: Information sur le domaine
+  title: Informations sur le domaine
 ---
-Permet d'afficher l'information sur le compte de domaine.
-![Information sur le domaine](https://cdnweb.devolutions.net/docs/fr/server/ServerOp8008.png)
+Fournit les informations de domaine de l'utilisateur.
+![!!ServerOp8061](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp8061.png)
 
-<table>
-	<tr>
-		<th>
-Option
-		</th>
-		<th>
-Description
-		</th>
-	</tr>
-	<tr>
-		<td>
-Domaine
-		</td>
-		<td>
-Nom de domaine de l'utilisateur.
-		</td>
-	</tr>
-	<tr>
-		<td>
-SID
-		</td>
-		<td>
-Identifiant de sécurité du compte de l'utilisateur du domaine.
-		</td>
-	</tr>
-</table>
+### Modifier l'utilisateur
+| OPTION | DESCRIPTION                      |
+|--------|----------------------------------|
+| Domain | Nom de domaine de l'utilisateur. |
+| SID    | Identifiant de sécurité du domaine utilisateur. |
 
-### Chercher sur le domaine
-
-Affiche l'information détaillée du compte de domaine.
-![!!ServerOp8009](https://cdnweb.devolutions.net/docs/fr/server/ServerOp8009.png)
+### Trouver sur le domaine
+Afficher les informations détaillées du compte de domaine de l'utilisateur.
+![Informations sur le compte de domaine de l'utilisateur](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp8007.png)

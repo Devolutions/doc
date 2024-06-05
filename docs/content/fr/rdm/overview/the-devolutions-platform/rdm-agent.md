@@ -1,39 +1,33 @@
 ---
 eleventyComputed:
-  title: Agent {{ fr.RDM }}
-  description: L'{{ fr.RDMA }} exécute des commandes sur des hôtes distants, mais sa principale utilité réside dans sa capacité à envoyer des commandes à plusieurs hôtes simultanément. Puisque {{ fr.RDM }} utilise un canal de communication sécurisé RDP pour communiquer avec l'{{ fr.RDMA }}, alors l'{{ fr.RDMA }} n’est compatible qu’avec des hôtes Windows.
+  title: Qu'est-ce que {{ fr.RDMA }} ?
 ---
-{% snippet, "badgeCaution" %}
-Veuillez noter que si votre profil Windows est corrompu, l'{{ fr.RDMA }} et {{ fr.RDMJ }} pourraient ne pas fonctionner correctement.
-{% endsnippet %}
+{% snippet, "badgeCaution" %} Veuillez noter que si votre profil Windows est corrompu, {{ fr.RDMA }} et {{ fr.RDMJ }} pourraient ne pas fonctionner. {% endsnippet %}
 
-L'{{ fr.RDMA }} exécute des commandes sur des hôtes distants, mais sa principale utilité réside dans sa capacité à envoyer des commandes à plusieurs hôtes simultanément. Puisque {{ fr.RDM }} utilise un canal de communication sécurisé RDP pour communiquer avec l'{{ fr.RDMA }}, alors l'{{ fr.RDMA }} n’est compatible qu’avec des hôtes Windows.
+{{ fr.RDMA }} peut exécuter des commandes sur des hôtes distants, mais ce qui est vraiment utile, c'est qu'il peut envoyer des commandes à plusieurs hôtes en même temps. Puisque {{ fr.RDM }} utilise un canal RDP sécurisé pour communiquer avec le {{ fr.RDMA }}, il ne peut fonctionner qu'avec des hôtes basés sur Windows.
 
-Il prend en charge autant les variables d'environnement que les variables de {{ fr.RDM }}. Les valeurs des variables de {{ fr.RDM }} (c.-à-d. $HOST$, et toutes celles encadrées par des symboles de dollar) sont récupérées sur le client à partir de la session courante. Quant aux valeurs des variables d'environnement (c.-à-d. %windir%, et toutes celles encadrées par des symboles de pourcentage), elles sont récupérées sur l'hôte distant au moment de l'exécution. Vous pouvez utiliser les variables de {{ fr.RDM }} dans les commandes des fichiers de script (.ps1) destinés à l'hôte distant. Elles seront substituées par leur valeur dans les scripts avant qu'ils soient envoyés à l'hôte distant.
-![{{ fr.RDMA }}](https://cdnweb.devolutions.net/docs/fr/rdm/windows/clip11234.png)
+Il prend en charge à la fois les variables d'environnement et les variables {{ fr.RDM }}. Les variables {{ fr.RDM }} (c'est-à-dire $HOST$, essentiellement toutes celles entourées de signes dollar) sont résolues sur le client par rapport à la session en cours, tandis que les variables d'environnement (c'est-à-dire %windir%, essentiellement toutes celles entourées de signes pourcent) seront résolues sur l'hôte distant au moment de l'exécution. Vous pouvez utiliser des variables {{ fr.RDM }} lors de l'exécution de scripts basés sur des fichiers (.ps1) dans la commande. Les variables de script basées sur des fichiers (.ps1) seront résolues avant d'envoyer le script à l'hôte de destination.
+![{{ fr.RDMA }}](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip11234.png)
 
-## Mises en situation
-L’{{ fr.RDMA }} peut être utilisé pour exécuter des scripts provenant d'une installation distincte de {{ fr.RDM }}. En utilisant un canal de communication RDP, il n'est pas nécessaire d'activer la gestion à distance ou d'ouvrir des ports dans votre pare-feu. Pour ce faire, vous pouvez installer l'{{ fr.RDMA }} de façon autonome (méthodes 2 à 4 ci-dessous).
+## Scénarios
+{{ fr.RDMA }} peut être utilisé pour exécuter des scripts depuis une autre installation {{ fr.RDM }}. Puisqu'il utilise un canal RDP pour la communication, cela vous évite des maux de tête de gestion à distance tels que l'ouverture de divers ports dans votre pare-feu. Cela nécessite le modèle d'installation léger de juste le paquet agent (Méthodes 2-4 ci-dessous).
 
-Il est aussi utilisé par [{{ fr.RDMJ }}](/fr/rdm/windows/overview/the-devolutions-platform/rdm-jump/) afin de prendre en charge plusieurs technologies. Cependant, il requiert une installation complète de {{ fr.RDM }} sur l’hôte distant pour ces fonctionnalités.
+Il est également utilisé par [{{ fr.RDMJ }}](/rdm/windows/overview/the-devolutions-platform/rdm-jump/) pour prendre en charge de nombreuses technologies. Cependant, cela nécessite une installation complète de {{ fr.RDM }} sur l'hôte distant pour ces fonctionnalités.
 
 ## Installation
+Installer {{ fr.RDMA }} sur un hôte distant peut être réalisé de 4 manières différentes :
 
-L’installation d’ {{ fr.RDMA }} sur un hôte distant peut s’effectuer de quatre (4) façons différentes :
+{% snippet, "badgeNotice" %} Le {{ fr.RDMA }} doit être configuré pour démarrer automatiquement lorsqu'une session Windows est établie. La méthode 1 ci-dessous effectue cela automatiquement, mais dans d'autres cas, vous devez configurer cela manuellement en utilisant les fonctionnalités de Windows (dossier de démarrage ou clé de registre Run). Veuillez consulter la documentation de votre système d'exploitation pour plus de détails. {% endsnippet %}
 
-{% snippet, "badgeNotice" %}
-L’ {{ fr.RDMA }} doit être configuré pour un lancement automatique au démarrage de la session d'utilisateur Windows. La première méthode, décrite ci-dessous, permet de le configurer automatiquement. Dans certains cas, une configuration manuelle pourrait être requise en utilisant le dossier de démarrage ou une clé de registre Windows. Pour plus d'informations, veuillez consulter la documentation de votre système d'exploitation à ce sujet.
-{% endsnippet %}
+1. Installer {{ fr.RDM }} et sélectionner ***Outils*** – ***Plus d'outils*** – ***{{ fr.RDMA }}***. Cela lancera et enregistrera automatiquement l'Agent pour démarrer automatiquement avec Windows.
+1. Télécharger {{ fr.RDMA }} depuis [https://devolutions.net/remote-desktop-manager/home/download](https://devolutions.net/remote-desktop-manager/home/download), et installer l'agent sur l'ordinateur distant.
+1. Copier les fichiers Devolutions.Utils.dll, Devolutions.Windows.Utils.dll et RDMAgent.exe depuis le dossier d'installation de la version {{ fr.RDM }} utilisée par votre équipe, ou télécharger le fichier zip contenant ces fichiers à [https://devolutions.net/remote-desktop-manager/home/download](https://devolutions.net/remote-desktop-manager/home/download) et les déployer sur l'hôte distant dans le dossier de votre choix.
+1. Via Chocolatey à [https://community.chocolatey.org/packages/rdmagent](https://community.chocolatey.org/packages/rdmagent).
+   ```powershell
+   choco install rdmagent
+   ```
 
-1. Installer {{ fr.RDM }} et cliquer sur Outils – Plus d'outils – {{ fr.RDMA }}. Il lancera et enregistrera automatiquement l'Agent au démarrage de Windows.
-1. Télécharger l'{{ fr.RDMA }} à partir de [https://devolutions.net/remote-desktop-manager/fr/home/download](https://devolutions.net/remote-desktop-manager/fr/home/download), puis installer l’agent sur l’ordinateur distant.
-1. Copier les fichiers Devolutions.Utils.dll, Devolutions.Windows.Utils.dll et RDMAgent.exe du dossier d'installation de la version de {{ fr.RDM }} utilisée par votre équipe, ou télécharger le fichier ZIP contenant ces fichiers à [https://devolutions.net/remote-desktop-manager/fr/home/download](https://devolutions.net/remote-desktop-manager/fr/home/download) et les déployer dans le dossier de votre choix sur l’hôte distant.
-1. Par le biais de Chocolatey à [https://community.chocolatey.org/packages/rdmagent](https://community.chocolatey.org/packages/rdmagent).
-![Ligne de commande Chocolatey](https://cdnweb.devolutions.net/docs/fr/rdm/windows/clip11583.png)
-
-Plusieurs utilisateurs se demandent pourquoi une installation complète de {{ fr.RDM }} est requise. Voici trois facteurs déterminants :
-
-* {{ fr.RDM }} sur un hôte distant ne nécessite pas de source de données : il s'agit d’une coquille vide.
-* Les journaux d'activités sont envoyés dans votre source de données.
-* Toutes les technologies prises en charge par {{ fr.RDM }} peuvent être utilisées à distance.
-
+De nombreux nouveaux utilisateurs utilisant cette technologie se demandent pourquoi une installation complète de {{ fr.RDM }} est nécessaire. Il y a trois facteurs qui rendent cela une bonne solution :
+* {{ fr.RDM }} sur l'hôte distant ne nécessite pas de source de données, c'est une coquille vide.
+* L'enregistrement de l'activité est renvoyé à votre source de données.
+* Chaque technologie prise en charge par {{ fr.RDM }} peut être utilisée à distance.

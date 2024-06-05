@@ -3,45 +3,44 @@ eleventyComputed:
   title: Authentification multifacteur
 ---
 {% snippet, "badgeInfo" %}
-Cette fonctionnalité est disponible pour les sources de données [{{ fr.DVLS }}](/fr/rdm/mac/data-sources/data-sources-types/advanced-data-sources/server/), [Microsoft SQL Server](/fr/rdm/mac/data-sources/data-sources-types/advanced-data-sources/microsoft-sql-server/configure-sql-server/) et [SQLite](/fr/rdm/mac/data-sources/data-sources-types/sqlite/).
+Cette fonctionnalité est uniquement disponible pour les sources de données [{{ fr.DVLS }}](/rdm/mac/data-sources/data-sources-types/advanced-data-sources/server/), [Microsoft SQL Server](/rdm/mac/data-sources/data-sources-types/advanced-data-sources/microsoft-sql-server/configure-sql-server/), et [SQLite](/rdm/mac/data-sources/data-sources-types/sqlite/).
 {% endsnippet %}
 
+L'authentification multifacteur (AMF) identifie les utilisateurs par au moins deux composants différents : quelque chose que l'utilisateur connaît (souvent un mot de passe) et quelque chose que l'utilisateur possède (par exemple, un code de validation envoyé à un appareil mobile). Si l'un des composants est manquant ou fourni de manière incorrecte, l'identité de l'utilisateur n'est pas établie avec une certitude suffisante et l'accès à la source de données restera bloqué.
 
-L'authentification multifacteur (AMF) identifie les utilisateurs par au moins deux éléments différents : quelque chose que l'utilisateur connaît (souvent un mot de passe) et quelque chose que l'utilisateur possède (par exemple, un code de validation envoyé à un appareil mobile). Si l'un de ces éléments est manquant ou incorrect, l'identité de l'utilisateur n'est pas établie avec suffisamment de certitude et l'accès à la source de données restera alors bloqué.
+L'AMF est définie au niveau de la source de données, sauf dans {{ fr.DVLS }}, où elle est [définie pour l'utilisateur](/server/web-interface/administration/configuration/server-settings/security/two-factor/). {{ fr.RDMMAC }} prend en charge [Authenticator (TOTP)](/rdm/mac/data-sources/multi-factor-authentication/authenticator-totp/), [Yubikey](/rdm/mac/data-sources/multi-factor-authentication/yubikey/), et [Duo](/rdm/mac/data-sources/multi-factor-authentication/duo/).
 
-L'AMF est définie au niveau de la source de données excepté dans {{ fr.DVLS }}, où elle est [définie sur l'utilisateur](/fr/server/web-interface/administration/configuration/server-settings/security/two-factor/). {{ fr.RDMMAC }} prend en charge [Authenticator (TOTP)](/fr/rdm/mac/data-sources/multi-factor-authentication/authenticator-totp/), [Yubikey](/fr/rdm/mac/data-sources/multi-factor-authentication/yubikey/) et [Duo](/fr/rdm/mac/data-sources/multi-factor-authentication/duo/).
+Aller à la section correspondant à votre type de source de données :
 
-Consultez la section qui correspond à votre type de source de données :
+* [SQL Server](#configure-multi-factor-authentication-on-a-microsoft-sql-server-data-source)
+* [SQLite](#configure-multi-factor-authentication-on-a-sqlite-data-source)
 
-* [SQL Server](#configuration-de-lauthentification-multifacteur-sur-une-source-de-données-microsoft-sql-server)
-* [SQLite](#configuration-de-lauthentification-multifacteur-sur-une-source-de-données-sqlite)
+### Configurer l'Authentification Multifacteur sur une Source de Données Microsoft SQL Server
 
-## Configuration de l'authentification multifacteur sur une source de données Microsoft SQL Server
-
-1. Dans {{ fr.RDM }}, accéder à la source de données pour laquelle l'AMF doit être configurée.
-1. Accéder à ***Fichier – Paramètres de mon compte – Source de données AMF***.
-![Fichier – Paramètres de mon compte – Source de données AMF](https://cdnweb.devolutions.net/docs/fr/rdm/mac/RDMMac2046.png)
-1. Dans la fenêtre ***Configuration de l'authentification multifacteur***, cliquer sur ***Modifier***.
-![Modifier la Configuration de l'authentification multifacteur](https://cdnweb.devolutions.net/docs/fr/rdm/mac/RDMMac2044.png)
-1. Sélectionner le ***Type*** d'AMF dans la liste déroulante.
-![Type d'authentification multifacteur](https://cdnweb.devolutions.net/docs/fr/rdm/mac/RDMMac2045.png)
+1. Dans {{ fr.RDMMAC }}, aller à la source de données pour laquelle vous souhaitez configurer l'AMF.
+1. Aller à ***Fichier – Mes Paramètres de Compte – MFA de Source de Données***.
+![Fichier – Mes Paramètres de Compte – MFA de Source de Données](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_RDMMac2056.png)
+1. Dans la fenêtre ***Configuration Multifacteur***, cliquer sur ***Changer***.
+![Changer Configuration Multifacteur](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10064.png)
+1. Sélectionner votre ***Type*** d'AMF dans la liste déroulante.
+![Type d'Authentification Multifacteur](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10066.png)
 1. Suivre l'un des liens ci-dessous en fonction du choix effectué à l'étape précédente :
-* [Authenticator (TOTP)](/fr/rdm/mac/data-sources/multi-factor-authentication/authenticator-totp/)
-* [Yubikey](/fr/rdm/mac/data-sources/multi-factor-authentication/yubikey/)
-* [Duo](/fr/rdm/mac/data-sources/multi-factor-authentication/duo/)
+    * [Authenticator (TOTP)](/rdm/mac/data-sources/multi-factor-authentication/authenticator-totp/)
+    * [Yubikey](/rdm/mac/data-sources/multi-factor-authentication/yubikey/)
+    * [Duo](/rdm/mac/data-sources/multi-factor-authentication/duo/)
 
-## Configuration de l'authentification multifacteur sur une source de données SQLite
+### Configurer l'Authentification Multifacteur sur une Source de Données SQLite
 
-1. Dans {{ fr.RDM }}, accéder à ***Fichier – Sources de données***.
+1. Dans {{ fr.RDMMAC }}, aller à ***Fichier – Sources de Données***.
 1. Sélectionner la source de données SQLite dans le menu de gauche, puis cliquer sur le bouton ***Modifier la source de données***.
-![Modifier la source de données](https://cdnweb.devolutions.net/docs/fr/rdm/mac/RDMMac2047.png)
-1. À côté du paramètre ***2 facteurs***, cliquer sur ***Aucun***.
-![Options 2 facteurs](https://cdnweb.devolutions.net/docs/fr/rdm/mac/RDMMac2048.png)
-1. Dans la fenêtre ***Configuration multifacteur***, cliquer sur ***Changer***.
-![Modifier la Configuration de l'authentification multifacteur](https://cdnweb.devolutions.net/docs/fr/rdm/mac/RDMMac2044.png)
-1. Sélectionner le ***Type*** d'AMF dans la liste déroulante.
-![Type d'authentification multifacteur](https://cdnweb.devolutions.net/docs/fr/rdm/mac/RDMMac2045.png)
+![Modifier la source de données](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_RDMMac2057.png)
+1. À côté du paramètre ***Multifacteur***, cliquer sur ***Aucun***.
+![Option Multifacteur](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10065.png)
+1. Dans la fenêtre ***Configuration Multifacteur***, cliquer sur ***Changer***.
+![Configuration Deux Facteurs](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10064.png)
+1. Sélectionner votre ***Type*** d'AMF dans la liste déroulante.
+![Configuration Deux Facteurs](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10066.png)
 1. Suivre l'un des liens ci-dessous en fonction du choix effectué à l'étape précédente :
-* [Authenticator (TOTP)](/fr/rdm/mac/data-sources/multi-factor-authentication/authenticator-totp/)
-* [Yubikey](/fr/rdm/mac/data-sources/multi-factor-authentication/yubikey/)
-* [Duo](/fr/rdm/mac/data-sources/multi-factor-authentication/duo/)
+    * [Authenticator (TOTP)](/rdm/mac/data-sources/multi-factor-authentication/authenticator-totp/)
+    * [Yubikey](/rdm/mac/data-sources/multi-factor-authentication/yubikey/)
+    * [Duo](/rdm/mac/data-sources/multi-factor-authentication/duo/)

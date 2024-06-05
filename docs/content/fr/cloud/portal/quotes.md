@@ -1,10 +1,8 @@
 ---
 eleventyComputed:
-  title: Devis
+  title: Citations
 ---
-La section ***Devis*** répertorie tous les devis associés à votre compte. Vous pouvez consulter, imprimer, payer ou générer un nouveau devis.
+La section ***Citations*** répertorie toutes les citations associées à votre compte. Vous pouvez visualiser, imprimer, payer ou générer une nouvelle citation.
 
-Si vous avez besoin d'assistance pour un devis ou avez une question liée aux ventes, vous pouvez nous [Contacter](https://devolutions.net/fr/contact) ou envoyer votre demande par courriel à [sales@devolutions.net](mailto:sales@devolutions.net).
-
-![!!Cloud4050](https://cdnweb.devolutions.net/docs/fr/cloud/Cloud4050.png)
-
+Si vous avez besoin d'aide avec une citation ou avez une question liée aux ventes, vous pouvez [Nous contacter](https://devolutions.net/contact) ou envoyer votre demande par courriel à [sales@devolutions.net](mailto:sales@devolutions.net).
+![!!Cloud4052](https://cdnweb.devolutions.net/docs/docs_en_cloud_Cloud4052.png)

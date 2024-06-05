@@ -1,24 +1,9 @@
 ---
 eleventyComputed:
-  title: Avancée
+  title: Avancé
 ---
-![Administration – Paramètres du système – Avancée](https://cdnweb.devolutions.net/docs/fr/server/clip10379.png)
+![Administration – Paramètres du système – Avancé](https://cdnweb.devolutions.net/docs/docs_en_server_clip10379.png)
 
-<table>
-	<tr>
-		<th>
-Option
-		</th>
-		<th>
-Description
-		</th>
-	</tr>
-	<tr>
-		<td>
-Désactiver la trace de la pile
-		</td>
-		<td>
-Sert à désactiver la trace de la pile de {{ fr.DVLS }} dans les journaux d'erreurs de {{ fr.RDM }}.
-		</td>
-	</tr>
-</table>
+| Option              | Description                                                            |
+|---------------------|------------------------------------------------------------------------|
+| Désactiver la trace de pile | Désactiver la trace de pile de {{ fr.DVLS }} dans les journaux d'erreurs de {{ fr.RDM }}. |

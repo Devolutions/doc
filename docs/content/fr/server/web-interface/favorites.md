@@ -4,20 +4,18 @@ eleventyComputed:
 ---
 La section ***Favoris*** contient les entrées marquées comme favorites, par l'utilisateur actuel, de tous les {{ fr.VLT }}s auxquels cet utilisateur a accès. Les ***Favoris*** ne sont pas partagés et ils se déplacent avec le profil de l'utilisateur.
 
-Ceci est utile lorsque le nombre d'entrées gérées devient trop important ou lorsqu'une structure stricte de répertoire doit être maintenue.
+Cela est utile lorsque le nombre d'entrées gérées devient trop important ou lorsqu'une structure de répertoire stricte doit être maintenue.
 
-![!!ServerOp4045](https://cdnweb.devolutions.net/docs/fr/server/ServerOp4045.png)
+![!!ServerOp4053](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp4053.png)
 
-Favoriser une entrée de deux manières :
+Mettre une entrée en favori de deux manières :
 
-* en cliquant avec le bouton droit de la souris sur une entrée du ***{{ fr.NPANE }}***, puis en sélectionnant ***Ajouter aux favoris***;
-* en cliquant sur l'icône étoile ***Ajouter aux favoris*** dans le menu des boutons d'action de l'entrée.
+* en cliquant avec le bouton droit sur une entrée dans le ***{{ fr.N }}***, puis en sélectionnant ***Ajouter aux Favoris***.
+* en cliquant sur l'icône étoile ***Ajouter aux Favoris*** dans le menu des boutons d'action de l'entrée.
 
-### Organiser les favoris
+## Organiser les favoris
+Pour organiser vos entrées favorites, cliquer sur ***Ajouter un Dossier***, dans la section ***Favoris***. Nommer le dossier, puis glisser-déposer depuis la liste des favoris pour les organiser.
 
-Pour organiser vos entrées favorites, cliquer sur ***Ajouter un dossier***, dans la section ***Favoris***. Nommer le dossier, puis faites-les glisser et déposer dans la liste des favoris pour les organiser.
+Lorsqu'une structure ***Favoris*** existe et que vous mettez une nouvelle entrée en favori, il suffit de sélectionner le dossier dans la liste pour la sauvegarder à l'intérieur.
 
-Lorsqu'une structure de ***Favoris*** existe et que vous favorisez une nouvelle entrée, il suffit de sélectionner le dossier dans la liste pour l'y enregistrer.
-
-![!!ServerOp4046](https://cdnweb.devolutions.net/docs/fr/server/ServerOp4046.png)
-
+![!!ServerOp4054](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp4054.png)

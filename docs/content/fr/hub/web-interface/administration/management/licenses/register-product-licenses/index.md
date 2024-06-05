@@ -1,14 +1,15 @@
 ---
 eleventyComputed:
-  title: Enregistrer des licences de produit
+  title: Enregistrer les licences de produit
 ---
-Enregistrer les ***Licences de produit*** Devolutions dans {{ fr.DHUBB }}.
+Enregistrer les ***Licences de Produit*** Devolutions dans {{ fr.DHUBB }}.
+
 {% snippet, "badgeCaution" %}
-Seuls les ***Administrateurs*** et les utilisateurs disposant des permissions dans la section ***Permissions du système*** auront accès à l’enregistrement d’une licence dans {{ fr.DHUBB }}.
+Seuls les ***Administrateurs*** et les utilisateurs avec des permissions dans la section ***Permissions Système*** auront accès pour enregistrer une licence dans {{ fr.DHUBB }}.
 {% endsnippet %}
 
-1. Aller dans ***Administration - Licences***.
+1. Aller à ***Administration – Licences***.
 1. Cliquer sur le bouton ***Ajouter***.
-![!!Hub4125](https://cdnweb.devolutions.net/docs/fr/hub/Hub4125.png)
-1. Coller la licence et cliquer sur ***Ajouter***.
-![!!Hub4126](https://cdnweb.devolutions.net/docs/fr/hub/Hub4126.png)
+![!!Hub4112](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub4112.png)
+1. Coller la ***Licence*** et cliquer sur ***Ajouter***.
+![!!Hub4113](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub4113.png)

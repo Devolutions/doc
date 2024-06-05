@@ -1,32 +1,32 @@
 ---
 eleventyComputed:
   title: "{{ fr.DHUBI }}"
-  description: "{{ fr.DHUBI }} est un outil essentiel conçu pour importer vos données dans {{ fr.DHUBB }}."
+  descripion: "{{ fr.DHUBI }} est l'outil essentiel conçu pour importer vos données dans {{ fr.DHUBB }}."
 ---
 {% youtube 'zoNA11ql9Gk' %}
 
-***{{ fr.DHUBI }}*** est un outil essentiel conçu pour importer vos données dans {{ fr.DHUBB }}.
+***{{ fr.DHUBI }}*** est l'outil essentiel conçu pour importer vos données dans {{ fr.DHUBB }}.
 
 {% snippet, "badgeInfo" %}
-Disponible seulement sur Windows.
+Disponible uniquement sur Windows.
 {% endsnippet %}
 
-1. Télécharger et installer [{{ fr.DHUBI }}](https://devolutions.net/fr/password-hub-importer).
-1. Lancer l'application.
-1. Se connecter à votre {{ fr.DA }}.
-1. Sélectionner l'hôte de votre ***{{ fr.DHUBB }}*** et cliquer ***Se connecter***.
-![!!Hub4101](https://cdnweb.devolutions.net/docs/fr/hub/Hub4101.png)
-1. Sélectionner le ***Type d'importation*** du fichier.
-![!!Hub4102](https://cdnweb.devolutions.net/docs/fr/hub/Hub4102.png)
-1. Cliquer sur les 3 points pour sélectionner la ***Source***.
-![!!Hub4103](https://cdnweb.devolutions.net/docs/fr/hub/Hub4103.png)
+- Télécharger et installer [{{ fr.DHUBI }}](https://devolutions.net/password-hub-importer).
+- Lancer l'application.
+- Se connecter à votre {{ fr.DA }}.
+- Sélectionner le ***{{ fr.DHUBB }} Host*** et cliquer sur ***Log In***.
+![!!Hub4109](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub4109.png)
+- Sélectionner le fichier de ***Type d'Importation***.
+![!!Hub4108](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub4108.png)
+- Cliquer sur les 3 points pour sélectionner la ***Source***.
+![!!Hub4110](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub4110.png)
 {% snippet, "badgeInfo" %}
-Chaque ***Type d'importation*** a une ***Source*** d'importation différente. Merci de suivre les étapes de {{ fr.DHUBI }}.
+Chaque ***Type d'Importation*** a une configuration d'importation de ***Source*** différente. Veuillez suivre les étapes dans {{ fr.DHUBI }}.
 {% endsnippet %}
 
 {% snippet, "badgeCaution" %}
-Dans l'éventualité où vous auriez besoin d'importer les ***Paramètres Spécifiques***, laisser la case ***Changer ID*** décochée dans la section ***Importer les paramètres***.
+Dans le cas où vous auriez besoin d'importer les ***Paramètres Spécifiques***, laisser la case ***Change ID*** décochée dans la section ***Paramètres d'Importation***.
 {% endsnippet %}
 
-7. Sélectionner le ***{{ fr.VLT }} cible***.
-1. Cliquer ***Importer la sélection dans {{ fr.DHUB }}***.
+- Sélectionner le ***{{ fr.VLT }} Cible***.
+- Cliquer sur ***Importer la Sélection dans {{ fr.DHUB }}***.

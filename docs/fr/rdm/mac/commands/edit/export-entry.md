@@ -1,34 +1,13 @@
 ---
 eleventyComputed:
-  title: Exporter
+  title: Exporter une entrée
 ---
-Utiliser les options d'exportation pour exporter les entrées sélectionnées depuis {{ fr.RDM }}.
+Utiliser les options d'exportation pour exporter les entrées sélectionnées depuis {{ fr.RDMMAC }}.
 
 ## Paramètres
+![Options d'exportation - Ruban d'édition](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10353.png)
 
-![Modifier - Exporter](https://cdnweb.devolutions.net/docs/fr/rdm/mac/clip4078.png)
-
-<table>
-	<tr>
-		<td>
-Option
-		</td>
-		<td>
-Description
-		</td>
-	</tr>
-		<td>
-Exporter l'entrée en fichier Remote Desktop (.rdp)
-		</td>
-		<td>
-Exporter vos entrées sélectionnées dans un format de fichier Remote Desktop (.rdp).
-		</td>
-	</tr>
-		<td>
-Exporter la sélection (.rdm)
-		</td>
-		<td>
-Exporter vos entrées sélectionnées dans un fichier .rdm qui peut ensuite être importé dans n'importe quelle source de données {{ fr.RDM }}. Vous pouvez choisir d'inclure les identifiants de vos entrées dans votre format d'exportation et de sécuriser votre fichier avec une clé principale.
-		</td>
-	</tr>
-</table>
+| OPTION                                     | DESCRIPTION                                                          |
+|--------------------------------------------|----------------------------------------------------------------------|
+| Exporter l'entrée en fichier Bureau à distance (.rdp) | Exporter vos entrées sélectionnées dans un format de fichier Bureau à distance (.rdp). |
+| Exporter la sélection (.rdm)                    | Exporter vos entrées sélectionnées dans un fichier .rdm qui peut ensuite être importé dans n'importe quelle source de données {{ fr.RDMMAC }}. Vous pourriez choisir d'inclure les identifiants de votre entrée dans votre format d'exportation et sécuriser votre fichier avec une clé maître. |

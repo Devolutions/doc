@@ -2,10 +2,10 @@
 eleventyComputed:
   title: Outils
 ---
-L'onglet ***Outils*** contient votre Gestionnaire d'extensions, les générateurs et plusieurs outils utiles.
-![!!clip4220](https://cdnweb.devolutions.net/docs/fr/rdm/mac/clip4220.png)
+L'onglet Outils contient votre gestionnaire d'Add-on et d'Extensions ainsi que votre {{ fr.DVLSCONSOLE }}, Générateurs et plusieurs outils utiles.
+![!!clip10458](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10458.png)
 
 Pour en savoir plus, veuillez consulter :
 
-* [Générateur de mots de passe](/fr/rdm/mac/commands/tools/password-generator/)
-* [Analyseur de sécurité d'entrées](/fr/rdm/mac/commands/tools/entry-security-analyzer/)
+* [Générateur de mot de passe](/rdm/mac/commands/tools/password-generator/)
+* [Analyseur de sécurité d'entrée](/rdm/mac/commands/tools/entry-security-analyzer/)

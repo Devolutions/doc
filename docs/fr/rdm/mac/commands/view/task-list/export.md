@@ -1,21 +1,21 @@
 ---
 eleventyComputed:
-  title: Exporter
+  title: Exporter la liste des tâches
 ---
-Les tâches peuvent être exportées dans différents types de fichiers pour l'impression ou la révision.
+Les tâches peuvent être exportées dans différents types de fichiers pour impression ou pour révision.
 
-### Exporter des tâches
+## Exporter les tâches
 
 {% snippet, "badgeInfo" %}
-Avant d'exporter des tâches, vous pouvez effectuer une [Recherche](/fr/rdm/mac/commands/view/task-list/search/) pour filtrer la liste des tâches.
+Avant d'exporter les tâches, effectuer une [Recherche](/rdm/mac/commands/view/task-list/search/) pour filtrer la liste des tâches.
 {% endsnippet %}
 
-Sélectionner les tâches et faire un clic droit pour choisir le format d“exportation.
-![Exporter la Liste des tâches](https://cdnweb.devolutions.net/docs/fr/rdm/mac/clip4084.png)
+Faire un clic droit sur une tâche et sélectionner le format de fichier.
+![Options d'exportation](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10357.png)
 
-### Type de fichier d'exportation
+## Type de fichier d'exportation
 
-Vous pouvez exporter des tâches dans ces formats de fichiers :
+Vous pouvez exporter les tâches dans ces formats de fichier :
 
 * CSV
 * HTML

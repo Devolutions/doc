@@ -1,31 +1,25 @@
 ---
 eleventyComputed:
-  title: Gestion des utilisateurs d'application
+  title: Gérer les identités d'application
+  description: Créer, gérer et supprimer des identités d'application dans Administration – Identités d'application.
 ---
-Voici les étapes pour créer et attribuer des ***Utilisateurs d'application*** pour {{ fr.DHUBB }}.
+Créer, gérer et supprimer des identités d'application dans ***Administration – Identités d'application***.
 
-### Créer un utilisateur d'application
+## Créer une identité d'application
+Suivre les étapes ci-dessous pour créer une nouvelle identité d'application. Une fois votre identité d'application créée, [leur attribuer les bonnes permissions](#assign-permissions).
+1. Dans ***Administration – Identité d'application***, cliquer ***Ajouter Identité d'Application*** en haut à droite.
+![Ajouter Identité d'Application](https://cdnweb.devolutions.net/docs/HUBB2357_2024_1.png)
+1. Nommer l'identité d'application puis cliquer ***Ajouter***. Dans l'exemple ci-dessous, nous l'avons nommée "PowerShell 1".
+![Nommer l'identité d'application](https://cdnweb.devolutions.net/docs/HUBB2358_2024_1.png)
+1. Copier le ***Secret d'Application*** et la ***Clé d'Application***, ou télécharger le fichier PDF fourni. Sauvegarder les informations ou le fichier dans un endroit sûr.
+![Secret d'application et clé d'application](https://cdnweb.devolutions.net/docs/HUBB2359_2024_1.png)
+1. Fermer la fenêtre.
 
-1. Dans ***Administration – Utilisateurs d'application***, cliquer sur ***Ajouter un utilisateur d'application*** dans le coin supérieur droit.
-![Ajouter un utilisateur d'application](https://cdnweb.devolutions.net/docs/fr/hub/Hub2062.png)
-1. Nommer l'***Utilisateur d'application*** et cliquer sur ***Ajouter***.
-![Nom de l'utilisateur d'application](https://cdnweb.devolutions.net/docs/fr/hub/Hub2052.png)
-1. Copier la ***Clé secrète d'application*** et la ***Clé de l'application*** ou télécharger le fichier PDF fourni pour l'enregistrer dans un endroit sécuritaire.
-![Nom de l'utilisateur d'application](https://cdnweb.devolutions.net/docs/fr/hub/Hub2053.png)
-{% snippet, "badgeCaution" %}
-Conservez sécuritairement les informations nouvellement créées de l'***Utilisateur d'application***.
-{% endsnippet %}
+Par défaut, une identité d'application nouvellement créée n'a aucune permission. Voir la section suivante pour attribuer des permissions.
 
-4. ***Fermer*** la fenêtre.
-{% snippet, "shieldCaution" %}
-Par défaut, un ***Utilisateur d'application*** nouvellement créé n'a aucune permission. Consultez la section suivante pour lui en assigner.
-{% endsnippet %}
+## Attribuer des permissions
+Selon les actions que cette identité d'application doit effectuer, il faut lui attribuer les droits appropriés :
+* [Attribuer des permissions système à l'identité d'application](/hub/web-interface/administration/configuration-security/system-permissions/)
+* [Attribuer des permissions {{ fr.VLT }} à l'identité d'application](/hub/web-interface/administration/management/vaults/create-manage-vaults/)
 
-### Attribuer des permissions
-
-En fonction des actions que cet utilisateur d'application doit effectuer, vous devez lui attribuer les droits appropriés :
-
-* [Assigner des permissions de système à l'utilisateur d'application](/fr/hub/web-interface/hub-overview/administration/configuration-security/system-permissions/)
-* [Assigner des permissions de {{ fr.VLT }} à l'utilisateur d'application](/fr/hub/web-interface/hub-overview/administration/management/vaults/create-manage-vaults/)
-
-Lorsque les permissions ont été attribuées, vous êtes prêt à accéder à {{ fr.DHUB }} avec le [module {{ fr.PS }}](/fr/hub/powershell-module/) et votre utilisateur d'application.
+Lorsque les permissions ont été attribuées, vous êtes prêt à accéder à {{ fr.DHUB }} avec le [module {{ fr.PS }}](/powershell/hub-powershell/powershell-module/) et votre identité d'application.

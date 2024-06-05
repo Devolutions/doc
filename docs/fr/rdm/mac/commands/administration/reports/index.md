@@ -1,14 +1,17 @@
 ---
 eleventyComputed:
   title: Rapports
+  description: La section Rapports génère automatiquement des rapports concernant vos identifiants, entrées, journaux et sécurité.
 ---
-La section ***Rapports*** génère automatiquement des rapports concernant vos identifiants, entrées, journaux et sécurité. Vous aurez également la possibilité d'exporter votre rapport généré qui est un moyen d'exécuter et d'exporter des rapports via une ligne de commande.
-![Administration - Rapports](https://cdnweb.devolutions.net/docs/fr/rdm/mac/clip4207.png)
+La section Rapports génère automatiquement des rapports concernant vos identifiants, entrées, journaux et sécurité. Vous aurez également la possibilité d'exporter votre rapport généré, ce qui est un moyen d'exécuter et d'exporter des rapports via une ligne de commande.
+![Administration - Rapports](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_RDMMac6060.png)
 
-Il existe 3 types de rapports différents :
+{% snippet, "badgeInfo" %}
+Les rapports basés sur le Web de [{{ fr.DVLS }}](/server/overview/what-is-server/) et [{{ fr.DHUB }}](/hub/overview/what-is-hub/) sont disponibles dans {{ fr.RDM }}.
+{% endsnippet %}
 
-* [Rapport des références](/fr/rdm/mac/commands/administration/reports/credential-entry/)
-* [Liste des entrées](/fr/rdm/mac/commands/administration/reports/entry-list/)
-* [Références VPN](/fr/rdm/mac/commands/administration/reports/vpn-references/)
+Il existe 3 types différents de rapports :
 
-![Administration - Types des rapports](https://cdnweb.devolutions.net/docs/fr/rdm/mac/clip4209.png)
+* [Références d'entrée d'identifiants](/rdm/mac/commands/administration/reports/credential-entry/)
+* [Liste des entrées](/rdm/mac/commands/administration/reports/entry-list/)
+* [Références VPN](/rdm/mac/commands/administration/reports/vpn-references/)

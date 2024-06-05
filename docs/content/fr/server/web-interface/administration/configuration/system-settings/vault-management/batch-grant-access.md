@@ -1,48 +1,43 @@
 ---
 eleventyComputed:
-  title: Accorder l'accès en lot
-  description: La fonctionnalité Accorder l'accès en lot permet de définir des permissions et ensembles de permissions à plusieurs utilisateurs, groupes d'utilisateurs et/ou utilisateurs d'application en même temps sur des entrées, dossiers ou {{ fr.VLT }}s.
+  title: Attribution d'accès en lot
+  description: La fonctionnalité Attribution d'accès en lot vous permet de définir des permissions et des ensembles de permissions pour plusieurs utilisateurs, groupes d'utilisateurs et/ou utilisateurs d'applications à la fois sur des entrées, des dossiers et des {{ fr.VLT }}s.
 ---
-La fonctionnalité ***Accorder l'accès en lot*** permet de définir des permissions et ensembles de permissions à plusieurs utilisateurs, groupes d'utilisateurs et/ou utilisateurs d'application en même temps sur des entrées, dossiers ou {{ fr.VLT }}s.
+La fonctionnalité ***Attribution d'accès en lot*** permet de définir des permissions et des ensembles de permissions pour plusieurs utilisateurs, groupes d'utilisateurs et/ou utilisateurs d'applications à la fois sur des entrées, des dossiers et des {{ fr.VLT }}s.
 
 ## Emplacement
+***Attribution d'accès en lot*** se trouve dans les propriétés des entrées, des dossiers et des {{ fr.VLT }}s sous ***Sécurité – Permissions***. Définir les permissions sur ***Personnalisé***, puis cliquer sur ***Attribuer l'accès***.
+![Propriétés – Sécurité – Permissions](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp2075.png)
 
-***Accorder l'accès en lot*** se trouve dans les propriétés des entrées, dossiers et {{ fr.VLT }}s sous ***Sécurité – Permissions***. Définissez les permissions à ***Personnalisé***, puis cliquez sur ***Accorder l'accès***.
+Elle peut également être accédée via ***Administration*** :
+1. Dans l'interface web {{ fr.DVLS }}, aller à ***Administration – Paramètres Système – Gestion des {{ fr.VLT_MAJ }}s***.
+1. Sous ***Permissions par défaut***, sélectionner ***Personnalisé*** dans le menu déroulant ***Permission***.
+![Permissions par défaut personnalisées](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp2071.png)
+1. Cliquer sur ***Attribuer l'accès***.
+![Attribuer l'accès](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp2072.png)
 
-![Propriétés – Sécurité – Permissions](https://cdnweb.devolutions.net/docs/fr/server/ServerOp2052.png)
+La fenêtre ***Attribution d'accès en lot*** est maintenant ouverte.
+![Attribution d'accès en lot](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp2070.png)
 
-On peut également y accéder par le menu ***Administration*** :
-1. Dans l'interface Web de {{ fr.DVLS }}, aller dans ***Administration – Paramètres système – Gestion des {{ fr.VLT }}s***.
-1. Sous ***Permissions par défaut***, sélectionner ***Personnalisé*** dans le menu déroulant ***Autorisation***.
-![Permissions par défaut personnalisées](https://cdnweb.devolutions.net/docs/fr/server/ServerOp2047.png)
-1. Cliquer sur ***Accorder l'accès***.
-![Accorder l'accès](https://cdnweb.devolutions.net/docs/fr/server/ServerOp2048.png)
-
-La fenêtre ***Accorder l'accès en lot*** est maintenant ouverte.
-
-![Accorder l'accès en lot](https://cdnweb.devolutions.net/docs/fr/server/ServerOp2049.png)
-
-La fenêtre est divisée en deux sections : les <a href="#permissions">paramètres des permissions</a> et la <a href="#utilisateurs">sélection des utilisateurs</a>.
+La fenêtre est divisée en deux sections : les [paramètres de permission](#permissions) et la [sélection des utilisateurs](#users).
 
 ## Paramètres
 
 ### Permissions
+Dans les paramètres de permission, vous pouvez définir comment les permissions sont appliquées aux utilisateurs dans le menu déroulant ***Permission***. Sélectionner ***Personnalisé*** permet de spécifier dans ***Action*** si les permissions sélectionnées doivent être ajoutées aux permissions existantes, remplacer les permissions existantes, ou être retirées des permissions des utilisateurs sélectionnés.
 
-Dans les paramètres des permissions, vous pouvez définir la façon dont les permissions sont appliquées aux utilisateurs dans le menu déroulant ***Autorisation***. Sélectionner ***Personnalisé*** vous permet de spécifier dans ***Action*** si les permissions que vous sélectionnez doivent être ajoutées aux permissions déjà définies, remplacer celles qui sont définies ou être retirées des permissions des utilisateurs sélectionnés.
-
-Ensuite, vous pouvez sélectionner les permissions qui sont affectées par vos choix précédents. Vous pouvez afficher soit ***Toutes les permissions*** ou les ***Ensembles de permissions*** créés précédemment (ou ceux créés par défaut).
+Ensuite, vous pouvez sélectionner les permissions qui sont affectées par vos choix précédents. Vous pouvez afficher soit ***Toutes les Permissions*** soit des ***Ensembles de Permissions*** précédemment créés (ou par défaut).
 
 {% snippet, "badgeHelp" %}
-Les ensembles de permissions sont créés et configurés dans ***Administration – Paramètres du système – Gestion des {{ fr.VLT }}s – Ensemble de permissions***. Pour davantage d'information, voir [Ensembles de permissions](/fr/server/web-interface/administration/configuration/system-settings/vault-management/permission-sets/).
+Les ensembles de permissions sont créés et configurés dans ***Administration – Paramètres Système – Gestion des {{ fr.VLT_MAJ }}s – Ensembles de Permissions***. Pour plus d'informations, voir [Ensembles de Permissions](/server/web-interface/administration/configuration/system-settings/vault-management/permission-sets/).
 {% endsnippet %}
 
-![Paramètres des permissions](https://cdnweb.devolutions.net/docs/fr/server/ServerOp2050.png)
+![Paramètres de Permission](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp2073.png)
 
 ### Utilisateurs
+Les utilisateurs peuvent être sélectionnés un par un en cochant la case à côté de chacun, mais cette méthode peut être fastidieuse si vous avez beaucoup d'utilisateurs. Des outils sont disponibles pour vous aider dans votre processus de sélection :
+* ***Filtrer*** : Filtrer vos utilisateurs, groupes d'utilisateurs et utilisateurs d'applications par ***Nom*** ou ***Description***.
+* ***Type*** : Afficher uniquement les utilisateurs, groupes d'utilisateurs ou utilisateurs d'applications.
+* ***Sélectionnés*** : Afficher uniquement les utilisateurs, groupes d'utilisateurs ou utilisateurs d'applications sélectionnés ou non sélectionnés.
 
-Les utilisateurs peuvent être sélectionnés un par un en cochant la case à côté de chacun d'eux, mais cette méthode peut s'avérer fastidieuse si vous avez beaucoup d'utilisateurs. Des outils sont disponibles pour vous aider dans votre processus de sélection :
-* ***Filtre*** : Filtrer vos utilisateurs, groupes d'utilisateurs et utilisateurs d'applications par ***Nom*** ou ***Description***.
-* ***Type*** : Afficher seulement les utilisateurs les groupes d'utilisateurs ou les utilisateurs d'application.
-* ***Sélectionné*** : Afficher seulement les utilisateurs, groupes d'utilisateurs et utilisateurs d'application sélectionnés ou non sélectionnés.
-
-![Sélection des utilisateurs](https://cdnweb.devolutions.net/docs/fr/server/ServerOp2051.png)
+![Sélection des Utilisateurs](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp2074.png)

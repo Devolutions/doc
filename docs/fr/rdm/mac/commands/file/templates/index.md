@@ -2,56 +2,29 @@
 eleventyComputed:
   title: Modèles
 ---
-Les modèles sont disponibles dans le menu ***Fichier - Modèles***.
-![Fichier - Modèles](https://cdnweb.devolutions.net/docs/fr/rdm/mac/cli4035.png)
+Les modèles sont disponibles depuis le menu ***Fichier - Modèles***.
+![Fichier - Modèles](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_cli4035.png)
 
-Cela vous permet de créer une configuration prédéfinie tel que :
+Cela permet de créer une configuration prédéfinie telle que :
 
 * Créer une nouvelle session
 * Se connecter rapidement
-* Ouvrir comme modèle
+* Ouvrir en tant que modèle
 
 Les modèles peuvent être utiles si vous souhaitez avoir des valeurs prédéfinies lorsque vous créez une entrée spécifique.
 
-Cela vous permet de créer des modèles prédéfinis disponibles avec la connexion rapide, de la création ou de l'importation d'une nouvelle session.
+Cela permet de créer des modèles prédéfinis qui sont disponibles avec la barre d'outils de connexion rapide ou lors de la création ou de l'importation d'une nouvelle session.
 
 ## Paramètres
 
-Cliquer sur ***Modèles***, puis sur ***Nouveau*** pour créer un nouveau modèle.
-![Modèles - Nouveau](https://cdnweb.devolutions.net/docs/fr/rdm/mac/clip4035.png)
+Il suffit de cliquer sur Modèles puis sur Ajouter un modèle pour créer un nouveau modèle.
+![Modèles - Créer un Nouveau Modèle](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10321.png)
 
-Vous pouvez choisir de créer un modèle ***Local*** ou un modèle ***Partagé***.
-![Choisir Partagé ou Local](https://cdnweb.devolutions.net/docs/fr/rdm/mac/clip0501.png)
+## Utilisation
 
-<table>
-	<tr>
-		<td>
-Option
-		</td>
-		<td>
-Description
-		</td>
-	</tr>
-	<tr>
-		<td>
-Modèle local
-		</td>
-		<td>
-Les modèles locaux sont enregistrés sur l'ordinateur local et ne sont pas disponibles pour les autres utilisateurs.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Modèle partagé
-		</td>
-		<td>
-Les modèles partagés sont enregistrés dans la base de données et peuvent être utilisés par tous les utilisateurs.
-		</td>
-	</tr>
-</table>
+Les modèles peuvent être utilisés dans les cas suivants :
 
-### Création d'une nouvelle entrée
+### Créer une nouvelle entrée
 
-Lors de la création d'une nouvelle entrée, sélectionnez ***Modèle*** pour avoir accès à votre modèle créé précédemment, cliquer sur celui que vous souhaitez utiliser pour créer votre nouvelle entrée.
-![Créer une entrée - Modèle](https://cdnweb.devolutions.net/docs/fr/rdm/mac/clip4037.png)
-
+Lors de la création d'une nouvelle entrée, sélectionnez Modèle pour avoir accès à votre modèle précédemment créé, cliquez sur celui que vous souhaitez utiliser pour créer votre nouvelle entrée.
+![Créer une nouvelle entrée - Modèle](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10322.png)

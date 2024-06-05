@@ -2,18 +2,20 @@
 eleventyComputed:
   title: Connexion rapide
 ---
-Via la fonction de ***Connexion rapide***, vous pouvez ouvrir une session ad hoc en spécifiant l'hôte et le type de session. Il est également possible de créer un modèle et d'établir la connexion avec lui. Dans le modèle, vous définissez les paramètres souhaités et {{ fr.RDM }} les appliquera lors de la connexion à l'hôte spécifié.
+***Connexion rapide*** permet d'ouvrir une session ad-hoc en spécifiant l'hôte et le type de session. Cette fonctionnalité est accessible via la barre d'outils ***Connexion rapide*** ou dans l'onglet ***Affichage*** dans {{ fr.RDMMAC }}.
+![Outil & Bouton Connexion rapide](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_RDMMac0036.png)
 
 ## Paramètres
 
-La fonction de ***Connexion rapide*** est accessible à partir du menu ***Affichage – Connexion rapide*** ou via le bouton ***Connexion rapide*** situé dans la barre d'accès rapide ***{{ fr.RDM }}***.
-![Connexion rapide](https://cdnweb.devolutions.net/docs/fr/rdm/mac/clip4400.png)
+{% snippet, "badgeInfo" %}
+Notez que l'outil ***Connexion rapide*** ne vous permet que de spécifier un hôte, un ordinateur et un type de session. Pour avoir accès aux autres options disponibles dans la version fenêtrée, vous devez utiliser l'icône ***Connexion rapide*** dans l'onglet ***Affichage***.
+{% endsnippet %}
 
-Entrer l'Hôte (adresse IP), le Nom d'utilisateur ainsi que le Mot de passe et cliquer sur ***Se connecter***.
+Lors de l'ouverture de ***Connexion rapide*** via l'onglet ***Affichage***, une fenêtre apparaît où vous pouvez spécifier votre ***Hôte***, ***Nom d'utilisateur*** et ***Mot de passe*** de session.
+![Fenêtre Connexion rapide](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_RDMMac0037.png)
 
-Le bouton ***Parcourir*** répertorie les ordinateurs détectables sur le réseau pour vous permettre de sélectionner un ordinateur dans la liste. La liste des périphériques détectables sur le réseau peut être une opération longue.
-![Information de la Connexion rapide](https://cdnweb.devolutions.net/docs/fr/rdm/mac/clip4401.png)
+Cliquer sur le premier bouton à côté du champ ***Hôte*** ouvre une autre fenêtre où vous pourrez sélectionner un ordinateur à connecter dans une liste.
+![Fenêtre Hôte](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_RDMMac0038.png)
 
-Vous pouvez également sélectionner un nom d'hôte précédent en cliquant sur la flèche.
-
-La connexion avec l'ordinateur distant sera automatiquement établie.
+Cliquer sur le deuxième bouton à côté du champ ***Hôte*** affiche un menu où vous pouvez sélectionner votre type de session. Il est également possible de créer un ***Modèle*** et d'établir une connexion avec celui-ci. Voir [Connexion rapide](/rdm/mac/kb/rdm-windows/knowledge-base/quick-connect/) pour en savoir plus sur cette option. Vous pouvez également apprendre comment [créer un modèle](/rdm/mac/commands/file/templates/creating-templates/).
+![Menu déroulant Connexion rapide](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_RDMMac0039.png)

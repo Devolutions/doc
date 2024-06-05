@@ -1,24 +1,24 @@
 ---
 eleventyComputed:
-  title: Barre d'état
+  title: Barre de statut
 ---
-La barre d'état se trouve au bas de l'application. Elle est composée de plusieurs parties :
+La barre de statut se trouve en bas de l'application. Elle est composée de plusieurs parties :
 
-* Recherche/Filtre.
-* Version de {{ fr.RDM }}.
-* La bascule En ligne / Hors ligne.
-* La bascule de Saisie de l'entrée clavier.
+* Recherche/Filtre
+* étiquette de version {{ fr.RDM }}
+* Le basculeur En ligne/Hors ligne
+* Basculeur de capture d'entrée
 
-![Barre d'état](https://cdnweb.devolutions.net/docs/fr/rdm/windows/clip10988.png)
+![Barre de statut](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip10988.png)
 
-## Recherche/filtre
+## Recherche/Filtre
 
-Consulter [Recherche/Filtre](/fr/rdm/windows/user-interface/status-bar/search-filter/) pour des explications détaillées.
+Consulter la [Recherche/Filtre](/rdm/windows/user-interface/status-bar/search-filter/) pour des explications détaillées.
 
-## La bascule En ligne / Hors ligne
+## Basculeur En ligne/Hors ligne
 
-Cette fonction est indiquée par le globe vert entre le libellé de la version et la bascule de saisie du clavier. Cliquer dessus changera votre connexion entre hors ligne et en ligne (pour {{ fr.RDM }} uniquement). Vous pouvez dire quel est état de connexion que vous utilisez actuellement par la couleur du globe. Le vert est en ligne et l'orange est le mode hors ligne.
+Cette fonction est indiquée par le globe vert entre l'étiquette de version et le basculeur de capture d'entrée. Cliquer dessus changera votre connexion entre hors ligne et en ligne (pour {{ fr.RDM }} uniquement). Vous pouvez savoir quel état de connexion vous utilisez actuellement par la couleur du globe. Vert est en ligne et orange est hors ligne.
 
-## La bascule de Saisie de l'entrée clavier
+## Basculeur de capture d'entrée
 
-Consulter [Saisir l'entrée clavier](/fr/rdm/windows/user-interface/status-bar/grab-input/) pour des explications détaillées.
+Consulter [Capture d'Entrée](/rdm/windows/user-interface/status-bar/grab-input/) pour des explications détaillées.

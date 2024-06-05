@@ -1,67 +1,45 @@
 ---
 eleventyComputed:
-  title: Authentification deux facteurs
+  title: Authentification multifacteur
+  description: Configurer l'authentification à deux facteurs dans {{ fr.DVLS }} pour ajouter une couche supplémentaire de sécurité à l'application.
 ---
 {% snippet, "badgeInfo" %}
-Cette fonctionnalité n'est disponible que pour {{ fr.DVLS }} version 2022 ou supérieure.
+Cette fonctionnalité est uniquement disponible pour les versions de {{ fr.DVLS }} 2022.1 ou ultérieures.
 {% endsnippet %}
 
-Configurer l'authentification à deux facteurs dans {{ fr.DVLS }} pour ajouter une couche de sécurité supplémentaire à l'application.
+Configurer l'authentification multifacteur (AMF) dans {{ fr.DVLS }} pour ajouter une couche supplémentaire de sécurité à l'application.
 
-{{ fr.DVLS }} en charge plusieurs types d'authentification a deux facteurs. Vous pouvez configurer un type par défaut pour l'ensemble de votre organisation ou par utilisateur. Lorsque l'authentification à deux facteurs est configurée, les utilisateurs se connectent avec leur nom d'utilisateur/mot de passe ainsi qu'un produit d'authentification a deux facteurs.
+{{ fr.DVLS }} prend en charge plusieurs types d'AMF. Configurer un type d'AMF par défaut pour toute votre organisation ou configurer l'AMF utilisateur par utilisateur. Lorsque l'AMF est configuré, les utilisateurs se connectent avec leur nom d'utilisateur/mot de passe ainsi qu'un produit AMF.
 
-### Configuration d'une authentification à deux facteurs à partir de l'interface Web
+## Configurer l'Authentification Multifacteur Depuis l'Interface Web
 
-{% youtube 'qb7umoKbUdg' %}
+1. Pour accéder à la configuration de l'AMF, naviguer vers ***Administration – Paramètres du serveur – Authentification multifacteur***.
+1. La première option consiste à choisir comment vous souhaitez appliquer l'authentification multifacteur. Pour ce faire, cliquer sur l'icône d'information à côté de ***Utilisation de l'AMF*** pour aller à la section ***Politiques d'accès conditionnel***.
+![Utilisation de l'AMF](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp2061.png)
+1. Sélectionner une ***Cible*** (***Connexion*** ou ***AMF***).
+![Cible](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp6001.png)
+1. Si vous avez choisi ***AMF*** à l'étape précédente, sélectionner une ***Action par défaut lorsque aucune politique ne correspond*** parmi les suivantes :
+	* ***AMF Requis*** : L'AMF est imposé pour tous les utilisateurs. Un type d'AMF par défaut est défini pour tous les utilisateurs.
+	* ***AMF Ignoré*** : L'AMF n'est pas imposé.
+	* ***AMF Optionnel par Utilisateur*** : L'AMF est imposé sur une base individuelle. L'administrateur choisit qui utilise l'AMF et quel produit ou technologie ils utilisent. Choisir cette option si tous les utilisateurs ne sont pas configurés pour l'authentification multifacteur.
 
-## Paramètres
+{% snippet, "badgeInfo" %}
+Lorsque l'utilisation de l'AMF est définie sur ***AMF Optionnel par Utilisateur***, la méthode AMF doit être configurée dans ***Administration – Utilisateurs*** pour chaque utilisateur. Modifier ou ajouter un utilisateur, puis aller à la section ***Authentification multifacteur*** pour la configurer. Vous pouvez également définir un type d'AMF sur l'utilisateur s'ils utilisent un produit différent de la méthode par défaut. Voir [Authentification multifacteur (Modifier Utilisateur)](/server/web-interface/administration/security-management/users/edit-user-two-factor/).
+{% endsnippet %}
 
-1. Pour accéder à la configuration, allez dans ***Administration – Paramètres du serveur de mots de passe – Deux facteurs***.
-1. Choisir la manière dont vous souhaitez appliquer l'authentification à deux facteurs dans l'***Utilisation de 2FA***.
+![Action par défaut lorsque aucune politique ne correspond](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp6003.png)
 
-<table>
-	<tr>
-		<th>
+5. Retourner à la section ***Authentification multifacteur***, choisir à qui envoyer l'email de réinitialisation entre ***Administrateur(s)*** ou un ***Email spécifique*** (dans ce cas, vous devez spécifier l'email dans le champ ***Email spécifique***).
+![Envoyer l'email de réinitialisation à & Email spécifique](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp2064.png)
+1. Cocher les cases à côté des authentificateurs pris en charge que vous souhaitez activer. Vous pouvez en choisir autant que nécessaire.
 
-Option
-		</th>
-		<th>
-Description
-		</th>
-	</tr>
-	<tr>
-		<td>
-Aucun
-		</td>
-		<td>
-L'option n'est pas appliquée.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Optionnel par utilisateur
-		</td>
-		<td>
-L'option est appliquée sur une base individuelle. L'administrateur choisit qui utilise l'authentification et quels produit ou technologie il utilise.
+{% snippet, "badgeInfo" %}
+Les authentificateurs multifacteurs actuellement pris en charge sont Authenticator (TOTP), Yubikey, Email, [SMS](/server/web-interface/administration/configuration/server-settings/security/two-factor/sms/), Duo, et Radius. Vous devez les configurer séparément en utilisant les instructions à côté d'eux. Les emails doivent être configurés au préalable dans {{ fr.DVLS }} pour les AMF ***Email*** et ***SMS*** (sans Twilio).
+{% endsnippet %}
 
-Choisir cette option si tous les utilisateurs ne sont pas configurés pour l'authentification à deux facteurs.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Obligatoire
-		</td>
-		<td>
-L'option est appliquée pour tous les utilisateurs. Un type d'authentification à deux facteurs par défaut est défini pour tous les utilisateurs.
-		</td>
-	</tr>
-</table>
+![AMF pris en charge](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp2065.png)
 
-3. Sélectionner qui reçoit les demandes de réinitialisation des utilisateurs. Vous pouvez choisir d'envoyer le courriel à tous les administrateurs de {{ fr.DVLS }} ou à un courriel spécifique.
-1. Si vous avez choisi d'envoyer des demandes de réinitialisation à une adresse courriel au lieu des administrateurs de {{ fr.DVLS }}, saisir l'adresse courriel dans ***Courriel spécifique***.
-1. Sélectionner les types d'authentification a deux facteurs avec lesquels les utilisateurs peuvent s'authentifier. Choisissez-en autant que nécessaire.
-1. Si vous avez choisi l'utilisation comme obligatoire à l'étape 3, choisir le type d'authentification par défaut.
-1. Sélectionner d'autres méthodes de connexion. Ces options seront proposées lorsque les utilisateurs n'auront pas accès à la méthode habituelle.
-![Administration - Paramètres de {{ fr.DVLS }}](https://cdnweb.devolutions.net/docs/fr/server/clip10390.png)
-1. Lorsque l'utilisation de l'authentification à deux facteurs est définie sur ***Optionnel par utilisateur***, la méthode doit être configurée dans ***Administration - Utilisateurs - Deux facteurs*** pour chaque utilisateur. Vous pouvez également définir un type sur l'utilisateur s'il utilise un produit différent de la méthode par défaut. Voir [Modifier les utilisateurs](/fr/server/web-interface/administration/security-management/users/edit-user-two-factor/) pour plus d'informations.
-![Modifier l'utilisateur - 2 facteurs](https://cdnweb.devolutions.net/docs/fr/server/ServerOp7014.png)
+7. Sélectionner l'***AMF par défaut*** parmi ceux que vous avez activés à l'étape précédente.
+1. Sélectionner des moyens alternatifs de connexion entre ***Email*** et [***Codes de secours***](/server/web-interface/administration/configuration/server-settings/security/two-factor/backup-codes/). Ces options seront proposées lorsque les utilisateurs n'ont pas accès à leur méthode habituelle.
+![AMF par défaut et alternatifs](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp2066.png)
+1. Cliquer sur ***Enregistrer***.

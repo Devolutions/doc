@@ -1,13 +1,13 @@
 ---
 eleventyComputed:
-  title: Changer le Gravatar
+  title: Changer Gravatar
 ---
-L'avatar de l'utilisateur par défaut dans {{ fr.DVLS }} correspond aux initiales de l'utilisateur.
+L'avatar utilisateur par défaut dans {{ fr.DVLS }} est constitué des initiales de l'utilisateur.
 
 {% snippet, "badgeInfo" %}
-L'utilisation d'un avatar, autre que les initiales, est seulement disponible lorsque l'option est activée dans ***Administration – Paramètres Serveur – Fonctionnalités – Activer Gravatar***.
+L'utilisation d'un avatar, autre que les initiales, n'est disponible que lorsque l'option est activée dans ***Administration – Paramètres du serveur – Fonctionnalités – Activer Gravatar***.
 {% endsnippet %}
 
-Les utilisateurs peuvent modifier l'avatar et utiliser une image téléchargée sur [Gravatar](http://fr.gravatar.com/) en entrant le courriel associé au compte Gravatar.
+Les utilisateurs peuvent changer l'avatar et utiliser une image téléchargée sur [Gravatar](http://en.gravatar.com/) en entrant l'email associé au compte Gravatar.
 
-![Changer votre avatar](https://cdnweb.devolutions.net/docs/fr/server/clip7004.png)
+![Changer votre avatar](https://cdnweb.devolutions.net/docs/docs_en_server_clip7004.png)

@@ -2,34 +2,36 @@
 eleventyComputed:
   title: Recherche
 ---
-Il est possible d'appliquer un filtre dans le [***{{ fr.NPANE }}***](/fr/rdm/mac/user-interface/navigation-pane/) en tapant certains caractères dans la zone de filtre. Le filtre est appliqué en utilisant les paramètres spécifiés dans l'application.
+Il est possible d'appliquer un filtre dans la vue arborescente [***{{ fr.NPANE }}***](/rdm/mac/user-interface/navigation-pane/) en tapant quelques caractères dans la boîte de filtre. Le filtre est appliqué en utilisant les paramètres spécifiés dans les options de filtre de l'application.
 
 ## Paramètres
 
-Le filtre de ***Recherche*** est accessible à partir de la barre d'accès rapide de {{ fr.RDM }}.
-![Recherche/ Filtre](https://cdnweb.devolutions.net/docs/fr/rdm/mac/clip4402.png)
+Le filtre de recherche est accessible depuis la barre d'outils d'accès rapide {{ fr.RDMMAC }} [Barre d'outils](/rdm/mac/user-interface/quick-access/).
+![Accès rapide - Recherche](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10561.png)
 
-Cliquer sur la flèche dans la zone de ***Recherche*** pour afficher vos options de recherche.
-![Menu d'options de recherche](https://cdnweb.devolutions.net/docs/fr/rdm/mac/clip4404.png)
+Cliquer sur la flèche dans la boîte de recherche pour afficher vos options de recherche.
+![Boîte de recherche - Options déroulantes](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10562.png)
 
-L'expression du filtre est mise en correspondance avec les champs sélectionnés dans les options de filtre, tels que :
+L'expression de filtre est comparée aux champs sélectionnés dans les options de filtre tels que :
 
-* Dossier
+* Groupe
 * Type
 * Hôte
 * Nom d'utilisateur
 * Domaine
 * Description
-* Mots-clés
-* Référence de contact
+* Mots-clés/Étiquettes
+* Informations de contact
 
-Il est possible d'exclure des résultats en choisissant d'afficher les entrées correspondant à certains critères :
+Il est possible d'exclure des résultats en choisissant d'afficher les entrées qui correspondent à certains critères :
 
-* Type de sessions (Identifiants, Outils de script, VPN, etc.)
-* Si la session est marquée comme Favorites
+* Types de session (identifiants, outils de script, VPN, etc.)
+* Si la session est marquée comme un Favoris
 
-Une recherche par ***Options de navigation*** peut être exécutée pour inclure des Sessions, des Entrées de données, des Contacts, des Documents, des Entrées d'identifiants, des VPN, des Macros/Scripts/Outils et Sync.
-![Options de navigation](https://cdnweb.devolutions.net/docs/fr/rdm/mac/clip4406.png)
+Une recherche par types peut être exécutée pour inclure Sessions, Entrées de données, Contacts, Documents, Entrées d'identifiants, VPNs, Macros/Scripts/Outils, Afficher Sync.
+![Recherche - Type](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10563.png)
 
-Les ***Options de recherche*** vous offriront la possibilité d'inclure les raccourcis, les sous entrées, d'afficher uniquement les favoris et/ou de rendre la recherche sensible à la casse.
-![Options de recherche](https://cdnweb.devolutions.net/docs/fr/rdm/mac/clip4407.png)
+Les Options de recherche vous offriront la possibilité d'inclure les raccourcis, les sous-entrées, d'afficher uniquement les favoris et/ou de rendre la recherche sensible à la casse.
+![Recherche - Options de recherche](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10564.png)
+
+

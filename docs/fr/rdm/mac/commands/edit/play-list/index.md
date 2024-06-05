@@ -1,14 +1,14 @@
 ---
 eleventyComputed:
-  title: Liste d'exécution
+  title: Liste de lecture
 ---
-La fonction Liste d'exécution dans {{ fr.RDM }} ressemble beaucoup à une liste de lecture de musique. La liste d'exécution peut être utilisée pour créer des groupes de sessions pour une tâche spécifique ou pour des raisons de sécurité. Vous pouvez créer votre propre liste d'exécution et démarrer toutes les entrées à partir d'une liste d'exécution en même temps.
+La fonctionnalité Liste de lecture dans {{ fr.RDMMAC }} est très similaire à une liste de lecture musicale. La Liste de lecture peut être utilisée pour créer des groupes de sessions pour une tâche spécifique ou pour des raisons de sécurité. Vous pouvez construire votre propre Liste de lecture et démarrer toutes les entrées d'une Liste de lecture en même temps.
 
-La fonction ***Liste d'exécution*** est accessible depuis ***Modifier - Liste d'exécution***.
-![Ruban Modifier - Liste d'exécution](https://cdnweb.devolutions.net/docs/fr/rdm/mac/clip4086.png)
+La fonctionnalité Liste de lecture est accessible depuis ***Affichage – Liste de lecture***.
+![Ruban Affichage - Liste de lecture](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10359.png)
 
-Pour plus d'informations, veuillez consulter les rubriques suivantes :
+Pour plus d'informations, veuillez consulter les sujets suivants :
 
-* [Actions](/fr/rdm/mac/commands/edit/play-list/action/)
-* [Gestionnaire](/fr/rdm/mac/commands/edit/play-list/management/)
-* [Lancer au démarrage](/fr/rdm/mac/commands/edit/play-list/default-startup/)
+* [Actions](/rdm/mac/commands/edit/play-list/action/)
+* [Gestion](/rdm/mac/commands/edit/play-list/management/)
+* [Par défaut au démarrage](/rdm/mac/commands/edit/play-list/default-startup/)

@@ -2,109 +2,18 @@
 eleventyComputed:
   title: Général
 ---
-![Modifier l'utilisateur](https://cdnweb.devolutions.net/docs/fr/server/ServerOp7005.png)
+![Modifier les utilisateurs – Général](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp7005.png)
 
-<table>
-	<tr>
-		<th>
-
-Option
-		</th>
-		<th>
-Description
-		</th>
-	</tr>
-	<tr>
-		<td>
-Type d'authentification
-		</td>
-		<td>
-Sélectionner le type d'authentification de l'utilisateur :
-
-* ***{{ fr.DVLS }}*** : Créer un utilisateur dans {{ fr.DVLS }} sans créer de connexion SQL.
-* ***Domaine*** : Authentifiez-vous à l'aide du compte d'utilisateur Active Directory.
-* ***Office 365*** : Authentifiez-vous à l'aide du compte Office 365.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Utilisateur
-		</td>
-		<td>
-Nom de connexion de l'utilisateur.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Type d'utilisateur
-		</td>
-		<td>
-Choisir le type d'utilisateur :
-
-* ***Administrateur*** : Accorder tous les droits d'administration à l'utilisateur.
-* ***Utilisateur lecture seulement*** : Accorder uniquement l'accès ***Affichage*** à l'utilisateur.
-* ***Utilisateur accès restreint*** : Sélectionner les droits à accorder à l'utilisateur.
-* ***Utilisateur*** : Accorder tous les droits de base à l'utilisateur (***Ajouter***, ***Modifier***, ***Supprimer***).
-		</td>
-	</tr>
-	<tr>
-		<td>
-Type de licence
-		</td>
-		<td>
-Sélectionner le type de licence dont dispose l'utilisateur :
-
-* ***Par défaut*** : Gestion des connexions.
-* ***Gestion des connexions*** : Pour les utilisateurs qui ouvrent des connexions à distance.
-* ***Gestion des mots de passe*** : Pour les utilisateurs qui n'utilisent que {{ fr.DVLS }} comme gestionnaire de mots de passe.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Activé
-		</td>
-		<td>
-Cocher pour activer l'utilisateur.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Dois changer de mot de passe à la prochaine ouverture de session
-		</td>
-		<td>
-Cocher pour forcer l'utilisateur à changer le mot de passe la prochaine fois qu'il se connectera.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Prénom
-		</td>
-		<td>
-Saisir le prénom de l'utilisateur.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Nom
-		</td>
-		<td>
-Saisir le nom de famille de l'utilisateur.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Courriel
-		</td>
-		<td>
-Saisir l'adresse courriel de l'utilisateur.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Langage
-		</td>
-		<td>
-Langage de l'interface Web de l'utilisateur.
-		</td>
-	</tr>
-</table>
+## Modifier les utilisateurs
+| Option                             | Description                                                           |
+|------------------------------------|-----------------------------------------------------------------------|
+| Type d'authentification                | Sélectionner le type d'authentification de l'utilisateur :<br><ul><li>***{{ fr.DVLS }}*** : créer un utilisateur dans {{ fr.DVLS }} sans créer de connexion SQL.</li><li>***Domaine*** : s'authentifier en utilisant le compte utilisateur Active Directory.</li><li>***Office365/Azure AD*** : s'authentifier en utilisant le compte utilisateur Azure AD.</li></ul> |
+| Utilisateur (obligatoire)                    | Nom de connexion de l'utilisateur.                                                      |
+| Type d'utilisateur                          | Choisir le type d'utilisateur :<br><ul><li>***Administrateur*** : accorder tous les droits administratifs à l'utilisateur.</li><li>***Utilisateur en lecture seule*** : accorder uniquement l'accès ***Voir*** à l'utilisateur.</li><li>***Utilisateur restreint*** : sélectionner quels droits accorder à l'utilisateur.</li><li>***Utilisateur*** : accorder tous les droits de base à l'utilisateur (***Ajouter***, ***Modifier***, ***Supprimer***).</li></ul> |
+| Type de licence utilisateur                  | Sélectionner le type de licence que l'utilisateur possède :<br><ul><li>***Par défaut*** : Gestion des connexions.</li><li>***Gestion des connexions*** : pour les utilisateurs qui ouvrent des connexions à distance.</li><li>***Gestion des mots de passe*** : pour les utilisateurs qui utilisent {{ fr.DVLS }} uniquement comme un gestionnaire de mots de passe.</li></ul> |
+| Activé                            | Cocher pour activer l'utilisateur.                                           |
+| Doit changer de mot de passe à la prochaine connexion | Cocher pour forcer l'utilisateur à changer de mot de passe la prochaine fois qu'il se connecte. |
+| Prénom                         | Entrer le prénom de l'utilisateur.                                          |
+| Nom de famille                         | Entrer le nom de famille de l'utilisateur.                                           |
+| Email (obligatoire)                   | Entrer l'adresse email de l'utilisateur.                                       |
+| Langue                           | Langue de l'interface web de l'utilisateur.                                 |

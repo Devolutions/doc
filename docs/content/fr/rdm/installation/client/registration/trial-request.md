@@ -1,28 +1,26 @@
 ---
 eleventyComputed:
   title: Demande d'essai
-  description: Si vous n'êtes pas prêt à acheter {{ fr.RDM }}, vous pouvez utiliser l'Édition Free ou suivre ces étapes pour obtenir un essai gratuit de 30 jours de l'Édition Team.
-  keywords:
-  - trial
+  description: Si vous n'êtes pas prêt à acheter {{ fr.RDM }}, vous pouvez utiliser l'Édition Gratuite ou suivre les étapes ci-dessous pour demander un essai gratuit de 30 jours pour utiliser l'Édition Équipe.
 ---
-Si vous n'êtes pas prêt à acheter {{ fr.RDM }}, vous pouvez utiliser l'[Édition Free](/fr/rdm/windows/installation/client/registration/free-edition/) ou suivre les étapes suivantes pour obtenir un essai gratuit de 30 jours de l'Édition Team.
+Si vous n'êtes pas prêt à acheter {{ fr.RDM }}, vous pouvez utiliser l'[Édition Gratuite](/rdm/windows/installation/client/registration/free-edition/) ou suivre les étapes ci-dessous pour demander un essai gratuit de 30 jours pour utiliser l'Édition Équipe.
 
 {% snippet, "badgeInfo" %}
-Si vous décidez de ne pas l'enregistrer avant la fin de la période d'essai, vos données ne seront pas altérées ni effacées. Vous aurez de nouveau accès à vos données une fois que la licence sera enregistrée.
+Si vous décidez de ne pas vous inscrire à la fin de l'essai, vos données ne seront ni modifiées ni effacées, et vous aurez un accès complet à celles-ci une fois que vous aurez fourni une clé de licence.
 {% endsnippet %}
 
-{% snippet, "badgeInfo" %}
-Vous devrez importer le fichier de licence pour {{ fr.RDM }} 2023.3 et les versions ultérieures si vous n'avez pas d'accès à Internet.{% endsnippet %}
+1. Demander votre [essai de 30 jours](https://devolutions.net/remote-desktop-manager/trial) sur notre site web.
+1. Copier le numéro de série de la licence d'essai que vous recevez dans un courriel de confirmation de Devolutions. Vous pouvez également télécharger le fichier de licence depuis le même courriel de confirmation.
+1. Dans {{ fr.RDM }}, aller à ***Administration – Gestion – Licences***.
+![Administration – Gestion – Licences](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip3417.png)
+1. Cliquer sur ***Ajouter une Licence***.
+![Ajouter une Licence](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin2236.png)
+1. Coller le numéro de série de la licence d'essai dans le champ ***Licence*** de l'étape 2 ou importer le fichier de licence, puis cliquer sur ***OK***.
+1. Coller le numéro de série de la licence dans le champ ***Licence*** ou importer le fichier de licence en utilisant le bouton ***Importer***.
+   {% snippet, "badgeInfo" %}
+   Si vous avez besoin d'enregistrer votre licence en mode hors ligne (si internet est désactivé ou si pour une raison quelconque vous ne pouvez pas atteindre les serveurs), vous pouvez le faire uniquement en important le fichier **.lic** qui vous est fourni, contenant un Jeton Web JSON (JWT). Le fichier de licence doit être téléchargé depuis le courriel de confirmation de Devolutions et importé comme décrit dans les étapes ci-dessus pour {{ fr.RDM }} 2023.3 et ultérieures.
+   {% endsnippet %}
 
-## Étapes
+   ![Champ de licence et importation](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin2238.png)
 
-1. Demander un [essai de 30 jours](https://devolutions.net/remote-desktop-manager/fr/trial) sur notre site Web.
-1. Copier la licence d'essai reçue dans un courriel de confirmation envoyé par Devolutions. Vous pouvez également télécharger le fichier de licence à partir du même courriel de confirmation.
-1. Dans {{ fr.RDM }}, aller dans ***Administration – Gestion – Licences***.
-![Administration – Gestion – Licences](https://cdnweb.devolutions.net/docs/fr/rdm/windows/clip3417.png)
-1. Cliquer sur ***Ajouter une licence***.
-![Ajouter une licence](https://cdnweb.devolutions.net/docs/fr/rdm/windows/RdmWin4118.png)
-1. Saisir la licence d'essai de l'étape 2 ou importer le fichier de licence, dans le champ approprié, puis cliquer sur ***OK***.
-![Champ Licence et bouton Importer](https://cdnweb.devolutions.net/docs/fr/rdm/windows/RDMWin6075_2023_3.png)
-
-Votre période d'essai est maintenant commencée.
+Votre essai a maintenant commencé.

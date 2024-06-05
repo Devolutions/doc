@@ -1,158 +1,53 @@
 ---
 eleventyComputed:
-  title: Informations sur la source de données
+  title: Informations sur ma source de données
 ---
-Les ***Informations sur la source de données*** affichent diverses informations liées à la source de données actuelle, telles que l'utilisateur actuel et l'accès de sécurité.
+La fenêtre ***Informations sur la Source de Données*** affiche diverses informations liées à la source de données actuelle, telles que l'utilisateur actuel et l'accès à la sécurité.
 
 {% snippet, "badgeInfo" %}
-La vue ***Informations de la source de données*** peut être différente selon le [Types de sources de données](/fr/rdm/windows/data-sources/data-sources-types/). Cette rubrique utilise une source de données SQL Server.
+La vue ***Informations sur Ma Source de Données*** peut être différente selon le [Type de Source de Données](/rdm/windows/data-sources/data-sources-types/). Ce sujet utilise une source de données SQL Server.
 {% endsnippet %}
 
-![Fichier - Informations de la source de données](https://cdnweb.devolutions.net/docs/fr/rdm/windows/clip3567.png)
+![Fichier – Informations sur Ma Source de Données](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip3567.png)
 
 ## Utilisateur et sécurité
 
 ### Général
 
-L'onglet ***Général*** affiche des informations sur la configuration actuelle de l'utilisateur et de la source de données.
-![Informations sur la source de données - Général](https://cdnweb.devolutions.net/docs/fr/rdm/windows/clip10881.png)
+L'onglet Général affiche des informations sur l'utilisateur actuel et la configuration de la source de données.
+![Informations sur Ma Source de Données - Général](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip10881.png)
 
-<table>
-	<tr>
-		<th>
-OPTION
-		</th>
-		<th>
-DESCRIPTION
-		</th>
-	</tr>
-	<tr>
-		<td>
-Utilisateur de la base de données
-		</td>
-		<td>
-Nom de l'utilisateur actuellement connecté à la base de données.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Utilisateur
-		</td>
-		<td>
-L'utilisateur actuel de Windows.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Description
-		</td>
-		<td>
-Affiche la description de l'utilisateur connecté à la source de données.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Administrateur
-		</td>
-		<td>
-Indique si l'utilisateur est un administrateur.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Autoriser le mode déconnecté
-		</td>
-		<td>
-Indique si l'utilisateur peut utiliser la source de données en mode hors-ligne.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Permettre de glisser-déposer
-		</td>
-		<td>
-Indique si l'utilisateur peut glisser-déposer des entrées dans la source de données.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Actualisation automatique
-		</td>
-		<td>
-Indique si la source de données s'actualise automatiquement.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Intervalle d'actualisation automatique
-		</td>
-		<td>
-Indique le délai d'actualisation automatique.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Est configuré pour l'authentification à 2 facteurs
-		</td>
-		<td>
-Indique si la source de données est configurée avec un deuxième facteur d'authentification.
-		</td>
-	</tr>
-</table>
+| OPTION                      | DESCRIPTION                                                                                     |
+|-----------------------------|-------------------------------------------------------------------------------------------------|
+| Utilisateur de la base de données | Le nom de l'utilisateur actuellement connecté à la base de données.                             |
+| Utilisateur                  | L'utilisateur Windows actuel.                                                                   |
+| Description                 | Affiche la description de l'utilisateur connecté à la source de données.                       |
+| Est administrateur          | Indique si l'utilisateur est un administrateur.                                                 |
+| Autoriser le mode hors ligne | Indique si l'utilisateur peut utiliser la source de données en mode hors ligne.                 |
+| Autoriser le glisser-déposer | Indique si l'utilisateur peut glisser-déposer des entrées dans la source de données.            |
+| Est Auto Actualisation      | Indique si la source de données s'actualise automatiquement.                                    |
+| Intervalle d'auto actualisation | Indique le délai pour que l'auto actualisation se produise.                                     |
+| Est Configuration Deux Facteurs | Indique si la source de données est configurée avec un second facteur d'authentification.       |
+
 
 ### Entrées
 
-![Informations sur la source de données - Entrées](https://cdnweb.devolutions.net/docs/fr/rdm/windows/clip10065.png)
+![Informations sur Ma Source de Données – Entrées](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip10065.png)
 
-<table>
-	<tr>
-		<th>
-OPTION
-		</th>
-		<th>
-DESCRIPTION
-		</th>
-	</tr>
-	<tr>
-		<td>
-Ajouter, Modifier et Supprimer des entrées
-		</td>
-		<td>
-Indique si l'utilisateur a le droit d'ajouter, de modifier ou de supprimer des entrées.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Afficher la section d'informations
-		</td>
-		<td>
-Indique si l'utilisateur peut afficher la section d'informations des entrées.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Importer et Exporter des entrées
-		</td>
-		<td>
-Indique si l'utilisateur a le privilège d'importer ou d'exporter des entrées.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Permettre l'ajout d'entrées dans le dossier racine
-		</td>
-		<td>
-Indique si l'utilisateur peut ajouter des entrées à la racine de la source de données.
-		</td>
-	</tr>
-</table>
+| OPTION                                 | DESCRIPTION                                                                   |
+|----------------------------------------|-------------------------------------------------------------------------------|
+| Ajouter, Modifier et Supprimer des entrées | Indique si l'utilisateur a le droit d'ajouter, de modifier ou de supprimer des entrées. |
+| Voir la section d'informations         | Indique si l'utilisateur peut voir la section d'informations des entrées.     |
+| Importer et Exporter des entrées       | Indique si l'utilisateur a le privilège d'importer ou d'exporter des entrées. |
+| Autoriser l'ajout d'entrée dans le dossier {{ fr.VLT }} | Indique si l'utilisateur peut ajouter des entrées dans le {{ fr.VLT }} de la source de données. |
+
 
 ### Groupes d'utilisateurs
 
-L'onglet ***Groupes d'utilisateurs*** affiche les groupes d'utilisateurs dont l'utilisateur est membre et les droits associés à ces groupes d'utilisateurs.
+L'onglet ***Groupes d'Utilisateurs*** affiche les groupes d'utilisateurs dont l'utilisateur est membre et les droits liés à ces groupes d'utilisateurs.
 
 {% snippet, "badgeInfo" %}
-Cette fonctionnalité est uniquement disponible avec une source de données [SQL Server/Azure SQL](/fr/rdm/windows/data-sources/data-sources-types/advanced-data-sources/microsoft-sql-server/) et [{{ fr.DVLS }} (DVLS)](/fr/rdm/windows/data-sources/data-sources-types/advanced-data-sources/server/).
+Cette fonctionnalité est uniquement disponible avec une source de données SQL Server/Azure SQL et une {{ fr.DVLS }} (DVLS).
 {% endsnippet %}
 
-
+![!!RDMWin2219](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin2219.png)

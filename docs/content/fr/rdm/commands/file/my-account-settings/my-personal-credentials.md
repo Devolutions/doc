@@ -1,18 +1,23 @@
 ---
 eleventyComputed:
-  title: Mes identifiants personnels
+  title: Mes informations d'identification personnelles
+  keywords:
+  - Service Terminal
 ---
-La fonction ***Mes identifiants personnels*** est une seule entrée d'identifiants qui est stockée localement sur votre ordinateur dans votre profil Windows.
+{% youtube 'FtSlp_TVAxE?si=O85mqPUZRZGAyTui&amp;start=380' %}
 
-Il est généralement utilisé pour conserver les informations d'identification Windows pour vos sessions en cours d'exécution, car {{ fr.RDM }} ne peut pas y accéder. Si vous ne pouvez pas utiliser la sécurité intégrée, vous devez stocker vos identifiants dans ***Mes identifiants personnels***.
+La fonctionnalité ***Mes informations d'identification personnelles*** est une entrée d'identifiants unique qui est stockée localement sur votre ordinateur dans votre profil Windows ou dans la base de données.
 
-Cela vous permet de centraliser une information d'identifiant spécial pour remplacer ou émuler celles de votre session Windows. Lorsqu'un changement de mot de passe est nécessaire, il vous suffit de le modifier une fois dans ***Mes identifiants personnels***.
+Elle est généralement utilisée pour conserver les identifiants Windows pour vos sessions en cours car {{ fr.RDM }} ne peut pas y accéder. Si vous ne pouvez pas utiliser la sécurité intégrée, alors vous devez stocker vos identifiants dans ***Mes informations d'identification personnelles***.
+
+Cela vous permet de centraliser un identifiant spécial pour remplacer ou émuler ceux de votre session Windows. Lorsqu'un changement de mot de passe est nécessaire, vous avez simplement besoin de le changer une fois dans ***Mes informations d'identification personnelles***.
 
 {% snippet, "badgeInfo" %}
-Si vous souhaitez modifier le type d'identifiant, accéder à **%LOCALAPPDATA%** (par défaut) ou **%APPDATA%** (services Terminal Server) \ Devolutions \ RemoteDesktopManager et supprimer le fichier **Credentials.rdt** pour le réinitialiser.
+Si vous souhaitez changer le type d'identifiant, aller dans **%LOCALAPPDATA%** (Par défaut) ou **%APPDATA%** (Services Bureau à distance)
+**\Devolutions\RemoteDesktopManager** et supprimer le fichier **Credentials.rdt** pour le réinitialiser.
 {% endsnippet %}
 
-![Mes identifiants personnels](https://cdnweb.devolutions.net/docs/fr/rdm/windows/clip10269.png)
+![Mes informations d'identification personnelles](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip10269.png)
 
-***Mes identifiants personnels*** peuvent être sélectionnés dans vos entrées sous ***Identifiants***.
-![Identifiants - Mes identifiants personnels](https://cdnweb.devolutions.net/docs/fr/rdm/windows/clip11293.png)
+Mes informations d'identification personnelles peuvent être sélectionnées dans vos entrées sous Identifiants.
+![Identifiants - Mes informations d'identification personnelles](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip11293.png)

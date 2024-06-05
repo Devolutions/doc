@@ -1,245 +1,77 @@
 ---
 eleventyComputed:
   title: Actions
+  description: L'onglet Actions n'est disponible que lorsqu'une session est ouverte. Les actions disponibles diffèrent selon l'action.
 ---
-L'onglet ***Actions*** est disponible seulement lorsqu'une session est ouverte. Les actions disponibles diffèrent selon l'action.
+L'onglet ***Actions*** n'est disponible que lorsqu'une session est ouverte. Les actions disponibles diffèrent selon l'action.
 
-Pour notre exemple, nous exécutons une session RDP. Le ruban affichera l'onglet suivant lorsque la session s'exécute avec le mode d'affichage Intégré (tabulé).
-![Ruban - Actions](https://cdnweb.devolutions.net/docs/fr/rdm/windows/clip11288.png)
+Pour notre exemple, nous exécutons une session RDP. Le ruban affichera l'onglet suivant lorsque la session fonctionne avec le mode d'affichage ***intégré (à onglets)***.
+![Ribbon - Actions](https://cdnweb.devolutions.net/docs/RDMW6001_2023_3.png)
 
 ### Connexion
 
-<table>
-	<tr>
-		<th>
-OPTION
-		</th>
-		<th>
-DESCRIPTION
-		</th>
-	</tr>
-		<td>
-Reconnecter
-		</td>
-		<td>
-Fermer rapidement la session, puis la rouvrir automatiquement. À utiliser pour mettre à jour la résolution de vos connexions RDP intégrées lorsque vous redimensionnez la fenêtre.
-		</td>
-	</tr>
-		<td>
-Fermer
-		</td>
-		<td>
-Fermer la session active.
-		</td>
-	</tr>
-		<td>
-Se déconnecter
-		</td>
-		<td>
-Fermer la session RDP.
-		</td>
-	</tr>
-		<td>
-Reconnecter tout
-		</td>
-		<td>
-Fermer rapidement les sessions, puis les rouvrir automatiquement.
-		</td>
-	</tr>
-</table>
+| Option    | Description                                                                                                      |
+|-----------|------------------------------------------------------------------------------------------------------------------|
+| Reconnecter | Fermer rapidement la session puis la rouvrir automatiquement en utilisant les identifiants résolus. Notez que les mots de passe peuvent changer périodiquement (par exemple, en raison de la rotation des mots de passe du Secret Server). Pour résoudre complètement les identifiants lors de la reconnexion, appuyer sur <kbd>Ctrl</kbd>+ ***Reconnecter Tout***. Alternativement, vous pouvez cliquer droit sur l'entrée et sélectionner <kbd>Ctrl</kbd>+ ***Reconnecter*** pour obtenir le même résultat. Utiliser ***Reconnecter*** pour mettre à jour la résolution de vos connexions RDP intégrées lorsque vous redimensionnez la fenêtre.    |
+| Fermer     | Fermer la session active.                                                                                        |
+| Déconnecter    | Se déconnecter de la session RDP.                                                                                 |
+| Déconnexion Forcée    |Forcer la déconnexion de la session RDP.                                                                                 |
+| Reconnecter Tout   | Reconnecter toutes les sessions en utilisant les identifiants résolus. Notez que les mots de passe peuvent changer périodiquement (par exemple, en raison de la rotation des mots de passe du Secret Server). Pour résoudre complètement les identifiants lors de la reconnexion, appuyer sur <kbd>Ctrl</kbd>+ ***Reconnecter Tout***. Alternativement, vous pouvez cliquer droit sur l'entrée et sélectionner <kbd>Ctrl</kbd>+ ***Reconnecter*** pour obtenir le même résultat.                                                                              |
+| Fermer Tout   |  Fermer tous les onglets ouverts.                                                                                      |
+| Fermer Tous les Autres Onglets  | Fermer tous les autres onglets ouverts.                                                                                       |
+| Cacher   | Cacher l'onglet sélectionné.                                                                                       |
 
 ### Actions
 
-<table>
-	<tr>
-		<th>
-Option
-		</th>
-		<th>
-Description
-		</th>
-	</tr>
-	<tr>
-		<td>
-Exécuter
-		</td>
-		<td>
-Exécuter la macro ou le script sélectionné dans la fenêtre précédente ou dans l'onglet actuel. Ceci n'est disponible que lorsqu'il y a quelque chose à exécuter.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Macros/Scripts
-		</td>
-		<td>
-Affiche une fenêtre dans laquelle vous pouvez sélectionner une macro ou un script, ainsi que les options d'exécution.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Presse-papiers tapé
-		</td>
-		<td>
-Envoie le contenu du presse-papiers à la session ouverte.
-		</td>
-	</tr>
-</table>
+| Option        | Description                                                                                                     |
+| ------------- | --------------------------------------------------------------------------------------------------------------- |
+| Exécuter Macro/Script       | Afficher une fenêtre où vous pouvez sélectionner une macro ou un script, ainsi que les options d'exécution. |
+| Taper Presse-papiers| Envoyer le contenu du presse-papiers vers la session ouverte.                                                   |
+
 
 ### Affichage
 
-<table>
-	<tr>
-		<th>
-OPTION
-		</th>
-		<th>
-DESCRIPTION
-		</th>
-	</tr>
-	<tr>
-		<td>
-Désancrer
-		</td>
-		<td>
-Désancrer votre session intégrée et déplacez-la n'importe où en dehors de {{ fr.RDM }} ou même sur un autre moniteur.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Intégré
-		</td>
-		<td>
-Re-intégrer votre session lorsque votre session est désancré. Cette option apparaîtra que si votre session est déjà en mode intégré.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Plein écran
-		</td>
-		<td>
-Afficher votre session en plein écran en dehors de {{ fr.RDM }}.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Écran de la zone de travail
-		</td>
-		<td>
-Ce mode vous permet d'ouvrir la connexion en plein écran, mais aussi d'avoir accès à votre barre des tâches locale.
-		</td>
-	</tr>
-</table>
+| Option           | Description                                                                                 |
+| -----------------|-------------------------------------------------------------------------------------------- |
+| Détacher           | Détacher votre session intégrée et la déplacer n'importe où en dehors de {{ fr.RDM }} ou même sur un autre moniteur. |
+| Plein Écran      | Afficher votre session en plein écran en dehors de {{ fr.RDM }}.                                   |
+| Écran Zone de Travail | Ouvrir la connexion en plein écran et avoir accès à votre barre des tâches locale.                   |
+
 
 ### Paramètres
 
-<table>
-	<tr>
-		<th>
-OPTION
-		</th>
-		<th>
-DESCRIPTION
-		</th>
-	</tr>
-	<tr>
-		<td>
-Conserver onglet à la déconnexion
-		</td>
-		<td>
-Votre onglet de session restera après une déconnexion de session.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Dimensionnement intelligent
-		</td>
-		<td>
-Activer ou désactiver le dimensionnement intelligent d'une RDP. Ce paramètre déterminera si l'ordinateur client peut ou non mettre à l'échelle le contenu de l'ordinateur distant pour l'adapter à la taille de la fenêtre de l'ordinateur client.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Reconnexion intelligente
-		</td>
-		<td>
-Reconnecter automatiquement votre session avec la bande la plus appropriée.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Touche Windows sur l'ordinateur distant
-		</td>
-		<td>
-Lorsque vous activez la touche Windows, il enverra la fonction à votre hôte au lieu de l'exécuter sur votre ordinateur.
-		</td>
-	</tr>
-</table>
+| Option                 | Description                                                                            |
+| ---------------------- | ---------------------------------------------------------------------------------------|
+| Garder l'onglet à la déconnexion           | Votre onglet de session restera après une déconnexion de session. Pour plus d'informations, voir [Garder les onglets ouverts](/rdm/kb/rdm-windows/how-to-articles/keep-tabs-opened/).                |
+| Ajustement Intelligent                     | Activer ou désactiver l'ajustement intelligent RDP. Ce paramètre déterminera si l'ordinateur client peut ou non mettre à l'échelle le contenu de l'ordinateur distant pour l'adapter à la taille de la fenêtre de l'ordinateur client.                                                           |
+| Reconnexion Intelligente                  | Reconnecter automatiquement votre session avec la bande la plus appropriée.         |
+| Touche Windows sur l'Ordinateur Distant | Lors de l'activation de la touche Windows, elle enverra la fonction à votre hôte au lieu de l'exécuter sur votre ordinateur. |
 
 ### Commandes
 
-Cet onglet contient plusieurs types de commandes et combinaisons de touches pour affecter la session en cours dans une variété d'instances. En tant que telles, ces commandes dépendent de l'entrée actuellement sélectionnée (et ouverte).
+Cet onglet contient plusieurs types de commandes et de combinaisons de touches pour affecter la session actuelle dans diverses instances. Ainsi, ces commandes dépendent de l'entrée actuellement sélectionnée (et ouverte). Pour quelques scénarios d'exemple, référez-vous aux sujets suivants :
+
+* [RDP](/rdm/windows/commands/actions/commands/rdp/)
+* [VNC](/rdm/windows/commands/actions/commands/vnc/)
+* [Telnet](/rdm/windows/commands/actions/commands/telnet/)
 
 {% snippet, "badgeInfo" %}
-Les modules complémentaires de session peuvent ajouter une commande personnalisée dans cette section, ils ne seront pas documentés dans ces rubriques, mais plutôt dans la documentation du module complémentaire.
+Les compléments de session peuvent ajouter des commandes personnalisées dans cette section, elles ne seront pas documentées dans ces sujets mais plutôt dans la documentation du complément.
 {% endsnippet %}
 
-### Capture d'écran
+### Capture d'Écran
 
-<table>
-	<tr>
-		<th>
-OPTION
-		</th>
-		<th>
-DESCRIPTION
-		</th>
-	</tr>
-	<tr>
-		<td>
-Envoyer vers le presse-papier
-		</td>
-		<td>
-Effectuer une capture typique dans le presse-papiers.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Sauvegarder au dossier
-		</td>
-		<td>
-Demande un nom de fichier et enregistre la capture dans ce fichier.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Sauvegarder au dossier et ouvrir
-		</td>
-		<td>
-Demande un nom de fichier et enregistre la capture dans ce fichier, puis ouvre automatiquement le fichier à l'aide de votre éditeur par défaut.
-		</td>
-	</tr>
-</table>
+| Option                 | Description                                                                                     |
+| ---------------------- | ----------------------------------------------------------------------------------------------- |
+| Envoyer au Presse-papiers      | Effectuer une capture typique vers le presse-papiers.                                                    |
+| Enregistrer dans un Fichier           | Demander un nom de fichier et enregistrer la capture dans ce fichier.                                     |
+| Enregistrer dans un Fichier et Ouvrir  | Demander un nom de fichier et enregistrer la capture dans ce fichier, puis ouvrir automatiquement le fichier avec votre éditeur par défaut. |
 
 ### Vidéo
 
-<table>
-	<tr>
-		<th>
-OPTION
-		</th>
-		<th>
-DESCRIPTION
-		</th>
-	</tr>
-	<tr>
-		<td>
-Commencer l'enregistrement
-		</td>
-		<td>
-Enregistre votre écran en format MP4. Nous vous recommandons d'utiliser un lecteur VLC pour visualiser la vidéo enregistrée.
-		</td>
-	</tr>
-</table>
+| OPTION | DESCRIPTION                                                                      |
+|--------|----------------------------------------------------------------------------------|
+| Enregistrer | Enregistrer votre écran au format MP4. Nous recommandons l'utilisation d'un lecteur VLC pour visionner la vidéo enregistrée. |
 
-Alternativement, ces actions sont également disponibles en cliquant avec le bouton droit sur l'onglet d'une session intégrée.
-![Menu Actions d'une session intégré](https://cdnweb.devolutions.net/docs/fr/rdm/windows/clip10184.png)
+Ces actions sont également disponibles en cliquant droit sur l'onglet d'une session intégrée.
+![Menu Contextuel des Actions d'une Session Intégrée](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip10184.png)

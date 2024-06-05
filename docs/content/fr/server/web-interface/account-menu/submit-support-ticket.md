@@ -1,10 +1,9 @@
 ---
 eleventyComputed:
-  title: Soumettre un billet au soutien
+  title: Soumettre un ticket de support
 ---
-Soumettre les ***Informations de la source de données et du diagnostic***, par courriel, à l'équipe de soutien technique de Devolutions pour obtenir de l'aide.
+Soumettre la ***Source de Données*** et les ***Informations de Diagnostic*** par courriel à notre équipe de support pour assistance.
 
-![!!ServerOp8022](https://cdnweb.devolutions.net/docs/fr/server/ServerOp8022.png)
+![Soumettre un ticket de support](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp8022.png)
 
-Pour ***Télécharger le Zip*** des informations, cliquer sur la flèche à côté du bouton ***Envoyer au Support***.
-
+Pour ***Télécharger le rapport Zip*** des informations, cliquer sur la flèche à côté du bouton ***Envoyer au Support***.

@@ -1,20 +1,11 @@
 ---
 eleventyComputed:
   title: Tableau de bord PAM
+  description: La fonctionnalité Tableau de bord PAM peut être trouvée dans l'onglet Affichage.
 ---
-{% snippet, "badgeNotice" %}
-Une licence est désormais nécessaire pour activer le module de gestion des accès privilégiés (PAM). Veuillez contacter notre [service des ventes](mailto:sales@devolutions.net) pour plus d'informations sur la licence.
-{% endsnippet %}
-
-{% snippet, "badgeInfo" %}
-Le ***Tableau de bord PAM*** n'est disponible qu'avec [{{ fr.DVLS }}](https://devolutions.net/server/fr).
-{% endsnippet %}
-
-La fonction ***Tableau de bord PAM*** se situe dans l'onglet ***Affichage***.
-![Bouton Tableau de bord PAM](https://cdnweb.devolutions.net/docs/fr/rdm/mac/RDMMac0016.png)
-
-Dans le ***Tableau de bord PAM***, pour chaque compte privilégié, il est possible de se connecter au compte, de copier le mot de passe et de gérer le processus de réservation/restitution.
+La fonctionnalité ***Tableau de bord PAM*** peut être trouvée dans l'onglet ***Affichage***.
+![Tableau de bord PAM](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_RDMMac0006.png)
 
 {% snippet, "badgeHelp" %}
-Vous pouvez en apprendre plus sur le [***Tableau de bord PAM***](https://docs.devolutions.net/fr/rdm/mac/privileged-access-management/pam-dashboard/).
+En savoir plus sur le [Tableau de bord PAM](/pam/rdm/pam-dashboard-macos/).
 {% endsnippet %}

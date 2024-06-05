@@ -1,36 +1,12 @@
 ---
 eleventyComputed:
-  title: Accès à l'application
+  title: Accès aux applications
+  description: Dans la section Accès aux applications, vous pouvez permettre de manière granulaire l'utilisation des applications dans {{ fr.DVLS }}.
 ---
-Permet d'allouer l'accès à différentes applications.
-![Administration – Paramètres du système – Accès à l'application](https://cdnweb.devolutions.net/docs/fr/server/ServerOp8077.png)
+Dans la section ***Accès aux applications***, vous pouvez permettre de manière granulaire l'utilisation des applications dans {{ fr.DVLS }}.
+![Administration – Paramètres système – Accès aux applications](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp2125.png)
 
-### Options
-
-<table>
-	<tr>
-		<th>
-
-Option
-		</th>
-		<th>
-Description
-		</th>
-	</tr>
-	<tr>
-		<td>
-Activer l'application dans les groupes d'utilisateurs
-		</td>
-		<td>
-Activer l'accès pour les applications dans les paramètres des [groupes d'utilisateurs](/fr/server/web-interface/administration/security-management/user-groups/).
-		</td>
-	</tr>
-	<tr>
-		<td>
-Priorité
-		</td>
-		<td>
-***Autoriser*** ou ***Refuser***.
-		</td>
-	</tr>
-</table>
+| Option                                   | Description                                                                                                                                  |
+|------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------|
+| Activer l'accès aux applications dans les groupes d'utilisateurs | Activer les paramètres d'accès aux applications dans les propriétés des [groupes d'utilisateurs](/server/web-interface/administration/security-management/user-groups/). |
+| Précédence                               | Définir sur ***Autoriser*** ou ***Refusé***.                                                                                                 |

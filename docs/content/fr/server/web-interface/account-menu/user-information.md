@@ -1,7 +1,7 @@
 ---
 eleventyComputed:
-  title: Informations de l'utilisateur
+  title: Informations sur l'utilisateur
 ---
-Afficher la configuration des droits et permissions à partir des ***Informations de l'utilisateur***.
+Afficher la configuration des droits et permissions pour les ***Informations sur l'utilisateur***.
 
-![Informations de l'utilisateur](https://cdnweb.devolutions.net/docs/fr/server/ServerOp8021.png)
+![Informations sur l'utilisateur](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp8021.png)

@@ -1,21 +1,16 @@
 ---
 eleventyComputed:
-  title: Enregistrement de licence {{ fr.DLAUNCHER }}
+  title: "{{ fr.DLAUNCHER }} enregistrement de licence"
+  description: Pour enregistrer une licence {{ fr.DLAUNCHER }} dans {{ fr.DVLS }}, il faut ajouter une licence et l'assigner aux utilisateurs.
   order: 30
 ---
-Enregistrer votre licence {{ fr.DLAUNCHER }}.
+Pour enregistrer une licence {{ fr.DLAUNCHER }} dans {{ fr.DVLS }}, il faut ajouter une licence et l'assigner aux utilisateurs.
 
-### Enregistrement de la licence {{ fr.DLAUNCHER }} pour {{ fr.DVLS }}
-
-Pour enregistrer une licence ***{{ fr.DLAUNCHER }}*** dans {{ fr.DVLS }}, vous devez ajouter une ***Licence*** et l'assigner aux utilisateurs.
-
-1. Dans l'interface Web, de {{ fr.DVLS }}, accéder à ***Administration - Licences***.
-1. Cliquer sur le bouton ***Ajouter***.
-![!!ServerOp4002](https://cdnweb.devolutions.net/docs/fr/server/ServerOp4002.png)
-1. Coller la ***Licence***.
-    1. Vous avez la possibilité d'***Assigner automatiquement les nouveaux utilisateurs***.
-![!!ServerOp4003](https://cdnweb.devolutions.net/docs/fr/server/ServerOp4003.png)
-1. Dans la section ***Assigné à***, gérer l'accès aux licences de vos utilisateurs.
-![!!ServerOp4004](https://cdnweb.devolutions.net/docs/fr/server/ServerOp4004.png)
-1. Cliquer ***Ajouter*** pour enregistrer.
-
+1. Dans l'interface web de {{ fr.DVLS }}, aller à ***Administration – Licences***.
+1. Cliquer ***Ajouter*** pour ajouter une nouvelle licence.
+![Ajouter une licence](https://cdnweb.devolutions.net/docs/DVLS2009_2024_1.png)
+1. Coller la ***Licence*** ou l'***Importer*** en utilisant un fichier LIC. Vous avez l'option d'activer ***Auto assigner***.
+![Coller la licence et auto assigner les utilisateurs](https://cdnweb.devolutions.net/docs/DVLS2010_2024_1.png)
+1. Dans la section ***Assigné à***, gérer l'accès à la licence de vos utilisateurs.
+![Assigné à](https://cdnweb.devolutions.net/docs/DVLS2011_2024_1.png)
+1. Cliquer ***Ajouter*** pour sauvegarder.

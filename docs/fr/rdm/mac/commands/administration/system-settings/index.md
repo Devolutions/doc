@@ -2,23 +2,23 @@
 eleventyComputed:
   title: Paramètres du système
 ---
-Les ***Paramètres du système*** sont disponibles dans ***Administration - Paramètres du système***.
+Les paramètres de source de données sont disponibles depuis ***Administration - Paramètres de source de données***.
 
-Les Paramètres du système vous permettent de contrôler de nombreux aspects globaux de la source de données, tels que le mode hors ligne, les politiques de mot de passe et la gestion des versions. Vous pouvez définir des stratégies générales applicables à l'ensemble de la source de données.
+Les paramètres de source de données vous permettent de contrôler de nombreux aspects globaux de la source de données, tels que le Mode Hors connexion, les politiques de mot de passe et la gestion des versions. Vous pouvez définir des politiques générales applicables à l'ensemble de la source de données.
 
 {% snippet, "badgeInfo" %}
-Cette fonctionnalité nécessite une [Sources de données avancées](/fr/rdm/mac/data-sources/data-sources-types/advanced-data-sources/).
+Cette fonctionnalité nécessite une [Source de Données Avancée](/rdm/mac/data-sources/data-sources-types/advanced-data-sources/).
 {% endsnippet %}
 
 ## Paramètres
 
-![Paramètres du système](https://cdnweb.devolutions.net/docs/fr/rdm/mac/clip4104.png)
+![Paramètres de Source de Données](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10374.png)
 
-Pour plus d'informations sur les différentes options contenues dans les paramètres du système, veuillez consulter :
+Pour plus d'informations sur les différentes options disponibles dans les paramètres de Source de Données, veuillez consulter :
 
-* [Général](/fr/rdm/mac/commands/administration/system-settings/general/)
-* [Politique de mot de passe](/fr/rdm/mac/commands/administration/system-settings/password-policy/)
-* [Gestion de version](/fr/rdm/mac/commands/administration/system-settings/version-management/)
-* [Série](/fr/rdm/mac/commands/administration/licenses/)
-* [Message système](/fr/rdm/mac/commands/administration/system-settings/system-message/)
-* [Variables personnalisées](/fr/rdm/mac/commands/administration/system-settings/custom-variables/)
+* [Général](/rdm/mac/commands/administration/system-settings/general/)
+* [Mot de passe](/rdm/mac/commands/administration/system-settings/password-policy/)
+* [Gestion des Versions](/rdm/mac/commands/administration/system-settings/version-management/)
+* [Série](/rdm/mac/commands/administration/licenses/)
+* [Message Système](/rdm/mac/commands/administration/system-settings/system-message/)
+* [Variables Personnalisées](/rdm/mac/commands/administration/system-settings/custom-variables/)

@@ -2,33 +2,35 @@
 eleventyComputed:
   title: Sécurité
 ---
-Tous les mots de passe sauvegardés dans les sources de données de l'application sont chiffrés grâce à un puissant algorithme de chiffrement rendant le contenu illisible à un utilisateur qui tenterait d'accéder aux données directement dans la base de données.  
+Tous les mots de passe stockés dans les sources de données sont chiffrés en utilisant un algorithme de chiffrement fort, de sorte que si un utilisateur tente d'accéder directement aux données dans la base de données, elles seront considérées comme illisibles.
 
-Si vous choisissez de stocker les mots de passe localement, {{ fr.RDM }} utilisera le même mécanisme que mstsc.exe (client {{ fr.RDM }}) qui stocke les mots de passe dans le gestionnaire d'informations d'identification Windows. Notez que le mot de passe ne sera pas visible en raison du chiffrement effectué par Windows. Pour des raisons évidentes, ce choix de stockage signifie que les identifiants ne seront pas partagés.  
+Si vous choisissez de stocker les mots de passe localement, {{ fr.RDM }} utilisera le même mécanisme utilisé par mstsc.exe (client {{ fr.RDM }}), qui stocke les mots de passe dans le Gestionnaire d'informations d'identification Windows. Il doit être noté que le mot de passe ne pourra pas être vu en raison de son chiffrement par Windows. Pour des raisons évidentes, ce choix signifie également que les identifiants stockés de cette manière ne sont pas partagés.
 
-## Chiffrement approuvé par le Gouvernement fédéral des États-Unis 
+## Algorithme de chiffrement
 
-Notre application intègre l'algorithme Advanced Encryption Standard (AES) afin de protéger vos fichiers locaux et vos données confidentielles dans la base de données.  
+Notre application utilise l'algorithme de chiffrement XChaCha20Poly1305 pour protéger les données sensibles dans la base de données. Consulter [la bibliothèque cryptographique de Devolutions](https://github.com/Devolutions/devolutions-crypto) pour plus de détails.
 
-Cette clé de chiffrement est éprouvée et sécuritaire. AES/Rijndael, standardisé au Gouvernement fédéral des États-Unis, est approuvé par la National Security Agency (NSA) pour les informations classées très secrètes. 
-
-## Conseils 
-
-{% snippet, "shieldWarning" %} 
-Le chiffrement des données en transit est offert nativement par nos services infonuagiques. Lorsque vous décidez d'utiliser une solution déployée sur site, le chiffrement des données en transit doit être implémenté à l'aide des outils de la technologie que vous avez choisie. La plupart des clients inquiets à propos de la sécurité ont choisi des [Sources de données avancées](/fr/rdm/windows/data-sources/data-sources-types/advanced-data-sources/). Suivez également les instructions spécifiques à la solution sélectionnée. 
+{% snippet, "shieldInfo" %}
+Les données locales RDM sont chiffrées en utilisant la norme de chiffrement avancé (AES) pour les ordinateurs fonctionnant en mode FIPS.
 {% endsnippet %}
- 
-{% snippet, "shieldWarning" %} 
-La clé de chiffrement, étant intégrée dans l'application, est alors la même pour toutes les copies du logiciel en circulation. Il est donc fortement recommandé de suivre les indications ci-bas et d'ajouter un [Fournisseur de sécurité](/fr/rdm/windows/commands/administration/settings/security-providers/) pour chiffrer non seulement les mots de passe, mais également toutes les données dans la source de données. Ainsi, vos données au repos seront protégées grâce à une clé exclusivement gérée par vous. 
-{% endsnippet %}
- 
-Nous vous recommandons de suivre ces conseils pour sécuriser vos données :  
 
-* Utiliser une [Source de données avancée](/fr/rdm/windows/data-sources/data-sources-types/advanced-data-sources/) et accorder les accès aux utilisateurs en attribuant des permissions. 
-* Chiffrer toutes les communications avec la base de données. 
-* Utiliser les [Paramètres du système](/fr/rdm/windows/commands/administration/settings/system-settings/general/security/) pour gérer les paramètres reliés à la sécurité. 
-* Utiliser un [Fournisseur de sécurité](/fr/rdm/windows/commands/administration/settings/security-providers/) pour chiffrer les entrées plutôt que de les protéger uniquement par un mot de passe. 
-* Ajouter un mot de passe pour une protection additionnelle du cache local en mode hors-ligne. Accéder à ***Fichier – Options – Sécurité***. 
-* Demander un mot de passe pour lancer l’application et même exiger l’authentification à 2 facteurs (2FA). Accéder à ***Fichier – Options – Sécurité***. 
-* Choisir de ne pas sauvegarder le mot de passe dans la source de données lorsque possible. Les identifiants seront alors demandés lors de la première connexion. 
-* Utiliser nos [Stratégies de groupe](/kb/remote-desktop-manager/how-to-articles/group-policies/) (EN) pour paramétrer le système. 
+## Conseils
+
+{% snippet, "shieldWarning" %}
+Le chiffrement des données en transit est offert nativement par nos services cloud. Lorsque vous décidez d'utiliser une solution locale, le chiffrement des données en transit doit être mis en œuvre en utilisant les outils impliquant vos technologies choisies. La plupart des clients préoccupés par la sécurité choisissent [les Sources de Données Avancées](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/). Suivre les instructions spécifiques à la solution choisie.
+{% endsnippet %}
+
+{% snippet, "shieldWarning" %}
+La clé de chiffrement est intégrée dans l'application et est donc la même pour toutes les copies du logiciel en circulation. Il est impératif que vous suiviez nos étapes recommandées et appliquiez un [Fournisseur de Sécurité](/rdm/commands/administration/security/security-providers/) pour chiffrer non seulement les mots de passe, mais aussi ***toutes les données de connexion*** stockées dans la source de données. Cela fournira une protection sur vos données au repos, en utilisant une clé sous votre contrôle exclusif.
+{% endsnippet %}
+
+Nous vous recommandons de suivre ces étapes pour assurer la sécurité des données :
+
+* Utiliser une [Source de Données Avancée](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/) et accorder l'accès utilisateur en attribuant des permissions.
+* Utiliser une communication chiffrée avec la base de données lorsque disponible.
+* Utiliser les [Paramètres Système](/rdm/commands/administration/settings/system-settings/vault-management/security/) pour contrôler les paramètres impactant la sécurité.
+* Utiliser le [Fournisseur de Sécurité](/rdm/commands/administration/security/security-providers/) pour chiffrer complètement les entrées au lieu de juste le mot de passe.
+* Si vous utilisez le mode hors ligne, ajouter votre propre mot de passe pour une couche supplémentaire de protection au cache local. Aller à ***Fichier – Paramètres – Sécurité***.
+* Exiger un mot de passe pour lancer l'application et même exiger une authentification à deux facteurs. Aller à ***Fichier – Paramètres – Sécurité***.
+* Si votre source de données le permet, choisir de ne pas sauvegarder le mot de passe dans la source de données, ce qui demandera les identifiants lors de la première connexion.
+* Utiliser nos [Politiques de Groupe](/rdm/kb/rdm-windows/how-to-articles/group-policies/) pour configurer le système.

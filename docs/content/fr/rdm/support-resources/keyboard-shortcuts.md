@@ -1,692 +1,125 @@
 ---
 eleventyComputed:
   title: Raccourcis clavier
-  description: Voici les raccourcis clavier par défaut pour diverses commandes
-  keywords:
-  - Raccourcis clavier
+  description: Voici les raccourcis clavier par défaut pour diverses commandes.
 ---
-Voici les raccourcis clavier par défaut pour diverses commandes. Ceux-ci peuvent être modifiés dans ***Fichier – Options – Interface utilisateur – Clavier***.
+Voici les raccourcis clavier par défaut pour diverses commandes. Ces derniers peuvent être modifiés dans ***Fichier – Paramètres – Interface utilisateur – Clavier***.
 
-Le bouton ***Désactiver tout*** vous permet de désactiver tous les raccourcis. Le bouton ***Réinitialiser par défaut*** permet de rétablir les valeurs par défaut des raccourcis.
+Le bouton ***Désactiver tout*** vous permet de désactiver tous les raccourcis. Le bouton ***Réinitialiser par défaut*** remet les raccourcis à leurs valeurs par défaut.
 
 {% snippet, "badgeCaution" %}
-Les boutons ***Désactiver tout*** et ***Réinitialiser par défaut*** effacent vos raccourcis personnalisés. Utilisez ces options avec précaution afin de ne pas risquer la perte de vos raccourcis personnalisés.
+Les boutons ***Désactiver tout*** et ***Réinitialiser par défaut*** effaceront vos raccourcis personnalisés. Utilisez ces options avec soin pour ne pas risquer de perdre vos raccourcis personnalisés.
 {% endsnippet %}
 
 {% snippet, "badgeInfo" %}
-Consultez [Keyboard shortcuts customization in {{ fr.RDMWIN }} (EN)](/kb/remote-desktop-manager/how-to-articles/keyboard-shortcuts-customization-rdm-windows/).
+Visiter [Personnalisation des raccourcis clavier dans {{ fr.RDMWIN }}](/rdm/kb/rdm-windows/how-to-articles/keyboard-shortcuts-customization-rdm-windows/).
 {% endsnippet %}
 
-![Raccourcis clavier](https://cdnweb.devolutions.net/docs/fr/rdm/windows/RDMWin2061.png)
+![Raccourcis clavier](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin2101.png)
 
 ## Raccourcis par défaut
 
 ### Actions
 
-<table>
-	<tr>
-		<th>
-ACTION
-		</th>
-		<th>
-RACCOURCI
-		</th>
-	</tr>
-	<tr>
-		<td>
-Exécuter la macro de frappe
-		</td>
-		<td>
-<kbd>Ctrl</kbd>+<kbd>Maj</kbd>+<kbd>A</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Ouvrir (externe)
-		</td>
-		<td>
-<kbd>Maj</kbd>+<kbd>Entrée</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Ouvrir (intégrée / à onglet)
-		</td>
-		<td>
-<kbd>Ctrl</kbd>+<kbd>Entrée</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Ouvrir en plein écran
-		</td>
-		<td>
-<kbd>Alt</kbd>+<kbd>Entrée</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Parcourir l'adresse URL
-		</td>
-		<td>
-<kbd>Entrée</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Presse-papiers - Copier l'hôte
-		</td>
-		<td>
-<kbd>Ctrl</kbd>+<kbd>H</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Presse-papiers - Copier la chaîne de connexion
-		</td>
-		<td>
-<kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>H</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Presse-papiers - Copier le domaine
-		</td>
-		<td>
-<kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>B</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Presse-papiers - Copier le mot de passe
-		</td>
-		<td>
-<kbd>Ctrl</kbd>+<kbd>Maj</kbd>+<kbd>B</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Presse-papiers - Copier le nom d'utilisateur
-		</td>
-		<td>
-<kbd>Ctrl</kbd>+<kbd>B</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Presse-papiers - Copier l'URL
-		</td>
-		<td>
-<kbd>Ctrl</kbd>+<kbd>Maj</kbd>+<kbd>H</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Voir mot de passe
-		</td>
-		<td>
-<kbd>Ctrl</kbd>+<kbd>P</kbd>
-		</td>
-	</tr>
-</table>
+| NOM                                | RACCOURCI                                     |
+|------------------------------------|-----------------------------------------------|
+| Presse-papiers - Copier la chaîne de connexion | <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>H</kbd>   |
+| Presse-papiers - Copier le domaine            | <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>B</kbd>   |
+| Presse-papiers - Copier l'hôte                | <kbd>Ctrl</kbd>+<kbd>H</kbd>                  |
+| Presse-papiers - Copier le mot de passe       | <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>B</kbd> |
+| Presse-papiers - Copier l'URL                 | <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>H</kbd> |
+| Presse-papiers - Copier le nom d'utilisateur  | <kbd>Ctrl</kbd>+<kbd>B</kbd>                  |
+| Exécuter une commande depuis la palette       | <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>P</kbd> |
+| Exécuter une macro de frappe                  | <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>A</kbd> |
+| Naviguer vers l'URL                           | <kbd>Entrée</kbd>                             |
+| Ouvrir (Intégré/Onglet)                       | <kbd>Ctrl</kbd>+<kbd>Entrée</kbd>             |
+| Ouvrir (Externe)                              | <kbd>Shift</kbd>+<kbd>Entrée</kbd>            |
+| Ouvrir en plein écran                         | <kbd>Alt</kbd>+<kbd>Entrée</kbd>              |
+| Voir le mot de passe                          | <kbd>Ctrl</kbd>+<kbd>P</kbd>                  |
 
-### Affichage
+### Édition
 
-<table>
-	<tr>
-		<th>
-ACTION
-		</th>
-		<th>
-RACCOURCI
-		</th>
-	</tr>
-	<tr>
-		<td>
-Barre d'état
-		</td>
-		<td>
-<kbd>Alt</kbd>+<kbd>F7</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Basculer visionnement uniquement RDP
-		</td>
-		<td>
-<kbd>Maj</kbd>+<kbd>F3</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-{{ fr.VLT_MAJ }}
-		</td>
-		<td>
-<kbd>F6</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Favoris
-		</td>
-		<td>
-<kbd>F9</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Gestionnaire de listes d'exécution
-		</td>
-		<td>
-<kbd>Ctrl</kbd>+<kbd>G</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Mon {{ fr.UVLT }}
-		</td>
-		<td>
-<kbd>F7</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Récent
-		</td>
-		<td>
-<kbd>F10</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Recherche avancée...
-		</td>
-		<td>
-<kbd>F11</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Recherche multi-{{ fr.VLT }}s...
-		</td>
-		<td>
-<kbd>F12</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Sessions ouvertes
-		</td>
-		<td>
-<kbd>F8</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Tableau de bord
-		</td>
-		<td>
-<kbd>Alt</kbd>+<kbd>F6</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-<b><i>{{ fr.NPANE }}</i></b>
-		</td>
-		<td>
-<kbd>Alt</kbd>+<kbd>F8</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Volet des onglets regroupés
-		</td>
-		<td>
-<kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>F9</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Volet du haut
-		</td>
-		<td>
-<kbd>Alt</kbd>+<kbd>Maj</kbd>+<kbd>F6</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Volet entrées à onglets
-		</td>
-		<td>
-<kbd>Alt</kbd>+<kbd>F9</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Volet supérieur (Ruban/Barre de menu)
-		</td>
-		<td>
-<kbd>Alt</kbd>+<kbd>F11</kbd>
-		</td>
-	</tr>
-</table>
+| NOM                        | RACCOURCI                                     |
+|----------------------------|-----------------------------------------------|
+| Ajouter une entrée d'identifiants | <kbd>Alt</kbd>+<kbd>Shift</kbd>+<kbd>N</kbd>  |
+| Ajouter un dossier             | <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>N</kbd> |
+| Ajouter une information        | <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>N</kbd>   |
+| Ajouter une session            | <kbd>Ctrl</kbd>+<kbd>N</kbd>                  |
+| Supprimer                      | <kbd>Ctrl</kbd>+<kbd>Suppr</kbd>              |
+| Dupliquer                      | <kbd>Ctrl</kbd>+<kbd>D</kbd>                  |
+| Modifier l'entrée              | <kbd>Ctrl</kbd>+<kbd>E</kbd>                  |
+| Paramètres spécifiques locaux  | <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>E</kbd>   |
+| Nouvelle entrée                | <kbd>Inser</kbd>                              |
+| Renommer                       | <kbd>F2</kbd>                                 |
+| Paramètres spécifiques utilisateur | <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>E</kbd> |
 
 ### Général
 
-<table>
-	<tr>
-		<th>
-ACTION
-		</th>
-		<th>
-RACCOURCI
-		</th>
-	</tr>
-	<tr>
-		<td>
-Actualiser
-		</td>
-		<td>
-<kbd>F5</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Aide en ligne
-		</td>
-		<td>
-<kbd>F1</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Connexion rapide
-		</td>
-		<td>
-<kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Q</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Filtrer...
-		</td>
-		<td>
-<kbd>Ctrl</kbd>+<kbd>F</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Forcer l'actualisation
-		</td>
-		<td>
-<kbd>Ctrl</kbd>+<kbd>F5</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Profileur...
-		</td>
-		<td>
-<kbd>Ctrl</kbd>+<kbd>F12</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Recherche rapide...
-		</td>
-		<td>
-<kbd>Ctrl</kbd>+<kbd>Espace</kbd>
-		</td>
-	</tr>
-</table>
+| NOM            | RACCOURCI                                   |
+|----------------|---------------------------------------------|
+| Filtre         | <kbd>Ctrl</kbd>+<kbd>F</kbd>                |
+| Rafraîchissement forcé | <kbd>Ctrl</kbd>+<kbd>F5</kbd>               |
+| Aide en ligne  | <kbd>F1</kbd>                               |
+| Profileur      | <kbd>Ctrl</kbd>+<kbd>F12</kbd>              |
+| Connexion rapide | <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Q</kbd> |
+| Recherche rapide | <kbd>Ctrl</kbd>+<kbd>Espace</kbd>            |
+| Rafraîchir     | <kbd>F5</kbd>                               |
 
-### Importer/Exporter
+### Import/Export
 
-<table>
-	<tr>
-		<th>
-ACTION
-		</th>
-		<th>
-RACCOURCI
-		</th>
-	</tr>
-	<tr>
-		<td>
-Importer (.rdm)...
-		</td>
-		<td>
-<kbd>Ctrl</kbd>+<kbd>Maj</kbd>+<kbd>I</kbd>
-		</td>
-	</tr>
-</table>
-
-### Modifier
-
-<table>
-	<tr>
-		<th>
-ACTION
-		</th>
-		<th>
-RACCOURCI
-		</th>
-	</tr>
-	<tr>
-		<td>
-Ajouter de identifiants
-		</td>
-		<td>
-<kbd>Alt</kbd>+<kbd>Maj</kbd>+<kbd>N</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Ajouter un dossier
-		</td>
-		<td>
-<kbd>Ctrl</kbd>+<kbd>Maj</kbd>+<kbd>N</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Ajouter une information
-		</td>
-		<td>
-<kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>N</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Ajouter une session
-		</td>
-		<td>
-<kbd>Ctrl</kbd>+<kbd>N</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Dupliquer
-		</td>
-		<td>
-<kbd>Ctrl</kbd>+<kbd>D</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Modifier l'entrée
-		</td>
-		<td>
-<kbd>Ctrl</kbd>+<kbd>E</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Nouvelle entrée
-		</td>
-		<td>
-<kbd>Ins</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Paramètres spécifiques de l'usager
-		</td>
-		<td>
-<kbd>Ctrl</kbd>+<kbd>Maj</kbd>+<kbd>E</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Paramètres spécifiques locaux
-		</td>
-		<td>
-<kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>E</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Renommer
-		</td>
-		<td>
-<kbd>F2</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Supprimer...
-		</td>
-		<td>
-<kbd>Ctrl</kbd>+<kbd>Suppr</kbd>
-		</td>
-	</tr>
-</table>
+| NOM                              | RACCOURCI                                     |
+|----------------------------------|-----------------------------------------------|
+| Importer dans {{ fr.VLT }} (.rdm) | <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>I</kbd> |
 
 ### Navigation
 
-<table>
-	<tr>
-		<th>
-ACTION
-		</th>
-		<th>
-RACCOURCI
-		</th>
-	</tr>
-	<tr>
-		<td>
-Aller au signet 1
-		</td>
-		<td>
-<kbd>Ctrl</kbd>+<kbd>1</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Aller au signet 2
-		</td>
-		<td>
-<kbd>Ctrl</kbd>+<kbd>2</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Aller au signet 3
-		</td>
-		<td>
-<kbd>Ctrl</kbd>+<kbd>3</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Aller au signet 4
-		</td>
-		<td>
-<kbd>Ctrl</kbd>+<kbd>4</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Aller au signet 5
-		</td>
-		<td>
-<kbd>Ctrl</kbd>+<kbd>5</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Aller au signet 6
-		</td>
-		<td>
-<kbd>Ctrl</kbd>+<kbd>6</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Aller au signet 7
-		</td>
-		<td>
-<kbd>Ctrl</kbd>+<kbd>7</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Aller au signet 8
-		</td>
-		<td>
-<kbd>Ctrl</kbd>+<kbd>8</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Aller au signet 9
-		</td>
-		<td>
-<kbd>Ctrl</kbd>+<kbd>9</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Rechercher dans le ruban
-		</td>
-		<td>
-<kbd>Ctrl</kbd>+<kbd>9</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Changer de {{ fr.VLT }}
-		</td>
-		<td>
-<kbd>Ctrl</kbd>+<kbd>Maj</kbd>+<kbd>R</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Changer source de données
-		</td>
-		<td>
-<kbd>Ctrl</kbd>+<kbd>Maj</kbd>+<kbd>D</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Définir un signet 1
-		</td>
-		<td>
-<kbd>Ctrl</kbd>+<kbd>Maj</kbd>+<kbd>1</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Définir un signet 2
-		</td>
-		<td>
-<kbd>Ctrl</kbd>+<kbd>Maj</kbd>+<kbd>2</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Définir un signet 3
-		</td>
-		<td>
-<kbd>Ctrl</kbd>+<kbd>Maj</kbd>+<kbd>3</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Définir un signet 4
-		</td>
-		<td>
-<kbd>Ctrl</kbd>+<kbd>Maj</kbd>+<kbd>4</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Définir un signet 5
-		</td>
-		<td>
-<kbd>Ctrl</kbd>+<kbd>Maj</kbd>+<kbd>5</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Définir un signet 6
-		</td>
-		<td>
-<kbd>Ctrl</kbd>+<kbd>Maj</kbd>+<kbd>6</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Définir un signet7
-		</td>
-		<td>
-<kbd>Ctrl</kbd>+<kbd>Maj</kbd>+<kbd>7</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Définir un signet 8
-		</td>
-		<td>
-<kbd>Ctrl</kbd>+<kbd>Maj</kbd>+<kbd>8</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Définir un signet 9
-		</td>
-		<td>
-<kbd>Ctrl</kbd>+<kbd>Maj</kbd>+<kbd>9</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Fichier
-		</td>
-		<td>
-<kbd>Ctrl</kbd>+<kbd>Maj</kbd>+<kbd>F</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Focus sur le tableau de bord
-		</td>
-		<td>
-<kbd>Ctrl</kbd>+<kbd>Maj</kbd>+<kbd>L</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Mise au point de l'arborescence / Liste
-		</td>
-		<td>
-<kbd>Ctrl</kbd>+<kbd>L</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Sélectionner l'onglet
-		</td>
-		<td>
-<kbd>Ctrl</kbd>+<kbd>Maj</kbd>+<kbd>Haut</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Sélectionnez l'onglet précédent
-		</td>
-		<td>
-<kbd>Ctrl</kbd>+<kbd>Maj</kbd>+<kbd>Gauche</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Sélectionnez l'onglet suivant
-		</td>
-		<td>
-<kbd>Ctrl</kbd>+<kbd>Maj</kbd>+<kbd>Droite</kbd>
-		</td>
-	</tr>
-</table>
+| NOM                    | RACCOURCI                                          |
+|------------------------|----------------------------------------------------|
+| Fichier                | <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>F</kbd>      |
+| Focus sur le tableau de bord | <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>L</kbd>      |
+| Focus sur l'onglet     | <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>Haut</kbd>   |
+| Focus sur l'arbre/liste | <kbd>Ctrl</kbd>+<kbd>L</kbd>                       |
+| Aller au marque-page 1 | <kbd>Ctrl</kbd>+<kbd>1</kbd>                       |
+| Aller au marque-page 2 | <kbd>Ctrl</kbd>+<kbd>2</kbd>                       |
+| Aller au marque-page 3 | <kbd>Ctrl</kbd>+<kbd>3</kbd>                       |
+| Aller au marque-page 4 | <kbd>Ctrl</kbd>+<kbd>4</kbd>                       |
+| Aller au marque-page 5 | <kbd>Ctrl</kbd>+<kbd>5</kbd>                       |
+| Aller au marque-page 6 | <kbd>Ctrl</kbd>+<kbd>6</kbd>                       |
+| Aller au marque-page 7 | <kbd>Ctrl</kbd>+<kbd>7</kbd>                       |
+| Aller au marque-page 8 | <kbd>Ctrl</kbd>+<kbd>8</kbd>                       |
+| Aller au marque-page 9 | <kbd>Ctrl</kbd>+<kbd>9</kbd>                       |
+| Recherche dans le ruban | <kbd>Alt</kbd>+<kbd>Q</kbd>                        |
+| Sélectionner l'onglet suivant | <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>Droite</kbd> |
+| Sélectionner l'onglet précédent | <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>Gauche</kbd> |
+| Définir le marque-page 1 | <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>1</kbd>      |
+| Définir le marque-page 2 | <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>2</kbd>      |
+| Définir le marque-page 3 | <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>3</kbd>      |
+| Définir le marque-page 4 | <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>4</kbd>      |
+| Définir le marque-page 5 | <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>5</kbd>      |
+| Définir le marque-page 6 | <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>6</kbd>      |
+| Définir le marque-page 7 | <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>7</kbd>      |
+| Définir le marque-page 8 | <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>8</kbd>      |
+| Définir le marque-page 9 | <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>9</kbd>      |
+| Changer de source de données | <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>D</kbd>      |
+| Changer {{ fr.VLT }} | <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>R</kbd>      |
+
+### Vue
+
+| NOM                          | RACCOURCI                                     |
+|------------------------------|-----------------------------------------------|
+| Recherche avancée            | <kbd>F11</kbd>                                |
+| Tableau de bord              | <kbd>Alt</kbd>+<kbd>F6</kbd>                  |
+| Favoris                      | <kbd>F9</kbd>                                 |
+| Recherche Multi {{ fr.VLT }} | <kbd>F12</kbd>                                |
+| {{ fr.NPANE }}               | <kbd>Alt</kbd>+<kbd>F8</kbd>                  |
+| Sessions ouvertes            | <kbd>F8</kbd>                                 |
+| Gestion de la liste de lecture | <kbd>Ctrl</kbd>+<kbd>G</kbd>                  |
+| Basculer RDP en mode vue uniquement | <kbd>Shift</kbd>+<kbd>F3</kbd>                |
+| Récents                      | <kbd>F10</kbd>                                |
+| Barre de statut              | <kbd>Alt</kbd>+<kbd>F7</kbd>                  |
+| Barre d'onglets              | <kbd>Alt</kbd>+<kbd>Shift</kbd>+<kbd>F6</kbd> |
+| Volet de groupe d'onglets    | <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>F9</kbd>  |
+| Liste des onglets            | <kbd>Ctrl</kbd>+<kbd>F9</kbd>                 |
+| Volet supérieur (Ruban/Barre de menus) | <kbd>Alt</kbd>+<kbd>F11</kbd>                 |
+| {{ fr.UVLT_MAJ }}            | <kbd>F7</kbd>                                 |
+| {{ fr.VLT_MAJ }}             | <kbd>F6</kbd>                                 |

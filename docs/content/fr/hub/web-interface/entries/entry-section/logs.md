@@ -2,6 +2,5 @@
 eleventyComputed:
   title: Journaux
 ---
-Consulter les interactions des utilisateurs sur l'entrée à partir des ***Journaux*** en utilisant les filtres pour affiner votre recherche.
-![!!Hub4149](https://cdnweb.devolutions.net/docs/fr/hub/Hub4149.png)
-
+Consulter l'entrée ***Journaux*** interaction faite par les utilisateurs avec l'entrée en utilisant le filtre pour affiner votre recherche.
+![!!Hub4124](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub4124.png)

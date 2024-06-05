@@ -2,133 +2,22 @@
 eleventyComputed:
   title: Général
   order: 10
+  description: La section Générale contient des informations de base pour l'instance {{ fr.DVLS }} telles que son nom, une description et des informations de mise à jour.
 ---
-La section de l'onglet ***Général*** contient les informations de base de l'instance {{ fr.DVLS }} tels que le ***Nom***, la ***Description***, les ***Licences***, etc.
+La section ***Générale*** contient des informations de base pour l'instance {{ fr.DVLS }} telles que son nom, une description et des informations de mise à jour.
 
-![Paramètres Serveur - Général](https://cdnweb.devolutions.net/docs/fr/server/ServerOp8006.png)
+![Paramètres du serveur – Général](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp2126.png)
 
-## Paramètres
+## Général
 
-### Général
+| Option      | Description                                                                 |
+|-------------|-----------------------------------------------------------------------------|
+| Nom        | Entrer le nom de votre serveur, qui sera affiché dans la zone de contenu. |
+| Description | Entrer une courte description ou des informations supplémentaires.                        |
 
-<table>
-	<tr>
-		<th>
-Option
-		</th>
-		<th>
-Description
-		</th>
-	</tr>
-	<tr>
-		<td>
-Nom
-		</td>
-		<td>
-Entrer le nom de votre serveur, il sera affiché dans la zone Contenu.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Description
-		</td>
-		<td>
-Saisir une brève description ou des informations supplémentaires.
-		</td>
-	</tr>
-</table>
+## Mise à jour
 
-### Licence
-
-<table>
-	<tr>
-		<th>
-Option
-		</th>
-		<th>
-Description
-		</th>
-	</tr>
-	<tr>
-		<td>
-Serveur
-		</td>
-		<td>
-Insérer votre numéro d'enregistrement de série.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Demander un essai
-		</td>
-		<td>
-Ceci vous redirigera vers notre page {{ fr.DVLS }} pour demander un essai gratuit de 30 jours.
-		</td>
-	</tr>
-	<tr>
-		<td>
-LAC utilisateur
-		</td>
-		<td>
-Insérer votre clé de Licence d'Accès Client.
-		</td>
-	</tr>
-</table>
-
-### Informations
-
-<table>
-	<tr>
-		<th>
-Option
-		</th>
-		<th>
-Description
-		</th>
-	</tr>
-	<tr>
-		<td>
-Édition
-		</td>
-		<td>
-Affiche l'édition {{ fr.DVLS }} en fonction de votre clé de licence.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Expiration
-		</td>
-		<td>
-Date d'expiration de la clé de licence de {{ fr.DVLS }}.
-		</td>
-	</tr>
-</table>
-
-### Mise à jour
-
-<table>
-	<tr>
-		<th>
-Option
-		</th>
-		<th>
-Description
-		</th>
-	</tr>
-	<tr>
-		<td>
-Afficher l'indicateur de nouvelle version
-		</td>
-		<td>
-Afficher une icône en superposition indiquant qu'une mise à jour est disponible
-		</td>
-	</tr>
-	<tr>
-		<td>
-Type de publication
-		</td>
-		<td>
-Choisir entre la version Courante, Bêta et Version stable.
-		</td>
-	</tr>
-</table>
+| Option                     | Description                                                                       |
+|----------------------------|-----------------------------------------------------------------------------------|
+| Afficher l'indicateur de nouvelle version | Lorsqu'activé, affiche une icône de superposition indiquant qu'une mise à jour est disponible.    |
+| Type de version               | Sélectionner entre les versions ***Actuelle (Dernière)***, ***Bêta***, et ***Stable***. |

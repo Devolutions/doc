@@ -2,26 +2,27 @@
 eleventyComputed:
   title: Entrées favorites
 ---
-L'onglet ***Favoris*** contient les entrées marquées comme favorites par l'utilisateur actuel. Les favoris ne sont pas partagés et ils se déplacent avec le profil de l'utilisateur.
+L'onglet ***Favoris*** contient les entrées marquées comme favorites par l'utilisateur actuel. Les favoris sont conservés localement, ce qui signifie qu'ils ne sont pas partagés et qu'ils se déplacent avec le profil de l'utilisateur et au niveau de la base de données.
 
 Cela est utile lorsque le nombre d'entrées gérées devient trop important ou lorsqu'une structure de répertoire stricte doit être maintenue.
-![Onglet Favoris](https://cdnweb.devolutions.net/docs/fr/rdm/windows/clip11213.png)
+![Onglet Favoris](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip11213.png)
 
-La vue des ***Favoris*** peut être personnalisée pour afficher les sous entrées. Cliquez sur ellipse et sélectionnez ***Afficher les sous entrées***. Il est aussi possible d'***Importer*** et d'***Exporter*** les favoris en cliquant sur l'option correspondante.
+La vue des favoris peut être personnalisée pour afficher les sous-entrées. Cliquer sur les points de suspension et sélectionner ***Afficher les sous-entrées***. Vous pouvez également ***Importer*** et ***Exporter*** des favoris en cliquant sur l'option correspondante.
 
-Un raccourci vers l'onglet ***Favoris*** du ***{{ fr.NPANE }}*** est situé dans l'onglet ***Affichage*** du ruban, dans la section ***Panneaux***.
-![Affichage – Panneaux – Favoris](https://cdnweb.devolutions.net/docs/fr/rdm/windows/RDMWin2015.png)
+Un raccourci vers l'onglet ***Favoris*** du ***{{ fr.NPANE }}*** se trouve dans la section ***Panneaux*** de l'onglet ***Affichage***.
+![Affichage – Panneaux – Favoris](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip3578.png)
 
 ### Marquer une entrée comme favorite
 
-Cliquer avec le bouton droit sur une entrée dans le ***{{ fr.NPANE }}***, puis sélectionner ***Favoris***.
-![Marquer une entrée comme favorite](https://cdnweb.devolutions.net/docs/fr/rdm/windows/clip3579.png)
+Faire un clic droit sur une entrée dans le ***{{ fr.NPANE }}***, puis sélectionner ***Favori***.
+![Marquer une entrée comme favorite](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin2013.png)
 
 ### Organiser les favoris
 
-Les favoris ne répliquent pas nécessairement la structure de dossiers du {{ fr.VLT }}. Ajoutez des dossiers dans la vue favorite pour organiser vos entrées favorites.
-![Bouton Nouveau dossier](https://cdnweb.devolutions.net/docs/fr/rdm/windows/clip3580.png)
+Les favoris ne répliquent pas nécessairement la structure de dossier du ***{{ fr.VLT }}***. Ajouter des dossiers dans la vue des favoris pour organiser vos entrées favorites.
+![Ajouter des dossiers pour organiser les favoris](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip3580.png)
 
-### Superposition d'icônes
-Si vous le souhaitez, une superposition d'icônes peut être affichée dans le {{ fr.VLT }} sur les entrées favorites. Pour afficher la superposition d'icônes, accéder à ***Fichier – Options – Interface utilisateur – Favoris***, puis activer l'option ***Afficher l'icône Favori dans l'arborescence***.
-![Superposition d'icônes de favoris](https://cdnweb.devolutions.net/docs/fr/rdm/windows/RDMWin2058.png)
+### Superposition d'icône
+
+Si désiré, une superposition d'icône étoile bleue peut être affichée dans le ***{{ fr.VLT }}*** sur les entrées favorites. Pour afficher la superposition d'icône, naviguer vers ***Fichier – Paramètres – Interface utilisateur – Favoris***, puis activer l'option ***Afficher l'icône favori dans l'arbre de navigation***.
+![Icônes de Favoris Superposées](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin2083.png)

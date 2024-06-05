@@ -11,7 +11,7 @@ eleventyComputed:
 ![Suivant](https://cdnweb.devolutions.net/docs/HUBB0010_2024_1.png)
 1. Une fois le chemin d'installation souhaité sélectionné, cliquer sur ***Suivant***.  
 ![Dossier de destination](https://cdnweb.devolutions.net/docs/HUBB0011_2024_1.png)
-1. Activer l'***interface web de la passerelle***.  
+1. Activer l'***Interface web de la passerelle***.  
 ![Interface web de la passerelle](https://cdnweb.devolutions.net/docs/DGW0007_2024_1.png)
    {% snippet icon.badgeInfo %}
    Lire plus sur l'option [ngrok](#ngrok).
@@ -45,9 +45,9 @@ eleventyComputed:
    Une fois installé, la page web {{ fr.DGW_STANDALONE }} s'ouvrira automatiquement (domaine statique ngrok ou FQDN). Lire plus à ce sujet dans la section [page web](#devolutions-gateway-standalone-web-page).
    {% endsnippet %}
 
-### {{ fr.DGW_STANDALONE }} page web
+### Page web de {{ fr.DGW_STANDALONE }}
 Ici, vous trouverez une liste de vos sessions sur le côté gauche, et au milieu, une boîte de connexion pour ouvrir une nouvelle connexion.  
-![{{ fr.DGW_STANDALONE }} page web](https://cdnweb.devolutions.net/docs/DGW0009_2024_1.png)
+![Page web de {{ fr.DGW_STANDALONE }}](https://cdnweb.devolutions.net/docs/DGW0009_2024_1.png)
 1. Se connecter à la page web (si un ***Utilisateur par défaut*** a été créé à l'étape 8 de [Configuration](#configuration)).
 1. Sélectionner le protocole.
 1. Entrer le nom d'hôte et les identifiants.

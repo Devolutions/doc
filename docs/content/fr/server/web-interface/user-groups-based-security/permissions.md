@@ -1,263 +1,74 @@
 ---
 eleventyComputed:
   title: Permissions
-  keywords:
-  - Rôle
+  description: Le panneau Permissions peut être trouvé dans chaque propriété d'entrée dans la section Sécurité – Permissions.
 ---
-Le panneau ***Permissions*** se trouve dans toutes les propriétés d'entrée de la section ***Sécurité – Permissions***.
+Le panneau ***Permissions*** peut être trouvé dans chaque propriété d'entrée en cliquant sur ***Sécurité – Permissions – Avancé***.
 
-Il est également possible d'autoriser les administrateurs à accorder des permissions administratives aux utilisateurs standard sans en faire des administrateurs avec les [Permissions du système](/fr/server/web-interface/administration/configuration/system-permissions/).
+Permettre aux administrateurs d'octroyer des permissions administratives aux utilisateurs standards sans les rendre administrateurs avec [permissions système](/server/web-interface/administration/configuration/system-permissions/).
 
-Le système d'autorisations basé sur les groupes d'utilisateurs peut donner un contrôle très précis de la sécurité. Voici un aperçu de la fenêtre des permissions :
+Le système de permissions basé sur les groupes d'utilisateurs peut offrir un contrôle très précis de la sécurité. Voici un aperçu de la fenêtre des permissions :
 
-![Sécurité - Permissions](https://cdnweb.devolutions.net/docs/fr/server/clip8046.png)
+![Permissions](https://cdnweb.devolutions.net/docs/DVLS6053_2024_1.png)
 
-<table>
-	<tr>
-		<th>
-Option
-		</th>
-		<th>
-Description
-		</th>
-	</tr>
-	<tr>
-		<td>
-Permission
-		</td>
-		<td>
+| Option                       | Description                                                                                                       |
+|------------------------------|-------------------------------------------------------------------------------------------------------------------|
+| Permission                   | Définir le mode de permission. Cela doit être réglé sur ***Custom*** pour modifier les permissions discrètes ci-dessous. Sélectionner entre :<br><ul><li>***Inherited*** (par défaut) : Hériter des permissions des groupes parents.</li><li>***Custom*** : Spécifier une valeur personnalisée pour chaque permission.</li><li>***Allowed*** : Tout le monde se voit accorder toutes les permissions ci-dessous.</li><li>***Disallowed*** : Personne sauf les administrateurs ne se voit accorder les permissions.</li></ul> |
+| Permissions discrètes         | Choisir à qui vous souhaitez accorder des permissions. Ces boîtes combinées sont disponibles uniquement si la boîte combinée ***Permission*** ci-dessus est réglée sur ***Custom***. Sélectionner entre :<br><ul><li>***Inherited*** (par défaut) : Hériter des permissions des groupes parents.</li><li>***Custom*** : Spécifier une valeur personnalisée pour chaque permission.</li><li>***Allowed*** : Tout le monde se voit accorder toutes les permissions ci-dessous.</li><li>***Disallowed*** : Personne sauf les administrateurs ne se voit accorder les permissions.</li></ul> |
+| Sélecteur d'utilisateurs / groupes d'utilisateurs | Sélectionner les utilisateurs / groupes d'utilisateurs à qui accorder la permission. Disponible uniquement si la permission est réglée sur ***Custom***. |
+| Permission actuelle           | Affiche la permission accordée pour l'entrée actuelle.                                                            |
 
-Définis le mode de permission. Dois être défini sur ***Personnalisé*** afin de modifier les permissions ci-dessous. Choisir entre :
+## Général
 
-* ***Par défaut*** : Héritera des permissions des groupes parents.
-* ***Personnalisé*** : Vous permet de spécifier une valeur personnalisée pour chacune des permissions.
-* Tout le monde : Tout le monde aura toutes les permissions ci-dessous.
-* ***Jamais*** : Personne d'autre que les administrateurs ne recevra les permissions.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Général
-		</td>
-		<td>
-Vous permet de choisir à qui vous souhaitez accorder des permissions. Ces zones de liste déroulante sont disponibles uniquement si la permission ci-dessus est définie sur ***Personnalisé***. Choisir entre :
+![Permissions – Général](https://cdnweb.devolutions.net/docs/DVLS6058_2024_1.png)
 
-* ***Hérité (Autorisé)*** : Héritera des permissions des groupes/dossiers parents.
-* ***Personnalisé*** : Vous permet de spécifier une valeur personnalisée pour la permission.
-* ***Tout le monde*** : Tout le monde aura la permission.
-* ***Jamais*** : Personne d'autre que les administrateurs n'auront la permission.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Sélecteur Utilisateurs/Groupes d'utilisateurs
-		</td>
-		<td>
-Vous permet de sélectionner les utilisateurs/groupes d'utilisateurs pour lesquels la permission est accordée. Disponible uniquement si la permission est définie sur ***Personnalisé***.
-		</td>
-	</tr>
-</table>
+| Option            | Description                                                                                       |
+|-------------------|---------------------------------------------------------------------------------------------------|
+| Permission        | Définir le mode de permission. Il doit être réglé sur ***Custom*** pour modifier individuellement les permissions.   |
+| Voir              | Permettre aux utilisateurs / groupes d'utilisateurs de voir les entrées.                                                                                            |
+| Modifier              | Permettre aux utilisateurs / groupes d'utilisateurs de modifier les entrées.                                                        |
+| Supprimer            | Permettre aux utilisateurs / groupes d'utilisateurs de supprimer les entrées.
+| Déplacer            | Permettre aux utilisateurs / groupes d'utilisateurs de déplacer les entrées.                                                        |
+| Voir le mot de passe     | Permettre aux utilisateurs / groupes d'utilisateurs de voir le mot de passe de l'entrée. 
+| Voir les informations sensibles     | Permettre aux utilisateurs / groupes d'utilisateurs de voir les informations sensibles.                                                 |
+| Connecter (Exécuter) | Permettre aux utilisateurs / groupes d'utilisateurs d'ouvrir les entrées.                                                        |
 
-### Général
+## Sécurité
 
-![Permissions - Général](https://cdnweb.devolutions.net/docs/fr/server/clip8047.png)
+![Permissions – Sécurité](https://cdnweb.devolutions.net/docs/DVLS6054_2024_1.png)
 
-<table>
-	<tr>
-		<th>
+| Option           | Description                                              |
+|------------------|----------------------------------------------------------|
+| Modifier les permissions | Permettre aux utilisateurs / groupes d'utilisateurs de modifier les permissions.           |
+| Historique des entrées    | Permettre aux utilisateurs / groupes d'utilisateurs de voir et utiliser l'historique des entrées. |
+| Historique des mots de passe | Permettre aux utilisateurs / groupes d'utilisateurs de voir l'historique des mots de passe.  |
 
-Option
-		</th>
-		<th>
-Description
-		</th>
-	</tr>
-	<tr>
-		<td>
-Permission
-		</td>
-		<td>
-Définis le mode de permission. Il doit être défini sur ***Personnalisé*** pour pouvoir modifier les permissions individuellement.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Affichage
-		</td>
-		<td>
-Autoriser les utilisateurs/groupes d'utilisateurs à afficher les entrées.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Ajouter
-		</td>
-		<td>
-Autoriser les utilisateurs/groupes d'utilisateurs à ajouter les entrées.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Édition
-		</td>
-		<td>
-Autoriser les utilisateurs/groupes d'utilisateurs à modifier les entrées.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Supprimer
-		</td>
-		<td>
-Autoriser les utilisateurs/groupes d'utilisateurs à supprimer les entrées.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Afficher le mot de passe
-		</td>
-		<td>
-Autoriser les utilisateurs/groupes d'utilisateurs à afficher le mot de passe les entrées.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Exécuter
-		</td>
-		<td>
-Autoriser les utilisateurs/groupes d'utilisateurs à ouvrir les entrées.
-		</td>
-	</tr>
-</table>
+## Plus
 
-### Sécurité
+![Permissions – Plus](https://cdnweb.devolutions.net/docs/DVLS6057_2024_1.png)
 
-![Permissions - Sécurité](https://cdnweb.devolutions.net/docs/fr/server/clip8048.png)
+| Option       | Description                                                 |
+|--------------|-------------------------------------------------------------|
+| Modifier l'actif | Permettre aux utilisateurs / groupes d'utilisateurs de modifier l'actif.                       |
+| Outils à distance | Permettre aux utilisateurs / groupes d'utilisateurs d'utiliser les outils à distance.              |
+| Gestion des actifs informatiques    | Permettre aux utilisateurs / groupes d'utilisateurs d'utiliser l'outil de gestion des actifs informatiques. |
 
-<table>
-	<tr>
-		<th>
-Option
-		</th>
-		<th>
-Description
-		</th>
-	</tr>
-	<tr>
-		<td>
-Modifier les permissions
-		</td>
-		<td>
-Autoriser les utilisateurs/groupes d'utilisateurs à modifier les permissions.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Historique des entrées
-		</td>
-		<td>
-Autoriser les utilisateurs/groupes d'utilisateurs à afficher et à utiliser l'historique des entrées.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Historique des mots de passe
-		</td>
-		<td>
-Autoriser les utilisateurs/groupes d'utilisateurs à afficher l'historique des mots de passe.
-		</td>
-	</tr>
-</table>
+## Pièces jointes
 
-### Plus
+![Permissions – Pièces jointes](https://cdnweb.devolutions.net/docs/DVLS6055_2024_1.png)
 
-![Permissions - Plus](https://cdnweb.devolutions.net/docs/fr/server/clip8049.png)
 
-<table>
-	<tr>
-		<th>
-Option
-		</th>
-		<th>
-Description
-		</th>
-	</tr>
-	<tr>
-		<td>
-Outils à distance
-		</td>
-		<td>
-Autoriser les utilisateurs/groupes d'utilisateurs à utiliser les outils à distance.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Inventaire
-		</td>
-		<td>
-Autoriser les utilisateurs/groupes d'utilisateurs à utiliser l'outil de rapport d'inventaire
-		</td>
-	</tr>
-</table>
+| Option                      | Description                                               |
+|-----------------------------|-----------------------------------------------------------|
+| Voir les pièces jointes            | Permettre aux utilisateurs / groupes d'utilisateurs de voir les pièces jointes.            |
+| Ajouter/modifier/supprimer les pièces jointes | Permettre aux utilisateurs / groupes d'utilisateurs d'ajouter/modifier/supprimer les pièces jointes. |
 
-### Pièces jointes
+## Documentation
 
-![Permissions - Pièces jointes](https://cdnweb.devolutions.net/docs/fr/server/clip8050.png)
+![Permissions – Documentation](https://cdnweb.devolutions.net/docs/DVLS6056_2024_1.png)
 
-<table>
-	<tr>
-		<th>
-Option
-		</th>
-		<th>
-Description
-		</th>
-	</tr>
-	<tr>
-		<td>
-Afficher les pièces jointes
-		</td>
-		<td>
-Autoriser les utilisateurs/groupes d'utilisateurs à afficher les pièces jointes.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Ajouter/modifier/supprimer les pièces jointes
-		</td>
-		<td>
-Autoriser les utilisateurs/groupes d'utilisateurs à ajouter/modifier/supprimer des pièces jointes.
-		</td>
-	</tr>
-</table>
-
-### Documentation
-
-![Permissions - Documentation](https://cdnweb.devolutions.net/docs/fr/server/clip8051.png)
-
-<table>
-	<tr>
-		<th>
-Option
-		</th>
-		<th>
-Description
-		</th>
-	</tr>
-	<tr>
-		<td>
-Afficher la documentation
-		</td>
-		<td>
-Autoriser les utilisateurs/groupes d'utilisateurs à afficher la documentation.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Modifier la documentation
-		</td>
-		<td>
-Autoriser les utilisateurs/groupes d'utilisateurs à modifier la documentation.
-		</td>
-	</tr>
-</table>
+| Option             | Description                                      |
+|--------------------|--------------------------------------------------|
+| Voir la documentation | Permettre aux utilisateurs / groupes d'utilisateurs de voir la documentation. |
+| Supprimer la documentation | Permettre aux utilisateurs / groupes d'utilisateurs de supprimer la documentation. |
+| Modifier la documentation | Permettre aux utilisateurs / groupes d'utilisateurs de modifier la documentation. |

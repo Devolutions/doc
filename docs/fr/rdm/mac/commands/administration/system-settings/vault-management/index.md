@@ -1,4 +1,4 @@
 ---
 eleventyComputed:
-  title: Gestion des {{ fr.VLT }}s
+  title: "Gestion de {{ fr.VLT_MAJ }}"
 ---

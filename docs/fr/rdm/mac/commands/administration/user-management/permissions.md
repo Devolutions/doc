@@ -2,67 +2,29 @@
 eleventyComputed:
   title: Permissions
 ---
-La section ***Permissions*** vous permet d'attribuer des permissions. Les contrôles sont parfois masqués en fonction de la source de données ou de l'état des autres contrôles.
+La section Permissions vous permet d'attribuer des permissions. Les contrôles sont parfois cachés en fonction de la source de données ou de l'état d'autres contrôles.
 
 ## Paramètres
 
 ### Permissions
+![Gestion des utilisateurs – Permissions](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10389.png)
 
-![Gestion des utilisateurs - Permissions](https://cdnweb.devolutions.net/docs/fr/rdm/mac/clip4121.png)
+Les options situées juste au-dessus de la grille sont destinées aux dossiers publics, ce qui signifie que tout dossier qui n'a pas été attribué à un groupe d'utilisateurs se verra attribuer ces droits. Elles agissent également comme la permission la plus basique que vous pouvez attribuer car elles sont nécessaires pour permettre les permissions pour chacun des groupes d'utilisateurs listés ci-dessous, lorsqu'elles ne sont pas cochées la colonne correspondante de la grille est grisée.
 
-Les options situées directement au-dessus de la grille concernent les dossiers publics, ce qui signifie que tout dossier auquel aucun groupe de sécurité n'a été affecté se verra attribuer ces droits. Ils agissent également comme la permission la plus élémentaire que vous pouvez attribuer, car ils sont nécessaires pour autoriser les permissions pour chacun des groupes de sécurité répertoriés dessous, lorsqu'ils ne sont pas cochés, la colonne correspondante de la grille est grisée.
+| OPTION | DESCRIPTION                                                      |
+|--------|------------------------------------------------------------------|
+| Voir   | Permet à l'utilisateur de Voir ET UTILISER les entrées pour ce groupe d'utilisateurs. |
+| Ajouter| Permet à l'utilisateur d'ajouter des entrées dans les groupes/dossiers pour ce groupe d'utilisateurs. Accorde également le privilège Ajouter pour les groupes publics. Contrôle également la visibilité de la colonne Ajouter dans la grille des Groupes. Le privilège Ajouter doit être coché si l'utilisateur a besoin d'ajouter des sessions dans le {{ fr.UVLT }}. |
+| Modifier| Permet à l'utilisateur de modifier des entrées dans les groupes/dossiers pour ce groupe d'utilisateurs. Accorde également le privilège Modifier pour les groupes publics. Contrôle également la visibilité de la colonne Modifier dans la grille des Groupes. Le privilège Modifier doit être coché si l'utilisateur a besoin de modifier des sessions dans le {{ fr.UVLT }}. |
+| Supprimer | Permet à l'utilisateur de supprimer des entrées dans les groupes/dossiers pour ce groupe d'utilisateurs. Accorde également le privilège Supprimer pour les groupes publics. Contrôle également la visibilité de la colonne Supprimer dans la grille des Groupes. Le privilège Supprimer doit être coché si l'utilisateur a besoin de supprimer des sessions dans le {{ fr.UVLT }}. |
 
-<table>
-	<tr>
-		<td>
-Option
-		</td>
-		<td>
-Description
-		</td>
-	</tr>
-	<tr>
-		<td>
-Affichage
-		</td>
-		<td>
-Permets à l'utilisateur de visualiser ET D'UTILISER les entrées de ce groupe de sécurité.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Ajouter
-		</td>
-		<td>
-Permets à l'utilisateur d'ajouter des entrées dans un dossier pour ce groupe de sécurité. Accordera également le privilège Ajouter aux groupes publics. Contrôle également la visibilité de la colonne Ajouter dans la grille Groupes. Le privilège Ajouter doit être coché si l'utilisateur doit ajouter des entrées dans le {{ fr.UVLT }}.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Modifier
-		</td>
-		<td>
-Permets à l'utilisateur de modifier des entrées dans un dossier pour ce groupe de sécurité. Accordera également le privilège de modifier les groupes publics. Contrôle également la visibilité de la colonne Modifier dans la grille Groupes. Le privilège de modification doit être coché si l'utilisateur doit modifier des entrées dans le {{ fr.UVLT }}.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Supprimer
-		</td>
-		<td>
-Permets à l'utilisateur de supprimer des entrées dans un dossier pour ce groupe de sécurité. Accordera également le privilège de supprimer les groupes publics. Contrôle également la visibilité de la colonne Supprimer dans la grille Groupes. Le privilège de suppression doit être coché si l'utilisateur doit supprimer des entrées dans le {{ fr.UVLT }}.
-		</td>
-	</tr>
-</table>
 
 {% snippet, "shieldWarning" %}
-Pour une sécurité plus élevée, il est recommandé de définir des groupes de sécurité sur tous les dossiers de niveau {{ fr.VLT }}. Cela garantit qu'il n'y a pas de dossiers publics et que vous avez un bon contrôle sur l'activité de votre système.
+Pour une sécurité renforcée, il est recommandé de définir des groupes d'utilisateurs sur tous les dossiers de niveau {{ fr.VLT }}. Cela garantit qu'il n'y a pas de dossiers publics et que vous avez un bon contrôle sur l'activité dans votre système.
 {% endsnippet %}
 
-Tous les groupes de sécurité sont répertoriés dans la grille et vous pouvez attribuer des permissions à l'aide des colonnes correspondantes.
+Tous les groupes d'utilisateurs sont listés dans la grille, et vous pouvez attribuer des permissions en utilisant les colonnes correspondantes.
 
 {% snippet, "shieldWarning" %}
-L'octroi de la permission ***Afficher*** autorise également le droit de lancer/ouvrir les entrées de ce groupe.
+Accorder la permission Voir permet également le droit de lancer/ouvrir les sessions de ce groupe.
 {% endsnippet %}
-
-

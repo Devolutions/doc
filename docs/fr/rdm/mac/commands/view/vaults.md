@@ -2,13 +2,13 @@
 eleventyComputed:
   title: "{{ fr.VLT_MAJ }}"
 ---
-Les ***{{ fr.VLT_MAJ }}s*** sont des emplacements pour vos entrées, vos informations d'identification, vos informations sensibles, vos sessions, et même plus.
-![{{ fr.VLT_MAJ }}s](https://cdnweb.devolutions.net/docs/fr/rdm/mac/RDMMac0006.png)
+***{{ fr.VLTS_MAJ }}*** sont des conteneurs pour vos entrées, vos identifiants, informations sensibles, sessions, et plus encore.
+![{{ fr.VLT_MAJ }}s](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_RDMMac0020.png)
 
-Vous commencerez avec deux {{ fr.VLT }}s :
+Vous commencerez avec deux {{ fr.VLT }} :
 
-* Un ***{{ fr.VLT }}*** par défaut principal créé pour le partage des entrées aux membres de l'équipe à qui vous accordez l'accès. Vous pouvez ajouter et partager d'autres {{ fr.VLT }}s dans ***Administration – {{ fr.VLT_MAJ }}s***.
-* Un ***{{ fr.UVLT }}*** qui est centré sur l'utilisateur et utilisé pour stocker des informations telles que des informations d'identification de compte personnel. Le ***{{ fr.UVLT }}*** empêche les utilisateurs de se servir d'un outil non sécurisé pour gérer leurs mots de passe personnels au travail. Le ***{{ fr.UVLT }}*** peut être désactivé dans ***Administration – Paramètres du système – {{ fr.UVLT_MAJ }}***.
+* Un ***{{ fr.VLT }}*** principal par défaut créé pour partager des entrées aux membres de l'équipe auxquels vous accordez l'accès. Vous pouvez ajouter et partager plus de {{ fr.VLTS }} dans ***Administration – {{ fr.VLT_MAJ }}***.
+* Un ***{{ fr.UVLT }}***, qui est centré sur l'utilisateur et est utilisé pour stocker des informations telles que les identifiants de compte personnel. Le ***{{ fr.UVLT }}*** empêche les utilisateurs d'utiliser un outil non sécurisé pour gérer leurs mots de passe personnels au travail. Le ***{{ fr.UVLT_MAJ }}*** peut être désactivé dans ***Administration – Paramètres Système – {{ fr.UVLT_MAJ }}***.
 
-Les deux types de {{ fr.VLT }}s sont aussi accessibles à partir des onglets du ***{{ fr.NPANE }}***.
-![Onglets {{ fr.VLT_MAJ }}s dans le {{ fr.NPANE }}](https://cdnweb.devolutions.net/docs/fr/rdm/mac/RDMMac0007.png)
+Les deux types de {{ fr.VLTS }} peuvent également être trouvés dans le menu ***{{ fr.NPANE }}***.
+![Onglets {{ fr.NPANE }} {{ fr.VLT }}](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_RDMMac0021.png)

@@ -4,13 +4,15 @@ eleventyComputed:
   order: 40
 ---
 {% snippet, "badgeInfo" %}
-Afin de faire fonctionner les Notifications, la fonctionnalité de [Courriel](/fr/server/web-interface/administration/configuration/server-settings/general/email/) doit être activée et correctement configurée.
+La fonctionnalité [Courriel](/server/web-interface/administration/configuration/server-settings/general/email/) doit être activée et correctement configurée pour que les ***Notifications*** fonctionnent.
 {% endsnippet %}
 
-Grâce à la fonctionnalité des ***Notifications***, cell-ci vous permet de recevoir différents courriels rapportant les activités effectuées sur l'instance {{ fr.DVLS }}.
-![Notifications](https://cdnweb.devolutions.net/docs/fr/server/ServerOp8144.png)
+Avec {{ fr.DVLS }}, il est possible de recevoir des notifications par courriel basées sur les activités des utilisateurs avec la fonctionnalité ***Notifications***.
 
-Au minimum, un [Abonné](/fr/server/web-interface/administration/security-management/notifications/subscribers/) ainsi qu'un [Abonnement](/fr/server/web-interface/administration/security-management/notifications/subscriptions/) doivent être créés afin de recevoir les notifications. Il est aussi possible de regrouper les abonnées dans des [Groupes d'abonnés](/fr/server/web-interface/administration/security-management/notifications/subscriber-groups/) pour des notifications de masse.
-L'exemple suivant démontre un courriel de notification reçu pour l'ajout d'une entrée.
-![Exemple de courriel de notification](https://cdnweb.devolutions.net/docs/fr/server/ServerOp8150.png)
+![Notifications](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp8153.png)
 
+Pour que la Notification fonctionne, au moins un [Abonné](/server/web-interface/administration/security-management/notifications/subscribers/) et un [Abonnement](/server/web-interface/administration/security-management/notifications/subscriptions/) doivent être créés. Il est également possible de regrouper les Abonnés dans des [Groupes d'Abonnés](/server/web-interface/administration/security-management/notifications/subscriber-groups/) pour envoyer des notifications à un groupe d'abonnés.
+
+L'exemple suivant représente un courriel de notification qui a été reçu pour la création d'une entrée.
+
+![Exemple de notification par courriel](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp8159.png)

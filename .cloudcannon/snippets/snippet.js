@@ -14,10 +14,9 @@ module.exports = {
           key: "content"
         }
       ],
-      icon: "text_snippet",
       image: [
         {
-          template: "/.cloudcannon/previews/snippet/{snippet_type|slugify}.svg"
+          template: "/../.cloudcannon/previews/snippet/{snippet_type|slugify}.svg"
         }
       ]
     },
@@ -63,13 +62,13 @@ module.exports = {
             ],
             image: [
               {
-                template: "/.cloudcannon/previews/snippet/{key|slugify}.svg",
+                template: "/../.cloudcannon/previews/snippet/{key|slugify}.svg",
               },
               {
-                template: "/.cloudcannon/previews/snippet/{preview.imageKey|slugify}.svg",
+                template: "/../.cloudcannon/previews/snippet/{preview.imageKey|slugify}.svg",
               },
               {
-                template: "/.cloudcannon/previews/snippet/{imageKey|slugify}.svg",
+                template: "/../.cloudcannon/previews/snippet/{imageKey|slugify}.svg",
               },
               {
                 key: "preview.image",

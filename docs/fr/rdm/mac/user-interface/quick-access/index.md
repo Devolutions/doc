@@ -2,60 +2,36 @@
 eleventyComputed:
   title: Accès rapide
 ---
-La barre de ***Accès rapide***, qui se trouve en haut de l'application, est composée de plusieurs parties :
+La barre d'outils Accès rapide se trouve normalement en haut de l'application. Elle est composée de plusieurs parties :
 
 * Commandes favorites
-* Contrôle de la Connexion rapide
+* Connexion rapide
 * Recherche
-* Commande de verrouillage
-
-![Barre d'accès rapide](https://cdnweb.devolutions.net/docs/fr/rdm/mac/clip4371.png)
+* Verrouiller l'application
+![Barre d'outils Accès rapide](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10556.png)
 
 ## Paramètres
 
 ### Commandes favorites
 
-![Commandes favorites](https://cdnweb.devolutions.net/docs/fr/rdm/mac/clip4322.png)
+![Accès rapide - Commandes favorites](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10552.png)
 
-<table>
-	<tr>
-		<td>
-Option
-		</td>
-		<td>
-Description
-		</td>
-	</tr>
-	<tr>
-		<td>
+| Commande | Description |
+|---------|-------------|
+| ![!!clip10553](https://cdnweb.devolutions.net/docs/docs_common_document-empty.png) | Créer une nouvelle entrée dans votre source de données actuelle.   |
+| ![!!clip10554](https://cdnweb.devolutions.net/docs/docs_common_edit.png) | Ouvrir la fenêtre des propriétés de votre entrée sélectionnée.    |
 
-![!!clip4323](https://cdnweb.devolutions.net/docs/fr/rdm/mac/clip4323.png)
-		</td>
-		<td>
-Créer une nouvelle entrée dans votre source de données actuelle.
-		</td>
-	</tr>
-	<tr>
-		<td>
-![!!clip4324](https://cdnweb.devolutions.net/docs/fr/rdm/mac/clip4324.png)
-		</td>
-		<td>
-Ouvrir la fenêtre des propriétés de votre entrée sélectionnée
-		</td>
-	</tr>
-</table>
+### Connexion rapide
 
-### Contrôle de la Connexion rapide
-
-![Connexion rapide](https://cdnweb.devolutions.net/docs/fr/rdm/mac/clip4372.png)
-Veuillez vous référer à [Connexion rapide](/fr/rdm/mac/commands/view/quick-connect/)
+![Accès rapide - Connexion rapide](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10557.png)
+Veuillez vous référer à [Connexion rapide](/rdm/mac/commands/view/quick-connect/).
 
 ### Recherche
 
-![Recherche](https://cdnweb.devolutions.net/docs/fr/rdm/mac/clip4373.png)
-Veuillez vous référer à [Recherche](/fr/rdm/mac/user-interface/quick-access/search/)
+![Accès rapide - Recherche](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10558.png)
+Veuillez vous référer à [Recherche](/rdm/mac/user-interface/quick-access/search/).
 
-### Commande de verrouillage
+### Verrouiller l'application
 
-![Commande de verrouillage](https://cdnweb.devolutions.net/docs/fr/rdm/mac/clip4325.png)
-Veuillez vous référer à [Commande de verrouillage](/fr/rdm/mac/commands/file/lock-application/)
+![Accès rapide - Verrouiller l'application](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10555.png)
+Veuillez vous référer à [Verrouiller l'application](/rdm/mac/commands/file/lock-application/).

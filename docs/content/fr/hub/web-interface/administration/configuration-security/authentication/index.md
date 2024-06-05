@@ -1,55 +1,87 @@
 ---
 eleventyComputed:
   title: Authentification
+  description: La section Authentification vous permet de configurer comment vos utilisateurs se connecteront à votre hub.
 ---
-La section ***Authentification*** vous permet de configurer la manière dont vos utilisateurs se connecteront à votre hub.
+La section ***Authentification*** permet de configurer comment vos utilisateurs se connecteront à votre hub.
+
+{% snippet, "badgeHelp" %}
+Pour des instructions complètes sur comment configurer l'Authentification Unique (SSO) avec votre Hub, voir [Commencer avec le SSO dans {{ fr.DHUBB }}](/hub/getting-started/get-started-sso-hub-business/).
+{% endsnippet %}
 
 ## Général
 
 Dans la section ***Général***, vous pouvez activer les paramètres de connexion pour vos utilisateurs.
-![Administration – Authentification – Général](https://cdnweb.devolutions.net/docs/fr/hub/Hub2157.png)
+![Administration – Authentification – Général](https://cdnweb.devolutions.net/docs/HUBB2009_2024_1.png)
+| Option                                                        | Description                                                                                          |
+|---------------------------------------------------------------|------------------------------------------------------------------------------------------------------|
+| Forcer l'invite de connexion                                   | Enforce une invite de connexion pour tous les utilisateurs. Si les utilisateurs ont configuré leur vérification en deux étapes dans leur {{ fr.DA }}, cela ne demandera que la vérification en deux étapes.                                                                                                                             |
+| Imposer la vérification en deux étapes sur {{ fr.DA }}        | Oblige tous les utilisateurs à configurer une vérification multi-facteurs sur leur {{ fr.DA }}.      |
+| Imposer l'appariement de numéros via les notifications push {{ fr.WAPPS }} | Active l'A2F avec appariement de numéros pour tous les utilisateurs de ce hub avec notre {{ fr.WAPPS }}.                       |
+| Temps de déconnexion pour inactivité                           | Déconnecte les utilisateurs après une durée d'inactivité définie, allant de 5 minutes à 4 heures (sauf si désactivé). |
 
-* ***Forcer la demande de connexion*** impose une demande de connexion à tous les utilisateurs. S'ils ont configuré leur vérification en deux étapes dans leur {{ fr.DA }}, seule cette dernière sera demandée.
-* ***Appliquer la validation en 2 étapes sur le {{ fr.DA }}*** oblige les utilisateur à configurer la vérification en deux étapes sur leur {{ fr.DA }}.
 {% snippet, "badgeCaution" %}
-Le paramètre ***Appliquer la validation en 2 étapes sur le {{ fr.DA }}*** ne s'applique pas aux utilisateurs qui se connectent avec l'authentification unique.
+Les paramètres ***Imposer la vérification en deux étapes sur {{ fr.DA }}*** et ***Imposer l'appariement de numéros via les notifications push {{ fr.WAPPS }}*** ne s'appliquent pas aux utilisateurs qui se connectent avec l'Authentification Unique (SSO).
 {% endsnippet %}
 
-Il est également possible de régler le ***Temps d'inactivité avant la déconnexion*** sur différentes valeurs allant de 5 minutes à 4 heures ou de le laisser ***Désactivé***.
+## Domaine
 
-## Authentification unique (SSO)
-
-Dans la section ***Authentification unique (SSO)***, vous pouvez ***Configurer l'authentification unique (SSO)*** pour vos utilisateur de {{ fr.DHUB }}. Ils pourront alors se connecter à votre hub en utilisant leurs identifiants Azure AD en plus de pouvoir le faire avec leurs identifiants {{ fr.DA }}.
-![Administration – Authentification – Authentification unique (SSO)](https://cdnweb.devolutions.net/docs/fr/hub/Hub2158.png)
 {% snippet, "badgeHelp" %}
-Lors de la configuration du SSO, vous devrez remplir certains champs de la page ***Configurer l'authentification unique (SSO)***. Consultez [Introduction à SSO avec {{ fr.DHUBB }}](/fr/hub/getting-started/get-started-sso-hub-business/) pour plus d'informations.
+Pour les instructions complètes de vérification de domaine et de configuration SSO, visitez [Commencer avec le SSO dans {{ fr.DHUBB }}](/hub/getting-started/get-started-sso-hub-business/).
 {% endsnippet %}
 
-![Configurer l'authentification unique (SSO)](https://cdnweb.devolutions.net/docs/fr/hub/Hub2159.png)
+Vérifiez vos domaines pour l'authentification unique. Plusieurs domaines peuvent être vérifiés dans une seule configuration SSO. C'est obligatoire car cela nous permet de vérifier la propriété des domaines fournis.
 
-Après avoir configuré et enregistré vos paramètres SSO, il est encore possible de les modifier, ou même de les supprimer.
+![Administration – Authentification – Domaine](https://cdnweb.devolutions.net/docs/HUBB2010_2024_1.png)
 
-Par défaut, le SSO sera activé dès que vous aurez terminé la configuration. Vous pouvez également ***Forcer l'authentification unique à tous les utilisateurs***.
+Dans une fenêtre séparée, connectez-vous à votre hébergeur de domaine et trouvez vos enregistrements DNS. Créez et enregistrez un nouvel enregistrement TXT en utilisant les informations fournies ci-dessous.
+
+![Information sur le domaine](https://cdnweb.devolutions.net/docs/HUBB2011_2024_1.png)
+
+Vous saurez que votre domaine a été vérifié avec succès lorsque son statut passe de ***En attente*** à ***Vérifié***, comme indiqué par une icône de coche dans un cercle vert, comme vu ci-dessous.
+
+![Domaine vérifié](https://cdnweb.devolutions.net/docs/HUBB2012_2024_1.png)
+
+## Authentification Unique (SSO)
+
+{% snippet, "badgeHelp" %}
+Pour les instructions complètes de configuration SSO, visitez [Commencer avec le SSO dans {{ fr.DHUB }}](/hub/getting-started/get-started-sso-hub-business/).
+{% endsnippet %}
+
+Vous avez accès à la section ***Authentification Unique (SSO)*** pour configurer le SSO pour vos utilisateurs {{ fr.DHUB }}. Commencez par sélectionner le gestionnaire d'identité de votre choix entre Microsoft et Okta.
+![Administration – Authentification – Authentification Unique (SSO)](https://cdnweb.devolutions.net/docs/HUBB2013_2024_1.png)
+
+Vous devez ensuite entrer certaines informations comme vu ci-dessous.
+
+![Information SSO (exemple avec Microsoft Azure)](https://cdnweb.devolutions.net/docs/HUBB2014_2024_1.png)
+
+Par défaut, le SSO sera activé une fois que vous aurez terminé sa configuration. Vous pouvez également ***Forcer le SSO sur tous les utilisateurs***.
+
 {% snippet, "badgeWarning" %}
-Si vous activez ***Forcer l'authentification unique à tous les utilisateurs***, ceux-ci n'auront pas accès à {{ fr.DHUBB }} en cas de mauvaise configuration ou de panne de votre fournisseur SSO. Nous vous recommandons vivement d'informer tous les utilisateurs existants de votre {{ fr.DHUBB }} de cette nouvelle méthode d'authentification avant de l'activer.
+Si vous activez ***Forcer le SSO sur tous les utilisateurs***, les utilisateurs n'auront pas accès à {{ fr.DHUBB }} en cas de mauvaise configuration ou de panne de votre fournisseur SSO. Nous recommandons fortement d'informer tous les utilisateurs existants dans votre {{ fr.DHUBB }} de cette nouvelle méthode d'authentification avant de l'activer.
 {% endsnippet %}
 
-![Authentification unique (SSO) configurée](https://cdnweb.devolutions.net/docs/fr/hub/Hub2160.png)
+![SSO actif (exemple avec Microsoft Azure)](https://cdnweb.devolutions.net/docs/HUBB2015_2024_1.png)
 
-## Approvisionnement
+Après la configuration du SSO, les utilisateurs pourront alors se connecter à votre Hub en utilisant leurs identifiants Azure AD ou Okta en plus de pouvoir le faire avec leurs identifiants {{ fr.DA }}.
 
-Synchronisez et automatisez le processus de provisionnement et de déprovisionnement des utilisateurs et des groupes de votre hub en configurant votre fournisseur d'identité (Azure Active Directory) avec votre hub en utilisant la spécification SCIM (système de gestion des identités inter-domaines) sous vos configurations idP (fournisseur d'identité).
+Après avoir configuré et enregistré vos paramètres SSO, il est toujours possible de les modifier ou même de les supprimer.
+
+## Provisionnement
+
 {% snippet, "badgeInfo" %}
-L'[authentification unique](#authentification-unique-sso) doit d'abord ête configurée et activée pour mettre en place le provisionnement.
+Le provisionnement des utilisateurs et des groupes d'utilisateurs est actuellement disponible uniquement avec Microsoft Azure AD.
 {% endsnippet %}
 
-![Administration – Authentification – Approvisionnement](https://cdnweb.devolutions.net/docs/fr/hub/Hub2161.png)
+Synchronisez et automatisez le processus de provisionnement et de déprovisionnement de vos utilisateurs et groupes {{ fr.DHUB }} en configurant votre fournisseur d'identité avec votre hub en utilisant la spécification SCIM (System for Cross-domain Identity Management) sous vos configurations d'IdP (Identity Provider).
 
-Après avoir activé le SSO, vous pouvez générer un ***jeton SCIM***. Vous pouvez toujours supprimer ce jeton et en régénérer un nouveau.
-![Générer le jeton SCIM](https://cdnweb.devolutions.net/docs/fr/hub/Hub2162.png)
+Vos [domaines](#domaine) doivent être vérifiés et [l'Authentification Unique](#authentification-unique-sso) doit d'abord être configurée et activée pour configurer le provisionnement. Pour les instructions complètes de configuration du provisionnement, visitez [Commencer avec le SSO dans {{ fr.DHUBB }}](/hub/getting-started/get-started-sso-hub-business/).
 
-Vous aurez alors accès à l'***URL locataire*** en plus du jeton pour [configurer le provisionnement dans Azure](/fr/hub/getting-started/get-started-sso-hub-business/configure-sso-authentication-microsoft-azure/).
-![URL locataire et jeton SCIM](https://cdnweb.devolutions.net/docs/fr/hub/Hub2163.png)
+![Administration – Authentification – Provisionnement](https://cdnweb.devolutions.net/docs/HUBB2016_2024_1.png)
 
-Lorsque tout a été configuré, vous pouvez ***Activer la synchronisation*** des utilisateurs et des groupes de votre hub avec ceux d'Azure AD.
-![Activer la synchronisation](https://cdnweb.devolutions.net/docs/fr/hub/Hub2164.png)
+## Service de Chiffrement
+Le service de chiffrement de {{ fr.DHUB }} simplifie l'accès à votre Hub en éliminant la nécessité d'inviter individuellement chaque utilisateur de votre fournisseur SSO. Vous devez activer la fonctionnalité et entrer l'***URL du service de chiffrement***, qui est l'endroit où le service de chiffrement écoutera les demandes entrantes. Cette URL ou adresse IP doit uniquement être accessible par les clients se connectant en utilisant le service de chiffrement.
+
+Voir [Service de chiffrement](/hub/web-interface/administration/configuration-security/authentication/encryption-service/) pour une liste des exigences et des guides de configuration.
+
+![Activer le Service de Chiffrement](https://cdnweb.devolutions.net/docs/HUBB2366_2024_1.png)

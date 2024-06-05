@@ -1,5 +1,5 @@
 ---
 eleventyComputed:
-  title: Copie de sauvegarde
+  title: Sauvegarde
 ---
-Consulter [Sauvegarde en ligne](/fr/cloud/rdm-online-services/online-backup/) pour plus d'informations sur ce service. 
+Veuillez consulter [{{ fr.OBACK }}](/cloud/rdm-online-services/online-backup/) pour des informations sur ce service.

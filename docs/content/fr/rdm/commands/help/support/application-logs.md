@@ -1,27 +1,27 @@
 ---
 eleventyComputed:
-  title: Journaux des applications
+  title: Journaux d'application
 ---
-Lorsque vous rencontrez des erreurs, vous pouvez vérifier les journaux des applications locales, qui est disponible dans ***Aide - Journaux des applications***.
+Lors de la rencontre d'erreurs, vérifier le journal d'application local, disponible dans ***Aide – Journaux d'Application***.
 
-Ces journaux sont enregistrés dans **%LocalAppData%\Devolutions\RemoteDesktopManager\RemoteDesktopManager.log.db**. Les journaux sont affichés sous forme de liste qui peut être filtrée par date, message, version ou type de journal.
-![Journaux d'applications](https://cdnweb.devolutions.net/docs/fr/rdm/windows/clip10432.png)
+Ces journaux sont sauvegardés dans **%LocalAppData%\Devolutions\RemoteDesktopManager\RemoteDesktopManager.log.db**. Les journaux sont affichés sous forme de liste pouvant être filtrée par date, message, version, ou type de journal.
+![Voir le dialogue du journal d'application](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip10432.png)
 
 ### Rapport
 
-Un rapport des journaux peut également être enregistré dans un fichier texte. Accéder simplement à l'onglet Rapport des Journaux d'applications, puis cliquer sur le bouton ***Enregistrer*** pour sélectionner un emplacement pour enregistrer le fichier.
-![Rapport](https://cdnweb.devolutions.net/docs/fr/rdm/windows/clip3568.png)
+Un rapport des journaux peut également être sauvegardé dans un fichier texte. Naviguer simplement vers l'onglet ***Rapport*** du journal d'application, puis cliquer sur le bouton ***Enregistrer*** pour sélectionner un emplacement où sauvegarder le fichier.
+![!!clip3568](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip3568.png)
 
-### Nettoyer
+### Nettoyage
 
-Pour des raisons de sécurité, il est recommandé de nettoyer les Journaux d'applications une fois par mois. Pour ce faire, dans les Journaux d'applications, utiliser la fonction de nettoyage.
+Pour des raisons de sécurité, il est recommandé de nettoyer le journal d'application une fois par mois. Pour ce faire, dans le journal d'application, utiliser la fonctionnalité ***Nettoyer***.
 
-Nous vous recommandons fortement de ***Supprimer tout***, mais cela peut être personnalisé pour supprimer des journaux spécifiques par type, date ou sélection.
-![Supprimer l'historique des journaux](https://cdnweb.devolutions.net/docs/fr/rdm/windows/clip10434.png)
+Nous recommandons fortement de faire un ***Supprimer tout***, mais cela peut être personnalisé pour supprimer des journaux spécifiques par type, date ou sélection.
+![!!clip10434](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip10434.png)
 
-### Niveau de débogage
+### Augmenter le niveau de débogage
 
-Lorsque vous rencontrez des problèmes avec {{ fr.RDM }}, notre équipe de support peut vous demander d'augmenter le niveau de débogage de l'application pendant le processus d'assistance. Nous vous suggérons fortement d'augmenter le niveau de débogage uniquement sur demande de notre équipe d'assistance.
+Lors de problèmes avec {{ fr.RDM }}, notre équipe de support peut demander d'augmenter le niveau de débogage de l'application durant le processus de support. Nous suggérons fortement d'augmenter le niveau de débogage uniquement sur demande de notre équipe de support.
 
-Augmentez le niveau de débogage dans ***Fichier - Options - Avancée***.
-![File – Settings – Advanced – Debug level](https://cdnweb.devolutions.net/docs/fr/rdm/windows/clip10813.png)
+Augmenter le niveau de débogage dans ***Fichier – Paramètres – Avancé***.
+![Fichier – Paramètres – Avancé – Niveau de débogage](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip10813.png)

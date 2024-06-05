@@ -2,48 +2,49 @@
 eleventyComputed:
   title: Mot de passe temporaire
 ---
-Un ***Mot de passe temporaire*** est créé automatiquement pour les nouveaux utilisateurs qui sont invités dans {{ fr.DHUBB }} et qui n'ont pas de {{ fr.DA }}.
+***Mot de passe temporaire*** sont créés automatiquement pour les nouveaux utilisateurs qui sont invités à {{ fr.DHUBB }} et qui n'ont pas de {{ fr.DA }}.
 
 {% snippet, "badgeNotice" %}
-Vous pouvez prédéfinir leur paramètre dans ***Administration - Paramètres du système - Général***. Pour avoir un aperçu sur le sujet, consulter [Général](/fr/hub/web-interface/hub-overview/administration/configuration-security/system-settings/general/).
+Vous pouvez prédéfinir comment ils sont gérés dans ***Administration - Paramètres du système - Général***. Pour un aperçu sur le sujet, voir [Général](/hub/web-interface/administration/configuration-security/system-settings/).
 {% endsnippet %}
 
-* [Invité avec un {{ fr.DA }} existant](#invité-avec-un--frda--existant)
-* [Gérer automatiquement le Mot de passe temporaire pour l'invité sans {{ fr.DA }}](#gérer-automatiquement-le-mot-de-passe-temporaire-pour-linvité-sans--frda)
-* [Gérer manuellement le Mot de passe temporaire pour l'invité sans {{ fr.DA }}](#gérer-manuellement-le-mot-de-passe-temporaire-pour-linvité-sans--frda)
+
+## Configuration du mot de passe temporaire
 
 ### Invité avec un {{ fr.DA }} existant
 
 Dans le processus d'invitation, lorsqu'un {{ fr.DA }} est trouvé pour l'utilisateur, il liera automatiquement le compte à {{ fr.DHUBB }}.
+
 {% snippet, "badgeNotice" %}
-Dans ce cas, le ***Mot de passe temporaire*** n'est pas utilisé, car le compte existe déjà.
+Dans ce cas, le ***Mot de passe temporaire*** n'est pas utilisé puisque le compte existe déjà.
 {% endsnippet %}
 
-![!!Hub4184](https://cdnweb.devolutions.net/docs/fr/hub/Hub4184.png)
-L'utilisateur recevra un courriel d'invitation avec un lien vers le hub. Pour y accéder, l'utilisateur se connecte avec ses identifiants de {{ fr.DA }} actuels.
-![!!Hub4185](https://cdnweb.devolutions.net/docs/fr/hub/Hub4185.png)
+![!!Hub4185](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub4185.png)
 
-### Gérer automatiquement le Mot de passe temporaire pour l'invité sans {{ fr.DA }}
+L'utilisateur recevra un email d'invitation avec un lien vers {{ fr.DHUB }}. Pour y accéder, l'utilisateur se connecte avec ses identifiants {{ fr.DA }} actuels.
+![!!Hub4187](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub4187.png)
 
-Lorsque vous invitez un utilisateur qui n'a pas de {{ fr.DA }}, {{ fr.DHUB }} créera le compte et ajoutera l'utilisateur dans le {{ fr.VLT }}.
+### Gérer automatiquement le mot de passe temporaire pour l'invité sans {{ fr.DA }}
 
-Dans le processus, vous pouvez choisir de laisser {{ fr.DHUB }} gérer automatiquement le ***Mot de passe temporaire*** et l'envoyer via le courriel d'invitation.
-![!!Hub4186](https://cdnweb.devolutions.net/docs/fr/hub/Hub4186.png)
+Lors de l'invitation d'un utilisateur qui n'a pas de {{ fr.DA }}, {{ fr.DHUB }} créera le compte et ajoutera l'utilisateur dans le {{ fr.VLT }}.
 
-L'utilisateur recevra un courriel d'invitation avec un lien vers le hub avec son ***Mot de passe temporaire***.
+Dans le processus, vous pouvez choisir de laisser {{ fr.DHUB }} gérer automatiquement le ***Mot de passe temporaire*** et l'envoyer via l'email d'invitation.
+![!!Hub4186](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub4186.png)
 
-Il leur sera rappelé de changer leur mot de passe.
-![!!Hub4189](https://cdnweb.devolutions.net/docs/fr/hub/Hub4189.png)
+L'utilisateur recevra un email d'invitation avec un lien vers le hub avec leur ***Mot de passe temporaire***.
 
-### Gérer manuellement le Mot de passe temporaire pour l'invité sans {{ fr.DA }}
+Il sera rappelé de changer son mot de passe.
+![!!Hub4188](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub4188.png)
 
-Lorsque vous invitez un utilisateur qui n'a pas de {{ fr.DA }}, {{ fr.DHUB }} créera le compte et ajoutera l'utilisateur dans le {{ fr.VLT }}.
+### Gérer manuellement le mot de passe temporaire pour l'invité sans {{ fr.DA }}
 
-Dans le processus, vous pouvez choisir de gérer manuellement le ***Mot de passe temporaire*** de {{ fr.DHUB }}.
-![!!Hub4187](https://cdnweb.devolutions.net/docs/fr/hub/Hub4187.png)
+Lors de l'invitation d'un utilisateur qui n'a pas de {{ fr.DA }}, {{ fr.DHUB }} créera le compte et ajoutera l'utilisateur dans le {{ fr.VLT }}.
 
-Dans la fenêtre de ***Rapport des invitations de masse***, vous devrez copier ou télécharger le PDF du ***Mot de passe temporaire*** pour chacun de vos utilisateurs. Ceci est obligatoire, car ils auront besoin des informations pour accéder à {{ fr.DHUBB }}.
-![!!Hub4188](https://cdnweb.devolutions.net/docs/fr/hub/Hub4188.png)
+Dans le processus, vous pouvez choisir de gérer manuellement le ***Mot de passe temporaire*** depuis {{ fr.DHUB }}.
+![!!Hub4189](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub4189.png)
 
-L'utilisateur recevra un courriel d'invitation automatique avec un lien vers le hub et un avertissement indiquant que vous lui transmettrez le ***Mot de passe temporaire***.
-![!!Hub4190](https://cdnweb.devolutions.net/docs/fr/hub/Hub4190.png)
+Dans la fenêtre ***Rapport d'invitation de masse***, vous devrez copier ou télécharger le PDF du ***Mot de passe temporaire*** pour chacun de vos utilisateurs. Cela est obligatoire, puisqu'ils auront besoin du ***Mot de passe temporaire*** pour accéder à {{ fr.DHUBB }}.
+![!!Hub4191](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub4191.png)
+
+L'utilisateur recevra l'email d'invitation automatique avec un lien vers {{ fr.DHUB }} et un avertissement que vous lui transmettrez le ***Mot de passe temporaire***.
+![!!Hub4190](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub4190.png)

@@ -1,48 +1,43 @@
 ---
 eleventyComputed:
   title: "{{ fr.RDM }}"
-  description: "{{ fr.RDM }} est une application qui intègre un ensemble complet d'outils et de gestionnaires pour répondre aux besoins de toute équipe TI. Elle est conçue pour centraliser toutes vos connexions et vos identifiants."
+  description: "{{ fr.RDM }} est une application qui intègre un ensemble complet d'outils et de gestionnaires pour répondre aux besoins de toute équipe informatique. Elle est conçue pour centraliser les technologies de connexion à distance, les identifiants et sécuriser l'accès à ces ressources."
   order: 10
-  status: Topic available in German language
+  status: Sujet disponible en langue allemande
 ---
 
-![!!{{ fr.RDM }}]({{ locale.fr.projects.rdm.logo }})
+![!!{{ fr.RDM }} logo]({{ locale.fr.projects.rdm.logo }})
 
-{{ fr.RDM }} est une application qui intègre un ensemble complet d'outils et de gestionnaires pour répondre aux besoins
-de toute équipe TI. Elle est conçue pour centraliser toutes vos connexions et vos identifiants. La plupart des
-connexions sont établies grâce à une librairie externe ou un logiciel tiers.
+{{ fr.RDM }} est une application qui intègre un ensemble complet d'outils et de gestionnaires pour répondre aux besoins de toute équipe informatique. Elle est conçue pour centraliser les technologies de connexion à distance, les identifiants et sécuriser l'accès à ces ressources. La plupart des connexions sont établies en utilisant soit une bibliothèque externe, soit un logiciel tiers.
 
-{{ fr.RDM }} est compatible avec plus de 200 technologies et outils pertinents, incluant Apple Remote Desktop, Citrix,
-Dameware, FTP, Hyper-V, LogMeIn, Radmin, RDP (Microsoft Remote Desktop), redirection de port SSH, SSH Shell, TeamViewer,
-Telnet, Terminal Services, VMware, VNC, SCP, X Windows et bien d'autres!
+{{ fr.RDM }} est compatible avec plus de 200 outils et technologies pertinents, incluant Apple Remote Desktop, Citrix, Dameware, FTP, Hyper-V, LogMeIn, Radmin, RDP (Microsoft Remote Desktop), SSH Port Forward, SSH Shell, TeamViewer, Telnet, Remote Desktop Services, VMware, VNC, SCP, X Windows, et plus encore !
 
-{% youtube 'AFZnD0TEetw' %}
+{% youtube '-uz8dvo9tpE' %}
 
-## L'écosystème de {{ fr.RDM }}
+## L'écosystème {{ fr.RDM }}
 
-{{ fr.RDM }} est offert en deux éditions :
+{{ fr.RDM }} est disponible en deux éditions :
 
-|                   |                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
-|-------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Free {width=75px} | Pour une utilisation individuelle seulement, aucune information ne peut être partagée entre les collègues. Les technologies d’accès à distance les plus populaires sont prises en charge et les mots de passe sont stockés de façon sécurisée.                                                                                                                                                                                                                        |
-| Team              | Utilisée par les équipes, cette édition permet de gérer les permissions des utilisateurs, les groupes d'utilisateurs, les options avancées de journalisation, etc. {{ fr.RDM }} utilise un système de gestion de base de données (DBMS) pour stocker les données et les partager selon vos exigences en matière de sécurité. Devolutions offre également deux services spécialisés pour du stockage infonuagique et pour une intégration complète d’Active Directory. |
+|                   |                                                                                                                                                                                                                                                                                                                                                          |
+|-------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Gratuit {width=75px} | Uniquement pour les individus, aucune information ne peut être partagée avec des collègues. Les technologies d'accès à distance les plus populaires sont prises en charge et les mots de passe peuvent être stockés de manière sécurisée.                                                                                                                                                                                      |
+| Équipe              | Utilisée par les équipes, cette édition offre des permissions utilisateur, des groupes d'utilisateurs, une journalisation avancée, etc. {{ fr.RDM }} utilise un système de gestion de base de données (DBMS) pour stocker les informations et les partager selon vos exigences de sécurité. Devolutions propose également deux services spécialisés pour le stockage basé sur le Cloud ou pour obtenir une intégration complète de l'Active Directory. |  
 
-{{ fr.RDM }} est aussi disponible sur plusieurs plateformes listées ci-dessous.
+{{ fr.RDM }} est également proposé sur plusieurs plateformes, comme indiqué ci-dessous.
 
 {% snippet, "badgeNotice" %}
-En achetant une licence Team, vous obtenez le droit d’utiliser TOUTES les applications clientes.
+Acheter une licence Équipe donne le droit d'utiliser {{ fr.RDM }} sur TOUTES les plateformes disponibles.
 {% endsnippet %}
 
 {% snippet, "badgeCaution" %}
-Vous devez utiliser une application de bureau pour créer une source de données de type Équipe. Cela explique la gratuité
-des applications mobiles. Elles permettent d'utiliser les sources de données comme pour une utilisation individuelle de
-l'édition Free, mais elles ne permettent pas de gérer une source de données de type Équipe.
+Vous devez utiliser une application de bureau pour créer une source de données d'équipe. C'est pourquoi les applications mobiles sont gratuites.
+Elles permettent une utilisation simple par un individu, tout comme l'édition Gratuite, mais elles peuvent seulement utiliser, et non gérer, une source de données d'Équipe.
 {% endsnippet %}
 
-| Plateforme |      Édition Free      |      Édition Team      |
-|------------|:----------------------:|:----------------------:|
-| Windows    | {{ icon.badgeNotice }} | {{ icon.badgeNotice }} |
-| macOS      | {{ icon.badgeNotice }} | {{ icon.badgeNotice }} |
-| Linux      | {{ icon.badgeNotice }} | {{ icon.badgeNotice }} |
-| iOS        | {{ icon.badgeNotice }} | {{ icon.badgeNotice }} |
-| Android    | {{ icon.badgeNotice }} | {{ icon.badgeNotice }} |
+| PLATEFORME |      ÉDITION GRATUITE      |      ÉDITION ÉQUIPE      |
+|----------|:----------------------:|:----------------------:|
+| Windows  | {{ icon.badgeNotice }} | {{ icon.badgeNotice }} |
+| macOS    | {{ icon.badgeNotice }} | {{ icon.badgeNotice }} |
+| Linux    | {{ icon.badgeNotice }} | {{ icon.badgeNotice }} |
+| iOS      | {{ icon.badgeNotice }} | {{ icon.badgeNotice }} |
+| Android  | {{ icon.badgeNotice }} | {{ icon.badgeNotice }} |

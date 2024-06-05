@@ -2,66 +2,18 @@
 eleventyComputed:
   title: Divers
   keywords:
-  - Rôle
-  status: Topic available in German language
+  - Rôles
+  status: Sujet disponible en langue allemande
 ---
-![Administration - Permissions du système - Divers](https://cdnweb.devolutions.net/docs/fr/server/clip8055.png)
+![Administration – Permissions Système – Divers](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp0062.png)
 
-<table>
-	<tr>
-		<th>
-Option
-		</th>
-		<th>
-Description
-		</th>
-	</tr>
-	<tr>
-		<td>
-Journaux des activités
-		</td>
-		<td>
-Autoriser les utilisateurs/groupes d'utilisateurs à afficher les journaux d'activité.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Rapports
-		</td>
-		<td>
-Autoriser les utilisateurs/groupes d'utilisateurs à générer et afficher des rapports.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Entrées supprimées
-		</td>
-		<td>
-Autoriser les utilisateurs/groupes d'utilisateurs à afficher et à restaurer les entrées supprimées.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Journaux de la source de données
-		</td>
-		<td>
-Autoriser les utilisateurs/groupes d'utilisateurs à afficher les journaux de la source de données.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Journaux administratifs
-		</td>
-		<td>
-Autoriser les utilisateurs/groupes d'utilisateurs à afficher les journaux d'administration.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Restitution (forcé)
-		</td>
-		<td>
-Autoriser les utilisateurs/groupes d'utilisateurs à archiver des entrées.
-		</td>
-	</tr>
-</table>
+| Option                  | Description                                                                                                |
+|-------------------------|------------------------------------------------------------------------------------------------------------|
+| Journaux d'activité           | Permettre aux utilisateurs/groupes d'utilisateurs de consulter les journaux d'activité.                                                         |
+| Rapports                 | Permettre aux utilisateurs/groupes d'utilisateurs de générer et consulter des rapports.                                                      |
+| Entrées supprimées         | Permettre aux utilisateurs/groupes d'utilisateurs de consulter et restaurer les entrées supprimées.                                               |
+| Journaux de source de données        | Permettre aux utilisateurs/groupes d'utilisateurs de consulter les journaux de source de données.                                                      |
+| Journaux d'administration     | Permettre aux utilisateurs/groupes d'utilisateurs de consulter les journaux d'administration.                                                   |
+| Restituer (force)        | Permettre aux utilisateurs/groupes d'utilisateurs de pouvoir restituer des entrées.                                                    |
+| Marquer comme fermé          | Permettre aux utilisateurs/groupes d'utilisateurs de fermer une session ouverte en la marquant comme fermée (permission spécifique à RDM).       |
+| Analyseur de sécurité des entrées | Permettre aux utilisateurs/groupes d'utilisateurs de vérifier le rapport ***Rapports*** – ***Entrées*** – ***Analyseur de Sécurité des Entrées***. |

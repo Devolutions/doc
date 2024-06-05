@@ -2,58 +2,16 @@
 eleventyComputed:
   title: Outils
   keywords:
-  - Rôle
-  status: Topic available in German language
+  - Rôles
+  status: Sujet disponible en langue allemande
 ---
-![Administration - Permissions du système - Outils](https://cdnweb.devolutions.net/docs/fr/server/clip8054.png)
+![Administration – Permissions Système – Outils](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp0063.png)
 
-<table>
-	<tr>
-		<th>
-Option
-		</th>
-		<th>
-Description
-		</th>
-	</tr>
-	<tr>
-		<td>
-Outils intégrés (Wake On Lan, NetStat, Ping...)
-		</td>
-		<td>
-Autoriser les utilisateurs/groupes d'utilisateurs à utiliser les outils liés à la session.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Entrée Macro/Script/Outil
-		</td>
-		<td>
-Autoriser les utilisateurs/groupes d'utilisateurs à utiliser les entrées de Macro/Script/Outil.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Outils à distance
-		</td>
-		<td>
-Autoriser les utilisateurs/groupes d'utilisateurs à utiliser des outils à distance.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Outils de gestion du Web
-		</td>
-		<td>
-Autoriser les utilisateurs/groupes d'utilisateurs à utiliser les outils de gestion Web.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Outils de gestion de la console
-		</td>
-		<td>
-Autoriser les utilisateurs/groupes d'utilisateurs à utiliser les outils de gestion de la console.
-		</td>
-	</tr>
-</table>
+| Option                                        | Description                                               |
+|-----------------------------------------------|-----------------------------------------------------------|
+| Outils intégrés (Wake On Lan, NetStat, Ping...) | Permettre aux utilisateurs/groupes d'utilisateurs d'utiliser les outils liés à la session.     |
+| Entrée Macro/Script/Outil                       | Permettre aux utilisateurs/groupes d'utilisateurs d'utiliser les entrées Macro/Script/Outil. |
+| Outils à distance                                  | Permettre aux utilisateurs/groupes d'utilisateurs d'utiliser les outils à distance.              |
+| Outils de gestion Web                          | Permettre aux utilisateurs/groupes d'utilisateurs d'utiliser les outils de gestion Web.      |
+| Outils de gestion de console                      | Permettre aux utilisateurs/groupes d'utilisateurs d'utiliser les outils de gestion de console.  |
+

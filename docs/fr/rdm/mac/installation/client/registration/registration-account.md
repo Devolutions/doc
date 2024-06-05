@@ -1,14 +1,13 @@
 ---
 eleventyComputed:
-  title: Enregistrement à partir du {{ fr.DA }}
+  title: S'inscrire depuis {{ fr.DA }}
+  description: Lors de la création d'un {{ fr.DA }}, un numéro de série gratuit est fourni pour l'édition gratuite de notre produit. Les numéros de série achetés pour l'Édition Équipe peuvent être stockés dans la section ***Mes Séries*** du {{ fr.DA }}.
 ---
-Il est possible d'enregistrer le produit avec une clé de licence stockée dans un {{ fr.DA }}.
+Lors de la création d'un {{ fr.DA }}, un numéro de série gratuit est fourni pour l'édition gratuite de notre produit. Les numéros de série achetés pour l'Édition Équipe peuvent être stockés dans la section ***Mes Séries*** du {{ fr.DA }}.
+![{{ fr.DA }} – Mes Séries](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip11014.png)
 
-Lors de la création d'un {{ fr.DA }}, une clé de licence gratuite est fournie pour l'Édition Free de {{ fr.RDM }}. Les clés de licences achetées pour l'Édition Team peuvent être stockées dans la section ***Mes clés de licence*** du site Web du Portail client.
-![!!RDMMac4030](https://cdnweb.devolutions.net/docs/fr/rdm/mac/RdmMac4030.png)
-
-1. Pour enregistrer le produit, accéder à ***Aide – Enregistrer le produit***.
-![!!RDMMac4031](https://cdnweb.devolutions.net/docs/fr/rdm/mac/RdmMac4031.png)
-1. Dans la fenêtre ***Enregistrer l'application***, sélectionner ***S'enregistrer avec une clé de licence*** et inscrire les informations de votre {{ fr.DA }}.
-![!!RDMMac4032](https://cdnweb.devolutions.net/docs/fr/rdm/mac/RdmMac4032.png)
-
+1. Pour enregistrer le produit, naviguer vers ***Aide – Enregistrer Produit***.
+![Enregistrer Produit](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip11002.png)
+1. Dans la fenêtre ***Enregistrer Produit***, sélectionner ***Édition Entreprise***. Entrer vos identifiants {{ fr.DA }}.
+![Inscription {{ fr.DA }}](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_RDMMac2112.png)
+1. Cliquer sur ***OK***.

@@ -4,25 +4,10 @@ eleventyComputed:
 ---
 Vous pouvez définir vos propres variables personnalisées à utiliser dans votre configuration de source de données.
 
-### Variables personnalisées
+### Variables Personnalisées
 
-![Variables personnalisées](https://cdnweb.devolutions.net/docs/fr/rdm/mac/clip0162.png)
+![Onglet Variables personnalisées](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10050.png)
 
-<table>
-	<tr>
-		<td>
-Option
-		</td>
-		<td>
-Description
-		</td>
-	</tr>
-	<tr>
-		<td>
-Variables personnalisées
-		</td>
-		<td>
-Ajouter une nouvelle variable personnalisée à utiliser dans votre configuration de source de données ou avec n'importe quel modèle.
-		</td>
-	</tr>
-</table>
+| OPTION           | DESCRIPTION                                                                               |
+|------------------|-------------------------------------------------------------------------------------------|
+| Variables personnalisées | Ajouter une nouvelle variable personnalisée à utiliser dans votre configuration de source de données ou avec n'importe quel modèle. |

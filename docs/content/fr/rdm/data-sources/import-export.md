@@ -2,19 +2,19 @@
 eleventyComputed:
   title: Importer et exporter une source de données
 ---
-Vous pouvez simplifier le déploiement pour plusieurs utilisateurs en exportant et en important la configuration de la source de données. Le fichier généré aura une extension .rdd et contiendra toutes les informations pour recréer la configuration.
+Pour simplifier le déploiement pour plusieurs utilisateurs, il est possible d'exporter et d'importer des configurations de source de données. Le fichier .rdd généré contient toutes les informations pour recréer la configuration.
 
 {% snippet, "badgeCaution" %}
-Le fichier .rdd n'inclut pas le contenu de la base de données; seule la configuration est exportée. Utilisez les autres fonctionnalités d'exportation pour sauvegarder ou copier le contenu de la base de données.
+Le fichier RDD n'inclut pas le contenu de la source de données ; seule la configuration est exportée. Utiliser la fonctionnalité d'exportation d'entrée pour sauvegarder ou copier le contenu de la base de données.
 {% endsnippet %}
 
-Vous trouverez dans ***Fichier - Source de données*** l'accès pour l'importation ou l'exportation du fichier.
-![Source de données - Importer/Exporter](https://cdnweb.devolutions.net/docs/fr/rdm/windows/clip11263.png)
+Utiliser ***Fichier – Sources de données*** pour accéder à la fonctionnalité d'import ou d'export.
+![Sources de données - Importer et Exporter](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip11263.png)
 
 {% snippet, "badgeCaution" %}
-Le fait que les utilisateurs puissent ou non lire/écrire en mode hors ligne est d'abord décidé au niveau du mode de mise en cache de la source de données. Cela ne peut pas être modifié à distance. Si vous souhaitez empêcher ou autoriser les utilisateurs distants à utiliser la fonction de Lecture/Écriture hors ligne, vous devez le faire avant d'exporter votre source de données.
+La possibilité pour les utilisateurs de ***Lire/Écrire*** en [mode Hors ligne](/rdm/windows/data-sources/offline-mode/) est d'abord décidée au niveau du [mode de mise en cache](/rdm/windows/data-sources/offline-mode/offline-read-write/) de la source de données. Cela ne peut pas être changé à distance. Si vous souhaitez empêcher ou permettre aux utilisateurs distants la fonctionnalité ***Lire/Écrire*** hors ligne, vous devriez le faire avant d'exporter votre source de données.
 {% endsnippet %}
 
 {% snippet, "shieldWarning" %}
-Une source de données verrouillée peut être exportée et importée, mais son contenu ne sera pas accessible pour une utilisation à moins qu'un mot de passe ne soit entré lorsque la source de données est sélectionnée. Voir [Verrouiller la source de données](/fr/rdm/windows/data-sources/lock/) pour plus d'informations.
+Une source de données verrouillée peut être exportée et importée, mais le contenu sera verrouillé à moins qu'un mot de passe ne soit entré lorsque la source de données est sélectionnée. Voir [Verrouiller la source de données](/rdm/windows/data-sources/lock/) pour plus d'informations.
 {% endsnippet %}

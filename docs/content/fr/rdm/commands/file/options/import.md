@@ -1,47 +1,20 @@
 ---
 eleventyComputed:
-  title: Options d'importation
+  title: Importer les paramètres
+  description: Sélectionner le fichier de configuration à importer dans {{ fr.RDM }} et cliquer sur Ouvrir.
 ---
-Sélectionner l'[Emplacement du fichier de configuration](/fr/rdm/windows/installation/client/configuration-file-location/) à importer dans {{ fr.RDM }} et cliquer sur ***Ouvrir***.
-![Importateur de fichiers d'options](https://cdnweb.devolutions.net/docs/fr/rdm/windows/clip10186.png)
+Sélectionner le [fichier de configuration](/rdm/windows/installation/client/configuration-file-location/) à importer dans {{ fr.RDM }} et cliquer sur ***Ouvrir***.
 
-<table>
-	<tr>
-		<th>
-OPTION
-		</th>
-		<th>
-DESCRIPTION
-		</th>
-	</tr>
-	<tr>
-		<td>
-Utiliser le fichier de configuration sélectionné comme une nouvelle
-		</td>
-		<td>
-Utiliser le fichier **RemoteDesktopManager.cfg** comme nouveau fichier de configuration pour votre application.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Choisissez les options pour remplacer
-		</td>
-		<td>
-Sélectionner les options à remplacer dans votre fichier **RemoteDesktopManager.cfg**. Voir ci-dessous pour plus d'informations.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Créer une sauvegarde (.old)
-		</td>
-		<td>
-Créer une sauvegarde de votre ancien **RemoteDesktopManager.cfg**.
-		</td>
-	</tr>
-</table>
+### Importateur de fichier de paramètres {{ fr.RDM }}
+![Importateur de fichier de paramètres d'application](https://cdnweb.devolutions.net/docs/RDMW4066_2024_1.png)
 
-### Choisissez les options pour remplacer
+| PARAMÈTRE                                           | DESCRIPTION                                             |
+|-----------------------------------------------------|---------------------------------------------------------|
+| Utiliser le fichier de configuration sélectionné comme nouveau  | Utiliser le fichier `RemoteDesktopManager.cfg` comme nouveau fichier de configuration pour l'application. |
+| Choisir les options à remplacer                     | Sélectionner quels paramètres remplacer dans le fichier `RemoteDesktopManager.cfg` actuel. Voir ci-dessous pour plus d'informations. |
+| Créer une sauvegarde (.old)                         | Créer une sauvegarde de l'ancien `RemoteDesktopManager.cfg`. |
 
-![Importateur de fichiers d'options](https://cdnweb.devolutions.net/docs/fr/rdm/windows/clip10187.png)
+### Choisir les paramètres à remplacer
+![Importateur de fichier de paramètres d'application](https://cdnweb.devolutions.net/docs/RDMW4065_2024_1.png)
 
-Décider quelles options remplacer par celle de **RemoteDesktopManager.cfg** que vous souhaitez importer. Sélectionner ***Remplacer*** pour remplacer un paramètre existant par un nouveau ou sélectionner ***Ignorer*** si vous souhaitez conserver le paramètre que vous avez déjà.
+Déterminer quels paramètres remplacer avec ceux du **RemoteDesktopManager.cfg** importé. Sélectionner ***Remplacer*** pour remplacer un paramètre existant par un nouveau ou sélectionner ***Ignorer*** pour conserver le paramètre actuel.

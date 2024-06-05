@@ -1,102 +1,29 @@
 ---
 eleventyComputed:
-  title: Gérer des identifiants
-  description: Selon les politiques de sécurité de votre organisation, il existe plusieurs façons de gérer les identifiants.
+  title: Gestion des identifiants
+  description: Selon les politiques de sécurité de votre organisation, il existe plusieurs manières de gérer les identifiants.
 ---
-Selon les politiques de sécurité de votre organisation, il existe plusieurs façons de gérer les identifiants. Nous pouvons gérer un large éventail de scénarios; les plus populaires sont listés ci-dessous. Il est essentiel de comprendre que ce sont les identifiants utilisés pour se connecter à des hôtes distants, et non pas celles que vous utilisez pour lancer {{ fr.RDM }}. 
+Selon les politiques de sécurité de votre organisation, il existe plusieurs manières de gérer les identifiants. Nous pouvons gérer un large éventail de scénarios ; les plus populaires sont listés ci-dessous. Il est crucial de comprendre que ce sont les identifiants utilisés pour se connecter aux hôtes distants, et non ceux que vous utilisez pour lancer {{ fr.RDM }}.
 
-{% snippet, "badgeInfo" %} 
-La plupart de ces sélections n'existent pas dans l'édition Free de {{ fr.RDM }}, car elles dépendent des fonctionnalités offertes par une [Source de données avancée](/fr/rdm/windows/data-sources/data-sources-types/advanced-data-sources/). 
+{% snippet, "badgeInfo" %}
+La plupart de ces sélections n'existent pas dans l'édition gratuite de {{ fr.RDM }} car elles dépendent des fonctionnalités offertes par une [Source de Données Avancée](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/).
 {% endsnippet %}
- 
-Voici quelques points clés que l'administrateur de la solution doit connaître : 
 
-<table>
-	<tr>
-		<td>
+Ci-dessous quelques points clés dont l'administrateur de la solution doit être conscient :
 
-Visibilité du mot de passe 
-		</td>
-		<td>
-Vous pouvez stocker les mots de passe dans une entrée d'identifiants (entrée de nom d'utilisateur / mot de passe) qui, par défaut, rend le mot de passe utilisable mais non visible par l'utilisateur final. Nous fournissons plusieurs types d'entrées d'identifiants. Vous devriez toujours considérer attentivement le type que vous utilisez en fonction de vos besoins administratifs et de sécurité. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Identifiants définis sur les dossiers 
-		</td>
-		<td>
-Nos dossiers peuvent avoir des identifiants définis. Cela est utile car, dans la plupart des cas, les mêmes identifiants sont réutilisés pour une branche entière de l'infrastructure réseau. Pour utiliser les identifiants définis dans un dossier, les sessions enfants doivent être ajustées pour utiliser les identifiants héritées. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Emplacement des entrées 
-		</td>
-		<td>
-Lors du stockage d'entrées dans l'arborescence, les utilisateurs disposant de la permission Afficher sur cette entrée (ou ce dossier par héritage) pourront les utiliser. C'est ainsi que vous partageriez vos identifiants avec d'autres membres de votre équipe. Il existe un [{{ fr.UVLT }}](/fr/rdm/windows/data-sources/user-vault/) permettant aux utilisateurs de stocker des informations personnelles qui ne devraient être vues par personne d'autre. Les identifiants stockés de cette manière sont toujours accessibles dans la zone publique du système en les référençant ou par le biais de la fonction Paramètres spécifiques de l'usager décrite ci-dessous. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Paramètres spécifiques de l'usager 
-		</td>
-		<td>
-Les [Paramètres spécifiques de l'usager](/fr/rdm/windows/commands/edit/setting-overrides/specific-settings/) sont des remplacements partiels pour les paramètres de vos entrées, notamment les identifiants. Lorsque vous appliquez un tel remplacement, vous pouvez choisir le type d'identifiants directement dans la substitution ou vous pouvez choisir de lier les identifiants stockés ailleurs, tels que le [{{ fr.UVLT }}](/fr/rdm/windows/data-sources/user-vault/). 
-		</td>
-	</tr>
-</table>
+| OPTION                    | DESCRIPTION |
+|---------------------------|-------------|
+| Visibilité du mot de passe       | Vous pouvez stocker les mots de passe dans une entrée d'identifiants (entrée nom d'utilisateur/mot de passe), qui, par défaut, rend le mot de passe utilisable mais non visible par l'utilisateur final. Plusieurs types d'entrées d'identifiants sont fournis. Il est important de choisir le type avec soin en fonction des besoins administratifs et de sécurité. |
+| Identifiants définis sur les dossiers | Les dossiers peuvent avoir des identifiants définis, utiles pour réutiliser les mêmes identifiants à travers une branche de l'infrastructure réseau. Pour les utiliser, les sessions enfants doivent être ajustées pour utiliser les identifiants hérités.                                                                                      |
+| Emplacement de l'entrée            | Stocker les entrées dans l'arborescence permet aux utilisateurs ayant des permissions de Vue sur cette entrée (ou dossier par héritage) de les utiliser, permettant le partage d'identifiants avec les membres de l'équipe. Un [{{ fr.UVLT }}](/rdm/windows/data-sources/user-vault/) est disponible pour stocker des informations personnelles de manière privée. Ces identifiants peuvent toujours être accessibles publiquement en les référençant ou via les Paramètres Spécifiques à l'Utilisateur.                                                                     |
+| Paramètres Spécifiques à l'Utilisateur    | Les [Paramètres Spécifiques à l'Utilisateur](/rdm/windows/commands/edit/setting-overrides/specific-settings/) fournissent des remplacements partiels pour les paramètres d'entrée, y compris les identifiants. Les remplacements permettent de sélectionner directement les identifiants ou de les lier à des identifiants stockés ailleurs, comme dans le [{{ fr.UVLT }}](/rdm/windows/data-sources/user-vault/). |
 
-Voici les scénarios les plus courants et les façons de les résoudre. Dans la majorité des cas, nous préférons que les sessions utilisent des identifiants hérités, ce qui signifie qu'elles grimpent dans l'arborescence jusqu'à ce qu'elles aient accès à un ensemble d'identifiants, qu'ils soient définis, liés ou outrepassés dans une entrée. 
+Voici les scénarios les plus courants et les moyens de les résoudre. Dans la majorité des cas, nous préférons que les sessions utilisent des identifiants hérités, ce qui signifie qu'elles remontent l'arborescence jusqu'à ce qu'elles aient accès à un ensemble d'identifiants, qu'ils soient définis, liés ou remplacés dans une entrée.
 
-<table>
-	<tr>
-		<th>
-
-SCÉNARIO 
-		</th>
-		<th>
-STRATÉGIE 
-		</th>
-	</tr>
-	<tr>
-		<td>
-Un ensemble d'identifiants est utilisé par l'ensemble du personnel, que ce soit pour l'ensemble du système ou pour une branche de votre arborescence (client, département, etc.). 
-		</td>
-		<td>
-Définir les identifiants sur les [Paramètres du {{ fr.VLT }}](/fr/rdm/windows/commands/administration/settings/vault-settings/default-security-entries/). Tous les enfants utilisent les identifiants héritées. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Chaque utilisateur possède ses propres identifiants pour de nombreuses branches différentes (correspondant souvent à des clients/départements, etc.). 
-		</td>
-		<td>
-Utiliser les [Paramètres spécifiques de l'usager](/fr/rdm/windows/commands/edit/setting-overrides/specific-settings/) sur chaque branche. Tous les enfants utilisent les identifiants héritées. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Chaque utilisateur possède ses propres identifiants gérés par un administrateur. 
-		</td>
-		<td>
-Cette solution implique un peu plus de travail. L'administrateur doit créer un dossier pour chaque utilisateur, puis accorder des autorisations uniquement à cet utilisateur. L'utilisateur utilisera ensuite les [Paramètres spécifiques de l'usager](/fr/rdm/windows/commands/edit/setting-overrides/specific-settings/) pour spécifier que les identifiants stockés dans ce dossier sont utilisés pour remplacer ce qui est défini dans les entrées. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Chaque équipe utilise les mêmes identifiants. 
-		</td>
-		<td>
-Comme ci-dessus, mais tous les membres de l'équipe ont accès au dossier. Ils doivent tous utiliser les [Paramètres spécifiques de l'usager](/fr/rdm/windows/commands/edit/setting-overrides/specific-settings/). 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Chaque utilisateur utilise son compte de domaine. 
-		</td>
-		<td>
-Configurer les sessions pour utiliser [Mes identifiants personnels](/fr/rdm/windows/commands/file/my-account-settings/my-personal-credentials/). Chaque utilisateur sera invité à les définir une fois par poste de travail qu'il utilise. 
-		</td>
-	</tr>
-</table>
+| SCÉNARIO                                                      | STRATÉGIE |
+|---------------------------------------------------------------|----------|
+| Un ensemble d'identifiants est utilisé par tout le personnel, que ce soit pour l'ensemble du système ou pour une branche dans votre arborescence (client, département, etc.). | Définir les identifiants dans les [paramètres {{ fr.VLT_MAJ }}](/rdm/windows/commands/administration/settings/vault-settings/default-security-entries/). Tous les enfants utilisent des identifiants hérités. |
+| Chaque utilisateur a ses propres identifiants pour de nombreuses branches différentes (correspondant souvent à des clients/départements, etc.). | Utiliser les [Paramètres Spécifiques à l'Utilisateur](/rdm/windows/commands/edit/setting-overrides/specific-settings/) sur chaque branche. Tous les enfants utilisent des identifiants hérités.                                              |
+| Chaque utilisateur a ses propres identifiants gérés par un administrateur. | Cette solution implique un peu plus de travail. L'administrateur doit créer un dossier pour chaque utilisateur, puis accorder des permissions uniquement à cet utilisateur. L'utilisateur utilisera ensuite les [Paramètres Spécifiques à l'Utilisateur](/rdm/windows/commands/edit/setting-overrides/specific-settings/) pour spécifier que les identifiants stockés dans ce dossier sont utilisés pour remplacer ce qui est défini dans les entrées. |
+| Chaque équipe utilise les mêmes identifiants.                           | Comme ci-dessus, mais tous les membres de l'équipe ont accès au dossier. Ils doivent tous utiliser les [Paramètres Spécifiques à l'Utilisateur](/rdm/windows/commands/edit/setting-overrides/specific-settings/). |
+| Chaque utilisateur utilise son compte de domaine.                           | Configurer les sessions pour utiliser [Mes Identifiants Personnels](/rdm/windows/commands/file/my-account-settings/my-personal-credentials/). Chaque utilisateur sera invité à les définir une fois par poste de travail qu'ils utilisent.                                                 |

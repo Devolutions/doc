@@ -1,64 +1,38 @@
 ---
 eleventyComputed:
   title: Sources de données
-  order: 40
+  description: Les sources de données sont au cœur de {{ fr.RDM }}. Elles sont le conteneur qui détient les entrées.
+  order: 60
 ---
-Les sources de données sont au cœur de {{ fr.RDM }}, c'est les conteneurs qui contiennent toutes vos entrées.
+Les sources de données sont au cœur de {{ fr.RDM }}. Elles sont le conteneur qui détient les entrées.
 
-Une source de données peut être un fichier ou une base de données; vous pouvez définir plusieurs sources de données comme indiqué ci-dessous. Ils doivent être configurés sur tous les postes de travail.
-![Source de données](https://cdnweb.devolutions.net/docs/fr/rdm/windows/clip11314.png)
+## Paramètres
 
-### Créer une source de données
+Une source de données peut être un fichier local ou une base de données (locale ou partagée). Gérer plusieurs sources de données en même temps comme vu ci-dessous.
+![Source de Données](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip11314.png)
 
-Veuillez consulter [Créer une nouvelle source de données](/fr/rdm/windows/data-sources/create-new-data-source/) pour plus d'informations.
+## Créer une source de données
 
-### Sources de données multiples
+Consulter [Créer une nouvelle source de données](/rdm/windows/data-sources/create-new-data-source/) pour plus d'informations.
 
-Vous pouvez configurer plusieurs sources de données dans l'application. Ces sources de données peuvent être de différents types, mais il n'y en a qu'une seule active à la fois.
+## Sources de données multiples
 
-Vous pouvez passer d'une source de données à une autre via la zone de liste déroulante des sources de données ou dans ***Fichier - Sources de données***.
-![Sélectionner une source de données](https://cdnweb.devolutions.net/docs/fr/rdm/windows/clip11369.png)
+Plusieurs sources de données peuvent être configurées, mais une seule est active à la fois.
 
-### Utiliser la source de données par défaut
+Changer de source de données en utilisant la liste déroulante des sources de données.
+![Sélectionner une Source de Données](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip11369.png)
 
-Vous pouvez attribuer une source de données par défaut au démarrage. Elle sera par défaut automatiquement ouverte au démarrage de {{ fr.RDM }}.
-![Source de données au démarrage](https://cdnweb.devolutions.net/docs/fr/rdm/windows/clip10940.png)
+## Source de données au démarrage
 
-<table>
-	<tr>
-		<th>
-OPTION
-		</th>
-		<th>
-DESCRIPTION
-		</th>
-	</tr>
-	<tr>
-		<td>
-Utiliser la source de données par défaut
-		</td>
-		<td>
-Sélectionner la source de données à laquelle vous connecter au démarrage de l'application.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Dernière source de données utilisée
-		</td>
-		<td>
-Connectez-vous à la dernière source de données utilisée.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Demander la source de données
-		</td>
-		<td>
-Invite l'utilisateur à choisir à quelle source de données se connecter.
-		</td>
-	</tr>
-</table>
+Vous pouvez assigner une source de données pour s'ouvrir automatiquement lorsque {{ fr.RDM }} démarre.
+![Source de Données au Démarrage](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip10940.png)
 
-### Paramètres des sources de données
+| OPTION                  | DESCRIPTION |
+|-------------------------|-------------|
+| Utiliser la source de données par défaut | Sélectionner la source de données à connecter lorsque l'application démarre. |
+| Dernière source de données utilisée   | Se connecter à la dernière source de données utilisée. |
+| Demander la source de données  | Demander à l'utilisateur une source de données à connecter. |
 
-Les [Sources de données avancées](/fr/rdm/windows/data-sources/data-sources-types/advanced-data-sources/) peuvent contenir des paramètres spécialisés ou des stratégies globales relatifs à la sécurité. Ces paramètres sont enregistrés directement dans la base de données.
+## Paramètres de Source de Données (Paramètres Système)
+
+[Sources de Données Avancées](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/) peuvent gérer beaucoup plus de paramètres liés à la base de données et à la sécurité. Ces paramètres sont sauvegardés directement dans la base de données. Pour plus d'informations, consulter [Paramètres de Source de Données (Paramètres Système)](/rdm/commands/administration/settings/system-settings/).

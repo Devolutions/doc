@@ -1,211 +1,76 @@
 ---
 eleventyComputed:
   title: Modifier
+  description: L'onglet Modifier contient des opérations pour rapidement Ajouter, Modifier, Remplacer, Modifier en lot ou Exporter des entrées.
 ---
-L'onglet ***Modifier*** contient des opérations pour ajouter, modifier, remplacer, modifier en lot ou exporter des entrées rapidement.
-![Ruban - Modifier](https://cdnweb.devolutions.net/docs/fr/rdm/windows/clip10207.png)
+L'onglet ***Modifier*** contient des opérations pour rapidement ***Ajouter***, ***Modifier***, ***Remplacer***, ***Modifier en lot*** ou ***Exporter*** des entrées.
+![Ribbon - Edit](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip10207.png)
 
-### Ajouter
+## Ajouter
 
-<table>
-	<tr>
-		<th>
-OPTION
-		</th>
-		<th>
-DESCRIPTION
-		</th>
-	</tr>
-		<td>
-Nouvelle entrée
-		</td>
-		<td>
-Créer une nouvelle entrée (session, dossier, entrée d'informations, identifiants, etc.).
-		</td>
-	</tr>
-		<td>
-Dupliquer
-		</td>
-		<td>
-Créer un double de votre entrée.
-		</td>
-	</tr>
-		<td>
-Créer un raccourci
-		</td>
-		<td>
-Lier votre entrée à plusieurs groupes. Pour plus d'informations, consultez le texte ci-dessous.
-		</td>
-	</tr>
-		<td>
-Enregistrer comme modèle
-		</td>
-		<td>
-Enregistrer l'entrée sélectionnée en tant que modèle local ou de la base de données.
-		</td>
-	</tr>
-</table>
+| OPTION          | DESCRIPTION                                                             |
+|-----------------|-------------------------------------------------------------------------|
+| Nouvelle Entrée | Créer une nouvelle entrée (session, dossier, entrée d'information, identifiants, etc.). |
+| Dupliquer       | Créer un duplicata de votre entrée.                                       |
+| Créer Raccourci | Lier votre entrée à plus d'un groupe. Pour plus d'informations, consulter le texte ci-dessous. |
+| Enregistrer comme Modèle| Enregistrer l'entrée sélectionnée comme un modèle local ou de base de données.                |
 
-Un raccourci est la réitération d'une entrée existante. Contrairement à une entrée dupliquée, qui a son propre ID et ses propres propriétés, un raccourci est un lien vers une entrée et ses propriétés. Vous pouvez facilement créer des raccourcis en cliquant avec le bouton droit sur l'entrée ***Modifier - Créer un raccourci*** ou en utilisant le bouton susmentionné dans l'onglet ***Modifier***. Il existe quelques scénarios dans lesquels un utilisateur souhaiterait utiliser la même entrée différemment, comme se connecter à deux hôtes différents avec une seule session RDP.
+Un raccourci est la réitération d'une entrée existante. Contrairement à une entrée dupliquée, qui possède son propre ID et propriétés, un raccourci est un lien vers une entrée et ses propriétés. Vous pouvez créer facilement des raccourcis en cliquant droit sur l'entrée, puis en allant à ***Modifier – Créer Raccourci***, ou en utilisant le bouton mentionné dans l'onglet ***Modifier***. Il existe quelques scénarios où un utilisateur voudrait utiliser la même entrée différemment, comme se connecter à deux hôtes différents avec une seule session RDP.
 
 Par exemple, il est possible de :
 
-* Attribuer un accès différent à la même entrée.
-* Créer un dossier favori centralisé.
+* Assigner différents accès à la même entrée.
+* Créer un dossier favori avec tout centralisé.
 * Réutiliser un document pour différents scénarios.
+![Ces deux entrées sont exactement les mêmes](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip10209.png)
 
 Les entrées réitérées de cette manière ont également les deux chemins de dossier indiqués dans leur champ Dossier dans leurs propriétés, les chemins sont séparés par un point-virgule.
 
 {% snippet, "badgeInfo" %}
-Il n'y a aucune différence visuelle entre le raccourci et l'entrée d'origine. Par conséquent, vous devrez supprimer toutes les entrées pour supprimer complètement ladite entrée. Une confirmation vous sera demandée lors de la tentative de suppression dudit raccourci.
+Il n'y a pas de différences visuelles entre le raccourci et l'entrée originale. Par conséquent, vous devrez supprimer toutes les entrées pour supprimer complètement ladite entrée. Une confirmation vous sera demandée lors de la tentative de suppression dudit raccourci.
 {% endsnippet %}
 
+## Modifier
 
-### Modifier
+| OPTION     | DESCRIPTION                                                                 |
+|------------|-----------------------------------------------------------------------------|
+| Propriétés | Modifier les propriétés de l'entrée sélectionnée.                                  |
+| Renommer     | Renommer l'entrée sélectionnée.                                                  |
+| Déplacer       | Déplacer l'entrée sélectionnée vers un autre dossier.                                  |
+| Supprimer     | Supprimer l'entrée sélectionnée. Une boîte de dialogue de confirmation s'affiche pour confirmer l'action. |
+| Liste de Lecture  | Utiliser les différentes fonctionnalités de la liste de lecture.                                         |
 
-<table>
-	<tr>
-		<th>
-OPTION
-		</th>
-		<th>
-DESCRIPTION
-		</th>
-	</tr>
-		<td>
-Propriétés
-		</td>
-		<td>
-Modifier les propriétés de l'entrée sélectionnée.
-		</td>
-	</tr>
-		<td>
-Renommer
-		</td>
-		<td>
-Renommer l'entrée sélectionnée.
-		</td>
-	</tr>
-		<td>
-Déplacer
-		</td>
-		<td>
-Déplacer l'entrée sélectionnée vers un autre dossier.
-		</td>
-	</tr>
-		<td>
-Supprimer
-		</td>
-		<td>
-Supprimer l'entrée sélectionnée. Une boîte de dialogue de confirmation s'affichera pour confirmer.
-		</td>
-	</tr>
-		<td>
-Liste d'exécution
-		</td>
-		<td>
-Utiliser les différentes fonctionnalités de la liste d'exécution.
-		</td>
-	</tr>
-</table>
+La fonctionnalité ***Liste de Lecture*** dans {{ fr.RDM }} est beaucoup comme une liste de lecture de musique. Elle ouvre une liste d'entrées, dans un ordre spécifique, automatiquement. La Liste de Lecture peut être utilisée pour créer des groupes de sessions pour une tâche spécifique ou pour des raisons de
+sécurité. Vous pouvez construire votre propre Liste de Lecture et démarrer toutes les entrées d'une Liste de Lecture en même temps.
 
-La fonction ***Liste d'exécution*** dans {{ fr.RDM }} ressemble beaucoup à une liste de lecture de musique. Elle ouvre automatiquement une liste d'entrées, dans un ordre spécifique. La liste d'exécution peut être utilisée pour créer des groupes de sessions pour une tâche spécifique ou pour des raisons de sécurité. Vous pouvez créer votre propre liste d'exécution et démarrer toutes les entrées à partir d'une liste d'exécution en même temps.
+* [Créer et Modifier une Liste de Lecture](/rdm/windows/commands/edit/edit/play-list/play-list-actions/)
+* [Utiliser une Liste de Lecture](/rdm/windows/commands/edit/edit/play-list/play-list-management/)
 
-* [Créer et modifier une liste d'exécution](/fr/rdm/windows/commands/edit/edit/play-list/play-list-actions/)
-* [Gestionnaire de listes d'exécution](/fr/rdm/windows/commands/edit/edit/play-list/play-list-management/)
+## Remplacements de Paramètres
 
-### Paramètres de substitution
+| OPTION     | DESCRIPTION                                                                 |
+|------------|-----------------------------------------------------------------------------|
+| Paramètres Spécifiques à l'Utilisateur  | Remplacer les propriétés de l'entrée sélectionnée avec des paramètres spécifiques à l'utilisateur actuel. Pour plus d'informations, veuillez consulter [Paramètres Spécifiques](/rdm/windows/commands/edit/setting-overrides/specific-settings/). |
+| Paramètres Spécifiques Locaux | Remplacer les propriétés de l'entrée sélectionnée avec des paramètres spécifiques à la machine locale. Pour plus d'informations, veuillez consulter [Paramètres Spécifiques](/rdm/windows/commands/edit/setting-overrides/specific-settings/). |
 
-<table>
-	<tr>
-		<th>
-
-OPTION
-		</th>
-		<th>
-DESCRIPTION
-		</th>
-	</tr>
-		<td>
-Paramètres spécifiques de l'usager
-		</td>
-		<td>
-Remplacer les propriétés de l'entrée sélectionnée par des paramètres spécifiques à l'utilisateur actuel. Pour plus d'informations, veuillez consulter [Paramètres spécifiques](/fr/rdm/windows/commands/edit/setting-overrides/specific-settings/).
-		</td>
-	</tr>
-		<td>
-Paramètres spécifiques locaux
-		</td>
-		<td>
-Remplacez les propriétés de l'entrée sélectionnée par des paramètres spécifiques à la machine locale. Pour plus d'informations, veuillez consulter [Paramètres spécifiques](/fr/rdm/windows/commands/edit/setting-overrides/specific-settings/).
-		</td>
-	</tr>
-</table>
 
 {% snippet, "badgeInfo" %}
-Une colonne ***Paramètres spécifiques*** peut être ajoutée dans le ***{{ fr.NPANE }}***. Faire un clic droit sur la colonne ***Nom*** dans le ***{{ fr.NPANE }}*** et choisir Sélecteur de colonnes. Double-cliquer sur ***Paramètres spécifiques*** pour ajouter la colonne. Maintenant, si un paramètre spécifique est appliqué à une entrée, il s'affiche à côté du nom de l'entrée.
-![{{ fr.NPANE }} - Sélecteur de colonnes](https://cdnweb.devolutions.net/docs/fr/rdm/windows/SpecificSettingsColumnChooser.png)
+Une colonne Paramètres Spécifiques peut être ajoutée dans le ***{{ fr.NPANE }}***. Cliquez droit sur la colonne ***Nom*** dans le ***{{ fr.NPANE }}*** et sélectionnez ***Choix des Colonnes***. Double-Cliquez sur ***Paramètres Spécifiques*** pour ajouter la colonne. Maintenant, si un paramètre spécifique est appliqué à une entrée, il sera affiché à côté du nom de l'entrée.
+![{{ fr.NPANE }} - Choix des Colonnes](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin2252.png)
 {% endsnippet %}
 
+## Lot
 
-### Lot
+| OPTION     | DESCRIPTION                                                                 |
+|------------|-----------------------------------------------------------------------------|
+| Modifier (Actions Spéciales) | Effectuer des actions spéciales sur les entrées sélectionnées, telles que changer le type, exécuter un script, et plus encore. Pour plus d'informations, veuillez consulter les [Exemples d'Actions en Lot](/powershell/rdm-powershell/powershell-scripting/custom-powershell-commands/batch-actions-samples/).                                                                   |
+| Modifier en Lot           | Effectuer une action sur plusieurs entrées à la fois. Cela est particulièrement utile pour effectuer des modifications en masse sur les entrées (telles que changer le mode d'affichage après avoir modifié l'espace de travail ou leurs entrées d'identifiants lors du changement de vos mots de passe). Plusieurs entrées doivent être sélectionnées pour que cette fonctionnalité soit visible. Pour plus d'informations, veuillez consulter [Modifier en Lot](/rdm/windows/commands/edit/batch/batch-edit/). |
+| Déplacer vers {{ fr.VLT }} | Transférer les entrées sélectionnées vers un autre {{ fr.VLT }} dans la base de données.|
 
-<table>
-	<tr>
-		<th>
 
-OPTION
-		</th>
-		<th>
-DESCRIPTION
-		</th>
-	</tr>
-		<td>
-Modifier (Actions spéciales)
-		</td>
-		<td>
-Effectuer des actions spéciales sur les entrées sélectionnées, telles que changer le type, exécuter un script, etc. Pour plus d'informations, veuillez consulter les [Exemples d'actions par lot](/fr/rdm/windows/powershell-scripting/custom-powershell-commands/batch-actions-samples/).
-		</td>
-	</tr>
-		<td>
-Modifier le lot
-		</td>
-		<td>
-Effectuer une modification sur plusieurs entrées à la fois. Cela est particulièrement utile pour effectuer des modifications en masse des entrées (comme changer le mode d'affichage après avoir modifié l'espace de travail ou leurs entrées d'identifiants lors du changement de vos mots de passe). Plusieurs entrées doivent être sélectionnées pour que cette fonction soit visible. Pour plus d'informations, veuillez consulter [Modifier le lot](/fr/rdm/windows/commands/edit/batch/batch-edit/).
-		</td>
-	</tr>
-		<td>
-Déplacer vers le {{ fr.VLT }}
-		</td>
-		<td>
-Transférer les entrées sélectionnées vers un autre {{ fr.VLT }} de la base de données.
-		</td>
-	</tr>
-</table>
+## Exporter
 
-### Exporter
-
-<table>
-	<tr>
-		<th>
-OPTION
-		</th>
-		<th>
-DESCRIPTION
-		</th>
-	</tr>
-		<td>
-Exporter l'entrée en fichier Remote Desktop (.rdp)
-		</td>
-		<td>
-Exporter les entrées sélectionnées dans un format de fichier Remote Desktop (.rdp).
-		</td>
-	</tr>
-		<td>
-Exporter la sélection (.rdm)
-		</td>
-		<td>
-Exporter les entrées sélectionnées dans un fichier .rdm qui peut ensuite être importé dans n'importe quelle source de données {{ fr.RDM }}. Vous pouvez choisir d'inclure les identifiants de votre entrée dans votre format d'exportation et de sécuriser votre fichier avec un mot de passe de source de données.
-		</td>
-	</tr>
-</table>
+| OPTION     | DESCRIPTION                                                                 |
+|------------|-----------------------------------------------------------------------------|
+| Exporter l'Entrée en Fichier Bureau à Distance (.rdp) | Exporter les entrées sélectionnées au format de fichier Bureau à Distance (.rdp).                                                                                    |
+| Exporter la Sélection (.rdm)              | Exporter les entrées sélectionnées dans un fichier .rdm qui peut ensuite être importé dans n'importe quelle source de données {{ fr.RDM }}. Vous pourriez choisir d'inclure les identifiants de votre entrée dans votre format d'exportation et sécuriser votre fichier avec une clé maître.    |

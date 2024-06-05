@@ -1,18 +1,17 @@
 ---
 eleventyComputed:
-  title: "{{ fr.DLAUNCHER }} paramètres de session"
+  title: "{{ fr.DLAUNCHER }} menu de session"
   order: 40
 ---
-Pour accéder au menu de la session {{ fr.DLAUNCHER }}, faire un clic droit sur un onglet de session ouvert.
+Pour accéder au menu de session {{ fr.DLAUNCHER }}, cliquer droit sur un onglet de session ouvert.
 
-![!!ServerOp4041](https://cdnweb.devolutions.net/docs/fr/server/ServerOp4041.png)
-### Désancrer
-Pour désancrer une session dans {{ fr.DLAUNCHER }}, cliquer avec le bouton droit sur l'onglet pour ouvrir le menu de sélection et cliquer sur ***Désancrer***.
+![{{ fr.DLAUNCHER }} menu de session](https://cdnweb.devolutions.net/docs/DVLS6006_2023_3.png)
 
-Un menu contextuel devient disponible pour gérer la fenêtre désancrer.
+## Ancrage
+Pour désancrer une session dans {{ fr.DLAUNCHER }}, cliquer droit sur l'onglet pour ouvrir le menu de sélection et cliquer sur ***Désancrer***.
 
-![!!ServerOp4042](https://cdnweb.devolutions.net/docs/fr/server/ServerOp4042.png)
+Un menu de raccourci devient disponible pour gérer la fenêtre désancrée.
 
 ### Ctrl+Alt+Suppr
-Pour utiliser le raccourci <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Suppr</kbd> dans une session, faire un clic droit sur l'onglet de la session pour ouvrir le menu de sélection. Cliquer sur ***Commandes spéciales - Envoyer Ctrl+Alt+Suppr***
-![!!ServerOp4043](https://cdnweb.devolutions.net/docs/fr/server/ServerOp4043.png)
+Pour utiliser le raccourci <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Suppr</kbd> dans une session, cliquer droit sur l'onglet de session pour ouvrir le menu de sélection. Sélectionner ***Commandes Spéciales - Envoyer Ctrl+Alt+Suppr***.
+![!!ServerOp4050](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp4050.png)

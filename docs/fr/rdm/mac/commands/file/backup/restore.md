@@ -2,21 +2,20 @@
 eleventyComputed:
   title: Restaurer
 ---
-Vous devrez peut-être restaurer une sauvegarde de votre [{{ fr.DOD }}](/fr/rdm/mac/data-sources/data-sources-types/online-drive/), [SQLite](/fr/rdm/mac/data-sources/data-sources-types/sqlite/) ou une source de données [XML](/fr/rdm/mac/data-sources/data-sources-types/xml/) à un moment donné. L'option de restauration est accessible depuis le menu ***Fichier - Copie de sauvegarde - Restaurer***.
+Vous pourriez avoir besoin de restaurer une sauvegarde de votre [{{ fr.DOD }}](/rdm/mac/data-sources/data-sources-types/online-drive/), [SQLite](/rdm/mac/data-sources/data-sources-types/sqlite/) ou une source de données [XML](/rdm/mac/data-sources/data-sources-types/xml/) à un certain moment. L'option de restauration est accessible depuis le menu ***Fichier - Sauvegarde - Restaurer***.
 
 {% snippet, "shieldCaution" %}
-Avant de pouvoir restaurer une sauvegarde, vous ***DEVEZ*** créer une source de données vide et définir le nom de la sauvegarde avant de pouvoir l'utiliser. Une étape rapide est écrite ci-dessous :
+Avant de pouvoir restaurer une sauvegarde, vous DEVEZ créer une source de données vide et définir le nom de la sauvegarde avant de pouvoir l'utiliser. Une étape rapide est écrite ci-dessous :
 
-* Créer un nouveau [{{ fr.DOD }}](/fr/rdm/mac/data-sources/data-sources-types/online-drive/), [SQLite](/fr/rdm/mac/data-sources/data-sources-types/sqlite/) ou une source de données [XML](/fr/rdm/mac/data-sources/data-sources-types/xml/) dans ***Fichier - Sources de données***.
+* Créer une nouvelle source de données [{{ fr.DOD }}](/rdm/mac/data-sources/data-sources-types/online-drive/), [SQLite](/rdm/mac/data-sources/data-sources-types/sqlite/) ou [XML](/rdm/mac/data-sources/data-sources-types/xml/) dans ***Fichier – Sources de données***.
 {% endsnippet %}
 
 ## Paramètres
 
-1. Pour restaurer une source de données à partir d'une sauvegarde, sélectionnez-la comme source de données actuelle.
-1. Cliquer sur ***Fichier - Copie de sauvegarde - Restaurer*** pour afficher la liste de toutes vos sauvegardes.
-![Devolutions {{ fr.OBACK }}](https://cdnweb.devolutions.net/docs/fr/rdm/mac/clip0233.png)
+1. Pour restaurer une source de données à partir d'une sauvegarde, la sélectionner comme source de données actuelle.
+1. Cliquer sur ***Fichier - Sauvegarde - Restaurer*** pour afficher la liste de toutes vos sauvegardes.
+![Devolutions {{ fr.OBACK }}](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10092.png)
 1. Sélectionner la sauvegarde que vous souhaitez restaurer et cliquer sur ***OK***.
-1. L'assistant de sauvegarde en ligne affiche une brève description de la sauvegarde ainsi que la destination de restauration.
-![Assistant de sauvegarde](https://cdnweb.devolutions.net/docs/fr/rdm/mac/clip0234.png)
-1. Cliquer sur OK pour compléter la restauration de la sauvegarde.
-
+1. L'assistant {{ fr.OBACK }} affichera une brève description de la sauvegarde ainsi que la destination de la restauration.
+![Assistant de Sauvegarde](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10093.png)
+1. Cliquer sur ***OK*** pour compléter la restauration de votre sauvegarde.

@@ -1,43 +1,43 @@
 ---
 eleventyComputed:
-  title: Créer une inscription d'application Azure Active Directory
+  title: Créer un enregistrement d'application Azure Active Directory
+  keywords:
+  - Administrateur Active Directory
 ---
 {% snippet, "badgeInfo" %}
-Cette étape est facultative et non obligatoire si votre version de {{ fr.RDM }} est 2022.1 ou supérieure.
+Cette étape est facultative et non requise si votre version de {{ fr.RDM }} est 2022.1 et supérieure.
 {% endsnippet %}
 
-Pour pouvoir utiliser la méthode d'authentification Active Directory Interactive (avec prise en charge MFA) dans {{ fr.RDM }}, une nouvelle application doit être enregistrée dans la console Microsoft Azure SQL (administrateur Active Directory) avec les autorisations d'API appropriées.
+Pour pouvoir utiliser la méthode d'authentification Active Directory Interactive (avec support A2F) dans {{ fr.RDM }}, un nouvel enregistrement d'application doit être enregistré dans la console Microsoft Azure SQL (Azure Active Directory) avec les permissions API appropriées.
 
 ## Paramètres
 
-1. Connectez-vous sur le [Portail d'Azure](https://portal.azure.com/).
-1. Dans la section ***Azure Active Directory***, sélectionner ***App registrations***, puis ***New registration***.
-![App registration](https://cdnweb.devolutions.net/docs/fr/rdm/windows/clip5011.png)
-1. Configurer le nom.
-![!!RdmWin4110](https://cdnweb.devolutions.net/docs/fr/rdm/windows/RdmWin4110.png)
-1. Sélectionner les types de comptes pris en charge.
-![!!RdmWin4109](https://cdnweb.devolutions.net/docs/fr/rdm/windows/RdmWin4109.png)
-1. Configurer le l'URI de redirection comme indiquée ci-dessous.
+1. Se connecter sur [Azure Portal](https://portal.azure.com/).
+1. Dans la section Azure Active Directory, sélectionner ***App registrations*** puis ***New registration***.
+![Enregistrement d'application](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip5011.png)
+1. Configurer le ***Nom***.
+![!!RDMWin2230](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin2230.png)
+1. Sélectionner les ***Types de comptes pris en charge***.
+![!!RDMWin2231](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin2231.png)
+1. Configurer l'***URI de redirection*** comme indiqué ci-dessous et cliquer sur ***Register***.
 {% snippet, "badgeInfo" %}
-Le ***Redirect URI*** DOIT être configuré avec ***Public client/native (mobile & desktop)***.
+Le paramètre ***URI de redirection*** DOIT être configuré ***Client public/natif (mobile & bureau)***.
 {% endsnippet %}
 
 {% snippet, "badgeInfo" %}
-Dans notre exemple, l'URI de redirection est défini sur https<area>://mycompany.com, mais nous vous suggérons de le personnaliser en fonction du domaine de la page d'accueil de votre entreprise. Cela sera nécessaire dans l'étape d'authentification du sujet [Configurer {{ fr.RDM }} Active Directory Interactive (avec MFA)](/fr/rdm/windows/data-sources/data-sources-types/advanced-data-sources/microsoft-azure-sql/enable-azure-active-directory-authentication/configure-rdm-ad-interactive-mfa/).
+Dans notre exemple, l'***URI de redirection*** est défini sur https<area>://mycompany.com, mais nous vous suggérons de le personnaliser au domaine de la page d'accueil de votre entreprise. Cela sera nécessaire lors de l'étape d'authentification de [Configurer {{ fr.RDM }} Active Directory Interactive (avec A2F)](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/microsoft-azure-sql/enable-azure-active-directory-authentication/configure-rdm-older-version-ad-interactive-mfa/).
 {% endsnippet %}
 
-![!!RdmWin4108](https://cdnweb.devolutions.net/docs/fr/rdm/windows/RdmWin4108.png)
+![!!RDMWin2232](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin2232.png)
 
-6. Sélectionner les ***APIs my organization uses***, puis taper ***Azure*** et sélectionner ***Azure SQL Database***.
-![APIs my organization uses](https://cdnweb.devolutions.net/docs/fr/rdm/windows/clip5017.png)
-1. Sélectionner Delegated permissions **–*** user_impersonation et cliquer sur Add permissions.
-![user_impersonation](https://cdnweb.devolutions.net/docs/fr/rdm/windows/clip5018.png)
-1. Les autorisations API doivent ressembler à ceci. Vous visualisez la nouvelle autorisation que nous venons d'ajouter et le Microsoft Graph préexistant.
-![API / Permissions Name](https://cdnweb.devolutions.net/docs/fr/rdm/windows/clip5019.png)
-1. Étape facultative : Cliquer sur la section ***Authentification*** et passez à ***Oui***, si vous souhaitez l'option ***Authentification Windows intégrée (IWA)***.
-![Authentification](https://cdnweb.devolutions.net/docs/fr/rdm/windows/clip5013.png)
-
-Votre inscription à Azure Active Directory App est maintenant terminée.
-
-10. Copier l'App Registration's Application (client) ID qui est requis dans l'étape suivante pour {{ fr.RDM }}.
-![Application (client) ID](https://cdnweb.devolutions.net/docs/fr/rdm/windows/clip5020.png)
+6. Sélectionner ***APIs my organization uses***, puis taper Azure et sélectionner ***Azure SQL Database***.
+![APIs utilisées par mon organisation](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip5017.png)
+1. Sélectionner Permissions déléguées – user_impersonation et cliquer sur ***Add permissions***.
+![user_impersonation](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip5018.png)
+1. Les ***Permissions API*** devraient ressembler à ceci. Vous verrez la nouvelle permission que nous venons d'ajouter et le Microsoft Graph préexistant.
+![API / Nom des permissions](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip5019.png)
+1. Étape facultative : Cliquer sur la section ***Authentication*** et basculer sur ***Yes***, si vous désirez l'option ***Authentification Windows Intégrée (IWA)***.
+![Authentification](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip5013.png)
+1. Votre enregistrement d'application Azure Active Directory est maintenant terminé.
+1. Copier l'***ID d'application (client) de l'enregistrement d'application*** nécessaire dans {{ fr.RDM }} à l'étape suivante.
+![ID d'application (client)](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip5020.png)

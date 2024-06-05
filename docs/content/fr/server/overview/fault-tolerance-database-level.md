@@ -1,16 +1,16 @@
 ---
 eleventyComputed:
-  title: Tolérance aux pannes
+  title: Tolérance aux pannes au niveau de la base de données
 ---
-La plateforme Devolutions suit certaine lignes directrices de conception afin de préserver l'historique complet de vos données, que ce soit des modifications ou des suppressions. Elle offre également une fonctionnalité étendue de journalisation, ce qui permet d'avoir une visibilité totale sur toute activité dans le système. Les décisions relatives à la conception ont une incidence sur les choix offerts lorsque vous souhaitez avoir une tolérance aux pannes au niveau de la base de données.  
+La plateforme Devolutions suit certaines directives de conception pour préserver l'historique complet de vos données, qu'il s'agisse de modifications ou de suppressions. Elle dispose également d'une couche de journalisation étendue pour fournir une visibilité complète sur l'activité effectuée pendant l'utilisation du système. Ces choix de conception affectent les options disponibles pour vous en ce qui concerne la fourniture d'une tolérance aux pannes au niveau de la base de données.
 
-## Impact sur les choix technologiques 
+## Impact sur les choix technologiques
 
-En raison des opérations d'écriture effectuées en arrière-plan, la topologie ne peut qu'être active-passive. La copie en attente doit être synchronisée en tout temps, mais elle doit rester intacte. Une seule base de données peut être active en tout temps. Vous pouvez utiliser les technologies de mise en miroir ou de partitionnement de données offertes par Microsoft, en autant que la copie du contenu soit accessible seulement quand le contenu principal n'est plus disponible.  
+En raison de toutes les opérations d'écriture se produisant en arrière-plan, vous ne pouvez pas avoir une topologie autre qu'active-passive. La réplique de secours doit être synchronisée en permanence, mais ne doit pas être touchée. Il ne peut y avoir qu'une seule base de données utilisée à tout moment. Vous pouvez utiliser les technologies Microsoft de miroir ou de clustering, mais il est essentiel que le contenu répliqué ne soit accédé que lorsque le contenu maître est indisponible.
 
-## Mise en miroir pour le partage entre équipes distantes 
+## Le miroir comme moyen de partager avec des équipes distantes
 
-Puisque la copie principale des données doit rester intacte, ce n'est pas la solution appropriée pour partager des données principales entre des équipes distantes. Il est plutôt recommandé d'utiliser une combinaison des outils suivants :  
+La conséquence de garder les données répliquées intactes signifie que la réplication n'est PAS la solution appropriée à utiliser chaque fois que vous avez plusieurs équipes et que vous souhaitez partager un ensemble de données maîtres entre elles. Pour ce scénario, il est préférable d'utiliser un mélange de :
 
-* Synchronisateurs, particulièrement celui pour les données de {{ fr.RDM }}. 
-* Scripts PowerShell (pour exporter une branche spécifique de votre arborescence). 
+* Synchronisateurs, particulièrement celui pour les données {{ fr.RDM }} ; et  
+* Scripting PowerShell (pour exporter une branche spécifique de votre arbre).

@@ -1,12 +1,12 @@
 ---
 eleventyComputed:
-  title: Nettoyer l'historique d'entrées supprimées
-  status: Topic available in German language
+  title: Nettoyer l'historique supprimé
+  status: Sujet disponible en langue allemande
 ---
-L'***Historique d'entrées supprimées*** supprime définitivement les entrées précédemment supprimées. L'historique complet est toujours conservé, car chaque « version » d'entrée est conservée dans des tableaux historiques.
+L'option ***Nettoyer l'historique supprimé*** supprime définitivement l'historique de la fenêtre ***Entrées Supprimées***, rendant impossible la restauration des entrées supprimées à moins que vous n'ayez effectué une sauvegarde. L'historique des entrées peut toujours être trouvé sous ***Rapports – Journaux d'Activité***.
 
 {% snippet, "badgeInfo" %}
-Cette fonctionnalité nécessite une [Source de données avancées](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/).
+Cette fonctionnalité nécessite une [Source de Données Avancée](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/).
 {% endsnippet %}
 
 {% snippet, "badgeInfo" %}
@@ -14,13 +14,17 @@ Vous devez être administrateur de la source de données pour effectuer cette ac
 {% endsnippet %}
 
 ## Paramètres
+- Aller à l'onglet ***Administration*** dans le ruban.
+- Cliquer sur ***Nettoyer*** puis ***Nettoyer l'historique supprimé***.
+- Sélectionner avant quelle date l'historique des ***Entrées Supprimées*** sera supprimé.
+- Sélectionner de quel {{ fr.VLT }} l'historique des ***Entrées Supprimées*** sera supprimé.
+- Cliquer sur ***OK***.
+![Nettoyer l'historique supprimé](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin0003.png)
+   {% snippet, "badgeWarning" %}
+   Il n'y aura pas de sauvegarde de l'***Historique Supprimé***. Nous recommandons fortement de faire une [Sauvegarde](/rdm/windows/commands/file/backup/) avant de procéder.
+   {% endsnippet %}
 
-1. Sélectionner la date avant laquelle vous souhaitez supprimer définitivement vos entrées supprimées.
-![Nettoyer l'historique supprimées](https://cdnweb.devolutions.net/docs/fr/rdm/windows/clip10339.png)
-1. Confirmer votre choix avant de supprimer définitivement vos entrées supprimées.
-![Fenêtre de confirmation](https://cdnweb.devolutions.net/docs/fr/rdm/windows/clip11324.png)
-{% snippet, "badgeWarning" %}
-Il n'y aura pas de sauvegarde de votre historique. Nous vous recommandons fortement de faire une [Copie de sauvegarde](/rdm/windows/commands/file/backup/) avant de continuer.
-{% endsnippet %}
+- Cliquer sur ***Procéder quand même***.
+![Fenêtre de confirmation](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin0004.png)
 
-
+- Cliquer sur ***OK*** pour fermer la fenêtre de dialogue.

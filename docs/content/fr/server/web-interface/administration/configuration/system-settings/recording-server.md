@@ -2,56 +2,6 @@
 eleventyComputed:
   title: Serveur d'enregistrement
 ---
-Paramètres du serveur d'enregistrement de sessions.
-![Administration – Paramètres du système – Serveur d'enregistrement](https://cdnweb.devolutions.net/docs/fr/server/ServerOp8079.png)
+Afficher la configuration du ***Serveur d'enregistrement***. Cette fonctionnalité ne peut être configurée qu'à partir de la {{ fr.DVLSCONSOLE }}.
 
-<table>
-	<tr>
-		<th>
-Option
-		</th>
-		<th>
-Description
-		</th>
-	</tr>
-	<tr>
-		<td>
-Activer le serveur d'enregistrement
-		</td>
-		<td>
-Active le serveur d'enregistrement.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Nom du serveur
-		</td>
-		<td>
-Nom du serveur d'enregistrement.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Port
-		</td>
-		<td>
-Port TCP du serveur d'enregistrement.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Chemin du stockage
-		</td>
-		<td>
-Dossier de destination des fichiers d'enregistrements.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Jeton d'authentification
-		</td>
-		<td>
-Jeton d'authentification pour le serveur d'enregistrements.
-		</td>
-	</tr>
-</table>
+![Administration – Paramètres du système – Serveur d'enregistrement](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp8077.png)

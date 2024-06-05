@@ -1,158 +1,74 @@
 ---
 eleventyComputed:
-  title: Créer et modifier une liste d'exécution
+  title: Actions sur la liste de lecture
+  description: Vous pouvez créer une liste de lecture locale ou partagée dans {{ fr.RDM }}. Il existe plusieurs méthodes pour créer ou éditer une liste de lecture.
 ---
-Vous pouvez créer une Liste d'exécution locale ou partagée dans {{ fr.RDM }}. Il existe plusieurs méthodes pour créer ou modifier une Liste d'exécution :
+{% youtube 'VTGPUMl5zKY' %}
 
-* Utiliser le Gestionnaire de listes d'exécution
-* Créer une Liste d'exécution en fonction de l'état et de la sélection des entrées
-* Modifier une Liste d'exécution existante
+Vous pouvez créer une liste de lecture locale ou partagée dans {{ fr.RDM }}. Il existe plusieurs méthodes pour créer ou éditer une liste de lecture :
+
+* Utiliser la gestion de la liste de lecture.
+* Créer une liste de lecture en fonction de l'état et de la sélection des entrées.
+* Éditer une liste de lecture existante.
 
 {% snippet, "badgeInfo" %}
-Vous pouvez également utiliser le menu contextuel pour créer et modifier votre ***Liste d'exécution***. Lorsque vos entrées sont sélectionnées, cliquer avec le bouton droit dans le ***{{ fr.NPANE }}*** et sélectionner ***Liste d'exécution - Nouveau*** ou ***Ajouter à la liste d'exécution***.
+Vous pouvez également utiliser le menu contextuel pour créer et éditer votre liste de lecture. Lorsque vos entrées sont sélectionnées, faites un clic droit dans le ***{{ fr.NPANE }}*** et sélectionnez ***Liste de lecture – Ajouter la sélection à une liste de lecture existante***.
 {% endsnippet %}
 
 ## Paramètres
 
-### Utiliser le gestionnaire de listes d'exécution
+### Utiliser la gestion de la liste de lecture
+Depuis le ruban, allez dans ***Éditer – Liste de lecture – Gestion de la liste de lecture***.
+![Liste de lecture locale](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip10253.png)
 
-Vous pouvez y accéder en sélectionnant ***Gestionnaire de la liste d'exécution*** dans le ruban ***Modifier***.
-![Gestionnaire de listes d'exécution](https://cdnweb.devolutions.net/docs/fr/rdm/windows/clip10253.png)
+Les listes de lecture peuvent être sauvegardées de trois manières différentes :
 
-Les Listes d'exécution peuvent être enregistrées de trois manières différentes :
+| OPTION            | DESCRIPTION |
+|-------------------|-------------|
+| Locale            | La liste de lecture est sauvegardée localement et ne peut être accédée que de cette manière. Elles ne peuvent être lancées que via la gestion de la liste de lecture. |
+| Partagée          | La liste de lecture est sauvegardée dans la base de données. Elle peut être accédée par quiconque sur la source de données. Elles peuvent être lancées via la gestion de la liste de lecture ou en utilisant l'entrée elle-même. |
+| {{ fr.UVLT_MAJ }} | La liste de lecture est sauvegardée dans votre {{ fr.UVLT }} et ne peut être accédée que par l'utilisateur. Elles peuvent être lancées via la gestion de la liste de lecture ou en utilisant l'entrée elle-même. |
 
-<table>
-	<tr>
-		<th>
-OPTION
-		</th>
-		<th>
-DESCRIPTION
-		</th>
-	</tr>
-	<tr>
-		<td>
-Local
-		</td>
-		<td>
-La Liste d'exécution est enregistrée localement et n'est accessible qu'en tant que telle. Celles-ci ne peuvent être lancées que via le Gestionnaire de listes d'exécution.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Partagé
-		</td>
-		<td>
-La Liste d'exécution est enregistrée dans la base de données. Elle peut être consultée par n'importe qui sur la source de données. Celles-ci peuvent être lancées via le Gestionnaire de listes d'exécution ou en utilisant l'entrée elle-même.
-		</td>
-	</tr>
-	<tr>
-		<td>
-{{ fr.UVLT_MAJ }}
-		</td>
-		<td>
-La Liste d'exécution est enregistrée dans votre {{ fr.UVLT }} et n'est accessible qu'à l'utilisateur. Celles-ci peuvent être lancées via le Gestionnaire de listes d'exécution ou en utilisant l'entrée elle-même.
-		</td>
-	</tr>
-</table>
 
 ## Actions
 
-### Créer une liste d'exécution en fonction de l'état et de la sélection des entrées
+### Créer une liste de lecture en fonction de l'état et de la sélection des entrées
+1. Si vous souhaitez prédéterminer une liste d'entrées, sélectionnez-les pour votre liste de lecture dans le {{ fr.UVLT }}.
+![Entrées sélectionnées dans le {{ fr.NPANE }}](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip10902.png)
+1. Dans le menu ruban ***Éditer***, cliquez sur ***Liste de lecture***, puis sélectionnez le paramètre que vous préférez.
+![Éditer - Liste de lecture - Nouveau](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip10792.png)
 
-1. Si vous souhaitez prédéterminer une liste d'entrées, sélectionner-les pour votre liste d'exécution dans le ***{{ fr.NPANE }}***.
-![Sélection d'entrées dans le {{ fr.NPANE }}](https://cdnweb.devolutions.net/docs/fr/rdm/windows/clip10902.png)
-1. Dans le menu du ruban ***Modifier***, cliquer sur ***Liste d'exécution***, puis sélectionner le paramètre que vous préférez.
-![Modifier - Liste d'exécution - Nouveau](https://cdnweb.devolutions.net/docs/fr/rdm/windows/clip10792.png)
+| OPTION                                        | DESCRIPTION |
+|-----------------------------------------------|-------------|
+| Nouveau                                       | Crée directement une nouvelle liste de lecture, une fenêtre vous demandera où vous souhaitez la sauvegarder et quelle sélection vous souhaitez mettre en avant. |
+| Créer à partir des sessions ouvertes          | Ouvre la fenêtre pour créer une nouvelle liste de lecture avec toutes les sessions actuellement ouvertes déjà sélectionnées pour la liste de lecture. Vous pouvez sélectionner et retirer des entrées supplémentaires si désiré. |
+| Ajouter la sélection à une liste de lecture existante (X entrée) | Ouvre une fenêtre où vous pouvez sélectionner les listes de lecture actuellement accessibles et ajoute la sélection dans le {{ fr.NPANE }} à la liste de lecture. |
 
-<table>
-	<tr>
-		<th>
-OPTION
-		</th>
-		<th>
-DESCRIPTION
-		</th>
-	</tr>
-	<tr>
-		<td>
-Nouveau
-		</td>
-		<td>
-Créer une nouvelle Liste d'exécution directement, une invite de fenêtre vous demandera où vous souhaitez l'enregistrer et quelle sélection vous souhaitez mettre en évidence.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Ajouter à la liste d'exécution (X entrées)
-		</td>
-		<td>
-Invite une fenêtre dans laquelle vous pouvez sélectionner les Listes d'exécution actuellement accessibles et ajoute la sélection du ***{{ fr.NPANE }}*** à la Liste d'exécution.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Gestionnaire de listes d'exécution
-		</td>
-		<td>
-Ouvre le Gestionnaire de listes d'exécution avec les dernières connexions ouvertes
-		</td>
-	</tr>
-</table>
+3. Choisissez si vous souhaitez sauvegarder votre liste de lecture localement, dans un {{ fr.VLT }} partagé ou dans votre {{ fr.UVLT }}. La sauvegarder localement ouvrira une fenêtre différente. Cette fenêtre contiendra tout ce qui est nécessaire pour une liste de lecture locale.
+![Sauvegarder la nouvelle liste de lecture](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip10255.png)
+1. La fenêtre suivante vous permet de choisir comment vous souhaitez que votre sélection actuelle ou les sessions ouvertes affectent votre liste de lecture.
+![Entrées sélectionnées dans {{ fr.NPANE }}](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip10256.png)
 
-3. Choisir si vous souhaitez enregistrer votre Liste d'exécution localement, dans un {{ fr.VLT }} partagé ou dans votre {{ fr.UVLT }}. L'enregistrer localement ouvrira une fenêtre différente. Cette fenêtre contiendra tout le nécessaire pour une Liste d'exécution local.
-![Enregistrer la Liste d'exécution](https://cdnweb.devolutions.net/docs/fr/rdm/windows/clip10255.png)
-1. La fenêtre suivante vous permet de choisir comment vous voulez que votre sélection actuelle ou les sessions ouvertes affectent votre Liste d'exécution.
-![Selection des entrées dans le {{ fr.NPANE }}](https://cdnweb.devolutions.net/docs/fr/rdm/windows/clip10256.png)
+| OPTION                                   | DESCRIPTION |
+|------------------------------------------|-------------|
+| Entrées sélectionnées dans ***{{ fr.NPANE }}*** | Toutes les entrées actuellement sélectionnées dans le ***{{ fr.NPANE }}*** seront déjà sélectionnées pour votre liste de lecture. Vous pouvez toujours ajouter et retirer des entrées à la liste de lecture si vous le désirez. |
+| Sessions à onglets ouvertes              | Toutes les sessions actuellement ouvertes (uniquement intégrées) seront déjà sélectionnées pour votre liste de lecture. Vous pouvez toujours ajouter et retirer des entrées à la liste de lecture si vous le désirez. |
+| Aucune sélection                         | Aucune sélection prédéterminée ne sera prise en compte, créez votre liste de lecture à partir de zéro. |
 
-<table>
-	<tr>
-		<th>
-OPTION
-		</th>
-		<th>
-DESCRIPTION
-		</th>
-	</tr>
-	<tr>
-		<td>
-Entrées sélectionnées dans le <b><i>{{ fr.NPANE }}</i></b>
-		</td>
-		<td>
-Toutes les entrées actuellement sélectionnées dans le <b><i>{{ fr.NPANE }}</i></b> seront déjà sélectionnées pour votre Liste d'exécution. Vous pouvez toujours ajouter et supprimer des entrées dans la Liste d'exécution si vous le souhaitez.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Sessions ouvertes sous onglets
-		</td>
-		<td>
-Toutes les sessions actuellement ouvertes (Intégré uniquement) seront déjà sélectionnées pour votre Liste d'exécution. Vous pouvez toujours ajouter et supprimer des entrées dans la Liste d'exécution si vous le souhaitez.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Aucune sélection
-		</td>
-		<td>
-Aucune sélection prédéterminée ne sera prise en compte, créez votre Liste d'exécution à nouveau.
-		</td>
-	</tr>
-</table>
+5. Suivez cette séquence :
+	1. Entrez un nom pour votre ***Liste de lecture***.
+	1. Vous pouvez revoir, ajouter ou retirer des entrées de la liste de lecture dans l'onglet ***Connexions***.
+	1. Dans ***Avancé***, vous pouvez définir comment les entrées s'ouvrent.
+	![Éditeur de liste de lecture](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip10787.png)
 
-5. Remplir les informations de la Liste d'exécution :
-	a. Saisir un nom pour votre liste d'exécution.
-	b. Vous pouvez consulter, ajouter ou supprimer des entrées de la liste d'exécution sur l'onglet ***Connexions***.
-	c. Dans ***Avancée***, vous pouvez définir la façon dont les entrées s'ouvrent.
-	![Éditeur de liste d'exécution](https://cdnweb.devolutions.net/docs/fr/rdm/windows/clip10787.png)
+Et voilà, votre ***Liste de lecture*** est prête à l'emploi.
 
-### Modifier une liste d'exécution existante
-
-1. Dans ***Modifier***, cliquer sur ***Gestionnaire de listes d'exécution***.
-![Modifier - Gestionnaire de listes d'exécution](https://cdnweb.devolutions.net/docs/fr/rdm/windows/clip11490.png)
-1. Sélectionner la liste d'exécution que vous souhaitez modifier et cliquer sur ***Modifier***.
-![Gestionnaire de listes d'exécution](https://cdnweb.devolutions.net/docs/fr/rdm/windows/clip10259.png)
+### Éditer une liste de lecture existante
+1. Dans ***Éditer***, cliquez sur ***Gestion de la liste de lecture***.
+![Vue - Gestion de la liste de lecture](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip11490.png)
+1. Sélectionnez la ***Liste de lecture*** que vous souhaitez modifier et cliquez sur ***Éditer***.
+![Gestion de la liste de lecture](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip10259.png)
 
 {% snippet, "badgeInfo" %}
-Si la liste d'exécution est partagée ou enregistrée dans votre {{ fr.UVLT }}, vous pouvez également cliquer avec le bouton droit sur l'entrée et cliquer sur Propriétés pour y accéder.
+Si la ***Liste de lecture*** est partagée ou sauvegardée dans votre {{ fr.UVLT }}, vous pouvez également faire un clic droit sur l'entrée et cliquer sur ***Propriétés*** pour y accéder.
 {% endsnippet %}

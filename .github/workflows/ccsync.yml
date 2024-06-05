@@ -1,0 +1,32 @@
+name: cloudcannon-sync
+run-name: Sync cloudcannon with master
+
+on:
+  push:
+    branches: master
+
+concurrency: ccsync
+
+jobs:
+  merge:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out ${{ github.repository }}
+        uses: actions/checkout@v4
+        with:
+          ref: cloudcannon
+          fetch-depth: 100
+
+      - name: Setup global configurations
+        run: |
+          git config --global user.email "bot@devolutions.net"
+          git config --global user.name "Devolutions Bot"
+
+      - name: Merge master
+        run: |
+          git fetch origin master
+          git merge origin/master -m "Sync with master"
+
+      - name: Push
+        run: git push

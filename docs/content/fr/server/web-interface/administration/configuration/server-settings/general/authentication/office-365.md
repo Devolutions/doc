@@ -1,182 +1,44 @@
 ---
 eleventyComputed:
-  title: Office365
+  title: Authentification Microsoft avec {{ fr.DVLS }}
+  keywords:
+  - Rôles
 ---
 {% snippet, "badgeInfo" %}
-Un abonnement Microsoft Azure Active Directory est requis pour configurer l'authentification Office365 dans {{ fr.DVLS }}. Vous devez créer trois nouvelles inscriptions d'applications dans Microsoft Azure Active Directory avant de terminer les paramètres d'authentification.
+Un abonnement à Microsoft Azure Active Directory est requis pour configurer l'authentification Office365 dans {{ fr.DVLS }}. Une nouvelle inscription d'application est nécessaire dans Microsoft Azure Active Directory avant de compléter les paramètres d'authentification. Pour plus d'informations sur les inscriptions d'applications, voir [guide de configuration du portail Azure pour l'authentification Microsoft](/server/kb/how-to-articles/azure-portal-configuration-guide-microsoft-authentication/).
 {% endsnippet %}
 
-L'onglet ***Office365*** permet à {{ fr.DVLS }} d'authentifier les utilisateurs à l'aide de l'***authentification Office365***. Tous les champs sont obligatoires.
-
-![Authentification - Office365](https://cdnweb.devolutions.net/docs/fr/server/AuthenticationOffice365.png)
+L'onglet ***Authentification Microsoft*** permet à {{ fr.DVLS }} d'authentifier les utilisateurs en utilisant l'authentification Office365. Les champs ***Nom d'affichage***, ***ID de locataire***, ***ID client*** et ***Valeur secrète*** sont obligatoires.
+![Authentification - Configurer l'authentification Microsoft](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp0022.png)
 
 ## Paramètres
 
-### Paramètres d'office365
-
-<table>
-	<tr>
-		<th>
-Option
-		</th>
-		<th>
-Description
-		</th>
-	</tr>
-	<tr>
-		<td>
-ID locataire
-		</td>
-		<td>
-Le TenantID est l'ID d'annuaire d'Azure Active Directory.
-		</td>
-	</tr>
-</table>
-
-### Application native (RDM)
-<table>
-	<tr>
-		<th>
-Option
-		</th>
-		<th>
-Description
-		</th>
-	</tr>
-	<tr>
-		<td>
-ID du client
-		</td>
-		<td>
-ID d'application de l'application Azure AD.
-		</td>
-	</tr>
-	<tr>
-		<td>
-ID ressource
-		</td>
-		<td>
-resourceAppid à partir du manifeste de l'application Azure AD.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Rediriger l'adresse URL
-		</td>
-		<td>
-Rediriger l'URL depuis l'application Azure AD.
-		</td>
-	</tr>
-</table>
-
-### Application Web
-<table>
-	<tr>
-		<th>
-Option
-		</th>
-		<th>
-Description
-		</th>
-	</tr>
-	<tr>
-		<td>
-ID du client
-		</td>
-		<td>
-ID d'application de la section application Web de l'application Azure AD
-		</td>
-	</tr>
-</table>
-
-### Cache des utilisateurs et groupes d'utilisateurs
-<table>
-	<tr>
-		<th>
-Option
-		</th>
-		<th>
-Description
-		</th>
-	</tr>
-	<tr>
-		<td>
-ID du client
-		</td>
-		<td>
-ID d'application de l'application Azure AD.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Rediriger l'adresse URL
-		</td>
-		<td>
-Rediriger l'URL depuis l'application Azure AD.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Clé secrète
-		</td>
-		<td>
-Clé du mot de passe généré dans Paramètres - Clés de l'application Azure AD.
-		</td>
-	</tr>
-</table>
+### Paramètres
+| Option          | Description                                                                                        |
+|-----------------|----------------------------------------------------------------------------------------------------|
+| Nom d'affichage    | Le nom affiché pour cette configuration                                                          |
+| ID de locataire       | L'ID de locataire est l'ID de répertoire de l'Active Directory Azure                                     |
+| ID client       | ID d'application de l'application Azure AD                                                         |
+| Utiliser un ID client spécifique pour les caches des utilisateurs et des groupes d'utilisateurs | Utiliser uniquement si le secret est dans une autre application Azure |
+| Valeur secrète    | Secret généré dans Azure                                                                          |
+| Type d'interaction utilisateur lors de la connexion | ***Automatique*** : Choisir la méthode la plus appropriée pour le contexte<br>***Sélectionner un compte*** : Toujours afficher la sélection de compte<br>***Aucun*** : Connexion silencieuse uniquement, l'utilisateur doit être connecté via une autre application du fournisseur<br>***Connexion*** : Force l'utilisateur à se connecter au fournisseur à chaque fois |
+| Tester la connexion | Tester la connexion avec les paramètres actuels                                                   |
 
 ### Création automatique d'utilisateur
-<table>
-	<tr>
-		<th>
-Option
-		</th>
-		<th>
-Description
-		</th>
-	</tr>
-	<tr>
-		<td>
-Création automatique des utilisateurs de domaine
-		</td>
-		<td>
-Créer automatiquement le compte d'utilisateur Office365 dans la base de données lors de la première tentative de connexion.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Type d'utilisateur
-		</td>
-		<td>
-Définir le compte utilisateur comme compte en lecture seule.
-		</td>
-	</tr>
-	<tr>
-		<td>
-{{ fr.VLT_MAJ }} par défaut
-		</td>
-		<td>
-Donner l'accès à ce {{ fr.VLT }} à l'utilisateur.
-		</td>
-	</tr>
-</table>
+| Option                     | Description                         |
+|----------------------------|-------------------------------------|
+| Créer automatiquement lors du premier login | Crée un utilisateur lors du premier login |
+| Type d'utilisateur                  | Choisir entre ***Utilisateur*** et ***Utilisateur en lecture seule*** (disponible uniquement lorsque ***Créer automatiquement lors du premier login*** est activé) |
+| Uniquement de ce groupe       | Seuls les utilisateurs de ce groupe seront créés lors du premier login (disponible uniquement lorsque ***Créer automatiquement lors du premier login*** est activé) |
 
-### Cache des utilisateurs et groupes d'utilisateurs d'office365
-<table>
-	<tr>
-		<th>
-Option
-		</th>
-		<th>
-Description
-		</th>
-	</tr>
-	<tr>
-		<td>
-Mettre à jour les données de groupes et utilisateurs à chaque
-		</td>
-		<td>
-Définir la période en heures et en minutes pendant laquelle le cache des utilisateurs et des groupes d'utilisateurs d'Office365 sera actualisé. La valeur par défaut est définie sur 30 minutes.
-		</td>
-	</tr>
-</table>
+
+### Cache des utilisateurs et des groupes d'utilisateurs pour l'authentification Microsoft
+{% snippet, "badgeInfo" %}
+Il est recommandé de désactiver la fonctionnalité de cache, car le mode hybride est plus efficace. Par défaut, l'option est déjà désactivée.
+{% endsnippet %}
+
+| Option            | Description                                                                                              |
+|-------------------|----------------------------------------------------------------------------------------------------------|
+| Activer la fonctionnalité de cache | Si activé : Met les utilisateurs, les groupes et les liens entre eux dans la base de données<br>Si désactivé : Mode hybride |
+| Récurrence        | ***Intervalle*** : Met à jour les données des utilisateurs et des groupes d'utilisateurs à des intervalles de temps (heures et minutes)<br>***Quotidien*** : Met à jour les données des utilisateurs et des groupes d'utilisateurs tous les jours à l'heure définie |
+

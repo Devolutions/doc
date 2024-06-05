@@ -1,217 +1,74 @@
 ---
 eleventyComputed:
   title: SQLite
+  description: "{{ fr.RDMMAC }} La source de données SQLite est idéale pour un utilisateur unique dans des situations autonomes."
 ---
-<table>
-	<tr>
-		<td>
-
-![!!DataSourceSQLiteLarge](https://cdnweb.devolutions.net/docs/docs_common_DataSourceSQLiteLarge.png)
-		</td>
-		<td>
-La source de données SQLite de {{ fr.RDM }} est idéale pour un seul utilisateur dans des situations autonomes. Plus puissant et plus flexible que le format de fichier XML, il prend également en charge quelques-unes des options avancées de source de données comme les journaux et les pièces jointes.
-		</td>
-	</tr>
-</table>
+{{ fr.RDMMAC }} La source de données SQLite est idéale pour un utilisateur unique dans des situations autonomes. Plus puissante et plus flexible que le format de fichier XML, elle prend également en charge quelques-unes des options de source de données avancées comme les journaux et les pièces jointes.
 
 ## Points forts
 
-* Prise en charge complète des journaux d'activité et des pièces jointes.
-* Le service de [Sauvegarde en ligne](/fr/cloud/rdm-online-services/online-backup/) est disponible pour cette source de données
+* Prise en charge complète des journaux de connexion et des pièces jointes
+* Le [Service {{ fr.OBACK }}](/cloud/getting-started/devolutions-cloud-services/) est disponible pour cette source de données
 
-{% snippet, "shieldCaution" %}
-Tous les mots de passe sont cryptés par défaut par {{ fr.RDM }}. Vous pouvez spécifier un mot de passe personnalisé pour crypter entièrement le contenu de la base de données SQLite.
+{% snippet, "shieldInfo" %}
+Tous les mots de passe sont chiffrés par défaut par {{ fr.RDMMAC }}. Vous pouvez spécifier un mot de passe personnalisé pour chiffrer entièrement le contenu de la base de données SQLite.
 {% endsnippet %}
 
 {% snippet, "shieldWarning" %}
-La récupération du mot de passe SQLite n'est pas possible, les données seront irrécupérables si vous ne pouvez pas vous authentifier. Veuillez vous assurer de sauvegarder le mot de passe dans un endroit sûr.
+La récupération de mot de passe n'est pas possible, les données seront irrécupérables si vous ne pouvez pas vous authentifier. Veuillez vous assurer de sauvegarder le mot de passe dans un endroit sûr.
 {% endsnippet %}
 
 {% snippet, "badgeInfo" %}
-SQLite prend en charge un nombre illimité de lecteurs simultanés, mais n'autorise qu'un seul écrivain à tout instant. Pour cette raison, {{ fr.RDM }} ne prend pas en charge le partage d'une source de données SQLite entre plusieurs utilisateurs en la stockant sur un lecteur réseau. Si vous souhaitez partager vos données et travailler en équipe avec vos collègues, veuillez utiliser l'une des [Sources de données avancées](/rdm/mac/data-sources/data-sources-types/advanced-data-sources/). Veuillez consulter le site de SQLite pour plus d'informations.
+SQLite prend en charge un nombre illimité de lecteurs simultanés, mais ne permettra qu'un seul écrivain à tout instant. Pour cette raison, {{ fr.RDMMAC }} ne prend pas en charge le partage d'une source de données SQLite entre plusieurs utilisateurs en la stockant sur un lecteur réseau. Si vous souhaitez partager vos données et travailler dans un environnement d'équipe avec vos collègues, veuillez utiliser l'une des [Sources de Données Avancées](/rdm/mac/data-sources/data-sources-types/advanced-data-sources/). Veuillez consulter [SQLite.org](https://www.sqlite.org/whentouse.html) pour plus d'informations.
 {% endsnippet %}
+
+## Gestion des mots de passe
+
+Vous pouvez spécifier un mot de passe pour chiffrer davantage vos données, vous devez entrer votre mot de passe lors de la création de votre source de données SQLite.
 
 ## Paramètres
 
-### Général
+### Connexion
 
-![SQLite - Général](https://cdnweb.devolutions.net/docs/fr/rdm/mac/clip0335.png)
+![SQLite - Onglet Connexion](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10159.png)
 
-{% snippet, "badgeWarning" %}
-La récupération du mot de passe SQLite n'est pas possible, les données seront irrécupérables si vous ne pouvez pas vous authentifier. Veuillez vous assurer de sauvegarder le mot de passe dans un endroit sûr.
-{% endsnippet %}
-
-<table>
-	<tr>
-		<td>
-Option
-		</td>
-		<td>
-Description
-		</td>
-	</tr>
-	<tr>
-		<td>
-Nom
-		</td>
-		<td>
-Nom de la source de données.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Base de données
-		</td>
-		<td>
-Nom de la source de données SQLite (.db).
-		</td>
-	</tr>
-	<tr>
-		<td>
-Mot de passe
-		</td>
-		<td>
-Mot de passe pour se connecter à la source de données.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Toujours demander le mot de passe
-		</td>
-		<td>
-Toujours demander le mot de passe lors de la connexion à la source de données.
-		</td>
-	</tr>
-	<tr>
-		<td>
-2 facteurs
-		</td>
-		<td>
-
-Activer l'[Authentification 2 facteurs](/fr/rdm/mac/data-sources/multi-factor-authentication/) pour accéder à votre source de données.
-		</td>
-	</tr>
-</table>
+| OPTION               | DESCRIPTION |
+|----------------------|-------------|
+| Nom                  | Nom de la source de données. |
+| Base de données      | Indique le nom de fichier de la base de données SQLite (.db). |
+| Mot de passe         | Spécifiez un mot de passe pour chiffrer davantage votre source de données. |
+| Sécuriser avec un mot de passe | Sécurisez la source de données avec un mot de passe. Ceci est utilisé pour chiffrer le contenu de la base de données et il ne peut pas être récupéré s'il est perdu.     |
+| Toujours demander le mot de passe  | Demander toujours le mot de passe lors de la connexion à la source de données. |
+| Authentification à deux facteurs           | Activer l'authentification à deux facteurs pour accéder à votre source de données. |
 
 ### Sauvegarde
 
-![SQLite - Sauvegarde](https://cdnweb.devolutions.net/docs/fr/rdm/mac/clip0336.png)
+![SQLite - Onglet Sauvegarde](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip6055.png)
 
-<table>
-	<tr>
-		<td>
-Option
-		</td>
-		<td>
-Description
-		</td>
-	</tr>
-	<tr>
-		<td>
-Sauvegarde
-		</td>
-		<td>
-Choisir entre :
+| OPTION      | DESCRIPTION |
+|-------------|-------------|
+| Sauvegarde  | Sélectionnez entre :<ul><li>Aucune : Aucune sauvegarde de votre source de données ne sera créée.</li><li> {{ fr.OBACK }} : Une sauvegarde {{ fr.OBACK }} (utilisant le Service {{ fr.OBACK }}) sera automatiquement créée.</li><li> Enregistrer dans un fichier : Votre sauvegarde sera enregistrée dans un fichier choisi mais ne fera pas automatiquement de sauvegarde toutes les 30 secondes.</li></ul> |
+| Nom de la sauvegarde | Spécifiez le nom de la sauvegarde qui vous permettra de sauvegarder automatiquement vos sessions dans un espace de stockage en ligne sécurisé et de les restaurer en cas de problèmes. |
 
-* Aucun : Aucune sauvegarde de votre source de données ne sera créée.
-* Sauvegarde en ligne : Une sauvegarde en ligne (à l'aide du service de [Sauvegarde en ligne](/fr/cloud/rdm-online-services/online-backup/)) sera automatiquement créée.
-* Sauvegarde du fichier : Votre sauvegarde sera enregistrée dans un fichier choisi, mais ne fera pas automatiquement sauvegarder toutes les 30 secondes.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Nom de la sauvegarde
-		</td>
-		<td>
-Spécifier le nom de sauvegarde qui vous permettra d'enregistrer automatiquement vos sessions dans un espace de stockage en ligne sécurisé et de les restaurer en cas de problème.
-		</td>
-	</tr>
-</table>
+### Avancé
 
-### Avancée
+![SQLite - Onglet Avancé](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10161.png)
 
-![SQLite - Avancée](https://cdnweb.devolutions.net/docs/fr/rdm/mac/clip0337.png)
+| OPTION               | DESCRIPTION |
+|----------------------|-------------|
+| Actualisation automatique         | Définissez l'intervalle pour l'actualisation automatique. |
+| Délai d'attente de commande      | Temps d'attente avant un dépassement de commande.      |
+| Désactiver la révélation de mot de passe | Désactiver la fonction de révélation de mot de passe lorsqu'un utilisateur accède à cette source de données. |
+| Désactiver la mise en cache      | Les entrées seront rechargées en mode Simple dans la source de données. Voir [Mode de Mise en Cache](/rdm/mac/data-sources/caching/) pour plus d'informations.                                      |
+| Paramètres avancés    | Utilisé pour modifier directement la valeur de la chaîne de connexion. |
 
-<table>
-	<tr>
-		<td>
-Option
-		</td>
-		<td>
-Description
-		</td>
-	</tr>
-	<tr>
-		<td>
-Actualisation automatique
-		</td>
-		<td>
-Définir l'intervalle d'actualisation automatique.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Délai de commande
-		</td>
-		<td>
-Temps d'attente avant un délai de commande.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Désactiver l'affichage du mot de passe
-		</td>
-		<td>
-Désactiver la fonctionnalité de révélation du mot de passe lorsqu'un utilisateur accède à cette source de données.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Désactiver la mise en cache
-		</td>
-		<td>
+### Maintenance
 
-Les entrées seront rechargées en mode simple dans la source de données. Voir [Mode de la cache](/fr/rdm/mac/data-sources/caching/) pour plus d'informations.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Paramètres avancés
-		</td>
-		<td>
-Modifier directement les valeurs de chaîne de connexion.
-		</td>
-	</tr>
-</table>
+![SQLite - Onglet Maintenance](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10162.png)
 
-### Entretien
+| OPTION               | DESCRIPTION |
+|----------------------|-------------|
+| Gérer le fichier SQLite   | Gérez tous vos fichiers SQLite pour les analyser, les compacter, les réparer ou les supprimer. Pour plus d'informations, veuillez suivre ce [lien](/rdm/mac/data-sources/manage-cache/). |
+| Compacter               | Utilisé pour compresser et nettoyer le fichier de base de données actuel. |
 
-![SQLite - Entretien](https://cdnweb.devolutions.net/docs/fr/rdm/mac/clip0337.png)
 
-<table>
-	<tr>
-		<td>
-Option
-		</td>
-		<td>
-Description
-		</td>
-	</tr>
-	<tr>
-		<td>
-Gérer fichier SQLite
-		</td>
-		<td>
-
-Gérer tous vos fichiers SQLite pour les analyser, les nettoyer, les réparer ou les supprimer. Pour plus d'informations, veuillez suivre ce [lien](/fr/rdm/mac/data-sources/manage-cache/).
-		</td>
-	</tr>
-	<tr>
-		<td>
-Nettoyer
-		</td>
-		<td>
-Compresser et nettoyer le fichier de base de données actuel.
-		</td>
-	</tr>
-</table>

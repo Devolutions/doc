@@ -1,14 +1,15 @@
 ---
 eleventyComputed:
   title: "{{ fr.DFORUM }}"
-  description: Le {{ fr.DFORUM }} est le meilleur moyen d’obtenir des réponses à vos questions, soit de notre équipe de développement, soit de notre communauté mondiale de professionnels des TI.
+  description: Le {{ fr.DFORUM }} est un moyen efficace d'obtenir des réponses à vos questions, soit de la part de notre équipe de développement, soit de la part de notre communauté mondiale de professionnels de l'informatique.
+  order: 90
 ---
-Le [{{ fr.DFORUM }}](https://forum.devolutions.net/) est le meilleur moyen d’obtenir des réponses à vos questions, soit de notre équipe de développement, soit de notre communauté mondiale de professionnels des TI.
+Le [{{ fr.DFORUM }}](https://forum.devolutions.net/) est un moyen efficace d'obtenir des réponses à vos questions, soit de la part de notre équipe de développement, soit de la part de notre communauté mondiale de professionnels de l'informatique.
 
-Visitez les différentes sections et contribuez à la connaissance de notre communauté.
+Visiter les différentes sections et contribuer à la connaissance de notre communauté.
 
 {% snippet, "badgeInfo" %}
-Un [{{ fr.DA }}](/fr/cloud/devolutions-account/) gratuit est nécessaire pour se connecter et interagir sur le {{ fr.DFORUM }}.
+Un [{{ fr.DA }}](/cloud/devolutions-account/) gratuit est requis pour se connecter et interagir sur le {{ fr.DFORUM }}.
 {% endsnippet %}
 
-![{{ fr.DFORUM }}](https://cdnweb.devolutions.net/docs/fr/cloud/Cloud2001.png)
+![{{ fr.DFORUM }}](https://cdnweb.devolutions.net/docs/docs_en_cloud_Cloud2002.png)

@@ -11,8 +11,6 @@ cards:
         url: /fr/rdm/getting-started/
       - name: Installation
         url: /fr/rdm/installation/client/
-      - name: Gestion des accès privilégiés
-        url: /fr/rdm/privileged-access-management/
   - name: rdm/mac
     links:
       - name: Qu'est-ce que Remote Desktop Manager (macOS)?
@@ -21,8 +19,6 @@ cards:
         url: /fr/rdm/mac/getting-started/
       - name: Installation
         url: /fr/rdm/mac/installation/client/
-      - name: Gestion des accès privilégiés
-        url: /fr/rdm/mac/privileged-access-management/
   - name: server
     links:
       - name: Qu'est-ce que Devolutions Server?
@@ -30,49 +26,57 @@ cards:
       - name: Premiers pas
         url: /fr/server/getting-started/
       - name: Installation
-        url: /fr/server/installation/
+        url: /fr/server/getting-started/installation/
   - name: hub
     links:
-      - name: Qu'est-ce que Devolutions Hub Business?
+      - name: Qu'est-ce que Devolutions Hub?
         url: /fr/hub/overview/what-is-hub/
-      - name: Premiers pas dans Hub Business
+      - name: Premiers pas
         url: /fr/hub/getting-started/get-started-hub-business/
-      - name: Introduction au SSO avec Hub Business
+      - name: Premiers pas avec le SSO
         url: /fr/hub/getting-started/get-started-sso-hub-business/
       - name: Compte Devolutions
         url: /fr/cloud/devolutions-account/
-      - name: Gestion des accès privilégiés
-        url: /fr/hub/privileged-access-management/
   - name: gateway
     links:
+      - name: Qu'est-ce que Devolutions Gateway?
+        url: /fr/dgw/overview/what-is-dgw/
       - name: Devolutions Server
-        url: /fr/server/dgw/overview/
+        url: /fr/dgw/server/system-requirements/
       - name: Devolutions Hub
-        url: /fr/hub/dgw/overview/
-      - name: Base de connaissances de Devolutions
-        url: /fr/kb/devolutions-gateway/
-  - name: kb
+        url: /fr/dgw/hub/system-requirements/
+      - name: Devolutions Gateway Standalone
+        url: /fr/dgw/standalone/
+  - name: pam
     links:
-      - name: Devolutions Knowledge Base
-        url: /fr/kb/devolutions-customer-success/
-      - name: Remote Desktop Manager (Windows)
-        url: /fr/kb/remote-desktop-manager/
-      - name: Remote Desktop Manager (macOS)
-        url: /fr/kb/remote-desktop-manager-macos/
-      - name: Remote Desktop Manager (mobile)
-        url: /fr/kb/remote-desktop-manager-mobile/
+      - name: Qu'est-ce que Devolutions PAM?
+        url: /fr/pam/overview/what-is-pam/
+      - name: Remote Desktop Manager
+        url: /fr/pam/rdm/
       - name: Devolutions Server
-        url: /fr/kb/devolutions-server/
+        url: /fr/pam/server/
       - name: Devolutions Hub Business
-        url: /fr/kb/hub-business/
-      - name: Devolutions Hub Personal
-        url: /fr/kb/hub-personal/
-      - name: Devolutions PowerShell Modules
-        url: /fr/kb/devolutions-powershell/
+        url: /fr/pam/hub/
+  - name: workspace
+    links:
+      - name: Qu'est-ce que Devolutions Workspace?
+        url: /fr/workspace/overview/what-is-workspace/
+      - name: Installation de l'application de bureau
+        url: /fr/workspace/workspace-apps/workspace-desktop/installation/
+      - name: Installation de l'application mobile
+        url: /fr/workspace/workspace-apps/workspace-mobile/installation/
+      - name: Installation de l'extension de navigateur
+        url: /fr/workspace/workspace-browser-extension/installation/
+  - name: powershell
+    links:
+      - name: Qu'est-ce que Devolutions PowerShell?
+        url: /fr/powershell/overview/what-is-powershell/
+      - name: Remote Desktop Manager
+        url: /fr/powershell/rdm-powershell/
+      - name: Devolutions Server
+        url: /fr/powershell/dvls-powershell/
+      - name: Devolutions Hub
+        url: /fr/powershell/hub-powershell/
       - name: Devolutions Gateway
-        url: /fr/kb/devolutions-gateway/
-      - name: Module d'extension Workspace
-        url: /fr/kb/workspace-browser-extension/
-      - name: Devolutions Workspace
-        url: /fr/kb/devolutions-workspace/
+        url: /fr/powershell/gateway-powershell/
 ---

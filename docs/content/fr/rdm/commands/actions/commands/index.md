@@ -1,4 +1,4 @@
 ---
 eleventyComputed:
-  title: Commande
+  title: Commandes
 ---

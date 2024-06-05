@@ -1,4 +1,0 @@
----
-eleventyComputed:
-  title: "{{ fr.DC }}"
----

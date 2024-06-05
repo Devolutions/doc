@@ -1,46 +1,34 @@
 ---
 eleventyComputed:
-  title: Créer un compte
+  title: Créer votre {{ fr.DA }}
 ---
-Créer votre {{ fr.DA }} gratuit.
+Créer votre {{ fr.DA }} gratuit en suivant les étapes ci-dessous.
 
-1. Cliquer sur le lien [{{ fr.DA }}](https://portal.devolutions.com/).
-1. Cliquer sur ***Créer un compte***.
-![{{ fr.DA }} - Créer un compte](https://cdnweb.devolutions.net/docs/fr/cloud/Cloud4015.png)
-1. Remplir les champs obligatoires du formulaire et cliquer ***Créer mon compte***.
-{% snippet, "badgeCaution" %}
-En cliquant sur ***Créer mon compte***, vous confirmez que vous avez lu et accepté nos [Conditions d'utilisation](https://devolutions.net/fr/legal/online-services-terms) et notre [Politique relative à la vie privée](https://devolutions.net/fr/legal).
-{% endsnippet %}
+## Création
 
-![{{ fr.DA }} - Créer un compte gratuit](https://cdnweb.devolutions.net/docs/fr/cloud/cloud4016.png)
+1. Aller à votre [connexion de compte](https://portal.devolutions.com/).
+2. Cliquer sur ***Créer votre compte*** pour commencer le processus. ![Créer votre compte](https://cdnweb.devolutions.net/docs/docs_en_cloud_Cloud4014.png)
+3. Remplir les champs avec vos informations, puis cliquer ***Créer un compte***. {% snippet, "badgeCaution" %} En cliquant sur ***Créer un compte***, vous confirmez avoir lu et accepté nos [Conditions d'utilisation](https://devolutions.net/legal/online-services-terms/) et [Politique de confidentialité](https://devolutions.net/legal/). {% endsnippet %}
 
-4. Un courriel contenant un lien d'activation sera envoyé à votre adresse courriel.
-{% snippet, "badgeInfo" %}
+   ![Informations du compte](https://cdnweb.devolutions.net/docs/docs_en_cloud_Cloud4015.png)
 
-Si vous n'avez pas reçu le courriel dans votre boîte de réception, veuillez d'abord vérifier dans votre dossier ***Indésirable/Pourriel***.
+4. Aller à votre boîte de réception et ouvrir l'email d'activation qui vous a été envoyé. {% snippet, "badgeCaution" %} L'email contenant le lien d'activation peut se trouver dans votre dossier spam/indésirables. Pour les comptes Gmail, vérifiez également le dossier ***Promotions***.
 
-Pour les comptes Gmail, veuillez consulter le dossier ***Promotions***.
+      Il peut prendre un certain temps pour le recevoir. Si vous ne recevez pas l'email, suivre les étapes [Mot de passe oublié](#mot-de-passe-oublie) ci-dessous. {% endsnippet %}
 
-Dans l'éventualité que vous n'ayez pas reçu le courriel d'activation, suivre les étapes <a href="#key">Mot de passe oublié</a>.
-{% endsnippet %}
-![{{ fr.DA }} - Activation](https://cdnweb.devolutions.net/docs/fr/cloud/Cloud4021.png)
-4. Confirmer la création de votre compte en cliquant sur ***Activer***.
+   ![activation](https://cdnweb.devolutions.net/docs/docs_en_cloud_Cloud4023.png)
 
-Votre compte a été créé.
+5. Cliquer ***Activer*** dans l'email pour vérifier la création de votre compte.
 
-## Mot de passe oublié <a name="key"></a>
+Votre compte a été créé !
 
-Dans le cas où vous n'avez pas reçu le courriel d'activation ou si vous avez oublié votre mot de passe, veuillez procéder comme suit :
+## Mot de passe oublié
 
-1. Cliquer sur le lien [{{ fr.DA }}](https://portal.devolutions.com/).
-1. Entrer votre ***Nom d'utilisateur*** (le courriel de votre {{ fr.DA }}), cliquer sur ***Continuer***.
-![{{ fr.DA }} - Créer un coompte](https://cdnweb.devolutions.net/docs/fr/cloud/Cloud4015.png)
-1. Cliquer sur ***Mot de passe oublié***.
-![{{ fr.DA }} - Mot de passe oublié](https://cdnweb.devolutions.net/docs/fr/cloud/Cloud4022.png)
-1. Entrer votre nom d'utilisateur, puis cliquer sur ***Suivant***.
-![{{ fr.DA }} - Requête de mot de passe](https://cdnweb.devolutions.net/docs/fr/cloud/Cloud4023.png)
-1. Copier le code reçu par courriel, puis cliquer sur ***Suivant***.
-![{{ fr.DA }} - Code Courriel](https://cdnweb.devolutions.net/docs/fr/cloud/Cloud4024.png)
-1. Saisir un nouveau mot de passe répondant aux exigences, puis cliquer sur ***Mettre à jour mon mot de passe***.
-![{{ fr.DA }} - Changement de mot de passe](https://cdnweb.devolutions.net/docs/fr/cloud/Cloud4025.png)
+Dans le cas où vous n'avez pas reçu l'email d'activation ou que vous avez oublié votre mot de passe, suivre ces étapes :
 
+1. Aller à la [connexion de compte Devolutions](https://portal.devolutions.com/).
+2. Entrer votre ***Nom d'utilisateur*** (adresse email {{ fr.DA }}), puis cliquer ***Continuer***. ![Nom d'utilisateur](https://cdnweb.devolutions.net/docs/docs_en_cloud_Cloud4001.png)
+3. Cliquer ***Vous avez oublié votre mot de passe ?***. ![Vous avez oublié votre mot de passe ?](https://cdnweb.devolutions.net/docs/docs_en_cloud_Cloud4024.png)
+4. Entrer de nouveau votre nom d'utilisateur, puis cliquer ***Suivant***. ![Nom d'utilisateur](https://cdnweb.devolutions.net/docs/docs_en_cloud_Cloud4025.png)
+5. Copier le code reçu dans l'email, puis cliquer ***Suivant***. ![Code email](https://cdnweb.devolutions.net/docs/docs_en_cloud_Cloud4026.png)
+6. Entrer un nouveau mot de passe qui suit les directives de sécurité, puis cliquer ***Mettre à jour mon mot de passe***. ![Nouveau mot de passe](https://cdnweb.devolutions.net/docs/docs_en_cloud_Cloud4027.png)

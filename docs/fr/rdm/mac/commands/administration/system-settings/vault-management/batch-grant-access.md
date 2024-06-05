@@ -1,49 +1,42 @@
 ---
 eleventyComputed:
-  title: Accorder l'accès en lot
-  description: La fonctionnalité Accorder l'accès en lot permet de définir des permissions et ensembles de permissions à plusieurs utilisateurs, groupes d'utilisateurs et/ou utilisateurs d'application en même temps sur des entrées, dossiers ou {{ fr.VLT }}s.
+  title: Octroyer des accès en lot
+  description: La fonctionnalité d'octroi d'accès en lot vous permet de définir des permissions et des ensembles de permissions pour plusieurs utilisateurs, groupes d'utilisateurs et/ou utilisateurs d'applications à la fois sur des entrées, des dossiers et des {{ fr.VLT }}s.
 ---
-La fonctionnalité ***Accorder l'accès en lot*** permet de définir des permissions et ensembles de permissions à plusieurs utilisateurs, groupes d'utilisateurs et/ou utilisateurs d'application en même temps sur des entrées, dossiers ou {{ fr.VLT }}s.
+La fonctionnalité ***Octroyer des Accès en Lot*** permet d'assigner des permissions et des ensembles de permissions à plusieurs utilisateurs, groupes d'utilisateurs et/ou utilisateurs d'applications à la fois sur des entrées, des dossiers et des {{ fr.VLT }}s.
 
 ## Emplacement
+***Octroyer des Accès en Lot*** se trouve dans les propriétés des entrées, des dossiers et des {{ fr.VLT }}s sous ***Sécurité – Permissions – Onglet Permissions***. Définir les permissions sur ***Personnalisé***, puis cliquer sur ***Octroyer la Permission***.
 
-***Accorder l'accès en lot*** se trouve dans les propriétés des entrées, dossiers et {{ fr.VLT }}s sous ***Sécurité – Permissions – onglet Permissions***. Définissez les permissions à ***Personnalisé***, puis cliquez sur ***Accorder permission***.
+![Propriétés – Sécurité – Permissions – Onglet Permissions](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_RDMMac2101.png)
 
-![Propriétés – Sécurité – Permissions – onglet Permissions](https://cdnweb.devolutions.net/docs/fr/rdm/mac/RDMMac2062.png)
+Il est également accessible via ***Administration*** :
+1. Dans {{ fr.RDM }}, aller à ***Administration – Paramètres Système – Gestion des {{ fr.VLT_MAJ }}s***.
+1. Sous ***Permissions par Défaut***, sélectionner ***Personnalisé*** dans le menu déroulant ***Permission***.
+![Permissions par Défaut Personnalisées](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_RDMMac2102.png)
+1. Cliquer sur ***Octroyer l'Accès***.
+![Octroyer l'Accès](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_RDMMac2103.png)
 
-On peut également y accéder par le menu ***Administration*** :
-1. Dans {{ fr.RDM }}, aller dans ***Administration – Paramètres système – Gestion des {{ fr.VLT }}s***.
-1. Sous ***Permissions par défaut***, sélectionner ***Personnalisé*** dans le menu déroulant ***Autorisation***.
+La fenêtre ***Octroyer des Accès en Lot*** est maintenant ouverte.
+![Octroyer des Accès en Lot](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_RDMMac2104.png)
 
-   ![Permissions par défaut personnalisées](https://cdnweb.devolutions.net/docs/fr/rdm/mac/RDMMac2063.png)
-
-1. Cliquer sur ***Accorder l'accès***.
-
-   ![Accorder l'accès](https://cdnweb.devolutions.net/docs/fr/rdm/mac/RDMMac2064.png)
-
-La fenêtre ***Accorder l'accès en lot*** est maintenant ouverte.
-
-![Accorder l'accès en lot](https://cdnweb.devolutions.net/docs/fr/rdm/mac/RDMMac2065.png)
-
-La fenêtre est divisée en deux sections : les <a href="#permissions">paramètres des permissions</a> et la <a href="#utilisateurs">sélection des utilisateurs</a>.
+La fenêtre est divisée en deux sections : les [paramètres de permission](#permissions) et la [sélection des utilisateurs](#users).
 
 ## Paramètres
 
 ### Permissions
-
-Dans les paramètres des permissions, vous pouvez sélectionner les permissions à accorder. Vous pouvez afficher soit les ***Permissions*** ou les ***Ensembles de permissions*** créés précédemment (ou ceux créés par défaut).
+Dans les paramètres de permission, vous pouvez sélectionner les permissions à octroyer. Vous pouvez afficher soit des ***Permissions*** individuelles soit des ***Ensembles de Permissions*** précédemment créés (ou par défaut).
 
 {% snippet, "badgeHelp" %}
-Les ensembles de permissions sont créés et configurés dans ***Administration – Paramètres du système – Gestion des {{ fr.VLT }}s – Ensembles de permissions***. Pour davantage d'information, voir [Ensembles de permissions](/fr/rdm/mac/commands/administration/system-settings/vault-management/permission-sets).
+Les ensembles de permissions sont créés et configurés dans ***Administration – Paramètres Système – Gestion des {{ fr.VLT_MAJ }}s – Ensembles de Permissions***. Pour plus d'informations, voir [Ensembles de Permissions](/rdm/mac/commands/administration/system-settings/vault-management/permission-sets/).
 {% endsnippet %}
 
-![Paramètres de permissions](https://cdnweb.devolutions.net/docs/fr/rdm/mac/RDMMac2066.png)
+![Paramètres de Permission](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_RDMMac2105.png)
 
 ### Utilisateurs
+Les utilisateurs peuvent être sélectionnés un par un en cochant la case à côté de chacun, mais cette méthode peut être fastidieuse si vous avez beaucoup d'utilisateurs. Des outils sont disponibles pour vous aider dans votre processus de sélection :
+* ***Recherche*** : Filtrer vos utilisateurs, groupes d'utilisateurs et utilisateurs d'applications par ***Nom*** ou ***Description***.
+* ***Type*** : Afficher uniquement les utilisateurs, groupes d'utilisateurs ou utilisateurs d'applications.
+* ***Sélectionnés*** : Afficher uniquement les utilisateurs, groupes d'utilisateurs et utilisateurs d'applications sélectionnés ou non sélectionnés.
 
-Les utilisateurs peuvent être sélectionnés un par un en cochant la case à côté de chacun d'eux, mais cette méthode peut s'avérer fastidieuse si vous avez beaucoup d'utilisateurs. Des outils sont disponibles pour vous aider dans votre processus de sélection :
-* ***Rechercher*** : Filtrer vos utilisateurs, groupes d'utilisateurs et utilisateurs d'applications par ***Nom*** ou ***Description***.
-* ***Type*** : Afficher seulement les utilisateurs, les groupes d'utilisateurs ou les utilisateurs d'application.
-* ***Sélectionné*** : Afficher seulement les utilisateurs, groupes d'utilisateurs et utilisateurs d'application sélectionnés ou non sélectionnés.
-
-![Sélection des utilisateurs](https://cdnweb.devolutions.net/docs/fr/rdm/mac/RDMMac2067.png)
+![Sélection des Utilisateurs](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_RDMMac2106.png)

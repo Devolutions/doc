@@ -1,106 +1,36 @@
 ---
 eleventyComputed:
-  title: Gestionnaire
+  title: Gestion
 ---
-Il existe 3 façons d'ouvrir une liste d'exécution :
+Il y a 3 façons d'ouvrir une liste de lecture :
 
-<table>
-	<tr>
-		<td>
-Option
-		</td>
-		<td>
-Description
-		</td>
-	</tr>
-		<td>
-Ouvrir
-		</td>
-		<td>
-Les éléments s'ouvriront en utilisant le mode spécifié dans chaque session.
-		</td>
-	</tr>
-		<td>
-Ouvrir en mode intégré
-		</td>
-		<td>
-Les éléments s'ouvriront tous en utilisant le mode intégré.
-		</td>
-	</tr>
-		<td>
-Sélectionner dans le <b><i>{{ fr.NPANE }}</i></b>
-		</td>
-		<td>
-Les éléments seront sélectionnés dans le <b><i>{{ fr.NPANE }}</i></b>, ce qui vous permet de choisir une autre commande à exécuter sur la section dans un deuxième temps.
-		</td>
-	</tr>
-</table>
+| OPTION                         | DESCRIPTION                                               |
+|--------------------------------|-----------------------------------------------------------|
+| Ouvrir                         | Les éléments s'ouvriront en utilisant le mode spécifié dans chaque session. |
+| Ouvrir en mode intégré         | Tous les éléments s'ouvriront en mode intégré.              |
+| Sélectionner dans ***{{ fr.NPANE }}*** | Les éléments seront sélectionnés dans le ***{{ fr.NPANE }}***, cela vous permet de choisir une autre commande à exécuter sur la section comme une deuxième étape. |
 
-### Ouvrir
+### Ouvrir les éléments en mode par défaut
+Dans ***Vue – Liste de lecture***, sélectionner la liste de lecture à ouvrir et cliquer sur ***Ouvrir***.
+![Ouvrir en mode par défaut](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10115.png)
 
-Dans Modifier - Liste d'exécution - Gestionnaire de listes d'exécution, sélectionner la liste et cliquer ***Ouvrir***.
-![Ouvrir la liste d'exécution](https://cdnweb.devolutions.net/docs/fr/rdm/mac/clip0273.png)
+### Ouvrir les éléments en mode intégré
+Dans ***Vue – Liste de lecture***, sélectionner la liste de lecture à ouvrir et cliquer sur ***Ouvrir en mode intégré***.
+![Ouvrir en mode intégré](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10116.png)
 
-### Ouvrir en mode intégré
-
-Dans Modifier - Liste d'exécution - Gestionnaire de listes d'exécution, sélectionner la liste et cliquer ***Ouvrir en mode intégré***.
-![Ouvrir la liste d'exécution mode intégré](https://cdnweb.devolutions.net/docs/fr/rdm/mac/clip0274.png)
-
-### Ouvrir en Sélectionnant dans le ***{{ fr.NPANE }}***
-
-Dans Modifier - Liste d'exécution - Gestionnaire de listes d'exécution, sélectionner la liste et cliquer ***Sélectionner dans le {{ fr.NPANE }}***. Sélectionner les entrées dans le ***{{ fr.NPANE }}***.
-![Sélectionner dans le {{ fr.NPANE }}](https://cdnweb.devolutions.net/docs/fr/rdm/mac/clip0275.png)
+### Ouvrir les éléments avec Sélectionner dans ***{{ fr.NPANE }}***
+Dans ***Vue – Liste de lecture***, sélectionner la liste de lecture à ouvrir et cliquer sur ***Sélectionner*** dans le ***{{ fr.NPANE }}***. Ensuite, sélectionner les entrées souhaitées dans votre ***{{ fr.NPANE }}*** en utilisant <kbd>Cmd</kbd>+cliquer.
+![Sélectionner dans ***{{ fr.NPANE }}***](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10117.png)
 
 ## Menu
-
-Vous pouvez utiliser le menu du Gestionnaire de la liste d'exécution pour plusieurs options.
-![Menu Gestionnaire de listes d'exécution](https://cdnweb.devolutions.net/docs/fr/rdm/mac/clip0276.png)
+Vous pouvez utiliser le menu dans la gestion de la liste de lecture pour plusieurs options.
+![Menu de gestion de la liste de lecture](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10118.png)
 
 ### Paramètres
-
-<table>
-	<tr>
-		<td>
-Option
-		</td>
-		<td>
-Description
-		</td>
-	</tr>
-		<td>
-
-![!!clip0277](https://cdnweb.devolutions.net/docs/fr/rdm/mac/clip0277.png)
-		</td>
-		<td>
-Créer une nouvelle liste d'exécution.
-		</td>
-	</tr>
-		<td>
-![!!clip0278](https://cdnweb.devolutions.net/docs/fr/rdm/mac/clip0278.png)
-		</td>
-		<td>
-Supprimer une liste d'exécution existante.
-		</td>
-	</tr>
-		<td>
-![!!clip0279](https://cdnweb.devolutions.net/docs/fr/rdm/mac/clip0279.png)
-		</td>
-		<td>
-Modifier la liste d'exécution sélectionnée.
-		</td>
-	</tr>
-		<td>
-![!!clip0280](https://cdnweb.devolutions.net/docs/fr/rdm/mac/clip0280.png)
-		</td>
-		<td>
-Actualiser le gestionnaire de listes d'exécution.
-		</td>
-	</tr>
-		<td>
-![!!clip0281](https://cdnweb.devolutions.net/docs/fr/rdm/mac/clip0281.png)
-		</td>
-		<td>
-Copier la liste d'exécution sélectionnée.
-		</td>
-	</tr>
-</table>
+| OPTION                                                                                         | DESCRIPTION                        |
+|------------------------------------------------------------------------------------------------|------------------------------------|
+| ![!!add-large](https://cdnweb.devolutions.net/docs/docs_common_add-large.png)                 | Créer une nouvelle liste de lecture.            |
+| ![!!remove](https://cdnweb.devolutions.net/docs/docs_common_remove.png)                       | Supprimer une liste de lecture existante.      |
+| ![!!entry-SampleGear1](https://cdnweb.devolutions.net/docs/docs_common_entry-SampleGear1.png) | Modifier la liste de lecture sélectionnée.       |
+| ![!!refresh-macOS](https://cdnweb.devolutions.net/docs/docs_common_refresh-macOS.png)         | Rafraîchir votre gestion de liste de lecture. |
+| ![!!copy-macOS](https://cdnweb.devolutions.net/docs/docs_common_copy-macOS.png)               | Copier la liste de lecture sélectionnée.       |

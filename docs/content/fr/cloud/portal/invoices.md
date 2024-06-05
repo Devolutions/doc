@@ -2,7 +2,6 @@
 eleventyComputed:
   title: Factures
 ---
-La section ***Factures*** répertorie toutes les transactions associées à votre {{ fr.DA }}. Imprimer et visualiser vos factures et les licences qui leur sont associées.
+La section ***Factures*** répertorie toutes les transactions associées à votre {{ fr.DA }}. Imprimer et consulter vos factures ainsi que les licences qui y sont associées.
 
-![!!Cloud4049](https://cdnweb.devolutions.net/docs/fr/cloud/Cloud4049.png)
-
+![!!Cloud4051](https://cdnweb.devolutions.net/docs/docs_en_cloud_Cloud4051.png)

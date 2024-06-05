@@ -2,34 +2,13 @@
 eleventyComputed:
   title: Ajout rapide
 ---
-Permet de personnaliser la liste des types de sessions pour le bouton d'ajout rapide.
-![Ajout rapide](https://cdnweb.devolutions.net/docs/fr/server/ServerOp8068.png)
+Permet de personnaliser la liste des boutons d'ajout rapide avec les types de session préférés.
+![!!ServerOp8065](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp8065.png)
 
-![{{ fr.VLT_MAJ }}s - Ajout Rapide](https://cdnweb.devolutions.net/docs/fr/server/ServerOp8067.png)
+![{{ fr.VLT_MAJ }}s - Ajout rapide](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp8063.png)
 
-<table>
-	<tr>
-		<th>
-Option
-		</th>
-		<th>
-Description
-		</th>
-	</tr>
-	<tr>
-		<td>
-Disponible
-		</td>
-		<td>
-Type de session disponible pour inscrire comme Ajout rapide.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Ajout rapide
-		</td>
-		<td>
-Type de session qui sélectionné pour les boutons d'ajout rapide.
-		</td>
-	</tr>
-</table>
+## Modifier les paramètres {{ fr.VLT }}
+| Option    | Description                                                                       |
+|-----------|-----------------------------------------------------------------------------------|
+| Disponible | Liste des types de session disponibles.                                                |
+| Ajout rapide | Liste des types de session sélectionnés qui sont disponibles pour les boutons d'Ajout rapide. |

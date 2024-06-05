@@ -1,11 +1,12 @@
 ---
 eleventyComputed:
-  title: Changer le mot de passe
+  title: Changer de mot de passe
+  description: Permettre aux utilisateurs personnalisés de modifier leur mot de passe pour s'authentifier sur {{ fr.DVLS }}.  
 ---
-Allow users to modify their password for authenticating on {{ fr.DVLS }}. Autoriser les utilisateurs à modifier leur mot de passe pour s'authentifier sur {{ fr.DVLS }}.
+Permettre aux utilisateurs personnalisés de modifier leur mot de passe pour s'authentifier sur {{ fr.DVLS }}.  
 
 {% snippet, "badgeCaution" %}
-Fonctionnalité disponible seulement avec la méthode d'authentification de compte {{ fr.DVLS }}. Veuillez consulter [Authentification](/fr/server/web-interface/administration/configuration/server-settings/general/authentication/) pour plus d'informations.
+Fonctionnalité uniquement disponible avec la méthode d'authentification par compte utilisateur {{ fr.DVLS }}. Veuillez consulter [Authentification](/server/web-interface/administration/configuration/server-settings/general/authentication/) pour plus d'informations.
 {% endsnippet %}
 
-![Modifier votre mot de passe](https://cdnweb.devolutions.net/docs/fr/server/ServerOp8020.png)
+![Changer votre mot de passe](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp4023.png)

@@ -1,52 +1,14 @@
 ---
 eleventyComputed:
-  title: Modifier l'entrée
+  title: Modifier les entrées
 ---
-Les options de modification sont utilisées pour éditer l'une de vos entrées. Vous pouvez modifier les propriétés, renommer, déplacer ou supprimer votre entrée.
+L'option Modifier est utilisée pour modifier une de vos entrées. Vous pouvez modifier les propriétés, renommer votre entrée ou la supprimer rapidement.
 
 ## Paramètres
+![Options de modification](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10336.png)
 
-![Modifier les entrées](https://cdnweb.devolutions.net/docs/fr/rdm/mac/clip4054.png)
-
-<table>
-	<tr>
-		<td>
-Option
-		</td>
-		<td>
-Description
-		</td>
-	</tr>
-	<tr>
-		<td>
-Modifier l'entrée
-		</td>
-		<td>
-Modifier les options de l'entrée sélectionnée.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Renommer
-		</td>
-		<td>
-Renommer l'entrée sélectionnée.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Déplacer
-		</td>
-		<td>
-Déplacer votre entrée sélectionnée vers un autre dossier.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Supprimer
-		</td>
-		<td>
-Supprimer l'entrée sélectionnée. Une fenêtre de confirmation apparaîtra pour confirmer la suppression de l'entrée.
-		</td>
-	</tr>
-</table>
+| OPTION                       | DESCRIPTION                                                                                         |
+|------------------------------|-----------------------------------------------------------------------------------------------------|
+| Modifier l'entrée            | Modifier les options de votre entrée sélectionnée.                                                  |
+| Déplacer vers un autre groupe/dossier | Déplacer votre entrée sélectionnée vers un autre groupe ou dossier.                                 |
+| Supprimer l'entrée           | Supprimer votre entrée sélectionnée. Une fenêtre de confirmation apparaîtra pour confirmer la suppression de l'entrée. |

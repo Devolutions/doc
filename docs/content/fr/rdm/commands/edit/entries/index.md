@@ -1,4 +1,4 @@
 ---
 eleventyComputed:
-  title: Entrée
+  title: Entrées
 ---

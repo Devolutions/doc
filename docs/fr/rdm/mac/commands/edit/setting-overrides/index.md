@@ -1,35 +1,13 @@
 ---
 eleventyComputed:
-  title: Paramètres spécifiques
+  title: Paramètres de surcharge
 ---
-Les paramètres spécifiques sont utilisés pour remplacer les paramètres spécifiques de l'usager ou locaux d'une session.
+Les options de Paramètres de surcharge sont utilisées pour remplacer les paramètres spécifiques à l'utilisateur ou les paramètres spécifiques locaux d'une session.
 
 ## Paramètres
+![Modifier – Paramètres de surcharge](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10337.png)
 
-![Modifier - Paramètres spécifiques](https://cdnweb.devolutions.net/docs/fr/rdm/mac/clip4055.png)
-
-<table>
-	<tr>
-		<td>
-Option
-		</td>
-		<td>
-Description
-		</td>
-	</tr>
-		<td>
-Paramètres spécifiques de l'usager
-		</td>
-		<td>
-
-Permets le remplacement des paramètres de session pour un usager. Pour plus d'informations, voir ***Paramètres spécifiques de l'usager***.
-		</td>
-	</tr>
-		<td>
-Paramètres spécifiques locaux
-		</td>
-		<td>
-Permets le remplacement des paramètres de session pour la machine locale. Pour plus d'informations, voir ***Paramètres spécifiques locaux***.
-		</td>
-	</tr>
-</table>
+| OPTION                               | DESCRIPTION                                                                                  |
+|--------------------------------------|----------------------------------------------------------------------------------------------|
+| Modifier l'entrée (Paramètres spécifiques à l'utilisateur)  | Permet la surcharge des paramètres de session pour un utilisateur. Pour plus d'informations, voir Paramètres spécifiques à l'utilisateur. |
+| Modifier l'entrée (Paramètres spécifiques locaux) | Permet la surcharge des paramètres de session pour la machine locale. Pour plus d'informations, voir Paramètres spécifiques à la machine locale. |

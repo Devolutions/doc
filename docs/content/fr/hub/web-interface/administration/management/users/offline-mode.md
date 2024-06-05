@@ -1,15 +1,17 @@
 ---
 eleventyComputed:
   title: Mode hors ligne
+  description: Dans la section Utilisateurs, vous pouvez activer le mode hors ligne pour certains utilisateurs. Cela permettra une cache en lecture seule des entrées de {{ fr.DHUBB }}.
 ---
-Dans la section ***Utilisateurs***, vous pouvez activer le mode hors ligne pour des utilisateurs spécifiques. Cela permettra un cache en lecture seule des entrées de {{ fr.DHUBB }}.
+Dans la section ***Utilisateurs***, vous pouvez activer le mode hors ligne pour certains utilisateurs. Cela permettra une cache en lecture seule des entrées de {{ fr.DHUBB }}.
 
-1. Aller dans ***Administration – Utilisateurs***.
-1. Cliquer sur ***Modifier*** à côté de l'utilisateur.
-1. Dans la section ***Utilisateur***, cocher ***Autoriser le mode hors-ligne dans {{ fr.RDM }}***.
-1. Cliquer ***Mettre à jour*** pour enregistrer.
+1. Aller à ***Administration – Utilisateurs***.
+1. Cliquer sur l'icône crayon ***Modifier*** à côté de l'utilisateur.
+1. Dans la section ***Utilisateur***, cocher ***Autoriser hors ligne***.
+1. Cliquer sur ***Mettre à jour*** pour sauvegarder.
+
 {% snippet, "badgeCaution" %}
 Un redémarrage de {{ fr.RDM }} peut être nécessaire pour activer le mode hors ligne.
 {% endsnippet %}
 
-![!!Hub4133](https://cdnweb.devolutions.net/docs/fr/hub/Hub4133.png)
+![Autoriser hors ligne](https://cdnweb.devolutions.net/docs/HUBB6008_2024_1.png)

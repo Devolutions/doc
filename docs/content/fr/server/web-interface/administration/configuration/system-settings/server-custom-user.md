@@ -1,6 +1,7 @@
 ---
 eleventyComputed:
-  title: Utilisateur de {{ fr.DVLS }}
+  title: "{{ fr.DVLS }} utilisateur"
 ---
-Permet de configurer la politique de mot de passe pour les comptes d'utilisateurs {{ fr.DVLS }}.
-![Administration – Paramètres du système – Utilisateur de {{ fr.DVLS }}](https://cdnweb.devolutions.net/docs/fr/server/ServerOp8082.png)
+Permet de définir la ***Politique de Mot de Passe*** pour les comptes d'***utilisateur {{ fr.DVLS }}***.
+
+![Administration – Paramètres Système – Utilisateur {{ fr.DVLS }}](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp8075.png)

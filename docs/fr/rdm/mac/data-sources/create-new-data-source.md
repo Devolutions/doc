@@ -2,23 +2,20 @@
 eleventyComputed:
   title: Créer une source de données
   order: 10
+  description: Une fois vos besoins identifiés, vous pouvez procéder à la création de votre première source de données.
 ---
-## Paramètres
+Lors du premier lancement, {{ fr.RDMMAC }} utilise une source de données SQLite locale. Les différents types de sources de données sont listés dans [Types de sources de données](/rdm/mac/data-sources/data-sources-types/). Pour obtenir de l'aide dans la sélection d'une source de données adaptée à vos besoins, veuillez consulter notre section [Commencer ici](/rdm/mac/getting-started/).
 
-### Créer une nouvelle source de données
+Une fois vos besoins identifiés, vous pouvez procéder à la création de votre première source de données :
 
-1. Pour créer une nouvelle source de données, cliquer sur le bouton sources de données à côté de la zone de source de données.
-![Bouton sources de données](https://cdnweb.devolutions.net/docs/fr/rdm/mac/clip4241.png)
-1. Cliquer sur le signe plus pour créer une nouvelle source de données.
-![Nouvelle source de données](https://cdnweb.devolutions.net/docs/fr/rdm/mac/clip4243.png)
-1. Sélectionner le type de source de données que vous souhaitez créer et cliquez sur ***OK***.
-![Choisir un type de source de données](https://cdnweb.devolutions.net/docs/fr/rdm/mac/clip4244.png)
-1. Configurer tous vos paramètres de connexion. Vous pouvez vérifier la validité des informations entrées en utilisant ***Tester Serveur*** ou ***Tester Identifiants*** (selon le type de source de données que vous créez).
-![Paramètres de source de données](https://cdnweb.devolutions.net/docs/fr/rdm/mac/clip4246.png)
-1. Si vous utilisez une base de données existante, cliquer sur le bouton de réglage à côté de la ***Base de données*** pour sélectionner votre base de données, puis cliquer sur ***Tester base de données*** pour vérifier qu'elle fonctionne correctement.
-![Paramètres de source de données - Base de données](https://cdnweb.devolutions.net/docs/fr/rdm/mac/clip4247.png)
-1. Si vous souhaitez créer une nouvelle base de données, cliquer sur l'onglet ***Mise à niveau***, puis sélectionner ***Créer une base de données***.
-![Mise à niveau - Créer base de données](https://cdnweb.devolutions.net/docs/fr/rdm/mac/clip4248.png)
-1. Une fois toutes les étapes terminées, vous pouvez sélectionner la source de données que vous venez de créer en cliquant sur la flèche à côté de la zone de liste déroulante des sources de données.
-![Choisir une source de données](https://cdnweb.devolutions.net/docs/fr/rdm/mac/clip4249.png)
+1. Dans {{ fr.RDMMAC }}, aller à ***Fichier – Sources de données***.
+1. Cliquer sur ***Ajouter une nouvelle source de données***.
+![Ajouter une nouvelle source de données](https://cdnweb.devolutions.net/docs/RDMM2000_2024_1.png)
+1. Sélectionner le type de source de données à créer, puis cliquer sur ***OK***. Dans l'exemple ci-dessous, une source de données {{ fr.DVLS }} est en cours de création.
+![Sélection du type de source de données](https://cdnweb.devolutions.net/docs/RDMM2001_2024_1.png)
+1. Configurer les paramètres de connexion de la source de données. Pour valider les informations, cliquer sur ***Tester la connexion*** ou ***Tester le serveur*** selon le type de source de données créé.
+![Configuration de la source de données](https://cdnweb.devolutions.net/docs/RDMM2002_2024_1.png)
+1. Cliquer sur ***OK*** lorsque la configuration est complète, puis ***OK*** à nouveau pour fermer la fenêtre ***Sources de données***.
+1. La nouvelle source de données devrait s'ouvrir automatiquement. Vous pouvez également ouvrir manuellement la source de données en la sélectionnant dans la liste déroulante des sources de données en haut du ***{{ fr.NPANE }}***.
 
+Il se peut que vous deviez [ajouter une licence](/rdm/mac/commands/administration/licenses/) à votre source de données. Si vous utilisez une [source de données avancée](/rdm/mac/data-sources/data-sources-types/advanced-data-sources/), il n'est pas nécessaire d'ajouter une licence dans {{ fr.RDMMAC }} car le numéro de série de la licence est récupéré directement depuis la source de données.

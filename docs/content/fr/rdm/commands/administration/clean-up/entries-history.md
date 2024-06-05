@@ -1,12 +1,12 @@
 ---
 eleventyComputed:
-  title: Nettoyer l'historique d'entrées
-  status: Topic available in German language
+  title: Nettoyer l'historique des entrées
+  status: Sujet disponible en langue allemande
 ---
-L'***Historique d'entrées*** efface l'historique attaché à votre entrée, vous pouvez trouver l'historique avec un clic droit sur votre entrée et en sélectionnant ***Affichage - Historique de l'entrée***.
+L'***Historique des Entrées*** supprime l'historique attaché à votre entrée, vous pouvez trouver l'historique en cliquant droit sur votre entrée et en sélectionnant ***Afficher – Historique des Entrées***.
 
 {% snippet, "badgeInfo" %}
-Cette fonctionnalité nécessite une [Source de données avancées](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/).
+Cette fonctionnalité nécessite une [source de données avancée](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/).
 {% endsnippet %}
 
 {% snippet, "badgeInfo" %}
@@ -14,11 +14,17 @@ Vous devez être administrateur de la source de données pour effectuer cette ac
 {% endsnippet %}
 
 ## Paramètres
+1. Aller à l'onglet ***Administration*** dans le ruban.
+1. Cliquer sur ***Nettoyer*** puis ***Nettoyer l'Historique des Entrées***.
+1. Sélectionner avant quelle date l'***Historique des Entrées*** sera supprimé.
+1. Sélectionner de quel {{ fr.VLT }} l'***Historique des Entrées*** sera supprimé.
+1. Cliquer ***OK***.
+![Nettoyer l'historique supprimé](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin0005.png)
+   {% snippet, "badgeWarning" %}
+   Il n'y aura pas de sauvegarde de l'***Historique des Entrées***. Nous recommandons fortement de faire une [sauvegarde](/rdm/windows/commands/file/backup/) avant de procéder.
+   {% endsnippet %}
 
-1. Sélectionner la date avant laquelle vous souhaitez supprimer définitivement votre historique d'entrées.
-![Nettoyer l'historique d'entrées](https://cdnweb.devolutions.net/docs/fr/rdm/windows/clip10341.png)
-1. Confirmer votre choix avant de supprimer définitivement votre historique d'entrées.
-![Fenêtre de confirmation](https://cdnweb.devolutions.net/docs/fr/rdm/windows/clip11326.png)
-{% snippet, "badgeWarning" %}
-Il n'y aura pas de sauvegarde de votre historique. Nous vous recommandons fortement de faire une [Copie de sauvegarde](/rdm/windows/commands/file/backup/) avant de continuer.
-{% endsnippet %}
+1. Cliquer sur ***Procéder quand même***.
+![Confirmation](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin0004.png)
+
+1. Cliquer ***OK*** pour fermer la fenêtre de dialogue.

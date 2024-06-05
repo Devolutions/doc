@@ -1,137 +1,22 @@
 ---
 eleventyComputed:
-  title: Liste de vérification - Équipes
+  title: Liste de vérification pour les entreprises
+  order: 40
+  description: Voici une liste de vérification conçue pour aider les administrateurs informatiques à installer et configurer {{ fr.RDM }} pour la première fois lorsqu'ils travaillent dans un environnement d'entreprise en utilisant une source de données {{ fr.DVLS }} ou {{ fr.DHUBB }}.
 ---
-Cette liste de vérification vous aidera lors de l'installation de {{ fr.RDM }} pour des équipes qui souhaitent implanter de la sécurité.
+Voici une liste de vérification conçue pour aider les administrateurs informatiques à installer et configurer {{ fr.RDM }} pour la première fois lorsqu'ils travaillent dans un environnement d'entreprise en utilisant une source de données {{ fr.DVLS }} ou {{ fr.DHUBB }}.
 
-<table>
-	<tr>
-		<th>
+Télécharger et installer {{ fr.RDM }} avant de continuer.
 
-![!!RdmWin4033](https://cdnweb.devolutions.net/docs/fr/rdm/windows/RdmWin4033.png)
-		</th>
-		<th>
-LISTE DE VÉRIFICATION – ÉQUIPES
-		</th>
-		<th>
-DESCRIPTION
-		</th>
-	</tr>
-	<tr>
-		<td>
-
-		</td>
-		<td>
-Étape 1 - Enregistrer votre licence :
-
-* [Version Team](/fr/rdm/windows/installation/client/registration/team-edition/)
-* [Version d'essai](/fr/rdm/windows/installation/client/registration/trial-request/)
-		</td>
-		<td>
-L’Édition Team de {{ fr.RDM }} offre une période d’essai de 30 jours. Si vous décidez de ne pas l'enregistrer avant la fin de la période d'essai, vos données ne seront pas altérées ni effacées. Vous aurez de nouveau accès à vos données une fois que la licence sera enregistrée.
-		</td>
-	</tr>
-	<tr>
-		<td>
-
-		</td>
-		<td>
-Étape 2 - Ajouter une [Source de données](/fr/rdm/windows/data-sources/create-new-data-source/) (type Équipe).
-		</td>
-		<td>
-Attention : Lorsque vous choisissez une source de données qui n'est pas déployée sur site, il est important de penser à la protection des données au repos et en transit. Nous vous recommandons fortement de chiffrer vos données stockées dans des fichiers à l’aide d’une clé maîtresse ou d'utiliser un [Fournisseur de sécurité](/fr/rdm/windows/commands/administration/settings/security-providers/) pour les [Sources de données avancées](/fr/rdm/windows/data-sources/data-sources-types/advanced-data-sources/). Ainsi, vous serez la seule personne qui peut voir les données.
-
-Lors du premier démarrage, {{ fr.RDM }} utilise une source de données SQLite. Les différentes sources de données sont expliquées dans la section [Sources de données](/fr/rdm/windows/data-sources/). Afin de sélectionner une source de données adaptée à vos besoins, veuillez consulter la section [Choisir le type de source de données - Équipes](/fr/rdm/windows/getting-started/checklist-teams/select-data-source-type/).
-		</td>
-	</tr>
-	<tr>
-		<td>
-
-		</td>
-		<td>
-Étape 3 - Choisir votre [Fournisseur de sécurité](/fr/rdm/windows/commands/administration/settings/security-providers/).
-		</td>
-		<td>
-Sélectionner un [Fournisseur de sécurité](/fr/rdm/windows/commands/administration/settings/security-providers/) avant d'importer ou de créer des données dans votre base de données. Ainsi, personne ne peut lire les données de configuration de vos entrées, même si les gens ont accès directement à votre base de données.
-		</td>
-	</tr>
-	<tr>
-		<td>
-
-		</td>
-		<td>
-Étape 4 - Créer votre structure de dossiers.
-		</td>
-		<td>
-Une solide structure de sécurité se base sur la structure des dossiers de premier niveau. Votre structure de dossiers doit refléter la structure de votre entreprise. Par exemple, vous pouvez créer un dossier pour votre équipe Production, un dossier pour votre équipe Développement et un dernier pour votre équipe Test.
-
-{% youtube '5GLjGwySjxQ' %}
-		</td>
-	</tr>
-	<tr>
-		<td>
-
-		</td>
-		<td>
-Étape 5 - Créer vos [Paramètres par défaut](/fr/rdm/windows/commands/file/templates/default-settings/).
-		</td>
-		<td>
-Dans ***Fichier – Options***, vous pouvez définir des options de {{ fr.RDM }} et créer des modèles de paramètres par défaut. Chaque type d'entrée est pris en charge et peut se définir selon vos critères. Après avoir configuré les options, utilisez [l’{{ fr.CI }}](/fr/rdm/windows/installation/client/custom-installer-service/) pour partager une version préconfigurée avec votre équipe.
-		</td>
-	</tr>
-	<tr>
-		<td>
-
-		</td>
-		<td>
-Étape 6 - Créer des [Utilisateurs](/fr/rdm/windows/commands/administration/management/user-management/).
-		</td>
-		<td>
-{{ fr.RDM }} prend en charge une gestion avancée des utilisateurs. Les comptes utilisateurs doivent être créés manuellement par un administrateur de la base de données.
-		</td>
-	</tr>
-	<tr>
-		<td>
-
-		</td>
-		<td>
-Étape 7 - Créer des [Groupes d'utilisateurs](/fr/rdm/windows/commands/administration/management/user-groups-management/).
-		</td>
-		<td>
-Créer des [Groupes d'utilisateurs](/fr/rdm/windows/commands/administration/management/user-groups-management/) pour gérer votre système de sécurité. Par la suite, vous pouvez affecter des utilisateurs à des groupes d'utilisateurs, facilitant l'attribution des permissions à un ensemble d'utilisateurs plutôt que de le faire individuellement.
-		</td>
-	</tr>
-	<tr>
-		<td>
-
-		</td>
-		<td>
-Étape 8 - Créer des [Entrées](/fr/rdm/windows/commands/edit/entries/creating-new-entry/).
-		</td>
-		<td>
-Une entrée contient toutes les informations de sessions (p.ex. RDP, SSH), d’identifiants, de sites Web, de RPV, de synchronisateurs ou de documents.
-		</td>
-	</tr>
-	<tr>
-		<td>
-
-		</td>
-		<td>
-Étape 9 - Attribuer des [Permissions](/fr/rdm/windows/user-groups-based-access-control/permissions/).
-		</td>
-		<td>
-Une fois que les utilisateurs sont créés, il est possible de leur attribuer des [Permissions](/fr/rdm/windows/user-groups-based-access-control/permissions/) grâce à un système de contrôle d’accès basé sur les groupes d'utilisateurs. Les permissions configurées dans un dossier seront alors attitrées à chaque entrée située dans ce dossier.
-		</td>
-	</tr>
-	<tr>
-		<td>
-
-		</td>
-		<td>
-Étape 10 - [Importer vos données](/fr/rdm/windows/commands/file/import/).
-		</td>
-		<td>
-L’étape finale consiste à importer toutes vos données dans {{ fr.RDM }}. Vous pouvez importer vos sessions, vos identifiants et vos contacts en quelques étapes.
-		</td>
-	</tr>
-</table>
+| LISTE DE VÉRIFICATION POUR LES ENTREPRISES | DESCRIPTION |
+|-------------------------------------------|-------------|
+| Étape 1 - Enregistrer votre licence <ul><li>[Inscription de l'équipe](/rdm/windows/installation/client/registration/team-edition/)</li><li>[Demande d'essai](/rdm/windows/installation/client/registration/trial-request/)</li></ul> | [Ajouter votre licence](/rdm/windows/installation/client/registration/team-edition/) à la source de données. Un essai de 30 jours de l'édition Équipe de {{ fr.RDM }} est disponible sur demande. |
+| Étape 2 - Ajouter votre source de données | Attention : Lors du choix de tout type de [source de données](/rdm/windows/data-sources/create-new-data-source/) qui n'est pas en local, vous devez considérer la sécurité des données au repos et en transit. Nous recommandons fortement de chiffrer davantage vos données en utilisant une clé maîtresse pour les solutions basées sur des fichiers ou un [fournisseur de sécurité](/rdm/commands/administration/security/security-providers/) pour les [sources de données avancées](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/). Cela garantit que vous seul pouvez lire les données.<br><br>Lors du premier lancement, {{ fr.RDM }} utilise une source de données SQLite locale. Les différentes sources de données sont expliquées dans [Sources de données](/rdm/windows/data-sources/). Pour obtenir de l'aide dans la sélection d'une source de données adaptée à vos besoins, veuillez consulter [Sélectionner un type de source de données - Entreprises](/rdm/windows/getting-started/checklist-teams/select-data-source-type/).               |
+| Étape 3 - Sélectionner votre fournisseur de sécurité | Sélectionner votre [Fournisseur de Sécurité](/rdm/commands/administration/security/security-providers/) avant d'importer ou de créer des données dans votre base de données afin que personne ne puisse lire vos données de configuration d'entrée, même lorsque les gens ont un accès direct à votre base de données. |
+| Étape 4 - Créer votre structure de dossiers  | Les dossiers de niveau supérieur sont à la base d'une structure de sécurité solide. Votre structure de dossiers (entrées de dossiers) devrait représenter la structure de votre entreprise. Par exemple, vous pouvez créer un dossier pour votre équipe de Production, un pour votre équipe de Staging et un pour votre équipe de Test.<br><br>{% youtube '__xK92eTdgU' %} |
+| Étape 5 - Créer vos paramètres par défaut  | Dans ***Fichier – Paramètres***, vous pouvez définir des options pour {{ fr.RDM }} et créer [des modèles de paramètres par défaut](/rdm/windows/commands/file/templates/default-settings/). Chaque type d'entrée est pris en charge et peut avoir un modèle par défaut défini pour répondre à vos exigences. Après avoir configuré les options, utilisez le [{{ fr.CI }}](/rdm/windows/installation/client/custom-installer-service/) pour partager la version préconfigurée avec votre équipe. |
+| Étape 6 - Créer des utilisateurs | {{ fr.RDM }} prend en charge une gestion avancée des [utilisateurs](/rdm/windows/commands/administration/management/user-management/). Les comptes d'utilisateurs doivent être créés manuellement par un administrateur de la base de données. |
+| Étape 7 - Créer des groupes d'utilisateurs | Créer des [Groupes d'Utilisateurs](/rdm/windows/commands/administration/management/user-groups-management/) pour gérer votre système de sécurité. Vous pouvez ensuite assigner des utilisateurs aux groupes d'utilisateurs, ce qui facilite l'octroi de permissions à un ensemble d'utilisateurs au lieu de devoir gérer les permissions individuellement. |
+| Étape 8 - Créer des entrées | Une [entrée](/rdm/windows/commands/edit/entries/creating-new-entry/) est la manière dont vous sauvegardez des informations sur vos sessions (par exemple, RDP, SSH), identifiants, sites Web, VPN, synchronisateurs et documents. |
+| Étape 9 - Octroyer des permissions | Une fois vos utilisateurs créés, vous pouvez ensuite leur octroyer des [Permissions](/rdm/windows/user-groups-based-access-control/permissions/) pour le contrôle d'accès basé sur les groupes d'utilisateurs. Les permissions accordées sur le dossier peuvent être héritées par chaque entrée définie sous ce dossier. |
+| Étape 10 - Importer vos données | La dernière étape consiste à [importer vos données](/rdm/windows/commands/file/import/) dans {{ fr.RDM }}. Vous pouvez importer vos sessions, identifiants et contacts en quelques étapes.                               |

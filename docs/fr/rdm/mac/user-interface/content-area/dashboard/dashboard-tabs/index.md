@@ -2,14 +2,13 @@
 eleventyComputed:
   title: Onglets du tableau de bord
 ---
-Les onglets du ***Tableau de bord*** vous permettent d'afficher rapidement les informations directement dans votre tableau de bord qui concerne l'entrée sélectionnée. Les onglets disponibles du tableau de bord dépendent du type d'entrée sélectionné.
-
-![!!RDMMac4040](https://cdnweb.devolutions.net/docs/fr/rdm/mac/RdmMac4040.png)
+Les onglets du tableau de bord vous permettent de visualiser rapidement des informations directement dans votre tableau de bord concernant votre entrée sélectionnée. Les onglets du tableau de bord disponibles dépendent du type d'entrée qui est sélectionné.
+![Onglets du tableau de bord](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip6057.png)
 
 Pour plus d'informations sur les onglets du tableau de bord, veuillez consulter :
 
-* [Aperçu](/fr/rdm/mac/user-interface/content-area/dashboard/dashboard-tabs/overview/)
-* [Documentation](/fr/rdm/mac/user-interface/content-area/dashboard/dashboard-tabs/documentation/)
-* [Outils/Scripts/Macros](/fr/rdm/mac/user-interface/content-area/dashboard/dashboard-tabs/macros-scripts-tools/)
+* Vue d'ensemble
+* Documentation
+* Macros/Script/Outils
 * Outils à distance
-* Informations
+* Information

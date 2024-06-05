@@ -1,12 +1,12 @@
 ---
 eleventyComputed:
-  title: Entrées supprimées
+  title: Vue des éléments supprimés
 ---
-L'option ***Administration - Entrées supprimées*** vous permet d'afficher les entrées supprimées ainsi que de les restaurer.
-![Administration - Entrées supprimées](https://cdnweb.devolutions.net/docs/fr/rdm/mac/clip4208.png)
+L'option Administration - Vue des éléments supprimés vous permet de voir les entrées supprimées ainsi que de les restaurer.
+![Administration - Vue des éléments supprimés](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10447.png)
 
 {% snippet, "badgeInfo" %}
-Cette fonctionnalité nécessite une [Source de données avancées](/fr/rdm/mac/data-sources/data-sources-types/advanced-data-sources/).
+Cette fonctionnalité est uniquement disponible lors de l'utilisation d'une [Source de Données Avancée](/rdm/mac/data-sources/data-sources-types/advanced-data-sources/).
 {% endsnippet %}
 
 {% snippet, "badgeInfo" %}
@@ -14,48 +14,17 @@ Les administrateurs peuvent supprimer définitivement certaines ou toutes les en
 {% endsnippet %}
 
 {% snippet, "shieldWarning" %}
-Les entrées supprimées peuvent être restaurées tant qu'elles n'ont pas été définitivement supprimées et tant que le fournisseur de sécurité n'a pas été modifié depuis l'action supprimée.
+Les entrées supprimées peuvent être restaurées tant qu'elles n'ont pas été supprimées de manière permanente et tant que le Fournisseur de Sécurité n'a pas été changé depuis l'action de suppression.
 {% endsnippet %}
-
 
 ## Paramètres
 
-### Gérer les entrées supprimées
+### Gérer les Entrées Supprimées
+La Vue des éléments supprimés générera une liste contenant toutes les entrées précédemment supprimées de votre source de données. Vous pouvez ressusciter une entrée, ce qui signifie qu'elle redeviendra une entrée active et sera affichée dans votre source de données. Vous pouvez également choisir de supprimer définitivement vos entrées, une fois que vous avez supprimé définitivement vos entrées, vous ne pourrez plus les ressusciter par la suite.
+![Vue des éléments supprimés](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_2015-09-22_09-58-08.png)
 
-La vue des entrées supprimée générera une liste contenant toutes les entrées précédemment supprimées de votre source de données. Vous pouvez ressusciter une entrée, ce qui signifie qu'elle redeviendra une entrée active et sera affichée dans votre source de données. Vous pouvez également choisir de supprimer définitivement vos entrées, une fois que vous aurez définitivement supprimé vos entrées, vous ne pourrez plus les ressusciter par la suite.
-![Historique de l'entrée](https://cdnweb.devolutions.net/docs/fr/rdm/mac/2015-09-22_09-58-08.png)
-
-<table>
-	<tr>
-		<td>
-Option
-		</td>
-		<td>
-Description
-		</td>
-	</tr>
-	<tr>
-		<td>
-Restaurer l'entrée
-		</td>
-		<td>
-Restaurer une entrée dans votre base de données.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Supprimer
-		</td>
-		<td>
-Supprimer définitivement l'entrée supprimée sélectionnée.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Supprimer tout
-		</td>
-		<td>
-Supprimer définitivement toutes les entrées supprimées.
-		</td>
-	</tr>
-</table>
+| OPTION          | DESCRIPTION                                    |
+|-----------------|------------------------------------------------|
+| Ressusciter l'Entrée | Restaurer une entrée dans votre base de données.             |
+| Supprimer          | Supprimer définitivement l'entrée supprimée sélectionnée. |
+| Supprimer Tout      | Supprimer définitivement toutes les entrées supprimées.        |

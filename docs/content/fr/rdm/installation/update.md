@@ -1,57 +1,17 @@
 ---
 eleventyComputed:
   title: Mise à jour
+  description: Lorsqu'une nouvelle version de {{ fr.RDM }} est disponible, une fenêtre de mise à jour apparaît dans votre application vous invitant à mettre à jour.
 ---
-La fonction ***Mise à jour*** invite l'utilisateur à faire la mise à jour vers la plus récente version disponible de l'application et affiche les notes de la version. Un choix d'installation est disponible pour l'utilisateur et s'affiche comme sélectionné.
-![Mise à jour disponible](https://cdnweb.devolutions.net/docs/fr/rdm/windows/clip3587.png)
+Lorsqu'une nouvelle version de {{ fr.RDM }} est disponible, une fenêtre de mise à jour apparaît dans votre application vous invitant à mettre à jour. Elle affiche également les ***Notes de version*** (nouvelles fonctionnalités, améliorations, corrections, changements majeurs).
 
-<table>
-	<tr>
-		<th>
-OPTION
-		</th>
-		<th>
-DESCRIPTION
-		</th>
-	</tr>
-	<tr>
-		<td>
-Me le rappeler plus tard
-		</td>
-		<td>
-Faire un rappel de mise à jour a la prochaine ouverture de l'application.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Sauter cette version
-		</td>
-		<td>
-Ne pas mettre à jour l'application avec cette version.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Télécharger cette version et l'installer quand l'application est fermée
-		</td>
-		<td>
-Télécharger la version et attendre la fermeture de l'application avant de  l'installer.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Télécharger l'installateur dans votre navigateur Web par défaut
-		</td>
-		<td>
-Télécharger le programme d'installation en externe à l'aide de votre navigateur Web par défaut.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Télécharger cette version et l'installer maintenant
-		</td>
-		<td>
-Télécharger immédiatement la nouvelle version et l'installer.
-		</td>
-	</tr>
-</table>
+Vous avez l'option de télécharger la dernière version, de la passer, ou de demander à {{ fr.RDM }} de vous notifier de la mise à jour ultérieurement.
+![Options de mise à jour](https://cdnweb.devolutions.net/docs/RDMW2005_2024_1.png)
+
+| OPTION                                                           | DESCRIPTION                                                                       |
+|------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| Télécharger cette version et installer maintenant                | Télécharger immédiatement la nouvelle version et l'installer.                     |
+| Télécharger cette version et installer lorsque l'application est fermée | Télécharger la version et attendre que l'application soit fermée avant d'installer. |
+| Télécharger l'installateur en utilisant votre navigateur par défaut | Télécharger l'installateur de manière externe en utilisant votre navigateur web par défaut. |
+| Passer cette version                                             | Ne pas mettre à jour l'application avec cette version.                            |
+| Me rappeler plus tard                                            | Vous rappeler de mettre à jour la prochaine fois que l'application est ouverte.   |
