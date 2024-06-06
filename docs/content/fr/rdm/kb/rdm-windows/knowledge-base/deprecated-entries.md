@@ -5,11 +5,11 @@ eleventyComputed:
 ---
 Pour plusieurs raisons, de multiples entrées sont marquées comme obsolètes dans {{ fr.RDM }}.
 Voici comment les afficher :
-1. Dans le ruban, aller à ***Éditer*** puis cliquer sur ***Nouvelle Entrée***.
+1. Dans le ruban, aller à ***Éditer*** puis cliquer sur ***Nouvelle entrée***.
 1. Cliquer sur l'icône des paramètres dans la barre de recherche.
 1. Activer ***Afficher les entrées obsolètes***.
 
-![Éditer – Nouvelle Entrée – Afficher les Entrées Obsolètes](https://cdnweb.devolutions.net/docs/RDMW2004_2024_1.png)
+![Éditer – Nouvelle entrée – Afficher les entrées obsolètes](https://cdnweb.devolutions.net/docs/RDMW2052_2024_2.png)
 
 Voici la liste des entrées obsolètes :
 
@@ -17,25 +17,24 @@ Voici la liste des entrées obsolètes :
 * Chrome Remote Desktop
 * Base de données
 * FTP (Rebex)
-* Google Cloud Explorer
 * GoToAssist
-* Intel AMT (KVM)
-* Microsoft Azure Table Storage Explorer
-* Microsoft RD Gateway
+* Intel® AMT (KVM)
+* Explorateur de stockage de tables Microsoft Azure
+* Passerelle RD Microsoft
 * PuTTY
 * SCP (Rebex)
 * SFTP (Rebex)
-* SSH Shell (Rebex)
-* SSH Tunnel (Rebex)
+* Shell SSH (Rebex)
+* Tunnel SSH (Rebex)
 * Telnet (Rebex)
 
 ## Gestion à distance
-* Microsoft Azure Dashboard
-* XenServer Dashboard
+* Tableau de bord Microsoft Azure
+* Tableau de bord XenServer
 
 ## Information
-* Connexion (Compte)
-* Site Web (Ancien)
+* Connexion (compte)
+* Site Web (ancien)
 
 ## Document
 * Microsoft Excel
@@ -45,5 +44,5 @@ Voici la liste des entrées obsolètes :
 * Microsoft Word
 * Texte (RTF)
 
-## Macro/Script/Outil
+## Macro/script/outil
 * VBScript
