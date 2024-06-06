@@ -6,7 +6,7 @@ eleventyComputed:
 
 Passkeys represent a modern approach to authentication, offering enhanced security and convenience by eliminating the need for traditional passwords. Unlike passwords, which can be guessed or stolen, passkeys are cryptographic keys stored on your device, making them more secure and user-friendly. Passkeys can include biometrics like fingerprints or facial recognition, which provide an extra layer of security and convenience. A list of passkey supported sites can be found [here](https://passkeys.directory/).
 
-## Integration of Passkeys in Devolutions Products
+## Integration of Passkeys in Devolutions products
 
 The {{ en.WBEX }} serves as the bridge for adding and managing passkeys within the {{ en.RDM }} and {{ en.DHUBP }} data sources.
 
