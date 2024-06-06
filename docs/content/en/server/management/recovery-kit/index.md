@@ -43,7 +43,7 @@ To learn more about creating and managing an Azure Key Vault account, please con
 
 Clicking the ellipsis button in the ***Filename*** field opens a Save As dialog.
 
-1. Enter the correct information in the Azure Key Vault section;
+4. Enter the correct information in the Azure Key Vault section;
     * ***URL***: The URL to your Azure Key Vault
     * ***Tenant ID***: The Tenant ID from your Azure AD
     * ***Client ID***: The ID of your Azure Key Vault
