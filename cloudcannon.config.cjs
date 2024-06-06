@@ -7,9 +7,7 @@ module.exports = {
     }
   },
   _snippets: {
-    ...require("./.cloudcannon/snippets/snippet"),
-    ...require("./.cloudcannon/snippets/tab"),
-    ...require("./.cloudcannon/snippets/youtube")
+    ...require("./.cloudcannon/snippets/index")
   },
   collections_config: {
     ...require("./.cloudcannon/collections/topics"),
