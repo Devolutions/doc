@@ -22,7 +22,7 @@ The steps below assume that you already have an Active Directory dashboard entry
 
 1. Go to the ***Properties*** of the entry.
 1. Go to the ***VPN/tunnel/gateway*** section.
-1. Select ***{{ en.GGW }}*** under ***Type***.
+1. Select ***{{ en.DGW }}*** under ***Type***.
 1. Click ***Always connect***. 
 1. Click ***Update*** to save. 
 

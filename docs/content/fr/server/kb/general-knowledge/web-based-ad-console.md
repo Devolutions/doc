@@ -22,7 +22,7 @@ Les étapes ci-dessous supposent que vous avez déjà une entrée de tableau de 
 
 1. Aller aux ***Propriétés*** de l'entrée.
 1. Aller à la section ***VPN/tunnel/gateway***.
-1. Sélectionner ***{{ fr.GGW }}*** sous ***Type***.
+1. Sélectionner ***{{ fr.DGW }}*** sous ***Type***.
 1. Cliquer sur ***Toujours connecter***.
 1. Cliquer sur ***Mettre à jour*** pour sauvegarder.
 
