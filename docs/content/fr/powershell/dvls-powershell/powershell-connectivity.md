@@ -34,9 +34,9 @@ Set-RDMCurrentDataSource $ds
 1. Suivre les instructions dans [{{ fr.PS }} Core Module](/powershell/rdm-powershell/rdm-powershell-core-module/) pour installer correctement le module.
 1. Le script suppose que vos identifiants {{ fr.DVLS }} et URL soient définis dans des variables d'environnement. Puisque stocker des identifiants dans des scripts est déconseillé, adapter un fichier local pour exécuter vos propres tests.  
 ```powershell
-$env:DS_URL= 'http<area>://localhost/dvls'
-$env:DS_USER = '{your user here}'
-$env:DS_PASSWORD = '{your password here}'
+$env:DS_URL= "http<area>://localhost/dvls"
+$env:DS_USER = "your_user"
+$env:DS_PASSWORD = "your_password"
 ```
 3. Le script d'exemple suivant peut être utilisé pour se connecter en utilisant une [Clé d'Application et Secret d'Application](/server/web-interface/administration/security-management/applications/).  
 ```powershell
@@ -52,7 +52,7 @@ $Response = New-DSSession -Credential $Creds -BaseURI $DVLSUrl -AsApplication
 4. Une fois le script terminé et toutes les tâches accomplies, fermer la session en utilisant le cmdlet `Close-DSSession`.  
 ```powershell
 Close-DSSession | out-null
-Write-Output ' '
-Write-Output '...Terminé !'
-Write-Output ' '
+Write-Output " "
+Write-Output "...Done!"
+Write-Output " "
 ```
