@@ -38,3 +38,6 @@ A [gateway](/dgw/server/server-configuration/) first needs to be installed befor
 1. Set the ***Recording*** to ***Remote***.
 ![Session recording](https://cdnweb.devolutions.net/docs/RDMW0000_2024_2.png)
 1. Click ***Update*** to save the changes and close the window.
+
+### {{ en.DLAUNCHER }}
+Sessions can also be launched through [{{ en.DLAUNCHER }}](/server/launcher/utilization/how-open-session/).
