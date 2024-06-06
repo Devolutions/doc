@@ -3,6 +3,9 @@ eleventyComputed:
   title: User types
   description: When creating users in {{ en.RDM }}, four types of user are available. Basic rights are granted to the created users depending on their type.
 ---
+
+[Users](https://cdnweb.devolutions.net/docs/RDMW6002_2024_2.png)
+
 When creating users in {{ en.RDM }}, four types of user are available. Basic rights are granted to the created users depending on their type.
 ![User Management - User Type](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip3423.png)
 

@@ -218,6 +218,11 @@ If {{ en.RDM }} is open when you make this change, then you will need to restart
 
 ---
 
+#### Enable DPAPI cryptography on local files
+`%Root%\SOFTWARE\Policies\Devolutions\RemoteDesktopManager\EnableDPAPICryptographyOnLocalFiles`
+
+---
+
 #### Force an application two-factor authentication mode (check against all configured methods or prompt for selection on use)
 `%Root%\SOFTWARE\Policies\Devolutions\RemoteDesktopManager\Application2faMode`
 
@@ -245,6 +250,16 @@ If {{ en.RDM }} is open when you make this change, then you will need to restart
 
 #### Force Application Password
 `%Root%\SOFTWARE\Policies\Devolutions\RemoteDesktopManager\ForceLocalApplicationPassword`
+
+---
+
+#### Force clear cache on close (Chrome)
+`%Root%\SOFTWARE\Policies\Devolutions\RemoteDesktopManager\ForceClearCacheOnCloseChrome`
+
+---
+
+#### Force clear cache on close (MSEdge)
+`%Root%\SOFTWARE\Policies\Devolutions\RemoteDesktopManager\ForceClearCacheOnCloseMSEdge`
 
 ---
 
@@ -350,6 +365,11 @@ If {{ en.RDM }} is open when you make this change, then you will need to restart
 
 ---
 
+#### Disable the session recording feature
+`%Root%\SOFTWARE\Policies\Devolutions\RemoteDesktopManager\DisableSessionRecording`
+
+---
+
 #### Disable network scan
 `%Root%\SOFTWARE\Policies\Devolutions\RemoteDesktopManager\DisableNetworkScan`
 
@@ -441,6 +461,9 @@ If {{ en.RDM }} is open when you make this change, then you will need to restart
 `%Root%\SOFTWARE\Policies\Devolutions\RemoteDesktopManager\DisableQuickConnect`
 
 ---
+
+#### Disable the send message feature in the dashboard
+`%Root%\SOFTWARE\Policies\Devolutions\RemoteDesktopManager\DisableSendMessageInDashboard`
 
 #### Disable the About menu
 `%Root%\SOFTWARE\Policies\Devolutions\RemoteDesktopManager\DisableAbout`

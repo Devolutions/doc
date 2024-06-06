@@ -2,7 +2,6 @@
 eleventyComputed:
   title: User groups management
 ---
-{% youtube 'rYYkfgdeY5E' %}
 
 User Groups in {{ en.RDM }} manages multiple users at the same time by grouping them. The management of permissions granted to user groups are quite similar to the corresponding notions for users, but instead of a single user, they apply to all users to which you have assigned the user groups.
 

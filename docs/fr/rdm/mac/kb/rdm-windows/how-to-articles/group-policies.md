@@ -4,7 +4,7 @@ eleventyComputed:
   description: Les modèles administratifs facilitent la gestion des paramètres de politique basés sur le registre, qui peuvent être appliqués sur la configuration de l'ordinateur et/ou de l'utilisateur. La stratégie de groupe (GPO) est un outil qui permet à votre organisation d'appliquer des paramètres globaux sur tous les ordinateurs, et en même temps, de renforcer la sécurité de {{ fr.RDM }}.
   keywords:
   - silencieux
-  - sans assistance
+  - sans surveillance
   - gpo
   - modèle administratif
   - politique
@@ -15,16 +15,16 @@ Les modèles administratifs facilitent la gestion des paramètres de politique b
 Les modèles administratifs sont des paramètres de registre qui sont appliqués par les domaines. Ils contiennent des clés de registre qui peuvent également être définies sur des ordinateurs qui ne sont pas joints à des domaines. Dans ce cas, cependant, des listes de contrôle d'accès (ACL) appropriées doivent être mises en place pour empêcher les utilisateurs de modifier les paramètres du registre. Référez-vous aux tableaux ci-dessous pour trouver la clé de registre pour chaque paramètre de politique.
 {% endsnippet %}
 
-Pour en savoir plus sur comment déployer les modèles administratifs {{ fr.RDM }} sur votre domaine, veuillez vous référer à la documentation de Microsoft.
+Pour en savoir plus sur comment déployer les modèles administratifs de {{ fr.RDM }} sur votre domaine, veuillez vous référer à la documentation de Microsoft.
 
-## Lister les GPOs {{ fr.RDM }} dans l'Éditeur de stratégie de groupe locale
+## Lister les GPOs de {{ fr.RDM }} dans l'Éditeur de stratégie de groupe locale
 {% snippet, "badgeInfo" %}
 Pour l'instant, le support supplémentaire est exclusivement pour les politiques qui nécessitent une entrée numérique supérieure à 0-1 (ex : ForceLockOnIdle).
 {% endsnippet %}
 
-{{ fr.RDM }} inclut un fichier de modèle administratif (.admx), qui décrit les politiques qui sont offertes. Vous le trouverez dans le sous-dossier des politiques. Avant de pouvoir gérer les GPOs dans {{ fr.RDM }}, vous devez d'abord les lister dans l'Éditeur de stratégie de groupe locale. Voici les étapes :
+{{ fr.RDM }} inclut un fichier de modèle administratif (.admx), qui décrit les politiques qui sont proposées. Vous le trouverez dans le sous-dossier des politiques. Avant de pouvoir gérer les GPOs dans {{ fr.RDM }}, vous devez d'abord les lister dans l'Éditeur de stratégie de groupe locale. Voici les étapes :
 
-1. Aller dans votre sous-dossier des politiques. Par défaut, le chemin est **C:\Program Files (x86)\Devolutions\Remote Desktop Manager\Policies**.
+1. Aller à votre sous-dossier de politiques. Par défaut, le chemin est **C:\Program Files (x86)\Devolutions\Remote Desktop Manager\Policies**.
 1. Copier le fichier Devolutions.admx.
 1. Aller à **C:\Windows\PolicyDefinitions**.
 1. Coller le fichier Devolutions.admx à la racine de **C:\Windows\PolicyDefinitions**.
@@ -33,9 +33,9 @@ Pour l'instant, le support supplémentaire est exclusivement pour les politiques
 1. Coller le fichier Devolutions.adml dans **C:\Windows\PolicyDefinitions\en-US**.
 1. Ouvrir votre Éditeur de stratégie de groupe et aller à ***Configuration de l'ordinateur*** – ***Modèles administratifs*** – ***Devolutions*** – ***{{ fr.RDM }}*** – ***Sessions***.
 1. Dans le dossier ***Sessions***, localiser la politique spécifique que vous souhaitez modifier.
-1. Faire un clic droit sur la politique spécifique, l'éditer en conséquence, et sauvegarder.
+1. Cliquer avec le bouton droit sur la politique spécifique, la modifier en conséquence et sauvegarder.
 
-Si {{ fr.RDM }} est ouvert lorsque vous effectuez ce changement, alors vous devrez le redémarrer pour que la nouvelle politique prenne effet.
+Si {{ fr.RDM }} est ouvert lorsque vous effectuez ce changement, vous devrez le redémarrer pour que la nouvelle politique prenne effet.
 
 ## Politiques
 
@@ -46,7 +46,7 @@ Si {{ fr.RDM }} est ouvert lorsque vous effectuez ce changement, alors vous devr
 
 ---
 
-#### Désactiver les fonctionnalités nécessitant une connexion internet
+#### Désactiver les fonctionnalités nécessitant une connexion Internet
 `%Root%\SOFTWARE\Policies\Devolutions\RemoteDesktopManager\NoInternetConnection`
 
 ---
@@ -81,7 +81,7 @@ Si {{ fr.RDM }} est ouvert lorsque vous effectuez ce changement, alors vous devr
 
 ---
 
-#### Désactiver les Contacts du système, les Macros et les VPNs dans le {{ fr.UVLT }}
+#### Désactiver les Contacts système, Macros et VPNs dans le {{ fr.UVLT }}
 `%Root%\SOFTWARE\Policies\Devolutions\RemoteDesktopManager\DisableGlobalVaultInUserVault`
 
 ---
@@ -96,12 +96,12 @@ Si {{ fr.RDM }} est ouvert lorsque vous effectuez ce changement, alors vous devr
 
 ---
 
-#### Forcer les paramètres de proxy au Système
+#### Forcer les paramètres de proxy sur Système
 `%Root%\SOFTWARE\Policies\Devolutions\RemoteDesktopManager\ForceSystemProxy`
 
 ---
 
-#### Forcer l'actualisation avant l'édition d'une entrée
+#### Forcer l'actualisation avant d'éditer une entrée
 `%Root%\SOFTWARE\Policies\Devolutions\RemoteDesktopManager\ForceRefreshBeforeEditEntry`
 
 ---
@@ -138,7 +138,7 @@ Si {{ fr.RDM }} est ouvert lorsque vous effectuez ce changement, alors vous devr
 
 ### Sécurité
 
-#### Appliquer un modèle de mot de passe forcé dans l'outil Générateur de mot de passe
+#### Appliquer un modèle de mot de passe forcé dans l'outil Générateur de mots de passe
 `%Root%\SOFTWARE\Policies\Devolutions\RemoteDesktopManager\ApplyForcedPasswordTemplateInPasswordGeneratorTool`
 
 ---
@@ -203,12 +203,12 @@ Si {{ fr.RDM }} est ouvert lorsque vous effectuez ce changement, alors vous devr
 
 ---
 
-#### Désactiver la substitution des paramètres spécifiques au disque dur pour les entrées RDP
+#### Désactiver le paramétrage spécifique des disques durs pour les entrées RDP
 `%Root%\SOFTWARE\Policies\Devolutions\RemoteDesktopManager\DisableRDPHardDrivesSpecificSettings`
 
 ---
 
-#### Désactiver le Générateur de mot de passe
+#### Désactiver le Générateur de mots de passe
 `%Root%\SOFTWARE\Policies\Devolutions\RemoteDesktopManager\DisablePasswordGenerator`
 
 ---
@@ -218,7 +218,12 @@ Si {{ fr.RDM }} est ouvert lorsque vous effectuez ce changement, alors vous devr
 
 ---
 
-#### Forcer un mode d'authentification à deux facteurs pour l'application (vérifier contre toutes les méthodes configurées ou demander une sélection à l'utilisation)
+#### Activer la cryptographie DPAPI sur les fichiers locaux
+`%Root%\SOFTWARE\Policies\Devolutions\RemoteDesktopManager\EnableDPAPICryptographyOnLocalFiles`
+
+---
+
+#### Forcer un mode d'authentification à deux facteurs pour l'application (vérifier contre toutes les méthodes configurées ou demander une sélection lors de l'utilisation)
 `%Root%\SOFTWARE\Policies\Devolutions\RemoteDesktopManager\Application2faMode`
 
 ---
@@ -248,6 +253,16 @@ Si {{ fr.RDM }} est ouvert lorsque vous effectuez ce changement, alors vous devr
 
 ---
 
+#### Forcer la suppression du cache à la fermeture (Chrome)
+`%Root%\SOFTWARE\Policies\Devolutions\RemoteDesktopManager\ForceClearCacheOnCloseChrome`
+
+---
+
+#### Forcer la suppression du cache à la fermeture (MSEdge)
+`%Root%\SOFTWARE\Policies\Devolutions\RemoteDesktopManager\ForceClearCacheOnCloseMSEdge`
+
+---
+
 #### Forcer l'authentification multifacteur à la connexion de l'application
 `%Root%\SOFTWARE\Policies\Devolutions\RemoteDesktopManager\ForceApplicationMFA`
 
@@ -263,12 +278,12 @@ Si {{ fr.RDM }} est ouvert lorsque vous effectuez ce changement, alors vous devr
 
 ---
 
-#### Forcer l'utilisateur à toujours être invité à saisir ses identifiants lors du lancement de l'application
+#### Forcer l'utilisateur à être toujours invité à saisir ses identifiants lors du lancement de l'application
 `%Root%\SOFTWARE\Policies\Devolutions\RemoteDesktopManager\ForceLogin`
 
 ---
 
-#### Forcer l'utilisateur à toujours être invité à saisir sa phrase secrète lors de la connexion à une source de données protégée par un fournisseur de sécurité de phrase secrète partagée
+#### Forcer l'utilisateur à être toujours invité à saisir sa phrase secrète lors de la connexion à une source de données protégée par un fournisseur de sécurité de phrase secrète partagée
 `%Root%\SOFTWARE\Policies\Devolutions\RemoteDesktopManager\AlwaysPromptForPassphrase`
 
 ---
@@ -330,7 +345,7 @@ Si {{ fr.RDM }} est ouvert lorsque vous effectuez ce changement, alors vous devr
 
 ---
 
-#### Désactiver la création d'entrées d'Add-on
+#### Désactiver la création d'entrées Add-on
 `%Root%\SOFTWARE\Policies\Devolutions\RemoteDesktopManager\DisableAddOnEntries`
 
 ---
@@ -340,13 +355,18 @@ Si {{ fr.RDM }} est ouvert lorsque vous effectuez ce changement, alors vous devr
 
 ---
 
-#### Désactiver l'édition d'image personnalisée dans la configuration de la session
+#### Désactiver l'édition d'image personnalisée dans la configuration de session
 `%Root%\SOFTWARE\Policies\Devolutions\RemoteDesktopManager\DisableCustomImage`
 
 ---
 
-#### Désactiver l'option de jiggleur de souris
+#### Désactiver l'option de secoueur de souris
 `%Root%\SOFTWARE\Policies\Devolutions\RemoteDesktopManager\DisableMouseJiggler`
+
+---
+
+#### Désactiver la fonctionnalité d'enregistrement de session
+`%Root%\SOFTWARE\Policies\Devolutions\RemoteDesktopManager\DisableSessionRecording`
 
 ---
 
@@ -355,7 +375,7 @@ Si {{ fr.RDM }} est ouvert lorsque vous effectuez ce changement, alors vous devr
 
 ---
 
-#### Désactiver le remplissage automatique des identifiants de session et de site Web (obsolète) après une minute
+#### Désactiver le remplissage automatique des identifiants de session de site Web et de site Web (hérité) (Obsolète) après une minute
 `%Root%\SOFTWARE\Policies\Devolutions\RemoteDesktopManager\DisableWebsiteCredentialAutofillAfterDelay`
 
 ---
@@ -412,24 +432,4 @@ Si {{ fr.RDM }} est ouvert lorsque vous effectuez ce changement, alors vous devr
 
 ---
 
-#### Désactiver tous les outils d'application locaux comme le Visualiseur d'événements ou IIS
-`%Root%\SOFTWARE\Policies\Devolutions\RemoteDesktopManager\DisableApplicationTools`
-
----
-
-#### Tableau de bord Masquer tous les panneaux d'enregistrements
-`%Root%\SOFTWARE\Policies\Devolutions\RemoteDesktopManager\DashboardHideAllRecordingsPanels`
-
----
-
-#### Désactiver le glisser-déposer dans la liste de connexion
-`%Root%\SOFTWARE\Policies\Devolutions\RemoteDesktopManager\DisableDragAndDrop`
-
----
-
-#### Désactiver les options d'importation et d'exportation
-`%Root%\SOFTWARE\Policies\Devolutions\RemoteDesktopManager\DisableImportExportOptions`
-
----
-
-#### Désactiver Mes identifiants personnels
+#### Désactiver tous les outils d'application locaux comme le Visualise

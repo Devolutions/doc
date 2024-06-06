@@ -9,8 +9,8 @@ Voici comment les afficher dans ***Fichier – Sources de données – Ajouter u
 1. Cliquer sur ***Fichier – Paramètres – Types – Sessions***.
 1. Cocher ***Afficher les types de sources de données obsolètes***.
 1. Cliquer sur ***Enregistrer***.
-![Afficher les types de sources de données obsolètes](https://cdnweb.devolutions.net/docs/RDMW2003_2024_1.png)
+![Afficher les types de sources de données obsolètes](https://cdnweb.devolutions.net/docs/RDMW2051_2024_2.png)
 
 Voici la liste des sources de données obsolètes :
 * {{ fr.DOD }} (DOD)
-* Devolutions Hub Personal Legacy
+* {{ fr.DHUBP }} Legacy
