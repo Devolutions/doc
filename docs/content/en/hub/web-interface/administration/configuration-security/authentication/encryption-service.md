@@ -19,6 +19,10 @@ To enable and configure your encryption service, the following prerequisites are
 * ***Manage users and user groups***
 * ***Manage system configuration*** (includes system permissions, system settings, and IP allowlists)
 
+{% snippet, "badgeCaution" %}
+If you are using an IP allowlist, the encryption service IP must be added as the allowed IP. Failure to do so will prevent the service from communicating with the Hub, rendering it non-functional.
+{% endsnippet %}
+
 ### Azure services subscription
 If you are setting up your encryption service using an Azure template, which is the recommended method (see the [instructions below](#encryption-service-setup-using-an-azure-template-recommended)), you need to have a subscription to Azure services. If you do not have one, first follow these instructions:
 1. Log in to your [Microsoft Azure Portal](https://azure.microsoft.com) account.
