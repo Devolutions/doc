@@ -50,32 +50,23 @@ module.exports = {
           value_key: "key",
           preview: {
             text: false,
-            icon: [
-              {
-                key: "preview.icon"
-              }
-            ],
-            icon_color: [
-              {
-                key: "preview.icon_color"
-              }
-            ],
             image: [
               {
                 template: "/../.cloudcannon/previews/snippet/{key|slugify}.svg",
-              },
-              {
-                template: "/../.cloudcannon/previews/snippet/{preview.imageKey|slugify}.svg",
-              },
-              {
-                template: "/../.cloudcannon/previews/snippet/{imageKey|slugify}.svg",
-              },
-              {
-                key: "preview.image",
-              },
-              {
-                key: "image",
               }
+              // },
+              // {
+              //   template: "/../.cloudcannon/previews/snippet/{preview.imageKey|slugify}.svg",
+              // },
+              // {
+              //   template: "/../.cloudcannon/previews/snippet/{imageKey|slugify}.svg",
+              // },
+              // {
+              //   key: "preview.image",
+              // },
+              // {
+              //   key: "image",
+              // }
             ]
           }
         }
