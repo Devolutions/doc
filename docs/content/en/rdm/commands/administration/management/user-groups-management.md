@@ -24,4 +24,4 @@ For more information please see [{{ en.DVLS }} User Groups Management](/server/w
 User Groups in {{ en.RDM }} are mainly used to group users. You can assign multiple user groups to each user. The end result is the union of all permissions given to the user groups.
 
 To create a user groups, in the ***User and security management*** window, click the ***Add user group*** button in the ***User groups*** section. From the same menu, you can also edit, assign users, delete, or refresh.
-![User groups - Add user group](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip11310.png)
+![User groups - Add user group](https://cdnweb.devolutions.net/docs/RDMW6000_2024_2.png)

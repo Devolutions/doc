@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Web based Active Directory dashboard
+  title: Web-based Active Directory dashboard
   description: The Active Directory dashboard can be launched directly from the {{ en.DVLS }} web interface.
 ---
  The Active Directory dashboard can be launched directly from the {{ en.DVLS }} web interface.
