@@ -49,15 +49,15 @@ module.exports = {
           values: "data.snippets",
           value_key: "key",
           preview: {
-            text: false,
+            text: [
+              {
+                key: "label",
+              }
+            ],
             image: [
               {
-                template: "/../.cloudcannon/previews/snippet/{key|slugify}.svg",
-              }
-              // },
-              // {
-              //   template: "/../.cloudcannon/previews/snippet/{preview.imageKey|slugify}.svg",
-              // },
+                template: "/../.cloudcannon/previews/snippet/{preview.imageKey|slugify}.svg",
+              },
               // {
               //   template: "/../.cloudcannon/previews/snippet/{imageKey|slugify}.svg",
               // },
