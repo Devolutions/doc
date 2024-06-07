@@ -58,15 +58,6 @@ module.exports = {
               {
                 template: "/../.cloudcannon/previews/snippet/{preview.imageKey|slugify}.svg",
               },
-              // {
-              //   template: "/../.cloudcannon/previews/snippet/{imageKey|slugify}.svg",
-              // },
-              // {
-              //   key: "preview.image",
-              // },
-              // {
-              //   key: "image",
-              // }
             ]
           }
         }
