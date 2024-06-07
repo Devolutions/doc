@@ -9,6 +9,10 @@ module.exports = {
         {
           editor_key: "lang",
           type: "string"
+        },
+        {
+          editor_key: "label",
+          type: "string"
         }
       ]
     },
@@ -17,6 +21,12 @@ module.exports = {
         type: "select",
         options: {
           values: "data.locale"
+        }
+      },
+      label: {
+        type: "select",
+        options: {
+          values: "data.locale.en.label"
         }
       }
     }
