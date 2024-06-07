@@ -20,13 +20,28 @@ module.exports = {
       lang: {
         type: "select",
         options: {
-          values: "data.locale"
+          values: [
+            "en",
+            "fr",
+            "de"
+          ]
         }
       },
       label: {
         type: "select",
         options: {
-          values: "data.locale.en.label"
+          values: "data.var",
+          value_key: "key",
+          preview: {
+            text: [
+              {
+                template: "{lang}"
+              },
+              {
+                key: "en"
+              }
+            ]
+          }
         }
       }
     }

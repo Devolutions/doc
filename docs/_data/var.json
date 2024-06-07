@@ -1,0 +1,12 @@
+{
+  "ANYID": {
+    "en": "AnyIdentity",
+    "fr": "AnyIdentity",
+    "de": "AnyIdentity"
+  },
+  "CI": {
+    "en": "Custom installer",
+    "fr": "Installateur personnalisé",
+    "de": "Benutzerdefinierte Installationen"
+  }
+}
