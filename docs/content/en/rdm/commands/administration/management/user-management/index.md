@@ -63,6 +63,8 @@ Select user groups to assign to the user.
 | {{ en.RDM }} | Select if the user can access the data source from {{ en.RDM }}.                                                   |
 | [{{ en.WBEX }}](/workspace/workspace-browser-extension/) | Select if the user can access the data source from the {{ en.WBEX }}. |
 
+
+
 ### Settings
 
 ![User Management - Settings](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip11304.png)
