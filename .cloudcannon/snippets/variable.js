@@ -2,7 +2,13 @@ module.exports = {
   eleventy_variable: {
     template: "eleventy_liquid_shortcode_positional_args",
     inline: true,
-    preview: {},
+    preview: {
+      text: "Var",
+      subtext: [
+        { template: "{data.var[label][lang]}" },
+        { template: "{label}.{key}" }
+      ]
+    },
     definitions: {
       shortcode_name: "var",
       positional_args: [
@@ -34,9 +40,6 @@ module.exports = {
           value_key: "key",
           preview: {
             text: [
-              {
-                template: "{lang}"
-              },
               {
                 key: "en"
               }
