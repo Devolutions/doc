@@ -6,7 +6,7 @@ module.exports = {
       text: "Var",
       subtext: [
         { template: "{data.var[label][lang]}" },
-        { template: "{label}.{key}" }
+        { template: "{label}.{lang}" }
       ]
     },
     definitions: {
