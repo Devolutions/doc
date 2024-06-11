@@ -8,12 +8,12 @@ Passkeys represent a modern approach to authentication, offering enhanced securi
 
 ## Integration of Passkeys in Devolutions products
 
-The {{ en.WBEX }} serves as the bridge for adding and managing passkeys within the {{ en.RDM }} and {{ en.DHUBP }} data sources.
+The {{ en.WBEX }} serves as the bridge for adding and managing passkeys within the {{ en.RDM }}, {{ en.DVLS }}, and {{ en.DHUBP }} data sources.
 
 ## Using {{ en.WBEX }}
 
 1. Install the [{{ en.WBEX }}](/workspace/workspace-browser-extension/installation/).
-1. Configure the extension to connect with [{{ en.RDM }}](/workspace/workspace-browser-extension/remote-desktop-manager/first-login/first-login-rdm-windows/) and [{{ en.DHUBP }}](/workspace/workspace-browser-extension/hub-personal/first-login/).
+1. Configure the extension to connect with [{{ en.RDM }}](/workspace/workspace-browser-extension/remote-desktop-manager/first-login/first-login-rdm-windows/), [{{ en.DVLS }}](/workspace/workspace-browser-extension/devolutions-server/first-login/), and [{{ en.DHUBP }}](/workspace/workspace-browser-extension/hub-personal/first-login/).
 1. Create a [Passkey](https://www.passkeys.io/).
 1. The {{ en.WBEX }} ***Add Passkey*** window open.
 1. Select the app where you want to save the passkey ({{ en.RDM }} or {{ en.DHUBP }}).
