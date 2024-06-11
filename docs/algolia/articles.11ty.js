@@ -37,12 +37,12 @@ module.exports = {
           let doc = article.url.split('/')[2];
           let os = article.url.split('/')[3];
 
-          let docLabel = doc;
-
           if (locale === 'en') {
             doc = article.url.split('/')[1];
             os = article.url.split('/')[2];
           }
+
+          let docLabel = doc;
 
           switch (doc) {
             case 'cloud':
@@ -71,6 +71,26 @@ module.exports = {
             case 'server':
               icon = "https://cdnweb.devolutions.net/images/projects/server/logos/server-icon-shadow.svg";
               docLabel = "Devolutions Server";
+              os = "";
+              break;
+            case 'dgw':
+              icon = "https://cdnweb.devolutions.net/images/projects/gateway/logos/gateway-icon-shadow.svg";
+              docLabel = "Gateway";
+              os = "";
+              break;
+            case 'workspace':
+              icon = "https://webdevolutions.blob.core.windows.net/images/projects/workspace/logos/workspace-icon-shadow.svg";
+              docLabel = "Workspace";
+              os = "";
+              break;
+            case 'powershell':
+              icon = "https://cdnweb.devolutions.net/images/projects/devolutions-powershell/devolutions-powershell-icon-shadow.svg";
+              docLabel = "PowerShell";
+              os = "";
+              break;
+            case 'pam':
+              icon = "https://cdnweb.devolutions.net/images/projects/devolutions-pam/devolutions-pam-icon-shadow.svg";
+              docLabel = "PAM";
               os = "";
               break;
           }
