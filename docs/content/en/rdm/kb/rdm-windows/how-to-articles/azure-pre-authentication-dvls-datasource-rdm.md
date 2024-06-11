@@ -1,9 +1,9 @@
 ---
 eleventyComputed:
   title: Azure pre-authentication to a {{ en.DVLS }} datasource in {{ en.RDM }}
-  description: Azure pre-authentication requires a very different configuration than the default one. To use this feature with {{ en.RDM }}, authentication must be activated on the desired {{ en.DVLS }}, several configurations must be made on Microsoft Entra admin center, and an Azure app proxy must be set up.
+  description: Azure pre-authentication requires a unique configuration. To use this feature with {{ en.RDM }}, admins must activate the authentication on the desired {{ en.DVLS }}, configure several settings in Microsoft Entra admin center, and set up an Azure app proxy.
 ---
-Azure pre-authentication requires a very different configuration than the default one. To use this feature with {{ en.RDM }}, authentication must be activated on the desired {{ en.DVLS }}, several configurations must be made on Microsoft Entra admin center, and an Azure app proxy must be set up.
+Azure pre-authentication requires a unique configuration. To use this feature with {{ en.RDM }}, admins must activate the authentication on the desired {{ en.DVLS }}, configure several settings in Microsoft Entra admin center, and set up an Azure app proxy.
 
 In this topic: 
 
@@ -19,9 +19,9 @@ In this topic:
 ![Global Secure Access activation](https://cdnweb.devolutions.net/docs/INTERFACE4002.png)
 1. Go to ***Private Network connectors*** – ***Traffic forwarding*** and toggle the ***Private access profile*** option. 
 ![Private access profile](https://cdnweb.devolutions.net/docs/INTERFACE4003.png)
-1. Then head to ***Private Network connectors*** once more, and click on ***Download connecter service***.
+1. Then head to ***Private Network connectors*** again, and click on ***Download connecter service***.
 ![Download connecter service](https://cdnweb.devolutions.net/docs/INTERFACE4004.png)
-1. Once the connecter service is downloaded, run the installation program. Login with the Azure prompt, and wait for the installation to finish (the service may be shown as unavailable during this time).
+1. Once the connecter service is downloaded, run the installation program, login with the Azure prompt, and wait for the installation to finish (the service may be shown as unavailable during this time).
 {% snippet icon.badgeCaution %}
 When running on a Windows Server, make sure to turn off IE Enhanced Configuration or make Microsoft Edge the default browser (without enhanced configuration). Otherwise the Azure login prompt will most likely fail without allowing all of the required URLs.
 
