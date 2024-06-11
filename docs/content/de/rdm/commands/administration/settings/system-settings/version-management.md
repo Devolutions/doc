@@ -7,7 +7,7 @@ Die ***Versionsverwaltung*** ermöglichte es Administratoren, den Zugriff auf di
 
 ### Windows, macOS und Linux
 
-![Versionsverwaltung](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin2239.png)
+![Versionsverwaltung](https://cdnweb.devolutions.net/docs/RDMW2038_2024_1.png)
 
 | OPTION                              | BESCHREIBUNG                                                                                                     |
 | ----------------------------------- | ---------------------------------------------------------------------------------------------------------------- |
