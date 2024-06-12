@@ -28,32 +28,32 @@ For security and performance reasons, we recommend creating a different {{ en.VL
 
 1. In the ***Ribbon***, go to ***Administration – Management – {{ en.VLT_MAJ }}s***.
 ![Administration – Management – {{ en.VLT_MAJ }}s](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip11300.png)
-{% snippet, "badgeHelp" %}
-If you are using a {{ en.DVLS }} or {{ en.DHUBB }} data source, {{ en.VLT }} management is done in their respective web interfaces. For more information, consult either [{{ en.DVLS }} {{ en.VLT }}s](/server/web-interface/administration/security-management/vaults/) or [{{ en.DHUB }} {{ en.VLT }}s](/hub/web-interface/administration/management/vaults/).
-{% endsnippet %}
+   {% snippet, "badgeHelp" %}
+   If you are using a {{ en.DVLS }} or {{ en.DHUBB }} data source, {{ en.VLT }} management is done in their respective web interfaces. For more information, consult either [{{ en.DVLS }} {{ en.VLT }}s](/server/web-interface/administration/security-management/vaults/) or [{{ en.DHUB }} {{ en.VLT }}s](/hub/web-interface/administration/management/vaults/).
+   {% endsnippet %}
 
-2. In the ***User and Security Management*** window, select the ***{{ en.VLT_MAJ }}s*** tab, then click on ***Add {{ en.VLT }}***.
+1. In the ***User and Security Management*** window, select the ***{{ en.VLT_MAJ }}s*** tab, then click on ***Add {{ en.VLT }}***.
 ![Add {{ en.VLT }}](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip10739.png)
+1. Choose a [{{ en.VLT }} type](/rdm/user-interface/customization/vault-types) (default, business, secrets, or credentials). {{ en.VLT_MAJ }} types limit the entry types that can be created in this specific {{ en.VLT }}.
+![Choose {{ en.VLT }} type](https://cdnweb.devolutions.net/docs/RDMW2053_2024_2.png)
 1. In the ***General*** tab, an ***ID*** is generated automatically. Enter a ***Name*** (mandatory) and a ***Description*** (optional) for your new {{ en.VLT }}.
 The ***Visibility*** setting determines if this specific {{ en.VLT }} is visible to all users (public) or only to users that have access to the {{ en.VLT }} (private). It is set on the default setting, which can be modified in ***Administration – System Settings – {{ en.VLT_MAJ }} Management – {{ en.VLT_MAJ }}***.
 The {{ en.VLT }} can be created as soon as a ***Name*** has been specified, but other options are available. They are presented in the next step.
 
-{% snippet, "badgeInfo" %}
-To use an existing {{ en.VLT }} template, select it from the ***Template*** drop-down list. Unlike other settings, this one cannot be configured later since it changes how the {{ en.VLT }} is created. Learn about [***Templates***](/rdm/windows/commands/file/templates/) before deciding.
-{% endsnippet %}
+   {% snippet, "badgeInfo" %}
+   To use an existing {{ en.VLT }} template, select it from the ***Template*** drop-down list. Unlike other settings, this one cannot be configured later since it changes how the {{ en.VLT }} is created. Learn about [***Templates***](/rdm/windows/commands/file/templates/) before deciding.
 
-{% snippet, "badgeInfo" %}
-The ***Allow offline*** option is enabled by default. If it is disabled, the new {{ en.VLT }} will not be able to be used in [Offline mode](/rdm/windows/data-sources/offline-mode/). This setting can still be modified after the creation of the {{ en.VLT }} by going back to ***Administration – Management – {{ en.VLT_MAJ }}s***, selecting the {{ en.VLT }} to modify and clicking on ***Edit {{ en.VLT }} Settings***.
-{% endsnippet %}
+   The ***Allow offline*** option is enabled by default. If it is disabled, the new {{ en.VLT }} will not be able to be used in [Offline mode](/rdm/windows/data-sources/offline-mode/). This setting can still be modified after the creation of the {{ en.VLT }} by going back to ***Administration – Management – {{ en.VLT_MAJ }}s***, selecting the {{ en.VLT }} to modify and clicking on ***Edit {{ en.VLT }} Settings***.
+   {% endsnippet %}
 
-![{{ en.VLT_MAJ }} Management – General](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin2161.png)
+   ![{{ en.VLT_MAJ }} Management – General](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin2161.png)
 
-4. Optional: ***Users and User Groups***, ***Security***, and ***{{ en.VLT_MAJ }} Owners*** options are available in the other tabs in the left menu. Configure them to your needs now, or do it later by going back to ***Administration – Management – {{ en.VLT_MAJ }}s***, selecting the {{ en.VLT }} to modify and clicking on ***Edit {{ en.VLT }} Settings***.
+1. Optional: ***Users and User Groups***, ***Security***, and ***{{ en.VLT_MAJ }} Owners*** options are available in the other tabs in the left menu. Configure them to your needs now, or do it later by going back to ***Administration – Management – {{ en.VLT_MAJ }}s***, selecting the {{ en.VLT }} to modify and clicking on ***Edit {{ en.VLT }} Settings***.
     * ***Users and User Groups***: Choose which ***Users*** and ***User Groups*** will have access to the {{ en.VLT }} by checking/unchecking them. For security reasons, administrators always have access.
     * ***Security***: Specify a ***Master password*** for access to the {{ en.VLT }} and indicate whether the old password should be asked when overwriting the password.
     * ***{{ en.VLT_MAJ }} Owners***: Select user groups or users to be owners of this {{ en.VLT }}, meaning they can manage this specific {{ en.VLT }} without having access to data source administration.
 
-5. Click ***OK*** when done.
+1. Click ***OK*** when done.
 1. The new {{ en.VLT }} will appear in the ***User and Security Management*** window. You can ***Close*** this view to access the {{ en.VLT }} from the ***{{ en.NPANE }}***.
 ![New {{ en.VLT }} Successfully Created](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin2138.png)
 
