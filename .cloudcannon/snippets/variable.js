@@ -1,3 +1,5 @@
+const varData = require('../../docs/_data/var.json');
+
 module.exports = {
   eleventy_variable: {
     template: "eleventy_liquid_shortcode_positional_args",
@@ -5,8 +7,9 @@ module.exports = {
     preview: {
       text: "Var",
       subtext: [
-        { template: "{data.var.CI.fr}" },
-        { template: "{label}.{lang}" }
+        { template: "{varData.CI.fr}" },
+        { template: "{varData[label][lang]}" },
+        { template: "{label}.{lang}" },
       ]
     },
     definitions: {
