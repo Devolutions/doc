@@ -1,13 +1,50 @@
-const locales = ['en', 'fr', 'de']
+const cheerio = require('cheerio');
 
-const headingContentRe = /<(h[123])(|\s.*?)>([\s\S]*?)<\/h[123]>|<(p)(?:|\s.*?)>([\s\S]*?)<\/p>/gm;
-const idRe = /\bid="(.+?)"/;
+const locales = ['en', 'fr', 'de']
+const iconMap = {
+  cloud: {
+    icon: "https://cdnweb.devolutions.net/images/projects/cloud/logos/cloud-icon-shadow.svg",
+    label: "Cloud Services"
+  },
+  hub: {
+    icon: "https://cdnweb.devolutions.net/images/projects/password-hub/logos/password-hub-icon-shadow.svg",
+    label: "Devolutions Hub"
+  },
+  kb: {
+    icon: "https://cdnweb.devolutions.net/images/projects/knowledge-base/logos/knowledge-base-icon-shadow.svg",
+    label: "Knowledge Base"
+  },
+  rdm: {
+    icon: "https://cdnweb.devolutions.net/images/projects/remote-desktop-manager/logos/remote-desktop-manager-icon-shadow.svg",
+    label: "Remote Desktop Manager"
+  },
+  server: {
+    icon: "https://cdnweb.devolutions.net/images/projects/server/logos/server-icon-shadow.svg",
+    label: "Devolutions Server"
+  },
+  dgw: {
+    icon: "https://cdnweb.devolutions.net/images/projects/gateway/logos/gateway-icon-shadow.svg",
+    label: "Gateway"
+  },
+  workspace: {
+    icon: "https://webdevolutions.blob.core.windows.net/images/projects/workspace/logos/workspace-icon-shadow.svg",
+    label: "Workspace"
+  },
+  powershell: {
+    icon: "https://cdnweb.devolutions.net/images/projects/devolutions-powershell/devolutions-powershell-icon-shadow.svg",
+    label: "PowerShell"
+  },
+  pam: {
+    icon: "https://cdnweb.devolutions.net/images/projects/devolutions-pam/devolutions-pam-icon-shadow.svg",
+    label: "PAM"
+  }
+}
 
 const algoliaSettings = {
-  searchableAttributes: ['title', 'content'],
+  searchableAttributes: ['title', 'content', 'url'],
   attributesForFaceting: ['searchable(doc)'],
   distinct: 1,
-  attributeForDistinct: 'url'
+  attributeForDistinct: 'path'
 }
 
 module.exports = {
@@ -27,111 +64,50 @@ module.exports = {
           (!!f.template.frontMatter.content && f.template.frontMatter.content.replace(/(?:\\[rn]|[\r\n]+)+/g, '') !== '') &&
           f.url
         )
-        .map(article => {
-          let objects = [];
+        .forEach(article => {
+          const doc = article.url.split('/')[article.data.lang === 'en' ? 1 : 2];
+          const os = article.url.split('/')[article.data.lang === 'en' ? 2 : 3];
+
           let title = article.data.title;
           let url = `https://docs.devolutions.net${article.url}`;
-          let icon = "https://cdnweb.devolutions.net/images/projects/devolutions/logos/devolutions-icon-shadow.svg";
+          let docLabel = iconMap[doc]?.label || doc;
 
-          let locale = article.data.lang;
-          let doc = article.url.split('/')[2];
-          let os = article.url.split('/')[3];
-
-          if (locale === 'en') {
-            doc = article.url.split('/')[1];
-            os = article.url.split('/')[2];
+          if (os === 'mac') {
+            docLabel = `${docLabel} (macOS)`;
           }
 
-          let docLabel = doc;
+          const $ = cheerio.load(article.content);
+          const tags = ['h2', 'h3', 'h4', 'h5', 'h6', 'p', 'li'];
 
-          switch (doc) {
-            case 'cloud':
-              icon = "https://cdnweb.devolutions.net/images/projects/cloud/logos/cloud-icon-shadow.svg";
-              docLabel = "Cloud Services";
-              os = "";
-              break;
-            case 'hub':
-              icon = "https://cdnweb.devolutions.net/images/projects/password-hub/logos/password-hub-icon-shadow.svg";
-              docLabel = "Devolutions Hub";
-              os = "";
-              break;
-            case 'kb':
-              icon = "https://cdnweb.devolutions.net/images/projects/knowledge-base/logos/knowledge-base-icon-shadow.svg";
-              docLabel = "Knowledge Base";
-              os = "";
-              break;
-            case 'rdm':
-              icon = "https://cdnweb.devolutions.net/images/projects/remote-desktop-manager/logos/remote-desktop-manager-icon-shadow.svg";
-              docLabel = "Remote Desktop Manager";
+          $(tags.join(',')).each(function() {
+            $(this).find('table, figure, p, ul, ol, pre').remove();
 
-              if (os == 'mac') {
-                docLabel = "Remote Desktop Manager (macOS)";
+            if (this.name.startsWith('h')) {
+              title = $(this).text().trim();
+
+              if ($(this).attr('id')) {
+                url = `https://docs.devolutions.net${article.url}#${$(this).attr('id')}`;
               }
-              break;
-            case 'server':
-              icon = "https://cdnweb.devolutions.net/images/projects/server/logos/server-icon-shadow.svg";
-              docLabel = "Devolutions Server";
-              os = "";
-              break;
-            case 'dgw':
-              icon = "https://cdnweb.devolutions.net/images/projects/gateway/logos/gateway-icon-shadow.svg";
-              docLabel = "Gateway";
-              os = "";
-              break;
-            case 'workspace':
-              icon = "https://webdevolutions.blob.core.windows.net/images/projects/workspace/logos/workspace-icon-shadow.svg";
-              docLabel = "Workspace";
-              os = "";
-              break;
-            case 'powershell':
-              icon = "https://cdnweb.devolutions.net/images/projects/devolutions-powershell/devolutions-powershell-icon-shadow.svg";
-              docLabel = "PowerShell";
-              os = "";
-              break;
-            case 'pam':
-              icon = "https://cdnweb.devolutions.net/images/projects/devolutions-pam/devolutions-pam-icon-shadow.svg";
-              docLabel = "PAM";
-              os = "";
-              break;
-          }
 
-          for (;;) {
-            const headingContentMatch = headingContentRe.exec(article.content.replace(/\r?\n|\r/g, ""));
-            let content;
-
-            if (!headingContentMatch) {
-              break;
+              return;
             }
 
-            if (headingContentMatch[1]) {
-              const idMatch = idRe.exec(headingContentMatch[2]);
-              const id = idMatch ? idMatch[1] : undefined;
+            let content = $(this).text().trim();
 
-              title = headingContentMatch[3].replace(/<[^>]*>?/gm, '').trim();
-
-              if (id) {
-                url = `https://docs.devolutions.net${article.url}#${id}`;
-              }
+            if (content === '') {
+              return;
             }
 
-            if (headingContentMatch[4]) {
-              content = headingContentMatch[5].replace(/<[^>]*>?/gm, '').trim();
-
-              if (content.length > 512) {
-                content = `${content.substring(0, 509)}...`
-              }
-            }
-
-            const found = objects.find(o => o.title === title && o.url === url && !o.content);
-
-            if (found) {
-              found.content = content;
-            } else {
-              objects.push({ doc: docLabel, icon, title, url, content });
-            }
-          }
-
-          articles = articles.concat(objects);
+            articles.push({
+              tag: this.name,
+              doc: docLabel,
+              icon: iconMap[doc]?.icon || "https://cdnweb.devolutions.net/images/projects/devolutions/logos/devolutions-icon-shadow.svg",
+              title,
+              url,
+              content: content,
+              path: article.url
+            });
+          });
         });
 
       await this.algoliaInitIndex(`docs-${locales[l]}`, articles, algoliaSettings);

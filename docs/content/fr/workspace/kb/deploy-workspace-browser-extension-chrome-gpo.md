@@ -1,4 +1,3 @@
-```yaml
 ---
 eleventyComputed:
   title: Déployer le {{ fr.WBEX }} dans Google Chrome ou Edge en utilisant les GPOs
@@ -172,4 +171,3 @@ Valeurs possibles :
 ## Références
 * [https://www.chromium.org/administrators](https://www.chromium.org/administrators)
 * [https://www.chromium.org/administrators/complex-policies-on-windows](https://www.chromium.org/administrators/complex-policies-on-windows)
-```
