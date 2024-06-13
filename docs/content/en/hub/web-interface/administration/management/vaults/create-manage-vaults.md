@@ -12,8 +12,9 @@ eleventyComputed:
 ### Create a {{ en.VLT }}
 
 1. Go to ***Administration – {{ en.VLT_MAJ }}s***.
-1. Click on the ***Add*** icon at the top right of the screen.
+1. Click on the ***Add*** icon at the top right of the screen, then ***Add {{ en.VLT }}***.
 ![Add a {{ en.VLT }}](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub4098.png)
+1. Choose a [{{ en.VLT }} content type](/rdm/user-interface/customization/vault-types) (default, business, secrets, or credentials). {{ en.VLT_MAJ }} content types limit the entry types that can be created in this specific {{ en.VLT }}.
 1. ***Name*** the {{ en.VLT }}.
 1. Optional: Write a short ***Description*** for the purpose of this {{ en.VLT }}.
 1. Click ***Add*** to save.
