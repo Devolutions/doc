@@ -31,8 +31,8 @@ For security and performance reasons, we recommend creating a different {{ en.VL
 If you are using a {{ en.DVLS }} or {{ en.DHUBB }} data source, {{ en.VLT }} management is done in their respective web interfaces. For more information, consult either [{{ en.DVLS }} {{ en.VLT }}s](/server/web-interface/administration/security-management/vaults/) or [{{ en.DHUB }} {{ en.VLT }}s](/hub/web-interface/administration/management/vaults/). 
 {% endsnippet %}
  
-2. In the ***User and Security Management*** window, select the ***{{ en.VLT_MAJ }}s*** tab, then click on ***Add {{ en.VLT }}***.  
-
+2. In the ***User and Security Management*** window, select the ***{{ en.VLT_MAJ }}s*** tab, then click on ***Add {{ en.VLT }}***.
+1. Choose a [{{ en.VLT }} type](/rdm/mac/user-interface/customization/vault-types) (default, business, secrets, or credentials). {{ en.VLT_MAJ }} types limit the entry types that can be created in this specific {{ en.VLT }}.
 1. In the ***General*** tab, an ***ID*** is generated automatically. Enter a ***Name*** (mandatory) and a ***Description*** (optional) for your new {{ en.VLT }}.  
 The ***Visibility*** setting determines if this specific {{ en.VLT }} is visible to all users (public) or only to users that have access to the {{ en.VLT }} (private). It is set on the default setting, which can be modified in ***Administration – System Settings – {{ en.VLT_MAJ }} Management – {{ en.VLT_MAJ }}***.  
 The {{ en.VLT }} can be created as soon as a ***Name*** has been specified, but other options are available. They are presented in the next step. 
