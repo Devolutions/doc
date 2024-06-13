@@ -1,10 +1,9 @@
 ---
 eleventyComputed:
   title: Préférences de notifications
-  description: Les préférences de notifications dans {{ fr.DVLS }} permettent aux administrateurs et aux utilisateurs avec des permissions spécifiques de recevoir uniquement les mises à jour les plus pertinentes.
+  description: Les préférences de notifications dans {{ fr.DVLS }} permettent aux administrateurs et aux utilisateurs disposant de permissions spécifiques de ne recevoir que les mises à jour les plus pertinentes.
 ---
-
-Les préférences de notifications dans {{ fr.DVLS }} permettent aux administrateurs et aux utilisateurs avec des [permissions système](/server/web-interface/administration/configuration/system-permissions/modules/) de recevoir uniquement les mises à jour les plus pertinentes.
+Les préférences de notifications dans {{ fr.DVLS }} permettent aux administrateurs et aux utilisateurs disposant de [permissions système](/server/web-interface/administration/configuration/system-permissions/modules/) de ne recevoir que les mises à jour les plus pertinentes.
 
 ## Préférences de notifications
 
@@ -18,20 +17,26 @@ Choisir le type de notifications à recevoir.
 
 ## Activer la sélection personnalisée
 
-Les administrateurs et les utilisateurs avec des permissions système peuvent choisir les actions pour lesquelles ils souhaitent recevoir des notifications.
+Les administrateurs et les utilisateurs disposant de permissions système peuvent choisir les actions pour lesquelles ils souhaitent recevoir des notifications.
 
-![Activer la sélection personnalisée](https://cdnweb.devolutions.net/docs/DVLS6002_2024_1.png)
+![Activer la sélection personnalisée](https://cdnweb.devolutions.net/docs/DVLS6000_2024_2.png)
 
 ## Administration
 
 ### Sauvegarde
-* Succès : Une notification est envoyée lors de la réussite de la sauvegarde.
+* Succès : Une notification est envoyée en cas de succès de la sauvegarde.
 * Échec : Une notification est envoyée en cas d'échec de la sauvegarde.
-* Échec de la validation : Une notification est envoyée pour les erreurs de validation pendant la sauvegarde.
+* Échec de validation : Une notification est envoyée pour les erreurs de validation pendant la sauvegarde.
 
 ### Serveur
-* Connexion d'urgence : Une notification est envoyée pour l'utilisation de la connexion d'urgence.
+* Connexion d'urgence : Une notification est envoyée pour l'utilisation d'une connexion d'urgence.
 * Erreur inattendue : Une notification est envoyée pour toute erreur inattendue.
+
+### Sécurité
+
+* Tâche de sécurité ignorée : Une notification est envoyée pour une tâche de sécurité ignorée.
+* Tâche de sécurité restaurée : Une notification est envoyée pour une tâche de sécurité restaurée.
+* Entrée déverrouillée : Une notification est envoyée pour une entrée déverrouillée.
 
 ## Service
 
@@ -39,8 +44,8 @@ Les administrateurs et les utilisateurs avec des permissions système peuvent ch
 * Création : Une notification est envoyée lorsqu'une passerelle est créée.
 * Mise à jour : Une notification est envoyée lorsqu'une passerelle est mise à jour.
 * Suppression : Une notification est envoyée lorsqu'une passerelle est supprimée.
-* En ligne : Une notification est envoyée lorsqu'une passerelle se connecte.
-* Hors ligne : Une notification est envoyée lorsqu'une passerelle se déconnecte.
+* En ligne : Une notification est envoyée lorsqu'une passerelle est en ligne.
+* Hors ligne : Une notification est envoyée lorsqu'une passerelle est hors ligne.
 
 ### PAM
 * Échec du battement de cœur : Une notification est envoyée lorsqu'un contrôle de battement de cœur PAM échoue.
@@ -51,7 +56,7 @@ Les administrateurs et les utilisateurs avec des permissions système peuvent ch
 * Suppression : Une notification est envoyée lorsqu'une ferme de passerelles est supprimée.
 
 ### Planificateur
-* Hors ligne : Une notification est envoyée lorsque le planificateur se déconnecte.
+* Hors ligne : Une notification est envoyée lorsque le planificateur est hors ligne.
 * En veille : Une notification est envoyée lorsque le planificateur entre en mode veille.
 * À l'activation : Une notification est envoyée lorsque le planificateur est activé.
 * Aucun planificateur de veille disponible : Une notification est envoyée lorsqu'aucun planificateur de veille n'est disponible.

@@ -20,7 +20,7 @@ Choose the type of notifications you want to receive.
 
 Administrators and users with system permissions can choose the actions they wish to receive notifications for.
 
-![Enable personalized selection](https://cdnweb.devolutions.net/docs/DVLS6002_2024_1.png)
+![Enable personalized selection](https://cdnweb.devolutions.net/docs/DVLS6000_2024_2.png)
 
 ## Administration 
 
@@ -32,6 +32,12 @@ Administrators and users with system permissions can choose the actions they wis
 ### Server 
 * Emergency Login: Notification is sent for emergency login usage.
 * Unexpected Error: Notification is sent for any unexpected error.
+
+### Security
+
+* Security task ignored:  Notification is sent for an ignored security task.
+* Security task restored: Notification is sent for a restored security task.
+* Entry unsealed: Notification is sent for an unsealed entry.
 
 ## Service 
 
