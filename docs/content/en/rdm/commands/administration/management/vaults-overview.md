@@ -34,7 +34,7 @@ For security and performance reasons, we recommend creating a different {{ en.VL
 
 1. In the ***User and Security Management*** window, select the ***{{ en.VLT_MAJ }}s*** tab, then click on ***Add {{ en.VLT }}***.
 ![Add {{ en.VLT }}](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip10739.png)
-1. Choose a [{{ en.VLT }} type](/rdm/user-interface/customization/vault-types) (default, business, secrets, or credentials). {{ en.VLT_MAJ }} types limit the entry types that can be created in this specific {{ en.VLT }}.
+1. Choose a [{{ en.VLT }} content type](/rdm/user-interface/customization/vault-types) (default, business, secrets, or credentials). {{ en.VLT_MAJ }} content types limit the entry types that can be created in this specific {{ en.VLT }}.
 ![Choose {{ en.VLT }} type](https://cdnweb.devolutions.net/docs/RDMW2053_2024_2.png)
 1. In the ***General*** tab, an ***ID*** is generated automatically. Enter a ***Name*** (mandatory) and a ***Description*** (optional) for your new {{ en.VLT }}.
 The ***Visibility*** setting determines if this specific {{ en.VLT }} is visible to all users (public) or only to users that have access to the {{ en.VLT }} (private). It is set on the default setting, which can be modified in ***Administration – System Settings – {{ en.VLT_MAJ }} Management – {{ en.VLT_MAJ }}***.

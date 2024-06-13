@@ -1,11 +1,11 @@
 ---
 eleventyComputed:
-  title: "{{ en.VLT_MAJ }} types"
-  description: "{{ en.VLT_MAJ }} types limit the entry types that can be created in a specific shared {{ en.VLT }}."
+  title: "{{ en.VLT_MAJ }} content types"
+  description: "{{ en.VLT_MAJ }} content types limit the entry types that can be created in a specific shared {{ en.VLT }}."
 ---
-{{ en.VLT_MAJ }} types limit the entry types that can be **created** in a specific shared {{ en.VLT }}. The type can be chosen when [creating or editing a {{ en.VLT }}](/rdm/commands/administration/management/vaults-overview/). Existing entries are not affected by a {{ en.VLT }} type modification; they can still be used, modified, moved, imported/exported, etc.
+{{ en.VLT_MAJ }} content types limit the entry types that can be **created** in a specific shared {{ en.VLT }}. The type can be chosen when [creating or editing a {{ en.VLT }}](/rdm/commands/administration/management/vaults-overview/). Existing entries are not affected by a {{ en.VLT }} type modification; they can still be used, modified, moved, imported/exported, etc.
 
-There exists four {{ en.VLT }} types:
+There exists four {{ en.VLT }} content types:
 * ***Default {{ en.VLT }}***: A standard {{ en.VLT }} where all entry types are available.
 * ***Secrets {{ en.VLT }}***: Secrets entries, used in DevOps and CLI processes.
 * ***Business {{ en.VLT }}***: Entries such as information, contact, assets, or documents. Helpful in business organization.
