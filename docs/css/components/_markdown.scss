@@ -197,8 +197,12 @@
   ul, ol {
     padding-left: 28px;
 
-    li + li {
-      margin-top: 8px;
+    ul, ol {
+      list-style-type: circle;
+    }
+
+    ul, ol, li + li {
+      margin-top: 16px;
     }
   }
 
