@@ -7,8 +7,11 @@ module.exports = {
     preview: {
       text: "Var",
       subtext: [
-        { template: "{varData.CI.fr}" },
         { template: "{varData[label][lang]}" },
+        { template: "{varData}.{label}.{lang}}" },
+        { template: "{data.var[label][lang]}" },
+        { template: "{data}.{var}.{label}.{lang}" },
+        varData.CI.fr,
         { template: "{label}.{lang}" },
       ]
     },
