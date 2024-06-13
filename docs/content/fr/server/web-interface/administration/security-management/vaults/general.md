@@ -2,7 +2,7 @@
 eleventyComputed:
   title: Général
 ---
-![{{ fr.VLT_MAJ }}s – Général](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp6074.png)
+![{{ fr.VLT_MAJ }}s – Général](https://cdnweb.devolutions.net/docs/DVLS2026_2024_2.png)
 
 ## Modifier les paramètres de {{ fr.VLT }}
 | Option         | Description                                                                                             |
