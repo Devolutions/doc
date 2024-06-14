@@ -17,6 +17,9 @@ The following guide explains how to move the {{ en.DVLS }} web application on th
 1. Remove the {{ en.DVLS }} web application under ***Default Web Site***.  
 ![Remove the {{ en.DVLS }} web application under Default Web Site](https://cdnweb.devolutions.net/docs/INTERFACE6001.png)  
 1. Open the ***File Explorer***.
+   {% snippet, "badgeCaution" %}
+   We do not recommend to set the installation folder to **C:\Program Files**, **C:\Program Files (x86)**, or **C:\inetpub**. {{ en.DVLS }} is a web application and this could result in unwanted behavior and issues because IIS do not have enough permissions to run web applications that are located under those folders. If you want to set the web application folder in a location different than the default **C:\Inetpub\wwwroot** folder, the IIS_IUSRS built in local machine group will need Read and Read & Execute permissions on the entire {{ en.DVLS }} web application folder structure.
+   {% endsnippet %}
 1. Navigate to the installation folder of the {{ en.DVLS }} web application (i.e., **C:\inetpub\wwwroot\dvls** for this installation). The web application folder may differ according to your installation.
 1. Select all files and folders and move them under the root folder of the Default Web Site, **C:\inetpub\wwwroot** for this installation.  
 ![Select all files and folders and move them ](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4148.png)

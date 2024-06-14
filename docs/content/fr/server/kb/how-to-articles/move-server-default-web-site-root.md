@@ -17,6 +17,9 @@ Le guide suivant explique comment déplacer l'application web {{ fr.DVLS }} à l
 1. Supprimer l'application web {{ fr.DVLS }} sous ***Site Web par défaut***.  
 ![Supprimer l'application web {{ fr.DVLS }} sous Site Web par défaut](https://cdnweb.devolutions.net/docs/INTERFACE6001.png)  
 1. Ouvrir l'***Explorateur de fichiers***.
+   {% snippet, "badgeCaution" %}
+   Nous ne recommandons pas de définir le dossier d'installation à **C:\Program Files**, **C:\Program Files (x86)** ou **C:\inetpub**. {{ fr.DVLS }} est une application web et cela pourrait entraîner un comportement indésirable et des problèmes car IIS n'a pas suffisamment de permissions pour exécuter des applications web situées sous ces dossiers. Si vous souhaitez définir le dossier de l'application web dans un emplacement différent du dossier par défaut **C:\Inetpub\wwwroot**, le groupe local de la machine intégré IIS_IUSRS aura besoin des permissions de Lecture et d'Exécution de lecture sur toute la structure de dossiers de l'application web {{ fr.DVLS }}.
+   {% endsnippet %}
 1. Naviguer vers le dossier d'installation de l'application web {{ fr.DVLS }} (c'est-à-dire, **C:\inetpub\wwwroot\dvls** pour cette installation). Le dossier de l'application web peut différer selon votre installation.
 1. Sélectionner tous les fichiers et dossiers et les déplacer sous le dossier racine du Site Web par défaut, **C:\inetpub\wwwroot** pour cette installation.  
 ![Sélectionner tous les fichiers et dossiers et les déplacer](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4148.png)
