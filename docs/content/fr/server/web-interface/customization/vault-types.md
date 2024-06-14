@@ -17,18 +17,18 @@ Voici la liste complète des types d'entrées disponibles pour chaque type de {{
 Notez que la disponibilité des types d'entrées peut également être restreinte par d'autres facteurs tels que votre [profil d'interface utilisateur](/server/web-interface/customization/user-interface-profiles).
 {% endsnippet %}
 
-| Types d'entrées       | {{ fr.VLT }} par défaut | {{ fr.VLT }} d'affaires                | {{ fr.VLT }} de credentials | {{ fr.VLT }} de secrets  |
-|-----------------------|:-----------------------:|:--------------------------------------:|:---------------------------:|:------------------------:|
-| Session               | {{ icon.badgeNotice }}  | ***Entrée de site Web*** seulement     |                             |                          |
-| Gestion à distance    | {{ icon.badgeNotice }}  |                                        |                             |                          |
-| Gestion des credentials | {{ icon.badgeNotice }}  | ***Entrée de nom d'utilisateur et mot de passe*** seulement | {{ icon.badgeNotice }}   | ***Entrée Secret*** seulement |
-| Information           | {{ icon.badgeNotice }}  | {{ icon.badgeNotice }}                 |                             |                          |
-| Dossier               | {{ icon.badgeNotice }}  | {{ icon.badgeNotice }}                 | {{ icon.badgeNotice }}     | {{ icon.badgeNotice }}   |
-| Contact               | {{ icon.badgeNotice }}  | {{ icon.badgeNotice }}                 |                             |                          |
-| Document              | {{ icon.badgeNotice }}  | {{ icon.badgeNotice }}                 |                             |                          |
-| VPN/tunnel/gateway    | {{ icon.badgeNotice }}  |                                        |                             |                          |
-| Gestion des actifs informatiques | {{ icon.badgeNotice }}  |                                        |                             |                          |
-| Macro/script/outil    | {{ icon.badgeNotice }}  |                                        |                             |                          |
-| Synchroniseur         | {{ icon.badgeNotice }}  |                                        |                             |                          |
-| Divers                | {{ icon.badgeNotice }}  | {{ icon.badgeNotice }}                 |                             |                          |
-| Modèle                | {{ icon.badgeNotice }}  | {{ icon.badgeNotice }}                 | {{ icon.badgeNotice }}     | {{ icon.badgeNotice }}   |
+| Types d'entrées       | {{ fr.VLT }} par défaut | {{ fr.VLT }} d'affaires                | {{ fr.VLT }} de credentials | {{ fr.VLT }} de secrets |
+|-----------------------|:-----------------------:|:--------------------------------------:|:--------------------------:|:-----------------------:|
+| Session               | {{ icon.badgeNotice }}  | ***Entrée de site Web*** seulement     |                            |                         |
+| Gestion à distance    | {{ icon.badgeNotice }}  |                                        |                            |                         |
+| Gestion de credentials| {{ icon.badgeNotice }}  | ***Entrée de nom d'utilisateur et mot de passe*** seulement | {{ icon.badgeNotice }}   | ***Entrée de secret*** seulement |
+| Information           | {{ icon.badgeNotice }}  | {{ icon.badgeNotice }}                 |                            |                         |
+| Dossier               | {{ icon.badgeNotice }}  | {{ icon.badgeNotice }}                 | {{ icon.badgeNotice }}     | {{ icon.badgeNotice }}  |
+| Contact               | {{ icon.badgeNotice }}  | {{ icon.badgeNotice }}                 |                            |                         |
+| Document              | {{ icon.badgeNotice }}  |                                        |                            |                         |
+| VPN/tunnel/passerelle | {{ icon.badgeNotice }}  |                                        |                            |                         |
+| Gestion d'actifs IT   | {{ icon.badgeNotice }}  |                                        |                            |                         |
+| Macro/script/outil    | {{ icon.badgeNotice }}  |                                        |                            |                         |
+| Synchroniseur         | {{ icon.badgeNotice }}  |                                        |                            |                         |
+| Divers                | {{ icon.badgeNotice }}  |                                        |                            |                         |
+| Modèle                | {{ icon.badgeNotice }}  | {{ icon.badgeNotice }}                 | {{ icon.badgeNotice }}     | {{ icon.badgeNotice }}  |

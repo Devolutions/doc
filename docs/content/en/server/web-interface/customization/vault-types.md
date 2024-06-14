@@ -25,10 +25,10 @@ Note that the availability of entry types can also be restricted by other factor
 | Information           | {{ icon.badgeNotice }} | {{ icon.badgeNotice }}                 |                          |                         |
 | Folder                | {{ icon.badgeNotice }} | {{ icon.badgeNotice }}                 | {{ icon.badgeNotice }}   | {{ icon.badgeNotice }}  |
 | Contact               | {{ icon.badgeNotice }} | {{ icon.badgeNotice }}                 |                          |                         |
-| Document              | {{ icon.badgeNotice }} | {{ icon.badgeNotice }}                 |                          |                         |
+| Document              | {{ icon.badgeNotice }} |                                        |                          |                         |
 | VPN/tunnel/gateway    | {{ icon.badgeNotice }} |                                        |                          |                         |
 | IT asset management   | {{ icon.badgeNotice }} |                                        |                          |                         |
 | Macro/script/tool     | {{ icon.badgeNotice }} |                                        |                          |                         |
 | Synchronizer          | {{ icon.badgeNotice }} |                                        |                          |                         |
-| Miscellaneous         | {{ icon.badgeNotice }} | {{ icon.badgeNotice }}                 |                          |                         |
+| Miscellaneous         | {{ icon.badgeNotice }} |                                        |                          |                         |
 | Template              | {{ icon.badgeNotice }} | {{ icon.badgeNotice }}                 | {{ icon.badgeNotice }}   | {{ icon.badgeNotice }}  |
