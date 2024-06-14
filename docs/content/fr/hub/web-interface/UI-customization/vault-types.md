@@ -25,5 +25,5 @@ Notez que la disponibilité des types d'entrées peut également être restreint
 | Information           | {{ icon.badgeNotice }}     | {{ icon.badgeNotice }}                   |                            |                           |
 | Dossier               | {{ icon.badgeNotice }}     | {{ icon.badgeNotice }}                   | {{ icon.badgeNotice }}     | {{ icon.badgeNotice }}    |
 | Contact               | {{ icon.badgeNotice }}     | {{ icon.badgeNotice }}                   |                            |                           |
-| Document              | {{ icon.badgeNotice }}     | {{ icon.badgeNotice }}                   |                            |                           |
+| Document              | {{ icon.badgeNotice }}     |                                          |                            |                           |
 | Modèle                | {{ icon.badgeNotice }}     | {{ icon.badgeNotice }}                   | {{ icon.badgeNotice }}     | {{ icon.badgeNotice }}    |
