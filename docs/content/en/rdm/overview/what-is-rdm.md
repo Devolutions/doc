@@ -21,25 +21,13 @@ eleventyComputed:
 
 {{ en.RDM }} is compatible with over 200 relevant tools and technologies, including Apple Remote Desktop, Citrix, Dameware, FTP, Hyper-V, LogMeIn, Radmin, RDP (Microsoft Remote Desktop), SSH Port Forward, SSH Shell, TeamViewer, Telnet, Remote Desktop Services, VMware, VNC, SCP, X Windows, and more!
 
-&nbsp;
-
 {% youtube '-uz8dvo9tpE' %}
 
 ## The {{ en.RDM }} ecosystem
 
 {{ en.RDM }} is available in two editions:
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
 <table><thead><tr><th><p></p></th><th><p></p></th></tr></thead><tbody><tr><td><p>Free {width=75px}</p></td><td><p>For individuals only, no information can be shared with colleagues. The most popular remote access technologies are supported and passwords can be stored securely.</p></td></tr><tr><td><p>Team</p></td><td><p>Used by teams, this edition offers user permissions, user groups, advanced logging, etc. {{ en.RDM }} uses a Database Management System (DBMS) for storing the information and sharing it according to your security requirements. Devolutions also offers two specialized services for Cloud-Based storage or to get full Active Directory Integration.</p></td></tr></tbody></table>
-
-&nbsp;
-
-&nbsp;
 
 {{ en.RDM }} is also offered on multiple platforms, as seen below.
 
@@ -54,7 +42,3 @@ data source.
 {% endsnippet %}
 
 <table><thead><tr><th><p>PLATFORM</p></th><th><p>FREE EDITION</p></th><th><p>TEAM EDITION</p></th></tr></thead><tbody><tr><td><p>Windows</p></td><td><p>{{ icon.badgeNotice }}</p></td><td><p>{{ icon.badgeNotice }}</p></td></tr><tr><td><p>macOS</p></td><td><p>{{ icon.badgeNotice }}</p></td><td><p>{{ icon.badgeNotice }}</p></td></tr><tr><td><p>Linux</p></td><td><p>{{ icon.badgeNotice }}</p></td><td><p>{{ icon.badgeNotice }}</p></td></tr><tr><td><p>iOS</p></td><td><p>{{ icon.badgeNotice }}</p></td><td><p>{{ icon.badgeNotice }}</p></td></tr><tr><td><p>Android</p></td><td><p>{{ icon.badgeNotice }}</p></td><td><p>{{ icon.badgeNotice }}</p></td></tr></tbody></table>
-
-&nbsp;
-
-&nbsp;
