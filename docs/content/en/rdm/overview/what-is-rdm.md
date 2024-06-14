@@ -9,7 +9,7 @@ eleventyComputed:
     resources.
   status: Topic available in German language
 ---
-!\[!!{{ en.RDM }} logo\]({{ locale.en.projects.rdm.logo }})
+![!!{{ en.RDM }} logo]({{ locale.en.projects.rdm.logo }})
 
 {% gTab "Windows" %}Windows Lorem Ipsum{% endgTab %}
 
