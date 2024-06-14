@@ -1,7 +1,7 @@
 module.exports = {
   eleventy_tab: {
     template: "eleventy_liquid_paired_shortcode_positional_args",
-    inline: true,
+    inline: false,
     preview: {
       text: [
         { template: "Tab - {label}" },
