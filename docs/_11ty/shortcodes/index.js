@@ -1,4 +1,5 @@
 const snippet = require('./snippet');
+const tab = require('./tab');
 const youtube = require('./youtube');
 
 module.exports = (config) => {
@@ -7,4 +8,5 @@ module.exports = (config) => {
 
   // Paired Shortcodes
   config.addPairedShortcode('snippet', snippet);
+  config.addPairedShortcode('gTab', tab);
 }

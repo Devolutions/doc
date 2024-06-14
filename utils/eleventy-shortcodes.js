@@ -108,12 +108,6 @@ module.exports = (config) => {
     content.match(dataLabelGlobalRegex)?.map((match) => {
       const dataLabel = match.match(dataLabelRegex)[1];
       tabs.add(dataLabel);
-
-      if (dataLabel !== tabs.values().next().value) {
-        const addHidden = `${match} hidden>`;
-
-        content = content.replace(`${match}>`, addHidden);
-      }
     });
 
     if (tabs.size !== 0) {
@@ -138,26 +132,6 @@ module.exports = (config) => {
       htmlTabs += '</nav>';
     }
 
-    return `${htmlTabs}<div class="prose markdown">${content}</div>`;
-  });
-
-  const gTabs = [
-    { label: "Windows" },
-    { label: "macOS" },
-    { label: "Linux" },
-    { label: "RDM" },
-    { label: "DVLS" },
-    { label: "Hub" },
-    { label: "Workspace" },
-    { label: "Gateway" },
-    { label: "PAM" },
-  ];
-
-  gTabs.forEach(tab => {
-    const labelSlugify = slugify(tab.label, { lower: true });
-
-    config.addPairedShortcode(labelSlugify, (content) => {
-      return `<section role="tabpanel" data-label="gTab-${tab.label}" data-panel="gTab-${labelSlugify}">${md.render(content).replace(/\n/g, '')}</section>`;
-    });
+    return htmlTabs;
   });
 }

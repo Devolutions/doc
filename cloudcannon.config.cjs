@@ -8,6 +8,7 @@ module.exports = {
   },
   _snippets: {
     ...require("./.cloudcannon/snippets/snippet"),
+    ...require("./.cloudcannon/snippets/tab"),
     ...require("./.cloudcannon/snippets/youtube")
   },
   collections_config: {

@@ -46,3 +46,10 @@ data source.
 | Linux    | {{ icon.badgeNotice }} | {{ icon.badgeNotice }} |
 | iOS      | {{ icon.badgeNotice }} | {{ icon.badgeNotice }} |
 | Android  | {{ icon.badgeNotice }} | {{ icon.badgeNotice }} |
+
+
+{% gTab "Windows" %}Windows Lorem Ipsum{% endgTab %}
+
+{% gTab "macOS" %}macOS Lorem Ipsum{% endgTab %}
+
+{% gTab "Linux" %}Linux Lorem Ipsum{% endgTab %}
