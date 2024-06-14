@@ -9,13 +9,15 @@ eleventyComputed:
     resources.
   status: Topic available in German language
 ---
-![!!{{ en.RDM }} logo]({{ locale.en.projects.rdm.logo }})
+!\[!!{{ en.RDM }} logo\]({{ locale.en.projects.rdm.logo }})
 
-{% gTab "Windows" %}Windows Lorem Ipsum{% endgTab %}
+{% gTab "Windows" %}Windows **Lorem Ipsum**{% endgTab %}
 
 {% gTab "macOS" %}macOS Lorem Ipsum{% endgTab %}
 
 {% gTab, "Linux" %}Linux lorem ipsum{% endgTab %}
+
+{% gTab, "RDM" %}RDM gTab{% endgTab %}
 
 {{ en.RDM }} is an application that integrates a comprehensive set of tools and managers to meet the needs of any IT team. It is designed to centralize remote connection technologies, credentials, and secure the access to these resources. Most connections are established using either an external library or third-party software.
 
