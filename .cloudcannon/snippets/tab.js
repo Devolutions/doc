@@ -10,7 +10,7 @@ module.exports = {
       subtext: [
         { key: "content" }
       ],
-      icon: "linear_scale",
+      icon: "tab",
       image: [
         { template: "https://cdnweb.devolutions.net/sysadminotaur/icons/48x48/logo-{label|slugify}.png" }
       ]
