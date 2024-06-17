@@ -6,7 +6,7 @@ eleventyComputed:
 If the {{ en.HUBB }} datasource has biometric lock enabled, {{ en.DWS }} will redirect you to the ***Security*** settings page.
 
 ## Enabling a locking option
-1. In {{ en.DWS }}, attempt to connect to a {{ en.HUBB }} datasource that [enforces biometric lock](\en\hub\kb\hub-business\how-to-articles\biometric-lock.md).
+1. In {{ en.DWS }}, attempt to connect to a {{ en.HUBB }} datasource that [enforces biometric lock](/hub/kb/hub-business/how-to-articles/biometric-lock/).
 1. Click on ***Go to settings***.  
 ![Go to settings](https://cdnweb.devolutions.net/docs/WDAPP0000_2024_2.png)
 1. Enable ***Use master password*** or ***Use biometric lock***.
