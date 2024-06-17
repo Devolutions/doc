@@ -27,6 +27,6 @@ RemoteDesktopManager.enc
 RemoteDesktopManager.enb
 RemoteDesktopManager.bak
 ```
-When replacing `RemoteDesktopManager.cfg`, also replace the encryption files. {{ en.RDM }}'s [Export Setting option](https://docs.devolutions.net/rdm/commands/file/options/export/) ensures that all files related to encryption are included in the exported CFG file, eliminating the need move them manually. This option is located in ***File*** – ***Settings*** – ***Export Settings***.
+When replacing `RemoteDesktopManager.cfg`, also replace the encryption files. {{ en.RDM }}'s [Export Setting](https://docs.devolutions.net/rdm/commands/file/options/export/) option ensures that all files related to encryption are included in the exported CFG file, eliminating the need move them manually. This option is located in ***File*** – ***Settings*** – ***Export Settings***.
 
 ![{{ en.RDM }}'s Export Setting option](https://cdnweb.devolutions.net/docs/RDMW4073_2024_2.png)
