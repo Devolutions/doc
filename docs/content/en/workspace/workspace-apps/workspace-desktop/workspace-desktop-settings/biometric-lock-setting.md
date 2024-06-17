@@ -14,4 +14,4 @@ If the {{ en.HUBB }} datasource has biometric lock enabled, {{ en.DWS }} will re
 ![Use master password](https://cdnweb.devolutions.net/docs/WDAPP0001_2024_2.png)
 * Biometric lock: The {{ en.DWS }} application will need to be unlocked with one of the device's biometry options.
 ![Use biometric lock](https://cdnweb.devolutions.net/docs/WDAPP0002_2024_2.png)
-1. Try connecting to the {{ en.HUBB }} datasource again.
+4. Try connecting to the {{ en.HUBB }} datasource again.
