@@ -29,11 +29,10 @@ eleventyComputed:
     * ***System***: The location and method (i.e. ***Search By Thumbprint***) must be chosen.
 ![External Certificate](https://cdnweb.devolutions.net/docs/HUBB0015_2024_1.png)
 ![System Certificate](https://cdnweb.devolutions.net/docs/DGW0010_2024_1.png)
-8. Change the ***Authentication*** from ***None*** to ***Custom***.
    {% snippet icon.shieldCaution %}
    If a ***Default User*** is not created, the {{ en.DGW_STANDALONE }} web page will be accessible anonymously.
    {% endsnippet %}
-1. Input the credentials for the ***Default User*** and click ***Next***.  
+8. Input the credentials for the ***Default User*** and click ***Next***.  
 ![Default User](https://cdnweb.devolutions.net/docs/DGW0008_2024_1.png)
 1. This screen shows a summary of the current paths/settings. It is possible to go ***Back*** and modify them. If the settings are correct, click ***Next***.  
 ![Gateway setup summary](https://cdnweb.devolutions.net/docs/HUBB0017_2024_1.png)
