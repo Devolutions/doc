@@ -5,6 +5,10 @@ eleventyComputed:
 ---
 Sealed entries can be used in case of emergency. When an attempt is made to access a sealed entry, the system displays a confirmation message to the user, indicating that the entry is protected. Additionally, a notification is sent to the administrators, alerting them of the access attempt.
 
+{% snippet, "badgeInfo" %}
+The sealed entry must be created in a [{{ en.DVLS }} data source](/rdm/concepts/basic-concepts/data-sources/).
+{% endsnippet %}
+
  ### Sealing the entry
 
 1. Go to the entry properties.
