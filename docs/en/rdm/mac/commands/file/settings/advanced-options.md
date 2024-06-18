@@ -1,10 +1,10 @@
 ---
 eleventyComputed:
   title: Advanced
-  description: Use File – Preferences – Advanced to control the behavior of the application with respect to the lower level settings.
+  description: Use File – Settings – Advanced to control the behavior of the application with respect to the lower level settings.
 ---
-Go to ***File – Preferences – Advanced*** to control the behavior of the application with respect to the lower level settings.
-![File – Preferences – Advanced](https://cdnweb.devolutions.net/docs/RDMM4000_2024_1.png)
+Go to ***File – Settings – Advanced*** to control the behavior of the application with respect to the lower level settings.
+![File – Settings – Advanced](https://cdnweb.devolutions.net/docs/RDMM4013_2024_2.png)
 
 ## Settings
 | OPTION     | DESCRIPTION |
@@ -48,4 +48,5 @@ Go to ***File – Preferences – Advanced*** to control the behavior of the app
 | Force “localhost“ when using VPN dynamic port                | Force the use of “localhost“ when using the VPN dynamic port.                |
 | Confirm on multiple sessions open if open count greater than | Select a target number where mass opening sessions will demand confirmation. |
 | Automatically go offline on network change                   | When changing network, {{ en.RDMMAC }} goes in Offline mode.                 |
-| Favor low power GPU                                          | Favor the use of the GPU that requires the least power, if many GPUs are available.
+| Favor low power GPU                                          | Favor the use of the GPU that requires the least power, if many GPUs are available. |
+| Disable timed caches                                         | Disable temporary data storage.                                                     | 

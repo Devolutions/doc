@@ -1,13 +1,13 @@
 ---
 eleventyComputed:
   title: Types
-  description: Use File - Preferences - Types to control settings applied to Session entries.
+  description: Go to File - Settings - Types to control settings applied to Session entries.
 ---
-Use File - Preferences - Types to control settings applied to Session entries.
+Go to ***File*** - ***Settings*** - ***Types*** to control settings applied to Session entries.
 
 ## Settings
 
-![Preferences - Types](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10319.png)
+![Settings - Types](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10319.png)
 
 ### Session Type
 

@@ -4,7 +4,7 @@ eleventyComputed:
   description: Go to File – Settings – Types – Sessions to control the behavior of the application with respect to sessions.
 ---
 Go to ***File – Settings – Types – Sessions*** to control the behavior of the application with respect to sessions.
-![File – Settings – Types – Sessions](https://cdnweb.devolutions.net/docs/RDMW4003_2024_1.png)
+![File – Settings – Types – Sessions](https://cdnweb.devolutions.net/docs/RDMW4069_2024_2.png)
 
 ## Settings
 
@@ -13,7 +13,6 @@ Go to ***File – Settings – Types – Sessions*** to control the behavior of 
 | OPTION                      | DESCRIPTION                                                                                     |
 |-----------------------------|-------------------------------------------------------------------------------------------------|
 | Allow embedded credential source mode (legacy)            | Allow Embedded Credential mode in entries. This mode is deprecated and not recommended. Please review the [Credentials Options](/rdm/windows/commands/edit/entries/entry-credentials-options/) available. |
-| Allow sub entries                                         | Allow the creation of sub entries.         |
 | Automatically open file location after session recording  | After a session recording, it will open the destination folder where the file is saved.        |
 | Disable close all confirmation message  | Disable the Close all confirmation message when closing/disconnecting multiple entries at the same time.           |
 | Disable compromised password (pwned) check                | Disable the pwned check feature if it is not forced by the administrator in ***Administration – System Settings – Password Validation***.    |

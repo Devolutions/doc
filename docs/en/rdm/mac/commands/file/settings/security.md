@@ -3,10 +3,10 @@ eleventyComputed:
   title: Security
   description: Security options in {{ en.RDMMAC }}
 ---
-***Use File*** – ***Preferences*** – ***Security*** to configure the security of the application.
+Go to ***File*** – ***Settings*** – ***Security*** to configure the security of the application.
 
 ## Settings
-![Preferences - Security](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_RDMMac6058.png)
+![Settings - Security](https://cdnweb.devolutions.net/docs/RDMM4015_2024_2.png)
 
 ### Application Security (Local)
 | OPTION                                           | DESCRIPTION                                                                         |
@@ -38,4 +38,5 @@ eleventyComputed:
 ### Other
 | OPTION             | DESCRIPTION                                                           |
 |--------------------|-----------------------------------------------------------------------|
+| Enforce certificate revocation check | Automatically checks against the CRL for revoked certificates |
 | Reset Known Events | Select to reset all ***known events*** configured on session entries. |

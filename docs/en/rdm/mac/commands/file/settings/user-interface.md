@@ -1,13 +1,13 @@
 ---
 eleventyComputed:
   title: User Interface
-  description: Use File – Preferences – User Interface to configure options related to the user interface.
+  description: Go to File – Settings – User Interface to configure options related to the user interface.
 ---
-Use ***File – Preferences – User Interface*** to configure options related to the user interface.
+Go to ***File – Settings – User Interface*** to configure options related to the user interface.
 
 ## Settings
 
-![File – Preferences – User Interface](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_RDMMac2091.png)
+![File – Settings – User Interface](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_RDMMac2091.png)
 
 ### User Interface
 

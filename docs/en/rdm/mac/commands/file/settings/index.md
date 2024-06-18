@@ -1,9 +1,9 @@
 ---
 eleventyComputed:
-  title: Preferences
+  title: Settings
 ---
-There are multiple options available to manage and customize your {{ en.RDMMAC }} in the menu ***File - Preferences***.
-![File - Preferences](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_RDMMac2113.png)
+There are multiple options available to manage and customize your {{ en.RDMMAC }} in the menu ***File - Settings***.
+![File - Settings](https://cdnweb.devolutions.net/docs/RDMM4013_2024_2.png)
 
 Please see the following topics for more information each tab:
 
