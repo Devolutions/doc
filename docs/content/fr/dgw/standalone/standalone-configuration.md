@@ -11,7 +11,7 @@ eleventyComputed:
 ![Suivant](https://cdnweb.devolutions.net/docs/HUBB0010_2024_1.png)
 1. Une fois le chemin d'installation souhaité sélectionné, cliquer sur ***Suivant***.  
 ![Dossier de destination](https://cdnweb.devolutions.net/docs/HUBB0011_2024_1.png)
-1. Activer l'***Interface web de la passerelle***.  
+1. Activer l'***interface web de la passerelle***.  
 ![Interface web de la passerelle](https://cdnweb.devolutions.net/docs/DGW0007_2024_1.png)
    {% snippet icon.badgeInfo %}
    Lire plus sur l'option [ngrok](#ngrok).
@@ -29,11 +29,10 @@ eleventyComputed:
     * ***Système*** : L'emplacement et la méthode (c'est-à-dire ***Recherche par empreinte digitale***) doivent être choisis.
 ![Certificat externe](https://cdnweb.devolutions.net/docs/HUBB0015_2024_1.png)
 ![Certificat système](https://cdnweb.devolutions.net/docs/DGW0010_2024_1.png)
-8. Changer l'***Authentification*** de ***Aucune*** à ***Personnalisée***.
    {% snippet icon.shieldCaution %}
    Si un ***Utilisateur par défaut*** n'est pas créé, la page web {{ fr.DGW_STANDALONE }} sera accessible anonymement.
    {% endsnippet %}
-1. Entrer les identifiants pour l'***Utilisateur par défaut*** et cliquer sur ***Suivant***.  
+8. Entrer les identifiants pour l'***Utilisateur par défaut*** et cliquer sur ***Suivant***.  
 ![Utilisateur par défaut](https://cdnweb.devolutions.net/docs/DGW0008_2024_1.png)
 1. Cet écran montre un résumé des chemins/paramètres actuels. Il est possible de revenir ***En arrière*** et de les modifier. Si les paramètres sont corrects, cliquer sur ***Suivant***.  
 ![Résumé de la configuration de la passerelle](https://cdnweb.devolutions.net/docs/HUBB0017_2024_1.png)
@@ -45,9 +44,9 @@ eleventyComputed:
    Une fois installé, la page web {{ fr.DGW_STANDALONE }} s'ouvrira automatiquement (domaine statique ngrok ou FQDN). Lire plus à ce sujet dans la section [page web](#devolutions-gateway-standalone-web-page).
    {% endsnippet %}
 
-### Page web de {{ fr.DGW_STANDALONE }}
+### Page web {{ fr.DGW_STANDALONE }}
 Ici, vous trouverez une liste de vos sessions sur le côté gauche, et au milieu, une boîte de connexion pour ouvrir une nouvelle connexion.  
-![Page web de {{ fr.DGW_STANDALONE }}](https://cdnweb.devolutions.net/docs/DGW0009_2024_1.png)
+![Page web {{ fr.DGW_STANDALONE }}](https://cdnweb.devolutions.net/docs/DGW0009_2024_1.png)
 1. Se connecter à la page web (si un ***Utilisateur par défaut*** a été créé à l'étape 8 de [Configuration](#configuration)).
 1. Sélectionner le protocole.
 1. Entrer le nom d'hôte et les identifiants.
@@ -58,7 +57,7 @@ Ici, vous trouverez une liste de vos sessions sur le côté gauche, et au milieu
 
 ### ngrok
 {% snippet icon.badgeInfo %}
-Activer à la fois ngrok et l'interface web, désactivera l'option de générer un certificat HTTPS auto-signé car il utilisera le certificat SSL fourni par ngrok. De plus, l'installateur n'affichera pas les options pour configurer les ports.
+Activer à la fois ngrok et l'interface web désactivera l'option de générer un certificat HTTPS auto-signé car elle utilisera le certificat SSL fourni par ngrok. De plus, l'installateur n'affichera pas les options pour configurer les ports.
 {% endsnippet %}
 
   * Utiliser ngrok et l'accès client natif nécessite un abonnement ngrok. Utiliser la version gratuite donne toujours accès à l'interface web et aux connexions RDP, SSH ou Telnet vers des points d'extrémité distants.
