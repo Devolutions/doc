@@ -10,6 +10,7 @@ Sealed entries can be used in case of emergency. When an attempt is made to acce
 1. Go to the properties of the entry.
 1. Click ***Security Settings***.
 1. Select ***Sealed*** under ***Seal State***.
+![Select Sealed under Seal State](https://cdnweb.devolutions.net/docs/DVLS6001_2024_2.png)
 1. Click ***Update*** to save.
 
  ### Access Attempts
