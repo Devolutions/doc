@@ -42,7 +42,13 @@ Once the approver has approved you access, you can go straight to your entry in 
  Users can request access to a credentials entry to view and copy passwords. The process is the same as described above. Once the approver has given you access, you can use the ***View Password***, ***Copy Username***, ***Copy Username and Password*** and ***Copy Password*** buttons.
  ![View Password, Copy Username, Copy Username and Password  and Copy Password buttons](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin6026.png)
  You can also view these buttons by right-clicking on the entry.
-  ![Right-clicking on the entry](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin6216.png)
+ ![Right-clicking on the entry](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin6216.png)
+
+{% snippet, "badgeInfo" %}
+If ***Allow reveal password for administrator and authorized users (<kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Enter</kbd>)*** is unchecked,  users will not be able to access the password. Consequently, the ***Copy Password*** option will not be displayed. Go to the ribbon of {{ en.RDM }} and enable the setting under ***Administration – System settings – Password Policy***. 
+{% endsnippet %}
+
+ ![Adminstration – System settings](https://cdnweb.devolutions.net/docs/RDMW6011.png)
 
 ## Revoke your temporary access
 
