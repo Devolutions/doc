@@ -24,9 +24,9 @@ Visit [Keyboard shortcut customization in {{ en.RDMMAC }}](/rdm/mac/kb/rdm-macos
 
 | NAME              | SHORTCUT                                   |
 |-------------------|--------------------------------------------|
-| Preferences       | <kbd>Cmd</kbd>+<kbd>,</kbd>                |
+| Settings          | <kbd>Cmd</kbd>                             |
 | Hide {{ en.RDM }} | <kbd>Cmd</kbd>+<kbd>H</kbd>                |
-| Hide Others       | <kbd>Alt</kbd>+<kbd>Cmd</kbd>+<kbd>H</kbd> |
+| Others            | <kbd>Alt</kbd>+<kbd>Cmd</kbd>+<kbd>H</kbd> |
 | Quit              | <kbd>Cmd</kbd>+<kbd>Q</kbd>                |
 
 ### File
@@ -58,7 +58,7 @@ Visit [Keyboard shortcut customization in {{ en.RDMMAC }}](/rdm/mac/kb/rdm-macos
 | NAME              | SHORTCUT                                    |
 |-------------------|---------------------------------------------|
 | Show Toolbar      | <kbd>Alt</kbd>+<kbd>Cmd</kbd>+<kbd>T</kbd>  |
-| Hide Navigation   | <kbd>Cmd</kbd>+<kbd>N</kbd>                 |
+| Show Navigation   | <kbd>Cmd</kbd>+<kbd>N</kbd>                 |
 | Actual Size       | <kbd>Cmd</kbd>+<kbd>0</kbd>                 |
 | Zoom In           | <kbd>Cmd</kbd>+<kbd>+</kbd>                 |
 | Zoom Out          | <kbd>Cmd</kbd>+<kbd>-</kbd>                 |
