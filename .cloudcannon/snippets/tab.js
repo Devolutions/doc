@@ -27,7 +27,24 @@ module.exports = {
     },
     _inputs: {
       content: {
-        type: "markdown"
+        type: "markdown",
+        options: {
+          bold: true,
+          format: "p h2 h3 h4 h5 h6",
+          italic: true,
+          link: true,
+          bulletedlist: true,
+          indent: true,
+          numberedlist: true,
+          outdent: true,
+          code: true,
+          horizontalrule: true,
+          image: true,
+          table: true,
+          undo: true,
+          redo: true,
+          snippet: true
+        }
       },
       label: {
         type: "select",
