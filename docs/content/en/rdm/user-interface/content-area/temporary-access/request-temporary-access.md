@@ -48,7 +48,7 @@ Once the approver has approved you access, you can go straight to your entry in 
 If ***Allow reveal password for administrator and authorized users (<kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Enter</kbd>)*** is unchecked,  users will not be able to access the password. Consequently, the ***Copy Password*** option will not be displayed. Go to the ribbon of {{ en.RDM }} and enable the setting under ***Administration – System settings – Password Policy***. 
 {% endsnippet %}
 
- ![Adminstration – System settings – Password Policy](https://cdnweb.devolutions.net/docs/RDMW6011.png)
+ ![Adminstration – System settings – Password Policy](https://cdnweb.devolutions.net/docs/RDMW6008_2024_2.png)
 
 ## Revoke your temporary access
 

@@ -48,7 +48,7 @@ Vous pouvez également voir ces boutons en cliquant avec le bouton droit sur l'e
 Si ***Permettre de révéler le mot de passe pour l'administrateur et les utilisateurs autorisés (<kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Entrée</kbd>)*** n'est pas coché, les utilisateurs ne pourront pas accéder au mot de passe. Par conséquent, l'option ***Copier le Mot de Passe*** ne sera pas affichée. Aller dans le ruban de {{ fr.RDM }} et activer le paramètre sous ***Administration – Paramètres système – Politique de mot de passe***.
 {% endsnippet %}
 
-![Administration – Paramètres système – Politique de mot de passe](https://cdnweb.devolutions.net/docs/RDMW6011.png)
+![Administration – Paramètres système – Politique de mot de passe](https://cdnweb.devolutions.net/docs/RDMW6008_2024_2.png)
 
 ## Révoquer votre accès temporaire
 
