@@ -3,7 +3,7 @@ eleventyComputed:
   title: Sealed entries 
   description: When an attempt is made to access a sealed entry, the system displays a confirmation message to the user, indicating that the entry is protected.
 ---
-Sealed entries can be used in case of emergency. When an attempt is made to access a sealed entry, the system displays a confirmation message to the user, indicating that the entry is protected. Additionally, a notification is sent to the administrators, alerting them of the access attempt.
+Sealed entries protect sensitive information from being accessed by users with higher privileges and can be used in case of emergency. When an attempt is made to access a sealed entry, the system displays a confirmation message to the user, indicating that the entry is protected. Additionally, a notification is sent to the administrators, alerting them of the access attempt.
 
 {% snippet, "badgeInfo" %}
 The sealed entry must be created in a [{{ en.DVLS }} data source](/rdm/concepts/basic-concepts/data-sources/).
