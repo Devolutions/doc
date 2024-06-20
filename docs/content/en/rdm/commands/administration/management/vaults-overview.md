@@ -108,7 +108,7 @@ Follow the steps below to assign ***Users*** and ***Roles*** to a {{ en.VLT }}.
 
 ### Organize {{ en.VLT }}s with Business units
 
-{{ en.VLT_MAJ }}s can be organized into ***Business units***, improving efficiency and reducing search time. ***Business Units*** are only available for a SQL Server data source.
+{{ en.VLT_MAJ }}s can be organized into ***Business units***, improving efficiency and reducing search time. ***Business units***, which can be generated through [reports](/rdm/commands/reports/) and listed as [***activity logs***](/rdm/commands/reports/activity-logs/), are only available for SQL Server and SQL Azure data sources.
 
 1. Select ***Business units*** in the ribbon of {{ en.RDM }}.
 ![Business units](https://cdnweb.devolutions.net/docs/RDMW6002_2024_2.png)
@@ -119,8 +119,6 @@ Follow the steps below to assign ***Users*** and ***Roles*** to a {{ en.VLT }}.
 1. Click ***OK*** to save.
 1. The ***Business units*** are displayed in the {{ en.VLT }} selector. 
 ![Business units are displayed in the {{ en.VLT }} selector](https://cdnweb.devolutions.net/docs/RDMW6003_2024_2.png)
-
-***Business units*** are also listed in the [***Activity logs***](/rdm/commands/reports/activity-logs/). 
 
 ### Create and use {{ en.VLT }} shortcuts
 

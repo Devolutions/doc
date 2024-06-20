@@ -3,7 +3,7 @@ eleventyComputed:
   title: "{{ fr.VLT_MAJ }}s aperçu"
   description: "{{ fr.VLT_MAJ }}s sont des conteneurs qui organisent vos dossiers et entrées. Ils aident à diviser vos Sources de Données Avancées en plusieurs compartiments."
 ---
-{{ fr.VLT_MAJ }}s sont des conteneurs qui organisent vos dossiers et entrées. Ils aident à diviser vos ***Sources de Données Avancées*** en plusieurs compartiments. {{ fr.VLT_MAJ }}s améliorent la sécurité et l'expérience utilisateur de {{ fr.RDM }}, ainsi que sa performance en limitant la quantité d'entrées qui se chargent en même temps.
+{{ fr.VLT_MAJ }}s sont des conteneurs qui organisent vos dossiers et entrées. Ils aident à diviser vos ***Sources de Données Avancées*** en plusieurs compartiments. {{ fr.VLT_MAJ }}s améliorent la sécurité et l'expérience utilisateur de {{ fr.RDM }}, ainsi que sa performance en limitant la quantité d'entrées qui se chargent en une fois.
 
 {% snippet, "badgeHelp" %}
 Pour apprendre sur les différents types de {{ fr.VLT }} et les moyens d'y accéder, visitez [{{ fr.VLT_MAJ }}s](/rdm/windows/commands/view/panels/vault/).
@@ -23,35 +23,35 @@ Ce sujet couvre les éléments suivants :
 Suivre les étapes ci-dessous pour apprendre comment créer un nouveau {{ fr.VLT }}.
 
 {% snippet, "shieldNotice" %}
-Pour des raisons de sécurité et de performance, nous recommandons de créer un {{ fr.VLT }} différent pour chaque client et/ou département, selon votre utilisation de {{ fr.RDM }}.
+Pour des raisons de sécurité et de performance, nous recommandons de créer un différent {{ fr.VLT }} pour chaque client et/ou département, selon comment vous utilisez {{ fr.RDM }}.
 {% endsnippet %}
 
-1. Dans le ***Ruban***, aller à ***Administration – Gestion – {{ fr.VLT_MAJ }}s***.
+1. Dans le ***Ribbon***, aller à ***Administration – Gestion – {{ fr.VLT_MAJ }}s***.
 ![Administration – Gestion – {{ fr.VLT_MAJ }}s](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip11300.png)
    {% snippet, "badgeHelp" %}
-   Si vous utilisez une source de données {{ fr.DVLS }} ou {{ fr.DHUBB }}, la gestion des {{ fr.VLT }} se fait dans leurs interfaces web respectives. Pour plus d'informations, consulter soit [{{ fr.DVLS }} {{ fr.VLT }}s](/server/web-interface/administration/security-management/vaults/) ou [{{ fr.DHUB }} {{ fr.VLT }}s](/hub/web-interface/administration/management/vaults/).
+   Si vous utilisez une source de données {{ fr.DVLS }} ou {{ fr.DHUBB }}, la gestion de {{ fr.VLT }} se fait dans leurs interfaces web respectives. Pour plus d'informations, consulter soit [{{ fr.DVLS }} {{ fr.VLT }}s](/server/web-interface/administration/security-management/vaults/) ou [{{ fr.DHUB }} {{ fr.VLT }}s](/hub/web-interface/administration/management/vaults/).
    {% endsnippet %}
 
 1. Dans la fenêtre ***Gestion des utilisateurs et de la sécurité***, sélectionner l'onglet ***{{ fr.VLT_MAJ }}s***, puis cliquer sur ***Ajouter {{ fr.VLT }}***.
 ![Ajouter {{ fr.VLT }}](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip10739.png)
-1. Choisir un [type de contenu {{ fr.VLT }}](/rdm/user-interface/customization/vault-types) (par défaut, entreprise, secrets ou identifiants). Les types de contenu {{ fr.VLT_MAJ }} limitent les types d'entrées qui peuvent être créés dans ce {{ fr.VLT }} spécifique.
+1. Choisir un [type de contenu {{ fr.VLT }}](/rdm/user-interface/customization/vault-types) (par défaut, entreprise, secrets, ou identifiants). Les types de contenu {{ fr.VLT_MAJ }} limitent les types d'entrées qui peuvent être créés dans ce {{ fr.VLT }} spécifique.
 ![Choisir le type de {{ fr.VLT }}](https://cdnweb.devolutions.net/docs/RDMW2053_2024_2.png)
 1. Dans l'onglet ***Général***, un ***ID*** est généré automatiquement. Entrer un ***Nom*** (obligatoire) et une ***Description*** (facultatif) pour votre nouveau {{ fr.VLT }}.
-La configuration ***Visibilité*** détermine si ce {{ fr.VLT }} spécifique est visible pour tous les utilisateurs (public) ou seulement pour les utilisateurs ayant accès au {{ fr.VLT }} (privé). Elle est réglée sur le paramètre par défaut, qui peut être modifié dans ***Administration – Paramètres système – Gestion des {{ fr.VLT_MAJ }} – {{ fr.VLT_MAJ }}***.
+La configuration ***Visibilité*** détermine si ce {{ fr.VLT }} spécifique est visible pour tous les utilisateurs (public) ou seulement pour les utilisateurs qui ont accès au {{ fr.VLT }} (privé). Elle est réglée sur le paramètre par défaut, qui peut être modifié dans ***Administration – Paramètres du système – Gestion des {{ fr.VLT_MAJ }}s – {{ fr.VLT_MAJ }}***.
 Le {{ fr.VLT }} peut être créé dès qu'un ***Nom*** a été spécifié, mais d'autres options sont disponibles. Elles sont présentées à l'étape suivante.
 
    {% snippet, "badgeInfo" %}
-   Pour utiliser un modèle {{ fr.VLT }} existant, le sélectionner dans la liste déroulante ***Modèle***. Contrairement aux autres paramètres, celui-ci ne peut pas être configuré ultérieurement car il change la manière dont le {{ fr.VLT }} est créé. Apprendre sur [***Modèles***](/rdm/windows/commands/file/templates/) avant de décider.
+   Pour utiliser un modèle de {{ fr.VLT }} existant, le sélectionner dans la liste déroulante ***Modèle***. Contrairement aux autres paramètres, celui-ci ne peut pas être configuré ultérieurement car il change la manière dont le {{ fr.VLT }} est créé. Apprendre sur [***Modèles***](/rdm/windows/commands/file/templates/) avant de décider.
 
    L'option ***Permettre hors ligne*** est activée par défaut. Si elle est désactivée, le nouveau {{ fr.VLT }} ne pourra pas être utilisé en [mode Hors ligne](/rdm/windows/data-sources/offline-mode/). Ce paramètre peut encore être modifié après la création du {{ fr.VLT }} en revenant à ***Administration – Gestion – {{ fr.VLT_MAJ }}s***, en sélectionnant le {{ fr.VLT }} à modifier et en cliquant sur ***Modifier les paramètres du {{ fr.VLT }}***.
    {% endsnippet %}
 
-   ![Gestion des {{ fr.VLT_MAJ }} – Général](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin2161.png)
+   ![Gestion des {{ fr.VLT_MAJ }}s – Général](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin2161.png)
 
-1. Facultatif : Les options ***Utilisateurs et Groupes d'utilisateurs***, ***Sécurité***, et ***Propriétaires des {{ fr.VLT_MAJ }}*** sont disponibles dans les autres onglets du menu de gauche. Les configurer selon vos besoins maintenant, ou le faire plus tard en revenant à ***Administration – Gestion – {{ fr.VLT_MAJ }}s***, en sélectionnant le {{ fr.VLT }} à modifier et en cliquant sur ***Modifier les paramètres du {{ fr.VLT }}***.
+1. Facultatif : Les options ***Utilisateurs et Groupes d'utilisateurs***, ***Sécurité***, et ***Propriétaires du {{ fr.VLT_MAJ }}*** sont disponibles dans les autres onglets du menu de gauche. Les configurer selon vos besoins maintenant, ou le faire plus tard en revenant à ***Administration – Gestion – {{ fr.VLT_MAJ }}s***, en sélectionnant le {{ fr.VLT }} à modifier et en cliquant sur ***Modifier les paramètres du {{ fr.VLT }}***.
     * ***Utilisateurs et Groupes d'utilisateurs*** : Choisir quels ***Utilisateurs*** et ***Groupes d'utilisateurs*** auront accès au {{ fr.VLT }} en les cochant/décochant. Pour des raisons de sécurité, les administrateurs ont toujours accès.
-    * ***Sécurité*** : Spécifier un ***Mot de passe maître*** pour l'accès au {{ fr.VLT }} et indiquer si l'ancien mot de passe doit être demandé lors de l'écrasement du mot de passe.
-    * ***Propriétaires des {{ fr.VLT_MAJ }}*** : Sélectionner des groupes d'utilisateurs ou des utilisateurs pour être propriétaires de ce {{ fr.VLT }}, ce qui signifie qu'ils peuvent gérer ce {{ fr.VLT }} spécifique sans avoir accès à l'administration de la source de données.
+    * ***Sécurité*** : Spécifier un ***Mot de passe maître*** pour l'accès au {{ fr.VLT }} et indiquer si l'ancien mot de passe doit être demandé lors de la réécriture du mot de passe.
+    * ***Propriétaires du {{ fr.VLT_MAJ }}*** : Sélectionner des groupes d'utilisateurs ou des utilisateurs pour être propriétaires de ce {{ fr.VLT }}, ce qui signifie qu'ils peuvent gérer ce {{ fr.VLT }} spécifique sans avoir accès à l'administration de la source de données.
 
 1. Cliquer sur ***OK*** lorsque terminé.
 1. Le nouveau {{ fr.VLT }} apparaîtra dans la fenêtre ***Gestion des utilisateurs et de la sécurité***. Vous pouvez ***Fermer*** cette vue pour accéder au {{ fr.VLT }} depuis le ***{{ fr.NPANE }}***.
@@ -59,7 +59,7 @@ Le {{ fr.VLT }} peut être créé dès qu'un ***Nom*** a été spécifié, mais 
 
 ### Naviguer entre les {{ fr.VLT }}s
 
-Dans le ***{{ fr.NPANE }}***, vous pouvez utiliser le sélecteur de {{ fr.VLT }} pour passer d'un {{ fr.VLT }} à l'autre.
+Dans le ***{{ fr.NPANE }}***, vous pouvez utiliser le sélecteur de {{ fr.VLT }} pour vous déplacer entre les {{ fr.VLT }}s.
 ![{{ fr.NPANE }} Sélecteur de {{ fr.VLT }}](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip3602.png)
 Vous pouvez changer l'emplacement du sélecteur de {{ fr.VLT }} dans ***Fichier – Paramètres – Interface utilisateur – {{ fr.VLT_MAJ }}s – Emplacement du {{ fr.VLT_MAJ }}***. Par défaut, le sélecteur est en bas du ***{{ fr.NPANE }}***.
 ![Fichier – Paramètres – Interface utilisateur – {{ fr.VLT_MAJ }}s – Emplacement du {{ fr.VLT_MAJ }}](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin2141.png)
@@ -67,7 +67,7 @@ Vous pouvez changer l'emplacement du sélecteur de {{ fr.VLT }} dans ***Fichier 
 ### Déplacer des entrées vers un autre {{ fr.VLT }}
 
 1. Dans le ***{{ fr.NPANE }}***, aller au {{ fr.VLT }} dont vous voulez transférer des entrées.
-1. Dans le ***Ruban***, aller à ***Modifier – Lot – Déplacer vers {{ fr.VLT }}***.
+1. Dans le ***Ribbon***, aller à ***Modifier – Lot – Déplacer vers {{ fr.VLT }}***.
 ![Modifier – Lot – Déplacer vers {{ fr.VLT }}](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip7030.png)
 1. Sélectionner le {{ fr.VLT }} vers lequel vous voulez déplacer des entrées, puis cliquer sur ***Suivant***.
 ![Sélection du {{ fr.VLT }} de Destination](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip7031.png)
@@ -85,10 +85,10 @@ Vos entrées sélectionnées peuvent maintenant être trouvées dans le {{ fr.VL
 
 Suivre les étapes ci-dessous pour assigner ***Utilisateurs*** et ***Rôles*** à un {{ fr.VLT }}.
 
-1. Dans le ***Ruban***, aller à ***Administration – Gestion – {{ fr.VLT_MAJ }}s***.
+1. Dans le ***Ribbon***, aller à ***Administration – Gestion – {{ fr.VLT_MAJ }}s***.
    ![Administration – Gestion – {{ fr.VLT_MAJ }}s](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip11300.png)
    {% snippet, "badgeInfo" %}
-   Si vous utilisez une source de données {{ fr.DVLS }} ou {{ fr.DHUBB }}, la gestion des {{ fr.VLT }} se fait dans leurs interfaces web respectives. Pour plus d'informations, consulter soit [{{ fr.DVLS }} {{ fr.VLT }}s](/server/web-interface/administration/security-management/vaults/) ou [{{ fr.DHUB }} {{ fr.VLT }}s](/hub/web-interface/administration/management/vaults/).
+   Si vous utilisez une source de données {{ fr.DVLS }} ou {{ fr.DHUBB }}, la gestion de {{ fr.VLT }} se fait dans leurs interfaces web respectives. Pour plus d'informations, consulter soit [{{ fr.DVLS }} {{ fr.VLT }}s](/server/web-interface/administration/security-management/vaults/) ou [{{ fr.DHUB }} {{ fr.VLT }}s](/hub/web-interface/administration/management/vaults/).
    {% endsnippet %}
 
 1. Dans la fenêtre ***Gestion des utilisateurs et de la sécurité***, sélectionner l'onglet ***{{ fr.VLT_MAJ }}s***, puis cliquer sur ***Assigner Utilisateurs et Rôles***.
@@ -108,7 +108,7 @@ Suivre les étapes ci-dessous pour assigner ***Utilisateurs*** et ***Rôles*** �
 
 ### Organiser les {{ fr.VLT }}s avec des unités d'affaires
 
-Les {{ fr.VLT_MAJ }}s peuvent être organisés en ***Unités d'affaires***, améliorant l'efficacité et réduisant le temps de recherche. ***Les Unités d'affaires*** sont uniquement disponibles pour une source de données SQL Server.
+Les {{ fr.VLT_MAJ }}s peuvent être organisés en ***Unités d'affaires***, améliorant l'efficacité et réduisant le temps de recherche. Les ***Unités d'affaires***, qui peuvent être générées à travers des [rapports](/rdm/commands/reports/) et listées comme [***journaux d'activité***](/rdm/commands/reports/activity-logs/), sont uniquement disponibles pour les sources de données SQL Server et SQL Azure.
 
 1. Sélectionner ***Unités d'affaires*** dans le ruban de {{ fr.RDM }}.
 ![Unités d'affaires](https://cdnweb.devolutions.net/docs/RDMW6002_2024_2.png)
@@ -119,8 +119,6 @@ Les {{ fr.VLT_MAJ }}s peuvent être organisés en ***Unités d'affaires***, amé
 1. Cliquer sur ***OK*** pour sauvegarder.
 1. Les ***Unités d'affaires*** sont affichées dans le sélecteur de {{ fr.VLT }}.
 ![Les Unités d'affaires sont affichées dans le sélecteur de {{ fr.VLT }}](https://cdnweb.devolutions.net/docs/RDMW6003_2024_2.png)
-
-***Les Unités d'affaires*** sont également listées dans les [***Journaux d'activité***](/rdm/commands/reports/activity-logs/).
 
 ### Créer et utiliser des raccourcis de {{ fr.VLT }}
 
@@ -135,7 +133,7 @@ Si vous avez accès à plusieurs {{ fr.VLT }}s, vous pouvez créer des raccourci
 Suivre les étapes ci-dessous pour créer une entrée ***{{ fr.VLT_MAJ }} (Raccourci)***.
 
 1. Dans le ***{{ fr.NPANE }}***, aller à la source de données et au {{ fr.VLT }} dans lequel vous voulez créer votre raccourci.
-1. Dans le ***Ruban***, aller à ***Modifier – Ajouter – Nouvelle Entrée***.
+1. Dans le ***Ribbon***, aller à ***Modifier – Ajouter – Nouvelle Entrée***.
 ![Modifier – Ajouter – Nouvelle Entrée](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin2142.png)
 1. Dans l'onglet ***Divers***, sélectionner l'entrée de session ***{{ fr.VLT_MAJ }} (Raccourci)***, puis cliquer sur ***OK***.
 ![Divers – {{ fr.VLT_MAJ }} (Raccourci)](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip7037.png)
@@ -143,4 +141,4 @@ Suivre les étapes ci-dessous pour créer une entrée ***{{ fr.VLT_MAJ }} (Racco
 ![Nom et Dossier](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin2143.png)
 1. Utiliser le bouton ellipsis à côté du champ ***ID du {{ fr.VLT_MAJ }}*** pour trouver le {{ fr.VLT }}. Dans la fenêtre ***Sélectionner {{ fr.VLT }}***, vous pouvez utiliser le champ ***Recherche*** pour vous aider à le trouver.
 ![Sélectionner {{ fr.VLT }}](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip7039.png)
-1. Entrer un chemin de ***Dossier*** dans le champ correspondant pour créer un raccour
+1. Entr
