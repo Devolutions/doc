@@ -16,9 +16,9 @@
   }
 
   .dwd-search-button {
-    background-color: #ffffff;
-    color: rgba(0, 0, 0, .6);
-    border-color: #ffffff;
+    background-color: var(--background-color);
+    color: var(--primary-text-lighter);
+    border-color: var(--background-color);
     font-size: 18px;
     margin-left: auto;
     margin-right: auto;
@@ -31,8 +31,8 @@
     }
 
     &:hover {
-      color: rgba(0, 0, 0, .87);
-      border-color: rgba(0, 0, 0, .87);
+      color: var(--primary-text-lighter-hover);
+      border-color: var(--primary-text-lighter-hover);
     }
   }
 

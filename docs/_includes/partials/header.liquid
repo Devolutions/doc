@@ -41,7 +41,7 @@
         <button class="px-1.5 uppercase hover:text-white" aria-label="Open language selection" data-dwd-dropdown data-dwd-dropdown-target="Open language selection" data-dwd-dropdown-group="dwd-header">
           {{- lang -}}
         </button>
-        <div class="absolute z-50 bg-white text-black p-2.5 right-0 top-full shadow-xl" data-dwd-dropdown-target="Open language selection" data-dwd-dropdown-group="dwd-header" hidden>
+        <div class="bg-color box-shadow-12-50 text-color absolute z-50 p-2.5 left-0 top-full" data-dwd-dropdown-target="Open language selection" data-dwd-dropdown-group="dwd-header" hidden>
           <div class="flex flex-col">
             {%- for item in locale -%}
               {%- if item[0] != lang and page.url -%}
@@ -51,8 +51,11 @@
               {%- endif -%}
             {%- endfor -%}
           </div>
-        </div>
+        </div> 
       </div>
+      <button id="theme-button" class="px-1.5 uppercase hover:text-white" aria-label="Switch theme">
+          <span id="dark-icon" style="display: none;">{{ icons.dark }}</span><span id="light-icon" style="display: none;">{{ icons.light }}</span>
+      </button>
     </nav>
   </div>
 </header>

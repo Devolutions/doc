@@ -62,7 +62,7 @@ layout: 'layouts/base.liquid'
         {{ content }}
       </div>
 
-      <a class="flex items-center mt-4 p-1.5 w-fit border border-black font-semibold hover:bg-neutral-200" aria-label="Send feedback about this page" data-bi-name="create-issue-on-github" href="https://github.com/Devolutions/doc/issues/new?template=feedback.yml&title={{- '[Feedback]: ' | encodeURIComponent -}}&feedback={{- feedbackBody | encodeURIComponent -}}" target="_blank">
+      <a class="flex items-center mt-4 p-1.5 w-fit border border-black font-semibold hover:bg-neutral-200 dark:hover:bg-neutral-700 dark:border-white" aria-label="Send feedback about this page" data-bi-name="create-issue-on-github" href="https://github.com/Devolutions/doc/issues/new?template=feedback.yml&title={{- '[Feedback]: ' | encodeURIComponent -}}&feedback={{- feedbackBody | encodeURIComponent -}}" target="_blank">
         {{- icons.github -}}
         <span class="ml-1.5 text-base/4">{{- locale[lang].labelFeedbackButton -}}</span>
       </a>

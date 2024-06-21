@@ -45,7 +45,7 @@
             {%- for iconProject in projects -%}
               {%- if iconProject[1].os != null and project.formattedName == "<b>Remote Desktop</b> Manager" -%}
                 <a class="sub-header-icons {{ project.os == iconProject[1].os | if :'active' }}" href="{{- iconProject[1].url -}}">
-                  {{- icons[iconProject.os] -}}
+                  {{- icons[iconProject[1].os] -}}
                 </a>
               {%- endif -%}
             {%- endfor -%}

@@ -1,5 +1,5 @@
 .navigation {
-  background-color: #f5f5f5;
+  background-color: var(--background-shaded);
   border-right: 1px solid rgba(0, 0, 0, 0.12);
   box-shadow: -2px 0 10px -1px rgba(0, 0, 0, 0.05) inset;
   display: flex;
@@ -77,7 +77,8 @@
     align-items: center;
     background-color: transparent;
     border: none;
-    color: rgba(0, 0, 0, 0.8);
+    color: var(--primary-text);
+    opacity: 0.8;
     cursor: pointer;
     display: flex;
     font-size: 14px;
@@ -88,10 +89,11 @@
     width: 100%;
 
     &:hover {
-      color: #000000;
+      color: var(--primary-text);
+      opacity: 1; 
 
       & + .expand-more {
-        background-color: #f5f5f5;
+        background-color: var(--background-shaded);
       }
     }
 
@@ -103,10 +105,10 @@
     }
 
     &.active {
-      background-color: #f5f5f5;
+      background-color: var(--background-shaded);
 
       + .expand-more {
-        background-color: #f5f5f5;
+        background-color: var(--background-shaded);
       }
 
       & + .expand-more {
@@ -119,6 +121,7 @@
     &.current {
       color: var(--primary);
       font-weight: 600;
+      opacity: 1; 
     }
 
     & + .expand-more {
@@ -135,7 +138,7 @@
     overflow: hidden;
 
     &.active {
-      background-color: #f5f5f5;
+      background-color: var(--background-shaded);
       height: auto;
 
     }

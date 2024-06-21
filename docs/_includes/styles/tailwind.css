@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@use 'variables' as *;
 
 @layer base {
   svg {
@@ -27,5 +28,17 @@
 
   .prose ol {
     @apply list-outside list-decimal pl-8
+  }
+
+  .bg-color {
+    background-color: var(--background-color);
+  }
+
+  .box-shadow-12-50 {
+    box-shadow: 0 12px 50px 0 var(--background-darker-shadow);
+  }
+
+  .text-color {
+    color: var(--primary-text);
   }
 }

@@ -1,5 +1,5 @@
 .dwd-sub-header-container {
-  background-color: #f5f5f5;
+  background-color: var(--background-shaded);
   border-bottom: 1px solid rgba(0, 0, 0, 0.12);
   display: flex;
   height: var(--header-height);
@@ -7,7 +7,7 @@
 
 .dwd-sub-header {
   align-items: center;
-  background-color: #f5f5f5;
+  background-color: var(--background-shaded);
   border-bottom: 1px solid rgba(0, 0, 0, 0.12);
   display: flex;
   height: var(--header-height);
@@ -62,8 +62,12 @@
 
           &.active,
           &:hover {
-            background-color: #ffffff;
+            background-color: var(--background-color);
             box-shadow: 0px 12px 50px #00000029;
+          }
+
+          .dvl-icon-arrow-down-medium {
+            color: var(--primary-text);
           }
         }
 
@@ -75,16 +79,16 @@
       .dropdown-content {
         display: none;
         position: absolute;
-        background-color: white;
+        background-color: var(--background-color);
         box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
         width: 328px;
 
         .topics-container {
           display: flex;
-          border-top: 3px solid #f9f9f9;
+          border-top: 3px solid var(--background-light);
 
           &:hover {
-            background-color: #f9f9f9;
+            background-color: var(--background-light);
           }
         }
 
@@ -111,7 +115,7 @@
             padding: 0 10px;
 
             &:hover {
-              background-color: #F9F9F9;
+              background-color: var(--background-light);
             }
           }
         }
@@ -142,10 +146,11 @@
     }
     .dwd-rdm-icons {
       flex-shrink: 0;
+      display: flex; 
       .sub-header-icons {
         padding: 5px;
         svg {
-          fill: #000;
+          fill: var(--primary-text);
 
         }
         &.active {

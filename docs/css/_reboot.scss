@@ -19,7 +19,7 @@ body {
 
 body {
   overflow-y: scroll;
-  background-color: #fff;
+  background-color: var(--background-color);
 }
 
 *,
@@ -57,7 +57,7 @@ h5,
 .h5,
 h6,
 .h6 {
-  color: #000000;
+  color: var(--primary-text);
   font-family: $font-family-title;
   font-weight: $font-weight-title;
   letter-spacing: -0.02em;
