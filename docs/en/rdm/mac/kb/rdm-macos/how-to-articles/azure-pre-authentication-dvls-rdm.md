@@ -46,11 +46,11 @@ Any changes made may take 3-5 minutes to take effect. Be aware of that when test
 1. Enter the app registration name and leave all other values by default.
 ![New app registration name](https://cdnweb.devolutions.net/docs/INTERFACE4007.png)
 1. Next, head to ***Microsoft Entra ID*** – ***Enterprise applications***. Click on the newly created app registration, go to ***Application Proxy***, and fill the following required fields: 
-- **Internal URL**: This is the root of the IIS server hosting the DVLS.
+- **Internal URL**: This is the root of the IIS server hosting the DVLS (generally http://localhost/dvls or similar).
 - **External URL**: Defaults to the app registration name.
 - **Pre Authentication**: Set to Microsoft Entra ID.
 - **Connector Group**: The connector group to target.
-![App proxy information – Basic](https://cdnweb.devolutions.net/docs/INTERFACE4008.png)
+![App proxy information – Basic](https://cdnweb.devolutions.net/docs/INTERFACE4034.png)
 4. Next, navigate to the ***Advanced*** tab. Ensure that all options are unchecked or set to default, excepted ***Validate Backend SSL certificate*** which can be left on if needed.
 ![App proxy information – Advanced](https://cdnweb.devolutions.net/docs/INTERFACE4009.png)
 5. Go back to ***Microsoft Entra ID*** – ***App registrations***, and click on the application to configure. If the app is not listed, it may be necessary to click on ***All applications*** to access it as the view is set to **Owned applications** by default.
@@ -61,7 +61,7 @@ Any changes made may take 3-5 minutes to take effect. Be aware of that when test
 8. With the first platform added, click the ***Add a platform*** button once more and choose ***Single-page application***. Enter the ***Redirect URI***, which should be the same as the ***External URL***, with the following appended to the end: `/dvls/api/external-provider-response` (replace the /dvls/ with the URL of the desired {{ en.DVLS }} instance). Finally, click ***Configure*** to continue.
 ![Configuring single-page application platform](https://cdnweb.devolutions.net/docs/INTERFACE4016.png)
 9. With the second platform added, click the ***Add a platform*** button once more and choose ***Mobile and desktop applications***. Enter <ins>http://localhost</ins> exactly in the ***Custom redirect URIs*** field. Leave all other values unchecked (if there are any) and click the ***Configure*** button.
-![Configuring Desktop + devices platform](https://cdnweb.devolutions.net/docs/INTERFACE4013.png)
+![Configuring Desktop + devices platform](https://cdnweb.devolutions.net/docs/INTERFACE4033.png)
 10. With the three platforms created, scroll to the bottom of the ***Authentication*** page and toggle ***Allow public client flows*** before clicking on ***Save***.
 ![Allowing public client flows](https://cdnweb.devolutions.net/docs/INTERFACE4017.png)
 11. Now go to ***API permissions*** and click the ***Add a permission*** button.
@@ -70,9 +70,9 @@ Any changes made may take 3-5 minutes to take effect. Be aware of that when test
 ![Add User.Read permission](https://cdnweb.devolutions.net/docs/INTERFACE4019.png)
 13. Click on the ***Grant admin consent for tenant*** button and confirm by clicking ***Yes***.
 ![Grant admin consent for tenant](https://cdnweb.devolutions.net/docs/INTERFACE4020.png)
-14. Next, navigate to ***Expose an API*** and click on ***Add*** next to ***Application ID URI***. Then enter the same URI as the ***External URL*** of your ***Application Proxy***.
+14. Next, navigate to ***Expose an API*** and click on ***Add*** next to ***Application ID URI***. Then enter the same URI as the ***External URL*** of your ***Application Proxy***, and add the base URI.
 ![Add application ID URI – step 1](https://cdnweb.devolutions.net/docs/INTERFACE4022.png)
-![Add application ID URI – step 2](https://cdnweb.devolutions.net/docs/INTERFACE4023.png)
+![Add application ID URI – step 2](https://cdnweb.devolutions.net/docs/INTERFACE4035.png)
 15. Click on ***Add a scope*** and enter the following:
 - **Scope name**: user_impersonation
 - **Who can consent**: Admins and users
