@@ -6,7 +6,7 @@ eleventyComputed:
 
 ## Minimum requirements 
 
-* Operating system: macOS Catalina (10.15) 
+* Operating system: macOS Big Sur (11) 
 * Processor: 1 GHz 
 * RAM: 4 GB 
 * Screen resolution: 1440 x 900 px 
