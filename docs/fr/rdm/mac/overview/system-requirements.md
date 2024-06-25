@@ -6,7 +6,7 @@ eleventyComputed:
 
 ## Exigences minimales
 
-* Système d'exploitation : macOS Catalina (10.15)
+* Système d'exploitation : macOS Big Sur (11) 
 * Processeur : 1 GHz
 * RAM : 4 Go
 * Résolution d'écran : 1440 x 900 px
