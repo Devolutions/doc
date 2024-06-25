@@ -13,13 +13,13 @@ Configurer Azure et {{ fr.DVLS }} correctement pour utiliser l'authentification 
 1. Pour simplifier les étapes de configuration et pour copier et coller facilement tous les paramètres requis, veuillez avoir le Portail Azure et l'interface web de {{ fr.DVLS }} ouverts côte à côte dans ***Administration – Paramètres du serveur – Authentification – Authentification Microsoft***.
 1. Une fois connecté, aller à ***Azure Active Directory – Propriétés***.
 1. Cliquer sur le bouton ***Copier dans le presse-papiers*** à côté de la propriété ***Tenant ID***.
-![Copier le Tenant ID](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4401.png)
+![Copier le Tenant ID](https://cdnweb.devolutions.net/docs/INTERFACE2037.png)
 1. Coller cette valeur dans le champ ***Tenant ID*** de la page de configuration ***Authentification Microsoft*** de {{ fr.DVLS }}.
    {% snippet, "badgeInfo" %}
    L'option ***Utiliser un client ID spécifique pour les utilisateurs et le cache des groupes d'utilisateurs*** ne doit être cochée que pour prendre en charge les configurations lors de la migration d'une version antérieure de {{ fr.DVLS }}.
    {% endsnippet %}
 
-   ![Coller le Tenant ID](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4982.png)
+   ![Coller le Tenant ID](https://cdnweb.devolutions.net/docs/DVLS2027_2024_2.png)
 
 1. Cliquer sur ***Inscriptions d'applications*** dans la section du menu ***Gérer***.
 ![Inscriptions d'applications](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4403.png)

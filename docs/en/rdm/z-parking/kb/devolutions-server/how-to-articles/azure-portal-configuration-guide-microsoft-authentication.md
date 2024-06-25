@@ -13,13 +13,13 @@ Configure Azure and {{ en.DVLS }} properly to use Microsoft authentication by fo
 1. To simplify the configuration steps and to easily copy and paste all the required parameters, please have the Azure Portal and the {{ en.DVLS }} web UI opened side by side in ***Administration – Server Settings – Authentication – Microsoft Authentication***.
 1. Once logged in, go to ***Azure Active Directory – Properties***.
 1. Click on the ***Copy to clipboard*** button beside the ***Tenant ID*** property.
-![Copy the Tenant ID](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4401.png)
+![Copy the Tenant ID](https://cdnweb.devolutions.net/docs/INTERFACE2037.png)
 1. Paste this value in the ***Tenant ID*** field of the {{ en.DVLS }} ***Microsoft Authentication*** configuration page.
    {% snippet, "badgeInfo" %}
    The ***Use specific client ID for users and user groups cache*** option should only be check to support configurations when migrating from an older {{ en.DVLS }} version.
    {% endsnippet %}
 
-   ![Paste the Tenant ID](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4982.png)
+   ![Paste the Tenant ID](https://cdnweb.devolutions.net/docs/DVLS2027_2024_2.png)
 
 1. Click ***App registrations*** in the ***Manage*** menu section.
 ![App registrations](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4403.png)
