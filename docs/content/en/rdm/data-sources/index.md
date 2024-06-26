@@ -9,7 +9,7 @@ The data sources are at the heart of {{ en.RDM }}. They are the container that h
 ## Settings
 
 A data source can be a local file or a database (either local or shared). Multiple data sources can be managed at the same time as seen below.
-![Data Source](https://cdnweb.devolutions.net/docs/RDMW6020_2024_2.png)
+![Data Source](https://cdnweb.devolutions.net/docs/RDMW6026_2024_2.png)
 
 ## Create a data source
 

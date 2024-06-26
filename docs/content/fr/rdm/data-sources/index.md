@@ -1,15 +1,15 @@
 ---
 eleventyComputed:
   title: Sources de données
-  description: Les sources de données sont au cœur de {{ fr.RDM }}. Ce sont les conteneurs qui contiennent les entrées.
+  description: Les sources de données sont au cœur de {{ fr.RDM }}. Elles sont le conteneur qui contient les entrées.
   order: 60
 ---
-Les sources de données sont au cœur de {{ fr.RDM }}. Ce sont les conteneurs qui contiennent les entrées.
+Les sources de données sont au cœur de {{ fr.RDM }}. Elles sont le conteneur qui contient les entrées.
 
 ## Paramètres
 
 Une source de données peut être un fichier local ou une base de données (locale ou partagée). Plusieurs sources de données peuvent être gérées en même temps comme montré ci-dessous.
-![Source de Données](https://cdnweb.devolutions.net/docs/RDMW6020_2024_2.png)
+![Source de Données](https://cdnweb.devolutions.net/docs/RDMW6026_2024_2.png)
 
 ## Créer une source de données
 
@@ -31,7 +31,7 @@ Vous pouvez assigner une source de données pour qu'elle s'ouvre automatiquement
 |-------------------------|-------------|
 | Utiliser la source de données par défaut | Sélectionner la source de données à connecter lorsque l'application démarre. |
 | Dernière source de données utilisée   | Se connecter à la dernière source de données utilisée. |
-| Demander la source de données  | Demander à l'utilisateur de choisir une source de données à connecter. |
+| Demander la source de données  | Demander à l'utilisateur pour une source de données à connecter. |
 
 ## Paramètres de Source de Données (Paramètres Système)
 
