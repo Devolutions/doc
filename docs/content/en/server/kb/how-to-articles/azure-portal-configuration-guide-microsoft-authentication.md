@@ -15,12 +15,10 @@ Configure Azure and {{ en.DVLS }} properly to use Microsoft authentication by fo
 To simplify the configuration steps and to easily copy and paste all the required parameters, keep the {{ en.DVLS }} and Azure Portal web pages open side by side throughout the whole process.
 
 #### In {{ en.DVLS }}
-1. Log in to your {{ en.DVLS }} and navigate to ***Administration – Server Settings – Authentication***.
-![]()
+1. Log in to your {{ en.DVLS }} and navigate to ***Administration – Server settings – Authentication***.
 1. Under ***Authentication modes***, ensure ***Authenticate with Microsoft user*** is enabled.
-![]()
 1. Under ***Configuration***, click on ***Microsoft authentication***.
-![]()
+![Administration – Server settings – Authentication – Microsoft authentication](https://cdnweb.devolutions.net/docs/DVLS2035_2024_2.png)
 
 #### In the Azure Portal
 4. Log in to your [Microsoft Azure Portal](https://portal.azure.com) using administrator credentials.
@@ -91,10 +89,10 @@ To simplify the configuration steps and to easily copy and paste all the require
 
 You should now be able to use the ***Microsoft*** button on the web interface.
 {% snippet, "badgeCaution" %}
-After activating the Microsoft authentication, it may take a while for the cache to load before being able to import users and user groups. If the issue persists, please consult [Unable to import Azure AD users or groups](/server/kb/troubleshooting-articles/unable-import-azure-ad-users-groups/) for troubleshooting.
+After activating the Microsoft authentication, it may take a while for the cache to load before being able to import users and user groups. If the issue persists, please consult [Unable to import Azure AD users or groups](/server/kb/troubleshooting-articles/unable-import-azure-ad-users-groups/) for troubleshooting via the {{ en.DVLSCONSOLE }}.
 {% endsnippet %}
 
 ![Microsoft authentication method](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4980.png)
 
-Following the login process, you may get the following prompt to authorize the application to read the user accounts and groups. Enable the ***Consent on behalf of your organization*** option then click ***Accept***.
-![Consent on behalf of your organization](https://cdnweb.devolutions.net/docs/INTERFACE2053.png)
+Following the login process, you may get a prompt to authorize the application to read the user accounts and groups. Check the ***Consent on behalf of your organization*** box then click ***Accept***.
+![Accept permissions](https://cdnweb.devolutions.net/docs/INTERFACE2053.png)
