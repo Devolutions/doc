@@ -1,8 +1,9 @@
 ---
 eleventyComputed:
   title: Search
+  description: The Search function allows you to search folders and entries in the database you are currently in.
 ---
-The ***Search*** function allows you to search folders and entries in the database you are currently in.
+The ***Search*** function allows you to search folders and entries in the database you are currently in. 
 ![Search Function](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin2207.png)
 
 When using the ***Search*** function, a tree view is also displayed, showing exactly where the results of your search are located in the database. Filter options are also available when clicking on the ellipsis button. Learn more about them in [Search/Filter](/rdm/windows/user-interface/status-bar/search-filter/).
@@ -20,7 +21,7 @@ Pro tip: Use the following shortcuts while selecting an entry for an even quicke
 
 ![Quick Search Window](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin2006.png)
 
-For information about other search methods, see our related topics:
+Use <kbd>Ctrl</kbd>+<kbd>Space</kbd> to easily [search](/rdm/commands/view/view/search/) through vaults, entries, tabs, and data sources. For information about other search methods, see our related topics:
 
 * [***Multi {{ en.VLT }} Search***](/rdm/windows/commands/view/panels/search/multi-vault/)
 * [***Advanced Search***](/rdm/windows/commands/view/panels/search/advanced/)
