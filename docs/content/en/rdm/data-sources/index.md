@@ -4,7 +4,7 @@ eleventyComputed:
   description: The data sources are at the heart of {{ en.RDM }}. They are the container that holds entries.
   order: 60
 ---
-The data sources are at the heart of {{ en.RDM }}. They are the container that holds entries.
+The data sources are at the heart of {{ en.RDM }}, acting as containers for entries. Use <kbd>Ctrl</kbd>+<kbd>Space</kbd> to easily [search](/rdm/commands/view/view/search/) through vaults, entries, tabs, and data sources.
 
 ## Settings
 
