@@ -38,7 +38,7 @@ Dans ce sujet, nous supposerons que votre instance de {{ fr.DVLS }} est configur
     e. Dans la section ***Attributions***, nous recommandons de sélectionner ***Permettre à tout le monde dans votre organisation d'accéder*** puis de cocher ***Activer l'accès immédiat avec le mode de courtage de fédération***. Cela vous évitera d'avoir à attribuer chaque utilisateur à l'application manuellement.
 
     f. Cliquer sur ***Enregistrer***.
-![!!KB4128](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4128.png)
+![!!KB4128](https://cdnweb.devolutions.net/docs/INTERFACE2054.png)
 
 ## Configuration d'une clé API dans Okta
 

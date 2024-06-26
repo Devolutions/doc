@@ -38,7 +38,7 @@ In this topic we will assume that your instance of {{ en.DVLS }} is configured i
     e. In the ***Assignments*** section, we recommend that you select ***Allow everyone in your organization to access*** and then check ***Enable immediate access with Federation Broker Mode*** This will save you from having to assign each user to the application manually.
 
     f. Click ***Save***.
-![!!KB4128](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4128.png)
+![!!KB4128](https://cdnweb.devolutions.net/docs/INTERFACE2054.png)
 
 ## Configuration of an API Key in okta
 

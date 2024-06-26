@@ -29,7 +29,7 @@ In this topic we will assume that your instance of {{ en.DVLS }} is configured i
 
     a. First, name the application in the ***App integration name*** field to find it in your application list in Okta.
 
-    b. Leave the ***Grant type*** option to ***Authorization Code***.
+    b. Under ***Grant type***, enable the ***Authorization Code*** and ***Refresh Token*** options.
 
     c. Add the URI in the ***Sign-in redirect URIs*** section. In our example we added https<area>://www.contoso.com/dvls/api/external-provider-response
 
@@ -38,7 +38,7 @@ In this topic we will assume that your instance of {{ en.DVLS }} is configured i
     e. In the ***Assignments*** section, we recommend that you select ***Allow everyone in your organization to access*** and then check ***Enable immediate access with Federation Broker Mode*** This will save you from having to assign each user to the application manually.
 
     f. Click ***Save***.
-![!!KB4128](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4128.png)
+![!!KB4128](https://cdnweb.devolutions.net/docs/INTERFACE2054.png)
 
 ## Configuration of an API Key in okta
 
