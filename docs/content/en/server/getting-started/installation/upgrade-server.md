@@ -25,6 +25,9 @@ The following is a list of recommendations and steps to follow before proceeding
 * Ensure that the instance users have the offline mode enabled and that they all perform a full refresh of the cache (<kbd>Ctrl</kbd>+<kbd>F5</kbd>).
 * Have your team switch to the offline mode in {{ en.RDM }}, allowing them to work while the system is down.
 * Update the maximal version of {{ en.RDM }} in ***Administration – System Settings – Version Management – Maximal version***, if this option was set before the upgrade.
+* If an antivirus is deployed on the server, include an exception in its configuration for:
+    * The {{ en.DVLSCONSOLE }} installation folder: **C:\Program Files (x86)\Devolutions\Devolutions Server Console**.
+    * The {{ en.DVLS }} web application folder.
 
 ### Phase 1
 
