@@ -14,7 +14,7 @@ Les étapes suivantes décriront comment configurer Okta en tant qu'authentifica
 
 Dans ce sujet, nous supposerons que votre instance de {{ fr.DVLS }} est configurée en HTTPS, que l'application web est {{ fr.DVLS }} et qu'elle est donc servie sous l'URL https<area>://www.contoso.com/dvls.
 
-## Configuration d'une application dans Okta
+## Configuration d'une application dans okta
 
 ![!!KB4069](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4069.png)
 
@@ -29,18 +29,18 @@ Dans ce sujet, nous supposerons que votre instance de {{ fr.DVLS }} est configur
 
     a. Tout d'abord, nommer l'application dans le champ ***Nom de l'intégration d'application*** pour la retrouver dans votre liste d'applications dans Okta.
 
-    b. Laisser l'option ***Type d'autorisation*** à ***Code d'autorisation***.
+    b. Sous ***Type d'autorisation***, activer les options ***Code d'autorisation*** et ***Jeton d'actualisation***.
 
     c. Ajouter l'URI dans la section ***URI de redirection de connexion***. Dans notre exemple, nous avons ajouté https<area>://www.contoso.com/dvls/api/external-provider-response
 
-    d. Vous pouvez laisser les sections ***URI de redirection de déconnexion*** et ***Origines de confiance*** vides. Le {{ fr.DVLS }} ne déconnecte pas votre utilisateur du périmètre de l'application et le formulaire de connexion Okta n'est pas hébergé sur {{ fr.DVLS }} donc ils ne sont pas nécessaires.
+    d. Vous pouvez laisser les sections ***URI de redirection de déconnexion*** et ***Origines de confiance*** vides. Le {{ fr.DVLS }} ne déconnecte pas votre utilisateur du périmètre de l'application et le formulaire de connexion Okta n'est pas hébergé sur {{ fr.DVLS }}, donc ils ne sont pas nécessaires.
 
-    e. Dans la section ***Attributions***, nous recommandons de sélectionner ***Permettre à tout le monde dans votre organisation d'accéder*** puis de cocher ***Activer l'accès immédiat avec le mode de courtage de fédération***. Cela vous évitera d'avoir à attribuer chaque utilisateur à l'application manuellement.
+    e. Dans la section ***Attributions***, nous recommandons de sélectionner ***Permettre à tout le monde dans votre organisation d'accéder*** puis de cocher ***Activer l'accès immédiat avec le mode de courtage fédéré***. Cela vous évitera de devoir attribuer chaque utilisateur à l'application manuellement.
 
     f. Cliquer sur ***Enregistrer***.
 ![!!KB4128](https://cdnweb.devolutions.net/docs/INTERFACE2054.png)
 
-## Configuration d'une clé API dans Okta
+## Configuration d'une clé API dans okta
 
 1. Dans le menu latéral gauche, aller à ***Sécurité - Api***.
 1. Dans l'onglet ***Jetons***, cliquer sur le bouton ***Créer un jeton***.
@@ -59,7 +59,7 @@ Le jeton hérite des droits de l'utilisateur qui le crée. C'est important car v
 
 ![!!KB4143](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4143.png)
 
-## Configuration de l'authentification et de la synchronisation des utilisateurs et des groupes dans Okta
+## Configuration de l'authentification et de la synchronisation des utilisateurs et des groupes dans okta
 
 Une fois l'application et le jeton Api créés, vous pouvez configurer l'interface web de {{ fr.DVLS }}.
 
@@ -68,8 +68,8 @@ Une fois l'application et le jeton Api créés, vous pouvez configurer l'interfa
 1. Cocher ***Authentification avec utilisateur Okta***.
 1. Dans la section ***Configuration***, cliquer sur ***Authentification Okta***.
 ![!!KB4229](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4229.png)
-1. Optionnel : Vous pouvez saisir une information dans le champ ***Nom affiché***. Cela remplacera le mot ***Okta*** dans la page de connexion.
-1. Dans la section ***Configuration de l'authentification***, entrer votre ***Domaine*** Okta.
+1. Facultatif : Vous pouvez saisir une information dans le champ ***Nom d'affichage***. Cela remplacera le mot ***Okta*** dans la page de connexion.
+1. Dans la section ***Configuration de l'authentification***, saisir votre ***Domaine Okta***.
 {% snippet, "badgeInfo" %}
 Pour trouver votre ***Domaine***, aller à votre compte Okta. Dans le coin supérieur droit de l'écran, cliquer sur votre menu utilisateur. Votre domaine devrait être visible.
 {% endsnippet %}
@@ -77,8 +77,9 @@ Pour trouver votre ***Domaine***, aller à votre compte Okta. Dans le coin supé
 ![!!KB4141](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4141.png)
 1. Dans la même section de {{ fr.DVLS }}, remplir le champ ***ID client*** avec l'***ID client*** de votre application.
 ![!!KB4129](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4129.png)
-1. Dans la section ***Synchroniser les utilisateurs et les groupes***, remplir le ***Jeton Api*** sauvegardé plus tôt.
-1. Enfin, si vous le souhaitez, vous pouvez activer la ***Création automatique d'utilisateur***. Cela évitera à l'administrateur d'avoir à importer les ***Utilisateurs*** manuellement dans {{ fr.DVLS }} avant qu'ils puissent se connecter avec Okta. Vous pouvez également sélectionner un ***Groupe d'utilisateurs***. Dans ce cas, seuls les ***Utilisateurs*** de ce groupe pourront bénéficier de la création automatique.
+1. Dans la section ***Synchroniser les utilisateurs et les groupes***, remplir le champ ***Jeton Api*** sauvegardé précédemment.
+1. Enfin, si vous le souhaitez, vous pouvez activer la ***Création automatique d'utilisateur***. Cela évitera à l'administrateur de devoir importer les ***Utilisateurs*** manuellement dans {{ fr.DVLS }} avant qu'ils puissent se connecter avec Okta. Vous pouvez également sélectionner un ***Groupe d'utilisateurs***. Dans ce cas, seuls les ***Utilisateurs*** de ce groupe pourront bénéficier de la création automatique.
 1. Cliquer sur le bouton ***Enregistrer***.
 ![!!KB4142](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4142.png)
-Vous pourrez maintenant observer que le bouton permettant de vous connecter à Okta est maintenant présent dans la page de connexion.
+Vous pourrez maintenant observer que le bouton permettant de vous connecter à Okta est désormais présent dans la page de connexion.
+{start="7"}
