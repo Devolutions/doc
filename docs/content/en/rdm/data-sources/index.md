@@ -9,7 +9,7 @@ The data sources are at the heart of {{ en.RDM }}. They are the container that h
 ## Settings
 
 A data source can be a local file or a database (either local or shared). Multiple data sources can be managed at the same time as seen below.
-![Data Source](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip11314.png)
+![Data Source](https://cdnweb.devolutions.net/docs/RDMW6020_2024_2.png)
 
 ## Create a data source
 
@@ -20,12 +20,12 @@ Please consult [Create a new data source](/rdm/windows/data-sources/create-new-d
 Multiple data sources can be configured, but there is only one active at a time.
 
 Switch from one data source to another by using the data source drop down list.
-![Select a Data Source](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip11369.png)
+![Select a Data Source](https://cdnweb.devolutions.net/docs/RDMW6021_2024_2.png)
 
 ## Startup data source
 
 You may assign a data source to open automatically when {{ en.RDM }} starts.
-![Startup Data Source](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip10940.png)
+![Startup Data Source](https://cdnweb.devolutions.net/docs/RDMW6023_2024_2.png)
 
 | OPTION                  | DESCRIPTION |
 |-------------------------|-------------|
