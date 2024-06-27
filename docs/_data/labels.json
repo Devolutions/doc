@@ -1,0 +1,188 @@
+{
+  "ANYID": {
+    "en": "AnyIdentity"
+  },
+  "CI": {
+    "en": "Custom installer"
+  },
+  "CIM": {
+    "en": "Custom installer manager"
+  },
+  "CIS": {
+    "en": "Custom installer service"
+  },
+  "CTOOL": {
+    "en": "Companion tool"
+  },
+  "CTOOLS": {
+    "en": "Companion tools"
+  },
+  "DA": {
+    "en": "Devolutions Account"
+  },
+  "DC": {
+    "en": "Devolutions Cloud"
+  },
+  "DCS": {
+    "en": "Devolutions Cloud services"
+  },
+  "DFORCE": {
+    "en": "Devolutions Force"
+  },
+  "DFORUM": {
+    "en": "Devolutions Forum"
+  },
+  "DGW": {
+    "en": "Devolutions Gateway"
+  },
+  "DGW_STANDALONE": {
+    "en": "Devolutions Gateway Standalone"
+  },
+  "DHUB": {
+    "en": "Devolutions Hub"
+  },
+  "DHUBB": {
+    "en": "Devolutions Hub Business"
+  },
+  "DHUBI": {
+    "en": "Devolutions Hub Importer"
+  },
+  "DHUBP": {
+    "en": "Devolutions Hub Personal"
+  },
+  "DHUBS": {
+    "en": "Devolutions Hub Services"
+  },
+  "DKB": {
+    "en": "Devolutions Knowledge Base"
+  },
+  "DLAUNCHER": {
+    "en": "Devolutions Launcher"
+  },
+  "DLOCALIZER": {
+    "en": "Devolutions Localizer"
+  },
+  "DOD": {
+    "en": "Devolutions Online Drive"
+  },
+  "DODB": {
+    "en": "Devolutions Online Database"
+  },
+  "DPORTAL": {
+    "en": "Devolutions Portal"
+  },
+  "DPS": {
+    "en": "Devolutions PowerShell"
+  },
+  "DSEND": {
+    "en": "Devolutions Send"
+  },
+  "DSEND_INAPP": {
+    "en": "Devolutions Send In-App"
+  },
+  "DSEND_STANDALONE": {
+    "en": "Devolutions Send Standalone"
+  },
+  "DUPDATER": {
+    "en": "Devolutions Updater"
+  },
+  "DVLS": {
+    "en": "Devolutions Server"
+  },
+  "DVLSCONSOLE": {
+    "en": "Devolutions Server Console"
+  },
+  "DWS": {
+    "en": "Devolutions Workspace"
+  },
+  "NPANE": {
+    "en": "Navigation pane"
+  },
+  "OBACK": {
+    "en": "Online backup"
+  },
+  "PS": {
+    "en": "Devolutions.PowerShell"
+  },
+  "RDM": {
+    "en": "Remote Desktop Manager"
+  },
+  "RDMA": {
+    "en": "Remote Desktop Manager Agent"
+  },
+  "RDMANDROID": {
+    "en": "Remote Desktop Manager Android"
+  },
+  "RDMIOS": {
+    "en": "Remote Desktop Manager iOS"
+  },
+  "RDMJ": {
+    "en": "Remote Desktop Manager Jump"
+  },
+  "RDMLINUX": {
+    "en": "Remote Desktop Manager Linux"
+  },
+  "RDMMAC": {
+    "en": "Remote Desktop Manager macOS"
+  },
+  "RDMMOBILE": {
+    "en": "Remote Desktop Manager mobile"
+  },
+  "RDMOS": {
+    "en": "RDM online services"
+  },
+  "RDMWIN": {
+    "en": "Remote Desktop Manager Windows"
+  },
+  "UVLT": {
+    "en": "user vault"
+  },
+  "UVLT_MAJ": {
+    "en": "User vault"
+  },
+  "VLT": {
+    "en": "vault"
+  },
+  "VLT_MAJ": {
+    "en": "Vault"
+  },
+  "WAAPP": {
+    "en": "Workspace Android app"
+  },
+  "WAPP": {
+    "en": "Workspace app"
+  },
+  "WAPP_MAJ": {
+    "en": "Workspace app"
+  },
+  "WAPPS": {
+    "en": "Workspace apps"
+  },
+  "WAPPS_MAJ": {
+    "en": "Workspace apps"
+  },
+  "WBEX": {
+    "en": "Workspace browser extension"
+  },
+  "WBEX_MAJ": {
+    "en": "Workspace browser extension"
+  },
+  "WDAPP": {
+    "en": "Workspace desktop app"
+  },
+  "WIAPP": {
+    "en": "Workspace iOS app"
+  },
+  "WMAPP": {
+    "en": "Workspace mobile app"
+  },
+  "WMACAPP": {
+    "en": "Workspace macOS app"
+  },
+  "WWAPP": {
+    "en": "Workspace Windows app"
+  },
+  "WS": {
+    "en": "Workspace"
+  }
+}

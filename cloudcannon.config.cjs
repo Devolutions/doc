@@ -47,6 +47,7 @@ module.exports = {
   collections_config_override: true,
   data_config: {
     locale: true,
+    labels: true,
     snippets: true,
     var: true,
   },
