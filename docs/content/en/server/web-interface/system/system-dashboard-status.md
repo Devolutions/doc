@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: System dashboard status
+  title: System dashboard
   description: Located in the side panel, the System dashboard is a customizable, single pane of glass that tracks the status of key {{ en.DVLS }} components.
 ---
 Located in the side panel, the System dashboard is a customizable, single pane of glass that tracks the status of key {{ en.DVLS }} components. By clicking on the ***Customize*** button, users can choose which widgets are visible. An email is automatically sent to administrators when a service is down.

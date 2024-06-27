@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Statut du tableau de bord système
+  title: Tableau de bord système
   description: Situé dans le volet latéral, le tableau de bord système est un panneau unique personnalisable qui suit le statut des composants clés de {{ fr.DVLS }}.
 ---
 Situé dans le volet latéral, le tableau de bord système est un panneau unique personnalisable qui suit le statut des composants clés de {{ fr.DVLS }}. En cliquant sur le bouton ***Personnaliser***, les administrateurs peuvent choisir quels widgets sont visibles. Un courriel est envoyé automatiquement aux administrateurs lorsqu'un service est en panne.
