@@ -5,7 +5,7 @@ module.exports = {
     preview: {
       text: "Label",
       subtext: [
-        { template: "{{ labels.{name}.{lang} }}" }
+        { template: "labels.{name}.{lang}" }
       ]
     },
     params: {
@@ -24,7 +24,8 @@ module.exports = {
               "/>",
               ">",
               "}}",
-              "}"
+              "}",
+              "."
             ]
           }
         }
@@ -44,7 +45,8 @@ module.exports = {
               "/>",
               ">",
               "}}",
-              "}"
+              "}",
+              "."
             ]
           }
         }
