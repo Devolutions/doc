@@ -4,22 +4,21 @@ eleventyComputed:
   description:
 ---
 The ***{{ en.NPANE }}*** is one of the main components of the {{ en.RDM }} user interface. It lists all available entries in the current data source and allows to switch to another data source or {{ en.VLT }}.
-![{{ en.NPANE }}](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip11204.png)
+![{{ en.NPANE }}](https://cdnweb.devolutions.net/docs/RDMW0001_2024_2.png)
 
-| ELEMENT                | DESCRIPTION |
-|------------------------|-------------|
-| Data source selector   | Allows to switch to another configured data source.                                                                                     |
-| Entry list             | Displays the content of the current data source, depending on the selected tab. It allows to select entries and perform action on them. |
-| {{ en.VLT_MAJ }} selector | Allows to switch to another configured {{ en.VLT }} in the data source.                                                              |
-| Tabs                   | Allows to switch to different views of the entry list, such as the ***Favorite entries*** or the ***Opened sessions***.                 |
+| ELEMENT                   | DESCRIPTION                                                             |
+|---------------------------|-------------------------------------------------------------------------|
+| Data source selector      | Allows to switch to another configured data source.                     |
+| {{ en.VLT_MAJ }} selector | Allows to switch to another configured {{ en.VLT }} in the data source. |
+| Entry list                | Displays the content of the current data source, depending on the selected tab. It allows to select entries and perform action on them. |
+| Tabs                      | Allows to switch to different views of the entry list, such as the ***Favorite entries*** or the ***Opened sessions***. |
 
-### Column Chooser
-
-Choose the columns to display in the tree view. Right-clicking on the column name in the ***{{ en.NPANE }}*** and select ***Column Chooser***.
-![{{ en.NPANE }} - Column Chooser](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip11201.png)
+## Column chooser
+Choose the columns to display in the tree view. Right-clicking on the column name in the ***{{ en.NPANE }}*** and select ***Column chooser***.
+![Column chooser](https://cdnweb.devolutions.net/docs/RDMW0002_2024_2.png)
 
 {% snippet, "badgeInfo" %}
-Additional tree view settings and information are available in ***File – Settings – Tree View***.
+Additional tree view settings and information are available in ***File*** – ***Settings*** – ***User interface*** – ***Tree view***.
 {% endsnippet %}
 
 For more information on each tab, please consult the following topics:
