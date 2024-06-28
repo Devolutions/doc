@@ -4,7 +4,7 @@ eleventyComputed:
   description: The Edit tab contains operations to quickly Add, Edit, Override, Batch Edit, or Export entries.
 ---
 The ***Edit*** tab contains operations to quickly ***Add***, ***Edit***, ***Override***, ***Batch Edit***, or ***Export*** entries.
-![Ribbon - Edit](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip10207.png)
+![Ribbon - Edit](https://cdnweb.devolutions.net/docs/RDMW6031_2024_2.png)
 
 ## Add
 
@@ -39,6 +39,7 @@ There is no visual differences between the shortcut and the original entry. Ther
 | Move       | Move the selected entry to another folder.                                  |
 | Delete     | Delete the selected entry. A confirmation dialog is displayed to confirm the action. |
 | Play List  | Use the various play list features.                                         |
+| Tag management  | Manage [tags](/rdm/concepts/intermediate-concepts/tags/) to organize or search for certain related entries.                                        |
 
 The ***Play List*** feature in {{ en.RDM }} is a lot like a music play list. It opens a list of entries, in a specific order, automatically.The Play List can be used to create groups of sessions for a specific task or for security reasons. You can build your own Play List and start all entries from a Play List at the same time.
 
@@ -65,7 +66,6 @@ A Specific Settings column can be added in the ***{{ en.NPANE }}***. Right-click
 | Edit (Special Actions) | Perform special actions on the selected entries, such as change the type, run a script, and more. For more information, please consult the [Batch Actions Samples](/powershell/rdm-powershell/powershell-scripting/custom-powershell-commands/batch-actions-samples/).                                                                   |
 | Batch Edit           | Perform an action on multiple entries at once. This is particularly useful for doing mass modifications of entries (such as changing the display mode after modifying the workspace or their credential entries when changing your passwords). Multiple entries must be selected for this feature to be visible. For more information, please consult [Batch Edit](/rdm/windows/commands/edit/batch/batch-edit/). |
 | Move to {{ en.VLT }} | Transfer the selected entries to another {{ en.VLT }} in the database.|
-
 
 ## Export
 
