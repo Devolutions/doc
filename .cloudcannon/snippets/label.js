@@ -1,12 +1,16 @@
 module.exports = {
-  eleventy_test: {
+  eleventy_label: {
     snippet: "{{ labels.[[name]].[[lang]] }}",
     inline: true,
     preview: {
       text: "Label",
       subtext: [
-        { template: "labels.{name}.{lang}" }
-      ]
+        { template: "labels.{name}.{lang}" },
+        { template: "labels.null.{lang}" },
+        { template: "labels.{name}.null" },
+        { template: "labels.null.null" }
+      ],
+      icon: "data_object"
     },
     params: {
       name: {
