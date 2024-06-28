@@ -5,13 +5,17 @@ eleventyComputed:
 ---
 Les ***actions par lot*** permettent de modifier rapidement plusieurs sessions à la fois, mais au sein de {{ fr.RDM }} lui-même.
 
-Pour pouvoir créer votre script PowerShell, vous auriez besoin du nom du ou des champs que vous souhaiteriez mettre à jour. Pour récupérer le nom exact du champ, cliquez droit sur votre session et sélectionnez ***Presse-papiers – Copier***. Vous pouvez ensuite coller les informations dans un éditeur de texte pour récupérer le nom du ou des champs que vous souhaiteriez modifier via la Commande PowerShell personnalisée.
+Pour pouvoir créer votre script PowerShell, vous aurez besoin du nom du ou des champs que vous souhaitez mettre à jour. Pour récupérer le nom exact du champ, cliquez droit sur votre session et sélectionnez ***Presse-papiers – Copier***. Vous pouvez ensuite coller les informations dans un éditeur de texte pour récupérer le nom du ou des champs que vous souhaitez modifier via la Commande PowerShell personnalisée.
 
-Puisqu'elles utilisent la technologie PowerShell, nous fournissons des exemples dans cette section car les champs sont les mêmes lorsqu'ils sont accédés via nos actions par lot ou via PowerShell.
+{% snippet, "badgeHelp" %}
+Pour les dossiers, voir [Modifier en lot les dossiers avec des commandes PowerShell personnalisées](/powershell/rdm-powershell/batch-edit-folders-custom-powershell-commands).
+{% endsnippet %}
+
+Puisqu'elles utilisent la technologie Powershell, nous fournissons des exemples dans cette section car les champs sont les mêmes lorsqu'ils sont accédés via nos Actions par lot ou via Powershell.
 
 ## Exemples
 
-### Désactiver l'option Envoyer le mot de passe uniquement dans le champ de mot de passe HTML dans les sessions de site Web
+### Désactiver l'option Envoyer uniquement le mot de passe dans le champ de mot de passe HTML dans les sessions de site Web
 ```powershell
 $connection.Web.OnlySendPasswordInPasswordField = $false;
 $RDM.Save ();
@@ -32,7 +36,7 @@ $connection.DataEntry.DefaultAction = "OpenUrlExternal";
 $RDM.Save();
 ```
 
-### Modification par lot de SSH Shell (Paramètres du type de session)
+### Modification en lot SSH Shell (Paramètres de type de session)
 ```powershell
 $connection.Terminal.MaxScrollbackLines = 2000;
 
@@ -51,7 +55,7 @@ LogPath: votre chemin entre ' ' (guillemets simples). Vous pouvez également uti
 
 ```powershell
 LogMode: 1 = Sortie imprimable, 0 = Événement
-TerminalLogOverwriteMode: 0 = par défaut, 1 = demande, 2 = ajouter, 3 = écraser
+TerminalLogOverwriteMode: 0 = par défaut, 1 = demander, 2 = ajouter, 3 = écraser
 ```
 
 Voici également d'autres options que vous pouvez modifier;
@@ -135,7 +139,7 @@ $RDM.Save();
 $connection.MetaInformation.CustomField3Title = "MyField"
 $RDM.Save();
 ```
-Veuillez noter que vous devriez changer "MyField" pour la valeur que vous souhaitez remplacer le champ personnalisé #3 par.
+Veuillez noter que vous devrez changer "MyField" par la valeur que vous souhaitez remplacer pour le champ personnalisé n°3.
 
 ### Mise à jour en masse des informations FQDN pour les sessions.
 ```powershell
@@ -146,7 +150,7 @@ $RDM.Save();
 ### Changement en masse du champ d'enregistrement pour les sessions Putty
 ```powershell
 $connection.Putty.RecordingMode = 1;
-$connection.Putty.RecordingFileName = "C:\path\to\your\file.log"
+$connection.Putty.RecordingFileName = "C:\chemin\vers\votre\fichier.log"
 $RDM.Save();
 ```
 
@@ -171,7 +175,7 @@ $RDM.Save();
 ```
 
 ### Changer la date d'expiration d'une session RDP avec une date relative
-Utiliser tout opérateur de date et heure pris en charge par PowerShell.
+Utiliser tout opérateur de date pris en charge par PowerShell.
 
 ```powershell
 $connection.MetaInformation.Expiration = (Get-Date).AddMonths(6);
@@ -196,7 +200,7 @@ $connection.Putty.HistoryMaxLength = 2000;
 $RDM.Save();
 ```
 
-### Convertir un outil de ligne de commande en une session de ligne de commande
+### Convertir l'outil de ligne de commande en une session de ligne de commande
 ```powershell
 $connection.ConnectionType = 3;
 $RDM.Save();
@@ -208,10 +212,10 @@ $connection.KeyboardHook = "OnTheRemoteComputer";
 $RDM.Save();
 ```
 
-### Définir la propriété d'identification pour demander à la connexion et la lier à un dossier.
+### Définir la propriété d'identification pour demander lors de la connexion et la lier à un dossier.
 ```powershell
-$connection.CredentialConnectionGroup = "YourFolderPath\Credentials"
+$connection.CredentialConnectionGroup = "VotreCheminDeDossier\Credentials"
 $connection.CredentialConnectionID = "00000000-0000-0000-0000-000000000000"
-$connection.CredentialConnectionSavedPath = "--- Demander à la connexion ---"
+$connection.CredentialConnectionSavedPath = "--- Demander lors de la connexion ---"
 $RDM.Save();
 ```

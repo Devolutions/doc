@@ -15,6 +15,10 @@ Select multiple entries by using the usual <kbd>Ctrl</kbd>/<kbd>Shift</kbd>+left
 
 Click ***Select in {{ en.NPANE }}*** to select the same entries as in the ***Advanced Search*** dialog. Then use ***Edit – Batch Edit*** to edit all the selected entries. Go to [Batch edit in {{ en.RDM }}](/rdm/kb/rdm-windows/how-to-articles/batch-edit-rdm/) for the steps.
 
+{% snippet, "badgeHelp" %}
+For folders, see [Batch edit folders with custom PowerShell commands](/powershell/rdm-powershell/batch-edit-folders-custom-powershell-commands).
+{% endsnippet %}
+
 ## Batch Edit Options
 
 ### Change Saved Host Name
