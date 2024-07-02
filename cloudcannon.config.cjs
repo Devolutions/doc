@@ -41,8 +41,8 @@ module.exports = {
     {
       heading: "Data",
       collections: [
-        // "data",
-        "labels"
+        "data",
+        // "labels"
       ]
     }
   ],
