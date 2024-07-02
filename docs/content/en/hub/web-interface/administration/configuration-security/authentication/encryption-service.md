@@ -104,3 +104,7 @@ Using an [Azure template](#encryption-service-setup-using-an-azure-template-reco
 1. Click ***Next***.
 
 The installation process should now begin.
+
+## Troubleshooting
+* If users experience issues connecting while the encryption service is activated, it is possible to restart the App from the App Service page to attempt to resolve the problem. If the issue persists, try stopping the App Service. However, be aware that users without a password will need to create one and will require an invitation to access the Hub.
+* To access the logs, go to the Deployment Center from the App Service page by selecting it from the left-hand menu, then navigate to the Logs tab. It is recommended to send these logs when opening a support ticket for assistance.
