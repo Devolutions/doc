@@ -11,24 +11,23 @@ module.exports = {
   },
   collections_config: {
     ...require("./.cloudcannon/collections/topics"),
-    ...require("./.cloudcannon/collections/labels"),
-    // data: {
-    //   path: "_data",
-    //   filter: {
-    //     exclude: [
-    //       "snippets.json",
-    //       "labels.json"
-    //     ]
-    //   },
-    //   schemas: {
-    //     doc: {
-    //       path: ".cloudcannon/schemas/data-doc.json",
-    //       create: {
-    //         path: "[relative_base_path]/{slug}.json"
-    //       }
-    //     }
-    //   }
-    // }
+    // ...require("./.cloudcannon/collections/labels"),
+    data: {
+      path: "_data",
+      filter: {
+        exclude: [
+          "snippets.json",
+        ]
+      },
+      schemas: {
+        doc: {
+          path: ".cloudcannon/schemas/data-doc.json",
+          create: {
+            path: "[relative_base_path]/{slug}.json"
+          }
+        }
+      }
+    }
   },
   collection_groups: [
     {
