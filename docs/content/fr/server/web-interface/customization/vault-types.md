@@ -25,7 +25,7 @@ Notez que la disponibilité des types d'entrées peut également être restreint
 | Information           | {{ icon.badgeNotice }}  | {{ icon.badgeNotice }}                 |                            |                         |
 | Dossier               | {{ icon.badgeNotice }}  | {{ icon.badgeNotice }}                 | {{ icon.badgeNotice }}     | {{ icon.badgeNotice }}  |
 | Contact               | {{ icon.badgeNotice }}  | {{ icon.badgeNotice }}                 |                            |                         |
-| Document              | {{ icon.badgeNotice }}  |                                        |                            |                         |
+| Document              | {{ icon.badgeNotice }}  | {{ icon.badgeNotice }}                 |                            |                         |
 | VPN/tunnel/passerelle | {{ icon.badgeNotice }}  |                                        |                            |                         |
 | Gestion d'actifs IT   | {{ icon.badgeNotice }}  |                                        |                            |                         |
 | Macro/script/outil    | {{ icon.badgeNotice }}  |                                        |                            |                         |
