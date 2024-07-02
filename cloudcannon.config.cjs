@@ -11,11 +11,13 @@ module.exports = {
   },
   collections_config: {
     ...require("./.cloudcannon/collections/topics"),
+    ...require("./.cloudcannon/collections/labels"),
     data: {
       path: "_data",
       filter: {
         exclude: [
-          "snippets.json"
+          "snippets.json",
+          "labels.json"
         ]
       },
       schemas: {
@@ -40,7 +42,8 @@ module.exports = {
     {
       heading: "Data",
       collections: [
-        "data"
+        "data",
+        "labels"
       ]
     }
   ],
