@@ -1,7 +1,7 @@
 module.exports = {
   labels: {
     name: 'Labels',
-    path: 'data/labels.json',
+    path: '_data/labels.json',
     _enabled_editors: [
       "content"
     ]
