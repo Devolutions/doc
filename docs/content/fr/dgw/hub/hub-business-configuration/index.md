@@ -7,7 +7,7 @@ eleventyComputed:
 {{ fr.DGW }} permet des connexions juste-à-temps au niveau de la session, éliminant le besoin de changer la configuration globale du système. {{ fr.DGW }} offre une alternative flexible et sécurisée aux VPN, permettant une gestion facile de l'accès et une utilisation efficace des ressources réseau.
 
 {% snippet, "badgeInfo" %}
-Chaque licence {{ fr.DHUBB }} vient avec une licence {{ fr.DGW }} gratuite qui supporte jusqu'à 5 sessions concurrentes.
+Chaque licence {{ fr.DHUB }} est fournie avec un {{ fr.DGW }}. Elle est basée sur l'utilisateur et prend en charge jusqu'à 5 utilisateurs.
 {% endsnippet %}
 
 {% snippet, "badgeCaution" %}
