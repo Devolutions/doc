@@ -20,7 +20,7 @@ Un contrôleur Ethernet Gigabit est recommandé pour une performance optimale.
 * Ubuntu Linux 20.04, 22.04 avec PowerShell 7
 
 ## Prérequis
-* Chaque licence {{ fr.DHUB }} est fournie avec un {{ fr.DGW }} qui supporte jusqu'à 5 sessions concurrentes. Contactez notre [département des ventes](mailto:sales@devolutions.net) pour plus de sessions concurrentes.
+* Chaque licence {{ fr.DHUB }} est fournie avec un {{ fr.DGW }}. Elle est basée sur l'utilisateur et prend en charge jusqu'à 5 utilisateurs.
 
 ## Exigences de certificat
 {{ fr.DGW }} prend en charge TLS 1.2 et TLS 1.3 ainsi que les suites de chiffrement suivantes :
