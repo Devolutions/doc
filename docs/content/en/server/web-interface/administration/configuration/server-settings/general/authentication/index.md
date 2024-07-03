@@ -4,6 +4,10 @@ eleventyComputed:
   description: The Authentication section allows the administrator to select which authentication types will be used to connect on {{ en.DVLS }}.
   order: 10
 ---
+{% snippet, "badgeCaution" %}
+The SQL authentication will be enabled after the migration. It will however not be possible to create users with that authentication type. The goal is only to support the migration and it is advised to disable the SQL authentication once all users are migrated.
+{% endsnippet %}
+
 The Authentication section allows the administrator to select which authentication types will be used to connect on {{ en.DVLS }}.
 ![Adminsitration – Server Settings – Authentication](https://cdnweb.devolutions.net/docs/DVLS6006_2024_1.png)
 
