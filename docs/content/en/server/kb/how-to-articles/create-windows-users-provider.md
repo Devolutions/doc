@@ -11,7 +11,7 @@ This guide provides steps to create a Windows users provider to manage Windows l
 ## Steps
 
 1. Ensure that WinRM is properly configured and that all remote machines are added in the Trusted Hosts list as stated in [WinRM and Trusted Hosts List](/server/kb/how-to-articles/winrm-trustedhostslist/).
-1. Create a local account on the remote host that will be managed by the PAM module as a privileged account. The local accounts must have the User cannot change password option enabled to avoid problems with the synchronization of the password in the Privileged Access module. If this account needs to have administrative rights, then add it to the local Administrators group.
+1. Create a local account on the remote host that will be managed by the PAM module as a privileged account. The local accounts must have the ***User cannot change password*** option enabled to avoid problems with the synchronization of the password in the Privileged Access module. If this account needs to have administrative rights, then add it to the local Administrators group.
 ![Local Account propreties](https://cdnweb.devolutions.net/docs/docs_en_kb_KB8086.png)
 1. Go in ***Privileged Access - Providers*** on the {{ en.DVLS }} web interface to add a Windows users provider.
 ![Windows user provider](https://cdnweb.devolutions.net/docs/docs_en_kb_KB8085.png)

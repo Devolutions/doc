@@ -24,8 +24,10 @@ The Windows Users Provider allows {{ en.DVLS }} to store the Windows account cre
 ### Credentials
 | Option   | Description                                                        |
 |----------|--------------------------------------------------------------------|
+| Credential type | Custom credentials or Linked credential options.            | 
 | Username | Username of the Windows local account with rights to list accounts.|
 | Password | Password of the Windows local account.                             |
+| Linked credential | Credential directly linked to a PAM account.              |                        
 
 ### Actions
 | Option                | Description                                                         |

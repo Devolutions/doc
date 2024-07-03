@@ -27,11 +27,13 @@ The wheel group under Linux is traditionally used to control access to root priv
 | Host   | IP Address or host name where the SSH accounts are located. |
 | Port   | Set the port number used to communicate with the host.      |
 
-## Credentials
-| Option   | Description                  |
-|----------|------------------------------|
+### Credentials
+| Option   | Description                                                        |
+|----------|--------------------------------------------------------------------|
+| Credential type | Custom credentials or Linked credential options.            | 
 | Username | Username of the SSH account. |
 | Password | Password of the SSH account. |
+| Linked credential | Credential directly linked to a PAM account.              | 
 
 ## Actions
 | Option                 | Description                                                    |

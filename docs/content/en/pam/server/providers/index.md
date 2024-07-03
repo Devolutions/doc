@@ -28,11 +28,10 @@ Here are the available provider types:
 
 ![Unmanaged providers](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp2108.png)
 
-* ***AnyIdentity*** providers:
-    * Windows accounts
-    * Windows local accounts
+* ***AnyIdentity*** provider:
+    * [Windows local accounts](https://docs.devolutions.net//pam/server/providers/windows-local-account/)
 
-![AnyIdentity providers](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp2109.png)
+![AnyIdentity provider](https://cdnweb.devolutions.net/docs/DVLS4026_2024_2.png)
 
 Multiple providers can be created and can reach different domains as long as the {{ en.DVLS }} instance can communicate with the domain controller.
 

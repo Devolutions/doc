@@ -23,13 +23,13 @@ The Domain Provider allows {{ en.DVLS }} to store the domain account credentials
 | Protocol    | Protocol used to contact the domain controller.<br> Select between: <ul><li>LDAP</li><li>LDAPS</li></ul> |
 | Port        | Set the port number used with the configured Protocol.                                                   |
 
-
 ### Credentials
-| Option   | Description                        |
-|----------|------------------------------------|
+| Option   | Description                                                        |
+|----------|--------------------------------------------------------------------|
+| Credential type | Custom credentials or Linked credential options.            | 
 | Username | Username of the domain account.    |
 | Password | Password of the domain account.    |
-
+| Linked credential | Credential directly linked to a PAM account.              |        
 
 ### Actions
 | Option                   | Description                                                         |

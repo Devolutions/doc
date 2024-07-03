@@ -22,11 +22,13 @@ The SQL Provider allows {{ en.DVLS }} to store the SQL account credentials to be
 |-------------|-------------------------------|
 | Server name | Hostname of the SQL Server.   |
 
-## Credentials
-| Option   | Description                                               |
-|----------|-----------------------------------------------------------|
+### Credentials
+| Option   | Description                                                        |
+|----------|--------------------------------------------------------------------|
+| Credential type | Custom credentials or Linked credential options.            | 
 | Username | Username of the SQL account with rights to list accounts. |
 | Password | Password of the SQL account.                              |
+| Linked credential | Credential directly linked to a PAM account.              | 
 
 ## Actions
 | Option                | Description                                                         |
