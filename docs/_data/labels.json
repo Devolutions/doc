@@ -184,5 +184,24 @@
   },
   "WS": {
     "en": "Workspace"
+  },
+  "_inputs": {
+    "$": {
+      "type": "object",
+      "options": {
+        "subtype": "mutable",
+        "entries": {
+          "structures": {
+            "values": [
+              {
+                "en": "",
+                "fr": "",
+                "de": ""
+              }
+            ]
+          }
+        }
+      }
+    }
   }
 }
