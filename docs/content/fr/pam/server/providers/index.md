@@ -32,7 +32,7 @@ Voici les types de fournisseurs disponibles :
     * Comptes Windows
     * Comptes locaux Windows
 
-![Fournisseurs AnyIdentity](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp2109.png)
+![Fournisseur AnyIdentity](https://cdnweb.devolutions.net/docs/DVLS4026_2024_2.png)
 
 Plusieurs fournisseurs peuvent être créés et peuvent atteindre différents domaines tant que l'instance {{ fr.DVLS }} peut communiquer avec le contrôleur de domaine.
 
@@ -46,10 +46,10 @@ Voir [Créer un fournisseur PAM Azure AD](/hub/kb/hub-business/how-to-articles/c
 
 ## Général
 
-| Option       | Description                  |
-|--------------|------------------------------|
-| Nom          | Nom d'affichage du fournisseur |
-| Description  | Description du fournisseur  |
+| Option       | Description                           |
+|--------------|---------------------------------------|
+| Nom          | Nom d'affichage du fournisseur        |
+| Description  | Description du fournisseur            |
 
 ## Paramètres de mot de passe
 
@@ -61,6 +61,6 @@ Voir [Créer un fournisseur PAM Azure AD](/hub/kb/hub-business/how-to-articles/c
 
 | Option       | Description                           |
 |--------------|---------------------------------------|
-| ID de locataire    | ID du locataire Azure                |
-| ID client    | ID de l'application Azure           |
-| Clé secrète   | Clé secrète de l'application Azure   |
+| ID de locataire | ID du locataire Azure                |
+| ID client    | ID de l'application Azure             |
+| Clé secrète  | Clé secrète de l'application Azure    |

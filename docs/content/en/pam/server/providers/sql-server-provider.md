@@ -35,4 +35,3 @@ The SQL Provider allows {{ en.DVLS }} to store the SQL account credentials to be
 |-----------------------|---------------------------------------------------------------------|
 | Add PAM {{ en.VLT }}  | Will create a PAM {{ en.VLT }} with the provider's name if enabled. |
 | Add Scan Configuration| Will open the Scan Configuration dialog if enabled.                 |
-

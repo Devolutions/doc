@@ -1,9 +1,9 @@
 ---
 eleventyComputed:
   title: Fournisseur SSH local
-  description: Le fournisseur SSH permet à {{ fr.DVLS }} de stocker les informations d'identification des comptes SSH locaux pour être utilisés dans la découverte de comptes SSH ou pour réaliser la rotation des mots de passe.
+  description: Le fournisseur SSH permet à {{ fr.DVLS }} de stocker les identifiants de compte SSH local pour être utilisés pour la découverte de comptes SSH ou pour réaliser la rotation de mot de passe.
 ---
-Le fournisseur SSH permet à {{ fr.DVLS }} de stocker les informations d'identification des comptes SSH locaux pour être utilisés dans la découverte de comptes SSH ou pour réaliser la rotation des mots de passe.
+Le fournisseur SSH permet à {{ fr.DVLS }} de stocker les identifiants de compte SSH local pour être utilisés pour la découverte de comptes SSH ou pour réaliser la rotation de mot de passe.
 ![Dialogue du fournisseur SSH](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp8142.png)
 
 {% snippet icon.badgeInfo %}
@@ -24,14 +24,16 @@ Le groupe wheel sous Linux est traditionnellement utilisé pour contrôler l'acc
 ## Hôte
 | Option | Description                                                 |
 |--------|-------------------------------------------------------------|
-| Hôte   | Adresse IP ou nom d'hôte où se trouvent les comptes SSH. |
+| Hôte   | Adresse IP ou nom d'hôte où les comptes SSH sont situés. |
 | Port   | Définir le numéro de port utilisé pour communiquer avec l'hôte.      |
 
-## Identifiants
-| Option   | Description                  |
-|----------|------------------------------|
+### Identifiants
+| Option   | Description                                                        |
+|----------|--------------------------------------------------------------------|
+| Type d'identifiant | Identifiants personnalisés ou options d'identifiant lié.            | 
 | Nom d'utilisateur | Nom d'utilisateur du compte SSH. |
 | Mot de passe | Mot de passe du compte SSH. |
+| Identifiant lié | Identifiant directement lié à un compte PAM.              | 
 
 ## Actions
 | Option                 | Description                                                    |
