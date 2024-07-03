@@ -25,6 +25,7 @@ For more information on each tab, please consult the following topics:
 
 * [{{ en.VLT_MAJ }}](/rdm/windows/commands/view/panels/vault/)
 * [{{ en.UVLT_MAJ }}](/rdm/windows/data-sources/user-vault/)
+* [System {{ en.VLT }}](/rdm/commands/view/panels/system-vault/)
 * [Opened Sessions](/rdm/windows/commands/view/panels/opened-sessions/)
 * [Favorite Entries](/rdm/windows/user-interface/navigation-pane/favorite-entries/)
 * [Most Recently Used Entries](/rdm/windows/user-interface/navigation-pane/most-recently-used-entries/)
