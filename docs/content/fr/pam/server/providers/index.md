@@ -28,9 +28,8 @@ Voici les types de fournisseurs disponibles :
 
 ![Fournisseurs non gérés](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp2108.png)
 
-* ***AnyIdentity*** fournisseurs :
-    * Comptes Windows
-    * Comptes locaux Windows
+* ***AnyIdentity*** fournisseur :
+    * [Comptes locaux Windows](https://docs.devolutions.net//pam/server/providers/windows-local-account/)
 
 ![Fournisseur AnyIdentity](https://cdnweb.devolutions.net/docs/DVLS4026_2024_2.png)
 
