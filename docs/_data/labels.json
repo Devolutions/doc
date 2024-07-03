@@ -190,16 +190,18 @@
       "type": "object",
       "options": {
         "subtype": "mutable",
-        "preview": {
-          "icon": "translate"
-        },
         "entries": {
           "structures": {
             "values": [
               {
-                "en": "",
-                "fr": "",
-                "de": ""
+                "value":              {
+                  "en": "",
+                  "fr": "",
+                  "de": ""
+                },
+                "preview": {
+                  "icon": "translate"
+                }
               }
             ]
           }
