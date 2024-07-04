@@ -1,6 +1,6 @@
 module.exports = {
-  eleventy_label: {
-    snippet: "{{ variables.[[name]].[[lang]] }}",
+  eleventy_variable: {
+    snippet: "{{ variables.[[variable]].[[lang]] }}",
     inline: true,
     preview: {
       text: "Variable",
