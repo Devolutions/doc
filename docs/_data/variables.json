@@ -1,189 +1,313 @@
 {
   "ANYID": {
-    "en": "AnyIdentity"
+    "en": "AnyIdentity",
+    "fr": "AnyIdentity",
+    "de": "AnyIdentity"
   },
   "CI": {
-    "en": "Custom installer"
+    "en": "Custom installer",
+    "fr": "Installateur personnalisé",
+    "de": "Benutzerdefinierte Installationen"
   },
   "CIM": {
-    "en": "Custom installer manager"
+    "en": "Custom installer manager",
+    "fr": "Gestionnaire de paquets d'installation personnalisés",
+    "de": "Benutzerdefinierte Installationen verwalten"
   },
   "CIS": {
-    "en": "Custom installer service"
+    "en": "Custom installer service",
+    "fr": "Service d'installateur personnalisé",
+    "de": "Benutzerdefinierter Installationsdienst"
   },
   "CTOOL": {
-    "en": "Companion tool"
+    "en": "Companion tool",
+    "fr": "Outil connexe",
+    "de": "Begleitwerkzeug"
   },
   "CTOOLS": {
-    "en": "Companion tools"
+    "en": "Companion tools",
+    "fr": "Outils connexes",
+    "de": "Begleitwerkzeuge"
   },
   "DA": {
-    "en": "Devolutions Account"
+    "en": "Devolutions Account",
+    "fr": "Compte Devolutions",
+    "de": "Devolutions Account"
   },
   "DC": {
-    "en": "Devolutions Cloud"
+    "en": "Devolutions Cloud",
+    "fr": "Devolutions Cloud",
+    "de": "Devolutions Cloud"
   },
   "DCS": {
-    "en": "Devolutions Cloud services"
+    "en": "Devolutions Cloud services",
+    "fr": "Services en ligne Devolutions",
+    "de": "Devolutions Onlinedienste"
   },
   "DFORCE": {
-    "en": "Devolutions Force"
+    "en": "Devolutions Force",
+    "fr": "Devolutions Force",
+    "de": "Devolutions Force"
   },
   "DFORUM": {
-    "en": "Devolutions Forum"
+    "en": "Devolutions Forum",
+    "fr": "Devolutions Forum",
+    "de": "Devolutions Forum"
   },
   "DGW": {
-    "en": "Devolutions Gateway"
+    "en": "Devolutions Gateway",
+    "fr": "Devolutions Gateway",
+    "de": "Devolutions Gateway"
   },
   "DGW_STANDALONE": {
-    "en": "Devolutions Gateway Standalone"
+    "en": "Devolutions Gateway Standalone",
+    "fr": "Devolutions Gateway Standalone",
+    "de": "Devolutions Gateway Standalone"
   },
   "DHUB": {
-    "en": "Devolutions Hub"
+    "en": "Devolutions Hub",
+    "fr": "Devolutions Hub",
+    "de": "Devolutions Hub"
   },
   "DHUBB": {
-    "en": "Devolutions Hub Business"
+    "en": "Devolutions Hub Business",
+    "fr": "Devolutions Hub Business",
+    "de": "Devolutions Hub Business"
   },
   "DHUBI": {
-    "en": "Devolutions Hub Importer"
+    "en": "Devolutions Hub Importer",
+    "fr": "Devolutions Hub Importer",
+    "de": "Devolutions Hub Importer"
   },
   "DHUBP": {
-    "en": "Devolutions Hub Personal"
+    "en": "Devolutions Hub Personal",
+    "fr": "Devolutions Hub Personal",
+    "de": "Devolutions Hub Personal"
   },
   "DHUBS": {
-    "en": "Devolutions Hub Services"
+    "en": "Devolutions Hub Services",
+    "fr": "Devolutions Hub Services",
+    "de": "Devolutions Hub Services"
   },
   "DKB": {
-    "en": "Devolutions Knowledge Base"
+    "en": "Devolutions Knowledge Base",
+    "fr": "Base de connaissances de Devolutions",
+    "de": "Devolutions Knowledge Base"
   },
   "DLAUNCHER": {
-    "en": "Devolutions Launcher"
+    "en": "Devolutions Launcher",
+    "fr": "Devolutions Launcher",
+    "de": "Devolutions Launcher"
   },
   "DLOCALIZER": {
-    "en": "Devolutions Localizer"
+    "en": "Devolutions Localizer",
+    "fr": "Devolutions Localizer",
+    "de": "Devolutions Localizer"
   },
   "DOD": {
-    "en": "Devolutions Online Drive"
+    "en": "Devolutions Online Drive",
+    "fr": "Devolutions Online Drive",
+    "de": "Devolutions Online Drive"
   },
   "DODB": {
-    "en": "Devolutions Online Database"
+    "en": "Devolutions Online Database",
+    "fr": "Devolutions Online Database",
+    "de": "Devolutions Online Database"
   },
   "DPORTAL": {
-    "en": "Devolutions Portal"
+    "en": "Devolutions Portal",
+    "fr": "Devolutions Portal",
+    "de": "Devolutions Portal"
   },
   "DPS": {
-    "en": "Devolutions PowerShell"
+    "en": "Devolutions PowerShell",
+    "fr": "Devolutions PowerShell",
+    "de": "Devolutions PowerShell"
   },
   "DSEND": {
-    "en": "Devolutions Send"
+    "en": "Devolutions Send",
+    "fr": "Devolutions Send",
+    "de": "Devolutions Send"
   },
   "DSEND_INAPP": {
-    "en": "Devolutions Send In-App"
+    "en": "Devolutions Send In-App",
+    "fr": "Devolutions Send In-App",
+    "de": "Devolutions Send In-App"
   },
   "DSEND_STANDALONE": {
-    "en": "Devolutions Send Standalone"
+    "en": "Devolutions Send Standalone",
+    "fr": "Devolutions Send Standalone",
+    "de": "Devolutions Send Standalone"
   },
   "DUPDATER": {
-    "en": "Devolutions Updater"
+    "en": "Devolutions Updater",
+    "fr": "Devolutions Updater",
+    "de": "Devolutions Updater"
   },
   "DVLS": {
-    "en": "Devolutions Server"
+    "en": "Devolutions Server",
+    "fr": "Devolutions Server",
+    "de": "Devolutions Server"
   },
   "DVLSCONSOLE": {
-    "en": "Devolutions Server Console"
+    "en": "Devolutions Server Console",
+    "fr": "Console de Devolutions Server",
+    "de": "Devolutions Server Console"
   },
   "DWS": {
-    "en": "Devolutions Workspace"
+    "en": "Devolutions Workspace",
+    "fr": "Devolutions Workspace",
+    "de": "Devolutions Workspace"
   },
   "NPANE": {
-    "en": "Navigation pane"
+    "en": "Navigation pane",
+    "fr": "Volet de navigation",
+    "de": "Navigationsbereich"
   },
   "OBACK": {
-    "en": "Online backup"
+    "en": "Online backup",
+    "fr": "Online Backup",
+    "de": "Online Backup"
   },
   "PS": {
-    "en": "Devolutions.PowerShell"
+    "en": "Devolutions.PowerShell",
+    "fr": "Devolutions.PowerShell",
+    "de": "Devolutions.PowerShell"
   },
   "RDM": {
-    "en": "Remote Desktop Manager"
+    "en": "Remote Desktop Manager",
+    "fr": "Remote Desktop Manager",
+    "de": "Remote Desktop Manager"
   },
   "RDMA": {
-    "en": "Remote Desktop Manager Agent"
+    "en": "Remote Desktop Manager Agent",
+    "fr": "Agent Remote Desktop Manager",
+    "de": "Remote Desktop Manager Agent"
   },
   "RDMANDROID": {
-    "en": "Remote Desktop Manager Android"
+    "en": "Remote Desktop Manager Android",
+    "fr": "Remote Desktop Manager Android",
+    "de": "Remote Desktop Manager Android"
   },
   "RDMIOS": {
-    "en": "Remote Desktop Manager iOS"
+    "en": "Remote Desktop Manager iOS",
+    "fr": "Remote Desktop Manager iOS",
+    "de": "Remote Desktop Manager iOS"
   },
   "RDMJ": {
-    "en": "Remote Desktop Manager Jump"
+    "en": "Remote Desktop Manager Jump",
+    "fr": "Remote Desktop Manager Jump",
+    "de": "Remote Desktop Manager Jump"
   },
   "RDMLINUX": {
-    "en": "Remote Desktop Manager Linux"
+    "en": "Remote Desktop Manager Linux",
+    "fr": "Remote Desktop Manager Linux",
+    "de": "Remote Desktop Manager Linux"
   },
   "RDMMAC": {
-    "en": "Remote Desktop Manager macOS"
+    "en": "Remote Desktop Manager macOS",
+    "fr": "Remote Desktop Manager macOS",
+    "de": "Remote Desktop Manager macOS"
   },
   "RDMMOBILE": {
-    "en": "Remote Desktop Manager mobile"
+    "en": "Remote Desktop Manager mobile",
+    "fr": "Remote Desktop Manager mobile",
+    "de": "Remote Desktop Manager mobile"
   },
   "RDMOS": {
-    "en": "RDM online services"
+    "en": "RDM online services",
+    "fr": "Services en ligne de RDM",
+    "de": "RDM Onlinedienste"
   },
   "RDMWIN": {
-    "en": "Remote Desktop Manager Windows"
+    "en": "Remote Desktop Manager Windows",
+    "fr": "Remote Desktop Manager Windows",
+    "de": "Remote Desktop Manager Windows"
   },
   "UVLT": {
-    "en": "user vault"
+    "en": "user vault",
+    "fr": "coffre d'utilisateur",
+    "de": "Benutzer-Tresor"
   },
   "UVLT_MAJ": {
-    "en": "User vault"
+    "en": "User vault",
+    "fr": "Coffre d'utilisateur",
+    "de": "Benutzer-Tresor"
   },
   "VLT": {
-    "en": "vault"
+    "en": "vault",
+    "fr": "coffre",
+    "de": "Tresor"
   },
   "VLT_MAJ": {
-    "en": "Vault"
+    "en": "Vault",
+    "fr": "Coffre",
+    "de": "Tresor"
   },
   "WAAPP": {
-    "en": "Workspace Android app"
+    "en": "Workspace Android app",
+    "fr": "application Workspace pour Android",
+    "de": "Workspace-Android-Anwendung"
   },
   "WAPP": {
-    "en": "Workspace app"
+    "en": "Workspace app",
+    "fr": "application Workspace",
+    "de": "Workspace-Anwendung"
   },
   "WAPP_MAJ": {
-    "en": "Workspace app"
+    "en": "Workspace app",
+    "fr": "Application Workspace",
+    "de": "Workspace-Anwendung"
   },
   "WAPPS": {
-    "en": "Workspace apps"
+    "en": "Workspace apps",
+    "fr": "applications Workspace",
+    "de": "Workspace-Anwendungen"
   },
   "WAPPS_MAJ": {
-    "en": "Workspace apps"
+    "en": "Workspace apps",
+    "fr": "Applications Workspace",
+    "de": "Workspace-Anwendungen"
   },
   "WBEX": {
-    "en": "Workspace browser extension"
+    "en": "Workspace browser extension",
+    "fr": "module d'extension Workspace",
+    "de": "Workspace-Browsererweiterung"
   },
   "WBEX_MAJ": {
-    "en": "Workspace browser extension"
+    "en": "Workspace browser extension",
+    "fr": "Module d'extension Workspace",
+    "de": "Workspace-Browsererweiterung"
   },
   "WDAPP": {
-    "en": "Workspace desktop app"
+    "en": "Workspace desktop app",
+    "fr": "application de bureau Workspace",
+    "de": "Workspace-Desktop-Anwendung"
   },
   "WIAPP": {
-    "en": "Workspace iOS app"
+    "en": "Workspace iOS app",
+    "fr": "application Workspace pour iOS",
+    "de": "Workspace-iOS-Anwendung"
   },
   "WMAPP": {
-    "en": "Workspace mobile app"
+    "en": "Workspace mobile app",
+    "fr": "application mobile Workspace",
+    "de": "Workspace-Mobile-Anwendung"
   },
   "WMACAPP": {
-    "en": "Workspace macOS app"
+    "en": "Workspace macOS app",
+    "fr": "application Workspace pour macOS",
+    "de": "Workspace-macOS-Anwendung"
   },
   "WWAPP": {
-    "en": "Workspace Windows app"
+    "en": "Workspace Windows app",
+    "fr": "application Workspace pour Windows",
+    "de": "Workspace-Windows-Anwendung"
   },
   "WS": {
-    "en": "Workspace"
+    "en": "Workspace",
+    "fr": "Workspace",
+    "de": "Workspace"
   },
   "_inputs": {
     "$": {
@@ -194,7 +318,7 @@
           "structures": {
             "values": [
               {
-                "value":              {
+                "value": {
                   "en": "",
                   "fr": "",
                   "de": ""
