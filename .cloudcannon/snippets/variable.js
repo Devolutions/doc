@@ -5,9 +5,9 @@ module.exports = {
     preview: {
       text: "Variable",
       subtext: [
-        { template: "variables.{name}.{lang}" },
+        { template: "variables.{variable}.{lang}" },
         { template: "variables.null.{lang}" },
-        { template: "variables.{name}.null" },
+        { template: "variables.{variable}.null" },
         { template: "variables.null.null" }
       ],
       icon: "data_object"
