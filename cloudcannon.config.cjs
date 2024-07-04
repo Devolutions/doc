@@ -11,7 +11,6 @@ module.exports = {
   },
   collections_config: {
     ...require("./.cloudcannon/collections/topics"),
-    // ...require("./.cloudcannon/collections/labels"),
     data: {
       path: "_data",
       filter: {
@@ -41,15 +40,14 @@ module.exports = {
     {
       heading: "Data",
       collections: [
-        "data",
-        // "labels"
+        "data"
       ]
     }
   ],
   collections_config_override: true,
   data_config: {
     locale: true,
-    labels: true,
+    variables: true,
     snippets: true,
     var: true,
   },

@@ -1,54 +1,77 @@
-const varData = require('../../docs/_data/var.json');
-
 module.exports = {
-  eleventy_variable: {
-    template: "eleventy_liquid_shortcode_positional_args",
+  eleventy_label: {
+    snippet: "{{ variables.[[name]].[[lang]] }}",
     inline: true,
     preview: {
-      text: "Var",
+      text: "Variable",
       subtext: [
-        { template: "{varData[label][lang]}" },
-        { template: "{varData}.{label}.{lang}}" },
-        { template: "{data.var[label][lang]}" },
-        { template: "{data}.{var}.{label}.{lang}" },
-        varData.CI.fr,
-        { template: "{label}.{lang}" },
-      ]
+        { template: "variables.{name}.{lang}" },
+        { template: "variables.null.{lang}" },
+        { template: "variables.{name}.null" },
+        { template: "variables.null.null" }
+      ],
+      icon: "data_object"
     },
-    definitions: {
-      shortcode_name: "var",
-      positional_args: [
-        {
-          editor_key: "lang",
-          type: "string"
-        },
-        {
-          editor_key: "label",
-          type: "string"
+    params: {
+      variable: {
+        parser: "argument",
+        options: {
+          model: {
+            editor_key: "variable"
+          },
+          format: {
+            string_boundary: [
+              ""
+            ],
+            forbidden_tokens: [
+              "/",
+              "/>",
+              ">",
+              "}}",
+              "}",
+              "."
+            ]
+          }
         }
-      ]
+      },
+      lang: {
+        parser: "argument",
+        options: {
+          model: {
+            editor_key: "lang"
+          },
+          format: {
+            string_boundary: [
+              ""
+            ],
+            forbidden_tokens: [
+              "/",
+              "/>",
+              ">",
+              "}}",
+              "}",
+              "."
+            ]
+          }
+        }
+      }
     },
     _inputs: {
       lang: {
         type: "select",
         options: {
           values: [
-            "en",
-            "fr",
-            "de"
+            "en", "fr", "de"
           ]
         }
       },
-      label: {
+      variable: {
         type: "select",
         options: {
-          values: "data.var",
-          value_key: "key",
+          values: "data.variables",
           preview: {
             text: [
-              {
-                key: "en"
-              }
+              { key: "en" }
             ]
           }
         }
