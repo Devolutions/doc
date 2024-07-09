@@ -9,4 +9,4 @@ When first implemented, the option was enabled by default to allow backwards com
 
 ![Administration – Server Settings – Security – Use X-Forwarded-For](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2343.png)
 
-When the option is enabled, the [X-Forwarded-For header](https://en.wikipedia.org/wiki/X-Forwarded-For) header is added to the request by IIS (this does not work with Kestrel). Each intermediate node adds the identity of the original caller to the request header and keeps adding its caller to the next. Consequently, the last node sees not only the original caller, but also which nodes intervened before it.
+When the option is enabled, the [X-Forwarded-For](https://en.wikipedia.org/wiki/X-Forwarded-For) header is added to the request by IIS (this does not work with Kestrel). Each intermediate node adds the identity of the original caller to the request header and keeps adding its caller to the next. Consequently, the last node sees not only the original caller, but also which nodes intervened before it.
