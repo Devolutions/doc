@@ -5,6 +5,11 @@ eleventyComputed:
   description: Register your {{ en.DVLS }} license in the {{ en.DVLS }} web interface.
 ---
 Register your {{ en.DVLS }} license in the {{ en.DVLS }} web interface.
+
+{% snippet, "badgeInfo" %}
+The ***Enable internet access*** option must be enabled under the [***Features***](/server/web-interface/administration/configuration/server-settings/general/features/) menu.
+{% endsnippet %}
+
 1. In the {{ en.DVLS }} web interface, go to ***Administration – Licenses***.
 ![Administration – Licenses](https://cdnweb.devolutions.net/docs/DVLS2012_2024_1.png)
 1. ***Edit*** your current {{ en.DVLS }} license.
