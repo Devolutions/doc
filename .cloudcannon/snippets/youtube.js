@@ -7,7 +7,8 @@ module.exports = {
       subtext: [
         {
           template: "https://www.youtube.com/embed/{id}"
-        }
+        },
+        "Add an embeded youtube video"
       ],
       icon: "smart_display",
       icon_color: "#ff0000"

@@ -8,7 +8,7 @@ module.exports = {
         { template: "variables.{variable}.{lang}" },
         { template: "variables.null.{lang}" },
         { template: "variables.{variable}.null" },
-        { template: "variables.null.null" }
+        "Use a variable"
       ],
       icon: "data_object"
     },
