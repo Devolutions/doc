@@ -11,10 +11,13 @@ The ***{{ en.DGW }} Tunnel*** can fulfill similar needs to SSH port forwarding/S
 {% endsnippet %}
 
 ![{{ en.DGW }} Tunnel](https://cdnweb.devolutions.net/docs/docs_en_kb_KB0116.png)
+
 ## Listeners
 {% snippet, "badgeWarning" %}
 If the ***Listener*** is set to 0.0.0.0, it will accept connections from any source within the network. Due to the difficulty in tracking accountability, it is recommended ***NOT*** to do this for multiple security reasons.
 {% endsnippet %}
+
+* In almost every scenario, the listener (bind address) should be set to the loopback address (127.0.0.1) from the local machine.
 
 * ***TCP Forward***: It is the equivalent to port forwarding.
 
