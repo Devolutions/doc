@@ -1,7 +1,6 @@
 module.exports = {
   anchor_id: {
     snippet: "{#[[id]]}",
-    inline: true,
     preview: {
       text: "Anchor ID",
       subtext: [
