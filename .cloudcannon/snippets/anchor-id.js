@@ -1,6 +1,15 @@
 module.exports = {
   anchor_id: {
     snippet: "{#[[id]]}",
+    inline: true,
+    preview: {
+      text: "Anchor ID",
+      subtext: [
+        { template: "{id}" },
+        { template: "Set an anchord ID to a title" }
+      ],
+      icon: "anchor"
+    },
     params: {
       id: {
         parser: "content",
