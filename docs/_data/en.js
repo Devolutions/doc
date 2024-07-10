@@ -5,7 +5,7 @@ module.exports = {
     CIS: 'Custom installer service',
     CTOOL: 'Companion tool',
     CTOOLS: 'Companion tools',
-    DA: 'Devolutions Account',
+    DA: 'Devolutions account',
     DC: 'Devolutions Cloud',
     DCS: 'Devolutions Cloud services',
     DFORCE: 'Devolutions Force',
