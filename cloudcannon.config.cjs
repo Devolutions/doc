@@ -1,4 +1,4 @@
-// const file_config = require("./.cloudcannon/files/index");
+const file_config = require("./.cloudcannon/files/index");
 
 module.exports = {
   _snippets_imports: {
@@ -30,35 +30,7 @@ module.exports = {
       }
     }
   },
-  file_config: [
-    {
-      path: "_data/variables.json",
-      _inputs: {
-        $: {
-          type: "object",
-          options: {
-            subtype: "mutable",
-            entries: {
-              structures: {
-                values: [
-                  {
-                    value: {
-                      en: "",
-                      fr: "",
-                      de: ""
-                    },
-                    preview: {
-                      icon: "translate"
-                    }
-                  }
-                ]
-              }
-            }
-          }
-        }
-      }
-    }
-  ],
+  file_config,
   collection_groups: [
     {
       heading: "Topics",
