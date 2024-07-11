@@ -30,7 +30,7 @@ module.exports = {
       }
     }
   },
-  ...file_config,
+  file_config,
   collection_groups: [
     {
       heading: "Topics",
