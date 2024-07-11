@@ -1,3 +1,5 @@
+const file_config = require(".cloudcannon/files");
+
 module.exports = {
   _snippets_imports: {
     eleventy_liquid: {
@@ -28,9 +30,7 @@ module.exports = {
       }
     }
   },
-  file_config: [
-    ...require("./.cloudcannon/files/variables"),
-  ],
+  file_config: file_config,
   collection_groups: [
     {
       heading: "Topics",
