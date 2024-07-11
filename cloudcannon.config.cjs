@@ -1,4 +1,4 @@
-const file_config = require(".cloudcannon/files");
+const file_config = require("./.cloudcannon/files/index");
 
 module.exports = {
   _snippets_imports: {
