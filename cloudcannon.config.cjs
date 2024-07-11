@@ -28,6 +28,9 @@ module.exports = {
       }
     }
   },
+  file_config: [
+    ...require("./.cloudcannon/files/variables"),
+  ],
   collection_groups: [
     {
       heading: "Topics",

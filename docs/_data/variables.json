@@ -308,29 +308,5 @@
     "en": "Workspace",
     "fr": "Workspace",
     "de": "Workspace"
-  },
-  "_inputs": {
-    "$": {
-      "type": "object",
-      "options": {
-        "subtype": "mutable",
-        "entries": {
-          "structures": {
-            "values": [
-              {
-                "value": {
-                  "en": "",
-                  "fr": "",
-                  "de": ""
-                },
-                "preview": {
-                  "icon": "translate"
-                }
-              }
-            ]
-          }
-        }
-      }
-    }
   }
 }
