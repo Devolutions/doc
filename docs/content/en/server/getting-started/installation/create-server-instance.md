@@ -14,7 +14,7 @@ For more information about any of the features in the deploy wizard, please cons
 
 Multiple {{ en.DVLS }} instances can be hosted on the same server. Each instance resides in its own web application within IIS. The following steps are carried out using the {{ en.DVLSCONSOLE }} and are also valid for the ***free edition*** of {{ en.DVLS }}.
 
-## First steps
+## IIS web server installation
 1. Install {{ en.DVLSCONSOLE }} on the web server. It is available from the [Download](https://server.devolutions.net/home/download) page.
 1. Execute {{ en.DVLSCONSOLE }} with elevated privileges (run as administrator). This is performed by right-clicking on the application and selecting ***Run as administrator***.
    {% snippet, "shieldWarning" %}
@@ -81,3 +81,13 @@ In some situations, the web page may not load properly. Ensure that the IIS IUSR
 {% endsnippet %}
 
 To test the connection from a client by creating a data source in {{ en.RDM }}. Please consult [Configure a client data source](/server/kb/how-to-articles/configure-client-data-source/) for more information.
+
+## Kestrel web server installation
+Installing {{ en.DVLS }} with Kestrel requires fewer dependencies; in particular, IIS does not need to be installed on the machine.
+
+The installation process is very similar to the [IIS web server advanced installation](/server/getting-started/installation/create-server-instance/#advanced-installation). Instead of specifying a website and an application under IIS, enter URL to which the application listens (for example, **https://localhost:5000**). The access URI represents the URI used to access our application
+served on the given HTTP listener.
+
+Known limitations:
+* The application must be served on / ("http://localhost:5000/").
+* Windows authentication is not currently supported under Kestrel.
