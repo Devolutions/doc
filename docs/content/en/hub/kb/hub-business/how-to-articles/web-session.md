@@ -1,9 +1,9 @@
 ---
 eleventyComputed:
   title: Launch a session via the {{ en.DHUBB }} web interface
-  description: A RDP connection can be launched in {{ en.DHUBB }} using {{ en.DGW }}. 
+  description: RDP, SSH Shell, Telnet, VNC, and PowerShell (remote) session entries can be launched through the web interface of {{ en.DHUBB }} using {{ en.DGW }}.
 ---
-Sessions such as ***RDP***, ***SSH***, ***Telnet***, and ***PowerShell Remote*** can be launched through the web interface of [{{ en.DHUBB }}](/hub/overview/what-is-hub/) using [{{ en.DGW }}](/dgw/overview/what-is-dgw/).
+***RDP***, ***SSH Shell***, ***Telnet***, ***VNC***, and ***PowerShell (remote)*** session entries can be launched through the web interface of [{{ en.DHUBB }}](/hub/overview/what-is-hub/) using [{{ en.DGW }}](/dgw/overview/what-is-dgw/).
 
 ## Requirements
 To use this feature, certain requirements must be met, namely:
