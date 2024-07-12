@@ -26,7 +26,7 @@ To use this feature, certain requirements must be met, namely:
     * When using IronRDP, a call is generated to the tool, and the password can be seen when the developer tools are enabled.
 * Have a {{ en.RDM }} or {{ en.DLAUNCHER }} license assigned to the user that wants to use the connection.
 
-### RDP Session Configuration
+### RDP session configuration
 Follow the steps below to properly configure your RDP session to launch it in a browser:
 
 {% snippet, "badgeInfo" %}
@@ -47,7 +47,7 @@ The steps below assume that you already have an RDP session entry. If you have n
    {% endsnippet %}
 1. Click ***Update*** to save your changes.
 
-## Launching the Connection
+## Launching the connection
 Once all the conditions are met, you can press the ***Open in Web Client (Preview)*** button to launch the connection from the web client.
 ![Open in Web Client (Preview)](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2163.png)
 
@@ -58,7 +58,7 @@ A new browser tab should open and your session should start.
 If the connection does not work, check the [Requirements](#requirements) again or visit [RDP Web Client Not Showing](/dgw/kb/rdp-web-client-not-showing/).
 {% endsnippet %}
 
-### Currently Supported Features
+### Currently supported features
 This feature is still under development. The tools menu in the RDP web interface contains what is currently supported.
 ![Currently Supported Features](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2225.png)
 
@@ -76,3 +76,13 @@ For the moment, the following features are not supported:
 * Lock keys like Caps Lock and Num Lock (synchronized between the client and the host)
 * Basic keyboard support
 * Basic mouse support (4 buttons and scroll)
+
+### Other supported session entries
+Other session entry types can be launched via the {{ en.DVLS }} web interface. Here is the full list:
+* RDP
+* SSH Shell
+* Telnet
+* PowerShell (remote)
+* VNC
+* ARD
+* Active Directory
