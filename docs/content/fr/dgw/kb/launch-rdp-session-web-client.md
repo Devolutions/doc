@@ -26,7 +26,7 @@ Pour utiliser cette fonctionnalité, certaines exigences doivent être remplies,
     * Lors de l'utilisation d'IronRDP, un appel est généré vers l'outil, et le mot de passe peut être vu lorsque les outils de développement sont activés.
 * Avoir une licence {{ fr.RDM }} ou {{ fr.DLAUNCHER }} attribuée à l'utilisateur qui souhaite utiliser la connexion.
 
-### Configuration de Session RDP
+### Configuration de session RDP
 Suivez les étapes ci-dessous pour configurer correctement votre session RDP afin de la lancer dans un navigateur :
 
 {% snippet, "badgeInfo" %}
@@ -47,7 +47,7 @@ Les étapes ci-dessous supposent que vous avez déjà une entrée de session RDP
    {% endsnippet %}
 1. Cliquez sur ***Mettre à jour*** pour sauvegarder vos modifications.
 
-## Lancement de la Connexion
+## Lancement de la connexion
 Une fois toutes les conditions remplies, vous pouvez appuyer sur le bouton ***Ouvrir dans le Client Web (Aperçu)*** pour lancer la connexion depuis le client web.
 ![Ouvrir dans le Client Web (Aperçu)](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2163.png)
 
@@ -58,7 +58,7 @@ Un nouvel onglet de navigateur devrait s'ouvrir et votre session devrait démarr
 Si la connexion ne fonctionne pas, vérifiez à nouveau les [Exigences](#exigences) ou visitez [Le Client Web RDP ne s'affiche pas](/dgw/kb/rdp-web-client-not-showing/).
 {% endsnippet %}
 
-### Fonctionnalités Actuellement Prises en Charge
+### Fonctionnalités actuellement prises en charge
 Cette fonctionnalité est encore en développement. Le menu des outils dans l'interface web RDP contient ce qui est actuellement pris en charge.
 ![Fonctionnalités Actuellement Prises en Charge](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2225.png)
 
@@ -76,3 +76,13 @@ Pour le moment, les fonctionnalités suivantes ne sont pas prises en charge :
 * Les touches de verrouillage comme Verr Maj et Verr Num (synchronisées entre le client et l'hôte)
 * Support de base du clavier
 * Support de base de la souris (4 boutons et défilement)
+
+### Autres entrées de session prises en charge
+D'autres types d'entrées de session peuvent être lancés via l'interface Web {{ en.DVLS }}. Voici la liste complète :
+* RDP
+* SSH Shell
+* Telnet
+* PowerShell (à distance)
+* VNC
+* ARD
+* Active Directory
