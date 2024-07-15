@@ -1,11 +1,14 @@
 ---
 eleventyComputed:
   title: Accueil
+  description: L'onglet du ruban Accueil permet d'appliquer une action sur la session actuellement sélectionnée.
 ---
-L'onglet ***Accueil*** du ruban permet d'appliquer une action sur la session actuellement sélectionnée. Le ruban affichera l'onglet suivant lorsque la session est intégrée.
-![Ribbon - Home](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip10672.png)
+L'onglet du ruban ***Accueil*** permet d'appliquer une action sur la session actuellement sélectionnée. Le ruban affichera l'onglet suivant lorsque la session est intégrée.
+![Ribbon - Home](https://cdnweb.devolutions.net/docs/RDMW6032_2024_2.png)
 
-* Se connecter
+* Connecter
 * Macros
 * Presse-papiers : Configuration dans ***Fichier – Paramètres***
+* Auto-typage
+* Macro/scripts
 * Divers
