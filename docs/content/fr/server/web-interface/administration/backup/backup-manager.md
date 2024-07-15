@@ -8,7 +8,7 @@ La section ***Gestionnaire de sauvegarde*** permet aux administrateurs de config
 {% snippet, "badgeInfo" %}
 * Les sauvegardes planifiées sont effectuées par le compte de service du planificateur.
 * Les sauvegardes initiées manuellement sont exécutées par l'identité du pool d'applications.
-* Les sauvegardes de base de données sont toujours gérées par le compte de service SQL. Initialement, un fichier **.zip** est créé, qui est ensuite supprimé par le compte qui a initié la sauvegarde (soit l'identité du pool d'applications, soit le compte de service du planificateur), ne laissant que le fichier **.bak**.
+* Les sauvegardes de base de données sont toujours gérées par le compte de service SQL. Initialement, un fichier **.bak** est créé, qui est ensuite supprimé par le compte qui a initié la sauvegarde (soit l'identité du pool d'applications, soit le compte de service du planificateur), ne laissant que le fichier **.zip**.
 {% endsnippet %}
 
 ![Administration – Gestionnaire de sauvegarde](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp2084.png)
