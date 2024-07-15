@@ -29,7 +29,7 @@ Pour en savoir plus sur l'option de délimiteur A2F de CyberArk, [cliquez ici](/
 4. Saisir un ***Répertoire virtuel***. Ce champ est soit /privilegecloud soit vide.
 5. Sélectionner une ***Version*** dans la liste déroulante. Cela fait référence à la version de CyberArk PVWA vue sur la page d'authentification de CyberArk.
    {% snippet, "badgeInfo" %}
-   Veuillez noter que nous ne supportons que l'API CyberArk V12 pour le moment et que la version 12.1 de CyberArk est requise.
+   Veuillez noter que nous ne supportons que l'API CyberArk V12 (ou plus haut) pour le moment et que la version 12.1 de CyberArk (ou plus haute) est requise.
    {% endsnippet %}
 
 6. Sélectionner le ***Mode d'authentification*** utilisé pour se connecter à l'instance CyberArk (***CyberArk***, ***Windows***, ***LDAP***, ***RADIUS***, ou ***SAML***).
