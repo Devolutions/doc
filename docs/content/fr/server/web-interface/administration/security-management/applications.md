@@ -44,5 +44,5 @@ Dans la section ***{{ fr.VLT_MAJ }}s***, les identités d'application peuvent se
 
 
 {% snippet, "badgeInfo" %}
-Notez que [activer le module {{ fr.PS }}]((https://www.powershellgallery.com/packages/Devolutions.PowerShell/)) et accorder à l'identité d'application l'accès aux {{ fr.VLT }}s souhaités dans la section ***{{ fr.VLT_MAJ }}s*** est obligatoire pour lancer des scripts automatisés affectant les ***{{ fr.VLT }}s***, par exemple, le script pour [exporter toutes les entrées de {{ fr.RDM }}](https://github.com/Devolutions/RDMSamples-ps/blob/main/module/export/ExportAllEntriesAllVaults.ps1).
+Notez que [activer le module {{ fr.PS }}]((https://www.powershellgallery.com/packages/Devolutions.PowerShell/)) et accorder à l'identité d'application l'accès aux {{ fr.VLT }}s souhaités dans la section ***{{ fr.VLT_MAJ }}s*** est obligatoire pour lancer des scripts automatisés affectant les ***{{ fr.VLT }}s***, par exemple, le script pour [exporter toutes les entrées](https://github.com/Devolutions/RDMSamples-ps/blob/main/module/export/ExportAllEntriesAllVaults.ps1).
 {% endsnippet %}
