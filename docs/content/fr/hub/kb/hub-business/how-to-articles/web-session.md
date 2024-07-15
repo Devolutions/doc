@@ -3,7 +3,7 @@ eleventyComputed:
   title: Lancer une session via l'interface web de {{ fr.DHUBB }}
   description: Les entrées de type session RDP, SSH Shell, Telnet, VNC et PowerShell (remote) peuvent être lancées via l'interface web de {{ fr.DHUBB }} en utilisant {{ fr.DGW }}.
 ---
-Les entrées de type session ***RDP***, ***SSH Shell***, ***Telnet***, ***VNC***,  ***ARD*** et ***PowerShell (remote)*** peuvent être lancées via l'interface web de [{{ fr.DHUBB }}](/hub/overview/what-is-hub/) en utilisant [{{ fr.DGW }}](/dgw/overview/what-is-dgw/).
+Les entrées de type session ***RDP***, ***SSH Shell***, ***Telnet***, ***VNC*** et ***PowerShell (remote)*** peuvent être lancées via l'interface web de [{{ fr.DHUBB }}](/hub/overview/what-is-hub/) en utilisant [{{ fr.DGW }}](/dgw/overview/what-is-dgw/).
 
 ## Exigences
 Pour utiliser cette fonctionnalité, certaines exigences doivent être satisfaites, à savoir :
