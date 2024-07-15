@@ -13,19 +13,19 @@ The Override Source column indicates if an available mechanism can relocate the 
 
 ## Summary
 
-| FILE(S)                              | LOCATION                           | OVERRIDE SOURCE                  |
-|--------------------------------------|------------------------------------|----------------------------------|
-| Configuration File(s) (*.cfg*, .ext) | [CONFIG]                           | None                             |
-| Data File(s) (*.xml*, *.db*)         | [CONFIG] or custom path.           | None                             |
-| Default Settings                     | [CONFIG]                           | Data source settings (System Settings) |
-| Encryption (*.enc*, *.enb*)          | [CONFIG]                           | None                             |
-| Layout Files (*.lyt*)                | [CONFIG]                           | None                             |
-| Log Files (*.log*, *.debug*)         | [CONFIG]                           | None                             |
-| Local Play lists                     | [PROFILE]\\[Datasource]\\Playlists | Use application directory for local playlist will use instead [INSTALLDIR] |
-| Local Templates                      | They are serialized directly in the configuration file of the application. | None |
-| Offline/Cache data (*offline.db*)    | [PROFILE]\\[Datasource]            | Use application directory for online cache will use instead [INSTALLDIR] |
-| Sensitive (*.stv*, *.stb*)           | [CONFIG]                           | None                             |
-| Themes                               | [CONFIG]                           | None                             |
+| FILE(S)                              | DESCRIPTION      |  LOCATION                       | OVERRIDE SOURCE                  |
+|--------------------------------------|------------------|---------------------------------|----------------------------------|
+| Configuration File(s) (*.cfg*, .ext) | Contain(s) {{ en.RDM }} current configurations. |  [CONFIG]                           | None                             |
+| Data File(s) (*.xml*, *.db*)         | Contain(s) {{ en.RDM }} data sources.   | [CONFIG] or custom path.           | None                             |
+| Default Settings                     | Contain {{ en.RDM }} default settings. | [CONFIG]                           | Data source settings (System Settings) |
+| Encryption (*.enc*, *.enb*)          | **RemoteDesktopManager.enc** contains the encryption key used to encrypt sensitive options. **RemoteDesktopManager.enb** is a backup of that file. | [CONFIG]                           | None                             |
+| Layout Files (*.lyt*)                | Contain the layout options of every version of {{ en.RDM }} that have been installed on the machine. | [CONFIG]                           | None                             |
+| Log Files (*.log*, *.debug*)         | Contain {{ en.RDM }} logs. | [CONFIG]                           | None                             |
+| Local Playlists                     | Contains {{ en.RDM }} local playlists. | [PROFILE]\\[Datasource]\\Playlists | Use application directory for local playlist will use instead [INSTALLDIR] |
+| Local Templates                      | Contains {{ en.RDM }} local templates. | They are serialized directly in the configuration file of the application. | None |
+| Offline/Cache data (*offline.db*)    | Contains {{ en.RDM }} offline/cache data. | [PROFILE]\\[Datasource]            | Use application directory for online cache will use instead [INSTALLDIR] |
+| Sensitive (*.stv*, *.stb*)           | **RemoteDesktopManager.stv** contains sensitive options such as data source configurations, authentication tokens, and MFA keys. It is encrypted with the key contained in **RemoteDesktopManager.enc** and **RemoteDesktopManager.stb** is its backup. | [CONFIG]                           | None                             |
+| Themes                               | Contains {{ en.RDM }} theme options. | [CONFIG]                           | None                             |
 
 
 ### Offline and Local Play list option
