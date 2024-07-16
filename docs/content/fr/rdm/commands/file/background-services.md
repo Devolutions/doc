@@ -1,11 +1,11 @@
 ---
 eleventyComputed:
   title: Services en arrière-plan
-  description: Lorsque vous rencontrez une dégradation des performances avec {{ fr.RDM }}, vous pourrez vérifier si un synchroniseur fonctionne en arrière-plan, provoquant le ralentissement du système.
+  description: Lorsque vous rencontrez une dégradation des performances avec {{ fr.RDM }}, vous pourrez vérifier si un synchroniseur fonctionne en arrière-plan et ralentit le système.
 ---
 La fonctionnalité Synchroniseurs centralise toutes vos entrées de synchroniseurs en un seul endroit.
 
-Lorsque vous rencontrez une dégradation des performances avec {{ fr.RDM }}, vous pourrez vérifier si un synchroniseur fonctionne en arrière-plan, provoquant le ralentissement du système.
+Lorsque vous rencontrez une dégradation des performances avec {{ fr.RDM }}, vous pourrez vérifier si un synchroniseur fonctionne en arrière-plan et ralentit le système.
 ![Synchroniseurs](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip11280.png)
 
 ## Est en ligne
@@ -17,6 +17,6 @@ Lorsque vous rencontrez une dégradation des performances avec {{ fr.RDM }}, vou
 | OPTION                      | DESCRIPTION                                                            |
 |-----------------------------|------------------------------------------------------------------------|
 | Activer la vérification de la disponibilité du serveur | Le serveur est interrogé pour déterminer s'il est disponible. Le serveur sera affiché en "rouge" dans l'arborescence s'il n'est pas disponible.    |
-| Exécuter une vérification automatique toutes les    | Exécuter la vérification en ligne automatiquement chaque nombre déterminé de minutes.                                                        |
-| Vérifier si en ligne                  | Si l'option est ***Activée***, l'application vérifiera si le serveur est en ligne.                                                   |
-| Détection en ligne                 | Si l'option ***Vérifier si en ligne*** est activée, sélectionner la méthode de détection entre : <br><br> <ul><li>Ping</li><li>Scan de port</li></ul>|
+| Exécuter une vérification automatique toutes les    | Exécuter la vérification en ligne automatiquement chaque nombre de minutes déterminé.                                                        |
+| Vérifier si l'hôte est en ligne                  | Si l'option est ***Activée***, l'application vérifiera si l'hôte est en ligne.                                                   |
+| Détection en ligne                 | Si l'option ***Vérifier si l'hôte est en ligne*** est activée, sélectionner la méthode de détection entre : <br><br> <ul><li>Ping</li><li>Scan de port</li></ul>|

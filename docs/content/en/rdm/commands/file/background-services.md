@@ -18,5 +18,5 @@ When experiencing a performance degradation with {{ en.RDM }}, you will be able 
 |-----------------------------|------------------------------------------------------------------------|
 | Enable check for server availability | Server is pinged to determine if they are available. Server will be displayed in "red" in the tree view if not available.    |
 | Execute automatic check every    | Execute the online check automatically each determined amount of minutes.                                                        |
-| Check is online                  | If the option is ***On*** the application will verify if the server is online.                                                   |
-| Online detection                 | If the ***Check is online*** option is enabled, select the detection method between: <br><br> <ul><li>Ping</li><li>Port scan</li></ul>|
+| Check if host is online                  | If the option is ***On*** the application will verify if the host is online.                                                   |
+| Online detection                 | If the ***Check if host is online*** option is enabled, select the detection method between: <br><br> <ul><li>Ping</li><li>Port scan</li></ul>|
