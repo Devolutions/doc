@@ -66,14 +66,14 @@ Populating {{ en.VLT }}s with assets is a time-consuming task in {{ en.RDM }}. [
 
 ![General tab](https://cdnweb.devolutions.net/docs/RDMW6035_2024_2.png)
 
-### Field tab
+### Fields tab
 Choose which ***fields*** will always be synchronized, and which will not. For example, you could choose not to synchronize the description, because you want to edit it yourself.
 
-* ***Field***: Entry name in {{ en.RDM }}.
+* ***Field***: Select which fields will always be synchronized, and which will not.
 * ***Session name prefix***: A prefix for the entry that will be created through the synchronizer.
 * ***Session name suffix***: A suffix for the entry that will be created through the synchronizer.
 
-![Field tab](https://cdnweb.devolutions.net/docs/RDMW6034_2024_2.png)
+![Fields tab](https://cdnweb.devolutions.net/docs/RDMW6034_2024_2.png)
 
 ### Filter tab
 * ***Use custom query***: If our supported parameters don’t satisfy your needs, or if you already have a pre-made query, you can enter it in this section. Following the
@@ -101,7 +101,7 @@ groups:
 * ***Type***: Select the type of asset you want to import from the Type list.
 * ***Add Condition***:  Add a condition to the filter. You must first enter the value of the property, followed by the operator you want to apply to this condition.
 
-![Filter tab](https://cdnweb.devolutions.net/docs/RDMW6035_2024_2.png)
+![Filter tab](https://cdnweb.devolutions.net/docs/RDMW6036_2024_2.png)
 
 ### Advanced tab
 * ***Action on entry mismatch***: The action that will be performed when the entries that were previously created by the synchronizer don't match the data found while synchronizing.

@@ -6,7 +6,7 @@ eleventyComputed:
 Pour les personnes utilisant actuellement Lansweeper ou envisageant son ajout à leur boîte à outils informatique, l'intégration dans {{ fr.RDM }} offre des avantages substantiels. Elle permet aux utilisateurs de voir de manière transparente tous les actifs Lansweeper au sein de {{ fr.RDM }}. De plus, cette intégration facilite la synchronisation automatique et la génération d'entrées pour les actifs Lansweeper, améliorant considérablement l'efficacité et l'efficacité des processus de gestion informatique.
 
 ## Lier Lansweeper aux propriétés d'une entrée via l'onglet de gestion des actifs informatiques
-La fonctionnalité de Gestion des Actifs Informatiques peut être utilisée pour lier un gestionnaire d'actifs (par exemple, [BlueTally](/rdm/kb/rdm-windows/how-to-articles/it-asset-management/), Lansweeper) via les propriétés d'une entrée. Un onglet intégré affichera ensuite la page principale de Lansweeper. Vous pouvez également basculer facilement entre vos données dans {{ fr.RDM }} et Lansweeper.
+La fonctionnalité de Gestion des Actifs Informatiques peut être utilisée pour lier un gestionnaire d'actifs (par exemple, [BlueTally](/rdm/kb/rdm-windows/how-to-articles/it-asset-management/), Lansweeper) via les propriétés d'une entrée. Un onglet intégré affichera alors la page principale de Lansweeper. Vous pouvez également basculer facilement entre vos données dans {{ fr.RDM }} et Lansweeper.
 
 {% snippet, "badgeInfo" %}
 Seuls les types d'entrée ***Session***, ***Gestion à Distance***, ***Divers***, ***VPN***, ***Synchroniseur*** et ***Modèle*** prennent en charge cette fonctionnalité pour le moment. Les entrées ***Gestion des Actifs Informatiques*** fonctionnent différemment de la fonctionnalité.
@@ -17,11 +17,11 @@ Seuls les types d'entrée ***Session***, ***Gestion à Distance***, ***Divers***
 1. Sélectionner ***Lansweeper*** dans le menu déroulant.
 1. Saisir l'URL vers un actif spécifique.
 1. Taper un ***titre de gestion des actifs informatiques*** dans le champ correspondant.
-1. Cliquer sur ***Mettre à jour*** pour enregistrer les modifications et fermer la fenêtre.
+1. Cliquer sur ***Mettre à jour*** pour sauvegarder les modifications et fermer la fenêtre.
 ![Gestion des Actifs Informatiques](https://cdnweb.devolutions.net/docs/docs_en_kb_KB6165.png)
 1. Dans le ***Tableau de bord***, sélectionner l'onglet ***Gestion des Actifs Informatiques***.
    {% snippet, "badgeInfo" %}
-   L'onglet sera nommé selon ce qui a été écrit dans le ***champ titre de gestion des actifs informatiques***. Si le champ est laissé vide, ***Lansweeper*** s'affichera (si ce service a été choisi), ou s'affichera comme ***Gestion des Actifs Informatiques***.
+   L'onglet sera nommé selon ce qui a été écrit dans le champ ***titre de gestion des actifs informatiques***. Si le champ est laissé vide, ***Lansweeper*** s'affichera (si ce service a été choisi), ou s'affichera comme ***Gestion des Actifs Informatiques***.
    {% endsnippet %}
 
    ![Onglet Gestion des Actifs Informatiques](https://cdnweb.devolutions.net/docs/docs_en_kb_KB6176.png)
@@ -54,10 +54,10 @@ Peupler les {{ fr.VLT }}s avec des actifs est une tâche chronophage dans {{ fr.
 
 ### Onglet Général
 * ***Nom*** : Nom de l'entrée dans {{ fr.RDM }}.
-* ***Dossier de destination*** : Cliquer sur le bouton des points de suspension pour définir le chemin du dossier dans l'arborescence de {{ fr.RDM }} (qui ne peut être que dans le même {{ fr.VLT }}).
+* ***Dossier de destination*** : Cliquer sur le bouton ellipsis pour définir le chemin du dossier dans l'arborescence de {{ fr.RDM }} (qui ne peut être que dans le même {{ fr.VLT }}).
 * ***Synchroniser automatiquement*** : L'entrée se synchronisera automatiquement avec Lansweeper.
-* ***Utiliser Mes Paramètres de Compte*** : Utiliser Mes Paramètres de Compte au lieu du code d'identité.
-* ***Code d'identité*** : Jeton pour demander des informations API.
+* ***Utiliser les Paramètres de Mon Compte*** : Utiliser les Paramètres de Mon Compte au lieu du code d'identité.
+* ***Code d'identité*** : Jeton pour demander des informations via l'API.
 * ***Site*** : Choisir un site Lansweeper.
 * ***Modèle*** : Modèle Lansweeper créé au sein de {{ fr.RDM }}.
 * ***Vérification des doublons*** n'importera pas les entrées ayant le même type et hôte.
@@ -66,14 +66,14 @@ Peupler les {{ fr.VLT }}s avec des actifs est une tâche chronophage dans {{ fr.
 
 ![Onglet Général](https://cdnweb.devolutions.net/docs/RDMW6035_2024_2.png)
 
-### Onglet Champ
+### Onglet Champs
 Choisir quels ***champs*** seront toujours synchronisés, et lesquels ne le seront pas. Par exemple, vous pourriez choisir de ne pas synchroniser la description, car vous souhaitez la modifier vous-même.
 
-* ***Champ*** : Nom de l'entrée dans {{ fr.RDM }}.
+* ***Champ*** : Sélectionner quels champs seront toujours synchronisés, et lesquels ne le seront pas.
 * ***Préfixe du nom de session*** : Un préfixe pour l'entrée qui sera créée via le synchroniseur.
 * ***Suffixe du nom de session*** : Un suffixe pour l'entrée qui sera créée via le synchroniseur.
 
-![Onglet Champ](https://cdnweb.devolutions.net/docs/RDMW6034_2024_2.png)
+![Onglet Champs](https://cdnweb.devolutions.net/docs/RDMW6034_2024_2.png)
 
 ### Onglet Filtre
 * ***Utiliser une requête personnalisée*** : Si nos paramètres pris en charge ne répondent pas à vos besoins, ou si vous avez déjà une requête pré-faite, vous pouvez l'entrer dans cette section. Suivant la documentation de Lansweeper [ici](https://docs.lansweeper.com/docs/api/getting-data#filtered-query), ce que vous devez entrer dans {{ fr.RDM }} est tout ce qui se trouve dans les crochets "filters:". Comme exemple, voici un filtre qui récupère les Systèmes d'Alarme et les appareils Android, dont le nom contient la valeur "asset".
@@ -97,10 +97,10 @@ groups:
 	}
 ]
 ```
-* ***Type*** : Sélectionner le type d'actif que vous souhaitez importer depuis la liste des Types.
-* ***Ajouter Condition*** :  Ajouter une condition au filtre. Vous devez d'abord entrer la valeur de la propriété, suivie de l'opérateur que vous souhaitez appliquer à cette condition.
+* ***Type*** : Sélectionner le type d'actif que vous souhaitez importer de la liste Type.
+* ***Ajouter Condition*** :  Ajouter une condition au filtre. Vous devez d'abord saisir la valeur de la propriété, suivie de l'opérateur que vous souhaitez appliquer à cette condition.
 
-![Onglet Filtre](https://cdnweb.devolutions.net/docs/RDMW6035_2024_2.png)
+![Onglet Filtre](https://cdnweb.devolutions.net/docs/RDMW6036_2024_2.png)
 
 ### Onglet Avancé
 * ***Action en cas de non-concordance des entrées*** : L'action qui sera effectuée lorsque les entrées précédemment créées par le synchroniseur ne correspondent pas aux données trouvées lors de la synchronisation.
@@ -108,6 +108,6 @@ groups:
     * ***Supprimer*** : Supprimer cette entrée.
     * ***Déplacer vers*** : Déplacer vers le ***Dossier de destination*** sélectionné.
     * ***Marquer comme expiré*** : Marquer cette entrée comme expirée.
-* ***Mode silencieux*** : Cette option désactive les dialogues d'erreur (utile lorsque le synchroniseur fonctionne automatiquement à des intervalles définis).
+* ***Mode silencieux*** : Cette option désactive les dialogues d'erreur (utile lorsque le synchroniseur s'exécute automatiquement à des intervalles définis).
 
 ![Onglet Avancé](https://cdnweb.devolutions.net/docs/RDMW6037_2024_2.png)
