@@ -11,7 +11,7 @@ When experiencing a performance degradation with {{ en.RDM }}, you will be able 
 ## Is Online
 
 ***Is Online*** allows you to verify and change the settings of your server's online availability.
-![Is Online](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip10033.png)
+![Is Online](https://cdnweb.devolutions.net/docs/RDMW6033_2024_2.png)
 
 
 | OPTION                      | DESCRIPTION                                                            |

@@ -11,7 +11,7 @@ Lorsque vous rencontrez une dégradation des performances avec {{ fr.RDM }}, vou
 ## Est en ligne
 
 ***Est en ligne*** vous permet de vérifier et de modifier les paramètres de disponibilité en ligne de votre serveur.
-![Est en ligne](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip10033.png)
+![Est en ligne](https://cdnweb.devolutions.net/docs/RDMW6033_2024_2.png)
 
 
 | OPTION                      | DESCRIPTION                                                            |
