@@ -64,7 +64,16 @@ Populating {{ en.VLT }}s with assets is a time-consuming task in {{ en.RDM }}. [
     * ***Root***: Check for duplicates within the whole data source.
     * ***Destination folder***: Check for duplicates only within the {{ en.RDM }} destination folder or subfolder.
 
-![General tab](https://cdnweb.devolutions.net/docs/docs_en_kb_KB6173.png)
+![General tab](https://cdnweb.devolutions.net/docs/RDMW6035_2024_2.png)
+
+### Field tab
+Choose which ***fields*** will always be synchronized, and which will not. For example, you could choose not to synchronize the description, because you want to edit it yourself.
+
+* ***Field***: Entry name in {{ en.RDM }}.
+* ***Session name prefix***: A prefix for the entry that will be created through the synchronizer.
+* ***Session name suffix***: A suffix for the entry that will be created through the synchronizer.
+
+![Field tab](https://cdnweb.devolutions.net/docs/RDMW6034_2024_2.png)
 
 ### Filter tab
 * ***Use custom query***: If our supported parameters don’t satisfy your needs, or if you already have a pre-made query, you can enter it in this section. Following the
@@ -92,11 +101,9 @@ groups:
 * ***Type***: Select the type of asset you want to import from the Type list.
 * ***Add Condition***:  Add a condition to the filter. You must first enter the value of the property, followed by the operator you want to apply to this condition.
 
-![Filter tab](https://cdnweb.devolutions.net/docs/docs_en_kb_KB6171.png)
+![Filter tab](https://cdnweb.devolutions.net/docs/RDMW6035_2024_2.png)
 
 ### Advanced tab
-* ***Session name prefix***: A prefix for the entry that will be created through the synchronizer
-* ***Session name suffix***: A suffix for the entry that will be created through the synchronizer
 * ***Action on entry mismatch***: The action that will be performed when the entries that were previously created by the synchronizer don't match the data found while synchronizing.
     * ***None***: Do nothing.
     * ***Delete***: Delete that entry.
@@ -104,4 +111,4 @@ groups:
     * ***Make expired***: Mark that entry as expired.
 * ***Silent mode***: This option disables error dialogs (useful when the synchronizer runs automatically at set intervals).
 
-![Advanced tab](https://cdnweb.devolutions.net/docs/docs_en_kb_KB6174.png)
+![Advanced tab](https://cdnweb.devolutions.net/docs/RDMW6037_2024_2.png)
