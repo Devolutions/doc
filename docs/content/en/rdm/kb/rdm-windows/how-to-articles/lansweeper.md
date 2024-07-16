@@ -104,11 +104,12 @@ groups:
 ![Filter tab](https://cdnweb.devolutions.net/docs/RDMW6036_2024_2.png)
 
 ### Advanced tab
+* ***Silent mode***: This option disables error dialogs (useful when the synchronizer runs automatically at set intervals).
+* ***Create virtual folders***: Allow the creation of virtual folders. 
 * ***Action on entry mismatch***: The action that will be performed when the entries that were previously created by the synchronizer don't match the data found while synchronizing.
     * ***None***: Do nothing.
     * ***Delete***: Delete that entry.
     * ***Move to***: Move to selected ***Destination folder***.
     * ***Make expired***: Mark that entry as expired.
-* ***Silent mode***: This option disables error dialogs (useful when the synchronizer runs automatically at set intervals).
 
 ![Advanced tab](https://cdnweb.devolutions.net/docs/RDMW6037_2024_2.png)

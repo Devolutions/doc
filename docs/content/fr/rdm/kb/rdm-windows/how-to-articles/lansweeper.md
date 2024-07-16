@@ -12,12 +12,12 @@ La fonctionnalité de Gestion des Actifs Informatiques peut être utilisée pour
 Seuls les types d'entrée ***Session***, ***Gestion à Distance***, ***Divers***, ***VPN***, ***Synchroniseur*** et ***Modèle*** prennent en charge cette fonctionnalité pour le moment. Les entrées ***Gestion des Actifs Informatiques*** fonctionnent différemment de la fonctionnalité.
 {% endsnippet %}
 
-1. Faire un clic droit sur une entrée et sélectionner ***Propriétés***.
+1. Cliquer avec le bouton droit sur une entrée et sélectionner ***Propriétés***.
 1. Aller à ***Affichage*** – ***Gestion des Actifs Informatiques***.
 1. Sélectionner ***Lansweeper*** dans le menu déroulant.
 1. Saisir l'URL vers un actif spécifique.
 1. Taper un ***titre de gestion des actifs informatiques*** dans le champ correspondant.
-1. Cliquer sur ***Mettre à jour*** pour sauvegarder les modifications et fermer la fenêtre.
+1. Cliquer sur ***Mettre à jour*** pour enregistrer les modifications et fermer la fenêtre.
 ![Gestion des Actifs Informatiques](https://cdnweb.devolutions.net/docs/docs_en_kb_KB6165.png)
 1. Dans le ***Tableau de bord***, sélectionner l'onglet ***Gestion des Actifs Informatiques***.
    {% snippet, "badgeInfo" %}
@@ -31,7 +31,7 @@ Pour importer des actifs Lansweeper et créer des connexions dans {{ fr.RDM }}, 
 
 1. Aller à ***Fichier*** – ***Importer*** – ***Session*** – ***Lansweeper***.
 ![Fichier – Importer – Session – Lansweeper](https://cdnweb.devolutions.net/docs/docs_en_kb_KB6175.png)
-Vous pouvez également faire un clic droit sur le ***{{ fr.NPANE }}*** – ***Importer*** – ***Importer des Sessions Depuis*** – ***Lansweeper***.
+Vous pouvez également cliquer avec le bouton droit sur le ***{{ fr.NPANE }}*** – ***Importer*** – ***Importer des Sessions Depuis*** – ***Lansweeper***.
 1. Dans la fenêtre ***Importer depuis Lansweeper***, entrer le ***code d'identité*** et le ***site***.
    {% snippet, "badgeInfo" %}
    * Le code d'identité provient de l'autorisation d'une application personnelle sur votre site Lansweeper. Voici un lien vers leur documentation sur comment réaliser cela : [Comment s'Authentifier avec notre API](https://docs.lansweeper.com/DOCS/API/AUTHENTICATE#personal-application).
@@ -44,7 +44,7 @@ Vous pouvez également faire un clic droit sur le ***{{ fr.NPANE }}*** – ***Im
 L'importation est terminée.
 
 ## Synchroniseur
-Peupler les {{ fr.VLT }}s avec des actifs est une tâche chronophage dans {{ fr.RDM }}. Les [Synchroniseurs](/rdm/windows/concepts/advanced-concepts/synchronizers/) abordent cela en permettant l'importation directe d'informations et de sessions d'un fournisseur dans le bon format, assurant des données à jour et préservant l'héritage entre les éléments.
+Remplir les {{ fr.VLT }}s avec des actifs est une tâche chronophage dans {{ fr.RDM }}. Les [Synchroniseurs](/rdm/windows/concepts/advanced-concepts/synchronizers/) abordent cela en permettant l'importation directe d'informations et de sessions d'un fournisseur dans le bon format, assurant des données à jour et préservant l'héritage entre les éléments.
 
 1. Ajouter une nouvelle entrée dans {{ fr.RDM }}.
 1. Aller à ***Synchroniseur***.
@@ -56,11 +56,11 @@ Peupler les {{ fr.VLT }}s avec des actifs est une tâche chronophage dans {{ fr.
 * ***Nom*** : Nom de l'entrée dans {{ fr.RDM }}.
 * ***Dossier de destination*** : Cliquer sur le bouton ellipsis pour définir le chemin du dossier dans l'arborescence de {{ fr.RDM }} (qui ne peut être que dans le même {{ fr.VLT }}).
 * ***Synchroniser automatiquement*** : L'entrée se synchronisera automatiquement avec Lansweeper.
-* ***Utiliser les Paramètres de Mon Compte*** : Utiliser les Paramètres de Mon Compte au lieu du code d'identité.
-* ***Code d'identité*** : Jeton pour demander des informations via l'API.
+* ***Utiliser Mes Paramètres de Compte*** : Utiliser Mes Paramètres de Compte au lieu du code d'identité.
+* ***Code d'identité*** : Jeton pour demander des informations API.
 * ***Site*** : Choisir un site Lansweeper.
 * ***Modèle*** : Modèle Lansweeper créé au sein de {{ fr.RDM }}.
-* ***Vérification des doublons*** n'importera pas les entrées ayant le même type et hôte.
+* ***Vérification des doublons*** n'importera pas les entrées avec le même type et hôte.
     * ***Racine*** : Vérifier les doublons dans toute la source de données.
     * ***Dossier de destination*** : Vérifier les doublons uniquement dans le dossier de destination {{ fr.RDM }} ou sous-dossier.
 
@@ -97,17 +97,18 @@ groups:
 	}
 ]
 ```
-* ***Type*** : Sélectionner le type d'actif que vous souhaitez importer de la liste Type.
-* ***Ajouter Condition*** :  Ajouter une condition au filtre. Vous devez d'abord saisir la valeur de la propriété, suivie de l'opérateur que vous souhaitez appliquer à cette condition.
+* ***Type*** : Sélectionner le type d'actif que vous souhaitez importer depuis la liste Type.
+* ***Ajouter Condition*** :  Ajouter une condition au filtre. Vous devez d'abord entrer la valeur de la propriété, suivie de l'opérateur que vous souhaitez appliquer à cette condition.
 
 ![Onglet Filtre](https://cdnweb.devolutions.net/docs/RDMW6036_2024_2.png)
 
 ### Onglet Avancé
+* ***Mode silencieux*** : Cette option désactive les dialogues d'erreur (utile lorsque le synchroniseur s'exécute automatiquement à des intervalles définis).
+* ***Créer des dossiers virtuels*** : Permettre la création de dossiers virtuels.
 * ***Action en cas de non-concordance des entrées*** : L'action qui sera effectuée lorsque les entrées précédemment créées par le synchroniseur ne correspondent pas aux données trouvées lors de la synchronisation.
     * ***Aucune*** : Ne rien faire.
     * ***Supprimer*** : Supprimer cette entrée.
     * ***Déplacer vers*** : Déplacer vers le ***Dossier de destination*** sélectionné.
     * ***Marquer comme expiré*** : Marquer cette entrée comme expirée.
-* ***Mode silencieux*** : Cette option désactive les dialogues d'erreur (utile lorsque le synchroniseur s'exécute automatiquement à des intervalles définis).
 
 ![Onglet Avancé](https://cdnweb.devolutions.net/docs/RDMW6037_2024_2.png)
