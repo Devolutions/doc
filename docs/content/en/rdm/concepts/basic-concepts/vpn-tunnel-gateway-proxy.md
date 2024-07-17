@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title:  VPN, tunnel, gateway, and proxy
+  title:  VPNs, tunnels, gateways, and proxies
   description: A VPN (Virtual Private Network) refers to the establishment of a secure, encrypted connection over a potentially less secure network. Information in {{ en.RDM }} is centralized, easily accessible, and organized for efficient use.
 ---
 A VPN (Virtual Private Network) establishes a secure, encrypted connection over a potentially less secure network. Through [inheritance](/rdm/kb/rdm-windows/knowledge-base/inheritance/), avoid duplicating configurations and ensure all connections are secure. Save time with {{ en.RDM }} through automatically-launched VPNs for connections.
