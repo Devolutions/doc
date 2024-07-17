@@ -29,8 +29,16 @@ This guide will walk you through the process of deploying and updating {{ en.RDM
 1. In the ***Group Policy Management Editor***, go to ***Computer Configuration – Policies – Software Settings – Software installation***.
 1. Right-click on ***Software installation***, select ***New***, and then ***Package***.
 1. In the ***Open*** dialog box, browse to the shared folder containing the [{{ en.RDM }} MSI installer file](https://devolutions.net/remote-desktop-manager/home/download/), select it, and click ***Open***.
-1. Select ***Assigned*** to check if {{ en.RDM }} is installed automatically on target computers. 
+1. Select ***Advanced***.
 1. Click ***OK***.
+1. Click the ***Upgrade tab***, and make sure you see {{ en.RDM }} which should be there by default.
+1. Select ***OK***.
+
+If you have previously updated {{ en.RDM }}:
+
+1. Verify that all prior packages are included in the list.
+1. When adding each package, confirm that the ***Package can upgrade over the existing package*** option is selected.
+1. Click ***OK*** to close the ***package’s Properties dialog box***.
 
 ### Apply the GPO to target computers
 Make sure the GPO is linked to the correct OU containing the computers where {{ en.RDM }} should be installed. {{ en.RDM }} will be installed the next time the computers restart.
