@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: "{{ fr.COFFRE }}"
+  title: "{{ fr.COFFRE_MAJ }}"
   description: Un {{ fr.COFFRE }} dans Devolutions PAM est le principal type de compartiment pour le stockage des unités de plateforme.
 ---
 Un ***{{ fr.COFFRE }}*** dans Devolutions PAM est le principal type de compartiment pour le stockage des unités de plateforme, conçu pour stocker de manière sécurisée les identifiants, secrets et autres informations sensibles. Il offre un contrôle d'accès robuste, des fonctionnalités organisationnelles et une traçabilité pour assurer la protection et la gestion des données.
