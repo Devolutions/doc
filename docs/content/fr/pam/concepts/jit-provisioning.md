@@ -7,9 +7,6 @@ eleventyComputed:
 
 Les comptes peuvent être nommés de manière quelconque, comme une variation du nom d'utilisateur de l'utilisateur effectuant la réservation, l'identifiant de réservation, etc. Cette approche déplace le fardeau de la surveillance de nombreux comptes existants vers la surveillance de quelques-uns permanents, mais elle augmente l'activité de création de compte.
 
-### Sujets associés
-* []()
-
 ### Voir aussi
 * [Élévation juste-à-temps (JIT) dans {{ fr.DVLS }}](/pam/server/just-in-time/)
 * [Glossaire des termes courants de la gestion des accès privilégiés (PAM)](https://blog.devolutions.net/2021/01/glossary-of-common-privileged-access-management-pam-terms/)
