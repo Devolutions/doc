@@ -11,6 +11,8 @@ This guide will walk you through the process of deploying and updating {{ en.RDM
 * Administrative access to the domain controller.
 * [{{ en.RDM }} MSI installer file](https://devolutions.net/remote-desktop-manager/home/download/). Ensure you have the latest version if you're updating.
 
+## Deploying Remote Desktop Manager
+
 ### Move the installer to a shared folder
 
 1. Create a shared folder on a network location accessible to all target computers.
@@ -29,26 +31,31 @@ This guide will walk you through the process of deploying and updating {{ en.RDM
 1. In the ***Group Policy Management Editor***, go to ***Computer Configuration – Policies – Software Settings – Software installation***.
 1. Right-click on ***Software installation***, select ***New***, and then ***Package***.
 1. In the ***Open*** dialog box, browse to the shared folder containing the [{{ en.RDM }} MSI installer file](https://devolutions.net/remote-desktop-manager/home/download/), select it, and click ***Open***.
-1. Select ***Advanced***.
-1. Click ***OK***.
-1. Click the ***Upgrade tab***, and make sure you see {{ en.RDM }} which should be there by default.
-1. Select ***OK***.
+1. Choose the ***Assigned*** deployment method and click ***OK***.
 
+The configuration of the GPO is complete. Once the deployment of the GPO in the domain is complete, {{ en.RDM }} will be automatically installed after each computer is restarted.
+
+## Updating {{ en.RDM }}
+
+Updating an existing installation of {{ en.RDM }} follows a similar process with a few additional considerations:
+
+1. Verify that all previously deployed versions of {{ en.RDM }} are listed in the GPO.
+1. As with the initial deployment, add the new MSI package to the shared network folder. 
+1. Under ***Software installation***, right-click on the previous version of {{ en.RDM }}, and select ***All Tasks***, 
+1. Click ***Upgrade***.
+1. Choose the new MSI package and configure it to upgrade the existing installation.
+1. Make sure the ***Package can upgrade over the existing package*** option is selected. This will allow for an easy transition from the old version to the new.
+
+{% snippet, "badgeInfo" %}
 If you have previously updated {{ en.RDM }}:
-
 1. Verify that all prior packages are included in the list.
 1. When adding each package, confirm that the ***Package can upgrade over the existing package*** option is selected.
 1. Click ***OK*** to close the ***package’s Properties dialog box***.
-
-### Apply the GPO to target computers
-Make sure the GPO is linked to the correct OU containing the computers where {{ en.RDM }} should be installed. {{ en.RDM }} will be installed the next time the computers restart.
-
-### Verify the installation
-Once the computers have restarted, check a few machines to confirm that {{ en.RDM }} has been installed successfully. You can also use the ***Event Viewer*** to check for any installation errors.
+{% endsnippet %}
 
 ### Troubleshooting
 If you encounter any issues during the deployment, refer to the following troubleshooting steps:
 
 * Check that the shared folder and the [{{ en.RDM }} MSI installer file](https://devolutions.net/remote-desktop-manager/home/download/) have the correct permissions.
 * Verify that the GPO is linked to the correct OU.
-* Check the Event Viewer logs on the client machines for any errors related to the {{ en.RDM }} installation.
+* Check the ***Event Viewer logs*** on the client machines for any errors related to the {{ en.RDM }} installation and update.
