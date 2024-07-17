@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: "{{ en.VLT }}"
+  title: "{{ en.VLT_MAJ }}"
   description: A {{ en.VLT }} in Devolutions PAM is the main type of compartment for platform unit storage.
 ---
 A ***{{ en.VLT }}*** in Devolutions PAM is the main type of compartment for platform unit storage, designed to securely store credentials, secrets, and other sensitive information. It provides robust access control, organizational features, and auditability to ensure data protection and manageability.
