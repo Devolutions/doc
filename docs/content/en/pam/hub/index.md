@@ -2,7 +2,7 @@
 eleventyComputed:
   title: PAM with {{ en.DHUBB }}
   description: Devolutions Privileged Access Management for {{ en.DHUBB }} is specifically designed to meet the needs of SMBs, providing enterprise-grade features to bring a level of protection usually only afforded to large organizations while at the same time being robust, easy to deploy, and affordable.
-  order: 40
+  order: 50
 ---
 {% snippet, "badgeInfo" %}
 The Privileged Access Management (PAM) module in {{ en.DHUBB }} is currently in beta development. Please contact our [sales department](mailto:sales@devolutions.net) for further information.

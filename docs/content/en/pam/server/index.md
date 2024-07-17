@@ -2,7 +2,7 @@
 eleventyComputed:
   title: PAM with {{ en.DVLS }}
   description: Devolutions Privileged Access Management is specifically designed to meet the needs of SMBs, providing enterprise-grade features to bring a level of protection usually only afforded to large organizations.
-  order: 30
+  order: 40
 ---
 [Devolutions Privileged Access Management](https://devolutions.net/privileged-access-management/) provides all the following features. It is specifically designed to meet the needs of SMBs, providing enterprise-grade features to bring a level of protection usually only afforded to large organizations while at the same time being robust, easy to deploy, and affordable.
 
