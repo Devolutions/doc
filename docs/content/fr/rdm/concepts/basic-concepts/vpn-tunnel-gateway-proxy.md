@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: VPN, tunnel, passerelle et proxy
+  title: VPN, tunnels, passerelles et proxy
   description: Un VPN (Réseau Privé Virtuel) fait référence à l'établissement d'une connexion sécurisée et chiffrée sur un réseau potentiellement moins sécurisé. Les informations dans {{ fr.RDM }} sont centralisées, facilement accessibles et organisées pour une utilisation efficace.
 ---
 Un VPN (Réseau Privé Virtuel) établit une connexion sécurisée et chiffrée sur un réseau potentiellement moins sécurisé. Grâce à [l'héritage](/rdm/kb/rdm-windows/knowledge-base/inheritance/), éviter de dupliquer les configurations et assurer que toutes les connexions soient sécurisées. Gagner du temps avec {{ fr.RDM }} grâce au lancement automatique de VPNs pour les connexions.
