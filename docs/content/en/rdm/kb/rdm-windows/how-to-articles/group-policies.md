@@ -148,11 +148,6 @@ If {{ en.RDM }} is open when you make this change, then you will need to restart
 
 ---
 
-#### Disable Azure interactive persistent login
-`%Root%\SOFTWARE\Policies\Devolutions\RemoteDesktopManager\DisableAzureInteractivePersistentLogin`
-
----
-
 #### Disable execute scripts via terminal
 `%Root%\SOFTWARE\Policies\Devolutions\RemoteDesktopManager\DisableExecuteScriptsViaTerminal`
 
