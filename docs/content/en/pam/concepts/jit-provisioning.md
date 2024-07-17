@@ -7,9 +7,6 @@ eleventyComputed:
 
 Accounts can be named anything, such as a variation of the username of the user performing the checkout, the checkout identifier, etc. This approach shifts the burden from monitoring many existing accounts to monitoring just a few permanent ones, but it increases the account creation activity.
 
-### Related topics
-* []()
-
 ### See also
 * [Just-in-time (JIT) elevation in {{ en.DVLS }}](/pam/server/just-in-time/)
 * [Glossary of Common Privileged Access Management (PAM) Terms](https://blog.devolutions.net/2021/01/glossary-of-common-privileged-access-management-pam-terms/)
