@@ -3,7 +3,7 @@ eleventyComputed:
   title: Deploy or update {{ en.RDM }} through GPO
   description: This guide will walk you through the process of deploying {{ en.RDM }} using Group Policy Object (GPO).
 ---
-This guide will walk you through the process of deploying and updating {{ en.RDM }} using Group Policy Object (GPO).
+This guide will walk you through the process of deploying and updating {{ en.RDM }} with Active Directory (AD) using Group Policy Object (GPO). To learn how to manage GPO in the Local Group Policy Editor, click [here](/rdm/kb/rdm-windows/how-to-articles/group-policies/#list-remote-desktop-manager-gpos-in-the-local-group-policy-editor).
 
 ## Prerequisites
 
@@ -18,7 +18,7 @@ This guide will walk you through the process of deploying and updating {{ en.RDM
 1. Create a shared folder on a network location accessible to all target computers.
 1. Configure the folder to have read permissions for all users who will be installing {{ en.RDM }}.
 1. Copy the [{{ en.RDM }} MSI installer file](https://devolutions.net/remote-desktop-manager/home/download/) to the shared folder.
-.
+
 ### Create a new group policy object
 
 1. On your Domain Controller, open the ***Group Policy Management Console (GPMC)***.
@@ -33,7 +33,7 @@ This guide will walk you through the process of deploying and updating {{ en.RDM
 1. In the ***Open*** dialog box, browse to the shared folder containing the [{{ en.RDM }} MSI installer file](https://devolutions.net/remote-desktop-manager/home/download/), select it, and click ***Open***.
 1. Choose the ***Assigned*** deployment method and click ***OK***.
 
-The configuration of the GPO is complete. Once the deployment of the GPO in the domain is complete, {{ en.RDM }} will be automatically installed after each computer is restarted.
+The configuration of the GPO is complete. Once the deployment of the GPO in the domain is done, {{ en.RDM }} will be automatically installed after each computer is restarted.
 
 ## Updating {{ en.RDM }}
 

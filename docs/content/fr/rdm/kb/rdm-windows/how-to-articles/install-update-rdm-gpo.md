@@ -1,9 +1,9 @@
 ---
 eleventyComputed:
   title: Déployer ou mettre à jour {{ fr.RDM }} via GPO
-  description: Ce guide vous expliquera le processus de déploiement de {{ fr.RDM }} en utilisant l'Objet Stratégie de Groupe (GPO).
+  description: Ce guide vous expliquera comment déployer {{ fr.RDM }} en utilisant l'Objet de Stratégie de Groupe (GPO).
 ---
-Ce guide vous expliquera le processus de déploiement et de mise à jour de {{ fr.RDM }} en utilisant l'Objet Stratégie de Groupe (GPO).
+Ce guide vous expliquera comment déployer et mettre à jour {{ fr.RDM }} avec Active Directory (AD) en utilisant l'Objet de Stratégie de Groupe (GPO). Pour apprendre à gérer GPO dans l'Éditeur de Stratégie de Groupe Locale, cliquer [ici](/rdm/kb/rdm-windows/how-to-articles/group-policies/#list-remote-desktop-manager-gpos-in-the-local-group-policy-editor).
 
 ## Prérequis
 
@@ -19,7 +19,7 @@ Ce guide vous expliquera le processus de déploiement et de mise à jour de {{ f
 1. Configurer le dossier pour avoir des permissions de lecture pour tous les utilisateurs qui installeront {{ fr.RDM }}.
 1. Copier le [fichier d'installation MSI de {{ fr.RDM }}](https://devolutions.net/remote-desktop-manager/home/download/) dans le dossier partagé.
 
-### Créer un nouvel objet stratégie de groupe
+### Créer un nouvel objet de stratégie de groupe
 
 1. Sur votre Contrôleur de Domaine, ouvrir la ***Console de Gestion de Stratégie de Groupe (GPMC)***.
 1. Cliquer avec le bouton droit sur l'unité organisationnelle (OU) où vous souhaitez déployer {{ fr.RDM }} et sélectionner ***Créer un GPO dans ce domaine, et le lier ici...***.
@@ -28,7 +28,7 @@ Ce guide vous expliquera le processus de déploiement et de mise à jour de {{ f
 ### Configurer le GPO pour l'installation du logiciel
 
 1. Cliquer avec le bouton droit sur votre GPO nouvellement créé et sélectionner ***Modifier***.
-1. Dans l'***Éditeur de Gestion de Stratégie de Groupe***, aller à ***Configuration de l'ordinateur – Stratégies – Paramètres de logiciels – Installation de logiciels***.
+1. Dans l'***Éditeur de Gestion de Stratégie de Groupe***, aller à ***Configuration de l'ordinateur – Politiques – Paramètres de logiciels – Installation de logiciels***.
 1. Cliquer avec le bouton droit sur ***Installation de logiciels***, sélectionner ***Nouveau***, puis ***Package***.
 1. Dans la boîte de dialogue ***Ouvrir***, naviguer vers le dossier partagé contenant le [fichier d'installation MSI de {{ fr.RDM }}](https://devolutions.net/remote-desktop-manager/home/download/), le sélectionner et cliquer sur ***Ouvrir***.
 1. Choisir la méthode de déploiement ***Assigné*** et cliquer sur ***OK***.
