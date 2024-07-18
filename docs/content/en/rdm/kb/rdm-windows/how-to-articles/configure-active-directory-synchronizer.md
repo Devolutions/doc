@@ -77,3 +77,9 @@ Choose which fields will always be synchronized, and which will not. For example
     * ***Delete***: Delete that entry
     * ***Move to***: Move to selected ***destination folder***
     * ***Make expired***: Mark that entry as expired (expiration message can be set up)
+
+### Schedule
+![Schedule tab](https://cdnweb.devolutions.net/docs/RDMW6049_2024_2.png)
+* ***Enabled***: Schedule being on/off
+    * ***Every (Days)***: Interval between when the synchronizer runs
+    * ***At***: Specific time to synchronize
