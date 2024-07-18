@@ -2,20 +2,14 @@
 eleventyComputed:
   title: Configure a Bitwarden entry in {{ en.RDM }}
   description: There are two types of Bitwarden entries in {{ en.RDM }}; this topic will explain how each one works.
-  keywords:
-  - Bitwarden
 ---
-In {{ en.RDM }} there are the [***Credential Management***](#credential-management) and [***Synchronizer***](#synchronizer) entry types for Bitwarden, this topic will explain how each one works.
+In {{ en.RDM }} there are the [***Credential Management***](#credential-management) and [***Synchronizer***](#synchronizer) entry types for Bitwarden, this topic will explain how each one works. To learn more about creating and managing a Bitwarden account, please consult the [documentation](https://bitwarden.com/help/) on their official website.
 {% snippet, "badgeCaution" %}
 Email ***Authentication mode*** is now deprecated for ***Bitwarden*** entries and unavailable from 2023.2 onwards.
 {% endsnippet %}
 
 {% snippet, "badgeInfo" %}
 The integration of credentials from password managers is only available in the Team version of {{ en.RDM }}.
-{% endsnippet %}
-
-{% snippet, "badgeHelp" %}
-To learn more about creating and managing a Bitwarden account, please consult the [documentation](https://bitwarden.com/help/) on their official website.
 {% endsnippet %}
 
 ## Credential Management
@@ -41,13 +35,14 @@ Here is a description for each field or option, in order from top to bottom. The
 ## Synchronizer
 Here is a description for each field or option, in order from top to bottom. The entry can be found under ***New Entry*** – ***Synchronizer***:
 ![Synchronizer](https://cdnweb.devolutions.net/docs/docs_en_kb_KB0068.png)
-![General tab](https://cdnweb.devolutions.net/docs/docs_en_kb_KB0069.png)
+![Bitwarden synchronizer entry](https://cdnweb.devolutions.net/docs/RDMW6038_2024_2.png)
 * ***Name***: Entry name in {{ en.RDM }}
 * ***Folder***: Which {{ en.RDM }} folder the entry will be in
 * ***Credentials***: Read more on [***Credentials*** options](/rdm/windows/commands/edit/entries/entry-credentials-options/)
 * ***Synchronize automatically***: The {{ en.RDM }} entry will synchronize automatically with Bitwarden
 
 ### General tab
+![General tab](https://cdnweb.devolutions.net/docs/RDMW6039_2024_2.png)
 * ***Host***
     * ***Default***: Default Bitwarden URL
     * ***Custom***: Custom URL for Bitwarden
@@ -56,12 +51,18 @@ Here is a description for each field or option, in order from top to bottom. The
 * ***Master password***: Bitwarden's master password
 * ***Destination folder***: Click the ellipsis button to set the folder path in the {{ en.RDM }} tree view (which can only be in the same {{ en.VLT }}).
 * ***Template***: Bitwarden template created within {{ en.RDM }}
-* ***Duplicate check*** will not import entries with the same type and host
-    * ***Root***: Check for duplicates within the whole data source
-    * ***Destination folder***: Check for duplicates only within the {{ en.RDM }} destination folder or subfolder
+
+### Fields
+![Filter tab](https://cdnweb.devolutions.net/docs/RDMW6043_2024_2.png)
+
+Choose which ***fields*** will always be synchronized, and which will not. For example, you could choose not to synchronize the description, because you want to edit it yourself.
+
+* ***Field***: Select which fields will always be synchronized, and which will not
+* ***Session name prefix***: A prefix for the entry that will be created through the synchronizer
+* ***Session name suffix***: A suffix for the entry that will be created through the synchronizer
 
 ### Filter
-![Filter tab](https://cdnweb.devolutions.net/docs/docs_en_kb_KB0070.png)
+![Filter tab](https://cdnweb.devolutions.net/docs/RDMW6040_2024_2.png)
 * ***Filter box***: It will load the Bitwarden {{ en.VLT }} to let the user pick the wanted Organizations/Collections for synchronization
 * ***Filter severity***
     * ***Normal***: Accounts that are either in the selected folders or collections will be returned
@@ -69,12 +70,16 @@ Here is a description for each field or option, in order from top to bottom. The
 * ***Create tags for Organizations/Collections***: If enabled, organization and collection tags from Bitwarden will be added to the {{ en.RDM }} entry
 
 ### Advanced
-![Advanced tab](https://cdnweb.devolutions.net/docs/docs_en_kb_KB0071.png)
-* ***Session name prefix***: A prefix for the entry
-* ***Session name suffix***: A suffix for the entry
+![Advanced tab](https://cdnweb.devolutions.net/docs/RDMW6042_2024_2.png)
+* ***Silent mode***: This option disables error dialogs (useful when the synchronizer runs automatically at set intervals)
+* ***Create virtual folders***: Allow the creation of virtual folders.
+* ***Duplicate check*** will not import entries with the same type and host
+    * ***Root***: Check for duplicates within the whole data source
+    * ***Destination folder***: Check for duplicates only within the {{ en.RDM }} destination folder or subfolder
 * ***Action on entry mismatch***
     * ***None***: Do nothing
     * ***Delete***: Delete that entry
     * ***Move to***: Move to selected ***Destination folder***
     * ***Make expired***: Mark that entry as expired
-* ***Silent mode***: This option disables error dialogs (useful when the synchronizer runs automatically at set intervals)
+* ***My {{ en.VLT }} name***: Choose the {{ en.VLT }} name.
+ 
