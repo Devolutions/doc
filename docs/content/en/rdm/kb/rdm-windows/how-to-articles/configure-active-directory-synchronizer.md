@@ -37,14 +37,14 @@ The entry can be found under ***New Entry*** – ***Synchronizer***:
     * ***Port generator***: Generate a port
 * ***Destination folder***: Choose a destination folder.
 * ***Template***: Select a template.
-### Log in
+### Log in tab
 ![Login tab](https://cdnweb.devolutions.net/docs/RDMW6045_2024_2.png)
 * ***Username***: Username for the domain
 * ***Domain***: Domain for the Active Directory
 * ***Password***: Password for the domain
 * ***Merge username and domain***: Merges username and domain
 
-### Fields
+### Fields tab
 ![Fields](https://cdnweb.devolutions.net/docs/RDMW6046_2024_2.png)
 Choose which fields will always be synchronized, and which will not. For example, you could choose not to synchronize the description, because you want to edit it yourself.
 
@@ -53,7 +53,7 @@ Choose which fields will always be synchronized, and which will not. For example
 * ***Session name prefix***: A prefix for the entry that will be created through the synchronizer
 * ***Session name suffix***: A suffix for the entry that will be created through the synchronizer
 
-### Filters
+### Filters tab
 ![Filters tab](https://cdnweb.devolutions.net/docs/RDMW6047_2024_2.png)
 * ***Type***: LDAP syntax filters can be used in many situations in Active Directory
     * ***All***: Default filter
@@ -61,7 +61,7 @@ Choose which fields will always be synchronized, and which will not. For example
 * ***Other filter***: Read more about this option by clicking the ***Help*** button
 * ***Preview***: Preview of the applied filters
 
-### Advanced
+### Advanced tab
 ![Advanced tab](https://cdnweb.devolutions.net/docs/RDMW6048_2024_2.png)
 * ***Silent mode***: This option disables error dialogs (useful when the synchronizer runs automatically at set intervals)
 * ***Verify folder on mismatch***: During synchronization, if enabled, verifies each connection and compares to already existing ones; ***Verify on folder mismatch*** will also check the path
@@ -78,7 +78,7 @@ Choose which fields will always be synchronized, and which will not. For example
     * ***Move to***: Move to selected ***destination folder***
     * ***Make expired***: Mark that entry as expired (expiration message can be set up)
 
-### Schedule
+### Schedule tab
 ![Schedule tab](https://cdnweb.devolutions.net/docs/RDMW6049_2024_2.png)
 * ***Enabled***: Schedule being on/off
     * ***Every (Days)***: Interval between when the synchronizer runs
