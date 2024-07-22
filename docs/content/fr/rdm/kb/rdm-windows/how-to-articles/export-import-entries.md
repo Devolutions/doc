@@ -1,8 +1,8 @@
-```yaml
+---
 eleventyComputed:
   title: Exporter et importer des entrées
   status: Sujet disponible en langue allemande
-```
+---
 {% youtube 'jipoCzhIEs8' %}
 
 Il est possible d'exporter et d'importer des entrées d'un type de source de données à un autre. Il existe de nombreuses façons d'exporter des entrées avec {{ fr.RDM }}.
