@@ -51,6 +51,7 @@ Die erste Methode wird direkt im [{{ de.RDM }}](#exportierenimportieren-uber-rem
 Das folgende PowerShell-Skript dient zum Exportieren aller Einträge aus einer Datenquelle in **.rdm** Dateien. Es wird eine Datei pro Repository erstellt. Bevor Sie die Einträge aus der Datenquelle exportieren können, sind einige Vorbereitungen erforderlich.
 
 1. Installieren Sie {{ de.RDM }} auf dem Computer, auf dem das PowerShell-Skript ausgeführt werden soll.
+1. Installieren Sie das [{{ en.PS }} core module](/powershell/rdm-powershell/rdm-powershell-core-module/#installation).
 1. Erstellen Sie eine neue Datenquellenkonfiguration in {{ de.RDM }} innerhalb des Windows-Profils des Benutzers.
 1. Weisen Sie dem Nutzerkonto, das das Skript ausführen wird, die nötigen Berechtigungen für den Zielordner zu.
 1. Aktualisieren Sie das Passwort im Skript.
@@ -59,8 +60,6 @@ Das folgende PowerShell-Skript dient zum Exportieren aller Einträge aus einer D
 1. Erstellen Sie eine geplante Aufgabe, um das Skript regelmäßig auszuführen.
 
    ```powershell
-   Import-Module 'C:\Program Files (x86)\Devolutions\Remote Desktop Manager\RemoteDesktopManager.PowerShellModule.psd1'
-
    $ds = Get-RDMDataSource -Name "NameOfYourDataSourceHere"
    Set-RDMCurrentDataSource $ds
 
