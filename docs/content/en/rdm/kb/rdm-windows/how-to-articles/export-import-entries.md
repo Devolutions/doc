@@ -55,6 +55,7 @@ The first method is done directly in [{{ en.RDM }}](#exportimport-through-remote
 The following PowerShell script is intended for exporting all entries from a data source into **.rdm** files. One file per repository will be created. Before being able to export the entries from the data source, some preparations are required.
 
 1. Install {{ en.RDM }} on the machine where the PowerShell script will be running.
+1. Install the [{{ en.PS }} core module](/powershell/rdm-powershell/rdm-powershell-core-module/#installation).
 1. Create a new data source configuration in {{ en.RDM }} within the user's Windows profile.
 1. Set up proper permissions on the destination folder for the user account that will run the script.
 1. Update the password in the script.
@@ -63,8 +64,6 @@ The following PowerShell script is intended for exporting all entries from a dat
 1. Create a scheduled task to run the script on a regular basis.
 
    ```powershell
-   Import-Module 'C:\Program Files (x86)\Devolutions\Remote Desktop Manager\RemoteDesktopManager.PowerShellModule.psd1'
-
    $ds = Get-RDMDataSource -Name "NameOfYourDataSourceHere"
    Set-RDMCurrentDataSource $ds
 
