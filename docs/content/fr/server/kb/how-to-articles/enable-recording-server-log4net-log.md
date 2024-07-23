@@ -1,20 +1,20 @@
 ---
 eleventyComputed:
   title: Activer le journal du serveur d'enregistrement
-  keywords:
-  - Journal
-  - Log4Net
-  - Journalisation
-  - Journaux
+  description: La procédure suivante décrit comment activer l'utilitaire de journalisation pour le ***Serveur d'enregistrement*** {{ fr.DVLS }}.
 ---
-La procédure suivante décrit comment activer l'utilitaire de journalisation pour le ***Serveur d'enregistrement*** de {{ fr.DVLS }}.
+{% snippet, "badgeInfo" %}
+Cette version du serveur d'enregistrement n'est plus prise en charge.
+{% endsnippet %}
+
+La procédure suivante décrit comment activer l'utilitaire de journalisation pour le ***Serveur d'enregistrement*** {{ fr.DVLS }}.
 
 ## Activer les journaux
 1. Pour éditer le fichier **log4net.config**, cliquer sur le bouton ***Explorer*** de la section ***Serveur d'enregistrement*** de l'onglet ***Companions*** dans la {{ fr.DVLSCONSOLE }}.
 ![Bouton Explorer](https://cdnweb.devolutions.net/docs/docs_en_kb_KB8120.png)
 1. Définir la valeur du paramètre de fichier avec le chemin complet du fichier journal. Assurer que les antislashs sont doublés.
    {% snippet, "badgeCaution" %}
-   S'assurer que le dossier de destination pour les journaux a des droits d'écriture.
+   Assurer que le dossier de destination pour les journaux a des droits d'écriture.
    {% endsnippet %}
 1. Définir la valeur du paramètre de niveau à ALL.
 1. Redémarrer les services Collector et Processor sur le serveur après toute modification de ces fichiers.

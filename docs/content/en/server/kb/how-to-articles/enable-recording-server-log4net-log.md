@@ -1,12 +1,12 @@
 ---
 eleventyComputed:
   title: Enable the Recording Server log
-  keywords:
-  - Log
-  - Log4Net
-  - Logging
-  - Logs
+  description: The following procedure describes how to enable the logging utility for the {{ en.DVLS }} ***Recording Server***.
 ---
+{% snippet, "badgeInfo" %}
+This version of the recording server is no longer supported.
+{% endsnippet %}
+
 The following procedure describes how to enable the logging utility for the {{ en.DVLS }} ***Recording Server***.
 
 ## Enable logs
