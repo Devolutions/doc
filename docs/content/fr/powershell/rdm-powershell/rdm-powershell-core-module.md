@@ -30,7 +30,7 @@ Sur certaines machines, il peut être nécessaire d'installer le module PowerShe
    ```
 
 ## Migration de vos scripts
-Une fois installé, la seule modification requise est de supprimer la commande `Import-Module` des scripts utilisés avec l'ancien module PowerShell {{ fr.RDM }}. Comme le module fait maintenant partie des modules PowerShell installés sur l'ordinateur, il n'est plus nécessaire de l'importer dans les scripts.
+Une fois installé, la seule modification requise est de supprimer la commande `Import-Module` des scripts utilisés avec l'ancien module PowerShell de {{ fr.RDM }}. Comme le module fait maintenant partie des modules PowerShell installés sur l'ordinateur, il n'est plus nécessaire de l'importer dans les scripts.
 
 ## Utiliser une configuration de substitution (portable)
 En utilisant les cmdlets `Get-RDMPowerShellOverride` et `Set-RDMPowerShellOverride`, il est possible de choisir un autre dossier de destination pour sauvegarder les fichiers de configuration ou de sélectionner un dossier différent de celui défini par défaut par le module Devolutions.PowerShell. Ces commandes peuvent également être utilisées pour sélectionner un dossier contenant des fichiers d'une configuration {{ fr.RDM }} existante autre que celle par défaut.
@@ -47,7 +47,7 @@ Par défaut : **%ProgramFiles%\Devolutions\Remote Desktop Manager\RemoteDesktopM
 ```powershell
 $override = Get-RDMPowerShellOverride
 $override.OptionFilePath = "CheminVersCfg" # C:\RemoteDesktopManager\2023.1\config\RemoteDesktopManager.cfg
-$override.RemoteDesktopManagerExecutablePath = "Chemin vers la version {{ fr.RDM }} souhaitée" # C:\RemoteDesktopManager\2023.1\Devolutions.RemoteDesktopManager.Bin.2023.1.11.0\RemoteDesktopManager64.exe
+$override.RemoteDesktopManagerExecutablePath = "Chemin vers la version de {{ fr.RDM }} souhaitée" # C:\RemoteDesktopManager\2023.1\Devolutions.RemoteDesktopManager.Bin.2023.1.11.0\RemoteDesktopManager64.exe
 Set-RDMPowerShellOverride
 # Redémarrer PowerShell
 ```
@@ -65,7 +65,8 @@ C:\windows\system32\WindowsPowerShell\v1.0\Modules
 ## Interroger la version de PowerShell et le fichier de configuration utilisé
 ```powershell
 Get-RDMInstance
-PS C:\RemoteDesktopManager\2023.1\Devolutions.RemoteDesktopManager.Bin.2023.1.11.0> Get-RDMInstance
+
 ApplicationVersion OptionFilename
+------------------ --------------
 2023.1.0.14 C:\RemoteDesktopManager\2023.1\config\RemoteDesktopManager.cfg
 ```
