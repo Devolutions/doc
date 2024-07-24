@@ -1,9 +1,9 @@
 ---
 eleventyComputed:
   title: Créer des modèles
-  description: Il existe de nombreuses manières de créer un modèle pour les entrées. Vous pouvez créer un nouveau modèle, enregistrer une entrée comme modèle, importer des entrées comme modèles et dupliquer un modèle existant. Il est également possible de créer des modèles de groupes.
+  description: Il existe de nombreuses façons de créer un modèle pour les entrées. Vous pouvez créer un nouveau modèle, enregistrer une entrée comme modèle, importer des entrées comme modèles et dupliquer un modèle existant. Il est également possible de créer des modèles de groupe.
 ---
-Il existe de nombreuses manières de créer un modèle pour les entrées. Vous pouvez créer un nouveau modèle, enregistrer une entrée comme modèle, importer des entrées comme modèles et dupliquer un modèle existant. Il est également possible de créer des modèles de groupes.
+Il existe de nombreuses façons de créer un modèle pour les entrées. Vous pouvez créer un nouveau modèle, enregistrer une entrée comme modèle, importer des entrées comme modèles et dupliquer un modèle existant. Il est également possible de créer des modèles de groupe.
 
 Dans ce sujet :
 
@@ -15,15 +15,15 @@ Dans ce sujet :
 
 ## Créer un nouveau modèle
 
-1. Naviguer vers ***Fichier – Modèles*** et sélectionner ***Modèles d'entrées***.
+1. Naviguer vers ***Fichier – Modèles*** et sélectionner ***Modèles d'entrée***.
 ![Fichier – Modèles](https://cdnweb.devolutions.net/docs/RDMW4048_2024_1.png)
-1. Dans la fenêtre ***Modèles d'entrées***, cliquer sur le bouton ***Ajouter un modèle***.
+1. Dans la fenêtre ***Modèles d'entrée***, cliquer sur le bouton ***Ajouter un modèle***.
 ![Ajouter un nouveau modèle](https://cdnweb.devolutions.net/docs/RDMW4049_2024_1.png)
 1. Choisir entre ***Modèle*** ou ***Groupe de modèles***.
 ![Créer un Modèle ou Groupe de modèles](https://cdnweb.devolutions.net/docs/RDMW4050_2024_1.png)
 1. Sélectionner une entrée pour créer le modèle, puis cliquer sur ***Sélectionner***.
 ![Sélectionner une entrée pour créer le modèle](https://cdnweb.devolutions.net/docs/RDMW4051_2024_1.png)
-1. Entrer un nom pour le modèle, et configurer les propriétés selon le besoin.
+1. Entrer un nom pour le modèle et configurer les propriétés selon le besoin.
 ![Propriétés du Modèle](https://cdnweb.devolutions.net/docs/RDMW4052_2024_1.png)
 
 ## Enregistrer une entrée comme modèle
@@ -55,3 +55,7 @@ Changer le nom du modèle pour distinguer la copie de l'original, et éditer les
 Il est possible d'enregistrer un ensemble d'entrées sélectionnées ou un dossier et tous ses éléments enfants dans un modèle unique.
 
 Faire un clic droit sur une sélection d'entrées ou un dossier, sélectionner ***Ajouter***, puis ***Enregistrer comme Modèle***.
+
+## Documents stockés dans des modèles de base de données
+
+Créer des modèles pour des documents stockés dans la base de données en suivant les [étapes ci-dessus](/rdm/commands/file/templates/creating-templates/#create-a-new-template).
