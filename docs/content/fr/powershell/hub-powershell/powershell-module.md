@@ -16,7 +16,7 @@ Le module {{ fr.PS }} est un moyen d'accéder, de créer, de mettre à jour et d
 * Un [utilisateur d'application](/hub/web-interface/administration/management/application-users/manage-application-users/)
 
 ## Se connecter à votre {{ fr.DHUBB }}
-{% snippet icon.badgeHelp %}
+{% snippet, "badgeHelp" %}
 Pour la liste complète des commandes disponibles, voir [Commandes PowerShell](/powershell/hub-powershell/powershell-commands/). D'autres options d'installation peuvent être trouvées dans la [Galerie PowerShell](https://www.powershellgallery.com/packages/devolutions.powershell/).
 {% endsnippet %}
 

@@ -4,7 +4,7 @@ eleventyComputed:
 ---
 {{ en.RDM }} supports Windows PowerShell. PowerShell is a powerful scripting tool that lets administrators automate {{ en.RDM }}. They are provided in a PowerShell module.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 The minimum required PowerShell version is 7.4.
 {% endsnippet %}
 

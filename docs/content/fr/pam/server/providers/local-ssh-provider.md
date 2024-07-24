@@ -6,7 +6,7 @@ eleventyComputed:
 Le fournisseur SSH permet à {{ fr.DVLS }} de stocker les identifiants de compte SSH local pour être utilisés pour la découverte de comptes SSH ou pour réaliser la rotation de mot de passe.
 ![Dialogue du fournisseur SSH](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp8142.png)
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Le groupe wheel sous Linux est traditionnellement utilisé pour contrôler l'accès aux privilèges root via le système sudo. Les membres de ce groupe sont autorisés à élever leurs privilèges à ceux de l'administrateur système, ou root, généralement après avoir été authentifiés par leur mot de passe personnel.
 {% endsnippet %}
 

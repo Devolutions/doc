@@ -5,12 +5,12 @@ eleventyComputed:
 ---
 The PowerShell module now needs to be downloaded from the [PowerShell Gallery](https://www.powershellgallery.com/packages/Devolutions.PowerShell/). It is no longer included in the {{ en.RDM }} installation package. This also means that there is no need to install {{ en.RDM }} on a machine to run PowerShell scripts: the module is now sufficient.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 To connect to an [Advanced Data Source](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/), the account used to connect to the data source must have an assigned {{ en.RDM }} license. The use of an [application key](/server/web-interface/administration/security-management/applications/) with a {{ en.DVLS }} data source does not require a license.
 {% endsnippet %}
 
 ## Installation
-{% snippet icon.badgeCaution %}
+{% snippet, "badgeCaution" %}
 Starting with {{ en.RDM }} 2023.1, PowerShell 7.2 or later is required to install the module. For {{ en.RDM }} versions prior to 2023.1, PowerShell 5.1 or later is required.
 {% endsnippet %}
 
@@ -65,7 +65,8 @@ C:\windows\system32\WindowsPowerShell\v1.0\Modules
 ## Query PowerShell version and the configuration file in use
 ```powershell
 Get-RDMInstance
-PS C:\RemoteDesktopManager\2023.1\Devolutions.RemoteDesktopManager.Bin.2023.1.11.0> Get-RDMInstance
+
 ApplicationVersion OptionFilename
+------------------ --------------
 2023.1.0.14 C:\RemoteDesktopManager\2023.1\config\RemoteDesktopManager.cfg
 ```

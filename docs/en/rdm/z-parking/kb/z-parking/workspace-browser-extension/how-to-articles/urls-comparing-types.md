@@ -6,7 +6,7 @@ eleventyComputed:
 ---
 Each URL in a ***Website*** entry has a comparing type associated to it. The comparing type determines if the {{ en.WBEX }} should offer the entry as an available entry to perform autofill.
 
-{% snippet icon.badgeCaution %}
+{% snippet, "badgeCaution" %}
 ***Host*** is the default comparing type on all platforms.
 {% endsnippet %}
 

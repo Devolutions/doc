@@ -14,7 +14,7 @@ To use this feature, certain requirements must be met, namely:
 ### Session entry configuration
 Follow the steps below to properly configure your entry in {{ en.DHUBB }}:
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 The steps below assume that you already have a session entry. If you have not yet created it and want to learn how, see [Create entries manually](/hub/web-interface/entries/create-entries-manually/).
 {% endsnippet %}
 

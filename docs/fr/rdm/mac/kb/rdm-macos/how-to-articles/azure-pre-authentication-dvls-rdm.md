@@ -37,7 +37,7 @@ Voici les prérequis pour les prochaines étapes de configuration de l'authentif
 - {{ fr.RDM }} est v.2024.2.4.x ou supérieur.
 - Une licence P1 pour la fonctionnalité de réseau privé.
 - L'URL de {{ fr.DVLS }} ne doit pas être la racine, c'est-à-dire <ins>https://myserver.com/dvls</ins> et non <ins>https://myserver.com</ins>
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Tout changement peut prendre 3-5 minutes pour prendre effet. Soyez conscient de cela lors du test des changements.
 {% endsnippet %}
 

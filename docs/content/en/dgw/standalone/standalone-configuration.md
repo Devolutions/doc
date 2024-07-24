@@ -13,13 +13,13 @@ eleventyComputed:
 ![Destination Folder](https://cdnweb.devolutions.net/docs/HUBB0011_2024_1.png)
 1. Enable the ***Gateway web interface***.  
 ![Gateway web interface](https://cdnweb.devolutions.net/docs/DGW0007_2024_1.png)
-   {% snippet icon.badgeInfo %}
+   {% snippet, "badgeInfo" %}
    Read more about the [ngrok option](#ngrok).
    {% endsnippet %}
 1. Click ***Next***.
 1. Change the ***Ports*** to the desired value and click ***Next***.  
 ![Listeners](https://cdnweb.devolutions.net/docs/HUBB0013_2024_1.png)
-   {% snippet icon.badgeInfo %}
+   {% snippet, "badgeInfo" %}
    HTTP(S) and TCP default ports are 7171 and 8181, respectively, but can be changed.
    {% endsnippet %}
 1. Input the ***External URL*** and click ***Next***.  
@@ -29,7 +29,7 @@ eleventyComputed:
     * ***System***: The location and method (i.e. ***Search By Thumbprint***) must be chosen.
 ![External Certificate](https://cdnweb.devolutions.net/docs/HUBB0015_2024_1.png)
 ![System Certificate](https://cdnweb.devolutions.net/docs/DGW0010_2024_1.png)
-   {% snippet icon.shieldCaution %}
+   {% snippet, "shieldCaution" %}
    If a ***Default User*** is not created, the {{ en.DGW_STANDALONE }} web page will be accessible anonymously.
    {% endsnippet %}
 8. Input the credentials for the ***Default User*** and click ***Next***.  
@@ -40,7 +40,7 @@ eleventyComputed:
 ![Install button](https://cdnweb.devolutions.net/docs/HUBB0018_2024_1.png)
 1. Click ***Finish*** when the setup is complete.  
 ![Finish button](https://cdnweb.devolutions.net/docs/HUBB0019_2024_1.png)
-   {% snippet icon.badgeInfo %}
+   {% snippet, "badgeInfo" %}
    Once installed, the {{ en.DGW_STANDALONE }} web page will automatically open (ngrok static domain or FQDN). Read more about it in the [web page](#devolutions-gateway-standalone-web-page) section.
    {% endsnippet %}
 
@@ -50,13 +50,13 @@ Here you will find a list of your sessions on the left-hand side, and in the mid
 1. Log in to the web page (if a ***Default User*** was created in the step 8 of [Configuration](#configuration)).
 1. Select the protocol.
 1. Enter the hostname and credentials.
-   {% snippet icon.badgeInfo %}
+   {% snippet, "badgeInfo" %}
    For RDP connections, click on ***More Settings +*** to optionally set the ***Screen Size***, ***KDC Server URL***, or a ***Pre Connection Blob***.
    {% endsnippet %}
 1. Click on ***Connect Session***.
 
 ### ngrok
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Enabling both ngrok and the web interface, will disable the option to generate a self-signed HTTPS certificate as it will use the SSL certificate provided by ngrok. Additionally, the installer will not show the options to configure ports.
 {% endsnippet %}
 

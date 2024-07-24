@@ -3,7 +3,7 @@ eleventyComputed:
   title: Créer des modèles
   description: Il existe de nombreuses façons de créer un modèle pour les entrées. Vous pouvez créer un nouveau modèle, enregistrer une entrée comme modèle, importer des entrées comme modèles et dupliquer un modèle existant. Il est également possible de créer des modèles de groupe.
 ---
-Il existe de nombreuses façons de créer un modèle pour les entrées. Vous pouvez créer un nouveau modèle, enregistrer une entrée comme modèle, importer des entrées comme modèles et dupliquer un modèle existant. Il est également possible de créer des modèles de groupe.
+
 
 Dans ce sujet :
 

@@ -2,9 +2,11 @@
 eleventyComputed:
   title: Unable to save recording info to {{ en.DVLS }}
   description: In {{ en.DVLS }}, in the processor.log file of the Recording Server, you may encounter the error message "Unable to save recording info to DPS".
-  keywords:
-  - recording server
 ---
+{% snippet, "badgeInfo" %}
+This version of the recording server is no longer supported.
+{% endsnippet %}
+
 In {{ en.DVLS }}, in the processor.log file of the Recording Server, you may encounter the error message `Unable to save recording info to DPS`.
 ```
 2022-12-21 08:59:21,085  INFO Devolutions.Processor.ProcessorService.? [?] - MESSAGE: Frame count: 26, FPS: 5

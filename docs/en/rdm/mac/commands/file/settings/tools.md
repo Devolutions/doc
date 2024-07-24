@@ -5,12 +5,13 @@ eleventyComputed:
 Go to ***File*** – ***Settings*** – ***Tools*** to configure the delay of time before the tool timeout.
 
 ## Settings
-![Settings – Tools](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_clip10441.png)
+![Settings – Tools](https://cdnweb.devolutions.net/docs/RDMM4017_2024_2.png)
 
 ### Tools
 | OPTION                       | DESCRIPTION                                                                        |
 |------------------------------|------------------------------------------------------------------------------------|
 | Services search timeout      | Indicate the time that the Bonjour service will search before the service timeout. |
+| Connect when available delay | Indicate the delay before connection timeout when using the ***Connect when available*** feature. |
 | Ping timeout                 | Indicate the time before the ping service timeout.                                 |
 | WOL Port                     | Indicate the time before the Wake on LAN service timeout.                          |
 | Automatically close messages | Indicate the time before the message window automatically closes.                  |

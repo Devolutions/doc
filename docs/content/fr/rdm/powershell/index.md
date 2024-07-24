@@ -8,6 +8,6 @@ eleventyComputed:
 
 Le [module {{ fr.PS }}](https://www.powershellgallery.com/packages/Devolutions.PowerShell/) fournit aux administrateurs une suite de cmdlets pour gérer {{ fr.RDM }} via PowerShell.
 
-{% snippet icon.badgeHelp %}
+{% snippet, "badgeHelp" %}
 En savoir plus sur [{{ fr.DPS }} avec {{ fr.RDM }}](/powershell/rdm-powershell).
 {% endsnippet %}

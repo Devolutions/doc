@@ -16,11 +16,11 @@ On nous demande souvent une liste complète des noms de propriétés et il est d
 1. Effectuer manuellement la modification de l'entrée qui devrait être automatisée à l'aide de PowerShell, sauvegarder l'entrée.
 1. En utilisant ***Presse-papiers – Copier***, sauvegarder le XML modifié dans un autre fichier. C'est le APRÈS.
 1. Comparer les deux fichiers avec un outil de différence, les champs qui ont changé et les valeurs qui ont été assignées indiqueront ce que le script devrait faire.  
-{% snippet icon.badgeHelp %}
+{% snippet, "badgeHelp" %}
 Pour en savoir plus sur les GUIDs des propriétés d'identifiants [{{ fr.RDM }}](/powershell/rdm-powershell/xml-information/).
 {% endsnippet %}
 
-{% snippet icon.badgeHelp %}
+{% snippet, "badgeHelp" %}
 Pour en savoir plus sur les GUIDs des propriétés d'identifiants [{{ fr.DVLS }}](/powershell/dvls-powershell/xml-information/).
 {% endsnippet %}
 

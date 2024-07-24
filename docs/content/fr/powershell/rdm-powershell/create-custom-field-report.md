@@ -17,12 +17,12 @@ Ce sujet couvrira comment créer un Rapport de Champ Personnalisé pour utiliser
         * ***Entrée Liée*** : Choisir une entrée PowerShell contenant le script, cela facilitera l'utilisation du même script pour plusieurs entrées.
     * Ajouter ***Délai d'attente (ms)*** (optionnel).
     * Ajouter les ***Champs*** nécessaires.
-   {% snippet icon.badgeInfo %}
+   {% snippet, "badgeInfo" %}
    Si vous avez choisi ***Entrée Liée***, sauter l'étape 5.
    {% endsnippet %}
 1. Dans l'onglet ***Script***, ajouter le script personnalisé.
 ![Exemple de Script](https://cdnweb.devolutions.net/docs/docs_en_kb_KB0139.png)
-   {% snippet icon.badgeInfo %}
+   {% snippet, "badgeInfo" %}
    Il y a un script ***Exemple*** en bas de cet onglet à utiliser comme référence.
    {% endsnippet %}
 1. Dans l'onglet ***Paramètres***, ajouter des paramètres qui peuvent être utilisés dans le script (en utilisant $PARAMETER1$, $PARAMETER2$, etc).

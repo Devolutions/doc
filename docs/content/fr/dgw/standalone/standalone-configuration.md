@@ -13,13 +13,13 @@ eleventyComputed:
 ![Dossier de destination](https://cdnweb.devolutions.net/docs/HUBB0011_2024_1.png)
 1. Activer l'***interface web de la passerelle***.  
 ![Interface web de la passerelle](https://cdnweb.devolutions.net/docs/DGW0007_2024_1.png)
-   {% snippet icon.badgeInfo %}
+   {% snippet, "badgeInfo" %}
    Lire plus sur l'option [ngrok](#ngrok).
    {% endsnippet %}
 1. Cliquer sur ***Suivant***.
 1. Changer les ***Ports*** à la valeur souhaitée et cliquer sur ***Suivant***.  
 ![Écouteurs](https://cdnweb.devolutions.net/docs/HUBB0013_2024_1.png)
-   {% snippet icon.badgeInfo %}
+   {% snippet, "badgeInfo" %}
    Les ports par défaut HTTP(S) et TCP sont 7171 et 8181, respectivement, mais peuvent être modifiés.
    {% endsnippet %}
 1. Entrer l'***URL externe*** et cliquer sur ***Suivant***.  
@@ -29,7 +29,7 @@ eleventyComputed:
     * ***Système*** : L'emplacement et la méthode (c'est-à-dire ***Recherche par empreinte digitale***) doivent être choisis.
 ![Certificat externe](https://cdnweb.devolutions.net/docs/HUBB0015_2024_1.png)
 ![Certificat système](https://cdnweb.devolutions.net/docs/DGW0010_2024_1.png)
-   {% snippet icon.shieldCaution %}
+   {% snippet, "shieldCaution" %}
    Si un ***Utilisateur par défaut*** n'est pas créé, la page web {{ fr.DGW_STANDALONE }} sera accessible anonymement.
    {% endsnippet %}
 8. Entrer les identifiants pour l'***Utilisateur par défaut*** et cliquer sur ***Suivant***.  
@@ -40,7 +40,7 @@ eleventyComputed:
 ![Bouton Installer](https://cdnweb.devolutions.net/docs/HUBB0018_2024_1.png)
 1. Cliquer sur ***Terminer*** lorsque l'installation est complète.  
 ![Bouton Terminer](https://cdnweb.devolutions.net/docs/HUBB0019_2024_1.png)
-   {% snippet icon.badgeInfo %}
+   {% snippet, "badgeInfo" %}
    Une fois installé, la page web {{ fr.DGW_STANDALONE }} s'ouvrira automatiquement (domaine statique ngrok ou FQDN). Lire plus à ce sujet dans la section [page web](#devolutions-gateway-standalone-web-page).
    {% endsnippet %}
 
@@ -50,13 +50,13 @@ Ici, vous trouverez une liste de vos sessions sur le côté gauche, et au milieu
 1. Se connecter à la page web (si un ***Utilisateur par défaut*** a été créé à l'étape 8 de [Configuration](#configuration)).
 1. Sélectionner le protocole.
 1. Entrer le nom d'hôte et les identifiants.
-   {% snippet icon.badgeInfo %}
+   {% snippet, "badgeInfo" %}
    Pour les connexions RDP, cliquer sur ***Plus de paramètres +*** pour optionnellement définir la ***Taille de l'écran***, l'***URL du serveur KDC***, ou un ***Blob de pré-connexion***.
    {% endsnippet %}
 1. Cliquer sur ***Connecter la session***.
 
 ### ngrok
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Activer à la fois ngrok et l'interface web désactivera l'option de générer un certificat HTTPS auto-signé car elle utilisera le certificat SSL fourni par ngrok. De plus, l'installateur n'affichera pas les options pour configurer les ports.
 {% endsnippet %}
 

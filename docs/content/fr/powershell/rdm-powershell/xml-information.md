@@ -10,7 +10,7 @@ Pour optimiser l'efficacité de stockage, le système utilise des valeurs par d�
 
 Les identifiants sont soumis à un processus de traitement distinct qui implique l'utilisation de GUID lors de la référence à d'autres entrées. Cependant, lors de l'utilisation de mécanismes alternatifs, ils sont associés à des GUID bien connus, statiques et prédéfinis.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Il existe [des GUID supplémentaires](/powershell/dvls-powershell/xml-information/) qui sont exclusifs à {{ fr.DVLS }} avec le module PAM activé.
 {% endsnippet %}
 

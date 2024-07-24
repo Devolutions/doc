@@ -10,7 +10,7 @@ To optimize storage efficiency, the system employs default values for most field
 
 Credentials are subject to a distinct handling process that involves the utilization of GUIDs when referencing other entries. However, when employing alternative mechanisms, they are associated with predefined, static well-known GUIDs.  
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 There are [additional GUIDs](/powershell/dvls-powershell/xml-information/) that are exclusive to {{ en.DVLS }} with the PAM module enabled.
 {% endsnippet %}
 

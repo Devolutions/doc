@@ -56,3 +56,6 @@ It is possible to save a set of selected entries or a folder and all its child i
 
 Right-click a selection of entries or a folder, select ***Add***, then ***Save as Template***.
 
+## Documents stored in database templates
+
+Create templates for documents stored in database by following the [steps above](/rdm/commands/file/templates/creating-templates/#create-a-new-template).

@@ -14,7 +14,7 @@ Pour installer Chocolatey, s'assurer que votre système répond aux exigences su
 * **PowerShell** : Version 2 ou ultérieure
 * **.NET Framework** : Version 4 ou ultérieure
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Le processus d'installation tentera automatiquement d'installer .NET 4.0 s'il n'est pas déjà présent sur votre système.
 {% endsnippet %}
 

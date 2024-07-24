@@ -1,20 +1,42 @@
 ---
 eleventyComputed:
-  title: Changer le port d'écoute du serveur d'enregistrement après l'installation
+  title: Activer le journal du serveur d'enregistrement
+  description: La procédure suivante décrit comment activer l'utilitaire de journalisation pour le ***Serveur d'enregistrement*** {{ fr.DVLS }}.
 ---
-Ce sujet explique comment changer le port d'écoute du serveur d'enregistrement après avoir installé {{ fr.DVLS }} avec le {{ fr.DVLSCONSOLE }}.
+{% snippet, "badgeInfo" %}
+Cette version du serveur d'enregistrement n'est plus prise en charge.
+{% endsnippet %}
 
-## Étapes
-1. Dans le {{ fr.DVLSCONSOLE }}, aller à l'onglet ***Companions***.
-1. Dans la section ***Recording Server***, cliquer sur ***Explorer***.
-![Explorer](https://cdnweb.devolutions.net/docs/docs_en_kb_KB0062.png)
-1. Cela ouvrira une fenêtre de l'Explorateur Windows, ouvrir le dossier ***collector***.
-1. Faire un clic droit sur **collector.cfg** et l'ouvrir avec un éditeur.
-1. Changer la valeur ***<Port></Port>*** pour celle désirée.
-1. Fermer le document et sauvegarder les changements.
-1. Se connecter à l'interface web de {{ fr.DVLS }} en tant qu'administrateur.
-1. Aller à ***Administration*** – ***Paramètres Système*** – ***Recording Server***.
-1. Changer le ***Port*** pour correspondre aux changements effectués à l'étape 5.
-![Port](https://cdnweb.devolutions.net/docs/docs_en_kb_KB0063.png)
-1. Retourner à {{ fr.DVLS }}, trouver et ouvrir l'application Windows ***Services***.
-1. Trouver et sélectionner ***Devolutions Recording Collector***, puis cliquer sur ***Redémarrer le service***.
+La procédure suivante décrit comment activer l'utilitaire de journalisation pour le ***Serveur d'enregistrement*** {{ fr.DVLS }}.
+
+## Activer les journaux
+1. Pour éditer le fichier **log4net.config**, cliquer sur le bouton ***Explorer*** de la section ***Serveur d'enregistrement*** de l'onglet ***Companions*** dans la {{ fr.DVLSCONSOLE }}.
+![Bouton Explorer](https://cdnweb.devolutions.net/docs/docs_en_kb_KB8120.png)
+1. Définir la valeur du paramètre de fichier avec le chemin complet du fichier journal. Assurer que les barres obliques inversées sont doublées.
+   {% snippet, "badgeCaution" %}
+   Assurer que le dossier de destination pour les journaux a des droits d'écriture.
+   {% endsnippet %}
+1. Définir la valeur du paramètre de niveau à ALL.
+1. Redémarrer les services Collector et Processor sur le serveur après toute modification de ces fichiers.
+{% snippet, "badgeInfo" %}
+Assurer de remettre la valeur du niveau à ERROR et redémarrer les services une fois l'investigation terminée.
+{% endsnippet %}
+
+```
+<?xml version="1.0" encoding="utf-8" ?>
+<log4net>
+  <appender name="RollingFile" type="log4net.Appender.RollingFileAppender">
+    <file value="c:\\Logs\\collector.log" />
+    <appendToFile value="true" />
+    <maximumFileSize value="1MB" />
+    <maxSizeRollBackups value="5" />
+    <layout type="log4net.Layout.PatternLayout">
+      <conversionPattern value="%date %5level %logger.%method [%line] - MESSAGE: %message%newline %exception" />
+    </layout>
+  </appender>
+  <root>
+    <level value="ALL" />
+    <appender-ref ref="RollingFile" />
+  </root>
+</log4net>
+```

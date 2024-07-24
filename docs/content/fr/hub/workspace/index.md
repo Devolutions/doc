@@ -10,6 +10,6 @@ Les [{{ fr.WAPPS }}](https://devolutions.net/workspace/) sont des applications m
 
 L'[{{ fr.WBEX }}](https://devolutions.net/workspace/) est une extension de navigateur web pour les mots de passe utilisée conjointement avec {{ fr.RDM }}, {{ fr.DVLS }}, et {{ fr.DHUB }}, qui permet aux utilisateurs d'injecter de manière sécurisée des mots de passe dans des sites web en utilisant les identifiants stockés dans leurs coffres.
 
-{% snippet icon.badgeHelp %}
+{% snippet, "badgeHelp" %}
 Pour en savoir plus sur [{{ fr.DWS }}](/workspace/overview/what-is-workspace/).
 {% endsnippet %}

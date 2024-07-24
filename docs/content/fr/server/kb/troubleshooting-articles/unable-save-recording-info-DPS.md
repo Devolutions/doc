@@ -2,12 +2,14 @@
 eleventyComputed:
   title: Impossible d'enregistrer les informations d'enregistrement dans {{ fr.DVLS }}
   description: Dans {{ fr.DVLS }}, dans le fichier processor.log du serveur d'enregistrement, vous pouvez rencontrer le message d'erreur "Impossible d'enregistrer les informations d'enregistrement dans DPS".
-  keywords:
-  - serveur d'enregistrement
 ---
+{% snippet, "badgeInfo" %}
+Cette version du serveur d'enregistrement n'est plus prise en charge.
+{% endsnippet %}
+
 Dans {{ fr.DVLS }}, dans le fichier processor.log du serveur d'enregistrement, vous pouvez rencontrer le message d'erreur `Impossible d'enregistrer les informations d'enregistrement dans DPS`.
 ```
-2022-12-21 08:59:21,085  INFO Devolutions.Processor.ProcessorService.? [?] - MESSAGE: Nombre de trames : 26, FPS : 5
+2022-12-21 08:59:21,085  INFO Devolutions.Processor.ProcessorService.? [?] - MESSAGE: Nombre de frames : 26, FPS : 5
 2022-12-21 08:59:21,092  INFO Devolutions.Processor.ProcessorService.? [?] - MESSAGE: Enregistrement des informations dans DPS
 2022-12-21 08:59:21,410 ERROR Devolutions.Processor.ProcessorService.? [?] - MESSAGE: Erreur : 
 2022-12-21 08:59:21,411 ERROR Devolutions.Processor.ProcessorService.? [?] - MESSAGE: Détail : 

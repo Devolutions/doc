@@ -5,11 +5,11 @@ eleventyComputed:
 ---
 Les {{ fr.WAPPS }} (bureau et mobile) sont disponibles en mode hors ligne (lecture seule).
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Les administrateurs doivent activer le mode hors ligne pour les sources de données avancées dans {{ fr.DVLS }} et {{ fr.DHUB }} avant que les utilisateurs puissent l'activer.
 {% endsnippet %}
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Les {{ fr.VLT }}s doivent être chargés au ***moins une fois*** pour être accessibles hors ligne.
 {% endsnippet %}
 

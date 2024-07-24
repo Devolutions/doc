@@ -8,6 +8,6 @@ eleventyComputed:
 
 The [{{ en.PS }} module](https://www.powershellgallery.com/packages/Devolutions.PowerShell/) provides administrators with a suite of of cmdlets for managing {{ en.DGW }} through PowerShell.
 
-{% snippet icon.badgeHelp %}
+{% snippet, "badgeHelp" %}
 Learn more about [{{ en.DPS }} with {{ en.DGW }}](/powershell/gateway-powershell).
 {% endsnippet %}

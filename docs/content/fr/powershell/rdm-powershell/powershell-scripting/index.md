@@ -3,7 +3,7 @@ eleventyComputed:
   title: Scripting PowerShell
   order: 10
 ---
-{% snippet icon.badgeHelp %} 
+{% snippet, "badgeHelp" %} 
 Nous avons déménagé vers un [dépôt GitHub](https://github.com/Devolutions/RDMSamples-ps) pour regrouper nos différents exemples et recettes. Veuillez le consulter pour savoir ce qui est disponible. Les questions et exemples doivent être demandés sur notre [forum](https://forum.devolutions.net/product/powershell-module). Notre équipe sera heureuse de vous assister.
 {% endsnippet %}
 

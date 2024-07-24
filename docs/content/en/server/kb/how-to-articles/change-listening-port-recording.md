@@ -2,6 +2,10 @@
 eleventyComputed:
   title: Change the listening port of the Recording Server after installation
 ---
+{% snippet, "badgeInfo" %}
+This version of the recording server is no longer supported.
+{% endsnippet %}
+
 This topic explains how to change the listening port of the recording server after having installed {{ en.DVLS }} with the {{ en.DVLSCONSOLE }}.
 
 ## Steps
