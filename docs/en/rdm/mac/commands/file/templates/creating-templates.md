@@ -49,4 +49,4 @@ It is possible to duplicate a template to edit a copy of the properties.
 1. Change the template name to distinguish the copy from the original, and edit the properties to meet your requirements.
 
 ## Documents stored in database templates
-Create templates for documents stored in database by following the [steps above](rdm/commands/file/templates/creating-templates/#create-a-new-template).
+Create templates for documents stored in database by following the [steps above](/rdm/mac/commands/file/templates/creating-templates/#create-a-new-template).
