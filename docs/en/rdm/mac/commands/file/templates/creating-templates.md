@@ -48,3 +48,5 @@ It is possible to duplicate a template to edit a copy of the properties.
 ![Duplicate template](https://cdnweb.devolutions.net/docs/RDMM4012_2024_1.png)
 1. Change the template name to distinguish the copy from the original, and edit the properties to meet your requirements.
 
+## Documents stored in database templates
+Create templates for documents stored in database by following the [steps above](rdm/commands/file/templates/creating-templates/#create-a-new-template).

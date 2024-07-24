@@ -1,9 +1,9 @@
 ---
 eleventyComputed:
   title: Créer des modèles
-  description: Il existe de nombreuses manières de créer un modèle pour les entrées. Créer un nouveau modèle, enregistrer une entrée comme modèle, importer des entrées comme modèles, et dupliquer un modèle existant. Il est également possible de créer des modèles de groupe.
+  description: Il existe de nombreuses façons de créer des modèles pour les entrées. Vous pouvez créer un nouveau modèle, enregistrer une entrée comme modèle, importer des entrées comme modèles et dupliquer un modèle existant. Il est également possible de créer des modèles de groupe.
 ---
-Il existe de nombreuses manières de créer un modèle pour les entrées. Créer un nouveau modèle, enregistrer une entrée comme modèle, importer des entrées comme modèles, et dupliquer un modèle existant. Il est également possible de créer des modèles de groupe.
+Il existe de nombreuses façons de créer des modèles pour les entrées. Vous pouvez créer un nouveau modèle, enregistrer une entrée comme modèle, importer des entrées comme modèles et dupliquer un modèle existant. Il est également possible de créer des modèles de groupe.
 
 Dans ce sujet :
 
@@ -25,7 +25,7 @@ Dans ce sujet :
 ![Modèle ou Groupe de modèles](https://cdnweb.devolutions.net/docs/RDMM4010_2024_1.png)
 1. Sélectionner une entrée pour créer le modèle, puis cliquer sur ***OK***.
 ![Modèle ou groupe de modèles](https://cdnweb.devolutions.net/docs/RDMM4006_2024_1.png)
-1. Entrer un nom pour le modèle, et configurer les propriétés selon le besoin.
+1. Entrer un nom pour le modèle et configurer les propriétés selon les besoins.
 ![Sélectionner l'entrée](https://cdnweb.devolutions.net/docs/RDMM4007_2024_1.png)
 
 ## Enregistrer une entrée comme modèle
@@ -46,4 +46,7 @@ Il est possible de dupliquer un modèle pour éditer une copie des propriétés.
 
 1. Naviguer vers ***Fichier*** – ***Modèles***, et sélectionner ***Modèles***. Depuis la fenêtre ***Modèles***, cliquer sur le bouton ***Dupliquer le modèle***.
 ![Dupliquer le modèle](https://cdnweb.devolutions.net/docs/RDMM4012_2024_1.png)
-1. Changer le nom du modèle pour distinguer la copie de l'original, et éditer les propriétés pour répondre à vos besoins.
+1. Changer le nom du modèle pour distinguer la copie de l'original, et éditer les propriétés selon vos besoins.
+
+## Documents stockés dans les modèles de base de données
+Créer des modèles pour les documents stockés dans la base de données en suivant les [étapes ci-dessus](rdm/commands/file/templates/creating-templates/#create-a-new-template).
