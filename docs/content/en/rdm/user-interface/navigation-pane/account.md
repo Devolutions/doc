@@ -4,7 +4,11 @@ eleventyComputed:
   description: The Account tab gives you access to settings for customizing your {{ en.RDM }} interface.
 ---
 The ***Account*** tab gives you access to settings for customizing your {{ en.RDM }} interface. At the top, information about the account connected to {{ en.RDM }} is displayed.
-![Account tab](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin2165.png)
+![Account tab](https://cdnweb.devolutions.net/docs/RDMW6013_2023_2.png)
+
+## Account information
+
+Contains all account information, such as ***name, email, and {{ en.VLT }} status***. Internal and external tag can be added to the user via the web interface of [{{ en.DVLS }}](/server/web-interface/administration/security-management/users/) or [{{ en.DHUBB }}](/hub/web-interface/administration/management/users/) (depending of your datasource). These tags are useful for temporary users, such as ***contractors***. An expiration date must be set.
 
 ## Settings
 
