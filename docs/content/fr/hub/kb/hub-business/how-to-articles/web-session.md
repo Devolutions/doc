@@ -14,7 +14,7 @@ Pour utiliser cette fonctionnalité, certaines exigences doivent être satisfait
 ### Configuration de l'entrée de session
 Suivre les étapes ci-dessous pour configurer correctement votre entrée dans {{ fr.DHUBB }} :
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Les étapes ci-dessous supposent que vous avez déjà une entrée de session. Si vous ne l'avez pas encore créée et souhaitez apprendre comment faire, voir [Créer des entrées manuellement](/hub/web-interface/entries/create-entries-manually/).
 {% endsnippet %}
 

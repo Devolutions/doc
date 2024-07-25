@@ -6,7 +6,7 @@ eleventyComputed:
 The SSH provider allows {{ en.DVLS }} to store the SSH local account credentials to be used for SSH accounts discovery or to achieve password rotation.
 ![SSH provider dialog](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp8142.png)
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 The wheel group under Linux is traditionally used to control access to root privileges via the sudo system. Members of this group are authorized to elevate their privileges to those of the system administrator, or root, usually after being authenticated by their personal password.
 {% endsnippet %}
 

@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Link accounts in {{ en.DVLS }}
+  title: Link accounts in {{ en.DHUBB }}
   description: The Linked account feature allows users to associate another account under the same user.
 ---
 The ***Linked account*** feature allows users to associate another account under the same user. This feature is particularly beneficial when a user needs to manage different accounts simultaneously. For instance, a user may have an account with the email address "bob@windjammer.co" and another account with the email address "_bob@windjammer.co", which serves as an elevated or privileged account.
@@ -13,15 +13,14 @@ The primary purpose of ***Linked account*** is to enhance user convenience and s
 Only one license is needed for each ***Linked account*** pair.
 {% endsnippet %}
 
-## Steps
-1. Log in to {{ en.DVLS }} with an administrator account.
-1. Go to ***Administration*** – ***Security Management*** – ***Users***.
-![Users](https://cdnweb.devolutions.net/docs/docs_en_kb_KB0117.png)
-1. Select one of the users you want to pair, then click on ***Edit***.
-![Edit](https://cdnweb.devolutions.net/docs/docs_en_kb_KB0118.png)
-1. Go to the ***Linked account*** tab.
-1. Select the other account from the dropdown.
-![Linked account](https://cdnweb.devolutions.net/docs/docs_en_kb_KB0119.png)
+## Linking the accounts
+1. Log in to {{ en.HUBB }} with an administrator account.
+1. Go to ***Administration*** – ***Users***.
+![Users](https://cdnweb.devolutions.net/docs/HUB0004_2024_2.png)
+1. Click on ***Edit*** for the desired user.
+![Edit](https://cdnweb.devolutions.net/docs/HUB0005_2024_2.png)
+1. Select the other account from the ***Linked account*** dropdown.
+![Linked account](https://cdnweb.devolutions.net/docs/HUB0006_2024_2.png)
 1. Click ***Update*** to save the changes and close the window.
 
 The accounts are now linked. The ***Linked account*** column shows which account is paired to one another.

@@ -2,7 +2,7 @@
 eleventyComputed:
   title: PowerShell samples - creating folder structure from CSV file
 ---
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Please note that the CSV file must be encoded in UTF-8 to support special characters.
 {% endsnippet %}
 

@@ -7,7 +7,7 @@ eleventyComputed:
 ---
 Ce script PowerShell est destiné à être enregistré comme une tâche planifiée qui s'exécute une fois par jour pour vérifier les mises à jour, les télécharger puis les installer. Ce script est particulièrement utile lors de l'utilisation de plusieurs passerelles car il permet de gagner beaucoup de temps.
 
-{% snippet icon.badgeHelp %}
+{% snippet, "badgeHelp" %}
 Lire cette page [GitHub](https://github.com/Devolutions/devolutions-gateway/blob/master/tools/updater/README.md) pour plus de détails.
 {% endsnippet %}  
 
@@ -39,12 +39,12 @@ TaskName                                 Next Run Time          Status
 Devolutions Gateway Updater              Date     3:00:00 AM    Ready
 ```
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Le programme de mise à jour télécharge automatiquement l'installateur si une nouvelle version est disponible, puis vérifie le hachage du fichier avant de l'exécuter silencieusement.
 {% endsnippet %}  
 
 ## Désinstaller
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Cela désenregistrera la tâche planifiée et supprimera le script GatewayUpdater.ps1 du chemin utilisé dans la commande.
 {% endsnippet %}  
 

@@ -10,6 +10,6 @@ The [{{ en.WAPPS }}](https://devolutions.net/workspace/) are both mobile and des
 
 The [{{ en.WBEX }}](https://devolutions.net/workspace/) is a web browser password plugin used in conjunction with {{ en.RDM }}, {{ en.DVLS }}, and {{ en.DHUB }}, which allows users to securely inject passwords into websites using credentials stored in their vaults.
 
-{% snippet icon.badgeHelp %}
+{% snippet, "badgeHelp" %}
 Learn more about [{{ en.DWS }}](/workspace/overview/what-is-workspace/).
 {% endsnippet %}

@@ -8,11 +8,11 @@ eleventyComputed:
 ---
 This topic is about all authentication commands and handles for PSHubContext.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 The [{{ en.PS }} module](/powershell/hub-powershell/powershell-module) needs to be installed to use these commands.
 {% endsnippet %}
 
-{% snippet icon.shieldCaution %}
+{% snippet, "shieldCaution" %}
 Proper permissions are also required to perform some of these commands. Please refer to [Application Users](/hub/web-interface/administration/management/application-users/).
 {% endsnippet %}
 
@@ -25,7 +25,7 @@ In this object, you have the following:
 * Application secret: Application secret given after the application user creation
 * Application key: Application key given after the application user creation
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 * To check all available commands:
 ```powershell
 Get-Command-Module <ModuleName>

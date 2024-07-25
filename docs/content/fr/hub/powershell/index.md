@@ -8,6 +8,6 @@ eleventyComputed:
 
 Le [module {{ fr.PS }}](https://www.powershellgallery.com/packages/Devolutions.PowerShell/) offre aux administrateurs une suite de cmdlets pour gérer {{ fr.DHUBB }} via PowerShell.
 
-{% snippet icon.badgeHelp %}
+{% snippet, "badgeHelp" %}
 Pour en savoir plus sur [{{ fr.DPS }} avec {{ fr.DHUB }}](/powershell/hub-powershell).
 {% endsnippet %}

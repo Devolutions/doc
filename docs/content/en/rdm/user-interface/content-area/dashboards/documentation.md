@@ -3,14 +3,13 @@ eleventyComputed:
   title: Documentation
   description: The Documentation feature in {{ en.RDMMAC }} allows for storing information about resources in the data source.
 ---
-The ***Documentation*** feature allows for storing information about resources in the data source. To access an entry's documentation, select an entry in the [{{ en.NPANE }}](/rdm/mac/user-interface/navigation-pane/), then select the ***Documentation*** tab in the ***Dashboard***. Alternatively, right-click an entry in the ***{{ en.NPANE }}***, then select ***View – Documentation***.
+The ***Documentation*** feature allows for storing information about resources in the data source. To access an entry's documentation, select an entry in the [{{ en.NPANE }}](rdm/user-interface/navigation-pane/), then click the ***Documentation*** tab in the ***Dashboard***. Alternatively, right-click an entry in the ***{{ en.NPANE }}***, then select ***View – Documentation***.
 
 The documentation is written using ***Markdown*** or ***WYSIWYG***. ***Plain text*** and ***HTML*** are also available.
 
 {% snippet, "badgeInfo" %}
 * This feature is also available with {{ en.DVLS }}, {{ en.DHUBB }}, {{ en.DHUBP }} and SQL Server data sources.
 * The ***Documentation*** feature is encrypted only for {{ en.DVLS }}, {{ en.DHUBB }}, and {{ en.DHUBP }} data sources. If you are using data sources like SQL Server or Azure SQL, the ***Documentation*** feature is not encrypted.
-* The feature for using ***Documentation*** in offline mode is available for documents that are stored in the database. This property is set to be inherited by default.
 {% endsnippet %}
 
 ## Create a new page

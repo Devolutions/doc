@@ -8,11 +8,11 @@ eleventyComputed:
 ---
 Ce sujet concerne toutes les commandes d'authentification et les manipulations pour PSHubContext.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Le [module {{ fr.PS }}](/powershell/hub-powershell/powershell-module) doit être installé pour utiliser ces commandes.
 {% endsnippet %}
 
-{% snippet icon.shieldCaution %}
+{% snippet, "shieldCaution" %}
 Des permissions appropriées sont également nécessaires pour exécuter certaines de ces commandes. Veuillez vous référer à [Utilisateurs d'application](/hub/web-interface/administration/management/application-users/).
 {% endsnippet %}
 
@@ -25,7 +25,7 @@ Dans cet objet, vous avez les éléments suivants :
 * Secret d'application : Secret d'application donné après la création de l'utilisateur d'application
 * Clé d'application : Clé d'application donnée après la création de l'utilisateur d'application
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 * Pour vérifier toutes les commandes disponibles :
 ```powershell
 Get-Command-Module <ModuleName>

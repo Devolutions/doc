@@ -37,7 +37,7 @@ Here are the prerequisites to the next few steps for configuring Azure pre-authe
 - {{ en.RDM }} is v.2024.2.4.x or above.
 - A P1 license for the Private Network functionality.
 - The URL of {{ en.DVLS }} must not be the root, i.e. <ins>https://myserver.com/dvls</ins> and not <ins>https://myserver.com</ins>
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Any changes made may take 3-5 minutes to take effect. Be aware of that when testing changes.
 {% endsnippet %}
 

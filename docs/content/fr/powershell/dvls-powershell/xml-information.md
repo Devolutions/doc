@@ -10,7 +10,7 @@ Pour optimiser l'efficacité du stockage, le système utilise des valeurs par d�
 
 Les identifiants sont soumis à un processus de traitement distinct qui implique l'utilisation de GUID lors de la référence à d'autres entrées. Cependant, lors de l'utilisation de mécanismes alternatifs, ils sont associés à des GUID bien connus, statiques et prédéfinis.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Il existe [des GUID supplémentaires](/powershell/rdm-powershell/xml-information/) utilisés dans {{ fr.RDM }}.
 {% endsnippet %}
 

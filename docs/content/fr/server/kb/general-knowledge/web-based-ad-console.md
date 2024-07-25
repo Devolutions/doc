@@ -16,7 +16,7 @@ Pour utiliser cette fonctionnalité, certaines exigences doivent être satisfait
 
 Suivre les étapes ci-dessous pour configurer correctement votre console Active Directory :
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Les étapes ci-dessous supposent que vous avez déjà une entrée de tableau de bord Active Directory. Si vous ne l'avez pas encore créée et souhaitez apprendre comment faire, voir [Créer des entrées manuellement](/server/web-interface/vault/entries/create-entries-manually/).
 {% endsnippet %}
 

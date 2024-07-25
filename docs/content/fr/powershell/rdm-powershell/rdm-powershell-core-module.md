@@ -5,12 +5,12 @@ eleventyComputed:
 ---
 Le module PowerShell doit maintenant être téléchargé depuis la [Galerie PowerShell](https://www.powershellgallery.com/packages/Devolutions.PowerShell/). Il n'est plus inclus dans le paquet d'installation de {{ fr.RDM }}. Cela signifie également qu'il n'est pas nécessaire d'installer {{ fr.RDM }} sur une machine pour exécuter des scripts PowerShell : le module est désormais suffisant.
 
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 Pour se connecter à une [source de données avancée](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/), le compte utilisé pour se connecter à la source de données doit avoir une licence {{ fr.RDM }} assignée. L'utilisation d'une [clé d'application](/server/web-interface/administration/security-management/applications/) avec une source de données {{ fr.DVLS }} ne nécessite pas de licence.
 {% endsnippet %}
 
 ## Installation
-{% snippet icon.badgeCaution %}
+{% snippet, "badgeCaution" %}
 À partir de {{ fr.RDM }} 2023.1, PowerShell 7.2 ou ultérieur est requis pour installer le module. Pour les versions de {{ fr.RDM }} antérieures à 2023.1, PowerShell 5.1 ou ultérieur est requis.
 {% endsnippet %}
 

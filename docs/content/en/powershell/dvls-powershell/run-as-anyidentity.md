@@ -4,7 +4,7 @@ eleventyComputed:
   description: This topic will cover how to run various PowerShell scripts calling {{ en.ANYID }} providers in {{ en.DVLS }} within a certain context.
 ---
 The ***Run As*** option lets you run {{ en.ANYID }} provider scripts within different contexts and runs the scheduler to do so. This can be done on a local or a remote machine, making it useful to find out what the script is trying to accomplish, whether it is completing certain actions or accessing certain files.
-{% snippet icon.badgeHelp %}
+{% snippet, "badgeHelp" %}
 {{ en.DVLS }} already includes Azure Key Vault and Windows Accounts [custom scripts](/server/kb/how-to-articles/create-anyidentity-pam-provider/#import-an-anyidentity-template) templates.
 {% endsnippet %}
 
@@ -20,7 +20,7 @@ The ***Run As*** option lets you run {{ en.ANYID }} provider scripts within diff
 1. In the ***Credential*** dropdown select either;
     * Default: Runs the script with the current scheduler configuration.
     * Custom: Runs the script within a specified ***Username***, ***Password*** and ***Host Name***.
-   {% snippet icon.shieldInfo %}
+   {% snippet, "shieldInfo" %}
    It is advised to pick or create a user with less permissions to test a script.
    {% endsnippet %}
 
@@ -32,10 +32,10 @@ If ***Run As*** is not pointing to a trusted host, the configuration will not wo
 Here is the command line to fetch trusted hosts: `Get-Item "WSMan:localhost\Client\TrustedHosts"`
 
 Here is the command line to update the local machine's trusted hosts with a certain value: `Set-Item 'WSMan:localhost\Client\TrustedHosts' -Value '*' -Force`
-{% snippet icon.shieldCaution %}
+{% snippet, "shieldCaution" %}
 Make certain to replace the `*` in the command above. If left as is the `*` acts as a wildcard, which would make every remote host become trusted.
 {% endsnippet %}
 
-{% snippet icon.badgeHelp %}
+{% snippet, "badgeHelp" %}
 Read the topic on [trusted hosts](/server/kb/how-to-articles/winrm-trustedhostslist/) for more information.
 {% endsnippet %}

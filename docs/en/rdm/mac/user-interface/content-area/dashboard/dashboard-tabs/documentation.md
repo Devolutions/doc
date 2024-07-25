@@ -3,7 +3,7 @@ eleventyComputed:
   title: Documentation
   description: The Documentation feature allows for storing information about resources in the data source.
 ---
-The ***Documentation*** feature allows for storing information about resources in the data source. To access an entry's documentation, select an entry in the [{{ en.NPANE }}](/rdm/windows/user-interface/navigation-pane/), then select the ***Documentation*** tab in the ***Dashboard***.
+The ***Documentation*** feature allows for storing information about resources in the data source. To access an entry's documentation, select an entry in the [{{ en.NPANE }}](/rdm/mac/user-interface/navigation-pane/), then select the ***Documentation*** tab in the ***Dashboard***.
 
 The documentation is written using ***Markdown*** or ***WYSIWYG***. ***Plain text*** and ***HTML*** are also available.
 
@@ -13,10 +13,6 @@ This feature is also available with {{ en.DVLS }}, {{ en.DHUBB }}, {{ en.DHUBP }
 
 {% snippet, "badgeInfo" %}
 The ***Documentation*** feature is encrypted only for {{ en.DVLS }}, {{ en.DHUBB }}, and {{ en.DHUBP }} data sources. If you are using data sources like SQL Server or Azure SQL, the ***Documentation*** feature is not encrypted.
-{% endsnippet %}
-
-{% snippet, "badgeCaution" %}
-The feature for using ***Documentation*** in offline mode is available for documents that are stored in the database.  This property is set to be inherited by default.
 {% endsnippet %}
 
 ## Create a new page
@@ -37,6 +33,8 @@ Note: You can switch between ***Markdown*** and ***WYSIWYG*** when you select **
 1. Click ***OK*** to close the window.
 
 ## Synchronize offline documentation
+The feature for using ***Documentation*** in offline mode is available for documents that are stored in the database.  This property is set to be inherited by default.
+
 1. Choose the entry in the ***{{ en.NPANE }}***.
 1. Go to ***Administration – {{ en.VLT_MAJ }} settings*** in the ribbon.
 ![{{ en.VLT_MAJ }} settings](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_RDMMac6025.png)

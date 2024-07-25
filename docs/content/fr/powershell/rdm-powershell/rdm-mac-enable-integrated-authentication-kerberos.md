@@ -4,7 +4,7 @@ eleventyComputed:
 ---
 Pour utiliser l'Authentification Intégrée (Authentification Windows) sur macOS, vous aurez besoin de configurer un ***ticket Kerberos*** liant votre utilisateur actuel à un compte de domaine Windows. Un résumé des étapes clés est inclus ci-dessous.
 
-{% snippet icon.badgeWarning %}
+{% snippet, "badgeWarning" %}
 Cette fonctionnalité expérimentale a fonctionné lors de nos tests internes et constitue une solution de contournement pour la fonctionnalité de sécurité intégrée qui ne fonctionne pas sur macOS avec SQL Server.
 
 Cela dit, l'implémentation initiale de Kerberos visait à aider notre communauté à utiliser cette méthode d'authentification. Cependant, plusieurs changements ont été apportés du côté de Kerberos depuis l'implémentation, il est donc possible que cette méthode soit maintenant obsolète.
@@ -16,7 +16,7 @@ Nous proposons deux méthodes, la découverte manuelle ou un script PowerShell
 Exécuter sur : PC Windows qui est joint à votre domaine Active Directory. Notez que tout domaine de production aura plus d'un contrôleur de domaine. Chacune des méthodes suivantes pourrait répondre avec un serveur différent en fonction d'une multitude de facteurs. Soyez prêt à exécuter cette découverte à nouveau si le serveur désigné devient indisponible.
 
 ### Découverte Manuelle
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 **nltest.exe** est une utilité de console que vous pouvez exécuter en utilisant l'interpréteur de commande de base ou PowerShell.
 {% endsnippet %}
 
@@ -53,7 +53,7 @@ Write-Output "}"
 ### Étape 1 : Configurer le KDC dans krb5.conf
 Éditer le /etc/krb5.conf dans un éditeur de votre choix, notez que vous devez élever vos privilèges (sudo ou autre). Si vous avez obtenu le résultat du script PowerShell, copiez simplement les lignes appropriées. Suivez les étapes nécessaires si vous avez utilisé la découverte manuelle.
 
-{% snippet icon.badgeCaution %}
+{% snippet, "badgeCaution" %}
 Le domaine doit être en MAJUSCULES
 {% endsnippet %}
 
