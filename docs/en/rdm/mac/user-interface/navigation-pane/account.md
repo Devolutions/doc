@@ -6,6 +6,10 @@ eleventyComputed:
 The ***Account*** tab gives you access to settings for customizing your {{ en.RDM }} interface. At the top, information about the account connected to {{ en.RDM }} is displayed.
 ![Account tab](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_RDMMac2075.png)
 
+## Account information
+
+Contains account information, such as ***name, email, and {{ en.VLT }} status***. Internal and external tags can be added to the user via the web interface of [{{ en.DVLS }}](/server/web-interface/administration/security-management/users/) or [{{ en.DHUBB }}](/hub/web-interface/administration/management/users/) (depending on your data source). These tags are useful for temporary users, such as ***contractors***. An expiration date must be set.
+
 ## Settings
 
 {% snippet, "badgeInfo" %}
