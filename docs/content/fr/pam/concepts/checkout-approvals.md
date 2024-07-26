@@ -9,7 +9,7 @@ eleventyComputed:
 * CyberArk : Contrôle dual
 
 ### Sujets associés
-* [Processus de réservation dans {{ fr.DVLS }}](/pam/server/checkout-process/)
+* [Processus de réservation dans {{ fr.DVLS }}](/pam/server/checkout-process/request-checkout/)
 * [Approuver l'accès à un compte privilégié dans {{ fr.DHUBB }}](/pam/hub/privileged-accounts/approve-access-privileged-account/)
 * [Demander l'accès à un compte privilégié dans {{ fr.DHUBB }}](/pam/hub/privileged-accounts/request-access-privileged-account/)
 * [Rapport des demandes de réservation dans {{ fr.DHUBB }}](/pam/hub/privileged-access-reports/check-out-requests/)

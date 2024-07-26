@@ -10,7 +10,7 @@ To get started with the ***Privileged Access Management*** (PAM)features in {{ e
 1. In {{ en.DVLS }}, head to ***Administration – Licenses***.
 1. Add your PAM license using the ***Add*** (+) button. When done, the license appears in the license list and the Privileged Access menu appears in the side panel of your {{ en.DVLS }}.
 ![PAM license](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp2104.png)
-1. In ***Administration – Privileged Access – Default settings***, configure the settings for the [{{ en.VLT }} visibility](/server/web-interface/vault-access/), [checkout system](/pam/server/checkout-process/), [credentials brokering](/pam/server/view-sensitive-data-account-brokering/), [sensitive information access](/pam/server/view-sensitive-data-account-brokering/), default checkout times, and synchronizations.
+1. In ***Administration – Privileged Access – Default settings***, configure the settings for the [{{ en.VLT }} visibility](/server/web-interface/vault-access/), [checkout system](/pam/server/checkout-process/request-checkout/), [credentials brokering](/pam/server/view-sensitive-data-account-brokering/), [sensitive information access](/pam/server/view-sensitive-data-account-brokering/), default checkout times, and synchronizations.
 ![Administration – Privileged Access – Default settings](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp2105.png)
 1. Next, head to ***Administration – System Permissions – Modules***.
 1. Configure access to the PAM system for users/admins and manage privileged accounts rights on who can edit the privileged entries. Then, click ***Save***.

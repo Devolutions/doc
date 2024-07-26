@@ -9,7 +9,7 @@ eleventyComputed:
 * CyberArk: Dual control
 
 ### Related topics
-* [Checkout process in {{ en.DVLS }}](/pam/server/checkout-process/)
+* [Checkout process in {{ en.DVLS }}](/pam/server/checkout-process/request-checkout/)
 * [Approve access to a privileged account in {{ en.DHUBB }}](/pam/hub/privileged-accounts/approve-access-privileged-account/)
 * [Request access to a privileged account in {{ en.DHUBB }}](/pam/hub/privileged-accounts/request-access-privileged-account/)
 * [Check-out requests report in {{ en.DHUBB }}](/pam/hub/privileged-access-reports/check-out-requests/)
