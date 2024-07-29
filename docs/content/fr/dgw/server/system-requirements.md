@@ -21,7 +21,7 @@ Un contrôleur Ethernet Gigabit est recommandé pour une performance optimale.
 
 ## Prérequis
 * {{ fr.DVLS }} Édition Free, Team, Enterprise ou Platinum.
-* Une licence est requise pour chaque {{ fr.DGW }} déployé. Contactez notre [département des ventes](mailto:sales@devolutions.net) pour plus d'informations.
+* Une licence est requise pour chaque utilisateur de {{ fr.DGW }}. Contactez notre [département des ventes](mailto:sales@devolutions.net) pour plus d'informations.
     * Si {{ fr.DGW }} est installé côte à côte avec {{ fr.DVLS }} sur le même serveur, il prend en charge jusqu'à 5 sessions concurrentes sans licence.
 * Pour les MSP, un {{ fr.DGW }} peut être déployé par site client. Tout ce dont vous avez besoin est de garder les serveurs {{ fr.DGW }} accessibles à la fois par {{ fr.DVLS }} et {{ fr.RDM }}. {{ fr.DGW }} doit uniquement accepter les connexions entrantes provenant d'eux. Aucune connexion sortante vers {{ fr.DVLS }} et {{ fr.RDM }} n'est requise.
 
