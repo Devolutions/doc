@@ -21,3 +21,8 @@ The sealed entry must be created in a [{{ en.DVLS }} data source](/rdm/concepts/
 
 Unseal an entry sends a notification to the administrators, providing details about the access attempt. This includes the identity of the user attempting access, the time and date of the attempt, and the name of the {{ en.VLT }}.
 
+### Devolutions Server REST API and sealed entries
+
+ Details of an entry can be retrieved through the REST API. {{ en.DVLS }} will respond with a sealed entry error message if anyone attempts to access a programmatically sealed entry.
+
+
