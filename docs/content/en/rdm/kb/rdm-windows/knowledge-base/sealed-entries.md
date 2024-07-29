@@ -23,6 +23,6 @@ Unseal an entry sends a notification to the administrators, providing details ab
 
 ### Devolutions Server REST API and sealed entries
 
- Details of an entry can be retrieved through the REST API. {{ en.DVLS }} will respond with a sealed entry error message if anyone attempts to access a programmatically sealed entry.
+ Details of an entry can be retrieved through the REST API. {{ en.DVLS }} will respond with a sealed entry error message if anyone attempts to access a sealed entry programmatically.
 
 
