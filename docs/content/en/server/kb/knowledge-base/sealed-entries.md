@@ -20,3 +20,7 @@ Unseal an entry sends a notification to the administrators, providing details ab
 ### Notification preferences
 
 Enable and disable sealed entries [notifications](/server/web-interface/account-menu/notifications-preferences/) under ***Security – Entry unsealed***.
+
+### Devolutions Server REST API and sealed entries
+
+ Details of an entry can be retrieved through the REST API. {{ en.DVLS }} will respond with a sealed entry error message if anyone attempts to access a sealed entry programmatically.
