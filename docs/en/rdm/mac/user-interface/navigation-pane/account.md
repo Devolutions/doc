@@ -8,7 +8,7 @@ The ***Account*** tab gives you access to settings for customizing your {{ en.RD
 
 ## Account information
 
-Contains account information, such as ***name, email, and {{ en.VLT }} status***. Internal and external tags can be added to the user via the web interface of [{{ en.DVLS }}](/server/web-interface/administration/security-management/users/) or [{{ en.DHUBB }}](/hub/web-interface/administration/management/users/) (depending on your data source). These tags are useful for temporary users, such as ***contractors***. An expiration date must be set.
+Contains account information, such as ***name, email, and {{ en.VLT }} status***. Privileged and external tags can be added when creating or editing users via the web interface of [{{ en.DVLS }}](/server/web-interface/administration/security-management/users/) or [{{ en.DHUBB }}](/hub/web-interface/administration/management/users/) (depending on your data source). They are useful for temporary users, such as ***contractors***. An expiration date must be set.
 
 ## Settings
 
