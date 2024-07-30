@@ -3,7 +3,7 @@ eleventyComputed:
   title: Compte privilégié
   description: Un compte privilégié (CP) dans Devolutions PAM est un compte utilisé pour effectuer des actions hautement privilégiées.
 ---
-Un ***compte privilégié*** (CP) dans Devolutions PAM est un compte utilisé pour effectuer des actions hautement privilégiées. Alors que la plupart des cabinets d'analystes se concentrent sur les comptes IT/OPS en raison de leur nature englobante et de l'impact significatif en cas de compromission, certains utilisateurs non-IT, tels que ceux des services juridiques et financiers, sont également considérés comme hautement privilégiés.
+Un ***compte privilégié*** (CP) dans Devolutions PAM est un compte utilisé pour effectuer des actions hautement privilégiées. En raison de leur large accès, les cibles traditionnelles sont les comptes d'infrastructure informatique, de service et d'administrateur. Cependant, les utilisateurs non informatiques ayant accès à des données ou des processus sensibles, tels que ceux des services juridiques et financiers, sont également considérés comme hautement privilégiés.
 
 ### Sujets associés
 * [Comptes privilégiés ({{ fr.DVLS }})](/pam/server/accounts/)

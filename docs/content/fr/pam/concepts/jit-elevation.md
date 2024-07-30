@@ -3,10 +3,10 @@ eleventyComputed:
   title: Élévation juste-à-temps
   description: L'élévation JIT dans Devolutions PAM a deux variantes, à savoir l'élévation d'un compte normal ou d'un compte à privilèges nuls (ZSP).
 ---
-***Élévation juste-à-temps (JIT)*** dans Devolutions PAM a deux variantes : l'élévation d'un compte normal ou d'un compte à privilèges nuls (ZSP).
+***Élévation juste-à-temps (JIT)*** dans Devolutions PAM a deux variantes : l'élévation d'un compte standard ou d'un compte à privilèges nuls (ZSP).
 
-* **Compte normal** : Ce compte possède des adhésions, et des groupes/rôles supplémentaires sont ajoutés JIT lors de la réservation. Seul ce qui est ajouté lors de la réservation sera retiré lors de la restitution.
-* **Compte ZSP** : Ce compte ne devrait avoir aucune permission ni adhésion au repos. Les adhésions sont ajoutées lors de la réservation et retirées lors de la restitution, similairement aux comptes normaux. L'équipe de sécurité opérationnelle peut surveiller ces comptes pour s'assurer qu'ils restent propres au repos.
+* **Compte standard** : Ce compte possède des adhésions existantes. JIT ajoute des groupes ou des rôles supplémentaires lors de la réservation qui sont ensuite retirés lors de la restitution.
+* **Compte ZSP** : Ce compte n'a aucune permission ou adhésion au repos. Des adhésions sont ajoutées lors de la réservation et retirées lors de la restitution, de manière similaire aux comptes standards. L'équipe de sécurité opérationnelle peut surveiller ces comptes pour s'assurer qu'ils restent vides d'adhésions au repos.
 
 ### Alias
 * CyberArk : À la demande
