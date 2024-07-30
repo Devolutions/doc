@@ -22,15 +22,19 @@ Dans l'onglet ***Connexion***, l'***Authentification*** doit être réglée sur 
 ![Paramètres de connexion](https://cdnweb.devolutions.net/docs/RDMW0018_2024_2.png)
 
 La commande ***Découvrir*** recherche les champs dans la page Web qui correspondent à ceux de l'entrée. Cela permet à l'application de trouver les champs appropriés à remplir lors de la connexion au site Web.
-![Contrôle HTML](https://cdnweb.devolutions.net/docs/RDMW0019_2024_2.png)
+![Contrôle Html](https://cdnweb.devolutions.net/docs/RDMW0019_2024_2.png)
 
 ## Dépannage des champs manquants
+{% snippet, "badgeInfo" %}
+Un navigateur extérieur à {{ fr.RDM }} doit être utilisé avec cette méthode de dépannage.
+{% endsnippet %}
+
 Pour certains sites Web, la fonction de remplissage automatique ne fonctionne pas automatiquement. Il est important de noter que certains sites Web vous empêcheront de remplir automatiquement vos identifiants. Cette méthode montre comment identifier manuellement les ID correspondant aux champs de connexion sur la page Web.
 
-Pour les champs de nom d'utilisateur et de mot de passe, cliquez avec le bouton droit à l'intérieur de chaque champ et cliquez sur ***Inspecter***.
+Pour les champs de nom d'utilisateur et de mot de passe, cliquer avec le bouton droit à l'intérieur de chaque champ et cliquer sur ***Inspecter***.
 ![Inspecter](https://cdnweb.devolutions.net/docs/RDMW0021_2024_2.png)
 
-Vous verrez les ID correspondants à utiliser dans l'onglet ***Contrôle HTML*** de la session ***Site Web*** dans {{ fr.RDM }}.
+Vous verrez les ID correspondants à utiliser dans l'onglet ***Contrôle Html*** de la session ***Site Web*** dans {{ fr.RDM }}.
 
 Ci-dessous un exemple de l'inspection pour le champ ***Nom d'utilisateur***. Vous pouvez voir que l'ID du nom d'utilisateur est "username".
 ![ID de nom d'utilisateur](https://cdnweb.devolutions.net/docs/RDMW0020_2024_2.png)
