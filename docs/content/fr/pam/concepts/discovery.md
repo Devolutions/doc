@@ -1,9 +1,9 @@
----
+```yaml
 eleventyComputed:
   title: Découverte
   description: La découverte dans Devolutions PAM fait référence à la capacité de se connecter aux fournisseurs d'identité pour lister les comptes existants.
----
-***Découverte*** dans Devolutions PAM fait référence à la capacité de se connecter aux fournisseurs d'identité pour lister les comptes existants. Une fonctionnalité avancée de la découverte est l'analyse des permissions attribuées pour identifier si un compte est considéré comme "Privilégié". Des alertes sont déclenchées lorsque de nouveaux comptes sont détectés.
+```
+***Découverte*** dans Devolutions PAM fait référence à la connexion à un fournisseur d'identité, une source de comptes, pour lister et importer des comptes privilégiés pour la gestion.
 
 ### Sujets associés
 * [Configurations de scan dans {{ fr.DVLS }}](/pam/server/scan-configurations/)

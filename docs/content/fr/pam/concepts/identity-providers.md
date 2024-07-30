@@ -3,10 +3,10 @@ eleventyComputed:
   title: Fournisseurs d'identité
   description: Les fournisseurs d'identité dans Devolutions PAM font référence à toute source de comptes.
 ---
-***Les fournisseurs d'identité (IdP)*** dans Devolutions PAM font référence à toute source de comptes. Dans le contexte de PAM, il s'agit généralement de :
-* **Répertoires** : Tels que Microsoft Active Directory, OpenLDAP.
-* **Services d'identité SaaS** : Tels que Microsoft Entra ID (anciennement Azure AD), Okta, Ping, etc.
-* **Serveurs isolés** : Divers systèmes d'exploitation et matériel, y compris les équipements réseau, IoT et OT (dispositifs industriels).
+***Fournisseurs d'identité (IdP)*** dans Devolutions PAM font référence à toute source de comptes. Dans le contexte de PAM, il s'agit généralement de :
+* **Répertoires** : Tels que Microsoft Active Directory ou OpenLDAP.
+* **Services d'identité SaaS** : Tels que Microsoft Entra ID (anciennement Azure AD), Okta, Ping et d'autres fournisseurs d'identité hébergés dans le nuage.
+* **Serveurs individuels ou appareils** : Divers systèmes d'exploitation et matériel, y compris l'équipement réseau, IoT et OT (dispositifs industriels).
 * **Bases de données** : Un serveur de base de données ou même une seule base de données.
 
 ### Sujets associés
