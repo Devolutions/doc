@@ -15,6 +15,7 @@ eleventyComputed:
 | Tags                | ***External*** and ***Privileged Tags*** can be added when creating or editing users. They are useful for ***temporary users***, such as ***contractors***. An ***expiration date*** must be set.  ***Tags*** appear in the Account menu under User information and are displayed in {{ en.DVLS }} data sources in {{ en.RDM }}. |
 | Enabled                            | Check to activate the user.                                           |
 | Must change password at next logon | Check to force the user to change the password next time they log on. |
+| Enable Emergency Login | Enable the feature for an [emergency access](/server/kb/how-to-articles/enable-emergency-login-code-authentication/) to allow login for administrators even if providers are down. |
 | First name                         | Enter the user's first name.                                          |
 | Last name                          | Enter the user's last name.                                           |
 | Email (required)                   | Enter the user's email address.                                       |
