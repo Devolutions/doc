@@ -9,7 +9,9 @@ Ce sujet sert de référence pour des informations générales sur l'enregistrem
 Le format d'enregistrement est WebM et la taille du fichier est d'environ 15 ko/s, selon la compression.
 {% endsnippet %}
 
-Le paramètre `RecordingPath` peut être ajouté au fichier **.json** puis modifié pour changer l'endroit où les enregistrements sont sauvegardés. Le fichier se trouve sous **C:\ProgramData\Devolutions\Gateway\gateway.json**.
+Le paramètre `RecordingPath` peut être ajouté au fichier **.json** puis modifié via la {{ fr.DVLSCONSOLE }} pour changer l'endroit où les enregistrements sont sauvegardés. Le fichier se trouve sous **C:\ProgramData\Devolutions\Gateway\gateway.json**.
+
+![Chemin d'enregistrement dans la {{ fr.DVLSCONSOLE }}](https://cdnweb.devolutions.net/docs/DVLSCONSOLE4010_2024_2.png)
 
 Voici quelques considérations importantes :
 * Si le nouveau chemin est défini sur un emplacement réseau, comme un dossier partagé ou un chemin UNC, soyez conscient que cela peut impacter le trafic réseau, entrant et sortant.
