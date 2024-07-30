@@ -46,7 +46,7 @@ In the ***User groups*** tab, you can assign them to one or more user groups wit
 | Is enabled                       | Enables the user in the hub.  |                                                                            |
 | [Allow send messages](/hub/web-interface/secure-messages/) | Select if the user is allowed to send messages with attachments, without attachments, or is not allowed to send messages.                                                                                                            |
 | User interface profile                     | Select the user interface profile between ***IT professional***, ***Business user***, or ***Default***. This cannot only be changed when editing the user, not when creating them.   |
-| Tags                | ***External*** and ***Privileged Tags*** can be added when creating or editing users. They are useful for ***temporary users***, such as ***contractors***. An ***expiration date*** must be set.  ***Tags*** appear in the Account menu under User information and are displayed in {{ en.DVLS }} data sources in {{ en.RDM }}. | 
+| Tags                | ***External*** and ***Privileged Tags*** can be added when creating or editing users. They are useful for ***temporary users***, such as ***contractors***. An ***expiration date*** must be set.  ***Tags*** appear in the Account menu under User information and are displayed in {{ en.DHUB }} data sources in {{ en.RDM }}. | 
 | Expiration date                | Set an [expiration date](/hub/web-interface/administration/management/users/#set-an-expiration-date-for-a-user) for the user. | 
 ## Delete a user
 
