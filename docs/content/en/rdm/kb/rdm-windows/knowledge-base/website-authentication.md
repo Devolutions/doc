@@ -25,6 +25,10 @@ The ***Discover*** command searches the fields in the web page that correspond t
 ![Html control](https://cdnweb.devolutions.net/docs/RDMW0019_2024_2.png)
 
 ## Troubleshoot missing fields
+{% snippet, "badgeInfo" %}
+A browser outside of {{ en.RDM }} needs to be used with this troubleshoot method.
+{% endsnippet %}
+
 For some websites, the autofill function does not work automatically. It is important to note that some website will prevent you from autofilling your credentials. This method showcases how to manually identify the IDs corresponding to the login fields on the web page.
 
 For both the username and password fields right-click inside each field and click on ***Inspect***.
