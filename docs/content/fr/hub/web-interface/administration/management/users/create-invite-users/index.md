@@ -22,14 +22,14 @@ Nous recommandons fortement d'inviter au moins un autre administrateur. Apprendr
 Il est possible de coller une liste d'adresses courriel d'***Utilisateurs*** qui feront partie des mêmes [Groupes d'utilisateurs](/hub/web-interface/administration/management/user-groups/). Chaque adresse courriel doit être séparée par un point-virgule (;) ou une virgule (,).
 {% endsnippet %}
 
-4. Appuyer sur Entrée. Cette étape valide si l'utilisateur possède un {{ fr.DA }} : 
+4. Appuyer sur Entrée. Cette étape valide si l'utilisateur a un {{ fr.DA }} : 
     * Si oui, cela liera le compte à {{ fr.DHUBB }} et l'utilisateur recevra un courriel d'invitation.
     * Si non, cela créera automatiquement un {{ fr.DA }} avec un ***Mot de passe temporaire***, que vous pouvez choisir comment gérer. Vous pouvez gérer comment les ***Mots de passe temporaires*** sont gérés dans ***Administration – Paramètres du système – Général***.
 ![!!Hub4182](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub4182.png)
 
 5. Cliquer ***Suivant***.
 1. Sélectionner des ***Options*** supplémentaires.
-![!!Hub4183](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub4183.png)
+![Option](https://cdnweb.devolutions.net/docs/HUBB6009_2023_3.png)
 
    {% snippet, "badgeInfo" %}
    Pour définir un profil d'interface utilisateur pour un utilisateur, vous devrez le créer et l'inviter d'abord. Ensuite, dans ***Administration – Utilisateurs***, l'option sera disponible lors de l'édition de cet utilisateur.
@@ -45,4 +45,4 @@ Il est possible de coller une liste d'adresses courriel d'***Utilisateurs*** qui
 
 9. Cliquer ***Envoyer l'invitation***.
 
-{{ fr.DHUB }} enverra un courriel avec les informations essentielles aux utilisateurs invités ; le lien pour accéder au {{ fr.DHUBB }}, l'ID d'invitation, et la clé.
+{{ fr.DHUB }} enverra un courriel avec les informations essentielles aux utilisateurs invités ; le lien pour accéder au {{ fr.DHUBB }}, l'ID d'invitation et la clé.

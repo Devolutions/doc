@@ -1,9 +1,9 @@
 ---
 eleventyComputed:
   title: Utilisateurs
-  description: Dans la section Utilisateurs, vous pouvez gérer les utilisateurs et les paramètres des utilisateurs.
+  description: Dans la section Utilisateurs, vous pouvez gérer les utilisateurs et les paramètres utilisateur.
 ---
-Dans la section ***Utilisateurs***, vous pouvez gérer les utilisateurs et les paramètres des utilisateurs.
+Dans la section ***Utilisateurs***, vous pouvez gérer les utilisateurs et les paramètres utilisateur.
 
 {% snippet, "badgeHelp" %}
 Apprendre à [ajouter des utilisateurs](/hub/web-interface/administration/management/users/create-invite-users/) ou [ajouter un administrateur](/hub/web-interface/administration/management/users/administrator-invite/).
@@ -31,22 +31,23 @@ Pour des raisons de sécurité, seuls les administrateurs actuels peuvent être 
 
 ![Modifier](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub2274.png)
 
-Lors de la modification d'un utilisateur, vous pouvez ajouter une courte description de l'utilisateur, ses rôles et responsabilités, etc. Vous pouvez également changer une partie de ce qu'ils sont capables de faire au sein du hub.
+Lors de la modification d'un utilisateur, vous pouvez ajouter une courte description de l'utilisateur, ses rôles et responsabilités, etc. Vous pouvez également changer certaines de ses capacités au sein du hub.
 
 Dans l'onglet ***Groupes d'utilisateurs***, vous pouvez les assigner à un ou plusieurs groupes d'utilisateurs avec des permissions et accès définis.
 
-![Modifier les paramètres](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub2277.png)
+![Modifier les paramètres](https://cdnweb.devolutions.net/docs/HUBB6010_2023_3.png)
 
 | OPTION                           | DESCRIPTION                                                                                                                                                                                                                       |
 |----------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Est activé                       | Active l'utilisateur dans le hub.                                                                                                                                                                                                 |
-| Activer le {{ fr.WBEX }}               | Permet à l'utilisateur d'utiliser le hub avec notre {{ fr.WBEX }}.                                                                                                                                                                |
-| Activer le {{ fr.WAPPS }}               | Permet à l'utilisateur d'utiliser le hub avec notre {{ fr.WAPPS }} {{ fr.CTOOL }}.                                                                                                                                                 |
-| Autoriser hors ligne dans {{ fr.RDM }}     | Permet à l'utilisateur d'utiliser le hub comme source de données en mode hors ligne dans {{ fr.RDM }}.                                                                                                                             |
-| Est administrateur                  | Définit l'utilisateur comme administrateur du hub. Cette option ne peut pas être changée si l'utilisateur est le propriétaire du hub (comme vu dans l'image ci-dessus).                                                           |
-| [Autoriser l'envoi de messages](/hub/web-interface/secure-messages/) | Sélectionnez si l'utilisateur est autorisé à envoyer des messages avec des entrées, sans entrées, ou n'est pas autorisé à envoyer des messages.                                                                                  |
-| Profil d'interface utilisateur                     | Sélectionnez le profil d'interface utilisateur entre ***Professionnel de l'IT***, ***Utilisateur d'affaires***, ou le ***Défaut***. Cela ne peut être changé qu'en modifiant l'utilisateur, pas lors de sa création.             |
-
+| Activer [{{ fr.WBEX }}](/workspace/workspace-browser-extension/)               | Permet à l'utilisateur d'utiliser le hub avec {{ fr.WBEX }}.                                                                                                                                           |
+| Activer [{{ fr.WAPPS }}](/workspace/workspace-apps/)               | Permet à l'utilisateur d'utiliser le hub avec {{ fr.WAPPS }} {{ fr.CTOOL }}.                                                                                                                                                                |
+| Autoriser hors ligne     | Permet à l'utilisateur d'utiliser le hub comme source de données en mode hors ligne dans {{ fr.RDM }}.                                                                                                                                                  |
+| Est administrateur                  | Définit l'utilisateur comme administrateur du hub. Cette option ne peut pas être changée si l'utilisateur est le propriétaire du hub (comme vu dans l'image ci-dessus).       
+| Est activé                       | Active l'utilisateur dans le hub.  |                                                                            |
+| [Autoriser l'envoi de messages](/hub/web-interface/secure-messages/) | Sélectionnez si l'utilisateur est autorisé à envoyer des messages avec pièces jointes, sans pièces jointes, ou n'est pas autorisé à envoyer des messages.                                                                                                            |
+| Profil d'interface utilisateur                     | Sélectionnez le profil d'interface utilisateur entre ***Professionnel de l'informatique***, ***Utilisateur professionnel***, ou ***Défaut***. Cela ne peut être changé qu'en modifiant l'utilisateur, pas lors de sa création.   |
+| Tags                | Les ***Tags externes*** et ***Tags privilégiés*** peuvent être ajoutés lors de la création ou de la modification des utilisateurs. Ils sont utiles pour les ***utilisateurs temporaires***, tels que les ***contractuels***. Une ***date d'expiration*** doit être définie.  Les ***Tags*** apparaissent dans le menu Compte sous Informations utilisateur et sont affichés dans les sources de données {{ fr.DVLS }} dans {{ fr.RDM }}. | 
+| Date d'expiration                | Définir une [date d'expiration](/hub/web-interface/administration/management/users/#set-an-expiration-date-for-a-user) pour l'utilisateur. | 
 ## Supprimer un utilisateur
 
 ![Supprimer](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub2275.png)
@@ -61,21 +62,22 @@ Pour des raisons de sécurité, il n'est pas possible de se supprimer soi-même 
 
 ## Réinviter un utilisateur
 
-![Réinviter un utilisateur](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub2276.png)
+![Réinviter l'utilisateur](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub2276.png)
 
 Dès que vous cliquez sur cette icône, un nouvel e-mail d'invitation est envoyé à l'utilisateur. Il doit alors ouvrir le hub via cette invitation.
 
 ## Définir une date d'expiration pour un utilisateur
 
-Vous pouvez déterminer à l'avance quand un compte utilisateur ne devrait plus être utilisé. Cela est particulièrement utile pour les utilisateurs externes tels que les sous-traitants.
+Vous pouvez déterminer à l'avance quand un compte utilisateur ne devrait plus être utilisé. Cela est particulièrement utile pour les utilisateurs ***externes*** et ***privilégiés*** tels que les ***contractuels***.
  
 1. Sélectionner l'***utilisateur***.
-1. Choisir une ***date d'expiration***.
+1. Choisir une ***date d'expiration***. 
 
 {% snippet, "badgeInfo" %}
 Un message d'avertissement est affiché à l'utilisateur si le compte expire dans moins de 24 heures.
 {% endsnippet %}
 
-3. Cliquer sur ***Mettre à jour*** pour sauvegarder.
+3. Cliquer sur ***Mettre à jour*** pour sauvegarder. 
 
 ![Date d'expiration](https://cdnweb.devolutions.net/docs/HUBB6001_2024_1.png)
+

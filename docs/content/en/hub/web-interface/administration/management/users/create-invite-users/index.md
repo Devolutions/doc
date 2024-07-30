@@ -29,7 +29,7 @@ It is possible to paste a list of email addresses of ***Users*** that will be pa
 
 5. Click ***Next***.
 1. Select additional ***Options***.
-![!!Hub4183](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub4183.png)
+![Option](https://cdnweb.devolutions.net/docs/HUBB6009_2023_3.png)
 
    {% snippet, "badgeInfo" %}
    To set a user interface profile for a user, you will need to create and invite them first. Then, in ***Administration – Users***, the option will be available when editing said user.

@@ -35,18 +35,19 @@ When editing a user, you can add a short description of the user, their roles an
 
 In the ***User groups*** tab, you can assign them to one or more user groups with defined permissions and access.
 
-![Edit settings](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub2277.png)
+![Edit settings](https://cdnweb.devolutions.net/docs/HUBB6010_2023_3.png)
 
 | OPTION                           | DESCRIPTION                                                                                                                                                                                                                       |
 |----------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Is enabled                       | Enables the user in the hub.                                                                                                                                                                                                     |
-| Enable the {{ en.WBEX }}               | Allows the user to use the hub with our {{ en.WBEX }}.                                                                                                                                                             |
-| Enable the {{ en.WAPPS }}               | Allows the user to use the hub with our {{ en.WAPPS }} {{ en.CTOOL }}.                                                                                                                                                                |
-| Allow offline in {{ en.RDM }}     | Allows the user to use the hub as a data source in offline mode in {{ en.RDM }}.                                                                                                                                                  |
-| Is administrator                  | Sets the user as an administrator of the hub. This option cannot be changed if the user is the owner of the hub (as seen in the image above).                                                                                   |
-| [Allow send messages](/hub/web-interface/secure-messages/) | Select if the user is allowed to send messages with entries, without entries, or is not allowed to send messages.                                                                                                            |
-| User interface profile                     | Select the user interface profile between ***IT professional***, ***Business user***, or the ***Default***. This cannot only be changed when editing the user, not when creating them.                                           |
-
+| Enable [{{ en.WBEX }}](/workspace/workspace-browser-extension/)               | Allows the user to use the hub with {{ en.WBEX }}.                                                                                                                                           |
+| Enable the [{{ en.WAPPS }}](/workspace/workspace-apps/)               | Allows the user to use the hub with {{ en.WAPPS }} {{ en.CTOOL }}.                                                                                                                                                                |
+| Allow offline     | Allows the user to use the hub as a data source in offline mode in {{ en.RDM }}.                                                                                                                                                  |
+| Is administrator                  | Sets the user as an administrator of the hub. This option cannot be changed if the user is the owner of the hub (as seen in the image above).       
+| Is enabled                       | Enables the user in the hub.  |                                                                            |
+| [Allow send messages](/hub/web-interface/secure-messages/) | Select if the user is allowed to send messages with attachments, without attachments, or is not allowed to send messages.                                                                                                            |
+| User interface profile                     | Select the user interface profile between ***IT professional***, ***Business user***, or ***Default***. This cannot only be changed when editing the user, not when creating them.   |
+| Tags                | ***External*** and ***Privileged Tags*** can be added when creating or editing users. They are useful for ***temporary users***, such as ***contractors***. An ***expiration date*** must be set.  ***Tags*** appear in the Account menu under User information and are displayed in {{ en.DVLS }} data sources in {{ en.RDM }}. | 
+| Expiration date                | Set an [expiration date](/hub/web-interface/administration/management/users/#set-an-expiration-date-for-a-user) for the user. | 
 ## Delete a user
 
 ![Delete](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub2275.png)
@@ -67,7 +68,7 @@ As soon as you click on this icon, the user is sent a new invitation email. They
 
 ## Set an expiration date for a user
 
-You can determine in advance when a user account should no longer be used. This is particularly useful for external users such as subcontractors.
+You can determine in advance when a user account should no longer be used. This is particularly useful for ***external*** and ***privileged*** users such as ***contractors***.
  
 1. Select the ***user***.
 1. Choose an ***expiration date***. 
