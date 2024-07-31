@@ -1,8 +1,8 @@
-```yaml
+---
 eleventyComputed:
   title: Découverte
   description: La découverte dans Devolutions PAM fait référence à la capacité de se connecter aux fournisseurs d'identité pour lister les comptes existants.
-```
+---
 ***Découverte*** dans Devolutions PAM fait référence à la connexion à un fournisseur d'identité, une source de comptes, pour lister et importer des comptes privilégiés pour la gestion.
 
 ### Sujets associés

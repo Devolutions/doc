@@ -1,11 +1,11 @@
-```yaml
+---
 _schema: default
 eleventyComputed:
   title: Approbations de réservation
   description: >-
     Les approbations de réservation dans Devolutions PAM nécessitent qu'une autre personne approuve
     la réservation d'un compte privilégié.
-```
+---
 ***Approbations de réservation*** dans Devolutions PAM nécessitent qu'une autre personne approuve la réservation d'un compte privilégié. Souvent, cela peut être un gestionnaire, un chef d'équipe ou une équipe de sécurité dédiée qui effectue ces approbations.
 
 ### Alias

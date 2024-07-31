@@ -1,7 +1,7 @@
-```yaml
+---
 eleventyComputed:
   title: Général
-```
+---
 ![Modifier Utilisateurs – Général](https://cdnweb.devolutions.net/docs/DVLS6014_2023_3.png)
 
 ## Modifier les utilisateurs

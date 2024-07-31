@@ -1,4 +1,3 @@
-```yaml
 ---
 eleventyComputed:
   title: "{{ fr.COFFRE_MAJ }}"

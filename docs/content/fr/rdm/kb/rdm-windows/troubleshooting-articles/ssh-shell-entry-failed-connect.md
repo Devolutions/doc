@@ -1,7 +1,7 @@
-```yaml
+---
 eleventyComputed:
   title: Échec de la connexion à l'entrée Shell SSH
-```
+---
 Échec de la connexion à l'entrée Shell avec authentification interactive.
 
 Une erreur SSH inconnue a été rencontrée.

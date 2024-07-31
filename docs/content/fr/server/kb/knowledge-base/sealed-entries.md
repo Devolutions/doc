@@ -1,8 +1,8 @@
-```yaml
+---
 eleventyComputed:
   title: Entrées scellées
   description: Lorsqu'une tentative d'accès à une entrée scellée est effectuée, le système affiche un message de confirmation à l'utilisateur, indiquant que l'entrée est protégée.
-```
+---
 Les entrées scellées protègent les informations sensibles contre l'accès par des utilisateurs disposant de privilèges supérieurs et peuvent être utilisées en cas d'urgence. Lorsqu'une tentative d'accès à une entrée scellée est effectuée, le système affiche un message de confirmation à l'utilisateur, indiquant que l'entrée est protégée. De plus, une notification est envoyée aux administrateurs, les alertant de la tentative d'accès.
 
 ### Sceller l'entrée

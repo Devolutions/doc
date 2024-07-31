@@ -1,4 +1,3 @@
-```yaml
 ---
 eleventyComputed:
   title: Privilèges nuls permanents

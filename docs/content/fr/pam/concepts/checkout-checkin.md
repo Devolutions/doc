@@ -1,11 +1,11 @@
-```yaml
+---
 _schema: default
 eleventyComputed:
   title: Réservation/Restitution
   description: >-
     Dans le contexte des comptes privilégiés (CP), la réservation et la restitution font référence à
     la mise à disposition d'un CP pour l'usage exclusif d'un utilisateur pour une période déterminée.
-```
+---
 ***Réservation*** et ***restitution*** font référence à la mise à disposition, ou au verrouillage, d'un compte privilégié pour l'usage exclusif d'un utilisateur pour une période déterminée. Typiquement, une rotation de mot de passe se produit lors de la restitution, libérant le verrou exclusif. Ce processus peut se produire :
 
 * À la fin de la durée de réservation

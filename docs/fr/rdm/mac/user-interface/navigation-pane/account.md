@@ -1,10 +1,8 @@
-```yaml
 ---
 eleventyComputed:
   title: Compte
   description: L'onglet Compte vous donne accès aux paramètres pour personnaliser votre interface {{ fr.RDM }}.
 ---
-```
 L'onglet ***Compte*** vous donne accès aux paramètres pour personnaliser votre interface {{ fr.RDM }}. En haut, les informations concernant le compte connecté à {{ fr.RDM }} sont affichées.
 ![Onglet Compte](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_RDMMac2075.png)
 
