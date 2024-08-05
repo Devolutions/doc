@@ -2,7 +2,7 @@
 _schema: default
 eleventyComputed:
   title: ' System Information report WMI commands'
-  description:
+  description: Here are the **WMI commands** used by the **System Information Report entry** in {{ variables.RDM.en }}.
   status:
   keywords:
 ---
