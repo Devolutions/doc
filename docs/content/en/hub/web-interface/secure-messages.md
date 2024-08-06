@@ -47,6 +47,8 @@ If the secure message was flagged as ***High priority***, it will appear directl
 1. Click on the ***Messages*** button.<br> ![Messages](https://cdnweb.devolutions.net/docs/HUBB2376_2024_2.png)
 2. Click on the new message in the inbox. Unread messages have a blue tint.<br> ![New messages](https://cdnweb.devolutions.net/docs/HUBB2377_2024_2.png)
 
+This is what the message interface looks like:
+
 ![Message interface](https://cdnweb.devolutions.net/docs/HUBB2378_2024_2.png)
 
 When viewing a message, the recipient sees the following information:
