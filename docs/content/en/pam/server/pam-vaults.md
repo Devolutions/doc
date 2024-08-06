@@ -1,7 +1,7 @@
 ---
 _schema: default
 eleventyComputed:
-  title: PAM {{ en.VLT }}
+  title: PAM {{ en.VLT }}s
   description: PAM {{ en.VLT }}s are one of the key features of {{ variables.DVLS.en }} privileged access management module. They are secure vaults that allow admins to manage their different privileged accounts.
   status:
   keywords:
@@ -16,13 +16,13 @@ For more information related to PAM providers, settings, scans and importations,
 
 In ***Administration*** – ***Privileged Access*** – ***PAM {{ en.VLT }}s***, create at least one PAM {{ en.VLT }} to contain privileged accounts.
 
-![PAM s](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp2112.png)
+![PAM {{ variables.VLT.en }}](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp2112.png)
 
 Alternatively, PAM {{ en.VLT }}s can be created by clicking the ellipsis button located next to existing PAM {{ en.VLT }}s and in the {{ variables.NPANE.en }}.
 
-![Add PAM vaults](https://cdnweb.devolutions.net/docs/DVLS4038_2024_2.png "Add PAM vaults")
+![Add PAM {{ variables.VLT.en }}](https://cdnweb.devolutions.net/docs/DVLS4038_2024_2.png "Add PAM vaults")
 
-![Add PAM vaults](https://cdnweb.devolutions.net/docs/DVLS4040_2024_2.png "Add PAM vaults")
+![Add PAM {{ variables.VLT.en }}](https://cdnweb.devolutions.net/docs/DVLS4040_2024_2.png "Add PAM vaults")
 
 ## PAM {{ en.VLT }} setup
 
@@ -37,4 +37,4 @@ Start by entering a ***Name*** for your PAM vault (mandatory) and a ***Descripti
 
 When clicking ***Add***, the new PAM {{ en.VLT }} will be created. It can then be found in ***Administration*** – ***Privileged access*** – ***PAM {{ en.VLT_MAJ }}s***.
 
-![](https://cdnweb.devolutions.net/docs/DVLS4041_2024_2.png)
+![PAM {{ variables.VLT.en }}](https://cdnweb.devolutions.net/docs/DVLS4041_2024_2.png)
