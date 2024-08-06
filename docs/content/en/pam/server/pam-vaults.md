@@ -1,7 +1,7 @@
 ---
 _schema: default
 eleventyComputed:
-  title: PAM {{ en.VLT }}
+  title: PAM {{ en.VLT }}s
   description: PAM {{ en.VLT }}s are one of the key features of {{ variables.DVLS.en }} privileged access management module. They are secure vaults that allow admins to manage their different privileged accounts.
   status:
   keywords:
