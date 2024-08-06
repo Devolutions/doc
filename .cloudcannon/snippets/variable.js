@@ -1,6 +1,6 @@
 module.exports = {
   eleventy_variable: {
-    snippet: "{{ variables.[[variable]].[[lang]] }}",
+    snippet: "{{ variables.[[variable]].[[lang]] [[optional_capitalize]] }}",
     inline: true,
     preview: {
       text: "Variable",
@@ -13,6 +13,30 @@ module.exports = {
       icon: "data_object"
     },
     params: {
+      optional_capitalize: {
+        parser: "optional",
+        options: {
+          snippet: "| [[capitalize]]",
+          remove_empty: true,
+        }
+      },
+      capitalize: {
+        parser: "argument",
+        options: {
+          model: {
+            editor_key: "capitalize",
+            implied_boolean: true,
+            allowed_values: ["capitalize"],
+            remove_empty: true,
+            optional: true,
+            default: "capitalize"
+          },
+          format: {
+            string_boundary: [""],
+            forbidden_tokens: ["/", "/>", ">", "}}", "}", "."]
+          }
+        }
+      },
       variable: {
         parser: "argument",
         options: {
