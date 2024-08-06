@@ -1,12 +1,12 @@
 ---
 _schema: default
 eleventyComputed:
-  title:
-  description:
+  title: PAM {{ en.VLT }}
+  description: PAM {{ en.VLT }}s are one of the key features of {{ variables.DVLS.en }} privileged access management module. They are secure vaults that allow admins to manage their different privileged accounts.
   status:
   keywords:
 ---
-PAM {{ en.VLT }}s are one of the key features of {{ variables.DVLS.en }} privileged access management module. They are secure vaults that allow admins to manage their different privileged accounts.
+PAM {{ en.VLT }}s are one of the key features of {{ variables.DVLS.en }} privileged access management module. They are secure {{ en.VLT }}s that allow admins to manage their different privileged accounts.
 
 The [security options of the folder](/pam/server/accounts/) thus created can be further customized if need be. The [approvers can also be customized directly on the folder](/pam/server/accounts/), which gives a list of its administrators.
 
@@ -38,9 +38,3 @@ Start by entering a ***Name*** for your PAM vault (mandatory) and a ***Descripti
 When clicking ***Add***, the new PAM {{ en.VLT }} will be created. It can then be found in ***Administration*** – ***Privileged access*** – ***PAM {{ en.VLT_MAJ }}s***.
 
 ![](https://cdnweb.devolutions.net/docs/DVLS4041_2024_2.png)
-
-&nbsp;
-
-&nbsp;
-
-<br>
