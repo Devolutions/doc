@@ -17,7 +17,7 @@ module.exports = {
         parser: "optional",
         options: {
           snippet: "| [[capitalize]]",
-          remove_empty: true,
+          remove_empty: true
         }
       },
       capitalize: {
@@ -44,17 +44,8 @@ module.exports = {
             editor_key: "variable"
           },
           format: {
-            string_boundary: [
-              ""
-            ],
-            forbidden_tokens: [
-              "/",
-              "/>",
-              ">",
-              "}}",
-              "}",
-              "."
-            ]
+            string_boundary: [""],
+            forbidden_tokens: ["/", "/>", ">", "}}", "}", "."]
           }
         }
       },
@@ -65,17 +56,8 @@ module.exports = {
             editor_key: "lang"
           },
           format: {
-            string_boundary: [
-              ""
-            ],
-            forbidden_tokens: [
-              "/",
-              "/>",
-              ">",
-              "}}",
-              "}",
-              "."
-            ]
+            string_boundary: [""],
+            forbidden_tokens: ["/", "/>", ">", "}}", "}", "."]
           }
         }
       }
