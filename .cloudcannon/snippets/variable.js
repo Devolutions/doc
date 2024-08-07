@@ -5,7 +5,8 @@ module.exports = {
     preview: {
       text: "Variable",
       subtext: [
-        { template: "variables.{key}" },
+        { template: "{key.en}" },
+        { template: "{key}" },
         "Use a variable"
       ],
       icon: "data_object"
