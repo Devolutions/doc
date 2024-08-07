@@ -1,25 +1,15 @@
 ---
 eleventyComputed:
-  title: La déconnexion de Microsoft RDP se bloque {{ fr.RDMWIN }}
+  title: Microsoft RDP se déconnecte et reste bloqué {{ fr.RDMWIN }}
   description: Les deux causes sont les plug-ins RDP et l'utilisation de UDP dans certaines conditions.
-  keywords:
-  - Blocages
-  - RDP
 ---
 Les deux causes sont les plug-ins RDP et l'utilisation de UDP dans certaines conditions.
+
 ## Solution pour les plug-ins RDP
-Aller dans l'onglet ***Expérience*** de vos sessions RDP et régler ***Charger les plug-ins en mode intégré*** sur ***Non***. Cette solution a un faible impact.
-![Charger les plug-ins en mode intégré](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4054.png)
+Cette solution a un faible impact.
+1. Dans {{ fr.RDM }}, aller aux propriétés de votre entrée de session RDP.
+1. Dans la section ***Général***, aller à l'onglet ***Expérience*** et régler ***Charger les plug-ins en mode intégré*** sur ***Non***.
+1. Cliquer sur ***Mettre à jour*** pour sauvegarder vos modifications.
+
 ## Solution pour l'utilisation de UDP
-Il existe une option dans {{ fr.RDM }} pour désactiver l'utilisation de UDP.
-1. Ouvrir {{ fr.RDM }} en tant qu'administrateur.
-1. Cliquer sur ***Outils – Plus d'outils – Gestionnaire Local RDP/RemoteApp***.
-1. Cliquer sur ***Désactiver*** pour désactiver les ***Paramètres UDP***.
-![Paramètres UDP](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4055.png)
-
-La recherche pour cette solution indique que cela est causé uniquement lors de l'utilisation d'un VPN, d'autres mentionnent que cela se produit uniquement sur Windows 8 associé à un serveur Gateway, mais cela a fonctionné pour de nombreux utilisateurs.
-
-Cela nécessite un changement dans le registre, donc toutes les mises en garde habituelles s'appliquent ici, faites d'abord une sauvegarde ! Consultez cet [article de support Microsoft](https://support.microsoft.com/en-us/help/256986/windows-registry-information-for-advanced-users) pour plus d'informations.
-### La correction consiste à désactiver UDP sur le poste client :
-1. Naviguer jusqu'à HKLM\SOFTWARE\Policies\Microsoft\Windows NT\Terminal Services\Client.
-1. Créer une valeur DWORD nommée fClientDisableUDP et lui attribuer une valeur de 1.
+Voir [Désactiver l'utilisation de UDP](/rdm/kb/rdm-windows/troubleshooting-articles/disable-udp-usage/) pour plus d'informations.
