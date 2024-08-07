@@ -19,8 +19,7 @@ module.exports = {
         },
         {
           editor_key: "capitalize",
-          type: "boolean",
-          implied_boolean: true
+          type: "boolean"
         }
       ]
     },
