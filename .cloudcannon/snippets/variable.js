@@ -1,78 +1,34 @@
 module.exports = {
   eleventy_variable: {
-    snippet: "{{ variables.[[variable]].[[lang]] [[optional_capitalize]] }}",
+    template: "eleventy_liquid_shortcode_positional_args",
     inline: true,
     preview: {
       text: "Variable",
       subtext: [
-        { template: "variables.{variable}.{lang}" },
-        { template: "variables.null.{lang}" },
-        { template: "variables.{variable}.null" },
+        { template: "variables.{variable}" },
         "Use a variable"
       ],
       icon: "data_object"
     },
-    params: {
-      optional_capitalize: {
-        parser: "optional",
-        options: {
-          snippet: "| [[capitalize]]",
-          remove_empty: true
+    definitions: {
+      shortcode_name: "variable",
+      positional_args: [
+        {
+          editor_key: "key",
+          type: "string"
+        },
+        {
+          editor_key: "capitalize",
+          type: "boolean",
+          optional: true,
+          implied_boolean: true
         }
-      },
-      capitalize: {
-        parser: "argument",
-        options: {
-          model: {
-            editor_key: "capitalize",
-            implied_boolean: true,
-            allowed_values: ["capitalize"],
-            remove_empty: true,
-            optional: true,
-            default: "capitalize"
-          },
-          format: {
-            string_boundary: [""],
-            forbidden_tokens: ["/", "/>", ">", "}}", "}", "."]
-          }
-        }
-      },
-      variable: {
-        parser: "argument",
-        options: {
-          model: {
-            editor_key: "variable"
-          },
-          format: {
-            string_boundary: [""],
-            forbidden_tokens: ["/", "/>", ">", "}}", "}", "."]
-          }
-        }
-      },
-      lang: {
-        parser: "argument",
-        options: {
-          model: {
-            editor_key: "lang"
-          },
-          format: {
-            string_boundary: [""],
-            forbidden_tokens: ["/", "/>", ">", "}}", "}", "."]
-          }
-        }
-      }
+      ]
     },
     _inputs: {
-      lang: {
+      key: {
         type: "select",
-        options: {
-          values: [
-            "en", "fr", "de"
-          ]
-        }
-      },
-      variable: {
-        type: "select",
+        label: "Name",
         options: {
           values: "data.variables",
           preview: {
@@ -81,6 +37,9 @@ module.exports = {
             ]
           }
         }
+      },
+      capitalize: {
+        type: "switch"
       }
     }
   }
