@@ -5,13 +5,13 @@ module.exports = {
     preview: {
       text: "Variable",
       subtext: [
-        { template: "variables.{variable}" },
+        { template: "variables.{key}" },
         "Use a variable"
       ],
       icon: "data_object"
     },
     definitions: {
-      shortcode_name: "variable",
+      shortcode_name: "var",
       positional_args: [
         {
           editor_key: "key",
@@ -20,7 +20,6 @@ module.exports = {
         {
           editor_key: "capitalize",
           type: "boolean",
-          optional: true,
           implied_boolean: true
         }
       ]
