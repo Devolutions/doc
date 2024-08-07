@@ -8,7 +8,8 @@ function topicConfig(name, code) {
     path: `content/${code}`,
     schemas: {
       default: {
-        path: ".cloudcannon/schemas/topic.md"
+        path: ".cloudcannon/schemas/topic.md",
+        url: "[full_slug]"
       }
     },
     _enabled_editors: [
