@@ -6,10 +6,11 @@ function topicConfig(name, code) {
   return {
     name: name,
     path: `content/${code}`,
+    url: "[full_slug]",
     schemas: {
       default: {
         path: ".cloudcannon/schemas/topic.md",
-        url: "[full_slug]"
+        url: "[slug]"
       }
     },
     _enabled_editors: [
