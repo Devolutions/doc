@@ -7,7 +7,7 @@ eleventyComputed:
   - VPN
   - Listener
 ---
-Ce sujet décrit comment configurer {{ fr.DVLS }} pour se connecter avec {{ fr.DGW }}. Il existe deux manières d'installer un {{ fr.DGW }} : l'[***Installation Côte à Côte***](#side-by-side-installation) et l'[***Installation Autonome***](#standalone-installation).
+Ce sujet décrit comment configurer {{ fr.DVLS }} pour se connecter avec {{ fr.DGW }}. Il existe deux manières d'installer un {{ fr.DGW }} : l'[***Installation côte à côte***](#installation-côte-à-côte) et l'[***Installation autonome***](#installation-autonome).
 {% snippet, "badgeInfo" %}
 Plusieurs passerelles peuvent être utilisées par {{ fr.DVLS }}, mais un seul {{ fr.DGW }} peut être installé sur une machine.
 {% endsnippet %}
@@ -17,28 +17,24 @@ Si vos clients échouent à se connecter avec {{ fr.DGW }}, assurez-vous que le 
 Autorité de Certification Racine – Autorité de Certification Sécurisée – Certificat XYZ Acheté
 {% endsnippet %}
 
-## Différences entre l'installation Côte à Côte et Autonome
-L'***Installation Côte à Côte*** sera utilisée si vous avez besoin d'installer {{ fr.DGW }} sur la même machine où {{ fr.DVLS }} est hébergé. C'est un processus d'installation simplifié qui configurera automatiquement le nouveau {{ fr.DGW }} avec des informations de l'instance {{ fr.DVLS }} (URI d'accès et clé publique).
+## Différences entre l'installation côte à côte et l'installation autonome
+L'***Installation côte à côte*** sera utilisée si vous avez besoin d'installer {{ fr.DGW }} sur la même machine où {{ fr.DVLS }} est hébergé. C'est un processus d'installation simplifié qui configurera automatiquement le nouveau {{ fr.DGW }} avec des informations de l'instance {{ fr.DVLS }} (URI d'accès et clé publique).
 
-Pour installer {{ fr.DGW }} sur une autre machine que celle où {{ fr.DVLS }} est hébergé, vous devez suivre le processus d'***Installation Autonome***. La procédure est similaire, mais vous devrez fournir plus d'informations sur votre instance {{ fr.DVLS }} pour la compléter.
+Pour installer {{ fr.DGW }} sur une autre machine que celle où {{ fr.DVLS }} est hébergé, vous devez suivre le processus d'***Installation autonome***. La procédure est similaire, mais vous devrez fournir plus d'informations sur votre instance {{ fr.DVLS }} pour la compléter.
 
-## Installation Côte à Côte
-{% snippet, "badgeInfo" %}
-Pour configurer un {{ fr.DGW }} gratuit, il doit être installé en utilisant la configuration ***Côte à Côte***. Cela crée une passerelle capable de gérer jusqu'à 5 sessions concurrentes.
-{% endsnippet %}
-
-Cette méthode prend en charge plus de sessions s'il y a une ou plusieurs licences {{ fr.DGW }} disponibles. Ce processus d'installation est le plus simple des deux. Cependant, cette méthode est recommandée pour des configurations réseau plus simples.
+## Installation côte à côte
+Cette méthode prend en charge plus de sessions s'il y a des licence(s) {{ fr.DGW }} disponibles. Ce processus d'installation est le plus facile des deux et est la méthode recommandée pour des configurations de réseau plus simples. Cependant, cette méthode est recommandée pour des configurations de réseau plus simples.
 1. Depuis la {{ fr.DVLSCONSOLE }}, cliquer sur l'onglet ***Companions***.
 ![Onglet Companions](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp2083.png)
 1. Dans la section {{ fr.DGW }}, cliquer sur ***Installer***.
-1. Choisir ***Installation Côte à Côte***.
-![Côte à Côte](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp0004.png)
+1. Choisir ***Installation côte à côte***.
+![Côte à côte](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp0004.png)
    {% snippet, "badgeHelp" %}
    Il est possible de télécharger un fichier [.msi](https://devolutions.net/gateway/download) pour installer {{ fr.DGW }} sur un {{ fr.DVLS }} hors ligne.
    {% endsnippet %}
 
 1. Si les valeurs par défaut ne conviennent pas à votre environnement, entrer les paramètres souhaités.
-    1. ***HTTP Listener*** : Port HTTP(s) pour atteindre la Passerelle. (7171 est la valeur par défaut)
+    1. ***HTTP Listener*** : Port HTTP(s) pour atteindre la passerelle. (7171 est la valeur par défaut)
 {type="a"}
     1. ***TCP Listener*** : port utilisé pour les sessions RDP. (8181 est la valeur par défaut)
 1. Cliquer sur ***OK***.
@@ -49,7 +45,7 @@ Cette méthode prend en charge plus de sessions s'il y a une ou plusieurs licenc
 1. Cliquer sur le bouton ***Ping*** pour la passerelle désirée dans la liste pour voir si une connexion peut être établie avec succès. Si la page était déjà ouverte, la rafraîchir d'abord.
 ![Ping](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp0007.png)
 
-## Installation Autonome
+## Installation autonome
 La méthode ***Autonome*** permet d'installer {{ fr.DGW }} sur un serveur séparé de {{ fr.DVLS }}. Cela peut être pour des raisons de performance ou pour accéder à des réseaux auxquels {{ fr.DVLS }} ne peut pas accéder.
 {% snippet, "badgeInfo" %}
 La {{ fr.DVLSCONSOLE }} doit être installée sur le serveur sur lequel {{ fr.DGW }} sera installé.
@@ -58,7 +54,7 @@ La {{ fr.DVLSCONSOLE }} doit être installée sur le serveur sur lequel {{ fr.DG
 1. Depuis la {{ fr.DVLSCONSOLE }}, cliquer sur l'onglet ***Companions***.
 ![Onglet Companions](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp0018.png)
 1. Dans la section {{ fr.DGW }}, cliquer sur ***Installer***.
-1. Choisir ***Installation Autonome***.
+1. Choisir ***Installation autonome***.
 ![Autonome](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp0008.png)
 1. Choisir entre ***Télécharger la version*** & ***Installer à partir du fichier msi***.
    {% snippet, "badgeHelp" %}
@@ -70,7 +66,7 @@ La {{ fr.DVLSCONSOLE }} doit être installée sur le serveur sur lequel {{ fr.DG
 1. Entrer les informations ***URI d'accès***, par exemple https://gateway.example.com.
 ![Listeners](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp0023.png)
 1. Choisir les ports ***Listeners*** de {{ fr.DGW }} (par défaut, ils sont 7171 et 8181).
-    1. Si HTTPS est choisi au lieu de HTTP à l'étape précédente, la ***Configuration du Certificat*** sera nécessaire.
+    1. Si HTTPS est choisi au lieu de HTTP à l'étape précédente, la ***Configuration du certificat*** sera nécessaire.
 {type="a"}
     1. ***Fichier de certificat*** : Doit être un certificat à chaîne complète (.pfx, .p12, .pem, .crt).
     1. ***Mot de passe du certificat*** : Nécessaire uniquement si un certificat .pfx ou .p12 a été utilisé.
@@ -82,14 +78,14 @@ La {{ fr.DVLSCONSOLE }} doit être installée sur le serveur sur lequel {{ fr.DG
 1. Cliquer sur ***Suivant***.
 1. Choisir entre :
     * ***Utiliser la clé publique de l'instance {{ fr.DVLS }} '{{ fr.DVLS }}'*** : cette option est utilisée si le {{ fr.DGW }} installé est sur le même serveur que le {{ fr.DVLS }};
-    * ***Depuis un fichier*** : Si vous installez {{ fr.DGW }} sur un autre ordinateur, téléchargez la clé publique du {{ fr.DVLS }} que vous souhaitez associer à ce {{ fr.DGW }}. Elle se trouve sous ***Administration – {{ fr.DGW }}***.
+    * ***Depuis le fichier*** : Si vous installez {{ fr.DGW }} sur un autre ordinateur, télécharger la clé publique du {{ fr.DVLS }} avec lequel vous souhaitez associer ce {{ fr.DGW }}. Elle se trouve sous ***Administration – {{ fr.DGW }}***.
 ![Télécharger la clé publique](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp0016.png)
 1. Cliquer sur ***Suivant***.
-![Configuration de la Paire de Clés](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp0011.png)
+![Configuration de la paire de clés](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp0011.png)
 1. Cliquer sur ***Installer***.
 ![Résumé](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp0012.png)
 1. Cliquer sur ***Fermer***.
-![Résumé de l'Installation](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp0013.png)
+![Résumé de l'installation](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp0013.png)
 1. Sur l'interface web de {{ fr.DVLS }}, se connecter avec un compte administrateur.
 1. Aller à ***Administration – {{ fr.DGW }}***.
 ![{{ fr.DGW }}](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp0006.png)
@@ -103,7 +99,7 @@ La {{ fr.DVLSCONSOLE }} doit être installée sur le serveur sur lequel {{ fr.DG
     1. ***URL {{ fr.DGW }}*** : L'URL et le port de {{ fr.DGW }} auxquels {{ fr.DVLS }} se connectera, par exemple : **https://gateway.example.com:7171**.
     1. ***Port d'écoute TCP*** : Définir le port avec la même valeur de port TCP configurée dans la {{ fr.DVLSCONSOLE }}.
 1. Cliquer sur ***Enregistrer***.
-![Informations {{ fr.DGW }}](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp0015.png)
+![Informations sur {{ fr.DGW }}](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp0015.png)
 
 La passerelle devrait maintenant être visible dans la liste. Il est possible de vérifier le statut de la passerelle avec le bouton ***Ping***.
 ![Ping](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp0007.png)
