@@ -58,4 +58,4 @@ Choose which fields will always be synchronized, and which will not. For example
   * ***Every (Days)***: Interval between when the synchronizer runs
   * ***At***: Specific time to synchronize
 
-{% snippet, "badgeInfo" %}Note that the [***Schedule*** tab](#schedule) is only available in a {{ en.DVLS }} data source, and that is requires the {{ en.DVLS }} ***Scheduler*** to be set up.{% endsnippet %}t
+{% snippet, "badgeInfo" %}Note that the [***Schedule*** tab](#schedule) is only available in a {{ en.DVLS }} data source, and that is requires the {{ en.DVLS }} ***Scheduler*** to be set up.{% endsnippet %}
