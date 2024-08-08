@@ -18,20 +18,16 @@ Root Certificate Authority – Secure Certificate Authority – Purchased XYZ Ce
 {% endsnippet %}
 
 ## Differences between Side-by-side and Standalone installation
-The ***Side-by-side Installation*** will be used if you need to install {{ en.DGW }} on the same machine where {{ en.DVLS }} is hosted. It is a simplified installation process that will automatically configure the new {{ en.DGW }} with information from the {{ en.DVLS }} instance (access URI and public key).
+The ***Side-by-side installation*** will be used if you need to install {{ en.DGW }} on the same machine where {{ en.DVLS }} is hosted. It is a simplified installation process that will automatically configure the new {{ en.DGW }} with information from the {{ en.DVLS }} instance (access URI and public key).
 
-To install {{ en.DGW }} on another machine than the one where {{ en.DVLS }} is hosted, you need to follow the ***Standalone Installation*** process. The procedure is similar, but you will need to provide more information about your {{ en.DVLS }} instance to complete it.
+To install {{ en.DGW }} on another machine than the one where {{ en.DVLS }} is hosted, you need to follow the ***Standalone installation*** process. The procedure is similar, but you will need to provide more information about your {{ en.DVLS }} instance to complete it.
 
-## Side-by-side Installation
-{% snippet, "badgeInfo" %}
-To set up a free {{ en.DGW }}, it must be installed using the ***Side-by-side*** configuration. It creates a gateway capable of handling up to 5 concurrent sessions.
-{% endsnippet %}
-
-This method supports more sessions if there is an available {{ en.DGW }} license(s). This installation process is the easier of the two. However, this method is recommended for simpler network layouts.
+## Side-by-side installation
+This method supports more sessions if there is an available {{ en.DGW }} license(s). This installation process is the easier of the two and is the recommended method for simpler network layouts. However, this method is recommended for simpler network layouts.
 1. From the {{ en.DVLSCONSOLE }}, click on the ***Companions*** tab.
 ![Companions tab](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp2083.png)
 1. In the {{ en.DGW }} section, click on ***Install***.
-1. Choose ***Side-by-side Installation***.
+1. Choose ***Side-by-side installation***.
 ![Side-by-side](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp0004.png)
    {% snippet, "badgeHelp" %}
    It is possible to download an [.msi](https://devolutions.net/gateway/download) file to install {{ en.DGW }} on an offline {{ en.DVLS }}.
@@ -49,7 +45,7 @@ This method supports more sessions if there is an available {{ en.DGW }} license
 1. Click on the ***Ping*** button for the desired gateway in the list to see if a connection can successfully be made. If the page was already open, refresh it first.
 ![Ping](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp0007.png)
 
-## Standalone Installation
+## Standalone installation
 The ***Standalone*** method allows {{ en.DGW }} to be installed on a separate server than {{ en.DVLS }}. It could be for performance purposes or access networks that {{ en.DVLS }} cannot access.
 {% snippet, "badgeInfo" %}
 The {{ en.DVLSCONSOLE }} must be installed on the server on which {{ en.DGW }} will be installed.
