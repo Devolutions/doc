@@ -23,7 +23,7 @@ The ***Side-by-side installation*** will be used if you need to install {{ en.DG
 To install {{ en.DGW }} on another machine than the one where {{ en.DVLS }} is hosted, you need to follow the ***Standalone installation*** process. The procedure is similar, but you will need to provide more information about your {{ en.DVLS }} instance to complete it.
 
 ## Side-by-side installation
-This method supports more sessions if there is an available {{ en.DGW }} license(s). This installation process is the easier of the two and is the recommended method for simpler network layouts. However, this method is recommended for simpler network layouts.
+This method supports more sessions if there is an available {{ en.DGW }} license(s). This installation process is the easier of the two and is the recommended method for simpler network layouts.
 1. From the {{ en.DVLSCONSOLE }}, click on the ***Companions*** tab.
 ![Companions tab](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp2083.png)
 1. In the {{ en.DGW }} section, click on ***Install***.
