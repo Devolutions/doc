@@ -11,7 +11,7 @@ A **provider** is a logical representation of an external identity provider with
 
 The ***provider*** controls all interactions that happen with the external ***identity provider***.
 
-Devolutions PAM has two different types of ***providers***; ***managed providers*** and ***AnyIdentity providers***.
+Devolutions PAM has three different types of providers; ***managed***, ***unmanaged*** and ***AnyIdentity*** providers.
 
 
 ### Related topics
