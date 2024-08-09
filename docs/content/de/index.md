@@ -1,4 +1,5 @@
 ---
+_schema: homepage
 layout: 'layouts/home.liquid'
 title: Devolutions Produkt Dokumentation
 description: Brauchen Sie Hilfe? Hier finden Sie hilfreiche Informationen für alle Devolutions Produkte, Add-Ons und Begleitwerkzeuge.

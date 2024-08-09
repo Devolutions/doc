@@ -28,6 +28,7 @@ module.exports = {
           }
         }
       }
+
     }
   },
   file_config,

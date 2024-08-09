@@ -1,7 +1,10 @@
 ---
-layout: 'layouts/home.liquid'
+_schema: homepage
+layout: layouts/home.liquid
 title: Devolutions Documentation
-description: Need help? Here is the complete coverage for all Devolutions products, add-ons, and companion tools.
+description: >-
+  Need help? Here is the complete coverage for all Devolutions products,
+  add-ons, and companion tools.
 cards:
   - name: rdm
     links:

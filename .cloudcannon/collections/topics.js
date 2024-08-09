@@ -6,9 +6,25 @@ function topicConfig(name, code) {
   return {
     name: name,
     path: `content/${code}`,
+    url: "/[full_slug]/",
     schemas: {
       default: {
         path: ".cloudcannon/schemas/topic.md"
+      },
+      homepage: {
+        path: ".cloudcannon/schemas/homepage.md",
+        create: {
+          path: "[relative_base_path]/{slug}.md",
+        },
+        _enabled_editors: [
+          'visual',
+          'content'
+        ],
+        _inputs: {
+          layout: {
+            hidden: true
+          }
+        }
       }
     },
     _enabled_editors: [
