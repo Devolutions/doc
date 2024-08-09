@@ -8,7 +8,7 @@ eleventyComputed:
 ---
 &nbsp;
 
-{% youtube, "https://www.youtube.com/watch?v=FtSlp_TVAxE" %}
+{% youtube 'FtSlp_TVAxE?si=WIQrNoBa0v7H3dxO' %}
 
 Here is a checklist to help you get started with {{ en.RDM }} for individuals.
 
