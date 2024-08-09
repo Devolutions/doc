@@ -149,6 +149,11 @@
     "fr": "Devolutions Server",
     "de": "Devolutions Server"
   },
+  "DVPAM": {
+    "en": "Devolutions PAM",
+    "fr": "Devolutions PAM",
+    "de": "Devolutions PAM"
+  },
   "DVLSCONSOLE": {
     "en": "Devolutions Server Console",
     "fr": "Console de Devolutions Server",
