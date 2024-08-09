@@ -4,7 +4,7 @@ eleventyComputed:
   description: The Emergency Kit restores the link between your {{ en.DA }} and your {{ en.DHUB }}.
 ---
 
-The ***Emergency Kit*** contains a key that will be required in case you lose or reset your Devolutions Account password. If you forget your password, the emergency key is the only way to recover access. The key restores the link between your {{ en.DA }} and your {{ en.DHUB }} ([{{ en.DHUBB }}](/hub/getting-started/create-hub/hub-personal/) and [{{ en.DHUBP }}](/hub/getting-started/create-hub/hub-business/)).
+The ***Emergency Kit*** contains a key that will be required in case you lose or reset your Devolutions Account password. If you forget your password, the emergency key is the only way to recover access to your {{ en.DHUB }}. The key restores the link between your {{ en.DA }} and your {{ en.DHUB }} ([{{ en.DHUBB }}](/hub/getting-started/create-hub/hub-personal/) and [{{ en.DHUBP }}](/hub/getting-started/create-hub/hub-business/)).
 
 1. Go to your {{ en.DA }}.
 1. Click ***Forgot Password*** to receive an access code via email.
